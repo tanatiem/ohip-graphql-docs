@@ -61,18 +61,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -80,10 +80,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -91,18 +91,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -110,10 +110,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -121,17 +121,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -139,18 +139,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -158,10 +158,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -169,15 +169,15 @@
 
 ### PromotionCouponCodesQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| onetimepromocouponsDetailsBatchCode | `StringInput` | Batch Code |  |
-| onetimepromocouponsDetailsCouponCode | `StringInput` | Coupon Code |  |
-| onetimepromocouponsDetailsCouponId | `FloatInput` | Coupon ID |  |
-| onetimepromocouponsDetailsPromotionCode | `StringInput` | Promotion Code |  |
-| onetimepromocouponsDetailsResort | `StringInput!` | Property | `mandatoryInput` |
-| onetimepromocouponsDetailsUsedInResvNameId | `FloatInput` | Used In Reservation Name ID |  |
-| onetimepromocouponsDetailsUsedInResvResort | `StringInput` | Used In Reservation Property |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| onetimepromocouponsDetailsBatchCode | `StringInput` | Batch Code |
+| onetimepromocouponsDetailsCouponCode | `StringInput` | Coupon Code |
+| onetimepromocouponsDetailsCouponId | `FloatInput` | Coupon ID |
+| onetimepromocouponsDetailsPromotionCode | `StringInput` | Promotion Code |
+| onetimepromocouponsDetailsResort | `StringInput!` | Property<br>`@mandatoryInput` |
+| onetimepromocouponsDetailsUsedInResvNameId | `FloatInput` | Used In Reservation Name ID |
+| onetimepromocouponsDetailsUsedInResvResort | `StringInput` | Used In Reservation Property |
 
 [⬆ Back to Query](#query)
 

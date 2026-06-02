@@ -2135,18 +2135,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2154,10 +2154,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2165,18 +2165,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2184,10 +2184,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2195,17 +2195,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2213,18 +2213,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2232,10 +2232,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2243,339 +2243,339 @@
 
 ### ProfilesAccountsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| profileaccountsDetailsProfileId | `FloatInput` | Account ID | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsActiveYn | `StringInput` | Active Flag | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsChainCode | `StringInput` | Chain Code | `conditionalInputPair(pair: 1)` |
-| profileaccountsDetailsCompany | `StringInput` | Company |  |
-| profileaccountsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileaccountsDetailsHistoryYn | `StringInput` | History Y/N |  |
-| profileaccountsDetailsNameCode | `StringInput` | IATA Number |  |
-| profileaccountsDetailsInactiveDate | `DateTimeInput` | Inactive Date | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsOrganizationId | `FloatInput` | Organization ID | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsLast | `StringInput` | Last |  |
-| profileaccountsDetailsNameId | `FloatInput` | Name ID | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileaccountsDetailsProfileType | `StringInput` | Profile Type |  |
-| profileaccountsDetailsNameType | `StringInput` | Profile Type Code |  |
-| profileaccountsDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |  |
-| profileaccountsDetailsSname | `StringInput` | The Uppercase value of Last or Company. | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsSfirst | `StringInput` | Uppercase value of First Name. | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. | `conditionalInputPair(pair: 2)` |
-| profileaccountsDetailsUpdateDate | `DateTimeInput` | Update Date | `conditionalInputPair(pair: 2)` |
-| profileforecastDetailsChainCode | `StringInput` | Chain Code |  |
-| profileforecastDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileforecastDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileforecastDetailsLinkId | `FloatInput` | Link ID |  |
-| profileforecastDetailsLinkType | `StringInput` | Link Type |  |
-| profileforecastDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileforecastDetailsProfileId | `FloatInput` | Profile ID |  |
-| profilecommunicationDetailsAddressId | `FloatInput` | Not used. |  |
-| profilecommunicationDetailsBeginDate | `DateInput` | Not used. |  |
-| profilecommunicationDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to. |  |
-| profilecommunicationDetailsPmsPhoneId | `FloatInput` | The primary key for this table. |  |
-| profilecommunicationDetailsRole | `StringInput` | Role in which this phone type belongs to. |  |
-| profilecommunicationDetailsPhoneNumber | `StringInput` | The phone number for this record |  |
-| profilecommunicationDetailsCountryCode | `StringInput` | Country Code of the phone number. |  |
-| profilecommunicationDetailsCountryDialingCode | `FloatInput` | Numeric phone dialing prefix code for the country. |  |
-| profilecommunicationDetailsCountryId | `StringInput` | Country Code of the phone number. |  |
-| profilecommunicationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilecommunicationDetailsDefaultMethodFlag | `StringInput` | Phone_role to be used for default confirmation. |  |
-| profilecommunicationDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| profilecommunicationDetailsOrderby | `FloatInput` | Order in which the phone numbers should be displayed. |  |
-| profilecommunicationDetailsEmailFormat | `StringInput` | Format type for email messages: HTML PLAIN text. |  |
-| profilecommunicationDetailsEmailLanguage | `StringInput` | Optional language for e-mail. |  |
-| profilecommunicationDetailsEndDate | `DateInput` | The date this record becomes invalid for use in the system. User enterable. |  |
-| profilecommunicationDetailsExtension | `StringInput` | Telephone Extension. |  |
-| profilecommunicationDetailsFirst | `StringInput` | The first name of an individual name. |  |
-| profilecommunicationDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profilecommunicationDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| profilecommunicationDetailsIndexPhone | `StringInput` | Index Phone |  |
-| profilecommunicationDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profilecommunicationDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profilecommunicationDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profilecommunicationDetailsProfileId | `FloatInput` | The reference to the name that owns this phone. |  |
-| profilecommunicationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilecommunicationDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop |  |
-| profilecommunicationDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |  |
-| profilecommunicationDetailsMobileAudioKeyYn | `StringInput` | Marked as Y when the Phone Number/EMail Address is Opt In. |  |
-| profilecommunicationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilecommunicationDetailsPhoneId | `FloatInput` | The primary key for this table. |  |
-| profilecommunicationDetailsPhoneType | `StringInput` | The type of this phone number. |  |
-| profilecommunicationDetailsPhoneTypeDescription | `StringInput` | Description of Phone Types. |  |
-| profilecommunicationDetailsPhoneTypeId | `StringInput` | The type of this phone number. |  |
-| profilecommunicationDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profilecommunicationDetailsPrimaryYn | `StringInput` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |  |
-| profilecommunicationDetailsNameId | `FloatInput` | The reference to the name that owns this phone. |  |
-| profilecommunicationDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profilecommunicationDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profilecommunicationDetailsShareEmailYn | `StringInput` | Used for uploading the email to holidex if the value is Y. |  |
-| profilecommunicationDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profilecommunicationDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| profilecommunicationDetailsValidYn | `StringInput` | Indicates that the phone number has been validated using the Starwood API and is determined to be valid a <NULL> value indicates that the phone number has not been validated. |  |
-| profilecommissionDetailsAccountId | `FloatInput` | Account ID |  |
-| profilecommissionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilecommissionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilecommissionDetailsNameId | `FloatInput` | Name ID |  |
-| profilecommissionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilecommissionDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| profilerelationshipDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to. |  |
-| profilerelationshipDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |  |
-| profilerelationshipDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilerelationshipDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| profilerelationshipDetailsOwnerProfileNo | `FloatInput` | The reference to the name that owns this relationship. |  |
-| profilerelationshipDetailsGuestName | `StringInput` | Guest Name |  |
-| profilerelationshipDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profilerelationshipDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| profilerelationshipDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profilerelationshipDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profilerelationshipDetailsLocationId | `StringInput` | The property that the record belongs to |  |
-| profilerelationshipDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profilerelationshipDetailsRelationshipId | `StringInput` | The type of relationship this name id has to the relationship_to_name_id. |  |
-| profilerelationshipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilerelationshipDetailsLaptopChange | `FloatInput` | Changed by laptop Y or N |  |
-| profilerelationshipDetailsLocationid | `StringInput` | The property that the record belongs to |  |
-| profilerelationshipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilerelationshipDetailsOwnerProfileId | `FloatInput` | The reference to the name that owns this relationship. |  |
-| profilerelationshipDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profilerelationshipDetailsPrimaryFlag | `StringInput` | Indicates the Primary relationship where Multiple Relationships are attached to a profile. |  |
-| profilerelationshipDetailsProfilerelationshipId | `FloatInput` | The primary key for this table. |  |
-| profilerelationshipDetailsProperty | `StringInput` | The property that the record belongs to |  |
-| profilerelationshipDetailsRelationshipTypeCode | `StringInput` | The type of relationship this name id has to the relationship_to_name_id. |  |
-| profilerelationshipDetailsRelationshipDesc | `StringInput` | Description of the relationship. |  |
-| profilerelationshipDetailsRelationshipCode | `FloatInput` | The primary key for this table. |  |
-| profilerelationshipDetailsRelationshipRole | `StringInput` | Used in S&C Module |  |
-| profilerelationshipDetailsRelatedToProfileName | `StringInput` | Relationship To |  |
-| profilerelationshipDetailsRelatedToProfileId | `FloatInput` | The reference to the name that the "Name_id" is related to. |  |
-| profilerelationshipDetailsResort | `StringInput` | The property that the record belongs to |  |
-| profilerelationshipDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profilerelationshipDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profilerelationshipDetailsRelatedProfileNo | `FloatInput` | The reference to the name that the "Name_id" is related to. |  |
-| profilerelationshipDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profilerelationshipDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| accountmonthlystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| accountmonthlystatDetailsNameId | `FloatInput` | Name ID |  |
-| accountmonthlystatDetailsNameType | `StringInput` | Name Type |  |
-| accountmonthlystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| accountmonthlystatDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| accountmonthlystatDetailsStayMonth | `FloatInput` | Month of Summary. Stores Year and Month as YYYYMM. |  |
-| accountmonthlystatDetailsStayYear | `FloatInput` | Year of Summary. |  |
-| accountmonthlystatDetailsStayedBooked | `StringInput` | Used when name_type="CONTACT" to determine if stored information is booked or stayed statistics. Possible values [S]TAYED [B]OOKED [A]=ALL (STAYED and BOOKED). NULL will be considered [S]TAYED. |  |
-| profileaddressDetailsAddress1 | `StringInput` | The first line of street address. |  |
-| profileaddressDetailsAddress2 | `StringInput` | The second line of street address. |  |
-| profileaddressDetailsAddress3 | `StringInput` | The third line of street address. |  |
-| profileaddressDetailsAddress4 | `StringInput` | The fourth line of street address. |  |
-| profileaddressDetailsAddressId | `FloatInput` | The primary key for this table. |  |
-| profileaddressDetailsLanguageCode | `StringInput` | Address Language |  |
-| profileaddressDetailsLanguageDesc | `StringInput` | Description for each language code. |  |
-| profileaddressDetailsAddressType | `StringInput` | The type of address. |  |
-| profileaddressDetailsAddressTypeDesc | `StringInput` | The description of this value. |  |
-| profileaddressDetailsBarcode | `StringInput` | The postal barcode for the address. |  |
-| profileaddressDetailsBeginDate | `DateInput` | Not used. |  |
-| profileaddressDetailsRepStateCode | `StringInput` | Central State |  |
-| profileaddressDetailsRepState | `StringInput` | Central State Description |  |
-| profileaddressDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to. |  |
-| profileaddressDetailsCity | `StringInput` | The city for this address. |  |
-| profileaddressDetailsCleansedDatetime | `DateTimeInput` | The Timestamp when this record was cleansed. |  |
-| profileaddressDetailsCleansedErrormsg | `StringInput` | The error message why this record was not cleansed. |  |
-| profileaddressDetailsCleansedMatchstatus | `StringInput` | Specifies how the address elements match with the postal reference data. |  |
-| profileaddressDetailsCleansedStatus | `StringInput` | Status of Address Cleansing. Null = Record is not cleansed. C = Cleansed. F = Failure. |  |
-| profileaddressDetailsCleansedValidationstatus | `StringInput` | Validation Status as returned by the Address Cleansing System. |  |
-| profileaddressDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |  |
-| profileaddressDetailsCountryCode | `StringInput` | Country . |  |
-| profileaddressDetailsCountry | `StringInput` | Country name. |  |
-| profileaddressDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profileaddressDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profileaddressDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileaddressDetailsDeletedFlag | `StringInput` | Deleted Y/n |  |
-| profileaddressDetailsEndDate | `DateInput` | Not used. |  |
-| profileaddressDetailsFirst | `StringInput` | The first name of an individual name. |  |
-| profileaddressDetailsForeignCountry | `StringInput` | Not used. |  |
-| profileaddressDetailsInCareOf | `StringInput` | Not used. |  |
-| profileaddressDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profileaddressDetailsInactiveFlag | `StringInput` | Inactive Y/n |  |
-| profileaddressDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profileaddressDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileaddressDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop. (not used) |  |
-| profileaddressDetailsLastUpdatedResort | `StringInput` | Last property that updated this record. |  |
-| profileaddressDetailsName | `StringInput` | Name |  |
-| profileaddressDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileaddressDetailsZipCode | `StringInput` | The postal code of this address. |  |
-| profileaddressDetailsCityExt | `StringInput` | City Extension mainly used for UK addresses. |  |
-| profileaddressDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profileaddressDetailsPrimaryYn | `StringInput` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |  |
-| profileaddressDetailsProfileAddressId | `FloatInput` | The primary key for this table. |  |
-| profileaddressDetailsNameId | `FloatInput` | The reference to the NAME record that owns this address. |  |
-| profileaddressDetailsProfileId | `FloatInput` | The reference to the NAME record that owns this address. |  |
-| profileaddressDetailsProvince | `StringInput` | Province. |  |
-| profileaddressDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profileaddressDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profileaddressDetailsState | `StringInput` | State |  |
-| profileaddressDetailsStateCode | `StringInput` | The state of this address. |  |
-| profileaddressDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profileaddressDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| accountdailystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| accountdailystatDetailsNameId | `FloatInput` | Name ID |  |
-| accountdailystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| accountdailystatDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| profilenoteDetailsActionDueDate | `DateInput` | Activity Due Date |  |
-| profilenoteDetailsActionType | `StringInput` | Activity Type |  |
-| profilenoteDetailsChainCode | `StringInput` | ASP chain code. |  |
-| profilenoteDetailsConfidentialYn | `StringInput` | Indicates if this note is confidential. |  |
-| profilenoteDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profilenoteDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profilenoteDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilenoteDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| profilenoteDetailsExternalNoteId | `StringInput` | Unique ID in External System. |  |
-| profilenoteDetailsGlobalNoteYn | `StringInput` | Global Note Y/N |  |
-| profilenoteDetailsGlobalYn | `StringInput` | Can a global note be created for this note code or not. |  |
-| profilenoteDetailsInactiveDate | `DateInput` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |  |
-| profilenoteDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| profilenoteDetailsDeletedflag | `StringInput` | Deleted Flag |  |
-| profilenoteDetailsInactiveflag | `StringInput` | Inactive Flag |  |
-| profilenoteDetailsLocationId | `StringInput` | Location Id |  |
-| profilenoteDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profilenoteDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilenoteDetailsLaptopChange | `FloatInput` | Indicator for Laptop change. |  |
-| profilenoteDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| profilenoteDetailsNameId | `FloatInput` | Parent Name_id refers Name table. |  |
-| profilenoteDetailsNameType | `StringInput` | The type of Profile. |  |
-| profilenoteDetailsNoteCode | `StringInput` | Indicates the Type of Note. |  |
-| profilenoteDetailsNoteCodeDescription | `StringInput` | Description of Note Code |  |
-| profilenoteDetailsNoteId | `FloatInput` | Primary Key for the Table |  |
-| profilenoteDetailsInternalYn | `StringInput` | Indicates if this note should be shown to guest. Future use. |  |
-| profilenoteDetailsNoteTitle | `StringInput` | Title of the Note |  |
-| profilenoteDetailsNotes | `StringInput` | The actual Note. |  |
-| profilenoteDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilenoteDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profilenoteDetailsProfileId | `FloatInput` | Parent Name_id refers Name table. |  |
-| profilenoteDetailsProfileNoteId | `FloatInput` | Profile Note ID |  |
-| profilenoteDetailsResort | `StringInput` | Property |  |
-| profilenoteDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profilenoteDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profilenoteDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profilenoteDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| profilerelationshiphierDetailsBottomId | `FloatInput` | Level Ten Name ID. |  |
-| profilerelationshiphierDetailsBottomNameType | `StringInput` | Lowest Level Name Type. |  |
-| profilerelationshiphierDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilerelationshiphierDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilerelationshiphierDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilerelationshiphierDetailsTopId | `FloatInput` | Master Name ID. |  |
-| profilepreferenceDetailsCanDeleteYn | `StringInput` | Can Delete Y/N |  |
-| profilepreferenceDetailsRepPreferenceTypeCode | `StringInput` | Central Preference Code |  |
-| profilepreferenceDetailsRepDescription | `StringInput` | Central Preference Description |  |
-| profilepreferenceDetailsRepPreferenceType | `StringInput` | Central Preference Group |  |
-| profilepreferenceDetailsChainCode | `StringInput` | ASP chain code. |  |
-| profilepreferenceDetailsChargeYn | `StringInput` | Not used. |  |
-| profilepreferenceDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profilepreferenceDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profilepreferenceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilepreferenceDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| profilepreferenceDetailsOrderby | `FloatInput` | The display sequence  of the Preferences. |  |
-| profilepreferenceDetailsExternalPreferenceId | `StringInput` | Unique ID in External System. |  |
-| profilepreferenceDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profilepreferenceDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| profilepreferenceDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profilepreferenceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilepreferenceDetailsLaptopChange | `FloatInput` | Laptop Change Indicator |  |
-| profilepreferenceDetailsLocationid | `StringInput` | The property that the record belongs to |  |
-| profilepreferenceDetailsMpcode | `StringInput` | Not Used. |  |
-| profilepreferenceDetailsNameId | `FloatInput` | Reference to the name that owns this record. |  |
-| profilepreferenceDetailsLocationId | `StringInput` | The property that the record belongs to |  |
-| profilepreferenceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilepreferenceDetailsPreference | `StringInput` | Preference Code. Part of the Primary Key. |  |
-| profilepreferenceDetailsDescription | `StringInput` | Description of the Preference. |  |
-| profilepreferenceDetailsPreferenceType | `StringInput` | Description of the Preference Type. |  |
-| profilepreferenceDetailsPreferenceId | `StringInput` | Preference Code. |  |
-| profilepreferenceDetailsPreferenceTypeCode | `StringInput` | Preference Type. |  |
-| profilepreferenceDetailsPreferenceTypeId | `StringInput` | Preference Type. |  |
-| profilepreferenceDetailsPreferenceValue | `StringInput` | Preference Code. |  |
-| profilepreferenceDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profilepreferenceDetailsProfileId | `FloatInput` | Reference to the name that owns this record. |  |
-| profilepreferenceDetailsProfilePreferenceId | `StringInput` | Preference Code. |  |
-| profilepreferenceDetailsResort | `StringInput` | The property that the record belongs to |  |
-| profilepreferenceDetailsRepOrderby | `FloatInput` | Reporting Orderby |  |
-| profilepreferenceDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profilepreferenceDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profilepreferenceDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profilepreferenceDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| accountyearlystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| accountyearlystatDetailsNameId | `FloatInput` | Name ID |  |
-| accountyearlystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| accountyearlystatDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| accountyearlystatDetailsStayYear | `FloatInput` | Year of Summary. |  |
-| accountyearlystatDetailsStayedBooked | `StringInput` | Used when name_type="CONTACT" to determine if stored information is booked or stayed statistics. Possible values [S]TAYED [B]OOKED [A]=ALL (STAYED and BOOKED). NULL will be considered [S]TAYED. |  |
-| profileownerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileownerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileownerDetailsNameId | `FloatInput` | Name ID |  |
-| profileownerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileownerDetailsResort | `StringInput` | Property |  |
-| profileownerDetailsUserId | `FloatInput` | User ID |  |
-| resvdailystatsDetailsAgentId | `FloatInput` | Agent ID |  |
-| resvdailystatsDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |  |
-| resvdailystatsDetailsBiResvNameId | `FloatInput` | Bi Resv Name ID |  |
-| resvdailystatsDetailsBusinessDate | `DateInput` | Business Date |  |
-| resvdailystatsDetailsCompanyId | `FloatInput` | Company ID |  |
-| resvdailystatsDetailsContactId | `FloatInput` | Contact ID |  |
-| resvdailystatsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resvdailystatsDetailsGroupId | `FloatInput` | Group ID |  |
-| resvdailystatsDetailsNameId | `FloatInput` | Guest Profile ID |  |
-| resvdailystatsDetailsResvNameId | `FloatInput` | Resv Name ID |  |
-| resvdailystatsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resvdailystatsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resvdailystatsDetailsParentCompanyId | `FloatInput` | Parent Company ID |  |
-| resvdailystatsDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| resvdailystatsDetailsRateCode | `StringInput` | Rate Code |  |
-| resvdailystatsDetailsRoom | `StringInput` | Room |  |
-| resvdailystatsDetailsSourceProfId | `FloatInput` | Source Prof ID |  |
-| resvdailystatsDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| saleprofileownerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| saleprofileownerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| saleprofileownerDetailsNameId | `FloatInput` | Name ID |  |
-| saleprofileownerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| saleprofileownerDetailsResort | `StringInput` | Property |  |
-| saleprofileownerDetailsUserId | `FloatInput` | User ID |  |
-| allotmentDetailsAgentContactNameId | `FloatInput` | Agent Contact Name ID |  |
-| allotmentDetailsAgentNameId | `FloatInput` | Agent Name ID |  |
-| allotmentDetailsAllotmentCode | `StringInput` | Block Code |  |
-| allotmentDetailsAllotmentHeaderId | `FloatInput` | Block ID |  |
-| allotmentDetailsOwnerCode | `StringInput` | Block Owner Code |  |
-| allotmentDetailsBookingId | `StringInput` | External S&C vendor booking ID and used in HYATT-mode. |  |
-| allotmentDetailsBookingStatusOrder | `FloatInput` | Booking Status Order |  |
-| allotmentDetailsBlockType | `StringInput` | Determines block being [G] - Group or [W] - Wholesale. |  |
-| allotmentDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| allotmentDetailsChainCode | `StringInput` | Chain Code |  |
-| allotmentDetailsCompanyNameId | `FloatInput` | Company Name ID |  |
-| allotmentDetailsContactNameId | `FloatInput` | Contact Name ID |  |
-| allotmentDetailsInsertDate | `DateTimeInput` | Created Date |  |
-| allotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| allotmentDetailsDueDateOrd | `DateInput` | Due Date Sorting Column. |  |
-| allotmentDetailsEndDate | `DateInput` | End Date |  |
-| allotmentDetailsInsertUser | `FloatInput` | Insert User |  |
-| allotmentDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |  |
-| allotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| allotmentDetailsMarketCode | `StringInput` | Market  Code |  |
-| allotmentDetailsSuperBlockId | `FloatInput` | Parent Block ID |  |
-| allotmentDetailsSuperBlockResort | `StringInput` | Parent Resort |  |
-| allotmentDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |  |
-| allotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| allotmentDetailsOrmsBlockClass | `StringInput` | ORMS Block Class |  |
-| allotmentDetailsOwner | `FloatInput` | Owner |  |
-| allotmentDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| allotmentDetailsRateCode | `StringInput` | Rate Code |  |
-| allotmentDetailsGuaranteeCode | `StringInput` | Reservation Type |  |
-| allotmentDetailsBookingStatus | `StringInput` | Room Status |  |
-| allotmentDetailsShoulderEndDate | `DateInput` | Shoulder End |  |
-| allotmentDetailsShoulderBeginDate | `DateInput` | Shoulder Start |  |
-| allotmentDetailsSourceNameId | `FloatInput` | Source Name ID |  |
-| allotmentDetailsBeginDate | `DateInput` | Start Date |  |
-| allotmentDetailsTourcode | `StringInput` | Tour Code. |  |
-| allotmentDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |  |
-| allotmentDetailsUpdateDate | `DateTimeInput` | Updated Date |  |
-| allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| profileaccountsDetailsProfileId | `FloatInput` | Account ID<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsActiveYn | `StringInput` | Active Flag<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
+| profileaccountsDetailsCompany | `StringInput` | Company |
+| profileaccountsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileaccountsDetailsHistoryYn | `StringInput` | History Y/N |
+| profileaccountsDetailsNameCode | `StringInput` | IATA Number |
+| profileaccountsDetailsInactiveDate | `DateTimeInput` | Inactive Date<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsOrganizationId | `FloatInput` | Organization ID<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsLast | `StringInput` | Last |
+| profileaccountsDetailsNameId | `FloatInput` | Name ID<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileaccountsDetailsProfileType | `StringInput` | Profile Type |
+| profileaccountsDetailsNameType | `StringInput` | Profile Type Code |
+| profileaccountsDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
+| profileaccountsDetailsSname | `StringInput` | The Uppercase value of Last or Company.<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsSfirst | `StringInput` | Uppercase value of First Name.<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name.<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name.<br>`@conditionalInputPair(pair: 2)` |
+| profileaccountsDetailsUpdateDate | `DateTimeInput` | Update Date<br>`@conditionalInputPair(pair: 2)` |
+| profileforecastDetailsChainCode | `StringInput` | Chain Code |
+| profileforecastDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileforecastDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileforecastDetailsLinkId | `FloatInput` | Link ID |
+| profileforecastDetailsLinkType | `StringInput` | Link Type |
+| profileforecastDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileforecastDetailsProfileId | `FloatInput` | Profile ID |
+| profilecommunicationDetailsAddressId | `FloatInput` | Not used. |
+| profilecommunicationDetailsBeginDate | `DateInput` | Not used. |
+| profilecommunicationDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to. |
+| profilecommunicationDetailsPmsPhoneId | `FloatInput` | The primary key for this table. |
+| profilecommunicationDetailsRole | `StringInput` | Role in which this phone type belongs to. |
+| profilecommunicationDetailsPhoneNumber | `StringInput` | The phone number for this record |
+| profilecommunicationDetailsCountryCode | `StringInput` | Country Code of the phone number. |
+| profilecommunicationDetailsCountryDialingCode | `FloatInput` | Numeric phone dialing prefix code for the country. |
+| profilecommunicationDetailsCountryId | `StringInput` | Country Code of the phone number. |
+| profilecommunicationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilecommunicationDetailsDefaultMethodFlag | `StringInput` | Phone_role to be used for default confirmation. |
+| profilecommunicationDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| profilecommunicationDetailsOrderby | `FloatInput` | Order in which the phone numbers should be displayed. |
+| profilecommunicationDetailsEmailFormat | `StringInput` | Format type for email messages: HTML PLAIN text. |
+| profilecommunicationDetailsEmailLanguage | `StringInput` | Optional language for e-mail. |
+| profilecommunicationDetailsEndDate | `DateInput` | The date this record becomes invalid for use in the system. User enterable. |
+| profilecommunicationDetailsExtension | `StringInput` | Telephone Extension. |
+| profilecommunicationDetailsFirst | `StringInput` | The first name of an individual name. |
+| profilecommunicationDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profilecommunicationDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| profilecommunicationDetailsIndexPhone | `StringInput` | Index Phone |
+| profilecommunicationDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilecommunicationDetailsInsertUser | `FloatInput` | The user that created the record |
+| profilecommunicationDetailsOrganizationId | `FloatInput` | Organization ID |
+| profilecommunicationDetailsProfileId | `FloatInput` | The reference to the name that owns this phone. |
+| profilecommunicationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilecommunicationDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop |
+| profilecommunicationDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| profilecommunicationDetailsMobileAudioKeyYn | `StringInput` | Marked as Y when the Phone Number/EMail Address is Opt In. |
+| profilecommunicationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilecommunicationDetailsPhoneId | `FloatInput` | The primary key for this table. |
+| profilecommunicationDetailsPhoneType | `StringInput` | The type of this phone number. |
+| profilecommunicationDetailsPhoneTypeDescription | `StringInput` | Description of Phone Types. |
+| profilecommunicationDetailsPhoneTypeId | `StringInput` | The type of this phone number. |
+| profilecommunicationDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profilecommunicationDetailsPrimaryYn | `StringInput` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |
+| profilecommunicationDetailsNameId | `FloatInput` | The reference to the name that owns this phone. |
+| profilecommunicationDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profilecommunicationDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profilecommunicationDetailsShareEmailYn | `StringInput` | Used for uploading the email to holidex if the value is Y. |
+| profilecommunicationDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profilecommunicationDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| profilecommunicationDetailsValidYn | `StringInput` | Indicates that the phone number has been validated using the Starwood API and is determined to be valid a <NULL> value indicates that the phone number has not been validated. |
+| profilecommissionDetailsAccountId | `FloatInput` | Account ID |
+| profilecommissionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilecommissionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilecommissionDetailsNameId | `FloatInput` | Name ID |
+| profilecommissionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilecommissionDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| profilerelationshipDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to. |
+| profilerelationshipDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |
+| profilerelationshipDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilerelationshipDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| profilerelationshipDetailsOwnerProfileNo | `FloatInput` | The reference to the name that owns this relationship. |
+| profilerelationshipDetailsGuestName | `StringInput` | Guest Name |
+| profilerelationshipDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profilerelationshipDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| profilerelationshipDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilerelationshipDetailsInsertUser | `FloatInput` | The user that created the record |
+| profilerelationshipDetailsLocationId | `StringInput` | The property that the record belongs to |
+| profilerelationshipDetailsOrganizationId | `FloatInput` | Organization ID |
+| profilerelationshipDetailsRelationshipId | `StringInput` | The type of relationship this name id has to the relationship_to_name_id. |
+| profilerelationshipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilerelationshipDetailsLaptopChange | `FloatInput` | Changed by laptop Y or N |
+| profilerelationshipDetailsLocationid | `StringInput` | The property that the record belongs to |
+| profilerelationshipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilerelationshipDetailsOwnerProfileId | `FloatInput` | The reference to the name that owns this relationship. |
+| profilerelationshipDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profilerelationshipDetailsPrimaryFlag | `StringInput` | Indicates the Primary relationship where Multiple Relationships are attached to a profile. |
+| profilerelationshipDetailsProfilerelationshipId | `FloatInput` | The primary key for this table. |
+| profilerelationshipDetailsProperty | `StringInput` | The property that the record belongs to |
+| profilerelationshipDetailsRelationshipTypeCode | `StringInput` | The type of relationship this name id has to the relationship_to_name_id. |
+| profilerelationshipDetailsRelationshipDesc | `StringInput` | Description of the relationship. |
+| profilerelationshipDetailsRelationshipCode | `FloatInput` | The primary key for this table. |
+| profilerelationshipDetailsRelationshipRole | `StringInput` | Used in S&C Module |
+| profilerelationshipDetailsRelatedToProfileName | `StringInput` | Relationship To |
+| profilerelationshipDetailsRelatedToProfileId | `FloatInput` | The reference to the name that the "Name_id" is related to. |
+| profilerelationshipDetailsResort | `StringInput` | The property that the record belongs to |
+| profilerelationshipDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profilerelationshipDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profilerelationshipDetailsRelatedProfileNo | `FloatInput` | The reference to the name that the "Name_id" is related to. |
+| profilerelationshipDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profilerelationshipDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| accountmonthlystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| accountmonthlystatDetailsNameId | `FloatInput` | Name ID |
+| accountmonthlystatDetailsNameType | `StringInput` | Name Type |
+| accountmonthlystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| accountmonthlystatDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| accountmonthlystatDetailsStayMonth | `FloatInput` | Month of Summary. Stores Year and Month as YYYYMM. |
+| accountmonthlystatDetailsStayYear | `FloatInput` | Year of Summary. |
+| accountmonthlystatDetailsStayedBooked | `StringInput` | Used when name_type="CONTACT" to determine if stored information is booked or stayed statistics. Possible values [S]TAYED [B]OOKED [A]=ALL (STAYED and BOOKED). NULL will be considered [S]TAYED. |
+| profileaddressDetailsAddress1 | `StringInput` | The first line of street address. |
+| profileaddressDetailsAddress2 | `StringInput` | The second line of street address. |
+| profileaddressDetailsAddress3 | `StringInput` | The third line of street address. |
+| profileaddressDetailsAddress4 | `StringInput` | The fourth line of street address. |
+| profileaddressDetailsAddressId | `FloatInput` | The primary key for this table. |
+| profileaddressDetailsLanguageCode | `StringInput` | Address Language |
+| profileaddressDetailsLanguageDesc | `StringInput` | Description for each language code. |
+| profileaddressDetailsAddressType | `StringInput` | The type of address. |
+| profileaddressDetailsAddressTypeDesc | `StringInput` | The description of this value. |
+| profileaddressDetailsBarcode | `StringInput` | The postal barcode for the address. |
+| profileaddressDetailsBeginDate | `DateInput` | Not used. |
+| profileaddressDetailsRepStateCode | `StringInput` | Central State |
+| profileaddressDetailsRepState | `StringInput` | Central State Description |
+| profileaddressDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to. |
+| profileaddressDetailsCity | `StringInput` | The city for this address. |
+| profileaddressDetailsCleansedDatetime | `DateTimeInput` | The Timestamp when this record was cleansed. |
+| profileaddressDetailsCleansedErrormsg | `StringInput` | The error message why this record was not cleansed. |
+| profileaddressDetailsCleansedMatchstatus | `StringInput` | Specifies how the address elements match with the postal reference data. |
+| profileaddressDetailsCleansedStatus | `StringInput` | Status of Address Cleansing. Null = Record is not cleansed. C = Cleansed. F = Failure. |
+| profileaddressDetailsCleansedValidationstatus | `StringInput` | Validation Status as returned by the Address Cleansing System. |
+| profileaddressDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |
+| profileaddressDetailsCountryCode | `StringInput` | Country . |
+| profileaddressDetailsCountry | `StringInput` | Country name. |
+| profileaddressDetailsInsertUser | `FloatInput` | The user that created the record |
+| profileaddressDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profileaddressDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileaddressDetailsDeletedFlag | `StringInput` | Deleted Y/n |
+| profileaddressDetailsEndDate | `DateInput` | Not used. |
+| profileaddressDetailsFirst | `StringInput` | The first name of an individual name. |
+| profileaddressDetailsForeignCountry | `StringInput` | Not used. |
+| profileaddressDetailsInCareOf | `StringInput` | Not used. |
+| profileaddressDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profileaddressDetailsInactiveFlag | `StringInput` | Inactive Y/n |
+| profileaddressDetailsOrganizationId | `FloatInput` | Organization ID |
+| profileaddressDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileaddressDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop. (not used) |
+| profileaddressDetailsLastUpdatedResort | `StringInput` | Last property that updated this record. |
+| profileaddressDetailsName | `StringInput` | Name |
+| profileaddressDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileaddressDetailsZipCode | `StringInput` | The postal code of this address. |
+| profileaddressDetailsCityExt | `StringInput` | City Extension mainly used for UK addresses. |
+| profileaddressDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profileaddressDetailsPrimaryYn | `StringInput` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |
+| profileaddressDetailsProfileAddressId | `FloatInput` | The primary key for this table. |
+| profileaddressDetailsNameId | `FloatInput` | The reference to the NAME record that owns this address. |
+| profileaddressDetailsProfileId | `FloatInput` | The reference to the NAME record that owns this address. |
+| profileaddressDetailsProvince | `StringInput` | Province. |
+| profileaddressDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profileaddressDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profileaddressDetailsState | `StringInput` | State |
+| profileaddressDetailsStateCode | `StringInput` | The state of this address. |
+| profileaddressDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profileaddressDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| accountdailystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| accountdailystatDetailsNameId | `FloatInput` | Name ID |
+| accountdailystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| accountdailystatDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| profilenoteDetailsActionDueDate | `DateInput` | Activity Due Date |
+| profilenoteDetailsActionType | `StringInput` | Activity Type |
+| profilenoteDetailsChainCode | `StringInput` | ASP chain code. |
+| profilenoteDetailsConfidentialYn | `StringInput` | Indicates if this note is confidential. |
+| profilenoteDetailsInsertUser | `FloatInput` | The user that created the record |
+| profilenoteDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilenoteDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilenoteDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| profilenoteDetailsExternalNoteId | `StringInput` | Unique ID in External System. |
+| profilenoteDetailsGlobalNoteYn | `StringInput` | Global Note Y/N |
+| profilenoteDetailsGlobalYn | `StringInput` | Can a global note be created for this note code or not. |
+| profilenoteDetailsInactiveDate | `DateInput` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |
+| profilenoteDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| profilenoteDetailsDeletedflag | `StringInput` | Deleted Flag |
+| profilenoteDetailsInactiveflag | `StringInput` | Inactive Flag |
+| profilenoteDetailsLocationId | `StringInput` | Location Id |
+| profilenoteDetailsOrganizationId | `FloatInput` | Organization ID |
+| profilenoteDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilenoteDetailsLaptopChange | `FloatInput` | Indicator for Laptop change. |
+| profilenoteDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| profilenoteDetailsNameId | `FloatInput` | Parent Name_id refers Name table. |
+| profilenoteDetailsNameType | `StringInput` | The type of Profile. |
+| profilenoteDetailsNoteCode | `StringInput` | Indicates the Type of Note. |
+| profilenoteDetailsNoteCodeDescription | `StringInput` | Description of Note Code |
+| profilenoteDetailsNoteId | `FloatInput` | Primary Key for the Table |
+| profilenoteDetailsInternalYn | `StringInput` | Indicates if this note should be shown to guest. Future use. |
+| profilenoteDetailsNoteTitle | `StringInput` | Title of the Note |
+| profilenoteDetailsNotes | `StringInput` | The actual Note. |
+| profilenoteDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilenoteDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profilenoteDetailsProfileId | `FloatInput` | Parent Name_id refers Name table. |
+| profilenoteDetailsProfileNoteId | `FloatInput` | Profile Note ID |
+| profilenoteDetailsResort | `StringInput` | Property |
+| profilenoteDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profilenoteDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profilenoteDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profilenoteDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| profilerelationshiphierDetailsBottomId | `FloatInput` | Level Ten Name ID. |
+| profilerelationshiphierDetailsBottomNameType | `StringInput` | Lowest Level Name Type. |
+| profilerelationshiphierDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilerelationshiphierDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilerelationshiphierDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilerelationshiphierDetailsTopId | `FloatInput` | Master Name ID. |
+| profilepreferenceDetailsCanDeleteYn | `StringInput` | Can Delete Y/N |
+| profilepreferenceDetailsRepPreferenceTypeCode | `StringInput` | Central Preference Code |
+| profilepreferenceDetailsRepDescription | `StringInput` | Central Preference Description |
+| profilepreferenceDetailsRepPreferenceType | `StringInput` | Central Preference Group |
+| profilepreferenceDetailsChainCode | `StringInput` | ASP chain code. |
+| profilepreferenceDetailsChargeYn | `StringInput` | Not used. |
+| profilepreferenceDetailsInsertUser | `FloatInput` | The user that created the record |
+| profilepreferenceDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilepreferenceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilepreferenceDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| profilepreferenceDetailsOrderby | `FloatInput` | The display sequence  of the Preferences. |
+| profilepreferenceDetailsExternalPreferenceId | `StringInput` | Unique ID in External System. |
+| profilepreferenceDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profilepreferenceDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| profilepreferenceDetailsOrganizationId | `FloatInput` | Organization ID |
+| profilepreferenceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilepreferenceDetailsLaptopChange | `FloatInput` | Laptop Change Indicator |
+| profilepreferenceDetailsLocationid | `StringInput` | The property that the record belongs to |
+| profilepreferenceDetailsMpcode | `StringInput` | Not Used. |
+| profilepreferenceDetailsNameId | `FloatInput` | Reference to the name that owns this record. |
+| profilepreferenceDetailsLocationId | `StringInput` | The property that the record belongs to |
+| profilepreferenceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilepreferenceDetailsPreference | `StringInput` | Preference Code. Part of the Primary Key. |
+| profilepreferenceDetailsDescription | `StringInput` | Description of the Preference. |
+| profilepreferenceDetailsPreferenceType | `StringInput` | Description of the Preference Type. |
+| profilepreferenceDetailsPreferenceId | `StringInput` | Preference Code. |
+| profilepreferenceDetailsPreferenceTypeCode | `StringInput` | Preference Type. |
+| profilepreferenceDetailsPreferenceTypeId | `StringInput` | Preference Type. |
+| profilepreferenceDetailsPreferenceValue | `StringInput` | Preference Code. |
+| profilepreferenceDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profilepreferenceDetailsProfileId | `FloatInput` | Reference to the name that owns this record. |
+| profilepreferenceDetailsProfilePreferenceId | `StringInput` | Preference Code. |
+| profilepreferenceDetailsResort | `StringInput` | The property that the record belongs to |
+| profilepreferenceDetailsRepOrderby | `FloatInput` | Reporting Orderby |
+| profilepreferenceDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profilepreferenceDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profilepreferenceDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profilepreferenceDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| accountyearlystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| accountyearlystatDetailsNameId | `FloatInput` | Name ID |
+| accountyearlystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| accountyearlystatDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| accountyearlystatDetailsStayYear | `FloatInput` | Year of Summary. |
+| accountyearlystatDetailsStayedBooked | `StringInput` | Used when name_type="CONTACT" to determine if stored information is booked or stayed statistics. Possible values [S]TAYED [B]OOKED [A]=ALL (STAYED and BOOKED). NULL will be considered [S]TAYED. |
+| profileownerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileownerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileownerDetailsNameId | `FloatInput` | Name ID |
+| profileownerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileownerDetailsResort | `StringInput` | Property |
+| profileownerDetailsUserId | `FloatInput` | User ID |
+| resvdailystatsDetailsAgentId | `FloatInput` | Agent ID |
+| resvdailystatsDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
+| resvdailystatsDetailsBiResvNameId | `FloatInput` | Bi Resv Name ID |
+| resvdailystatsDetailsBusinessDate | `DateInput` | Business Date |
+| resvdailystatsDetailsCompanyId | `FloatInput` | Company ID |
+| resvdailystatsDetailsContactId | `FloatInput` | Contact ID |
+| resvdailystatsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resvdailystatsDetailsGroupId | `FloatInput` | Group ID |
+| resvdailystatsDetailsNameId | `FloatInput` | Guest Profile ID |
+| resvdailystatsDetailsResvNameId | `FloatInput` | Resv Name ID |
+| resvdailystatsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resvdailystatsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resvdailystatsDetailsParentCompanyId | `FloatInput` | Parent Company ID |
+| resvdailystatsDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| resvdailystatsDetailsRateCode | `StringInput` | Rate Code |
+| resvdailystatsDetailsRoom | `StringInput` | Room |
+| resvdailystatsDetailsSourceProfId | `FloatInput` | Source Prof ID |
+| resvdailystatsDetailsUpdateDate | `DateTimeInput` | Update Date |
+| saleprofileownerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| saleprofileownerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| saleprofileownerDetailsNameId | `FloatInput` | Name ID |
+| saleprofileownerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| saleprofileownerDetailsResort | `StringInput` | Property |
+| saleprofileownerDetailsUserId | `FloatInput` | User ID |
+| allotmentDetailsAgentContactNameId | `FloatInput` | Agent Contact Name ID |
+| allotmentDetailsAgentNameId | `FloatInput` | Agent Name ID |
+| allotmentDetailsAllotmentCode | `StringInput` | Block Code |
+| allotmentDetailsAllotmentHeaderId | `FloatInput` | Block ID |
+| allotmentDetailsOwnerCode | `StringInput` | Block Owner Code |
+| allotmentDetailsBookingId | `StringInput` | External S&C vendor booking ID and used in HYATT-mode. |
+| allotmentDetailsBookingStatusOrder | `FloatInput` | Booking Status Order |
+| allotmentDetailsBlockType | `StringInput` | Determines block being [G] - Group or [W] - Wholesale. |
+| allotmentDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| allotmentDetailsChainCode | `StringInput` | Chain Code |
+| allotmentDetailsCompanyNameId | `FloatInput` | Company Name ID |
+| allotmentDetailsContactNameId | `FloatInput` | Contact Name ID |
+| allotmentDetailsInsertDate | `DateTimeInput` | Created Date |
+| allotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| allotmentDetailsDueDateOrd | `DateInput` | Due Date Sorting Column. |
+| allotmentDetailsEndDate | `DateInput` | End Date |
+| allotmentDetailsInsertUser | `FloatInput` | Insert User |
+| allotmentDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |
+| allotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| allotmentDetailsMarketCode | `StringInput` | Market  Code |
+| allotmentDetailsSuperBlockId | `FloatInput` | Parent Block ID |
+| allotmentDetailsSuperBlockResort | `StringInput` | Parent Resort |
+| allotmentDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
+| allotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| allotmentDetailsOrmsBlockClass | `StringInput` | ORMS Block Class |
+| allotmentDetailsOwner | `FloatInput` | Owner |
+| allotmentDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| allotmentDetailsRateCode | `StringInput` | Rate Code |
+| allotmentDetailsGuaranteeCode | `StringInput` | Reservation Type |
+| allotmentDetailsBookingStatus | `StringInput` | Room Status |
+| allotmentDetailsShoulderEndDate | `DateInput` | Shoulder End |
+| allotmentDetailsShoulderBeginDate | `DateInput` | Shoulder Start |
+| allotmentDetailsSourceNameId | `FloatInput` | Source Name ID |
+| allotmentDetailsBeginDate | `DateInput` | Start Date |
+| allotmentDetailsTourcode | `StringInput` | Tour Code. |
+| allotmentDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |
+| allotmentDetailsUpdateDate | `DateTimeInput` | Updated Date |
+| allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |
 
 [⬆ Back to Query](#query)
 

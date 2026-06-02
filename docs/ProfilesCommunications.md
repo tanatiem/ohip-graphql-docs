@@ -566,18 +566,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -585,10 +585,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -596,18 +596,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -615,10 +615,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -626,17 +626,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -644,18 +644,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -663,10 +663,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -674,78 +674,78 @@
 
 ### ProfilesCommunicationsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| profilecommunicationDetailsAddressId | `FloatInput` | Not used. |  |
-| profilecommunicationDetailsBeginDate | `DateInput` | Not used. |  |
-| profilecommunicationDetailsChainCode | `StringInput!` | The Chain code of the chain for which this record belongs to. | `mandatoryInput` |
-| profilecommunicationDetailsPmsPhoneId | `FloatInput` | The primary key for this table. |  |
-| profilecommunicationDetailsRole | `StringInput` | Role in which this phone type belongs to. |  |
-| profilecommunicationDetailsPhoneNumber | `StringInput` | The phone number for this record |  |
-| profilecommunicationDetailsCountryCode | `StringInput` | Country Code of the phone number. |  |
-| profilecommunicationDetailsCountryDialingCode | `FloatInput` | Numeric phone dialing prefix code for the country. |  |
-| profilecommunicationDetailsCountryId | `StringInput` | Country Code of the phone number. |  |
-| profilecommunicationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilecommunicationDetailsDefaultMethodFlag | `StringInput` | Phone_role to be used for default confirmation. |  |
-| profilecommunicationDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| profilecommunicationDetailsOrderby | `FloatInput` | Order in which the phone numbers should be displayed. |  |
-| profilecommunicationDetailsEmailFormat | `StringInput` | Format type for email messages: HTML PLAIN text. |  |
-| profilecommunicationDetailsEmailLanguage | `StringInput` | Optional language for e-mail. |  |
-| profilecommunicationDetailsEndDate | `DateInput` | The date this record becomes invalid for use in the system. User enterable. |  |
-| profilecommunicationDetailsExtension | `StringInput` | Telephone Extension. |  |
-| profilecommunicationDetailsFirst | `StringInput` | The first name of an individual name. |  |
-| profilecommunicationDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profilecommunicationDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| profilecommunicationDetailsIndexPhone | `StringInput` | Index Phone |  |
-| profilecommunicationDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profilecommunicationDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profilecommunicationDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profilecommunicationDetailsProfileId | `FloatInput` | The reference to the name that owns this phone. |  |
-| profilecommunicationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilecommunicationDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop |  |
-| profilecommunicationDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |  |
-| profilecommunicationDetailsMobileAudioKeyYn | `StringInput` | Marked as Y when the Phone Number/EMail Address is Opt In. |  |
-| profilecommunicationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilecommunicationDetailsPhoneId | `FloatInput` | The primary key for this table. |  |
-| profilecommunicationDetailsPhoneType | `StringInput` | The type of this phone number. |  |
-| profilecommunicationDetailsPhoneTypeDescription | `StringInput` | Description of Phone Types. |  |
-| profilecommunicationDetailsPhoneTypeId | `StringInput` | The type of this phone number. |  |
-| profilecommunicationDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profilecommunicationDetailsPrimaryYn | `StringInput` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |  |
-| profilecommunicationDetailsNameId | `FloatInput` | The reference to the name that owns this phone. |  |
-| profilecommunicationDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profilecommunicationDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profilecommunicationDetailsShareEmailYn | `StringInput` | Used for uploading the email to holidex if the value is Y. |  |
-| profilecommunicationDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profilecommunicationDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| profilecommunicationDetailsValidYn | `StringInput` | Indicates that the phone number has been validated using the Starwood API and is determined to be valid a <NULL> value indicates that the phone number has not been validated. |  |
-| profileDetailsActiveYn | `StringInput` | Active Flag |  |
-| profileDetailsAnonymizationStatus | `StringInput` | Anonymization Status possible values: REQUESTED ANONYMIZED. |  |
-| profileDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |  |
-| profileDetailsCompany | `StringInput` | Company |  |
-| profileDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker. |  |
-| profileDetailsContactFlag | `StringInput` | Contact Flag |  |
-| profileDetailsSrepCode | `StringInput` | Contact Owner Code |  |
-| profileDetailsNameCode | `StringInput` | Corp ID |  |
-| profileDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |  |
-| profileDetailsHistoryYn | `StringInput` | History Y/N |  |
-| profileDetailsInactiveDate | `DateInput` | Inactive Date |  |
-| profileDetailsIndexName | `StringInput` | Index Name |  |
-| profileDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profileDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileDetailsLast | `StringInput` | Last |  |
-| profileDetailsNameId | `FloatInput` | Name ID |  |
-| profileDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileDetailsProfileType | `StringInput` | Profile Type |  |
-| profileDetailsNameType | `StringInput` | Profile Type Code |  |
-| profileDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |  |
-| profileDetailsSfirst | `StringInput` | Uppercase value of First Name. |  |
-| profileDetailsSname | `StringInput` | The Uppercase value of Last or Company. |  |
-| profileDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |  |
-| profileDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |  |
-| profileDetailsProfileId | `FloatInput` | Top Account ID |  |
-| profileDetailsUpdateDate | `DateTimeInput` | Update Date |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| profilecommunicationDetailsAddressId | `FloatInput` | Not used. |
+| profilecommunicationDetailsBeginDate | `DateInput` | Not used. |
+| profilecommunicationDetailsChainCode | `StringInput!` | The Chain code of the chain for which this record belongs to.<br>`@mandatoryInput` |
+| profilecommunicationDetailsPmsPhoneId | `FloatInput` | The primary key for this table. |
+| profilecommunicationDetailsRole | `StringInput` | Role in which this phone type belongs to. |
+| profilecommunicationDetailsPhoneNumber | `StringInput` | The phone number for this record |
+| profilecommunicationDetailsCountryCode | `StringInput` | Country Code of the phone number. |
+| profilecommunicationDetailsCountryDialingCode | `FloatInput` | Numeric phone dialing prefix code for the country. |
+| profilecommunicationDetailsCountryId | `StringInput` | Country Code of the phone number. |
+| profilecommunicationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilecommunicationDetailsDefaultMethodFlag | `StringInput` | Phone_role to be used for default confirmation. |
+| profilecommunicationDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| profilecommunicationDetailsOrderby | `FloatInput` | Order in which the phone numbers should be displayed. |
+| profilecommunicationDetailsEmailFormat | `StringInput` | Format type for email messages: HTML PLAIN text. |
+| profilecommunicationDetailsEmailLanguage | `StringInput` | Optional language for e-mail. |
+| profilecommunicationDetailsEndDate | `DateInput` | The date this record becomes invalid for use in the system. User enterable. |
+| profilecommunicationDetailsExtension | `StringInput` | Telephone Extension. |
+| profilecommunicationDetailsFirst | `StringInput` | The first name of an individual name. |
+| profilecommunicationDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profilecommunicationDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| profilecommunicationDetailsIndexPhone | `StringInput` | Index Phone |
+| profilecommunicationDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilecommunicationDetailsInsertUser | `FloatInput` | The user that created the record |
+| profilecommunicationDetailsOrganizationId | `FloatInput` | Organization ID |
+| profilecommunicationDetailsProfileId | `FloatInput` | The reference to the name that owns this phone. |
+| profilecommunicationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilecommunicationDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop |
+| profilecommunicationDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| profilecommunicationDetailsMobileAudioKeyYn | `StringInput` | Marked as Y when the Phone Number/EMail Address is Opt In. |
+| profilecommunicationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilecommunicationDetailsPhoneId | `FloatInput` | The primary key for this table. |
+| profilecommunicationDetailsPhoneType | `StringInput` | The type of this phone number. |
+| profilecommunicationDetailsPhoneTypeDescription | `StringInput` | Description of Phone Types. |
+| profilecommunicationDetailsPhoneTypeId | `StringInput` | The type of this phone number. |
+| profilecommunicationDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profilecommunicationDetailsPrimaryYn | `StringInput` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |
+| profilecommunicationDetailsNameId | `FloatInput` | The reference to the name that owns this phone. |
+| profilecommunicationDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profilecommunicationDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profilecommunicationDetailsShareEmailYn | `StringInput` | Used for uploading the email to holidex if the value is Y. |
+| profilecommunicationDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profilecommunicationDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| profilecommunicationDetailsValidYn | `StringInput` | Indicates that the phone number has been validated using the Starwood API and is determined to be valid a <NULL> value indicates that the phone number has not been validated. |
+| profileDetailsActiveYn | `StringInput` | Active Flag |
+| profileDetailsAnonymizationStatus | `StringInput` | Anonymization Status possible values: REQUESTED ANONYMIZED. |
+| profileDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |
+| profileDetailsCompany | `StringInput` | Company |
+| profileDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker. |
+| profileDetailsContactFlag | `StringInput` | Contact Flag |
+| profileDetailsSrepCode | `StringInput` | Contact Owner Code |
+| profileDetailsNameCode | `StringInput` | Corp ID |
+| profileDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |
+| profileDetailsHistoryYn | `StringInput` | History Y/N |
+| profileDetailsInactiveDate | `DateInput` | Inactive Date |
+| profileDetailsIndexName | `StringInput` | Index Name |
+| profileDetailsOrganizationId | `FloatInput` | Organization ID |
+| profileDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileDetailsLast | `StringInput` | Last |
+| profileDetailsNameId | `FloatInput` | Name ID |
+| profileDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileDetailsProfileType | `StringInput` | Profile Type |
+| profileDetailsNameType | `StringInput` | Profile Type Code |
+| profileDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
+| profileDetailsSfirst | `StringInput` | Uppercase value of First Name. |
+| profileDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
+| profileDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
+| profileDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
+| profileDetailsProfileId | `FloatInput` | Top Account ID |
+| profileDetailsUpdateDate | `DateTimeInput` | Update Date |
 
 [⬆ Back to Query](#query)
 

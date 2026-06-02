@@ -713,18 +713,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -732,10 +732,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -743,18 +743,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -762,10 +762,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -773,17 +773,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -791,18 +791,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -810,10 +810,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -821,119 +821,119 @@
 
 ### ProfilesLoyaltyClaimsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| membershipclaimDetailsApprovalStatus | `StringInput` | Approval Status |  |
-| membershipclaimDetailsApproveReject | `StringInput` | Approve/Reject/None |  |
-| membershipclaimDetailsArrivalDate | `DateInput` | Arrival Date |  |
-| membershipclaimDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| membershipclaimDetailsCallerInformation | `StringInput` | Information about the caller. |  |
-| membershipclaimDetailsCallerName | `StringInput` | name of the person who called. |  |
-| membershipclaimDetailsChainCode | `StringInput` | Chain Code |  |
-| membershipclaimDetailsChannel | `StringInput` | Channel |  |
-| membershipclaimDetailsClaimAdjLimitCode | `StringInput` | Claim Adj Limit Code |  |
-| membershipclaimDetailsClaimDate | `DateInput!` | Date claim was posted in the database. | `mandatoryInput` |
-| membershipclaimDetailsMembershipClaimId | `FloatInput` | Primary key. |  |
-| membershipclaimDetailsClaimOrigin | `StringInput` | User defined origin of claim. |  |
-| membershipclaimDetailsClaimSource | `StringInput` | Source of the Claim |  |
-| membershipclaimDetailsClaimStatus | `StringInput` | Status of the claim. |  |
-| membershipclaimDetailsClaimType | `StringInput` | User Defined Claim Types |  |
-| membershipclaimDetailsCloseDate | `DateInput` | Date and time cashier was closed. |  |
-| membershipclaimDetailsComments | `StringInput` | Comments |  |
-| membershipclaimDetailsPmsResvNo | `StringInput` | Confirmation Number |  |
-| membershipclaimDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| membershipclaimDetailsDepartureDate | `DateInput` | Departure Date |  |
-| membershipclaimDetailsCrsBookNo | `StringInput` | External Reference Number |  |
-| membershipclaimDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| membershipclaimDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershipclaimDetailsMarketCode | `StringInput` | Market Code |  |
-| membershipclaimDetailsResort | `StringInput!` | Membership Claim Property | `mandatoryInput` |
-| membershipclaimDetailsMembershipId | `FloatInput` | Membership ID |  |
-| membershipclaimDetailsMembershipCardNo | `StringInput` | Membership Number |  |
-| membershipclaimDetailsMembershipTrxId | `FloatInput` | Membership Trx ID |  |
-| membershipclaimDetailsMembershipType | `StringInput` | Membership Type |  |
-| membershipclaimDetailsName | `StringInput` | Name |  |
-| membershipclaimDetailsNameId | `FloatInput` | Name ID |  |
-| membershipclaimDetailsOriginOfBooking | `StringInput` | Origin of Booking |  |
-| membershipclaimDetailsClaimOwnerName | `StringInput` | Owner |  |
-| membershipclaimDetailsPurposeOfStay | `StringInput` | Purpose of stay. |  |
-| membershipclaimDetailsRateCode | `StringInput` | Rate Code |  |
-| membershipclaimDetailsRecordType | `StringInput` | Record Type |  |
-| membershipclaimDetailsReplyByDate | `DateInput` | Date when the user gets a response to his/her claim. |  |
-| membershipclaimDetailsResvStatus | `StringInput` | Reservation Status |  |
-| membershipclaimDetailsRoom | `StringInput` | Room |  |
-| membershipclaimDetailsSubmitter | `StringInput` | Submitter |  |
-| membershipclaimDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| ratecodeDetailsBaseRateCode | `StringInput` | Base Rate Code |  |
-| ratecodeDetailsBeginBookingDate | `DateInput` | Business Date |  |
-| ratecodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| ratecodeDetailsCommissionCode | `StringInput` | Commission Code |  |
-| ratecodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| ratecodeDetailsDailyRatesYn | `StringInput` | Daily Rates Y/N |  |
-| ratecodeDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |  |
-| ratecodeDetailsSellSequence | `FloatInput` | Display Sequence |  |
-| ratecodeDetailsEndBookingDate | `DateInput` | End Date |  |
-| ratecodeDetailsGroupCode | `StringInput` | Group Code |  |
-| ratecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| ratecodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| ratecodeDetailsMarketCode | `StringInput` | Market Code |  |
-| ratecodeDetailsMaxDvanceBooking | `FloatInput` | Maximum Days Advance Booking |  |
-| ratecodeDetailsMaxLos | `FloatInput` | Maximum Length of Stay |  |
-| ratecodeDetailsMaxOccupancy | `FloatInput` | Maximum Occupancy |  |
-| ratecodeDetailsMinAdvanceBooking | `FloatInput` | Minimum Days Advance Booking |  |
-| ratecodeDetailsMinOccupancy | `FloatInput` | Minimum Occupancy |  |
-| ratecodeDetailsOrderBy | `FloatInput` | Order By |  |
-| ratecodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| ratecodeDetailsRateCode | `StringInput` | Original Rate Code |  |
-| ratecodeDetailsOrsSellSequence | `FloatInput` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |  |
-| ratecodeDetailsPendingApprovalYn | `StringInput` | Indicates whether the rate code is pending for approval or not |  |
-| ratecodeDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| ratecodeDetailsRateBucket | `StringInput` | Yield rate bucket |  |
-| ratecodeDetailsRateCodeId | `StringInput` | Rate Code ID |  |
-| ratecodeDetailsRateLevel | `FloatInput` | Rate Level this rate code belongs to. |  |
-| ratecodeDetailsSourceCode | `StringInput` | Source Code |  |
-| ratecodeDetailsTransactionCode | `StringInput` | Rate transaction code |  |
-| ratecodeDetailsLosUnit | `FloatInput` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |  |
-| marketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| marketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| marketDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| marketDetailsMarketCode | `StringInput` | Market Code |  |
-| marketDetailsParentMarketCode | `StringInput` | Market group attached to the market code |  |
-| marketDetailsMarketgroupid | `StringInput` | Marketgroupid |  |
-| marketDetailsMarketid | `StringInput` | Marketid |  |
-| marketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| marketDetailsResort | `StringInput` | Property |  |
-| sourcetableDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| sourcetableDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| sourcetableDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| sourcetableDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| sourcetableDetailsResort | `StringInput` | Property |  |
-| sourcetableDetailsSourceCode | `StringInput` | Source Code |  |
-| sourcetableDetailsSourceid | `StringInput` | Sourceid |  |
-| reservationpromotionsDetailsBasedOnRule | `StringInput` | Based On Rule |  |
-| reservationpromotionsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| reservationpromotionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| reservationpromotionsDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| reservationpromotionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| reservationpromotionsDetailsPromoCode | `StringInput` | Promotion Code |  |
-| reservationpromotionsDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| reservationpromotionsDetailsResvNameId | `FloatInput` | Resv Name ID |  |
-| roomDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| roomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| roomDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| roomDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| roomDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| roomDetailsRoompmsref | `StringInput` | Room |  |
-| roomDetailsRoom | `StringInput` | Room Number |  |
-| roomDetailsRoomid | `StringInput` | Roomid |  |
-| membershipclaimshistoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| channelDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| channelDetailsEntityName | `StringInput` | Entity Name |  |
-| channelDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| channelDetailsLanguageCode | `StringInput` | Language Code |  |
-| channelDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| channelDetailsAttributeCode | `StringInput` | Origin Code |  |
-| channelDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| membershipclaimDetailsApprovalStatus | `StringInput` | Approval Status |
+| membershipclaimDetailsApproveReject | `StringInput` | Approve/Reject/None |
+| membershipclaimDetailsArrivalDate | `DateInput` | Arrival Date |
+| membershipclaimDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| membershipclaimDetailsCallerInformation | `StringInput` | Information about the caller. |
+| membershipclaimDetailsCallerName | `StringInput` | name of the person who called. |
+| membershipclaimDetailsChainCode | `StringInput` | Chain Code |
+| membershipclaimDetailsChannel | `StringInput` | Channel |
+| membershipclaimDetailsClaimAdjLimitCode | `StringInput` | Claim Adj Limit Code |
+| membershipclaimDetailsClaimDate | `DateInput!` | Date claim was posted in the database.<br>`@mandatoryInput` |
+| membershipclaimDetailsMembershipClaimId | `FloatInput` | Primary key. |
+| membershipclaimDetailsClaimOrigin | `StringInput` | User defined origin of claim. |
+| membershipclaimDetailsClaimSource | `StringInput` | Source of the Claim |
+| membershipclaimDetailsClaimStatus | `StringInput` | Status of the claim. |
+| membershipclaimDetailsClaimType | `StringInput` | User Defined Claim Types |
+| membershipclaimDetailsCloseDate | `DateInput` | Date and time cashier was closed. |
+| membershipclaimDetailsComments | `StringInput` | Comments |
+| membershipclaimDetailsPmsResvNo | `StringInput` | Confirmation Number |
+| membershipclaimDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| membershipclaimDetailsDepartureDate | `DateInput` | Departure Date |
+| membershipclaimDetailsCrsBookNo | `StringInput` | External Reference Number |
+| membershipclaimDetailsInsertDate | `DateTimeInput` | Insert Date |
+| membershipclaimDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershipclaimDetailsMarketCode | `StringInput` | Market Code |
+| membershipclaimDetailsResort | `StringInput!` | Membership Claim Property<br>`@mandatoryInput` |
+| membershipclaimDetailsMembershipId | `FloatInput` | Membership ID |
+| membershipclaimDetailsMembershipCardNo | `StringInput` | Membership Number |
+| membershipclaimDetailsMembershipTrxId | `FloatInput` | Membership Trx ID |
+| membershipclaimDetailsMembershipType | `StringInput` | Membership Type |
+| membershipclaimDetailsName | `StringInput` | Name |
+| membershipclaimDetailsNameId | `FloatInput` | Name ID |
+| membershipclaimDetailsOriginOfBooking | `StringInput` | Origin of Booking |
+| membershipclaimDetailsClaimOwnerName | `StringInput` | Owner |
+| membershipclaimDetailsPurposeOfStay | `StringInput` | Purpose of stay. |
+| membershipclaimDetailsRateCode | `StringInput` | Rate Code |
+| membershipclaimDetailsRecordType | `StringInput` | Record Type |
+| membershipclaimDetailsReplyByDate | `DateInput` | Date when the user gets a response to his/her claim. |
+| membershipclaimDetailsResvStatus | `StringInput` | Reservation Status |
+| membershipclaimDetailsRoom | `StringInput` | Room |
+| membershipclaimDetailsSubmitter | `StringInput` | Submitter |
+| membershipclaimDetailsUpdateDate | `DateTimeInput` | Update Date |
+| ratecodeDetailsBaseRateCode | `StringInput` | Base Rate Code |
+| ratecodeDetailsBeginBookingDate | `DateInput` | Business Date |
+| ratecodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| ratecodeDetailsCommissionCode | `StringInput` | Commission Code |
+| ratecodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ratecodeDetailsDailyRatesYn | `StringInput` | Daily Rates Y/N |
+| ratecodeDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |
+| ratecodeDetailsSellSequence | `FloatInput` | Display Sequence |
+| ratecodeDetailsEndBookingDate | `DateInput` | End Date |
+| ratecodeDetailsGroupCode | `StringInput` | Group Code |
+| ratecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ratecodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| ratecodeDetailsMarketCode | `StringInput` | Market Code |
+| ratecodeDetailsMaxDvanceBooking | `FloatInput` | Maximum Days Advance Booking |
+| ratecodeDetailsMaxLos | `FloatInput` | Maximum Length of Stay |
+| ratecodeDetailsMaxOccupancy | `FloatInput` | Maximum Occupancy |
+| ratecodeDetailsMinAdvanceBooking | `FloatInput` | Minimum Days Advance Booking |
+| ratecodeDetailsMinOccupancy | `FloatInput` | Minimum Occupancy |
+| ratecodeDetailsOrderBy | `FloatInput` | Order By |
+| ratecodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| ratecodeDetailsRateCode | `StringInput` | Original Rate Code |
+| ratecodeDetailsOrsSellSequence | `FloatInput` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
+| ratecodeDetailsPendingApprovalYn | `StringInput` | Indicates whether the rate code is pending for approval or not |
+| ratecodeDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| ratecodeDetailsRateBucket | `StringInput` | Yield rate bucket |
+| ratecodeDetailsRateCodeId | `StringInput` | Rate Code ID |
+| ratecodeDetailsRateLevel | `FloatInput` | Rate Level this rate code belongs to. |
+| ratecodeDetailsSourceCode | `StringInput` | Source Code |
+| ratecodeDetailsTransactionCode | `StringInput` | Rate transaction code |
+| ratecodeDetailsLosUnit | `FloatInput` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
+| marketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| marketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| marketDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| marketDetailsMarketCode | `StringInput` | Market Code |
+| marketDetailsParentMarketCode | `StringInput` | Market group attached to the market code |
+| marketDetailsMarketgroupid | `StringInput` | Marketgroupid |
+| marketDetailsMarketid | `StringInput` | Marketid |
+| marketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| marketDetailsResort | `StringInput` | Property |
+| sourcetableDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| sourcetableDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| sourcetableDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| sourcetableDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| sourcetableDetailsResort | `StringInput` | Property |
+| sourcetableDetailsSourceCode | `StringInput` | Source Code |
+| sourcetableDetailsSourceid | `StringInput` | Sourceid |
+| reservationpromotionsDetailsBasedOnRule | `StringInput` | Based On Rule |
+| reservationpromotionsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| reservationpromotionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| reservationpromotionsDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| reservationpromotionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| reservationpromotionsDetailsPromoCode | `StringInput` | Promotion Code |
+| reservationpromotionsDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| reservationpromotionsDetailsResvNameId | `FloatInput` | Resv Name ID |
+| roomDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| roomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| roomDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| roomDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| roomDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| roomDetailsRoompmsref | `StringInput` | Room |
+| roomDetailsRoom | `StringInput` | Room Number |
+| roomDetailsRoomid | `StringInput` | Roomid |
+| membershipclaimshistoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| channelDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| channelDetailsEntityName | `StringInput` | Entity Name |
+| channelDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| channelDetailsLanguageCode | `StringInput` | Language Code |
+| channelDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| channelDetailsAttributeCode | `StringInput` | Origin Code |
+| channelDetailsTitleSuffix | `FloatInput` | Title Suffix |
 
 [⬆ Back to Query](#query)
 

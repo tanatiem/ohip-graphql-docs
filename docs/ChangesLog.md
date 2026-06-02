@@ -2349,18 +2349,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2368,10 +2368,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2379,18 +2379,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2398,10 +2398,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2409,17 +2409,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2427,18 +2427,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2446,10 +2446,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2457,471 +2457,471 @@
 
 ### ChangesLogQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| actionDetailsInsertDate | `DateInput!` | Action Date | `mandatoryInput` |
-| actionDetailsActionId | `FloatInput` | Action ID |  |
-| actionDetailsActionType | `StringInput` | Action Type |  |
-| actionDetailsActivityId | `FloatInput` | Activity ID that logs the changes. |  |
-| actionDetailsAllotmentHeaderId | `FloatInput` | Block ID |  |
-| actionDetailsBookId | `FloatInput` | Book ID |  |
-| actionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| actionDetailsEventId | `FloatInput` | Event ID |  |
-| actionDetailsFinActionId | `FloatInput` | Action Id. |  |
-| actionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| actionDetailsModuleType | `StringInput` | Module Type |  |
-| actionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| actionDetailsParentActionInstanceId | `FloatInput` | Parent Action Instance ID |  |
-| actionDetailsNameId | `FloatInput` | Profile ID |  |
-| actionDetailsRateCode | `StringInput` | Rate Code |  |
-| reservationDetailsActualCheckInDateTime | `DateTimeInput` | Actual Check In Date Time |  |
-| reservationDetailsActualCheckOutDateTime | `DateTimeInput` | Actual Check Out Date Time |  |
-| reservationDetailsActualCheckOutDate | `DateInput` | Actual Check-Out Date |  |
-| reservationDetailsAddresseeNameId | `FloatInput` | Addressee Name ID |  |
-| reservationDetailsAllotmentid | `FloatInput` | Block ID |  |
-| reservationDetailsTruncBeginDate | `DateInput` | Arrival Date |  |
-| reservationDetailsBillingContactId | `FloatInput` | Billing Contact ID |  |
-| reservationDetailsBillingcontactprofileid | `FloatInput` | Billing Contact Profile ID |  |
-| reservationDetailsAllotmentHeaderId | `FloatInput` | Block ID |  |
-| reservationDetailsBonusCheckId | `FloatInput` | Bonus Check ID |  |
-| reservationDetailsBusinessDateCreated | `DateInput` | Business Date Created |  |
-| reservationDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| reservationDetailsCancellationDate | `DateTimeInput` | Cancellation Date |  |
-| reservationDetailsCancellationNo | `StringInput` | Cancellation Number |  |
-| reservationDetailsChainCode | `StringInput` | Chain Code |  |
-| reservationDetailsConfirmationNo | `StringInput` | Shared Confirmation Number |  |
-| reservationDetailsCreditCardId | `FloatInput` | Credit Card ID |  |
-| reservationDetailsCustomReference | `StringInput` | Custom Reference Number |  |
-| reservationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| reservationDetailsTruncEndDate | `DateInput` | Departure Date |  |
-| reservationDetailsEnddatetime | `DateTimeInput` | End Datetime |  |
-| reservationDetailsEndbusinessdate | `DateInput` | Endbusinessdate |  |
-| reservationDetailsEventId | `FloatInput` | Event ID |  |
-| reservationDetailsFolioCloseDate | `DateInput` | Date the folio was changed to closed. |  |
-| reservationDetailsGuaranteecodeid | `StringInput` | Guaranteecodeid |  |
-| reservationDetailsGuestprofileid | `FloatInput` | Guestprofileid |  |
-| reservationDetailsInsertActionInstanceId | `FloatInput` | Insert Action Instance ID |  |
-| reservationDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| reservationDetailsInsertdatetime | `DateTimeInput` | Insert DateTime |  |
-| reservationDetailsInsertUser | `FloatInput` | Insert User |  |
-| reservationDetailsAwardMembershipId | `FloatInput` | Award Membership ID |  |
-| reservationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| reservationDetailsEndDate | `DateTimeInput` | Linked Departure Date |  |
-| reservationDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| reservationDetailsNameUsageType | `StringInput` | Name Usage Type |  |
-| reservationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| reservationDetailsOriginalEndDate | `DateInput` | Original End Date |  |
-| reservationDetailsParentResvNameId | `FloatInput` | Parent Resv Name ID |  |
-| reservationDetailsParentreservationid | `FloatInput` | Parentreservationid |  |
-| reservationDetailsPostCoFlag | `StringInput` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |  |
-| reservationDetailsQuoteId | `StringInput` | Quote ID provided by external system. |  |
-| reservationDetailsResvContactId | `FloatInput` | Resv Contact ID |  |
-| reservationDetailsResvNameId | `FloatInput` | Reservation Name ID |  |
-| reservationDetailsResvStatus | `StringInput` | Reservation Status |  |
-| reservationDetailsGuaranteeCode | `StringInput` | Reservation Type |  |
-| reservationDetailsReservationid | `FloatInput` | Reservationid |  |
-| reservationDetailsResort | `StringInput` | Property |  |
-| reservationDetailsResortChargeNumber | `StringInput` | Auto generated charge number for Point Of Sale systems to identify guests. |  |
-| reservationDetailsResvNameid | `FloatInput` | Reservation Nameid |  |
-| reservationDetailsResvcontactprofileid | `FloatInput` | Resvcontactprofileid |  |
-| reservationDetailsRhBillingContactId | `FloatInput` | Rh Billing Contact ID |  |
-| reservationDetailsRhResvContactId | `FloatInput` | Rh Resv Contact ID |  |
-| reservationDetailsRoomCategory | `StringInput` | Room Category |  |
-| reservationDetailsRoomcategoryid | `StringInput` | Roomcategoryid |  |
-| reservationDetailsScheduleCheckoutYn | `StringInput` | Is the guest scheduled for automatic check out? |  |
-| reservationDetailsSguestFirstname | `StringInput` | This is CAPITOL version of guest_first_name |  |
-| reservationDetailsSguestName | `StringInput` | Sguest Name |  |
-| reservationDetailsNameId | `FloatInput` | Shared Profile ID |  |
-| reservationDetailsReservationStatus | `StringInput` | Shared Reservation Status |  |
-| reservationDetailsSplitFromResvNameId | `FloatInput` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |  |
-| reservationDetailsSplitfromreservationid | `FloatInput` | Splitfromreservationid |  |
-| reservationDetailsTruncActualCheckOutDate | `DateInput` | This is the actual check out date with no time component. |  |
-| reservationDetailsUniCardId | `StringInput` | Universal Card ID used by interfaces for key encoding purposes. |  |
-| reservationDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| reservationDetailsUpdatedatetime | `DateTimeInput` | Update Datetime |  |
-| allotmentDetailsAgentContactNameId | `FloatInput` | Agent Contact Name ID |  |
-| allotmentDetailsAgentNameId | `FloatInput` | Agent Name ID |  |
-| allotmentDetailsAllotmentCode | `StringInput` | Block Code |  |
-| allotmentDetailsAllotmentHeaderId | `FloatInput` | Block ID |  |
-| allotmentDetailsOwnerCode | `StringInput` | Block Owner Code |  |
-| allotmentDetailsBookingId | `StringInput` | External S&C vendor booking ID and used in HYATT-mode. |  |
-| allotmentDetailsBookingStatusOrder | `FloatInput` | Booking Status Order |  |
-| allotmentDetailsBlockType | `StringInput` | Determines block being [G] - Group or [W] - Wholesale. |  |
-| allotmentDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| allotmentDetailsChainCode | `StringInput` | Chain Code |  |
-| allotmentDetailsCompanyNameId | `FloatInput` | Company Name ID |  |
-| allotmentDetailsContactNameId | `FloatInput` | Contact Name ID |  |
-| allotmentDetailsInsertDate | `DateTimeInput` | Created Date |  |
-| allotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| allotmentDetailsDueDateOrd | `DateInput` | Due Date Sorting Column. |  |
-| allotmentDetailsEndDate | `DateInput` | End Date |  |
-| allotmentDetailsInsertUser | `FloatInput` | Insert User |  |
-| allotmentDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |  |
-| allotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| allotmentDetailsMarketCode | `StringInput` | Market  Code |  |
-| allotmentDetailsSuperBlockId | `FloatInput` | Parent Block ID |  |
-| allotmentDetailsSuperBlockResort | `StringInput` | Parent Resort |  |
-| allotmentDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |  |
-| allotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| allotmentDetailsOrmsBlockClass | `StringInput` | ORMS Block Class |  |
-| allotmentDetailsOwner | `FloatInput` | Owner |  |
-| allotmentDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| allotmentDetailsRateCode | `StringInput` | Rate Code |  |
-| allotmentDetailsGuaranteeCode | `StringInput` | Reservation Type |  |
-| allotmentDetailsBookingStatus | `StringInput` | Room Status |  |
-| allotmentDetailsShoulderEndDate | `DateInput` | Shoulder End |  |
-| allotmentDetailsShoulderBeginDate | `DateInput` | Shoulder Start |  |
-| allotmentDetailsSourceNameId | `FloatInput` | Source Name ID |  |
-| allotmentDetailsBeginDate | `DateInput` | Start Date |  |
-| allotmentDetailsTourcode | `StringInput` | Tour Code. |  |
-| allotmentDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |  |
-| allotmentDetailsUpdateDate | `DateTimeInput` | Updated Date |  |
-| allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |  |
-| eventDetailsAllotmentid | `FloatInput` | Block ID |  |
-| eventDetailsBookId | `FloatInput` | Block ID |  |
-| eventDetailsAllotmentenddate | `DateInput` | Block End Date |  |
-| eventDetailsChainCode | `StringInput` | Chain Code |  |
-| eventDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| eventDetailsEndDate | `DateTimeInput` | End Date |  |
-| eventDetailsEndDateTime | `DateInput` | End Date Time |  |
-| eventDetailsEvResort | `StringInput` | Event Property. |  |
-| eventDetailsEvType | `StringInput` | Ev Type |  |
-| eventDetailsEventId | `FloatInput` | Event ID |  |
-| eventDetailsEventLinkType | `StringInput` | Event Link Type |  |
-| eventDetailsResort | `StringInput` | Event Property |  |
-| eventDetailsEvStatus | `StringInput` | Event Status |  |
-| eventDetailsEventlocationid | `StringInput` | Eventlocationid |  |
-| eventDetailsEventtypeid | `StringInput` | Eventtypeid |  |
-| eventDetailsGroupId | `FloatInput` | Group ID |  |
-| eventDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| eventDetailsEventid | `FloatInput` | Eventid |  |
-| eventDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| eventDetailsEventLinkId | `FloatInput` | Linked Event |  |
-| eventDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| eventDetailsMasterEventId | `FloatInput` | Master Event ID |  |
-| eventDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| eventDetailsPkgEvId | `FloatInput` | Pkg Ev ID |  |
-| eventDetailsPackageeventid | `FloatInput` | Packageeventid |  |
-| eventDetailsParenteventid | `FloatInput` | Parenteventid |  |
-| eventDetailsPkgLink | `FloatInput` | Package Link |  |
-| eventDetailsRoomid | `StringInput` | Roomid |  |
-| eventDetailsRoom | `StringInput` | Space |  |
-| eventDetailsStartDate | `DateTimeInput` | Start Date |  |
-| eventDetailsStartDateTime | `DateInput` | Start Date Time |  |
-| eventDetailsTracecode | `StringInput` | Tracecode |  |
-| eventDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| workordersDetailsCompletedYn | `StringInput` | Activity Completed |  |
-| workordersDetailsCreatedDate | `DateTimeInput` | Activity Created On |  |
-| workordersDetailsEndDate | `DateTimeInput` | Activity End Date |  |
-| workordersDetailsWoNumber | `FloatInput` | Activity ID |  |
-| workordersDetailsProblemDesc | `StringInput` | Description of the Problem reported |  |
-| workordersDetailsPriorityCode | `StringInput` | Activity Priority |  |
-| workordersDetailsStartDate | `DateTimeInput` | Activity Start Date |  |
-| workordersDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| workordersDetailsEstUotCode | `StringInput` | Est Uot Code |  |
-| workordersDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| workordersDetailsLocationCode | `StringInput` | Location Code |  |
-| workordersDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| workordersDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| workordersDetailsParentWoNumber | `FloatInput` | Wo_number to which current work order is a sub work ordergenerated work_order number |  |
-| workordersDetailsPlantItemCode | `StringInput` | Plant Item Code |  |
-| workordersDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| workordersDetailsReasonCode | `StringInput` | Reason Code |  |
-| workordersDetailsRequestTypeId | `StringInput` | Request type that need to be generated. |  |
-| workordersDetailsRequestTypeTemplatesId | `FloatInput` | Stores the Campaign Type Template ID used for a campaign. |  |
-| workordersDetailsStatusCode | `StringInput` | Status Code |  |
-| workordersDetailsSurveyId | `FloatInput` | Linked Survey ID |  |
-| workordersDetailsTaskCode | `FloatInput` | Task Code |  |
-| workordersDetailsTaskitemNumber | `FloatInput` | Taskitem Number |  |
-| workordersDetailsTypeCode | `StringInput` | Type Code |  |
-| profileallDetailsNameId | `FloatInput` | The primary key for this table. |  |
-| profileallDetailsActiveYn | `StringInput` | Profile is active or not. |  |
-| profileallDetailsCrsNameid | `FloatInput` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |  |
-| profileallDetailsChainCode | `StringInput` | Chain Code |  |
-| profileallDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |  |
-| profileallDetailsCompanyGroupId | `StringInput` | The company group or company group user ID in hierarchical format |  |
-| profileallDetailsContactFlag | `StringInput` | Used in S&C Module. |  |
-| profileallDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileallDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |  |
-| profileallDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |  |
-| profileallDetailsHistoryYn | `StringInput` | Keep guest in history Y/N |  |
-| profileallDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profileallDetailsIndexName | `StringInput` | Index Name |  |
-| profileallDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profileallDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileallDetailsNameType | `StringInput` | The type of Profile. |  |
-| profileallDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileallDetailsProfileId | `FloatInput` | The primary key for this table. |  |
-| profileallDetailsProfileType | `StringInput` | The type of Profile. |  |
-| profileallDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |  |
-| profileallDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |  |
-| profileallDetailsSname | `StringInput` | The Uppercase value of Last or Company. |  |
-| profileallDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |  |
-| profileallDetailsSfirst | `StringInput` | Uppercase value of First Name. |  |
-| profileallDetailsSrepCode | `StringInput` | Used in QMS Module |  |
-| profileallDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |  |
-| profileallDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| resortDetailsResort | `StringInput` | The property that the record belongs to |  |
-| resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |  |
-| resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |  |
-| resortDetailsArAgent | `StringInput` | Default Account Type for an Agent for the Property |  |
-| resortDetailsArBalTrxCode | `StringInput` | Internal |  |
-| resortDetailsArCompany | `StringInput` | Default Account Type for a Company for the Property |  |
-| resortDetailsArCreditTrxCode | `StringInput` | Internal |  |
-| resortDetailsArGroups | `StringInput` | Default Account Type for a Group for the Property |  |
-| resortDetailsArIndividuals | `StringInput` | Default Account Type for Individual for the Property |  |
-| resortDetailsArSettleCode | `StringInput` | Internal |  |
-| resortDetailsArTypewriter | `StringInput` | Internal |  |
-| resortDetailsAccessCode | `StringInput` | Access Code |  |
-| resortDetailsQtyHandicappedRooms | `FloatInput` | Number of handicapped rooms. |  |
-| resortDetailsAgingLevel1 | `FloatInput` | Aging bucket 1 |  |
-| resortDetailsAgingLevel2 | `FloatInput` | Aging bucket 2 |  |
-| resortDetailsAgingLevel3 | `FloatInput` | Aging bucket 3 |  |
-| resortDetailsAgingLevel4 | `FloatInput` | Aging bucket 4 |  |
-| resortDetailsAgingLevel5 | `FloatInput` | Aging bucket 3 |  |
-| resortDetailsAirport | `StringInput` | The Airport Code for the airport near the property |  |
-| resortDetailsAirportDistance | `StringInput` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |  |
-| resortDetailsAirportTime | `StringInput` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |  |
-| resortDetailsAllowLoginYn | `StringInput` | Allow loggin in to this resort(Y/N) |  |
-| resortDetailsAllowancePeriodAdj | `StringInput` | Period for the allowance |  |
-| resortDetailsAwardsTimeout | `FloatInput` | Internal |  |
-| resortDetailsBrArea | `StringInput` | Ball Room Area |  |
-| resortDetailsBrSeats | `FloatInput` | No of Ballroom Seats |  |
-| resortDetailsBaseLanguage | `StringInput` | The base language of the Hotel |  |
-| resortDetailsBlock | `StringInput` | It contains the reservation type to be used when making group block |  |
-| resortDetailsBrandCode | `StringInput` | Brand Code of the property. |  |
-| resortDetailsBudgetMonth | `FloatInput` | Financial Year of the Property |  |
-| resortDetailsBeginDate | `DateInput` | The date this resort becomes valid for use by the system |  |
-| resortDetailsBusinessId | `StringInput` | Value for the parameter. |  |
-| resortDetailsBusinessRegCode | `StringInput` | Value for the parameter. |  |
-| resortDetailsCroCode | `StringInput` | Code for the CRO |  |
-| resortDetailsCashShiftDrop | `StringInput` | Internal |  |
-| resortDetailsCateringCurrencyCode | `StringInput` | Catering Currency Code used when Catering Currency differs from base currency. |  |
-| resortDetailsCateringCurrencyFormat | `StringInput` | Catering currency format. |  |
-| resortDetailsCXchangeDate | `DateInput` | Central  Exchange Date |  |
-| resortDetailsCXchangeRate | `FloatInput` | Central  Exchange Rate |  |
-| resortDetailsCCreditLimit | `FloatInput` | Central Credit Limit |  |
-| resortDetailsCentralCurrencyCode | `StringInput` | Central Currency Code |  |
-| resortDetailsCentralCurrencyDesc | `StringInput` | Central Currency Description |  |
-| resortDetailsCDblRate2 | `FloatInput` | Central Double Rate2 |  |
-| resortDetailsCDblRate1 | `FloatInput` | Central Double Rate1 |  |
-| resortDetailsRepPasserbyMarket | `StringInput` | Central Passerby Market |  |
-| resortDetailsRepPasserbySource | `StringInput` | Central Passerby Source |  |
-| resortDetailsRepResortType | `StringInput` | Central Property Type |  |
-| resortDetailsCSglRate1 | `FloatInput` | Central Sgl Rate1 |  |
-| resortDetailsCSglRate2 | `FloatInput` | Central Sgl Rate 2 |  |
-| resortDetailsRepState | `StringInput` | Central State |  |
-| resortDetailsRepStateDesc | `StringInput` | Central State Description |  |
-| resortDetailsCSuiRate1 | `FloatInput` | Central Sui Rate1 |  |
-| resortDetailsCSuiRate2 | `FloatInput` | Central Sui Rate 2 |  |
-| resortDetailsCTplRate1 | `FloatInput` | Central Tpl Rate1 |  |
-| resortDetailsCTplRate2 | `FloatInput` | Central Tpl Rate 2 |  |
-| resortDetailsCWarningAmount | `FloatInput` | Central Warning Amount |  |
-| resortDetailsChainCode | `StringInput` | Chain Code for the chain to which the property belongs |  |
-| resortDetailsChainDescription | `StringInput` | The description of this chain. |  |
-| resortDetailsChainMode | `StringInput` | Chain Mode |  |
-| resortDetailsCheckExgPaidout | `StringInput` | Internal |  |
-| resortDetailsCheckOutTime | `DateTimeInput` | The Hotel official check out time |  |
-| resortDetailsCheckShiftDrop | `StringInput` | Internal |  |
-| resortDetailsCheckTrxcode | `StringInput` | Internal |  |
-| resortDetailsCheckInTime | `DateTimeInput` | The Hotel official check intime |  |
-| resortDetailsCity | `StringInput` | The physical city in which this property resides. |  |
-| resortDetailsCityDescription | `StringInput` | City Description |  |
-| resortDetailsComAddress | `StringInput` | Internal |  |
-| resortDetailsComMethod | `StringInput` | Internal |  |
-| resortDetailsComNameXrefId | `FloatInput` | Internal |  |
-| resortDetailsCompanyAddressType | `StringInput` | Internal |  |
-| resortDetailsCompanyPhoneType | `StringInput` | Internal |  |
-| resortDetailsConfigurationMode | `StringInput` | Internal |  |
-| resortDetailsConfirmRegcardPrinter | `StringInput` | Internal |  |
-| resortDetailsQtyConnectingRooms | `FloatInput` | Number of connecting rooms. |  |
-| resortDetailsAllContacts | `StringInput` | The unique name of application user |  |
-| resortDetailsCopies | `FloatInput` | Number of copies to be printed |  |
-| resortDetailsCountryName | `StringInput` | Country name. |  |
-| resortDetailsCountryCode | `StringInput` | The name of the country in which this property resides. |  |
-| resortDetailsCountryMode | `StringInput` | Value for the parameter. |  |
-| resortDetailsCreditLimit | `FloatInput` | The default credit limit for guests. |  |
-| resortDetailsCurrencyCode | `StringInput` | Currency Code. |  |
-| resortDetailsCurrencySymbol | `StringInput` | Currency Symbol like $ or EURO symbol |  |
-| resortDetailsCurrencyName | `StringInput` | A description of this currency. |  |
-| resortDetailsLocalCurrencyFormat | `StringInput` | Format for the local currency. |  |
-| resortDetailsCurtainColor | `StringInput` | Color that of the background |  |
-| resortDetailsDsi | `FloatInput` | DSI |  |
-| resortDetailsDateForAging | `StringInput` | Date the aging should begin |  |
-| resortDetailsDateSeparator | `StringInput` | Type of separator to distinguish between DD MM and YYYY |  |
-| resortDetailsDecimalPlaces | `FloatInput` | Number of places for the default currency |  |
-| resortDetailsDecimalSeparator | `StringInput` | Type of decimal separator |  |
-| resortDetailsCurrencyDecimals | `FloatInput` | Number of decimals to designate currency |  |
-| resortDetailsDefaultFolioStyle | `FloatInput` | Folio style to be used for all guests |  |
-| resortDetailsDefaultGuestAddress | `StringInput` | Default guest address format. |  |
-| resortDetailsDefaultMembershipType | `StringInput` | Future use |  |
-| resortDetailsDefaultPostingRoom | `StringInput` | Future use |  |
-| resortDetailsDefaultPropertyAddress | `StringInput` | Default property address format. |  |
-| resortDetailsDefaultRateCode | `StringInput` | Future use |  |
-| resortDetailsDefaultRatecodePcr | `StringInput` | Rate code used to default a PCR rate code used in FIT Contracts. |  |
-| resortDetailsDefaultRatecodeRack | `StringInput` | Rate code used to default a RACK rate code used for FIT Contracts. |  |
-| resortDetailsDefaultRegistrationCard | `StringInput` | Default registration card for the property. |  |
-| resortDetailsDefaultReservationType | `StringInput` | The Default reservation type for this property |  |
-| resortDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| resortDetailsDepositLedTrxCode | `StringInput` | Future use |  |
-| resortDetailsDestinationId | `StringInput` | Destination ID |  |
-| resortDetailsDfltPkgTranCode | `StringInput` | Future use |  |
-| resortDetailsDfltTranCodeRateCode | `StringInput` | Future use |  |
-| resortDetailsDirections | `StringInput` | Internal |  |
-| resortDetailsDirsales | `StringInput` | Future use |  |
-| resortDetailsDisableLoginYn | `StringInput` | LOGIN into the application is disabled. |  |
-| resortDetailsQtyDoubleRooms | `FloatInput` | Number of double rooms. |  |
-| resortDetailsDownloadRestYn | `StringInput` | Download Rest YN |  |
-| resortDetailsDutyManagerPager | `StringInput` | Pager number for the Manager on duty for the property. |  |
-| resortDetailsEmail | `StringInput` | Email id for the property. |  |
-| resortDetailsEndDate | `DateInput` | Future use. |  |
-| resortDetailsExchangePostingType | `StringInput` | Default Exchange posting status for the property |  |
-| resortDetailsFloorNumExecutiveFloor | `StringInput` | Floor number of executive floor. |  |
-| resortDetailsExpHotelCode | `StringInput` | Hotel code used for third party exports |  |
-| resortDetailsExtExpFileLocation | `StringInput` | Future use |  |
-| resortDetailsExtPropertyCode | `StringInput` | Future use |  |
-| resortDetailsExternalScYn | `StringInput` | Indicates that the property uses an external SC system. |  |
-| resortDetailsQtyFamilyRooms | `FloatInput` | Number of family rooms. |  |
-| resortDetailsFaxNoFormat | `StringInput` | Fax number formats. |  |
-| resortDetailsFax | `StringInput` | The fax phone number |  |
-| resortDetailsFiscalEndDate | `DateInput` | Future use |  |
-| resortDetailsFiscalPeriodType | `StringInput` | Future use |  |
-| resortDetailsFiscalStartDate | `DateInput` | Future use |  |
-| resortDetailsFiscalStartMonth | `FloatInput` | Fiscal Year Begin Month |  |
-| resortDetailsFiscalStartYear | `FloatInput` | Fiscal Year Begin Year |  |
-| resortDetailsFlags | `StringInput` | Screen Painter flags to indicate whether an item is changable/ movable etc. |  |
-| resortDetailsFlowCode | `StringInput` | Future use |  |
-| resortDetailsFnsTier | `StringInput` | Property Free Nights Stay Tier. |  |
-| resortDetailsFolioLanguage1 | `StringInput` | Other languages |  |
-| resortDetailsFolioLanguage2 | `StringInput` | Other languages |  |
-| resortDetailsFolioLanguage3 | `StringInput` | Other languages |  |
-| resortDetailsFolioLanguage4 | `StringInput` | Other languages |  |
-| resortDetailsGenmgr | `StringInput` | Future use |  |
-| resortDetailsGroupRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for Group |  |
-| resortDetailsGuestLookupTimeout | `FloatInput` | Future use |  |
-| resortDetailsQtyGuestElevators | `FloatInput` | Number of guest elevators. |  |
-| resortDetailsQtyGuestRoomFloors | `FloatInput` | Total of guest rooms floors. |  |
-| resortDetailsHotelCode | `StringInput` | Future use |  |
-| resortDetailsHotelFc | `StringInput` | Future use |  |
-| resortDetailsHotelId | `StringInput` | Hotel id |  |
-| resortDetailsHotelType | `StringInput` | Future use |  |
-| resortDetailsImgDirectionId | `FloatInput` | Future use |  |
-| resortDetailsImgHotelId | `FloatInput` | Future use |  |
-| resortDetailsImgMapId | `FloatInput` | Future use |  |
-| resortDetailsInactiveDaysForGuestProfil | `FloatInput` | Future use |  |
-| resortDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| resortDetailsIndividualAddressType | `StringInput` | Future use |  |
-| resortDetailsIndividualPhoneType | `StringInput` | Future use |  |
-| resortDetailsIndividualRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for group |  |
-| resortDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| resortDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |  |
-| resortDetailsInventoryYn | `StringInput` | Future use |  |
-| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |  |
-| resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |  |
-| resortDetailsLeadsend | `StringInput` | Future use |  |
-| resortDetailsLegalOwner | `StringInput` | The owner who owns this property |  |
-| resortDetailsLocationId | `StringInput` | The property that the record belongs to |  |
-| resortDetailsLongDateFormat | `StringInput` | Long date format for the property. |  |
-| resortDetailsLongStayControl | `FloatInput` | The default length of stay |  |
-| resortDetailsLongitude | `FloatInput` | Longitude of the property in decimal |  |
-| resortDetailsMaxAdultsFamilyRoom | `FloatInput` | Maximum adults in family rooms. |  |
-| resortDetailsMaxChildrenFamilyRoom | `FloatInput` | Maximum children in family rooms. |  |
-| resortDetailsMaxOccupancy | `FloatInput` | Future use |  |
-| resortDetailsMaxcreditdays | `FloatInput` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |  |
-| resortDetailsMbsSupportedYn | `StringInput` | Indicates whether the property supports MBS. Used in some file exports. |  |
-| resortDetailsMeetRooms | `FloatInput` | Future use |  |
-| resortDetailsMeetSeats | `FloatInput` | Future use |  |
-| resortDetailsMeetSpace | `FloatInput` | Future use |  |
-| resortDetailsMeetingFc | `StringInput` | Future use |  |
-| resortDetailsMinDaysBet2ReminderLetter | `FloatInput` | Minimum days for reminder letter. |  |
-| resortDetailsNameIdLink | `FloatInput` | Internal |  |
-| resortDetailsNightAuditCashierId | `StringInput` | Future use |  |
-| resortDetailsQtyNonSmokingRooms | `FloatInput` | Number of non smoking rooms. |  |
-| resortDetailsNotes | `StringInput` | Notes for the property |  |
-| resortDetailsNumberBeds | `FloatInput` | Total number of beds in this property |  |
-| resortDetailsNumberFloors | `FloatInput` | Total number of floors in this property |  |
-| resortDetailsNumberRooms | `FloatInput` | Number of Rooms |  |
-| resortDetailsOpusCurrencyCode | `StringInput` | Future use |  |
-| resortDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| resortDetailsOrganizationid | `FloatInput` | Organization Internal ID |  |
-| resortDetailsOwnership | `StringInput` | Future use |  |
-| resortDetailsPackageLoss | `StringInput` | Package Loss code for a particular package |  |
-| resortDetailsPackageProfit | `StringInput` | Package Profit code for a particular Package |  |
-| resortDetailsParentOrgCode | `StringInput` | Parent Org Code |  |
-| resortDetailsPasserbyMarket | `StringInput` | Market code |  |
-| resortDetailsPasserbySource | `StringInput` | Source code |  |
-| resortDetailsPath | `StringInput` | Path |  |
-| resortDetailsPaymentDate | `DateTimeInput` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |  |
-| resortDetailsPerReservationRoomLimit | `FloatInput` | Future use |  |
-| resortDetailsTelephone | `StringInput` | The direct dial phone number of this property |  |
-| resortDetailsPostCode | `StringInput` | The postal code of this property. |  |
-| resortDetailsPkid | `FloatInput` | Primary Key ID |  |
-| resortDetailsProinfoUrl | `StringInput` | URL where property information is located. |  |
-| resortDetailsPropMapUrl | `StringInput` | Property MAP URL. |  |
-| resortDetailsPropPicUrl | `StringInput` | Property picture URL. |  |
-| resortDetailsLocationid | `StringInput` | The property that the record belongs to |  |
-| resortDetailsName | `StringInput` | The name of this property. |  |
-| resortDetailsResortType | `StringInput` | Type of resort. |  |
-| resortDetailsQuotedCurrency | `StringInput` | Future use |  |
-| resortDetailsRnaInsertdate | `DateTimeInput` | RNA Insert Date |  |
-| resortDetailsRnaUpdatedate | `DateTimeInput` | RNA Update Date |  |
-| resortDetailsReconcileDate | `DateTimeInput` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |  |
-| resortDetailsRegionCode | `StringInput` | Future use |  |
-| resortDetailsRegionDescription | `StringInput` | Description of the Region. |  |
-| resortDetailsRestaurant | `FloatInput` | Future use |  |
-| resortDetailsRhythmSheets | `FloatInput` | Total number of Sheets |  |
-| resortDetailsRhythmTowels | `FloatInput` | Total number of Towels |  |
-| resortDetailsRoomAmenity | `StringInput` | Room amenity. |  |
-| resortDetailsSglNum | `StringInput` | Future use |  |
-| resortDetailsSglRate1 | `FloatInput` | Future use |  |
-| resortDetailsSglRate2 | `FloatInput` | Future use |  |
-| resortDetailsSuiNum | `StringInput` | Future use |  |
-| resortDetailsSuiRate1 | `FloatInput` | Future use |  |
-| resortDetailsSuiRate2 | `FloatInput` | Future use |  |
-| resortDetailsSaveProfiles | `FloatInput` | To store number of days before deleting the gest profile |  |
-| resortDetailsScriptId | `FloatInput` | Future use |  |
-| resortDetailsSeason1 | `StringInput` | Future use |  |
-| resortDetailsSeason2 | `StringInput` | Future use |  |
-| resortDetailsSeason3 | `StringInput` | Future use |  |
-| resortDetailsSeason4 | `StringInput` | Future use |  |
-| resortDetailsSeason5 | `StringInput` | Future use |  |
-| resortDetailsSendLeadAsBooking | `StringInput` | Indicates that the property accepts leads as bookings. |  |
-| resortDetailsShopDescription | `StringInput` | Shop description. |  |
-| resortDetailsShortDateFormat | `StringInput` | Short date format for the property. |  |
-| resortDetailsQtySingleRooms | `FloatInput` | Number of single rooms. |  |
-| resortDetailsSourceCommission | `StringInput` | For default commission percentage |  |
-| resortDetailsState | `StringInput` | The state in which this property is located. |  |
-| resortDetailsStateDesc | `StringInput` | Description of the state. |  |
-| resortDetailsStreet | `StringInput` | The street of the property. |  |
-| resortDetailsQtySuites | `FloatInput` | Number of suites. |  |
-| resortDetailsSummCurrencyCode | `StringInput` | Internal |  |
-| resortDetailsTaCommission | `StringInput` | For default commission percentage |  |
-| resortDetailsTplNum | `StringInput` | Future use |  |
-| resortDetailsTplRate1 | `FloatInput` | Future use |  |
-| resortDetailsTplRate2 | `FloatInput` | Future use |  |
-| resortDetailsTelephoneNoFormat | `StringInput` | Formats for telephone number |  |
-| resortDetailsThousandSeparator | `StringInput` | Separator for monetory values |  |
-| resortDetailsTimeFormat | `StringInput` | Default time format for the property. |  |
-| resortDetailsTimezoneRegion | `StringInput` | Time zone region selected by the employee. |  |
-| resortDetailsTollfree | `StringInput` | Toll free telephone number. |  |
-| resortDetailsTotRooms | `FloatInput` | Future use |  |
-| resortDetailsTouristNumber | `StringInput` | Tourist Number |  |
-| resortDetailsTranslateMulticharYn | `StringInput` | Indicates whether the property handles multi byte characters and whether they are translateable or not |  |
-| resortDetailsTurnawayCode | `StringInput` | Turnaway code for the property. |  |
-| resortDetailsQtyTwinRooms | `FloatInput` | Number of twin rooms. |  |
-| resortDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| resortDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| resortDetailsVatId | `StringInput` | VAT ID of this property. |  |
-| resortDetailsVideocheckoutPrinter | `StringInput` | Future use |  |
-| resortDetailsVideoCoStart | `DateTimeInput` | Video check out start time. |  |
-| resortDetailsVideoCoStop | `DateTimeInput` | Video check out end time. |  |
-| resortDetailsWakeUpDelay | `FloatInput` | Future use |  |
-| resortDetailsWarningAmount | `FloatInput` | Amount at which warning is raised. |  |
-| resortDetailsWebaddress | `StringInput` | Webaddress of the property |  |
-| resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |  |
-| resortDetailsZeroInvPurDays | `FloatInput` | Internal |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| actionDetailsInsertDate | `DateInput!` | Action Date<br>`@mandatoryInput` |
+| actionDetailsActionId | `FloatInput` | Action ID |
+| actionDetailsActionType | `StringInput` | Action Type |
+| actionDetailsActivityId | `FloatInput` | Activity ID that logs the changes. |
+| actionDetailsAllotmentHeaderId | `FloatInput` | Block ID |
+| actionDetailsBookId | `FloatInput` | Book ID |
+| actionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| actionDetailsEventId | `FloatInput` | Event ID |
+| actionDetailsFinActionId | `FloatInput` | Action Id. |
+| actionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| actionDetailsModuleType | `StringInput` | Module Type |
+| actionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| actionDetailsParentActionInstanceId | `FloatInput` | Parent Action Instance ID |
+| actionDetailsNameId | `FloatInput` | Profile ID |
+| actionDetailsRateCode | `StringInput` | Rate Code |
+| reservationDetailsActualCheckInDateTime | `DateTimeInput` | Actual Check In Date Time |
+| reservationDetailsActualCheckOutDateTime | `DateTimeInput` | Actual Check Out Date Time |
+| reservationDetailsActualCheckOutDate | `DateInput` | Actual Check-Out Date |
+| reservationDetailsAddresseeNameId | `FloatInput` | Addressee Name ID |
+| reservationDetailsAllotmentid | `FloatInput` | Block ID |
+| reservationDetailsTruncBeginDate | `DateInput` | Arrival Date |
+| reservationDetailsBillingContactId | `FloatInput` | Billing Contact ID |
+| reservationDetailsBillingcontactprofileid | `FloatInput` | Billing Contact Profile ID |
+| reservationDetailsAllotmentHeaderId | `FloatInput` | Block ID |
+| reservationDetailsBonusCheckId | `FloatInput` | Bonus Check ID |
+| reservationDetailsBusinessDateCreated | `DateInput` | Business Date Created |
+| reservationDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| reservationDetailsCancellationDate | `DateTimeInput` | Cancellation Date |
+| reservationDetailsCancellationNo | `StringInput` | Cancellation Number |
+| reservationDetailsChainCode | `StringInput` | Chain Code |
+| reservationDetailsConfirmationNo | `StringInput` | Shared Confirmation Number |
+| reservationDetailsCreditCardId | `FloatInput` | Credit Card ID |
+| reservationDetailsCustomReference | `StringInput` | Custom Reference Number |
+| reservationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| reservationDetailsTruncEndDate | `DateInput` | Departure Date |
+| reservationDetailsEnddatetime | `DateTimeInput` | End Datetime |
+| reservationDetailsEndbusinessdate | `DateInput` | Endbusinessdate |
+| reservationDetailsEventId | `FloatInput` | Event ID |
+| reservationDetailsFolioCloseDate | `DateInput` | Date the folio was changed to closed. |
+| reservationDetailsGuaranteecodeid | `StringInput` | Guaranteecodeid |
+| reservationDetailsGuestprofileid | `FloatInput` | Guestprofileid |
+| reservationDetailsInsertActionInstanceId | `FloatInput` | Insert Action Instance ID |
+| reservationDetailsInsertDate | `DateTimeInput` | Insert Date |
+| reservationDetailsInsertdatetime | `DateTimeInput` | Insert DateTime |
+| reservationDetailsInsertUser | `FloatInput` | Insert User |
+| reservationDetailsAwardMembershipId | `FloatInput` | Award Membership ID |
+| reservationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| reservationDetailsEndDate | `DateTimeInput` | Linked Departure Date |
+| reservationDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| reservationDetailsNameUsageType | `StringInput` | Name Usage Type |
+| reservationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| reservationDetailsOriginalEndDate | `DateInput` | Original End Date |
+| reservationDetailsParentResvNameId | `FloatInput` | Parent Resv Name ID |
+| reservationDetailsParentreservationid | `FloatInput` | Parentreservationid |
+| reservationDetailsPostCoFlag | `StringInput` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
+| reservationDetailsQuoteId | `StringInput` | Quote ID provided by external system. |
+| reservationDetailsResvContactId | `FloatInput` | Resv Contact ID |
+| reservationDetailsResvNameId | `FloatInput` | Reservation Name ID |
+| reservationDetailsResvStatus | `StringInput` | Reservation Status |
+| reservationDetailsGuaranteeCode | `StringInput` | Reservation Type |
+| reservationDetailsReservationid | `FloatInput` | Reservationid |
+| reservationDetailsResort | `StringInput` | Property |
+| reservationDetailsResortChargeNumber | `StringInput` | Auto generated charge number for Point Of Sale systems to identify guests. |
+| reservationDetailsResvNameid | `FloatInput` | Reservation Nameid |
+| reservationDetailsResvcontactprofileid | `FloatInput` | Resvcontactprofileid |
+| reservationDetailsRhBillingContactId | `FloatInput` | Rh Billing Contact ID |
+| reservationDetailsRhResvContactId | `FloatInput` | Rh Resv Contact ID |
+| reservationDetailsRoomCategory | `StringInput` | Room Category |
+| reservationDetailsRoomcategoryid | `StringInput` | Roomcategoryid |
+| reservationDetailsScheduleCheckoutYn | `StringInput` | Is the guest scheduled for automatic check out? |
+| reservationDetailsSguestFirstname | `StringInput` | This is CAPITOL version of guest_first_name |
+| reservationDetailsSguestName | `StringInput` | Sguest Name |
+| reservationDetailsNameId | `FloatInput` | Shared Profile ID |
+| reservationDetailsReservationStatus | `StringInput` | Shared Reservation Status |
+| reservationDetailsSplitFromResvNameId | `FloatInput` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
+| reservationDetailsSplitfromreservationid | `FloatInput` | Splitfromreservationid |
+| reservationDetailsTruncActualCheckOutDate | `DateInput` | This is the actual check out date with no time component. |
+| reservationDetailsUniCardId | `StringInput` | Universal Card ID used by interfaces for key encoding purposes. |
+| reservationDetailsUpdateDate | `DateTimeInput` | Update Date |
+| reservationDetailsUpdatedatetime | `DateTimeInput` | Update Datetime |
+| allotmentDetailsAgentContactNameId | `FloatInput` | Agent Contact Name ID |
+| allotmentDetailsAgentNameId | `FloatInput` | Agent Name ID |
+| allotmentDetailsAllotmentCode | `StringInput` | Block Code |
+| allotmentDetailsAllotmentHeaderId | `FloatInput` | Block ID |
+| allotmentDetailsOwnerCode | `StringInput` | Block Owner Code |
+| allotmentDetailsBookingId | `StringInput` | External S&C vendor booking ID and used in HYATT-mode. |
+| allotmentDetailsBookingStatusOrder | `FloatInput` | Booking Status Order |
+| allotmentDetailsBlockType | `StringInput` | Determines block being [G] - Group or [W] - Wholesale. |
+| allotmentDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| allotmentDetailsChainCode | `StringInput` | Chain Code |
+| allotmentDetailsCompanyNameId | `FloatInput` | Company Name ID |
+| allotmentDetailsContactNameId | `FloatInput` | Contact Name ID |
+| allotmentDetailsInsertDate | `DateTimeInput` | Created Date |
+| allotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| allotmentDetailsDueDateOrd | `DateInput` | Due Date Sorting Column. |
+| allotmentDetailsEndDate | `DateInput` | End Date |
+| allotmentDetailsInsertUser | `FloatInput` | Insert User |
+| allotmentDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |
+| allotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| allotmentDetailsMarketCode | `StringInput` | Market  Code |
+| allotmentDetailsSuperBlockId | `FloatInput` | Parent Block ID |
+| allotmentDetailsSuperBlockResort | `StringInput` | Parent Resort |
+| allotmentDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
+| allotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| allotmentDetailsOrmsBlockClass | `StringInput` | ORMS Block Class |
+| allotmentDetailsOwner | `FloatInput` | Owner |
+| allotmentDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| allotmentDetailsRateCode | `StringInput` | Rate Code |
+| allotmentDetailsGuaranteeCode | `StringInput` | Reservation Type |
+| allotmentDetailsBookingStatus | `StringInput` | Room Status |
+| allotmentDetailsShoulderEndDate | `DateInput` | Shoulder End |
+| allotmentDetailsShoulderBeginDate | `DateInput` | Shoulder Start |
+| allotmentDetailsSourceNameId | `FloatInput` | Source Name ID |
+| allotmentDetailsBeginDate | `DateInput` | Start Date |
+| allotmentDetailsTourcode | `StringInput` | Tour Code. |
+| allotmentDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |
+| allotmentDetailsUpdateDate | `DateTimeInput` | Updated Date |
+| allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |
+| eventDetailsAllotmentid | `FloatInput` | Block ID |
+| eventDetailsBookId | `FloatInput` | Block ID |
+| eventDetailsAllotmentenddate | `DateInput` | Block End Date |
+| eventDetailsChainCode | `StringInput` | Chain Code |
+| eventDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| eventDetailsEndDate | `DateTimeInput` | End Date |
+| eventDetailsEndDateTime | `DateInput` | End Date Time |
+| eventDetailsEvResort | `StringInput` | Event Property. |
+| eventDetailsEvType | `StringInput` | Ev Type |
+| eventDetailsEventId | `FloatInput` | Event ID |
+| eventDetailsEventLinkType | `StringInput` | Event Link Type |
+| eventDetailsResort | `StringInput` | Event Property |
+| eventDetailsEvStatus | `StringInput` | Event Status |
+| eventDetailsEventlocationid | `StringInput` | Eventlocationid |
+| eventDetailsEventtypeid | `StringInput` | Eventtypeid |
+| eventDetailsGroupId | `FloatInput` | Group ID |
+| eventDetailsInsertDate | `DateTimeInput` | Insert Date |
+| eventDetailsEventid | `FloatInput` | Eventid |
+| eventDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| eventDetailsEventLinkId | `FloatInput` | Linked Event |
+| eventDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| eventDetailsMasterEventId | `FloatInput` | Master Event ID |
+| eventDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| eventDetailsPkgEvId | `FloatInput` | Pkg Ev ID |
+| eventDetailsPackageeventid | `FloatInput` | Packageeventid |
+| eventDetailsParenteventid | `FloatInput` | Parenteventid |
+| eventDetailsPkgLink | `FloatInput` | Package Link |
+| eventDetailsRoomid | `StringInput` | Roomid |
+| eventDetailsRoom | `StringInput` | Space |
+| eventDetailsStartDate | `DateTimeInput` | Start Date |
+| eventDetailsStartDateTime | `DateInput` | Start Date Time |
+| eventDetailsTracecode | `StringInput` | Tracecode |
+| eventDetailsUpdateDate | `DateTimeInput` | Update Date |
+| workordersDetailsCompletedYn | `StringInput` | Activity Completed |
+| workordersDetailsCreatedDate | `DateTimeInput` | Activity Created On |
+| workordersDetailsEndDate | `DateTimeInput` | Activity End Date |
+| workordersDetailsWoNumber | `FloatInput` | Activity ID |
+| workordersDetailsProblemDesc | `StringInput` | Description of the Problem reported |
+| workordersDetailsPriorityCode | `StringInput` | Activity Priority |
+| workordersDetailsStartDate | `DateTimeInput` | Activity Start Date |
+| workordersDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| workordersDetailsEstUotCode | `StringInput` | Est Uot Code |
+| workordersDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| workordersDetailsLocationCode | `StringInput` | Location Code |
+| workordersDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| workordersDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| workordersDetailsParentWoNumber | `FloatInput` | Wo_number to which current work order is a sub work ordergenerated work_order number |
+| workordersDetailsPlantItemCode | `StringInput` | Plant Item Code |
+| workordersDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| workordersDetailsReasonCode | `StringInput` | Reason Code |
+| workordersDetailsRequestTypeId | `StringInput` | Request type that need to be generated. |
+| workordersDetailsRequestTypeTemplatesId | `FloatInput` | Stores the Campaign Type Template ID used for a campaign. |
+| workordersDetailsStatusCode | `StringInput` | Status Code |
+| workordersDetailsSurveyId | `FloatInput` | Linked Survey ID |
+| workordersDetailsTaskCode | `FloatInput` | Task Code |
+| workordersDetailsTaskitemNumber | `FloatInput` | Taskitem Number |
+| workordersDetailsTypeCode | `StringInput` | Type Code |
+| profileallDetailsNameId | `FloatInput` | The primary key for this table. |
+| profileallDetailsActiveYn | `StringInput` | Profile is active or not. |
+| profileallDetailsCrsNameid | `FloatInput` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
+| profileallDetailsChainCode | `StringInput` | Chain Code |
+| profileallDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |
+| profileallDetailsCompanyGroupId | `StringInput` | The company group or company group user ID in hierarchical format |
+| profileallDetailsContactFlag | `StringInput` | Used in S&C Module. |
+| profileallDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileallDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |
+| profileallDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| profileallDetailsHistoryYn | `StringInput` | Keep guest in history Y/N |
+| profileallDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profileallDetailsIndexName | `StringInput` | Index Name |
+| profileallDetailsOrganizationId | `FloatInput` | Organization ID |
+| profileallDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileallDetailsNameType | `StringInput` | The type of Profile. |
+| profileallDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileallDetailsProfileId | `FloatInput` | The primary key for this table. |
+| profileallDetailsProfileType | `StringInput` | The type of Profile. |
+| profileallDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
+| profileallDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |
+| profileallDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
+| profileallDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
+| profileallDetailsSfirst | `StringInput` | Uppercase value of First Name. |
+| profileallDetailsSrepCode | `StringInput` | Used in QMS Module |
+| profileallDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
+| profileallDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| resortDetailsResort | `StringInput` | The property that the record belongs to |
+| resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
+| resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
+| resortDetailsArAgent | `StringInput` | Default Account Type for an Agent for the Property |
+| resortDetailsArBalTrxCode | `StringInput` | Internal |
+| resortDetailsArCompany | `StringInput` | Default Account Type for a Company for the Property |
+| resortDetailsArCreditTrxCode | `StringInput` | Internal |
+| resortDetailsArGroups | `StringInput` | Default Account Type for a Group for the Property |
+| resortDetailsArIndividuals | `StringInput` | Default Account Type for Individual for the Property |
+| resortDetailsArSettleCode | `StringInput` | Internal |
+| resortDetailsArTypewriter | `StringInput` | Internal |
+| resortDetailsAccessCode | `StringInput` | Access Code |
+| resortDetailsQtyHandicappedRooms | `FloatInput` | Number of handicapped rooms. |
+| resortDetailsAgingLevel1 | `FloatInput` | Aging bucket 1 |
+| resortDetailsAgingLevel2 | `FloatInput` | Aging bucket 2 |
+| resortDetailsAgingLevel3 | `FloatInput` | Aging bucket 3 |
+| resortDetailsAgingLevel4 | `FloatInput` | Aging bucket 4 |
+| resortDetailsAgingLevel5 | `FloatInput` | Aging bucket 3 |
+| resortDetailsAirport | `StringInput` | The Airport Code for the airport near the property |
+| resortDetailsAirportDistance | `StringInput` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
+| resortDetailsAirportTime | `StringInput` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
+| resortDetailsAllowLoginYn | `StringInput` | Allow loggin in to this resort(Y/N) |
+| resortDetailsAllowancePeriodAdj | `StringInput` | Period for the allowance |
+| resortDetailsAwardsTimeout | `FloatInput` | Internal |
+| resortDetailsBrArea | `StringInput` | Ball Room Area |
+| resortDetailsBrSeats | `FloatInput` | No of Ballroom Seats |
+| resortDetailsBaseLanguage | `StringInput` | The base language of the Hotel |
+| resortDetailsBlock | `StringInput` | It contains the reservation type to be used when making group block |
+| resortDetailsBrandCode | `StringInput` | Brand Code of the property. |
+| resortDetailsBudgetMonth | `FloatInput` | Financial Year of the Property |
+| resortDetailsBeginDate | `DateInput` | The date this resort becomes valid for use by the system |
+| resortDetailsBusinessId | `StringInput` | Value for the parameter. |
+| resortDetailsBusinessRegCode | `StringInput` | Value for the parameter. |
+| resortDetailsCroCode | `StringInput` | Code for the CRO |
+| resortDetailsCashShiftDrop | `StringInput` | Internal |
+| resortDetailsCateringCurrencyCode | `StringInput` | Catering Currency Code used when Catering Currency differs from base currency. |
+| resortDetailsCateringCurrencyFormat | `StringInput` | Catering currency format. |
+| resortDetailsCXchangeDate | `DateInput` | Central  Exchange Date |
+| resortDetailsCXchangeRate | `FloatInput` | Central  Exchange Rate |
+| resortDetailsCCreditLimit | `FloatInput` | Central Credit Limit |
+| resortDetailsCentralCurrencyCode | `StringInput` | Central Currency Code |
+| resortDetailsCentralCurrencyDesc | `StringInput` | Central Currency Description |
+| resortDetailsCDblRate2 | `FloatInput` | Central Double Rate2 |
+| resortDetailsCDblRate1 | `FloatInput` | Central Double Rate1 |
+| resortDetailsRepPasserbyMarket | `StringInput` | Central Passerby Market |
+| resortDetailsRepPasserbySource | `StringInput` | Central Passerby Source |
+| resortDetailsRepResortType | `StringInput` | Central Property Type |
+| resortDetailsCSglRate1 | `FloatInput` | Central Sgl Rate1 |
+| resortDetailsCSglRate2 | `FloatInput` | Central Sgl Rate 2 |
+| resortDetailsRepState | `StringInput` | Central State |
+| resortDetailsRepStateDesc | `StringInput` | Central State Description |
+| resortDetailsCSuiRate1 | `FloatInput` | Central Sui Rate1 |
+| resortDetailsCSuiRate2 | `FloatInput` | Central Sui Rate 2 |
+| resortDetailsCTplRate1 | `FloatInput` | Central Tpl Rate1 |
+| resortDetailsCTplRate2 | `FloatInput` | Central Tpl Rate 2 |
+| resortDetailsCWarningAmount | `FloatInput` | Central Warning Amount |
+| resortDetailsChainCode | `StringInput` | Chain Code for the chain to which the property belongs |
+| resortDetailsChainDescription | `StringInput` | The description of this chain. |
+| resortDetailsChainMode | `StringInput` | Chain Mode |
+| resortDetailsCheckExgPaidout | `StringInput` | Internal |
+| resortDetailsCheckOutTime | `DateTimeInput` | The Hotel official check out time |
+| resortDetailsCheckShiftDrop | `StringInput` | Internal |
+| resortDetailsCheckTrxcode | `StringInput` | Internal |
+| resortDetailsCheckInTime | `DateTimeInput` | The Hotel official check intime |
+| resortDetailsCity | `StringInput` | The physical city in which this property resides. |
+| resortDetailsCityDescription | `StringInput` | City Description |
+| resortDetailsComAddress | `StringInput` | Internal |
+| resortDetailsComMethod | `StringInput` | Internal |
+| resortDetailsComNameXrefId | `FloatInput` | Internal |
+| resortDetailsCompanyAddressType | `StringInput` | Internal |
+| resortDetailsCompanyPhoneType | `StringInput` | Internal |
+| resortDetailsConfigurationMode | `StringInput` | Internal |
+| resortDetailsConfirmRegcardPrinter | `StringInput` | Internal |
+| resortDetailsQtyConnectingRooms | `FloatInput` | Number of connecting rooms. |
+| resortDetailsAllContacts | `StringInput` | The unique name of application user |
+| resortDetailsCopies | `FloatInput` | Number of copies to be printed |
+| resortDetailsCountryName | `StringInput` | Country name. |
+| resortDetailsCountryCode | `StringInput` | The name of the country in which this property resides. |
+| resortDetailsCountryMode | `StringInput` | Value for the parameter. |
+| resortDetailsCreditLimit | `FloatInput` | The default credit limit for guests. |
+| resortDetailsCurrencyCode | `StringInput` | Currency Code. |
+| resortDetailsCurrencySymbol | `StringInput` | Currency Symbol like $ or EURO symbol |
+| resortDetailsCurrencyName | `StringInput` | A description of this currency. |
+| resortDetailsLocalCurrencyFormat | `StringInput` | Format for the local currency. |
+| resortDetailsCurtainColor | `StringInput` | Color that of the background |
+| resortDetailsDsi | `FloatInput` | DSI |
+| resortDetailsDateForAging | `StringInput` | Date the aging should begin |
+| resortDetailsDateSeparator | `StringInput` | Type of separator to distinguish between DD MM and YYYY |
+| resortDetailsDecimalPlaces | `FloatInput` | Number of places for the default currency |
+| resortDetailsDecimalSeparator | `StringInput` | Type of decimal separator |
+| resortDetailsCurrencyDecimals | `FloatInput` | Number of decimals to designate currency |
+| resortDetailsDefaultFolioStyle | `FloatInput` | Folio style to be used for all guests |
+| resortDetailsDefaultGuestAddress | `StringInput` | Default guest address format. |
+| resortDetailsDefaultMembershipType | `StringInput` | Future use |
+| resortDetailsDefaultPostingRoom | `StringInput` | Future use |
+| resortDetailsDefaultPropertyAddress | `StringInput` | Default property address format. |
+| resortDetailsDefaultRateCode | `StringInput` | Future use |
+| resortDetailsDefaultRatecodePcr | `StringInput` | Rate code used to default a PCR rate code used in FIT Contracts. |
+| resortDetailsDefaultRatecodeRack | `StringInput` | Rate code used to default a RACK rate code used for FIT Contracts. |
+| resortDetailsDefaultRegistrationCard | `StringInput` | Default registration card for the property. |
+| resortDetailsDefaultReservationType | `StringInput` | The Default reservation type for this property |
+| resortDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| resortDetailsDepositLedTrxCode | `StringInput` | Future use |
+| resortDetailsDestinationId | `StringInput` | Destination ID |
+| resortDetailsDfltPkgTranCode | `StringInput` | Future use |
+| resortDetailsDfltTranCodeRateCode | `StringInput` | Future use |
+| resortDetailsDirections | `StringInput` | Internal |
+| resortDetailsDirsales | `StringInput` | Future use |
+| resortDetailsDisableLoginYn | `StringInput` | LOGIN into the application is disabled. |
+| resortDetailsQtyDoubleRooms | `FloatInput` | Number of double rooms. |
+| resortDetailsDownloadRestYn | `StringInput` | Download Rest YN |
+| resortDetailsDutyManagerPager | `StringInput` | Pager number for the Manager on duty for the property. |
+| resortDetailsEmail | `StringInput` | Email id for the property. |
+| resortDetailsEndDate | `DateInput` | Future use. |
+| resortDetailsExchangePostingType | `StringInput` | Default Exchange posting status for the property |
+| resortDetailsFloorNumExecutiveFloor | `StringInput` | Floor number of executive floor. |
+| resortDetailsExpHotelCode | `StringInput` | Hotel code used for third party exports |
+| resortDetailsExtExpFileLocation | `StringInput` | Future use |
+| resortDetailsExtPropertyCode | `StringInput` | Future use |
+| resortDetailsExternalScYn | `StringInput` | Indicates that the property uses an external SC system. |
+| resortDetailsQtyFamilyRooms | `FloatInput` | Number of family rooms. |
+| resortDetailsFaxNoFormat | `StringInput` | Fax number formats. |
+| resortDetailsFax | `StringInput` | The fax phone number |
+| resortDetailsFiscalEndDate | `DateInput` | Future use |
+| resortDetailsFiscalPeriodType | `StringInput` | Future use |
+| resortDetailsFiscalStartDate | `DateInput` | Future use |
+| resortDetailsFiscalStartMonth | `FloatInput` | Fiscal Year Begin Month |
+| resortDetailsFiscalStartYear | `FloatInput` | Fiscal Year Begin Year |
+| resortDetailsFlags | `StringInput` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
+| resortDetailsFlowCode | `StringInput` | Future use |
+| resortDetailsFnsTier | `StringInput` | Property Free Nights Stay Tier. |
+| resortDetailsFolioLanguage1 | `StringInput` | Other languages |
+| resortDetailsFolioLanguage2 | `StringInput` | Other languages |
+| resortDetailsFolioLanguage3 | `StringInput` | Other languages |
+| resortDetailsFolioLanguage4 | `StringInput` | Other languages |
+| resortDetailsGenmgr | `StringInput` | Future use |
+| resortDetailsGroupRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for Group |
+| resortDetailsGuestLookupTimeout | `FloatInput` | Future use |
+| resortDetailsQtyGuestElevators | `FloatInput` | Number of guest elevators. |
+| resortDetailsQtyGuestRoomFloors | `FloatInput` | Total of guest rooms floors. |
+| resortDetailsHotelCode | `StringInput` | Future use |
+| resortDetailsHotelFc | `StringInput` | Future use |
+| resortDetailsHotelId | `StringInput` | Hotel id |
+| resortDetailsHotelType | `StringInput` | Future use |
+| resortDetailsImgDirectionId | `FloatInput` | Future use |
+| resortDetailsImgHotelId | `FloatInput` | Future use |
+| resortDetailsImgMapId | `FloatInput` | Future use |
+| resortDetailsInactiveDaysForGuestProfil | `FloatInput` | Future use |
+| resortDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| resortDetailsIndividualAddressType | `StringInput` | Future use |
+| resortDetailsIndividualPhoneType | `StringInput` | Future use |
+| resortDetailsIndividualRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for group |
+| resortDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| resortDetailsInsertUser | `FloatInput` | The user that created the record |
+| resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |
+| resortDetailsInventoryYn | `StringInput` | Future use |
+| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |
+| resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |
+| resortDetailsLeadsend | `StringInput` | Future use |
+| resortDetailsLegalOwner | `StringInput` | The owner who owns this property |
+| resortDetailsLocationId | `StringInput` | The property that the record belongs to |
+| resortDetailsLongDateFormat | `StringInput` | Long date format for the property. |
+| resortDetailsLongStayControl | `FloatInput` | The default length of stay |
+| resortDetailsLongitude | `FloatInput` | Longitude of the property in decimal |
+| resortDetailsMaxAdultsFamilyRoom | `FloatInput` | Maximum adults in family rooms. |
+| resortDetailsMaxChildrenFamilyRoom | `FloatInput` | Maximum children in family rooms. |
+| resortDetailsMaxOccupancy | `FloatInput` | Future use |
+| resortDetailsMaxcreditdays | `FloatInput` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
+| resortDetailsMbsSupportedYn | `StringInput` | Indicates whether the property supports MBS. Used in some file exports. |
+| resortDetailsMeetRooms | `FloatInput` | Future use |
+| resortDetailsMeetSeats | `FloatInput` | Future use |
+| resortDetailsMeetSpace | `FloatInput` | Future use |
+| resortDetailsMeetingFc | `StringInput` | Future use |
+| resortDetailsMinDaysBet2ReminderLetter | `FloatInput` | Minimum days for reminder letter. |
+| resortDetailsNameIdLink | `FloatInput` | Internal |
+| resortDetailsNightAuditCashierId | `StringInput` | Future use |
+| resortDetailsQtyNonSmokingRooms | `FloatInput` | Number of non smoking rooms. |
+| resortDetailsNotes | `StringInput` | Notes for the property |
+| resortDetailsNumberBeds | `FloatInput` | Total number of beds in this property |
+| resortDetailsNumberFloors | `FloatInput` | Total number of floors in this property |
+| resortDetailsNumberRooms | `FloatInput` | Number of Rooms |
+| resortDetailsOpusCurrencyCode | `StringInput` | Future use |
+| resortDetailsOrganizationId | `FloatInput` | Organization ID |
+| resortDetailsOrganizationid | `FloatInput` | Organization Internal ID |
+| resortDetailsOwnership | `StringInput` | Future use |
+| resortDetailsPackageLoss | `StringInput` | Package Loss code for a particular package |
+| resortDetailsPackageProfit | `StringInput` | Package Profit code for a particular Package |
+| resortDetailsParentOrgCode | `StringInput` | Parent Org Code |
+| resortDetailsPasserbyMarket | `StringInput` | Market code |
+| resortDetailsPasserbySource | `StringInput` | Source code |
+| resortDetailsPath | `StringInput` | Path |
+| resortDetailsPaymentDate | `DateTimeInput` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| resortDetailsPerReservationRoomLimit | `FloatInput` | Future use |
+| resortDetailsTelephone | `StringInput` | The direct dial phone number of this property |
+| resortDetailsPostCode | `StringInput` | The postal code of this property. |
+| resortDetailsPkid | `FloatInput` | Primary Key ID |
+| resortDetailsProinfoUrl | `StringInput` | URL where property information is located. |
+| resortDetailsPropMapUrl | `StringInput` | Property MAP URL. |
+| resortDetailsPropPicUrl | `StringInput` | Property picture URL. |
+| resortDetailsLocationid | `StringInput` | The property that the record belongs to |
+| resortDetailsName | `StringInput` | The name of this property. |
+| resortDetailsResortType | `StringInput` | Type of resort. |
+| resortDetailsQuotedCurrency | `StringInput` | Future use |
+| resortDetailsRnaInsertdate | `DateTimeInput` | RNA Insert Date |
+| resortDetailsRnaUpdatedate | `DateTimeInput` | RNA Update Date |
+| resortDetailsReconcileDate | `DateTimeInput` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| resortDetailsRegionCode | `StringInput` | Future use |
+| resortDetailsRegionDescription | `StringInput` | Description of the Region. |
+| resortDetailsRestaurant | `FloatInput` | Future use |
+| resortDetailsRhythmSheets | `FloatInput` | Total number of Sheets |
+| resortDetailsRhythmTowels | `FloatInput` | Total number of Towels |
+| resortDetailsRoomAmenity | `StringInput` | Room amenity. |
+| resortDetailsSglNum | `StringInput` | Future use |
+| resortDetailsSglRate1 | `FloatInput` | Future use |
+| resortDetailsSglRate2 | `FloatInput` | Future use |
+| resortDetailsSuiNum | `StringInput` | Future use |
+| resortDetailsSuiRate1 | `FloatInput` | Future use |
+| resortDetailsSuiRate2 | `FloatInput` | Future use |
+| resortDetailsSaveProfiles | `FloatInput` | To store number of days before deleting the gest profile |
+| resortDetailsScriptId | `FloatInput` | Future use |
+| resortDetailsSeason1 | `StringInput` | Future use |
+| resortDetailsSeason2 | `StringInput` | Future use |
+| resortDetailsSeason3 | `StringInput` | Future use |
+| resortDetailsSeason4 | `StringInput` | Future use |
+| resortDetailsSeason5 | `StringInput` | Future use |
+| resortDetailsSendLeadAsBooking | `StringInput` | Indicates that the property accepts leads as bookings. |
+| resortDetailsShopDescription | `StringInput` | Shop description. |
+| resortDetailsShortDateFormat | `StringInput` | Short date format for the property. |
+| resortDetailsQtySingleRooms | `FloatInput` | Number of single rooms. |
+| resortDetailsSourceCommission | `StringInput` | For default commission percentage |
+| resortDetailsState | `StringInput` | The state in which this property is located. |
+| resortDetailsStateDesc | `StringInput` | Description of the state. |
+| resortDetailsStreet | `StringInput` | The street of the property. |
+| resortDetailsQtySuites | `FloatInput` | Number of suites. |
+| resortDetailsSummCurrencyCode | `StringInput` | Internal |
+| resortDetailsTaCommission | `StringInput` | For default commission percentage |
+| resortDetailsTplNum | `StringInput` | Future use |
+| resortDetailsTplRate1 | `FloatInput` | Future use |
+| resortDetailsTplRate2 | `FloatInput` | Future use |
+| resortDetailsTelephoneNoFormat | `StringInput` | Formats for telephone number |
+| resortDetailsThousandSeparator | `StringInput` | Separator for monetory values |
+| resortDetailsTimeFormat | `StringInput` | Default time format for the property. |
+| resortDetailsTimezoneRegion | `StringInput` | Time zone region selected by the employee. |
+| resortDetailsTollfree | `StringInput` | Toll free telephone number. |
+| resortDetailsTotRooms | `FloatInput` | Future use |
+| resortDetailsTouristNumber | `StringInput` | Tourist Number |
+| resortDetailsTranslateMulticharYn | `StringInput` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
+| resortDetailsTurnawayCode | `StringInput` | Turnaway code for the property. |
+| resortDetailsQtyTwinRooms | `FloatInput` | Number of twin rooms. |
+| resortDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| resortDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| resortDetailsVatId | `StringInput` | VAT ID of this property. |
+| resortDetailsVideocheckoutPrinter | `StringInput` | Future use |
+| resortDetailsVideoCoStart | `DateTimeInput` | Video check out start time. |
+| resortDetailsVideoCoStop | `DateTimeInput` | Video check out end time. |
+| resortDetailsWakeUpDelay | `FloatInput` | Future use |
+| resortDetailsWarningAmount | `FloatInput` | Amount at which warning is raised. |
+| resortDetailsWebaddress | `StringInput` | Webaddress of the property |
+| resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |
+| resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 
 [⬆ Back to Query](#query)
 

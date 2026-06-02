@@ -595,18 +595,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -614,10 +614,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -625,18 +625,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -644,10 +644,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -655,17 +655,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -673,18 +673,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -692,10 +692,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -703,129 +703,129 @@
 
 ### ProfilesLoyaltyQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| loyaltyprofilemembershipDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| loyaltyprofilemembershipDetailsDeviceCode | `StringInput` | Device Code |  |
-| loyaltyprofilemembershipDetailsInactiveDate | `DateTimeInput` | Inactive Date |  |
-| loyaltyprofilemembershipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| loyaltyprofilemembershipDetailsMembershipCardNo | `StringInput` | Membership Card Number |  |
-| loyaltyprofilemembershipDetailsMembershipClass | `StringInput` | Primary key of this table |  |
-| loyaltyprofilemembershipDetailsMembershipId | `FloatInput` | Membership ID |  |
-| loyaltyprofilemembershipDetailsMembershipLevel | `StringInput` | Membership Level |  |
-| loyaltyprofilemembershipDetailsMembershipType | `StringInput!` | Membership Type | `mandatoryInput` |
-| loyaltyprofilemembershipDetailsNameId | `FloatInput` | Name ID |  |
-| loyaltyprofilemembershipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| loyaltyprofilemembershipDetailsPartnerMembershipId | `FloatInput` | Membership ID that accrues Miles. |  |
-| loyaltyprofilemembershipDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| membershipbenefitsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershipclaimDetailsApprovalStatus | `StringInput` | Approval Status |  |
-| membershipclaimDetailsApproveReject | `StringInput` | Approve/Reject/None |  |
-| membershipclaimDetailsArrivalDate | `DateInput` | Arrival Date |  |
-| membershipclaimDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| membershipclaimDetailsCallerInformation | `StringInput` | Information about the caller. |  |
-| membershipclaimDetailsCallerName | `StringInput` | name of the person who called. |  |
-| membershipclaimDetailsChainCode | `StringInput` | Chain Code |  |
-| membershipclaimDetailsChannel | `StringInput` | Channel |  |
-| membershipclaimDetailsClaimAdjLimitCode | `StringInput` | Claim Adj Limit Code |  |
-| membershipclaimDetailsClaimDate | `DateInput` | Date claim was posted in the database. |  |
-| membershipclaimDetailsMembershipClaimId | `FloatInput` | Primary key. |  |
-| membershipclaimDetailsClaimOrigin | `StringInput` | User defined origin of claim. |  |
-| membershipclaimDetailsClaimSource | `StringInput` | Source of the Claim |  |
-| membershipclaimDetailsClaimStatus | `StringInput` | Status of the claim. |  |
-| membershipclaimDetailsClaimType | `StringInput` | User Defined Claim Types |  |
-| membershipclaimDetailsCloseDate | `DateInput` | Date and time cashier was closed. |  |
-| membershipclaimDetailsComments | `StringInput` | Comments |  |
-| membershipclaimDetailsPmsResvNo | `StringInput` | Confirmation Number |  |
-| membershipclaimDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| membershipclaimDetailsDepartureDate | `DateInput` | Departure Date |  |
-| membershipclaimDetailsCrsBookNo | `StringInput` | External Reference Number |  |
-| membershipclaimDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| membershipclaimDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershipclaimDetailsMarketCode | `StringInput` | Market Code |  |
-| membershipclaimDetailsResort | `StringInput` | Membership Claim Property |  |
-| membershipclaimDetailsMembershipId | `FloatInput` | Membership ID |  |
-| membershipclaimDetailsMembershipCardNo | `StringInput` | Membership Number |  |
-| membershipclaimDetailsMembershipTrxId | `FloatInput` | Membership Trx ID |  |
-| membershipclaimDetailsMembershipType | `StringInput` | Membership Type |  |
-| membershipclaimDetailsName | `StringInput` | Name |  |
-| membershipclaimDetailsNameId | `FloatInput` | Name ID |  |
-| membershipclaimDetailsOriginOfBooking | `StringInput` | Origin of Booking |  |
-| membershipclaimDetailsClaimOwnerName | `StringInput` | Owner |  |
-| membershipclaimDetailsPurposeOfStay | `StringInput` | Purpose of stay. |  |
-| membershipclaimDetailsRateCode | `StringInput` | Rate Code |  |
-| membershipclaimDetailsRecordType | `StringInput` | Record Type |  |
-| membershipclaimDetailsReplyByDate | `DateInput` | Date when the user gets a response to his/her claim. |  |
-| membershipclaimDetailsResvStatus | `StringInput` | Reservation Status |  |
-| membershipclaimDetailsRoom | `StringInput` | Room |  |
-| membershipclaimDetailsSubmitter | `StringInput` | Submitter |  |
-| membershipclaimDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| membershiphistoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershipissuedawardsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershiptransactionsDetailsAdjustmentYn | `StringInput` | Adjustment Y/N |  |
-| membershiptransactionsDetailsBeginDate | `DateInput` | Arrival Date |  |
-| membershiptransactionsDetailsAutomaticYn | `StringInput` | Points calculated automatically |  |
-| membershiptransactionsDetailsBaseBillingGroup | `StringInput` | Billing group for base award points. |  |
-| membershiptransactionsDetailsBillingGroup | `StringInput` | Billing Group |  |
-| membershiptransactionsDetailsBonusBillingGroup | `StringInput` | Billing group for bonus award points. |  |
-| membershiptransactionsDetailsBookedRoomLabel | `StringInput` | Booked Room Label |  |
-| membershiptransactionsDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| membershiptransactionsDetailsCrsBookNo | `StringInput` | CRS Booking Number |  |
-| membershiptransactionsDetailsChainCode | `StringInput` | Chain Code |  |
-| membershiptransactionsDetailsClaimAdjLimitCode | `StringInput` | Claim Adj Limit Code |  |
-| membershiptransactionsDetailsCurrencyCode | `StringInput` | Currency Code |  |
-| membershiptransactionsDetailsDataExportedDate | `DateInput` | Date when the record was exported. |  |
-| membershiptransactionsDetailsDataExportedYn | `StringInput` | Flag to indicate if record was exported. |  |
-| membershiptransactionsDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| membershiptransactionsDetailsEndDate | `DateInput` | Departure Date |  |
-| membershiptransactionsDetailsExceptionType | `StringInput` | Exception Type |  |
-| membershiptransactionsDetailsPointsExpirationDate | `DateTimeInput` | Point Expiration date. |  |
-| membershiptransactionsDetailsGraceRenewalFlg | `StringInput` | This flag indicate if grace renewals was done. |  |
-| membershiptransactionsDetailsInactiveDate | `DateInput` | Inactive Date |  |
-| membershiptransactionsDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| membershiptransactionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershiptransactionsDetailsMemberStatementId | `FloatInput` | Member Statement ID |  |
-| membershiptransactionsDetailsMembershipCardNo | `StringInput` | Membership Card Number |  |
-| membershiptransactionsDetailsMembershipId | `FloatInput` | Membership ID |  |
-| membershiptransactionsDetailsMembershipLevel | `StringInput` | Membership Level |  |
-| membershiptransactionsDetailsMembershipTrxId | `FloatInput` | Membership Trx ID |  |
-| membershiptransactionsDetailsMembershipTrxLinkId | `FloatInput` | Membership Trx Link ID |  |
-| membershiptransactionsDetailsMembershipType | `StringInput` | Membership Type |  |
-| membershiptransactionsDetailsMultipleMembershipId | `FloatInput` | Multiple Membership ID |  |
-| membershiptransactionsDetailsNameId | `FloatInput` | Name ID |  |
-| membershiptransactionsDetailsNewMemberLevel | `StringInput` | Used in membership tier upgrade rule to indicate new membership level. |  |
-| membershiptransactionsDetailsUserNotes | `StringInput` | Notes |  |
-| membershiptransactionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| membershiptransactionsDetailsOrigMemberLevel | `StringInput` | Used in membership tier upgrade rule to indicate original member level was upgraded to. |  |
-| membershiptransactionsDetailsOrigPointsExpirationDate | `DateTimeInput` | Date when points expired before it was extended. |  |
-| membershiptransactionsDetailsPmsResvNo | `StringInput` | PMS Reservation Number |  |
-| membershiptransactionsDetailsParentMembershipTrxId | `FloatInput` | Ref to parent transaction. |  |
-| membershiptransactionsDetailsPmsNameId | `StringInput` | Pms Name ID |  |
-| membershiptransactionsDetailsPmsResvNameId | `StringInput` | Pms Resv Name ID |  |
-| membershiptransactionsDetailsPointsAcYn | `StringInput` | Iindicate membership exceptions of back to back stay and multiple rooms. Valid values are YN and E. |  |
-| membershiptransactionsDetailsPointsCalculatedYn | `StringInput` | Flag to indicate if points are calculated. |  |
-| membershiptransactionsDetailsPointsCreditDate | `DateInput` | Date when points were created. |  |
-| membershiptransactionsDetailsPointsRejectedReason | `StringInput` | Point reject reason. |  |
-| membershiptransactionsDetailsAdjRuleCode | `StringInput` | Rule code for adjustment transactions. |  |
-| membershiptransactionsDetailsPopulationMethod | `StringInput` | Population Method |  |
-| membershiptransactionsDetailsPosCode | `StringInput` | Pos Code |  |
-| membershiptransactionsDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| membershiptransactionsDetailsProcessingMessages | `StringInput` | Any error messages generated during calculation. |  |
-| membershiptransactionsDetailsPromotionCode2 | `StringInput` | Profile Promotion 1 |  |
-| membershiptransactionsDetailsPromotionCode3 | `StringInput` | Profile Promotion 2 |  |
-| membershiptransactionsDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| membershiptransactionsDetailsPromotionCode1 | `StringInput` | Rate Promotion Code |  |
-| membershiptransactionsDetailsPromotionCode1Desc | `StringInput` | Rate Promotion Description |  |
-| membershiptransactionsDetailsRecordType | `StringInput` | Record Type Code |  |
-| membershiptransactionsDetailsRecordTypeDesc | `StringInput` | Record Type Description |  |
-| membershiptransactionsDetailsResvStatus | `StringInput` | Reservation Status |  |
-| membershiptransactionsDetailsRoomLabel | `StringInput` | Room Label |  |
-| membershiptransactionsDetailsStayRecordId | `FloatInput` | Stay Record ID |  |
-| membershiptransactionsDetailsTierAction | `StringInput` | Type of action performed. |  |
-| membershiptransactionsDetailsMembershipTrxDate | `DateInput` | Transaction date. |  |
-| membershiptransactionsDetailsTransactionType | `StringInput` | Transaction Type |  |
-| membershiptransactionsDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| membershiptscheaderDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| loyaltyprofilemembershipDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| loyaltyprofilemembershipDetailsDeviceCode | `StringInput` | Device Code |
+| loyaltyprofilemembershipDetailsInactiveDate | `DateTimeInput` | Inactive Date |
+| loyaltyprofilemembershipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| loyaltyprofilemembershipDetailsMembershipCardNo | `StringInput` | Membership Card Number |
+| loyaltyprofilemembershipDetailsMembershipClass | `StringInput` | Primary key of this table |
+| loyaltyprofilemembershipDetailsMembershipId | `FloatInput` | Membership ID |
+| loyaltyprofilemembershipDetailsMembershipLevel | `StringInput` | Membership Level |
+| loyaltyprofilemembershipDetailsMembershipType | `StringInput!` | Membership Type<br>`@mandatoryInput` |
+| loyaltyprofilemembershipDetailsNameId | `FloatInput` | Name ID |
+| loyaltyprofilemembershipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| loyaltyprofilemembershipDetailsPartnerMembershipId | `FloatInput` | Membership ID that accrues Miles. |
+| loyaltyprofilemembershipDetailsUpdateDate | `DateTimeInput` | Update Date |
+| membershipbenefitsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershipclaimDetailsApprovalStatus | `StringInput` | Approval Status |
+| membershipclaimDetailsApproveReject | `StringInput` | Approve/Reject/None |
+| membershipclaimDetailsArrivalDate | `DateInput` | Arrival Date |
+| membershipclaimDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| membershipclaimDetailsCallerInformation | `StringInput` | Information about the caller. |
+| membershipclaimDetailsCallerName | `StringInput` | name of the person who called. |
+| membershipclaimDetailsChainCode | `StringInput` | Chain Code |
+| membershipclaimDetailsChannel | `StringInput` | Channel |
+| membershipclaimDetailsClaimAdjLimitCode | `StringInput` | Claim Adj Limit Code |
+| membershipclaimDetailsClaimDate | `DateInput` | Date claim was posted in the database. |
+| membershipclaimDetailsMembershipClaimId | `FloatInput` | Primary key. |
+| membershipclaimDetailsClaimOrigin | `StringInput` | User defined origin of claim. |
+| membershipclaimDetailsClaimSource | `StringInput` | Source of the Claim |
+| membershipclaimDetailsClaimStatus | `StringInput` | Status of the claim. |
+| membershipclaimDetailsClaimType | `StringInput` | User Defined Claim Types |
+| membershipclaimDetailsCloseDate | `DateInput` | Date and time cashier was closed. |
+| membershipclaimDetailsComments | `StringInput` | Comments |
+| membershipclaimDetailsPmsResvNo | `StringInput` | Confirmation Number |
+| membershipclaimDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| membershipclaimDetailsDepartureDate | `DateInput` | Departure Date |
+| membershipclaimDetailsCrsBookNo | `StringInput` | External Reference Number |
+| membershipclaimDetailsInsertDate | `DateTimeInput` | Insert Date |
+| membershipclaimDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershipclaimDetailsMarketCode | `StringInput` | Market Code |
+| membershipclaimDetailsResort | `StringInput` | Membership Claim Property |
+| membershipclaimDetailsMembershipId | `FloatInput` | Membership ID |
+| membershipclaimDetailsMembershipCardNo | `StringInput` | Membership Number |
+| membershipclaimDetailsMembershipTrxId | `FloatInput` | Membership Trx ID |
+| membershipclaimDetailsMembershipType | `StringInput` | Membership Type |
+| membershipclaimDetailsName | `StringInput` | Name |
+| membershipclaimDetailsNameId | `FloatInput` | Name ID |
+| membershipclaimDetailsOriginOfBooking | `StringInput` | Origin of Booking |
+| membershipclaimDetailsClaimOwnerName | `StringInput` | Owner |
+| membershipclaimDetailsPurposeOfStay | `StringInput` | Purpose of stay. |
+| membershipclaimDetailsRateCode | `StringInput` | Rate Code |
+| membershipclaimDetailsRecordType | `StringInput` | Record Type |
+| membershipclaimDetailsReplyByDate | `DateInput` | Date when the user gets a response to his/her claim. |
+| membershipclaimDetailsResvStatus | `StringInput` | Reservation Status |
+| membershipclaimDetailsRoom | `StringInput` | Room |
+| membershipclaimDetailsSubmitter | `StringInput` | Submitter |
+| membershipclaimDetailsUpdateDate | `DateTimeInput` | Update Date |
+| membershiphistoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershipissuedawardsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershiptransactionsDetailsAdjustmentYn | `StringInput` | Adjustment Y/N |
+| membershiptransactionsDetailsBeginDate | `DateInput` | Arrival Date |
+| membershiptransactionsDetailsAutomaticYn | `StringInput` | Points calculated automatically |
+| membershiptransactionsDetailsBaseBillingGroup | `StringInput` | Billing group for base award points. |
+| membershiptransactionsDetailsBillingGroup | `StringInput` | Billing Group |
+| membershiptransactionsDetailsBonusBillingGroup | `StringInput` | Billing group for bonus award points. |
+| membershiptransactionsDetailsBookedRoomLabel | `StringInput` | Booked Room Label |
+| membershiptransactionsDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| membershiptransactionsDetailsCrsBookNo | `StringInput` | CRS Booking Number |
+| membershiptransactionsDetailsChainCode | `StringInput` | Chain Code |
+| membershiptransactionsDetailsClaimAdjLimitCode | `StringInput` | Claim Adj Limit Code |
+| membershiptransactionsDetailsCurrencyCode | `StringInput` | Currency Code |
+| membershiptransactionsDetailsDataExportedDate | `DateInput` | Date when the record was exported. |
+| membershiptransactionsDetailsDataExportedYn | `StringInput` | Flag to indicate if record was exported. |
+| membershiptransactionsDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| membershiptransactionsDetailsEndDate | `DateInput` | Departure Date |
+| membershiptransactionsDetailsExceptionType | `StringInput` | Exception Type |
+| membershiptransactionsDetailsPointsExpirationDate | `DateTimeInput` | Point Expiration date. |
+| membershiptransactionsDetailsGraceRenewalFlg | `StringInput` | This flag indicate if grace renewals was done. |
+| membershiptransactionsDetailsInactiveDate | `DateInput` | Inactive Date |
+| membershiptransactionsDetailsInsertDate | `DateTimeInput` | Insert Date |
+| membershiptransactionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershiptransactionsDetailsMemberStatementId | `FloatInput` | Member Statement ID |
+| membershiptransactionsDetailsMembershipCardNo | `StringInput` | Membership Card Number |
+| membershiptransactionsDetailsMembershipId | `FloatInput` | Membership ID |
+| membershiptransactionsDetailsMembershipLevel | `StringInput` | Membership Level |
+| membershiptransactionsDetailsMembershipTrxId | `FloatInput` | Membership Trx ID |
+| membershiptransactionsDetailsMembershipTrxLinkId | `FloatInput` | Membership Trx Link ID |
+| membershiptransactionsDetailsMembershipType | `StringInput` | Membership Type |
+| membershiptransactionsDetailsMultipleMembershipId | `FloatInput` | Multiple Membership ID |
+| membershiptransactionsDetailsNameId | `FloatInput` | Name ID |
+| membershiptransactionsDetailsNewMemberLevel | `StringInput` | Used in membership tier upgrade rule to indicate new membership level. |
+| membershiptransactionsDetailsUserNotes | `StringInput` | Notes |
+| membershiptransactionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| membershiptransactionsDetailsOrigMemberLevel | `StringInput` | Used in membership tier upgrade rule to indicate original member level was upgraded to. |
+| membershiptransactionsDetailsOrigPointsExpirationDate | `DateTimeInput` | Date when points expired before it was extended. |
+| membershiptransactionsDetailsPmsResvNo | `StringInput` | PMS Reservation Number |
+| membershiptransactionsDetailsParentMembershipTrxId | `FloatInput` | Ref to parent transaction. |
+| membershiptransactionsDetailsPmsNameId | `StringInput` | Pms Name ID |
+| membershiptransactionsDetailsPmsResvNameId | `StringInput` | Pms Resv Name ID |
+| membershiptransactionsDetailsPointsAcYn | `StringInput` | Iindicate membership exceptions of back to back stay and multiple rooms. Valid values are YN and E. |
+| membershiptransactionsDetailsPointsCalculatedYn | `StringInput` | Flag to indicate if points are calculated. |
+| membershiptransactionsDetailsPointsCreditDate | `DateInput` | Date when points were created. |
+| membershiptransactionsDetailsPointsRejectedReason | `StringInput` | Point reject reason. |
+| membershiptransactionsDetailsAdjRuleCode | `StringInput` | Rule code for adjustment transactions. |
+| membershiptransactionsDetailsPopulationMethod | `StringInput` | Population Method |
+| membershiptransactionsDetailsPosCode | `StringInput` | Pos Code |
+| membershiptransactionsDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| membershiptransactionsDetailsProcessingMessages | `StringInput` | Any error messages generated during calculation. |
+| membershiptransactionsDetailsPromotionCode2 | `StringInput` | Profile Promotion 1 |
+| membershiptransactionsDetailsPromotionCode3 | `StringInput` | Profile Promotion 2 |
+| membershiptransactionsDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| membershiptransactionsDetailsPromotionCode1 | `StringInput` | Rate Promotion Code |
+| membershiptransactionsDetailsPromotionCode1Desc | `StringInput` | Rate Promotion Description |
+| membershiptransactionsDetailsRecordType | `StringInput` | Record Type Code |
+| membershiptransactionsDetailsRecordTypeDesc | `StringInput` | Record Type Description |
+| membershiptransactionsDetailsResvStatus | `StringInput` | Reservation Status |
+| membershiptransactionsDetailsRoomLabel | `StringInput` | Room Label |
+| membershiptransactionsDetailsStayRecordId | `FloatInput` | Stay Record ID |
+| membershiptransactionsDetailsTierAction | `StringInput` | Type of action performed. |
+| membershiptransactionsDetailsMembershipTrxDate | `DateInput` | Transaction date. |
+| membershiptransactionsDetailsTransactionType | `StringInput` | Transaction Type |
+| membershiptransactionsDetailsUpdateDate | `DateTimeInput` | Update Date |
+| membershiptscheaderDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 
 [⬆ Back to Query](#query)
 

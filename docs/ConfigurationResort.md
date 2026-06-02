@@ -7675,18 +7675,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7694,10 +7694,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7705,18 +7705,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7724,10 +7724,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7735,17 +7735,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7753,18 +7753,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7772,10 +7772,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -7783,1371 +7783,1371 @@
 
 ### ConfigurationResortQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| resortDetailsResort | `StringInput` | The property that the record belongs to | `conditionalInputPair(pair: 1)` |
-| resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |  |
-| resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |  |
-| resortDetailsArAgent | `StringInput` | Default Account Type for an Agent for the Property |  |
-| resortDetailsArBalTrxCode | `StringInput` | Internal |  |
-| resortDetailsArCompany | `StringInput` | Default Account Type for a Company for the Property |  |
-| resortDetailsArCreditTrxCode | `StringInput` | Internal |  |
-| resortDetailsArGroups | `StringInput` | Default Account Type for a Group for the Property |  |
-| resortDetailsArIndividuals | `StringInput` | Default Account Type for Individual for the Property |  |
-| resortDetailsArSettleCode | `StringInput` | Internal |  |
-| resortDetailsArTypewriter | `StringInput` | Internal |  |
-| resortDetailsAccessCode | `StringInput` | Access Code |  |
-| resortDetailsQtyHandicappedRooms | `FloatInput` | Number of handicapped rooms. |  |
-| resortDetailsAgingLevel1 | `FloatInput` | Aging bucket 1 |  |
-| resortDetailsAgingLevel2 | `FloatInput` | Aging bucket 2 |  |
-| resortDetailsAgingLevel3 | `FloatInput` | Aging bucket 3 |  |
-| resortDetailsAgingLevel4 | `FloatInput` | Aging bucket 4 |  |
-| resortDetailsAgingLevel5 | `FloatInput` | Aging bucket 3 |  |
-| resortDetailsAirport | `StringInput` | The Airport Code for the airport near the property |  |
-| resortDetailsAirportDistance | `StringInput` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |  |
-| resortDetailsAirportTime | `StringInput` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |  |
-| resortDetailsAllowLoginYn | `StringInput` | Allow loggin in to this resort(Y/N) |  |
-| resortDetailsAllowancePeriodAdj | `StringInput` | Period for the allowance |  |
-| resortDetailsAwardsTimeout | `FloatInput` | Internal |  |
-| resortDetailsBrArea | `StringInput` | Ball Room Area |  |
-| resortDetailsBrSeats | `FloatInput` | No of Ballroom Seats |  |
-| resortDetailsBaseLanguage | `StringInput` | The base language of the Hotel |  |
-| resortDetailsBlock | `StringInput` | It contains the reservation type to be used when making group block |  |
-| resortDetailsBrandCode | `StringInput` | Brand Code of the property. |  |
-| resortDetailsBudgetMonth | `FloatInput` | Financial Year of the Property |  |
-| resortDetailsBeginDate | `DateInput` | The date this resort becomes valid for use by the system |  |
-| resortDetailsBusinessId | `StringInput` | Value for the parameter. |  |
-| resortDetailsBusinessRegCode | `StringInput` | Value for the parameter. |  |
-| resortDetailsCroCode | `StringInput` | Code for the CRO |  |
-| resortDetailsCashShiftDrop | `StringInput` | Internal |  |
-| resortDetailsCateringCurrencyCode | `StringInput` | Catering Currency Code used when Catering Currency differs from base currency. |  |
-| resortDetailsCateringCurrencyFormat | `StringInput` | Catering currency format. |  |
-| resortDetailsCXchangeDate | `DateInput` | Central  Exchange Date |  |
-| resortDetailsCXchangeRate | `FloatInput` | Central  Exchange Rate |  |
-| resortDetailsCCreditLimit | `FloatInput` | Central Credit Limit |  |
-| resortDetailsCentralCurrencyCode | `StringInput` | Central Currency Code |  |
-| resortDetailsCentralCurrencyDesc | `StringInput` | Central Currency Description |  |
-| resortDetailsCDblRate2 | `FloatInput` | Central Double Rate2 |  |
-| resortDetailsCDblRate1 | `FloatInput` | Central Double Rate1 |  |
-| resortDetailsRepPasserbyMarket | `StringInput` | Central Passerby Market |  |
-| resortDetailsRepPasserbySource | `StringInput` | Central Passerby Source |  |
-| resortDetailsRepResortType | `StringInput` | Central Property Type |  |
-| resortDetailsCSglRate1 | `FloatInput` | Central Sgl Rate1 |  |
-| resortDetailsCSglRate2 | `FloatInput` | Central Sgl Rate 2 |  |
-| resortDetailsRepState | `StringInput` | Central State |  |
-| resortDetailsRepStateDesc | `StringInput` | Central State Description |  |
-| resortDetailsCSuiRate1 | `FloatInput` | Central Sui Rate1 |  |
-| resortDetailsCSuiRate2 | `FloatInput` | Central Sui Rate 2 |  |
-| resortDetailsCTplRate1 | `FloatInput` | Central Tpl Rate1 |  |
-| resortDetailsCTplRate2 | `FloatInput` | Central Tpl Rate 2 |  |
-| resortDetailsCWarningAmount | `FloatInput` | Central Warning Amount |  |
-| resortDetailsChainCode | `StringInput` | Chain Code for the chain to which the property belongs |  |
-| resortDetailsChainDescription | `StringInput` | The description of this chain. |  |
-| resortDetailsChainMode | `StringInput` | Chain Mode |  |
-| resortDetailsCheckExgPaidout | `StringInput` | Internal |  |
-| resortDetailsCheckOutTime | `DateTimeInput` | The Hotel official check out time |  |
-| resortDetailsCheckShiftDrop | `StringInput` | Internal |  |
-| resortDetailsCheckTrxcode | `StringInput` | Internal |  |
-| resortDetailsCheckInTime | `DateTimeInput` | The Hotel official check intime |  |
-| resortDetailsCity | `StringInput` | The physical city in which this property resides. |  |
-| resortDetailsCityDescription | `StringInput` | City Description |  |
-| resortDetailsComAddress | `StringInput` | Internal |  |
-| resortDetailsComMethod | `StringInput` | Internal |  |
-| resortDetailsComNameXrefId | `FloatInput` | Internal |  |
-| resortDetailsCompanyAddressType | `StringInput` | Internal |  |
-| resortDetailsCompanyPhoneType | `StringInput` | Internal |  |
-| resortDetailsConfigurationMode | `StringInput` | Internal |  |
-| resortDetailsConfirmRegcardPrinter | `StringInput` | Internal |  |
-| resortDetailsQtyConnectingRooms | `FloatInput` | Number of connecting rooms. |  |
-| resortDetailsAllContacts | `StringInput` | The unique name of application user |  |
-| resortDetailsCopies | `FloatInput` | Number of copies to be printed |  |
-| resortDetailsCountryName | `StringInput` | Country name. |  |
-| resortDetailsCountryCode | `StringInput` | The name of the country in which this property resides. |  |
-| resortDetailsCountryMode | `StringInput` | Value for the parameter. |  |
-| resortDetailsCreditLimit | `FloatInput` | The default credit limit for guests. |  |
-| resortDetailsCurrencyCode | `StringInput` | Currency Code. |  |
-| resortDetailsCurrencySymbol | `StringInput` | Currency Symbol like $ or EURO symbol |  |
-| resortDetailsCurrencyName | `StringInput` | A description of this currency. |  |
-| resortDetailsLocalCurrencyFormat | `StringInput` | Format for the local currency. |  |
-| resortDetailsCurtainColor | `StringInput` | Color that of the background |  |
-| resortDetailsDsi | `FloatInput` | DSI |  |
-| resortDetailsDateForAging | `StringInput` | Date the aging should begin |  |
-| resortDetailsDateSeparator | `StringInput` | Type of separator to distinguish between DD MM and YYYY |  |
-| resortDetailsDecimalPlaces | `FloatInput` | Number of places for the default currency |  |
-| resortDetailsDecimalSeparator | `StringInput` | Type of decimal separator |  |
-| resortDetailsCurrencyDecimals | `FloatInput` | Number of decimals to designate currency |  |
-| resortDetailsDefaultFolioStyle | `FloatInput` | Folio style to be used for all guests |  |
-| resortDetailsDefaultGuestAddress | `StringInput` | Default guest address format. |  |
-| resortDetailsDefaultMembershipType | `StringInput` | Future use |  |
-| resortDetailsDefaultPostingRoom | `StringInput` | Future use |  |
-| resortDetailsDefaultPropertyAddress | `StringInput` | Default property address format. |  |
-| resortDetailsDefaultRateCode | `StringInput` | Future use |  |
-| resortDetailsDefaultRatecodePcr | `StringInput` | Rate code used to default a PCR rate code used in FIT Contracts. |  |
-| resortDetailsDefaultRatecodeRack | `StringInput` | Rate code used to default a RACK rate code used for FIT Contracts. |  |
-| resortDetailsDefaultRegistrationCard | `StringInput` | Default registration card for the property. |  |
-| resortDetailsDefaultReservationType | `StringInput` | The Default reservation type for this property |  |
-| resortDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| resortDetailsDepositLedTrxCode | `StringInput` | Future use |  |
-| resortDetailsDestinationId | `StringInput` | Destination ID |  |
-| resortDetailsDfltPkgTranCode | `StringInput` | Future use |  |
-| resortDetailsDfltTranCodeRateCode | `StringInput` | Future use |  |
-| resortDetailsDirections | `StringInput` | Internal |  |
-| resortDetailsDirsales | `StringInput` | Future use |  |
-| resortDetailsDisableLoginYn | `StringInput` | LOGIN into the application is disabled. |  |
-| resortDetailsQtyDoubleRooms | `FloatInput` | Number of double rooms. |  |
-| resortDetailsDownloadRestYn | `StringInput` | Download Rest YN |  |
-| resortDetailsDutyManagerPager | `StringInput` | Pager number for the Manager on duty for the property. |  |
-| resortDetailsEmail | `StringInput` | Email id for the property. |  |
-| resortDetailsEndDate | `DateInput` | Future use. |  |
-| resortDetailsExchangePostingType | `StringInput` | Default Exchange posting status for the property |  |
-| resortDetailsFloorNumExecutiveFloor | `StringInput` | Floor number of executive floor. |  |
-| resortDetailsExpHotelCode | `StringInput` | Hotel code used for third party exports |  |
-| resortDetailsExtExpFileLocation | `StringInput` | Future use |  |
-| resortDetailsExtPropertyCode | `StringInput` | Future use |  |
-| resortDetailsExternalScYn | `StringInput` | Indicates that the property uses an external SC system. |  |
-| resortDetailsQtyFamilyRooms | `FloatInput` | Number of family rooms. |  |
-| resortDetailsFaxNoFormat | `StringInput` | Fax number formats. |  |
-| resortDetailsFax | `StringInput` | The fax phone number |  |
-| resortDetailsFiscalEndDate | `DateInput` | Future use |  |
-| resortDetailsFiscalPeriodType | `StringInput` | Future use |  |
-| resortDetailsFiscalStartDate | `DateInput` | Future use |  |
-| resortDetailsFiscalStartMonth | `FloatInput` | Fiscal Year Begin Month |  |
-| resortDetailsFiscalStartYear | `FloatInput` | Fiscal Year Begin Year |  |
-| resortDetailsFlags | `StringInput` | Screen Painter flags to indicate whether an item is changable/ movable etc. |  |
-| resortDetailsFlowCode | `StringInput` | Future use |  |
-| resortDetailsFnsTier | `StringInput` | Property Free Nights Stay Tier. |  |
-| resortDetailsFolioLanguage1 | `StringInput` | Other languages |  |
-| resortDetailsFolioLanguage2 | `StringInput` | Other languages |  |
-| resortDetailsFolioLanguage3 | `StringInput` | Other languages |  |
-| resortDetailsFolioLanguage4 | `StringInput` | Other languages |  |
-| resortDetailsGenmgr | `StringInput` | Future use |  |
-| resortDetailsGroupRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for Group |  |
-| resortDetailsGuestLookupTimeout | `FloatInput` | Future use |  |
-| resortDetailsQtyGuestElevators | `FloatInput` | Number of guest elevators. |  |
-| resortDetailsQtyGuestRoomFloors | `FloatInput` | Total of guest rooms floors. |  |
-| resortDetailsHotelCode | `StringInput` | Future use |  |
-| resortDetailsHotelFc | `StringInput` | Future use |  |
-| resortDetailsHotelId | `StringInput` | Hotel id |  |
-| resortDetailsHotelType | `StringInput` | Future use |  |
-| resortDetailsImgDirectionId | `FloatInput` | Future use |  |
-| resortDetailsImgHotelId | `FloatInput` | Future use |  |
-| resortDetailsImgMapId | `FloatInput` | Future use |  |
-| resortDetailsInactiveDaysForGuestProfil | `FloatInput` | Future use |  |
-| resortDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| resortDetailsIndividualAddressType | `StringInput` | Future use |  |
-| resortDetailsIndividualPhoneType | `StringInput` | Future use |  |
-| resortDetailsIndividualRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for group |  |
-| resortDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| resortDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |  |
-| resortDetailsInventoryYn | `StringInput` | Future use |  |
-| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |  |
-| resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |  |
-| resortDetailsLeadsend | `StringInput` | Future use |  |
-| resortDetailsLegalOwner | `StringInput` | The owner who owns this property |  |
-| resortDetailsLocationId | `StringInput` | The property that the record belongs to |  |
-| resortDetailsLongDateFormat | `StringInput` | Long date format for the property. |  |
-| resortDetailsLongStayControl | `FloatInput` | The default length of stay |  |
-| resortDetailsLongitude | `FloatInput` | Longitude of the property in decimal |  |
-| resortDetailsMaxAdultsFamilyRoom | `FloatInput` | Maximum adults in family rooms. |  |
-| resortDetailsMaxChildrenFamilyRoom | `FloatInput` | Maximum children in family rooms. |  |
-| resortDetailsMaxOccupancy | `FloatInput` | Future use |  |
-| resortDetailsMaxcreditdays | `FloatInput` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |  |
-| resortDetailsMbsSupportedYn | `StringInput` | Indicates whether the property supports MBS. Used in some file exports. |  |
-| resortDetailsMeetRooms | `FloatInput` | Future use |  |
-| resortDetailsMeetSeats | `FloatInput` | Future use |  |
-| resortDetailsMeetSpace | `FloatInput` | Future use |  |
-| resortDetailsMeetingFc | `StringInput` | Future use |  |
-| resortDetailsMinDaysBet2ReminderLetter | `FloatInput` | Minimum days for reminder letter. |  |
-| resortDetailsNameIdLink | `FloatInput` | Internal |  |
-| resortDetailsNightAuditCashierId | `StringInput` | Future use |  |
-| resortDetailsQtyNonSmokingRooms | `FloatInput` | Number of non smoking rooms. |  |
-| resortDetailsNotes | `StringInput` | Notes for the property |  |
-| resortDetailsNumberBeds | `FloatInput` | Total number of beds in this property |  |
-| resortDetailsNumberFloors | `FloatInput` | Total number of floors in this property |  |
-| resortDetailsNumberRooms | `FloatInput` | Number of Rooms |  |
-| resortDetailsOpusCurrencyCode | `StringInput` | Future use |  |
-| resortDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| resortDetailsOrganizationid | `FloatInput` | Organization Internal ID |  |
-| resortDetailsOwnership | `StringInput` | Future use |  |
-| resortDetailsPackageLoss | `StringInput` | Package Loss code for a particular package |  |
-| resortDetailsPackageProfit | `StringInput` | Package Profit code for a particular Package |  |
-| resortDetailsParentOrgCode | `StringInput` | Parent Org Code |  |
-| resortDetailsPasserbyMarket | `StringInput` | Market code |  |
-| resortDetailsPasserbySource | `StringInput` | Source code |  |
-| resortDetailsPath | `StringInput` | Path |  |
-| resortDetailsPaymentDate | `DateTimeInput` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |  |
-| resortDetailsPerReservationRoomLimit | `FloatInput` | Future use |  |
-| resortDetailsTelephone | `StringInput` | The direct dial phone number of this property |  |
-| resortDetailsPostCode | `StringInput` | The postal code of this property. |  |
-| resortDetailsPkid | `FloatInput` | Primary Key ID |  |
-| resortDetailsProinfoUrl | `StringInput` | URL where property information is located. |  |
-| resortDetailsPropMapUrl | `StringInput` | Property MAP URL. |  |
-| resortDetailsPropPicUrl | `StringInput` | Property picture URL. |  |
-| resortDetailsLocationid | `StringInput` | The property that the record belongs to |  |
-| resortDetailsName | `StringInput` | The name of this property. |  |
-| resortDetailsResortType | `StringInput` | Type of resort. |  |
-| resortDetailsQuotedCurrency | `StringInput` | Future use |  |
-| resortDetailsRnaInsertdate | `DateTimeInput` | RNA Insert Date |  |
-| resortDetailsRnaUpdatedate | `DateTimeInput` | RNA Update Date |  |
-| resortDetailsReconcileDate | `DateTimeInput` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |  |
-| resortDetailsRegionCode | `StringInput` | Future use |  |
-| resortDetailsRegionDescription | `StringInput` | Description of the Region. |  |
-| resortDetailsRestaurant | `FloatInput` | Future use |  |
-| resortDetailsRhythmSheets | `FloatInput` | Total number of Sheets |  |
-| resortDetailsRhythmTowels | `FloatInput` | Total number of Towels |  |
-| resortDetailsRoomAmenity | `StringInput` | Room amenity. |  |
-| resortDetailsSglNum | `StringInput` | Future use |  |
-| resortDetailsSglRate1 | `FloatInput` | Future use |  |
-| resortDetailsSglRate2 | `FloatInput` | Future use |  |
-| resortDetailsSuiNum | `StringInput` | Future use |  |
-| resortDetailsSuiRate1 | `FloatInput` | Future use |  |
-| resortDetailsSuiRate2 | `FloatInput` | Future use |  |
-| resortDetailsSaveProfiles | `FloatInput` | To store number of days before deleting the gest profile |  |
-| resortDetailsScriptId | `FloatInput` | Future use |  |
-| resortDetailsSeason1 | `StringInput` | Future use |  |
-| resortDetailsSeason2 | `StringInput` | Future use |  |
-| resortDetailsSeason3 | `StringInput` | Future use |  |
-| resortDetailsSeason4 | `StringInput` | Future use |  |
-| resortDetailsSeason5 | `StringInput` | Future use |  |
-| resortDetailsSendLeadAsBooking | `StringInput` | Indicates that the property accepts leads as bookings. |  |
-| resortDetailsShopDescription | `StringInput` | Shop description. |  |
-| resortDetailsShortDateFormat | `StringInput` | Short date format for the property. |  |
-| resortDetailsQtySingleRooms | `FloatInput` | Number of single rooms. |  |
-| resortDetailsSourceCommission | `StringInput` | For default commission percentage |  |
-| resortDetailsState | `StringInput` | The state in which this property is located. |  |
-| resortDetailsStateDesc | `StringInput` | Description of the state. |  |
-| resortDetailsStreet | `StringInput` | The street of the property. |  |
-| resortDetailsQtySuites | `FloatInput` | Number of suites. |  |
-| resortDetailsSummCurrencyCode | `StringInput` | Internal |  |
-| resortDetailsTaCommission | `StringInput` | For default commission percentage |  |
-| resortDetailsTplNum | `StringInput` | Future use |  |
-| resortDetailsTplRate1 | `FloatInput` | Future use |  |
-| resortDetailsTplRate2 | `FloatInput` | Future use |  |
-| resortDetailsTelephoneNoFormat | `StringInput` | Formats for telephone number |  |
-| resortDetailsThousandSeparator | `StringInput` | Separator for monetory values |  |
-| resortDetailsTimeFormat | `StringInput` | Default time format for the property. |  |
-| resortDetailsTimezoneRegion | `StringInput` | Time zone region selected by the employee. |  |
-| resortDetailsTollfree | `StringInput` | Toll free telephone number. |  |
-| resortDetailsTotRooms | `FloatInput` | Future use |  |
-| resortDetailsTouristNumber | `StringInput` | Tourist Number |  |
-| resortDetailsTranslateMulticharYn | `StringInput` | Indicates whether the property handles multi byte characters and whether they are translateable or not |  |
-| resortDetailsTurnawayCode | `StringInput` | Turnaway code for the property. |  |
-| resortDetailsQtyTwinRooms | `FloatInput` | Number of twin rooms. |  |
-| resortDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| resortDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| resortDetailsVatId | `StringInput` | VAT ID of this property. |  |
-| resortDetailsVideocheckoutPrinter | `StringInput` | Future use |  |
-| resortDetailsVideoCoStart | `DateTimeInput` | Video check out start time. |  |
-| resortDetailsVideoCoStop | `DateTimeInput` | Video check out end time. |  |
-| resortDetailsWakeUpDelay | `FloatInput` | Future use |  |
-| resortDetailsWarningAmount | `FloatInput` | Amount at which warning is raised. |  |
-| resortDetailsWebaddress | `StringInput` | Webaddress of the property |  |
-| resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |  |
-| resortDetailsZeroInvPurDays | `FloatInput` | Internal |  |
-| memclaimoriginDetailsAttributeCode | `StringInput` | Claim Origin Code |  |
-| memclaimoriginDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memclaimoriginDetailsEntityName | `StringInput` | Entity Name |  |
-| memclaimoriginDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| memclaimoriginDetailsLanguageCode | `StringInput` | Language Code |  |
-| memclaimoriginDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| memclaimoriginDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| mempointsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| mempointsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| mempointsDetailsMembershipPointsSeqno | `FloatInput` | Membership Points Seqno |  |
-| mempointsDetailsMembershipType | `StringInput` | Membership Type |  |
-| mempointsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| mempointsDetailsResort | `StringInput` | Property |  |
-| memawardratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memawardratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| memawardratesDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| memawardproductsDetailsAwardType | `StringInput` | Award Type |  |
-| memawardproductsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memawardproductsDetailsMembershipType | `StringInput` | Membership Type |  |
-| memawardproductsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| memawardupgradesDetailsAwardType | `StringInput` | Award Type |  |
-| memawardupgradesDetailsChainCode | `StringInput` | Chain Code |  |
-| memawardupgradesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memawardupgradesDetailsBeginDate | `DateInput` | From Date |  |
-| memawardupgradesDetailsFromRoom | `StringInput` | Room Number of the reservation from which charges were routed when routing charges between reservations. |  |
-| memawardupgradesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| memawardupgradesDetailsMembershipAwardId | `FloatInput` | Internal PK for the table. |  |
-| memawardupgradesDetailsMembershipType | `StringInput` | Membership Type |  |
-| memawardupgradesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| memawardupgradesDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| memawardupgradesDetailsEndDate | `DateInput` | To Date |  |
-| memawardfintrxDetailsAwardType | `StringInput` | Award Type |  |
-| memawardfintrxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memawardfintrxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| memawardfintrxDetailsMembershipType | `StringInput` | Membership Type |  |
-| memawardfintrxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| memawardfintrxDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| memresortgroupcodeDetailsResort | `StringInput` | Attached Property Code |  |
-| memresortgroupcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memresortgroupcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| memresortgroupcodeDetailsMemResortGroup | `StringInput` | Mem Property Group |  |
-| memresortgroupcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| airportDetailsAirportCode | `StringInput` | Airport code. |  |
-| airportDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| airportDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| airportDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| airportDetailsResort | `StringInput` | Property |  |
-| featureDetailsFeature | `StringInput` | Code |  |
-| featureDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| featureDetailsFeatureid | `StringInput` | Featureid |  |
-| featureDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| featureDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| featureDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| featureDetailsResort | `StringInput` | Property |  |
-| featureDetailsBeginDate | `DateInput` | Start Date |  |
-| attractioncategoryDetailsAttributeCode | `StringInput` | Code |  |
-| attractioncategoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| attractioncategoryDetailsEntityName | `StringInput` | Entity Name |  |
-| attractioncategoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| attractioncategoryDetailsLanguageCode | `StringInput` | Language Code |  |
-| attractioncategoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| attractioncategoryDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| attractionDetailsAttractionCode | `StringInput` | The unique identifier for this attraction. The primary key to this table. |  |
-| attractionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| attractionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| attractionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| attractionDetailsResort | `StringInput` | Property |  |
-| chainDetailsChainCode | `StringInput` | Chain |  |
-| chainDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| chainDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| chainDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| closingscriptDetailsChainCode | `StringInput` | Chain Code |  |
-| closingscriptDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| closingscriptDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| closingscriptDetailsLanguageCode | `StringInput` | Language |  |
-| closingscriptDetailsMembershipType | `StringInput` | Membership Type |  |
-| closingscriptDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| closingscriptDetailsResort | `StringInput` | Property |  |
-| closingscriptDetailsResortType | `StringInput` | Property Type |  |
-| closingscriptDetailsScriptId | `FloatInput` | Script ID |  |
-| communicationmethodDetailsAttributeCode | `StringInput` | Code |  |
-| communicationmethodDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| communicationmethodDetailsEntityName | `StringInput` | Entity Name |  |
-| communicationmethodDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| communicationmethodDetailsLanguageCode | `StringInput` | Language Code |  |
-| communicationmethodDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| communicationmethodDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| deliverystatusDetailsAttributeCode | `StringInput` | Code |  |
-| deliverystatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| deliverystatusDetailsEntityName | `StringInput` | Entity Name |  |
-| deliverystatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| deliverystatusDetailsLanguageCode | `StringInput` | Language Code |  |
-| deliverystatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| deliverystatusDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| departmentDetailsChainCode | `StringInput` | Chain Code |  |
-| departmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| departmentDetailsDeptId | `StringInput` | Department Code |  |
-| departmentDetailsDeptName | `StringInput` | Description of the department |  |
-| departmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| departmentDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| departmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| departmentDetailsResort | `StringInput` | Property |  |
-| elecregcardscriptDetailsChainCode | `StringInput` | Chain Code |  |
-| elecregcardscriptDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| elecregcardscriptDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| elecregcardscriptDetailsLanguageCode | `StringInput` | Language |  |
-| elecregcardscriptDetailsMembershipType | `StringInput` | Membership Type |  |
-| elecregcardscriptDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| elecregcardscriptDetailsResort | `StringInput` | Property |  |
-| elecregcardscriptDetailsResortType | `StringInput` | Property Type |  |
-| elecregcardscriptDetailsScriptId | `FloatInput` | Script ID |  |
-| hubresortDetailsResort | `StringInput` | Associated Property |  |
-| hubresortDetailsCroCode | `StringInput` | Cro Code |  |
-| hubresortDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| hubresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| hubresortDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| jobtitleDetailsJobCode | `StringInput` | Code |  |
-| jobtitleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| jobtitleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| jobtitleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| jobtitleDetailsResort | `StringInput` | Property |  |
-| udfcategoryDetailsAttributeCode | `StringInput` | Code |  |
-| udfcategoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| udfcategoryDetailsEntityName | `StringInput` | Entity Name |  |
-| udfcategoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| udfcategoryDetailsLanguageCode | `StringInput` | Language Code |  |
-| udfcategoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| udfcategoryDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| udftypeDetailsUdfCategory | `StringInput` | Category |  |
-| udftypeDetailsUdfType | `StringInput` | UDF type - CND. |  |
-| udftypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| udftypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| udftypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| udftypeDetailsTableName | `StringInput` | Table Name |  |
-| brandcodeDetailsAttributeCode | `StringInput` | Code |  |
-| brandcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| brandcodeDetailsEntityName | `StringInput` | Entity Name |  |
-| brandcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| brandcodeDetailsLanguageCode | `StringInput` | Language Code |  |
-| brandcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| brandcodeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| businessunitDetailsAttributeCode | `StringInput` | Code |  |
-| businessunitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| businessunitDetailsEntityName | `StringInput` | Entity Name |  |
-| businessunitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| businessunitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| businessunitDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| departmentcodeDetailsAttributeCode | `StringInput` | Code |  |
-| departmentcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| departmentcodeDetailsEntityName | `StringInput` | Entity Name |  |
-| departmentcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| departmentcodeDetailsLanguageCode | `StringInput` | Language Code |  |
-| departmentcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| departmentcodeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| divisionDetailsAttributeCode | `StringInput` | Code |  |
-| divisionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| divisionDetailsEntityName | `StringInput` | Entity Name |  |
-| divisionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| divisionDetailsLanguageCode | `StringInput` | Language Code |  |
-| divisionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| divisionDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| hotelcategoryDetailsAttributeCode | `StringInput` | Code |  |
-| hotelcategoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| hotelcategoryDetailsEntityName | `StringInput` | Entity Name |  |
-| hotelcategoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| hotelcategoryDetailsLanguageCode | `StringInput` | Language Code |  |
-| hotelcategoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| hotelcategoryDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| operatingunitDetailsAttributeCode | `StringInput` | Code |  |
-| operatingunitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| operatingunitDetailsEntityName | `StringInput` | Entity Name |  |
-| operatingunitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| operatingunitDetailsLanguageCode | `StringInput` | Language Code |  |
-| operatingunitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| operatingunitDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| applicationparametervalueDetailsApnJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| applicationparametervalueDetailsChainCode | `StringInput` | Chain Code |  |
-| applicationparametervalueDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| applicationparametervalueDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| applicationparametervalueDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| applicationparametervalueDetailsParameterDisplay | `StringInput` | Parameter Display Name |  |
-| applicationparametervalueDetailsParameterGroup | `StringInput` | Parameter Group |  |
-| applicationparametervalueDetailsParameterName | `StringInput` | Parameter Name |  |
-| applicationparametervalueDetailsResort | `StringInput` | Property |  |
-| trackitactionDetailsCode | `StringInput` | Code |  |
-| trackitactionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| trackitactionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| trackitactionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| trackitactionDetailsResort | `StringInput` | Property |  |
-| trackitactionDetailsTiSubgroup | `StringInput` | Track it SubGroup. Example: Location Type or Action. |  |
-| trackitactionDetailsTiGroup | `StringInput` | Trackit Group. |  |
-| trackitlocationDetailsCode | `StringInput` | Code |  |
-| trackitlocationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| trackitlocationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| trackitlocationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| trackitlocationDetailsResort | `StringInput` | Property |  |
-| trackitlocationDetailsTiSubgroup | `StringInput` | Track it SubGroup. Example: Location Type or Action. |  |
-| trackitlocationDetailsTiGroup | `StringInput` | Trackit Group. |  |
-| trackittypeDetailsCode | `StringInput` | Code |  |
-| trackittypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| trackittypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| trackittypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| trackittypeDetailsResort | `StringInput` | Property |  |
-| trackittypeDetailsTiSubgroup | `StringInput` | Track it SubGroup. Example: Location Type or Action. |  |
-| trackittypeDetailsTiGroup | `StringInput` | Trackit Group. |  |
-| accounttypeDetailsAccountType | `StringInput` | Account Type |  |
-| accounttypeDetailsCXchangeDate | `DateInput` | Central Exchange Date |  |
-| accounttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| accounttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| accounttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| accounttypeDetailsResort | `StringInput` | Property |  |
-| arremindercycleDetailsAccountTypeId | `FloatInput` | Account Type ID |  |
-| arremindercycleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| arremindercycleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| arremindercycleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| arremindercycleDetailsResort | `StringInput` | Property |  |
-| arremindercycleDetailsReminderCode | `FloatInput` | Internal number. |  |
-| acctflagreasonDetailsAcctflagreasonid | `StringInput` | Acctflagreasonid |  |
-| acctflagreasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| acctflagreasonDetailsReasonCode | `StringInput` | Flagged Reason Code |  |
-| acctflagreasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| acctflagreasonDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| acctflagreasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| acctflagreasonDetailsResort | `StringInput` | Property |  |
-| trxreasoncodeDetailsTranReasonCode | `StringInput` | Reason Code. |  |
-| trxreasoncodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| trxreasoncodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| trxreasoncodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| trxreasoncodeDetailsResort | `StringInput` | Property |  |
-| ccauthrulesDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| ccauthrulesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| ccauthrulesDetailsGuaranteeCode | `StringInput` | Guarantee Code |  |
-| ccauthrulesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| ccauthrulesDetailsMainWindowYn | `StringInput` | Indicates if this auth rule is for the main window (i.e. window 1). Default is Y i.e. Only if the flag is explicitly set to N does the rule apply to windows other than 1. |  |
-| ccauthrulesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| ccauthrulesDetailsResort | `StringInput` | Property |  |
-| ccauthrulesDetailsRateCategory | `StringInput` | Rate Category |  |
-| ccauthrulesDetailsRateCode | `StringInput` | Rate Code |  |
-| ccauthrulesDetailsRoomClass | `StringInput` | Room Class |  |
-| ccauthrulesDetailsRoomCategory | `StringInput` | Room Type |  |
-| ccauthrulesDetailsSourceCode | `StringInput` | Source Code |  |
-| autofoliosettlementtypeDetailsAttributeCode | `StringInput` | Code |  |
-| autofoliosettlementtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| autofoliosettlementtypeDetailsEntityName | `StringInput` | Entity Name |  |
-| autofoliosettlementtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| autofoliosettlementtypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| autofoliosettlementtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| autofoliosettlementtypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| cashierDetailsInactiveflag | `StringInput` | Active YN |  |
-| cashierDetailsCashierid | `FloatInput` | Cashierid |  |
-| cashierDetailsChainCode | `StringInput` | Chain Code |  |
-| cashierDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| cashierDetailsInterfaceCashierYn | `StringInput` | Decides whether the cashier number is used in interfaces or not. The interface cashiers cannot have numbers more than 999. |  |
-| cashierDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| cashierDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| cashierDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| cashierDetailsCashierId | `FloatInput` | Payments-Cashier Code |  |
-| cashierDetailsResort | `StringInput` | Property |  |
-| customnumberDetailsCustomCode | `StringInput` | Internal code to identify the custom number. |  |
-| customnumberDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| customnumberDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| customnumberDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| customnumberDetailsResort | `StringInput` | Property |  |
-| currencyexchangetaxDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| currencyexchangetaxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| currencyexchangetaxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| currencyexchangetaxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| currencyexchangetaxDetailsResort | `StringInput` | Property |  |
-| currencyexchangetaxDetailsServiceTaxType | `StringInput` | Stores the Service tax type. Possible values can be: R1 R2 R3 and so on. |  |
-| expensearrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| expensearrangementcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| expensearrangementcodeDetailsArrangementCode | `StringInput` | Expense Arrangement Code |  |
-| expensearrangementcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| expensearrangementcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| expensearrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| expensearrangementcodeDetailsResort | `StringInput` | Property |  |
-| expensearrangementcodeDetailsType | `StringInput` | Type |  |
-| transcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| transcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| transcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| transcodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| transcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| transcodeDetailsResort | `StringInput` | Property |  |
-| transcodeDetailsTranscodeid | `StringInput` | Transcodeid |  |
-| transcodeDetailsTrxCode | `StringInput` | Trx Code |  |
-| folioarrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| folioarrangementcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| folioarrangementcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| folioarrangementcodeDetailsArrangementCode | `StringInput` | Folio Arrangement Code |  |
-| folioarrangementcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| folioarrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| folioarrangementcodeDetailsResort | `StringInput` | Property |  |
-| folioarrangementcodeDetailsType | `StringInput` | Type |  |
-| grouparrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| grouparrangementcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| grouparrangementcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| grouparrangementcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| grouparrangementcodeDetailsArrangementCode | `StringInput` | Group Arrangement Code |  |
-| grouparrangementcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| grouparrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| grouparrangementcodeDetailsResort | `StringInput` | Property |  |
-| grouparrangementcodeDetailsType | `StringInput` | Type |  |
-| foliotypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| foliotypeDetailsFolioType | `StringInput` | Folio Type Code |  |
-| foliotypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| foliotypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| foliotypeDetailsResort | `StringInput` | Property |  |
-| foliotypedetailDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| foliotypedetailDetailsFolioType | `StringInput` | Folio Type |  |
-| foliotypedetailDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| foliotypedetailDetailsLanguageCode | `StringInput` | Language |  |
-| foliotypedetailDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| foliotypedetailDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| bankaccountDetailsAccountId | `FloatInput` | Account ID |  |
-| bankaccountDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| bankaccountDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| bankaccountDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| bankaccountDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| bankaccountDetailsResort | `StringInput` | Property |  |
-| commissionDetailsCommissionCode | `StringInput` | Code |  |
-| commissionDetailsCommissionid | `StringInput` | Commissionid |  |
-| commissionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| commissionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| commissionDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| commissionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| commissionDetailsResort | `StringInput` | Property |  |
-| authorizergroupDetailsAuthGroupCode | `StringInput` | Code |  |
-| authorizergroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| authorizergroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| authorizergroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| authorizergroupDetailsResort | `StringInput` | Property |  |
-| authorizergroupdetailDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| authorizergroupdetailDetailsAuthGroupCode | `StringInput` | Auth Group Code |  |
-| authorizergroupdetailDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| authorizergroupdetailDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| authorizergroupdetailDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| authorizergroupdetailDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| authorizergroupdetailDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| authorizergroupdetailDetailsTrxCode | `StringInput` | Transaction Codes |  |
-| authorizerDetailsAppUserId | `FloatInput` | App User ID |  |
-| authorizerDetailsAppUserUniq | `StringInput` | Unique internal ID...needed for ASP module as the same user name can't exists across chains. |  |
-| authorizerDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| authorizerDetailsChainCode | `StringInput` | Chain Code |  |
-| authorizerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| authorizerDetailsDefCashierId | `FloatInput` | Cashier ID for the User |  |
-| authorizerDetailsDefaultResort | `StringInput` | Stores resort name to which user will log in every time |  |
-| authorizerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| authorizerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| authorizerDetailsPersonNameId | `FloatInput` | Foreign key to NAME table that links this USER to an Employee |  |
-| authorizerDetailsSrepCode | `StringInput` | Srep Code |  |
-| authorizerDetailsAppUser | `StringInput` | User ID Code |  |
-| bucketredemptioncodeDetailsCode | `StringInput` | Code |  |
-| bucketredemptioncodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| bucketredemptioncodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| bucketredemptioncodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| bucketredemptioncodeDetailsResort | `StringInput` | Property |  |
-| comproutingcodeDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| comproutingcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| comproutingcodeDetailsArrangementCode | `StringInput` | Code |  |
-| comproutingcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| comproutingcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| comproutingcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| comproutingcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| comproutingcodeDetailsResort | `StringInput` | Property |  |
-| comproutingcodeDetailsType | `StringInput` | Type |  |
-| comptranscodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| comptranscodeDetailsTrxCode | `StringInput` | Code |  |
-| comptranscodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| comptranscodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| comptranscodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| comptranscodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| comptranscodeDetailsResort | `StringInput` | Property |  |
-| trxcodecompxrefDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| codegeneratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| codegeneratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| codegeneratesDetailsTrxCode | `StringInput` | Generated Code |  |
-| codegeneratesDetailsId | `FloatInput` | ID |  |
-| codegeneratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| codegeneratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| codegeneratesDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| codegeneratesDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| codegeneratesDetailsTcGroupGenerator | `StringInput` | Group generator. |  |
-| codegeneratesDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| codegeneratesDetailsTcSubgroupGenerator | `StringInput` | Subgroup generator. |  |
-| codegeneratesDetailsTclCodeGenerator | `StringInput` | Identify if the taxes are generated on the Class. |  |
-| codegeneratesDetailsTrxCodeGenerator | `StringInput` | Transaction Code Generator |  |
-| comptypeDetailsCompTypeCode | `StringInput` | Code |  |
-| comptypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| comptypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| comptypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| comptypeDetailsResort | `StringInput` | Property |  |
-| barscheduleDetailsRateDate | `DateInput` | Date |  |
-| barscheduleDetailsDescription | `StringInput` | Description |  |
-| barscheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| barscheduleDetailsLos | `FloatInput` | Length of Stay |  |
-| barscheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| barscheduleDetailsResort | `StringInput` | Property |  |
-| barscheduleDetailsRateCode | `StringInput` | Rate Code |  |
-| citytaxrangeDetailsChainCode | `StringInput` | Chain Code |  |
-| citytaxrangeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| citytaxrangeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| citytaxrangeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| citytaxrangeDetailsPkgFormulaRangeId | `FloatInput` | Oracle sequence to maintain uniqueness. |  |
-| citytaxrangeDetailsResort | `StringInput` | Property |  |
-| citytaxrangeDetailsRecordType | `StringInput` | Record Type |  |
-| resortdaytypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortdaytypeDetailsDtCode | `StringInput` | Day Types Code |  |
-| resortdaytypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortdaytypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortdaytypeDetailsResort | `StringInput` | Property |  |
-| displaysetDetailsAttributeCode | `StringInput` | Code |  |
-| displaysetDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| displaysetDetailsEntityName | `StringInput` | Entity Name |  |
-| displaysetDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| displaysetDetailsLanguageCode | `StringInput` | Language Code |  |
-| displaysetDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| displaysetDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| resortcalendareventDetailsEventCode | `StringInput` | Code |  |
-| resortcalendareventDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortcalendareventDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortcalendareventDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortcalendareventDetailsResort | `StringInput` | Property |  |
-| ratehurdlesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| ratehurdlesDetailsHurdleDate | `DateInput` | Hurdle Date |  |
-| ratehurdlesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| ratehurdlesDetailsLengthOfStay | `FloatInput` | Length of Stay |  |
-| ratehurdlesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| ratehurdlesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| ratehurdlesDetailsOverrideflag | `StringInput` | Override YN |  |
-| ratehurdlesDetailsResort | `StringInput` | Property |  |
-| ratehurdlesDetailsRoomCategoryLabel | `StringInput` | Room Category Label |  |
-| ratehurdlesDetailsRoomcategoryid | `StringInput` | Roomcategoryid |  |
-| ratehurdlesDetailsYieldCategory | `StringInput` | Yield Category |  |
-| ratehurdlesDetailsYieldcategoryid | `StringInput` | Yieldcategoryid |  |
-| ratehurdlesDetailsYieldmarkettype | `StringInput` | Yieldmarkettype |  |
-| productDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| productDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| productDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| productDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| productDetailsProduct | `StringInput` | Package |  |
-| productDetailsProductid | `StringInput` | Productid |  |
-| productDetailsResort | `StringInput` | Property |  |
-| itempackageDetailsDescription | `StringInput` | Description |  |
-| itempackageDetailsItemId | `FloatInput` | Item ID |  |
-| itempackageDetailsItemProdId | `FloatInput` | Unqiue ID from ITEM_PACKAGES_SEQNO |  |
-| itempackageDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| itempackageDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| itempackageDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| rateproductpriceDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| rateproductpriceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| rateproductpriceDetailsDay1 | `StringInput` | Day1 |  |
-| rateproductpriceDetailsDay2 | `StringInput` | Day2 |  |
-| rateproductpriceDetailsDay3 | `StringInput` | Day3 |  |
-| rateproductpriceDetailsDay4 | `StringInput` | Day4 |  |
-| rateproductpriceDetailsDay5 | `StringInput` | Day5 |  |
-| rateproductpriceDetailsDay6 | `StringInput` | Day6 |  |
-| rateproductpriceDetailsDay7 | `StringInput` | Day7 |  |
-| rateproductpriceDetailsEndDate | `DateInput` | End Date |  |
-| rateproductpriceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| rateproductpriceDetailsMaxPersons | `FloatInput` | Maximum number of persons |  |
-| rateproductpriceDetailsMaxNights | `FloatInput` | Maximum Nights. |  |
-| rateproductpriceDetailsMinPersons | `FloatInput` | Minimum number of persons for the rate product price. |  |
-| rateproductpriceDetailsMinNights | `FloatInput` | Minimum number of stay nights for the rate product price. |  |
-| rateproductpriceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| rateproductpriceDetailsProduct | `StringInput` | Product |  |
-| rateproductpriceDetailsResort | `StringInput` | Property |  |
-| rateproductpriceDetailsResortRateProductDtlId | `FloatInput` | Internal id |  |
-| rateproductpriceDetailsRateCode | `StringInput` | Rate Code |  |
-| rateproductpriceDetailsSeasonCode | `StringInput` | Season Code |  |
-| rateproductpriceDetailsBeginDate | `DateInput` | Start Date |  |
-| pkgforecastgroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| pkgforecastgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| pkgforecastgroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| pkgforecastgroupDetailsResort | `StringInput` | Property |  |
-| promotionDetailsPromoCode | `StringInput` | Code |  |
-| promotionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| promotionDetailsMpcode | `StringInput` | Group |  |
-| promotionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| promotionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| promotionDetailsPromoSeqId | `FloatInput` | Promo Seq ID |  |
-| promotionDetailsResort | `StringInput` | Property |  |
-| promorateDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| promorateDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| promorateDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| promorateDetailsPromoCode | `StringInput` | Promo Code |  |
-| promorateDetailsResort | `StringInput` | Property |  |
-| promocoderoutinstrDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| promocoderoutinstrDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| promocoderoutinstrDetailsPromoCode | `StringInput` | Promo Code |  |
-| promocoderoutinstrDetailsResort | `StringInput` | Property |  |
-| promocoderoutinstrDetailsTrxCodes | `StringInput` | Transaction Codes |  |
-| ratecategoriesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| ratecategoriesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| ratecategoriesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| ratecategoriesDetailsResort | `StringInput` | Property |  |
-| ratecategoriesDetailsRateCategory | `StringInput` | Rate Category |  |
-| ratecategoriesDetailsRateClass | `StringInput` | Rate Class |  |
-| articleDetailsArticleId | `FloatInput` | Article ID |  |
-| articleDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| articleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| articleDetailsArticleid | `FloatInput` | Articleid |  |
-| articleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| articleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| articleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| articleDetailsResort | `StringInput` | Property |  |
-| creditcardtypesDetailsAttributeCode | `StringInput` | Code |  |
-| creditcardtypesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| creditcardtypesDetailsEntityName | `StringInput` | Entity Name |  |
-| creditcardtypesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| creditcardtypesDetailsLanguageCode | `StringInput` | Language Code |  |
-| creditcardtypesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| paymentmethodDetailsPaymentMethodId | `StringInput` | Code |  |
-| paymentmethodDetailsCcTypeIfc | `StringInput` | Abbreviates the card_type and is used exclusively for the interface. |  |
-| paymentmethodDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| paymentmethodDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| paymentmethodDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| paymentmethodDetailsLocationId | `StringInput` | Location ID |  |
-| paymentmethodDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| paymentmethodDetailsCardType | `StringInput` | Payment Method |  |
-| paymentmethodDetailsResort | `StringInput` | Property |  |
-| exportbucketcodeDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| exportbucketcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| exportbucketcodeDetailsArrangementCode | `StringInput` | Code |  |
-| exportbucketcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| exportbucketcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| exportbucketcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| exportbucketcodeDetailsResort | `StringInput` | Property |  |
-| exportbucketcodeDetailsType | `StringInput` | Type |  |
-| transcodearrangedetDetailsAddTrxYn | `StringInput` | Add Trx Y/N |  |
-| transcodearrangedetDetailsChildArrangementId | `FloatInput` | Child arrangement id. |  |
-| transcodearrangedetDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| transcodearrangedetDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| transcodearrangedetDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| transcodearrangedetDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| transcodearrangedetDetailsTrxCode | `StringInput` | Transaction Code |  |
-| exportbuckettypeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| exportbuckettypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| exportbuckettypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| exportbuckettypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| exportbuckettypeDetailsResort | `StringInput` | Property |  |
-| routingcodeDetailsArrangementId | `FloatInput` | Arrangement ID |  |
-| routingcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| routingcodeDetailsArrangementCode | `StringInput` | Code |  |
-| routingcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| routingcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |  |
-| routingcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| routingcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| routingcodeDetailsResort | `StringInput` | Property |  |
-| routingcodeDetailsType | `StringInput` | Type |  |
-| trxdiversionruleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| trxdiversionruledetailsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| transgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| groupgeneratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| groupgeneratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| groupgeneratesDetailsTrxCode | `StringInput` | Generated Code |  |
-| groupgeneratesDetailsId | `FloatInput` | ID |  |
-| groupgeneratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| groupgeneratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| groupgeneratesDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| groupgeneratesDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| groupgeneratesDetailsTcGroupGenerator | `StringInput` | Group generator. |  |
-| groupgeneratesDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| groupgeneratesDetailsTcSubgroupGenerator | `StringInput` | Subgroup generator. |  |
-| groupgeneratesDetailsTclCodeGenerator | `StringInput` | Identify if the taxes are generated on the Class. |  |
-| groupgeneratesDetailsTrxCodeGenerator | `StringInput` | Transaction Code Generator |  |
-| transsubgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| subgroupgeneratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| subgroupgeneratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| subgroupgeneratesDetailsTrxCode | `StringInput` | Generated Code |  |
-| subgroupgeneratesDetailsId | `FloatInput` | ID |  |
-| subgroupgeneratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| subgroupgeneratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| subgroupgeneratesDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| subgroupgeneratesDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| subgroupgeneratesDetailsTcGroupGenerator | `StringInput` | Group generator. |  |
-| subgroupgeneratesDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| subgroupgeneratesDetailsTcSubgroupGenerator | `StringInput` | Subgroup generator. |  |
-| subgroupgeneratesDetailsTclCodeGenerator | `StringInput` | Identify if the taxes are generated on the Class. |  |
-| subgroupgeneratesDetailsTrxCodeGenerator | `StringInput` | Transaction Code Generator |  |
-| resortalertDetailsAlertCode | `StringInput` | Code |  |
-| resortalertDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortalertDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortalertDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortalertDetailsResort | `StringInput` | Propery |  |
-| globalalertsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| globalalertsDetailsExternalAlertId | `StringInput` | Unique ID in External System. |  |
-| globalalertsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| globalalertsDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| globalalertsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| globalalertsDetailsResort | `StringInput` | Property |  |
-| globalalertsDetailsQueryId | `FloatInput` | Query ID |  |
-| globalalertsDetailsResvAlertId | `FloatInput` | Resv Alert ID |  |
-| globalalertsDetailsResvNameId | `FloatInput` | Resv Name ID |  |
-| blockcancellationcodeDetailsAttributeCode | `StringInput` | Code |  |
-| blockcancellationcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| blockcancellationcodeDetailsExternalAttributeCodes | `StringInput` | Contains a list of codes used by a vendor. |  |
-| blockcancellationcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| blockcancellationcodeDetailsLanguageCode | `StringInput` | Language Code |  |
-| blockcancellationcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| blockcancellationcodeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| scdestinationDetailsAttributeCode | `StringInput` | Cancellation Destination |  |
-| scdestinationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| scdestinationDetailsEntityName | `StringInput` | Entity Name |  |
-| scdestinationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| scdestinationDetailsLanguageCode | `StringInput` | Language Code |  |
-| scdestinationDetailsScdestinationid | `StringInput` | Scdestinationid |  |
-| scdestinationDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| lostbookingcodesDetailsAttributeCode | `StringInput` | Code |  |
-| lostbookingcodesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| lostbookingcodesDetailsEntityName | `StringInput` | Entity Name |  |
-| lostbookingcodesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| lostbookingcodesDetailsLanguageCode | `StringInput` | Language Code |  |
-| lostbookingcodesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| lostbookingcodesDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| refusedbookingcodesDetailsAttributeCode | `StringInput` | Code |  |
-| refusedbookingcodesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| refusedbookingcodesDetailsEntityName | `StringInput` | Entity Name |  |
-| refusedbookingcodesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| refusedbookingcodesDetailsLanguageCode | `StringInput` | Language Code |  |
-| refusedbookingcodesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| refusedbookingcodesDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| bookingmethodDetailsBookingmethodid | `StringInput` | Bookingmethodid |  |
-| bookingmethodDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| bookingmethodDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| bookingmethodDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| bookingmethodDetailsAttributeCode | `StringInput` | Reservation Method |  |
-| bookingmethodDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| resortcutoffscheduleDetailsWashcode | `StringInput` | Unique code to identify a Wash schedule. |  |
-| resortcutoffscheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortcutoffscheduleDetailsCutoffDays | `FloatInput` | Cut off days for the stay date. |  |
-| resortcutoffscheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortcutoffscheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortcutoffscheduleDetailsResort | `StringInput` | Property |  |
-| bookingstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| bookingstatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| bookingstatusDetailsStatus | `StringInput` | Old Block Status |  |
-| bookingstatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| cancelruleDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| cancelruleDetailsRuleCode | `StringInput` | Code |  |
-| cancelruleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| cancelruleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |  |
-| cancelruleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |  |
-| cancelruleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |  |
-| cancelruleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| cancelruleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| cancelruleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| cancelruleDetailsResort | `StringInput` | Property |  |
-| cancelruleDetailsRateCode | `StringInput` | Rate Code |  |
-| cancelruleDetailsRateSetId | `FloatInput` | Rate Set ID |  |
-| cancelruleDetailsReservationType | `StringInput` | Reservation Type |  |
-| cancelruleDetailsSeasonCode | `StringInput` | Season Code |  |
-| cancelrulescheduleDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| cancelrulescheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| cancelrulescheduleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |  |
-| cancelrulescheduleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |  |
-| cancelrulescheduleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |  |
-| cancelrulescheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| cancelrulescheduleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| cancelrulescheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| cancelrulescheduleDetailsResort | `StringInput` | Property |  |
-| cancelrulescheduleDetailsRateCode | `StringInput` | Rate Code |  |
-| cancelrulescheduleDetailsRateSetId | `FloatInput` | Rate Set ID |  |
-| cancelrulescheduleDetailsReservationType | `StringInput` | Reservation Type |  |
-| cancelrulescheduleDetailsRuleCode | `StringInput` | Rule |  |
-| cancelrulescheduleDetailsSeasonCode | `StringInput` | Season Code |  |
-| depositruleDetailsBeginDate | `DateInput` | Begin Date |  |
-| depositruleDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| depositruleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| depositruleDetailsRuleCode | `StringInput` | Deposit Rule |  |
-| depositruleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |  |
-| depositruleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |  |
-| depositruleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |  |
-| depositruleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| depositruleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| depositruleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| depositruleDetailsResort | `StringInput` | Property |  |
-| depositruleDetailsRateCode | `StringInput` | Rate Code |  |
-| depositruleDetailsRateSetId | `FloatInput` | Rate Set ID |  |
-| depositruleDetailsReservationType | `StringInput` | Reservation Type |  |
-| depositruleDetailsSeasonCode | `StringInput` | Season Code |  |
-| depositrulescheduleDetailsBeginDate | `DateInput` | Begin Date |  |
-| depositrulescheduleDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| depositrulescheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| depositrulescheduleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |  |
-| depositrulescheduleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |  |
-| depositrulescheduleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |  |
-| depositrulescheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| depositrulescheduleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| depositrulescheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| depositrulescheduleDetailsResort | `StringInput` | Property |  |
-| depositrulescheduleDetailsRateCode | `StringInput` | Rate Code |  |
-| depositrulescheduleDetailsRateSetId | `FloatInput` | Rate Set ID |  |
-| depositrulescheduleDetailsReservationType | `StringInput` | Reservation Type |  |
-| depositrulescheduleDetailsRuleCode | `StringInput` | Rule |  |
-| depositrulescheduleDetailsSeasonCode | `StringInput` | Season Code |  |
-| guaranteeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| guaranteeDetailsGuaranteecodeid | `StringInput` | Guaranteecodeid |  |
-| guaranteeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| guaranteeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| guaranteeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| guaranteeDetailsResort | `StringInput` | Property |  |
-| guaranteeDetailsGuaranteeCode | `StringInput` | Reservation Type |  |
-| reservationtypescheduleDetailsBeginDate | `DateInput` | Begin Date |  |
-| reservationtypescheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| reservationtypescheduleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |  |
-| reservationtypescheduleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |  |
-| reservationtypescheduleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |  |
-| reservationtypescheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| reservationtypescheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| reservationtypescheduleDetailsResort | `StringInput` | Property |  |
-| reservationtypescheduleDetailsRateCode | `StringInput` | Rate Code |  |
-| reservationtypescheduleDetailsRateSetId | `FloatInput` | Rate Set ID |  |
-| reservationtypescheduleDetailsReservationType | `StringInput` | Reservation Type |  |
-| reservationtypescheduleDetailsRuleCode | `StringInput` | Rule Code |  |
-| reservationtypescheduleDetailsSeasonCode | `StringInput` | Season Code |  |
-| marketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| marketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| marketDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| marketDetailsMarketCode | `StringInput` | Market Code |  |
-| marketDetailsParentMarketCode | `StringInput` | Market group attached to the market code |  |
-| marketDetailsMarketgroupid | `StringInput` | Marketgroupid |  |
-| marketDetailsMarketid | `StringInput` | Marketid |  |
-| marketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| marketDetailsResort | `StringInput` | Property |  |
-| marketgroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| marketgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| marketgroupDetailsMarketGroup | `StringInput` | Market group code |  |
-| marketgroupDetailsMarketgroupid | `StringInput` | Marketgroupid |  |
-| marketgroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| marketgroupDetailsResort | `StringInput` | Property |  |
-| resortmarketingcityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortmarketingcityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortmarketingcityDetailsMarketingCity | `StringInput` | Marketing City |  |
-| resortmarketingcityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortmarketingcityDetailsResort | `StringInput` | Property |  |
-| resortmarketingcityDetailsRegionCode | `StringInput` | Region Code |  |
-| marketingregionsDetailsAttributeCode | `StringInput` | Code |  |
-| marketingregionsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| marketingregionsDetailsEntityName | `StringInput` | Entity Name |  |
-| marketingregionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| marketingregionsDetailsLanguageCode | `StringInput` | Language Code |  |
-| marketingregionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| marketingregionsDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| channelDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| channelDetailsEntityName | `StringInput` | Entity Name |  |
-| channelDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| channelDetailsLanguageCode | `StringInput` | Language Code |  |
-| channelDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| channelDetailsAttributeCode | `StringInput` | Origin Code |  |
-| channelDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| sellmessagesDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |  |
-| sellmessagesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| sellmessagesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| sellmessagesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| sellmessagesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| sellmessagesDetailsResort | `StringInput` | Property |  |
-| sellmessagesDetailsRateCode | `StringInput` | Rate Code |  |
-| sellmessagesDetailsRoomCategory | `StringInput` | Room Category |  |
-| sellmessagesDetailsSellId | `FloatInput` | The primary key for this table. |  |
-| sourcetableDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| sourcetableDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| sourcetableDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| sourcetableDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| sourcetableDetailsResort | `StringInput` | Property |  |
-| sourcetableDetailsSourceCode | `StringInput` | Source Code |  |
-| sourcetableDetailsSourceid | `StringInput` | Sourceid |  |
-| sourcegroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| sourcegroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| sourcegroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| sourcegroupDetailsResort | `StringInput` | Property |  |
-| sourcegroupDetailsSourceCode | `StringInput` | Source Group |  |
-| resvautoattachrulesDetailsRuleCode | `StringInput` | Code |  |
-| resvautoattachrulesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resvautoattachrulesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resvautoattachrulesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resvautoattachrulesDetailsResort | `StringInput` | Property |  |
-| resvautoattachrulesDetailsRoomCategory | `StringInput` | Room Category |  |
-| resvautoattachdetailsDetailsAttachId | `FloatInput` | Attach ID |  |
-| resvautoattachdetailsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resvautoattachdetailsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resvautoattachdetailsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resvautoattachdetailsDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| resvautoattachdetailsDetailsRuleCode | `StringInput` | Rule Code |  |
-| cancellationcodesDetailsAttributeCode | `StringInput` | Code |  |
-| cancellationcodesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| cancellationcodesDetailsEntityName | `StringInput` | Entity Name |  |
-| cancellationcodesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| cancellationcodesDetailsLanguageCode | `StringInput` | Language Code |  |
-| cancellationcodesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| cancellationcodesDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| entrypointDetailsAttributeCode | `StringInput` | Code |  |
-| entrypointDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| entrypointDetailsEntityName | `StringInput` | Entity Name |  |
-| entrypointDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| entrypointDetailsLanguageCode | `StringInput` | Language Code |  |
-| entrypointDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| entrypointDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| discountreasonDetailsAttributeCode | `StringInput` | Attribute Code |  |
-| discountreasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| discountreasonDetailsEntityName | `StringInput` | Entity Name |  |
-| discountreasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| discountreasonDetailsLanguageCode | `StringInput` | Language Code |  |
-| discountreasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| discountreasonDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| ecouponDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| ecouponDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| ecouponDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| ecouponDetailsResort | `StringInput` | Property |  |
-| ecouponDetailsEcouponCode | `StringInput` | eCoupon Code |  |
-| resortlocatorDetailsLocatorCode | `FloatInput` | Locator code. |  |
-| resortlocatorDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortlocatorDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortlocatorDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortlocatorDetailsResort | `StringInput` | Property |  |
-| resortmessageDetailsMessageCode | `StringInput` | Code |  |
-| resortmessageDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortmessageDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortmessageDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resortmessageDetailsResort | `StringInput` | Property |  |
-| gueststatusDetailsAttributeCode | `StringInput` | Code |  |
-| gueststatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| gueststatusDetailsEntityName | `StringInput` | Entity Name |  |
-| gueststatusDetailsEntityname | `StringInput` | Entityname |  |
-| gueststatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| gueststatusDetailsLanguageCode | `StringInput` | Language Code |  |
-| gueststatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| gueststatusDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| guesttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| guesttypeDetailsEntityName | `StringInput` | Entity Name |  |
-| guesttypeDetailsAttributeCode | `StringInput` | Guest Type |  |
-| guesttypeDetailsGuesttypeid | `StringInput` | Guesttypeid |  |
-| guesttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| guesttypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| guesttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| guesttypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| immigrationstatusDetailsAttributeCode | `StringInput` | Code |  |
-| immigrationstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| immigrationstatusDetailsEntityName | `StringInput` | Entity Name |  |
-| immigrationstatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| immigrationstatusDetailsLanguageCode | `StringInput` | Language Code |  |
-| immigrationstatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| immigrationstatusDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| preregrulesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| preregrulesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| preregrulesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| preregrulesDetailsResort | `StringInput` | Property |  |
-| preregrulesDetailsRuleId | `FloatInput` | Rule ID |  |
-| itemclassDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| itemclassDetailsItemclassId | `FloatInput` | Itemclass ID |  |
-| itemclassDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| itemclassDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| itemclassDetailsResort | `StringInput` | Property |  |
-| iteminventoryDetailsBraceletRuleCode | `StringInput` | Links to RESORT_BRACELET_RULES.RULE_CODE. |  |
-| iteminventoryDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| iteminventoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| iteminventoryDetailsItemId | `FloatInput` | Item ID |  |
-| iteminventoryDetailsItemPoolId | `FloatInput` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |  |
-| iteminventoryDetailsItemclassId | `FloatInput` | Itemclass ID |  |
-| iteminventoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| iteminventoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| iteminventoryDetailsResort | `StringInput` | Property |  |
-| iteminventoryDetailsArticleNumber | `StringInput` | Quick Insert |  |
-| iteminventoryDetailsRevType | `StringInput` | Rev Type |  |
-| itempoolDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| itempoolDetailsItemPoolId | `FloatInput` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |  |
-| itempoolDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| itempoolDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| itempoolDetailsResort | `StringInput` | Property |  |
-| birthcountryDetailsAttributeCode | `StringInput` | Code |  |
-| birthcountryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| birthcountryDetailsEntityName | `StringInput` | Entity Name |  |
-| birthcountryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| birthcountryDetailsLanguageCode | `StringInput` | Language Code |  |
-| birthcountryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| birthcountryDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| resortcountryDetailsChainCode | `StringInput` | Chain Code |  |
-| resortcountryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resortcountryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| resortcountryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| countrygroupDetailsAttributeCode | `StringInput` | Country Group Code |  |
-| countrygroupDetailsCountrygroupid | `StringInput` | Countrygroupid |  |
-| countrygroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| countrygroupDetailsEntityName | `StringInput` | Entity Name |  |
-| countrygroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| countrygroupDetailsLanguageCode | `StringInput` | Language Code |  |
-| countrygroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| countrygroupDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| distancetypeDetailsAttributeCode | `StringInput` | Code |  |
-| distancetypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| distancetypeDetailsEntityName | `StringInput` | Entity Name |  |
-| distancetypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| distancetypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| distancetypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| distancetypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| districtDetailsAttributeCode | `StringInput` | Code |  |
-| districtDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| districtDetailsEntityName | `StringInput` | Entity Name |  |
-| districtDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| districtDetailsLanguageCode | `StringInput` | Language Code |  |
-| districtDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| districtDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| fiscalguesttypeDetailsAttributeCode | `StringInput` | Code |  |
-| fiscalguesttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| fiscalguesttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| fiscalguesttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| fiscalguesttypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| fiscalregionDetailsAttributeCode | `StringInput` | Code |  |
-| fiscalregionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| fiscalregionDetailsEntityName | `StringInput` | Entity Name |  |
-| fiscalregionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| fiscalregionDetailsLanguageCode | `StringInput` | Language Code |  |
-| fiscalregionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| fiscalregionDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| profileidcountryDetailsAttributeCode | `StringInput` | Code |  |
-| profileidcountryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileidcountryDetailsEntityName | `StringInput` | Entity Name |  |
-| profileidcountryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileidcountryDetailsLanguageCode | `StringInput` | Language Code |  |
-| profileidcountryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileidcountryDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| nationalityDetailsAttributeCode | `StringInput` | Code |  |
-| nationalityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| nationalityDetailsEntityName | `StringInput` | Entity Name |  |
-| nationalityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| nationalityDetailsLanguageCode | `StringInput` | Language Code |  |
-| nationalityDetailsNationalityid | `StringInput` | Nationalityid |  |
-| nationalityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| nationalityDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| qualifyingratesDetailsAdvanceBooking | `FloatInput` | Min number of days to book rate in advance. |  |
-| qualifyingratesDetailsBaseRateCode | `StringInput` | Base Rate Code |  |
-| qualifyingratesDetailsBeginBookingDate | `DateInput` | Begin Booking Date |  |
-| qualifyingratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| qualifyingratesDetailsCommissionCode | `StringInput` | Commission Code |  |
-| qualifyingratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| qualifyingratesDetailsDailyRatesYn | `StringInput` | Daily Rates Y/N |  |
-| qualifyingratesDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |  |
-| qualifyingratesDetailsEndBookingDate | `DateInput` | End Booking Date |  |
-| qualifyingratesDetailsGroupCode | `StringInput` | Group Code |  |
-| qualifyingratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| qualifyingratesDetailsLosUnit | `FloatInput` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |  |
-| qualifyingratesDetailsMarketCode | `StringInput` | Market Code |  |
-| qualifyingratesDetailsMaxAdvanceBooking | `FloatInput` | Max number of days to book rate in advance. |  |
-| qualifyingratesDetailsMaxLos | `FloatInput` | Max Los |  |
-| qualifyingratesDetailsMaxOccupancy | `FloatInput` | Max Occupancy |  |
-| qualifyingratesDetailsMinOccupancy | `FloatInput` | Minimum Occupancy |  |
-| qualifyingratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| qualifyingratesDetailsOrsSellSequence | `FloatInput` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |  |
-| qualifyingratesDetailsPendingApprovalYn | `StringInput` | Indicates whether the rate code is pending for approval or not |  |
-| qualifyingratesDetailsResort | `StringInput` | Property |  |
-| qualifyingratesDetailsRateBucket | `StringInput` | Yield rate bucket |  |
-| qualifyingratesDetailsRateCode | `StringInput` | Rate Codes |  |
-| qualifyingratesDetailsRateLevel | `FloatInput` | Rate Level this rate code belongs to. |  |
-| qualifyingratesDetailsSellSequence | `FloatInput` | Sell Sequence |  |
-| qualifyingratesDetailsSourceCode | `StringInput` | Source Code |  |
-| qualifyingratesDetailsTrxCode | `StringInput` | Transaction Code |  |
-| membershipstatusDetailsAttributeCode | `StringInput` | Code |  |
-| membershipstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| membershipstatusDetailsEntityName | `StringInput` | Entity Name |  |
-| membershipstatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| membershipstatusDetailsLanguageCode | `StringInput` | Language Code |  |
-| membershipstatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| membershipstatusDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| priorityDetailsAttributeCode | `StringInput` | Code |  |
-| priorityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| priorityDetailsEntityName | `StringInput` | Entity Name |  |
-| priorityDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| priorityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| priorityDetailsLanguageCode | `StringInput` | Language Code |  |
-| priorityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| priorityDetailsPriorityId | `StringInput` | Priority ID |  |
-| priorityDetailsPriorityType | `StringInput` | Priority Type.  Default Value is PMSGRID |  |
-| priorityDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| entityaccounttypeDetailsAttributeCode | `StringInput` | Code |  |
-| entityaccounttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| entityaccounttypeDetailsEntityName | `StringInput` | Entity Name |  |
-| entityaccounttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| entityaccounttypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| entityaccounttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| entityaccounttypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| addresstypeDetailsAttributeCode | `StringInput` | Code |  |
-| addresstypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| addresstypeDetailsEntityName | `StringInput` | Entity Name |  |
-| addresstypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| addresstypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| addresstypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| addresstypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| altlanguagetitleDetailsAttributeCode | `StringInput` | Code |  |
-| altlanguagetitleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| altlanguagetitleDetailsEntityName | `StringInput` | Entity Name |  |
-| altlanguagetitleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| altlanguagetitleDetailsLanguageCode | `StringInput` | Language |  |
-| altlanguagetitleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| altlanguagetitleDetailsTitleSuffix | `FloatInput` | Title Number |  |
-| roomspotentialDetailsRoomsPotentialId | `StringInput` | Code |  |
-| roomspotentialDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| roomspotentialDetailsEntityName | `StringInput` | Entity Name |  |
-| roomspotentialDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| roomspotentialDetailsLanguageCode | `StringInput` | Language Code |  |
-| roomspotentialDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| roomspotentialDetailsRoomsPotentialType | `StringInput` | Rooms Potential Type |  |
-| roomspotentialDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| businesssegmentDetailsAttributeCode | `StringInput` | Code |  |
-| businesssegmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| businesssegmentDetailsEntityName | `StringInput` | Entity Name |  |
-| businesssegmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| businesssegmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| businesssegmentDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| companytypeDetailsAttributeCode | `StringInput` | Code |  |
-| companytypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| companytypeDetailsEntityName | `StringInput` | Entity Name |  |
-| companytypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| companytypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| companytypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| companytypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| competitionDetailsAttributeCode | `StringInput` | Attribute Code |  |
-| competitionDetailsCompetitionId | `StringInput` | Code |  |
-| competitionDetailsCompetitionType | `StringInput` | Competition |  |
-| competitionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| competitionDetailsEntityName | `StringInput` | Entity Name |  |
-| competitionDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| competitionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| competitionDetailsLanguageCode | `StringInput` | Language Code |  |
-| competitionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| competitionDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| genderDetailsAttributeCode | `StringInput` | Code |  |
-| genderDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| genderDetailsEntityName | `StringInput` | Entity Name |  |
-| genderDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| genderDetailsLanguageCode | `StringInput` | Language Code |  |
-| genderDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| genderDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| profileinactivereasonDetailsAttributeCode | `StringInput` | Code |  |
-| profileinactivereasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileinactivereasonDetailsEntityName | `StringInput` | Entity Name |  |
-| profileinactivereasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileinactivereasonDetailsLanguageCode | `StringInput` | Language Code |  |
-| profileinactivereasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileinactivereasonDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| industrycodeDetailsAttributeCode | `StringInput` | Code |  |
-| industrycodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| industrycodeDetailsEntityName | `StringInput` | Entity Name |  |
-| industrycodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| industrycodeDetailsLanguageCode | `StringInput` | Language Code |  |
-| industrycodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| industrycodeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| influencecodeDetailsAttributeCode | `StringInput` | Code |  |
-| influencecodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| influencecodeDetailsEntityName | `StringInput` | Entity Name |  |
-| influencecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| influencecodeDetailsLanguageCode | `StringInput` | Language Code |  |
-| influencecodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| influencecodeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| keywordtypeDetailsAttributeCode | `StringInput` | Code |  |
-| keywordtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| keywordtypeDetailsEntityName | `StringInput` | Entity Name |  |
-| keywordtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| keywordtypeDetailsLanguageCode | `StringInput` | Language Code |  |
-| keywordtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| keywordtypeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| mailingactionDetailsMailingActionId | `StringInput` | Code |  |
-| mailingactionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| mailingactionDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| mailingactionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| mailingactionDetailsLanguageCode | `StringInput` | Language Code |  |
-| mailingactionDetailsMailingActionType | `StringInput` | Mailing Action Type |  |
-| mailingactionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| mailingactionDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| preferenceDetailsPreferenceSeqId | `FloatInput` | Central Code |  |
-| preferenceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| preferenceDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| preferenceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| preferenceDetailsLocationId | `StringInput` | Location ID |  |
-| preferenceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| preferenceDetailsPreferenceType | `StringInput` | Preference Group |  |
-| preferenceDetailsPreferenceId | `FloatInput` | Internal Id of the preference |  |
-| preferenceDetailsPreference1 | `StringInput` | Preference1 |  |
-| preferenceDetailsResort | `StringInput` | Property |  |
-| profilerestrictionreasonDetailsAttributeCode | `StringInput` | Code |  |
-| profilerestrictionreasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilerestrictionreasonDetailsEntityName | `StringInput` | Entity Name |  |
-| profilerestrictionreasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilerestrictionreasonDetailsLanguageCode | `StringInput` | Language Code |  |
-| profilerestrictionreasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilerestrictionreasonDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| scscopeDetailsAttributeCode | `StringInput` | Code |  |
-| scscopeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| scscopeDetailsEntityName | `StringInput` | Entity Name |  |
-| scscopeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| scscopeDetailsLanguageCode | `StringInput` | Language Code |  |
-| scscopeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| scscopeDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| scscopecityDetailsAttributeCode | `StringInput` | Code |  |
-| scscopecityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| scscopecityDetailsEntityName | `StringInput` | Entity Name |  |
-| scscopecityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| scscopecityDetailsLanguageCode | `StringInput` | Language Code |  |
-| scscopecityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| scscopecityDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| memclaimadjlimitDetailsClaimAdjLimitCode | `StringInput` | Adjustment Limit Code |  |
-| memclaimadjlimitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| memclaimadjlimitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| memclaimadjlimitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| resortDetailsResort | `StringInput` | The property that the record belongs to<br>`@conditionalInputPair(pair: 1)` |
+| resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
+| resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
+| resortDetailsArAgent | `StringInput` | Default Account Type for an Agent for the Property |
+| resortDetailsArBalTrxCode | `StringInput` | Internal |
+| resortDetailsArCompany | `StringInput` | Default Account Type for a Company for the Property |
+| resortDetailsArCreditTrxCode | `StringInput` | Internal |
+| resortDetailsArGroups | `StringInput` | Default Account Type for a Group for the Property |
+| resortDetailsArIndividuals | `StringInput` | Default Account Type for Individual for the Property |
+| resortDetailsArSettleCode | `StringInput` | Internal |
+| resortDetailsArTypewriter | `StringInput` | Internal |
+| resortDetailsAccessCode | `StringInput` | Access Code |
+| resortDetailsQtyHandicappedRooms | `FloatInput` | Number of handicapped rooms. |
+| resortDetailsAgingLevel1 | `FloatInput` | Aging bucket 1 |
+| resortDetailsAgingLevel2 | `FloatInput` | Aging bucket 2 |
+| resortDetailsAgingLevel3 | `FloatInput` | Aging bucket 3 |
+| resortDetailsAgingLevel4 | `FloatInput` | Aging bucket 4 |
+| resortDetailsAgingLevel5 | `FloatInput` | Aging bucket 3 |
+| resortDetailsAirport | `StringInput` | The Airport Code for the airport near the property |
+| resortDetailsAirportDistance | `StringInput` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
+| resortDetailsAirportTime | `StringInput` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
+| resortDetailsAllowLoginYn | `StringInput` | Allow loggin in to this resort(Y/N) |
+| resortDetailsAllowancePeriodAdj | `StringInput` | Period for the allowance |
+| resortDetailsAwardsTimeout | `FloatInput` | Internal |
+| resortDetailsBrArea | `StringInput` | Ball Room Area |
+| resortDetailsBrSeats | `FloatInput` | No of Ballroom Seats |
+| resortDetailsBaseLanguage | `StringInput` | The base language of the Hotel |
+| resortDetailsBlock | `StringInput` | It contains the reservation type to be used when making group block |
+| resortDetailsBrandCode | `StringInput` | Brand Code of the property. |
+| resortDetailsBudgetMonth | `FloatInput` | Financial Year of the Property |
+| resortDetailsBeginDate | `DateInput` | The date this resort becomes valid for use by the system |
+| resortDetailsBusinessId | `StringInput` | Value for the parameter. |
+| resortDetailsBusinessRegCode | `StringInput` | Value for the parameter. |
+| resortDetailsCroCode | `StringInput` | Code for the CRO |
+| resortDetailsCashShiftDrop | `StringInput` | Internal |
+| resortDetailsCateringCurrencyCode | `StringInput` | Catering Currency Code used when Catering Currency differs from base currency. |
+| resortDetailsCateringCurrencyFormat | `StringInput` | Catering currency format. |
+| resortDetailsCXchangeDate | `DateInput` | Central  Exchange Date |
+| resortDetailsCXchangeRate | `FloatInput` | Central  Exchange Rate |
+| resortDetailsCCreditLimit | `FloatInput` | Central Credit Limit |
+| resortDetailsCentralCurrencyCode | `StringInput` | Central Currency Code |
+| resortDetailsCentralCurrencyDesc | `StringInput` | Central Currency Description |
+| resortDetailsCDblRate2 | `FloatInput` | Central Double Rate2 |
+| resortDetailsCDblRate1 | `FloatInput` | Central Double Rate1 |
+| resortDetailsRepPasserbyMarket | `StringInput` | Central Passerby Market |
+| resortDetailsRepPasserbySource | `StringInput` | Central Passerby Source |
+| resortDetailsRepResortType | `StringInput` | Central Property Type |
+| resortDetailsCSglRate1 | `FloatInput` | Central Sgl Rate1 |
+| resortDetailsCSglRate2 | `FloatInput` | Central Sgl Rate 2 |
+| resortDetailsRepState | `StringInput` | Central State |
+| resortDetailsRepStateDesc | `StringInput` | Central State Description |
+| resortDetailsCSuiRate1 | `FloatInput` | Central Sui Rate1 |
+| resortDetailsCSuiRate2 | `FloatInput` | Central Sui Rate 2 |
+| resortDetailsCTplRate1 | `FloatInput` | Central Tpl Rate1 |
+| resortDetailsCTplRate2 | `FloatInput` | Central Tpl Rate 2 |
+| resortDetailsCWarningAmount | `FloatInput` | Central Warning Amount |
+| resortDetailsChainCode | `StringInput` | Chain Code for the chain to which the property belongs |
+| resortDetailsChainDescription | `StringInput` | The description of this chain. |
+| resortDetailsChainMode | `StringInput` | Chain Mode |
+| resortDetailsCheckExgPaidout | `StringInput` | Internal |
+| resortDetailsCheckOutTime | `DateTimeInput` | The Hotel official check out time |
+| resortDetailsCheckShiftDrop | `StringInput` | Internal |
+| resortDetailsCheckTrxcode | `StringInput` | Internal |
+| resortDetailsCheckInTime | `DateTimeInput` | The Hotel official check intime |
+| resortDetailsCity | `StringInput` | The physical city in which this property resides. |
+| resortDetailsCityDescription | `StringInput` | City Description |
+| resortDetailsComAddress | `StringInput` | Internal |
+| resortDetailsComMethod | `StringInput` | Internal |
+| resortDetailsComNameXrefId | `FloatInput` | Internal |
+| resortDetailsCompanyAddressType | `StringInput` | Internal |
+| resortDetailsCompanyPhoneType | `StringInput` | Internal |
+| resortDetailsConfigurationMode | `StringInput` | Internal |
+| resortDetailsConfirmRegcardPrinter | `StringInput` | Internal |
+| resortDetailsQtyConnectingRooms | `FloatInput` | Number of connecting rooms. |
+| resortDetailsAllContacts | `StringInput` | The unique name of application user |
+| resortDetailsCopies | `FloatInput` | Number of copies to be printed |
+| resortDetailsCountryName | `StringInput` | Country name. |
+| resortDetailsCountryCode | `StringInput` | The name of the country in which this property resides. |
+| resortDetailsCountryMode | `StringInput` | Value for the parameter. |
+| resortDetailsCreditLimit | `FloatInput` | The default credit limit for guests. |
+| resortDetailsCurrencyCode | `StringInput` | Currency Code. |
+| resortDetailsCurrencySymbol | `StringInput` | Currency Symbol like $ or EURO symbol |
+| resortDetailsCurrencyName | `StringInput` | A description of this currency. |
+| resortDetailsLocalCurrencyFormat | `StringInput` | Format for the local currency. |
+| resortDetailsCurtainColor | `StringInput` | Color that of the background |
+| resortDetailsDsi | `FloatInput` | DSI |
+| resortDetailsDateForAging | `StringInput` | Date the aging should begin |
+| resortDetailsDateSeparator | `StringInput` | Type of separator to distinguish between DD MM and YYYY |
+| resortDetailsDecimalPlaces | `FloatInput` | Number of places for the default currency |
+| resortDetailsDecimalSeparator | `StringInput` | Type of decimal separator |
+| resortDetailsCurrencyDecimals | `FloatInput` | Number of decimals to designate currency |
+| resortDetailsDefaultFolioStyle | `FloatInput` | Folio style to be used for all guests |
+| resortDetailsDefaultGuestAddress | `StringInput` | Default guest address format. |
+| resortDetailsDefaultMembershipType | `StringInput` | Future use |
+| resortDetailsDefaultPostingRoom | `StringInput` | Future use |
+| resortDetailsDefaultPropertyAddress | `StringInput` | Default property address format. |
+| resortDetailsDefaultRateCode | `StringInput` | Future use |
+| resortDetailsDefaultRatecodePcr | `StringInput` | Rate code used to default a PCR rate code used in FIT Contracts. |
+| resortDetailsDefaultRatecodeRack | `StringInput` | Rate code used to default a RACK rate code used for FIT Contracts. |
+| resortDetailsDefaultRegistrationCard | `StringInput` | Default registration card for the property. |
+| resortDetailsDefaultReservationType | `StringInput` | The Default reservation type for this property |
+| resortDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| resortDetailsDepositLedTrxCode | `StringInput` | Future use |
+| resortDetailsDestinationId | `StringInput` | Destination ID |
+| resortDetailsDfltPkgTranCode | `StringInput` | Future use |
+| resortDetailsDfltTranCodeRateCode | `StringInput` | Future use |
+| resortDetailsDirections | `StringInput` | Internal |
+| resortDetailsDirsales | `StringInput` | Future use |
+| resortDetailsDisableLoginYn | `StringInput` | LOGIN into the application is disabled. |
+| resortDetailsQtyDoubleRooms | `FloatInput` | Number of double rooms. |
+| resortDetailsDownloadRestYn | `StringInput` | Download Rest YN |
+| resortDetailsDutyManagerPager | `StringInput` | Pager number for the Manager on duty for the property. |
+| resortDetailsEmail | `StringInput` | Email id for the property. |
+| resortDetailsEndDate | `DateInput` | Future use. |
+| resortDetailsExchangePostingType | `StringInput` | Default Exchange posting status for the property |
+| resortDetailsFloorNumExecutiveFloor | `StringInput` | Floor number of executive floor. |
+| resortDetailsExpHotelCode | `StringInput` | Hotel code used for third party exports |
+| resortDetailsExtExpFileLocation | `StringInput` | Future use |
+| resortDetailsExtPropertyCode | `StringInput` | Future use |
+| resortDetailsExternalScYn | `StringInput` | Indicates that the property uses an external SC system. |
+| resortDetailsQtyFamilyRooms | `FloatInput` | Number of family rooms. |
+| resortDetailsFaxNoFormat | `StringInput` | Fax number formats. |
+| resortDetailsFax | `StringInput` | The fax phone number |
+| resortDetailsFiscalEndDate | `DateInput` | Future use |
+| resortDetailsFiscalPeriodType | `StringInput` | Future use |
+| resortDetailsFiscalStartDate | `DateInput` | Future use |
+| resortDetailsFiscalStartMonth | `FloatInput` | Fiscal Year Begin Month |
+| resortDetailsFiscalStartYear | `FloatInput` | Fiscal Year Begin Year |
+| resortDetailsFlags | `StringInput` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
+| resortDetailsFlowCode | `StringInput` | Future use |
+| resortDetailsFnsTier | `StringInput` | Property Free Nights Stay Tier. |
+| resortDetailsFolioLanguage1 | `StringInput` | Other languages |
+| resortDetailsFolioLanguage2 | `StringInput` | Other languages |
+| resortDetailsFolioLanguage3 | `StringInput` | Other languages |
+| resortDetailsFolioLanguage4 | `StringInput` | Other languages |
+| resortDetailsGenmgr | `StringInput` | Future use |
+| resortDetailsGroupRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for Group |
+| resortDetailsGuestLookupTimeout | `FloatInput` | Future use |
+| resortDetailsQtyGuestElevators | `FloatInput` | Number of guest elevators. |
+| resortDetailsQtyGuestRoomFloors | `FloatInput` | Total of guest rooms floors. |
+| resortDetailsHotelCode | `StringInput` | Future use |
+| resortDetailsHotelFc | `StringInput` | Future use |
+| resortDetailsHotelId | `StringInput` | Hotel id |
+| resortDetailsHotelType | `StringInput` | Future use |
+| resortDetailsImgDirectionId | `FloatInput` | Future use |
+| resortDetailsImgHotelId | `FloatInput` | Future use |
+| resortDetailsImgMapId | `FloatInput` | Future use |
+| resortDetailsInactiveDaysForGuestProfil | `FloatInput` | Future use |
+| resortDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| resortDetailsIndividualAddressType | `StringInput` | Future use |
+| resortDetailsIndividualPhoneType | `StringInput` | Future use |
+| resortDetailsIndividualRoomWarning | `FloatInput` | To define an upper limit to the number of rooms for group |
+| resortDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| resortDetailsInsertUser | `FloatInput` | The user that created the record |
+| resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |
+| resortDetailsInventoryYn | `StringInput` | Future use |
+| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |
+| resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |
+| resortDetailsLeadsend | `StringInput` | Future use |
+| resortDetailsLegalOwner | `StringInput` | The owner who owns this property |
+| resortDetailsLocationId | `StringInput` | The property that the record belongs to |
+| resortDetailsLongDateFormat | `StringInput` | Long date format for the property. |
+| resortDetailsLongStayControl | `FloatInput` | The default length of stay |
+| resortDetailsLongitude | `FloatInput` | Longitude of the property in decimal |
+| resortDetailsMaxAdultsFamilyRoom | `FloatInput` | Maximum adults in family rooms. |
+| resortDetailsMaxChildrenFamilyRoom | `FloatInput` | Maximum children in family rooms. |
+| resortDetailsMaxOccupancy | `FloatInput` | Future use |
+| resortDetailsMaxcreditdays | `FloatInput` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
+| resortDetailsMbsSupportedYn | `StringInput` | Indicates whether the property supports MBS. Used in some file exports. |
+| resortDetailsMeetRooms | `FloatInput` | Future use |
+| resortDetailsMeetSeats | `FloatInput` | Future use |
+| resortDetailsMeetSpace | `FloatInput` | Future use |
+| resortDetailsMeetingFc | `StringInput` | Future use |
+| resortDetailsMinDaysBet2ReminderLetter | `FloatInput` | Minimum days for reminder letter. |
+| resortDetailsNameIdLink | `FloatInput` | Internal |
+| resortDetailsNightAuditCashierId | `StringInput` | Future use |
+| resortDetailsQtyNonSmokingRooms | `FloatInput` | Number of non smoking rooms. |
+| resortDetailsNotes | `StringInput` | Notes for the property |
+| resortDetailsNumberBeds | `FloatInput` | Total number of beds in this property |
+| resortDetailsNumberFloors | `FloatInput` | Total number of floors in this property |
+| resortDetailsNumberRooms | `FloatInput` | Number of Rooms |
+| resortDetailsOpusCurrencyCode | `StringInput` | Future use |
+| resortDetailsOrganizationId | `FloatInput` | Organization ID |
+| resortDetailsOrganizationid | `FloatInput` | Organization Internal ID |
+| resortDetailsOwnership | `StringInput` | Future use |
+| resortDetailsPackageLoss | `StringInput` | Package Loss code for a particular package |
+| resortDetailsPackageProfit | `StringInput` | Package Profit code for a particular Package |
+| resortDetailsParentOrgCode | `StringInput` | Parent Org Code |
+| resortDetailsPasserbyMarket | `StringInput` | Market code |
+| resortDetailsPasserbySource | `StringInput` | Source code |
+| resortDetailsPath | `StringInput` | Path |
+| resortDetailsPaymentDate | `DateTimeInput` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| resortDetailsPerReservationRoomLimit | `FloatInput` | Future use |
+| resortDetailsTelephone | `StringInput` | The direct dial phone number of this property |
+| resortDetailsPostCode | `StringInput` | The postal code of this property. |
+| resortDetailsPkid | `FloatInput` | Primary Key ID |
+| resortDetailsProinfoUrl | `StringInput` | URL where property information is located. |
+| resortDetailsPropMapUrl | `StringInput` | Property MAP URL. |
+| resortDetailsPropPicUrl | `StringInput` | Property picture URL. |
+| resortDetailsLocationid | `StringInput` | The property that the record belongs to |
+| resortDetailsName | `StringInput` | The name of this property. |
+| resortDetailsResortType | `StringInput` | Type of resort. |
+| resortDetailsQuotedCurrency | `StringInput` | Future use |
+| resortDetailsRnaInsertdate | `DateTimeInput` | RNA Insert Date |
+| resortDetailsRnaUpdatedate | `DateTimeInput` | RNA Update Date |
+| resortDetailsReconcileDate | `DateTimeInput` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| resortDetailsRegionCode | `StringInput` | Future use |
+| resortDetailsRegionDescription | `StringInput` | Description of the Region. |
+| resortDetailsRestaurant | `FloatInput` | Future use |
+| resortDetailsRhythmSheets | `FloatInput` | Total number of Sheets |
+| resortDetailsRhythmTowels | `FloatInput` | Total number of Towels |
+| resortDetailsRoomAmenity | `StringInput` | Room amenity. |
+| resortDetailsSglNum | `StringInput` | Future use |
+| resortDetailsSglRate1 | `FloatInput` | Future use |
+| resortDetailsSglRate2 | `FloatInput` | Future use |
+| resortDetailsSuiNum | `StringInput` | Future use |
+| resortDetailsSuiRate1 | `FloatInput` | Future use |
+| resortDetailsSuiRate2 | `FloatInput` | Future use |
+| resortDetailsSaveProfiles | `FloatInput` | To store number of days before deleting the gest profile |
+| resortDetailsScriptId | `FloatInput` | Future use |
+| resortDetailsSeason1 | `StringInput` | Future use |
+| resortDetailsSeason2 | `StringInput` | Future use |
+| resortDetailsSeason3 | `StringInput` | Future use |
+| resortDetailsSeason4 | `StringInput` | Future use |
+| resortDetailsSeason5 | `StringInput` | Future use |
+| resortDetailsSendLeadAsBooking | `StringInput` | Indicates that the property accepts leads as bookings. |
+| resortDetailsShopDescription | `StringInput` | Shop description. |
+| resortDetailsShortDateFormat | `StringInput` | Short date format for the property. |
+| resortDetailsQtySingleRooms | `FloatInput` | Number of single rooms. |
+| resortDetailsSourceCommission | `StringInput` | For default commission percentage |
+| resortDetailsState | `StringInput` | The state in which this property is located. |
+| resortDetailsStateDesc | `StringInput` | Description of the state. |
+| resortDetailsStreet | `StringInput` | The street of the property. |
+| resortDetailsQtySuites | `FloatInput` | Number of suites. |
+| resortDetailsSummCurrencyCode | `StringInput` | Internal |
+| resortDetailsTaCommission | `StringInput` | For default commission percentage |
+| resortDetailsTplNum | `StringInput` | Future use |
+| resortDetailsTplRate1 | `FloatInput` | Future use |
+| resortDetailsTplRate2 | `FloatInput` | Future use |
+| resortDetailsTelephoneNoFormat | `StringInput` | Formats for telephone number |
+| resortDetailsThousandSeparator | `StringInput` | Separator for monetory values |
+| resortDetailsTimeFormat | `StringInput` | Default time format for the property. |
+| resortDetailsTimezoneRegion | `StringInput` | Time zone region selected by the employee. |
+| resortDetailsTollfree | `StringInput` | Toll free telephone number. |
+| resortDetailsTotRooms | `FloatInput` | Future use |
+| resortDetailsTouristNumber | `StringInput` | Tourist Number |
+| resortDetailsTranslateMulticharYn | `StringInput` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
+| resortDetailsTurnawayCode | `StringInput` | Turnaway code for the property. |
+| resortDetailsQtyTwinRooms | `FloatInput` | Number of twin rooms. |
+| resortDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| resortDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| resortDetailsVatId | `StringInput` | VAT ID of this property. |
+| resortDetailsVideocheckoutPrinter | `StringInput` | Future use |
+| resortDetailsVideoCoStart | `DateTimeInput` | Video check out start time. |
+| resortDetailsVideoCoStop | `DateTimeInput` | Video check out end time. |
+| resortDetailsWakeUpDelay | `FloatInput` | Future use |
+| resortDetailsWarningAmount | `FloatInput` | Amount at which warning is raised. |
+| resortDetailsWebaddress | `StringInput` | Webaddress of the property |
+| resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |
+| resortDetailsZeroInvPurDays | `FloatInput` | Internal |
+| memclaimoriginDetailsAttributeCode | `StringInput` | Claim Origin Code |
+| memclaimoriginDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memclaimoriginDetailsEntityName | `StringInput` | Entity Name |
+| memclaimoriginDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| memclaimoriginDetailsLanguageCode | `StringInput` | Language Code |
+| memclaimoriginDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| memclaimoriginDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| mempointsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| mempointsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| mempointsDetailsMembershipPointsSeqno | `FloatInput` | Membership Points Seqno |
+| mempointsDetailsMembershipType | `StringInput` | Membership Type |
+| mempointsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| mempointsDetailsResort | `StringInput` | Property |
+| memawardratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memawardratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| memawardratesDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| memawardproductsDetailsAwardType | `StringInput` | Award Type |
+| memawardproductsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memawardproductsDetailsMembershipType | `StringInput` | Membership Type |
+| memawardproductsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| memawardupgradesDetailsAwardType | `StringInput` | Award Type |
+| memawardupgradesDetailsChainCode | `StringInput` | Chain Code |
+| memawardupgradesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memawardupgradesDetailsBeginDate | `DateInput` | From Date |
+| memawardupgradesDetailsFromRoom | `StringInput` | Room Number of the reservation from which charges were routed when routing charges between reservations. |
+| memawardupgradesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| memawardupgradesDetailsMembershipAwardId | `FloatInput` | Internal PK for the table. |
+| memawardupgradesDetailsMembershipType | `StringInput` | Membership Type |
+| memawardupgradesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| memawardupgradesDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| memawardupgradesDetailsEndDate | `DateInput` | To Date |
+| memawardfintrxDetailsAwardType | `StringInput` | Award Type |
+| memawardfintrxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memawardfintrxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| memawardfintrxDetailsMembershipType | `StringInput` | Membership Type |
+| memawardfintrxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| memawardfintrxDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| memresortgroupcodeDetailsResort | `StringInput` | Attached Property Code |
+| memresortgroupcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memresortgroupcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| memresortgroupcodeDetailsMemResortGroup | `StringInput` | Mem Property Group |
+| memresortgroupcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| airportDetailsAirportCode | `StringInput` | Airport code. |
+| airportDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| airportDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| airportDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| airportDetailsResort | `StringInput` | Property |
+| featureDetailsFeature | `StringInput` | Code |
+| featureDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| featureDetailsFeatureid | `StringInput` | Featureid |
+| featureDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| featureDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| featureDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| featureDetailsResort | `StringInput` | Property |
+| featureDetailsBeginDate | `DateInput` | Start Date |
+| attractioncategoryDetailsAttributeCode | `StringInput` | Code |
+| attractioncategoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| attractioncategoryDetailsEntityName | `StringInput` | Entity Name |
+| attractioncategoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| attractioncategoryDetailsLanguageCode | `StringInput` | Language Code |
+| attractioncategoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| attractioncategoryDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| attractionDetailsAttractionCode | `StringInput` | The unique identifier for this attraction. The primary key to this table. |
+| attractionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| attractionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| attractionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| attractionDetailsResort | `StringInput` | Property |
+| chainDetailsChainCode | `StringInput` | Chain |
+| chainDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| chainDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| chainDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| closingscriptDetailsChainCode | `StringInput` | Chain Code |
+| closingscriptDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| closingscriptDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| closingscriptDetailsLanguageCode | `StringInput` | Language |
+| closingscriptDetailsMembershipType | `StringInput` | Membership Type |
+| closingscriptDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| closingscriptDetailsResort | `StringInput` | Property |
+| closingscriptDetailsResortType | `StringInput` | Property Type |
+| closingscriptDetailsScriptId | `FloatInput` | Script ID |
+| communicationmethodDetailsAttributeCode | `StringInput` | Code |
+| communicationmethodDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| communicationmethodDetailsEntityName | `StringInput` | Entity Name |
+| communicationmethodDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| communicationmethodDetailsLanguageCode | `StringInput` | Language Code |
+| communicationmethodDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| communicationmethodDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| deliverystatusDetailsAttributeCode | `StringInput` | Code |
+| deliverystatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| deliverystatusDetailsEntityName | `StringInput` | Entity Name |
+| deliverystatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| deliverystatusDetailsLanguageCode | `StringInput` | Language Code |
+| deliverystatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| deliverystatusDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| departmentDetailsChainCode | `StringInput` | Chain Code |
+| departmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| departmentDetailsDeptId | `StringInput` | Department Code |
+| departmentDetailsDeptName | `StringInput` | Description of the department |
+| departmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| departmentDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| departmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| departmentDetailsResort | `StringInput` | Property |
+| elecregcardscriptDetailsChainCode | `StringInput` | Chain Code |
+| elecregcardscriptDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| elecregcardscriptDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| elecregcardscriptDetailsLanguageCode | `StringInput` | Language |
+| elecregcardscriptDetailsMembershipType | `StringInput` | Membership Type |
+| elecregcardscriptDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| elecregcardscriptDetailsResort | `StringInput` | Property |
+| elecregcardscriptDetailsResortType | `StringInput` | Property Type |
+| elecregcardscriptDetailsScriptId | `FloatInput` | Script ID |
+| hubresortDetailsResort | `StringInput` | Associated Property |
+| hubresortDetailsCroCode | `StringInput` | Cro Code |
+| hubresortDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| hubresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| hubresortDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| jobtitleDetailsJobCode | `StringInput` | Code |
+| jobtitleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| jobtitleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| jobtitleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| jobtitleDetailsResort | `StringInput` | Property |
+| udfcategoryDetailsAttributeCode | `StringInput` | Code |
+| udfcategoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| udfcategoryDetailsEntityName | `StringInput` | Entity Name |
+| udfcategoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| udfcategoryDetailsLanguageCode | `StringInput` | Language Code |
+| udfcategoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| udfcategoryDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| udftypeDetailsUdfCategory | `StringInput` | Category |
+| udftypeDetailsUdfType | `StringInput` | UDF type - CND. |
+| udftypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| udftypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| udftypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| udftypeDetailsTableName | `StringInput` | Table Name |
+| brandcodeDetailsAttributeCode | `StringInput` | Code |
+| brandcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| brandcodeDetailsEntityName | `StringInput` | Entity Name |
+| brandcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| brandcodeDetailsLanguageCode | `StringInput` | Language Code |
+| brandcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| brandcodeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| businessunitDetailsAttributeCode | `StringInput` | Code |
+| businessunitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| businessunitDetailsEntityName | `StringInput` | Entity Name |
+| businessunitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| businessunitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| businessunitDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| departmentcodeDetailsAttributeCode | `StringInput` | Code |
+| departmentcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| departmentcodeDetailsEntityName | `StringInput` | Entity Name |
+| departmentcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| departmentcodeDetailsLanguageCode | `StringInput` | Language Code |
+| departmentcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| departmentcodeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| divisionDetailsAttributeCode | `StringInput` | Code |
+| divisionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| divisionDetailsEntityName | `StringInput` | Entity Name |
+| divisionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| divisionDetailsLanguageCode | `StringInput` | Language Code |
+| divisionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| divisionDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| hotelcategoryDetailsAttributeCode | `StringInput` | Code |
+| hotelcategoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| hotelcategoryDetailsEntityName | `StringInput` | Entity Name |
+| hotelcategoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| hotelcategoryDetailsLanguageCode | `StringInput` | Language Code |
+| hotelcategoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| hotelcategoryDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| operatingunitDetailsAttributeCode | `StringInput` | Code |
+| operatingunitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| operatingunitDetailsEntityName | `StringInput` | Entity Name |
+| operatingunitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| operatingunitDetailsLanguageCode | `StringInput` | Language Code |
+| operatingunitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| operatingunitDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| applicationparametervalueDetailsApnJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| applicationparametervalueDetailsChainCode | `StringInput` | Chain Code |
+| applicationparametervalueDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| applicationparametervalueDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| applicationparametervalueDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| applicationparametervalueDetailsParameterDisplay | `StringInput` | Parameter Display Name |
+| applicationparametervalueDetailsParameterGroup | `StringInput` | Parameter Group |
+| applicationparametervalueDetailsParameterName | `StringInput` | Parameter Name |
+| applicationparametervalueDetailsResort | `StringInput` | Property |
+| trackitactionDetailsCode | `StringInput` | Code |
+| trackitactionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| trackitactionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| trackitactionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| trackitactionDetailsResort | `StringInput` | Property |
+| trackitactionDetailsTiSubgroup | `StringInput` | Track it SubGroup. Example: Location Type or Action. |
+| trackitactionDetailsTiGroup | `StringInput` | Trackit Group. |
+| trackitlocationDetailsCode | `StringInput` | Code |
+| trackitlocationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| trackitlocationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| trackitlocationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| trackitlocationDetailsResort | `StringInput` | Property |
+| trackitlocationDetailsTiSubgroup | `StringInput` | Track it SubGroup. Example: Location Type or Action. |
+| trackitlocationDetailsTiGroup | `StringInput` | Trackit Group. |
+| trackittypeDetailsCode | `StringInput` | Code |
+| trackittypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| trackittypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| trackittypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| trackittypeDetailsResort | `StringInput` | Property |
+| trackittypeDetailsTiSubgroup | `StringInput` | Track it SubGroup. Example: Location Type or Action. |
+| trackittypeDetailsTiGroup | `StringInput` | Trackit Group. |
+| accounttypeDetailsAccountType | `StringInput` | Account Type |
+| accounttypeDetailsCXchangeDate | `DateInput` | Central Exchange Date |
+| accounttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| accounttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| accounttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| accounttypeDetailsResort | `StringInput` | Property |
+| arremindercycleDetailsAccountTypeId | `FloatInput` | Account Type ID |
+| arremindercycleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| arremindercycleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| arremindercycleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| arremindercycleDetailsResort | `StringInput` | Property |
+| arremindercycleDetailsReminderCode | `FloatInput` | Internal number. |
+| acctflagreasonDetailsAcctflagreasonid | `StringInput` | Acctflagreasonid |
+| acctflagreasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| acctflagreasonDetailsReasonCode | `StringInput` | Flagged Reason Code |
+| acctflagreasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| acctflagreasonDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| acctflagreasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| acctflagreasonDetailsResort | `StringInput` | Property |
+| trxreasoncodeDetailsTranReasonCode | `StringInput` | Reason Code. |
+| trxreasoncodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| trxreasoncodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| trxreasoncodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| trxreasoncodeDetailsResort | `StringInput` | Property |
+| ccauthrulesDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| ccauthrulesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ccauthrulesDetailsGuaranteeCode | `StringInput` | Guarantee Code |
+| ccauthrulesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ccauthrulesDetailsMainWindowYn | `StringInput` | Indicates if this auth rule is for the main window (i.e. window 1). Default is Y i.e. Only if the flag is explicitly set to N does the rule apply to windows other than 1. |
+| ccauthrulesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| ccauthrulesDetailsResort | `StringInput` | Property |
+| ccauthrulesDetailsRateCategory | `StringInput` | Rate Category |
+| ccauthrulesDetailsRateCode | `StringInput` | Rate Code |
+| ccauthrulesDetailsRoomClass | `StringInput` | Room Class |
+| ccauthrulesDetailsRoomCategory | `StringInput` | Room Type |
+| ccauthrulesDetailsSourceCode | `StringInput` | Source Code |
+| autofoliosettlementtypeDetailsAttributeCode | `StringInput` | Code |
+| autofoliosettlementtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| autofoliosettlementtypeDetailsEntityName | `StringInput` | Entity Name |
+| autofoliosettlementtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| autofoliosettlementtypeDetailsLanguageCode | `StringInput` | Language Code |
+| autofoliosettlementtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| autofoliosettlementtypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| cashierDetailsInactiveflag | `StringInput` | Active YN |
+| cashierDetailsCashierid | `FloatInput` | Cashierid |
+| cashierDetailsChainCode | `StringInput` | Chain Code |
+| cashierDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| cashierDetailsInterfaceCashierYn | `StringInput` | Decides whether the cashier number is used in interfaces or not. The interface cashiers cannot have numbers more than 999. |
+| cashierDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| cashierDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| cashierDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| cashierDetailsCashierId | `FloatInput` | Payments-Cashier Code |
+| cashierDetailsResort | `StringInput` | Property |
+| customnumberDetailsCustomCode | `StringInput` | Internal code to identify the custom number. |
+| customnumberDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| customnumberDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| customnumberDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| customnumberDetailsResort | `StringInput` | Property |
+| currencyexchangetaxDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| currencyexchangetaxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| currencyexchangetaxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| currencyexchangetaxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| currencyexchangetaxDetailsResort | `StringInput` | Property |
+| currencyexchangetaxDetailsServiceTaxType | `StringInput` | Stores the Service tax type. Possible values can be: R1 R2 R3 and so on. |
+| expensearrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
+| expensearrangementcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| expensearrangementcodeDetailsArrangementCode | `StringInput` | Expense Arrangement Code |
+| expensearrangementcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| expensearrangementcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| expensearrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| expensearrangementcodeDetailsResort | `StringInput` | Property |
+| expensearrangementcodeDetailsType | `StringInput` | Type |
+| transcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| transcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| transcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| transcodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| transcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| transcodeDetailsResort | `StringInput` | Property |
+| transcodeDetailsTranscodeid | `StringInput` | Transcodeid |
+| transcodeDetailsTrxCode | `StringInput` | Trx Code |
+| folioarrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
+| folioarrangementcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| folioarrangementcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| folioarrangementcodeDetailsArrangementCode | `StringInput` | Folio Arrangement Code |
+| folioarrangementcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| folioarrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| folioarrangementcodeDetailsResort | `StringInput` | Property |
+| folioarrangementcodeDetailsType | `StringInput` | Type |
+| grouparrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
+| grouparrangementcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| grouparrangementcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| grouparrangementcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| grouparrangementcodeDetailsArrangementCode | `StringInput` | Group Arrangement Code |
+| grouparrangementcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| grouparrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| grouparrangementcodeDetailsResort | `StringInput` | Property |
+| grouparrangementcodeDetailsType | `StringInput` | Type |
+| foliotypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| foliotypeDetailsFolioType | `StringInput` | Folio Type Code |
+| foliotypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| foliotypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| foliotypeDetailsResort | `StringInput` | Property |
+| foliotypedetailDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| foliotypedetailDetailsFolioType | `StringInput` | Folio Type |
+| foliotypedetailDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| foliotypedetailDetailsLanguageCode | `StringInput` | Language |
+| foliotypedetailDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| foliotypedetailDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| bankaccountDetailsAccountId | `FloatInput` | Account ID |
+| bankaccountDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| bankaccountDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| bankaccountDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| bankaccountDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| bankaccountDetailsResort | `StringInput` | Property |
+| commissionDetailsCommissionCode | `StringInput` | Code |
+| commissionDetailsCommissionid | `StringInput` | Commissionid |
+| commissionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| commissionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| commissionDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| commissionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| commissionDetailsResort | `StringInput` | Property |
+| authorizergroupDetailsAuthGroupCode | `StringInput` | Code |
+| authorizergroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| authorizergroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| authorizergroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| authorizergroupDetailsResort | `StringInput` | Property |
+| authorizergroupdetailDetailsArrangementId | `FloatInput` | Arrangement ID |
+| authorizergroupdetailDetailsAuthGroupCode | `StringInput` | Auth Group Code |
+| authorizergroupdetailDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| authorizergroupdetailDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| authorizergroupdetailDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| authorizergroupdetailDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| authorizergroupdetailDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| authorizergroupdetailDetailsTrxCode | `StringInput` | Transaction Codes |
+| authorizerDetailsAppUserId | `FloatInput` | App User ID |
+| authorizerDetailsAppUserUniq | `StringInput` | Unique internal ID...needed for ASP module as the same user name can't exists across chains. |
+| authorizerDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| authorizerDetailsChainCode | `StringInput` | Chain Code |
+| authorizerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| authorizerDetailsDefCashierId | `FloatInput` | Cashier ID for the User |
+| authorizerDetailsDefaultResort | `StringInput` | Stores resort name to which user will log in every time |
+| authorizerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| authorizerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| authorizerDetailsPersonNameId | `FloatInput` | Foreign key to NAME table that links this USER to an Employee |
+| authorizerDetailsSrepCode | `StringInput` | Srep Code |
+| authorizerDetailsAppUser | `StringInput` | User ID Code |
+| bucketredemptioncodeDetailsCode | `StringInput` | Code |
+| bucketredemptioncodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| bucketredemptioncodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| bucketredemptioncodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| bucketredemptioncodeDetailsResort | `StringInput` | Property |
+| comproutingcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
+| comproutingcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| comproutingcodeDetailsArrangementCode | `StringInput` | Code |
+| comproutingcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| comproutingcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| comproutingcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| comproutingcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| comproutingcodeDetailsResort | `StringInput` | Property |
+| comproutingcodeDetailsType | `StringInput` | Type |
+| comptranscodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| comptranscodeDetailsTrxCode | `StringInput` | Code |
+| comptranscodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| comptranscodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| comptranscodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| comptranscodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| comptranscodeDetailsResort | `StringInput` | Property |
+| trxcodecompxrefDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| codegeneratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| codegeneratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| codegeneratesDetailsTrxCode | `StringInput` | Generated Code |
+| codegeneratesDetailsId | `FloatInput` | ID |
+| codegeneratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| codegeneratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| codegeneratesDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| codegeneratesDetailsTcGroup | `StringInput` | Transaction Code Group |
+| codegeneratesDetailsTcGroupGenerator | `StringInput` | Group generator. |
+| codegeneratesDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| codegeneratesDetailsTcSubgroupGenerator | `StringInput` | Subgroup generator. |
+| codegeneratesDetailsTclCodeGenerator | `StringInput` | Identify if the taxes are generated on the Class. |
+| codegeneratesDetailsTrxCodeGenerator | `StringInput` | Transaction Code Generator |
+| comptypeDetailsCompTypeCode | `StringInput` | Code |
+| comptypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| comptypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| comptypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| comptypeDetailsResort | `StringInput` | Property |
+| barscheduleDetailsRateDate | `DateInput` | Date |
+| barscheduleDetailsDescription | `StringInput` | Description |
+| barscheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| barscheduleDetailsLos | `FloatInput` | Length of Stay |
+| barscheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| barscheduleDetailsResort | `StringInput` | Property |
+| barscheduleDetailsRateCode | `StringInput` | Rate Code |
+| citytaxrangeDetailsChainCode | `StringInput` | Chain Code |
+| citytaxrangeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| citytaxrangeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| citytaxrangeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| citytaxrangeDetailsPkgFormulaRangeId | `FloatInput` | Oracle sequence to maintain uniqueness. |
+| citytaxrangeDetailsResort | `StringInput` | Property |
+| citytaxrangeDetailsRecordType | `StringInput` | Record Type |
+| resortdaytypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortdaytypeDetailsDtCode | `StringInput` | Day Types Code |
+| resortdaytypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortdaytypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortdaytypeDetailsResort | `StringInput` | Property |
+| displaysetDetailsAttributeCode | `StringInput` | Code |
+| displaysetDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| displaysetDetailsEntityName | `StringInput` | Entity Name |
+| displaysetDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| displaysetDetailsLanguageCode | `StringInput` | Language Code |
+| displaysetDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| displaysetDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| resortcalendareventDetailsEventCode | `StringInput` | Code |
+| resortcalendareventDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortcalendareventDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortcalendareventDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortcalendareventDetailsResort | `StringInput` | Property |
+| ratehurdlesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ratehurdlesDetailsHurdleDate | `DateInput` | Hurdle Date |
+| ratehurdlesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ratehurdlesDetailsLengthOfStay | `FloatInput` | Length of Stay |
+| ratehurdlesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| ratehurdlesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| ratehurdlesDetailsOverrideflag | `StringInput` | Override YN |
+| ratehurdlesDetailsResort | `StringInput` | Property |
+| ratehurdlesDetailsRoomCategoryLabel | `StringInput` | Room Category Label |
+| ratehurdlesDetailsRoomcategoryid | `StringInput` | Roomcategoryid |
+| ratehurdlesDetailsYieldCategory | `StringInput` | Yield Category |
+| ratehurdlesDetailsYieldcategoryid | `StringInput` | Yieldcategoryid |
+| ratehurdlesDetailsYieldmarkettype | `StringInput` | Yieldmarkettype |
+| productDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| productDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| productDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| productDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| productDetailsProduct | `StringInput` | Package |
+| productDetailsProductid | `StringInput` | Productid |
+| productDetailsResort | `StringInput` | Property |
+| itempackageDetailsDescription | `StringInput` | Description |
+| itempackageDetailsItemId | `FloatInput` | Item ID |
+| itempackageDetailsItemProdId | `FloatInput` | Unqiue ID from ITEM_PACKAGES_SEQNO |
+| itempackageDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| itempackageDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| itempackageDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| rateproductpriceDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| rateproductpriceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| rateproductpriceDetailsDay1 | `StringInput` | Day1 |
+| rateproductpriceDetailsDay2 | `StringInput` | Day2 |
+| rateproductpriceDetailsDay3 | `StringInput` | Day3 |
+| rateproductpriceDetailsDay4 | `StringInput` | Day4 |
+| rateproductpriceDetailsDay5 | `StringInput` | Day5 |
+| rateproductpriceDetailsDay6 | `StringInput` | Day6 |
+| rateproductpriceDetailsDay7 | `StringInput` | Day7 |
+| rateproductpriceDetailsEndDate | `DateInput` | End Date |
+| rateproductpriceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| rateproductpriceDetailsMaxPersons | `FloatInput` | Maximum number of persons |
+| rateproductpriceDetailsMaxNights | `FloatInput` | Maximum Nights. |
+| rateproductpriceDetailsMinPersons | `FloatInput` | Minimum number of persons for the rate product price. |
+| rateproductpriceDetailsMinNights | `FloatInput` | Minimum number of stay nights for the rate product price. |
+| rateproductpriceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| rateproductpriceDetailsProduct | `StringInput` | Product |
+| rateproductpriceDetailsResort | `StringInput` | Property |
+| rateproductpriceDetailsResortRateProductDtlId | `FloatInput` | Internal id |
+| rateproductpriceDetailsRateCode | `StringInput` | Rate Code |
+| rateproductpriceDetailsSeasonCode | `StringInput` | Season Code |
+| rateproductpriceDetailsBeginDate | `DateInput` | Start Date |
+| pkgforecastgroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| pkgforecastgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| pkgforecastgroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| pkgforecastgroupDetailsResort | `StringInput` | Property |
+| promotionDetailsPromoCode | `StringInput` | Code |
+| promotionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| promotionDetailsMpcode | `StringInput` | Group |
+| promotionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| promotionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| promotionDetailsPromoSeqId | `FloatInput` | Promo Seq ID |
+| promotionDetailsResort | `StringInput` | Property |
+| promorateDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| promorateDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| promorateDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| promorateDetailsPromoCode | `StringInput` | Promo Code |
+| promorateDetailsResort | `StringInput` | Property |
+| promocoderoutinstrDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| promocoderoutinstrDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| promocoderoutinstrDetailsPromoCode | `StringInput` | Promo Code |
+| promocoderoutinstrDetailsResort | `StringInput` | Property |
+| promocoderoutinstrDetailsTrxCodes | `StringInput` | Transaction Codes |
+| ratecategoriesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ratecategoriesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ratecategoriesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| ratecategoriesDetailsResort | `StringInput` | Property |
+| ratecategoriesDetailsRateCategory | `StringInput` | Rate Category |
+| ratecategoriesDetailsRateClass | `StringInput` | Rate Class |
+| articleDetailsArticleId | `FloatInput` | Article ID |
+| articleDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| articleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| articleDetailsArticleid | `FloatInput` | Articleid |
+| articleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| articleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| articleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| articleDetailsResort | `StringInput` | Property |
+| creditcardtypesDetailsAttributeCode | `StringInput` | Code |
+| creditcardtypesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| creditcardtypesDetailsEntityName | `StringInput` | Entity Name |
+| creditcardtypesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| creditcardtypesDetailsLanguageCode | `StringInput` | Language Code |
+| creditcardtypesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| paymentmethodDetailsPaymentMethodId | `StringInput` | Code |
+| paymentmethodDetailsCcTypeIfc | `StringInput` | Abbreviates the card_type and is used exclusively for the interface. |
+| paymentmethodDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| paymentmethodDetailsOrganizationId | `FloatInput` | Organization ID |
+| paymentmethodDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| paymentmethodDetailsLocationId | `StringInput` | Location ID |
+| paymentmethodDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| paymentmethodDetailsCardType | `StringInput` | Payment Method |
+| paymentmethodDetailsResort | `StringInput` | Property |
+| exportbucketcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
+| exportbucketcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| exportbucketcodeDetailsArrangementCode | `StringInput` | Code |
+| exportbucketcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| exportbucketcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| exportbucketcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| exportbucketcodeDetailsResort | `StringInput` | Property |
+| exportbucketcodeDetailsType | `StringInput` | Type |
+| transcodearrangedetDetailsAddTrxYn | `StringInput` | Add Trx Y/N |
+| transcodearrangedetDetailsChildArrangementId | `FloatInput` | Child arrangement id. |
+| transcodearrangedetDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| transcodearrangedetDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| transcodearrangedetDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| transcodearrangedetDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| transcodearrangedetDetailsTrxCode | `StringInput` | Transaction Code |
+| exportbuckettypeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| exportbuckettypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| exportbuckettypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| exportbuckettypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| exportbuckettypeDetailsResort | `StringInput` | Property |
+| routingcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
+| routingcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| routingcodeDetailsArrangementCode | `StringInput` | Code |
+| routingcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| routingcodeDetailsExportBucketType | `StringInput` | User defined Export Bucket type. |
+| routingcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| routingcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| routingcodeDetailsResort | `StringInput` | Property |
+| routingcodeDetailsType | `StringInput` | Type |
+| trxdiversionruleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| trxdiversionruledetailsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| transgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| groupgeneratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| groupgeneratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| groupgeneratesDetailsTrxCode | `StringInput` | Generated Code |
+| groupgeneratesDetailsId | `FloatInput` | ID |
+| groupgeneratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| groupgeneratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| groupgeneratesDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| groupgeneratesDetailsTcGroup | `StringInput` | Transaction Code Group |
+| groupgeneratesDetailsTcGroupGenerator | `StringInput` | Group generator. |
+| groupgeneratesDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| groupgeneratesDetailsTcSubgroupGenerator | `StringInput` | Subgroup generator. |
+| groupgeneratesDetailsTclCodeGenerator | `StringInput` | Identify if the taxes are generated on the Class. |
+| groupgeneratesDetailsTrxCodeGenerator | `StringInput` | Transaction Code Generator |
+| transsubgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| subgroupgeneratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| subgroupgeneratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| subgroupgeneratesDetailsTrxCode | `StringInput` | Generated Code |
+| subgroupgeneratesDetailsId | `FloatInput` | ID |
+| subgroupgeneratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| subgroupgeneratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| subgroupgeneratesDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| subgroupgeneratesDetailsTcGroup | `StringInput` | Transaction Code Group |
+| subgroupgeneratesDetailsTcGroupGenerator | `StringInput` | Group generator. |
+| subgroupgeneratesDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| subgroupgeneratesDetailsTcSubgroupGenerator | `StringInput` | Subgroup generator. |
+| subgroupgeneratesDetailsTclCodeGenerator | `StringInput` | Identify if the taxes are generated on the Class. |
+| subgroupgeneratesDetailsTrxCodeGenerator | `StringInput` | Transaction Code Generator |
+| resortalertDetailsAlertCode | `StringInput` | Code |
+| resortalertDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortalertDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortalertDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortalertDetailsResort | `StringInput` | Propery |
+| globalalertsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| globalalertsDetailsExternalAlertId | `StringInput` | Unique ID in External System. |
+| globalalertsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| globalalertsDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| globalalertsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| globalalertsDetailsResort | `StringInput` | Property |
+| globalalertsDetailsQueryId | `FloatInput` | Query ID |
+| globalalertsDetailsResvAlertId | `FloatInput` | Resv Alert ID |
+| globalalertsDetailsResvNameId | `FloatInput` | Resv Name ID |
+| blockcancellationcodeDetailsAttributeCode | `StringInput` | Code |
+| blockcancellationcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| blockcancellationcodeDetailsExternalAttributeCodes | `StringInput` | Contains a list of codes used by a vendor. |
+| blockcancellationcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| blockcancellationcodeDetailsLanguageCode | `StringInput` | Language Code |
+| blockcancellationcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| blockcancellationcodeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| scdestinationDetailsAttributeCode | `StringInput` | Cancellation Destination |
+| scdestinationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| scdestinationDetailsEntityName | `StringInput` | Entity Name |
+| scdestinationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| scdestinationDetailsLanguageCode | `StringInput` | Language Code |
+| scdestinationDetailsScdestinationid | `StringInput` | Scdestinationid |
+| scdestinationDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| lostbookingcodesDetailsAttributeCode | `StringInput` | Code |
+| lostbookingcodesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| lostbookingcodesDetailsEntityName | `StringInput` | Entity Name |
+| lostbookingcodesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| lostbookingcodesDetailsLanguageCode | `StringInput` | Language Code |
+| lostbookingcodesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| lostbookingcodesDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| refusedbookingcodesDetailsAttributeCode | `StringInput` | Code |
+| refusedbookingcodesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| refusedbookingcodesDetailsEntityName | `StringInput` | Entity Name |
+| refusedbookingcodesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| refusedbookingcodesDetailsLanguageCode | `StringInput` | Language Code |
+| refusedbookingcodesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| refusedbookingcodesDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| bookingmethodDetailsBookingmethodid | `StringInput` | Bookingmethodid |
+| bookingmethodDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| bookingmethodDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| bookingmethodDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| bookingmethodDetailsAttributeCode | `StringInput` | Reservation Method |
+| bookingmethodDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| resortcutoffscheduleDetailsWashcode | `StringInput` | Unique code to identify a Wash schedule. |
+| resortcutoffscheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortcutoffscheduleDetailsCutoffDays | `FloatInput` | Cut off days for the stay date. |
+| resortcutoffscheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortcutoffscheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortcutoffscheduleDetailsResort | `StringInput` | Property |
+| bookingstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| bookingstatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| bookingstatusDetailsStatus | `StringInput` | Old Block Status |
+| bookingstatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| cancelruleDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| cancelruleDetailsRuleCode | `StringInput` | Code |
+| cancelruleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| cancelruleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |
+| cancelruleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |
+| cancelruleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |
+| cancelruleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| cancelruleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| cancelruleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| cancelruleDetailsResort | `StringInput` | Property |
+| cancelruleDetailsRateCode | `StringInput` | Rate Code |
+| cancelruleDetailsRateSetId | `FloatInput` | Rate Set ID |
+| cancelruleDetailsReservationType | `StringInput` | Reservation Type |
+| cancelruleDetailsSeasonCode | `StringInput` | Season Code |
+| cancelrulescheduleDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| cancelrulescheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| cancelrulescheduleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |
+| cancelrulescheduleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |
+| cancelrulescheduleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |
+| cancelrulescheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| cancelrulescheduleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| cancelrulescheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| cancelrulescheduleDetailsResort | `StringInput` | Property |
+| cancelrulescheduleDetailsRateCode | `StringInput` | Rate Code |
+| cancelrulescheduleDetailsRateSetId | `FloatInput` | Rate Set ID |
+| cancelrulescheduleDetailsReservationType | `StringInput` | Reservation Type |
+| cancelrulescheduleDetailsRuleCode | `StringInput` | Rule |
+| cancelrulescheduleDetailsSeasonCode | `StringInput` | Season Code |
+| depositruleDetailsBeginDate | `DateInput` | Begin Date |
+| depositruleDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| depositruleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| depositruleDetailsRuleCode | `StringInput` | Deposit Rule |
+| depositruleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |
+| depositruleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |
+| depositruleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |
+| depositruleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| depositruleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| depositruleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| depositruleDetailsResort | `StringInput` | Property |
+| depositruleDetailsRateCode | `StringInput` | Rate Code |
+| depositruleDetailsRateSetId | `FloatInput` | Rate Set ID |
+| depositruleDetailsReservationType | `StringInput` | Reservation Type |
+| depositruleDetailsSeasonCode | `StringInput` | Season Code |
+| depositrulescheduleDetailsBeginDate | `DateInput` | Begin Date |
+| depositrulescheduleDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| depositrulescheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| depositrulescheduleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |
+| depositrulescheduleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |
+| depositrulescheduleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |
+| depositrulescheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| depositrulescheduleDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| depositrulescheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| depositrulescheduleDetailsResort | `StringInput` | Property |
+| depositrulescheduleDetailsRateCode | `StringInput` | Rate Code |
+| depositrulescheduleDetailsRateSetId | `FloatInput` | Rate Set ID |
+| depositrulescheduleDetailsReservationType | `StringInput` | Reservation Type |
+| depositrulescheduleDetailsRuleCode | `StringInput` | Rule |
+| depositrulescheduleDetailsSeasonCode | `StringInput` | Season Code |
+| guaranteeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| guaranteeDetailsGuaranteecodeid | `StringInput` | Guaranteecodeid |
+| guaranteeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| guaranteeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| guaranteeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| guaranteeDetailsResort | `StringInput` | Property |
+| guaranteeDetailsGuaranteeCode | `StringInput` | Reservation Type |
+| reservationtypescheduleDetailsBeginDate | `DateInput` | Begin Date |
+| reservationtypescheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| reservationtypescheduleDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |
+| reservationtypescheduleDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |
+| reservationtypescheduleDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |
+| reservationtypescheduleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| reservationtypescheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| reservationtypescheduleDetailsResort | `StringInput` | Property |
+| reservationtypescheduleDetailsRateCode | `StringInput` | Rate Code |
+| reservationtypescheduleDetailsRateSetId | `FloatInput` | Rate Set ID |
+| reservationtypescheduleDetailsReservationType | `StringInput` | Reservation Type |
+| reservationtypescheduleDetailsRuleCode | `StringInput` | Rule Code |
+| reservationtypescheduleDetailsSeasonCode | `StringInput` | Season Code |
+| marketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| marketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| marketDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| marketDetailsMarketCode | `StringInput` | Market Code |
+| marketDetailsParentMarketCode | `StringInput` | Market group attached to the market code |
+| marketDetailsMarketgroupid | `StringInput` | Marketgroupid |
+| marketDetailsMarketid | `StringInput` | Marketid |
+| marketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| marketDetailsResort | `StringInput` | Property |
+| marketgroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| marketgroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| marketgroupDetailsMarketGroup | `StringInput` | Market group code |
+| marketgroupDetailsMarketgroupid | `StringInput` | Marketgroupid |
+| marketgroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| marketgroupDetailsResort | `StringInput` | Property |
+| resortmarketingcityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortmarketingcityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortmarketingcityDetailsMarketingCity | `StringInput` | Marketing City |
+| resortmarketingcityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortmarketingcityDetailsResort | `StringInput` | Property |
+| resortmarketingcityDetailsRegionCode | `StringInput` | Region Code |
+| marketingregionsDetailsAttributeCode | `StringInput` | Code |
+| marketingregionsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| marketingregionsDetailsEntityName | `StringInput` | Entity Name |
+| marketingregionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| marketingregionsDetailsLanguageCode | `StringInput` | Language Code |
+| marketingregionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| marketingregionsDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| channelDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| channelDetailsEntityName | `StringInput` | Entity Name |
+| channelDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| channelDetailsLanguageCode | `StringInput` | Language Code |
+| channelDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| channelDetailsAttributeCode | `StringInput` | Origin Code |
+| channelDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| sellmessagesDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
+| sellmessagesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| sellmessagesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| sellmessagesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| sellmessagesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| sellmessagesDetailsResort | `StringInput` | Property |
+| sellmessagesDetailsRateCode | `StringInput` | Rate Code |
+| sellmessagesDetailsRoomCategory | `StringInput` | Room Category |
+| sellmessagesDetailsSellId | `FloatInput` | The primary key for this table. |
+| sourcetableDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| sourcetableDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| sourcetableDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| sourcetableDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| sourcetableDetailsResort | `StringInput` | Property |
+| sourcetableDetailsSourceCode | `StringInput` | Source Code |
+| sourcetableDetailsSourceid | `StringInput` | Sourceid |
+| sourcegroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| sourcegroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| sourcegroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| sourcegroupDetailsResort | `StringInput` | Property |
+| sourcegroupDetailsSourceCode | `StringInput` | Source Group |
+| resvautoattachrulesDetailsRuleCode | `StringInput` | Code |
+| resvautoattachrulesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resvautoattachrulesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resvautoattachrulesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resvautoattachrulesDetailsResort | `StringInput` | Property |
+| resvautoattachrulesDetailsRoomCategory | `StringInput` | Room Category |
+| resvautoattachdetailsDetailsAttachId | `FloatInput` | Attach ID |
+| resvautoattachdetailsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resvautoattachdetailsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resvautoattachdetailsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resvautoattachdetailsDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| resvautoattachdetailsDetailsRuleCode | `StringInput` | Rule Code |
+| cancellationcodesDetailsAttributeCode | `StringInput` | Code |
+| cancellationcodesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| cancellationcodesDetailsEntityName | `StringInput` | Entity Name |
+| cancellationcodesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| cancellationcodesDetailsLanguageCode | `StringInput` | Language Code |
+| cancellationcodesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| cancellationcodesDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| entrypointDetailsAttributeCode | `StringInput` | Code |
+| entrypointDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| entrypointDetailsEntityName | `StringInput` | Entity Name |
+| entrypointDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| entrypointDetailsLanguageCode | `StringInput` | Language Code |
+| entrypointDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| entrypointDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| discountreasonDetailsAttributeCode | `StringInput` | Attribute Code |
+| discountreasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| discountreasonDetailsEntityName | `StringInput` | Entity Name |
+| discountreasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| discountreasonDetailsLanguageCode | `StringInput` | Language Code |
+| discountreasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| discountreasonDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| ecouponDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ecouponDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ecouponDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| ecouponDetailsResort | `StringInput` | Property |
+| ecouponDetailsEcouponCode | `StringInput` | eCoupon Code |
+| resortlocatorDetailsLocatorCode | `FloatInput` | Locator code. |
+| resortlocatorDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortlocatorDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortlocatorDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortlocatorDetailsResort | `StringInput` | Property |
+| resortmessageDetailsMessageCode | `StringInput` | Code |
+| resortmessageDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortmessageDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortmessageDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resortmessageDetailsResort | `StringInput` | Property |
+| gueststatusDetailsAttributeCode | `StringInput` | Code |
+| gueststatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| gueststatusDetailsEntityName | `StringInput` | Entity Name |
+| gueststatusDetailsEntityname | `StringInput` | Entityname |
+| gueststatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| gueststatusDetailsLanguageCode | `StringInput` | Language Code |
+| gueststatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| gueststatusDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| guesttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| guesttypeDetailsEntityName | `StringInput` | Entity Name |
+| guesttypeDetailsAttributeCode | `StringInput` | Guest Type |
+| guesttypeDetailsGuesttypeid | `StringInput` | Guesttypeid |
+| guesttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| guesttypeDetailsLanguageCode | `StringInput` | Language Code |
+| guesttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| guesttypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| immigrationstatusDetailsAttributeCode | `StringInput` | Code |
+| immigrationstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| immigrationstatusDetailsEntityName | `StringInput` | Entity Name |
+| immigrationstatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| immigrationstatusDetailsLanguageCode | `StringInput` | Language Code |
+| immigrationstatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| immigrationstatusDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| preregrulesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| preregrulesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| preregrulesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| preregrulesDetailsResort | `StringInput` | Property |
+| preregrulesDetailsRuleId | `FloatInput` | Rule ID |
+| itemclassDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| itemclassDetailsItemclassId | `FloatInput` | Itemclass ID |
+| itemclassDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| itemclassDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| itemclassDetailsResort | `StringInput` | Property |
+| iteminventoryDetailsBraceletRuleCode | `StringInput` | Links to RESORT_BRACELET_RULES.RULE_CODE. |
+| iteminventoryDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| iteminventoryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| iteminventoryDetailsItemId | `FloatInput` | Item ID |
+| iteminventoryDetailsItemPoolId | `FloatInput` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |
+| iteminventoryDetailsItemclassId | `FloatInput` | Itemclass ID |
+| iteminventoryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| iteminventoryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| iteminventoryDetailsResort | `StringInput` | Property |
+| iteminventoryDetailsArticleNumber | `StringInput` | Quick Insert |
+| iteminventoryDetailsRevType | `StringInput` | Rev Type |
+| itempoolDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| itempoolDetailsItemPoolId | `FloatInput` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |
+| itempoolDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| itempoolDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| itempoolDetailsResort | `StringInput` | Property |
+| birthcountryDetailsAttributeCode | `StringInput` | Code |
+| birthcountryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| birthcountryDetailsEntityName | `StringInput` | Entity Name |
+| birthcountryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| birthcountryDetailsLanguageCode | `StringInput` | Language Code |
+| birthcountryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| birthcountryDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| resortcountryDetailsChainCode | `StringInput` | Chain Code |
+| resortcountryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resortcountryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortcountryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| countrygroupDetailsAttributeCode | `StringInput` | Country Group Code |
+| countrygroupDetailsCountrygroupid | `StringInput` | Countrygroupid |
+| countrygroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| countrygroupDetailsEntityName | `StringInput` | Entity Name |
+| countrygroupDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| countrygroupDetailsLanguageCode | `StringInput` | Language Code |
+| countrygroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| countrygroupDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| distancetypeDetailsAttributeCode | `StringInput` | Code |
+| distancetypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| distancetypeDetailsEntityName | `StringInput` | Entity Name |
+| distancetypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| distancetypeDetailsLanguageCode | `StringInput` | Language Code |
+| distancetypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| distancetypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| districtDetailsAttributeCode | `StringInput` | Code |
+| districtDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| districtDetailsEntityName | `StringInput` | Entity Name |
+| districtDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| districtDetailsLanguageCode | `StringInput` | Language Code |
+| districtDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| districtDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| fiscalguesttypeDetailsAttributeCode | `StringInput` | Code |
+| fiscalguesttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| fiscalguesttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| fiscalguesttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| fiscalguesttypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| fiscalregionDetailsAttributeCode | `StringInput` | Code |
+| fiscalregionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| fiscalregionDetailsEntityName | `StringInput` | Entity Name |
+| fiscalregionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| fiscalregionDetailsLanguageCode | `StringInput` | Language Code |
+| fiscalregionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| fiscalregionDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| profileidcountryDetailsAttributeCode | `StringInput` | Code |
+| profileidcountryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileidcountryDetailsEntityName | `StringInput` | Entity Name |
+| profileidcountryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileidcountryDetailsLanguageCode | `StringInput` | Language Code |
+| profileidcountryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileidcountryDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| nationalityDetailsAttributeCode | `StringInput` | Code |
+| nationalityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| nationalityDetailsEntityName | `StringInput` | Entity Name |
+| nationalityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| nationalityDetailsLanguageCode | `StringInput` | Language Code |
+| nationalityDetailsNationalityid | `StringInput` | Nationalityid |
+| nationalityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| nationalityDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| qualifyingratesDetailsAdvanceBooking | `FloatInput` | Min number of days to book rate in advance. |
+| qualifyingratesDetailsBaseRateCode | `StringInput` | Base Rate Code |
+| qualifyingratesDetailsBeginBookingDate | `DateInput` | Begin Booking Date |
+| qualifyingratesDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| qualifyingratesDetailsCommissionCode | `StringInput` | Commission Code |
+| qualifyingratesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| qualifyingratesDetailsDailyRatesYn | `StringInput` | Daily Rates Y/N |
+| qualifyingratesDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |
+| qualifyingratesDetailsEndBookingDate | `DateInput` | End Booking Date |
+| qualifyingratesDetailsGroupCode | `StringInput` | Group Code |
+| qualifyingratesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| qualifyingratesDetailsLosUnit | `FloatInput` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
+| qualifyingratesDetailsMarketCode | `StringInput` | Market Code |
+| qualifyingratesDetailsMaxAdvanceBooking | `FloatInput` | Max number of days to book rate in advance. |
+| qualifyingratesDetailsMaxLos | `FloatInput` | Max Los |
+| qualifyingratesDetailsMaxOccupancy | `FloatInput` | Max Occupancy |
+| qualifyingratesDetailsMinOccupancy | `FloatInput` | Minimum Occupancy |
+| qualifyingratesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| qualifyingratesDetailsOrsSellSequence | `FloatInput` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
+| qualifyingratesDetailsPendingApprovalYn | `StringInput` | Indicates whether the rate code is pending for approval or not |
+| qualifyingratesDetailsResort | `StringInput` | Property |
+| qualifyingratesDetailsRateBucket | `StringInput` | Yield rate bucket |
+| qualifyingratesDetailsRateCode | `StringInput` | Rate Codes |
+| qualifyingratesDetailsRateLevel | `FloatInput` | Rate Level this rate code belongs to. |
+| qualifyingratesDetailsSellSequence | `FloatInput` | Sell Sequence |
+| qualifyingratesDetailsSourceCode | `StringInput` | Source Code |
+| qualifyingratesDetailsTrxCode | `StringInput` | Transaction Code |
+| membershipstatusDetailsAttributeCode | `StringInput` | Code |
+| membershipstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| membershipstatusDetailsEntityName | `StringInput` | Entity Name |
+| membershipstatusDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| membershipstatusDetailsLanguageCode | `StringInput` | Language Code |
+| membershipstatusDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| membershipstatusDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| priorityDetailsAttributeCode | `StringInput` | Code |
+| priorityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| priorityDetailsEntityName | `StringInput` | Entity Name |
+| priorityDetailsOrganizationId | `FloatInput` | Organization ID |
+| priorityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| priorityDetailsLanguageCode | `StringInput` | Language Code |
+| priorityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| priorityDetailsPriorityId | `StringInput` | Priority ID |
+| priorityDetailsPriorityType | `StringInput` | Priority Type.  Default Value is PMSGRID |
+| priorityDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| entityaccounttypeDetailsAttributeCode | `StringInput` | Code |
+| entityaccounttypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| entityaccounttypeDetailsEntityName | `StringInput` | Entity Name |
+| entityaccounttypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| entityaccounttypeDetailsLanguageCode | `StringInput` | Language Code |
+| entityaccounttypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| entityaccounttypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| addresstypeDetailsAttributeCode | `StringInput` | Code |
+| addresstypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| addresstypeDetailsEntityName | `StringInput` | Entity Name |
+| addresstypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| addresstypeDetailsLanguageCode | `StringInput` | Language Code |
+| addresstypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| addresstypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| altlanguagetitleDetailsAttributeCode | `StringInput` | Code |
+| altlanguagetitleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| altlanguagetitleDetailsEntityName | `StringInput` | Entity Name |
+| altlanguagetitleDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| altlanguagetitleDetailsLanguageCode | `StringInput` | Language |
+| altlanguagetitleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| altlanguagetitleDetailsTitleSuffix | `FloatInput` | Title Number |
+| roomspotentialDetailsRoomsPotentialId | `StringInput` | Code |
+| roomspotentialDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| roomspotentialDetailsEntityName | `StringInput` | Entity Name |
+| roomspotentialDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| roomspotentialDetailsLanguageCode | `StringInput` | Language Code |
+| roomspotentialDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| roomspotentialDetailsRoomsPotentialType | `StringInput` | Rooms Potential Type |
+| roomspotentialDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| businesssegmentDetailsAttributeCode | `StringInput` | Code |
+| businesssegmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| businesssegmentDetailsEntityName | `StringInput` | Entity Name |
+| businesssegmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| businesssegmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| businesssegmentDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| companytypeDetailsAttributeCode | `StringInput` | Code |
+| companytypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| companytypeDetailsEntityName | `StringInput` | Entity Name |
+| companytypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| companytypeDetailsLanguageCode | `StringInput` | Language Code |
+| companytypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| companytypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| competitionDetailsAttributeCode | `StringInput` | Attribute Code |
+| competitionDetailsCompetitionId | `StringInput` | Code |
+| competitionDetailsCompetitionType | `StringInput` | Competition |
+| competitionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| competitionDetailsEntityName | `StringInput` | Entity Name |
+| competitionDetailsOrganizationId | `FloatInput` | Organization ID |
+| competitionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| competitionDetailsLanguageCode | `StringInput` | Language Code |
+| competitionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| competitionDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| genderDetailsAttributeCode | `StringInput` | Code |
+| genderDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| genderDetailsEntityName | `StringInput` | Entity Name |
+| genderDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| genderDetailsLanguageCode | `StringInput` | Language Code |
+| genderDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| genderDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| profileinactivereasonDetailsAttributeCode | `StringInput` | Code |
+| profileinactivereasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileinactivereasonDetailsEntityName | `StringInput` | Entity Name |
+| profileinactivereasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileinactivereasonDetailsLanguageCode | `StringInput` | Language Code |
+| profileinactivereasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileinactivereasonDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| industrycodeDetailsAttributeCode | `StringInput` | Code |
+| industrycodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| industrycodeDetailsEntityName | `StringInput` | Entity Name |
+| industrycodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| industrycodeDetailsLanguageCode | `StringInput` | Language Code |
+| industrycodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| industrycodeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| influencecodeDetailsAttributeCode | `StringInput` | Code |
+| influencecodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| influencecodeDetailsEntityName | `StringInput` | Entity Name |
+| influencecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| influencecodeDetailsLanguageCode | `StringInput` | Language Code |
+| influencecodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| influencecodeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| keywordtypeDetailsAttributeCode | `StringInput` | Code |
+| keywordtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| keywordtypeDetailsEntityName | `StringInput` | Entity Name |
+| keywordtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| keywordtypeDetailsLanguageCode | `StringInput` | Language Code |
+| keywordtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| keywordtypeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| mailingactionDetailsMailingActionId | `StringInput` | Code |
+| mailingactionDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| mailingactionDetailsOrganizationId | `FloatInput` | Organization ID |
+| mailingactionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| mailingactionDetailsLanguageCode | `StringInput` | Language Code |
+| mailingactionDetailsMailingActionType | `StringInput` | Mailing Action Type |
+| mailingactionDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| mailingactionDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| preferenceDetailsPreferenceSeqId | `FloatInput` | Central Code |
+| preferenceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| preferenceDetailsOrganizationId | `FloatInput` | Organization ID |
+| preferenceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| preferenceDetailsLocationId | `StringInput` | Location ID |
+| preferenceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| preferenceDetailsPreferenceType | `StringInput` | Preference Group |
+| preferenceDetailsPreferenceId | `FloatInput` | Internal Id of the preference |
+| preferenceDetailsPreference1 | `StringInput` | Preference1 |
+| preferenceDetailsResort | `StringInput` | Property |
+| profilerestrictionreasonDetailsAttributeCode | `StringInput` | Code |
+| profilerestrictionreasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilerestrictionreasonDetailsEntityName | `StringInput` | Entity Name |
+| profilerestrictionreasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilerestrictionreasonDetailsLanguageCode | `StringInput` | Language Code |
+| profilerestrictionreasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilerestrictionreasonDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| scscopeDetailsAttributeCode | `StringInput` | Code |
+| scscopeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| scscopeDetailsEntityName | `StringInput` | Entity Name |
+| scscopeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| scscopeDetailsLanguageCode | `StringInput` | Language Code |
+| scscopeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| scscopeDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| scscopecityDetailsAttributeCode | `StringInput` | Code |
+| scscopecityDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| scscopecityDetailsEntityName | `StringInput` | Entity Name |
+| scscopecityDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| scscopecityDetailsLanguageCode | `StringInput` | Language Code |
+| scscopecityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| scscopecityDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| memclaimadjlimitDetailsClaimAdjLimitCode | `StringInput` | Adjustment Limit Code |
+| memclaimadjlimitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| memclaimadjlimitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| memclaimadjlimitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 
 [⬆ Back to Query](#query)
 

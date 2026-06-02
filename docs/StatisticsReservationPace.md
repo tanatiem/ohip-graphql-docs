@@ -1014,18 +1014,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1033,10 +1033,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1044,18 +1044,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1063,10 +1063,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1074,17 +1074,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1092,18 +1092,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1111,10 +1111,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1122,72 +1122,72 @@
 
 ### StatisticsReservationPaceQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| resvpacefactDetailsChannel | `StringInput` | Channel |  |
-| resvpacefactDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| resvpacefactDetailsMarketCode | `StringInput` | Market Code |  |
-| resvpacefactDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| resvpacefactDetailsResort | `StringInput!` | Code to uniquely identify the Property | `mandatoryInput` |
-| resvpacefactDetailsRateCode | `StringInput` | Rate Code |  |
-| resvpacefactDetailsRoomCategory | `StringInput` | Room Category |  |
-| resvpacefactDetailsSnapshotDate | `DateInput!` | Date the Snapshot was created | `mandatoryInput` |
-| resvpacefactDetailsStayDate | `DateInput!` | Stay Date | `mandatoryInput` |
-| pacestaydateDetailsDaykey | `DateInput` | Stay Date |  |
-| pacemarketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| pacemarketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| pacemarketDetailsMarketCode | `StringInput` | Market Code |  |
-| pacemarketDetailsParentMarketCode | `StringInput` | Market group attached to the market code |  |
-| pacemarketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| pacemarketDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| paceratecodeDetailsBaseRateCode | `StringInput` | Base Rate Code |  |
-| paceratecodeDetailsBeginBookingDate | `DateInput` | Begin Booking Date |  |
-| paceratecodeDetailsCommissionCode | `StringInput` | Commission Code |  |
-| paceratecodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| paceratecodeDetailsDailyRatesYn | `StringInput` | Daily Rates Y/N |  |
-| paceratecodeDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |  |
-| paceratecodeDetailsEndBookingDate | `DateInput` | End Booking Date |  |
-| paceratecodeDetailsGroupCode | `StringInput` | Group Code |  |
-| paceratecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| paceratecodeDetailsLosUnit | `FloatInput` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |  |
-| paceratecodeDetailsMarketCode | `StringInput` | Market Code |  |
-| paceratecodeDetailsMaxLos | `FloatInput` | Max Los |  |
-| paceratecodeDetailsMaxOccupancy | `FloatInput` | Max Occupancy |  |
-| paceratecodeDetailsMinOccupancy | `FloatInput` | Minimum Occupancy |  |
-| paceratecodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| paceratecodeDetailsOrsSellSequence | `FloatInput` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |  |
-| paceratecodeDetailsPendingApprovalYn | `StringInput` | Indicates whether the rate code is pending for approval or not |  |
-| paceratecodeDetailsRateBucket | `StringInput` | Yield rate bucket |  |
-| paceratecodeDetailsRateCode | `StringInput` | Rate Code |  |
-| paceratecodeDetailsRateLevel | `FloatInput` | Rate Level this rate code belongs to. |  |
-| paceratecodeDetailsResort | `StringInput` | Property |  |
-| paceratecodeDetailsSellSequence | `FloatInput` | Sell Sequence |  |
-| paceratecodeDetailsSourceCode | `StringInput` | Source Code |  |
-| paceresortDetailsCrsResort | `StringInput` | Not used |  |
-| paceresortDetailsCountryCode | `StringInput` | Country Code |  |
-| paceresortDetailsCurrencyCode | `StringInput` | Currency Code |  |
-| paceresortDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| paceresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| paceresortDetailsNameIdLink | `FloatInput` | Internal |  |
-| paceresortDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| paceresortDetailsResort | `StringInput` | Property |  |
-| paceresortDetailsResortType | `StringInput` | Property Type |  |
-| paceroomtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| paceroomtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| paceroomtypeDetailsLabel | `StringInput` | Label |  |
-| paceroomtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| paceroomtypeDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| paceroomtypeDetailsRoomClass | `StringInput` | Room Class |  |
-| paceroomtypeDetailsRoomCategory | `StringInput` | Room Type |  |
-| paceroomtypeDetailsYieldCategory | `StringInput` | Yield Category |  |
-| pacechannelDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| pacechannelDetailsEntityName | `StringInput` | Entity Name |  |
-| pacechannelDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| pacechannelDetailsLanguageCode | `StringInput` | Language Code |  |
-| pacechannelDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| pacechannelDetailsAttributeCode | `StringInput` | Origin Code |  |
-| pacechannelDetailsTitleSuffix | `FloatInput` | Title Suffix |  |
-| resvpacesnapshotdimDetailsDaykey | `DateInput` | Snapshot Date Comparison |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| resvpacefactDetailsChannel | `StringInput` | Channel |
+| resvpacefactDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resvpacefactDetailsMarketCode | `StringInput` | Market Code |
+| resvpacefactDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| resvpacefactDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| resvpacefactDetailsRateCode | `StringInput` | Rate Code |
+| resvpacefactDetailsRoomCategory | `StringInput` | Room Category |
+| resvpacefactDetailsSnapshotDate | `DateInput!` | Date the Snapshot was created<br>`@mandatoryInput` |
+| resvpacefactDetailsStayDate | `DateInput!` | Stay Date<br>`@mandatoryInput` |
+| pacestaydateDetailsDaykey | `DateInput` | Stay Date |
+| pacemarketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| pacemarketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| pacemarketDetailsMarketCode | `StringInput` | Market Code |
+| pacemarketDetailsParentMarketCode | `StringInput` | Market group attached to the market code |
+| pacemarketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| pacemarketDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| paceratecodeDetailsBaseRateCode | `StringInput` | Base Rate Code |
+| paceratecodeDetailsBeginBookingDate | `DateInput` | Begin Booking Date |
+| paceratecodeDetailsCommissionCode | `StringInput` | Commission Code |
+| paceratecodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| paceratecodeDetailsDailyRatesYn | `StringInput` | Daily Rates Y/N |
+| paceratecodeDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |
+| paceratecodeDetailsEndBookingDate | `DateInput` | End Booking Date |
+| paceratecodeDetailsGroupCode | `StringInput` | Group Code |
+| paceratecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| paceratecodeDetailsLosUnit | `FloatInput` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
+| paceratecodeDetailsMarketCode | `StringInput` | Market Code |
+| paceratecodeDetailsMaxLos | `FloatInput` | Max Los |
+| paceratecodeDetailsMaxOccupancy | `FloatInput` | Max Occupancy |
+| paceratecodeDetailsMinOccupancy | `FloatInput` | Minimum Occupancy |
+| paceratecodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| paceratecodeDetailsOrsSellSequence | `FloatInput` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
+| paceratecodeDetailsPendingApprovalYn | `StringInput` | Indicates whether the rate code is pending for approval or not |
+| paceratecodeDetailsRateBucket | `StringInput` | Yield rate bucket |
+| paceratecodeDetailsRateCode | `StringInput` | Rate Code |
+| paceratecodeDetailsRateLevel | `FloatInput` | Rate Level this rate code belongs to. |
+| paceratecodeDetailsResort | `StringInput` | Property |
+| paceratecodeDetailsSellSequence | `FloatInput` | Sell Sequence |
+| paceratecodeDetailsSourceCode | `StringInput` | Source Code |
+| paceresortDetailsCrsResort | `StringInput` | Not used |
+| paceresortDetailsCountryCode | `StringInput` | Country Code |
+| paceresortDetailsCurrencyCode | `StringInput` | Currency Code |
+| paceresortDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| paceresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| paceresortDetailsNameIdLink | `FloatInput` | Internal |
+| paceresortDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| paceresortDetailsResort | `StringInput` | Property |
+| paceresortDetailsResortType | `StringInput` | Property Type |
+| paceroomtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| paceroomtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| paceroomtypeDetailsLabel | `StringInput` | Label |
+| paceroomtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| paceroomtypeDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| paceroomtypeDetailsRoomClass | `StringInput` | Room Class |
+| paceroomtypeDetailsRoomCategory | `StringInput` | Room Type |
+| paceroomtypeDetailsYieldCategory | `StringInput` | Yield Category |
+| pacechannelDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| pacechannelDetailsEntityName | `StringInput` | Entity Name |
+| pacechannelDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| pacechannelDetailsLanguageCode | `StringInput` | Language Code |
+| pacechannelDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| pacechannelDetailsAttributeCode | `StringInput` | Origin Code |
+| pacechannelDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| resvpacesnapshotdimDetailsDaykey | `DateInput` | Snapshot Date Comparison |
 
 [⬆ Back to Query](#query)
 

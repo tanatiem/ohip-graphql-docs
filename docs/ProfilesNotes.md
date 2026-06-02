@@ -512,18 +512,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -531,10 +531,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -542,18 +542,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -561,10 +561,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -572,17 +572,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -590,18 +590,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -609,10 +609,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -620,72 +620,72 @@
 
 ### ProfilesNotesQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| profilenoteDetailsActionDueDate | `DateInput` | Activity Due Date |  |
-| profilenoteDetailsActionType | `StringInput` | Activity Type |  |
-| profilenoteDetailsChainCode | `StringInput!` | ASP chain code. | `mandatoryInput` |
-| profilenoteDetailsConfidentialYn | `StringInput` | Indicates if this note is confidential. |  |
-| profilenoteDetailsInsertUser | `FloatInput` | The user that created the record |  |
-| profilenoteDetailsInsertDate | `DateTimeInput` | The date the record was created |  |
-| profilenoteDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilenoteDetailsDeletedFlag | `StringInput` | Deleted Flag |  |
-| profilenoteDetailsExternalNoteId | `StringInput` | Unique ID in External System. |  |
-| profilenoteDetailsGlobalNoteYn | `StringInput` | Global Note Y/N |  |
-| profilenoteDetailsGlobalYn | `StringInput` | Can a global note be created for this note code or not. |  |
-| profilenoteDetailsInactiveDate | `DateInput` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |  |
-| profilenoteDetailsInactiveFlag | `StringInput` | Inactive Flag |  |
-| profilenoteDetailsDeletedflag | `StringInput` | Deleted Flag |  |
-| profilenoteDetailsInactiveflag | `StringInput` | Inactive Flag |  |
-| profilenoteDetailsLocationId | `StringInput` | Location Id |  |
-| profilenoteDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profilenoteDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilenoteDetailsLaptopChange | `FloatInput` | Indicator for Laptop change. |  |
-| profilenoteDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| profilenoteDetailsNameId | `FloatInput` | Parent Name_id refers Name table. |  |
-| profilenoteDetailsNameType | `StringInput` | The type of Profile. |  |
-| profilenoteDetailsNoteCode | `StringInput` | Indicates the Type of Note. |  |
-| profilenoteDetailsNoteCodeDescription | `StringInput` | Description of Note Code |  |
-| profilenoteDetailsNoteId | `FloatInput` | Primary Key for the Table |  |
-| profilenoteDetailsInternalYn | `StringInput` | Indicates if this note should be shown to guest. Future use. |  |
-| profilenoteDetailsNoteTitle | `StringInput` | Title of the Note |  |
-| profilenoteDetailsNotes | `StringInput` | The actual Note. |  |
-| profilenoteDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilenoteDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |  |
-| profilenoteDetailsProfileId | `FloatInput` | Parent Name_id refers Name table. |  |
-| profilenoteDetailsProfileNoteId | `FloatInput` | Profile Note ID |  |
-| profilenoteDetailsResort | `StringInput` | Property |  |
-| profilenoteDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |  |
-| profilenoteDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |  |
-| profilenoteDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
-| profilenoteDetailsUpdateUser | `FloatInput` | The user that modified the record |  |
-| profileallDetailsNameId | `FloatInput` | The primary key for this table. |  |
-| profileallDetailsActiveYn | `StringInput` | Profile is active or not. |  |
-| profileallDetailsCrsNameid | `FloatInput` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |  |
-| profileallDetailsChainCode | `StringInput` | Chain Code |  |
-| profileallDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |  |
-| profileallDetailsCompanyGroupId | `StringInput` | The company group or company group user ID in hierarchical format |  |
-| profileallDetailsContactFlag | `StringInput` | Used in S&C Module. |  |
-| profileallDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profileallDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |  |
-| profileallDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |  |
-| profileallDetailsHistoryYn | `StringInput` | Keep guest in history Y/N |  |
-| profileallDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |  |
-| profileallDetailsIndexName | `StringInput` | Index Name |  |
-| profileallDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| profileallDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profileallDetailsNameType | `StringInput` | The type of Profile. |  |
-| profileallDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profileallDetailsProfileId | `FloatInput` | The primary key for this table. |  |
-| profileallDetailsProfileType | `StringInput` | The type of Profile. |  |
-| profileallDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |  |
-| profileallDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |  |
-| profileallDetailsSname | `StringInput` | The Uppercase value of Last or Company. |  |
-| profileallDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |  |
-| profileallDetailsSfirst | `StringInput` | Uppercase value of First Name. |  |
-| profileallDetailsSrepCode | `StringInput` | Used in QMS Module |  |
-| profileallDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |  |
-| profileallDetailsUpdateDate | `DateTimeInput` | The date the record was modified |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| profilenoteDetailsActionDueDate | `DateInput` | Activity Due Date |
+| profilenoteDetailsActionType | `StringInput` | Activity Type |
+| profilenoteDetailsChainCode | `StringInput!` | ASP chain code.<br>`@mandatoryInput` |
+| profilenoteDetailsConfidentialYn | `StringInput` | Indicates if this note is confidential. |
+| profilenoteDetailsInsertUser | `FloatInput` | The user that created the record |
+| profilenoteDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilenoteDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilenoteDetailsDeletedFlag | `StringInput` | Deleted Flag |
+| profilenoteDetailsExternalNoteId | `StringInput` | Unique ID in External System. |
+| profilenoteDetailsGlobalNoteYn | `StringInput` | Global Note Y/N |
+| profilenoteDetailsGlobalYn | `StringInput` | Can a global note be created for this note code or not. |
+| profilenoteDetailsInactiveDate | `DateInput` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |
+| profilenoteDetailsInactiveFlag | `StringInput` | Inactive Flag |
+| profilenoteDetailsDeletedflag | `StringInput` | Deleted Flag |
+| profilenoteDetailsInactiveflag | `StringInput` | Inactive Flag |
+| profilenoteDetailsLocationId | `StringInput` | Location Id |
+| profilenoteDetailsOrganizationId | `FloatInput` | Organization ID |
+| profilenoteDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilenoteDetailsLaptopChange | `FloatInput` | Indicator for Laptop change. |
+| profilenoteDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| profilenoteDetailsNameId | `FloatInput` | Parent Name_id refers Name table. |
+| profilenoteDetailsNameType | `StringInput` | The type of Profile. |
+| profilenoteDetailsNoteCode | `StringInput` | Indicates the Type of Note. |
+| profilenoteDetailsNoteCodeDescription | `StringInput` | Description of Note Code |
+| profilenoteDetailsNoteId | `FloatInput` | Primary Key for the Table |
+| profilenoteDetailsInternalYn | `StringInput` | Indicates if this note should be shown to guest. Future use. |
+| profilenoteDetailsNoteTitle | `StringInput` | Title of the Note |
+| profilenoteDetailsNotes | `StringInput` | The actual Note. |
+| profilenoteDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilenoteDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
+| profilenoteDetailsProfileId | `FloatInput` | Parent Name_id refers Name table. |
+| profilenoteDetailsProfileNoteId | `FloatInput` | Profile Note ID |
+| profilenoteDetailsResort | `StringInput` | Property |
+| profilenoteDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
+| profilenoteDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
+| profilenoteDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
+| profilenoteDetailsUpdateUser | `FloatInput` | The user that modified the record |
+| profileallDetailsNameId | `FloatInput` | The primary key for this table. |
+| profileallDetailsActiveYn | `StringInput` | Profile is active or not. |
+| profileallDetailsCrsNameid | `FloatInput` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
+| profileallDetailsChainCode | `StringInput` | Chain Code |
+| profileallDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |
+| profileallDetailsCompanyGroupId | `StringInput` | The company group or company group user ID in hierarchical format |
+| profileallDetailsContactFlag | `StringInput` | Used in S&C Module. |
+| profileallDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profileallDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |
+| profileallDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| profileallDetailsHistoryYn | `StringInput` | Keep guest in history Y/N |
+| profileallDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profileallDetailsIndexName | `StringInput` | Index Name |
+| profileallDetailsOrganizationId | `FloatInput` | Organization ID |
+| profileallDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileallDetailsNameType | `StringInput` | The type of Profile. |
+| profileallDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profileallDetailsProfileId | `FloatInput` | The primary key for this table. |
+| profileallDetailsProfileType | `StringInput` | The type of Profile. |
+| profileallDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
+| profileallDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |
+| profileallDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
+| profileallDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
+| profileallDetailsSfirst | `StringInput` | Uppercase value of First Name. |
+| profileallDetailsSrepCode | `StringInput` | Used in QMS Module |
+| profileallDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
+| profileallDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
 
 [⬆ Back to Query](#query)
 

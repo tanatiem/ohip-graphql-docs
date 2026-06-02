@@ -2333,18 +2333,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2352,10 +2352,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2363,18 +2363,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2382,10 +2382,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2393,17 +2393,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2411,18 +2411,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2430,10 +2430,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -2441,391 +2441,391 @@
 
 ### CateringEventPostingsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| eventpostingDetailsBookId | `FloatInput` | Book ID |  |
-| eventpostingDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| eventpostingDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| eventpostingDetailsEvPostId | `FloatInput` | Event Post ID Primary Key |  |
-| eventpostingDetailsEventId | `FloatInput` | Event ID |  |
-| eventpostingDetailsEventpostingid | `FloatInput` | Eventpostingid |  |
-| eventpostingDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| eventpostingDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| eventpostingDetailsPostedById | `FloatInput` | Posted By ID |  |
-| eventpostingDetailsResort | `StringInput!` | Code to uniquely identify the Property | `mandatoryInput` |
-| eventpostingDetailsPostedBy | `StringInput` | Resource Type |  |
-| eventpostingDetailsRevenueType | `StringInput` | Revenue Type |  |
-| eventDetailsAllotmentid | `FloatInput` | Block ID |  |
-| eventDetailsBookId | `FloatInput` | Block ID |  |
-| eventDetailsAllotmentenddate | `DateInput` | Block End Date |  |
-| eventDetailsChainCode | `StringInput` | Chain Code |  |
-| eventDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| eventDetailsEndDate | `DateTimeInput` | End Date |  |
-| eventDetailsEndDateTime | `DateInput` | End Date Time |  |
-| eventDetailsEvResort | `StringInput` | Event Property. |  |
-| eventDetailsEvType | `StringInput` | Ev Type |  |
-| eventDetailsEventId | `FloatInput` | Event ID |  |
-| eventDetailsEventLinkType | `StringInput` | Event Link Type |  |
-| eventDetailsResort | `StringInput` | Event Property |  |
-| eventDetailsEvStatus | `StringInput` | Event Status |  |
-| eventDetailsEventlocationid | `StringInput` | Eventlocationid |  |
-| eventDetailsEventtypeid | `StringInput` | Eventtypeid |  |
-| eventDetailsGroupId | `FloatInput` | Group ID |  |
-| eventDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| eventDetailsEventid | `FloatInput` | Eventid |  |
-| eventDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| eventDetailsEventLinkId | `FloatInput` | Linked Event |  |
-| eventDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| eventDetailsMasterEventId | `FloatInput` | Master Event ID |  |
-| eventDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| eventDetailsPkgEvId | `FloatInput` | Pkg Ev ID |  |
-| eventDetailsPackageeventid | `FloatInput` | Packageeventid |  |
-| eventDetailsParenteventid | `FloatInput` | Parenteventid |  |
-| eventDetailsPkgLink | `FloatInput` | Package Link |  |
-| eventDetailsRoomid | `StringInput` | Roomid |  |
-| eventDetailsRoom | `StringInput` | Space |  |
-| eventDetailsStartDate | `DateTimeInput` | Start Date |  |
-| eventDetailsStartDateTime | `DateInput` | Start Date Time |  |
-| eventDetailsTracecode | `StringInput` | Tracecode |  |
-| eventDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| allotmentDetailsAgentContactNameId | `FloatInput` | Agent Contact Name ID |  |
-| allotmentDetailsAgentNameId | `FloatInput` | Agent Name ID |  |
-| allotmentDetailsAllotmentCode | `StringInput` | Block Code |  |
-| allotmentDetailsAllotmentHeaderId | `FloatInput` | Block ID |  |
-| allotmentDetailsOwnerCode | `StringInput` | Block Owner Code |  |
-| allotmentDetailsBookingId | `StringInput` | External S&C vendor booking ID and used in HYATT-mode. |  |
-| allotmentDetailsBookingStatusOrder | `FloatInput` | Booking Status Order |  |
-| allotmentDetailsBlockType | `StringInput` | Determines block being [G] - Group or [W] - Wholesale. |  |
-| allotmentDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| allotmentDetailsChainCode | `StringInput` | Chain Code |  |
-| allotmentDetailsCompanyNameId | `FloatInput` | Company Name ID |  |
-| allotmentDetailsContactNameId | `FloatInput` | Contact Name ID |  |
-| allotmentDetailsInsertDate | `DateTimeInput` | Created Date |  |
-| allotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| allotmentDetailsDueDateOrd | `DateInput` | Due Date Sorting Column. |  |
-| allotmentDetailsEndDate | `DateInput` | End Date |  |
-| allotmentDetailsInsertUser | `FloatInput` | Insert User |  |
-| allotmentDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |  |
-| allotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| allotmentDetailsMarketCode | `StringInput` | Market  Code |  |
-| allotmentDetailsSuperBlockId | `FloatInput` | Parent Block ID |  |
-| allotmentDetailsSuperBlockResort | `StringInput` | Parent Resort |  |
-| allotmentDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |  |
-| allotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| allotmentDetailsOrmsBlockClass | `StringInput` | ORMS Block Class |  |
-| allotmentDetailsOwner | `FloatInput` | Owner |  |
-| allotmentDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| allotmentDetailsRateCode | `StringInput` | Rate Code |  |
-| allotmentDetailsGuaranteeCode | `StringInput` | Reservation Type |  |
-| allotmentDetailsBookingStatus | `StringInput` | Room Status |  |
-| allotmentDetailsShoulderEndDate | `DateInput` | Shoulder End |  |
-| allotmentDetailsShoulderBeginDate | `DateInput` | Shoulder Start |  |
-| allotmentDetailsSourceNameId | `FloatInput` | Source Name ID |  |
-| allotmentDetailsBeginDate | `DateInput` | Start Date |  |
-| allotmentDetailsTourcode | `StringInput` | Tour Code. |  |
-| allotmentDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |  |
-| allotmentDetailsUpdateDate | `DateTimeInput` | Updated Date |  |
-| allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |  |
-| financialtransincrevenuetaxDetailsArLedCredit | `FloatInput` | AR Ledger Credit |  |
-| financialtransincrevenuetaxDetailsArLedDebit | `FloatInput` | AR Ledger Debit |  |
-| financialtransincrevenuetaxDetailsArState | `StringInput` | AR State |  |
-| financialtransincrevenuetaxDetailsArNumber | `FloatInput` | Account Code |  |
-| financialtransincrevenuetaxDetailsAccountid | `FloatInput` | Accountid |  |
-| financialtransincrevenuetaxDetailsArticleId | `FloatInput` | Article ID |  |
-| financialtransincrevenuetaxDetailsAuthemployeeid | `FloatInput` | Authemployeeid |  |
-| financialtransincrevenuetaxDetailsBonusCheckId | `FloatInput` | Bonus Check ID |  |
-| financialtransincrevenuetaxDetailsBusinessDate | `DateInput` | Business Date |  |
-| financialtransincrevenuetaxDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| financialtransincrevenuetaxDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |  |
-| financialtransincrevenuetaxDetailsCashierId | `FloatInput` | Cashier ID |  |
-| financialtransincrevenuetaxDetailsChainCode | `StringInput` | Chain Code |  |
-| financialtransincrevenuetaxDetailsChequeNumber | `StringInput` | Check Number |  |
-| financialtransincrevenuetaxDetailsClosureNo | `FloatInput` | Closure Number |  |
-| financialtransincrevenuetaxDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |  |
-| financialtransincrevenuetaxDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |  |
-| financialtransincrevenuetaxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| financialtransincrevenuetaxDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |  |
-| financialtransincrevenuetaxDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |  |
-| financialtransincrevenuetaxDetailsFintransactionid | `FloatInput` | Fintransactionid |  |
-| financialtransincrevenuetaxDetailsFintransid | `FloatInput` | Fintransid |  |
-| financialtransincrevenuetaxDetailsBillNo | `FloatInput` | Folio Number |  |
-| financialtransincrevenuetaxDetailsFolioView | `FloatInput` | Folio View |  |
-| financialtransincrevenuetaxDetailsFolioid | `FloatInput` | Folioid |  |
-| financialtransincrevenuetaxDetailsFromResvId | `FloatInput` | From Resv ID |  |
-| financialtransincrevenuetaxDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |  |
-| financialtransincrevenuetaxDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |  |
-| financialtransincrevenuetaxDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |  |
-| financialtransincrevenuetaxDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |  |
-| financialtransincrevenuetaxDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| financialtransincrevenuetaxDetailsArticleid | `FloatInput` | Articleid |  |
-| financialtransincrevenuetaxDetailsBusinessdate | `DateInput` | Businessdate |  |
-| financialtransincrevenuetaxDetailsCashierid | `FloatInput` | Cashierid |  |
-| financialtransincrevenuetaxDetailsFolioNo | `FloatInput` | Internal Window ID |  |
-| financialtransincrevenuetaxDetailsInvoiceNo | `FloatInput` | Invoice Number |  |
-| financialtransincrevenuetaxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| financialtransincrevenuetaxDetailsLinkTrxNo | `FloatInput` | Link Transaction No |  |
-| financialtransincrevenuetaxDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| financialtransincrevenuetaxDetailsNameId | `FloatInput` | Name ID |  |
-| financialtransincrevenuetaxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| financialtransincrevenuetaxDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |  |
-| financialtransincrevenuetaxDetailsOriginalRoom | `StringInput` | Original Room |  |
-| financialtransincrevenuetaxDetailsOriginalresvid | `FloatInput` | Originalresvid |  |
-| financialtransincrevenuetaxDetailsProduct | `StringInput` | Package |  |
-| financialtransincrevenuetaxDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |  |
-| financialtransincrevenuetaxDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |  |
-| financialtransincrevenuetaxDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |  |
-| financialtransincrevenuetaxDetailsParentfintransid | `FloatInput` | Parentfintransid |  |
-| financialtransincrevenuetaxDetailsPostitNo | `FloatInput` | Postit Number |  |
-| financialtransincrevenuetaxDetailsProductid | `StringInput` | Productid |  |
-| financialtransincrevenuetaxDetailsProfileid | `FloatInput` | Profileid |  |
-| financialtransincrevenuetaxDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| financialtransincrevenuetaxDetailsRateCode | `StringInput` | Rate Code |  |
-| financialtransincrevenuetaxDetailsRatecodeid | `StringInput` | Ratecodeid |  |
-| financialtransincrevenuetaxDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |  |
-| financialtransincrevenuetaxDetailsReservationid | `FloatInput` | Reservationid |  |
-| financialtransincrevenuetaxDetailsRoom | `StringInput` | Room Number |  |
-| financialtransincrevenuetaxDetailsRoomid | `StringInput` | Roomid |  |
-| financialtransincrevenuetaxDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |  |
-| financialtransincrevenuetaxDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |  |
-| financialtransincrevenuetaxDetailsTaxElements | `StringInput` | Tax Elements |  |
-| financialtransincrevenuetaxDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| financialtransincrevenuetaxDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| financialtransincrevenuetaxDetailsTranActionId | `FloatInput` | Tran Action ID |  |
-| financialtransincrevenuetaxDetailsTranscodeid | `StringInput` | Transaction Code |  |
-| financialtransincrevenuetaxDetailsTrxDate | `DateInput` | Transaction Date |  |
-| financialtransincrevenuetaxDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |  |
-| financialtransincrevenuetaxDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |  |
-| financialtransincrevenuetaxDetailsTrxCode | `StringInput` | Transaction Code |  |
-| financialtransincrevenuetaxDetailsTrxNo | `FloatInput` | Trx Number |  |
-| financialtransincrevenuetaxDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |  |
-| financialtransincrevenuetaxDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |  |
-| financialtransincrevenuetaxDetailsTrxNoHeader | `FloatInput` | Transaction No Header |  |
-| financialtransincrevenuetaxDetailsAuthorizerId | `FloatInput` | User ID |  |
-| financialtransextrarevenuetaxDetailsArLedCredit | `FloatInput` | AR Ledger Credit |  |
-| financialtransextrarevenuetaxDetailsArLedDebit | `FloatInput` | AR Ledger Debit |  |
-| financialtransextrarevenuetaxDetailsArState | `StringInput` | AR State |  |
-| financialtransextrarevenuetaxDetailsArNumber | `FloatInput` | Account Code |  |
-| financialtransextrarevenuetaxDetailsAccountid | `FloatInput` | Accountid |  |
-| financialtransextrarevenuetaxDetailsArticleId | `FloatInput` | Article ID |  |
-| financialtransextrarevenuetaxDetailsAuthemployeeid | `FloatInput` | Authemployeeid |  |
-| financialtransextrarevenuetaxDetailsBonusCheckId | `FloatInput` | Bonus Check ID |  |
-| financialtransextrarevenuetaxDetailsBusinessDate | `DateInput` | Business Date |  |
-| financialtransextrarevenuetaxDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| financialtransextrarevenuetaxDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |  |
-| financialtransextrarevenuetaxDetailsCashierId | `FloatInput` | Cashier ID |  |
-| financialtransextrarevenuetaxDetailsChainCode | `StringInput` | Chain Code |  |
-| financialtransextrarevenuetaxDetailsChequeNumber | `StringInput` | Check Number |  |
-| financialtransextrarevenuetaxDetailsClosureNo | `FloatInput` | Closure Number |  |
-| financialtransextrarevenuetaxDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |  |
-| financialtransextrarevenuetaxDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |  |
-| financialtransextrarevenuetaxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| financialtransextrarevenuetaxDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |  |
-| financialtransextrarevenuetaxDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |  |
-| financialtransextrarevenuetaxDetailsFintransactionid | `FloatInput` | Fintransactionid |  |
-| financialtransextrarevenuetaxDetailsFintransid | `FloatInput` | Fintransid |  |
-| financialtransextrarevenuetaxDetailsBillNo | `FloatInput` | Folio Number |  |
-| financialtransextrarevenuetaxDetailsFolioView | `FloatInput` | Folio View |  |
-| financialtransextrarevenuetaxDetailsFolioid | `FloatInput` | Folioid |  |
-| financialtransextrarevenuetaxDetailsFromResvId | `FloatInput` | From Resv ID |  |
-| financialtransextrarevenuetaxDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |  |
-| financialtransextrarevenuetaxDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |  |
-| financialtransextrarevenuetaxDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |  |
-| financialtransextrarevenuetaxDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |  |
-| financialtransextrarevenuetaxDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| financialtransextrarevenuetaxDetailsArticleid | `FloatInput` | Articleid |  |
-| financialtransextrarevenuetaxDetailsBusinessdate | `DateInput` | Businessdate |  |
-| financialtransextrarevenuetaxDetailsCashierid | `FloatInput` | Cashierid |  |
-| financialtransextrarevenuetaxDetailsFolioNo | `FloatInput` | Internal Window ID |  |
-| financialtransextrarevenuetaxDetailsInvoiceNo | `FloatInput` | Invoice Number |  |
-| financialtransextrarevenuetaxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| financialtransextrarevenuetaxDetailsLinkTrxNo | `FloatInput` | Link Transaction No |  |
-| financialtransextrarevenuetaxDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| financialtransextrarevenuetaxDetailsNameId | `FloatInput` | Name ID |  |
-| financialtransextrarevenuetaxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| financialtransextrarevenuetaxDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |  |
-| financialtransextrarevenuetaxDetailsOriginalRoom | `StringInput` | Original Room |  |
-| financialtransextrarevenuetaxDetailsOriginalresvid | `FloatInput` | Originalresvid |  |
-| financialtransextrarevenuetaxDetailsProduct | `StringInput` | Package |  |
-| financialtransextrarevenuetaxDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |  |
-| financialtransextrarevenuetaxDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |  |
-| financialtransextrarevenuetaxDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |  |
-| financialtransextrarevenuetaxDetailsParentfintransid | `FloatInput` | Parentfintransid |  |
-| financialtransextrarevenuetaxDetailsPostitNo | `FloatInput` | Postit Number |  |
-| financialtransextrarevenuetaxDetailsProductid | `StringInput` | Productid |  |
-| financialtransextrarevenuetaxDetailsProfileid | `FloatInput` | Profileid |  |
-| financialtransextrarevenuetaxDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| financialtransextrarevenuetaxDetailsRateCode | `StringInput` | Rate Code |  |
-| financialtransextrarevenuetaxDetailsRatecodeid | `StringInput` | Ratecodeid |  |
-| financialtransextrarevenuetaxDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |  |
-| financialtransextrarevenuetaxDetailsReservationid | `FloatInput` | Reservationid |  |
-| financialtransextrarevenuetaxDetailsRoom | `StringInput` | Room Number |  |
-| financialtransextrarevenuetaxDetailsRoomid | `StringInput` | Roomid |  |
-| financialtransextrarevenuetaxDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |  |
-| financialtransextrarevenuetaxDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |  |
-| financialtransextrarevenuetaxDetailsTaxElements | `StringInput` | Tax Elements |  |
-| financialtransextrarevenuetaxDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| financialtransextrarevenuetaxDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| financialtransextrarevenuetaxDetailsTranActionId | `FloatInput` | Tran Action ID |  |
-| financialtransextrarevenuetaxDetailsTranscodeid | `StringInput` | Transaction Code |  |
-| financialtransextrarevenuetaxDetailsTrxDate | `DateInput` | Transaction Date |  |
-| financialtransextrarevenuetaxDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |  |
-| financialtransextrarevenuetaxDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |  |
-| financialtransextrarevenuetaxDetailsTrxCode | `StringInput` | Transaction Code |  |
-| financialtransextrarevenuetaxDetailsTrxNo | `FloatInput` | Trx Number |  |
-| financialtransextrarevenuetaxDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |  |
-| financialtransextrarevenuetaxDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |  |
-| financialtransextrarevenuetaxDetailsTrxNoHeader | `FloatInput` | Transaction No Header |  |
-| financialtransextrarevenuetaxDetailsAuthorizerId | `FloatInput` | User ID |  |
-| financialtranssvcchargeincrevDetailsArLedCredit | `FloatInput` | AR Ledger Credit |  |
-| financialtranssvcchargeincrevDetailsArLedDebit | `FloatInput` | AR Ledger Debit |  |
-| financialtranssvcchargeincrevDetailsArState | `StringInput` | AR State |  |
-| financialtranssvcchargeincrevDetailsArNumber | `FloatInput` | Account Code |  |
-| financialtranssvcchargeincrevDetailsAccountid | `FloatInput` | Accountid |  |
-| financialtranssvcchargeincrevDetailsArticleId | `FloatInput` | Article ID |  |
-| financialtranssvcchargeincrevDetailsAuthemployeeid | `FloatInput` | Authemployeeid |  |
-| financialtranssvcchargeincrevDetailsBonusCheckId | `FloatInput` | Bonus Check ID |  |
-| financialtranssvcchargeincrevDetailsBusinessDate | `DateInput` | Business Date |  |
-| financialtranssvcchargeincrevDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| financialtranssvcchargeincrevDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |  |
-| financialtranssvcchargeincrevDetailsCashierId | `FloatInput` | Cashier ID |  |
-| financialtranssvcchargeincrevDetailsChainCode | `StringInput` | Chain Code |  |
-| financialtranssvcchargeincrevDetailsChequeNumber | `StringInput` | Check Number |  |
-| financialtranssvcchargeincrevDetailsClosureNo | `FloatInput` | Closure Number |  |
-| financialtranssvcchargeincrevDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |  |
-| financialtranssvcchargeincrevDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |  |
-| financialtranssvcchargeincrevDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| financialtranssvcchargeincrevDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |  |
-| financialtranssvcchargeincrevDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |  |
-| financialtranssvcchargeincrevDetailsFintransactionid | `FloatInput` | Fintransactionid |  |
-| financialtranssvcchargeincrevDetailsFintransid | `FloatInput` | Fintransid |  |
-| financialtranssvcchargeincrevDetailsBillNo | `FloatInput` | Folio Number |  |
-| financialtranssvcchargeincrevDetailsFolioView | `FloatInput` | Folio View |  |
-| financialtranssvcchargeincrevDetailsFolioid | `FloatInput` | Folioid |  |
-| financialtranssvcchargeincrevDetailsFromResvId | `FloatInput` | From Resv ID |  |
-| financialtranssvcchargeincrevDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |  |
-| financialtranssvcchargeincrevDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |  |
-| financialtranssvcchargeincrevDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |  |
-| financialtranssvcchargeincrevDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |  |
-| financialtranssvcchargeincrevDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| financialtranssvcchargeincrevDetailsArticleid | `FloatInput` | Articleid |  |
-| financialtranssvcchargeincrevDetailsBusinessdate | `DateInput` | Businessdate |  |
-| financialtranssvcchargeincrevDetailsCashierid | `FloatInput` | Cashierid |  |
-| financialtranssvcchargeincrevDetailsFolioNo | `FloatInput` | Internal Window ID |  |
-| financialtranssvcchargeincrevDetailsInvoiceNo | `FloatInput` | Invoice Number |  |
-| financialtranssvcchargeincrevDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| financialtranssvcchargeincrevDetailsLinkTrxNo | `FloatInput` | Link Transaction No |  |
-| financialtranssvcchargeincrevDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| financialtranssvcchargeincrevDetailsNameId | `FloatInput` | Name ID |  |
-| financialtranssvcchargeincrevDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| financialtranssvcchargeincrevDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |  |
-| financialtranssvcchargeincrevDetailsOriginalRoom | `StringInput` | Original Room |  |
-| financialtranssvcchargeincrevDetailsOriginalresvid | `FloatInput` | Originalresvid |  |
-| financialtranssvcchargeincrevDetailsProduct | `StringInput` | Package |  |
-| financialtranssvcchargeincrevDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |  |
-| financialtranssvcchargeincrevDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |  |
-| financialtranssvcchargeincrevDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |  |
-| financialtranssvcchargeincrevDetailsParentfintransid | `FloatInput` | Parentfintransid |  |
-| financialtranssvcchargeincrevDetailsPostitNo | `FloatInput` | Postit Number |  |
-| financialtranssvcchargeincrevDetailsProductid | `StringInput` | Productid |  |
-| financialtranssvcchargeincrevDetailsProfileid | `FloatInput` | Profileid |  |
-| financialtranssvcchargeincrevDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| financialtranssvcchargeincrevDetailsRateCode | `StringInput` | Rate Code |  |
-| financialtranssvcchargeincrevDetailsRatecodeid | `StringInput` | Ratecodeid |  |
-| financialtranssvcchargeincrevDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |  |
-| financialtranssvcchargeincrevDetailsReservationid | `FloatInput` | Reservationid |  |
-| financialtranssvcchargeincrevDetailsRoom | `StringInput` | Room Number |  |
-| financialtranssvcchargeincrevDetailsRoomid | `StringInput` | Roomid |  |
-| financialtranssvcchargeincrevDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |  |
-| financialtranssvcchargeincrevDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |  |
-| financialtranssvcchargeincrevDetailsTaxElements | `StringInput` | Tax Elements |  |
-| financialtranssvcchargeincrevDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| financialtranssvcchargeincrevDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| financialtranssvcchargeincrevDetailsTranActionId | `FloatInput` | Tran Action ID |  |
-| financialtranssvcchargeincrevDetailsTranscodeid | `StringInput` | Transaction Code |  |
-| financialtranssvcchargeincrevDetailsTrxDate | `DateInput` | Transaction Date |  |
-| financialtranssvcchargeincrevDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |  |
-| financialtranssvcchargeincrevDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |  |
-| financialtranssvcchargeincrevDetailsTrxCode | `StringInput` | Transaction Code |  |
-| financialtranssvcchargeincrevDetailsTrxNo | `FloatInput` | Trx Number |  |
-| financialtranssvcchargeincrevDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |  |
-| financialtranssvcchargeincrevDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |  |
-| financialtranssvcchargeincrevDetailsTrxNoHeader | `FloatInput` | Transaction No Header |  |
-| financialtranssvcchargeincrevDetailsAuthorizerId | `FloatInput` | User ID |  |
-| financialtranssvcchargeextrarevDetailsArLedCredit | `FloatInput` | AR Ledger Credit |  |
-| financialtranssvcchargeextrarevDetailsArLedDebit | `FloatInput` | AR Ledger Debit |  |
-| financialtranssvcchargeextrarevDetailsArState | `StringInput` | AR State |  |
-| financialtranssvcchargeextrarevDetailsArNumber | `FloatInput` | Account Code |  |
-| financialtranssvcchargeextrarevDetailsAccountid | `FloatInput` | Accountid |  |
-| financialtranssvcchargeextrarevDetailsArticleId | `FloatInput` | Article ID |  |
-| financialtranssvcchargeextrarevDetailsAuthemployeeid | `FloatInput` | Authemployeeid |  |
-| financialtranssvcchargeextrarevDetailsBonusCheckId | `FloatInput` | Bonus Check ID |  |
-| financialtranssvcchargeextrarevDetailsBusinessDate | `DateInput` | Business Date |  |
-| financialtranssvcchargeextrarevDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| financialtranssvcchargeextrarevDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |  |
-| financialtranssvcchargeextrarevDetailsCashierId | `FloatInput` | Cashier ID |  |
-| financialtranssvcchargeextrarevDetailsChainCode | `StringInput` | Chain Code |  |
-| financialtranssvcchargeextrarevDetailsChequeNumber | `StringInput` | Check Number |  |
-| financialtranssvcchargeextrarevDetailsClosureNo | `FloatInput` | Closure Number |  |
-| financialtranssvcchargeextrarevDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |  |
-| financialtranssvcchargeextrarevDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |  |
-| financialtranssvcchargeextrarevDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| financialtranssvcchargeextrarevDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |  |
-| financialtranssvcchargeextrarevDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |  |
-| financialtranssvcchargeextrarevDetailsFintransactionid | `FloatInput` | Fintransactionid |  |
-| financialtranssvcchargeextrarevDetailsFintransid | `FloatInput` | Fintransid |  |
-| financialtranssvcchargeextrarevDetailsBillNo | `FloatInput` | Folio Number |  |
-| financialtranssvcchargeextrarevDetailsFolioView | `FloatInput` | Folio View |  |
-| financialtranssvcchargeextrarevDetailsFolioid | `FloatInput` | Folioid |  |
-| financialtranssvcchargeextrarevDetailsFromResvId | `FloatInput` | From Resv ID |  |
-| financialtranssvcchargeextrarevDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |  |
-| financialtranssvcchargeextrarevDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |  |
-| financialtranssvcchargeextrarevDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |  |
-| financialtranssvcchargeextrarevDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |  |
-| financialtranssvcchargeextrarevDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| financialtranssvcchargeextrarevDetailsArticleid | `FloatInput` | Articleid |  |
-| financialtranssvcchargeextrarevDetailsBusinessdate | `DateInput` | Businessdate |  |
-| financialtranssvcchargeextrarevDetailsCashierid | `FloatInput` | Cashierid |  |
-| financialtranssvcchargeextrarevDetailsFolioNo | `FloatInput` | Internal Window ID |  |
-| financialtranssvcchargeextrarevDetailsInvoiceNo | `FloatInput` | Invoice Number |  |
-| financialtranssvcchargeextrarevDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| financialtranssvcchargeextrarevDetailsLinkTrxNo | `FloatInput` | Link Transaction No |  |
-| financialtranssvcchargeextrarevDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| financialtranssvcchargeextrarevDetailsNameId | `FloatInput` | Name ID |  |
-| financialtranssvcchargeextrarevDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| financialtranssvcchargeextrarevDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |  |
-| financialtranssvcchargeextrarevDetailsOriginalRoom | `StringInput` | Original Room |  |
-| financialtranssvcchargeextrarevDetailsOriginalresvid | `FloatInput` | Originalresvid |  |
-| financialtranssvcchargeextrarevDetailsProduct | `StringInput` | Package |  |
-| financialtranssvcchargeextrarevDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |  |
-| financialtranssvcchargeextrarevDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |  |
-| financialtranssvcchargeextrarevDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |  |
-| financialtranssvcchargeextrarevDetailsParentfintransid | `FloatInput` | Parentfintransid |  |
-| financialtranssvcchargeextrarevDetailsPostitNo | `FloatInput` | Postit Number |  |
-| financialtranssvcchargeextrarevDetailsProductid | `StringInput` | Productid |  |
-| financialtranssvcchargeextrarevDetailsProfileid | `FloatInput` | Profileid |  |
-| financialtranssvcchargeextrarevDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| financialtranssvcchargeextrarevDetailsRateCode | `StringInput` | Rate Code |  |
-| financialtranssvcchargeextrarevDetailsRatecodeid | `StringInput` | Ratecodeid |  |
-| financialtranssvcchargeextrarevDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |  |
-| financialtranssvcchargeextrarevDetailsReservationid | `FloatInput` | Reservationid |  |
-| financialtranssvcchargeextrarevDetailsRoom | `StringInput` | Room Number |  |
-| financialtranssvcchargeextrarevDetailsRoomid | `StringInput` | Roomid |  |
-| financialtranssvcchargeextrarevDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |  |
-| financialtranssvcchargeextrarevDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |  |
-| financialtranssvcchargeextrarevDetailsTaxElements | `StringInput` | Tax Elements |  |
-| financialtranssvcchargeextrarevDetailsTcGroup | `StringInput` | Transaction Code Group |  |
-| financialtranssvcchargeextrarevDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |  |
-| financialtranssvcchargeextrarevDetailsTranActionId | `FloatInput` | Tran Action ID |  |
-| financialtranssvcchargeextrarevDetailsTranscodeid | `StringInput` | Transaction Code |  |
-| financialtranssvcchargeextrarevDetailsTrxDate | `DateInput` | Transaction Date |  |
-| financialtranssvcchargeextrarevDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |  |
-| financialtranssvcchargeextrarevDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |  |
-| financialtranssvcchargeextrarevDetailsTrxCode | `StringInput` | Transaction Code |  |
-| financialtranssvcchargeextrarevDetailsTrxNo | `FloatInput` | Trx Number |  |
-| financialtranssvcchargeextrarevDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |  |
-| financialtranssvcchargeextrarevDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |  |
-| financialtranssvcchargeextrarevDetailsTrxNoHeader | `FloatInput` | Transaction No Header |  |
-| financialtranssvcchargeextrarevDetailsAuthorizerId | `FloatInput` | User ID |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| eventpostingDetailsBookId | `FloatInput` | Book ID |
+| eventpostingDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| eventpostingDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| eventpostingDetailsEvPostId | `FloatInput` | Event Post ID Primary Key |
+| eventpostingDetailsEventId | `FloatInput` | Event ID |
+| eventpostingDetailsEventpostingid | `FloatInput` | Eventpostingid |
+| eventpostingDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| eventpostingDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| eventpostingDetailsPostedById | `FloatInput` | Posted By ID |
+| eventpostingDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| eventpostingDetailsPostedBy | `StringInput` | Resource Type |
+| eventpostingDetailsRevenueType | `StringInput` | Revenue Type |
+| eventDetailsAllotmentid | `FloatInput` | Block ID |
+| eventDetailsBookId | `FloatInput` | Block ID |
+| eventDetailsAllotmentenddate | `DateInput` | Block End Date |
+| eventDetailsChainCode | `StringInput` | Chain Code |
+| eventDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| eventDetailsEndDate | `DateTimeInput` | End Date |
+| eventDetailsEndDateTime | `DateInput` | End Date Time |
+| eventDetailsEvResort | `StringInput` | Event Property. |
+| eventDetailsEvType | `StringInput` | Ev Type |
+| eventDetailsEventId | `FloatInput` | Event ID |
+| eventDetailsEventLinkType | `StringInput` | Event Link Type |
+| eventDetailsResort | `StringInput` | Event Property |
+| eventDetailsEvStatus | `StringInput` | Event Status |
+| eventDetailsEventlocationid | `StringInput` | Eventlocationid |
+| eventDetailsEventtypeid | `StringInput` | Eventtypeid |
+| eventDetailsGroupId | `FloatInput` | Group ID |
+| eventDetailsInsertDate | `DateTimeInput` | Insert Date |
+| eventDetailsEventid | `FloatInput` | Eventid |
+| eventDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| eventDetailsEventLinkId | `FloatInput` | Linked Event |
+| eventDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| eventDetailsMasterEventId | `FloatInput` | Master Event ID |
+| eventDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| eventDetailsPkgEvId | `FloatInput` | Pkg Ev ID |
+| eventDetailsPackageeventid | `FloatInput` | Packageeventid |
+| eventDetailsParenteventid | `FloatInput` | Parenteventid |
+| eventDetailsPkgLink | `FloatInput` | Package Link |
+| eventDetailsRoomid | `StringInput` | Roomid |
+| eventDetailsRoom | `StringInput` | Space |
+| eventDetailsStartDate | `DateTimeInput` | Start Date |
+| eventDetailsStartDateTime | `DateInput` | Start Date Time |
+| eventDetailsTracecode | `StringInput` | Tracecode |
+| eventDetailsUpdateDate | `DateTimeInput` | Update Date |
+| allotmentDetailsAgentContactNameId | `FloatInput` | Agent Contact Name ID |
+| allotmentDetailsAgentNameId | `FloatInput` | Agent Name ID |
+| allotmentDetailsAllotmentCode | `StringInput` | Block Code |
+| allotmentDetailsAllotmentHeaderId | `FloatInput` | Block ID |
+| allotmentDetailsOwnerCode | `StringInput` | Block Owner Code |
+| allotmentDetailsBookingId | `StringInput` | External S&C vendor booking ID and used in HYATT-mode. |
+| allotmentDetailsBookingStatusOrder | `FloatInput` | Booking Status Order |
+| allotmentDetailsBlockType | `StringInput` | Determines block being [G] - Group or [W] - Wholesale. |
+| allotmentDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| allotmentDetailsChainCode | `StringInput` | Chain Code |
+| allotmentDetailsCompanyNameId | `FloatInput` | Company Name ID |
+| allotmentDetailsContactNameId | `FloatInput` | Contact Name ID |
+| allotmentDetailsInsertDate | `DateTimeInput` | Created Date |
+| allotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| allotmentDetailsDueDateOrd | `DateInput` | Due Date Sorting Column. |
+| allotmentDetailsEndDate | `DateInput` | End Date |
+| allotmentDetailsInsertUser | `FloatInput` | Insert User |
+| allotmentDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |
+| allotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| allotmentDetailsMarketCode | `StringInput` | Market  Code |
+| allotmentDetailsSuperBlockId | `FloatInput` | Parent Block ID |
+| allotmentDetailsSuperBlockResort | `StringInput` | Parent Resort |
+| allotmentDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
+| allotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| allotmentDetailsOrmsBlockClass | `StringInput` | ORMS Block Class |
+| allotmentDetailsOwner | `FloatInput` | Owner |
+| allotmentDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| allotmentDetailsRateCode | `StringInput` | Rate Code |
+| allotmentDetailsGuaranteeCode | `StringInput` | Reservation Type |
+| allotmentDetailsBookingStatus | `StringInput` | Room Status |
+| allotmentDetailsShoulderEndDate | `DateInput` | Shoulder End |
+| allotmentDetailsShoulderBeginDate | `DateInput` | Shoulder Start |
+| allotmentDetailsSourceNameId | `FloatInput` | Source Name ID |
+| allotmentDetailsBeginDate | `DateInput` | Start Date |
+| allotmentDetailsTourcode | `StringInput` | Tour Code. |
+| allotmentDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |
+| allotmentDetailsUpdateDate | `DateTimeInput` | Updated Date |
+| allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |
+| financialtransincrevenuetaxDetailsArLedCredit | `FloatInput` | AR Ledger Credit |
+| financialtransincrevenuetaxDetailsArLedDebit | `FloatInput` | AR Ledger Debit |
+| financialtransincrevenuetaxDetailsArState | `StringInput` | AR State |
+| financialtransincrevenuetaxDetailsArNumber | `FloatInput` | Account Code |
+| financialtransincrevenuetaxDetailsAccountid | `FloatInput` | Accountid |
+| financialtransincrevenuetaxDetailsArticleId | `FloatInput` | Article ID |
+| financialtransincrevenuetaxDetailsAuthemployeeid | `FloatInput` | Authemployeeid |
+| financialtransincrevenuetaxDetailsBonusCheckId | `FloatInput` | Bonus Check ID |
+| financialtransincrevenuetaxDetailsBusinessDate | `DateInput` | Business Date |
+| financialtransincrevenuetaxDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| financialtransincrevenuetaxDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |
+| financialtransincrevenuetaxDetailsCashierId | `FloatInput` | Cashier ID |
+| financialtransincrevenuetaxDetailsChainCode | `StringInput` | Chain Code |
+| financialtransincrevenuetaxDetailsChequeNumber | `StringInput` | Check Number |
+| financialtransincrevenuetaxDetailsClosureNo | `FloatInput` | Closure Number |
+| financialtransincrevenuetaxDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |
+| financialtransincrevenuetaxDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |
+| financialtransincrevenuetaxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| financialtransincrevenuetaxDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
+| financialtransincrevenuetaxDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |
+| financialtransincrevenuetaxDetailsFintransactionid | `FloatInput` | Fintransactionid |
+| financialtransincrevenuetaxDetailsFintransid | `FloatInput` | Fintransid |
+| financialtransincrevenuetaxDetailsBillNo | `FloatInput` | Folio Number |
+| financialtransincrevenuetaxDetailsFolioView | `FloatInput` | Folio View |
+| financialtransincrevenuetaxDetailsFolioid | `FloatInput` | Folioid |
+| financialtransincrevenuetaxDetailsFromResvId | `FloatInput` | From Resv ID |
+| financialtransincrevenuetaxDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| financialtransincrevenuetaxDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |
+| financialtransincrevenuetaxDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |
+| financialtransincrevenuetaxDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |
+| financialtransincrevenuetaxDetailsInsertDate | `DateTimeInput` | Insert Date |
+| financialtransincrevenuetaxDetailsArticleid | `FloatInput` | Articleid |
+| financialtransincrevenuetaxDetailsBusinessdate | `DateInput` | Businessdate |
+| financialtransincrevenuetaxDetailsCashierid | `FloatInput` | Cashierid |
+| financialtransincrevenuetaxDetailsFolioNo | `FloatInput` | Internal Window ID |
+| financialtransincrevenuetaxDetailsInvoiceNo | `FloatInput` | Invoice Number |
+| financialtransincrevenuetaxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| financialtransincrevenuetaxDetailsLinkTrxNo | `FloatInput` | Link Transaction No |
+| financialtransincrevenuetaxDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| financialtransincrevenuetaxDetailsNameId | `FloatInput` | Name ID |
+| financialtransincrevenuetaxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| financialtransincrevenuetaxDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |
+| financialtransincrevenuetaxDetailsOriginalRoom | `StringInput` | Original Room |
+| financialtransincrevenuetaxDetailsOriginalresvid | `FloatInput` | Originalresvid |
+| financialtransincrevenuetaxDetailsProduct | `StringInput` | Package |
+| financialtransincrevenuetaxDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |
+| financialtransincrevenuetaxDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |
+| financialtransincrevenuetaxDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |
+| financialtransincrevenuetaxDetailsParentfintransid | `FloatInput` | Parentfintransid |
+| financialtransincrevenuetaxDetailsPostitNo | `FloatInput` | Postit Number |
+| financialtransincrevenuetaxDetailsProductid | `StringInput` | Productid |
+| financialtransincrevenuetaxDetailsProfileid | `FloatInput` | Profileid |
+| financialtransincrevenuetaxDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| financialtransincrevenuetaxDetailsRateCode | `StringInput` | Rate Code |
+| financialtransincrevenuetaxDetailsRatecodeid | `StringInput` | Ratecodeid |
+| financialtransincrevenuetaxDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |
+| financialtransincrevenuetaxDetailsReservationid | `FloatInput` | Reservationid |
+| financialtransincrevenuetaxDetailsRoom | `StringInput` | Room Number |
+| financialtransincrevenuetaxDetailsRoomid | `StringInput` | Roomid |
+| financialtransincrevenuetaxDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |
+| financialtransincrevenuetaxDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| financialtransincrevenuetaxDetailsTaxElements | `StringInput` | Tax Elements |
+| financialtransincrevenuetaxDetailsTcGroup | `StringInput` | Transaction Code Group |
+| financialtransincrevenuetaxDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| financialtransincrevenuetaxDetailsTranActionId | `FloatInput` | Tran Action ID |
+| financialtransincrevenuetaxDetailsTranscodeid | `StringInput` | Transaction Code |
+| financialtransincrevenuetaxDetailsTrxDate | `DateInput` | Transaction Date |
+| financialtransincrevenuetaxDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |
+| financialtransincrevenuetaxDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |
+| financialtransincrevenuetaxDetailsTrxCode | `StringInput` | Transaction Code |
+| financialtransincrevenuetaxDetailsTrxNo | `FloatInput` | Trx Number |
+| financialtransincrevenuetaxDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |
+| financialtransincrevenuetaxDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |
+| financialtransincrevenuetaxDetailsTrxNoHeader | `FloatInput` | Transaction No Header |
+| financialtransincrevenuetaxDetailsAuthorizerId | `FloatInput` | User ID |
+| financialtransextrarevenuetaxDetailsArLedCredit | `FloatInput` | AR Ledger Credit |
+| financialtransextrarevenuetaxDetailsArLedDebit | `FloatInput` | AR Ledger Debit |
+| financialtransextrarevenuetaxDetailsArState | `StringInput` | AR State |
+| financialtransextrarevenuetaxDetailsArNumber | `FloatInput` | Account Code |
+| financialtransextrarevenuetaxDetailsAccountid | `FloatInput` | Accountid |
+| financialtransextrarevenuetaxDetailsArticleId | `FloatInput` | Article ID |
+| financialtransextrarevenuetaxDetailsAuthemployeeid | `FloatInput` | Authemployeeid |
+| financialtransextrarevenuetaxDetailsBonusCheckId | `FloatInput` | Bonus Check ID |
+| financialtransextrarevenuetaxDetailsBusinessDate | `DateInput` | Business Date |
+| financialtransextrarevenuetaxDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| financialtransextrarevenuetaxDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |
+| financialtransextrarevenuetaxDetailsCashierId | `FloatInput` | Cashier ID |
+| financialtransextrarevenuetaxDetailsChainCode | `StringInput` | Chain Code |
+| financialtransextrarevenuetaxDetailsChequeNumber | `StringInput` | Check Number |
+| financialtransextrarevenuetaxDetailsClosureNo | `FloatInput` | Closure Number |
+| financialtransextrarevenuetaxDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |
+| financialtransextrarevenuetaxDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |
+| financialtransextrarevenuetaxDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| financialtransextrarevenuetaxDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
+| financialtransextrarevenuetaxDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |
+| financialtransextrarevenuetaxDetailsFintransactionid | `FloatInput` | Fintransactionid |
+| financialtransextrarevenuetaxDetailsFintransid | `FloatInput` | Fintransid |
+| financialtransextrarevenuetaxDetailsBillNo | `FloatInput` | Folio Number |
+| financialtransextrarevenuetaxDetailsFolioView | `FloatInput` | Folio View |
+| financialtransextrarevenuetaxDetailsFolioid | `FloatInput` | Folioid |
+| financialtransextrarevenuetaxDetailsFromResvId | `FloatInput` | From Resv ID |
+| financialtransextrarevenuetaxDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| financialtransextrarevenuetaxDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |
+| financialtransextrarevenuetaxDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |
+| financialtransextrarevenuetaxDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |
+| financialtransextrarevenuetaxDetailsInsertDate | `DateTimeInput` | Insert Date |
+| financialtransextrarevenuetaxDetailsArticleid | `FloatInput` | Articleid |
+| financialtransextrarevenuetaxDetailsBusinessdate | `DateInput` | Businessdate |
+| financialtransextrarevenuetaxDetailsCashierid | `FloatInput` | Cashierid |
+| financialtransextrarevenuetaxDetailsFolioNo | `FloatInput` | Internal Window ID |
+| financialtransextrarevenuetaxDetailsInvoiceNo | `FloatInput` | Invoice Number |
+| financialtransextrarevenuetaxDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| financialtransextrarevenuetaxDetailsLinkTrxNo | `FloatInput` | Link Transaction No |
+| financialtransextrarevenuetaxDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| financialtransextrarevenuetaxDetailsNameId | `FloatInput` | Name ID |
+| financialtransextrarevenuetaxDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| financialtransextrarevenuetaxDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |
+| financialtransextrarevenuetaxDetailsOriginalRoom | `StringInput` | Original Room |
+| financialtransextrarevenuetaxDetailsOriginalresvid | `FloatInput` | Originalresvid |
+| financialtransextrarevenuetaxDetailsProduct | `StringInput` | Package |
+| financialtransextrarevenuetaxDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |
+| financialtransextrarevenuetaxDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |
+| financialtransextrarevenuetaxDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |
+| financialtransextrarevenuetaxDetailsParentfintransid | `FloatInput` | Parentfintransid |
+| financialtransextrarevenuetaxDetailsPostitNo | `FloatInput` | Postit Number |
+| financialtransextrarevenuetaxDetailsProductid | `StringInput` | Productid |
+| financialtransextrarevenuetaxDetailsProfileid | `FloatInput` | Profileid |
+| financialtransextrarevenuetaxDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| financialtransextrarevenuetaxDetailsRateCode | `StringInput` | Rate Code |
+| financialtransextrarevenuetaxDetailsRatecodeid | `StringInput` | Ratecodeid |
+| financialtransextrarevenuetaxDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |
+| financialtransextrarevenuetaxDetailsReservationid | `FloatInput` | Reservationid |
+| financialtransextrarevenuetaxDetailsRoom | `StringInput` | Room Number |
+| financialtransextrarevenuetaxDetailsRoomid | `StringInput` | Roomid |
+| financialtransextrarevenuetaxDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |
+| financialtransextrarevenuetaxDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| financialtransextrarevenuetaxDetailsTaxElements | `StringInput` | Tax Elements |
+| financialtransextrarevenuetaxDetailsTcGroup | `StringInput` | Transaction Code Group |
+| financialtransextrarevenuetaxDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| financialtransextrarevenuetaxDetailsTranActionId | `FloatInput` | Tran Action ID |
+| financialtransextrarevenuetaxDetailsTranscodeid | `StringInput` | Transaction Code |
+| financialtransextrarevenuetaxDetailsTrxDate | `DateInput` | Transaction Date |
+| financialtransextrarevenuetaxDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |
+| financialtransextrarevenuetaxDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |
+| financialtransextrarevenuetaxDetailsTrxCode | `StringInput` | Transaction Code |
+| financialtransextrarevenuetaxDetailsTrxNo | `FloatInput` | Trx Number |
+| financialtransextrarevenuetaxDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |
+| financialtransextrarevenuetaxDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |
+| financialtransextrarevenuetaxDetailsTrxNoHeader | `FloatInput` | Transaction No Header |
+| financialtransextrarevenuetaxDetailsAuthorizerId | `FloatInput` | User ID |
+| financialtranssvcchargeincrevDetailsArLedCredit | `FloatInput` | AR Ledger Credit |
+| financialtranssvcchargeincrevDetailsArLedDebit | `FloatInput` | AR Ledger Debit |
+| financialtranssvcchargeincrevDetailsArState | `StringInput` | AR State |
+| financialtranssvcchargeincrevDetailsArNumber | `FloatInput` | Account Code |
+| financialtranssvcchargeincrevDetailsAccountid | `FloatInput` | Accountid |
+| financialtranssvcchargeincrevDetailsArticleId | `FloatInput` | Article ID |
+| financialtranssvcchargeincrevDetailsAuthemployeeid | `FloatInput` | Authemployeeid |
+| financialtranssvcchargeincrevDetailsBonusCheckId | `FloatInput` | Bonus Check ID |
+| financialtranssvcchargeincrevDetailsBusinessDate | `DateInput` | Business Date |
+| financialtranssvcchargeincrevDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| financialtranssvcchargeincrevDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |
+| financialtranssvcchargeincrevDetailsCashierId | `FloatInput` | Cashier ID |
+| financialtranssvcchargeincrevDetailsChainCode | `StringInput` | Chain Code |
+| financialtranssvcchargeincrevDetailsChequeNumber | `StringInput` | Check Number |
+| financialtranssvcchargeincrevDetailsClosureNo | `FloatInput` | Closure Number |
+| financialtranssvcchargeincrevDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |
+| financialtranssvcchargeincrevDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |
+| financialtranssvcchargeincrevDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| financialtranssvcchargeincrevDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
+| financialtranssvcchargeincrevDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |
+| financialtranssvcchargeincrevDetailsFintransactionid | `FloatInput` | Fintransactionid |
+| financialtranssvcchargeincrevDetailsFintransid | `FloatInput` | Fintransid |
+| financialtranssvcchargeincrevDetailsBillNo | `FloatInput` | Folio Number |
+| financialtranssvcchargeincrevDetailsFolioView | `FloatInput` | Folio View |
+| financialtranssvcchargeincrevDetailsFolioid | `FloatInput` | Folioid |
+| financialtranssvcchargeincrevDetailsFromResvId | `FloatInput` | From Resv ID |
+| financialtranssvcchargeincrevDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| financialtranssvcchargeincrevDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |
+| financialtranssvcchargeincrevDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |
+| financialtranssvcchargeincrevDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |
+| financialtranssvcchargeincrevDetailsInsertDate | `DateTimeInput` | Insert Date |
+| financialtranssvcchargeincrevDetailsArticleid | `FloatInput` | Articleid |
+| financialtranssvcchargeincrevDetailsBusinessdate | `DateInput` | Businessdate |
+| financialtranssvcchargeincrevDetailsCashierid | `FloatInput` | Cashierid |
+| financialtranssvcchargeincrevDetailsFolioNo | `FloatInput` | Internal Window ID |
+| financialtranssvcchargeincrevDetailsInvoiceNo | `FloatInput` | Invoice Number |
+| financialtranssvcchargeincrevDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| financialtranssvcchargeincrevDetailsLinkTrxNo | `FloatInput` | Link Transaction No |
+| financialtranssvcchargeincrevDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| financialtranssvcchargeincrevDetailsNameId | `FloatInput` | Name ID |
+| financialtranssvcchargeincrevDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| financialtranssvcchargeincrevDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |
+| financialtranssvcchargeincrevDetailsOriginalRoom | `StringInput` | Original Room |
+| financialtranssvcchargeincrevDetailsOriginalresvid | `FloatInput` | Originalresvid |
+| financialtranssvcchargeincrevDetailsProduct | `StringInput` | Package |
+| financialtranssvcchargeincrevDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |
+| financialtranssvcchargeincrevDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |
+| financialtranssvcchargeincrevDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |
+| financialtranssvcchargeincrevDetailsParentfintransid | `FloatInput` | Parentfintransid |
+| financialtranssvcchargeincrevDetailsPostitNo | `FloatInput` | Postit Number |
+| financialtranssvcchargeincrevDetailsProductid | `StringInput` | Productid |
+| financialtranssvcchargeincrevDetailsProfileid | `FloatInput` | Profileid |
+| financialtranssvcchargeincrevDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| financialtranssvcchargeincrevDetailsRateCode | `StringInput` | Rate Code |
+| financialtranssvcchargeincrevDetailsRatecodeid | `StringInput` | Ratecodeid |
+| financialtranssvcchargeincrevDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |
+| financialtranssvcchargeincrevDetailsReservationid | `FloatInput` | Reservationid |
+| financialtranssvcchargeincrevDetailsRoom | `StringInput` | Room Number |
+| financialtranssvcchargeincrevDetailsRoomid | `StringInput` | Roomid |
+| financialtranssvcchargeincrevDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |
+| financialtranssvcchargeincrevDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| financialtranssvcchargeincrevDetailsTaxElements | `StringInput` | Tax Elements |
+| financialtranssvcchargeincrevDetailsTcGroup | `StringInput` | Transaction Code Group |
+| financialtranssvcchargeincrevDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| financialtranssvcchargeincrevDetailsTranActionId | `FloatInput` | Tran Action ID |
+| financialtranssvcchargeincrevDetailsTranscodeid | `StringInput` | Transaction Code |
+| financialtranssvcchargeincrevDetailsTrxDate | `DateInput` | Transaction Date |
+| financialtranssvcchargeincrevDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |
+| financialtranssvcchargeincrevDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |
+| financialtranssvcchargeincrevDetailsTrxCode | `StringInput` | Transaction Code |
+| financialtranssvcchargeincrevDetailsTrxNo | `FloatInput` | Trx Number |
+| financialtranssvcchargeincrevDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |
+| financialtranssvcchargeincrevDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |
+| financialtranssvcchargeincrevDetailsTrxNoHeader | `FloatInput` | Transaction No Header |
+| financialtranssvcchargeincrevDetailsAuthorizerId | `FloatInput` | User ID |
+| financialtranssvcchargeextrarevDetailsArLedCredit | `FloatInput` | AR Ledger Credit |
+| financialtranssvcchargeextrarevDetailsArLedDebit | `FloatInput` | AR Ledger Debit |
+| financialtranssvcchargeextrarevDetailsArState | `StringInput` | AR State |
+| financialtranssvcchargeextrarevDetailsArNumber | `FloatInput` | Account Code |
+| financialtranssvcchargeextrarevDetailsAccountid | `FloatInput` | Accountid |
+| financialtranssvcchargeextrarevDetailsArticleId | `FloatInput` | Article ID |
+| financialtranssvcchargeextrarevDetailsAuthemployeeid | `FloatInput` | Authemployeeid |
+| financialtranssvcchargeextrarevDetailsBonusCheckId | `FloatInput` | Bonus Check ID |
+| financialtranssvcchargeextrarevDetailsBusinessDate | `DateInput` | Business Date |
+| financialtranssvcchargeextrarevDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| financialtranssvcchargeextrarevDetailsCXchangeRate | `FloatInput` | Central Xchange Rate |
+| financialtranssvcchargeextrarevDetailsCashierId | `FloatInput` | Cashier ID |
+| financialtranssvcchargeextrarevDetailsChainCode | `StringInput` | Chain Code |
+| financialtranssvcchargeextrarevDetailsChequeNumber | `StringInput` | Check Number |
+| financialtranssvcchargeextrarevDetailsClosureNo | `FloatInput` | Closure Number |
+| financialtranssvcchargeextrarevDetailsCompLinkTrxCode | `StringInput` | Trx code of original transaction that was turned into a comp |
+| financialtranssvcchargeextrarevDetailsComplinktranscodeid | `StringInput` | Complinktranscodeid |
+| financialtranssvcchargeextrarevDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| financialtranssvcchargeextrarevDetailsExchDiffTrxNo | `FloatInput` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
+| financialtranssvcchargeextrarevDetailsFinDmlSeqNo | `FloatInput` | Number to identify the DML sequence. |
+| financialtranssvcchargeextrarevDetailsFintransactionid | `FloatInput` | Fintransactionid |
+| financialtranssvcchargeextrarevDetailsFintransid | `FloatInput` | Fintransid |
+| financialtranssvcchargeextrarevDetailsBillNo | `FloatInput` | Folio Number |
+| financialtranssvcchargeextrarevDetailsFolioView | `FloatInput` | Folio View |
+| financialtranssvcchargeextrarevDetailsFolioid | `FloatInput` | Folioid |
+| financialtranssvcchargeextrarevDetailsFromResvId | `FloatInput` | From Resv ID |
+| financialtranssvcchargeextrarevDetailsFtSubtype | `StringInput` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| financialtranssvcchargeextrarevDetailsGuestAccountCredit | `FloatInput` | Guest Account Ledger Credit |
+| financialtranssvcchargeextrarevDetailsGuestAccountDebit | `FloatInput` | Debit amount on the guest account |
+| financialtranssvcchargeextrarevDetailsHotelAcct | `StringInput` | Specifies the Hotel acct against which this transaction has beenposted. |
+| financialtranssvcchargeextrarevDetailsInsertDate | `DateTimeInput` | Insert Date |
+| financialtranssvcchargeextrarevDetailsArticleid | `FloatInput` | Articleid |
+| financialtranssvcchargeextrarevDetailsBusinessdate | `DateInput` | Businessdate |
+| financialtranssvcchargeextrarevDetailsCashierid | `FloatInput` | Cashierid |
+| financialtranssvcchargeextrarevDetailsFolioNo | `FloatInput` | Internal Window ID |
+| financialtranssvcchargeextrarevDetailsInvoiceNo | `FloatInput` | Invoice Number |
+| financialtranssvcchargeextrarevDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| financialtranssvcchargeextrarevDetailsLinkTrxNo | `FloatInput` | Link Transaction No |
+| financialtranssvcchargeextrarevDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| financialtranssvcchargeextrarevDetailsNameId | `FloatInput` | Name ID |
+| financialtranssvcchargeextrarevDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| financialtranssvcchargeextrarevDetailsOriginalResvNameId | `FloatInput` | Original Resv Name ID |
+| financialtranssvcchargeextrarevDetailsOriginalRoom | `StringInput` | Original Room |
+| financialtranssvcchargeextrarevDetailsOriginalresvid | `FloatInput` | Originalresvid |
+| financialtranssvcchargeextrarevDetailsProduct | `StringInput` | Package |
+| financialtranssvcchargeextrarevDetailsPackageCredit | `FloatInput` | Credit amount on the guest package account. |
+| financialtranssvcchargeextrarevDetailsPackageDebit | `FloatInput` | Debit amount on the guest package account |
+| financialtranssvcchargeextrarevDetailsPackagelinkfintransid | `FloatInput` | Packagelinkfintransid |
+| financialtranssvcchargeextrarevDetailsParentfintransid | `FloatInput` | Parentfintransid |
+| financialtranssvcchargeextrarevDetailsPostitNo | `FloatInput` | Postit Number |
+| financialtranssvcchargeextrarevDetailsProductid | `StringInput` | Productid |
+| financialtranssvcchargeextrarevDetailsProfileid | `FloatInput` | Profileid |
+| financialtranssvcchargeextrarevDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| financialtranssvcchargeextrarevDetailsRateCode | `StringInput` | Rate Code |
+| financialtranssvcchargeextrarevDetailsRatecodeid | `StringInput` | Ratecodeid |
+| financialtranssvcchargeextrarevDetailsRecptType | `StringInput` | Indicates the receipt type. Different receipts are identified by different types |
+| financialtranssvcchargeextrarevDetailsReservationid | `FloatInput` | Reservationid |
+| financialtranssvcchargeextrarevDetailsRoom | `StringInput` | Room Number |
+| financialtranssvcchargeextrarevDetailsRoomid | `StringInput` | Roomid |
+| financialtranssvcchargeextrarevDetailsRoundLinkTrxno | `FloatInput` | TRX_NO of the transaction associated with this rounding factor posting. |
+| financialtranssvcchargeextrarevDetailsRoutingInstrnId | `FloatInput` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| financialtranssvcchargeextrarevDetailsTaxElements | `StringInput` | Tax Elements |
+| financialtranssvcchargeextrarevDetailsTcGroup | `StringInput` | Transaction Code Group |
+| financialtranssvcchargeextrarevDetailsTcSubgroup | `StringInput` | Transaction Code Subgroup |
+| financialtranssvcchargeextrarevDetailsTranActionId | `FloatInput` | Tran Action ID |
+| financialtranssvcchargeextrarevDetailsTranscodeid | `StringInput` | Transaction Code |
+| financialtranssvcchargeextrarevDetailsTrxDate | `DateInput` | Transaction Date |
+| financialtranssvcchargeextrarevDetailsTrxNoAddedBy | `FloatInput` | Transaction Number Added By |
+| financialtranssvcchargeextrarevDetailsResvNameId | `FloatInput` | Transaction Reservation Name ID |
+| financialtranssvcchargeextrarevDetailsTrxCode | `StringInput` | Transaction Code |
+| financialtranssvcchargeextrarevDetailsTrxNo | `FloatInput` | Trx Number |
+| financialtranssvcchargeextrarevDetailsTrxNoAgainstPackage | `FloatInput` | Trx Number Against Package |
+| financialtranssvcchargeextrarevDetailsTrxNoAdjust | `FloatInput` | The trx_no against which this transaction gets adjusted. |
+| financialtranssvcchargeextrarevDetailsTrxNoHeader | `FloatInput` | Transaction No Header |
+| financialtranssvcchargeextrarevDetailsAuthorizerId | `FloatInput` | User ID |
 
 [⬆ Back to Query](#query)
 

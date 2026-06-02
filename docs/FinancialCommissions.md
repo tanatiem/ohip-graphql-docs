@@ -1219,18 +1219,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1238,10 +1238,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1249,18 +1249,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1268,10 +1268,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1279,17 +1279,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1297,18 +1297,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1316,10 +1316,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -1327,99 +1327,99 @@
 
 ### FinancialCommissionsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| commissionagentDetailsActiveYn | `StringInput` | Active Flag |  |
-| commissionagentDetailsChainCode | `StringInput!` | Chain Code | `mandatoryInput` |
-| commissionagentDetailsCompany | `StringInput` | Company |  |
-| commissionagentDetailsNameCode | `StringInput` | Corp ID |  |
-| commissionagentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| commissionagentDetailsHistoryYn | `StringInput` | History Y/N |  |
-| commissionagentDetailsInactiveDate | `DateTimeInput` | Inactive Date |  |
-| commissionagentDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| commissionagentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| commissionagentDetailsLast | `StringInput` | Last |  |
-| commissionagentDetailsNameId | `FloatInput` | Name ID |  |
-| commissionagentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| commissionagentDetailsProfileType | `StringInput` | Profile Type |  |
-| commissionagentDetailsNameType | `StringInput` | Profile Type Code |  |
-| commissionagentDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |  |
-| commissionagentDetailsSfirst | `StringInput` | Uppercase value of First Name. |  |
-| commissionagentDetailsSname | `StringInput` | The Uppercase value of Last or Company. |  |
-| commissionagentDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |  |
-| commissionagentDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |  |
-| commissionagentDetailsProfileId | `FloatInput` | Top Account ID |  |
-| commissionagentDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| profilecommbankaccountDetailsAccountId | `FloatInput` | Account ID |  |
-| profilecommbankaccountDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| profilecommbankaccountDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilecommbankaccountDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| profilecommbankaccountDetailsNameId | `FloatInput` | Name ID |  |
-| profilecommbankaccountDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilecommbankaccountDetailsPcAccountId | `FloatInput` | Account ID |  |
-| profilecommbankaccountDetailsPcDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| profilecommbankaccountDetailsPcOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| profilecommbankaccountDetailsPcResort | `StringInput` | Code to uniquely identify the Property |  |
-| profilecommbankaccountDetailsResort | `StringInput` | Property |  |
-| computedcommresvDetailsActualCheckInDateTime | `DateTimeInput` | Actual Check In Date Time |  |
-| computedcommresvDetailsActualCheckOutDateTime | `DateTimeInput` | Actual Check Out Date Time |  |
-| computedcommresvDetailsActualCheckOutDate | `DateInput` | Actual Check-Out Date |  |
-| computedcommresvDetailsAddresseeNameId | `FloatInput` | Addressee Name ID |  |
-| computedcommresvDetailsTruncBeginDate | `DateInput` | Arrival Date |  |
-| computedcommresvDetailsBillingContactId | `FloatInput` | Billing Contact ID |  |
-| computedcommresvDetailsBillingcontactprofileid | `FloatInput` | Billing Contact Profile ID |  |
-| computedcommresvDetailsBonusCheckId | `FloatInput` | Bonus Check ID |  |
-| computedcommresvDetailsBusinessDateCreated | `DateInput` | Business Date Created |  |
-| computedcommresvDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| computedcommresvDetailsCcjrnupdatedttm | `DateTimeInput` | CC JRN Update Date and Time |  |
-| computedcommresvDetailsCancellationDate | `DateTimeInput` | Cancellation Date |  |
-| computedcommresvDetailsCancellationNo | `StringInput` | Cancellation Number |  |
-| computedcommresvDetailsCreditCardId | `FloatInput` | Credit Card ID |  |
-| computedcommresvDetailsCustomReference | `StringInput` | Custom Reference Number |  |
-| computedcommresvDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| computedcommresvDetailsTruncEndDate | `DateInput` | Departure Date |  |
-| computedcommresvDetailsEndbusinessdate | `DateInput` | Endbusinessdate |  |
-| computedcommresvDetailsEventId | `FloatInput` | Event ID |  |
-| computedcommresvDetailsFolioCloseDate | `DateInput` | Date the folio was changed to closed. |  |
-| computedcommresvDetailsGuaranteecodeid | `StringInput` | Guaranteecodeid |  |
-| computedcommresvDetailsGuestprofileid | `FloatInput` | Guestprofileid |  |
-| computedcommresvDetailsInsertActionInstanceId | `FloatInput` | Insert Action Instance ID |  |
-| computedcommresvDetailsInsertDate | `DateTimeInput` | Insert Date |  |
-| computedcommresvDetailsInsertUser | `FloatInput` | Insert User |  |
-| computedcommresvDetailsAwardMembershipId | `FloatInput` | Award Membership ID |  |
-| computedcommresvDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| computedcommresvDetailsEndDate | `DateTimeInput` | Linked Departure Date |  |
-| computedcommresvDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| computedcommresvDetailsNameUsageType | `StringInput` | Name Usage Type |  |
-| computedcommresvDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| computedcommresvDetailsOriginalEndDate | `DateInput` | Original End Date |  |
-| computedcommresvDetailsParentResvNameId | `FloatInput` | Parent Resv Name ID |  |
-| computedcommresvDetailsParentreservationid | `FloatInput` | Parentreservationid |  |
-| computedcommresvDetailsPostCoFlag | `StringInput` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |  |
-| computedcommresvDetailsQuoteId | `StringInput` | Quote ID provided by external system. |  |
-| computedcommresvDetailsResvContactId | `FloatInput` | Resv Contact ID |  |
-| computedcommresvDetailsResvNameId | `FloatInput` | Reservation Name ID |  |
-| computedcommresvDetailsResvStatus | `StringInput` | Reservation Status |  |
-| computedcommresvDetailsGuaranteeCode | `StringInput` | Reservation Type |  |
-| computedcommresvDetailsReservationid | `FloatInput` | Reservationid |  |
-| computedcommresvDetailsResort | `StringInput` | Property |  |
-| computedcommresvDetailsResortChargeNumber | `StringInput` | Auto generated charge number for Point Of Sale systems to identify guests. |  |
-| computedcommresvDetailsResvNameid | `FloatInput` | Reservation Nameid |  |
-| computedcommresvDetailsResvcontactprofileid | `FloatInput` | Resvcontactprofileid |  |
-| computedcommresvDetailsRhBillingContactId | `FloatInput` | Rh Billing Contact ID |  |
-| computedcommresvDetailsRhResvContactId | `FloatInput` | Rh Resv Contact ID |  |
-| computedcommresvDetailsScheduleCheckoutYn | `StringInput` | Is the guest scheduled for automatic check out? |  |
-| computedcommresvDetailsSguestFirstname | `StringInput` | This is CAPITOL version of guest_first_name |  |
-| computedcommresvDetailsSguestName | `StringInput` | Sguest Name |  |
-| computedcommresvDetailsConfirmationNo | `StringInput` | Shared Confirmation Number |  |
-| computedcommresvDetailsNameId | `FloatInput` | Shared Profile ID |  |
-| computedcommresvDetailsReservationStatus | `StringInput` | Shared Reservation Status |  |
-| computedcommresvDetailsSplitFromResvNameId | `FloatInput` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |  |
-| computedcommresvDetailsSplitfromreservationid | `FloatInput` | Splitfromreservationid |  |
-| computedcommresvDetailsTruncActualCheckOutDate | `DateInput` | This is the actual check out date with no time component. |  |
-| computedcommresvDetailsUniCardId | `StringInput` | Universal Card ID used by interfaces for key encoding purposes. |  |
-| computedcommresvDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| checkregisterDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| commissionagentDetailsActiveYn | `StringInput` | Active Flag |
+| commissionagentDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
+| commissionagentDetailsCompany | `StringInput` | Company |
+| commissionagentDetailsNameCode | `StringInput` | Corp ID |
+| commissionagentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| commissionagentDetailsHistoryYn | `StringInput` | History Y/N |
+| commissionagentDetailsInactiveDate | `DateTimeInput` | Inactive Date |
+| commissionagentDetailsOrganizationId | `FloatInput` | Organization ID |
+| commissionagentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| commissionagentDetailsLast | `StringInput` | Last |
+| commissionagentDetailsNameId | `FloatInput` | Name ID |
+| commissionagentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| commissionagentDetailsProfileType | `StringInput` | Profile Type |
+| commissionagentDetailsNameType | `StringInput` | Profile Type Code |
+| commissionagentDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
+| commissionagentDetailsSfirst | `StringInput` | Uppercase value of First Name. |
+| commissionagentDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
+| commissionagentDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
+| commissionagentDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
+| commissionagentDetailsProfileId | `FloatInput` | Top Account ID |
+| commissionagentDetailsUpdateDate | `DateTimeInput` | Update Date |
+| profilecommbankaccountDetailsAccountId | `FloatInput` | Account ID |
+| profilecommbankaccountDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| profilecommbankaccountDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilecommbankaccountDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilecommbankaccountDetailsNameId | `FloatInput` | Name ID |
+| profilecommbankaccountDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilecommbankaccountDetailsPcAccountId | `FloatInput` | Account ID |
+| profilecommbankaccountDetailsPcDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| profilecommbankaccountDetailsPcOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| profilecommbankaccountDetailsPcResort | `StringInput` | Code to uniquely identify the Property |
+| profilecommbankaccountDetailsResort | `StringInput` | Property |
+| computedcommresvDetailsActualCheckInDateTime | `DateTimeInput` | Actual Check In Date Time |
+| computedcommresvDetailsActualCheckOutDateTime | `DateTimeInput` | Actual Check Out Date Time |
+| computedcommresvDetailsActualCheckOutDate | `DateInput` | Actual Check-Out Date |
+| computedcommresvDetailsAddresseeNameId | `FloatInput` | Addressee Name ID |
+| computedcommresvDetailsTruncBeginDate | `DateInput` | Arrival Date |
+| computedcommresvDetailsBillingContactId | `FloatInput` | Billing Contact ID |
+| computedcommresvDetailsBillingcontactprofileid | `FloatInput` | Billing Contact Profile ID |
+| computedcommresvDetailsBonusCheckId | `FloatInput` | Bonus Check ID |
+| computedcommresvDetailsBusinessDateCreated | `DateInput` | Business Date Created |
+| computedcommresvDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| computedcommresvDetailsCcjrnupdatedttm | `DateTimeInput` | CC JRN Update Date and Time |
+| computedcommresvDetailsCancellationDate | `DateTimeInput` | Cancellation Date |
+| computedcommresvDetailsCancellationNo | `StringInput` | Cancellation Number |
+| computedcommresvDetailsCreditCardId | `FloatInput` | Credit Card ID |
+| computedcommresvDetailsCustomReference | `StringInput` | Custom Reference Number |
+| computedcommresvDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| computedcommresvDetailsTruncEndDate | `DateInput` | Departure Date |
+| computedcommresvDetailsEndbusinessdate | `DateInput` | Endbusinessdate |
+| computedcommresvDetailsEventId | `FloatInput` | Event ID |
+| computedcommresvDetailsFolioCloseDate | `DateInput` | Date the folio was changed to closed. |
+| computedcommresvDetailsGuaranteecodeid | `StringInput` | Guaranteecodeid |
+| computedcommresvDetailsGuestprofileid | `FloatInput` | Guestprofileid |
+| computedcommresvDetailsInsertActionInstanceId | `FloatInput` | Insert Action Instance ID |
+| computedcommresvDetailsInsertDate | `DateTimeInput` | Insert Date |
+| computedcommresvDetailsInsertUser | `FloatInput` | Insert User |
+| computedcommresvDetailsAwardMembershipId | `FloatInput` | Award Membership ID |
+| computedcommresvDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| computedcommresvDetailsEndDate | `DateTimeInput` | Linked Departure Date |
+| computedcommresvDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| computedcommresvDetailsNameUsageType | `StringInput` | Name Usage Type |
+| computedcommresvDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| computedcommresvDetailsOriginalEndDate | `DateInput` | Original End Date |
+| computedcommresvDetailsParentResvNameId | `FloatInput` | Parent Resv Name ID |
+| computedcommresvDetailsParentreservationid | `FloatInput` | Parentreservationid |
+| computedcommresvDetailsPostCoFlag | `StringInput` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
+| computedcommresvDetailsQuoteId | `StringInput` | Quote ID provided by external system. |
+| computedcommresvDetailsResvContactId | `FloatInput` | Resv Contact ID |
+| computedcommresvDetailsResvNameId | `FloatInput` | Reservation Name ID |
+| computedcommresvDetailsResvStatus | `StringInput` | Reservation Status |
+| computedcommresvDetailsGuaranteeCode | `StringInput` | Reservation Type |
+| computedcommresvDetailsReservationid | `FloatInput` | Reservationid |
+| computedcommresvDetailsResort | `StringInput` | Property |
+| computedcommresvDetailsResortChargeNumber | `StringInput` | Auto generated charge number for Point Of Sale systems to identify guests. |
+| computedcommresvDetailsResvNameid | `FloatInput` | Reservation Nameid |
+| computedcommresvDetailsResvcontactprofileid | `FloatInput` | Resvcontactprofileid |
+| computedcommresvDetailsRhBillingContactId | `FloatInput` | Rh Billing Contact ID |
+| computedcommresvDetailsRhResvContactId | `FloatInput` | Rh Resv Contact ID |
+| computedcommresvDetailsScheduleCheckoutYn | `StringInput` | Is the guest scheduled for automatic check out? |
+| computedcommresvDetailsSguestFirstname | `StringInput` | This is CAPITOL version of guest_first_name |
+| computedcommresvDetailsSguestName | `StringInput` | Sguest Name |
+| computedcommresvDetailsConfirmationNo | `StringInput` | Shared Confirmation Number |
+| computedcommresvDetailsNameId | `FloatInput` | Shared Profile ID |
+| computedcommresvDetailsReservationStatus | `StringInput` | Shared Reservation Status |
+| computedcommresvDetailsSplitFromResvNameId | `FloatInput` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
+| computedcommresvDetailsSplitfromreservationid | `FloatInput` | Splitfromreservationid |
+| computedcommresvDetailsTruncActualCheckOutDate | `DateInput` | This is the actual check out date with no time component. |
+| computedcommresvDetailsUniCardId | `StringInput` | Universal Card ID used by interfaces for key encoding purposes. |
+| computedcommresvDetailsUpdateDate | `DateTimeInput` | Update Date |
+| checkregisterDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 
 [⬆ Back to Query](#query)
 

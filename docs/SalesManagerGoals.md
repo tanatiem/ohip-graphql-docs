@@ -376,18 +376,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -395,10 +395,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -406,18 +406,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -425,10 +425,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -436,17 +436,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -454,18 +454,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -473,10 +473,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -484,67 +484,67 @@
 
 ### SalesManagerGoalsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| salesmanagerDetailsChainCode | `StringInput` | Chain Code |  |
-| salesmanagerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| salesmanagerDetailsFirst | `StringInput` | First Name |  |
-| salesmanagerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| salesmanagerDetailsLast | `StringInput` | Last Name |  |
-| salesmanagerDetailsNameId | `FloatInput` | Name ID |  |
-| salesmanagerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| salesmanagerDetailsSrepCode | `StringInput!` | Owner Code | `mandatoryInput` |
-| employeegoalDetailsActType | `StringInput` | Activity Type |  |
-| employeegoalDetailsActivitytypeid | `StringInput` | Activitytypeid |  |
-| employeegoalDetailsBudgetType | `StringInput` | Budget Type |  |
-| employeegoalDetailsCXchangeDate | `DateInput` | Central Xchange Date |  |
-| employeegoalDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| employeegoalDetailsEmployeegoalid | `FloatInput` | Employeegoalid |  |
-| employeegoalDetailsEmployeeid | `FloatInput` | Employeeid |  |
-| employeegoalDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| employeegoalDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| employeegoalDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| employeegoalDetailsPeriodCode | `StringInput` | Period Code |  |
-| employeegoalDetailsPeriodType | `StringInput` | Period Type |  |
-| employeegoalDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| employeegoalDetailsGoalId | `FloatInput` | Primary Key |  |
-| employeegoalDetailsGoalType | `StringInput` | Goal Types |  |
-| employeegoalDetailsNameId | `FloatInput` | User ID |  |
-| employeegoalDetailsYearId | `FloatInput` | Year ID |  |
-| workordersDetailsCompletedYn | `StringInput` | Activity Completed |  |
-| workordersDetailsCreatedDate | `DateTimeInput` | Activity Created On |  |
-| workordersDetailsEndDate | `DateTimeInput` | Activity End Date |  |
-| workordersDetailsWoNumber | `FloatInput` | Activity ID |  |
-| workordersDetailsProblemDesc | `StringInput` | Description of the Problem reported |  |
-| workordersDetailsPriorityCode | `StringInput` | Activity Priority |  |
-| workordersDetailsStartDate | `DateTimeInput` | Activity Start Date |  |
-| workordersDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| workordersDetailsEstUotCode | `StringInput` | Est Uot Code |  |
-| workordersDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| workordersDetailsLocationCode | `StringInput` | Location Code |  |
-| workordersDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |  |
-| workordersDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| workordersDetailsParentWoNumber | `FloatInput` | Wo_number to which current work order is a sub work ordergenerated work_order number |  |
-| workordersDetailsPlantItemCode | `StringInput` | Plant Item Code |  |
-| workordersDetailsResort | `StringInput` | Code to uniquely identify the Property |  |
-| workordersDetailsReasonCode | `StringInput` | Reason Code |  |
-| workordersDetailsRequestTypeId | `StringInput` | Request type that need to be generated. |  |
-| workordersDetailsRequestTypeTemplatesId | `FloatInput` | Stores the Campaign Type Template ID used for a campaign. |  |
-| workordersDetailsStatusCode | `StringInput` | Status Code |  |
-| workordersDetailsSurveyId | `FloatInput` | Linked Survey ID |  |
-| workordersDetailsTaskCode | `FloatInput` | Task Code |  |
-| workordersDetailsTaskitemNumber | `FloatInput` | Taskitem Number |  |
-| workordersDetailsTypeCode | `StringInput` | Type Code |  |
-| owneraccountdailystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| owneraccountdailystatDetailsOrganizationId | `FloatInput` | Organization ID |  |
-| owneraccountdailystatDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| owneraccountdailystatDetailsLocationId | `StringInput` | Location ID |  |
-| owneraccountdailystatDetailsNameId | `FloatInput` | Name ID |  |
-| owneraccountdailystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| owneraccountdailystatDetailsOwnerProfileId | `FloatInput` | Owner Profile ID |  |
-| owneraccountdailystatDetailsProfileOwnerId | `FloatInput` | Profile Owner ID |  |
-| owneraccountdailystatDetailsResort | `StringInput` | Property |  |
-| owneraccountdailystatDetailsUserId | `FloatInput` | User ID |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| salesmanagerDetailsChainCode | `StringInput` | Chain Code |
+| salesmanagerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| salesmanagerDetailsFirst | `StringInput` | First Name |
+| salesmanagerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| salesmanagerDetailsLast | `StringInput` | Last Name |
+| salesmanagerDetailsNameId | `FloatInput` | Name ID |
+| salesmanagerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| salesmanagerDetailsSrepCode | `StringInput!` | Owner Code<br>`@mandatoryInput` |
+| employeegoalDetailsActType | `StringInput` | Activity Type |
+| employeegoalDetailsActivitytypeid | `StringInput` | Activitytypeid |
+| employeegoalDetailsBudgetType | `StringInput` | Budget Type |
+| employeegoalDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| employeegoalDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| employeegoalDetailsEmployeegoalid | `FloatInput` | Employeegoalid |
+| employeegoalDetailsEmployeeid | `FloatInput` | Employeeid |
+| employeegoalDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| employeegoalDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| employeegoalDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| employeegoalDetailsPeriodCode | `StringInput` | Period Code |
+| employeegoalDetailsPeriodType | `StringInput` | Period Type |
+| employeegoalDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| employeegoalDetailsGoalId | `FloatInput` | Primary Key |
+| employeegoalDetailsGoalType | `StringInput` | Goal Types |
+| employeegoalDetailsNameId | `FloatInput` | User ID |
+| employeegoalDetailsYearId | `FloatInput` | Year ID |
+| workordersDetailsCompletedYn | `StringInput` | Activity Completed |
+| workordersDetailsCreatedDate | `DateTimeInput` | Activity Created On |
+| workordersDetailsEndDate | `DateTimeInput` | Activity End Date |
+| workordersDetailsWoNumber | `FloatInput` | Activity ID |
+| workordersDetailsProblemDesc | `StringInput` | Description of the Problem reported |
+| workordersDetailsPriorityCode | `StringInput` | Activity Priority |
+| workordersDetailsStartDate | `DateTimeInput` | Activity Start Date |
+| workordersDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| workordersDetailsEstUotCode | `StringInput` | Est Uot Code |
+| workordersDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| workordersDetailsLocationCode | `StringInput` | Location Code |
+| workordersDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| workordersDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| workordersDetailsParentWoNumber | `FloatInput` | Wo_number to which current work order is a sub work ordergenerated work_order number |
+| workordersDetailsPlantItemCode | `StringInput` | Plant Item Code |
+| workordersDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| workordersDetailsReasonCode | `StringInput` | Reason Code |
+| workordersDetailsRequestTypeId | `StringInput` | Request type that need to be generated. |
+| workordersDetailsRequestTypeTemplatesId | `FloatInput` | Stores the Campaign Type Template ID used for a campaign. |
+| workordersDetailsStatusCode | `StringInput` | Status Code |
+| workordersDetailsSurveyId | `FloatInput` | Linked Survey ID |
+| workordersDetailsTaskCode | `FloatInput` | Task Code |
+| workordersDetailsTaskitemNumber | `FloatInput` | Taskitem Number |
+| workordersDetailsTypeCode | `StringInput` | Type Code |
+| owneraccountdailystatDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| owneraccountdailystatDetailsOrganizationId | `FloatInput` | Organization ID |
+| owneraccountdailystatDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| owneraccountdailystatDetailsLocationId | `StringInput` | Location ID |
+| owneraccountdailystatDetailsNameId | `FloatInput` | Name ID |
+| owneraccountdailystatDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| owneraccountdailystatDetailsOwnerProfileId | `FloatInput` | Owner Profile ID |
+| owneraccountdailystatDetailsProfileOwnerId | `FloatInput` | Profile Owner ID |
+| owneraccountdailystatDetailsResort | `StringInput` | Property |
+| owneraccountdailystatDetailsUserId | `FloatInput` | User ID |
 
 [⬆ Back to Query](#query)
 

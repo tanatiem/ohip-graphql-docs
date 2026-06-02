@@ -468,18 +468,18 @@
 
 ### DateInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Date` |  |  |
-| _ne | `Date` |  |  |
-| _in | `[Date]` |  |  |
-| _nin | `[Date]` |  |  |
-| _gt | `Date` |  |  |
-| _lt | `Date` |  |  |
-| _gte | `Date` |  |  |
-| _lte | `Date` |  |  |
-| _btn | [`DateRangeInput`](#daterangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Date` |  |
+| _ne | `Date` |  |
+| _in | `[Date]` |  |
+| _nin | `[Date]` |  |
+| _gt | `Date` |  |
+| _lt | `Date` |  |
+| _gte | `Date` |  |
+| _lte | `Date` |  |
+| _btn | [`DateRangeInput`](#daterangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -487,10 +487,10 @@
 
 ### DateRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Date!` |  |  |
-| end | `Date!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Date!` |  |
+| end | `Date!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -498,18 +498,18 @@
 
 ### DateTimeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `DateTime` |  |  |
-| _ne | `DateTime` |  |  |
-| _in | `[DateTime]` |  |  |
-| _nin | `[DateTime]` |  |  |
-| _gt | `DateTime` |  |  |
-| _lt | `DateTime` |  |  |
-| _gte | `DateTime` |  |  |
-| _lte | `DateTime` |  |  |
-| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `DateTime` |  |
+| _ne | `DateTime` |  |
+| _in | `[DateTime]` |  |
+| _nin | `[DateTime]` |  |
+| _gt | `DateTime` |  |
+| _lt | `DateTime` |  |
+| _gte | `DateTime` |  |
+| _lte | `DateTime` |  |
+| _btn | [`DateTimeRangeInput`](#datetimerangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -517,10 +517,10 @@
 
 ### DateTimeRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `DateTime!` |  |  |
-| end | `DateTime!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `DateTime!` |  |
+| end | `DateTime!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -528,17 +528,17 @@
 
 ### StringInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `String` |  |  |
-| _ne | `String` |  |  |
-| _in | `[String]` |  |  |
-| _nin | `[String]` |  |  |
-| _gt | `String` |  |  |
-| _lt | `String` |  |  |
-| _gte | `String` |  |  |
-| _lte | `String` |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `String` |  |
+| _ne | `String` |  |
+| _in | `[String]` |  |
+| _nin | `[String]` |  |
+| _gt | `String` |  |
+| _lt | `String` |  |
+| _gte | `String` |  |
+| _lte | `String` |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -546,18 +546,18 @@
 
 ### FloatInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| _eq | `Float` |  |  |
-| _ne | `Float` |  |  |
-| _in | `[Float]` |  |  |
-| _nin | `[Float]` |  |  |
-| _gt | `Float` |  |  |
-| _lt | `Float` |  |  |
-| _gte | `Float` |  |  |
-| _lte | `Float` |  |  |
-| _btn | [`FloatRangeInput`](#floatrangeinput) |  |  |
-| _isNull | `Boolean` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| _eq | `Float` |  |
+| _ne | `Float` |  |
+| _in | `[Float]` |  |
+| _nin | `[Float]` |  |
+| _gt | `Float` |  |
+| _lt | `Float` |  |
+| _gte | `Float` |  |
+| _lte | `Float` |  |
+| _btn | [`FloatRangeInput`](#floatrangeinput) |  |
+| _isNull | `Boolean` |  |
 
 [⬆ Back to Query](#query)
 
@@ -565,10 +565,10 @@
 
 ### FloatRangeInput
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| start | `Float!` |  |  |
-| end | `Float!` |  |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| start | `Float!` |  |
+| end | `Float!` |  |
 
 [⬆ Back to Query](#query)
 
@@ -576,29 +576,29 @@
 
 ### SimpleReportsProfileIndividualsQueryArgumentsType
 
-| Field | Type | Description | Directives |
-| --- | --- | --- | --- |
-| nameDetailsAnonymizationStatus | `StringInput` | Anonymization Status possible values: REQUESTED ANONYMIZED. |  |
-| nameDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |  |
-| nameDetailsChainCode | `StringInput!` | Chain Code | `mandatoryInput` |
-| nameDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker. |  |
-| nameDetailsContactYn | `StringInput` | Contact Y/N |  |
-| nameDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |  |
-| nameDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |  |
-| nameDetailsHistoryYn | `StringInput` | History Y/N |  |
-| nameDetailsIataCorpNo | `StringInput` | IATA Corp No |  |
-| nameDetailsInactiveDate | `DateInput` | Inactive Date |  |
-| nameDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
-| nameDetailsNameId | `FloatInput` | Name ID |  |
-| nameDetailsNameType | `StringInput` | Name Type |  |
-| nameDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |  |
-| nameDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |  |
-| nameDetailsSfirst | `StringInput` | Uppercase value of First Name. |  |
-| nameDetailsSname | `StringInput` | The Uppercase value of Last or Company. |  |
-| nameDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |  |
-| nameDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |  |
-| nameDetailsUpdateDate | `DateTimeInput` | Update Date |  |
-| nameresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |  |
+| Field | Type | Description |
+| --- | --- | --- |
+| nameDetailsAnonymizationStatus | `StringInput` | Anonymization Status possible values: REQUESTED ANONYMIZED. |
+| nameDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |
+| nameDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
+| nameDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker. |
+| nameDetailsContactYn | `StringInput` | Contact Y/N |
+| nameDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| nameDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |
+| nameDetailsHistoryYn | `StringInput` | History Y/N |
+| nameDetailsIataCorpNo | `StringInput` | IATA Corp No |
+| nameDetailsInactiveDate | `DateInput` | Inactive Date |
+| nameDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| nameDetailsNameId | `FloatInput` | Name ID |
+| nameDetailsNameType | `StringInput` | Name Type |
+| nameDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| nameDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
+| nameDetailsSfirst | `StringInput` | Uppercase value of First Name. |
+| nameDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
+| nameDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
+| nameDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
+| nameDetailsUpdateDate | `DateTimeInput` | Update Date |
+| nameresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 
 [⬆ Back to Query](#query)
 
