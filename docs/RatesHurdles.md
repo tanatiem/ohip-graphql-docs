@@ -1,5 +1,5 @@
 # RatesHurdles
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesHurdles`
 > Rate yielding and hurdle information including date amount  length of stay and room type.
@@ -1059,12 +1059,10 @@ query ratesHurdles($input: RatesHurdlesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 rate_hurdles_details_schema = {
     'actualRoomsSold': pl.Float64,
     'amountOfHurdleRate': pl.Float64,
@@ -1110,7 +1108,8 @@ rate_hurdles_details_schema = {
     'yieldcategoryid': pl.Utf8,
     'yieldmarkettype': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1375,5 +1374,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

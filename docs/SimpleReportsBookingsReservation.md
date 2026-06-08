@@ -1,5 +1,5 @@
 # SimpleReportsBookingsReservation
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsBookingsReservation`
 > The Simple Reports Bookings Reservation Subject Area simplifies creating and building adhoc reports including the ability to create new reports.
@@ -2040,12 +2040,10 @@ query simpleReportsBookingsReservation($input: SimpleReportsBookingsReservationQ
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 reservation_general_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompanyingNames': pl.Utf8,
@@ -2568,7 +2566,8 @@ reservation_general_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2833,5 +2832,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # ProfilesAddresses
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesAddresses`
 > All associated addresses including primary and secondary addresses and address types which can be associated with the proper profile and profile type.
@@ -1311,12 +1311,10 @@ query profilesAddresses($input: ProfilesAddressesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 profile_address_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -1373,7 +1371,8 @@ profile_address_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_information_details_schema = {
     'aRCreditLimitYN': pl.Utf8,
     'aRNumber': pl.Utf8,
@@ -1850,5 +1849,4 @@ profile_information_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
 ```

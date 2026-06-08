@@ -1,5 +1,5 @@
 # RevenueFixedCharges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `revenueFixedCharges`
 > Details on fixed charges including amount frequency and transaction code and the linked reservations.
@@ -2492,12 +2492,10 @@ query revenueFixedCharges($input: RevenueFixedChargesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 fixed_charges_details_schema = {
     'accountCode': pl.Float64,
     'accountid': pl.Float64,
@@ -2550,7 +2548,8 @@ fixed_charges_details_schema = {
     'updatedate': pl.Utf8,
     'yearlyfixedchargedate': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2815,7 +2814,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -3487,5 +3487,4 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
 ```

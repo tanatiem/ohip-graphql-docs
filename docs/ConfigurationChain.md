@@ -1,5 +1,5 @@
 # ConfigurationChain
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `configurationChain`
 > The Chain Configuration Subject Area contains configuration/setting attributes from components such as Enterprise Administration Financial Administration Booking Administration and Client Relations Administration in OPERA.
@@ -3176,12 +3176,10 @@ query configurationChain($input: ConfigurationChainQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 chain_details_schema = {
     'aspYn': pl.Utf8,
     'beginDate': pl.Utf8,
@@ -3226,7 +3224,8 @@ chain_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_enrollment_code_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -3266,7 +3265,8 @@ membership_enrollment_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_enroll_group_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -3286,7 +3286,8 @@ membership_enroll_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_market_group_membership_market_group_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -3295,7 +3296,8 @@ membership_market_group_membership_market_group_details_schema = {
     'rNAInsertDate': pl.Utf8,
     'rNAUpdateDate': pl.Utf8,
 }
-
+```
+```python
 membership_market_group_details_schema = {
     'insertDate': pl.Utf8,
     'insertUser': pl.Float64,
@@ -3309,7 +3311,8 @@ membership_market_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_type_details_schema = {
     'activeYN': pl.Utf8,
     'activityPeriodYears': pl.Utf8,
@@ -3428,7 +3431,8 @@ membership_type_details_schema = {
     'validationbyifcflag': pl.Utf8,
     'yearsToExpire': pl.Float64,
 }
-
+```
+```python
 membership_property_group_details_schema = {
     'backToBack': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -3449,7 +3453,8 @@ membership_property_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_rate_group_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -3469,7 +3474,8 @@ membership_rate_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_revenue_group_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -3489,7 +3495,8 @@ membership_revenue_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_revenue_type_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -3514,7 +3521,8 @@ membership_revenue_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_room_group_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -3534,7 +3542,8 @@ membership_room_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 hub_details_schema = {
     'aRAccountNumberMandYN': pl.Utf8,
     'aRBalanceTrxCode': pl.Utf8,
@@ -3793,7 +3802,8 @@ hub_details_schema = {
     'xresortNumber': pl.Float64,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 note_type_details_schema = {
     'canDeleteYn': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -3828,7 +3838,8 @@ note_type_details_schema = {
     'sequence': pl.Float64,
     'webProposalYn': pl.Utf8,
 }
-
+```
+```python
 property_type_details_schema = {
     'centralCode': pl.Utf8,
     'centralDescription': pl.Utf8,
@@ -3854,7 +3865,8 @@ property_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 foreign_currency_details_schema = {
     'abbreviation': pl.Utf8,
     'activeYN': pl.Utf8,
@@ -3890,7 +3902,8 @@ foreign_currency_details_schema = {
     'updateUser': pl.Float64,
     'usedForCcPaymentsYn': pl.Utf8,
 }
-
+```
+```python
 item_rate_rules_details_schema = {
     'centralDescription': pl.Utf8,
     'centralSequence': pl.Float64,
@@ -3920,7 +3933,8 @@ item_rate_rules_details_schema = {
     'webSetdown': pl.Float64,
     'webSetup': pl.Float64,
 }
-
+```
+```python
 postal_code_details_schema = {
     'chainCode': pl.Utf8,
     'city': pl.Utf8,
@@ -3949,7 +3963,8 @@ postal_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 i_d_document_type_details_schema = {
     'chainCode': pl.Utf8,
     'checkForDuplicatesYn': pl.Utf8,
@@ -3970,7 +3985,8 @@ i_d_document_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 language_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -3992,7 +4008,8 @@ language_details_schema = {
     'reportDateLanguage': pl.Utf8,
     'translationLanguage': pl.Utf8,
 }
-
+```
+```python
 region_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -4013,7 +4030,8 @@ region_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 state_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -4044,7 +4062,8 @@ state_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_class_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -4068,7 +4087,8 @@ membership_class_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 confirmation_format_details_schema = {
     'canDeleteYn': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -4092,7 +4112,8 @@ confirmation_format_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 communication_type_details_schema = {
     'canDeleteYn': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -4114,7 +4135,8 @@ communication_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_preference_type_details_schema = {
     'allowSubTypesYn': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -4144,7 +4166,8 @@ profile_preference_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_profile_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -4162,7 +4185,8 @@ profile_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 configuration_relationship_details_schema = {
     'canDeleteYn': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -4202,7 +4226,8 @@ configuration_relationship_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_claim_type_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -4242,7 +4267,8 @@ membership_claim_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_awards_details_schema = {
     'autoConsumeYn': pl.Utf8,
     'awardBasedOn': pl.Utf8,
@@ -4296,7 +4322,8 @@ membership_awards_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_enroll_details_schema = {
     'attachedEnrollmentCode': pl.Utf8,
     'attachedEnrollmentDescription': pl.Utf8,
@@ -4319,7 +4346,8 @@ membership_enroll_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_level_details_schema = {
     'autoRenewalAfter': pl.Utf8,
     'centralVIPCode': pl.Utf8,
@@ -4361,7 +4389,8 @@ membership_level_details_schema = {
     'vIPCode': pl.Utf8,
     'vIPCodeDescription': pl.Utf8,
 }
-
+```
+```python
 membership_card_ranges_details_schema = {
     'cardRangeFrom': pl.Utf8,
     'cardRangeTo': pl.Utf8,
@@ -4380,7 +4409,8 @@ membership_card_ranges_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_level_benefits_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -4404,7 +4434,8 @@ membership_level_benefits_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_market_group_code_details_schema = {
     'attachedMarketCodes': pl.Utf8,
     'attachedMarketDescription': pl.Utf8,
@@ -4424,7 +4455,8 @@ membership_market_group_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_rate_group_code_details_schema = {
     'attachedRateCode': pl.Utf8,
     'attachedRateCodeDescription': pl.Utf8,
@@ -4444,7 +4476,8 @@ membership_rate_group_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_revenue_group_code_details_schema = {
     'attachedRevenueGroupCode': pl.Utf8,
     'attachedRevenueGroupDescription': pl.Utf8,
@@ -4464,7 +4497,8 @@ membership_revenue_group_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_booking_status_next_details_schema = {
     'centralCode': pl.Utf8,
     'centralDescription': pl.Utf8,
@@ -4488,5 +4522,4 @@ property_booking_status_next_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

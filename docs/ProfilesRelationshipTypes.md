@@ -1,5 +1,5 @@
 # ProfilesRelationshipTypes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesRelationshipTypes`
 > Relationship type definition.
@@ -246,12 +246,10 @@ query profilesRelationshipTypes($input: ProfilesRelationshipTypesQueryArgumentsT
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 relationship_details_schema = {
     'canDeleteYn': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -291,5 +289,4 @@ relationship_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

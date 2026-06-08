@@ -1,5 +1,5 @@
 # ARAgingReport
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `aRAgingReport`
 > Detailed information on accounts receivable transactions including aging bucket of invoices open transaction amounts folio information and the account details.
@@ -3672,12 +3672,10 @@ query aRAgingReport($input: ARAgingReportQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 a_r_aging_report_details_schema = {
     'aRLedgerDebit': pl.Float64,
     'accountCode': pl.Float64,
@@ -3753,7 +3751,8 @@ a_r_aging_report_details_schema = {
     'trxDate': pl.Utf8,
     'trxNumber': pl.Float64,
 }
-
+```
+```python
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -3924,7 +3923,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 folio_details_schema = {
     'billGenerationDate': pl.Utf8,
     'billNumber': pl.Float64,
@@ -3974,7 +3974,8 @@ folio_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 financial_transaction_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -4338,7 +4339,8 @@ financial_transaction_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
+```
+```python
 account_details_schema = {
     'accountCode': pl.Float64,
     'accountCreditLimitYn': pl.Utf8,
@@ -4443,7 +4445,8 @@ account_details_schema = {
     'upperCaseName': pl.Utf8,
     'zip': pl.Utf8,
 }
-
+```
+```python
 calendar_period_day_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -4478,7 +4481,8 @@ calendar_period_day_details_schema = {
     'yearType': pl.Utf8,
     'yearsetupid': pl.Float64,
 }
-
+```
+```python
 financial_period_day_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -4513,7 +4517,8 @@ financial_period_day_details_schema = {
     'yearType': pl.Utf8,
     'yearsetupid': pl.Float64,
 }
-
+```
+```python
 a_r_ledger_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aSBFlag': pl.Utf8,
@@ -4794,7 +4799,8 @@ a_r_ledger_details_schema = {
     'upsellChargeYn': pl.Utf8,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 invoice_header_details_schema = {
     'aRDebit': pl.Float64,
     'aRLedgerCredit': pl.Float64,
@@ -4900,7 +4906,8 @@ invoice_header_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -5165,5 +5172,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # InventoryHousekeepingManagementRoom
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryHousekeepingManagementRoom`
 > Details on Tasks Task Sheets and Credits and providing Information on Rooms Room Attributes and Statuses for the current date
@@ -3264,12 +3264,10 @@ query inventoryHousekeepingManagementRoom($input: InventoryHousekeepingManagemen
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 house_keeping_daily_task_room_details_schema = {
     'arrivalRoom': pl.Float64,
     'assignmentCode': pl.Utf8,
@@ -3332,7 +3330,8 @@ house_keeping_daily_task_room_details_schema = {
     'turndown': pl.Utf8,
     'turndownExtrasYn': pl.Utf8,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -3512,7 +3511,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 house_keeping_reservation_guest_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -3937,7 +3937,8 @@ house_keeping_reservation_guest_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 house_keeping_reservation_details_schema = {
     'actualCheckInDate': pl.Utf8,
     'actualCheckInTime': pl.Utf8,
@@ -4124,7 +4125,8 @@ house_keeping_reservation_details_schema = {
     'updateUser': pl.Float64,
     'upsellCharge': pl.Float64,
 }
-
+```
+```python
 house_keeping_tasks_details_schema = {
     'autoAssignedYn': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -4164,7 +4166,8 @@ house_keeping_tasks_details_schema = {
     'taskUpdateUser': pl.Float64,
     'unitOfFrequency': pl.Utf8,
 }
-
+```
+```python
 house_keeping_tasks_room_category_facility_codes_details_schema = {
     'credits': pl.Float64,
     'customizePromptYn': pl.Utf8,
@@ -4223,7 +4226,8 @@ house_keeping_tasks_room_category_facility_codes_details_schema = {
     'vIPLevelsCode': pl.Utf8,
     'vIPLevelsDescription': pl.Utf8,
 }
-
+```
+```python
 house_keeping_employee_points_details_schema = {
     'appUserId': pl.Float64,
     'available': pl.Utf8,
@@ -4253,7 +4257,8 @@ house_keeping_employee_points_details_schema = {
     'status': pl.Utf8,
     'userName': pl.Utf8,
 }
-
+```
+```python
 house_keeping_daily_task_details_schema = {
     'applicationUser': pl.Utf8,
     'attendantCode': pl.Utf8,
@@ -4328,7 +4333,8 @@ house_keeping_daily_task_details_schema = {
     'totalTravellingSectionCredits': pl.Float64,
     'travelingCredits': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -4593,7 +4599,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 date_calendar_details_schema = {
     'dayDesc': pl.Utf8,
     'dayEndDate': pl.Utf8,
@@ -4645,5 +4652,4 @@ date_calendar_details_schema = {
     'yearKey': pl.Utf8,
     'yearTimespan': pl.Float64,
 }
-
 ```

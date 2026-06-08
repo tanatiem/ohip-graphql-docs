@@ -1,5 +1,5 @@
 # FinancialTransactionDetails
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionDetails`
 > Detailed information on all posted transactions including net and gross amounts currency calendar and financial period market and rate code
@@ -11821,12 +11821,10 @@ query financialTransactionDetails($input: FinancialTransactionDetailsQueryArgume
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 financial_transaction_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -12190,7 +12188,8 @@ financial_transaction_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
+```
+```python
 event_posting_details_schema = {
     'allotmentid': pl.Float64,
     'blockBeginDate': pl.Utf8,
@@ -12280,7 +12279,8 @@ event_posting_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_budget_forecast_details_schema = {
     'accountingType': pl.Utf8,
     'accountingYear': pl.Float64,
@@ -12314,7 +12314,8 @@ property_budget_forecast_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 export_map_fintrxcodes_details_schema = {
     'chainCode': pl.Utf8,
     'codeCanDeleteYn': pl.Utf8,
@@ -12366,7 +12367,8 @@ export_map_fintrxcodes_details_schema = {
     'typeUpdateUserName': pl.Utf8,
     'useLovYn': pl.Utf8,
 }
-
+```
+```python
 export_map_pay_meth_details_schema = {
     'chainCode': pl.Utf8,
     'codeCanDeleteYn': pl.Utf8,
@@ -12418,7 +12420,8 @@ export_map_pay_meth_details_schema = {
     'typeUpdateUserName': pl.Utf8,
     'useLovYn': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -12683,7 +12686,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 account_details_schema = {
     'accountCode': pl.Float64,
     'accountCreditLimitYn': pl.Utf8,
@@ -12788,7 +12792,8 @@ account_details_schema = {
     'upperCaseName': pl.Utf8,
     'zip': pl.Utf8,
 }
-
+```
+```python
 article_details_schema = {
     'activeYN': pl.Utf8,
     'articleCode': pl.Utf8,
@@ -12830,7 +12835,8 @@ article_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 calendar_period_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -12864,7 +12870,8 @@ calendar_period_details_schema = {
     'yearType': pl.Utf8,
     'yearsetupid': pl.Float64,
 }
-
+```
+```python
 cashier_details_schema = {
     'activeYN': pl.Utf8,
     'amtDifferenceInitial': pl.Float64,
@@ -12913,7 +12920,8 @@ cashier_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 employee_details_schema = {
     'accessConfig': pl.Utf8,
     'accessEod': pl.Utf8,
@@ -13046,7 +13054,8 @@ employee_details_schema = {
     'workPermitExpdate': pl.Utf8,
     'workPermitNo': pl.Utf8,
 }
-
+```
+```python
 export_map_packagecodes_details_schema = {
     'chainCode': pl.Utf8,
     'codeCanDeleteYn': pl.Utf8,
@@ -13098,7 +13107,8 @@ export_map_packagecodes_details_schema = {
     'typeUpdateUserName': pl.Utf8,
     'useLovYn': pl.Utf8,
 }
-
+```
+```python
 financial_period_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -13132,7 +13142,8 @@ financial_period_details_schema = {
     'yearType': pl.Utf8,
     'yearsetupid': pl.Float64,
 }
-
+```
+```python
 folio_tax_details_schema = {
     'accountCode': pl.Float64,
     'addresseeNameId': pl.Float64,
@@ -13805,7 +13816,8 @@ folio_tax_details_schema = {
     'xtax8Amt': pl.Float64,
     'xtax9Amt': pl.Float64,
 }
-
+```
+```python
 foreign_currency_details_schema = {
     'abbreviation': pl.Utf8,
     'activeYN': pl.Utf8,
@@ -13841,7 +13853,8 @@ foreign_currency_details_schema = {
     'updateUser': pl.Float64,
     'usedForCcPaymentsYn': pl.Utf8,
 }
-
+```
+```python
 invoice_payment_details_schema = {
     'appliedAmount': pl.Float64,
     'businessDate': pl.Utf8,
@@ -13871,7 +13884,8 @@ invoice_payment_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -14300,7 +14314,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -14514,7 +14529,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 rate_season_details_schema = {
     'centralSeasonCode': pl.Utf8,
     'centralSeasonDescription': pl.Utf8,
@@ -14547,7 +14563,8 @@ rate_season_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 report_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -14583,7 +14600,8 @@ report_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -15255,7 +15273,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 revenue_packages_details_schema = {
     'addToRateYN': pl.Utf8,
     'arrangementCode': pl.Utf8,
@@ -15326,7 +15345,8 @@ revenue_packages_details_schema = {
     'validToTime': pl.Utf8,
     'webBookableYN': pl.Utf8,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -15506,7 +15526,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 routing_instruction_details_schema = {
     'accountCode': pl.Utf8,
     'addTransactionYN': pl.Utf8,
@@ -15600,7 +15621,8 @@ routing_instruction_details_schema = {
     'updateUser': pl.Float64,
     'wednesdayYN': pl.Utf8,
 }
-
+```
+```python
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -15771,7 +15793,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 transaction_code_arrangment_details_schema = {
     'arrTaxTypeCode': pl.Utf8,
     'arrangementCode': pl.Utf8,
@@ -15823,7 +15846,8 @@ transaction_code_arrangment_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 from_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -16494,7 +16518,8 @@ from_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 to_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -17165,5 +17190,4 @@ to_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
 ```

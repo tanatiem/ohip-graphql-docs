@@ -1,5 +1,5 @@
 # StatisticsReservationPace
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsReservationPace`
 > The Reservation Pace subject area contains daily rooms and revenue information on reservations on the books as of specific dates in the past (snapshot dates) summarized by Property PACERATECODE Room Type Channel and Rate Code.
@@ -2123,12 +2123,10 @@ query statisticsReservationPace($input: StatisticsReservationPaceQueryArgumentsT
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 reservation_pace_fact_details_schema = {
     'arrAdults': pl.Float64,
     'arrChildren': pl.Float64,
@@ -2243,7 +2241,8 @@ reservation_pace_fact_details_schema = {
     'yWGORoomsDed': pl.Float64,
     'yWGORoomsNdd': pl.Float64,
 }
-
+```
+```python
 pace_stay_date_details_schema = {
     'dayDesc': pl.Utf8,
     'dayEndDate': pl.Utf8,
@@ -2295,7 +2294,8 @@ pace_stay_date_details_schema = {
     'yearEndDate': pl.Utf8,
     'yearKey': pl.Utf8,
 }
-
+```
+```python
 pace_market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -2337,7 +2337,8 @@ pace_market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 pace_rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -2551,7 +2552,8 @@ pace_rate_code_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 pace_property_details_schema = {
     'aRAccountNumberMandYN': pl.Utf8,
     'aRBalanceTrxCode': pl.Utf8,
@@ -2848,7 +2850,8 @@ pace_property_details_schema = {
     'xresortNumber': pl.Float64,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 pace_room_type_details_schema = {
     'accessibleYn': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -2965,7 +2968,8 @@ pace_room_type_details_schema = {
     'yieldCategory': pl.Utf8,
     'yieldableroomflag': pl.Utf8,
 }
-
+```
+```python
 pace_channel_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -3006,7 +3010,8 @@ pace_channel_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_pace_snapshot_details_schema = {
     'dayDesc': pl.Utf8,
     'dayEndDate': pl.Utf8,
@@ -3058,5 +3063,4 @@ reservation_pace_snapshot_details_schema = {
     'yearKey': pl.Utf8,
     'yearTimespan': pl.Float64,
 }
-
 ```

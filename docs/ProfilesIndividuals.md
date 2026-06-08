@@ -1,5 +1,5 @@
 # ProfilesIndividuals
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesIndividuals`
 > Guest profile data including contact information VIP codes memberships and stay statistics with room and revenue details.
@@ -2325,12 +2325,10 @@ query profilesIndividuals($input: ProfilesIndividualsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -2759,7 +2757,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_address_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -2816,7 +2815,8 @@ profile_address_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_communication_details_schema = {
     'addressId': pl.Float64,
     'beginDate': pl.Utf8,
@@ -2863,7 +2863,8 @@ profile_communication_details_schema = {
     'updateUser': pl.Float64,
     'validYn': pl.Utf8,
 }
-
+```
+```python
 profile_preference_details_schema = {
     'canDeleteYn': pl.Utf8,
     'centralPreferenceCode': pl.Utf8,
@@ -2905,7 +2906,8 @@ profile_preference_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_documents_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -2936,7 +2938,8 @@ profile_documents_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_membership_details_schema = {
     'cCreditLimit': pl.Float64,
     'cExchangeDate': pl.Utf8,
@@ -2997,7 +3000,8 @@ profile_membership_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 profile_note_details_schema = {
     'activityDueDate': pl.Utf8,
     'activityType': pl.Utf8,
@@ -3038,7 +3042,8 @@ profile_note_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_relationship_details_schema = {
     'chainCode': pl.Utf8,
     'company': pl.Utf8,
@@ -3076,7 +3081,8 @@ profile_relationship_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 individual_daily_statistics_details_schema = {
     'cExchangeDate': pl.Utf8,
     'cExchangeRate': pl.Float64,
@@ -3162,7 +3168,8 @@ individual_daily_statistics_details_schema = {
     'totalTotalRevenue': pl.Float64,
     'totalTotalRevenueTax': pl.Float64,
 }
-
+```
+```python
 profile_keywords_details_schema = {
     'centralKeywordType': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -3182,7 +3189,8 @@ profile_keywords_details_schema = {
     'rnaUpdateDate': pl.Utf8,
     'updateAllowedYn': pl.Utf8,
 }
-
+```
+```python
 profile_subscription_details_schema = {
     'allowDuplicateYn': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -3214,5 +3222,4 @@ profile_subscription_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

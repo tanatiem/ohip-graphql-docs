@@ -1,5 +1,5 @@
 # InventoryRoomsManagement
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryRoomsManagement`
 > Provides detailed information on room maintenance and out of order/service assignments broken down by property time and room dimensions. Also provides reservations and profile details for service requests.
@@ -1726,12 +1726,10 @@ query inventoryRoomsManagement($input: InventoryRoomsManagementQueryArgumentsTyp
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -1911,7 +1909,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 room_repairs_details_schema = {
     'calculateRotationYn': pl.Utf8,
     'completedDate': pl.Utf8,
@@ -1941,7 +1940,8 @@ room_repairs_details_schema = {
     'seq': pl.Float64,
     'throughDate': pl.Utf8,
 }
-
+```
+```python
 room_maintenance_details_schema = {
     'assignedBy': pl.Float64,
     'assignedByUserName': pl.Utf8,
@@ -1975,7 +1975,8 @@ room_maintenance_details_schema = {
     'updatedBy': pl.Utf8,
     'updatedOn': pl.Utf8,
 }
-
+```
+```python
 property_service_requests_details_schema = {
     'actionTaken': pl.Utf8,
     'closeBusinessDateTime': pl.Utf8,
@@ -2027,7 +2028,8 @@ property_service_requests_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 reservation_daily_elements_details_schema = {
     'adults': pl.Float64,
     'allotmentHeaderId': pl.Float64,
@@ -2093,7 +2095,8 @@ reservation_daily_elements_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2358,5 +2361,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

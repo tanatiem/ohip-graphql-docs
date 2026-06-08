@@ -1,5 +1,5 @@
 # InventoryRooms
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryRooms`
 > Comprehensive Information on Guest Room Details and Configuration
@@ -1871,12 +1871,10 @@ query inventoryRooms($input: InventoryRoomsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -2056,7 +2054,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 room_category_details_schema = {
     'accessibleRoomType': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -2173,7 +2172,8 @@ room_category_details_schema = {
     'upsellYn': pl.Utf8,
     'yieldStatus': pl.Utf8,
 }
-
+```
+```python
 bed_type_details_schema = {
     'bedType': pl.Utf8,
     'bedTypeCentralCode': pl.Utf8,
@@ -2214,7 +2214,8 @@ bed_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 building_details_schema = {
     'buildingCode': pl.Utf8,
     'buildingDescription': pl.Utf8,
@@ -2236,7 +2237,8 @@ building_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 room_preferences_details_schema = {
     'dSI': pl.Float64,
     'deletedFlag': pl.Utf8,
@@ -2262,7 +2264,8 @@ room_preferences_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 room_pool_details_schema = {
     'centralRoomPoolDescription': pl.Utf8,
     'dSI': pl.Float64,
@@ -2294,7 +2297,8 @@ room_pool_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2559,5 +2563,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

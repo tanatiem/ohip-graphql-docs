@@ -1,5 +1,5 @@
 # PromotionCouponCodes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `promotionCouponCodes`
 > Promotion Coupon Codes details
@@ -216,12 +216,10 @@ query promotionCouponCodes($input: PromotionCouponCodesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 promotion_coupon_codes_detail_schema = {
     'batchCode': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -247,5 +245,4 @@ promotion_coupon_codes_detail_schema = {
     'usedInReservationNameID': pl.Float64,
     'usedInReservationProperty': pl.Utf8,
 }
-
 ```

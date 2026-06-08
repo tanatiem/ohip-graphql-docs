@@ -1,5 +1,5 @@
 # BookingsBlock
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsBlock`
 > Block header and grid details including actual and potential room and revenue statistics catering events and the associated profile and reservations data.
@@ -6560,12 +6560,10 @@ query bookingsBlock($input: BookingsBlockQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -7138,7 +7136,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 block_aliases_details_schema = {
     'alias': pl.Utf8,
     'allotmentHeaderId': pl.Float64,
@@ -7157,7 +7156,8 @@ block_aliases_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -7199,7 +7199,8 @@ market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_rates_details_schema = {
     'allotmentHeaderId': pl.Float64,
     'beginDate': pl.Utf8,
@@ -7226,7 +7227,8 @@ block_rates_details_schema = {
     'rateType': pl.Utf8,
     'recordType': pl.Utf8,
 }
-
+```
+```python
 block_owner_details_schema = {
     'bookId': pl.Float64,
     'cateringOwnerTitle': pl.Utf8,
@@ -7259,7 +7261,8 @@ block_owner_details_schema = {
     'updateUser': pl.Float64,
     'userResort': pl.Utf8,
 }
-
+```
+```python
 block_company_profile_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -7301,7 +7304,8 @@ block_company_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_company_contact_profile_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -7343,7 +7347,8 @@ block_company_contact_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_source_profile_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -7385,7 +7390,8 @@ block_source_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_source_contact_profile_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -7427,7 +7433,8 @@ block_source_contact_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_travel_agent_profile_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -7469,7 +7476,8 @@ block_travel_agent_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_travel_agent_contact_profile_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -7511,7 +7519,8 @@ block_travel_agent_contact_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_detail_details_schema = {
     'actionId': pl.Float64,
     'aggregateContractOccupancy': pl.Float64,
@@ -7636,7 +7645,8 @@ block_detail_details_schema = {
     'updatedBy': pl.Utf8,
     'updatedDate': pl.Utf8,
 }
-
+```
+```python
 event_revenue_details_schema = {
     'actualCost': pl.Float64,
     'actualRevenue': pl.Float64,
@@ -7702,7 +7712,8 @@ event_revenue_details_schema = {
     'updateUser': pl.Float64,
     'useForecastValueOnlyYN': pl.Utf8,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -8374,7 +8385,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 reservation_deposit_schedule_details_schema = {
     'activityDeposit': pl.Float64,
     'cActivityDeposit': pl.Float64,
@@ -8429,7 +8441,8 @@ reservation_deposit_schedule_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 financial_transaction_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -8793,7 +8806,8 @@ financial_transaction_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
+```
+```python
 reservation_cancel_policy_details_schema = {
     'percentCancellation': pl.Float64,
     'percentDue': pl.Float64,
@@ -8833,7 +8847,8 @@ reservation_cancel_policy_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_access_exclusions_details_schema = {
     'accessExclusionMessage': pl.Utf8,
     'accessSourceType': pl.Utf8,
@@ -8860,7 +8875,8 @@ block_access_exclusions_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_note_details_schema = {
     'allotmentid': pl.Float64,
     'allotmentnoteid': pl.Float64,
@@ -8898,7 +8914,8 @@ block_note_details_schema = {
     'updatedBy': pl.Utf8,
     'updatedDate': pl.Utf8,
 }
-
+```
+```python
 block_product_details_schema = {
     'actionId': pl.Float64,
     'allotmentHeaderId': pl.Float64,
@@ -8948,7 +8965,8 @@ block_product_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_item_details_schema = {
     'allotmentHeaderId': pl.Float64,
     'allotmentid': pl.Float64,
@@ -8992,7 +9010,8 @@ block_item_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_trace_details_schema = {
     'actionId': pl.Float64,
     'allotmentHeaderId': pl.Float64,
@@ -9027,7 +9046,8 @@ block_trace_details_schema = {
     'updatedBy': pl.Utf8,
     'updatedOn': pl.Utf8,
 }
-
+```
+```python
 block_alternate_dates_details_schema = {
     'allotmentAltDateSeqno': pl.Float64,
     'allotmentHeaderId': pl.Float64,
@@ -9054,7 +9074,8 @@ block_alternate_dates_details_schema = {
     'singleOccupancyRate': pl.Float64,
     'tripleOccupancyRate': pl.Float64,
 }
-
+```
+```python
 sell_messages_details_schema = {
     'allotmentHeaderId': pl.Float64,
     'beginDate': pl.Utf8,
@@ -9085,7 +9106,8 @@ sell_messages_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -9350,7 +9372,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 allotment_subscription_details_schema = {
     'bookingId': pl.Float64,
     'dSI': pl.Float64,
@@ -9374,5 +9397,4 @@ allotment_subscription_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # BookingsReservation
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsReservation`
 > Detailed information on reservations booked in the past and future including market code rate code reservation status guest information and associated room and revenue details.
@@ -12592,12 +12592,10 @@ query bookingsReservation($input: BookingsReservationQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -13269,7 +13267,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 accompanying_guest_details_schema = {
     'activeYN': pl.Utf8,
     'alternateEnvelopeGreeting': pl.Utf8,
@@ -13443,7 +13442,8 @@ accompanying_guest_details_schema = {
     'vIPName': pl.Utf8,
     'vIPStatus': pl.Utf8,
 }
-
+```
+```python
 channel_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -13484,7 +13484,8 @@ channel_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 external_references_details_schema = {
     'dSI': pl.Float64,
     'deletedFlag': pl.Utf8,
@@ -13510,7 +13511,8 @@ external_references_details_schema = {
     'updateUser': pl.Float64,
     'upperExternalReference': pl.Utf8,
 }
-
+```
+```python
 fixed_charges_details_schema = {
     'accountCode': pl.Float64,
     'accountid': pl.Float64,
@@ -13563,7 +13565,8 @@ fixed_charges_details_schema = {
     'updatedate': pl.Utf8,
     'yearlyfixedchargedate': pl.Utf8,
 }
-
+```
+```python
 guest_reservation_messages_details_schema = {
     'dSI': pl.Float64,
     'deletedFlag': pl.Utf8,
@@ -13591,7 +13594,8 @@ guest_reservation_messages_details_schema = {
     'textSentDate': pl.Utf8,
     'textYN': pl.Utf8,
 }
-
+```
+```python
 locators_details_schema = {
     'beginDate': pl.Utf8,
     'dSI': pl.Float64,
@@ -13615,7 +13619,8 @@ locators_details_schema = {
     'toDatetime': pl.Utf8,
     'toTime': pl.Utf8,
 }
-
+```
+```python
 market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -13657,7 +13662,8 @@ market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -14086,7 +14092,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 reservation_profile_accounts_company_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -14405,7 +14412,8 @@ reservation_profile_accounts_company_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_accounts_travel_agent_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -14724,7 +14732,8 @@ profile_accounts_travel_agent_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 reservation_profile_accounts_source_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -15043,7 +15052,8 @@ reservation_profile_accounts_source_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -15257,7 +15267,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 reservation_alerts_details_schema = {
     'alertCode': pl.Utf8,
     'alertDescription': pl.Utf8,
@@ -15412,7 +15423,8 @@ reservation_alerts_details_schema = {
     'welcomeOfferCode': pl.Utf8,
     'welcomeOfferYn': pl.Utf8,
 }
-
+```
+```python
 reservation_cancel_policy_details_schema = {
     'percentCancellation': pl.Float64,
     'percentDue': pl.Float64,
@@ -15452,7 +15464,8 @@ reservation_cancel_policy_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_detail_details_schema = {
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
@@ -15629,7 +15642,8 @@ reservation_detail_details_schema = {
     'updateUser': pl.Float64,
     'upsellCharge': pl.Float64,
 }
-
+```
+```python
 reservation_ecoupons_details_schema = {
     'autoAttachedYn': pl.Utf8,
     'dSI': pl.Float64,
@@ -15656,7 +15670,8 @@ reservation_ecoupons_details_schema = {
     'updateUser': pl.Float64,
     'welcomeOfferModeYn': pl.Utf8,
 }
-
+```
+```python
 reservation_items_details_schema = {
     'allotmentHeaderId': pl.Float64,
     'basedOnRule': pl.Utf8,
@@ -15687,7 +15702,8 @@ reservation_items_details_schema = {
     'updateUser': pl.Float64,
     'welcomeOfferYn': pl.Utf8,
 }
-
+```
+```python
 reservation_preference_details_schema = {
     'basedOnRule': pl.Utf8,
     'comments': pl.Utf8,
@@ -15725,7 +15741,8 @@ reservation_preference_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_products_details_schema = {
     'awardCode': pl.Utf8,
     'basedOnRule': pl.Utf8,
@@ -15786,7 +15803,8 @@ reservation_products_details_schema = {
     'updateUser': pl.Float64,
     'updateUserName': pl.Utf8,
 }
-
+```
+```python
 reservation_promotions_details_schema = {
     'basedOnRule': pl.Utf8,
     'centralPromotionCode': pl.Utf8,
@@ -15809,11 +15827,13 @@ reservation_promotions_details_schema = {
     'rNAUpdateDate': pl.Utf8,
     'reservationNameId': pl.Float64,
 }
-
+```
+```python
 reservation_status_details_schema = {
     'reservationStatus': pl.Utf8,
 }
-
+```
+```python
 reservation_thresholds_details_schema = {
     'complimentary': pl.Float64,
     'dSI': pl.Float64,
@@ -15843,7 +15863,8 @@ reservation_thresholds_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -16108,7 +16129,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 property_service_requests_details_schema = {
     'actionTaken': pl.Utf8,
     'closeBusinessDateTime': pl.Utf8,
@@ -16160,7 +16182,8 @@ property_service_requests_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 reservation_comment_details_schema = {
     'centralNotificationArea': pl.Utf8,
     'centralNotificationAreaDescription': pl.Utf8,
@@ -16193,7 +16216,8 @@ reservation_comment_details_schema = {
     'updateUser': pl.Float64,
     'userModifiableYn': pl.Utf8,
 }
-
+```
+```python
 reservation_confirmation_letter_details_schema = {
     'addressId': pl.Float64,
     'customizeYn': pl.Utf8,
@@ -16241,7 +16265,8 @@ reservation_confirmation_letter_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 reservation_deposit_schedule_details_schema = {
     'activityDeposit': pl.Float64,
     'cActivityDeposit': pl.Float64,
@@ -16296,7 +16321,8 @@ reservation_deposit_schedule_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_payment_methods_details_schema = {
     'authorizationAmount': pl.Float64,
     'authorizationDescription': pl.Utf8,
@@ -16326,7 +16352,8 @@ reservation_payment_methods_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_products_tickets_details_schema = {
     'cExchangeDate': pl.Utf8,
     'cExchangeRate': pl.Float64,
@@ -16359,7 +16386,8 @@ reservation_products_tickets_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 room_category_details_schema = {
     'accessibleRoomType': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -16476,7 +16504,8 @@ room_category_details_schema = {
     'upsellYn': pl.Utf8,
     'yieldStatus': pl.Utf8,
 }
-
+```
+```python
 booked_room_category_details_schema = {
     'accessibleRoomType': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -16593,7 +16622,8 @@ booked_room_category_details_schema = {
     'upsellYn': pl.Utf8,
     'yieldStatus': pl.Utf8,
 }
-
+```
+```python
 routing_instruction_details_schema = {
     'accountCode': pl.Utf8,
     'addTransactionYN': pl.Utf8,
@@ -16687,7 +16717,8 @@ routing_instruction_details_schema = {
     'updateUser': pl.Float64,
     'wednesdayYN': pl.Utf8,
 }
-
+```
+```python
 source_table_details_schema = {
     'centralSequence': pl.Float64,
     'centralSourceCode': pl.Utf8,
@@ -16729,7 +16760,8 @@ source_table_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 trackit_items_details_schema = {
     'actionCode': pl.Utf8,
     'actionDate': pl.Utf8,
@@ -16773,7 +16805,8 @@ trackit_items_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 guest_reservation_traces_details_schema = {
     'completedBy': pl.Utf8,
     'completedDate': pl.Utf8,
@@ -16806,7 +16839,8 @@ guest_reservation_traces_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rotation_point_adjustments_schema = {
     'adjustmentDate': pl.Utf8,
     'adjustmentDescription': pl.Utf8,
@@ -16840,7 +16874,8 @@ rotation_point_adjustments_schema = {
     'sCNT': pl.Float64,
     'type': pl.Utf8,
 }
-
+```
+```python
 rotation_overrides_schema = {
     'action': pl.Utf8,
     'dSI': pl.Float64,
@@ -16865,7 +16900,8 @@ rotation_overrides_schema = {
     'time': pl.Utf8,
     'user': pl.Utf8,
 }
-
+```
+```python
 linked_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -17536,7 +17572,8 @@ linked_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 shared_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -18207,7 +18244,8 @@ shared_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 reservation_membership_details_schema = {
     'cardNumberByMembershipClass': pl.Utf8,
     'cardNumberByMembershipType': pl.Utf8,
@@ -18261,5 +18299,4 @@ reservation_membership_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

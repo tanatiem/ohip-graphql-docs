@@ -1,5 +1,5 @@
 # ARLedger
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `aRLedger`
 > Ledger details showing activity in accounts receivables including reservation and transaction details.
@@ -3749,12 +3749,10 @@ query aRLedger($input: ARLedgerQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 a_r_ledger_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aSBFlag': pl.Utf8,
@@ -4035,7 +4033,8 @@ a_r_ledger_details_schema = {
     'upsellChargeYn': pl.Utf8,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -4206,7 +4205,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 account_details_schema = {
     'accountCode': pl.Float64,
     'accountCreditLimitYn': pl.Utf8,
@@ -4311,7 +4311,8 @@ account_details_schema = {
     'upperCaseName': pl.Utf8,
     'zip': pl.Utf8,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -4983,7 +4984,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -5248,7 +5250,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -5284,7 +5287,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -5320,5 +5324,4 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
 ```

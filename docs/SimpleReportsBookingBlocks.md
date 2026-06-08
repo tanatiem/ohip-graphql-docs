@@ -1,5 +1,5 @@
 # SimpleReportsBookingBlocks
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsBookingBlocks`
 > The Simple Reports Booking Blocks Subject Area simplifies creating and building adhoc reports including the ability to create new reports.
@@ -2797,12 +2797,10 @@ query simpleReportsBookingBlocks($input: SimpleReportsBookingBlocksQueryArgument
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 sales_event_business_block_information_details_schema = {
     'accountActionCode': pl.Utf8,
     'accountActiveYN': pl.Utf8,
@@ -3709,7 +3707,8 @@ sales_event_business_block_information_details_schema = {
     'xagentName': pl.Utf8,
     'xsourceName': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -3974,5 +3973,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # BookingReservationExtended
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingReservationExtended`
 > Provide booking reservation information with extended or additional details such as blocks routing etc.
@@ -8142,12 +8142,10 @@ query bookingReservationExtended($input: BookingReservationExtendedQueryArgument
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 reservation_unified_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'actionId': pl.Float64,
@@ -8576,7 +8574,8 @@ reservation_unified_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Float64,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -9005,7 +9004,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_accounts_source_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -9324,7 +9324,8 @@ profile_accounts_source_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_accounts_travel_agent_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -9643,7 +9644,8 @@ profile_accounts_travel_agent_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 external_references_details_schema = {
     'dSI': pl.Float64,
     'deletedFlag': pl.Utf8,
@@ -9669,7 +9671,8 @@ external_references_details_schema = {
     'updateUser': pl.Float64,
     'upperExternalReference': pl.Utf8,
 }
-
+```
+```python
 reservation_membership_details_schema = {
     'cardNumberByMembershipClass': pl.Utf8,
     'cardNumberByMembershipType': pl.Utf8,
@@ -9723,7 +9726,8 @@ reservation_membership_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_payment_methods_details_schema = {
     'authorizationAmount': pl.Float64,
     'authorizationDescription': pl.Utf8,
@@ -9753,7 +9757,8 @@ reservation_payment_methods_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_accounts_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -10074,7 +10079,8 @@ profile_accounts_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 reservation_deposit_schedule_details_schema = {
     'activityDeposit': pl.Float64,
     'cActivityDeposit': pl.Float64,
@@ -10129,7 +10135,8 @@ reservation_deposit_schedule_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_code_details_details_schema = {
     'addAfterRounding': pl.Float64,
     'adultCharge': pl.Float64,
@@ -10333,7 +10340,8 @@ rate_code_details_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 routing_instruction_details_schema = {
     'accountCode': pl.Utf8,
     'addTransactionYN': pl.Utf8,
@@ -10427,7 +10435,8 @@ routing_instruction_details_schema = {
     'updateUser': pl.Float64,
     'wednesdayYN': pl.Utf8,
 }
-
+```
+```python
 folio_tax_details_schema = {
     'accountCode': pl.Float64,
     'addresseeNameId': pl.Float64,
@@ -11100,7 +11109,8 @@ folio_tax_details_schema = {
     'xtax8Amt': pl.Float64,
     'xtax9Amt': pl.Float64,
 }
-
+```
+```python
 financial_unified_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRLedgerCredit': pl.Float64,
@@ -11305,7 +11315,8 @@ financial_unified_details_schema = {
     'updateUser': pl.Float64,
     'vatAmount': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -11570,7 +11581,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -11750,7 +11762,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 fixed_charges_details_schema = {
     'accountCode': pl.Float64,
     'accountid': pl.Float64,
@@ -11803,5 +11816,4 @@ fixed_charges_details_schema = {
     'updatedate': pl.Utf8,
     'yearlyfixedchargedate': pl.Utf8,
 }
-
 ```

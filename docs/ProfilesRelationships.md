@@ -1,5 +1,5 @@
 # ProfilesRelationships
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesRelationships`
 > The Profile - Relationships subject area contains relationship details including the relationship type description and role and the profiles that are linked through the relationship.
@@ -2049,12 +2049,10 @@ query profilesRelationships($input: ProfilesRelationshipsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 profile_relationship_details_schema = {
     'chainCode': pl.Utf8,
     'company': pl.Utf8,
@@ -2092,7 +2090,8 @@ profile_relationship_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -2521,7 +2520,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 related_to_profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -2950,5 +2950,4 @@ related_to_profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
 ```

@@ -1,5 +1,5 @@
 # RevenuePackages
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `revenuePackages`
 > Package header details including package group setup and associated flags for selling and consumption options.
@@ -1105,12 +1105,10 @@ query revenuePackages($input: RevenuePackagesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 revenue_packages_details_schema = {
     'addToRateYN': pl.Utf8,
     'arrangementCode': pl.Utf8,
@@ -1181,7 +1179,8 @@ revenue_packages_details_schema = {
     'validToTime': pl.Utf8,
     'webBookableYN': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1446,5 +1445,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

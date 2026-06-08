@@ -1,5 +1,5 @@
 # IntegrationConfigurations
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `integrationConfigurations`
 > Exchange Configurations data including External Systems External Databases Business Events Interface Setup Interface Controls and Interface Mappings.
@@ -509,12 +509,10 @@ query integrationConfigurations($input: IntegrationConfigurationsQueryArgumentsT
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 external_systems_schema = {
     'batchBE': pl.Utf8,
     'dSI': pl.Float64,
@@ -533,7 +531,8 @@ external_systems_schema = {
     'systemType': pl.Utf8,
     'updateDate': pl.Utf8,
 }
-
+```
+```python
 external_system_properties_schema = {
     'consumerName': pl.Utf8,
     'dSI': pl.Float64,
@@ -551,7 +550,8 @@ external_system_properties_schema = {
     'rNAUpdateDate': pl.Utf8,
     'status': pl.Utf8,
 }
-
+```
+```python
 interface_mappings_schema = {
     'chainCode': pl.Utf8,
     'conversionCode': pl.Utf8,
@@ -572,7 +572,8 @@ interface_mappings_schema = {
     'rNAUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,
 }
-
+```
+```python
 interface_parameters_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -593,7 +594,8 @@ interface_parameters_schema = {
     'updateDate': pl.Utf8,
     'newView': pl.Utf8,
 }
-
+```
+```python
 interface_setup_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -613,7 +615,8 @@ interface_setup_schema = {
     'rNAUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,
 }
-
+```
+```python
 business_event_configuration_schema = {
     'actionType': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -633,7 +636,8 @@ business_event_configuration_schema = {
     'updateDate': pl.Utf8,
     'whereClause': pl.Utf8,
 }
-
+```
+```python
 external_databases_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -650,5 +654,4 @@ external_databases_schema = {
     'rNAUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,
 }
-
 ```

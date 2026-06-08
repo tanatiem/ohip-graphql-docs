@@ -1,5 +1,5 @@
 # StatisticsReservationsDailySummary
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsReservationsDailySummary`
 > Summarized information on past reservations including number of persons rooms and revenue figures broken down by room type market code rate code and periods of time.
@@ -3017,12 +3017,10 @@ query statisticsReservationsDailySummary($input: StatisticsReservationsDailySumm
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 reservation_daily_summary_details_schema = {
     'adultsTaxFree': pl.Float64,
     'advFoodRevenue': pl.Float64,
@@ -3162,7 +3160,8 @@ reservation_daily_summary_details_schema = {
     'totalRevenue': pl.Float64,
     'totalTax': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -3198,7 +3197,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -3234,7 +3234,8 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -3499,7 +3500,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -3541,7 +3543,8 @@ market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 source_table_details_schema = {
     'centralSequence': pl.Float64,
     'centralSourceCode': pl.Utf8,
@@ -3583,7 +3586,8 @@ source_table_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -3797,7 +3801,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 room_category_details_schema = {
     'accessibleRoomType': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -3914,7 +3919,8 @@ room_category_details_schema = {
     'upsellYn': pl.Utf8,
     'yieldStatus': pl.Utf8,
 }
-
+```
+```python
 country_details_schema = {
     'addressdoctorMode': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -3951,7 +3957,8 @@ country_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 channel_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -3992,7 +3999,8 @@ channel_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 region_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -4013,7 +4021,8 @@ region_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_season_day_details_schema = {
     'centralSeasonCode': pl.Utf8,
     'centralSeasonDescription': pl.Utf8,
@@ -4047,7 +4056,8 @@ rate_season_day_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -4227,5 +4237,4 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
 ```

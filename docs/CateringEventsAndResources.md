@@ -1,5 +1,5 @@
 # CateringEventsAndResources
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `cateringEventsAndResources`
 > Event and Block details including group profile information menu packages and revenues broken down by event type.
@@ -3575,12 +3575,10 @@ query cateringEventsAndResources($input: CateringEventsAndResourcesQueryArgument
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 event_details_schema = {
     'actualAttendees': pl.Float64,
     'allotmentid': pl.Float64,
@@ -3717,7 +3715,8 @@ event_details_schema = {
     'waitlistflag': pl.Utf8,
     'wlIgnoreYn': pl.Utf8,
 }
-
+```
+```python
 event_package_revenue_details_schema = {
     'actualAttendees': pl.Float64,
     'allotmentid': pl.Float64,
@@ -3769,7 +3768,8 @@ event_package_revenue_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 event_revenue_details_schema = {
     'actualCost': pl.Float64,
     'actualRevenue': pl.Float64,
@@ -3835,7 +3835,8 @@ event_revenue_details_schema = {
     'updateUser': pl.Float64,
     'useForecastValueOnlyYN': pl.Utf8,
 }
-
+```
+```python
 event_resource_note_details_schema = {
     'allotmentid': pl.Float64,
     'blockBeginDate': pl.Utf8,
@@ -3873,7 +3874,8 @@ event_resource_note_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 event_room_wait_details_schema = {
     'accountName': pl.Utf8,
     'allotmentid': pl.Float64,
@@ -3928,7 +3930,8 @@ event_room_wait_details_schema = {
     'waitlistDate': pl.Utf8,
     'waitlistedEvent': pl.Float64,
 }
-
+```
+```python
 event_menu_details_schema = {
     'actualCovers': pl.Float64,
     'actualNumbers': pl.Float64,
@@ -3999,7 +4002,8 @@ event_menu_details_schema = {
     'updateUser': pl.Float64,
     'voucherInstructions': pl.Utf8,
 }
-
+```
+```python
 event_menu_revenue_details_schema = {
     'actualCost': pl.Float64,
     'actualExtraCost': pl.Float64,
@@ -4081,7 +4085,8 @@ event_menu_revenue_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 event_item_details_schema = {
     'actualExternalCost': pl.Float64,
     'actualExternalQuantity': pl.Float64,
@@ -4174,7 +4179,8 @@ event_item_details_schema = {
     'vendorID': pl.Float64,
     'vendorName': pl.Utf8,
 }
-
+```
+```python
 event_notes_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -4199,7 +4205,8 @@ event_notes_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -4772,7 +4779,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -5037,5 +5045,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

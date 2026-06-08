@@ -1,5 +1,5 @@
 # FinancialCommissions
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `financialCommissions`
 > Detailed information on the commissions module including Reservation and Travel Agent profile information with commission codes amounts payment activity and processing status. Commission information can be reported across all properties by Travel Agent and Source profiles bank account guest information and dates.
@@ -2592,12 +2592,10 @@ query financialCommissions($input: FinancialCommissionsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 commission_agent_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -2918,7 +2916,8 @@ commission_agent_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_commission_bank_account_details_schema = {
     'accountId': pl.Float64,
     'accountNumber': pl.Utf8,
@@ -2988,7 +2987,8 @@ profile_commission_bank_account_details_schema = {
     'updateUser': pl.Float64,
     'validateIATANumberYN': pl.Utf8,
 }
-
+```
+```python
 computed_commissions_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -3715,7 +3715,8 @@ computed_commissions_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 check_register_details_schema = {
     'accountId': pl.Float64,
     'batchNumber': pl.Float64,
@@ -3760,5 +3761,4 @@ check_register_details_schema = {
     'vatAmt': pl.Float64,
     'vatPercnt': pl.Float64,
 }
-
 ```

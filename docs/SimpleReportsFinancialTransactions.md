@@ -1,5 +1,5 @@
 # SimpleReportsFinancialTransactions
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsFinancialTransactions`
 > The Simple Reports Financial Transactions Subject Area simplifies creating and building adhoc reports including the ability to create new reports
@@ -1460,12 +1460,10 @@ query simpleReportsFinancialTransactions($input: SimpleReportsFinancialTransacti
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 sr_financial_transactions_details_schema = {
     'aSBFlag': pl.Utf8,
     'aSBOnlyPostTaxesOnceYn': pl.Utf8,
@@ -1699,7 +1697,8 @@ sr_financial_transactions_details_schema = {
     'updateUser': pl.Float64,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1964,5 +1963,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # ProfilesLoyaltyTransactions
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesLoyaltyTransactions`
 > Detailed information on the Loyalty Program providing details on the Membership Profiles Stay Information and the ability to track Awards.
@@ -1712,12 +1712,10 @@ query profilesLoyaltyTransactions($input: ProfilesLoyaltyTransactionsQueryArgume
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 membership_transactions_details_schema = {
     'adjustmentYn': pl.Utf8,
     'arrivalDate': pl.Utf8,
@@ -1822,7 +1820,8 @@ membership_transactions_details_schema = {
     'updateUser': pl.Float64,
     'username': pl.Utf8,
 }
-
+```
+```python
 loyalty_profile_membership_details_schema = {
     'allowAdhocMultiplierYn': pl.Utf8,
     'allowDupCardYn': pl.Utf8,
@@ -1968,7 +1967,8 @@ loyalty_profile_membership_details_schema = {
     'vipStatus': pl.Utf8,
     'yearsToExpire': pl.Float64,
 }
-
+```
+```python
 membership_reject_comments_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -1986,7 +1986,8 @@ membership_reject_comments_details_schema = {
     'rejectionReason': pl.Utf8,
     'rule': pl.Utf8,
 }
-
+```
+```python
 membership_transaction_revenues_details_schema = {
     'cExchangeDate': pl.Utf8,
     'cExchangeRate': pl.Float64,
@@ -2009,7 +2010,8 @@ membership_transaction_revenues_details_schema = {
     'rNAUpdateDate': pl.Utf8,
     'revenueType': pl.Utf8,
 }
-
+```
+```python
 membership_transaction_daily_rates_details_schema = {
     'bookedRoomLabel': pl.Utf8,
     'cExchangeDate': pl.Utf8,
@@ -2041,7 +2043,8 @@ membership_transaction_daily_rates_details_schema = {
     'shareNights': pl.Float64,
     'toDate': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2306,5 +2309,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

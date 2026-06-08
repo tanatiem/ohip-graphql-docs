@@ -1,5 +1,5 @@
 # ResortBudgetForecast
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `resortBudgetForecast`
 > This Subject Area Contains the Budget Forecast Details of the Property(s)
@@ -1205,12 +1205,10 @@ query resortBudgetForecast($input: ResortBudgetForecastQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 property_budget_forecast_details_schema = {
     'accountingType': pl.Utf8,
     'accountingYear': pl.Float64,
@@ -1244,7 +1242,8 @@ property_budget_forecast_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1509,7 +1508,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -1545,7 +1545,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -1581,5 +1582,4 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
 ```

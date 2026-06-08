@@ -1,5 +1,5 @@
 # ExportMappings
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `exportMappings`
 > Provides detailed information of all configured external codes/values (i.e. general ledger codes) mapped to codes used in OPERA (i.e transaction codes market codes). It contains a comprehensive set of data including but not limited to Mapping Type Code/Descriptions Mapped To Code/Descriptions with other Mapping details such as Export Values by Property / Chain.
@@ -1063,12 +1063,10 @@ query exportMappings($input: ExportMappingsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 export_mapping_details_schema = {
     'chainCode': pl.Utf8,
     'codeCanDeleteYn': pl.Utf8,
@@ -1119,7 +1117,8 @@ export_mapping_details_schema = {
     'typeUpdateUserName': pl.Utf8,
     'useLOV': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1384,5 +1383,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

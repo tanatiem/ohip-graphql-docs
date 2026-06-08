@@ -1,5 +1,5 @@
 # RatesRestrictions
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesRestrictions`
 > Rate restriction definition including restriction type date applied room and rate code with day of the week and length of the stay details.
@@ -1140,12 +1140,10 @@ query ratesRestrictions($input: RatesRestrictionsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 rate_restrictions_details_schema = {
     'allotmentHeaderId': pl.Float64,
     'allotmentid': pl.Float64,
@@ -1230,7 +1228,8 @@ rate_restrictions_details_schema = {
     'yieldCreatedYn': pl.Utf8,
     'yieldability': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1495,5 +1494,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # ProfilesLoyaltyClaims
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesLoyaltyClaims`
 > Detailed information on the Loyalty Program providing details on the Membership Profiles Stay Information and the ability to track Claims.
@@ -1568,12 +1568,10 @@ query profilesLoyaltyClaims($input: ProfilesLoyaltyClaimsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 membership_claim_details_schema = {
     'approvalStatus': pl.Utf8,
     'approveReject': pl.Utf8,
@@ -1640,7 +1638,8 @@ membership_claim_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -1854,7 +1853,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -1896,7 +1896,8 @@ market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 source_table_details_schema = {
     'centralSequence': pl.Float64,
     'centralSourceCode': pl.Utf8,
@@ -1938,7 +1939,8 @@ source_table_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_promotions_details_schema = {
     'basedOnRule': pl.Utf8,
     'centralPromotionCode': pl.Utf8,
@@ -1961,7 +1963,8 @@ reservation_promotions_details_schema = {
     'rNAUpdateDate': pl.Utf8,
     'reservationNameId': pl.Float64,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -2141,7 +2144,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 membership_claims_history_details_schema = {
     'activity': pl.Utf8,
     'chainCode': pl.Utf8,
@@ -2161,7 +2165,8 @@ membership_claims_history_details_schema = {
     'sequence': pl.Float64,
     'submitter': pl.Utf8,
 }
-
+```
+```python
 channel_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -2202,5 +2207,4 @@ channel_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

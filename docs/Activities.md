@@ -1,5 +1,5 @@
 # Activities
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `activities`
 > Provides information of Sales activities related to Accounts Contacts and Blocks for the selected Property.
@@ -1602,12 +1602,10 @@ query activities($input: ActivitiesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 work_orders_details_schema = {
     'accountAll': pl.Utf8,
     'activityAmount': pl.Float64,
@@ -1736,7 +1734,8 @@ work_orders_details_schema = {
     'uploadDate': pl.Utf8,
     'userExt': pl.Utf8,
 }
-
+```
+```python
 activity_profile_details_schema = {
     'accountAddress4': pl.Utf8,
     'accountCountryCode': pl.Utf8,
@@ -1780,7 +1779,8 @@ activity_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 activity_block_details_schema = {
     'actId': pl.Float64,
     'actResort': pl.Utf8,
@@ -1857,7 +1857,8 @@ activity_block_details_schema = {
     'updatedBy': pl.Utf8,
     'updatedDate': pl.Utf8,
 }
-
+```
+```python
 activity_contact_profile_details_schema = {
     'accountAddress4': pl.Utf8,
     'accountCountryCode': pl.Utf8,
@@ -1901,7 +1902,8 @@ activity_contact_profile_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2166,5 +2168,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

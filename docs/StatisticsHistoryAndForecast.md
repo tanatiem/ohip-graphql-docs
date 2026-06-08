@@ -1,5 +1,5 @@
 # StatisticsHistoryAndForecast
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsHistoryAndForecast`
 > Detailed information on past and future reservations including occupancy and revenue figures with all profile data broken down by Market Rate code Room type and Periods of time.
@@ -3548,12 +3548,10 @@ query statisticsHistoryAndForecast($input: StatisticsHistoryAndForecastQueryArgu
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 history_forecast_details_schema = {
     'adults': pl.Float64,
     'agentId': pl.Float64,
@@ -3691,7 +3689,8 @@ history_forecast_details_schema = {
     'waitlistPersons': pl.Float64,
     'waitlistRooms': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -3727,7 +3726,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -3763,7 +3763,8 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 reservation_profile_accounts_source_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -4082,7 +4083,8 @@ reservation_profile_accounts_source_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -4124,7 +4126,8 @@ market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -4389,7 +4392,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 profile_accounts_travel_agent_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -4708,7 +4712,8 @@ profile_accounts_travel_agent_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 reservation_profile_accounts_company_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -5027,5 +5032,4 @@ reservation_profile_accounts_company_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
 ```

@@ -1,5 +1,5 @@
 # ChangesLog
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `changesLog`
 > Provides detailed information on actions and the users who completed the action including date time activity type and description. Also providing the capability to combine with reservation block and profile data
@@ -5192,12 +5192,10 @@ query changesLog($input: ChangesLogQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 action_details_schema = {
     'actionDate': pl.Utf8,
     'actionID': pl.Float64,
@@ -5253,11 +5251,13 @@ action_details_schema = {
     'userName': pl.Utf8,
     'yieldCategory': pl.Utf8,
 }
-
+```
+```python
 action_group_details_schema = {
     'actionGroup': pl.Utf8,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -5929,7 +5929,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -6502,7 +6503,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 event_details_schema = {
     'actualAttendees': pl.Float64,
     'allotmentid': pl.Float64,
@@ -6639,7 +6641,8 @@ event_details_schema = {
     'waitlistflag': pl.Utf8,
     'wlIgnoreYn': pl.Utf8,
 }
-
+```
+```python
 work_orders_details_schema = {
     'accountAll': pl.Utf8,
     'activityAmount': pl.Float64,
@@ -6768,7 +6771,8 @@ work_orders_details_schema = {
     'uploadDate': pl.Utf8,
     'userExt': pl.Utf8,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -7197,7 +7201,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -7462,5 +7467,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

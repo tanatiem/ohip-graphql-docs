@@ -1,5 +1,5 @@
 # FinancialTransactionsSummary
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionsSummary`
 > Summarized information on posted transactions including transaction group sub group and codes broken down by property and business date.
@@ -1941,12 +1941,10 @@ query financialTransactionsSummary($input: FinancialTransactionsSummaryQueryArgu
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 trial_balance_details_schema = {
     'aRLedgerCredit': pl.Float64,
     'aRLedgerDebit': pl.Float64,
@@ -2135,7 +2133,8 @@ trial_balance_details_schema = {
     'trxAmountYearToDate': pl.Float64,
     'trxCode': pl.Utf8,
 }
-
+```
+```python
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -2306,7 +2305,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 room_class_details_schema = {
     'canDeleteYn': pl.Utf8,
     'centralRoomClass': pl.Utf8,
@@ -2337,7 +2337,8 @@ room_class_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -2373,7 +2374,8 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -2409,7 +2411,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2674,5 +2677,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

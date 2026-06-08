@@ -1,5 +1,5 @@
 # EFolio
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `eFolio`
 > This subject area contains data for billing folio settlements to be used for exporting to an external system for efolios.
@@ -7087,12 +7087,10 @@ query eFolio($input: EFolioQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 folio_tax_details_schema = {
     'accountCode': pl.Float64,
     'addresseeNameId': pl.Float64,
@@ -7765,7 +7763,8 @@ folio_tax_details_schema = {
     'xtax8Amt': pl.Float64,
     'xtax9Amt': pl.Float64,
 }
-
+```
+```python
 folio_transactions_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aSBFlag': pl.Utf8,
@@ -8767,7 +8766,8 @@ folio_transactions_details_schema = {
     'xtax9Amt': pl.Float64,
     'zipCode': pl.Utf8,
 }
-
+```
+```python
 property_export_values_details_schema = {
     'aRAccountNumberMandYN': pl.Utf8,
     'aRBalanceTrxCode': pl.Utf8,
@@ -9035,7 +9035,8 @@ property_export_values_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -9464,7 +9465,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_address_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -9521,7 +9523,8 @@ profile_address_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_communication_details_schema = {
     'addressId': pl.Float64,
     'beginDate': pl.Utf8,
@@ -9568,7 +9571,8 @@ profile_communication_details_schema = {
     'updateUser': pl.Float64,
     'validYn': pl.Utf8,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -10240,7 +10244,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -10276,7 +10281,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -10312,7 +10318,8 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 export_map_efolio_export_details_schema = {
     'chainCode': pl.Utf8,
     'codeCanDeleteYn': pl.Utf8,
@@ -10364,5 +10371,4 @@ export_map_efolio_export_details_schema = {
     'typeUpdateUserName': pl.Utf8,
     'useLovYn': pl.Utf8,
 }
-
 ```

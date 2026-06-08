@@ -1,5 +1,5 @@
 # RatesCodes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesCodes`
 > Rate detail information including all rate header details  room type rate tiers and rate amounts per occupant.
@@ -3838,12 +3838,10 @@ query ratesCodes($input: RatesCodesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -4057,7 +4055,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -4322,7 +4321,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 rate_code_details_details_schema = {
     'addAfterRounding': pl.Float64,
     'adultCharge': pl.Float64,
@@ -4526,7 +4526,8 @@ rate_code_details_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -5099,7 +5100,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 financial_transaction_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -5463,5 +5465,4 @@ financial_transaction_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
 ```

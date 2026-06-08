@@ -1,5 +1,5 @@
 # FinancialTransactionDetailsExtended
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionDetailsExtended`
 > Provide financial transaction information with extended or additional details such as routing cashiers currency etc.
@@ -9586,12 +9586,10 @@ query financialTransactionDetailsExtended($input: FinancialTransactionDetailsExt
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 financial_unified_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRLedgerCredit': pl.Float64,
@@ -9796,7 +9794,8 @@ financial_unified_details_schema = {
     'updateUser': pl.Float64,
     'vatAmount': pl.Float64,
 }
-
+```
+```python
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -9967,7 +9966,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 from_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -10638,7 +10638,8 @@ from_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 guest_profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -11067,7 +11068,8 @@ guest_profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 payee_profile_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -11496,7 +11498,8 @@ payee_profile_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 payee_address_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -11553,7 +11556,8 @@ payee_address_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 to_reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -12224,7 +12228,8 @@ to_reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 reservation_unified_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'actionId': pl.Float64,
@@ -12653,7 +12658,8 @@ reservation_unified_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Float64,
 }
-
+```
+```python
 reservation_membership_details_schema = {
     'cardNumberByMembershipClass': pl.Utf8,
     'cardNumberByMembershipType': pl.Utf8,
@@ -12707,7 +12713,8 @@ reservation_membership_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 folio_tax_details_schema = {
     'accountCode': pl.Float64,
     'addresseeNameId': pl.Float64,
@@ -13380,7 +13387,8 @@ folio_tax_details_schema = {
     'xtax8Amt': pl.Float64,
     'xtax9Amt': pl.Float64,
 }
-
+```
+```python
 account_details_schema = {
     'accountCode': pl.Float64,
     'accountCreditLimitYn': pl.Utf8,
@@ -13485,7 +13493,8 @@ account_details_schema = {
     'upperCaseName': pl.Utf8,
     'zip': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -13750,7 +13759,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -13930,5 +13940,4 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
 ```

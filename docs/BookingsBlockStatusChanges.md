@@ -1,5 +1,5 @@
 # BookingsBlockStatusChanges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsBlockStatusChanges`
 > Detailed information on the status changes throughout the production period of a block including the new and old status codes rooms and associated revenues by property and Block Owner.
@@ -2512,12 +2512,10 @@ query bookingsBlockStatusChanges($input: BookingsBlockStatusChangesQueryArgument
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 book_status_change_details_schema = {
     'actionId': pl.Float64,
     'allotmentHeaderId': pl.Float64,
@@ -2592,7 +2590,8 @@ book_status_change_details_schema = {
     'totalRoomNights': pl.Float64,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 booking_status_details_schema = {
     'allowPickupYN': pl.Utf8,
     'bookingstatusid': pl.Utf8,
@@ -2636,7 +2635,8 @@ booking_status_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 prior_booking_status_details_schema = {
     'allowPickupYN': pl.Utf8,
     'bookingstatusid': pl.Utf8,
@@ -2680,7 +2680,8 @@ prior_booking_status_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -3253,7 +3254,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -3518,5 +3520,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

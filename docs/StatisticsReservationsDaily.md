@@ -1,5 +1,5 @@
 # StatisticsReservationsDaily
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsReservationsDaily`
 > Detailed information on past reservations including occupancy and revenue figures with all profile data broken down by Market Rate code room type and periods of time.
@@ -16452,12 +16452,10 @@ query statisticsReservationsDaily($input: StatisticsReservationsDailyQueryArgume
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 reservation_daily_statistics_details_schema = {
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
@@ -16803,7 +16801,8 @@ reservation_daily_statistics_details_schema = {
     'walkinflag': pl.Utf8,
     'zipCode': pl.Utf8,
 }
-
+```
+```python
 parent_company_profile_deatils_schema = {
     'aRNumber': pl.Utf8,
     'aRNumberCentral': pl.Utf8,
@@ -17203,7 +17202,8 @@ parent_company_profile_deatils_schema = {
     'xfirstName': pl.Utf8,
     'xlastName': pl.Utf8,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -17239,7 +17239,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -17275,7 +17276,8 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -17947,7 +17949,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 foreign_currency_details_schema = {
     'abbreviation': pl.Utf8,
     'activeYN': pl.Utf8,
@@ -17983,7 +17986,8 @@ foreign_currency_details_schema = {
     'updateUser': pl.Float64,
     'usedForCcPaymentsYn': pl.Utf8,
 }
-
+```
+```python
 room_class_details_schema = {
     'canDeleteYn': pl.Utf8,
     'centralRoomClass': pl.Utf8,
@@ -18014,7 +18018,8 @@ room_class_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -18279,7 +18284,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 market_details_schema = {
     'centralMarketCode': pl.Utf8,
     'centralMarketDescription': pl.Utf8,
@@ -18321,7 +18327,8 @@ market_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 guest_profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -18750,7 +18757,8 @@ guest_profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 nationality_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -18792,7 +18800,8 @@ nationality_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -19006,7 +19015,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 room_category_details_schema = {
     'accessibleRoomType': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -19123,7 +19133,8 @@ room_category_details_schema = {
     'upsellYn': pl.Utf8,
     'yieldStatus': pl.Utf8,
 }
-
+```
+```python
 country_details_schema = {
     'addressdoctorMode': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -19160,7 +19171,8 @@ country_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 channel_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -19201,7 +19213,8 @@ channel_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 region_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -19222,7 +19235,8 @@ region_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_season_day_details_schema = {
     'centralSeasonCode': pl.Utf8,
     'centralSeasonDescription': pl.Utf8,
@@ -19256,7 +19270,8 @@ rate_season_day_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 room_details_schema = {
     'accessible': pl.Utf8,
     'areaF': pl.Float64,
@@ -19436,7 +19451,8 @@ room_details_schema = {
     'widthF': pl.Float64,
     'widthM': pl.Float64,
 }
-
+```
+```python
 guest_status_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -19481,7 +19497,8 @@ guest_status_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_accounts_source_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -19800,7 +19817,8 @@ profile_accounts_source_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 reservation_statistics_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -20461,7 +20479,8 @@ reservation_statistics_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 booked_room_category_details_schema = {
     'accessibleRoomType': pl.Utf8,
     'activeDate': pl.Utf8,
@@ -20578,7 +20597,8 @@ booked_room_category_details_schema = {
     'upsellYn': pl.Utf8,
     'yieldStatus': pl.Utf8,
 }
-
+```
+```python
 country_group_details_schema = {
     'businessTitle': pl.Utf8,
     'canDeleteYn': pl.Utf8,
@@ -20619,7 +20639,8 @@ country_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_accounts_travel_agent_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -20938,7 +20959,8 @@ profile_accounts_travel_agent_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_accounts_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -21259,7 +21281,8 @@ profile_accounts_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 state_details_schema = {
     'chainCode': pl.Utf8,
     'code': pl.Utf8,
@@ -21290,7 +21313,8 @@ state_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 group_details_schema = {
     'aRNumber': pl.Utf8,
     'aRNumberCentral': pl.Utf8,
@@ -21697,7 +21721,8 @@ group_details_schema = {
     'xfirstName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 city_details_schema = {
     'attributeCode': pl.Utf8,
     'businessTitle': pl.Utf8,
@@ -21738,7 +21763,8 @@ city_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 promotion_details_schema = {
     'authorizerId': pl.Float64,
     'bookingEndDate': pl.Utf8,
@@ -21795,7 +21821,8 @@ promotion_details_schema = {
     'upgradeAllowedYN': pl.Utf8,
     'voucherBenefitCode': pl.Utf8,
 }
-
+```
+```python
 company_details_schema = {
     'aRNumber': pl.Utf8,
     'aRNumberCentral': pl.Utf8,
@@ -22203,7 +22230,8 @@ company_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -22776,7 +22804,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 travel_agent_details_schema = {
     'aRNumber': pl.Utf8,
     'aRNumberCentral': pl.Utf8,
@@ -23081,7 +23110,8 @@ travel_agent_details_schema = {
     'xfirstName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 allotment_statistics_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -23642,7 +23672,8 @@ allotment_statistics_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 contact_details_schema = {
     'aRCreditLimitYN': pl.Utf8,
     'aRNumber': pl.Utf8,
@@ -24090,5 +24121,4 @@ contact_details_schema = {
     'xmiddleName': pl.Utf8,
     'zipCode': pl.Utf8,
 }
-
 ```

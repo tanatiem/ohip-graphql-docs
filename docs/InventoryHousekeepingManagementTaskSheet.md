@@ -1,5 +1,5 @@
 # InventoryHousekeepingManagementTaskSheet
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryHousekeepingManagementTaskSheet`
 > Details on Tasks Task Sheets and Credits for the current date
@@ -1217,12 +1217,10 @@ query inventoryHousekeepingManagementTaskSheet($input: InventoryHousekeepingMana
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 house_keeping_task_sheets_details_schema = {
     'aMSection': pl.Utf8,
     'adults': pl.Float64,
@@ -1325,7 +1323,8 @@ house_keeping_task_sheets_details_schema = {
     'turnDown': pl.Utf8,
     'vIPCode': pl.Utf8,
 }
-
+```
+```python
 housekeeping_daily_task_room_detail_schema = {
     'autoAssignedYN': pl.Utf8,
     'credits': pl.Float64,
@@ -1349,7 +1348,8 @@ housekeeping_daily_task_room_detail_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1614,5 +1614,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

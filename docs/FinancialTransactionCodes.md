@@ -1,5 +1,5 @@
 # FinancialTransactionCodes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionCodes`
 > Transaction code header details including flags group and sub-group details.
@@ -1605,12 +1605,10 @@ query financialTransactionCodes($input: FinancialTransactionCodesQueryArgumentsT
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -1781,7 +1779,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 transaction_group_details_schema = {
     'centralDescription': pl.Utf8,
     'centralDisplaySequence': pl.Float64,
@@ -1821,7 +1820,8 @@ transaction_group_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 transaction_subgroup_details_schema = {
     'centralDescription': pl.Utf8,
     'centralDisplaySequence': pl.Float64,
@@ -1864,7 +1864,8 @@ transaction_subgroup_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 transaction_code_arrangment_details_schema = {
     'arrTaxTypeCode': pl.Utf8,
     'arrangementCode': pl.Utf8,
@@ -1916,7 +1917,8 @@ transaction_code_arrangment_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2181,5 +2183,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

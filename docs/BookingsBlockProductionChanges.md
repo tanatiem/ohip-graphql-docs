@@ -1,5 +1,5 @@
 # BookingsBlockProductionChanges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsBlockProductionChanges`
 > Detailed information on blocks and any changes to the number of rooms or revenue by stay date property and Block Owner.
@@ -2308,12 +2308,10 @@ query bookingsBlockProductionChanges($input: BookingsBlockProductionChangesQuery
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 block_changes_net_details_schema = {
     'blockID': pl.Float64,
     'blockProductionChangeID': pl.Float64,
@@ -2390,7 +2388,8 @@ block_changes_net_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2655,7 +2654,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -3228,5 +3228,4 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
 ```

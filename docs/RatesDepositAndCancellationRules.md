@@ -1,5 +1,5 @@
 # RatesDepositAndCancellationRules
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesDepositAndCancellationRules`
 > Deposit and cancellation rules schedules and details by date rate code and days prior to arrival or after booking.
@@ -1088,12 +1088,10 @@ query ratesDepositAndCancellationRules($input: RatesDepositAndCancellationRulesQ
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 rate_deposit_cancellation_details_schema = {
     'allotmentHeaderId': pl.Float64,
     'applyRuleTo': pl.Utf8,
@@ -1153,7 +1151,8 @@ rate_deposit_cancellation_details_schema = {
     'updateUser': pl.Float64,
     'wednesdayYN': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1418,5 +1417,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

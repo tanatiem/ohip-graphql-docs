@@ -1,5 +1,5 @@
 # SimpleReportsEvents
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsEvents`
 > The Simple Reports Events Subject Area simplifies creating and building adhoc reports including the ability to create new reports
@@ -1082,12 +1082,10 @@ query simpleReportsEvents($input: SimpleReportsEventsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 sales_event_event_information_details_schema = {
     'actualAttendees': pl.Float64,
     'actualManual': pl.Utf8,
@@ -1142,7 +1140,8 @@ sales_event_event_information_details_schema = {
     'setupTime': pl.Float64,
     'startTime': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1407,5 +1406,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

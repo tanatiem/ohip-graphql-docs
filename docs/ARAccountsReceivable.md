@@ -1,5 +1,5 @@
 # ARAccountsReceivable
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `aRAccountsReceivable`
 > Detailed Accounts Receivable data including  Adjustments Payments Invoices and Posting for AR Accounts with linked reservation data.
@@ -4732,12 +4732,10 @@ query aRAccountsReceivable($input: ARAccountsReceivableQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 account_details_schema = {
     'accountCode': pl.Float64,
     'accountCreditLimitYn': pl.Utf8,
@@ -4842,7 +4840,8 @@ account_details_schema = {
     'upperCaseName': pl.Utf8,
     'zip': pl.Utf8,
 }
-
+```
+```python
 a_r_transaction_adjustment_details_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aSBFlag': pl.Utf8,
@@ -5116,7 +5115,8 @@ a_r_transaction_adjustment_details_details_schema = {
     'upsellChargeYn': pl.Utf8,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 a_r_ledger_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aSBFlag': pl.Utf8,
@@ -5397,7 +5397,8 @@ a_r_ledger_details_schema = {
     'upsellChargeYn': pl.Utf8,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 invoice_header_details_schema = {
     'aRDebit': pl.Float64,
     'aRLedgerCredit': pl.Float64,
@@ -5503,7 +5504,8 @@ invoice_header_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 a_r_post_details_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aRLedgerCredit': pl.Float64,
@@ -5799,7 +5801,8 @@ a_r_post_details_details_schema = {
     'upsellChargeYn': pl.Utf8,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 account_type_details_schema = {
     'accountType': pl.Utf8,
     'accountTypeDescription': pl.Utf8,
@@ -5849,7 +5852,8 @@ account_type_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 acct_flag_reason_details_schema = {
     'acctflagreasonid': pl.Utf8,
     'centralFlaggedReasonCode': pl.Utf8,
@@ -5878,7 +5882,8 @@ acct_flag_reason_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 employee_details_schema = {
     'accessConfig': pl.Utf8,
     'accessEod': pl.Utf8,
@@ -6011,7 +6016,8 @@ employee_details_schema = {
     'workPermitExpdate': pl.Utf8,
     'workPermitNo': pl.Utf8,
 }
-
+```
+```python
 account_note_details_schema = {
     'accountCode': pl.Float64,
     'accountid': pl.Float64,
@@ -6037,7 +6043,8 @@ account_note_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_all_information_details_schema = {
     'guestProfileID': pl.Float64,
     'aRNumber': pl.Utf8,
@@ -6466,7 +6473,8 @@ profile_all_information_details_schema = {
     'xdisplayName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -6731,5 +6739,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

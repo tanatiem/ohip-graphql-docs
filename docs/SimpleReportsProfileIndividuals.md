@@ -1,5 +1,5 @@
 # SimpleReportsProfileIndividuals
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsProfileIndividuals`
 > The Simple Reports Profile-Individuals Subject Area simplifies creating and building adhoc reports including the ability to create new reports
@@ -1036,12 +1036,10 @@ query simpleReportsProfileIndividuals($input: SimpleReportsProfileIndividualsQue
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 profile_details_schema = {
     'aRCreditLimitYN': pl.Utf8,
     'accountType': pl.Utf8,
@@ -1421,7 +1419,8 @@ profile_details_schema = {
     'xname': pl.Utf8,
     'zipCode': pl.Utf8,
 }
-
+```
+```python
 profile_property_details_schema = {
     'actionCode': pl.Utf8,
     'arNumber': pl.Utf8,
@@ -1467,5 +1466,4 @@ profile_property_details_schema = {
     'taxPerc5': pl.Float64,
     'vatOffsetYn': pl.Utf8,
 }
-
 ```

@@ -1,5 +1,5 @@
 # ProfilesContacts
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesContacts`
 > The Contacts subject area contains Room Night and Revenue statistics broken down between booked and stays reservations and can be summarized by Property Stay Date Business Segment and Owner.
@@ -2999,12 +2999,10 @@ query profilesContacts($input: ProfilesContactsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 contact_details_schema = {
     'aRCreditLimitYN': pl.Utf8,
     'aRNumber': pl.Utf8,
@@ -3452,7 +3450,8 @@ contact_details_schema = {
     'xmiddleName': pl.Utf8,
     'zipCode': pl.Utf8,
 }
-
+```
+```python
 profile_address_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -3509,7 +3508,8 @@ profile_address_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_communication_details_schema = {
     'addressId': pl.Float64,
     'beginDate': pl.Utf8,
@@ -3556,7 +3556,8 @@ profile_communication_details_schema = {
     'updateUser': pl.Float64,
     'validYn': pl.Utf8,
 }
-
+```
+```python
 profile_preference_details_schema = {
     'canDeleteYn': pl.Utf8,
     'centralPreferenceCode': pl.Utf8,
@@ -3598,7 +3599,8 @@ profile_preference_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_membership_details_schema = {
     'cCreditLimit': pl.Float64,
     'cExchangeDate': pl.Utf8,
@@ -3659,7 +3661,8 @@ profile_membership_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Utf8,
 }
-
+```
+```python
 profile_note_details_schema = {
     'activityDueDate': pl.Utf8,
     'activityType': pl.Utf8,
@@ -3700,7 +3703,8 @@ profile_note_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_relationship_details_schema = {
     'chainCode': pl.Utf8,
     'company': pl.Utf8,
@@ -3738,7 +3742,8 @@ profile_relationship_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_owner_details_schema = {
     'accountOwner': pl.Utf8,
     'accountOwnerCode': pl.Utf8,
@@ -3777,7 +3782,8 @@ profile_owner_details_schema = {
     'updateUser': pl.Float64,
     'userId': pl.Float64,
 }
-
+```
+```python
 contact_daily_statistics_details_schema = {
     'bookedAdr': pl.Float64,
     'bookedCancels': pl.Float64,
@@ -3981,7 +3987,8 @@ contact_daily_statistics_details_schema = {
     'totalTotalRevenue': pl.Float64,
     'totalTotalRevenueTax': pl.Float64,
 }
-
+```
+```python
 contact_monthly_statistics_details_schema = {
     'adr': pl.Float64,
     'bookedFBRevenue': pl.Float64,
@@ -4116,7 +4123,8 @@ contact_monthly_statistics_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 contact_yearly_statistics_details_schema = {
     'adr': pl.Float64,
     'bookedCancels': pl.Float64,
@@ -4250,5 +4258,4 @@ contact_yearly_statistics_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

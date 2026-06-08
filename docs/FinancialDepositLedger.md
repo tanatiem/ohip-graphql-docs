@@ -1,5 +1,5 @@
 # FinancialDepositLedger
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `financialDepositLedger`
 > Deposit ledger details including individual transactions folio information calendar and financial period and the reservation details.
@@ -3710,12 +3710,10 @@ query financialDepositLedger($input: FinancialDepositLedgerQueryArgumentsType!) 
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 deposit_ledger_details_schema = {
     'aRChargeTransferYN': pl.Utf8,
     'aSBFlag': pl.Utf8,
@@ -3991,7 +3989,8 @@ deposit_ledger_details_schema = {
     'upsellChargeYn': pl.Utf8,
     'vatOffsetYn': pl.Utf8,
 }
-
+```
+```python
 transaction_code_details_schema = {
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
@@ -4162,7 +4161,8 @@ transaction_code_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 reservation_details_schema = {
     'aSBProratedYn': pl.Utf8,
     'accompaniedYN': pl.Utf8,
@@ -4834,7 +4834,8 @@ reservation_details_schema = {
     'yieldableYn': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 folio_details_schema = {
     'billGenerationDate': pl.Utf8,
     'billNumber': pl.Float64,
@@ -4884,7 +4885,8 @@ folio_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 rate_season_day_details_schema = {
     'centralSeasonCode': pl.Utf8,
     'centralSeasonDescription': pl.Utf8,
@@ -4918,7 +4920,8 @@ rate_season_day_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -5183,7 +5186,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -5219,7 +5223,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -5255,5 +5260,4 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
 ```

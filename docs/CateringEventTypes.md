@@ -1,5 +1,5 @@
 # CateringEventTypes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `cateringEventTypes`
 > Event type definitions.
@@ -239,12 +239,10 @@ query cateringEventTypes($input: CateringEventTypesQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 event_type_details_schema = {
     'activeYN': pl.Utf8,
     'centralBlockName': pl.Utf8,
@@ -282,5 +280,4 @@ event_type_details_schema = {
     'updateUser': pl.Float64,
     'webBookingYn': pl.Utf8,
 }
-
 ```

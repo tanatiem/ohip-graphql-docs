@@ -1,5 +1,5 @@
 # RatesCodeDetails
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesCodeDetails`
 > Rate Header information including room types package elements market and source code and associated flags.
@@ -1931,12 +1931,10 @@ query ratesCodeDetails($input: RatesCodeDetailsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 rate_code_details_details_schema = {
     'addAfterRounding': pl.Float64,
     'adultCharge': pl.Float64,
@@ -2140,7 +2138,8 @@ rate_code_details_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2405,7 +2404,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 rate_set_room_category_details_schema = {
     'dSI': pl.Float64,
     'deletedFlag': pl.Utf8,
@@ -2423,7 +2423,8 @@ rate_set_room_category_details_schema = {
     'roomCategory': pl.Utf8,
     'roomcategoryid': pl.Utf8,
 }
-
+```
+```python
 rate_code_details_schema = {
     'aSBRateCycle': pl.Utf8,
     'addition': pl.Utf8,
@@ -2637,7 +2638,8 @@ rate_code_details_schema = {
     'yieldableYN': pl.Utf8,
     'ymCode': pl.Utf8,
 }
-
+```
+```python
 rate_tier_details_schema = {
     'dSI': pl.Float64,
     'deletedflag': pl.Utf8,
@@ -2654,5 +2656,4 @@ rate_tier_details_schema = {
     'tierID': pl.Float64,
     'toLengthOfStay': pl.Float64,
 }
-
 ```

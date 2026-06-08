@@ -1,5 +1,5 @@
 # ProfilesLoyalty
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesLoyalty`
 > Detailed information on the Loyalty Program providing details on the Membership Profiles Stay Information and the ability to  track Awards and Claims.
@@ -1342,12 +1342,10 @@ query profilesLoyalty($input: ProfilesLoyaltyQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 loyalty_profile_membership_details_schema = {
     'allowAdhocMultiplierYn': pl.Utf8,
     'allowDupCardYn': pl.Utf8,
@@ -1493,7 +1491,8 @@ loyalty_profile_membership_details_schema = {
     'vipStatus': pl.Utf8,
     'yearsToExpire': pl.Float64,
 }
-
+```
+```python
 membership_benefits_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -1516,7 +1515,8 @@ membership_benefits_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_claim_details_schema = {
     'approvalStatus': pl.Utf8,
     'approveReject': pl.Utf8,
@@ -1583,7 +1583,8 @@ membership_claim_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_history_details_schema = {
     'actionID': pl.Float64,
     'actionType': pl.Utf8,
@@ -1606,7 +1607,8 @@ membership_history_details_schema = {
     'rnaInsertDate': pl.Utf8,
     'rnaUpdateDate': pl.Utf8,
 }
-
+```
+```python
 membership_issued_awards_details_schema = {
     'actualCancelPoints': pl.Float64,
     'arrivalDate': pl.Utf8,
@@ -1696,7 +1698,8 @@ membership_issued_awards_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 membership_transactions_details_schema = {
     'adjustmentYn': pl.Utf8,
     'arrivalDate': pl.Utf8,
@@ -1801,7 +1804,8 @@ membership_transactions_details_schema = {
     'updateUser': pl.Float64,
     'username': pl.Utf8,
 }
-
+```
+```python
 membership_transaction_header_details_schema = {
     'batchIDCode': pl.Float64,
     'cardNumber': pl.Utf8,
@@ -1848,7 +1852,8 @@ membership_transaction_header_details_schema = {
     'total': pl.Float64,
     'user': pl.Utf8,
 }
-
+```
+```python
 expire_points_by_date_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -1858,5 +1863,4 @@ expire_points_by_date_details_schema = {
     'organizationID': pl.Float64,
     'totalExpire': pl.Float64,
 }
-
 ```

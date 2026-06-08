@@ -1,5 +1,5 @@
 # SalesManagerGoals
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `salesManagerGoals`
 > The Sales Manager Goals subject Area enable the end users to retrieve information / create reports to compare the goals set for the Sales Managers against completed activities and against statistical revenue data associated to profiles.
@@ -874,12 +874,10 @@ query salesManagerGoals($input: SalesManagerGoalsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 sales_manager_details_schema = {
     'chainCode': pl.Utf8,
     'dSI': pl.Float64,
@@ -896,7 +894,8 @@ sales_manager_details_schema = {
     'rNAInsertDate': pl.Utf8,
     'rNAUpdateDate': pl.Utf8,
 }
-
+```
+```python
 employee_goal_details_schema = {
     'activityNumber': pl.Float64,
     'activityType': pl.Utf8,
@@ -962,7 +961,8 @@ employee_goal_details_schema = {
     'userID': pl.Float64,
     'yearId': pl.Float64,
 }
-
+```
+```python
 work_orders_details_schema = {
     'accountAll': pl.Utf8,
     'activityAmount': pl.Float64,
@@ -1091,7 +1091,8 @@ work_orders_details_schema = {
     'uploadDate': pl.Utf8,
     'userExt': pl.Utf8,
 }
-
+```
+```python
 owner_account_daily_statistics_details_schema = {
     'accountOwner': pl.Utf8,
     'accountOwnerCode': pl.Utf8,
@@ -1199,5 +1200,4 @@ owner_account_daily_statistics_details_schema = {
     'updateUser': pl.Float64,
     'userId': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # RatesTiers
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesTiers`
 > Rate tier definition by length of stays.
@@ -1420,12 +1420,10 @@ query ratesTiers($input: RatesTiersQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 rate_tier_details_schema = {
     'dSI': pl.Float64,
     'deletedflag': pl.Utf8,
@@ -1442,7 +1440,8 @@ rate_tier_details_schema = {
     'tierID': pl.Float64,
     'toLengthOfStay': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -1707,7 +1706,8 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
+```
+```python
 rate_code_details_details_schema = {
     'addAfterRounding': pl.Float64,
     'adultCharge': pl.Float64,
@@ -1911,5 +1911,4 @@ rate_code_details_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
 ```

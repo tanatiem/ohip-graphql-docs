@@ -1,5 +1,5 @@
 # ProfilesAccounts
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesAccounts`
 > The Profiles-Accounts subject area contains Account Room Night and Revenue statistics broken down between Group and Individual stays and can be summarized by Property Stay Date Business Segment Owner and Profile Type.
@@ -4568,12 +4568,10 @@ query profilesAccounts($input: ProfilesAccountsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 profile_accounts_details_schema = {
     'aRNumber': pl.Utf8,
     'aRCUpdateDate': pl.Utf8,
@@ -4894,7 +4892,8 @@ profile_accounts_details_schema = {
     'xlastName': pl.Utf8,
     'xmiddleName': pl.Utf8,
 }
-
+```
+```python
 profile_forecast_details_schema = {
     'cExchangeDate': pl.Utf8,
     'cExchangeRate': pl.Float64,
@@ -4944,7 +4943,8 @@ profile_forecast_details_schema = {
     'toType': pl.Utf8,
     'updateUserName': pl.Utf8,
 }
-
+```
+```python
 profile_communication_details_schema = {
     'addressId': pl.Float64,
     'beginDate': pl.Utf8,
@@ -4991,7 +4991,8 @@ profile_communication_details_schema = {
     'updateUser': pl.Float64,
     'validYn': pl.Utf8,
 }
-
+```
+```python
 profile_commission_details_schema = {
     'accountId': pl.Float64,
     'centralCommissionCode': pl.Utf8,
@@ -5015,7 +5016,8 @@ profile_commission_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_relationship_details_schema = {
     'chainCode': pl.Utf8,
     'company': pl.Utf8,
@@ -5053,7 +5055,8 @@ profile_relationship_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 account_monthly_statistics_details_schema = {
     'adr': pl.Float64,
     'cCcFBRevenue': pl.Float64,
@@ -5188,7 +5191,8 @@ account_monthly_statistics_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_address_details_schema = {
     'address1': pl.Utf8,
     'address2': pl.Utf8,
@@ -5245,7 +5249,8 @@ profile_address_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 account_daily_statistics_details_schema = {
     'adr': pl.Float64,
     'cancels': pl.Float64,
@@ -5335,7 +5340,8 @@ account_daily_statistics_details_schema = {
     'totalRevenueNet': pl.Float64,
     'totalRevenueTax': pl.Float64,
 }
-
+```
+```python
 profile_note_details_schema = {
     'activityDueDate': pl.Utf8,
     'activityType': pl.Utf8,
@@ -5376,7 +5382,8 @@ profile_note_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_relationship_hier_details_schema = {
     'bottomId': pl.Float64,
     'bottomNameType': pl.Utf8,
@@ -5395,7 +5402,8 @@ profile_relationship_hier_details_schema = {
     'topId': pl.Float64,
     'totalLevels': pl.Float64,
 }
-
+```
+```python
 profile_preference_details_schema = {
     'canDeleteYn': pl.Utf8,
     'centralPreferenceCode': pl.Utf8,
@@ -5437,7 +5445,8 @@ profile_preference_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 account_yearly_statistics_details_schema = {
     'adr': pl.Float64,
     'cCcRoomRevenueTax': pl.Float64,
@@ -5571,7 +5580,8 @@ account_yearly_statistics_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 profile_owner_details_schema = {
     'accountOwner': pl.Utf8,
     'accountOwnerCode': pl.Utf8,
@@ -5610,7 +5620,8 @@ profile_owner_details_schema = {
     'updateUser': pl.Float64,
     'userId': pl.Float64,
 }
-
+```
+```python
 reservation_daily_statistics_details_schema = {
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
@@ -5956,7 +5967,8 @@ reservation_daily_statistics_details_schema = {
     'walkinflag': pl.Utf8,
     'zipCode': pl.Utf8,
 }
-
+```
+```python
 sale_profile_owner_details_schema = {
     'accountOwner': pl.Utf8,
     'accountOwnerCode': pl.Utf8,
@@ -5995,7 +6007,8 @@ sale_profile_owner_details_schema = {
     'updateUser': pl.Float64,
     'userId': pl.Float64,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -6568,5 +6581,4 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
 ```

@@ -1,5 +1,5 @@
 # StatisticsManagersReport
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsManagersReport`
 > Past statistics including rooms and revenue figures arrivals departures and occupancy broken out by multiple time periods.
@@ -2121,12 +2121,10 @@ query statisticsManagersReport($input: StatisticsManagersReportQueryArgumentsTyp
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 managers_report_details_schema = {
     'adultsFree': pl.Float64,
     'adultsInHouse': pl.Float64,
@@ -2501,7 +2499,8 @@ managers_report_details_schema = {
     'yieldForAllRooms': pl.Float64,
     'yieldForOccupiedRooms': pl.Float64,
 }
-
+```
+```python
 gregerian_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -2537,7 +2536,8 @@ gregerian_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 fiscal_calendar_details_schema = {
     'businessDate': pl.Utf8,
     'calendar': pl.Utf8,
@@ -2573,7 +2573,8 @@ fiscal_calendar_details_schema = {
     'yearpkid': pl.Float64,
     'yeartimespan': pl.Float64,
 }
-
+```
+```python
 rate_season_day_details_schema = {
     'centralSeasonCode': pl.Utf8,
     'centralSeasonDescription': pl.Utf8,
@@ -2607,7 +2608,8 @@ rate_season_day_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 foreign_currency_details_schema = {
     'abbreviation': pl.Utf8,
     'activeYN': pl.Utf8,
@@ -2643,7 +2645,8 @@ foreign_currency_details_schema = {
     'updateUser': pl.Float64,
     'usedForCcPaymentsYn': pl.Utf8,
 }
-
+```
+```python
 room_class_details_schema = {
     'canDeleteYn': pl.Utf8,
     'centralRoomClass': pl.Utf8,
@@ -2674,7 +2677,8 @@ room_class_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 property_property_details_schema = {
     'property': pl.Utf8,
     'aRAccountNoFormat': pl.Utf8,
@@ -2939,5 +2943,4 @@ property_property_details_schema = {
     'weekendDays': pl.Utf8,
     'zeroInvPurDays': pl.Float64,
 }
-
 ```

@@ -1,5 +1,5 @@
 # CateringEventPostings
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template)
+[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
 ## Query
 ### `cateringEventPostings`
 > Event posting details including revenues by property Block Event and Revenue groups
@@ -5088,12 +5088,10 @@ query cateringEventPostings($input: CateringEventPostingsQueryArgumentsType!) {
 }
 ```
 
-## Polars Schema
-> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+## Parquet Schema
+> Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-import polars as pl
-
 event_posting_details_schema = {
     'allotmentid': pl.Float64,
     'blockBeginDate': pl.Utf8,
@@ -5183,7 +5181,8 @@ event_posting_details_schema = {
     'updateDate': pl.Utf8,
     'updateUser': pl.Float64,
 }
-
+```
+```python
 event_details_schema = {
     'actualAttendees': pl.Float64,
     'allotmentid': pl.Float64,
@@ -5320,7 +5319,8 @@ event_details_schema = {
     'waitlistflag': pl.Utf8,
     'wlIgnoreYn': pl.Utf8,
 }
-
+```
+```python
 block_details_schema = {
     'actionId': pl.Float64,
     'actualAverageRoomRate': pl.Float64,
@@ -5893,7 +5893,8 @@ block_details_schema = {
     'webOverbookYN': pl.Utf8,
     'xudescription': pl.Utf8,
 }
-
+```
+```python
 financial_transaction_inc_revenue_tax_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -6257,7 +6258,8 @@ financial_transaction_inc_revenue_tax_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
+```
+```python
 financial_transaction_extra_revenue_tax_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -6621,7 +6623,8 @@ financial_transaction_extra_revenue_tax_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
+```
+```python
 financial_transaction_svc_charge_inc_rev_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -6985,7 +6988,8 @@ financial_transaction_svc_charge_inc_rev_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
+```
+```python
 financial_transaction_svc_charge_extra_rev_details_schema = {
     'aRChargeTransferFlagYN': pl.Utf8,
     'aRChargeTransferYN': pl.Utf8,
@@ -7349,5 +7353,4 @@ financial_transaction_svc_charge_extra_rev_details_schema = {
     'vatOffsetYn': pl.Utf8,
     'vendorTranID': pl.Utf8,
 }
-
 ```
