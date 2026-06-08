@@ -245,3 +245,51 @@ query profilesRelationshipTypes($input: ProfilesRelationshipTypesQueryArgumentsT
   }
 }
 ```
+
+## Polars Schema
+> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+  
+```python
+import polars as pl
+
+relationship_details_schema = {
+    'canDeleteYn': pl.Utf8,
+    'chainCode': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'fromType': pl.Utf8,
+    'globalYn': pl.Utf8,
+    'hierarchyYN': pl.Utf8,
+    'ignoreProtectionYn': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'inactiveFlag': pl.Utf8,
+    'individualYN': pl.Utf8,
+    'inheritRatesYN': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Float64,
+    'internalInactiveflag': pl.Utf8,
+    'internalOrganizationId': pl.Float64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'primaryYN': pl.Utf8,
+    'relationCategory': pl.Utf8,
+    'relationship': pl.Utf8,
+    'relationshipId': pl.Utf8,
+    'relationshipRole': pl.Utf8,
+    'relationshipType': pl.Utf8,
+    'relationshippms': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'tempFlag': pl.Utf8,
+    'toDescription': pl.Utf8,
+    'toIndividualYN': pl.Utf8,
+    'toInheritRatesYN': pl.Utf8,
+    'toRelationship': pl.Utf8,
+    'toType': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Float64,
+}
+
+```

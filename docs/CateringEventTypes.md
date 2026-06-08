@@ -238,3 +238,49 @@ query cateringEventTypes($input: CateringEventTypesQueryArgumentsType!) {
   }
 }
 ```
+
+## Polars Schema
+> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+  
+```python
+import polars as pl
+
+event_type_details_schema = {
+    'activeYN': pl.Utf8,
+    'centralBlockName': pl.Utf8,
+    'centralEventType': pl.Utf8,
+    'chainCode': pl.Utf8,
+    'coverable': pl.Utf8,
+    'coverableYn': pl.Utf8,
+    'dSI': pl.Float64,
+    'defaultEndDate': pl.Utf8,
+    'defaultStartDate': pl.Utf8,
+    'deletedFlag': pl.Utf8,
+    'eventType': pl.Utf8,
+    'eventTypeDescription': pl.Utf8,
+    'eventtypeid': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Float64,
+    'internalDeletedflag': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationID': pl.Utf8,
+    'mealType': pl.Utf8,
+    'mealtypeid': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'repItem': pl.Utf8,
+    'repItemName': pl.Utf8,
+    'repItemOrderby': pl.Float64,
+    'repOrderBy': pl.Float64,
+    'repUpdateDate': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Float64,
+    'webBookingYn': pl.Utf8,
+}
+
+```

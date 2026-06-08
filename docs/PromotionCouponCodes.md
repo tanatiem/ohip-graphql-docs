@@ -215,3 +215,37 @@ query promotionCouponCodes($input: PromotionCouponCodesQueryArgumentsType!) {
   }
 }
 ```
+
+## Polars Schema
+> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+  
+```python
+import polars as pl
+
+promotion_coupon_codes_detail_schema = {
+    'batchCode': pl.Utf8,
+    'chainCode': pl.Utf8,
+    'couponCode': pl.Utf8,
+    'couponID': pl.Float64,
+    'createDate': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'exportDate': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertUser': pl.Float64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'promotionCode': pl.Utf8,
+    'property': pl.Utf8,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'status': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Float64,
+    'usedInReservationNameID': pl.Float64,
+    'usedInReservationProperty': pl.Utf8,
+}
+
+```

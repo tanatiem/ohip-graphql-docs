@@ -508,3 +508,147 @@ query integrationConfigurations($input: IntegrationConfigurationsQueryArgumentsT
   }
 }
 ```
+
+## Polars Schema
+> Polars data types based on the GraphQL specification to prevent schema inference errors when writing the output Parquet file.
+  
+```python
+import polars as pl
+
+external_systems_schema = {
+    'batchBE': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'description': pl.Utf8,
+    'externalSystem': pl.Utf8,
+    'externalURI': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'lookupYN': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'rNUpdateDate': pl.Utf8,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'systemType': pl.Utf8,
+    'updateDate': pl.Utf8,
+}
+
+external_system_properties_schema = {
+    'consumerName': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'displayYN': pl.Utf8,
+    'externalSystem': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'machineName': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'property': pl.Utf8,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'status': pl.Utf8,
+}
+
+interface_mappings_schema = {
+    'chainCode': pl.Utf8,
+    'conversionCode': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'externalToOPERA': pl.Utf8,
+    'externalValue': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'interfaceId': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'oPERAToExternal': pl.Utf8,
+    'oPERAValue': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'property': pl.Utf8,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+}
+
+interface_parameters_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'description': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'interfaceId': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'organizationID': pl.Float64,
+    'parameterGroup': pl.Utf8,
+    'parameterName': pl.Utf8,
+    'parameterValue': pl.Utf8,
+    'primaryKeyID': pl.Float64,
+    'property': pl.Utf8,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'newView': pl.Utf8,
+}
+
+interface_setup_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Float64,
+    'dataFlow': pl.Utf8,
+    'deletedFlag': pl.Utf8,
+    'deltaChangesYN': pl.Utf8,
+    'description': pl.Utf8,
+    'externalProperty': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'interfaceId': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'oPERAProperty': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+}
+
+business_event_configuration_schema = {
+    'actionType': pl.Utf8,
+    'chainCode': pl.Utf8,
+    'dSI': pl.Float64,
+    'dataElement': pl.Utf8,
+    'deletedFlag': pl.Utf8,
+    'externalDatabase': pl.Utf8,
+    'externalSystem': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'module': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'whereClause': pl.Utf8,
+}
+
+external_databases_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Float64,
+    'deletedFlag': pl.Utf8,
+    'description': pl.Utf8,
+    'externalDatabase': pl.Utf8,
+    'externalSystem': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'organizationID': pl.Float64,
+    'primaryKeyID': pl.Float64,
+    'property': pl.Utf8,
+    'rNAInsertDate': pl.Utf8,
+    'rNAUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+}
+
+```
