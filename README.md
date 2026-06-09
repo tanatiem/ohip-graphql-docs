@@ -122,7 +122,7 @@
 }
 ```
 
-#### Maximum # of columns (150)
+#### Exceeding Maximum # of columns: 150
 ```json
 {
     "errors": [
