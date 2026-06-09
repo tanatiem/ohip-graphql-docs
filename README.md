@@ -100,3 +100,42 @@
 
 ---
 
+## Note on Client development
+
+### Known Request Errors
+
+#### Fields not available
+
+```json
+{
+    "errors": [
+        {
+            "message": "Cannot query field \"internalDeletedFlag\" on type \"ConfigurationResortMarketDetailsType\".",
+            "o:errorCode": "GRAPHQL_VALIDATION_FAILED"
+        },
+        {
+            "message": "Cannot query field \"marketGroupCodeDescription\" on type \"ConfigurationResortMarketDetailsType\".",
+            "o:errorCode": "GRAPHQL_VALIDATION_FAILED"
+        }
+    ],
+    "extensions": {}
+}
+```
+
+#### Maximum # of columns (150)
+```json
+{
+    "errors": [
+        {
+            "message": "Number of fields in query exceeds the maximum allowed number",
+            "o:errorCode": "INP-003",
+            "detail": "Maximum of 150 fields are allowed, 262 fields are requested",
+            "subjectArea": "Property"
+        }
+    ],
+    "data": {
+        "property": null
+    },
+    "extensions": {}
+}
+```
