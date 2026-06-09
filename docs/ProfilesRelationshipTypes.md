@@ -253,7 +253,7 @@ query profilesRelationshipTypes($input: ProfilesRelationshipTypesQueryArgumentsT
 relationship_details_schema = {
     'canDeleteYn': pl.Utf8,
     'chainCode': pl.Utf8,
-    'dSI': pl.Float64,
+    'dSI': pl.Int64,
     'deletedFlag': pl.Utf8,
     'fromType': pl.Utf8,
     'globalYn': pl.Utf8,
@@ -264,13 +264,13 @@ relationship_details_schema = {
     'individualYN': pl.Utf8,
     'inheritRatesYN': pl.Utf8,
     'insertDate': pl.Utf8,
-    'insertUser': pl.Float64,
+    'insertUser': pl.Int64,
     'internalInactiveflag': pl.Utf8,
     'internalOrganizationId': pl.Float64,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
-    'organizationID': pl.Float64,
-    'primaryKeyID': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
     'primaryYN': pl.Utf8,
     'relationCategory': pl.Utf8,
     'relationship': pl.Utf8,
@@ -287,6 +287,6 @@ relationship_details_schema = {
     'toRelationship': pl.Utf8,
     'toType': pl.Utf8,
     'updateDate': pl.Utf8,
-    'updateUser': pl.Float64,
+    'updateUser': pl.Int64,
 }
 ```
