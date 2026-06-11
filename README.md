@@ -257,7 +257,7 @@ query Property($input: PropertyQueryArgumentsType!) {
 }
 ```
 
-This returns 3 rows for each of 3 hotels specified with `propertyPropertyDetails` data. However, because a single property can have multiple transportation configured, adding `transportationTransportationDetails` to the exact same query introduces a <span style="color:turquoise">1:Many relationship</span></br>
+This returns 3 rows for each of 3 hotels specified with `propertyPropertyDetails` data. However, because a single property can have multiple transportation configured, adding `transportationTransportationDetails` to the exact same query introduces a `1:Many relationship`
 
 ```graphql
 query Property($input: PropertyQueryArgumentsType!) {
@@ -293,7 +293,7 @@ When extracting data to build normalized tables to build a data warehouse, 1:Man
 1. **The Parent Query** (e.g., Property): Extracts the core entity as its native grain.
 2. **The Child Query** (e.g. Transportation): in a seperate request. We may also need some IDs field from the parent for joining. (if it's not available in its own object) 
 
-<span style="color:salmon">I'm not sure at the moment what keys that we need to extract for joining tables. We will have to wait for the GraphQL workshop to identify the exact composite keys necessary to guarantee **cross-datacenter uniqueness**. </span>
+>I'm not sure at the moment what keys that we need to extract for joining tables. We will have to wait for the GraphQL workshop to identify the exact composite keys necessary to guarantee **`cross-datacenter uniqueness`**.
 
 # Known Request Errors
 
