@@ -100,7 +100,7 @@
 
 ---
 
-## Note on Client development
+## Notes on Client development
 
 ### Known Request Errors
 
