@@ -118,9 +118,6 @@ query Property($input: PropertyQueryArgumentsType!) {
   property(input: $input) @stream {
     propertyPropertyDetails {
       property
-      propertyName
-      chainCode
-      countryCode
       primaryKeyID
       dSI
       organizationID
@@ -137,6 +134,7 @@ query Property($input: PropertyQueryArgumentsType!) {
 The response arrives as multiple `content-type` chunks. The data is nested within an `incremental` array.
 
 ```
+
 ---
 content-type: application/json; charset=utf-8
 
@@ -144,16 +142,18 @@ content-type: application/json; charset=utf-8
 ---
 content-type: application/json; charset=utf-8
 
-{"hasNext":true,"incremental":[{"items":[{"propertyPropertyDetails":{"property":"ARIV","propertyName":"Anantara Riverside Bangkok Resort","chainCode":"MHG","countryCode":"TBA","primaryKeyID":22,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2024-03-15 03:57:32","updateDate":"2024-04-30 01:12:57"},"propertyRecordCount":1}]}]}
+{"hasNext":true,"incremental":[{"items":[{"propertyPropertyDetails":{"property":"AAA","primaryKeyID":22,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2024-03-15 03:57:32","updateDate":"2024-04-30 01:12:57"},"propertyRecordCount":1}]}]}
 ---
 content-type: application/json; charset=utf-8
 
-{"hasNext":true,"incremental":[{"items":[{"propertyPropertyDetails":{"property":"ASIA","propertyName":"Anantara Siam Bangkok Hotels","chainCode":"MHG","countryCode":"TBA","primaryKeyID":49,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2026-04-20 10:05:52","updateDate":"2026-03-06 02:39:44"},"propertyRecordCount":2}]},{"items":[{"propertyPropertyDetails":{"property":"VRIV","propertyName":"Avani+ Riverside Bangkok Hotel","chainCode":"MHG","countryCode":"TBA","primaryKeyID":12,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2024-05-15 01:21:10","updateDate":"2024-05-01 04:40:36"},"propertyRecordCount":3}]}]}
+{"hasNext":true,"incremental":[{"items":[{"propertyPropertyDetails":{"property":"BBB","primaryKeyID":49,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2026-04-20 10:05:52","updateDate":"2026-03-06 02:39:44"},"propertyRecordCount":2}]},{"items":[{"propertyPropertyDetails":{"property":"CCC","primaryKeyID":12,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2024-05-15 01:21:10","updateDate":"2024-05-01 04:40:36"},"propertyRecordCount":3}]}]}
 ---
 content-type: application/json; charset=utf-8
 
 {"hasNext":false,"extensions":{"totalRecordCount":3}}
 -----
+
+
 ```
 ### 2. Standard Mode (JSON)
 
@@ -164,9 +164,6 @@ query Property($input: PropertyQueryArgumentsType!) {
   property(input: $input) {
     propertyPropertyDetails {
       property
-      propertyName
-      chainCode
-      countryCode
       primaryKeyID
       dSI
       organizationID
@@ -186,10 +183,7 @@ query Property($input: PropertyQueryArgumentsType!) {
         "property": [
             {
                 "propertyPropertyDetails": {
-                    "property": "ARIV",
-                    "propertyName": "Anantara Riverside Bangkok Resort",
-                    "chainCode": "MHG",
-                    "countryCode": "TBA",
+                    "property": "AAA",
                     "primaryKeyID": 22,
                     "dSI": 672,
                     "organizationID": 4671,
@@ -201,10 +195,7 @@ query Property($input: PropertyQueryArgumentsType!) {
             },
             {
                 "propertyPropertyDetails": {
-                    "property": "ASIA",
-                    "propertyName": "Anantara Siam Bangkok Hotels",
-                    "chainCode": "MHG",
-                    "countryCode": "TBA",
+                    "property": "BBB",
                     "primaryKeyID": 49,
                     "dSI": 672,
                     "organizationID": 4671,
@@ -216,10 +207,7 @@ query Property($input: PropertyQueryArgumentsType!) {
             },
             {
                 "propertyPropertyDetails": {
-                    "property": "VRIV",
-                    "propertyName": "Avani+ Riverside Bangkok Hotel",
-                    "chainCode": "MHG",
-                    "countryCode": "TBA",
+                    "property": "CCC",
                     "primaryKeyID": 12,
                     "dSI": 672,
                     "organizationID": 4671,
@@ -237,6 +225,7 @@ query Property($input: PropertyQueryArgumentsType!) {
         }
     }
 }
+
 ```
 
 ## Understanding Row Explosion
@@ -247,9 +236,6 @@ query Property($input: PropertyQueryArgumentsType!) {
   property(input: $input) {
     propertyPropertyDetails {
       property
-      propertyName
-      chainCode
-      countryCode
       primaryKeyID
       dSI
       organizationID
@@ -265,17 +251,45 @@ query Property($input: PropertyQueryArgumentsType!) {
 {
   "input": {
     "resortDetailsResort": {
-        "_in": ["ARIV","ASIA","VRIV","VHHD"]
+        "_in": ["AAA","BBB","CCC"]
     }
   }
 }
 ```
-This returns 4 rows for each of 4 hotels that we specify with `propertyPropertyDetails` information. However, because a single property can have multiple transportation configured, adding `transportationTransportationDetails` to the exact same query introduces a <span style="color:turquoise">1:Many relationship</span></br>
 
-This will explode our result into 33 rows. The parent property data is duplicated across every single transportation row.
+This returns 3 rows for each of 3 hotels specified with `propertyPropertyDetails` data. However, because a single property can have multiple transportation configured, adding `transportationTransportationDetails` to the exact same query introduces a <span style="color:turquoise">1:Many relationship</span></br>
 
-### Decoupled Extractions
-To support a normalized data warehouse, 1:Many relationships should be extracted via independent API requests:
+```graphql
+query Property($input: PropertyQueryArgumentsType!) {
+  property(input: $input) {
+    propertyPropertyDetails {
+      property
+      primaryKeyID
+      dSI
+      organizationID
+      deletedFlag
+      insertDate
+      updateDate
+    }
+    transportationTransportationDetails {
+      property
+      transportID
+      label
+      primaryKeyID
+      dSI
+      organizationID
+      deletedFlag
+      insertDate
+      updateDate
+    }
+  }
+}
+```
+
+This will explode the result into 33 rows. The parent property data is duplicated across every single transportation row.
+
+### ℹ️ Decoupled Extractions
+When extracting data to build normalized tables to build a data warehouse, 1:Many relationships should be extracted via independent API requests:
 1. **The Parent Query** (e.g., Property): Extracts the core entity as its native grain.
 2. **The Child Query** (e.g. Transportation): in a seperate request. We may also need some IDs field from the parent for joining. (if it's not available in its own object) 
 
