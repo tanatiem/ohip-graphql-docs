@@ -239,6 +239,48 @@ query Property($input: PropertyQueryArgumentsType!) {
 }
 ```
 
+## Understanding Row Explosion
+
+**GraphQL Query:**
+```graphql
+query Property($input: PropertyQueryArgumentsType!) {
+  property(input: $input) {
+    propertyPropertyDetails {
+      property
+      propertyName
+      chainCode
+      countryCode
+      primaryKeyID
+      dSI
+      organizationID
+      deletedFlag
+      insertDate
+      updateDate
+    }
+  }
+}
+```
+**GraphQL Variables:**
+```graphql
+{
+  "input": {
+    "resortDetailsResort": {
+        "_in": ["ARIV","ASIA","VRIV","VHHD"]
+    }
+  }
+}
+```
+This returns 4 rows for each of 4 hotels that we specify with `propertyPropertyDetails` information. However, because a single property can have multiple transportation configured, adding `transportationTransportationDetails` to the exact same query introduces a <span style="color:turquoise">1:Many relationship</span></br>
+
+This will explode our result into 33 rows. The parent property data is duplicated across every single transportation row.
+
+### Decoupled Extractions
+To support a normalized data warehouse, 1:Many relationships should be extracted via independent API requests:
+1. **The Parent Query** (e.g., Property): Extracts the core entity as its native grain.
+2. **The Child Query** (e.g. Transportation): in a seperate request. We may also need some IDs field from the parent for joining. (if it's not available in its own object) 
+
+<span style="color:salmon">I'm not sure at the moment what keys that we need to extract for joining tables. We will have to wait for the GraphQL workshop to identify the exact composite keys necessary to guarantee **cross-datacenter uniqueness**. </span>
+
 # Known Request Errors
 
 ## Fields not available
