@@ -102,17 +102,18 @@
 
 # Notes
 
-## API Responses
+## API Response Modes
 
-Responses can be in two formats. It depends on the `@stream` directive at the query.
-Without it, the response comes in as a well-formed JSON. With `stream mode`, it will need a little more work on parsing the output.
+The GraphQL API returns data in two distinct formats depending on the presence of the `@stream` directive.
+- **Standard Mode:** Returns a single, well-formed JSON object.
+- **Stream Mode:** The expected extraction method for large datasets. Yields chunked, incremental responses requiring specialized parsing to stitch the payloads together.
 
-### Response using `@stream` mode
 
-> This should be the expected method to extract data. 
+### 1. Stream Mode (`@stream`)
 
-**Request**
-```
+**Request Example:**
+
+```graphql
 query Property($input: PropertyQueryArgumentsType!) {
   property(input: $input) @stream {
     propertyPropertyDetails {
@@ -131,7 +132,9 @@ query Property($input: PropertyQueryArgumentsType!) {
 }
 ```
 
-**Response**
+**Response Payload:**
+
+The response arrives as multiple `content-type` chunks. The data is nested within an `incremental` array.
 
 ```
 ---
@@ -152,10 +155,11 @@ content-type: application/json; charset=utf-8
 {"hasNext":false,"extensions":{"totalRecordCount":3}}
 -----
 ```
-### Response JSON (Normal Mode)
+### 2. Standard Mode (JSON)
 
-**Request**
-```json
+**Request Example:**
+
+```graphql
 query Property($input: PropertyQueryArgumentsType!) {
   property(input: $input) {
     propertyPropertyDetails {
@@ -173,7 +177,9 @@ query Property($input: PropertyQueryArgumentsType!) {
   }
 }
 ```
-**Response**
+
+**Response Payload:**
+
 ```json
 {
     "data": {
@@ -271,4 +277,4 @@ Not all fields stated in the graphql specification are actually available.
     "extensions": {}
 }
 ```
-#### 
+
