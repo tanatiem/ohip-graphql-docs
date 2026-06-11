@@ -100,11 +100,143 @@
 
 ---
 
-## Notes on Client development
+# Notes
 
-### Known Request Errors
+## API Responses
 
-#### Fields not available
+Responses can be in two formats. It depends on the `@stream` directive at the query.
+Without it, the response comes in as a well-formed JSON. With `stream mode`, it will need a little more work on parsing the output.
+
+### Response using `@stream` mode
+
+> This should be the expected method to extract data. 
+
+**Request**
+```
+query Property($input: PropertyQueryArgumentsType!) {
+  property(input: $input) @stream {
+    propertyPropertyDetails {
+      property
+      propertyName
+      chainCode
+      countryCode
+      primaryKeyID
+      dSI
+      organizationID
+      deletedFlag
+      insertDate
+      updateDate
+    }
+  }
+}
+```
+
+**Response**
+
+```
+---
+content-type: application/json; charset=utf-8
+
+{"hasNext":true,"data":{"property":[]},"extensions":{}}
+---
+content-type: application/json; charset=utf-8
+
+{"hasNext":true,"incremental":[{"items":[{"propertyPropertyDetails":{"property":"ARIV","propertyName":"Anantara Riverside Bangkok Resort","chainCode":"MHG","countryCode":"TBA","primaryKeyID":22,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2024-03-15 03:57:32","updateDate":"2024-04-30 01:12:57"},"propertyRecordCount":1}]}]}
+---
+content-type: application/json; charset=utf-8
+
+{"hasNext":true,"incremental":[{"items":[{"propertyPropertyDetails":{"property":"ASIA","propertyName":"Anantara Siam Bangkok Hotels","chainCode":"MHG","countryCode":"TBA","primaryKeyID":49,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2026-04-20 10:05:52","updateDate":"2026-03-06 02:39:44"},"propertyRecordCount":2}]},{"items":[{"propertyPropertyDetails":{"property":"VRIV","propertyName":"Avani+ Riverside Bangkok Hotel","chainCode":"MHG","countryCode":"TBA","primaryKeyID":12,"dSI":672,"organizationID":4671,"deletedFlag":"N","insertDate":"2024-05-15 01:21:10","updateDate":"2024-05-01 04:40:36"},"propertyRecordCount":3}]}]}
+---
+content-type: application/json; charset=utf-8
+
+{"hasNext":false,"extensions":{"totalRecordCount":3}}
+-----
+```
+### Response JSON (Normal Mode)
+
+**Request**
+```json
+query Property($input: PropertyQueryArgumentsType!) {
+  property(input: $input) {
+    propertyPropertyDetails {
+      property
+      propertyName
+      chainCode
+      countryCode
+      primaryKeyID
+      dSI
+      organizationID
+      deletedFlag
+      insertDate
+      updateDate
+    }
+  }
+}
+```
+**Response**
+```json
+{
+    "data": {
+        "property": [
+            {
+                "propertyPropertyDetails": {
+                    "property": "ARIV",
+                    "propertyName": "Anantara Riverside Bangkok Resort",
+                    "chainCode": "MHG",
+                    "countryCode": "TBA",
+                    "primaryKeyID": 22,
+                    "dSI": 672,
+                    "organizationID": 4671,
+                    "deletedFlag": "N",
+                    "insertDate": "2024-03-15 03:57:32",
+                    "updateDate": "2024-04-30 01:12:57"
+                },
+                "propertyRecordCount": 1
+            },
+            {
+                "propertyPropertyDetails": {
+                    "property": "ASIA",
+                    "propertyName": "Anantara Siam Bangkok Hotels",
+                    "chainCode": "MHG",
+                    "countryCode": "TBA",
+                    "primaryKeyID": 49,
+                    "dSI": 672,
+                    "organizationID": 4671,
+                    "deletedFlag": "N",
+                    "insertDate": "2026-04-20 10:05:52",
+                    "updateDate": "2026-03-06 02:39:44"
+                },
+                "propertyRecordCount": 2
+            },
+            {
+                "propertyPropertyDetails": {
+                    "property": "VRIV",
+                    "propertyName": "Avani+ Riverside Bangkok Hotel",
+                    "chainCode": "MHG",
+                    "countryCode": "TBA",
+                    "primaryKeyID": 12,
+                    "dSI": 672,
+                    "organizationID": 4671,
+                    "deletedFlag": "N",
+                    "insertDate": "2024-05-15 01:21:10",
+                    "updateDate": "2024-05-01 04:40:36"
+                },
+                "propertyRecordCount": 3
+            }
+        ]
+    },
+    "extensions": {
+        "count": {
+            "Property_property": 3
+        }
+    }
+}
+```
+
+# Known Request Errors
+
+## Fields not available
+Not all fields stated in the graphql specification are actually available.
 
 ```json
 {
@@ -122,7 +254,7 @@
 }
 ```
 
-#### Exceeding Maximum # of columns: 150
+## Exceeding Maximum # of columns: 150
 ```json
 {
     "errors": [
@@ -139,3 +271,4 @@
     "extensions": {}
 }
 ```
+#### 
