@@ -245,7 +245,7 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
 ```
 **GraphQL Variables:**
 
-```graphql
+```python
 {
   "input": {
     "resortDetailsResort": {
@@ -290,8 +290,9 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
 </details>
 
 **Parsed JSON**
+
 | property | propertyName | updateDate | RecordCount |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | AAA | AAA Resort | 2024-04-30 01:12:57 | 1 |
 | BBB | BBB Resort | 2026-03-06 02:39:44 | 2 |
 
@@ -363,6 +364,7 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
 </details>
 
 **Parsed Response**
+
 | Property | Property Name | Property `updateDate` | Market Group | Market Group ID | Market Group `updateDate` | Record Count |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | AAA | AAA Resort | 2024-04-30 01:12:57 | BEN | BEN | 2024-04-05 08:15:40 | 1 |
