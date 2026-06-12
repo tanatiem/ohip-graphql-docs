@@ -231,67 +231,174 @@ query Property($input: PropertyQueryArgumentsType!) {
 ## Understanding Row Explosion
 
 **GraphQL Query:**
+
 ```graphql
-query Property($input: PropertyQueryArgumentsType!) {
-  property(input: $input) {
+query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
+  configurationResort(input: $input) {
     propertyPropertyDetails {
       property
-      primaryKeyID
-      dSI
-      organizationID
-      deletedFlag
-      insertDate
+      propertyName
       updateDate
     }
   }
 }
 ```
 **GraphQL Variables:**
+
 ```graphql
 {
   "input": {
     "resortDetailsResort": {
-        "_in": ["AAA","BBB","CCC"]
+        "_in": ["AAA","BBB"]
     }
   }
 }
 ```
 
-This returns 3 rows for each of 3 hotels specified with `propertyPropertyDetails` data. However, because a single property can have multiple transportation configured, adding `transportationTransportationDetails` to the exact same query introduces a `1:Many relationship`
+<details open>
+<summary>Response JSON</summary>
+
+```json
+{
+    "data": {
+        "configurationResort": [
+            {
+                "propertyPropertyDetails": {
+                    "property": "AAA",
+                    "propertyName": "AAA Resort",
+                    "updateDate": "2024-04-30 01:12:57"
+                },
+                "configurationResortRecordCount": 1
+            },
+            {
+                "propertyPropertyDetails": {
+                    "property": "BBB",
+                    "propertyName": "BBB Resort",
+                    "updateDate": "2026-03-06 02:39:44"
+                },
+                "configurationResortRecordCount": 2
+            }
+        ]
+    },
+    "extensions": {
+        "count": {
+            "ConfigurationResort_configurationResort": 2
+        }
+    }
+}
+```
+</details>
+
+**Parsed JSON**
+| property | propertyName | updateDate | RecordCount |
+| --- | --- | --- |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | 1 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | 2 |
+
+
+As per request variables, this query returns 2 rows, one for each hotel with the `property`,`propertyName`,`updateDate` in  `propertyPropertyDetails` object.
+
+However, a single hotel have multiple market groups configured, adding `marketGroupDetails` to the exact same query introduces a `1:Many relationship`.
+
+**GraphQL Query:**
 
 ```graphql
-query Property($input: PropertyQueryArgumentsType!) {
-  property(input: $input) {
+query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
+  configurationResort(input: $input) {
     propertyPropertyDetails {
       property
-      primaryKeyID
-      dSI
-      organizationID
-      deletedFlag
-      insertDate
+      propertyName
       updateDate
     }
-    transportationTransportationDetails {
-      property
-      transportID
-      label
-      primaryKeyID
-      dSI
-      organizationID
-      deletedFlag
-      insertDate
+    marketGroupDetails {
+      marketGroup
+      marketgroupid
       updateDate
     }
   }
 }
+
+```
+<details open>
+<summary>Response JSON</summary>
+
+```json
+{
+  "data": {
+    "configurationResort": [
+        {
+            "propertyPropertyDetails": {
+                "property": "AAA",
+                "propertyName": "AAA Resort",
+                "updateDate": "2024-04-30 01:12:57"
+            },
+            "marketGroupDetails": {
+                "marketGroup": "BEN",
+                "marketgroupid": "BEN",
+                "updateDate": "2024-04-05 08:15:40"
+            },
+            "configurationResortRecordCount": 1
+        },
+        {
+            "propertyPropertyDetails": {
+                "property": "AAA",
+                "propertyName": "AAA Resort",
+                "updateDate": "2024-04-30 01:12:57"
+            },
+            "marketGroupDetails": {
+                "marketGroup": "CMP",
+                "marketgroupid": "CMP",
+                "updateDate": "2024-04-05 08:15:40"
+            },
+            "configurationResortRecordCount": 2
+        },
+        ...
+    ]
+  }
+  ...
+}
+
 ```
 
-This will explode the result into 33 rows. The parent property data is duplicated across every single transportation row.
+</details>
+
+**Parsed Response**
+| Property | Property Name | Property `updateDate` | Market Group | Market Group ID | Market Group `updateDate` | Record Count |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | BEN | BEN | 2024-04-05 08:15:40 | 1 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | CMP | CMP | 2024-04-05 08:15:40 | 2 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | CAT | CAT | 2024-04-05 08:15:40 | 3 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | COR | COR | 2024-04-05 08:15:40 | 4 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | CON | CON | 2024-04-05 08:15:40 | 5 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | COO | COO | 2024-04-05 08:15:40 | 6 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | DIS | DIS | 2024-04-05 08:15:40 | 7 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | GRP | GRP | 2024-04-05 08:15:40 | 8 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | CORP | CORP | 2024-04-05 08:15:40 | 9 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | PER | PER | 2024-04-05 08:15:40 | 10 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | HOU | HOU | 2024-04-05 08:15:40 | 11 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | HAC | HAC | 2024-04-05 08:15:40 | 12 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | PKG | PKG | 2024-04-05 08:15:40 | 13 |
+| AAA | AAA Resort | 2024-04-30 01:12:57 | WHO | WHO | 2024-04-05 08:15:40 | 14 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | BEN | BEN | 2026-04-20 09:49:44 | 15 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | CAT | CAT | 2026-04-20 09:49:44 | 16 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | CMP | CMP | 2026-04-20 09:49:44 | 17 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | CON | CON | 2026-04-20 09:49:44 | 18 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | COO | COO | 2026-04-20 09:49:44 | 19 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | COR | COR | 2026-04-20 09:49:44 | 20 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | DIS | DIS | 2026-04-20 09:49:44 | 21 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | GRP | GRP | 2026-04-20 09:49:44 | 22 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | HAC | HAC | 2026-04-20 09:49:44 | 23 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | HOU | HOU | 2026-04-20 09:49:44 | 24 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | PER | PER | 2026-04-20 09:49:44 | 25 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | PKG | PKG | 2026-04-20 09:49:44 | 26 |
+| BBB | BBB Resort | 2026-03-06 02:39:44 | WHO | WHO | 2026-04-20 09:49:44 | 27 |
+
+The result is exploded from one row per one hotel with the duplcated data from the `parent`, working like `SQL join`.
 
 ### ℹ️ Decoupled Extractions
 When extracting data to build normalized tables to build a data warehouse, 1:Many relationships should be extracted via independent API requests:
-1. **The Parent Query** (e.g., Property): Extracts the core entity as its native grain.
-2. **The Child Query** (e.g. Transportation): in a seperate request. We may also need some IDs field from the parent for joining. (if it's not available in its own object) 
+1. **The Parent Query**: Extracts the core entity as its native grain.
+2. **The Child Query**: Calling the same subject area with different query. We may also need some IDs field from the parent for joining in Data Warehouse layer. (if it's not available in its own object).
 
 >I'm not sure at the moment what keys that we need to extract for joining tables. We will have to wait for the GraphQL workshop to identify the exact composite keys necessary to guarantee **`cross-datacenter uniqueness`**.
 
