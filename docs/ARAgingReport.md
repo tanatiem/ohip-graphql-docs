@@ -16,19 +16,19 @@
 
 ### ARAgingReportType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRAgingReportDetails | [`ARAgingReportARAgingReportDetailsType`](#aragingreportaragingreportdetailstype) | AR Aging Report |
-| transactionCodeDetails | [`ARAgingReportTransactionCodeDetailsType`](#aragingreporttransactioncodedetailstype) | Transaction Code |
-| folioDetails | [`ARAgingReportFolioDetailsType`](#aragingreportfoliodetailstype) | Folio Details |
-| financialTransactionDetails | [`ARAgingReportFinancialTransactionDetailsType`](#aragingreportfinancialtransactiondetailstype) | Financial Transaction |
-| accountDetails | [`ARAgingReportAccountDetailsType`](#aragingreportaccountdetailstype) | Account Details |
-| calendarPeriodDayDetails | [`ARAgingReportCalendarPeriodDayDetailsType`](#aragingreportcalendarperioddaydetailstype) | Calendar Period Daily Details |
-| financialPeriodDayDetails | [`ARAgingReportFinancialPeriodDayDetailsType`](#aragingreportfinancialperioddaydetailstype) | Financial Period Daily Details |
-| aRLedgerDetails | [`ARAgingReportARLedgerDetailsType`](#aragingreportarledgerdetailstype) | AR Ledger |
-| invoiceHeaderDetails | [`ARAgingReportInvoiceHeaderDetailsType`](#aragingreportinvoiceheaderdetailstype) | Invoice Header Details |
-| propertyPropertyDetails | [`ARAgingReportPropertyPropertyDetailsType`](#aragingreportpropertypropertydetailstype) | Resort Details |
-| aRAgingReportRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRAgingReportDetails | [`ARAgingReportARAgingReportDetailsType`](#aragingreportaragingreportdetailstype) | AR Aging Report |
+| 2 | transactionCodeDetails | [`ARAgingReportTransactionCodeDetailsType`](#aragingreporttransactioncodedetailstype) | Transaction Code |
+| 3 | folioDetails | [`ARAgingReportFolioDetailsType`](#aragingreportfoliodetailstype) | Folio Details |
+| 4 | financialTransactionDetails | [`ARAgingReportFinancialTransactionDetailsType`](#aragingreportfinancialtransactiondetailstype) | Financial Transaction |
+| 5 | accountDetails | [`ARAgingReportAccountDetailsType`](#aragingreportaccountdetailstype) | Account Details |
+| 6 | calendarPeriodDayDetails | [`ARAgingReportCalendarPeriodDayDetailsType`](#aragingreportcalendarperioddaydetailstype) | Calendar Period Daily Details |
+| 7 | financialPeriodDayDetails | [`ARAgingReportFinancialPeriodDayDetailsType`](#aragingreportfinancialperioddaydetailstype) | Financial Period Daily Details |
+| 8 | aRLedgerDetails | [`ARAgingReportARLedgerDetailsType`](#aragingreportarledgerdetailstype) | AR Ledger |
+| 9 | invoiceHeaderDetails | [`ARAgingReportInvoiceHeaderDetailsType`](#aragingreportinvoiceheaderdetailstype) | Invoice Header Details |
+| 10 | propertyPropertyDetails | [`ARAgingReportPropertyPropertyDetailsType`](#aragingreportpropertypropertydetailstype) | Resort Details |
+| 11 | aRAgingReportRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -36,81 +36,81 @@
 
 ### ARAgingReportARAgingReportDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRLedgerDebit | `Float` | AR Ledger Debit |
-| accountCode | `Float` | Account Code |
-| accountName | `String` | Account Name |
-| accountNumber | `String` | NOT IN USE |
-| accountType | `String` | Account Type |
-| accountid | `Float` | Accountid |
-| age1 | `Float` | Age 1 |
-| age2 | `Float` | Age 2 |
-| age3 | `Float` | Age 3 |
-| age4 | `Float` | Age 4 |
-| age5 | `Float` | Age 5 |
-| age6 | `Float` | Age 6 |
-| agingbucket | `Float` | Agingbucket |
-| arTransferDate | `Date` | AR Transfer Date |
-| billNumber | `Float` | Bill Number |
-| billingContactName | `String` | Contact information. |
-| businessDate | `Date` | Business Date |
-| cARLedgerCredit | `Float` | Central Ar Led Credit |
-| cARLedgerDebit | `Float` | Central Ar Led Debit |
-| cAmount | `Float` | Central Amount |
-| cContractCurrencyDifference | `Float` | Central Contract Curr Diff |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cOrganizationAmount | `Float` | Central Org Amt |
-| cOrganizationAmountContract | `Float` | Central Org Amt Contract |
-| cOrganizationAmountCurrencyDifference | `Float` | Central Org Amt Curr Diff |
-| cOrganizationAmountParallel | `Float` | Central Org Amt Parallel |
-| cParallelCurrencyDifference | `Float` | Central Parallel Curr Diff |
-| centralAccountType | `String` | Central Account Type |
-| centralOpenARTransactionAmount | `Float` | Central Open AR Transaction Amount |
-| checkOutDate | `Date` | Date on which the guest was checked out. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateForAging | `String` | Date the aging should begin |
-| fintransid | `Float` | Fintransid |
-| folioNo | `Float` | Folio Number |
-| folioid | `Float` | Folioid |
-| internalCheckoutDate | `Date` | Checkout Date |
-| invoiceAge | `Float` | Invoice Age |
-| invoiceCloseDate | `Date` | Invoice Close Date |
-| invoiceNo | `Float` | Invoice Number |
-| invoiceNumber | `Float` | Invoice Number |
-| invoiceStatus | `String` | Invoice Status |
-| invoiceamount | `Float` | Invoiceamount |
-| invoiceid | `Float` | Invoiceid |
-| invoiceprofileid | `Float` | Invoiceprofileid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterInvoiceNo | `Float` | Compressed Invoice No for which multiple invoices have been compressed to. |
-| nameId | `Float` | Name ID |
-| openARTransactionAmount | `Float` | Open AR Transaction Amount |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerRoom | `String` | The owner room where this invoice/payment belongs to. |
-| ownerroomid | `String` | Ownerroomid |
-| pmsBusinessDate | `Date` | Pms Business Date |
-| postDate | `Date` | Date + time the phone charge was posted. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reservationNameId | `Float` | Resv Name ID |
-| reservationid | `Float` | Reservationid |
-| room | `String` | Room |
-| roomid | `String` | Roomid |
-| transactionFromAcct | `Float` | Trns From Account |
-| transactionToAcct | `Float` | Trns To Account |
-| transactionid | `Float` | Transactionid |
-| transcodeid | `String` | Transcodeid |
-| transferfromaccountid | `Float` | Transferfromaccountid |
-| transfertoaccountid | `Float` | Transfertoaccountid |
-| trxCode | `String` | Transaction Code |
-| trxDate | `Date` | Transaction Date |
-| trxNumber | `Float` | Transaction No |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRLedgerDebit | `Float` | AR Ledger Debit |
+| 2 | accountCode | `Float` | Account Code |
+| 3 | accountName | `String` | Account Name |
+| 4 | accountNumber | `String` | NOT IN USE |
+| 5 | accountType | `String` | Account Type |
+| 6 | accountid | `Float` | Accountid |
+| 7 | age1 | `Float` | Age 1 |
+| 8 | age2 | `Float` | Age 2 |
+| 9 | age3 | `Float` | Age 3 |
+| 10 | age4 | `Float` | Age 4 |
+| 11 | age5 | `Float` | Age 5 |
+| 12 | age6 | `Float` | Age 6 |
+| 13 | agingbucket | `Float` | Agingbucket |
+| 14 | arTransferDate | `Date` | AR Transfer Date |
+| 15 | billNumber | `Float` | Bill Number |
+| 16 | billingContactName | `String` | Contact information. |
+| 17 | businessDate | `Date` | Business Date |
+| 18 | cARLedgerCredit | `Float` | Central Ar Led Credit |
+| 19 | cARLedgerDebit | `Float` | Central Ar Led Debit |
+| 20 | cAmount | `Float` | Central Amount |
+| 21 | cContractCurrencyDifference | `Float` | Central Contract Curr Diff |
+| 22 | cExchangeDate | `Date` | Central Xchange Date |
+| 23 | cExchangeRate | `Float` | Central Xchange Rate |
+| 24 | cOrganizationAmount | `Float` | Central Org Amt |
+| 25 | cOrganizationAmountContract | `Float` | Central Org Amt Contract |
+| 26 | cOrganizationAmountCurrencyDifference | `Float` | Central Org Amt Curr Diff |
+| 27 | cOrganizationAmountParallel | `Float` | Central Org Amt Parallel |
+| 28 | cParallelCurrencyDifference | `Float` | Central Parallel Curr Diff |
+| 29 | centralAccountType | `String` | Central Account Type |
+| 30 | centralOpenARTransactionAmount | `Float` | Central Open AR Transaction Amount |
+| 31 | checkOutDate | `Date` | Date on which the guest was checked out. |
+| 32 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 33 | dateForAging | `String` | Date the aging should begin |
+| 34 | fintransid | `Float` | Fintransid |
+| 35 | folioNo | `Float` | Folio Number |
+| 36 | folioid | `Float` | Folioid |
+| 37 | internalCheckoutDate | `Date` | Checkout Date |
+| 38 | invoiceAge | `Float` | Invoice Age |
+| 39 | invoiceCloseDate | `Date` | Invoice Close Date |
+| 40 | invoiceNo | `Float` | Invoice Number |
+| 41 | invoiceNumber | `Float` | Invoice Number |
+| 42 | invoiceStatus | `String` | Invoice Status |
+| 43 | invoiceamount | `Float` | Invoiceamount |
+| 44 | invoiceid | `Float` | Invoiceid |
+| 45 | invoiceprofileid | `Float` | Invoiceprofileid |
+| 46 | jRNUpdateDate | `Date` | JRN Update Date |
+| 47 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 48 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 49 | masterInvoiceNo | `Float` | Compressed Invoice No for which multiple invoices have been compressed to. |
+| 50 | nameId | `Float` | Name ID |
+| 51 | openARTransactionAmount | `Float` | Open AR Transaction Amount |
+| 52 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 53 | ownerRoom | `String` | The owner room where this invoice/payment belongs to. |
+| 54 | ownerroomid | `String` | Ownerroomid |
+| 55 | pmsBusinessDate | `Date` | Pms Business Date |
+| 56 | postDate | `Date` | Date + time the phone charge was posted. |
+| 57 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 58 | property | `String` | Code to uniquely identify the Property |
+| 59 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 60 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 61 | reservationNameId | `Float` | Resv Name ID |
+| 62 | reservationid | `Float` | Reservationid |
+| 63 | room | `String` | Room |
+| 64 | roomid | `String` | Roomid |
+| 65 | transactionFromAcct | `Float` | Trns From Account |
+| 66 | transactionToAcct | `Float` | Trns To Account |
+| 67 | transactionid | `Float` | Transactionid |
+| 68 | transcodeid | `String` | Transcodeid |
+| 69 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 70 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 71 | trxCode | `String` | Transaction Code |
+| 72 | trxDate | `Date` | Transaction Date |
+| 73 | trxNumber | `Float` | Transaction No |
 
 [⬆ Back to Query](#query)
 
@@ -118,176 +118,176 @@
 
 ### ARAgingReportTransactionCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
-| aRNameId | `Float` | Ar Name ID |
-| accountNumber | `String` | Account Number |
-| accountingCode | `String` | Accounting Code |
-| acctrecvprofileid | `Float` | Acctrecvprofileid |
-| adjTrxCode | `String` | Adj Trx Code |
-| adjtranscodeid | `String` | Adjtranscodeid |
-| arrangeCode | `String` | Arrange Code |
-| arrangementCode | `String` | Arrangement Code |
-| cDefaultPrice | `Float` | Central Default Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cExportBucket | `Float` | Central Export Bucket |
-| cMaxAmount | `Float` | Central Max Amt |
-| cMinimumAmount | `Float` | Central Min Amt |
-| cCCode | `String` | CC Code |
-| cRSTaxDesc | `String` | Crs Tax Description |
-| cashTransactionCodeYN | `String` | Cash Transaction Code YN |
-| ccType | `String` | Cc Type |
-| centalSubgroup | `String` | Cental Subgroup |
-| centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
-| centralTransactionCode | `String` | Central Transaction Code |
-| centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
-| checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| commissionCode | `Float` | Commission Code |
-| compNightsYn | `String` | Comp Nights Y/N |
-| compPaymentYn | `String` | Comp Payment Y/N |
-| complimentaryYN | `String` | Complimentary YN |
-| corpPropFlag | `String` | Corp Prop Flag |
-| corporateDescription | `String` | Corporate Description |
-| crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyPlanFolio | `Float` | Daily Plan Folio |
-| dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| defaultPrice | `Float` | Default Price |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
-| depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| eInvoiceYn | `String` | E Invoice Y/N |
-| expenseFolio | `Float` | Expense Folio |
-| exportBucket | `Float` | Export Bucket |
-| externalPaymentCode | `String` | External Payment Code |
-| fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| gDeletedFlag | `String` | Group Deleted Flag |
-| gDescription | `String` | Group Description |
-| gInsertDate | `DateTime` | Group Insert Date |
-| gInsertUser | `Float` | Group Insert User |
-| gOrderBy | `Float` | Group Order By |
-| gRepDescription | `String` | Group Rep Description |
-| gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
-| gRevenuegroupflag | `String` | Group Revenuegroupflag |
-| gTctClassType1 | `String` | Group Tct Class Type1 |
-| gTctClassType2 | `String` | Group Tct Class Type2 |
-| gUpdateDate | `DateTime` | Group Update Date |
-| gUpdateUser | `Float` | Group Update User |
-| group | `String` | Group |
-| groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
-| groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
-| groupFolio | `Float` | Group Folio |
-| groupIndRevenueGroup | `String` | G Individual Revenue Gp |
-| groupInternalYN | `String` | G Internal Y/N |
-| groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| groupRepItem | `String` | G Reporting Item |
-| groupRepItemName | `String` | G Reporting Item Name |
-| groupRepItemOrderby | `Float` | G Reporting Item Orderby |
-| groupRepOrderBy | `Float` | G Reporting Order By |
-| groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
-| groupTcTransactionType | `String` | G Transaction Code Transaction Type |
-| guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| includeIn8300Yn | `String` | Include In 8300 Y/N |
-| includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
-| maximumAmount | `Float` | Maximum Amount |
-| membershipYN | `String` | Membership YN |
-| minimumAmount | `Float` | Minimum Amount |
-| nonTaxableYn | `String` | Non Taxable Y/N |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerRevenueYN | `String` | Owner Rev Y/N |
-| paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| paymentType | `String` | Payment Type |
-| paymentmethodid | `String` | Paymentmethodid |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| property | `String` | Property |
-| quantityCode | `String` | Quantity Code |
-| repDescription | `String` | Rep Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| revenueBucketId | `Float` | Rev Bucket ID |
-| revenueGroupId | `Float` | Rev Gp ID |
-| revenueYN | `String` | Revenue YN |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| rotationRevenueYN | `String` | Rotation Rev Y/N |
-| roundFactorYn | `String` | Round Factor Y/N |
-| serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| sgDeletedFlag | `String` | Sub-Group Deleted Flag |
-| sgDescription | `String` | Sub-Group Description |
-| sgInsertDate | `DateTime` | Sub-Group Insert Date |
-| sgInsertUser | `Float` | Sub-Group Insert User |
-| sgOrderBy | `Float` | Sub-Group Order By |
-| sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
-| sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
-| sgTaxflag | `String` | Sub-Group Taxflag |
-| sgUpdateDate | `DateTime` | Sub-Group Update Date |
-| sgUpdateUser | `Float` | Sub-Group Update User |
-| subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
-| subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
-| subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
-| subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
-| subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
-| subGroupInternalYN | `String` | Sg Internal Y/N |
-| subGroupRepDescription | `String` | Sg Reporting Description |
-| subGroupRepOrderBy | `Float` | Sg Reporting Order By |
-| subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
-| subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
-| subGroupType | `String` | Sub-Group Type |
-| taxCodeNumber | `Float` | Tax Code Number |
-| taxInclusiveYN | `String` | Tax Inclusive YN |
-| taxYN | `String` | Tax YN |
-| tcBofInterface | `String` | Not Used. |
-| tcBofInterface2 | `String` | Not Used. |
-| tcBofRefCode | `String` | Not Used. |
-| tcBofRefCode2 | `String` | Not Used. |
-| tcResort2 | `String` | Not Used. |
-| tcTransactionType | `String` | Transaction Code Transaction Type |
-| tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| transactionActionId | `Float` | Trx Action ID |
-| transactionCodeDescription | `String` | Transaction Code Description |
-| transactionCodeGroup | `String` | Transaction Code Group |
-| transactionCodeResort | `String` | Not Used. |
-| transactionCodeSubGroup | `String` | Transaction Code Sub-group |
-| transactionCodeType | `String` | Transaction Code Type |
-| transactionType | `String` | Transaction Type |
-| transcodearrangementid | `String` | Transcodearrangementid |
-| transcodeid | `String` | Transcodeid |
-| trxCode | `String` | Trx Code |
-| trxCodeDisplay | `String` | Transaction Code Display |
-| trxServiceType | `String` | Transaction Service Type |
-| trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| uPC | `String` | UPC |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
+| 2 | aRNameId | `Float` | Ar Name ID |
+| 3 | accountNumber | `String` | Account Number |
+| 4 | accountingCode | `String` | Accounting Code |
+| 5 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 6 | adjTrxCode | `String` | Adj Trx Code |
+| 7 | adjtranscodeid | `String` | Adjtranscodeid |
+| 8 | arrangeCode | `String` | Arrange Code |
+| 9 | arrangementCode | `String` | Arrangement Code |
+| 10 | cDefaultPrice | `Float` | Central Default Price |
+| 11 | cExchangeDate | `Date` | Central Xchange Date |
+| 12 | cExchangeRate | `Float` | Central Xchange Rate |
+| 13 | cExportBucket | `Float` | Central Export Bucket |
+| 14 | cMaxAmount | `Float` | Central Max Amt |
+| 15 | cMinimumAmount | `Float` | Central Min Amt |
+| 16 | cCCode | `String` | CC Code |
+| 17 | cRSTaxDesc | `String` | Crs Tax Description |
+| 18 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
+| 19 | ccType | `String` | Cc Type |
+| 20 | centalSubgroup | `String` | Cental Subgroup |
+| 21 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
+| 22 | centralTransactionCode | `String` | Central Transaction Code |
+| 23 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 24 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
+| 25 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 26 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 27 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 28 | commissionCode | `Float` | Commission Code |
+| 29 | compNightsYn | `String` | Comp Nights Y/N |
+| 30 | compPaymentYn | `String` | Comp Payment Y/N |
+| 31 | complimentaryYN | `String` | Complimentary YN |
+| 32 | corpPropFlag | `String` | Corp Prop Flag |
+| 33 | corporateDescription | `String` | Corporate Description |
+| 34 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 35 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 36 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 37 | currencyCode | `String` | Currency Code |
+| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 39 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 40 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 41 | defaultPrice | `Float` | Default Price |
+| 42 | deletedFlag | `String` | Deleted Flag |
+| 43 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
+| 44 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 45 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 46 | eInvoiceYn | `String` | E Invoice Y/N |
+| 47 | expenseFolio | `Float` | Expense Folio |
+| 48 | exportBucket | `Float` | Export Bucket |
+| 49 | externalPaymentCode | `String` | External Payment Code |
+| 50 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 51 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 52 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 53 | gDeletedFlag | `String` | Group Deleted Flag |
+| 54 | gDescription | `String` | Group Description |
+| 55 | gInsertDate | `DateTime` | Group Insert Date |
+| 56 | gInsertUser | `Float` | Group Insert User |
+| 57 | gOrderBy | `Float` | Group Order By |
+| 58 | gRepDescription | `String` | Group Rep Description |
+| 59 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
+| 60 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
+| 61 | gTctClassType1 | `String` | Group Tct Class Type1 |
+| 62 | gTctClassType2 | `String` | Group Tct Class Type2 |
+| 63 | gUpdateDate | `DateTime` | Group Update Date |
+| 64 | gUpdateUser | `Float` | Group Update User |
+| 65 | group | `String` | Group |
+| 66 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
+| 67 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
+| 68 | groupFolio | `Float` | Group Folio |
+| 69 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
+| 70 | groupInternalYN | `String` | G Internal Y/N |
+| 71 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 72 | groupRepItem | `String` | G Reporting Item |
+| 73 | groupRepItemName | `String` | G Reporting Item Name |
+| 74 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
+| 75 | groupRepOrderBy | `Float` | G Reporting Order By |
+| 76 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
+| 77 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
+| 78 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
+| 79 | inactiveDate | `Date` | Inactive Date |
+| 80 | inactiveflag | `String` | Inactive Flag |
+| 81 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 82 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
+| 83 | insertDate | `DateTime` | Insert Date |
+| 84 | insertUser | `Float` | Insert User |
+| 85 | internalDeletedflag | `String` | Deleted Flag |
+| 86 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 87 | internalYn | `String` | Internal Y/N |
+| 88 | jRNUpdateDate | `Date` | JRN Update Date |
+| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 90 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 91 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 92 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
+| 93 | maximumAmount | `Float` | Maximum Amount |
+| 94 | membershipYN | `String` | Membership YN |
+| 95 | minimumAmount | `Float` | Minimum Amount |
+| 96 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 97 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 98 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 99 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 100 | paymentType | `String` | Payment Type |
+| 101 | paymentmethodid | `String` | Paymentmethodid |
+| 102 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 103 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 104 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 105 | property | `String` | Property |
+| 106 | quantityCode | `String` | Quantity Code |
+| 107 | repDescription | `String` | Rep Description |
+| 108 | repItem | `String` | Reporting Item |
+| 109 | repItemName | `String` | Reporting Item Name |
+| 110 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 111 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 112 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 113 | revenueBucketId | `Float` | Rev Bucket ID |
+| 114 | revenueGroupId | `Float` | Rev Gp ID |
+| 115 | revenueYN | `String` | Revenue YN |
+| 116 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 117 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 118 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 119 | roundFactorYn | `String` | Round Factor Y/N |
+| 120 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 121 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
+| 122 | sgDescription | `String` | Sub-Group Description |
+| 123 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
+| 124 | sgInsertUser | `Float` | Sub-Group Insert User |
+| 125 | sgOrderBy | `Float` | Sub-Group Order By |
+| 126 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
+| 127 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
+| 128 | sgTaxflag | `String` | Sub-Group Taxflag |
+| 129 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
+| 130 | sgUpdateUser | `Float` | Sub-Group Update User |
+| 131 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
+| 132 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
+| 133 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
+| 134 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
+| 135 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
+| 136 | subGroupInternalYN | `String` | Sg Internal Y/N |
+| 137 | subGroupRepDescription | `String` | Sg Reporting Description |
+| 138 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
+| 139 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
+| 140 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
+| 141 | subGroupType | `String` | Sub-Group Type |
+| 142 | taxCodeNumber | `Float` | Tax Code Number |
+| 143 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 144 | taxYN | `String` | Tax YN |
+| 145 | tcBofInterface | `String` | Not Used. |
+| 146 | tcBofInterface2 | `String` | Not Used. |
+| 147 | tcBofRefCode | `String` | Not Used. |
+| 148 | tcBofRefCode2 | `String` | Not Used. |
+| 149 | tcResort2 | `String` | Not Used. |
+| 150 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 151 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 152 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 153 | transactionActionId | `Float` | Trx Action ID |
+| 154 | transactionCodeDescription | `String` | Transaction Code Description |
+| 155 | transactionCodeGroup | `String` | Transaction Code Group |
+| 156 | transactionCodeResort | `String` | Not Used. |
+| 157 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
+| 158 | transactionCodeType | `String` | Transaction Code Type |
+| 159 | transactionType | `String` | Transaction Type |
+| 160 | transcodearrangementid | `String` | Transcodearrangementid |
+| 161 | transcodeid | `String` | Transcodeid |
+| 162 | trxCode | `String` | Trx Code |
+| 163 | trxCodeDisplay | `String` | Transaction Code Display |
+| 164 | trxServiceType | `String` | Transaction Service Type |
+| 165 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 166 | uPC | `String` | UPC |
+| 167 | updateDate | `DateTime` | Update Date |
+| 168 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -295,55 +295,55 @@
 
 ### ARAgingReportFolioDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| billGenerationDate | `Date` | Bill Generation Date |
-| billNumber | `Float` | Bill Number |
-| businessdate | `Date` | Businessdate |
-| cashierId | `Float` | Cashier ID |
-| checkExchangeReceiptNumber | `Float` | Check Exchange Receipt Number |
-| currencyExchangeReceiptNumber | `Float` | Internal number to represent the currency exchange receipt number. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| folioNo | `Float` | Folio Number |
-| folioSeqNumber | `Float` | Unique number to identify the entry. |
-| folioStatus | `String` | The status to identify whether a guest is getting checked out. |
-| folioStyle | `String` | Folio Style |
-| folioType | `String` | Identify the FOLIO TYPE. |
-| folioView | `Float` | Folio View |
-| folioid | `Float` | Folioid |
-| frontOfficeDate | `Date` | Date when folio is created |
-| fullFolioNo | `String` | Full Folio Number |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalUpdatedate | `DateTime` | Update Date |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| name | `String` | Name |
-| nameId | `Float` | Name ID |
-| numberReprints | `Float` | Number Reprints. |
-| numberOfPersons | `Float` | No of persons currently using the account |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| phoneDetails | `String` | Phone Details |
-| postitNo | `Float` | Postit Number |
-| postityn | `String` | Postityn |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| processIdent | `String` | Identifying the process |
-| profileid | `Float` | Profileid |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reservationNameId | `Float` | Resv Name ID |
-| reservationid | `Float` | Reservationid |
-| resvdeptrno | `Float` | Resvdeptrno |
-| resvenddate | `Date` | Resvenddate |
-| revisionNumber | `Float` | Revision Number |
-| state | `String` | State |
-| templatePath | `String` | Template path for report defination |
-| timestamp | `Date` | Date on which the folio is created or date of the checkout. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | billGenerationDate | `Date` | Bill Generation Date |
+| 2 | billNumber | `Float` | Bill Number |
+| 3 | businessdate | `Date` | Businessdate |
+| 4 | cashierId | `Float` | Cashier ID |
+| 5 | checkExchangeReceiptNumber | `Float` | Check Exchange Receipt Number |
+| 6 | currencyExchangeReceiptNumber | `Float` | Internal number to represent the currency exchange receipt number. |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedFlag | `String` | Deleted Flag |
+| 9 | folioNo | `Float` | Folio Number |
+| 10 | folioSeqNumber | `Float` | Unique number to identify the entry. |
+| 11 | folioStatus | `String` | The status to identify whether a guest is getting checked out. |
+| 12 | folioStyle | `String` | Folio Style |
+| 13 | folioType | `String` | Identify the FOLIO TYPE. |
+| 14 | folioView | `Float` | Folio View |
+| 15 | folioid | `Float` | Folioid |
+| 16 | frontOfficeDate | `Date` | Date when folio is created |
+| 17 | fullFolioNo | `String` | Full Folio Number |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | internalUpdatedate | `DateTime` | Update Date |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 24 | name | `String` | Name |
+| 25 | nameId | `Float` | Name ID |
+| 26 | numberReprints | `Float` | Number Reprints. |
+| 27 | numberOfPersons | `Float` | No of persons currently using the account |
+| 28 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 29 | phoneDetails | `String` | Phone Details |
+| 30 | postitNo | `Float` | Postit Number |
+| 31 | postityn | `String` | Postityn |
+| 32 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 33 | processIdent | `String` | Identifying the process |
+| 34 | profileid | `Float` | Profileid |
+| 35 | property | `String` | Code to uniquely identify the Property |
+| 36 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 37 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 38 | reservationNameId | `Float` | Resv Name ID |
+| 39 | reservationid | `Float` | Reservationid |
+| 40 | resvdeptrno | `Float` | Resvdeptrno |
+| 41 | resvenddate | `Date` | Resvenddate |
+| 42 | revisionNumber | `Float` | Revision Number |
+| 43 | state | `String` | State |
+| 44 | templatePath | `String` | Template path for report defination |
+| 45 | timestamp | `Date` | Date on which the folio is created or date of the checkout. |
+| 46 | updateDate | `DateTime` | Update Date |
+| 47 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -351,369 +351,369 @@
 
 ### ARAgingReportFinancialTransactionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRChargeTransferFlagYN | `String` | AR Charge Transfer YN |
-| aRChargeTransferYN | `String` | Indicates if an individual charge has been transferred to another invoice in AR. Used to disallow operations such as the transfer of same charge multiple times editing an already transferred charge etc. |
-| aRLedgerCredit | `Float` | AR Ledger Credit |
-| aRLedgerDebit | `Float` | AR Ledger Debit |
-| aRState | `String` | AR State |
-| aRTransferDate | `Date` | AR Transfer Date |
-| aSBOnlyPostTaxesOnceYn | `String` | Set Y to transactions when the application parameter ONLY POST TAXES ONCE FOR APARTMENT STYLE BILLING CHARGES is set. Proper rows and net amount will be shown in reports when the parameter is turned on or off. |
-| aSBTaxFlag | `String` | Populate the tax rows that are inserted for Trial balance with "ASB_TB_TAX". Other reports and screens will hide these transactions. |
-| accountCode | `Float` | Account Code |
-| accountName | `String` | Account Name |
-| accountNumber | `String` | Account Number |
-| accountTypeFlag | `String` | Account Type Flag |
-| accountid | `Float` | Accountid |
-| adjustmentYN | `String` | Adjustment YN |
-| advGenerateTrxCode | `String` | Transaction code of the master posting of the automatic adjustment posting for advanced generates. |
-| advanceBillReversedYn | `String` | Identifies if this Advance Bill has been reversed. |
-| advanceBillYn | `String` | Identifies if this transaction was generated by Advance Bill. |
-| advancedGenerateYn | `String` | The charge / generate is eligible as part of advanced generates functionality. |
-| advancedGeneratedAdjustment | `String` | Indicates the automatic adjustment posting for advanced generates. Possible values are ?NA? ?CO?. |
-| advgentranscodeid | `String` | Advgentranscodeid |
-| allowanceType | `String` | Distinguish "Same day" package from a next day package by storing N/S. |
-| apartmentStyleBillingType | `String` | Indicates ASB transactions: Rental charge for an [A]partment Style Rental Cycle [O]ffsetting transaction for Rental charge for an Apartment Style Rental Cycle [N]ightly Rental Posting [W]aived Nights Rental Posting |
-| approvalCode | `String` | Approval Code |
-| approvalDate | `Date` | Approval Date |
-| approvalStatus | `String` | Approval Status |
-| arrangementCode | `String` | Arrangement Code |
-| arrangementDesc | `String` | Arrangement Description for the Transaction Code. |
-| arrangementId | `Float` | Arrangement ID |
-| articleId | `Float` | Article ID |
-| associatedReceiptNo | `Float` | Indicates the associated receipt number printed for a particular receipt type. |
-| associatedTrxNumber | `Float` | Indicates the associated transaction number for a particular receipt type. |
-| authemployeeid | `Float` | Authemployeeid |
-| authorizer | `String` | Authorizer |
-| autoCreditbillYn | `String` | Indicates if this column was automatically created for Automatic Credit Bills. |
-| autoSettleYn | `String` | Auto Settle Y/N |
-| billingEventID | `Float` | Billing Event ID |
-| bonusCheckId | `Float` | Bonus Check ID |
-| bucketCode | `String` | Bucket code related to this redemption. |
-| bucketRedempYn | `String` | Indicates that this transaction was a gaming bucket redemption. |
-| businessDate | `Date` | Business Date |
-| cCashierOpeningBalance | `Float` | Central Cashier Opening Balance |
-| cChangeDue | `Float` | Central Change Due |
-| cContractGrossAmount | `Float` | Central Contract Gross Amount |
-| cContractGuestCredit | `Float` | Central Contract Guest Credit |
-| cContractGuestDebit | `Float` | Central Contract Guest Debit |
-| cContractNetAmount | `Float` | Central Contract Net Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cForexCommissionAmount | `Float` | Central Forex Comm Amount |
-| cOrganizationARLedgerDebit | `Float` | Central Org Ar Led Debit |
-| cOrganizationPostedAmount | `Float` | Central Org Posted Amount |
-| cPackageAllowance | `Float` | Central Package Allowance |
-| cParallelGrossAmount | `Float` | Central Parallel Gross Amount |
-| cParallelGuestCredit | `Float` | Central Parallel Guest Credit |
-| cParallelGuestDebit | `Float` | Central Parallel Guest Debit |
-| cParallelNetAmount | `Float` | Central Parallel Net Amount |
-| cPaymentSurchargeAmount | `Float` | Central Payment Surcharge Amt |
-| cTaxRate | `Float` | Central Tax Rate |
-| cVatAmount | `Float` | Central Vat Amount |
-| cCApproval | `String` | CC Approval Code |
-| calculatePointsYN | `String` | Calculate Points YN |
-| cashBagNumber | `String` | Cash Bag Number |
-| cashier | `String` | Cashier |
-| cashierCredit | `Float` | Cashier Credit |
-| cashierDebit | `Float` | Cashier Debit |
-| cashierID | `Float` | Cashier ID |
-| cashierOpeningBalance | `Float` | Cashier Opening Balance |
-| ccRefundPosting | `String` | Identifies if this record was the result of a credit card refund possible values: REFUND or OVERRIDE.OVERRIDE means a user authorized a refund amount larger than the original cc charge. |
-| centralARLedgerCredit | `Float` | Central AR Ledger Credit |
-| centralARLedgerDebit | `Float` | Central AR Ledger Debit |
-| centralAdvancedGeneratedTransactionCode | `String` | Central Advanced Generated Transaction Code |
-| centralCashierCredit | `Float` | Central Cashier Credit |
-| centralCashierDebit | `Float` | Central Cashier Debit |
-| centralCreditCardSurcharge | `Float` | Central Credit Card Surcharge |
-| centralDepositAmountPaid | `Float` | Central Deposit Amount Paid |
-| centralDepositLedgerCredit | `Float` | Central Deposit Ledger Credit |
-| centralDepositLedgerDebit | `Float` | Central Deposit Ledger Debit |
-| centralGrossAmount | `Float` | Central Gross Amount |
-| centralGuestAccountLedgerCredit | `Float` | Central Guest Account Ledger Credit |
-| centralGuestAccountLedgerDebit | `Float` | Central Guest Account Ledger Debit |
-| centralInHouseCredit | `Float` | Central In-House Credit |
-| centralInHouseDebit | `Float` | Central In-House Debit |
-| centralMarketCode | `String` | Central Market Code |
-| centralMarketDescription | `String` | Central Market Description |
-| centralMarketGroupCode | `String` | Central Market Group Code |
-| centralMarketGroupDescription | `String` | Central Market Group Description |
-| centralNetAmount | `Float` | Central Net Amount |
-| centralNonRevenueAmount | `Float` | Central Non Revenue Amount |
-| centralPackage | `String` | Central Package |
-| centralPackageLedgerCredit | `Float` | Central Package Ledger Credit |
-| centralPackageLedgerDebit | `Float` | Central Package Ledger Debit |
-| centralPostedAmountInBaseCurrency | `Float` | Central Posted Amount in Base Currency |
-| centralPricePerUnit | `Float` | Central Price Per Unit |
-| centralRevenueIncluded | `Float` | Central Revenue Included |
-| centralTransactionCodeDescription | `String` | Central Transaction Code Description |
-| centralTrialBalanceAmountGross | `Float` | Central Trial Balance Amount Gross |
-| centralTrialBalanceAmountNet | `Float` | Central Trial Balance Amount Net |
-| chainCode | `String` | Chain Code |
-| changeDue | `Float` | Change Due |
-| checkFileId | `String` | This field will store the file number for the guest check PNG file which has to be appended to the application settings base URL. |
-| checkNumber | `String` | Check Number |
-| closureNumber | `Float` | Closure Number |
-| collectionAgentPostingYn | `String` | Y => tax posting for a collecting agent |
-| comments | `String` | Comments |
-| compLinkTrxCode | `String` | Trx code of original transaction that was turned into a comp |
-| compLinkTrxNumber | `Float` | Trx no of original transaction that was turned into a comp |
-| compTypeCode | `String` | Comp Type Code |
-| complinktranscodeid | `String` | Complinktranscodeid |
-| compressedYn | `String` | Compressed Y/N |
-| contractforeigncurrencyid | `String` | Contract Foreign Currency ID |
-| correctionYn | `String` | Indicates if this transaction is used as part of a correction folio. |
-| couponNo | `String` | Coupon Number |
-| covers | `String` | Covers |
-| creditCardId | `Float` | Credit Card ID |
-| creditCardSurcharge | `Float` | Fee (surcharge) amount for a credit card transaction. |
-| creditYN | `String` | Credit YN |
-| currencyCode | `String` | Currency Code |
-| customChargeDate | `Date` | This is the custom charge date populated by Property Charge Adjustments. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debitYN | `String` | Debit YN |
-| deferredYn | `String` | Deferred Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| depPostingFlag | `String` | Indicates if the posting is a deposit posting as part of the Guest Ledger Deposits functionality. Also indicates if the charge has been offset after checkin. Possible values [PRX] |
-| depTaxTransferedYn | `String` | Indicates if this row is a deposit tax which has been transfered. |
-| depositLedgerCredit | `Float` | Deposit Ledger Credit |
-| depositLedgerDebit | `Float` | Deposit Ledger Debit |
-| depositTransactionId | `String` | Deposit Transaction ID |
-| depositlinkfintransid | `Float` | Depositlinkfintransid |
-| displayflag | `String` | Displayflag |
-| dualCurrency | `String` | Cuurency code for parrallel currency. |
-| dualCurrencyGrossAmount | `Float` | Dual Currency Gross Amount |
-| dualCurrencyGuestCredit | `Float` | Credit amount on the guest account stored in parrallel currency. |
-| dualCurrencyGuestDebit | `Float` | Debit amount on the guest account stored in parrallel currency. |
-| dualCurrencyNetAmount | `Float` | Dual Currency Net Amount |
-| effectiveDate | `Date` | Transactions statement date used for OVOS statement reports to allocate transactions into required statement period. |
-| electronicVoucherNo | `Float` | Stores the voucher_no from VOUCHERS_DETAILS to keep track of voucher amount consumed. |
-| esignedReceiptName | `String` | File Name of the Electronically Signed Payment Receipt. |
-| euroExchangeRate | `Float` | Euro Exchange Rate |
-| exchDifferenceTrxNumber | `Float` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
-| exchangeDate | `Date` | Exchange Date |
-| exchangeDifferenceYN | `String` | Exchange Difference YN |
-| exchangeRate | `Float` | Exchange Rate |
-| exchangeType | `String` | Type of currency exchange conducted.  Possible values: [E]xchange [S]ettlement [C]ommission [M]embership [EC] Exchange Check [P]osting. |
-| expInvoiceType | `String` | Export Invoice Type |
-| expOriginalInvoice | `String` | Export Original Invoice |
-| extSysResultMsg | `String` | Oxi interface to External System Result message text. |
-| extTransactionId | `String` | Transaction ID from external system. |
-| fbaCertificateNumber | `String` | Flexible Benefit Award certificate number. |
-| financialDmlSeqNumber | `Float` | Number to identify the DML sequence. |
-| financialTransactionCodeType | `String` | Financial Transaction Code Type |
-| fintransactionid | `Float` | Fintransactionid |
-| fintransid | `Float` | Fintransid |
-| fiscalBillNo | `String` | Fiscal Bill Number |
-| fixedChargesYN | `String` | Fixed Charges YN |
-| folioNo | `Float` | Folio Number |
-| folioType | `String` | Folio Type |
-| folioTypeJoin | `String` | Folio Type Join |
-| folioView | `Float` | Folio View |
-| folioid | `Float` | Folioid |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| forexCommAmount | `Float` | Foreign Exchange commission amount. |
-| forexCommPerc | `Float` | Foreign Exchange commission percentage. |
-| forexTaxYn | `String` | Populate as Y for transactions posted with application settings 1)Currency Exchange Tax and 2)Currency Exchange Offset. |
-| forexType | `String` | Type of Foreign Currency Exchange. B=Buy  S=Sell. |
-| fromReservationId | `Float` | From Resv ID |
-| ftGeneratedType | `String` | Column has become unused after the chage of business rules down the line. |
-| ftSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
-| genCashierId | `Float` | General Cashier Id. |
-| gpAwardCancelCode | `String` | HYATT mode: Gold Passport Award Cancel Code. Field will be populated for transactions that are created when awards redeemed in the past are cancelled e.g. when a Folio is Re-opened. |
-| gpAwardCode | `String` | HYATT mode: Gold Passport Award Code associated with the redemption of points. Field will be populated for a payment transaction. |
-| grossAmount | `Float` | Gross Amount |
-| groupAwardCancelledYN | `String` | HYATT mode: Indicates if an Award Transaction was cancelled. |
-| guestAccountLedgerCredit | `Float` | Guest Account Ledger Credit |
-| guestAccountLedgerDebit | `Float` | Debit amount on the guest account |
-| guestCountry | `String` | Guest Country |
-| guestCountryCode | `String` | Guest Country Code |
-| hotelAcct | `String` | Specifies the Hotel acct against which this transaction has beenposted. |
-| inHouseCredit | `Float` | In-House Credit |
-| inHouseDebit | `Float` | In-House Debit |
-| incTaxDeductedYn | `String` | Identifies if this transaction has had inclusive taxes removed during comping. |
-| individualAdjustmentYN | `String` | Ind Adjustment Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| insertUserName | `String` | The name of the user who created the record. |
-| installments | `Float` | Installments |
-| internalArticleid | `Float` | Articleid |
-| internalBusinessdate | `Date` | Businessdate |
-| internalCashierid | `Float` | Cashierid |
-| internalWindowId | `Float` | Internal Window ID |
-| internalYN | `String` | Internal YN |
-| invoiceCloseDate | `Date` | Invoice Close Date |
-| invoiceNumber | `Float` | Invoice Number |
-| invoiceType | `String` | Invoice Type |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| linkTrxNumber | `Float` | Link Transaction No |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| marketCode | `String` | Market Code |
-| marketDescription | `String` | Market Description |
-| marketDisplaySequence | `Float` | Market Display Sequence |
-| marketGroupCode | `String` | Market Group Code |
-| marketGroupDescription | `String` | Market Group Description |
-| marketGroupDisplaySequence | `Float` | Market Group Display Sequence |
-| marketid | `String` | Marketid |
-| membershipID | `Float` | Membership ID |
-| mtrxNoAgainstPackage | `Float` | Sequence number generated automatically when packages are posted during manual room and tax. |
-| nameId | `Float` | Name ID |
-| nameTaxType | `String` | Name Tax Type |
-| netAmount | `Float` | Net Amount |
-| nonRevenueAmount | `Float` | Non Revenue Amount |
-| numberDialed | `String` | Number Dialed. |
-| oTransactionDesc | `String` | Transaction Description. |
-| oVOSCurrency | `String` | Currency code for contract currency. |
-| oVOSGrossAmount | `Float` | Contract equivalent to the GROSS_AMOUNT field value for the transaction number this record applies to. |
-| oVOSGuestCredit | `Float` | Stores the credit amount on the guest account in contract currency. |
-| oVOSGuestDebit | `Float` | Stores the debit amount on the guest account in contract currency. |
-| oVOSNetAmount | `Float` | Contract equivalent to the NET_AMOUNT field value for the transaction number this record applies to. |
-| onHoldYN | `String` | On Hold YN |
-| orgPostedAmount | `Float` | The original transaction amount sent to the financial API. |
-| organizationArLedgerDebit | `Float` | Stores the original AR ledger debit amount for Direct Bill transactions. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originalBillNumber | `Float` | Stores original bill number after void. |
-| originalFolioNumber | `String` | Stores original folio type after void. |
-| originalReservationNameId | `Float` | Original Resv Name ID |
-| originalRoom | `String` | Original Room |
-| originalresvid | `Float` | Originalresvid |
-| othersBagNumber | `String` | Others Bag Number |
-| package | `String` | Package |
-| packageAllowance | `Float` | Package Allowance amount of a package that has an allowance. |
-| packageArrangementCode | `String` | Arrangement code from the package associated to this transaction. |
-| packageLedgerCredit | `Float` | Credit amount on the guest package account. |
-| packageLedgerDebit | `Float` | Debit amount on the guest package account |
-| packageTrxType | `String` | Identifies the type of a package posting. Possible values are: PKG_WRAPPER INCLTAX_PKG_ROOM EXCLTAX_PKG_ROOM INCLTAX_PKG_WITH_ALLOWANCE EXCLTAX_PKG_WITH_ALLOWANCE INCLTAX_PKG_WITHOUT_ALLOWANCE EXCLTAX_PKG_WITHOUT_ALLOWANCE |
-| packagelinkfintransid | `Float` | Packagelinkfintransid |
-| parallelforeigncurrencyid | `String` | Parallel Foreign Currency ID |
-| parentfintransid | `Float` | Parentfintransid |
-| passerByName | `String` | Passerby Name. |
-| paymentSurchargeAmt | `Float` | Payment Surcharge Amount. |
-| paymentSurchargeType | `String` | Payment Surcharge Type. Currency for the CASH payment method. |
-| paymentType | `String` | Payment Type |
-| paymentsReference | `String` | Payments-Reference |
-| postedAmountInBaseCurrency | `Float` | Posted Amount in Base Currency |
-| postedAmountInTransactionCurrency | `Float` | Posted Amount in Transaction Currency |
-| postingDate | `DateTime` | Posting Date |
-| postingRhythm | `String` | Posting Rhythm |
-| postingSourceNameId | `Float` | Source Profile of the posting coming from IFC. Related to 9700 functionality. |
-| postingType | `String` | Indicates if the posting is part of a rate code posting (RATE CODE) or if posted manually (MANUAL). |
-| postitNo | `Float` | Postit Number |
-| postitYn | `String` | Postit Y/N |
-| pricePerUnit | `Float` | Price Per Unit |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| processed8300YN | `String` | Processed 8300 YN |
-| productid | `String` | Productid |
-| profileid | `Float` | Profileid |
-| profitLossFlag | `String` | Populated with [P] for package profit and [L] for package loss transactions. |
-| proformaYn | `String` | Proforma Y/N |
-| property | `String` | Code to uniquely identify the Property |
-| propertyBillPrefix | `String` | Property Bill Prefix |
-| quantity | `Float` | Quantity |
-| queueName | `String` | Queue Name |
-| rateCode | `String` | Rate Code |
-| ratecodeid | `String` | Ratecodeid |
-| receiptNumber | `Float` | Receipt Number |
-| receiptType | `String` | Indicates the receipt type. Different receipts are identified by different types |
-| repTransactionCode | `String` | Reporting Trx Code |
-| repTransactionCodeGroup | `String` | Reporting Tc Group |
-| repTransactionCodeGroupDescription | `String` | Reporting Tc Group Desc |
-| repTransactionCodeSubgroup | `String` | Reporting Tc Subgroup |
-| repTransactionCodeSubgroupDescription | `String` | Reporting Tc Subgroup Desc |
-| reservationDepositId | `Float` | Stores Reservation_deposit_schedule_id from RESERVATION_DEPOSIT_SCHEDULE table  to link the deposit payment to the deposit request. |
-| reservationid | `Float` | Reservationid |
-| resvenddate | `Date` | Resvenddate |
-| revenueAmount | `Float` | Revenue Amount. |
-| reversePaymentTrxNumber | `Float` | Stores the trx_no of the reversed payment. |
-| revisionNo | `Float` | Revision Number |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomClass | `String` | Room Class |
-| roomNts | `Float` | Room Nts |
-| roomNtsEffective | `Float` | Stores the effective room nights with decimals making it significant for postings splits edits and adjustments. Required by B&B Hotels. |
-| roomNumber | `String` | Room Number |
-| roomid | `String` | Roomid |
-| roundFactorYn | `String` | Round Factor Y/N |
-| roundLinkTrxno | `Float` | TRX_NO of the transaction associated with this rounding factor posting. |
-| routedYn | `String` | Indicates if the transaction has been routed. |
-| routingDate | `Date` | Routing date for comp routings - populated only if routed transaction has trx date less than business date. |
-| routingInstrnId | `Float` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
-| serviceChargeIncludedRevenueTaxPercent | `Float` | Service Charge Included Revenue Tax Percent |
-| serviceRecoveryAdjustmentYn | `String` | Indicates if the transaction is a service recovery adjustment. |
-| serviceRecoveryDeptCode | `String` | Stores the department code responsible for the adjustment. |
-| settlementFlag | `String` | Settlement Flag |
-| sourceCode | `String` | Source Code |
-| sourceCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Source commission calculation. |
-| sourceDescription | `String` | Source Description |
-| sourceDisplaySequence | `Float` | Source Display Sequence |
-| sourceGroupCode | `String` | Source Group Code |
-| sourceGroupDescription | `String` | Source Group Description |
-| sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| sourceid | `String` | Sourceid |
-| splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
-| stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
-| supplement | `String` | Supplement |
-| taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
-| targetResort | `String` | Target Property |
-| targetlocationid | `String` | Targetlocationid |
-| taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
-| taxElements | `String` | Tax Elements |
-| taxGeneratedYN | `String` | Tax Generated YN |
-| taxInclusiveYN | `String` | Tax Inclusive YN |
-| taxInvNumber | `String` | Tax Invoice No |
-| taxRate | `Float` | Tax Rate |
-| taxRateType | `String` | Tax Rate Type |
-| tcGroup | `String` | Transaction Code Group |
-| tcSubgroup | `String` | Transaction Code Subgroup |
-| tclCode1 | `String` | Class1 Code. |
-| tclCode2 | `String` | Class1 Code. |
-| thresholdDiversionId | `Float` | Threshold Diversion ID |
-| thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| thresholdEntityType | `String` | Threshold Entity Type |
-| thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| toReservationNameId | `Float` | To Resv Name ID |
-| tranActionId | `Float` | Tran Action ID |
-| transactionActivityDate | `Date` | Transaction Activity Date |
-| transactionCode | `String` | Transaction Code |
-| transactionCodeDescription | `String` | Transaction Code Description |
-| transactionCodeGroupDesc | `String` | Tc Group Description |
-| transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
-| transactionDate | `Date` | Transaction Date |
-| transactionNumberAddedBy | `Float` | Transaction Number Added By |
-| transactionPostingDate | `Date` | Transaction Posting Date |
-| transactionPostingTime | `String` | Time transaction was posted. |
-| transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
-| transactionReservationNameID | `Float` | Transaction Reservation Name ID |
-| transactionStatus | `String` | Transaction Status |
-| transactionType | `String` | Transaction Type |
-| transactionFromAccount | `Float` | Transaction from Account |
-| transactionToAccount | `Float` | Transaction to Account |
-| transactionsReasonCode | `String` | Transactions-Reason Code |
-| transcodearrangementid | `Float` | Transcodearrangementid |
-| transferfromaccountid | `Float` | Transferfromaccountid |
-| transferfromresvid | `Float` | Transferfromresvid |
-| transfertoaccountid | `Float` | Transfertoaccountid |
-| transfertoresvid | `Float` | Transfertoresvid |
-| travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
-| trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
-| trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
-| trxCode | `String` | Transaction Code |
-| trxNo | `Float` | Trx Number |
-| trxNoAgainstPackage | `Float` | Trx Number Against Package |
-| trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| trxNumberHeader | `Float` | Transaction No Header |
-| trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| trxServiceType | `String` | Transaction Service Type |
-| trxType | `String` | Transaction type: possible values: [CACH]. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| upsellChargeYn | `String` | Flag to identify an Upsell posting. |
-| userID | `Float` | User ID |
-| vatAmount | `Float` | Tax Amount for Commission. |
-| vatOffsetYn | `String` | Vat Offset Y/N |
-| vendorTranID | `String` | Vendor Tran ID |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRChargeTransferFlagYN | `String` | AR Charge Transfer YN |
+| 2 | aRChargeTransferYN | `String` | Indicates if an individual charge has been transferred to another invoice in AR. Used to disallow operations such as the transfer of same charge multiple times editing an already transferred charge etc. |
+| 3 | aRLedgerCredit | `Float` | AR Ledger Credit |
+| 4 | aRLedgerDebit | `Float` | AR Ledger Debit |
+| 5 | aRState | `String` | AR State |
+| 6 | aRTransferDate | `Date` | AR Transfer Date |
+| 7 | aSBOnlyPostTaxesOnceYn | `String` | Set Y to transactions when the application parameter ONLY POST TAXES ONCE FOR APARTMENT STYLE BILLING CHARGES is set. Proper rows and net amount will be shown in reports when the parameter is turned on or off. |
+| 8 | aSBTaxFlag | `String` | Populate the tax rows that are inserted for Trial balance with "ASB_TB_TAX". Other reports and screens will hide these transactions. |
+| 9 | accountCode | `Float` | Account Code |
+| 10 | accountName | `String` | Account Name |
+| 11 | accountNumber | `String` | Account Number |
+| 12 | accountTypeFlag | `String` | Account Type Flag |
+| 13 | accountid | `Float` | Accountid |
+| 14 | adjustmentYN | `String` | Adjustment YN |
+| 15 | advGenerateTrxCode | `String` | Transaction code of the master posting of the automatic adjustment posting for advanced generates. |
+| 16 | advanceBillReversedYn | `String` | Identifies if this Advance Bill has been reversed. |
+| 17 | advanceBillYn | `String` | Identifies if this transaction was generated by Advance Bill. |
+| 18 | advancedGenerateYn | `String` | The charge / generate is eligible as part of advanced generates functionality. |
+| 19 | advancedGeneratedAdjustment | `String` | Indicates the automatic adjustment posting for advanced generates. Possible values are ?NA? ?CO?. |
+| 20 | advgentranscodeid | `String` | Advgentranscodeid |
+| 21 | allowanceType | `String` | Distinguish "Same day" package from a next day package by storing N/S. |
+| 22 | apartmentStyleBillingType | `String` | Indicates ASB transactions: Rental charge for an [A]partment Style Rental Cycle [O]ffsetting transaction for Rental charge for an Apartment Style Rental Cycle [N]ightly Rental Posting [W]aived Nights Rental Posting |
+| 23 | approvalCode | `String` | Approval Code |
+| 24 | approvalDate | `Date` | Approval Date |
+| 25 | approvalStatus | `String` | Approval Status |
+| 26 | arrangementCode | `String` | Arrangement Code |
+| 27 | arrangementDesc | `String` | Arrangement Description for the Transaction Code. |
+| 28 | arrangementId | `Float` | Arrangement ID |
+| 29 | articleId | `Float` | Article ID |
+| 30 | associatedReceiptNo | `Float` | Indicates the associated receipt number printed for a particular receipt type. |
+| 31 | associatedTrxNumber | `Float` | Indicates the associated transaction number for a particular receipt type. |
+| 32 | authemployeeid | `Float` | Authemployeeid |
+| 33 | authorizer | `String` | Authorizer |
+| 34 | autoCreditbillYn | `String` | Indicates if this column was automatically created for Automatic Credit Bills. |
+| 35 | autoSettleYn | `String` | Auto Settle Y/N |
+| 36 | billingEventID | `Float` | Billing Event ID |
+| 37 | bonusCheckId | `Float` | Bonus Check ID |
+| 38 | bucketCode | `String` | Bucket code related to this redemption. |
+| 39 | bucketRedempYn | `String` | Indicates that this transaction was a gaming bucket redemption. |
+| 40 | businessDate | `Date` | Business Date |
+| 41 | cCashierOpeningBalance | `Float` | Central Cashier Opening Balance |
+| 42 | cChangeDue | `Float` | Central Change Due |
+| 43 | cContractGrossAmount | `Float` | Central Contract Gross Amount |
+| 44 | cContractGuestCredit | `Float` | Central Contract Guest Credit |
+| 45 | cContractGuestDebit | `Float` | Central Contract Guest Debit |
+| 46 | cContractNetAmount | `Float` | Central Contract Net Amount |
+| 47 | cExchangeDate | `Date` | Central Xchange Date |
+| 48 | cExchangeRate | `Float` | Central Xchange Rate |
+| 49 | cForexCommissionAmount | `Float` | Central Forex Comm Amount |
+| 50 | cOrganizationARLedgerDebit | `Float` | Central Org Ar Led Debit |
+| 51 | cOrganizationPostedAmount | `Float` | Central Org Posted Amount |
+| 52 | cPackageAllowance | `Float` | Central Package Allowance |
+| 53 | cParallelGrossAmount | `Float` | Central Parallel Gross Amount |
+| 54 | cParallelGuestCredit | `Float` | Central Parallel Guest Credit |
+| 55 | cParallelGuestDebit | `Float` | Central Parallel Guest Debit |
+| 56 | cParallelNetAmount | `Float` | Central Parallel Net Amount |
+| 57 | cPaymentSurchargeAmount | `Float` | Central Payment Surcharge Amt |
+| 58 | cTaxRate | `Float` | Central Tax Rate |
+| 59 | cVatAmount | `Float` | Central Vat Amount |
+| 60 | cCApproval | `String` | CC Approval Code |
+| 61 | calculatePointsYN | `String` | Calculate Points YN |
+| 62 | cashBagNumber | `String` | Cash Bag Number |
+| 63 | cashier | `String` | Cashier |
+| 64 | cashierCredit | `Float` | Cashier Credit |
+| 65 | cashierDebit | `Float` | Cashier Debit |
+| 66 | cashierID | `Float` | Cashier ID |
+| 67 | cashierOpeningBalance | `Float` | Cashier Opening Balance |
+| 68 | ccRefundPosting | `String` | Identifies if this record was the result of a credit card refund possible values: REFUND or OVERRIDE.OVERRIDE means a user authorized a refund amount larger than the original cc charge. |
+| 69 | centralARLedgerCredit | `Float` | Central AR Ledger Credit |
+| 70 | centralARLedgerDebit | `Float` | Central AR Ledger Debit |
+| 71 | centralAdvancedGeneratedTransactionCode | `String` | Central Advanced Generated Transaction Code |
+| 72 | centralCashierCredit | `Float` | Central Cashier Credit |
+| 73 | centralCashierDebit | `Float` | Central Cashier Debit |
+| 74 | centralCreditCardSurcharge | `Float` | Central Credit Card Surcharge |
+| 75 | centralDepositAmountPaid | `Float` | Central Deposit Amount Paid |
+| 76 | centralDepositLedgerCredit | `Float` | Central Deposit Ledger Credit |
+| 77 | centralDepositLedgerDebit | `Float` | Central Deposit Ledger Debit |
+| 78 | centralGrossAmount | `Float` | Central Gross Amount |
+| 79 | centralGuestAccountLedgerCredit | `Float` | Central Guest Account Ledger Credit |
+| 80 | centralGuestAccountLedgerDebit | `Float` | Central Guest Account Ledger Debit |
+| 81 | centralInHouseCredit | `Float` | Central In-House Credit |
+| 82 | centralInHouseDebit | `Float` | Central In-House Debit |
+| 83 | centralMarketCode | `String` | Central Market Code |
+| 84 | centralMarketDescription | `String` | Central Market Description |
+| 85 | centralMarketGroupCode | `String` | Central Market Group Code |
+| 86 | centralMarketGroupDescription | `String` | Central Market Group Description |
+| 87 | centralNetAmount | `Float` | Central Net Amount |
+| 88 | centralNonRevenueAmount | `Float` | Central Non Revenue Amount |
+| 89 | centralPackage | `String` | Central Package |
+| 90 | centralPackageLedgerCredit | `Float` | Central Package Ledger Credit |
+| 91 | centralPackageLedgerDebit | `Float` | Central Package Ledger Debit |
+| 92 | centralPostedAmountInBaseCurrency | `Float` | Central Posted Amount in Base Currency |
+| 93 | centralPricePerUnit | `Float` | Central Price Per Unit |
+| 94 | centralRevenueIncluded | `Float` | Central Revenue Included |
+| 95 | centralTransactionCodeDescription | `String` | Central Transaction Code Description |
+| 96 | centralTrialBalanceAmountGross | `Float` | Central Trial Balance Amount Gross |
+| 97 | centralTrialBalanceAmountNet | `Float` | Central Trial Balance Amount Net |
+| 98 | chainCode | `String` | Chain Code |
+| 99 | changeDue | `Float` | Change Due |
+| 100 | checkFileId | `String` | This field will store the file number for the guest check PNG file which has to be appended to the application settings base URL. |
+| 101 | checkNumber | `String` | Check Number |
+| 102 | closureNumber | `Float` | Closure Number |
+| 103 | collectionAgentPostingYn | `String` | Y => tax posting for a collecting agent |
+| 104 | comments | `String` | Comments |
+| 105 | compLinkTrxCode | `String` | Trx code of original transaction that was turned into a comp |
+| 106 | compLinkTrxNumber | `Float` | Trx no of original transaction that was turned into a comp |
+| 107 | compTypeCode | `String` | Comp Type Code |
+| 108 | complinktranscodeid | `String` | Complinktranscodeid |
+| 109 | compressedYn | `String` | Compressed Y/N |
+| 110 | contractforeigncurrencyid | `String` | Contract Foreign Currency ID |
+| 111 | correctionYn | `String` | Indicates if this transaction is used as part of a correction folio. |
+| 112 | couponNo | `String` | Coupon Number |
+| 113 | covers | `String` | Covers |
+| 114 | creditCardId | `Float` | Credit Card ID |
+| 115 | creditCardSurcharge | `Float` | Fee (surcharge) amount for a credit card transaction. |
+| 116 | creditYN | `String` | Credit YN |
+| 117 | currencyCode | `String` | Currency Code |
+| 118 | customChargeDate | `Date` | This is the custom charge date populated by Property Charge Adjustments. |
+| 119 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 120 | debitYN | `String` | Debit YN |
+| 121 | deferredYn | `String` | Deferred Y/N |
+| 122 | deletedFlag | `String` | Deleted Flag |
+| 123 | depPostingFlag | `String` | Indicates if the posting is a deposit posting as part of the Guest Ledger Deposits functionality. Also indicates if the charge has been offset after checkin. Possible values [PRX] |
+| 124 | depTaxTransferedYn | `String` | Indicates if this row is a deposit tax which has been transfered. |
+| 125 | depositLedgerCredit | `Float` | Deposit Ledger Credit |
+| 126 | depositLedgerDebit | `Float` | Deposit Ledger Debit |
+| 127 | depositTransactionId | `String` | Deposit Transaction ID |
+| 128 | depositlinkfintransid | `Float` | Depositlinkfintransid |
+| 129 | displayflag | `String` | Displayflag |
+| 130 | dualCurrency | `String` | Cuurency code for parrallel currency. |
+| 131 | dualCurrencyGrossAmount | `Float` | Dual Currency Gross Amount |
+| 132 | dualCurrencyGuestCredit | `Float` | Credit amount on the guest account stored in parrallel currency. |
+| 133 | dualCurrencyGuestDebit | `Float` | Debit amount on the guest account stored in parrallel currency. |
+| 134 | dualCurrencyNetAmount | `Float` | Dual Currency Net Amount |
+| 135 | effectiveDate | `Date` | Transactions statement date used for OVOS statement reports to allocate transactions into required statement period. |
+| 136 | electronicVoucherNo | `Float` | Stores the voucher_no from VOUCHERS_DETAILS to keep track of voucher amount consumed. |
+| 137 | esignedReceiptName | `String` | File Name of the Electronically Signed Payment Receipt. |
+| 138 | euroExchangeRate | `Float` | Euro Exchange Rate |
+| 139 | exchDifferenceTrxNumber | `Float` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
+| 140 | exchangeDate | `Date` | Exchange Date |
+| 141 | exchangeDifferenceYN | `String` | Exchange Difference YN |
+| 142 | exchangeRate | `Float` | Exchange Rate |
+| 143 | exchangeType | `String` | Type of currency exchange conducted.  Possible values: [E]xchange [S]ettlement [C]ommission [M]embership [EC] Exchange Check [P]osting. |
+| 144 | expInvoiceType | `String` | Export Invoice Type |
+| 145 | expOriginalInvoice | `String` | Export Original Invoice |
+| 146 | extSysResultMsg | `String` | Oxi interface to External System Result message text. |
+| 147 | extTransactionId | `String` | Transaction ID from external system. |
+| 148 | fbaCertificateNumber | `String` | Flexible Benefit Award certificate number. |
+| 149 | financialDmlSeqNumber | `Float` | Number to identify the DML sequence. |
+| 150 | financialTransactionCodeType | `String` | Financial Transaction Code Type |
+| 151 | fintransactionid | `Float` | Fintransactionid |
+| 152 | fintransid | `Float` | Fintransid |
+| 153 | fiscalBillNo | `String` | Fiscal Bill Number |
+| 154 | fixedChargesYN | `String` | Fixed Charges YN |
+| 155 | folioNo | `Float` | Folio Number |
+| 156 | folioType | `String` | Folio Type |
+| 157 | folioTypeJoin | `String` | Folio Type Join |
+| 158 | folioView | `Float` | Folio View |
+| 159 | folioid | `Float` | Folioid |
+| 160 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 161 | forexCommAmount | `Float` | Foreign Exchange commission amount. |
+| 162 | forexCommPerc | `Float` | Foreign Exchange commission percentage. |
+| 163 | forexTaxYn | `String` | Populate as Y for transactions posted with application settings 1)Currency Exchange Tax and 2)Currency Exchange Offset. |
+| 164 | forexType | `String` | Type of Foreign Currency Exchange. B=Buy  S=Sell. |
+| 165 | fromReservationId | `Float` | From Resv ID |
+| 166 | ftGeneratedType | `String` | Column has become unused after the chage of business rules down the line. |
+| 167 | ftSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| 168 | genCashierId | `Float` | General Cashier Id. |
+| 169 | gpAwardCancelCode | `String` | HYATT mode: Gold Passport Award Cancel Code. Field will be populated for transactions that are created when awards redeemed in the past are cancelled e.g. when a Folio is Re-opened. |
+| 170 | gpAwardCode | `String` | HYATT mode: Gold Passport Award Code associated with the redemption of points. Field will be populated for a payment transaction. |
+| 171 | grossAmount | `Float` | Gross Amount |
+| 172 | groupAwardCancelledYN | `String` | HYATT mode: Indicates if an Award Transaction was cancelled. |
+| 173 | guestAccountLedgerCredit | `Float` | Guest Account Ledger Credit |
+| 174 | guestAccountLedgerDebit | `Float` | Debit amount on the guest account |
+| 175 | guestCountry | `String` | Guest Country |
+| 176 | guestCountryCode | `String` | Guest Country Code |
+| 177 | hotelAcct | `String` | Specifies the Hotel acct against which this transaction has beenposted. |
+| 178 | inHouseCredit | `Float` | In-House Credit |
+| 179 | inHouseDebit | `Float` | In-House Debit |
+| 180 | incTaxDeductedYn | `String` | Identifies if this transaction has had inclusive taxes removed during comping. |
+| 181 | individualAdjustmentYN | `String` | Ind Adjustment Y/N |
+| 182 | insertDate | `DateTime` | Insert Date |
+| 183 | insertUser | `Float` | Insert User |
+| 184 | insertUserName | `String` | The name of the user who created the record. |
+| 185 | installments | `Float` | Installments |
+| 186 | internalArticleid | `Float` | Articleid |
+| 187 | internalBusinessdate | `Date` | Businessdate |
+| 188 | internalCashierid | `Float` | Cashierid |
+| 189 | internalWindowId | `Float` | Internal Window ID |
+| 190 | internalYN | `String` | Internal YN |
+| 191 | invoiceCloseDate | `Date` | Invoice Close Date |
+| 192 | invoiceNumber | `Float` | Invoice Number |
+| 193 | invoiceType | `String` | Invoice Type |
+| 194 | jRNUpdateDate | `Date` | JRN Update Date |
+| 195 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 196 | linkTrxNumber | `Float` | Link Transaction No |
+| 197 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 198 | marketCode | `String` | Market Code |
+| 199 | marketDescription | `String` | Market Description |
+| 200 | marketDisplaySequence | `Float` | Market Display Sequence |
+| 201 | marketGroupCode | `String` | Market Group Code |
+| 202 | marketGroupDescription | `String` | Market Group Description |
+| 203 | marketGroupDisplaySequence | `Float` | Market Group Display Sequence |
+| 204 | marketid | `String` | Marketid |
+| 205 | membershipID | `Float` | Membership ID |
+| 206 | mtrxNoAgainstPackage | `Float` | Sequence number generated automatically when packages are posted during manual room and tax. |
+| 207 | nameId | `Float` | Name ID |
+| 208 | nameTaxType | `String` | Name Tax Type |
+| 209 | netAmount | `Float` | Net Amount |
+| 210 | nonRevenueAmount | `Float` | Non Revenue Amount |
+| 211 | numberDialed | `String` | Number Dialed. |
+| 212 | oTransactionDesc | `String` | Transaction Description. |
+| 213 | oVOSCurrency | `String` | Currency code for contract currency. |
+| 214 | oVOSGrossAmount | `Float` | Contract equivalent to the GROSS_AMOUNT field value for the transaction number this record applies to. |
+| 215 | oVOSGuestCredit | `Float` | Stores the credit amount on the guest account in contract currency. |
+| 216 | oVOSGuestDebit | `Float` | Stores the debit amount on the guest account in contract currency. |
+| 217 | oVOSNetAmount | `Float` | Contract equivalent to the NET_AMOUNT field value for the transaction number this record applies to. |
+| 218 | onHoldYN | `String` | On Hold YN |
+| 219 | orgPostedAmount | `Float` | The original transaction amount sent to the financial API. |
+| 220 | organizationArLedgerDebit | `Float` | Stores the original AR ledger debit amount for Direct Bill transactions. |
+| 221 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 222 | originalBillNumber | `Float` | Stores original bill number after void. |
+| 223 | originalFolioNumber | `String` | Stores original folio type after void. |
+| 224 | originalReservationNameId | `Float` | Original Resv Name ID |
+| 225 | originalRoom | `String` | Original Room |
+| 226 | originalresvid | `Float` | Originalresvid |
+| 227 | othersBagNumber | `String` | Others Bag Number |
+| 228 | package | `String` | Package |
+| 229 | packageAllowance | `Float` | Package Allowance amount of a package that has an allowance. |
+| 230 | packageArrangementCode | `String` | Arrangement code from the package associated to this transaction. |
+| 231 | packageLedgerCredit | `Float` | Credit amount on the guest package account. |
+| 232 | packageLedgerDebit | `Float` | Debit amount on the guest package account |
+| 233 | packageTrxType | `String` | Identifies the type of a package posting. Possible values are: PKG_WRAPPER INCLTAX_PKG_ROOM EXCLTAX_PKG_ROOM INCLTAX_PKG_WITH_ALLOWANCE EXCLTAX_PKG_WITH_ALLOWANCE INCLTAX_PKG_WITHOUT_ALLOWANCE EXCLTAX_PKG_WITHOUT_ALLOWANCE |
+| 234 | packagelinkfintransid | `Float` | Packagelinkfintransid |
+| 235 | parallelforeigncurrencyid | `String` | Parallel Foreign Currency ID |
+| 236 | parentfintransid | `Float` | Parentfintransid |
+| 237 | passerByName | `String` | Passerby Name. |
+| 238 | paymentSurchargeAmt | `Float` | Payment Surcharge Amount. |
+| 239 | paymentSurchargeType | `String` | Payment Surcharge Type. Currency for the CASH payment method. |
+| 240 | paymentType | `String` | Payment Type |
+| 241 | paymentsReference | `String` | Payments-Reference |
+| 242 | postedAmountInBaseCurrency | `Float` | Posted Amount in Base Currency |
+| 243 | postedAmountInTransactionCurrency | `Float` | Posted Amount in Transaction Currency |
+| 244 | postingDate | `DateTime` | Posting Date |
+| 245 | postingRhythm | `String` | Posting Rhythm |
+| 246 | postingSourceNameId | `Float` | Source Profile of the posting coming from IFC. Related to 9700 functionality. |
+| 247 | postingType | `String` | Indicates if the posting is part of a rate code posting (RATE CODE) or if posted manually (MANUAL). |
+| 248 | postitNo | `Float` | Postit Number |
+| 249 | postitYn | `String` | Postit Y/N |
+| 250 | pricePerUnit | `Float` | Price Per Unit |
+| 251 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 252 | processed8300YN | `String` | Processed 8300 YN |
+| 253 | productid | `String` | Productid |
+| 254 | profileid | `Float` | Profileid |
+| 255 | profitLossFlag | `String` | Populated with [P] for package profit and [L] for package loss transactions. |
+| 256 | proformaYn | `String` | Proforma Y/N |
+| 257 | property | `String` | Code to uniquely identify the Property |
+| 258 | propertyBillPrefix | `String` | Property Bill Prefix |
+| 259 | quantity | `Float` | Quantity |
+| 260 | queueName | `String` | Queue Name |
+| 261 | rateCode | `String` | Rate Code |
+| 262 | ratecodeid | `String` | Ratecodeid |
+| 263 | receiptNumber | `Float` | Receipt Number |
+| 264 | receiptType | `String` | Indicates the receipt type. Different receipts are identified by different types |
+| 265 | repTransactionCode | `String` | Reporting Trx Code |
+| 266 | repTransactionCodeGroup | `String` | Reporting Tc Group |
+| 267 | repTransactionCodeGroupDescription | `String` | Reporting Tc Group Desc |
+| 268 | repTransactionCodeSubgroup | `String` | Reporting Tc Subgroup |
+| 269 | repTransactionCodeSubgroupDescription | `String` | Reporting Tc Subgroup Desc |
+| 270 | reservationDepositId | `Float` | Stores Reservation_deposit_schedule_id from RESERVATION_DEPOSIT_SCHEDULE table  to link the deposit payment to the deposit request. |
+| 271 | reservationid | `Float` | Reservationid |
+| 272 | resvenddate | `Date` | Resvenddate |
+| 273 | revenueAmount | `Float` | Revenue Amount. |
+| 274 | reversePaymentTrxNumber | `Float` | Stores the trx_no of the reversed payment. |
+| 275 | revisionNo | `Float` | Revision Number |
+| 276 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 277 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 278 | roomClass | `String` | Room Class |
+| 279 | roomNts | `Float` | Room Nts |
+| 280 | roomNtsEffective | `Float` | Stores the effective room nights with decimals making it significant for postings splits edits and adjustments. Required by B&B Hotels. |
+| 281 | roomNumber | `String` | Room Number |
+| 282 | roomid | `String` | Roomid |
+| 283 | roundFactorYn | `String` | Round Factor Y/N |
+| 284 | roundLinkTrxno | `Float` | TRX_NO of the transaction associated with this rounding factor posting. |
+| 285 | routedYn | `String` | Indicates if the transaction has been routed. |
+| 286 | routingDate | `Date` | Routing date for comp routings - populated only if routed transaction has trx date less than business date. |
+| 287 | routingInstrnId | `Float` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| 288 | serviceChargeIncludedRevenueTaxPercent | `Float` | Service Charge Included Revenue Tax Percent |
+| 289 | serviceRecoveryAdjustmentYn | `String` | Indicates if the transaction is a service recovery adjustment. |
+| 290 | serviceRecoveryDeptCode | `String` | Stores the department code responsible for the adjustment. |
+| 291 | settlementFlag | `String` | Settlement Flag |
+| 292 | sourceCode | `String` | Source Code |
+| 293 | sourceCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Source commission calculation. |
+| 294 | sourceDescription | `String` | Source Description |
+| 295 | sourceDisplaySequence | `Float` | Source Display Sequence |
+| 296 | sourceGroupCode | `String` | Source Group Code |
+| 297 | sourceGroupDescription | `String` | Source Group Description |
+| 298 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
+| 299 | sourceid | `String` | Sourceid |
+| 300 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
+| 301 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
+| 302 | supplement | `String` | Supplement |
+| 303 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
+| 304 | targetResort | `String` | Target Property |
+| 305 | targetlocationid | `String` | Targetlocationid |
+| 306 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
+| 307 | taxElements | `String` | Tax Elements |
+| 308 | taxGeneratedYN | `String` | Tax Generated YN |
+| 309 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 310 | taxInvNumber | `String` | Tax Invoice No |
+| 311 | taxRate | `Float` | Tax Rate |
+| 312 | taxRateType | `String` | Tax Rate Type |
+| 313 | tcGroup | `String` | Transaction Code Group |
+| 314 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 315 | tclCode1 | `String` | Class1 Code. |
+| 316 | tclCode2 | `String` | Class1 Code. |
+| 317 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 318 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 319 | thresholdEntityType | `String` | Threshold Entity Type |
+| 320 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 321 | toReservationNameId | `Float` | To Resv Name ID |
+| 322 | tranActionId | `Float` | Tran Action ID |
+| 323 | transactionActivityDate | `Date` | Transaction Activity Date |
+| 324 | transactionCode | `String` | Transaction Code |
+| 325 | transactionCodeDescription | `String` | Transaction Code Description |
+| 326 | transactionCodeGroupDesc | `String` | Tc Group Description |
+| 327 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
+| 328 | transactionDate | `Date` | Transaction Date |
+| 329 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
+| 330 | transactionPostingDate | `Date` | Transaction Posting Date |
+| 331 | transactionPostingTime | `String` | Time transaction was posted. |
+| 332 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
+| 333 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
+| 334 | transactionStatus | `String` | Transaction Status |
+| 335 | transactionType | `String` | Transaction Type |
+| 336 | transactionFromAccount | `Float` | Transaction from Account |
+| 337 | transactionToAccount | `Float` | Transaction to Account |
+| 338 | transactionsReasonCode | `String` | Transactions-Reason Code |
+| 339 | transcodearrangementid | `Float` | Transcodearrangementid |
+| 340 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 341 | transferfromresvid | `Float` | Transferfromresvid |
+| 342 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 343 | transfertoresvid | `Float` | Transfertoresvid |
+| 344 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
+| 345 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
+| 346 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
+| 347 | trxCode | `String` | Transaction Code |
+| 348 | trxNo | `Float` | Trx Number |
+| 349 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
+| 350 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 351 | trxNumberHeader | `Float` | Transaction No Header |
+| 352 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 353 | trxServiceType | `String` | Transaction Service Type |
+| 354 | trxType | `String` | Transaction type: possible values: [CACH]. |
+| 355 | updateDate | `DateTime` | Update Date |
+| 356 | updateUser | `Float` | Update User |
+| 357 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
+| 358 | userID | `Float` | User ID |
+| 359 | vatAmount | `Float` | Tax Amount for Commission. |
+| 360 | vatOffsetYn | `String` | Vat Offset Y/N |
+| 361 | vendorTranID | `String` | Vendor Tran ID |
 
 [⬆ Back to Query](#query)
 
@@ -721,110 +721,110 @@
 
 ### ARAgingReportAccountDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountCode | `Float` | Account Code |
-| accountCreditLimitYn | `String` | Indicates if a Credit Limit amount will be required "Y" will take precedence over the credit limit amount on Profile level. |
-| accountName | `String` | Account Name |
-| accountNumber | `String` | Account Number |
-| accountSname | `String` | Name on the account in upper case. |
-| accountStatus | `String` | Status of an account. (Normal Restricted) |
-| accountStatusMsg | `String` | Message prompt when the AR Account is defined as restricted. |
-| accountType | `String` | Account Type |
-| accountTypeFlag | `String` | Account Type Flag |
-| accountTypeId | `Float` | Account Type ID |
-| accountid | `Float` | Accountid |
-| acctflagreasonid | `String` | Acctflagreasonid |
-| activeYN | `String` | Active YN |
-| addressId | `Float` | Address ID |
-| address1 | `String` | Address1 |
-| address2 | `String` | Address2 |
-| address3 | `String` | Address3 |
-| age | `Float` | Age. |
-| agent | `String` | Agent |
-| agentUserId | `Float` | Application User ID of the Account Controller/Agent |
-| agentemployeeid | `Float` | Agentemployeeid |
-| balance | `Float` | Balance on the account. |
-| batchStmtYn | `String` | Include the account in batch statement |
-| beginDate | `Date` | Begin Date |
-| centralAccountType | `String` | Central Account Type |
-| centralBalance | `Float` | Central Balance |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralFlaggedReasonCode | `String` | Central Flagged Reason Code |
-| centralState | `String` | Central State |
-| centralXchangeDate | `Date` | Central Exchange Date |
-| centralXchangeRate | `Float` | Central Exchange Rate |
-| city | `String` | City |
-| company | `String` | Company |
-| contact | `String` | Contact information. |
-| country | `String` | Country |
-| countryCode | `String` | Country Code |
-| countryName | `String` | Country Name |
-| creditLimit | `Float` | Credit Limit |
-| creditLimitUpdatedOn | `DateTime` | Date when the Credit Limit was updated. |
-| currencyCode | `String` | Summary Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debtorName | `String` | Debtor Name |
-| deletedflag | `String` | Deleted Flag |
-| email | `String` | Email |
-| emailAddr | `String` | Email Addr |
-| emailId | `Float` | Email ID |
-| emailOptInYn | `String` | Indicates if the email address can be used to send Statements and Reminders by default. |
-| endDate | `Date` | End Date |
-| fax | `String` | Fax |
-| faxId | `Float` | Fax ID |
-| faxNumber | `String` | Fax Number |
-| flaggedReasonCode | `String` | The flagged reason code from table AR$_FLAGGED_REASONS. |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalAccounttypeid | `Float` | Accounttypeid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastActivityDate | `DateTime` | Date of Last Activity on the AR Account in regards to: transfers between accounts payments applied (not unallocated) un-applied reversed and invoice compressions un-compressions on the account. |
-| lastRemFaxNo | `String` | Fax number to which the last reminder letter was sent. |
-| lastStmtFaxNo | `String` | Fax number to which the last statement was sent. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| lstRemPrtDate | `Date` | Date on which the last reminder letter was printed. |
-| lstRemSent | `Date` | Date on which the last reminder letter was sent. |
-| lstRemText | `String` | Name of the reminder letter |
-| lstStmtNoSent | `Float` | Stores the statement number of the last statement sent for a particular AR account. |
-| lstStmtSent | `DateTime` | Date of Last reminderletter sent |
-| monthEndCalcYn | `String` | If Y the Payment due date calculation begins from the last day of the month of invoice generation date if N  then calculation starts from the day of the invoice generation. |
-| nAAddress1 | `String` | NA Address 1 |
-| nAAddress2 | `String` | NA Address 2 |
-| nAAddress3 | `String` | NA Address 3 |
-| naCity | `String` | Na City |
-| naCountryName | `String` | Na Country Name |
-| naState | `String` | Na State |
-| naStateDescription | `String` | Na State Description |
-| nameId | `Float` | Name ID |
-| numberOfPersons | `Float` | No of persons currently using the account |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| permAccountYN | `String` | Status indicator to show the account as a permanent account. User will not be able to delete the account if it is Y |
-| phone | `String` | Phone |
-| phoneId | `Float` | Phone ID |
-| phoneNumber | `String` | Phone Number |
-| postalCode | `String` | Postal Code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYn | `String` | Primary Y/N |
-| profileid | `Float` | Profileid |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repStateDescription | `String` | Reporting State Description |
-| revenuePool | `String` | Revenue Pool |
-| state | `String` | State |
-| stateDescription | `String` | State Description |
-| status | `String` | Status |
-| summaryforeigncurrid | `String` | Summaryforeigncurrid |
-| superSearchIndexText | `String` | Super Search Index Text |
-| supplement | `String` | Supplement |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| upperCaseName | `String` | Upper Case Name |
-| zip | `String` | Zip code. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountCode | `Float` | Account Code |
+| 2 | accountCreditLimitYn | `String` | Indicates if a Credit Limit amount will be required "Y" will take precedence over the credit limit amount on Profile level. |
+| 3 | accountName | `String` | Account Name |
+| 4 | accountNumber | `String` | Account Number |
+| 5 | accountSname | `String` | Name on the account in upper case. |
+| 6 | accountStatus | `String` | Status of an account. (Normal Restricted) |
+| 7 | accountStatusMsg | `String` | Message prompt when the AR Account is defined as restricted. |
+| 8 | accountType | `String` | Account Type |
+| 9 | accountTypeFlag | `String` | Account Type Flag |
+| 10 | accountTypeId | `Float` | Account Type ID |
+| 11 | accountid | `Float` | Accountid |
+| 12 | acctflagreasonid | `String` | Acctflagreasonid |
+| 13 | activeYN | `String` | Active YN |
+| 14 | addressId | `Float` | Address ID |
+| 15 | address1 | `String` | Address1 |
+| 16 | address2 | `String` | Address2 |
+| 17 | address3 | `String` | Address3 |
+| 18 | age | `Float` | Age. |
+| 19 | agent | `String` | Agent |
+| 20 | agentUserId | `Float` | Application User ID of the Account Controller/Agent |
+| 21 | agentemployeeid | `Float` | Agentemployeeid |
+| 22 | balance | `Float` | Balance on the account. |
+| 23 | batchStmtYn | `String` | Include the account in batch statement |
+| 24 | beginDate | `Date` | Begin Date |
+| 25 | centralAccountType | `String` | Central Account Type |
+| 26 | centralBalance | `Float` | Central Balance |
+| 27 | centralCreditLimit | `Float` | Central Credit Limit |
+| 28 | centralFlaggedReasonCode | `String` | Central Flagged Reason Code |
+| 29 | centralState | `String` | Central State |
+| 30 | centralXchangeDate | `Date` | Central Exchange Date |
+| 31 | centralXchangeRate | `Float` | Central Exchange Rate |
+| 32 | city | `String` | City |
+| 33 | company | `String` | Company |
+| 34 | contact | `String` | Contact information. |
+| 35 | country | `String` | Country |
+| 36 | countryCode | `String` | Country Code |
+| 37 | countryName | `String` | Country Name |
+| 38 | creditLimit | `Float` | Credit Limit |
+| 39 | creditLimitUpdatedOn | `DateTime` | Date when the Credit Limit was updated. |
+| 40 | currencyCode | `String` | Summary Currency Code |
+| 41 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 42 | debtorName | `String` | Debtor Name |
+| 43 | deletedflag | `String` | Deleted Flag |
+| 44 | email | `String` | Email |
+| 45 | emailAddr | `String` | Email Addr |
+| 46 | emailId | `Float` | Email ID |
+| 47 | emailOptInYn | `String` | Indicates if the email address can be used to send Statements and Reminders by default. |
+| 48 | endDate | `Date` | End Date |
+| 49 | fax | `String` | Fax |
+| 50 | faxId | `Float` | Fax ID |
+| 51 | faxNumber | `String` | Fax Number |
+| 52 | flaggedReasonCode | `String` | The flagged reason code from table AR$_FLAGGED_REASONS. |
+| 53 | inactiveDate | `DateTime` | Inactive Date |
+| 54 | insertDate | `DateTime` | Insert Date |
+| 55 | insertUser | `Float` | Insert User |
+| 56 | internalAccounttypeid | `Float` | Accounttypeid |
+| 57 | jRNUpdateDate | `Date` | JRN Update Date |
+| 58 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 59 | lastActivityDate | `DateTime` | Date of Last Activity on the AR Account in regards to: transfers between accounts payments applied (not unallocated) un-applied reversed and invoice compressions un-compressions on the account. |
+| 60 | lastRemFaxNo | `String` | Fax number to which the last reminder letter was sent. |
+| 61 | lastStmtFaxNo | `String` | Fax number to which the last statement was sent. |
+| 62 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 63 | lstRemPrtDate | `Date` | Date on which the last reminder letter was printed. |
+| 64 | lstRemSent | `Date` | Date on which the last reminder letter was sent. |
+| 65 | lstRemText | `String` | Name of the reminder letter |
+| 66 | lstStmtNoSent | `Float` | Stores the statement number of the last statement sent for a particular AR account. |
+| 67 | lstStmtSent | `DateTime` | Date of Last reminderletter sent |
+| 68 | monthEndCalcYn | `String` | If Y the Payment due date calculation begins from the last day of the month of invoice generation date if N  then calculation starts from the day of the invoice generation. |
+| 69 | nAAddress1 | `String` | NA Address 1 |
+| 70 | nAAddress2 | `String` | NA Address 2 |
+| 71 | nAAddress3 | `String` | NA Address 3 |
+| 72 | naCity | `String` | Na City |
+| 73 | naCountryName | `String` | Na Country Name |
+| 74 | naState | `String` | Na State |
+| 75 | naStateDescription | `String` | Na State Description |
+| 76 | nameId | `Float` | Name ID |
+| 77 | numberOfPersons | `Float` | No of persons currently using the account |
+| 78 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 79 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 80 | permAccountYN | `String` | Status indicator to show the account as a permanent account. User will not be able to delete the account if it is Y |
+| 81 | phone | `String` | Phone |
+| 82 | phoneId | `Float` | Phone ID |
+| 83 | phoneNumber | `String` | Phone Number |
+| 84 | postalCode | `String` | Postal Code |
+| 85 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 86 | primaryYn | `String` | Primary Y/N |
+| 87 | profileid | `Float` | Profileid |
+| 88 | property | `String` | Code to uniquely identify the Property |
+| 89 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 90 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 91 | repStateDescription | `String` | Reporting State Description |
+| 92 | revenuePool | `String` | Revenue Pool |
+| 93 | state | `String` | State |
+| 94 | stateDescription | `String` | State Description |
+| 95 | status | `String` | Status |
+| 96 | summaryforeigncurrid | `String` | Summaryforeigncurrid |
+| 97 | superSearchIndexText | `String` | Super Search Index Text |
+| 98 | supplement | `String` | Supplement |
+| 99 | updateDate | `DateTime` | Update Date |
+| 100 | updateUser | `Float` | Update User |
+| 101 | upperCaseName | `String` | Upper Case Name |
+| 102 | zip | `String` | Zip code. |
 
 [⬆ Back to Query](#query)
 
@@ -832,40 +832,40 @@
 
 ### ARAgingReportCalendarPeriodDayDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dayKey | `Date` | Day Key |
-| deletedFlag | `String` | Deleted Flag |
-| endDate | `Date` | End Date |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| parentPeriod | `String` | Indicates the Parent Period of the current period scope. Used primarily in OBI. Eg. YEAR - QUARTER - MONTH -WEEK |
-| parentperiodid | `String` | Parentperiodid |
-| periodCode | `String` | Period Code |
-| periodDescription | `String` | Period Description |
-| periodScope | `String` | Indicates Scope of the period. Eg. QUARTER - MONTH -WEEK. Used primarily in OBI. |
-| periodType | `String` | Period Type |
-| periodTypeDesc | `String` | Period Type Description |
-| periodsetupid | `Float` | Periodsetupid |
-| periodsetuppmsref | `String` | Periodsetuppmsref |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| startDate | `Date` | Start Date |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| year | `Float` | Year |
-| yearDescription | `String` | Year Description |
-| yearEndDate | `Date` | Year End Date. |
-| yearId | `Float` | Year ID |
-| yearStartDate | `Date` | Year Start Date. |
-| yearType | `String` | Year Type. |
-| yearsetupid | `Float` | Yearsetupid |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | dayKey | `Date` | Day Key |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | endDate | `Date` | End Date |
+| 6 | jRNUpdateDate | `Date` | JRN Update Date |
+| 7 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 8 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | parentPeriod | `String` | Indicates the Parent Period of the current period scope. Used primarily in OBI. Eg. YEAR - QUARTER - MONTH -WEEK |
+| 11 | parentperiodid | `String` | Parentperiodid |
+| 12 | periodCode | `String` | Period Code |
+| 13 | periodDescription | `String` | Period Description |
+| 14 | periodScope | `String` | Indicates Scope of the period. Eg. QUARTER - MONTH -WEEK. Used primarily in OBI. |
+| 15 | periodType | `String` | Period Type |
+| 16 | periodTypeDesc | `String` | Period Type Description |
+| 17 | periodsetupid | `Float` | Periodsetupid |
+| 18 | periodsetuppmsref | `String` | Periodsetuppmsref |
+| 19 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 20 | property | `String` | Code to uniquely identify the Property |
+| 21 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 22 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 23 | startDate | `Date` | Start Date |
+| 24 | updateDate | `DateTime` | Update Date |
+| 25 | updateUser | `Float` | Update User |
+| 26 | year | `Float` | Year |
+| 27 | yearDescription | `String` | Year Description |
+| 28 | yearEndDate | `Date` | Year End Date. |
+| 29 | yearId | `Float` | Year ID |
+| 30 | yearStartDate | `Date` | Year Start Date. |
+| 31 | yearType | `String` | Year Type. |
+| 32 | yearsetupid | `Float` | Yearsetupid |
 
 [⬆ Back to Query](#query)
 
@@ -873,40 +873,40 @@
 
 ### ARAgingReportFinancialPeriodDayDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dayKey | `Date` | Day Key |
-| deletedFlag | `String` | Deleted Flag |
-| endDate | `Date` | End Date |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| parentPeriod | `String` | Indicates the Parent Period of the current period scope. Used primarily in OBI. Eg. YEAR - QUARTER - MONTH -WEEK |
-| parentperiodid | `String` | Parentperiodid |
-| periodCode | `String` | Period Code |
-| periodDescription | `String` | Period Description |
-| periodScope | `String` | Indicates Scope of the period. Eg. QUARTER - MONTH -WEEK. Used primarily in OBI. |
-| periodType | `String` | Period Type |
-| periodTypeDesc | `String` | Period Type Description |
-| periodsetupid | `Float` | Periodsetupid |
-| periodsetuppmsref | `String` | Periodsetuppmsref |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| startDate | `Date` | Start Date |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| year | `Float` | Year |
-| yearDescription | `String` | Year Description |
-| yearEndDate | `Date` | Year End Date. |
-| yearId | `Float` | Year ID |
-| yearStartDate | `Date` | Year Start Date. |
-| yearType | `String` | Year Type. |
-| yearsetupid | `Float` | Yearsetupid |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | dayKey | `Date` | Day Key |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | endDate | `Date` | End Date |
+| 6 | jRNUpdateDate | `Date` | JRN Update Date |
+| 7 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 8 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | parentPeriod | `String` | Indicates the Parent Period of the current period scope. Used primarily in OBI. Eg. YEAR - QUARTER - MONTH -WEEK |
+| 11 | parentperiodid | `String` | Parentperiodid |
+| 12 | periodCode | `String` | Period Code |
+| 13 | periodDescription | `String` | Period Description |
+| 14 | periodScope | `String` | Indicates Scope of the period. Eg. QUARTER - MONTH -WEEK. Used primarily in OBI. |
+| 15 | periodType | `String` | Period Type |
+| 16 | periodTypeDesc | `String` | Period Type Description |
+| 17 | periodsetupid | `Float` | Periodsetupid |
+| 18 | periodsetuppmsref | `String` | Periodsetuppmsref |
+| 19 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 20 | property | `String` | Code to uniquely identify the Property |
+| 21 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 22 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 23 | startDate | `Date` | Start Date |
+| 24 | updateDate | `DateTime` | Update Date |
+| 25 | updateUser | `Float` | Update User |
+| 26 | year | `Float` | Year |
+| 27 | yearDescription | `String` | Year Description |
+| 28 | yearEndDate | `Date` | Year End Date. |
+| 29 | yearId | `Float` | Year ID |
+| 30 | yearStartDate | `Date` | Year Start Date. |
+| 31 | yearType | `String` | Year Type. |
+| 32 | yearsetupid | `Float` | Yearsetupid |
 
 [⬆ Back to Query](#query)
 
@@ -914,286 +914,286 @@
 
 ### ARAgingReportARLedgerDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRChargeTransferYN | `String` | Indicates if an individual charge has been transferred to another invoice in AR. Used to disallow operations such as the transfer of same charge multiple times editing an already transferred charge etc. |
-| aSBFlag | `String` | Indicates ASB transactions: Rental charge for an [A]partment Style Rental Cycle [O]ffsetting transaction for Rental charge for an Apartment Style Rental Cycle [N]ightly Rental Posting [W]aived Nights Rental Posting |
-| aSBOnlyPostTaxesOnceYn | `String` | Set Y to transactions when the application parameter ONLY POST TAXES ONCE FOR APARTMENT STYLE BILLING CHARGES is set. Proper rows and net amount will be shown in reports when the parameter is turned on or off. |
-| aSBTaxFlag | `String` | Populate the tax rows that are inserted for Trial balance with "ASB_TB_TAX". Other reports and screens will hide these transactions. |
-| accountCode | `Float` | Account Code |
-| accountName | `String` | Account Name |
-| accountNumber | `String` | Account Number |
-| accountTypeFlag | `String` | Account Type Flag |
-| accountid | `Float` | Accountid |
-| advGenerateAdjustment | `String` | Indicates the automatic adjustment posting for advanced generates. Possible values are ?NA? ?CO?. |
-| advanceBillReversedYn | `String` | Identifies if this Advance Bill has been reversed. |
-| advanceBillYn | `String` | Identifies if this transaction was generated by Advance Bill. |
-| advanceGenerateTrxCode | `String` | Transaction code of the master posting of the automatic adjustment posting for advanced generates. |
-| advancedGenerateYn | `String` | The charge / generate is eligible as part of advanced generates functionality. |
-| allowanceType | `String` | Distinguish "Same day" package from a next day package by storing N/S. |
-| amount | `Float` | Amount |
-| approvalCode | `String` | Approval Code |
-| approvalDate | `Date` | Approval Date |
-| approvalStatus | `String` | Approval Status |
-| arLedgerCredit | `Float` | AR Led Credit |
-| arLedgerDebit | `Float` | AR Led Debit |
-| arNumber | `Float` | AR Number |
-| arState | `String` | AR State |
-| arTransferDate | `Date` | AR Transfer Date |
-| arrangementId | `Float` | Arrangement ID |
-| articleId | `Float` | Article ID |
-| associatedReceiptNo | `Float` | Indicates the associated receipt number printed for a particular receipt type. |
-| associatedTrxNumber | `Float` | Indicates the associated transaction number for a particular receipt type. |
-| authorizerId | `Float` | Authorizer ID |
-| autoCreditbillYn | `String` | Indicates if this column was automatically created for Automatic Credit Bills. |
-| autoSettleYn | `String` | Auto Settle Y/N |
-| billNo | `Float` | Bill Number |
-| bonusCheckId | `Float` | Bonus Check ID |
-| bucketCode | `String` | Bucket code related to this redemption. |
-| bucketRedempYn | `String` | Indicates that this transaction was a gaming bucket redemption. |
-| businessDate | `Date` | Business Date |
-| cARLedgerCredit | `Float` | Central Ar Led Credit |
-| cARLedgerDebit | `Float` | Central Ar Led Debit |
-| cCashierCredit | `Float` | Central Cashier Credit |
-| cCashierDebit | `Float` | Central Cashier Debit |
-| cCashierOpeningBalance | `Float` | Central Cashier Opening Balance |
-| cCcTransactionFeeAmount | `Float` | Central Cc Trx Fee Amount |
-| cChangeDue | `Float` | Central Change Due |
-| cContractGrossAmount | `Float` | Central Contract Gross Amount |
-| cContractGuestCredit | `Float` | Central Contract Guest Credit |
-| cContractGuestDebit | `Float` | Central Contract Guest Debit |
-| cContractNetAmount | `Float` | Central Contract Net Amount |
-| cDepLedgerCredit | `Float` | Central Dep Led Credit |
-| cDepLedgerDebit | `Float` | Central Dep Led Debit |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cForexCommissionAmount | `Float` | Central Forex Comm Amount |
-| cGrossAmount | `Float` | Central Gross Amount |
-| cGuestAccountCredit | `Float` | Central Guest Account Credit |
-| cGuestAccountDebit | `Float` | Central Guest Account Debit |
-| cInHouseCredit | `Float` | Central Inh Credit |
-| cInHouseDebit | `Float` | Central Inh Debit |
-| cNetAmount | `Float` | Central Net Amount |
-| cOrganizationARLedgerDebit | `Float` | Central Org Ar Led Debit |
-| cOrganizationPostedAmount | `Float` | Central Org Posted Amount |
-| cPackageAllowance | `Float` | Central Package Allowance |
-| cPackageCredit | `Float` | Central Package Credit |
-| cPackageDebit | `Float` | Central Package Debit |
-| cParallelGrossAmount | `Float` | Central Parallel Gross Amount |
-| cParallelGuestCredit | `Float` | Central Parallel Guest Credit |
-| cParallelGuestDebit | `Float` | Central Parallel Guest Debit |
-| cParallelNetAmount | `Float` | Central Parallel Net Amount |
-| cPaymentSurchargeAmount | `Float` | Central Payment Surcharge Amt |
-| cPostedAmount | `Float` | Central Posted Amount |
-| cPricePerUnit | `Float` | Central Price Per Unit |
-| cRevenueAmount | `Float` | Central Revenue Amt |
-| cTaxRate | `Float` | Central Tax Rate |
-| cTransactionAmount | `Float` | Central Trx Amount |
-| calcPointsYn | `String` | Indicates if points are to be calculated. |
-| cashierCredit | `Float` | Cashier Credit |
-| cashierDebit | `Float` | Cashier Debit |
-| cashierId | `Float` | Cashier ID |
-| cashierOpeningBalance | `Float` | Cashier Opening Balance |
-| ccRefundPosting | `String` | Identifies if this record was the result of a credit card refund possible values: REFUND or OVERRIDE.OVERRIDE means a user authorized a refund amount larger than the original cc charge. |
-| ccTrxFeeAmount | `Float` | Fee (surcharge) amount for a credit card transaction. |
-| centralARLedgerAmount | `Float` | Central AR Ledger Amount |
-| changeDue | `Float` | Change Due |
-| checkFileId | `String` | This field will store the file number for the guest check PNG file which has to be appended to the application settings base URL. |
-| chequeNumber | `String` | Cheque Number |
-| closureNo | `Float` | Closure Number |
-| collectionAgentPostingYn | `String` | Y => tax posting for a collecting agent |
-| comments | `String` | Comments |
-| compLinkTrxCode | `String` | Trx code of original transaction that was turned into a comp |
-| compLinkTrxNumber | `Float` | Trx no of original transaction that was turned into a comp |
-| compTypeCode | `String` | Comp Type Code |
-| compressedYn | `String` | Compressed Y/N |
-| contractCurrency | `String` | Currency code for contract currency. |
-| contractGrossAmount | `Float` | Contract equivalent to the GROSS_AMOUNT field value for the transaction number this record applies to. |
-| contractGuestCredit | `Float` | Stores the credit amount on the guest account in contract currency. |
-| contractGuestDebit | `Float` | Stores the debit amount on the guest account in contract currency. |
-| contractNetAmount | `Float` | Contract equivalent to the NET_AMOUNT field value for the transaction number this record applies to. |
-| correctionYn | `String` | Indicates if this transaction is used as part of a correction folio. |
-| couponNo | `String` | Coupon Number |
-| covers | `String` | Covers |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deferredTaxesYn | `String` | Indicates whether the generated tax is because of a deferred tax generation scenario |
-| deferredYn | `String` | Deferred Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| depLedgerCredit | `Float` | Dep Ledger Credit |
-| depLedgerDebit | `Float` | Dep Ledger Debit |
-| depPostingFlag | `String` | Indicates if the posting is a deposit posting as part of the Guest Ledger Deposits functionality. Also indicates if the charge has been offset after checkin. Possible values [PRX] |
-| depTaxTransferedYn | `String` | Indicates if this row is a deposit tax which has been transfered. |
-| depositTransactionId | `String` | Deposit Transaction ID |
-| displayYn | `String` | Display Y/N |
-| effectiveDate | `Date` | Transactions statement date used for OVOS statement reports to allocate transactions into required statement period. |
-| electronicVoucherNo | `Float` | Stores the voucher_no from VOUCHERS_DETAILS to keep track of voucher amount consumed. |
-| esignedReceiptName | `String` | File Name of the Electronically Signed Payment Receipt. |
-| euroExchangeRate | `Float` | Euro Exchange Rate |
-| exchDifferenceTrxNumber | `Float` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
-| exchangeDate | `Date` | Exchange Date |
-| exchangeDifferenceYn | `String` | The flag indicates if it is an exchange rate difference posting when dual currency is on. |
-| exchangeRate | `Float` | Exchange Rate |
-| exchangeType | `String` | Type of currency exchange conducted.  Possible values: [E]xchange [S]ettlement [C]ommission [M]embership [EC] Exchange Check [P]osting. |
-| expInvoiceType | `String` | Export Invoice Type |
-| expOriginalInvoice | `String` | Export Original Invoice |
-| extSysResultMsg | `String` | Oxi interface to External System Result message text. |
-| extTransactionId | `String` | Transaction ID from external system. |
-| fbaCertificateNumber | `String` | Flexible Benefit Award certificate number. |
-| financialDmlSeqNumber | `Float` | Number to identify the DML sequence. |
-| financialTransactionSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
-| fintransid | `Float` | Fintransid |
-| fiscalBillNo | `String` | Fiscal Bill Number |
-| fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| fixedChargesYn | `String` | Distinguish ordinary postings from Fixed charge postings. |
-| folioNo | `Float` | Folio Number |
-| folioType | `String` | Folio Type |
-| folioView | `Float` | Folio View |
-| folioid | `Float` | Folioid |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| forexCommAmount | `Float` | Foreign Exchange commission amount. |
-| forexCommPerc | `Float` | Foreign Exchange commission percentage. |
-| forexTaxYn | `String` | Populate as Y for transactions posted with application settings 1)Currency Exchange Tax and 2)Currency Exchange Offset. |
-| forexType | `String` | Type of Foreign Currency Exchange. B=Buy  S=Sell. |
-| fromReservationId | `Float` | From Resv ID |
-| ftGeneratedType | `String` | Column has become unused after the chage of business rules down the line. |
-| genCashierId | `Float` | General Cashier Id. |
-| gpAwardCancelCode | `String` | HYATT mode: Gold Passport Award Cancel Code. Field will be populated for transactions that are created when awards redeemed in the past are cancelled e.g. when a Folio is Re-opened. |
-| gpAwardCode | `String` | HYATT mode: Gold Passport Award Code associated with the redemption of points. Field will be populated for a payment transaction. |
-| grossAmount | `Float` | Gross Amount |
-| groupAwardCancelledYN | `String` | HYATT mode: Indicates if an Award Transaction was cancelled. |
-| guestAccountCredit | `Float` | Guest Account Credit |
-| guestAccountDebit | `Float` | Debit amount on the guest account |
-| holdYn | `String` | Indicates transaction is on hold. |
-| hotelAcct | `String` | Specifies the Hotel acct against which this transaction has beenposted. |
-| incTaxDeductedYn | `String` | Identifies if this transaction has had inclusive taxes removed during comping. |
-| individualAdjustmentYN | `String` | Ind Adjustment Y/N |
-| inhCredit | `Float` | In House Credit |
-| inhDebit | `Float` | In House Debit |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| installments | `Float` | Installments |
-| internalCashierid | `Float` | Cashierid |
-| invoiceCloseDate | `Date` | Invoice Close Date |
-| invoiceNo | `Float` | Invoice Number |
-| invoiceType | `String` | Invoice Type |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| linkTrxNumber | `Float` | Link Transaction No |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| marketCode | `String` | Market Code |
-| membershipId | `Float` | Membership ID |
-| mtrxNoAgainstPackage | `Float` | Sequence number generated automatically when packages are posted during manual room and tax. |
-| nameId | `Float` | Name ID |
-| nameTaxType | `String` | Name Tax Type |
-| netAmount | `Float` | Net Amount |
-| numberDialed | `String` | Number Dialed. |
-| oTransactionDesc | `String` | Transaction Description. |
-| orgBillNumber | `Float` | Stores original bill number after void. |
-| orgFolioType | `String` | Stores original folio type after void. |
-| orgPostedAmount | `Float` | The original transaction amount sent to the financial API. |
-| organizationArLedgerDebit | `Float` | Stores the original AR ledger debit amount for Direct Bill transactions. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originalReservationNameId | `Float` | Original Resv Name ID |
-| originalRoom | `String` | Original Room |
-| packageAllowance | `Float` | Package Allowance amount of a package that has an allowance. |
-| packageArrangementCode | `String` | Arrangement code from the package associated to this transaction. |
-| packageCredit | `Float` | Credit amount on the guest package account. |
-| packageDebit | `Float` | Debit amount on the guest package account |
-| packageTrxType | `String` | Identifies the type of a package posting. Possible values are: PKG_WRAPPER INCLTAX_PKG_ROOM EXCLTAX_PKG_ROOM INCLTAX_PKG_WITH_ALLOWANCE EXCLTAX_PKG_WITH_ALLOWANCE INCLTAX_PKG_WITHOUT_ALLOWANCE EXCLTAX_PKG_WITHOUT_ALLOWANCE |
-| parallelCurrency | `String` | Cuurency code for parrallel currency. |
-| parallelGrossAmount | `Float` | Parallel Gross Amount |
-| parallelGuestCredit | `Float` | Credit amount on the guest account stored in parrallel currency. |
-| parallelGuestDebit | `Float` | Debit amount on the guest account stored in parrallel currency. |
-| parallelNetAmount | `Float` | Parallel Net Amount |
-| passerByName | `String` | Passerby Name. |
-| paymentSurchargeAmt | `Float` | Payment Surcharge Amount. |
-| paymentSurchargeType | `String` | Payment Surcharge Type. Currency for the CASH payment method. |
-| paymentType | `String` | Payment Type |
-| postedAmount | `Float` | Posted Amount |
-| postingDate | `Date` | Posting Date |
-| postingRhythm | `String` | Posting Rhythm |
-| postingSourceNameId | `Float` | Source Profile of the posting coming from IFC. Related to 9700 functionality. |
-| postingType | `String` | Indicates if the posting is part of a rate code posting (RATE CODE) or if posted manually (MANUAL). |
-| postitNo | `Float` | Postit Number |
-| postitYn | `String` | Postit Y/N |
-| pricePerUnit | `Float` | Price Per Unit |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| processed8300Yn | `String` | Indicates whether this particular transaction has been included in an 8300 tax form yet. |
-| product | `String` | Product |
-| profitLossFlag | `String` | Populated with [P] for package profit and [L] for package loss transactions. |
-| proformaYn | `String` | Proforma Y/N |
-| property | `String` | Code to uniquely identify the Property |
-| propertyBillPrefix | `String` | Property Bill Prefix |
-| quantity | `Float` | Quantity |
-| queueName | `String` | Queue Name |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| reasonCode | `String` | Reason Code |
-| receiptNo | `Float` | Recpt Number |
-| receiptType | `String` | Indicates the receipt type. Different receipts are identified by different types |
-| reference | `String` | Reference |
-| reservationDepositId | `Float` | Stores Reservation_deposit_schedule_id from RESERVATION_DEPOSIT_SCHEDULE table  to link the deposit payment to the deposit request. |
-| reservationNameId | `Float` | Resv Name ID |
-| reservationid | `Float` | Reservationid |
-| revenueAmt | `Float` | Revenue Amount. |
-| reversePaymentTrxNumber | `Float` | Stores the trx_no of the reversed payment. |
-| revisionNo | `Float` | Revision Number |
-| room | `String` | Room |
-| roomClass | `String` | Room Class |
-| roomNts | `Float` | Room Nts |
-| roomNtsEffective | `Float` | Stores the effective room nights with decimals making it significant for postings splits edits and adjustments. Required by B&B Hotels. |
-| roundFactorYn | `String` | Round Factor Y/N |
-| roundLinkTrxno | `Float` | TRX_NO of the transaction associated with this rounding factor posting. |
-| routedYn | `String` | Indicates if the transaction has been routed. |
-| routingDate | `Date` | Routing date for comp routings - populated only if routed transaction has trx date less than business date. |
-| routingInstrnId | `Float` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
-| serviceRecoveryAdjustmentYn | `String` | Indicates if the transaction is a service recovery adjustment. |
-| serviceRecoveryDeptCode | `String` | Stores the department code responsible for the adjustment. |
-| settlementFlag | `String` | Settlement Flag |
-| sourceCode | `String` | Source Code |
-| sourceCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Source commission calculation. |
-| splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
-| supplement | `String` | Supplement |
-| taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
-| taCommissionableYn | `String` | The value 'Y' indicates that the commission has been paid for the transaction. |
-| targetResort | `String` | Target Property |
-| taxElements | `String` | Tax Elements |
-| taxGeneratedYn | `String` | Indicates whether tax has been generated for a particuar posting. |
-| taxInclusiveYn | `String` | Tax Inclusive Y/N |
-| taxInvNumber | `String` | Tax Invoice No |
-| taxRate | `Float` | Tax Rate |
-| taxRateType | `String` | Tax Rate Type |
-| tcGroup | `String` | Transaction Code Group |
-| tcSubgroup | `String` | Transaction Code Subgroup |
-| tclCode1 | `String` | Class1 Code. |
-| tclCode2 | `String` | Class1 Code. |
-| thresholdDiversionId | `Float` | Threshold Diversion ID |
-| thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| thresholdEntityType | `String` | Threshold Entity Type |
-| thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| toReservationNameId | `Float` | To Resv Name ID |
-| tranActionId | `Float` | Tran Action ID |
-| transactionDate | `Date` | Transaction Date |
-| transactionFromAcct | `Float` | Trns From Account |
-| transactionNumber | `Float` | Transaction Number |
-| transactionToAcct | `Float` | Trns To Account |
-| transcodearrangementid | `Float` | Transcodearrangementid |
-| transcodeid | `String` | Transcodeid |
-| trnsActivityDate | `Date` | Transaction Activity Date |
-| trxAmount | `Float` | Transaction Amount |
-| trxCode | `String` | Transaction Code |
-| trxNumberAddedBy | `Float` | Transaction No Added By |
-| trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| trxNumberAgainstPackage | `Float` | Transaction No Against Package |
-| trxNumberHeader | `Float` | Transaction No Header |
-| trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| trxServiceType | `String` | Transaction Service Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| upsellChargeYn | `String` | Flag to identify an Upsell posting. |
-| vatOffsetYn | `String` | Vat Offset Y/N |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRChargeTransferYN | `String` | Indicates if an individual charge has been transferred to another invoice in AR. Used to disallow operations such as the transfer of same charge multiple times editing an already transferred charge etc. |
+| 2 | aSBFlag | `String` | Indicates ASB transactions: Rental charge for an [A]partment Style Rental Cycle [O]ffsetting transaction for Rental charge for an Apartment Style Rental Cycle [N]ightly Rental Posting [W]aived Nights Rental Posting |
+| 3 | aSBOnlyPostTaxesOnceYn | `String` | Set Y to transactions when the application parameter ONLY POST TAXES ONCE FOR APARTMENT STYLE BILLING CHARGES is set. Proper rows and net amount will be shown in reports when the parameter is turned on or off. |
+| 4 | aSBTaxFlag | `String` | Populate the tax rows that are inserted for Trial balance with "ASB_TB_TAX". Other reports and screens will hide these transactions. |
+| 5 | accountCode | `Float` | Account Code |
+| 6 | accountName | `String` | Account Name |
+| 7 | accountNumber | `String` | Account Number |
+| 8 | accountTypeFlag | `String` | Account Type Flag |
+| 9 | accountid | `Float` | Accountid |
+| 10 | advGenerateAdjustment | `String` | Indicates the automatic adjustment posting for advanced generates. Possible values are ?NA? ?CO?. |
+| 11 | advanceBillReversedYn | `String` | Identifies if this Advance Bill has been reversed. |
+| 12 | advanceBillYn | `String` | Identifies if this transaction was generated by Advance Bill. |
+| 13 | advanceGenerateTrxCode | `String` | Transaction code of the master posting of the automatic adjustment posting for advanced generates. |
+| 14 | advancedGenerateYn | `String` | The charge / generate is eligible as part of advanced generates functionality. |
+| 15 | allowanceType | `String` | Distinguish "Same day" package from a next day package by storing N/S. |
+| 16 | amount | `Float` | Amount |
+| 17 | approvalCode | `String` | Approval Code |
+| 18 | approvalDate | `Date` | Approval Date |
+| 19 | approvalStatus | `String` | Approval Status |
+| 20 | arLedgerCredit | `Float` | AR Led Credit |
+| 21 | arLedgerDebit | `Float` | AR Led Debit |
+| 22 | arNumber | `Float` | AR Number |
+| 23 | arState | `String` | AR State |
+| 24 | arTransferDate | `Date` | AR Transfer Date |
+| 25 | arrangementId | `Float` | Arrangement ID |
+| 26 | articleId | `Float` | Article ID |
+| 27 | associatedReceiptNo | `Float` | Indicates the associated receipt number printed for a particular receipt type. |
+| 28 | associatedTrxNumber | `Float` | Indicates the associated transaction number for a particular receipt type. |
+| 29 | authorizerId | `Float` | Authorizer ID |
+| 30 | autoCreditbillYn | `String` | Indicates if this column was automatically created for Automatic Credit Bills. |
+| 31 | autoSettleYn | `String` | Auto Settle Y/N |
+| 32 | billNo | `Float` | Bill Number |
+| 33 | bonusCheckId | `Float` | Bonus Check ID |
+| 34 | bucketCode | `String` | Bucket code related to this redemption. |
+| 35 | bucketRedempYn | `String` | Indicates that this transaction was a gaming bucket redemption. |
+| 36 | businessDate | `Date` | Business Date |
+| 37 | cARLedgerCredit | `Float` | Central Ar Led Credit |
+| 38 | cARLedgerDebit | `Float` | Central Ar Led Debit |
+| 39 | cCashierCredit | `Float` | Central Cashier Credit |
+| 40 | cCashierDebit | `Float` | Central Cashier Debit |
+| 41 | cCashierOpeningBalance | `Float` | Central Cashier Opening Balance |
+| 42 | cCcTransactionFeeAmount | `Float` | Central Cc Trx Fee Amount |
+| 43 | cChangeDue | `Float` | Central Change Due |
+| 44 | cContractGrossAmount | `Float` | Central Contract Gross Amount |
+| 45 | cContractGuestCredit | `Float` | Central Contract Guest Credit |
+| 46 | cContractGuestDebit | `Float` | Central Contract Guest Debit |
+| 47 | cContractNetAmount | `Float` | Central Contract Net Amount |
+| 48 | cDepLedgerCredit | `Float` | Central Dep Led Credit |
+| 49 | cDepLedgerDebit | `Float` | Central Dep Led Debit |
+| 50 | cExchangeDate | `Date` | Central Xchange Date |
+| 51 | cExchangeRate | `Float` | Central Xchange Rate |
+| 52 | cForexCommissionAmount | `Float` | Central Forex Comm Amount |
+| 53 | cGrossAmount | `Float` | Central Gross Amount |
+| 54 | cGuestAccountCredit | `Float` | Central Guest Account Credit |
+| 55 | cGuestAccountDebit | `Float` | Central Guest Account Debit |
+| 56 | cInHouseCredit | `Float` | Central Inh Credit |
+| 57 | cInHouseDebit | `Float` | Central Inh Debit |
+| 58 | cNetAmount | `Float` | Central Net Amount |
+| 59 | cOrganizationARLedgerDebit | `Float` | Central Org Ar Led Debit |
+| 60 | cOrganizationPostedAmount | `Float` | Central Org Posted Amount |
+| 61 | cPackageAllowance | `Float` | Central Package Allowance |
+| 62 | cPackageCredit | `Float` | Central Package Credit |
+| 63 | cPackageDebit | `Float` | Central Package Debit |
+| 64 | cParallelGrossAmount | `Float` | Central Parallel Gross Amount |
+| 65 | cParallelGuestCredit | `Float` | Central Parallel Guest Credit |
+| 66 | cParallelGuestDebit | `Float` | Central Parallel Guest Debit |
+| 67 | cParallelNetAmount | `Float` | Central Parallel Net Amount |
+| 68 | cPaymentSurchargeAmount | `Float` | Central Payment Surcharge Amt |
+| 69 | cPostedAmount | `Float` | Central Posted Amount |
+| 70 | cPricePerUnit | `Float` | Central Price Per Unit |
+| 71 | cRevenueAmount | `Float` | Central Revenue Amt |
+| 72 | cTaxRate | `Float` | Central Tax Rate |
+| 73 | cTransactionAmount | `Float` | Central Trx Amount |
+| 74 | calcPointsYn | `String` | Indicates if points are to be calculated. |
+| 75 | cashierCredit | `Float` | Cashier Credit |
+| 76 | cashierDebit | `Float` | Cashier Debit |
+| 77 | cashierId | `Float` | Cashier ID |
+| 78 | cashierOpeningBalance | `Float` | Cashier Opening Balance |
+| 79 | ccRefundPosting | `String` | Identifies if this record was the result of a credit card refund possible values: REFUND or OVERRIDE.OVERRIDE means a user authorized a refund amount larger than the original cc charge. |
+| 80 | ccTrxFeeAmount | `Float` | Fee (surcharge) amount for a credit card transaction. |
+| 81 | centralARLedgerAmount | `Float` | Central AR Ledger Amount |
+| 82 | changeDue | `Float` | Change Due |
+| 83 | checkFileId | `String` | This field will store the file number for the guest check PNG file which has to be appended to the application settings base URL. |
+| 84 | chequeNumber | `String` | Cheque Number |
+| 85 | closureNo | `Float` | Closure Number |
+| 86 | collectionAgentPostingYn | `String` | Y => tax posting for a collecting agent |
+| 87 | comments | `String` | Comments |
+| 88 | compLinkTrxCode | `String` | Trx code of original transaction that was turned into a comp |
+| 89 | compLinkTrxNumber | `Float` | Trx no of original transaction that was turned into a comp |
+| 90 | compTypeCode | `String` | Comp Type Code |
+| 91 | compressedYn | `String` | Compressed Y/N |
+| 92 | contractCurrency | `String` | Currency code for contract currency. |
+| 93 | contractGrossAmount | `Float` | Contract equivalent to the GROSS_AMOUNT field value for the transaction number this record applies to. |
+| 94 | contractGuestCredit | `Float` | Stores the credit amount on the guest account in contract currency. |
+| 95 | contractGuestDebit | `Float` | Stores the debit amount on the guest account in contract currency. |
+| 96 | contractNetAmount | `Float` | Contract equivalent to the NET_AMOUNT field value for the transaction number this record applies to. |
+| 97 | correctionYn | `String` | Indicates if this transaction is used as part of a correction folio. |
+| 98 | couponNo | `String` | Coupon Number |
+| 99 | covers | `String` | Covers |
+| 100 | currencyCode | `String` | Currency Code |
+| 101 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 102 | deferredTaxesYn | `String` | Indicates whether the generated tax is because of a deferred tax generation scenario |
+| 103 | deferredYn | `String` | Deferred Y/N |
+| 104 | deletedFlag | `String` | Deleted Flag |
+| 105 | depLedgerCredit | `Float` | Dep Ledger Credit |
+| 106 | depLedgerDebit | `Float` | Dep Ledger Debit |
+| 107 | depPostingFlag | `String` | Indicates if the posting is a deposit posting as part of the Guest Ledger Deposits functionality. Also indicates if the charge has been offset after checkin. Possible values [PRX] |
+| 108 | depTaxTransferedYn | `String` | Indicates if this row is a deposit tax which has been transfered. |
+| 109 | depositTransactionId | `String` | Deposit Transaction ID |
+| 110 | displayYn | `String` | Display Y/N |
+| 111 | effectiveDate | `Date` | Transactions statement date used for OVOS statement reports to allocate transactions into required statement period. |
+| 112 | electronicVoucherNo | `Float` | Stores the voucher_no from VOUCHERS_DETAILS to keep track of voucher amount consumed. |
+| 113 | esignedReceiptName | `String` | File Name of the Electronically Signed Payment Receipt. |
+| 114 | euroExchangeRate | `Float` | Euro Exchange Rate |
+| 115 | exchDifferenceTrxNumber | `Float` | Exchange difference posting transaction number of the posting that generated the exchange difference. |
+| 116 | exchangeDate | `Date` | Exchange Date |
+| 117 | exchangeDifferenceYn | `String` | The flag indicates if it is an exchange rate difference posting when dual currency is on. |
+| 118 | exchangeRate | `Float` | Exchange Rate |
+| 119 | exchangeType | `String` | Type of currency exchange conducted.  Possible values: [E]xchange [S]ettlement [C]ommission [M]embership [EC] Exchange Check [P]osting. |
+| 120 | expInvoiceType | `String` | Export Invoice Type |
+| 121 | expOriginalInvoice | `String` | Export Original Invoice |
+| 122 | extSysResultMsg | `String` | Oxi interface to External System Result message text. |
+| 123 | extTransactionId | `String` | Transaction ID from external system. |
+| 124 | fbaCertificateNumber | `String` | Flexible Benefit Award certificate number. |
+| 125 | financialDmlSeqNumber | `Float` | Number to identify the DML sequence. |
+| 126 | financialTransactionSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| 127 | fintransid | `Float` | Fintransid |
+| 128 | fiscalBillNo | `String` | Fiscal Bill Number |
+| 129 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 130 | fixedChargesYn | `String` | Distinguish ordinary postings from Fixed charge postings. |
+| 131 | folioNo | `Float` | Folio Number |
+| 132 | folioType | `String` | Folio Type |
+| 133 | folioView | `Float` | Folio View |
+| 134 | folioid | `Float` | Folioid |
+| 135 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 136 | forexCommAmount | `Float` | Foreign Exchange commission amount. |
+| 137 | forexCommPerc | `Float` | Foreign Exchange commission percentage. |
+| 138 | forexTaxYn | `String` | Populate as Y for transactions posted with application settings 1)Currency Exchange Tax and 2)Currency Exchange Offset. |
+| 139 | forexType | `String` | Type of Foreign Currency Exchange. B=Buy  S=Sell. |
+| 140 | fromReservationId | `Float` | From Resv ID |
+| 141 | ftGeneratedType | `String` | Column has become unused after the chage of business rules down the line. |
+| 142 | genCashierId | `Float` | General Cashier Id. |
+| 143 | gpAwardCancelCode | `String` | HYATT mode: Gold Passport Award Cancel Code. Field will be populated for transactions that are created when awards redeemed in the past are cancelled e.g. when a Folio is Re-opened. |
+| 144 | gpAwardCode | `String` | HYATT mode: Gold Passport Award Code associated with the redemption of points. Field will be populated for a payment transaction. |
+| 145 | grossAmount | `Float` | Gross Amount |
+| 146 | groupAwardCancelledYN | `String` | HYATT mode: Indicates if an Award Transaction was cancelled. |
+| 147 | guestAccountCredit | `Float` | Guest Account Credit |
+| 148 | guestAccountDebit | `Float` | Debit amount on the guest account |
+| 149 | holdYn | `String` | Indicates transaction is on hold. |
+| 150 | hotelAcct | `String` | Specifies the Hotel acct against which this transaction has beenposted. |
+| 151 | incTaxDeductedYn | `String` | Identifies if this transaction has had inclusive taxes removed during comping. |
+| 152 | individualAdjustmentYN | `String` | Ind Adjustment Y/N |
+| 153 | inhCredit | `Float` | In House Credit |
+| 154 | inhDebit | `Float` | In House Debit |
+| 155 | insertDate | `DateTime` | Insert Date |
+| 156 | insertUser | `Float` | Insert User |
+| 157 | installments | `Float` | Installments |
+| 158 | internalCashierid | `Float` | Cashierid |
+| 159 | invoiceCloseDate | `Date` | Invoice Close Date |
+| 160 | invoiceNo | `Float` | Invoice Number |
+| 161 | invoiceType | `String` | Invoice Type |
+| 162 | jRNUpdateDate | `Date` | JRN Update Date |
+| 163 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 164 | linkTrxNumber | `Float` | Link Transaction No |
+| 165 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 166 | marketCode | `String` | Market Code |
+| 167 | membershipId | `Float` | Membership ID |
+| 168 | mtrxNoAgainstPackage | `Float` | Sequence number generated automatically when packages are posted during manual room and tax. |
+| 169 | nameId | `Float` | Name ID |
+| 170 | nameTaxType | `String` | Name Tax Type |
+| 171 | netAmount | `Float` | Net Amount |
+| 172 | numberDialed | `String` | Number Dialed. |
+| 173 | oTransactionDesc | `String` | Transaction Description. |
+| 174 | orgBillNumber | `Float` | Stores original bill number after void. |
+| 175 | orgFolioType | `String` | Stores original folio type after void. |
+| 176 | orgPostedAmount | `Float` | The original transaction amount sent to the financial API. |
+| 177 | organizationArLedgerDebit | `Float` | Stores the original AR ledger debit amount for Direct Bill transactions. |
+| 178 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 179 | originalReservationNameId | `Float` | Original Resv Name ID |
+| 180 | originalRoom | `String` | Original Room |
+| 181 | packageAllowance | `Float` | Package Allowance amount of a package that has an allowance. |
+| 182 | packageArrangementCode | `String` | Arrangement code from the package associated to this transaction. |
+| 183 | packageCredit | `Float` | Credit amount on the guest package account. |
+| 184 | packageDebit | `Float` | Debit amount on the guest package account |
+| 185 | packageTrxType | `String` | Identifies the type of a package posting. Possible values are: PKG_WRAPPER INCLTAX_PKG_ROOM EXCLTAX_PKG_ROOM INCLTAX_PKG_WITH_ALLOWANCE EXCLTAX_PKG_WITH_ALLOWANCE INCLTAX_PKG_WITHOUT_ALLOWANCE EXCLTAX_PKG_WITHOUT_ALLOWANCE |
+| 186 | parallelCurrency | `String` | Cuurency code for parrallel currency. |
+| 187 | parallelGrossAmount | `Float` | Parallel Gross Amount |
+| 188 | parallelGuestCredit | `Float` | Credit amount on the guest account stored in parrallel currency. |
+| 189 | parallelGuestDebit | `Float` | Debit amount on the guest account stored in parrallel currency. |
+| 190 | parallelNetAmount | `Float` | Parallel Net Amount |
+| 191 | passerByName | `String` | Passerby Name. |
+| 192 | paymentSurchargeAmt | `Float` | Payment Surcharge Amount. |
+| 193 | paymentSurchargeType | `String` | Payment Surcharge Type. Currency for the CASH payment method. |
+| 194 | paymentType | `String` | Payment Type |
+| 195 | postedAmount | `Float` | Posted Amount |
+| 196 | postingDate | `Date` | Posting Date |
+| 197 | postingRhythm | `String` | Posting Rhythm |
+| 198 | postingSourceNameId | `Float` | Source Profile of the posting coming from IFC. Related to 9700 functionality. |
+| 199 | postingType | `String` | Indicates if the posting is part of a rate code posting (RATE CODE) or if posted manually (MANUAL). |
+| 200 | postitNo | `Float` | Postit Number |
+| 201 | postitYn | `String` | Postit Y/N |
+| 202 | pricePerUnit | `Float` | Price Per Unit |
+| 203 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 204 | processed8300Yn | `String` | Indicates whether this particular transaction has been included in an 8300 tax form yet. |
+| 205 | product | `String` | Product |
+| 206 | profitLossFlag | `String` | Populated with [P] for package profit and [L] for package loss transactions. |
+| 207 | proformaYn | `String` | Proforma Y/N |
+| 208 | property | `String` | Code to uniquely identify the Property |
+| 209 | propertyBillPrefix | `String` | Property Bill Prefix |
+| 210 | quantity | `Float` | Quantity |
+| 211 | queueName | `String` | Queue Name |
+| 212 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 213 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 214 | rateCode | `String` | Rate Code |
+| 215 | reasonCode | `String` | Reason Code |
+| 216 | receiptNo | `Float` | Recpt Number |
+| 217 | receiptType | `String` | Indicates the receipt type. Different receipts are identified by different types |
+| 218 | reference | `String` | Reference |
+| 219 | reservationDepositId | `Float` | Stores Reservation_deposit_schedule_id from RESERVATION_DEPOSIT_SCHEDULE table  to link the deposit payment to the deposit request. |
+| 220 | reservationNameId | `Float` | Resv Name ID |
+| 221 | reservationid | `Float` | Reservationid |
+| 222 | revenueAmt | `Float` | Revenue Amount. |
+| 223 | reversePaymentTrxNumber | `Float` | Stores the trx_no of the reversed payment. |
+| 224 | revisionNo | `Float` | Revision Number |
+| 225 | room | `String` | Room |
+| 226 | roomClass | `String` | Room Class |
+| 227 | roomNts | `Float` | Room Nts |
+| 228 | roomNtsEffective | `Float` | Stores the effective room nights with decimals making it significant for postings splits edits and adjustments. Required by B&B Hotels. |
+| 229 | roundFactorYn | `String` | Round Factor Y/N |
+| 230 | roundLinkTrxno | `Float` | TRX_NO of the transaction associated with this rounding factor posting. |
+| 231 | routedYn | `String` | Indicates if the transaction has been routed. |
+| 232 | routingDate | `Date` | Routing date for comp routings - populated only if routed transaction has trx date less than business date. |
+| 233 | routingInstrnId | `Float` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| 234 | serviceRecoveryAdjustmentYn | `String` | Indicates if the transaction is a service recovery adjustment. |
+| 235 | serviceRecoveryDeptCode | `String` | Stores the department code responsible for the adjustment. |
+| 236 | settlementFlag | `String` | Settlement Flag |
+| 237 | sourceCode | `String` | Source Code |
+| 238 | sourceCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Source commission calculation. |
+| 239 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
+| 240 | supplement | `String` | Supplement |
+| 241 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
+| 242 | taCommissionableYn | `String` | The value 'Y' indicates that the commission has been paid for the transaction. |
+| 243 | targetResort | `String` | Target Property |
+| 244 | taxElements | `String` | Tax Elements |
+| 245 | taxGeneratedYn | `String` | Indicates whether tax has been generated for a particuar posting. |
+| 246 | taxInclusiveYn | `String` | Tax Inclusive Y/N |
+| 247 | taxInvNumber | `String` | Tax Invoice No |
+| 248 | taxRate | `Float` | Tax Rate |
+| 249 | taxRateType | `String` | Tax Rate Type |
+| 250 | tcGroup | `String` | Transaction Code Group |
+| 251 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 252 | tclCode1 | `String` | Class1 Code. |
+| 253 | tclCode2 | `String` | Class1 Code. |
+| 254 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 255 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 256 | thresholdEntityType | `String` | Threshold Entity Type |
+| 257 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 258 | toReservationNameId | `Float` | To Resv Name ID |
+| 259 | tranActionId | `Float` | Tran Action ID |
+| 260 | transactionDate | `Date` | Transaction Date |
+| 261 | transactionFromAcct | `Float` | Trns From Account |
+| 262 | transactionNumber | `Float` | Transaction Number |
+| 263 | transactionToAcct | `Float` | Trns To Account |
+| 264 | transcodearrangementid | `Float` | Transcodearrangementid |
+| 265 | transcodeid | `String` | Transcodeid |
+| 266 | trnsActivityDate | `Date` | Transaction Activity Date |
+| 267 | trxAmount | `Float` | Transaction Amount |
+| 268 | trxCode | `String` | Transaction Code |
+| 269 | trxNumberAddedBy | `Float` | Transaction No Added By |
+| 270 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 271 | trxNumberAgainstPackage | `Float` | Transaction No Against Package |
+| 272 | trxNumberHeader | `Float` | Transaction No Header |
+| 273 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 274 | trxServiceType | `String` | Transaction Service Type |
+| 275 | updateDate | `DateTime` | Update Date |
+| 276 | updateUser | `Float` | Update User |
+| 277 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
+| 278 | vatOffsetYn | `String` | Vat Offset Y/N |
 
 [⬆ Back to Query](#query)
 
@@ -1201,111 +1201,111 @@
 
 ### ARAgingReportInvoiceHeaderDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRDebit | `Float` | AR Debit |
-| aRLedgerCredit | `Float` | AR Ledger Credit |
-| aRTransferDate | `Date` | AR Transfer Date |
-| accountCode | `Float` | Account Code |
-| accountTypeFlag | `String` | Account Type Flag |
-| accountid | `Float` | Accountid |
-| addresseeNameId | `Float` | Addressee Name ID |
-| adjustmentYn | `String` | Adjustment Y/N |
-| adjustmentflag | `String` | Adjustmentflag |
-| agingBucket | `Float` | Aging bucket number. |
-| agingBusinessDate | `Date` | Aging Business Date |
-| amount | `Float` | Amount |
-| billNumber | `Float` | Bill Number |
-| cARLedgerCredit | `Float` | Central Ar Led Credit |
-| cARLedgerDebit | `Float` | Central Ar Led Debit |
-| cAmount | `Float` | Central Amount |
-| cContractCurrencyDifference | `Float` | Central Contract Curr Diff |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cOrganizationAmount | `Float` | Central Org Amt |
-| cOrganizationAmountContract | `Float` | Central Org Amt Contract |
-| cOrganizationAmountCurrencyDifference | `Float` | Central Org Amt Curr Diff |
-| cOrganizationAmountParallel | `Float` | Central Org Amt Parallel |
-| cPaid | `Float` | Central Paid |
-| cParallelCurrencyDifference | `Float` | Central Parallel Curr Diff |
-| cashierId | `Float` | Cashier ID |
-| centralProfileID | `String` | Central Profile ID |
-| checkOutDate | `Date` | Date on which the guest was checked out. |
-| compressDate | `Date` | Date of Compression. |
-| compressedYn | `String` | Compressed Y/N |
-| contractCurrDifference | `Float` | Currency difference for contract amount. Used for Dual Currency functionality. |
-| contractCurrencyCode | `String` | Currency Code of the contract currency. Used for Dual Currency functionality. |
-| creditedToTrxNumber | `Float` | Stores the transaction number for which this credit bill is created. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateForAging | `String` | Date the aging should begin |
-| deletedFlag | `String` | Deleted Flag |
-| expInvoiceType | `String` | Export Invoice Type |
-| expOriginalInvoice | `String` | Export Original Invoice |
-| externalReceiptDate | `Date` | Receipt Date sent from external systems. |
-| fintransid | `Float` | Fintransid |
-| fiscalBillNo | `String` | Fiscal Bill Number |
-| folioNo | `Float` | Folio Number |
-| folioText1 | `String` | Folio Text 1 |
-| folioText2 | `String` | Folio Text 2 |
-| folioType | `String` | Folio Type |
-| folioid | `Float` | Folioid |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `String` | Insert User |
-| invoiceAge | `Float` | Invoice Age |
-| invoiceCloseDate | `Date` | Invoice Close Date |
-| invoiceClosedBy | `String` | Application User who closed the invoice. |
-| invoiceNumber | `Float` | Invoice Number |
-| invoiceStatus | `String` | Status of the invoice (H)old (O)pen or (C)losed. |
-| invoiceType | `String` | Invoice Type |
-| invoiceid | `Float` | Invoiceid |
-| invoiceprofileid | `Float` | Invoiceprofileid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterInvoiceNumber | `Float` | Compressed Invoice No for which multiple invoices have been compressed to. |
-| name | `String` | Name |
-| nameId | `Float` | Name ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originalAmount | `Float` | Original Amount |
-| originalAmountContractCurrency | `Float` | Original Amount in contract currency. Used for Dual Currency functionality. |
-| originalAmountCurrencyDifference | `Float` | Currency difference for the original amount in local currency.  Used for Dual Currency functionality. |
-| originalAmountDualCurrency | `Float` | Original Amount in parallel currency. Used for Dual Currency functionality. |
-| ownerRoom | `String` | The owner room where this invoice/payment belongs to. |
-| ownerroomid | `String` | Ownerroomid |
-| paid | `Float` | Amount paid. |
-| parallelCurrDifference | `Float` | Currency difference for parallel amount. Used for Dual Currency functionality. |
-| parallelCurrencyCode | `String` | Currency Code of the parallel currency. Used for Dual Currency functionality. |
-| paymentNo | `String` | Payment Number used for chain specific functionality. |
-| postDate | `Date` | Post Date |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printedDate | `Date` | Printed Date |
-| printedYn | `String` | Printed Y/N |
-| profileID | `String` | Profile ID |
-| property | `String` | Code to uniquely identify the Property |
-| purgeYn | `String` | Indicator whether to purge the Account. |
-| reference | `String` | Reference |
-| remark | `String` | Remark |
-| reminderCycle | `Float` | Reminder Cycle that was generated for this invoice |
-| reminderDate | `Date` | Date of the reminder letter that was sent |
-| reservationNameId | `Float` | Resv Name ID |
-| reservationid | `Float` | Reservationid |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| room | `String` | Room |
-| roomid | `String` | Roomid |
-| statementNumber | `Float` | Statement Number |
-| tranActionId | `Float` | Tran Action ID |
-| transactionActivityDate | `DateTime` | Transaction Activity Date |
-| transactionDate | `Date` | Transaction Date |
-| transactionFromAcct | `Float` | Trns From Account |
-| transactionToAcct | `Float` | Trns To Account |
-| transcodeid | `String` | Transcodeid |
-| transferfromaccountid | `Float` | Transferfromaccountid |
-| transfertoaccountid | `Float` | Transfertoaccountid |
-| trxCode | `String` | Transaction Code |
-| trxNumber | `Float` | Transaction No |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `String` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRDebit | `Float` | AR Debit |
+| 2 | aRLedgerCredit | `Float` | AR Ledger Credit |
+| 3 | aRTransferDate | `Date` | AR Transfer Date |
+| 4 | accountCode | `Float` | Account Code |
+| 5 | accountTypeFlag | `String` | Account Type Flag |
+| 6 | accountid | `Float` | Accountid |
+| 7 | addresseeNameId | `Float` | Addressee Name ID |
+| 8 | adjustmentYn | `String` | Adjustment Y/N |
+| 9 | adjustmentflag | `String` | Adjustmentflag |
+| 10 | agingBucket | `Float` | Aging bucket number. |
+| 11 | agingBusinessDate | `Date` | Aging Business Date |
+| 12 | amount | `Float` | Amount |
+| 13 | billNumber | `Float` | Bill Number |
+| 14 | cARLedgerCredit | `Float` | Central Ar Led Credit |
+| 15 | cARLedgerDebit | `Float` | Central Ar Led Debit |
+| 16 | cAmount | `Float` | Central Amount |
+| 17 | cContractCurrencyDifference | `Float` | Central Contract Curr Diff |
+| 18 | cExchangeDate | `Date` | Central Xchange Date |
+| 19 | cExchangeRate | `Float` | Central Xchange Rate |
+| 20 | cOrganizationAmount | `Float` | Central Org Amt |
+| 21 | cOrganizationAmountContract | `Float` | Central Org Amt Contract |
+| 22 | cOrganizationAmountCurrencyDifference | `Float` | Central Org Amt Curr Diff |
+| 23 | cOrganizationAmountParallel | `Float` | Central Org Amt Parallel |
+| 24 | cPaid | `Float` | Central Paid |
+| 25 | cParallelCurrencyDifference | `Float` | Central Parallel Curr Diff |
+| 26 | cashierId | `Float` | Cashier ID |
+| 27 | centralProfileID | `String` | Central Profile ID |
+| 28 | checkOutDate | `Date` | Date on which the guest was checked out. |
+| 29 | compressDate | `Date` | Date of Compression. |
+| 30 | compressedYn | `String` | Compressed Y/N |
+| 31 | contractCurrDifference | `Float` | Currency difference for contract amount. Used for Dual Currency functionality. |
+| 32 | contractCurrencyCode | `String` | Currency Code of the contract currency. Used for Dual Currency functionality. |
+| 33 | creditedToTrxNumber | `Float` | Stores the transaction number for which this credit bill is created. |
+| 34 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 35 | dateForAging | `String` | Date the aging should begin |
+| 36 | deletedFlag | `String` | Deleted Flag |
+| 37 | expInvoiceType | `String` | Export Invoice Type |
+| 38 | expOriginalInvoice | `String` | Export Original Invoice |
+| 39 | externalReceiptDate | `Date` | Receipt Date sent from external systems. |
+| 40 | fintransid | `Float` | Fintransid |
+| 41 | fiscalBillNo | `String` | Fiscal Bill Number |
+| 42 | folioNo | `Float` | Folio Number |
+| 43 | folioText1 | `String` | Folio Text 1 |
+| 44 | folioText2 | `String` | Folio Text 2 |
+| 45 | folioType | `String` | Folio Type |
+| 46 | folioid | `Float` | Folioid |
+| 47 | insertDate | `DateTime` | Insert Date |
+| 48 | insertUser | `String` | Insert User |
+| 49 | invoiceAge | `Float` | Invoice Age |
+| 50 | invoiceCloseDate | `Date` | Invoice Close Date |
+| 51 | invoiceClosedBy | `String` | Application User who closed the invoice. |
+| 52 | invoiceNumber | `Float` | Invoice Number |
+| 53 | invoiceStatus | `String` | Status of the invoice (H)old (O)pen or (C)losed. |
+| 54 | invoiceType | `String` | Invoice Type |
+| 55 | invoiceid | `Float` | Invoiceid |
+| 56 | invoiceprofileid | `Float` | Invoiceprofileid |
+| 57 | jRNUpdateDate | `Date` | JRN Update Date |
+| 58 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 59 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 60 | masterInvoiceNumber | `Float` | Compressed Invoice No for which multiple invoices have been compressed to. |
+| 61 | name | `String` | Name |
+| 62 | nameId | `Float` | Name ID |
+| 63 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 64 | originalAmount | `Float` | Original Amount |
+| 65 | originalAmountContractCurrency | `Float` | Original Amount in contract currency. Used for Dual Currency functionality. |
+| 66 | originalAmountCurrencyDifference | `Float` | Currency difference for the original amount in local currency.  Used for Dual Currency functionality. |
+| 67 | originalAmountDualCurrency | `Float` | Original Amount in parallel currency. Used for Dual Currency functionality. |
+| 68 | ownerRoom | `String` | The owner room where this invoice/payment belongs to. |
+| 69 | ownerroomid | `String` | Ownerroomid |
+| 70 | paid | `Float` | Amount paid. |
+| 71 | parallelCurrDifference | `Float` | Currency difference for parallel amount. Used for Dual Currency functionality. |
+| 72 | parallelCurrencyCode | `String` | Currency Code of the parallel currency. Used for Dual Currency functionality. |
+| 73 | paymentNo | `String` | Payment Number used for chain specific functionality. |
+| 74 | postDate | `Date` | Post Date |
+| 75 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 76 | printedDate | `Date` | Printed Date |
+| 77 | printedYn | `String` | Printed Y/N |
+| 78 | profileID | `String` | Profile ID |
+| 79 | property | `String` | Code to uniquely identify the Property |
+| 80 | purgeYn | `String` | Indicator whether to purge the Account. |
+| 81 | reference | `String` | Reference |
+| 82 | remark | `String` | Remark |
+| 83 | reminderCycle | `Float` | Reminder Cycle that was generated for this invoice |
+| 84 | reminderDate | `Date` | Date of the reminder letter that was sent |
+| 85 | reservationNameId | `Float` | Resv Name ID |
+| 86 | reservationid | `Float` | Reservationid |
+| 87 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 88 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 89 | room | `String` | Room |
+| 90 | roomid | `String` | Roomid |
+| 91 | statementNumber | `Float` | Statement Number |
+| 92 | tranActionId | `Float` | Tran Action ID |
+| 93 | transactionActivityDate | `DateTime` | Transaction Activity Date |
+| 94 | transactionDate | `Date` | Transaction Date |
+| 95 | transactionFromAcct | `Float` | Trns From Account |
+| 96 | transactionToAcct | `Float` | Trns To Account |
+| 97 | transcodeid | `String` | Transcodeid |
+| 98 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 99 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 100 | trxCode | `String` | Transaction Code |
+| 101 | trxNumber | `Float` | Transaction No |
+| 102 | updateDate | `DateTime` | Update Date |
+| 103 | updateUser | `String` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1313,270 +1313,270 @@
 
 ### ARAgingReportPropertyPropertyDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| property | `String` | The property that the record belongs to |
-| aRAccountNoFormat | `String` | Number format of AR account no. |
-| aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
-| aRAgent | `String` | Default Account Type for an Agent for the Property |
-| aRBalanceTrxCode | `String` | Internal |
-| aRCompany | `String` | Default Account Type for a Company for the Property |
-| aRCreditTrxCode | `String` | Internal |
-| aRGroups | `String` | Default Account Type for a Group for the Property |
-| aRIndividuals | `String` | Default Account Type for Individual for the Property |
-| aRSettleCode | `String` | Internal |
-| aRTypewriter | `String` | Internal |
-| accessCode | `String` | Access Code |
-| accessibleRooms | `Float` | Number of handicapped rooms. |
-| agingLevel1 | `Float` | Aging bucket 1 |
-| agingLevel2 | `Float` | Aging bucket 2 |
-| agingLevel3 | `Float` | Aging bucket 3 |
-| agingLevel4 | `Float` | Aging bucket 4 |
-| agingLevel5 | `Float` | Aging bucket 3 |
-| airport | `String` | The Airport Code for the airport near the property |
-| airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
-| airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
-| allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
-| allowancePeriodAdj | `String` | Period for the allowance |
-| awardsTimeout | `Float` | Internal |
-| ballroomArea | `String` | Ball Room Area |
-| ballroomSeats | `Float` | No of Ballroom Seats |
-| baseLanguage | `String` | The base language of the Hotel |
-| block | `String` | It contains the reservation type to be used when making group block |
-| brandCode | `String` | Brand Code of the property. |
-| budgetMonth | `Float` | Financial Year of the Property |
-| businessDate | `Date` | The date this resort becomes valid for use by the system |
-| businessID | `String` | Value for the parameter. |
-| businessRegistrationCode | `String` | Value for the parameter. |
-| cROCODE | `String` | Code for the CRO |
-| cashShiftDrop | `String` | Internal |
-| cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
-| cateringCurrencyFormat | `String` | Catering currency format. |
-| centralXchangeDate | `Date` | Central  Exchange Date |
-| centralXchangeRate | `Float` | Central  Exchange Rate |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralCurrencyCode | `String` | Central Currency Code |
-| centralCurrencyDescription | `String` | Central Currency Description |
-| centralDblRate2 | `Float` | Central Double Rate2 |
-| centralDblRate1 | `Float` | Central Double Rate1 |
-| centralPasserbyMarket | `String` | Central Passerby Market |
-| centralPasserbySource | `String` | Central Passerby Source |
-| centralPropertyType | `String` | Central Property Type |
-| centralSglRate1 | `Float` | Central Sgl Rate1 |
-| centralSglRate2 | `Float` | Central Sgl Rate 2 |
-| centralState | `String` | Central State |
-| centralStateDescription | `String` | Central State Description |
-| centralSuiRate1 | `Float` | Central Sui Rate1 |
-| centralSuiRate2 | `Float` | Central Sui Rate 2 |
-| centralTplRate1 | `Float` | Central Tpl Rate1 |
-| centralTplRate2 | `Float` | Central Tpl Rate 2 |
-| centralWarningAmount | `Float` | Central Warning Amount |
-| chainCode | `String` | Chain Code for the chain to which the property belongs |
-| chainDescription | `String` | The description of this chain. |
-| chainMode | `String` | Chain Mode |
-| checkExgPaidout | `String` | Internal |
-| checkOutTime | `DateTime` | The Hotel official check out time |
-| checkShiftDrop | `String` | Internal |
-| checkTrxcode | `String` | Internal |
-| checkInTime | `DateTime` | The Hotel official check intime |
-| city | `String` | The physical city in which this property resides. |
-| cityDescription | `String` | City Description |
-| comAddress | `String` | Internal |
-| comMethod | `String` | Internal |
-| comNameXrefId | `Float` | Internal |
-| companyAddressType | `String` | Internal |
-| companyPhoneType | `String` | Internal |
-| configurationMode | `String` | Internal |
-| confirmRegcardPrinter | `String` | Internal |
-| connectingRooms | `Float` | Number of connecting rooms. |
-| contacts | `String` | The unique name of application user |
-| copies | `Float` | Number of copies to be printed |
-| country | `String` | Country name. |
-| countryCode | `String` | The name of the country in which this property resides. |
-| countryMode | `String` | Value for the parameter. |
-| creditLimit | `Float` | The default credit limit for guests. |
-| currencyCode | `String` | Currency Code. |
-| currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
-| currencyDescription | `String` | A description of this currency. |
-| currencyFormat | `String` | Format for the local currency. |
-| curtainColor | `String` | Color that of the background |
-| dSI | `Float` | DSI |
-| dateForAging | `String` | Date the aging should begin |
-| dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
-| decimalPlaces | `Float` | Number of places for the default currency |
-| decimalSeparator | `String` | Type of decimal separator |
-| decimals | `Float` | Number of decimals to designate currency |
-| defaultFolioStyle | `Float` | Folio style to be used for all guests |
-| defaultGuestAddress | `String` | Default guest address format. |
-| defaultMembershipType | `String` | Future use |
-| defaultPostingRoom | `String` | Future use |
-| defaultPropertyAddress | `String` | Default property address format. |
-| defaultRateCode | `String` | Future use |
-| defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
-| defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
-| defaultRegistrationCard | `String` | Default registration card for the property. |
-| defaultReservationType | `String` | The Default reservation type for this property |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerTrxCode | `String` | Future use |
-| destinationId | `String` | Destination ID |
-| dfltPkgTranCode | `String` | Future use |
-| dfltTranCodeRateCode | `String` | Future use |
-| directions | `String` | Internal |
-| dirsales | `String` | Future use |
-| disableLoginYN | `String` | LOGIN into the application is disabled. |
-| doubleRooms | `Float` | Number of double rooms. |
-| downloadRestYN | `String` | Download Rest YN |
-| dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
-| email | `String` | Email id for the property. |
-| endDate | `Date` | Future use. |
-| exchangePostingType | `String` | Default Exchange posting status for the property |
-| executiveFloorNumber | `String` | Floor number of executive floor. |
-| expHotelCode | `String` | Hotel code used for third party exports |
-| extExpFileLocation | `String` | Future use |
-| extPropertyCode | `String` | Future use |
-| externalSCYN | `String` | Indicates that the property uses an external SC system. |
-| familyRooms | `Float` | Number of family rooms. |
-| faxNoFormat | `String` | Fax number formats. |
-| faxNumber | `String` | The fax phone number |
-| fiscalEndDate | `Date` | Future use |
-| fiscalPeriodType | `String` | Future use |
-| fiscalStartDate | `Date` | Future use |
-| fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
-| fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
-| flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
-| flowCode | `String` | Future use |
-| fnsTier | `String` | Property Free Nights Stay Tier. |
-| folioLanguage1 | `String` | Other languages |
-| folioLanguage2 | `String` | Other languages |
-| folioLanguage3 | `String` | Other languages |
-| folioLanguage4 | `String` | Other languages |
-| genmgr | `String` | Future use |
-| groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
-| guestLookupTimeout | `Float` | Future use |
-| guestRoomElevators | `Float` | Number of guest elevators. |
-| guestRoomFloors | `Float` | Total of guest rooms floors. |
-| hotelCode | `String` | Future use |
-| hotelFC | `String` | Future use |
-| hotelID | `String` | Hotel id |
-| hotelType | `String` | Future use |
-| iMGDirectionID | `Float` | Future use |
-| iMGHotelID | `Float` | Future use |
-| iMGMapID | `Float` | Future use |
-| inactiveDaysForGuestProfile | `Float` | Future use |
-| inactiveFlag | `String` | Inactive Flag |
-| individualAddressType | `String` | Future use |
-| individualPhoneType | `String` | Future use |
-| individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `Float` | The user that created the record |
-| intTaxIncludedYN | `String` | Int Tax Included YN |
-| inventoryYN | `String` | Future use |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
-| latitude | `Float` | Latitude of the property in decimal |
-| leadsend | `String` | Future use |
-| legalOwner | `String` | The owner who owns this property |
-| locationID | `String` | The property that the record belongs to |
-| longDateFormat | `String` | Long date format for the property. |
-| longStayControl | `Float` | The default length of stay |
-| longitude | `Float` | Longitude of the property in decimal |
-| maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
-| maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
-| maxOccupancy | `Float` | Future use |
-| maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
-| mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
-| meetRooms | `Float` | Future use |
-| meetSeats | `Float` | Future use |
-| meetSpace | `Float` | Future use |
-| meetingFC | `String` | Future use |
-| minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
-| nameIdLink | `Float` | Internal |
-| nightAuditCashierID | `String` | Future use |
-| nonSmokingRooms | `Float` | Number of non smoking rooms. |
-| noteDetails | `String` | Notes for the property |
-| numberOfBeds | `Float` | Total number of beds in this property |
-| numberOfFloors | `Float` | Total number of floors in this property |
-| numberOfRooms | `Float` | Number of Rooms |
-| opusCurrencyCode | `String` | Future use |
-| organizationID | `Float` | Organization ID |
-| organizationInternalID | `Float` | Organization Internal ID |
-| ownership | `String` | Future use |
-| packageLoss | `String` | Package Loss code for a particular package |
-| packageProfit | `String` | Package Profit code for a particular Package |
-| parentOrgCode | `String` | Parent Org Code |
-| passerbyMarket | `String` | Market code |
-| passerbySource | `String` | Source code |
-| path | `String` | Path |
-| paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| perReservationRoomLimit | `Float` | Future use |
-| phoneNumber | `String` | The direct dial phone number of this property |
-| postalCode | `String` | The postal code of this property. |
-| primaryKeyID | `Float` | Primary Key ID |
-| proinfoUrl | `String` | URL where property information is located. |
-| propMapUrl | `String` | Property MAP URL. |
-| propPicUrl | `String` | Property picture URL. |
-| propertyCode | `String` | The property that the record belongs to |
-| propertyName | `String` | The name of this property. |
-| propertyType | `String` | Type of resort. |
-| quotedCurrency | `String` | Future use |
-| rNAInsertdate | `DateTime` | RNA Insert Date |
-| rNAUpdatedate | `DateTime` | RNA Update Date |
-| reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| regionCode | `String` | Future use |
-| regionDescription | `String` | Description of the Region. |
-| restaurant | `Float` | Future use |
-| rhythmSheets | `Float` | Total number of Sheets |
-| rhythmTowels | `Float` | Total number of Towels |
-| roomAmenities | `String` | Room amenity. |
-| sGLNum | `String` | Future use |
-| sGLRate1 | `Float` | Future use |
-| sGLRate2 | `Float` | Future use |
-| sUINum | `String` | Future use |
-| sUIRate1 | `Float` | Future use |
-| sUIRate2 | `Float` | Future use |
-| saveProfiles | `Float` | To store number of days before deleting the gest profile |
-| scriptID | `Float` | Future use |
-| season1 | `String` | Future use |
-| season2 | `String` | Future use |
-| season3 | `String` | Future use |
-| season4 | `String` | Future use |
-| season5 | `String` | Future use |
-| sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
-| shopDescription | `String` | Shop description. |
-| shortDateFormat | `String` | Short date format for the property. |
-| singleRooms | `Float` | Number of single rooms. |
-| sourceCommission | `String` | For default commission percentage |
-| state | `String` | The state in which this property is located. |
-| stateDescription | `String` | Description of the state. |
-| street | `String` | The street of the property. |
-| suites | `Float` | Number of suites. |
-| summCurrencyCode | `String` | Internal |
-| tACommission | `String` | For default commission percentage |
-| tPLNum | `String` | Future use |
-| tPLRate1 | `Float` | Future use |
-| tPLRate2 | `Float` | Future use |
-| telephoneNoFormat | `String` | Formats for telephone number |
-| thousandSeparator | `String` | Separator for monetory values |
-| timeFormat | `String` | Default time format for the property. |
-| timeZone | `String` | Time zone region selected by the employee. |
-| tollFree | `String` | Toll free telephone number. |
-| totalRooms | `Float` | Future use |
-| touristNumber | `String` | Tourist Number |
-| translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
-| turnawayCode | `String` | Turnaway code for the property. |
-| twinRooms | `Float` | Number of twin rooms. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
-| vatID | `String` | VAT ID of this property. |
-| videoCheckoutPrinter | `String` | Future use |
-| videoCheckoutStart | `DateTime` | Video check out start time. |
-| videoCheckoutStop | `DateTime` | Video check out end time. |
-| wakeUpDelay | `Float` | Future use |
-| warningAmount | `Float` | Amount at which warning is raised. |
-| web | `String` | Webaddress of the property |
-| weekendDays | `String` | Weekend days for the property. |
-| zeroInvPurDays | `Float` | Internal |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | property | `String` | The property that the record belongs to |
+| 2 | aRAccountNoFormat | `String` | Number format of AR account no. |
+| 3 | aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
+| 4 | aRAgent | `String` | Default Account Type for an Agent for the Property |
+| 5 | aRBalanceTrxCode | `String` | Internal |
+| 6 | aRCompany | `String` | Default Account Type for a Company for the Property |
+| 7 | aRCreditTrxCode | `String` | Internal |
+| 8 | aRGroups | `String` | Default Account Type for a Group for the Property |
+| 9 | aRIndividuals | `String` | Default Account Type for Individual for the Property |
+| 10 | aRSettleCode | `String` | Internal |
+| 11 | aRTypewriter | `String` | Internal |
+| 12 | accessCode | `String` | Access Code |
+| 13 | accessibleRooms | `Float` | Number of handicapped rooms. |
+| 14 | agingLevel1 | `Float` | Aging bucket 1 |
+| 15 | agingLevel2 | `Float` | Aging bucket 2 |
+| 16 | agingLevel3 | `Float` | Aging bucket 3 |
+| 17 | agingLevel4 | `Float` | Aging bucket 4 |
+| 18 | agingLevel5 | `Float` | Aging bucket 3 |
+| 19 | airport | `String` | The Airport Code for the airport near the property |
+| 20 | airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
+| 21 | airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
+| 22 | allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
+| 23 | allowancePeriodAdj | `String` | Period for the allowance |
+| 24 | awardsTimeout | `Float` | Internal |
+| 25 | ballroomArea | `String` | Ball Room Area |
+| 26 | ballroomSeats | `Float` | No of Ballroom Seats |
+| 27 | baseLanguage | `String` | The base language of the Hotel |
+| 28 | block | `String` | It contains the reservation type to be used when making group block |
+| 29 | brandCode | `String` | Brand Code of the property. |
+| 30 | budgetMonth | `Float` | Financial Year of the Property |
+| 31 | businessDate | `Date` | The date this resort becomes valid for use by the system |
+| 32 | businessID | `String` | Value for the parameter. |
+| 33 | businessRegistrationCode | `String` | Value for the parameter. |
+| 34 | cROCODE | `String` | Code for the CRO |
+| 35 | cashShiftDrop | `String` | Internal |
+| 36 | cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
+| 37 | cateringCurrencyFormat | `String` | Catering currency format. |
+| 38 | centralXchangeDate | `Date` | Central  Exchange Date |
+| 39 | centralXchangeRate | `Float` | Central  Exchange Rate |
+| 40 | centralCreditLimit | `Float` | Central Credit Limit |
+| 41 | centralCurrencyCode | `String` | Central Currency Code |
+| 42 | centralCurrencyDescription | `String` | Central Currency Description |
+| 43 | centralDblRate2 | `Float` | Central Double Rate2 |
+| 44 | centralDblRate1 | `Float` | Central Double Rate1 |
+| 45 | centralPasserbyMarket | `String` | Central Passerby Market |
+| 46 | centralPasserbySource | `String` | Central Passerby Source |
+| 47 | centralPropertyType | `String` | Central Property Type |
+| 48 | centralSglRate1 | `Float` | Central Sgl Rate1 |
+| 49 | centralSglRate2 | `Float` | Central Sgl Rate 2 |
+| 50 | centralState | `String` | Central State |
+| 51 | centralStateDescription | `String` | Central State Description |
+| 52 | centralSuiRate1 | `Float` | Central Sui Rate1 |
+| 53 | centralSuiRate2 | `Float` | Central Sui Rate 2 |
+| 54 | centralTplRate1 | `Float` | Central Tpl Rate1 |
+| 55 | centralTplRate2 | `Float` | Central Tpl Rate 2 |
+| 56 | centralWarningAmount | `Float` | Central Warning Amount |
+| 57 | chainCode | `String` | Chain Code for the chain to which the property belongs |
+| 58 | chainDescription | `String` | The description of this chain. |
+| 59 | chainMode | `String` | Chain Mode |
+| 60 | checkExgPaidout | `String` | Internal |
+| 61 | checkOutTime | `DateTime` | The Hotel official check out time |
+| 62 | checkShiftDrop | `String` | Internal |
+| 63 | checkTrxcode | `String` | Internal |
+| 64 | checkInTime | `DateTime` | The Hotel official check intime |
+| 65 | city | `String` | The physical city in which this property resides. |
+| 66 | cityDescription | `String` | City Description |
+| 67 | comAddress | `String` | Internal |
+| 68 | comMethod | `String` | Internal |
+| 69 | comNameXrefId | `Float` | Internal |
+| 70 | companyAddressType | `String` | Internal |
+| 71 | companyPhoneType | `String` | Internal |
+| 72 | configurationMode | `String` | Internal |
+| 73 | confirmRegcardPrinter | `String` | Internal |
+| 74 | connectingRooms | `Float` | Number of connecting rooms. |
+| 75 | contacts | `String` | The unique name of application user |
+| 76 | copies | `Float` | Number of copies to be printed |
+| 77 | country | `String` | Country name. |
+| 78 | countryCode | `String` | The name of the country in which this property resides. |
+| 79 | countryMode | `String` | Value for the parameter. |
+| 80 | creditLimit | `Float` | The default credit limit for guests. |
+| 81 | currencyCode | `String` | Currency Code. |
+| 82 | currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 83 | currencyDescription | `String` | A description of this currency. |
+| 84 | currencyFormat | `String` | Format for the local currency. |
+| 85 | curtainColor | `String` | Color that of the background |
+| 86 | dSI | `Float` | DSI |
+| 87 | dateForAging | `String` | Date the aging should begin |
+| 88 | dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
+| 89 | decimalPlaces | `Float` | Number of places for the default currency |
+| 90 | decimalSeparator | `String` | Type of decimal separator |
+| 91 | decimals | `Float` | Number of decimals to designate currency |
+| 92 | defaultFolioStyle | `Float` | Folio style to be used for all guests |
+| 93 | defaultGuestAddress | `String` | Default guest address format. |
+| 94 | defaultMembershipType | `String` | Future use |
+| 95 | defaultPostingRoom | `String` | Future use |
+| 96 | defaultPropertyAddress | `String` | Default property address format. |
+| 97 | defaultRateCode | `String` | Future use |
+| 98 | defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
+| 99 | defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
+| 100 | defaultRegistrationCard | `String` | Default registration card for the property. |
+| 101 | defaultReservationType | `String` | The Default reservation type for this property |
+| 102 | deletedFlag | `String` | Deleted Flag |
+| 103 | depositLedgerTrxCode | `String` | Future use |
+| 104 | destinationId | `String` | Destination ID |
+| 105 | dfltPkgTranCode | `String` | Future use |
+| 106 | dfltTranCodeRateCode | `String` | Future use |
+| 107 | directions | `String` | Internal |
+| 108 | dirsales | `String` | Future use |
+| 109 | disableLoginYN | `String` | LOGIN into the application is disabled. |
+| 110 | doubleRooms | `Float` | Number of double rooms. |
+| 111 | downloadRestYN | `String` | Download Rest YN |
+| 112 | dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
+| 113 | email | `String` | Email id for the property. |
+| 114 | endDate | `Date` | Future use. |
+| 115 | exchangePostingType | `String` | Default Exchange posting status for the property |
+| 116 | executiveFloorNumber | `String` | Floor number of executive floor. |
+| 117 | expHotelCode | `String` | Hotel code used for third party exports |
+| 118 | extExpFileLocation | `String` | Future use |
+| 119 | extPropertyCode | `String` | Future use |
+| 120 | externalSCYN | `String` | Indicates that the property uses an external SC system. |
+| 121 | familyRooms | `Float` | Number of family rooms. |
+| 122 | faxNoFormat | `String` | Fax number formats. |
+| 123 | faxNumber | `String` | The fax phone number |
+| 124 | fiscalEndDate | `Date` | Future use |
+| 125 | fiscalPeriodType | `String` | Future use |
+| 126 | fiscalStartDate | `Date` | Future use |
+| 127 | fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
+| 128 | fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
+| 129 | flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
+| 130 | flowCode | `String` | Future use |
+| 131 | fnsTier | `String` | Property Free Nights Stay Tier. |
+| 132 | folioLanguage1 | `String` | Other languages |
+| 133 | folioLanguage2 | `String` | Other languages |
+| 134 | folioLanguage3 | `String` | Other languages |
+| 135 | folioLanguage4 | `String` | Other languages |
+| 136 | genmgr | `String` | Future use |
+| 137 | groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
+| 138 | guestLookupTimeout | `Float` | Future use |
+| 139 | guestRoomElevators | `Float` | Number of guest elevators. |
+| 140 | guestRoomFloors | `Float` | Total of guest rooms floors. |
+| 141 | hotelCode | `String` | Future use |
+| 142 | hotelFC | `String` | Future use |
+| 143 | hotelID | `String` | Hotel id |
+| 144 | hotelType | `String` | Future use |
+| 145 | iMGDirectionID | `Float` | Future use |
+| 146 | iMGHotelID | `Float` | Future use |
+| 147 | iMGMapID | `Float` | Future use |
+| 148 | inactiveDaysForGuestProfile | `Float` | Future use |
+| 149 | inactiveFlag | `String` | Inactive Flag |
+| 150 | individualAddressType | `String` | Future use |
+| 151 | individualPhoneType | `String` | Future use |
+| 152 | individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
+| 153 | insertDate | `DateTime` | The date the record was created |
+| 154 | insertUser | `Float` | The user that created the record |
+| 155 | intTaxIncludedYN | `String` | Int Tax Included YN |
+| 156 | inventoryYN | `String` | Future use |
+| 157 | jRNUpdateDate | `Date` | JRN Update Date |
+| 158 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 159 | keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
+| 160 | latitude | `Float` | Latitude of the property in decimal |
+| 161 | leadsend | `String` | Future use |
+| 162 | legalOwner | `String` | The owner who owns this property |
+| 163 | locationID | `String` | The property that the record belongs to |
+| 164 | longDateFormat | `String` | Long date format for the property. |
+| 165 | longStayControl | `Float` | The default length of stay |
+| 166 | longitude | `Float` | Longitude of the property in decimal |
+| 167 | maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
+| 168 | maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
+| 169 | maxOccupancy | `Float` | Future use |
+| 170 | maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
+| 171 | mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
+| 172 | meetRooms | `Float` | Future use |
+| 173 | meetSeats | `Float` | Future use |
+| 174 | meetSpace | `Float` | Future use |
+| 175 | meetingFC | `String` | Future use |
+| 176 | minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
+| 177 | nameIdLink | `Float` | Internal |
+| 178 | nightAuditCashierID | `String` | Future use |
+| 179 | nonSmokingRooms | `Float` | Number of non smoking rooms. |
+| 180 | noteDetails | `String` | Notes for the property |
+| 181 | numberOfBeds | `Float` | Total number of beds in this property |
+| 182 | numberOfFloors | `Float` | Total number of floors in this property |
+| 183 | numberOfRooms | `Float` | Number of Rooms |
+| 184 | opusCurrencyCode | `String` | Future use |
+| 185 | organizationID | `Float` | Organization ID |
+| 186 | organizationInternalID | `Float` | Organization Internal ID |
+| 187 | ownership | `String` | Future use |
+| 188 | packageLoss | `String` | Package Loss code for a particular package |
+| 189 | packageProfit | `String` | Package Profit code for a particular Package |
+| 190 | parentOrgCode | `String` | Parent Org Code |
+| 191 | passerbyMarket | `String` | Market code |
+| 192 | passerbySource | `String` | Source code |
+| 193 | path | `String` | Path |
+| 194 | paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 195 | perReservationRoomLimit | `Float` | Future use |
+| 196 | phoneNumber | `String` | The direct dial phone number of this property |
+| 197 | postalCode | `String` | The postal code of this property. |
+| 198 | primaryKeyID | `Float` | Primary Key ID |
+| 199 | proinfoUrl | `String` | URL where property information is located. |
+| 200 | propMapUrl | `String` | Property MAP URL. |
+| 201 | propPicUrl | `String` | Property picture URL. |
+| 202 | propertyCode | `String` | The property that the record belongs to |
+| 203 | propertyName | `String` | The name of this property. |
+| 204 | propertyType | `String` | Type of resort. |
+| 205 | quotedCurrency | `String` | Future use |
+| 206 | rNAInsertdate | `DateTime` | RNA Insert Date |
+| 207 | rNAUpdatedate | `DateTime` | RNA Update Date |
+| 208 | reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 209 | regionCode | `String` | Future use |
+| 210 | regionDescription | `String` | Description of the Region. |
+| 211 | restaurant | `Float` | Future use |
+| 212 | rhythmSheets | `Float` | Total number of Sheets |
+| 213 | rhythmTowels | `Float` | Total number of Towels |
+| 214 | roomAmenities | `String` | Room amenity. |
+| 215 | sGLNum | `String` | Future use |
+| 216 | sGLRate1 | `Float` | Future use |
+| 217 | sGLRate2 | `Float` | Future use |
+| 218 | sUINum | `String` | Future use |
+| 219 | sUIRate1 | `Float` | Future use |
+| 220 | sUIRate2 | `Float` | Future use |
+| 221 | saveProfiles | `Float` | To store number of days before deleting the gest profile |
+| 222 | scriptID | `Float` | Future use |
+| 223 | season1 | `String` | Future use |
+| 224 | season2 | `String` | Future use |
+| 225 | season3 | `String` | Future use |
+| 226 | season4 | `String` | Future use |
+| 227 | season5 | `String` | Future use |
+| 228 | sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
+| 229 | shopDescription | `String` | Shop description. |
+| 230 | shortDateFormat | `String` | Short date format for the property. |
+| 231 | singleRooms | `Float` | Number of single rooms. |
+| 232 | sourceCommission | `String` | For default commission percentage |
+| 233 | state | `String` | The state in which this property is located. |
+| 234 | stateDescription | `String` | Description of the state. |
+| 235 | street | `String` | The street of the property. |
+| 236 | suites | `Float` | Number of suites. |
+| 237 | summCurrencyCode | `String` | Internal |
+| 238 | tACommission | `String` | For default commission percentage |
+| 239 | tPLNum | `String` | Future use |
+| 240 | tPLRate1 | `Float` | Future use |
+| 241 | tPLRate2 | `Float` | Future use |
+| 242 | telephoneNoFormat | `String` | Formats for telephone number |
+| 243 | thousandSeparator | `String` | Separator for monetory values |
+| 244 | timeFormat | `String` | Default time format for the property. |
+| 245 | timeZone | `String` | Time zone region selected by the employee. |
+| 246 | tollFree | `String` | Toll free telephone number. |
+| 247 | totalRooms | `Float` | Future use |
+| 248 | touristNumber | `String` | Tourist Number |
+| 249 | translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
+| 250 | turnawayCode | `String` | Turnaway code for the property. |
+| 251 | twinRooms | `Float` | Number of twin rooms. |
+| 252 | updateDate | `DateTime` | The date the record was modified |
+| 253 | updateUser | `Float` | The user that modified the record |
+| 254 | vatID | `String` | VAT ID of this property. |
+| 255 | videoCheckoutPrinter | `String` | Future use |
+| 256 | videoCheckoutStart | `DateTime` | Video check out start time. |
+| 257 | videoCheckoutStop | `DateTime` | Video check out end time. |
+| 258 | wakeUpDelay | `Float` | Future use |
+| 259 | warningAmount | `Float` | Amount at which warning is raised. |
+| 260 | web | `String` | Webaddress of the property |
+| 261 | weekendDays | `String` | Weekend days for the property. |
+| 262 | zeroInvPurDays | `Float` | Internal |
 
 [⬆ Back to Query](#query)
 
@@ -2181,6 +2181,12 @@
 | resortDetailsWebaddress | `StringInput` | Webaddress of the property |
 | resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
+#### Validation Rules
+
+**`mandatoryInput`**
+- aragingreportDetailsResort
+- aragingreportDetailsTrxDate
+
 
 [⬆ Back to Query](#query)
 

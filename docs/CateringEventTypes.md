@@ -16,10 +16,10 @@
 
 ### CateringEventTypesType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| eventTypeDetails | [`CateringEventTypesEventTypeDetailsType`](#cateringeventtypeseventtypedetailstype) | Event Type Details |
-| cateringEventTypesRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | eventTypeDetails | [`CateringEventTypesEventTypeDetailsType`](#cateringeventtypeseventtypedetailstype) | Event Type Details |
+| 2 | cateringEventTypesRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -27,43 +27,43 @@
 
 ### CateringEventTypesEventTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activeYN | `String` | Active YN |
-| centralBlockName | `String` | Central Block Name |
-| centralEventType | `String` | Central Event Type |
-| chainCode | `String` | Chain Code |
-| coverable | `String` | Coverable |
-| coverableYn | `String` | Coverable Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultEndDate | `Date` | Default End Date |
-| defaultStartDate | `Date` | Default Start Date |
-| deletedFlag | `String` | Deleted Flag |
-| eventType | `String` | Event Type |
-| eventTypeDescription | `String` | Event Type Description |
-| eventtypeid | `String` | Eventtypeid |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| mealType | `String` | Meal Type Code |
-| mealtypeid | `String` | Mealtypeid |
-| orderBy | `Float` | Order By |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| webBookingYn | `String` | Web Booking Y/N |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activeYN | `String` | Active YN |
+| 2 | centralBlockName | `String` | Central Block Name |
+| 3 | centralEventType | `String` | Central Event Type |
+| 4 | chainCode | `String` | Chain Code |
+| 5 | coverable | `String` | Coverable |
+| 6 | coverableYn | `String` | Coverable Y/N |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | defaultEndDate | `Date` | Default End Date |
+| 9 | defaultStartDate | `Date` | Default Start Date |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | eventType | `String` | Event Type |
+| 12 | eventTypeDescription | `String` | Event Type Description |
+| 13 | eventtypeid | `String` | Eventtypeid |
+| 14 | inactiveDate | `Date` | Inactive Date |
+| 15 | insertDate | `DateTime` | Insert Date |
+| 16 | insertUser | `Float` | Insert User |
+| 17 | internalDeletedflag | `String` | Deleted Flag |
+| 18 | jRNUpdateDate | `Date` | JRN Update Date |
+| 19 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 20 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 21 | mealType | `String` | Meal Type Code |
+| 22 | mealtypeid | `String` | Mealtypeid |
+| 23 | orderBy | `Float` | Order By |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | repItem | `String` | Reporting Item |
+| 27 | repItemName | `String` | Reporting Item Name |
+| 28 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 29 | repOrderBy | `Float` | Reporting Order By |
+| 30 | repUpdateDate | `Date` | Reporting Updatedate |
+| 31 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 32 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 33 | updateDate | `DateTime` | Update Date |
+| 34 | updateUser | `Float` | Update User |
+| 35 | webBookingYn | `String` | Web Booking Y/N |
 
 [⬆ Back to Query](#query)
 
@@ -189,6 +189,11 @@
 | eventtypeDetailsEventtypeid | `StringInput` | Eventtypeid |
 | eventtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | eventtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+#### Validation Rules
+
+**`mandatoryInput`**
+- eventtypeDetailsChainCode
+
 
 [⬆ Back to Query](#query)
 

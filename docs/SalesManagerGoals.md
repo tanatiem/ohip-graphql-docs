@@ -16,13 +16,13 @@
 
 ### SalesManagerGoalsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| salesManagerDetails | [`SalesManagerGoalsSalesManagerDetailsType`](#salesmanagergoalssalesmanagerdetailstype) | Sales Manager Details |
-| employeeGoalDetails | [`SalesManagerGoalsEmployeeGoalDetailsType`](#salesmanagergoalsemployeegoaldetailstype) | Employee Goal Details |
-| workOrdersDetails | [`SalesManagerGoalsWorkOrdersDetailsType`](#salesmanagergoalsworkordersdetailstype) | Work Orders Details |
-| ownerAccountDailyStatisticsDetails | [`SalesManagerGoalsOwnerAccountDailyStatisticsDetailsType`](#salesmanagergoalsowneraccountdailystatisticsdetailstype) | Owner Account Daily Statistics |
-| salesManagerGoalsRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | salesManagerDetails | [`SalesManagerGoalsSalesManagerDetailsType`](#salesmanagergoalssalesmanagerdetailstype) | Sales Manager Details |
+| 2 | employeeGoalDetails | [`SalesManagerGoalsEmployeeGoalDetailsType`](#salesmanagergoalsemployeegoaldetailstype) | Employee Goal Details |
+| 3 | workOrdersDetails | [`SalesManagerGoalsWorkOrdersDetailsType`](#salesmanagergoalsworkordersdetailstype) | Work Orders Details |
+| 4 | ownerAccountDailyStatisticsDetails | [`SalesManagerGoalsOwnerAccountDailyStatisticsDetailsType`](#salesmanagergoalsowneraccountdailystatisticsdetailstype) | Owner Account Daily Statistics |
+| 5 | salesManagerGoalsRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -30,22 +30,22 @@
 
 ### SalesManagerGoalsSalesManagerDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| firstName | `String` | First Name |
-| fullName | `String` | Full Name |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastName | `String` | Last Name |
-| middleName | `String` | Middle Name |
-| nameId | `Float` | Name ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerCode | `String` | Owner Code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | firstName | `String` | First Name |
+| 4 | fullName | `String` | Full Name |
+| 5 | jRNUpdateDate | `Date` | JRN Update Date |
+| 6 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 7 | lastName | `String` | Last Name |
+| 8 | middleName | `String` | Middle Name |
+| 9 | nameId | `Float` | Name ID |
+| 10 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 11 | ownerCode | `String` | Owner Code |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 14 | rNAUpdateDate | `DateTime` | RNA Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -53,71 +53,71 @@
 
 ### SalesManagerGoalsEmployeeGoalDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activityNumber | `Float` | Number of Activities |
-| activityType | `String` | Activity Type |
-| activitytypeid | `String` | Activitytypeid |
-| appInsertUser | `String` | App Insert User |
-| appUpdateUser | `String` | App Update User |
-| arrivalEndDate | `Date` | Arrival Period End Date |
-| arrivalGoalYN | `String` | Arrival Goal if Y |
-| arrivalStartDate | `Date` | Arrival Period Start |
-| arrivalgoalflag | `String` | Arrivalgoalflag |
-| auSrepCode | `String` | Au Srep Code |
-| budgetType | `String` | Budget Type |
-| cCateringAvgCheck | `Float` | Central Catering Avg Check |
-| cCateringFBRevenue | `Float` | Central Catering Fb Revenue |
-| cCateringOtherRevenue | `Float` | Central Catering Other Revenue |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoomAvgRate | `Float` | Central Room Avg Rate |
-| cRoomRevenue | `Float` | Central Room Revenue |
-| cateringAverageCheck | `Float` | Average Guestcheck per period |
-| cateringCovers | `Float` | Catering Covers per period |
-| cateringFBRevenue | `Float` | Food/Beverage Revenue per period |
-| cateringOtherRevenue | `Float` | Other Revenue per period |
-| centralActivityType | `String` | Central Activity Type |
-| centralMarketCode | `String` | Central Market Code |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| employeegoalid | `Float` | Employeegoalid |
-| employeeid | `Float` | Employeeid |
-| firstName | `String` | First Name |
-| fullName | `String` | Full Name |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Laptop Change |
-| lastName | `String` | Last Name |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| marketCode | `String` | Market Code |
-| marketid | `String` | Marketid |
-| middleName | `String` | Middle Name |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| periodCode | `String` | Period Code |
-| periodType | `String` | Period Type |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| productionEndDate | `Date` | Production Period End Date |
-| productionStartDate | `Date` | Production Period Start |
-| property | `String` | Code to uniquely identify the Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomAvgRate | `Float` | Room Avg Rate |
-| roomNights | `Float` | Room Nights |
-| roomRevenue | `Float` | Room Revenue |
-| salesGoalID | `Float` | Primary Key |
-| srepCode | `String` | Srep Code |
-| type | `String` | Goal Types |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| userID | `Float` | User ID |
-| yearId | `Float` | Year ID |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activityNumber | `Float` | Number of Activities |
+| 2 | activityType | `String` | Activity Type |
+| 3 | activitytypeid | `String` | Activitytypeid |
+| 4 | appInsertUser | `String` | App Insert User |
+| 5 | appUpdateUser | `String` | App Update User |
+| 6 | arrivalEndDate | `Date` | Arrival Period End Date |
+| 7 | arrivalGoalYN | `String` | Arrival Goal if Y |
+| 8 | arrivalStartDate | `Date` | Arrival Period Start |
+| 9 | arrivalgoalflag | `String` | Arrivalgoalflag |
+| 10 | auSrepCode | `String` | Au Srep Code |
+| 11 | budgetType | `String` | Budget Type |
+| 12 | cCateringAvgCheck | `Float` | Central Catering Avg Check |
+| 13 | cCateringFBRevenue | `Float` | Central Catering Fb Revenue |
+| 14 | cCateringOtherRevenue | `Float` | Central Catering Other Revenue |
+| 15 | cExchangeDate | `Date` | Central Xchange Date |
+| 16 | cExchangeRate | `Float` | Central Xchange Rate |
+| 17 | cRoomAvgRate | `Float` | Central Room Avg Rate |
+| 18 | cRoomRevenue | `Float` | Central Room Revenue |
+| 19 | cateringAverageCheck | `Float` | Average Guestcheck per period |
+| 20 | cateringCovers | `Float` | Catering Covers per period |
+| 21 | cateringFBRevenue | `Float` | Food/Beverage Revenue per period |
+| 22 | cateringOtherRevenue | `Float` | Other Revenue per period |
+| 23 | centralActivityType | `String` | Central Activity Type |
+| 24 | centralMarketCode | `String` | Central Market Code |
+| 25 | chainCode | `String` | Chain Code |
+| 26 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 27 | deletedFlag | `String` | Deleted Flag |
+| 28 | employeegoalid | `Float` | Employeegoalid |
+| 29 | employeeid | `Float` | Employeeid |
+| 30 | firstName | `String` | First Name |
+| 31 | fullName | `String` | Full Name |
+| 32 | inactiveDate | `Date` | Inactive Date |
+| 33 | inactiveflag | `String` | Inactive Flag |
+| 34 | insertDate | `DateTime` | Insert Date |
+| 35 | insertUser | `Float` | Insert User |
+| 36 | internalDeletedflag | `String` | Deleted Flag |
+| 37 | jRNUpdateDate | `Date` | JRN Update Date |
+| 38 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 39 | laptopChange | `Float` | Laptop Change |
+| 40 | lastName | `String` | Last Name |
+| 41 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 42 | marketCode | `String` | Market Code |
+| 43 | marketid | `String` | Marketid |
+| 44 | middleName | `String` | Middle Name |
+| 45 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 46 | periodCode | `String` | Period Code |
+| 47 | periodType | `String` | Period Type |
+| 48 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 49 | productionEndDate | `Date` | Production Period End Date |
+| 50 | productionStartDate | `Date` | Production Period Start |
+| 51 | property | `String` | Code to uniquely identify the Property |
+| 52 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 53 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 54 | roomAvgRate | `Float` | Room Avg Rate |
+| 55 | roomNights | `Float` | Room Nights |
+| 56 | roomRevenue | `Float` | Room Revenue |
+| 57 | salesGoalID | `Float` | Primary Key |
+| 58 | srepCode | `String` | Srep Code |
+| 59 | type | `String` | Goal Types |
+| 60 | updateDate | `DateTime` | Update Date |
+| 61 | updateUser | `Float` | Update User |
+| 62 | userID | `Float` | User ID |
+| 63 | yearId | `Float` | Year ID |
 
 [⬆ Back to Query](#query)
 
@@ -125,134 +125,134 @@
 
 ### SalesManagerGoalsWorkOrdersDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountAll | `String` | Account All |
-| activityAmount | `Float` | Total amount for the specific Activity. |
-| activityClass | `String` | Activity Class |
-| activityCompleted | `String` | Activity Completed |
-| activityCompletedBy | `String` | Activity Completed By |
-| activityCompletionDate | `Float` | Activity Completion Date |
-| activityCreatedBy | `String` | Activity Created By |
-| activityCreatedOn | `DateTime` | Activity Created On |
-| activityEndDate | `DateTime` | Activity End Date |
-| activityID | `Float` | Activity ID |
-| activityName | `String` | Description of the Problem reported |
-| activityNotes | `String` | Activity Notes |
-| activityOwnerCode | `DateTime` | Activity Owner Code |
-| activityPriority | `String` | Activity Priority |
-| activityResult | `String` | Activity Result |
-| activityStartDate | `DateTime` | Activity Start Date |
-| activityTraceCode | `String` | Activity Trace Code |
-| activityType | `String` | Activity Type |
-| activityTypeDescription | `String` | Activity Type Description |
-| activityUpdatedBy | `String` | Activity Updated By |
-| activityUpdatedOn | `DateTime` | Activity Updated On |
-| activityUserNameID | `String` | Activity User Name ID |
-| assignedBy | `Float` | User who assigned the task. |
-| assignedOnDate | `DateTime` | Date on which this work order was assigned to someone else |
-| attachmentLocation | `String` | Attachment Location |
-| attachmentOwner | `String` | Owner who created this attachment. [ACCOUNT CONTACT ACTIVITY or BOOKING] |
-| attendees | `Float` | Attendees |
-| author | `Float` | Author |
-| blockAll | `String` | Block All |
-| cActivityAmount | `Float` | Central Activity Amount |
-| cDepositAmount | `Float` | Central Deposit Amount |
-| cEstCateringRevenue | `Float` | Central Est Cat Revenue |
-| cEstOtherRevenue | `Float` | Central Est Other Revenue |
-| cEstRoomRevenue | `Float` | Central Est Rm Revenue |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cTotalLaborCost | `Float` | Central Total Labor Cost |
-| cTotalPartsCost | `Float` | Central Total Parts Cost |
-| campaignStatusCode | `String` | Stores the status codes for Campaign Management |
-| categoryCode | `String` | Category Code |
-| centralActivityType | `String` | Central Activity Type |
-| centralActivityTypeDescription | `String` | Central Activity Type Description |
-| chainCode | `String` | Chain Code |
-| completedBy | `Float` | Completed By |
-| contactAll | `String` | Contact All |
-| createdBy | `Float` | Created By |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| databaseId | `String` | Database ID |
-| deletedFlag | `String` | Deleted Flag |
-| dependingOnWoNumber | `Float` | This defines the oprder of execution between two sub work orders as one of them may be dependent on the other. |
-| depositAmount | `Float` | Deposit Amount |
-| depositOwner | `String` | Owner of the Deposit. It can be Opera (O) or Cencept (C). |
-| deptOfAction | `String` | Dept to which the employee who created the work order belongs |
-| downloadDate | `DateTime` | Download Date |
-| downloadResort | `String` | Download Property |
-| downloadSrep | `Float` | Download Srep |
-| dueDate | `DateTime` | Due Date |
-| endTime | `String` | End Time |
-| estCatRevenue | `Float` | Estimated revenue. |
-| estOtherRevenue | `Float` | Estimated others revenue. |
-| estRoomNights | `Float` | Estimated room nights. |
-| estRoomRevenue | `Float` | Estimated room revenue. |
-| estTimeToComplete | `Float` | Time estimated to complete the work order |
-| estUotCode | `String` | Est Uot Code |
-| externalSystem | `String` | External System |
-| externalSystemId | `String` | External System ID. |
-| foRoomStatus | `String` | Room status at the tome of creation of work order if it happens to be in a room |
-| fullName | `String` | Full Name |
-| generatedByCampaign | `String` | Indicates if a Campain generated this activity. |
-| generatedByFreqId | `Float` | The frequency ID which generated this activity. |
-| globalYn | `String` | Global Y/N |
-| guestOriginatedYn | `String` | Whether the work order is guest originated or not |
-| guestRoomYn | `String` | Whether this location is a a guest room or not |
-| guestType | `String` | Guest Type |
-| highPriorityYn | `String` | Whether the work order is having high priority or not. |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Laptop Change |
-| locationCode | `String` | Location Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSub | `String` | Decides whether a particular workorder is a master or sub or none. |
-| minutesBeforeAlert | `Float` | Number of minutes before the activity start time when the alert will be raised. (Default value) |
-| nameID | `Float` | Name ID |
-| notifiedYn | `String` | Has the user been notified about this activity ? |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| origWoNumber | `Float` | Stores the original WORK_NUMBER prior to a migration. |
-| ownerEmail | `String` | Owner Email |
-| ownerPhone | `String` | Phone no. |
-| ownerTitle | `String` | Owner Title |
-| parentWoNumber | `Float` | Wo_number to which current work order is a sub work ordergenerated work_order number |
-| plantItemCode | `String` | Plant Item Code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| priorityChangedYn | `String` | Whether the priority was manually changed or not |
-| privateYn | `String` | Private Y/N |
-| property | `String` | Code to uniquely identify the Property |
-| proposalSentDate | `DateTime` | Proposal Sent Date |
-| proposalViewToken | `String` | Proposal View Token |
-| reasonCode | `String` | Reason Code |
-| releasedBy | `Float` | Emp number of the person who has released this workorder |
-| releasedDate | `DateTime` | Date on which a work orderwas released |
-| requestTemplateId | `Float` | Stores the request template ID for Campaign Management. |
-| requestTypeId | `String` | Request type that need to be generated. |
-| requestTypeTemplatesId | `Float` | Stores the Campaign Type Template ID used for a campaign. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| room | `String` | Room |
-| sendMethod | `String` | Default method for sending a Request Type. |
-| showOn | `DateTime` | Scheduled workorder .reminder to display on date |
-| startTime | `String` | Start Time |
-| statusCode | `String` | Status Code |
-| surveyId | `Float` | Linked Survey ID |
-| takenBy | `Float` | Empnumber of the person who has accepted this workorder |
-| takenDate | `DateTime` | Date on which an employee has accepted this workorder |
-| taskCode | `Float` | Task Code |
-| taskitemNumber | `Float` | Taskitem Number |
-| timezoneConvertedYn | `String` | Indicated if the activity times are converted to database time zone. |
-| totalLaborCost | `Float` | Calculated Labor cost spent for this workorder |
-| totalPartsCost | `Float` | Calculate total parts cost spent for this workorder |
-| typeCode | `String` | Type Code |
-| updateUser | `Float` | Update User |
-| uploadDate | `DateTime` | Upload Date |
-| userExt | `String` | Extension of the user |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountAll | `String` | Account All |
+| 2 | activityAmount | `Float` | Total amount for the specific Activity. |
+| 3 | activityClass | `String` | Activity Class |
+| 4 | activityCompleted | `String` | Activity Completed |
+| 5 | activityCompletedBy | `String` | Activity Completed By |
+| 6 | activityCompletionDate | `Float` | Activity Completion Date |
+| 7 | activityCreatedBy | `String` | Activity Created By |
+| 8 | activityCreatedOn | `DateTime` | Activity Created On |
+| 9 | activityEndDate | `DateTime` | Activity End Date |
+| 10 | activityID | `Float` | Activity ID |
+| 11 | activityName | `String` | Description of the Problem reported |
+| 12 | activityNotes | `String` | Activity Notes |
+| 13 | activityOwnerCode | `DateTime` | Activity Owner Code |
+| 14 | activityPriority | `String` | Activity Priority |
+| 15 | activityResult | `String` | Activity Result |
+| 16 | activityStartDate | `DateTime` | Activity Start Date |
+| 17 | activityTraceCode | `String` | Activity Trace Code |
+| 18 | activityType | `String` | Activity Type |
+| 19 | activityTypeDescription | `String` | Activity Type Description |
+| 20 | activityUpdatedBy | `String` | Activity Updated By |
+| 21 | activityUpdatedOn | `DateTime` | Activity Updated On |
+| 22 | activityUserNameID | `String` | Activity User Name ID |
+| 23 | assignedBy | `Float` | User who assigned the task. |
+| 24 | assignedOnDate | `DateTime` | Date on which this work order was assigned to someone else |
+| 25 | attachmentLocation | `String` | Attachment Location |
+| 26 | attachmentOwner | `String` | Owner who created this attachment. [ACCOUNT CONTACT ACTIVITY or BOOKING] |
+| 27 | attendees | `Float` | Attendees |
+| 28 | author | `Float` | Author |
+| 29 | blockAll | `String` | Block All |
+| 30 | cActivityAmount | `Float` | Central Activity Amount |
+| 31 | cDepositAmount | `Float` | Central Deposit Amount |
+| 32 | cEstCateringRevenue | `Float` | Central Est Cat Revenue |
+| 33 | cEstOtherRevenue | `Float` | Central Est Other Revenue |
+| 34 | cEstRoomRevenue | `Float` | Central Est Rm Revenue |
+| 35 | cExchangeDate | `Date` | Central Xchange Date |
+| 36 | cExchangeRate | `Float` | Central Xchange Rate |
+| 37 | cTotalLaborCost | `Float` | Central Total Labor Cost |
+| 38 | cTotalPartsCost | `Float` | Central Total Parts Cost |
+| 39 | campaignStatusCode | `String` | Stores the status codes for Campaign Management |
+| 40 | categoryCode | `String` | Category Code |
+| 41 | centralActivityType | `String` | Central Activity Type |
+| 42 | centralActivityTypeDescription | `String` | Central Activity Type Description |
+| 43 | chainCode | `String` | Chain Code |
+| 44 | completedBy | `Float` | Completed By |
+| 45 | contactAll | `String` | Contact All |
+| 46 | createdBy | `Float` | Created By |
+| 47 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 48 | databaseId | `String` | Database ID |
+| 49 | deletedFlag | `String` | Deleted Flag |
+| 50 | dependingOnWoNumber | `Float` | This defines the oprder of execution between two sub work orders as one of them may be dependent on the other. |
+| 51 | depositAmount | `Float` | Deposit Amount |
+| 52 | depositOwner | `String` | Owner of the Deposit. It can be Opera (O) or Cencept (C). |
+| 53 | deptOfAction | `String` | Dept to which the employee who created the work order belongs |
+| 54 | downloadDate | `DateTime` | Download Date |
+| 55 | downloadResort | `String` | Download Property |
+| 56 | downloadSrep | `Float` | Download Srep |
+| 57 | dueDate | `DateTime` | Due Date |
+| 58 | endTime | `String` | End Time |
+| 59 | estCatRevenue | `Float` | Estimated revenue. |
+| 60 | estOtherRevenue | `Float` | Estimated others revenue. |
+| 61 | estRoomNights | `Float` | Estimated room nights. |
+| 62 | estRoomRevenue | `Float` | Estimated room revenue. |
+| 63 | estTimeToComplete | `Float` | Time estimated to complete the work order |
+| 64 | estUotCode | `String` | Est Uot Code |
+| 65 | externalSystem | `String` | External System |
+| 66 | externalSystemId | `String` | External System ID. |
+| 67 | foRoomStatus | `String` | Room status at the tome of creation of work order if it happens to be in a room |
+| 68 | fullName | `String` | Full Name |
+| 69 | generatedByCampaign | `String` | Indicates if a Campain generated this activity. |
+| 70 | generatedByFreqId | `Float` | The frequency ID which generated this activity. |
+| 71 | globalYn | `String` | Global Y/N |
+| 72 | guestOriginatedYn | `String` | Whether the work order is guest originated or not |
+| 73 | guestRoomYn | `String` | Whether this location is a a guest room or not |
+| 74 | guestType | `String` | Guest Type |
+| 75 | highPriorityYn | `String` | Whether the work order is having high priority or not. |
+| 76 | inactiveDate | `DateTime` | Inactive Date |
+| 77 | insertDate | `DateTime` | Insert Date |
+| 78 | insertUser | `Float` | Insert User |
+| 79 | internalYn | `String` | Internal Y/N |
+| 80 | jRNUpdateDate | `Date` | JRN Update Date |
+| 81 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 82 | laptopChange | `Float` | Laptop Change |
+| 83 | locationCode | `String` | Location Code |
+| 84 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 85 | masterSub | `String` | Decides whether a particular workorder is a master or sub or none. |
+| 86 | minutesBeforeAlert | `Float` | Number of minutes before the activity start time when the alert will be raised. (Default value) |
+| 87 | nameID | `Float` | Name ID |
+| 88 | notifiedYn | `String` | Has the user been notified about this activity ? |
+| 89 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 90 | origWoNumber | `Float` | Stores the original WORK_NUMBER prior to a migration. |
+| 91 | ownerEmail | `String` | Owner Email |
+| 92 | ownerPhone | `String` | Phone no. |
+| 93 | ownerTitle | `String` | Owner Title |
+| 94 | parentWoNumber | `Float` | Wo_number to which current work order is a sub work ordergenerated work_order number |
+| 95 | plantItemCode | `String` | Plant Item Code |
+| 96 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 97 | priorityChangedYn | `String` | Whether the priority was manually changed or not |
+| 98 | privateYn | `String` | Private Y/N |
+| 99 | property | `String` | Code to uniquely identify the Property |
+| 100 | proposalSentDate | `DateTime` | Proposal Sent Date |
+| 101 | proposalViewToken | `String` | Proposal View Token |
+| 102 | reasonCode | `String` | Reason Code |
+| 103 | releasedBy | `Float` | Emp number of the person who has released this workorder |
+| 104 | releasedDate | `DateTime` | Date on which a work orderwas released |
+| 105 | requestTemplateId | `Float` | Stores the request template ID for Campaign Management. |
+| 106 | requestTypeId | `String` | Request type that need to be generated. |
+| 107 | requestTypeTemplatesId | `Float` | Stores the Campaign Type Template ID used for a campaign. |
+| 108 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 109 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 110 | room | `String` | Room |
+| 111 | sendMethod | `String` | Default method for sending a Request Type. |
+| 112 | showOn | `DateTime` | Scheduled workorder .reminder to display on date |
+| 113 | startTime | `String` | Start Time |
+| 114 | statusCode | `String` | Status Code |
+| 115 | surveyId | `Float` | Linked Survey ID |
+| 116 | takenBy | `Float` | Empnumber of the person who has accepted this workorder |
+| 117 | takenDate | `DateTime` | Date on which an employee has accepted this workorder |
+| 118 | taskCode | `Float` | Task Code |
+| 119 | taskitemNumber | `Float` | Taskitem Number |
+| 120 | timezoneConvertedYn | `String` | Indicated if the activity times are converted to database time zone. |
+| 121 | totalLaborCost | `Float` | Calculated Labor cost spent for this workorder |
+| 122 | totalPartsCost | `Float` | Calculate total parts cost spent for this workorder |
+| 123 | typeCode | `String` | Type Code |
+| 124 | updateUser | `Float` | Update User |
+| 125 | uploadDate | `DateTime` | Upload Date |
+| 126 | userExt | `String` | Extension of the user |
 
 [⬆ Back to Query](#query)
 
@@ -260,113 +260,113 @@
 
 ### SalesManagerGoalsOwnerAccountDailyStatisticsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountOwner | `String` | Account Owner |
-| accountOwnerCode | `String` | Account Owner Code |
-| accountOwnerEmail | `String` | Account Owner Email |
-| accountOwnerPhone | `String` | Phone no. |
-| accountOwnerTitle | `String` | Account Owner Title |
-| accountSrepCode | `String` | Account Srep Code |
-| adr | `Float` | Average Daily Rate |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cGroupFBRevenue | `Float` | Central Grp Fb Revenue |
-| cGroupFBRevenueTax | `Float` | Central Grp Fb Revenue Tax |
-| cGroupOtherRevenue | `Float` | Central Grp Other Revenue |
-| cGroupOtherRevenueTax | `Float` | Central Grp Other Revenue Tax |
-| cGroupRoomRevenue | `Float` | Central Grp Room Revenue |
-| cGroupRoomRevenueTax | `Float` | Central Grp Room Revenue Tax |
-| cGroupTotalRevenue | `Float` | Central Grp Total Revenue |
-| cGroupTotalRevenueTax | `Float` | Central Grp Total Revenue Tax |
-| cTotalFBRevenue | `Float` | Central Total Fb Revenue |
-| cTotalFBRevenueTax | `Float` | Central Total Fb Revenue Tax |
-| cTotalOtherRevenue | `Float` | Central Total Other Revenue |
-| cTotalOtherRevenueTax | `Float` | Central Total Other Revenue Tax |
-| cTotalRoomRevenue | `Float` | Central Total Room Revenue |
-| cTotalRoomRevenueTax | `Float` | Central Total Room Revenue Tax |
-| cTotalTotalRevenue | `Float` | Central Total Total Revenue |
-| cTotalTotalRevenueTax | `Float` | Central Total Total Revenue Tax |
-| centralIndividualFBRevenueNet | `Float` | Central Individual FB Revenue Net |
-| centralIndividualFBRevenueTax | `Float` | Central Individual FB Revenue Tax |
-| centralIndividualOtherRevenueNet | `Float` | Central Individual Other Revenue Net |
-| centralIndividualOtherRevenueTax | `Float` | Central Individual Other Revenue Tax |
-| centralIndividualRoomRevenueNet | `Float` | Central Individual Room Revenue Net |
-| centralIndividualRoomRevenueTax | `Float` | Central Individual Room Revenue Tax |
-| centralIndividualTotalRevenueNet | `Float` | Central Individual Total Revenue Net |
-| centralIndividualTotalRevenueTax | `Float` | Central Individual Total Revenue Tax |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| grpAverageDailyRate | `Float` | Group Adr |
-| grpFBRevenue | `Float` | Group F&B Revenue. |
-| grpFBRevenueTax | `Float` | Group F&B Revenue Tax. |
-| grpNumberCancels | `Float` | Group Number of Cancellations. |
-| grpNumberNights | `Float` | Group Number of Nights. |
-| grpNumberNumberShows | `Float` | Group Number of No Shows. |
-| grpNumberStays | `Float` | Group Number of Stays. |
-| grpOtherRevenue | `Float` | Group Other Revenue. |
-| grpOtherRevenueTax | `Float` | Group Other Revenue Tax. |
-| grpRoomRevenue | `Float` | Group Room Revenue. |
-| grpRoomRevenueTax | `Float` | Group Room Revenue Tax. |
-| grpTotalRevenue | `Float` | Group Total Revenue. |
-| grpTotalRevenueTax | `Float` | Group Total Revenue Tax. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| individualCancels | `Float` | Individual Cancels |
-| individualFBRevenueNet | `Float` | Individual FB Revenue Net |
-| individualFBRevenueTax | `Float` | F&B Revenue Tax. |
-| individualNoShows | `Float` | Individual Number Shows |
-| individualOtherRevenueNet | `Float` | Individual Other Revenue Net |
-| individualOtherRevenueTax | `Float` | Individual Other Revenue Tax |
-| individualRoomNights | `Float` | Individual Room Nights |
-| individualRoomRevenueNet | `Float` | Individual Room Revenue Net |
-| individualStays | `Float` | Individual Stays |
-| individualTotalRevenueNet | `Float` | Individual Total Revenue Net |
-| individualTotalRevenueTax | `Float` | Individual Total Revenue Tax |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Laptop Change |
-| localCurrency | `String` | Local Currency Code. |
-| locationId | `String` | Location ID |
-| nameId | `Float` | Name ID |
-| nameType | `String` | Name Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerProfileId | `Float` | Owner Profile ID |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYN | `String` | Primary YN |
-| profileOwnerId | `Float` | Profile Owner ID |
-| property | `String` | Indicates if the value set for the specific property. |
-| relationship | `String` | Relationship |
-| relationshipid | `String` | Relationshipid |
-| resort | `String` | Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomRevenueTax | `Float` | Room Revenue Tax |
-| stayDate | `Date` | Stay Date |
-| stayMonth | `Float` | Month of Summary. Stores Year and Month as YYYYMM. |
-| stayYear | `Float` | Year of Summary. |
-| toType | `String` | To Type |
-| totalAdr | `Float` | Total Average Daily Rate |
-| totalFbRevenue | `Float` | Total FB Revenue |
-| totalFbRevenueTax | `Float` | Total FB Revenue Tax |
-| totalNumberCancels | `Float` | Total Number Cancels |
-| totalNumberNights | `Float` | Total Number Nights |
-| totalNumberNoShows | `Float` | Total Number Number Shows |
-| totalNumberStays | `Float` | Total Number Stays |
-| totalOtherRevenue | `Float` | Total Other Revenue |
-| totalOtherRevenueTax | `Float` | Total Other Revenue Tax |
-| totalRoomRevenue | `Float` | Total Room Revenue |
-| totalRoomRevenueTax | `Float` | Total Room Amount (Inc Packages and Taxes) for the Stay. |
-| totalTotalRevenue | `Float` | Total Total Revenue |
-| totalTotalRevenueTax | `Float` | Total Total Revenue Tax |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| userId | `Float` | User ID |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountOwner | `String` | Account Owner |
+| 2 | accountOwnerCode | `String` | Account Owner Code |
+| 3 | accountOwnerEmail | `String` | Account Owner Email |
+| 4 | accountOwnerPhone | `String` | Phone no. |
+| 5 | accountOwnerTitle | `String` | Account Owner Title |
+| 6 | accountSrepCode | `String` | Account Srep Code |
+| 7 | adr | `Float` | Average Daily Rate |
+| 8 | cExchangeDate | `Date` | Central Xchange Date |
+| 9 | cExchangeRate | `Float` | Central Xchange Rate |
+| 10 | cGroupFBRevenue | `Float` | Central Grp Fb Revenue |
+| 11 | cGroupFBRevenueTax | `Float` | Central Grp Fb Revenue Tax |
+| 12 | cGroupOtherRevenue | `Float` | Central Grp Other Revenue |
+| 13 | cGroupOtherRevenueTax | `Float` | Central Grp Other Revenue Tax |
+| 14 | cGroupRoomRevenue | `Float` | Central Grp Room Revenue |
+| 15 | cGroupRoomRevenueTax | `Float` | Central Grp Room Revenue Tax |
+| 16 | cGroupTotalRevenue | `Float` | Central Grp Total Revenue |
+| 17 | cGroupTotalRevenueTax | `Float` | Central Grp Total Revenue Tax |
+| 18 | cTotalFBRevenue | `Float` | Central Total Fb Revenue |
+| 19 | cTotalFBRevenueTax | `Float` | Central Total Fb Revenue Tax |
+| 20 | cTotalOtherRevenue | `Float` | Central Total Other Revenue |
+| 21 | cTotalOtherRevenueTax | `Float` | Central Total Other Revenue Tax |
+| 22 | cTotalRoomRevenue | `Float` | Central Total Room Revenue |
+| 23 | cTotalRoomRevenueTax | `Float` | Central Total Room Revenue Tax |
+| 24 | cTotalTotalRevenue | `Float` | Central Total Total Revenue |
+| 25 | cTotalTotalRevenueTax | `Float` | Central Total Total Revenue Tax |
+| 26 | centralIndividualFBRevenueNet | `Float` | Central Individual FB Revenue Net |
+| 27 | centralIndividualFBRevenueTax | `Float` | Central Individual FB Revenue Tax |
+| 28 | centralIndividualOtherRevenueNet | `Float` | Central Individual Other Revenue Net |
+| 29 | centralIndividualOtherRevenueTax | `Float` | Central Individual Other Revenue Tax |
+| 30 | centralIndividualRoomRevenueNet | `Float` | Central Individual Room Revenue Net |
+| 31 | centralIndividualRoomRevenueTax | `Float` | Central Individual Room Revenue Tax |
+| 32 | centralIndividualTotalRevenueNet | `Float` | Central Individual Total Revenue Net |
+| 33 | centralIndividualTotalRevenueTax | `Float` | Central Individual Total Revenue Tax |
+| 34 | chainCode | `String` | Chain Code |
+| 35 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 36 | deletedFlag | `String` | Deleted Flag |
+| 37 | description | `String` | Description |
+| 38 | grpAverageDailyRate | `Float` | Group Adr |
+| 39 | grpFBRevenue | `Float` | Group F&B Revenue. |
+| 40 | grpFBRevenueTax | `Float` | Group F&B Revenue Tax. |
+| 41 | grpNumberCancels | `Float` | Group Number of Cancellations. |
+| 42 | grpNumberNights | `Float` | Group Number of Nights. |
+| 43 | grpNumberNumberShows | `Float` | Group Number of No Shows. |
+| 44 | grpNumberStays | `Float` | Group Number of Stays. |
+| 45 | grpOtherRevenue | `Float` | Group Other Revenue. |
+| 46 | grpOtherRevenueTax | `Float` | Group Other Revenue Tax. |
+| 47 | grpRoomRevenue | `Float` | Group Room Revenue. |
+| 48 | grpRoomRevenueTax | `Float` | Group Room Revenue Tax. |
+| 49 | grpTotalRevenue | `Float` | Group Total Revenue. |
+| 50 | grpTotalRevenueTax | `Float` | Group Total Revenue Tax. |
+| 51 | inactiveDate | `DateTime` | Inactive Date |
+| 52 | inactiveFlag | `String` | Inactive Flag |
+| 53 | individualCancels | `Float` | Individual Cancels |
+| 54 | individualFBRevenueNet | `Float` | Individual FB Revenue Net |
+| 55 | individualFBRevenueTax | `Float` | F&B Revenue Tax. |
+| 56 | individualNoShows | `Float` | Individual Number Shows |
+| 57 | individualOtherRevenueNet | `Float` | Individual Other Revenue Net |
+| 58 | individualOtherRevenueTax | `Float` | Individual Other Revenue Tax |
+| 59 | individualRoomNights | `Float` | Individual Room Nights |
+| 60 | individualRoomRevenueNet | `Float` | Individual Room Revenue Net |
+| 61 | individualStays | `Float` | Individual Stays |
+| 62 | individualTotalRevenueNet | `Float` | Individual Total Revenue Net |
+| 63 | individualTotalRevenueTax | `Float` | Individual Total Revenue Tax |
+| 64 | insertDate | `DateTime` | Insert Date |
+| 65 | insertUser | `Float` | Insert User |
+| 66 | internalOrganizationId | `Float` | Organization ID |
+| 67 | jRNUpdateDate | `Date` | JRN Update Date |
+| 68 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 69 | laptopChange | `Float` | Laptop Change |
+| 70 | localCurrency | `String` | Local Currency Code. |
+| 71 | locationId | `String` | Location ID |
+| 72 | nameId | `Float` | Name ID |
+| 73 | nameType | `String` | Name Type |
+| 74 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 75 | ownerProfileId | `Float` | Owner Profile ID |
+| 76 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 77 | primaryYN | `String` | Primary YN |
+| 78 | profileOwnerId | `Float` | Profile Owner ID |
+| 79 | property | `String` | Indicates if the value set for the specific property. |
+| 80 | relationship | `String` | Relationship |
+| 81 | relationshipid | `String` | Relationshipid |
+| 82 | resort | `String` | Property |
+| 83 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 84 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 85 | roomRevenueTax | `Float` | Room Revenue Tax |
+| 86 | stayDate | `Date` | Stay Date |
+| 87 | stayMonth | `Float` | Month of Summary. Stores Year and Month as YYYYMM. |
+| 88 | stayYear | `Float` | Year of Summary. |
+| 89 | toType | `String` | To Type |
+| 90 | totalAdr | `Float` | Total Average Daily Rate |
+| 91 | totalFbRevenue | `Float` | Total FB Revenue |
+| 92 | totalFbRevenueTax | `Float` | Total FB Revenue Tax |
+| 93 | totalNumberCancels | `Float` | Total Number Cancels |
+| 94 | totalNumberNights | `Float` | Total Number Nights |
+| 95 | totalNumberNoShows | `Float` | Total Number Number Shows |
+| 96 | totalNumberStays | `Float` | Total Number Stays |
+| 97 | totalOtherRevenue | `Float` | Total Other Revenue |
+| 98 | totalOtherRevenueTax | `Float` | Total Other Revenue Tax |
+| 99 | totalRoomRevenue | `Float` | Total Room Revenue |
+| 100 | totalRoomRevenueTax | `Float` | Total Room Amount (Inc Packages and Taxes) for the Stay. |
+| 101 | totalTotalRevenue | `Float` | Total Total Revenue |
+| 102 | totalTotalRevenueTax | `Float` | Total Total Revenue Tax |
+| 103 | updateDate | `DateTime` | Update Date |
+| 104 | updateUser | `Float` | Update User |
+| 105 | userId | `Float` | User ID |
 
 [⬆ Back to Query](#query)
 
@@ -545,6 +545,11 @@
 | owneraccountdailystatDetailsProfileOwnerId | `FloatInput` | Profile Owner ID |
 | owneraccountdailystatDetailsResort | `StringInput` | Property |
 | owneraccountdailystatDetailsUserId | `FloatInput` | User ID |
+#### Validation Rules
+
+**`mandatoryInput`**
+- salesmanagerDetailsSrepCode
+
 
 [⬆ Back to Query](#query)
 

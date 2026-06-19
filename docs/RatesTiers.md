@@ -16,12 +16,12 @@
 
 ### RatesTiersType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| rateTierDetails | [`RatesTiersRateTierDetailsType`](#ratestiersratetierdetailstype) | Rate Tier Details |
-| propertyPropertyDetails | [`RatesTiersPropertyPropertyDetailsType`](#ratestierspropertypropertydetailstype) | Resort Details |
-| rateCodeDetailsDetails | [`RatesTiersRateCodeDetailsDetailsType`](#ratestiersratecodedetailsdetailstype) | Rate Code Details Details |
-| ratesTiersRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | rateTierDetails | [`RatesTiersRateTierDetailsType`](#ratestiersratetierdetailstype) | Rate Tier Details |
+| 2 | propertyPropertyDetails | [`RatesTiersPropertyPropertyDetailsType`](#ratestierspropertypropertydetailstype) | Resort Details |
+| 3 | rateCodeDetailsDetails | [`RatesTiersRateCodeDetailsDetailsType`](#ratestiersratecodedetailsdetailstype) | Rate Code Details Details |
+| 4 | ratesTiersRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -29,22 +29,22 @@
 
 ### RatesTiersRateTierDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| fromLengthOfStay | `Float` | LOS start day for the tier. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| ratetierid | `Float` | Ratetierid |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| tierID | `Float` | Tier ID for the Rate Detail. |
-| toLengthOfStay | `Float` | LOS end day for the tier except for the last day. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 2 | deletedflag | `String` | Deleted Flag |
+| 3 | fromLengthOfStay | `Float` | LOS start day for the tier. |
+| 4 | jRNUpdateDate | `Date` | JRN Update Date |
+| 5 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 6 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 7 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 8 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 9 | property | `String` | Code to uniquely identify the Property |
+| 10 | ratetierid | `Float` | Ratetierid |
+| 11 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 12 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 13 | tierID | `Float` | Tier ID for the Rate Detail. |
+| 14 | toLengthOfStay | `Float` | LOS end day for the tier except for the last day. |
 
 [⬆ Back to Query](#query)
 
@@ -52,270 +52,270 @@
 
 ### RatesTiersPropertyPropertyDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| property | `String` | The property that the record belongs to |
-| aRAccountNoFormat | `String` | Number format of AR account no. |
-| aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
-| aRAgent | `String` | Default Account Type for an Agent for the Property |
-| aRBalanceTrxCode | `String` | Internal |
-| aRCompany | `String` | Default Account Type for a Company for the Property |
-| aRCreditTrxCode | `String` | Internal |
-| aRGroups | `String` | Default Account Type for a Group for the Property |
-| aRIndividuals | `String` | Default Account Type for Individual for the Property |
-| aRSettleCode | `String` | Internal |
-| aRTypewriter | `String` | Internal |
-| accessCode | `String` | Access Code |
-| accessibleRooms | `Float` | Number of handicapped rooms. |
-| agingLevel1 | `Float` | Aging bucket 1 |
-| agingLevel2 | `Float` | Aging bucket 2 |
-| agingLevel3 | `Float` | Aging bucket 3 |
-| agingLevel4 | `Float` | Aging bucket 4 |
-| agingLevel5 | `Float` | Aging bucket 3 |
-| airport | `String` | The Airport Code for the airport near the property |
-| airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
-| airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
-| allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
-| allowancePeriodAdj | `String` | Period for the allowance |
-| awardsTimeout | `Float` | Internal |
-| ballroomArea | `String` | Ball Room Area |
-| ballroomSeats | `Float` | No of Ballroom Seats |
-| baseLanguage | `String` | The base language of the Hotel |
-| block | `String` | It contains the reservation type to be used when making group block |
-| brandCode | `String` | Brand Code of the property. |
-| budgetMonth | `Float` | Financial Year of the Property |
-| businessDate | `Date` | The date this resort becomes valid for use by the system |
-| businessID | `String` | Value for the parameter. |
-| businessRegistrationCode | `String` | Value for the parameter. |
-| cROCODE | `String` | Code for the CRO |
-| cashShiftDrop | `String` | Internal |
-| cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
-| cateringCurrencyFormat | `String` | Catering currency format. |
-| centralXchangeDate | `Date` | Central  Exchange Date |
-| centralXchangeRate | `Float` | Central  Exchange Rate |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralCurrencyCode | `String` | Central Currency Code |
-| centralCurrencyDescription | `String` | Central Currency Description |
-| centralDblRate2 | `Float` | Central Double Rate2 |
-| centralDblRate1 | `Float` | Central Double Rate1 |
-| centralPasserbyMarket | `String` | Central Passerby Market |
-| centralPasserbySource | `String` | Central Passerby Source |
-| centralPropertyType | `String` | Central Property Type |
-| centralSglRate1 | `Float` | Central Sgl Rate1 |
-| centralSglRate2 | `Float` | Central Sgl Rate 2 |
-| centralState | `String` | Central State |
-| centralStateDescription | `String` | Central State Description |
-| centralSuiRate1 | `Float` | Central Sui Rate1 |
-| centralSuiRate2 | `Float` | Central Sui Rate 2 |
-| centralTplRate1 | `Float` | Central Tpl Rate1 |
-| centralTplRate2 | `Float` | Central Tpl Rate 2 |
-| centralWarningAmount | `Float` | Central Warning Amount |
-| chainCode | `String` | Chain Code for the chain to which the property belongs |
-| chainDescription | `String` | The description of this chain. |
-| chainMode | `String` | Chain Mode |
-| checkExgPaidout | `String` | Internal |
-| checkOutTime | `DateTime` | The Hotel official check out time |
-| checkShiftDrop | `String` | Internal |
-| checkTrxcode | `String` | Internal |
-| checkInTime | `DateTime` | The Hotel official check intime |
-| city | `String` | The physical city in which this property resides. |
-| cityDescription | `String` | City Description |
-| comAddress | `String` | Internal |
-| comMethod | `String` | Internal |
-| comNameXrefId | `Float` | Internal |
-| companyAddressType | `String` | Internal |
-| companyPhoneType | `String` | Internal |
-| configurationMode | `String` | Internal |
-| confirmRegcardPrinter | `String` | Internal |
-| connectingRooms | `Float` | Number of connecting rooms. |
-| contacts | `String` | The unique name of application user |
-| copies | `Float` | Number of copies to be printed |
-| country | `String` | Country name. |
-| countryCode | `String` | The name of the country in which this property resides. |
-| countryMode | `String` | Value for the parameter. |
-| creditLimit | `Float` | The default credit limit for guests. |
-| currencyCode | `String` | Currency Code. |
-| currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
-| currencyDescription | `String` | A description of this currency. |
-| currencyFormat | `String` | Format for the local currency. |
-| curtainColor | `String` | Color that of the background |
-| dSI | `Float` | DSI |
-| dateForAging | `String` | Date the aging should begin |
-| dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
-| decimalPlaces | `Float` | Number of places for the default currency |
-| decimalSeparator | `String` | Type of decimal separator |
-| decimals | `Float` | Number of decimals to designate currency |
-| defaultFolioStyle | `Float` | Folio style to be used for all guests |
-| defaultGuestAddress | `String` | Default guest address format. |
-| defaultMembershipType | `String` | Future use |
-| defaultPostingRoom | `String` | Future use |
-| defaultPropertyAddress | `String` | Default property address format. |
-| defaultRateCode | `String` | Future use |
-| defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
-| defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
-| defaultRegistrationCard | `String` | Default registration card for the property. |
-| defaultReservationType | `String` | The Default reservation type for this property |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerTrxCode | `String` | Future use |
-| destinationId | `String` | Destination ID |
-| dfltPkgTranCode | `String` | Future use |
-| dfltTranCodeRateCode | `String` | Future use |
-| directions | `String` | Internal |
-| dirsales | `String` | Future use |
-| disableLoginYN | `String` | LOGIN into the application is disabled. |
-| doubleRooms | `Float` | Number of double rooms. |
-| downloadRestYN | `String` | Download Rest YN |
-| dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
-| email | `String` | Email id for the property. |
-| endDate | `Date` | Future use. |
-| exchangePostingType | `String` | Default Exchange posting status for the property |
-| executiveFloorNumber | `String` | Floor number of executive floor. |
-| expHotelCode | `String` | Hotel code used for third party exports |
-| extExpFileLocation | `String` | Future use |
-| extPropertyCode | `String` | Future use |
-| externalSCYN | `String` | Indicates that the property uses an external SC system. |
-| familyRooms | `Float` | Number of family rooms. |
-| faxNoFormat | `String` | Fax number formats. |
-| faxNumber | `String` | The fax phone number |
-| fiscalEndDate | `Date` | Future use |
-| fiscalPeriodType | `String` | Future use |
-| fiscalStartDate | `Date` | Future use |
-| fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
-| fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
-| flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
-| flowCode | `String` | Future use |
-| fnsTier | `String` | Property Free Nights Stay Tier. |
-| folioLanguage1 | `String` | Other languages |
-| folioLanguage2 | `String` | Other languages |
-| folioLanguage3 | `String` | Other languages |
-| folioLanguage4 | `String` | Other languages |
-| genmgr | `String` | Future use |
-| groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
-| guestLookupTimeout | `Float` | Future use |
-| guestRoomElevators | `Float` | Number of guest elevators. |
-| guestRoomFloors | `Float` | Total of guest rooms floors. |
-| hotelCode | `String` | Future use |
-| hotelFC | `String` | Future use |
-| hotelID | `String` | Hotel id |
-| hotelType | `String` | Future use |
-| iMGDirectionID | `Float` | Future use |
-| iMGHotelID | `Float` | Future use |
-| iMGMapID | `Float` | Future use |
-| inactiveDaysForGuestProfile | `Float` | Future use |
-| inactiveFlag | `String` | Inactive Flag |
-| individualAddressType | `String` | Future use |
-| individualPhoneType | `String` | Future use |
-| individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `Float` | The user that created the record |
-| intTaxIncludedYN | `String` | Int Tax Included YN |
-| inventoryYN | `String` | Future use |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
-| latitude | `Float` | Latitude of the property in decimal |
-| leadsend | `String` | Future use |
-| legalOwner | `String` | The owner who owns this property |
-| locationID | `String` | The property that the record belongs to |
-| longDateFormat | `String` | Long date format for the property. |
-| longStayControl | `Float` | The default length of stay |
-| longitude | `Float` | Longitude of the property in decimal |
-| maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
-| maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
-| maxOccupancy | `Float` | Future use |
-| maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
-| mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
-| meetRooms | `Float` | Future use |
-| meetSeats | `Float` | Future use |
-| meetSpace | `Float` | Future use |
-| meetingFC | `String` | Future use |
-| minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
-| nameIdLink | `Float` | Internal |
-| nightAuditCashierID | `String` | Future use |
-| nonSmokingRooms | `Float` | Number of non smoking rooms. |
-| noteDetails | `String` | Notes for the property |
-| numberOfBeds | `Float` | Total number of beds in this property |
-| numberOfFloors | `Float` | Total number of floors in this property |
-| numberOfRooms | `Float` | Number of Rooms |
-| opusCurrencyCode | `String` | Future use |
-| organizationID | `Float` | Organization ID |
-| organizationInternalID | `Float` | Organization Internal ID |
-| ownership | `String` | Future use |
-| packageLoss | `String` | Package Loss code for a particular package |
-| packageProfit | `String` | Package Profit code for a particular Package |
-| parentOrgCode | `String` | Parent Org Code |
-| passerbyMarket | `String` | Market code |
-| passerbySource | `String` | Source code |
-| path | `String` | Path |
-| paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| perReservationRoomLimit | `Float` | Future use |
-| phoneNumber | `String` | The direct dial phone number of this property |
-| postalCode | `String` | The postal code of this property. |
-| primaryKeyID | `Float` | Primary Key ID |
-| proinfoUrl | `String` | URL where property information is located. |
-| propMapUrl | `String` | Property MAP URL. |
-| propPicUrl | `String` | Property picture URL. |
-| propertyCode | `String` | The property that the record belongs to |
-| propertyName | `String` | The name of this property. |
-| propertyType | `String` | Type of resort. |
-| quotedCurrency | `String` | Future use |
-| rNAInsertdate | `DateTime` | RNA Insert Date |
-| rNAUpdatedate | `DateTime` | RNA Update Date |
-| reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| regionCode | `String` | Future use |
-| regionDescription | `String` | Description of the Region. |
-| restaurant | `Float` | Future use |
-| rhythmSheets | `Float` | Total number of Sheets |
-| rhythmTowels | `Float` | Total number of Towels |
-| roomAmenities | `String` | Room amenity. |
-| sGLNum | `String` | Future use |
-| sGLRate1 | `Float` | Future use |
-| sGLRate2 | `Float` | Future use |
-| sUINum | `String` | Future use |
-| sUIRate1 | `Float` | Future use |
-| sUIRate2 | `Float` | Future use |
-| saveProfiles | `Float` | To store number of days before deleting the gest profile |
-| scriptID | `Float` | Future use |
-| season1 | `String` | Future use |
-| season2 | `String` | Future use |
-| season3 | `String` | Future use |
-| season4 | `String` | Future use |
-| season5 | `String` | Future use |
-| sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
-| shopDescription | `String` | Shop description. |
-| shortDateFormat | `String` | Short date format for the property. |
-| singleRooms | `Float` | Number of single rooms. |
-| sourceCommission | `String` | For default commission percentage |
-| state | `String` | The state in which this property is located. |
-| stateDescription | `String` | Description of the state. |
-| street | `String` | The street of the property. |
-| suites | `Float` | Number of suites. |
-| summCurrencyCode | `String` | Internal |
-| tACommission | `String` | For default commission percentage |
-| tPLNum | `String` | Future use |
-| tPLRate1 | `Float` | Future use |
-| tPLRate2 | `Float` | Future use |
-| telephoneNoFormat | `String` | Formats for telephone number |
-| thousandSeparator | `String` | Separator for monetory values |
-| timeFormat | `String` | Default time format for the property. |
-| timeZone | `String` | Time zone region selected by the employee. |
-| tollFree | `String` | Toll free telephone number. |
-| totalRooms | `Float` | Future use |
-| touristNumber | `String` | Tourist Number |
-| translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
-| turnawayCode | `String` | Turnaway code for the property. |
-| twinRooms | `Float` | Number of twin rooms. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
-| vatID | `String` | VAT ID of this property. |
-| videoCheckoutPrinter | `String` | Future use |
-| videoCheckoutStart | `DateTime` | Video check out start time. |
-| videoCheckoutStop | `DateTime` | Video check out end time. |
-| wakeUpDelay | `Float` | Future use |
-| warningAmount | `Float` | Amount at which warning is raised. |
-| web | `String` | Webaddress of the property |
-| weekendDays | `String` | Weekend days for the property. |
-| zeroInvPurDays | `Float` | Internal |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | property | `String` | The property that the record belongs to |
+| 2 | aRAccountNoFormat | `String` | Number format of AR account no. |
+| 3 | aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
+| 4 | aRAgent | `String` | Default Account Type for an Agent for the Property |
+| 5 | aRBalanceTrxCode | `String` | Internal |
+| 6 | aRCompany | `String` | Default Account Type for a Company for the Property |
+| 7 | aRCreditTrxCode | `String` | Internal |
+| 8 | aRGroups | `String` | Default Account Type for a Group for the Property |
+| 9 | aRIndividuals | `String` | Default Account Type for Individual for the Property |
+| 10 | aRSettleCode | `String` | Internal |
+| 11 | aRTypewriter | `String` | Internal |
+| 12 | accessCode | `String` | Access Code |
+| 13 | accessibleRooms | `Float` | Number of handicapped rooms. |
+| 14 | agingLevel1 | `Float` | Aging bucket 1 |
+| 15 | agingLevel2 | `Float` | Aging bucket 2 |
+| 16 | agingLevel3 | `Float` | Aging bucket 3 |
+| 17 | agingLevel4 | `Float` | Aging bucket 4 |
+| 18 | agingLevel5 | `Float` | Aging bucket 3 |
+| 19 | airport | `String` | The Airport Code for the airport near the property |
+| 20 | airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
+| 21 | airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
+| 22 | allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
+| 23 | allowancePeriodAdj | `String` | Period for the allowance |
+| 24 | awardsTimeout | `Float` | Internal |
+| 25 | ballroomArea | `String` | Ball Room Area |
+| 26 | ballroomSeats | `Float` | No of Ballroom Seats |
+| 27 | baseLanguage | `String` | The base language of the Hotel |
+| 28 | block | `String` | It contains the reservation type to be used when making group block |
+| 29 | brandCode | `String` | Brand Code of the property. |
+| 30 | budgetMonth | `Float` | Financial Year of the Property |
+| 31 | businessDate | `Date` | The date this resort becomes valid for use by the system |
+| 32 | businessID | `String` | Value for the parameter. |
+| 33 | businessRegistrationCode | `String` | Value for the parameter. |
+| 34 | cROCODE | `String` | Code for the CRO |
+| 35 | cashShiftDrop | `String` | Internal |
+| 36 | cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
+| 37 | cateringCurrencyFormat | `String` | Catering currency format. |
+| 38 | centralXchangeDate | `Date` | Central  Exchange Date |
+| 39 | centralXchangeRate | `Float` | Central  Exchange Rate |
+| 40 | centralCreditLimit | `Float` | Central Credit Limit |
+| 41 | centralCurrencyCode | `String` | Central Currency Code |
+| 42 | centralCurrencyDescription | `String` | Central Currency Description |
+| 43 | centralDblRate2 | `Float` | Central Double Rate2 |
+| 44 | centralDblRate1 | `Float` | Central Double Rate1 |
+| 45 | centralPasserbyMarket | `String` | Central Passerby Market |
+| 46 | centralPasserbySource | `String` | Central Passerby Source |
+| 47 | centralPropertyType | `String` | Central Property Type |
+| 48 | centralSglRate1 | `Float` | Central Sgl Rate1 |
+| 49 | centralSglRate2 | `Float` | Central Sgl Rate 2 |
+| 50 | centralState | `String` | Central State |
+| 51 | centralStateDescription | `String` | Central State Description |
+| 52 | centralSuiRate1 | `Float` | Central Sui Rate1 |
+| 53 | centralSuiRate2 | `Float` | Central Sui Rate 2 |
+| 54 | centralTplRate1 | `Float` | Central Tpl Rate1 |
+| 55 | centralTplRate2 | `Float` | Central Tpl Rate 2 |
+| 56 | centralWarningAmount | `Float` | Central Warning Amount |
+| 57 | chainCode | `String` | Chain Code for the chain to which the property belongs |
+| 58 | chainDescription | `String` | The description of this chain. |
+| 59 | chainMode | `String` | Chain Mode |
+| 60 | checkExgPaidout | `String` | Internal |
+| 61 | checkOutTime | `DateTime` | The Hotel official check out time |
+| 62 | checkShiftDrop | `String` | Internal |
+| 63 | checkTrxcode | `String` | Internal |
+| 64 | checkInTime | `DateTime` | The Hotel official check intime |
+| 65 | city | `String` | The physical city in which this property resides. |
+| 66 | cityDescription | `String` | City Description |
+| 67 | comAddress | `String` | Internal |
+| 68 | comMethod | `String` | Internal |
+| 69 | comNameXrefId | `Float` | Internal |
+| 70 | companyAddressType | `String` | Internal |
+| 71 | companyPhoneType | `String` | Internal |
+| 72 | configurationMode | `String` | Internal |
+| 73 | confirmRegcardPrinter | `String` | Internal |
+| 74 | connectingRooms | `Float` | Number of connecting rooms. |
+| 75 | contacts | `String` | The unique name of application user |
+| 76 | copies | `Float` | Number of copies to be printed |
+| 77 | country | `String` | Country name. |
+| 78 | countryCode | `String` | The name of the country in which this property resides. |
+| 79 | countryMode | `String` | Value for the parameter. |
+| 80 | creditLimit | `Float` | The default credit limit for guests. |
+| 81 | currencyCode | `String` | Currency Code. |
+| 82 | currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 83 | currencyDescription | `String` | A description of this currency. |
+| 84 | currencyFormat | `String` | Format for the local currency. |
+| 85 | curtainColor | `String` | Color that of the background |
+| 86 | dSI | `Float` | DSI |
+| 87 | dateForAging | `String` | Date the aging should begin |
+| 88 | dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
+| 89 | decimalPlaces | `Float` | Number of places for the default currency |
+| 90 | decimalSeparator | `String` | Type of decimal separator |
+| 91 | decimals | `Float` | Number of decimals to designate currency |
+| 92 | defaultFolioStyle | `Float` | Folio style to be used for all guests |
+| 93 | defaultGuestAddress | `String` | Default guest address format. |
+| 94 | defaultMembershipType | `String` | Future use |
+| 95 | defaultPostingRoom | `String` | Future use |
+| 96 | defaultPropertyAddress | `String` | Default property address format. |
+| 97 | defaultRateCode | `String` | Future use |
+| 98 | defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
+| 99 | defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
+| 100 | defaultRegistrationCard | `String` | Default registration card for the property. |
+| 101 | defaultReservationType | `String` | The Default reservation type for this property |
+| 102 | deletedFlag | `String` | Deleted Flag |
+| 103 | depositLedgerTrxCode | `String` | Future use |
+| 104 | destinationId | `String` | Destination ID |
+| 105 | dfltPkgTranCode | `String` | Future use |
+| 106 | dfltTranCodeRateCode | `String` | Future use |
+| 107 | directions | `String` | Internal |
+| 108 | dirsales | `String` | Future use |
+| 109 | disableLoginYN | `String` | LOGIN into the application is disabled. |
+| 110 | doubleRooms | `Float` | Number of double rooms. |
+| 111 | downloadRestYN | `String` | Download Rest YN |
+| 112 | dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
+| 113 | email | `String` | Email id for the property. |
+| 114 | endDate | `Date` | Future use. |
+| 115 | exchangePostingType | `String` | Default Exchange posting status for the property |
+| 116 | executiveFloorNumber | `String` | Floor number of executive floor. |
+| 117 | expHotelCode | `String` | Hotel code used for third party exports |
+| 118 | extExpFileLocation | `String` | Future use |
+| 119 | extPropertyCode | `String` | Future use |
+| 120 | externalSCYN | `String` | Indicates that the property uses an external SC system. |
+| 121 | familyRooms | `Float` | Number of family rooms. |
+| 122 | faxNoFormat | `String` | Fax number formats. |
+| 123 | faxNumber | `String` | The fax phone number |
+| 124 | fiscalEndDate | `Date` | Future use |
+| 125 | fiscalPeriodType | `String` | Future use |
+| 126 | fiscalStartDate | `Date` | Future use |
+| 127 | fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
+| 128 | fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
+| 129 | flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
+| 130 | flowCode | `String` | Future use |
+| 131 | fnsTier | `String` | Property Free Nights Stay Tier. |
+| 132 | folioLanguage1 | `String` | Other languages |
+| 133 | folioLanguage2 | `String` | Other languages |
+| 134 | folioLanguage3 | `String` | Other languages |
+| 135 | folioLanguage4 | `String` | Other languages |
+| 136 | genmgr | `String` | Future use |
+| 137 | groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
+| 138 | guestLookupTimeout | `Float` | Future use |
+| 139 | guestRoomElevators | `Float` | Number of guest elevators. |
+| 140 | guestRoomFloors | `Float` | Total of guest rooms floors. |
+| 141 | hotelCode | `String` | Future use |
+| 142 | hotelFC | `String` | Future use |
+| 143 | hotelID | `String` | Hotel id |
+| 144 | hotelType | `String` | Future use |
+| 145 | iMGDirectionID | `Float` | Future use |
+| 146 | iMGHotelID | `Float` | Future use |
+| 147 | iMGMapID | `Float` | Future use |
+| 148 | inactiveDaysForGuestProfile | `Float` | Future use |
+| 149 | inactiveFlag | `String` | Inactive Flag |
+| 150 | individualAddressType | `String` | Future use |
+| 151 | individualPhoneType | `String` | Future use |
+| 152 | individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
+| 153 | insertDate | `DateTime` | The date the record was created |
+| 154 | insertUser | `Float` | The user that created the record |
+| 155 | intTaxIncludedYN | `String` | Int Tax Included YN |
+| 156 | inventoryYN | `String` | Future use |
+| 157 | jRNUpdateDate | `Date` | JRN Update Date |
+| 158 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 159 | keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
+| 160 | latitude | `Float` | Latitude of the property in decimal |
+| 161 | leadsend | `String` | Future use |
+| 162 | legalOwner | `String` | The owner who owns this property |
+| 163 | locationID | `String` | The property that the record belongs to |
+| 164 | longDateFormat | `String` | Long date format for the property. |
+| 165 | longStayControl | `Float` | The default length of stay |
+| 166 | longitude | `Float` | Longitude of the property in decimal |
+| 167 | maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
+| 168 | maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
+| 169 | maxOccupancy | `Float` | Future use |
+| 170 | maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
+| 171 | mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
+| 172 | meetRooms | `Float` | Future use |
+| 173 | meetSeats | `Float` | Future use |
+| 174 | meetSpace | `Float` | Future use |
+| 175 | meetingFC | `String` | Future use |
+| 176 | minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
+| 177 | nameIdLink | `Float` | Internal |
+| 178 | nightAuditCashierID | `String` | Future use |
+| 179 | nonSmokingRooms | `Float` | Number of non smoking rooms. |
+| 180 | noteDetails | `String` | Notes for the property |
+| 181 | numberOfBeds | `Float` | Total number of beds in this property |
+| 182 | numberOfFloors | `Float` | Total number of floors in this property |
+| 183 | numberOfRooms | `Float` | Number of Rooms |
+| 184 | opusCurrencyCode | `String` | Future use |
+| 185 | organizationID | `Float` | Organization ID |
+| 186 | organizationInternalID | `Float` | Organization Internal ID |
+| 187 | ownership | `String` | Future use |
+| 188 | packageLoss | `String` | Package Loss code for a particular package |
+| 189 | packageProfit | `String` | Package Profit code for a particular Package |
+| 190 | parentOrgCode | `String` | Parent Org Code |
+| 191 | passerbyMarket | `String` | Market code |
+| 192 | passerbySource | `String` | Source code |
+| 193 | path | `String` | Path |
+| 194 | paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 195 | perReservationRoomLimit | `Float` | Future use |
+| 196 | phoneNumber | `String` | The direct dial phone number of this property |
+| 197 | postalCode | `String` | The postal code of this property. |
+| 198 | primaryKeyID | `Float` | Primary Key ID |
+| 199 | proinfoUrl | `String` | URL where property information is located. |
+| 200 | propMapUrl | `String` | Property MAP URL. |
+| 201 | propPicUrl | `String` | Property picture URL. |
+| 202 | propertyCode | `String` | The property that the record belongs to |
+| 203 | propertyName | `String` | The name of this property. |
+| 204 | propertyType | `String` | Type of resort. |
+| 205 | quotedCurrency | `String` | Future use |
+| 206 | rNAInsertdate | `DateTime` | RNA Insert Date |
+| 207 | rNAUpdatedate | `DateTime` | RNA Update Date |
+| 208 | reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 209 | regionCode | `String` | Future use |
+| 210 | regionDescription | `String` | Description of the Region. |
+| 211 | restaurant | `Float` | Future use |
+| 212 | rhythmSheets | `Float` | Total number of Sheets |
+| 213 | rhythmTowels | `Float` | Total number of Towels |
+| 214 | roomAmenities | `String` | Room amenity. |
+| 215 | sGLNum | `String` | Future use |
+| 216 | sGLRate1 | `Float` | Future use |
+| 217 | sGLRate2 | `Float` | Future use |
+| 218 | sUINum | `String` | Future use |
+| 219 | sUIRate1 | `Float` | Future use |
+| 220 | sUIRate2 | `Float` | Future use |
+| 221 | saveProfiles | `Float` | To store number of days before deleting the gest profile |
+| 222 | scriptID | `Float` | Future use |
+| 223 | season1 | `String` | Future use |
+| 224 | season2 | `String` | Future use |
+| 225 | season3 | `String` | Future use |
+| 226 | season4 | `String` | Future use |
+| 227 | season5 | `String` | Future use |
+| 228 | sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
+| 229 | shopDescription | `String` | Shop description. |
+| 230 | shortDateFormat | `String` | Short date format for the property. |
+| 231 | singleRooms | `Float` | Number of single rooms. |
+| 232 | sourceCommission | `String` | For default commission percentage |
+| 233 | state | `String` | The state in which this property is located. |
+| 234 | stateDescription | `String` | Description of the state. |
+| 235 | street | `String` | The street of the property. |
+| 236 | suites | `Float` | Number of suites. |
+| 237 | summCurrencyCode | `String` | Internal |
+| 238 | tACommission | `String` | For default commission percentage |
+| 239 | tPLNum | `String` | Future use |
+| 240 | tPLRate1 | `Float` | Future use |
+| 241 | tPLRate2 | `Float` | Future use |
+| 242 | telephoneNoFormat | `String` | Formats for telephone number |
+| 243 | thousandSeparator | `String` | Separator for monetory values |
+| 244 | timeFormat | `String` | Default time format for the property. |
+| 245 | timeZone | `String` | Time zone region selected by the employee. |
+| 246 | tollFree | `String` | Toll free telephone number. |
+| 247 | totalRooms | `Float` | Future use |
+| 248 | touristNumber | `String` | Tourist Number |
+| 249 | translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
+| 250 | turnawayCode | `String` | Turnaway code for the property. |
+| 251 | twinRooms | `Float` | Number of twin rooms. |
+| 252 | updateDate | `DateTime` | The date the record was modified |
+| 253 | updateUser | `Float` | The user that modified the record |
+| 254 | vatID | `String` | VAT ID of this property. |
+| 255 | videoCheckoutPrinter | `String` | Future use |
+| 256 | videoCheckoutStart | `DateTime` | Video check out start time. |
+| 257 | videoCheckoutStop | `DateTime` | Video check out end time. |
+| 258 | wakeUpDelay | `Float` | Future use |
+| 259 | warningAmount | `Float` | Amount at which warning is raised. |
+| 260 | web | `String` | Webaddress of the property |
+| 261 | weekendDays | `String` | Weekend days for the property. |
+| 262 | zeroInvPurDays | `Float` | Internal |
 
 [⬆ Back to Query](#query)
 
@@ -323,209 +323,209 @@
 
 ### RatesTiersRateCodeDetailsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addAfterRounding | `Float` | Amount to be added after rounding |
-| adultCharge | `Float` | Adult Charge |
-| adultsThreshold | `Float` | Threshold for number of adults on a reservation. Additional charge will be added when reservation exceeds this threshold. |
-| adultsThresholdCharge | `Float` | Amount used to calculate price for adults when the number of adults on the reservation exceed the adult threshold. |
-| advBaseAmount | `Float` | Indicates either Flat amount or Percentage increase or decrease from the advanced dynamic base rate. |
-| advBaseFltPct | `String` | Calculate as Flat [FLT] or Percentage [PCT] amount of the advanced dynamic base rate code. |
-| advDailyBaseRateCode | `String` | Identifies the Advanced Daily Base Rate Code from which this rate detail was copied. |
-| advanceBaseCompareYN | `String` | Identifies if during the availability check the calculated based amount should be compared to rate detail of BAR rate code. |
-| ageRangeForBucket1 | `String` | Age Range for Bucket 1 |
-| ageRangeForBucket2 | `String` | Age Range for Bucket 2 |
-| ageRangeForBucket3 | `String` | Age Range for Bucket 3 |
-| amount1Type | `String` | Indicate the amount type for the 1 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
-| amount2Type | `String` | Indicate the amount type for the 2 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
-| amount3Type | `String` | Indicate the amount type for the 3 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
-| amount4Type | `String` | Indicate the amount type for the 4 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
-| amount5Type | `String` | Indicate the amount type for the 5 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
-| amountFor1Person | `Float` | Amount for 1 Person |
-| amountFor2Persons | `Float` | Amount for 2 Persons |
-| amountFor3Persons | `Float` | Amount for 3 Persons |
-| amountFor4Persons | `Float` | Amount for 4 Persons |
-| amountFor5Persons | `Float` | Amount for 5 adults |
-| barAmount | `Float` | Stores the Percentage or Amount difference between BAR Rate code and this Rate Code. |
-| barFltPct | `String` | Identifies if the amount column represents a Flat [FLT] or Percentage [PCT] value. |
-| barRounding | `String` | Identifies the rounding formula for the BBAR Rate calculation. |
-| barYn | `String` | Is this schedule applied to bar by los rate pushing also. |
-| cAdultCharge | `Float` | Central Adult Charge |
-| cAdultsThresholdCharge | `Float` | Central Adults Threshold Charge |
-| cAdvanceBaseAmount | `Float` | Central Adv Base Amount |
-| cAmount1 | `Float` | Central Amount 1 |
-| cAmount2 | `Float` | Central Amount 2 |
-| cAmount3 | `Float` | Central Amount 3 |
-| cAmount4 | `Float` | Central Amount 4 |
-| cAmount5 | `Float` | Central Amount 5 |
-| cBarAmount | `Float` | Central Bar Amount |
-| cChildCharge1 | `Float` | Central Child Charge 1 |
-| cChildCharge2 | `Float` | Central Child Charge 2 |
-| cChildCharge3 | `Float` | Central Child Charge 3 |
-| cChildOwnCharge1 | `Float` | Central Child Own Charge 1 |
-| cChildOwnCharge2 | `Float` | Central Child Own Charge 2 |
-| cChildOwnCharge3 | `Float` | Central Child Own Charge 3 |
-| cChildOwnCharge4 | `Float` | Central Child Own Charge 4 |
-| cChildrenCharge | `Float` | Central Children Charge |
-| cChildrenThresholdCharge | `Float` | Central Children Threshold Charge |
-| cDifferenceAmount1 | `Float` | Central Diff Amount 1 |
-| cDifferenceAmount2 | `Float` | Central Diff Amount 2 |
-| cDifferenceAmount3 | `Float` | Central Diff Amount 3 |
-| cDifferenceAmount4 | `Float` | Central Diff Amount 4 |
-| cDifferenceAmount5 | `Float` | Central Diff Amount 5 |
-| cDifferenceAmountExtraAdult | `Float` | Central Diff Amount Extra Adult |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cFlatIncrease | `Float` | Central Flat Increase |
-| cLos1Amount | `Float` | Central Los1 Amt |
-| cLos10Amount | `Float` | Central Los10 Amt |
-| cLos11Amount | `Float` | Central Los11 Amt |
-| cLos12Amount | `Float` | Central Los12 Amt |
-| cLos13Amount | `Float` | Central Los13 Amt |
-| cLos14Amount | `Float` | Central Los14 Amt |
-| cLos2Amount | `Float` | Central Los2 Amt |
-| cLos3Amount | `Float` | Central Los3 Amt |
-| cLos4Amount | `Float` | Central Los4 Amt |
-| cLos5Amount | `Float` | Central Los5 Amt |
-| cLos6Amount | `Float` | Central Los6 Amt |
-| cLos7Amount | `Float` | Central Los7 Amt |
-| cLos8Amount | `Float` | Central Los8 Amt |
-| cLos9Amount | `Float` | Central Los9 Amt |
-| cMaximumAmount1 | `Float` | Central Maximum Amount 1 |
-| cMaximumAmount2 | `Float` | Central Maximum Amount 2 |
-| cMinimumAmount1 | `Float` | Central Minimum Amount 1 |
-| cMinimumAmount2 | `Float` | Central Minimum Amount 2 |
-| cOccupantsThresholdCharge | `Float` | Central Occupants Threshold Charge |
-| cPackageRateStayOver | `Float` | Central Package Rate Stay Over |
-| cRoomCost | `Float` | Central Room Cost |
-| calculationFlag | `String` | Indicates Global rate update was (P)ercent or (F)lat |
-| catPackagePriceCode | `String` | Stores the catering package price code for the package linked to the rate code in rate header. |
-| centralMarketCode | `String` | Central Market Code |
-| centralMarketDescription | `String` | Central Market Description |
-| centralMarketGroupCode | `String` | Central Market Group Code |
-| centralMarketGroupDescription | `String` | Central Market Group Description |
-| centralPackageCode | `String` | Central Package Code |
-| centralRoomType | `String` | Central Room Type |
-| centralRoomTypeDescription | `String` | Central Room Type Description |
-| centralSeasonCode | `String` | Central Season Code |
-| centralSourceCode | `String` | Central Source Code |
-| centralSourceDescription | `String` | Central Source Description |
-| centralSourceGroupCode | `String` | Central Source Group Code |
-| centralSourceGroupDescription | `String` | Central Source Group Description |
-| childExcThreshold1 | `String` | Indicates whether the child 1 count will be excluded while calculating the total occupants threshold excess amount. |
-| childExcThreshold2 | `String` | Indicates whether the child 2 count will be excluded while calculating the total occupants threshold excess amount. |
-| childExcThreshold3 | `String` | Indicates whether the child 3 count will be excluded while calculating the total occupants threshold excess amount. |
-| childOwnCharge1 | `Float` | Child Own Charge 1 |
-| childOwnCharge2 | `Float` | Child Own Charge 2 |
-| childOwnCharge3 | `Float` | Child Own Charge 3 |
-| childOwnCharge4 | `Float` | Child Own Charge 4 |
-| childrenFreeStay | `Float` | Number of children that will stay free. |
-| childrenCharge | `Float` | Children Charge |
-| childrenThreshold | `Float` | Threshold for number of children on a reservation. Additional charge will be added when reservation exceeds this threshold. |
-| childrenThresholdCharge | `Float` | Amount used to calculate price for children when the number of children on the reservation exceed the children threshold. |
-| currencyCode | `String` | Currency Code |
-| currencyDescription | `String` | Currency Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| depositRequieredYn | `String` | Deposit required Y/N |
-| differenceAmount1 | `Float` | Contains a flat/percentage value for 1 Adult differential. |
-| differenceAmount2 | `Float` | Contains a flat/percentage value for 2 Adult differential. |
-| differenceAmount3 | `Float` | Contains a flat/percentage value for 3 Adult differential. |
-| differenceAmount4 | `Float` | Contains a flat/percentage value for 4 Adult differential. |
-| differenceAmount5 | `Float` | Contains a flat/percentage value for 5 Adult differential. |
-| differenceAmountExtraAdult | `Float` | Contains a flat/percentage value for Extra Adult differential. |
-| differencePercentage1Yn | `String` | Indicate if percentage value for 1 Adult differential should be used. |
-| differencePercentage2Yn | `String` | Indicate if percentage value for 2 Adult differential should be used. |
-| differencePercentage3Yn | `String` | Indicate if percentage value for 3 Adult differential should be used. |
-| differencePercentage4Yn | `String` | Indicate if percentage value for 4 Adult differential should be used. |
-| differencePercentage5Yn | `String` | Indicate if percentage value for 5 Adult differential should be used. |
-| differencePercentageExtraAdultYn | `String` | Indicate if percentage value for Extra Adult differential should be used. |
-| endDate | `Date` | End Date |
-| externalRateSetId | `Float` | This field is required by OXI to store the external system rate_set_id to be used for locating the record in rate_set table during an update. |
-| extraAdultType | `String` | Indicate the amount type for the Extra Adult. A [FLAT] or [DIFFERENTIAL] amount. |
-| flatIncrease | `Float` | Flat Increase Amount |
-| globalRateUpdateYn | `String` | Indicates if Rate set created by Global Rate Update |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalLocationId | `String` | Location ID |
-| internalOrganizationId | `Float` | Organization ID |
-| internalRatesetid | `Float` | Ratesetid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lengthOfStay1Amount | `Float` | LOS1 amount for prevailing rate code. |
-| lengthOfStay10Amount | `Float` | LOS10 amount for prevailing rate code. |
-| lengthOfStay11Amount | `Float` | LOS11 amount for prevailing rate code. |
-| lengthOfStay12Amount | `Float` | LOS12 amount for prevailing rate code. |
-| lengthOfStay13Amount | `Float` | LOS13 amount for prevailing rate code. |
-| lengthOfStay14Amount | `Float` | LOS14 amount for prevailing rate code. |
-| lengthOfStay2Amount | `Float` | LOS2 amount for prevailing rate code. |
-| lengthOfStay3Amount | `Float` | LOS3 amount for prevailing rate code. |
-| lengthOfStay4Amount | `Float` | LOS4 amount for prevailing rate code. |
-| lengthOfStay5Amount | `Float` | LOS5 amount for prevailing rate code. |
-| lengthOfStay6Amount | `Float` | LOS6 amount for prevailing rate code. |
-| lengthOfStay7Amount | `Float` | LOS7 amount for prevailing rate code. |
-| lengthOfStay8Amount | `Float` | LOS8 amount for prevailing rate code. |
-| lengthOfStay9Amount | `Float` | LOS9 amount for prevailing rate code. |
-| linkRateSetId | `Float` | Rate set id of the base rates rate set. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| marketCode | `String` | Market Code |
-| marketDescription | `String` | Market Description |
-| marketGroupCode | `String` | Market Group Code |
-| marketGroupDescription | `String` | Market Group Description |
-| maximumAmount1 | `Float` | Maximum rate amount value for 1 adult. |
-| maximumAmount2 | `Float` | Maximum rate amount value for 2 adults. |
-| minChildrenForFreeStay | `Float` | Represents every x number of children to get free "num_children_stay_free" |
-| minimumAmount1 | `Float` | Minimum rate amount value for 1 adult. |
-| minimumAmount2 | `Float` | Minimum rate amount value for 2 adults. |
-| minimumClosingProbability | `Float` | Not used |
-| occupantsThreshold | `Float` | Threshold for number of occupants on a reservation. Additional charge will be added when reservation exceeds this threshold. |
-| occupantsThresholdCharge | `Float` | Amount used to calculate price for occupants when the number of occupants on the reservation exceed the occupant threshold. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| packageAdultStayOver | `Float` | The amount to charge per extra adult on every additional day of stay for a package that extends beyo |
-| packageChildrenStayOver | `Float` | The amount to charge per extra child on every additional day of stay for a package that extends beyo |
-| packageCode | `String` | Package Code |
-| packageRateStayOver | `Float` | The amount to charge extra on every additional day of stay for a package that extends beyond the inc |
-| percentIncrease | `Float` | Not used |
-| pointsRequired | `Float` | Points Required |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rateAvailableOnFridaysYN | `String` | Rate Available on Fridays YN |
-| rateAvailableOnMondaysYN | `String` | Rate Available on Mondays YN |
-| rateAvailableOnSaturdaysYN | `String` | Rate Available on Saturdays YN |
-| rateAvailableOnSundaysYN | `String` | Rate Available on Sundays YN |
-| rateAvailableOnThursdaysYN | `String` | Rate Available on Thursdays YN |
-| rateAvailableOnTuesdaysYN | `String` | Rate Available on Tuesdays YN |
-| rateAvailableOnWednesdaysYN | `String` | Rate Available on Wednesdays YN |
-| rateCode | `String` | Rate Code |
-| rateCodeDesc | `String` | Event Reservation Rate Code Description |
-| rateCodeId | `String` | Rate Code ID |
-| rateRule | `String` | Rate Rule |
-| rateSetId | `Float` | Rate Set ID |
-| rateForChildInAgeBucket1 | `Float` | Child charge for defined rate bucket 1. |
-| rateForChildInAgeBucket2 | `Float` | Child charge for defined rate bucket 2. |
-| rateForChildInAgeBucket3 | `Float` | Child charge for defined rate bucket 3. |
-| ratesActiveYn | `String` | Indicates if the rate amounts are activated. |
-| ratetierid | `Float` | Ratetierid |
-| repSeasonDescription | `String` | Reporting Season Desc |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomCost | `Float` | Room Cost |
-| roomType | `String` | Room Type |
-| roomTypeDescription | `String` | Room Type Description |
-| roundToNearest | `Float` | Type of rounding after rate_update |
-| season | `String` | Season |
-| seasonCode | `String` | Season Code |
-| seasonDesc | `String` | User defined description for season. |
-| sourceCode | `String` | Source Code |
-| sourceDescription | `String` | Source Description |
-| sourceGroupCode | `String` | Source Group Code |
-| sourceGroupDescription | `String` | Source Group Description |
-| startDate | `Date` | Start Date |
-| tierId | `Float` | Tier ID for the Rate Detail. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addAfterRounding | `Float` | Amount to be added after rounding |
+| 2 | adultCharge | `Float` | Adult Charge |
+| 3 | adultsThreshold | `Float` | Threshold for number of adults on a reservation. Additional charge will be added when reservation exceeds this threshold. |
+| 4 | adultsThresholdCharge | `Float` | Amount used to calculate price for adults when the number of adults on the reservation exceed the adult threshold. |
+| 5 | advBaseAmount | `Float` | Indicates either Flat amount or Percentage increase or decrease from the advanced dynamic base rate. |
+| 6 | advBaseFltPct | `String` | Calculate as Flat [FLT] or Percentage [PCT] amount of the advanced dynamic base rate code. |
+| 7 | advDailyBaseRateCode | `String` | Identifies the Advanced Daily Base Rate Code from which this rate detail was copied. |
+| 8 | advanceBaseCompareYN | `String` | Identifies if during the availability check the calculated based amount should be compared to rate detail of BAR rate code. |
+| 9 | ageRangeForBucket1 | `String` | Age Range for Bucket 1 |
+| 10 | ageRangeForBucket2 | `String` | Age Range for Bucket 2 |
+| 11 | ageRangeForBucket3 | `String` | Age Range for Bucket 3 |
+| 12 | amount1Type | `String` | Indicate the amount type for the 1 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
+| 13 | amount2Type | `String` | Indicate the amount type for the 2 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
+| 14 | amount3Type | `String` | Indicate the amount type for the 3 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
+| 15 | amount4Type | `String` | Indicate the amount type for the 4 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
+| 16 | amount5Type | `String` | Indicate the amount type for the 5 Adult. A [FLAT] or [DIFFERENTIAL] amount. |
+| 17 | amountFor1Person | `Float` | Amount for 1 Person |
+| 18 | amountFor2Persons | `Float` | Amount for 2 Persons |
+| 19 | amountFor3Persons | `Float` | Amount for 3 Persons |
+| 20 | amountFor4Persons | `Float` | Amount for 4 Persons |
+| 21 | amountFor5Persons | `Float` | Amount for 5 adults |
+| 22 | barAmount | `Float` | Stores the Percentage or Amount difference between BAR Rate code and this Rate Code. |
+| 23 | barFltPct | `String` | Identifies if the amount column represents a Flat [FLT] or Percentage [PCT] value. |
+| 24 | barRounding | `String` | Identifies the rounding formula for the BBAR Rate calculation. |
+| 25 | barYn | `String` | Is this schedule applied to bar by los rate pushing also. |
+| 26 | cAdultCharge | `Float` | Central Adult Charge |
+| 27 | cAdultsThresholdCharge | `Float` | Central Adults Threshold Charge |
+| 28 | cAdvanceBaseAmount | `Float` | Central Adv Base Amount |
+| 29 | cAmount1 | `Float` | Central Amount 1 |
+| 30 | cAmount2 | `Float` | Central Amount 2 |
+| 31 | cAmount3 | `Float` | Central Amount 3 |
+| 32 | cAmount4 | `Float` | Central Amount 4 |
+| 33 | cAmount5 | `Float` | Central Amount 5 |
+| 34 | cBarAmount | `Float` | Central Bar Amount |
+| 35 | cChildCharge1 | `Float` | Central Child Charge 1 |
+| 36 | cChildCharge2 | `Float` | Central Child Charge 2 |
+| 37 | cChildCharge3 | `Float` | Central Child Charge 3 |
+| 38 | cChildOwnCharge1 | `Float` | Central Child Own Charge 1 |
+| 39 | cChildOwnCharge2 | `Float` | Central Child Own Charge 2 |
+| 40 | cChildOwnCharge3 | `Float` | Central Child Own Charge 3 |
+| 41 | cChildOwnCharge4 | `Float` | Central Child Own Charge 4 |
+| 42 | cChildrenCharge | `Float` | Central Children Charge |
+| 43 | cChildrenThresholdCharge | `Float` | Central Children Threshold Charge |
+| 44 | cDifferenceAmount1 | `Float` | Central Diff Amount 1 |
+| 45 | cDifferenceAmount2 | `Float` | Central Diff Amount 2 |
+| 46 | cDifferenceAmount3 | `Float` | Central Diff Amount 3 |
+| 47 | cDifferenceAmount4 | `Float` | Central Diff Amount 4 |
+| 48 | cDifferenceAmount5 | `Float` | Central Diff Amount 5 |
+| 49 | cDifferenceAmountExtraAdult | `Float` | Central Diff Amount Extra Adult |
+| 50 | cExchangeDate | `Date` | Central Xchange Date |
+| 51 | cExchangeRate | `Float` | Central Xchange Rate |
+| 52 | cFlatIncrease | `Float` | Central Flat Increase |
+| 53 | cLos1Amount | `Float` | Central Los1 Amt |
+| 54 | cLos10Amount | `Float` | Central Los10 Amt |
+| 55 | cLos11Amount | `Float` | Central Los11 Amt |
+| 56 | cLos12Amount | `Float` | Central Los12 Amt |
+| 57 | cLos13Amount | `Float` | Central Los13 Amt |
+| 58 | cLos14Amount | `Float` | Central Los14 Amt |
+| 59 | cLos2Amount | `Float` | Central Los2 Amt |
+| 60 | cLos3Amount | `Float` | Central Los3 Amt |
+| 61 | cLos4Amount | `Float` | Central Los4 Amt |
+| 62 | cLos5Amount | `Float` | Central Los5 Amt |
+| 63 | cLos6Amount | `Float` | Central Los6 Amt |
+| 64 | cLos7Amount | `Float` | Central Los7 Amt |
+| 65 | cLos8Amount | `Float` | Central Los8 Amt |
+| 66 | cLos9Amount | `Float` | Central Los9 Amt |
+| 67 | cMaximumAmount1 | `Float` | Central Maximum Amount 1 |
+| 68 | cMaximumAmount2 | `Float` | Central Maximum Amount 2 |
+| 69 | cMinimumAmount1 | `Float` | Central Minimum Amount 1 |
+| 70 | cMinimumAmount2 | `Float` | Central Minimum Amount 2 |
+| 71 | cOccupantsThresholdCharge | `Float` | Central Occupants Threshold Charge |
+| 72 | cPackageRateStayOver | `Float` | Central Package Rate Stay Over |
+| 73 | cRoomCost | `Float` | Central Room Cost |
+| 74 | calculationFlag | `String` | Indicates Global rate update was (P)ercent or (F)lat |
+| 75 | catPackagePriceCode | `String` | Stores the catering package price code for the package linked to the rate code in rate header. |
+| 76 | centralMarketCode | `String` | Central Market Code |
+| 77 | centralMarketDescription | `String` | Central Market Description |
+| 78 | centralMarketGroupCode | `String` | Central Market Group Code |
+| 79 | centralMarketGroupDescription | `String` | Central Market Group Description |
+| 80 | centralPackageCode | `String` | Central Package Code |
+| 81 | centralRoomType | `String` | Central Room Type |
+| 82 | centralRoomTypeDescription | `String` | Central Room Type Description |
+| 83 | centralSeasonCode | `String` | Central Season Code |
+| 84 | centralSourceCode | `String` | Central Source Code |
+| 85 | centralSourceDescription | `String` | Central Source Description |
+| 86 | centralSourceGroupCode | `String` | Central Source Group Code |
+| 87 | centralSourceGroupDescription | `String` | Central Source Group Description |
+| 88 | childExcThreshold1 | `String` | Indicates whether the child 1 count will be excluded while calculating the total occupants threshold excess amount. |
+| 89 | childExcThreshold2 | `String` | Indicates whether the child 2 count will be excluded while calculating the total occupants threshold excess amount. |
+| 90 | childExcThreshold3 | `String` | Indicates whether the child 3 count will be excluded while calculating the total occupants threshold excess amount. |
+| 91 | childOwnCharge1 | `Float` | Child Own Charge 1 |
+| 92 | childOwnCharge2 | `Float` | Child Own Charge 2 |
+| 93 | childOwnCharge3 | `Float` | Child Own Charge 3 |
+| 94 | childOwnCharge4 | `Float` | Child Own Charge 4 |
+| 95 | childrenFreeStay | `Float` | Number of children that will stay free. |
+| 96 | childrenCharge | `Float` | Children Charge |
+| 97 | childrenThreshold | `Float` | Threshold for number of children on a reservation. Additional charge will be added when reservation exceeds this threshold. |
+| 98 | childrenThresholdCharge | `Float` | Amount used to calculate price for children when the number of children on the reservation exceed the children threshold. |
+| 99 | currencyCode | `String` | Currency Code |
+| 100 | currencyDescription | `String` | Currency Description |
+| 101 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 102 | deletedflag | `String` | Deleted Flag |
+| 103 | depositRequieredYn | `String` | Deposit required Y/N |
+| 104 | differenceAmount1 | `Float` | Contains a flat/percentage value for 1 Adult differential. |
+| 105 | differenceAmount2 | `Float` | Contains a flat/percentage value for 2 Adult differential. |
+| 106 | differenceAmount3 | `Float` | Contains a flat/percentage value for 3 Adult differential. |
+| 107 | differenceAmount4 | `Float` | Contains a flat/percentage value for 4 Adult differential. |
+| 108 | differenceAmount5 | `Float` | Contains a flat/percentage value for 5 Adult differential. |
+| 109 | differenceAmountExtraAdult | `Float` | Contains a flat/percentage value for Extra Adult differential. |
+| 110 | differencePercentage1Yn | `String` | Indicate if percentage value for 1 Adult differential should be used. |
+| 111 | differencePercentage2Yn | `String` | Indicate if percentage value for 2 Adult differential should be used. |
+| 112 | differencePercentage3Yn | `String` | Indicate if percentage value for 3 Adult differential should be used. |
+| 113 | differencePercentage4Yn | `String` | Indicate if percentage value for 4 Adult differential should be used. |
+| 114 | differencePercentage5Yn | `String` | Indicate if percentage value for 5 Adult differential should be used. |
+| 115 | differencePercentageExtraAdultYn | `String` | Indicate if percentage value for Extra Adult differential should be used. |
+| 116 | endDate | `Date` | End Date |
+| 117 | externalRateSetId | `Float` | This field is required by OXI to store the external system rate_set_id to be used for locating the record in rate_set table during an update. |
+| 118 | extraAdultType | `String` | Indicate the amount type for the Extra Adult. A [FLAT] or [DIFFERENTIAL] amount. |
+| 119 | flatIncrease | `Float` | Flat Increase Amount |
+| 120 | globalRateUpdateYn | `String` | Indicates if Rate set created by Global Rate Update |
+| 121 | inactiveDate | `Date` | Inactive Date |
+| 122 | inactiveflag | `String` | Inactive Flag |
+| 123 | insertDate | `DateTime` | Insert Date |
+| 124 | insertUser | `Float` | Insert User |
+| 125 | internalLocationId | `String` | Location ID |
+| 126 | internalOrganizationId | `Float` | Organization ID |
+| 127 | internalRatesetid | `Float` | Ratesetid |
+| 128 | jRNUpdateDate | `Date` | JRN Update Date |
+| 129 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 130 | lengthOfStay1Amount | `Float` | LOS1 amount for prevailing rate code. |
+| 131 | lengthOfStay10Amount | `Float` | LOS10 amount for prevailing rate code. |
+| 132 | lengthOfStay11Amount | `Float` | LOS11 amount for prevailing rate code. |
+| 133 | lengthOfStay12Amount | `Float` | LOS12 amount for prevailing rate code. |
+| 134 | lengthOfStay13Amount | `Float` | LOS13 amount for prevailing rate code. |
+| 135 | lengthOfStay14Amount | `Float` | LOS14 amount for prevailing rate code. |
+| 136 | lengthOfStay2Amount | `Float` | LOS2 amount for prevailing rate code. |
+| 137 | lengthOfStay3Amount | `Float` | LOS3 amount for prevailing rate code. |
+| 138 | lengthOfStay4Amount | `Float` | LOS4 amount for prevailing rate code. |
+| 139 | lengthOfStay5Amount | `Float` | LOS5 amount for prevailing rate code. |
+| 140 | lengthOfStay6Amount | `Float` | LOS6 amount for prevailing rate code. |
+| 141 | lengthOfStay7Amount | `Float` | LOS7 amount for prevailing rate code. |
+| 142 | lengthOfStay8Amount | `Float` | LOS8 amount for prevailing rate code. |
+| 143 | lengthOfStay9Amount | `Float` | LOS9 amount for prevailing rate code. |
+| 144 | linkRateSetId | `Float` | Rate set id of the base rates rate set. |
+| 145 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 146 | marketCode | `String` | Market Code |
+| 147 | marketDescription | `String` | Market Description |
+| 148 | marketGroupCode | `String` | Market Group Code |
+| 149 | marketGroupDescription | `String` | Market Group Description |
+| 150 | maximumAmount1 | `Float` | Maximum rate amount value for 1 adult. |
+| 151 | maximumAmount2 | `Float` | Maximum rate amount value for 2 adults. |
+| 152 | minChildrenForFreeStay | `Float` | Represents every x number of children to get free "num_children_stay_free" |
+| 153 | minimumAmount1 | `Float` | Minimum rate amount value for 1 adult. |
+| 154 | minimumAmount2 | `Float` | Minimum rate amount value for 2 adults. |
+| 155 | minimumClosingProbability | `Float` | Not used |
+| 156 | occupantsThreshold | `Float` | Threshold for number of occupants on a reservation. Additional charge will be added when reservation exceeds this threshold. |
+| 157 | occupantsThresholdCharge | `Float` | Amount used to calculate price for occupants when the number of occupants on the reservation exceed the occupant threshold. |
+| 158 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 159 | packageAdultStayOver | `Float` | The amount to charge per extra adult on every additional day of stay for a package that extends beyo |
+| 160 | packageChildrenStayOver | `Float` | The amount to charge per extra child on every additional day of stay for a package that extends beyo |
+| 161 | packageCode | `String` | Package Code |
+| 162 | packageRateStayOver | `Float` | The amount to charge extra on every additional day of stay for a package that extends beyond the inc |
+| 163 | percentIncrease | `Float` | Not used |
+| 164 | pointsRequired | `Float` | Points Required |
+| 165 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 166 | property | `String` | Code to uniquely identify the Property |
+| 167 | rateAvailableOnFridaysYN | `String` | Rate Available on Fridays YN |
+| 168 | rateAvailableOnMondaysYN | `String` | Rate Available on Mondays YN |
+| 169 | rateAvailableOnSaturdaysYN | `String` | Rate Available on Saturdays YN |
+| 170 | rateAvailableOnSundaysYN | `String` | Rate Available on Sundays YN |
+| 171 | rateAvailableOnThursdaysYN | `String` | Rate Available on Thursdays YN |
+| 172 | rateAvailableOnTuesdaysYN | `String` | Rate Available on Tuesdays YN |
+| 173 | rateAvailableOnWednesdaysYN | `String` | Rate Available on Wednesdays YN |
+| 174 | rateCode | `String` | Rate Code |
+| 175 | rateCodeDesc | `String` | Event Reservation Rate Code Description |
+| 176 | rateCodeId | `String` | Rate Code ID |
+| 177 | rateRule | `String` | Rate Rule |
+| 178 | rateSetId | `Float` | Rate Set ID |
+| 179 | rateForChildInAgeBucket1 | `Float` | Child charge for defined rate bucket 1. |
+| 180 | rateForChildInAgeBucket2 | `Float` | Child charge for defined rate bucket 2. |
+| 181 | rateForChildInAgeBucket3 | `Float` | Child charge for defined rate bucket 3. |
+| 182 | ratesActiveYn | `String` | Indicates if the rate amounts are activated. |
+| 183 | ratetierid | `Float` | Ratetierid |
+| 184 | repSeasonDescription | `String` | Reporting Season Desc |
+| 185 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 186 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 187 | roomCost | `Float` | Room Cost |
+| 188 | roomType | `String` | Room Type |
+| 189 | roomTypeDescription | `String` | Room Type Description |
+| 190 | roundToNearest | `Float` | Type of rounding after rate_update |
+| 191 | season | `String` | Season |
+| 192 | seasonCode | `String` | Season Code |
+| 193 | seasonDesc | `String` | User defined description for season. |
+| 194 | sourceCode | `String` | Source Code |
+| 195 | sourceDescription | `String` | Source Description |
+| 196 | sourceGroupCode | `String` | Source Group Code |
+| 197 | sourceGroupDescription | `String` | Source Group Description |
+| 198 | startDate | `Date` | Start Date |
+| 199 | tierId | `Float` | Tier ID for the Rate Detail. |
+| 200 | updateDate | `DateTime` | Update Date |
+| 201 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -924,6 +924,11 @@
 | ratecodedetailsDetailsSourceCode | `StringInput` | Source Code |
 | ratecodedetailsDetailsBeginDate | `DateInput` | Start Date |
 | ratecodedetailsDetailsTierId | `FloatInput` | Tier ID for the Rate Detail. |
+#### Validation Rules
+
+**`mandatoryInput`**
+- ratetierDetailsResort
+
 
 [⬆ Back to Query](#query)
 

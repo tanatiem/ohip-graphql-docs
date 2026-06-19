@@ -16,20 +16,20 @@
 
 ### ProfilesIndividualsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| profileAllInformationDetails | [`ProfilesIndividualsProfileAllInformationDetailsType`](#profilesindividualsprofileallinformationdetailstype) | Profile All Details |
-| profileAddressDetails | [`ProfilesIndividualsProfileAddressDetailsType`](#profilesindividualsprofileaddressdetailstype) | Profile Address Details |
-| profileCommunicationDetails | [`ProfilesIndividualsProfileCommunicationDetailsType`](#profilesindividualsprofilecommunicationdetailstype) | Profile Communication Details |
-| profilePreferenceDetails | [`ProfilesIndividualsProfilePreferenceDetailsType`](#profilesindividualsprofilepreferencedetailstype) | Profile Preference Details |
-| profileDocumentsDetails | [`ProfilesIndividualsProfileDocumentsDetailsType`](#profilesindividualsprofiledocumentsdetailstype) | Profile Documents Details |
-| profileMembershipDetails | [`ProfilesIndividualsProfileMembershipDetailsType`](#profilesindividualsprofilemembershipdetailstype) | Profile Membership Details |
-| profileNoteDetails | [`ProfilesIndividualsProfileNoteDetailsType`](#profilesindividualsprofilenotedetailstype) | Profile Note Details |
-| profileRelationshipDetails | [`ProfilesIndividualsProfileRelationshipDetailsType`](#profilesindividualsprofilerelationshipdetailstype) | Profile Relationship Details |
-| individualDailyStatisticsDetails | [`ProfilesIndividualsIndividualDailyStatisticsDetailsType`](#profilesindividualsindividualdailystatisticsdetailstype) | Individual Daily Statistics |
-| profileKeywordsDetails | [`ProfilesIndividualsProfileKeywordsDetailsType`](#profilesindividualsprofilekeywordsdetailstype) | Profile Keywords |
-| profileSubscriptionDetails | [`ProfilesIndividualsProfileSubscriptionDetailsType`](#profilesindividualsprofilesubscriptiondetailstype) | Profile Subscription Details |
-| profilesIndividualsRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | profileAllInformationDetails | [`ProfilesIndividualsProfileAllInformationDetailsType`](#profilesindividualsprofileallinformationdetailstype) | Profile All Details |
+| 2 | profileAddressDetails | [`ProfilesIndividualsProfileAddressDetailsType`](#profilesindividualsprofileaddressdetailstype) | Profile Address Details |
+| 3 | profileCommunicationDetails | [`ProfilesIndividualsProfileCommunicationDetailsType`](#profilesindividualsprofilecommunicationdetailstype) | Profile Communication Details |
+| 4 | profilePreferenceDetails | [`ProfilesIndividualsProfilePreferenceDetailsType`](#profilesindividualsprofilepreferencedetailstype) | Profile Preference Details |
+| 5 | profileDocumentsDetails | [`ProfilesIndividualsProfileDocumentsDetailsType`](#profilesindividualsprofiledocumentsdetailstype) | Profile Documents Details |
+| 6 | profileMembershipDetails | [`ProfilesIndividualsProfileMembershipDetailsType`](#profilesindividualsprofilemembershipdetailstype) | Profile Membership Details |
+| 7 | profileNoteDetails | [`ProfilesIndividualsProfileNoteDetailsType`](#profilesindividualsprofilenotedetailstype) | Profile Note Details |
+| 8 | profileRelationshipDetails | [`ProfilesIndividualsProfileRelationshipDetailsType`](#profilesindividualsprofilerelationshipdetailstype) | Profile Relationship Details |
+| 9 | individualDailyStatisticsDetails | [`ProfilesIndividualsIndividualDailyStatisticsDetailsType`](#profilesindividualsindividualdailystatisticsdetailstype) | Individual Daily Statistics |
+| 10 | profileKeywordsDetails | [`ProfilesIndividualsProfileKeywordsDetailsType`](#profilesindividualsprofilekeywordsdetailstype) | Profile Keywords |
+| 11 | profileSubscriptionDetails | [`ProfilesIndividualsProfileSubscriptionDetailsType`](#profilesindividualsprofilesubscriptiondetailstype) | Profile Subscription Details |
+| 12 | profilesIndividualsRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -37,434 +37,434 @@
 
 ### ProfilesIndividualsProfileAllInformationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| guestProfileID | `Float` | The primary key for this table. |
-| aRNumber | `String` | Account number. |
-| aRNumberCentral | `String` | Account Receivable No. of this profile. |
-| aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
-| aRCMailFlag | `String` | The ARC mailing flag (received from ARC Update program) |
-| aRCOfficeType | `String` | The ARC office type (received from ARC Update program) |
-| aRCUpdateDate | `Date` | The date this record was last updated by the ARC update program. |
-| accountBillingContact | `String` | Billing contact person in company. |
-| accountSource | `String` | Used in S&C Module. |
-| accountType | `String` | Account Type of this Profile |
-| accountTypeDescription | `String` | The description of this value. |
-| accountsourceDesc | `String` | The description of this value. |
-| actionCode | `String` | Mailing action codes. |
-| activeYN | `String` | Profile is active or not. |
-| address1 | `String` | The first line of street address. |
-| address2 | `String` | The second line of street address. |
-| address3 | `String` | The third line of street address. |
-| address4 | `String` | The fourth line of street address. |
-| addressId | `Float` | The primary key for this table. |
-| addressLangCodeDesc | `String` | Description for each language code. |
-| addressLanguageCode | `String` | Address Language Code |
-| addressType | `String` | The type of address. |
-| alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
-| allResorts | `String` | All Resorts |
-| alternateEnvelopeGreeting | `String` | Field which stores the multibyte envelop greeting used in S&C |
-| alternateLanguage | `String` | The Extended Byte Language of the Profile. |
-| alternateLanguageDescription | `String` | Description for each language code. |
-| alternateSalutation | `String` | Alternate Salutation |
-| autoEnrollMemberYN | `String` | Auto-Enroll Member YN |
-| availabilityOverride | `String` | Does profile have Availability Override Y/N |
-| billingCode | `String` | The billing code for this name record. |
-| billingInstruction | `String` | Billing Instruction |
-| billingProfileCode | `String` | For tour operators the type of billing profile for this name. |
-| birthCountry | `String` | Country of Birth |
-| birthDate | `Date` | Date of Birth of the Individual Profiles. |
-| birthDateStr | `String` | Stores the encrypted birth date. |
-| birthPlace | `String` | Place of Birth |
-| blMsg | `String` | Any Message for the Restricted profile. |
-| businessSegment | `String` | Used in S&C Module. |
-| businessSegmentDescription | `String` | The description of this value. |
-| businessTitle | `String` | The business title for this individual. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cProfileCreditLimit | `Float` | Central Profile Credit Limit |
-| cRSNameid | `Float` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
-| ccProfileYn | `String` | This field tells whether this profile is a credit card profile or not. |
-| centralAccountType | `String` | Central Account Type |
-| centralBusinessSegment | `String` | Central Business Segment |
-| centralBusinessSegmentDescription | `String` | Central Business Segment Description |
-| centralCorporateIDType | `String` | Central Corporate ID Type |
-| centralDefaultKeyword | `String` | The keyword to search on. |
-| centralGuestTitleCode | `String` | Central Guest Title Code |
-| centralInactiveReason | `String` | Central Inactive Reason |
-| centralInactiveReasonDescription | `String` | Central Inactive Reason Description |
-| centralMailActionDescription | `String` | Central Mail Action Description |
-| centralMailingActionCode | `String` | Central Mailing Action Code |
-| centralPriority | `String` | Central Priority |
-| centralStateCode | `String` | Central State Code |
-| centralTerritory | `String` | Central Territory |
-| centralVIPCode | `String` | Central VIP Code |
-| centralVIPDescription | `String` | Central VIP Description |
-| chainCode | `String` | Chain Code |
-| city | `String` | The city for this address. |
-| clientID | `String` | The unique key of this name stores IATA# Company # etc. |
-| collectionUserId | `Float` | The user that has been assigned to this account for collections. |
-| combinedName | `String` | Combined Name |
-| commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
-| comments | `String` | Not Used. |
-| commissionCode | `String` | Commission Code for the Commission Percentage. |
-| commissionCodes | `String` | Code for the commission for Travel Agent |
-| commissionCurrencyId | `String` | Comm Curr ID |
-| commissionid | `String` | Commission Code for the Commission Percentage. |
-| communicationRole1 | `String` | Role in which this phone type belongs to. |
-| communicationRole2 | `String` | Role in which this phone type belongs to. |
-| communicationRole3 | `String` | Role in which this phone type belongs to. |
-| communicationType1 | `String` | The type of this phone number. |
-| communicationType2 | `String` | The type of this phone number. |
-| communicationType3 | `String` | The type of this phone number. |
-| communicationValue1 | `String` | The phone number for this record |
-| communicationValue2 | `String` | The phone number for this record |
-| communicationValue3 | `String` | The phone number for this record |
-| companyAlternate | `String` | Extended Byte Company Name |
-| companyGroupId | `String` | The company group or company group user ID in hierarchical format |
-| companyNameId | `Float` | Not used. |
-| competition | `String` | Competaion code . |
-| competitionDesc | `String` | The description of this value. |
-| contactYN | `String` | Used in S&C Module. |
-| contractNo | `String` | Group Contract number. |
-| contractRecvDate | `Date` | The date the group contract was received. |
-| corpTypeDesc | `String` | Corp Type Description |
-| corporateIDType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
-| country | `String` | Country name. |
-| countryCode | `String` | Country . |
-| createdByUser | `String` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| creditRating | `String` | Credit rating. |
-| currencyCode | `String` | Currency Code |
-| currencySymbol | `String` | Currency Symbol like $ or EURO symbol |
-| dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
-| dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
-| dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
-| dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
-| dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
-| dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
-| dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
-| dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debtorName | `String` | Debtor Name |
-| decimalPositions | `Float` | The number of digits after the decimal to allow for this currency. |
-| defaultKeyword | `String` | The keyword to search on. |
-| deletedFlag | `String` | Deleted Flag |
-| department | `String` | Used in S&C Module. |
-| deptId | `String` | Used in S&C Module. |
-| description | `String` | Used in QMS Module |
-| directBillBatchType | `String` | Direct Bill Batch Type |
-| displayName | `String` | Display Name |
-| downloadDate | `Date` | Date on which the record is downloaded to laptop. |
-| downloadResort | `String` | REsort name which has downloaded on the laptop. |
-| downloadSrep | `Float` | Owner of the record who downloaded on to laptop. |
-| eInvLiableLastUpdated | `DateTime` | The date when the E-Invoice liable flag was updated for this profile. |
-| eInvoiceLiableYn | `String` | Turkey Country requirement: Indicated if this profile e-Invoice liable. Folios generated for this profile will be directly sent to an external system. |
-| email | `String` | The phone number for this record |
-| emailYN | `String` | Email YN |
-| envelopeGreeting | `String` | Field which stores the envelop greeting used in S&C |
-| externalDisplayName | `String` | External Display Name |
-| externalFirstName | `String` | The first name of an individual. |
-| externalId | `String` | External ID used for V6 Interface stores the PMS guest number |
-| externalName | `String` | The last name of the individual profile. |
-| externalReferenceRequ | `String` | Not Used. |
-| externalReferenceRequired | `String` | During the booking process is the user required to enter the tour operator or TA record locator. |
-| fMembershipCardNumbers | `String` | Membership Card Number. |
-| fMembershipClassDesc | `String` | Descripion of membership class |
-| fMembershipClasses | `String` | F Membership Classes |
-| fMembershipCodes | `String` | F Membership Codes |
-| fMembershipDescriptions | `String` | F Membership Descriptions |
-| fMembershipIds | `String` | Primary Key for this table. |
-| fMembershipType | `String` | Type of the Membership. |
-| fSubscriptionDb | `String` | The ID of the external Database. |
-| fSubscriptionYn | `String` | The ID of the external Database. |
-| faxNumber | `String` | The phone number for this record |
-| firstName | `String` | The first name of an individual name. |
-| firstNameAlternate | `String` | First Name Alternate |
-| firstNameIncognito | `String` | The keyword to search on. |
-| followOn | `String` | The follow on for this individual (I.E: III etc). |
-| gDSName | `String` | The name as communicated from the GDS. system.  Filled on names that are created during the booking. |
-| gDSTransactionNo | `String` | Not used. |
-| gender | `String` | Indicates gender of Individual profile. Either (M)ale or F(emale) |
-| geographicRegion | `String` | Not used. |
-| guestClassification | `String` | Not used. |
-| guestCountry | `String` | Country name. |
-| guestCurrencyCode | `String` | Currency code for the Commission payment. |
-| guestLanguageCode | `String` | Description for each language code. |
-| guestLastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
-| guestMiddleName | `String` | The middle name of this individual. |
-| guestNameSuffix | `String` | Guest Name Suffix |
-| guestPrivilegeYN | `String` | Guest Privilege YN |
-| guestTitleCode | `String` | The title of the individual. |
-| hasRequestedMailYN | `String` | Has Requested Mail YN |
-| historyYN | `String` | Keep guest in history Y/N |
-| holdCode | `String` | Hold code for the Commission handling purposes. |
-| iataConsortia | `String` | Consortia for the IATA number. |
-| idCountry | `String` | The country where ID was issued |
-| idDate | `Date` | Issued date of Identification |
-| idDocumentAttachId | `Float` | This will store the value of LINKED_ATTACHMENTS.ATTACH_ID (Which maps to the physical table WORK_ORDERS.WO_NUMBER) |
-| idPlace | `String` | The place where ID was issued |
-| idType | `String` | Identification Type. Eg Passport Driving License etc |
-| immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveFlag | `String` | Inactive Flag |
-| inactiveReason | `String` | Reason why record was inactivated. |
-| inactiveReasonDescription | `String` | The description of this value. |
-| includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
-| indexName | `String` | Index Name |
-| industryCode | `String` | The Industry this profile belongs to. Used only for the Non-Individual Profiles. |
-| industryDesc | `String` | The description of this value. |
-| influence | `String` | Used in S&C Module. |
-| influenceDesc | `String` | The description of this value. |
-| interest | `String` | Interest Code. |
-| internalBillYn | `String` | Indicates that this profile should be generating an internal bill instead of a regular bill during settlement. |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Primary language used for the profile. |
-| laptopChange | `Float` | Code to synchronize to Laptop values are 012. |
-| lastGroup | `String` | Last Group |
-| lastNameAlternate | `String` | Last Name Alternate |
-| lastNameIncognito | `String` | The keyword to search on. |
-| lastRate | `Float` | Last Rate |
-| lastRateCode | `String` | Last Rate Code |
-| lastRoom | `String` | The room that is booked for this reservation leg. |
-| lastRoomProperty | `String` | Last Room Property |
-| lastSource | `String` | Last Source |
-| lastStay | `Date` | This contains the truncated component of end_date (i.e without timecomponent) |
-| lastUpdatedResort | `String` | Last property that updated this record. |
-| legalCompany | `String` | The legal company name for this company. |
-| letterGreeting | `String` | Used in S&C Module. |
-| mailActionDescription | `String` | The description of this value. |
-| mailList | `String` | This indicates whether the mailing list must be sent to the guest. |
-| mailType | `String` | The type of mail this user should be sent. |
-| mailingActionCode | `String` | Mailing action codes. |
-| marketResearchYN | `String` | Market Research YN |
-| masterAccountYn | `String` | Is this account a master account (Y/N)? |
-| nameTaxType | `String` | Not used. |
-| nameType | `String` | The type of Profile. |
-| nameTypeDescription | `String` | The description of this value. |
-| name2 | `String` | Not Used. |
-| name3 | `String` | Not used. |
-| nationality | `String` | Nationality |
-| nationalityCode | `String` | Nationality of the individual. |
-| negotiatedRateCodes | `String` | The rate code for which this record applies. |
-| nextStay | `Date` | This is a begin_date  with no  time component. |
-| nickname | `String` | The nickname of this individual. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
-| paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| phone | `String` | The phone number for this record |
-| phoneWeb | `String` | The phone number for this record |
-| phoneYN | `String` | Phone YN |
-| postalCode | `String` | The postal code of this address. |
-| postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
-| preferredRoomNo | `String` | Preferred Room Number |
-| primaryAddressId | `Float` | Not used. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryNameId | `Float` | Not Used. |
-| primaryOwner | `String` | Primary Owner |
-| primaryOwnerCode | `String` | Primary Owner Code |
-| primaryPhoneId | `Float` | Not used. |
-| priority | `String` | Priority of the account |
-| priorityDesc | `String` | The description of this value. |
-| privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
-| productInterest | `String` | Preference Code. Part of the Primary Key. |
-| profession | `String` | The profession of the Individual |
-| profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
-| profileId | `Float` | The primary key for this table. |
-| profileType | `String` | The type of Profile. |
-| propertyRegistered | `String` | Resort for which Job is registered. |
-| protected | `String` | Protected |
-| psuedoProfileYn | `String` | Psuedo Profile Y/N |
-| rateStructure | `String` | The default rate structure for this name. |
-| region | `String` | The region for this name. |
-| regionid | `String` | The region for this name. |
-| repAccountTypeDescription | `String` | Reporting Account Type Description |
-| repAccountsource | `String` | Reporting Accountsource |
-| repAccountsourceDescription | `String` | Reporting Accountsource Desc |
-| repCompetitionCode | `String` | Reporting Competition Code |
-| repCompetitionDescription | `String` | Reporting Competition Desc |
-| repCorpTypeDescription | `String` | Reporting Corp Type Desc |
-| repIndustryCode | `String` | Reporting Industry Code |
-| repIndustryDescription | `String` | Reporting Industry Desc |
-| repInfluence | `String` | Reporting Influence |
-| repInfluenceDescription | `String` | Reporting Influence Desc |
-| repNameType | `String` | Reporting Name Type |
-| repNameTypeDescription | `String` | Reporting Name Type Description |
-| repNationalityCode | `String` | Rep Nationality Code |
-| repNationalityDescription | `String` | Rep Nationality Description |
-| repPriorityDescription | `String` | Reporting Priority Desc |
-| repRoomsPotential | `String` | Reporting Rooms Potential |
-| repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
-| repScope | `String` | Reporting Scope |
-| repScopeCity | `String` | Reporting Scope City |
-| repScopeCityDescription | `String` | Reporting Scope City Desc |
-| repScopeDescription | `String` | Reporting Scope Desc |
-| repStateDescription | `String` | Reporting State Desc |
-| repTaxTypeDescription | `String` | Reporting Tax Type Desc |
-| repTerritoryDescription | `String` | Reporting Territory Desc |
-| repTitleName | `String` | Reporting Title Name |
-| repeatGuestId | `String` | The primary membership # for this guest. |
-| replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
-| requestType | `String` | This column store the Name of the Company Profiles. |
-| restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
-| restrictedRule | `String` | The description of this value. |
-| resvContact | `String` | Reservation Contact person. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomsPotential | `String` | Potential no of rooms per year for a account |
-| roomsPotentialDesc | `String` | The description of this value. |
-| sMSYN | `String` | Use this alert to text a notification. |
-| salutation | `String` | Salutation Greeting |
-| scope | `String` | Scope of the account |
-| scopeCity | `String` | Scope City |
-| scopeCityDesc | `String` | The description of this value. |
-| scopeDesc | `String` | The description of this value. |
-| searchName | `String` | The Uppercase value of Last or Company. |
-| searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
-| sfirst | `String` | Uppercase value of First Name. |
-| soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
-| soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
-| srepCode | `String` | Used in QMS Module |
-| state | `String` | The state of this address. |
-| stateCode | `String` | State Code |
-| stateDescription | `String` | Description of the state. |
-| summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
-| summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
-| superSearchIndexText | `String` | Used in Oracle Text Index. |
-| sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
-| taxCategory | `String` | Tax Category |
-| taxExemptStatus | `String` | Not used. |
-| taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
-| taxID2 | `String` | Tax No |
-| taxOffice | `String` | Tax Office Name |
-| taxType | `String` | Tax Type |
-| territory | `String` | TERRITORY of  a account |
-| territoryDesc | `String` | The description of this value. |
-| thirdPartyYN | `String` | Third Party YN |
-| titleAlternate | `String` | Title Alternate |
-| titleName | `String` | The description of this value. |
-| titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
-| totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
-| tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
-| traceCode | `String` | Code to Trace a record for all Triggered actions. |
-| tracecodeDesc | `String` | Description |
-| typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
-| uDFC01 | `String` | User defined character field. |
-| uDFC02 | `String` | User defined character field. |
-| uDFC03 | `String` | User defined character field. |
-| uDFC04 | `String` | User defined character field. |
-| uDFC05 | `String` | User defined character field. |
-| uDFC06 | `String` | User defined character field. |
-| uDFC07 | `String` | User defined character field. |
-| uDFC08 | `String` | User defined character field. |
-| uDFC09 | `String` | User defined character field. |
-| uDFC10 | `String` | User defined character field. |
-| uDFC11 | `String` | User defined character field. |
-| uDFC12 | `String` | User defined character field. |
-| uDFC13 | `String` | User defined character field. |
-| uDFC14 | `String` | User defined character field. |
-| uDFC15 | `String` | User defined character field. |
-| uDFC16 | `String` | User defined character field. |
-| uDFC17 | `String` | User defined character field. |
-| uDFC18 | `String` | User defined character field. |
-| uDFC19 | `String` | User defined character field. |
-| uDFC20 | `String` | User defined character field. |
-| uDFC21 | `String` | User defined character field. |
-| uDFC22 | `String` | User defined character field. |
-| uDFC23 | `String` | User defined character field. |
-| uDFC24 | `String` | User defined character field. |
-| uDFC25 | `String` | User defined character field. |
-| uDFC26 | `String` | User defined character field. |
-| uDFC27 | `String` | User defined character field. |
-| uDFC28 | `String` | User defined character field. |
-| uDFC29 | `String` | User defined character field. |
-| uDFC30 | `String` | User defined character field. |
-| uDFC31 | `String` | User defined character field. |
-| uDFC32 | `String` | User defined character field. |
-| uDFC33 | `String` | User defined character field. |
-| uDFC34 | `String` | User defined character field. |
-| uDFC35 | `String` | User defined character field. |
-| uDFC36 | `String` | User defined character field. |
-| uDFC37 | `String` | User defined character field. |
-| uDFC38 | `String` | User defined character field. |
-| uDFC39 | `String` | User defined character field. |
-| uDFC40 | `String` | User defined character field. |
-| uDFD01 | `Date` | User defined date field. |
-| uDFD02 | `Date` | User defined date field. |
-| uDFD03 | `Date` | User defined date field. |
-| uDFD04 | `Date` | User defined date field. |
-| uDFD05 | `Date` | User defined date field. |
-| uDFD06 | `Date` | User defined date field. |
-| uDFD07 | `Date` | User defined date field. |
-| uDFD08 | `Date` | User defined date field. |
-| uDFD09 | `Date` | User defined date field. |
-| uDFD10 | `Date` | User defined date field. |
-| uDFD11 | `Date` | User defined date field. |
-| uDFD12 | `Date` | User defined date field. |
-| uDFD13 | `Date` | User defined date field. |
-| uDFD14 | `Date` | User defined date field. |
-| uDFD15 | `Date` | User defined date field. |
-| uDFD16 | `Date` | User defined date field. |
-| uDFD17 | `Date` | User defined date field. |
-| uDFD18 | `Date` | User defined date field. |
-| uDFD19 | `Date` | User defined date field. |
-| uDFD20 | `Date` | User defined date field. |
-| uDFN01 | `Float` | User defined number field. |
-| uDFN02 | `Float` | User defined number field. |
-| uDFN03 | `Float` | User defined number field. |
-| uDFN04 | `Float` | User defined number field. |
-| uDFN05 | `Float` | User defined number field. |
-| uDFN06 | `Float` | User defined number field. |
-| uDFN07 | `Float` | User defined number field. |
-| uDFN08 | `Float` | User defined number field. |
-| uDFN09 | `Float` | User defined number field. |
-| uDFN10 | `Float` | User defined number field. |
-| uDFN11 | `Float` | User defined number field. |
-| uDFN12 | `Float` | User defined number field. |
-| uDFN13 | `Float` | User defined number field. |
-| uDFN14 | `Float` | User defined number field. |
-| uDFN15 | `Float` | User defined number field. |
-| uDFN16 | `Float` | User defined number field. |
-| uDFN17 | `Float` | User defined number field. |
-| uDFN18 | `Float` | User defined number field. |
-| uDFN19 | `Float` | User defined number field. |
-| uDFN20 | `Float` | User defined number field. |
-| uDFN21 | `Float` | User defined number field. |
-| uDFN22 | `Float` | User defined number field. |
-| uDFN23 | `Float` | User defined number field. |
-| uDFN24 | `Float` | User defined number field. |
-| uDFN25 | `Float` | User defined number field. |
-| uDFN26 | `Float` | User defined number field. |
-| uDFN27 | `Float` | User defined number field. |
-| uDFN28 | `Float` | User defined number field. |
-| uDFN29 | `Float` | User defined number field. |
-| uDFN30 | `Float` | User defined number field. |
-| uDFN31 | `Float` | User defined number field. |
-| uDFN32 | `Float` | User defined number field. |
-| uDFN33 | `Float` | User defined number field. |
-| uDFN34 | `Float` | User defined number field. |
-| uDFN35 | `Float` | User defined number field. |
-| uDFN36 | `Float` | User defined number field. |
-| uDFN37 | `Float` | User defined number field. |
-| uDFN38 | `Float` | User defined number field. |
-| uDFN39 | `Float` | User defined number field. |
-| uDFN40 | `Float` | User defined number field. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateFaxDate | `Date` | The last date this record's fax # was updated. |
-| updateUser | `String` | The user that modified the record |
-| uploadDate | `Date` | Date on which the record is uploaded to laptop. |
-| vIPCode | `String` | VIP Status of the Individual. |
-| vIPDescription | `String` | The description of this value. |
-| vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
-| vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
-| vipAuthorization | `String` | Not Used. |
-| visaValidityType | `String` | Country Specific Requirement for Nigeria. |
-| xdisplayName | `String` | Xdisplay Name |
-| xmiddleName | `String` | Extended Byte middle name. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | guestProfileID | `Float` | The primary key for this table. |
+| 2 | aRNumber | `String` | Account number. |
+| 3 | aRNumberCentral | `String` | Account Receivable No. of this profile. |
+| 4 | aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
+| 5 | aRCMailFlag | `String` | The ARC mailing flag (received from ARC Update program) |
+| 6 | aRCOfficeType | `String` | The ARC office type (received from ARC Update program) |
+| 7 | aRCUpdateDate | `Date` | The date this record was last updated by the ARC update program. |
+| 8 | accountBillingContact | `String` | Billing contact person in company. |
+| 9 | accountSource | `String` | Used in S&C Module. |
+| 10 | accountType | `String` | Account Type of this Profile |
+| 11 | accountTypeDescription | `String` | The description of this value. |
+| 12 | accountsourceDesc | `String` | The description of this value. |
+| 13 | actionCode | `String` | Mailing action codes. |
+| 14 | activeYN | `String` | Profile is active or not. |
+| 15 | address1 | `String` | The first line of street address. |
+| 16 | address2 | `String` | The second line of street address. |
+| 17 | address3 | `String` | The third line of street address. |
+| 18 | address4 | `String` | The fourth line of street address. |
+| 19 | addressId | `Float` | The primary key for this table. |
+| 20 | addressLangCodeDesc | `String` | Description for each language code. |
+| 21 | addressLanguageCode | `String` | Address Language Code |
+| 22 | addressType | `String` | The type of address. |
+| 23 | alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
+| 24 | allResorts | `String` | All Resorts |
+| 25 | alternateEnvelopeGreeting | `String` | Field which stores the multibyte envelop greeting used in S&C |
+| 26 | alternateLanguage | `String` | The Extended Byte Language of the Profile. |
+| 27 | alternateLanguageDescription | `String` | Description for each language code. |
+| 28 | alternateSalutation | `String` | Alternate Salutation |
+| 29 | autoEnrollMemberYN | `String` | Auto-Enroll Member YN |
+| 30 | availabilityOverride | `String` | Does profile have Availability Override Y/N |
+| 31 | billingCode | `String` | The billing code for this name record. |
+| 32 | billingInstruction | `String` | Billing Instruction |
+| 33 | billingProfileCode | `String` | For tour operators the type of billing profile for this name. |
+| 34 | birthCountry | `String` | Country of Birth |
+| 35 | birthDate | `Date` | Date of Birth of the Individual Profiles. |
+| 36 | birthDateStr | `String` | Stores the encrypted birth date. |
+| 37 | birthPlace | `String` | Place of Birth |
+| 38 | blMsg | `String` | Any Message for the Restricted profile. |
+| 39 | businessSegment | `String` | Used in S&C Module. |
+| 40 | businessSegmentDescription | `String` | The description of this value. |
+| 41 | businessTitle | `String` | The business title for this individual. |
+| 42 | cExchangeDate | `Date` | Central Xchange Date |
+| 43 | cExchangeRate | `Float` | Central Xchange Rate |
+| 44 | cProfileCreditLimit | `Float` | Central Profile Credit Limit |
+| 45 | cRSNameid | `Float` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
+| 46 | ccProfileYn | `String` | This field tells whether this profile is a credit card profile or not. |
+| 47 | centralAccountType | `String` | Central Account Type |
+| 48 | centralBusinessSegment | `String` | Central Business Segment |
+| 49 | centralBusinessSegmentDescription | `String` | Central Business Segment Description |
+| 50 | centralCorporateIDType | `String` | Central Corporate ID Type |
+| 51 | centralDefaultKeyword | `String` | The keyword to search on. |
+| 52 | centralGuestTitleCode | `String` | Central Guest Title Code |
+| 53 | centralInactiveReason | `String` | Central Inactive Reason |
+| 54 | centralInactiveReasonDescription | `String` | Central Inactive Reason Description |
+| 55 | centralMailActionDescription | `String` | Central Mail Action Description |
+| 56 | centralMailingActionCode | `String` | Central Mailing Action Code |
+| 57 | centralPriority | `String` | Central Priority |
+| 58 | centralStateCode | `String` | Central State Code |
+| 59 | centralTerritory | `String` | Central Territory |
+| 60 | centralVIPCode | `String` | Central VIP Code |
+| 61 | centralVIPDescription | `String` | Central VIP Description |
+| 62 | chainCode | `String` | Chain Code |
+| 63 | city | `String` | The city for this address. |
+| 64 | clientID | `String` | The unique key of this name stores IATA# Company # etc. |
+| 65 | collectionUserId | `Float` | The user that has been assigned to this account for collections. |
+| 66 | combinedName | `String` | Combined Name |
+| 67 | commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
+| 68 | comments | `String` | Not Used. |
+| 69 | commissionCode | `String` | Commission Code for the Commission Percentage. |
+| 70 | commissionCodes | `String` | Code for the commission for Travel Agent |
+| 71 | commissionCurrencyId | `String` | Comm Curr ID |
+| 72 | commissionid | `String` | Commission Code for the Commission Percentage. |
+| 73 | communicationRole1 | `String` | Role in which this phone type belongs to. |
+| 74 | communicationRole2 | `String` | Role in which this phone type belongs to. |
+| 75 | communicationRole3 | `String` | Role in which this phone type belongs to. |
+| 76 | communicationType1 | `String` | The type of this phone number. |
+| 77 | communicationType2 | `String` | The type of this phone number. |
+| 78 | communicationType3 | `String` | The type of this phone number. |
+| 79 | communicationValue1 | `String` | The phone number for this record |
+| 80 | communicationValue2 | `String` | The phone number for this record |
+| 81 | communicationValue3 | `String` | The phone number for this record |
+| 82 | companyAlternate | `String` | Extended Byte Company Name |
+| 83 | companyGroupId | `String` | The company group or company group user ID in hierarchical format |
+| 84 | companyNameId | `Float` | Not used. |
+| 85 | competition | `String` | Competaion code . |
+| 86 | competitionDesc | `String` | The description of this value. |
+| 87 | contactYN | `String` | Used in S&C Module. |
+| 88 | contractNo | `String` | Group Contract number. |
+| 89 | contractRecvDate | `Date` | The date the group contract was received. |
+| 90 | corpTypeDesc | `String` | Corp Type Description |
+| 91 | corporateIDType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
+| 92 | country | `String` | Country name. |
+| 93 | countryCode | `String` | Country . |
+| 94 | createdByUser | `String` | The user that created the record |
+| 95 | createdOnDate | `DateTime` | The date the record was created |
+| 96 | creditRating | `String` | Credit rating. |
+| 97 | currencyCode | `String` | Currency Code |
+| 98 | currencySymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 99 | dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
+| 100 | dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
+| 101 | dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
+| 102 | dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
+| 103 | dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
+| 104 | dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
+| 105 | dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
+| 106 | dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
+| 107 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 108 | debtorName | `String` | Debtor Name |
+| 109 | decimalPositions | `Float` | The number of digits after the decimal to allow for this currency. |
+| 110 | defaultKeyword | `String` | The keyword to search on. |
+| 111 | deletedFlag | `String` | Deleted Flag |
+| 112 | department | `String` | Used in S&C Module. |
+| 113 | deptId | `String` | Used in S&C Module. |
+| 114 | description | `String` | Used in QMS Module |
+| 115 | directBillBatchType | `String` | Direct Bill Batch Type |
+| 116 | displayName | `String` | Display Name |
+| 117 | downloadDate | `Date` | Date on which the record is downloaded to laptop. |
+| 118 | downloadResort | `String` | REsort name which has downloaded on the laptop. |
+| 119 | downloadSrep | `Float` | Owner of the record who downloaded on to laptop. |
+| 120 | eInvLiableLastUpdated | `DateTime` | The date when the E-Invoice liable flag was updated for this profile. |
+| 121 | eInvoiceLiableYn | `String` | Turkey Country requirement: Indicated if this profile e-Invoice liable. Folios generated for this profile will be directly sent to an external system. |
+| 122 | email | `String` | The phone number for this record |
+| 123 | emailYN | `String` | Email YN |
+| 124 | envelopeGreeting | `String` | Field which stores the envelop greeting used in S&C |
+| 125 | externalDisplayName | `String` | External Display Name |
+| 126 | externalFirstName | `String` | The first name of an individual. |
+| 127 | externalId | `String` | External ID used for V6 Interface stores the PMS guest number |
+| 128 | externalName | `String` | The last name of the individual profile. |
+| 129 | externalReferenceRequ | `String` | Not Used. |
+| 130 | externalReferenceRequired | `String` | During the booking process is the user required to enter the tour operator or TA record locator. |
+| 131 | fMembershipCardNumbers | `String` | Membership Card Number. |
+| 132 | fMembershipClassDesc | `String` | Descripion of membership class |
+| 133 | fMembershipClasses | `String` | F Membership Classes |
+| 134 | fMembershipCodes | `String` | F Membership Codes |
+| 135 | fMembershipDescriptions | `String` | F Membership Descriptions |
+| 136 | fMembershipIds | `String` | Primary Key for this table. |
+| 137 | fMembershipType | `String` | Type of the Membership. |
+| 138 | fSubscriptionDb | `String` | The ID of the external Database. |
+| 139 | fSubscriptionYn | `String` | The ID of the external Database. |
+| 140 | faxNumber | `String` | The phone number for this record |
+| 141 | firstName | `String` | The first name of an individual name. |
+| 142 | firstNameAlternate | `String` | First Name Alternate |
+| 143 | firstNameIncognito | `String` | The keyword to search on. |
+| 144 | followOn | `String` | The follow on for this individual (I.E: III etc). |
+| 145 | gDSName | `String` | The name as communicated from the GDS. system.  Filled on names that are created during the booking. |
+| 146 | gDSTransactionNo | `String` | Not used. |
+| 147 | gender | `String` | Indicates gender of Individual profile. Either (M)ale or F(emale) |
+| 148 | geographicRegion | `String` | Not used. |
+| 149 | guestClassification | `String` | Not used. |
+| 150 | guestCountry | `String` | Country name. |
+| 151 | guestCurrencyCode | `String` | Currency code for the Commission payment. |
+| 152 | guestLanguageCode | `String` | Description for each language code. |
+| 153 | guestLastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| 154 | guestMiddleName | `String` | The middle name of this individual. |
+| 155 | guestNameSuffix | `String` | Guest Name Suffix |
+| 156 | guestPrivilegeYN | `String` | Guest Privilege YN |
+| 157 | guestTitleCode | `String` | The title of the individual. |
+| 158 | hasRequestedMailYN | `String` | Has Requested Mail YN |
+| 159 | historyYN | `String` | Keep guest in history Y/N |
+| 160 | holdCode | `String` | Hold code for the Commission handling purposes. |
+| 161 | iataConsortia | `String` | Consortia for the IATA number. |
+| 162 | idCountry | `String` | The country where ID was issued |
+| 163 | idDate | `Date` | Issued date of Identification |
+| 164 | idDocumentAttachId | `Float` | This will store the value of LINKED_ATTACHMENTS.ATTACH_ID (Which maps to the physical table WORK_ORDERS.WO_NUMBER) |
+| 165 | idPlace | `String` | The place where ID was issued |
+| 166 | idType | `String` | Identification Type. Eg Passport Driving License etc |
+| 167 | immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
+| 168 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 169 | inactiveFlag | `String` | Inactive Flag |
+| 170 | inactiveReason | `String` | Reason why record was inactivated. |
+| 171 | inactiveReasonDescription | `String` | The description of this value. |
+| 172 | includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
+| 173 | indexName | `String` | Index Name |
+| 174 | industryCode | `String` | The Industry this profile belongs to. Used only for the Non-Individual Profiles. |
+| 175 | industryDesc | `String` | The description of this value. |
+| 176 | influence | `String` | Used in S&C Module. |
+| 177 | influenceDesc | `String` | The description of this value. |
+| 178 | interest | `String` | Interest Code. |
+| 179 | internalBillYn | `String` | Indicates that this profile should be generating an internal bill instead of a regular bill during settlement. |
+| 180 | internalDeletedflag | `String` | Deleted Flag |
+| 181 | internalInactiveflag | `String` | Inactive Flag |
+| 182 | internalOrganizationId | `Float` | Organization ID |
+| 183 | jRNUpdateDate | `Date` | JRN Update Date |
+| 184 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 185 | languageCode | `String` | Primary language used for the profile. |
+| 186 | laptopChange | `Float` | Code to synchronize to Laptop values are 012. |
+| 187 | lastGroup | `String` | Last Group |
+| 188 | lastNameAlternate | `String` | Last Name Alternate |
+| 189 | lastNameIncognito | `String` | The keyword to search on. |
+| 190 | lastRate | `Float` | Last Rate |
+| 191 | lastRateCode | `String` | Last Rate Code |
+| 192 | lastRoom | `String` | The room that is booked for this reservation leg. |
+| 193 | lastRoomProperty | `String` | Last Room Property |
+| 194 | lastSource | `String` | Last Source |
+| 195 | lastStay | `Date` | This contains the truncated component of end_date (i.e without timecomponent) |
+| 196 | lastUpdatedResort | `String` | Last property that updated this record. |
+| 197 | legalCompany | `String` | The legal company name for this company. |
+| 198 | letterGreeting | `String` | Used in S&C Module. |
+| 199 | mailActionDescription | `String` | The description of this value. |
+| 200 | mailList | `String` | This indicates whether the mailing list must be sent to the guest. |
+| 201 | mailType | `String` | The type of mail this user should be sent. |
+| 202 | mailingActionCode | `String` | Mailing action codes. |
+| 203 | marketResearchYN | `String` | Market Research YN |
+| 204 | masterAccountYn | `String` | Is this account a master account (Y/N)? |
+| 205 | nameTaxType | `String` | Not used. |
+| 206 | nameType | `String` | The type of Profile. |
+| 207 | nameTypeDescription | `String` | The description of this value. |
+| 208 | name2 | `String` | Not Used. |
+| 209 | name3 | `String` | Not used. |
+| 210 | nationality | `String` | Nationality |
+| 211 | nationalityCode | `String` | Nationality of the individual. |
+| 212 | negotiatedRateCodes | `String` | The rate code for which this record applies. |
+| 213 | nextStay | `Date` | This is a begin_date  with no  time component. |
+| 214 | nickname | `String` | The nickname of this individual. |
+| 215 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 216 | origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
+| 217 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 218 | phone | `String` | The phone number for this record |
+| 219 | phoneWeb | `String` | The phone number for this record |
+| 220 | phoneYN | `String` | Phone YN |
+| 221 | postalCode | `String` | The postal code of this address. |
+| 222 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
+| 223 | preferredRoomNo | `String` | Preferred Room Number |
+| 224 | primaryAddressId | `Float` | Not used. |
+| 225 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 226 | primaryNameId | `Float` | Not Used. |
+| 227 | primaryOwner | `String` | Primary Owner |
+| 228 | primaryOwnerCode | `String` | Primary Owner Code |
+| 229 | primaryPhoneId | `Float` | Not used. |
+| 230 | priority | `String` | Priority of the account |
+| 231 | priorityDesc | `String` | The description of this value. |
+| 232 | privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
+| 233 | productInterest | `String` | Preference Code. Part of the Primary Key. |
+| 234 | profession | `String` | The profession of the Individual |
+| 235 | profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
+| 236 | profileId | `Float` | The primary key for this table. |
+| 237 | profileType | `String` | The type of Profile. |
+| 238 | propertyRegistered | `String` | Resort for which Job is registered. |
+| 239 | protected | `String` | Protected |
+| 240 | psuedoProfileYn | `String` | Psuedo Profile Y/N |
+| 241 | rateStructure | `String` | The default rate structure for this name. |
+| 242 | region | `String` | The region for this name. |
+| 243 | regionid | `String` | The region for this name. |
+| 244 | repAccountTypeDescription | `String` | Reporting Account Type Description |
+| 245 | repAccountsource | `String` | Reporting Accountsource |
+| 246 | repAccountsourceDescription | `String` | Reporting Accountsource Desc |
+| 247 | repCompetitionCode | `String` | Reporting Competition Code |
+| 248 | repCompetitionDescription | `String` | Reporting Competition Desc |
+| 249 | repCorpTypeDescription | `String` | Reporting Corp Type Desc |
+| 250 | repIndustryCode | `String` | Reporting Industry Code |
+| 251 | repIndustryDescription | `String` | Reporting Industry Desc |
+| 252 | repInfluence | `String` | Reporting Influence |
+| 253 | repInfluenceDescription | `String` | Reporting Influence Desc |
+| 254 | repNameType | `String` | Reporting Name Type |
+| 255 | repNameTypeDescription | `String` | Reporting Name Type Description |
+| 256 | repNationalityCode | `String` | Rep Nationality Code |
+| 257 | repNationalityDescription | `String` | Rep Nationality Description |
+| 258 | repPriorityDescription | `String` | Reporting Priority Desc |
+| 259 | repRoomsPotential | `String` | Reporting Rooms Potential |
+| 260 | repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
+| 261 | repScope | `String` | Reporting Scope |
+| 262 | repScopeCity | `String` | Reporting Scope City |
+| 263 | repScopeCityDescription | `String` | Reporting Scope City Desc |
+| 264 | repScopeDescription | `String` | Reporting Scope Desc |
+| 265 | repStateDescription | `String` | Reporting State Desc |
+| 266 | repTaxTypeDescription | `String` | Reporting Tax Type Desc |
+| 267 | repTerritoryDescription | `String` | Reporting Territory Desc |
+| 268 | repTitleName | `String` | Reporting Title Name |
+| 269 | repeatGuestId | `String` | The primary membership # for this guest. |
+| 270 | replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
+| 271 | requestType | `String` | This column store the Name of the Company Profiles. |
+| 272 | restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
+| 273 | restrictedRule | `String` | The description of this value. |
+| 274 | resvContact | `String` | Reservation Contact person. |
+| 275 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 276 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 277 | roomsPotential | `String` | Potential no of rooms per year for a account |
+| 278 | roomsPotentialDesc | `String` | The description of this value. |
+| 279 | sMSYN | `String` | Use this alert to text a notification. |
+| 280 | salutation | `String` | Salutation Greeting |
+| 281 | scope | `String` | Scope of the account |
+| 282 | scopeCity | `String` | Scope City |
+| 283 | scopeCityDesc | `String` | The description of this value. |
+| 284 | scopeDesc | `String` | The description of this value. |
+| 285 | searchName | `String` | The Uppercase value of Last or Company. |
+| 286 | searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
+| 287 | sfirst | `String` | Uppercase value of First Name. |
+| 288 | soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
+| 289 | soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
+| 290 | srepCode | `String` | Used in QMS Module |
+| 291 | state | `String` | The state of this address. |
+| 292 | stateCode | `String` | State Code |
+| 293 | stateDescription | `String` | Description of the state. |
+| 294 | summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
+| 295 | summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
+| 296 | superSearchIndexText | `String` | Used in Oracle Text Index. |
+| 297 | sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
+| 298 | taxCategory | `String` | Tax Category |
+| 299 | taxExemptStatus | `String` | Not used. |
+| 300 | taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
+| 301 | taxID2 | `String` | Tax No |
+| 302 | taxOffice | `String` | Tax Office Name |
+| 303 | taxType | `String` | Tax Type |
+| 304 | territory | `String` | TERRITORY of  a account |
+| 305 | territoryDesc | `String` | The description of this value. |
+| 306 | thirdPartyYN | `String` | Third Party YN |
+| 307 | titleAlternate | `String` | Title Alternate |
+| 308 | titleName | `String` | The description of this value. |
+| 309 | titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
+| 310 | totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
+| 311 | tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
+| 312 | traceCode | `String` | Code to Trace a record for all Triggered actions. |
+| 313 | tracecodeDesc | `String` | Description |
+| 314 | typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
+| 315 | uDFC01 | `String` | User defined character field. |
+| 316 | uDFC02 | `String` | User defined character field. |
+| 317 | uDFC03 | `String` | User defined character field. |
+| 318 | uDFC04 | `String` | User defined character field. |
+| 319 | uDFC05 | `String` | User defined character field. |
+| 320 | uDFC06 | `String` | User defined character field. |
+| 321 | uDFC07 | `String` | User defined character field. |
+| 322 | uDFC08 | `String` | User defined character field. |
+| 323 | uDFC09 | `String` | User defined character field. |
+| 324 | uDFC10 | `String` | User defined character field. |
+| 325 | uDFC11 | `String` | User defined character field. |
+| 326 | uDFC12 | `String` | User defined character field. |
+| 327 | uDFC13 | `String` | User defined character field. |
+| 328 | uDFC14 | `String` | User defined character field. |
+| 329 | uDFC15 | `String` | User defined character field. |
+| 330 | uDFC16 | `String` | User defined character field. |
+| 331 | uDFC17 | `String` | User defined character field. |
+| 332 | uDFC18 | `String` | User defined character field. |
+| 333 | uDFC19 | `String` | User defined character field. |
+| 334 | uDFC20 | `String` | User defined character field. |
+| 335 | uDFC21 | `String` | User defined character field. |
+| 336 | uDFC22 | `String` | User defined character field. |
+| 337 | uDFC23 | `String` | User defined character field. |
+| 338 | uDFC24 | `String` | User defined character field. |
+| 339 | uDFC25 | `String` | User defined character field. |
+| 340 | uDFC26 | `String` | User defined character field. |
+| 341 | uDFC27 | `String` | User defined character field. |
+| 342 | uDFC28 | `String` | User defined character field. |
+| 343 | uDFC29 | `String` | User defined character field. |
+| 344 | uDFC30 | `String` | User defined character field. |
+| 345 | uDFC31 | `String` | User defined character field. |
+| 346 | uDFC32 | `String` | User defined character field. |
+| 347 | uDFC33 | `String` | User defined character field. |
+| 348 | uDFC34 | `String` | User defined character field. |
+| 349 | uDFC35 | `String` | User defined character field. |
+| 350 | uDFC36 | `String` | User defined character field. |
+| 351 | uDFC37 | `String` | User defined character field. |
+| 352 | uDFC38 | `String` | User defined character field. |
+| 353 | uDFC39 | `String` | User defined character field. |
+| 354 | uDFC40 | `String` | User defined character field. |
+| 355 | uDFD01 | `Date` | User defined date field. |
+| 356 | uDFD02 | `Date` | User defined date field. |
+| 357 | uDFD03 | `Date` | User defined date field. |
+| 358 | uDFD04 | `Date` | User defined date field. |
+| 359 | uDFD05 | `Date` | User defined date field. |
+| 360 | uDFD06 | `Date` | User defined date field. |
+| 361 | uDFD07 | `Date` | User defined date field. |
+| 362 | uDFD08 | `Date` | User defined date field. |
+| 363 | uDFD09 | `Date` | User defined date field. |
+| 364 | uDFD10 | `Date` | User defined date field. |
+| 365 | uDFD11 | `Date` | User defined date field. |
+| 366 | uDFD12 | `Date` | User defined date field. |
+| 367 | uDFD13 | `Date` | User defined date field. |
+| 368 | uDFD14 | `Date` | User defined date field. |
+| 369 | uDFD15 | `Date` | User defined date field. |
+| 370 | uDFD16 | `Date` | User defined date field. |
+| 371 | uDFD17 | `Date` | User defined date field. |
+| 372 | uDFD18 | `Date` | User defined date field. |
+| 373 | uDFD19 | `Date` | User defined date field. |
+| 374 | uDFD20 | `Date` | User defined date field. |
+| 375 | uDFN01 | `Float` | User defined number field. |
+| 376 | uDFN02 | `Float` | User defined number field. |
+| 377 | uDFN03 | `Float` | User defined number field. |
+| 378 | uDFN04 | `Float` | User defined number field. |
+| 379 | uDFN05 | `Float` | User defined number field. |
+| 380 | uDFN06 | `Float` | User defined number field. |
+| 381 | uDFN07 | `Float` | User defined number field. |
+| 382 | uDFN08 | `Float` | User defined number field. |
+| 383 | uDFN09 | `Float` | User defined number field. |
+| 384 | uDFN10 | `Float` | User defined number field. |
+| 385 | uDFN11 | `Float` | User defined number field. |
+| 386 | uDFN12 | `Float` | User defined number field. |
+| 387 | uDFN13 | `Float` | User defined number field. |
+| 388 | uDFN14 | `Float` | User defined number field. |
+| 389 | uDFN15 | `Float` | User defined number field. |
+| 390 | uDFN16 | `Float` | User defined number field. |
+| 391 | uDFN17 | `Float` | User defined number field. |
+| 392 | uDFN18 | `Float` | User defined number field. |
+| 393 | uDFN19 | `Float` | User defined number field. |
+| 394 | uDFN20 | `Float` | User defined number field. |
+| 395 | uDFN21 | `Float` | User defined number field. |
+| 396 | uDFN22 | `Float` | User defined number field. |
+| 397 | uDFN23 | `Float` | User defined number field. |
+| 398 | uDFN24 | `Float` | User defined number field. |
+| 399 | uDFN25 | `Float` | User defined number field. |
+| 400 | uDFN26 | `Float` | User defined number field. |
+| 401 | uDFN27 | `Float` | User defined number field. |
+| 402 | uDFN28 | `Float` | User defined number field. |
+| 403 | uDFN29 | `Float` | User defined number field. |
+| 404 | uDFN30 | `Float` | User defined number field. |
+| 405 | uDFN31 | `Float` | User defined number field. |
+| 406 | uDFN32 | `Float` | User defined number field. |
+| 407 | uDFN33 | `Float` | User defined number field. |
+| 408 | uDFN34 | `Float` | User defined number field. |
+| 409 | uDFN35 | `Float` | User defined number field. |
+| 410 | uDFN36 | `Float` | User defined number field. |
+| 411 | uDFN37 | `Float` | User defined number field. |
+| 412 | uDFN38 | `Float` | User defined number field. |
+| 413 | uDFN39 | `Float` | User defined number field. |
+| 414 | uDFN40 | `Float` | User defined number field. |
+| 415 | updateDate | `DateTime` | The date the record was modified |
+| 416 | updateFaxDate | `Date` | The last date this record's fax # was updated. |
+| 417 | updateUser | `String` | The user that modified the record |
+| 418 | uploadDate | `Date` | Date on which the record is uploaded to laptop. |
+| 419 | vIPCode | `String` | VIP Status of the Individual. |
+| 420 | vIPDescription | `String` | The description of this value. |
+| 421 | vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
+| 422 | vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
+| 423 | vipAuthorization | `String` | Not Used. |
+| 424 | visaValidityType | `String` | Country Specific Requirement for Nigeria. |
+| 425 | xdisplayName | `String` | Xdisplay Name |
+| 426 | xmiddleName | `String` | Extended Byte middle name. |
 
 [⬆ Back to Query](#query)
 
@@ -472,62 +472,62 @@
 
 ### ProfilesIndividualsProfileAddressDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| address1 | `String` | The first line of street address. |
-| address2 | `String` | The second line of street address. |
-| address3 | `String` | The third line of street address. |
-| address4 | `String` | The fourth line of street address. |
-| addressID | `Float` | The primary key for this table. |
-| addressLanguage | `String` | Address Language |
-| addressLanguageDescription | `String` | Description for each language code. |
-| addressType | `String` | The type of address. |
-| addressTypeDesc | `String` | The description of this value. |
-| barcode | `String` | The postal barcode for the address. |
-| beginDate | `Date` | Not used. |
-| centralState | `String` | Central State |
-| centralStateDescription | `String` | Central State Description |
-| chainCode | `String` | The Chain code of the chain for which this record belongs to. |
-| city | `String` | The city for this address. |
-| cleansedDatetime | `DateTime` | The Timestamp when this record was cleansed. |
-| cleansedErrormsg | `String` | The error message why this record was not cleansed. |
-| cleansedMatchstatus | `String` | Specifies how the address elements match with the postal reference data. |
-| cleansedStatus | `String` | Status of Address Cleansing. Null = Record is not cleansed. C = Cleansed. F = Failure. |
-| cleansedValidationstatus | `String` | Validation Status as returned by the Address Cleansing System. |
-| clientID | `String` | The unique key of this name stores IATA# Company # etc. |
-| countryCode | `String` | Country . |
-| countryDescription | `String` | Country name. |
-| createdByUser | `Float` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedYN | `String` | Deleted Y/n |
-| endDate | `Date` | Not used. |
-| firstName | `String` | The first name of an individual name. |
-| foreignCountry | `String` | Not used. |
-| inCareOf | `String` | Not used. |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveYN | `String` | Inactive Y/n |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Code to synchronize with Laptop. (not used) |
-| lastUpdatedResort | `String` | Last property that updated this record. |
-| name | `String` | Name |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| postalCode | `String` | The postal code of this address. |
-| postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYN | `String` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |
-| profileAddressId | `Float` | The primary key for this table. |
-| profileId | `Float` | The reference to the NAME record that owns this address. |
-| profileIdx | `Float` | The reference to the NAME record that owns this address. |
-| province | `String` | Province. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| state | `String` | State |
-| stateCode | `String` | The state of this address. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | address1 | `String` | The first line of street address. |
+| 2 | address2 | `String` | The second line of street address. |
+| 3 | address3 | `String` | The third line of street address. |
+| 4 | address4 | `String` | The fourth line of street address. |
+| 5 | addressID | `Float` | The primary key for this table. |
+| 6 | addressLanguage | `String` | Address Language |
+| 7 | addressLanguageDescription | `String` | Description for each language code. |
+| 8 | addressType | `String` | The type of address. |
+| 9 | addressTypeDesc | `String` | The description of this value. |
+| 10 | barcode | `String` | The postal barcode for the address. |
+| 11 | beginDate | `Date` | Not used. |
+| 12 | centralState | `String` | Central State |
+| 13 | centralStateDescription | `String` | Central State Description |
+| 14 | chainCode | `String` | The Chain code of the chain for which this record belongs to. |
+| 15 | city | `String` | The city for this address. |
+| 16 | cleansedDatetime | `DateTime` | The Timestamp when this record was cleansed. |
+| 17 | cleansedErrormsg | `String` | The error message why this record was not cleansed. |
+| 18 | cleansedMatchstatus | `String` | Specifies how the address elements match with the postal reference data. |
+| 19 | cleansedStatus | `String` | Status of Address Cleansing. Null = Record is not cleansed. C = Cleansed. F = Failure. |
+| 20 | cleansedValidationstatus | `String` | Validation Status as returned by the Address Cleansing System. |
+| 21 | clientID | `String` | The unique key of this name stores IATA# Company # etc. |
+| 22 | countryCode | `String` | Country . |
+| 23 | countryDescription | `String` | Country name. |
+| 24 | createdByUser | `Float` | The user that created the record |
+| 25 | createdOnDate | `DateTime` | The date the record was created |
+| 26 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 27 | deletedYN | `String` | Deleted Y/n |
+| 28 | endDate | `Date` | Not used. |
+| 29 | firstName | `String` | The first name of an individual name. |
+| 30 | foreignCountry | `String` | Not used. |
+| 31 | inCareOf | `String` | Not used. |
+| 32 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 33 | inactiveYN | `String` | Inactive Y/n |
+| 34 | internalOrganizationId | `Float` | Organization ID |
+| 35 | jRNUpdateDate | `Date` | JRN Update Date |
+| 36 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 37 | laptopChange | `Float` | Code to synchronize with Laptop. (not used) |
+| 38 | lastUpdatedResort | `String` | Last property that updated this record. |
+| 39 | name | `String` | Name |
+| 40 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 41 | postalCode | `String` | The postal code of this address. |
+| 42 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
+| 43 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 44 | primaryYN | `String` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |
+| 45 | profileAddressId | `Float` | The primary key for this table. |
+| 46 | profileId | `Float` | The reference to the NAME record that owns this address. |
+| 47 | profileIdx | `Float` | The reference to the NAME record that owns this address. |
+| 48 | province | `String` | Province. |
+| 49 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 50 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 51 | state | `String` | State |
+| 52 | stateCode | `String` | The state of this address. |
+| 53 | updateDate | `DateTime` | The date the record was modified |
+| 54 | updateUser | `Float` | The user that modified the record |
 
 [⬆ Back to Query](#query)
 
@@ -535,52 +535,52 @@
 
 ### ProfilesIndividualsProfileCommunicationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addressId | `Float` | Not used. |
-| beginDate | `Date` | Not used. |
-| chainCode | `String` | The Chain code of the chain for which this record belongs to. |
-| communicationID | `Float` | The primary key for this table. |
-| communicationRole | `String` | Role in which this phone type belongs to. |
-| communicationValue | `String` | The phone number for this record |
-| countryCode | `String` | Country Code of the phone number. |
-| countryDialingCode | `Float` | Numeric phone dialing prefix code for the country. |
-| countryId | `String` | Country Code of the phone number. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultMethodYN | `String` | Phone_role to be used for default confirmation. |
-| deletedFlag | `String` | Deleted Flag |
-| displaySequence | `Float` | Order in which the phone numbers should be displayed. |
-| emailFormat | `String` | Format type for email messages: HTML PLAIN text. |
-| emailLanguage | `String` | Optional language for e-mail. |
-| endDate | `Date` | The date this record becomes invalid for use in the system. User enterable. |
-| extension | `String` | Telephone Extension. |
-| firstName | `String` | The first name of an individual name. |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveFlag | `String` | Inactive Flag |
-| indexPhone | `String` | Index Phone |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `Float` | The user that created the record |
-| internalOrganizationId | `Float` | Organization ID |
-| internalProfileId | `Float` | The reference to the name that owns this phone. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Code to synchronize with Laptop |
-| lastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
-| mobileAudioKeyYn | `String` | Marked as Y when the Phone Number/EMail Address is Opt In. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| phoneId | `Float` | The primary key for this table. |
-| phoneType | `String` | The type of this phone number. |
-| phoneTypeDescription | `String` | Description of Phone Types. |
-| phoneTypeId | `String` | The type of this phone number. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYN | `String` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |
-| profileID | `Float` | The reference to the name that owns this phone. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| shareEmailYn | `String` | Used for uploading the email to holidex if the value is Y. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
-| validYn | `String` | Indicates that the phone number has been validated using the Starwood API and is determined to be valid a <NULL> value indicates that the phone number has not been validated. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addressId | `Float` | Not used. |
+| 2 | beginDate | `Date` | Not used. |
+| 3 | chainCode | `String` | The Chain code of the chain for which this record belongs to. |
+| 4 | communicationID | `Float` | The primary key for this table. |
+| 5 | communicationRole | `String` | Role in which this phone type belongs to. |
+| 6 | communicationValue | `String` | The phone number for this record |
+| 7 | countryCode | `String` | Country Code of the phone number. |
+| 8 | countryDialingCode | `Float` | Numeric phone dialing prefix code for the country. |
+| 9 | countryId | `String` | Country Code of the phone number. |
+| 10 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 11 | defaultMethodYN | `String` | Phone_role to be used for default confirmation. |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | displaySequence | `Float` | Order in which the phone numbers should be displayed. |
+| 14 | emailFormat | `String` | Format type for email messages: HTML PLAIN text. |
+| 15 | emailLanguage | `String` | Optional language for e-mail. |
+| 16 | endDate | `Date` | The date this record becomes invalid for use in the system. User enterable. |
+| 17 | extension | `String` | Telephone Extension. |
+| 18 | firstName | `String` | The first name of an individual name. |
+| 19 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 20 | inactiveFlag | `String` | Inactive Flag |
+| 21 | indexPhone | `String` | Index Phone |
+| 22 | insertDate | `DateTime` | The date the record was created |
+| 23 | insertUser | `Float` | The user that created the record |
+| 24 | internalOrganizationId | `Float` | Organization ID |
+| 25 | internalProfileId | `Float` | The reference to the name that owns this phone. |
+| 26 | jRNUpdateDate | `Date` | JRN Update Date |
+| 27 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 28 | laptopChange | `Float` | Code to synchronize with Laptop |
+| 29 | lastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| 30 | mobileAudioKeyYn | `String` | Marked as Y when the Phone Number/EMail Address is Opt In. |
+| 31 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 32 | phoneId | `Float` | The primary key for this table. |
+| 33 | phoneType | `String` | The type of this phone number. |
+| 34 | phoneTypeDescription | `String` | Description of Phone Types. |
+| 35 | phoneTypeId | `String` | The type of this phone number. |
+| 36 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 37 | primaryYN | `String` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |
+| 38 | profileID | `Float` | The reference to the name that owns this phone. |
+| 39 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 40 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 41 | shareEmailYn | `String` | Used for uploading the email to holidex if the value is Y. |
+| 42 | updateDate | `DateTime` | The date the record was modified |
+| 43 | updateUser | `Float` | The user that modified the record |
+| 44 | validYn | `String` | Indicates that the phone number has been validated using the Starwood API and is determined to be valid a <NULL> value indicates that the phone number has not been validated. |
 
 [⬆ Back to Query](#query)
 
@@ -588,47 +588,47 @@
 
 ### ProfilesIndividualsProfilePreferenceDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralPreferenceCode | `String` | Central Preference Code |
-| centralPreferenceDescription | `String` | Central Preference Description |
-| centralPreferenceGroup | `String` | Central Preference Group |
-| chainCode | `String` | ASP chain code. |
-| chargeYn | `String` | Not used. |
-| createdByUser | `Float` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| displaySequence | `Float` | The display sequence  of the Preferences. |
-| externalPreferenceId | `String` | Unique ID in External System. |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveFlag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Laptop Change Indicator |
-| locationID | `String` | The property that the record belongs to |
-| mpcode | `String` | Not Used. |
-| nameId | `Float` | Reference to the name that owns this record. |
-| noteProperty | `String` | The property that the record belongs to |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| preferenceCode | `String` | Preference Code. Part of the Primary Key. |
-| preferenceDescription | `String` | Description of the Preference. |
-| preferenceGroup | `String` | Description of the Preference Type. |
-| preferenceId | `String` | Preference Code. |
-| preferenceTypeCode | `String` | Preference Type. |
-| preferenceTypeId | `String` | Preference Type. |
-| preferenceValue | `String` | Preference Code. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| profileId | `Float` | Reference to the name that owns this record. |
-| profilePreferenceId | `String` | Preference Code. |
-| property | `String` | The property that the record belongs to |
-| repOrderby | `Float` | Reporting Orderby |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | canDeleteYn | `String` | Can Delete Y/N |
+| 2 | centralPreferenceCode | `String` | Central Preference Code |
+| 3 | centralPreferenceDescription | `String` | Central Preference Description |
+| 4 | centralPreferenceGroup | `String` | Central Preference Group |
+| 5 | chainCode | `String` | ASP chain code. |
+| 6 | chargeYn | `String` | Not used. |
+| 7 | createdByUser | `Float` | The user that created the record |
+| 8 | createdOnDate | `DateTime` | The date the record was created |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | displaySequence | `Float` | The display sequence  of the Preferences. |
+| 12 | externalPreferenceId | `String` | Unique ID in External System. |
+| 13 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 14 | inactiveFlag | `String` | Inactive Flag |
+| 15 | internalOrganizationId | `Float` | Organization ID |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | laptopChange | `Float` | Laptop Change Indicator |
+| 19 | locationID | `String` | The property that the record belongs to |
+| 20 | mpcode | `String` | Not Used. |
+| 21 | nameId | `Float` | Reference to the name that owns this record. |
+| 22 | noteProperty | `String` | The property that the record belongs to |
+| 23 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 24 | preferenceCode | `String` | Preference Code. Part of the Primary Key. |
+| 25 | preferenceDescription | `String` | Description of the Preference. |
+| 26 | preferenceGroup | `String` | Description of the Preference Type. |
+| 27 | preferenceId | `String` | Preference Code. |
+| 28 | preferenceTypeCode | `String` | Preference Type. |
+| 29 | preferenceTypeId | `String` | Preference Type. |
+| 30 | preferenceValue | `String` | Preference Code. |
+| 31 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 32 | profileId | `Float` | Reference to the name that owns this record. |
+| 33 | profilePreferenceId | `String` | Preference Code. |
+| 34 | property | `String` | The property that the record belongs to |
+| 35 | repOrderby | `Float` | Reporting Orderby |
+| 36 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 37 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 38 | updateDate | `DateTime` | The date the record was modified |
+| 39 | updateUser | `Float` | The user that modified the record |
 
 [⬆ Back to Query](#query)
 
@@ -636,36 +636,36 @@
 
 ### ProfilesIndividualsProfileDocumentsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | The Chain code of the chain for which this record belongs to. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| documentId | `Float` | Unique ID for this table. |
-| guestIdentificationIDIssuePlace | `String` | The place where the ID was issued. |
-| idDocumentAttachId | `Float` | Store the ID value of linked_attachments.attach_id pointing to the physical table column that stores the scanned document. |
-| identificationIDCountry | `String` | The country where the ID was issued |
-| identificationIDExpirationDate | `Date` | Expiration date of the ID document. |
-| identificationIDIssueDate | `Date` | Identification Issued date. |
-| identificationIDNumber | `String` | Encrypted identification number. |
-| identificationIDPrimaryYN | `String` | Indicates if this record is the primary one for the ID type. |
-| identificationIDType | `String` | Identification type e.g: PASSPORT DRIVING LICENSE etc. |
-| inactiveDate | `DateTime` | Date this record was inactivated. |
-| insertDate | `DateTime` | The date the record was created. |
-| insertUser | `Float` | The user that created the record. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | The property this record belongs to can be "_GLOBAL". |
-| nameId | `Float` | The profile ID reference who owns this document. |
-| orderBy | `Float` | Display Sequence. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | The property this record belongs to can be "_GLOBAL". |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sIdNumber | `String` | Internal indexed field to search for ID_NUMBER. |
-| updateDate | `DateTime` | The date the record was modified. |
-| updateUser | `Float` | The user that modified the record. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | The Chain code of the chain for which this record belongs to. |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | documentId | `Float` | Unique ID for this table. |
+| 5 | guestIdentificationIDIssuePlace | `String` | The place where the ID was issued. |
+| 6 | idDocumentAttachId | `Float` | Store the ID value of linked_attachments.attach_id pointing to the physical table column that stores the scanned document. |
+| 7 | identificationIDCountry | `String` | The country where the ID was issued |
+| 8 | identificationIDExpirationDate | `Date` | Expiration date of the ID document. |
+| 9 | identificationIDIssueDate | `Date` | Identification Issued date. |
+| 10 | identificationIDNumber | `String` | Encrypted identification number. |
+| 11 | identificationIDPrimaryYN | `String` | Indicates if this record is the primary one for the ID type. |
+| 12 | identificationIDType | `String` | Identification type e.g: PASSPORT DRIVING LICENSE etc. |
+| 13 | inactiveDate | `DateTime` | Date this record was inactivated. |
+| 14 | insertDate | `DateTime` | The date the record was created. |
+| 15 | insertUser | `Float` | The user that created the record. |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | locationID | `String` | The property this record belongs to can be "_GLOBAL". |
+| 19 | nameId | `Float` | The profile ID reference who owns this document. |
+| 20 | orderBy | `Float` | Display Sequence. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | The property this record belongs to can be "_GLOBAL". |
+| 24 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 25 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 26 | sIdNumber | `String` | Internal indexed field to search for ID_NUMBER. |
+| 27 | updateDate | `DateTime` | The date the record was modified. |
+| 28 | updateUser | `Float` | The user that modified the record. |
 
 [⬆ Back to Query](#query)
 
@@ -673,66 +673,66 @@
 
 ### ProfilesIndividualsProfileMembershipDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| cCreditLimit | `Float` | Central Credit Limit |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| chainCode | `String` | Chain code. |
-| comments | `String` | Used by EIS Module. |
-| creditLimit | `Float` | Used in the EIS Module. |
-| currentPoints | `Float` | Used in the EIS Module. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| deviceCode | `String` | Encoded string on the device. |
-| deviceDisableDate | `Date` | Date when device was disabled. |
-| earningPreference | `String` | Points or miles earning preference. |
-| enrollmentCode | `String` | Code to indicate source used to enroll the member. |
-| enrollmentProperty | `String` | Resort/CRO where enrollment is done. |
-| enrollmentSource | `String` | Source from where the enrollment is done. |
-| excludeFromBatch | `String` | Flag to determine member actions to include in the fulfillment extract |
-| expirationDate | `Date` | Expiration date of the Card. |
-| gracePeriodIndicator | `String` | Grace Period Indicator |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `String` | The unique name of application user |
-| internalMembershipid | `Float` | Primary Key for this table. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| joinedDate | `Date` | Used by EIS Module. |
-| mbrprefChangedDate | `Date` | Last Date Earning Preference was changed. |
-| memberIndicator | `String` | Used in the EIS Module. |
-| memberSubtype | `String` | Used in the EIS Module. |
-| membergueststatusid | `String` | Membergueststatusid |
-| membershipActiveYN | `String` | Membership Active YN |
-| membershipClass | `String` | Primary key of this table |
-| membershipID | `Float` | Primary Key for this table. |
-| membershipLevel | `String` | Level of this Membership Type. |
-| membershipLevelDescription | `String` | Membership Level Description |
-| membershipNumber | `String` | Membership Card Number. |
-| membershipStatus | `String` | User defined field used by external system. Not used by OCIS upgradedowngrade or renewal process. |
-| membershipType | `String` | Type of the Membership. |
-| membershipTypeDescription | `String` | Description of membership program type. |
-| membershipenrollid | `String` | Membershipenrollid |
-| membershiplevelid | `String` | Level of this Membership Type. |
-| membershiptypeid | `String` | Type of the Membership. |
-| nameId | `Float` | Reference to the name that owns this record. |
-| nameOnCard | `String` | Name as appeared on the Membership Card. |
-| orderBy | `Float` | The display sequence of the membership cards held by this profile if there are multiple membership cards. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| partnerMembershipId | `Float` | Membership ID that accrues Miles. |
-| pointflag | `String` | Used in the EIS Module. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryMembershipYN | `String` | Primary Membership YN |
-| primaryairlineflag | `String` | Used in the EIS Module. |
-| processExpirationDate | `Date` | Used in the EIS Module. |
-| profileid | `Float` | Reference to the name that owns this record. |
-| ranking | `Float` | Current membership ranking value for this profile possible values: 1-10. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `String` | The unique name of application user |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | cCreditLimit | `Float` | Central Credit Limit |
+| 2 | cExchangeDate | `Date` | Central Xchange Date |
+| 3 | cExchangeRate | `Float` | Central Xchange Rate |
+| 4 | chainCode | `String` | Chain code. |
+| 5 | comments | `String` | Used by EIS Module. |
+| 6 | creditLimit | `Float` | Used in the EIS Module. |
+| 7 | currentPoints | `Float` | Used in the EIS Module. |
+| 8 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 9 | deletedFlag | `String` | Deleted Flag |
+| 10 | deviceCode | `String` | Encoded string on the device. |
+| 11 | deviceDisableDate | `Date` | Date when device was disabled. |
+| 12 | earningPreference | `String` | Points or miles earning preference. |
+| 13 | enrollmentCode | `String` | Code to indicate source used to enroll the member. |
+| 14 | enrollmentProperty | `String` | Resort/CRO where enrollment is done. |
+| 15 | enrollmentSource | `String` | Source from where the enrollment is done. |
+| 16 | excludeFromBatch | `String` | Flag to determine member actions to include in the fulfillment extract |
+| 17 | expirationDate | `Date` | Expiration date of the Card. |
+| 18 | gracePeriodIndicator | `String` | Grace Period Indicator |
+| 19 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 20 | insertDate | `DateTime` | The date the record was created |
+| 21 | insertUser | `String` | The unique name of application user |
+| 22 | internalMembershipid | `Float` | Primary Key for this table. |
+| 23 | jRNUpdateDate | `Date` | JRN Update Date |
+| 24 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 25 | joinedDate | `Date` | Used by EIS Module. |
+| 26 | mbrprefChangedDate | `Date` | Last Date Earning Preference was changed. |
+| 27 | memberIndicator | `String` | Used in the EIS Module. |
+| 28 | memberSubtype | `String` | Used in the EIS Module. |
+| 29 | membergueststatusid | `String` | Membergueststatusid |
+| 30 | membershipActiveYN | `String` | Membership Active YN |
+| 31 | membershipClass | `String` | Primary key of this table |
+| 32 | membershipID | `Float` | Primary Key for this table. |
+| 33 | membershipLevel | `String` | Level of this Membership Type. |
+| 34 | membershipLevelDescription | `String` | Membership Level Description |
+| 35 | membershipNumber | `String` | Membership Card Number. |
+| 36 | membershipStatus | `String` | User defined field used by external system. Not used by OCIS upgradedowngrade or renewal process. |
+| 37 | membershipType | `String` | Type of the Membership. |
+| 38 | membershipTypeDescription | `String` | Description of membership program type. |
+| 39 | membershipenrollid | `String` | Membershipenrollid |
+| 40 | membershiplevelid | `String` | Level of this Membership Type. |
+| 41 | membershiptypeid | `String` | Type of the Membership. |
+| 42 | nameId | `Float` | Reference to the name that owns this record. |
+| 43 | nameOnCard | `String` | Name as appeared on the Membership Card. |
+| 44 | orderBy | `Float` | The display sequence of the membership cards held by this profile if there are multiple membership cards. |
+| 45 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 46 | partnerMembershipId | `Float` | Membership ID that accrues Miles. |
+| 47 | pointflag | `String` | Used in the EIS Module. |
+| 48 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 49 | primaryMembershipYN | `String` | Primary Membership YN |
+| 50 | primaryairlineflag | `String` | Used in the EIS Module. |
+| 51 | processExpirationDate | `Date` | Used in the EIS Module. |
+| 52 | profileid | `Float` | Reference to the name that owns this record. |
+| 53 | ranking | `Float` | Current membership ranking value for this profile possible values: 1-10. |
+| 54 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 55 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 56 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
+| 57 | updateDate | `DateTime` | The date the record was modified |
+| 58 | updateUser | `String` | The unique name of application user |
 
 [⬆ Back to Query](#query)
 
@@ -740,46 +740,46 @@
 
 ### ProfilesIndividualsProfileNoteDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activityDueDate | `Date` | Activity Due Date |
-| activityType | `String` | Activity Type |
-| chainCode | `String` | ASP chain code. |
-| confidentialYN | `String` | Indicates if this note is confidential. |
-| createdByUser | `Float` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| externalNoteId | `String` | Unique ID in External System. |
-| globalNoteYn | `String` | Global Note Y/N |
-| globalYn | `String` | Can a global note be created for this note code or not. |
-| inactiveDate | `Date` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |
-| inactiveFlag | `String` | Inactive Flag |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalLocationId | `String` | Location Id |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Indicator for Laptop change. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| nameId | `Float` | Parent Name_id refers Name table. |
-| nameType | `String` | The type of Profile. |
-| noteCode | `String` | Indicates the Type of Note. |
-| noteCodeDescription | `String` | Description of Note Code |
-| noteId | `Float` | Primary Key for the Table |
-| noteInternalYN | `String` | Indicates if this note should be shown to guest. Future use. |
-| noteTitle | `String` | Title of the Note |
-| notes | `String` | The actual Note. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| profileId | `Float` | Parent Name_id refers Name table. |
-| profileNoteId | `Float` | Profile Note ID |
-| resort | `String` | Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activityDueDate | `Date` | Activity Due Date |
+| 2 | activityType | `String` | Activity Type |
+| 3 | chainCode | `String` | ASP chain code. |
+| 4 | confidentialYN | `String` | Indicates if this note is confidential. |
+| 5 | createdByUser | `Float` | The user that created the record |
+| 6 | createdOnDate | `DateTime` | The date the record was created |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedFlag | `String` | Deleted Flag |
+| 9 | externalNoteId | `String` | Unique ID in External System. |
+| 10 | globalNoteYn | `String` | Global Note Y/N |
+| 11 | globalYn | `String` | Can a global note be created for this note code or not. |
+| 12 | inactiveDate | `Date` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |
+| 13 | inactiveFlag | `String` | Inactive Flag |
+| 14 | internalDeletedflag | `String` | Deleted Flag |
+| 15 | internalInactiveflag | `String` | Inactive Flag |
+| 16 | internalLocationId | `String` | Location Id |
+| 17 | internalOrganizationId | `Float` | Organization ID |
+| 18 | jRNUpdateDate | `Date` | JRN Update Date |
+| 19 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 20 | laptopChange | `Float` | Indicator for Laptop change. |
+| 21 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 22 | nameId | `Float` | Parent Name_id refers Name table. |
+| 23 | nameType | `String` | The type of Profile. |
+| 24 | noteCode | `String` | Indicates the Type of Note. |
+| 25 | noteCodeDescription | `String` | Description of Note Code |
+| 26 | noteId | `Float` | Primary Key for the Table |
+| 27 | noteInternalYN | `String` | Indicates if this note should be shown to guest. Future use. |
+| 28 | noteTitle | `String` | Title of the Note |
+| 29 | notes | `String` | The actual Note. |
+| 30 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 31 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 32 | profileId | `Float` | Parent Name_id refers Name table. |
+| 33 | profileNoteId | `Float` | Profile Note ID |
+| 34 | resort | `String` | Property |
+| 35 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 36 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 37 | updateDate | `DateTime` | The date the record was modified |
+| 38 | updateUser | `Float` | The user that modified the record |
 
 [⬆ Back to Query](#query)
 
@@ -787,43 +787,43 @@
 
 ### ProfilesIndividualsProfileRelationshipDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | The Chain code of the chain for which this record belongs to. |
-| company | `String` | This column store the Name of the Company Profiles. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| fromProfileID | `Float` | The reference to the name that owns this relationship. |
-| guestName | `String` | Guest Name |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `Float` | The user that created the record |
-| internalLocationId | `String` | The property that the record belongs to |
-| internalOrganizationId | `Float` | Organization ID |
-| internalRelationshipId | `String` | The type of relationship this name id has to the relationship_to_name_id. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Changed by laptop Y or N |
-| locationID | `String` | The property that the record belongs to |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerProfileId | `Float` | The reference to the name that owns this relationship. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYN | `String` | Indicates the Primary relationship where Multiple Relationships are attached to a profile. |
-| profilerelationshipId | `Float` | The primary key for this table. |
-| property | `String` | The property that the record belongs to |
-| relationshipCode | `String` | The type of relationship this name id has to the relationship_to_name_id. |
-| relationshipDescription | `String` | Description of the relationship. |
-| relationshipID | `Float` | The primary key for this table. |
-| relationshipRole | `String` | Used in S&C Module |
-| relationshipTo | `String` | Relationship To |
-| relationshipToNameID | `Float` | The reference to the name that the "Name_id" is related to. |
-| resort | `String` | The property that the record belongs to |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| toProfileID | `Float` | The reference to the name that the "Name_id" is related to. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | The Chain code of the chain for which this record belongs to. |
+| 2 | company | `String` | This column store the Name of the Company Profiles. |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | fromProfileID | `Float` | The reference to the name that owns this relationship. |
+| 6 | guestName | `String` | Guest Name |
+| 7 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 8 | inactiveFlag | `String` | Inactive Flag |
+| 9 | insertDate | `DateTime` | The date the record was created |
+| 10 | insertUser | `Float` | The user that created the record |
+| 11 | internalLocationId | `String` | The property that the record belongs to |
+| 12 | internalOrganizationId | `Float` | Organization ID |
+| 13 | internalRelationshipId | `String` | The type of relationship this name id has to the relationship_to_name_id. |
+| 14 | jRNUpdateDate | `Date` | JRN Update Date |
+| 15 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 16 | laptopChange | `Float` | Changed by laptop Y or N |
+| 17 | locationID | `String` | The property that the record belongs to |
+| 18 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 19 | ownerProfileId | `Float` | The reference to the name that owns this relationship. |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | primaryYN | `String` | Indicates the Primary relationship where Multiple Relationships are attached to a profile. |
+| 22 | profilerelationshipId | `Float` | The primary key for this table. |
+| 23 | property | `String` | The property that the record belongs to |
+| 24 | relationshipCode | `String` | The type of relationship this name id has to the relationship_to_name_id. |
+| 25 | relationshipDescription | `String` | Description of the relationship. |
+| 26 | relationshipID | `Float` | The primary key for this table. |
+| 27 | relationshipRole | `String` | Used in S&C Module |
+| 28 | relationshipTo | `String` | Relationship To |
+| 29 | relationshipToNameID | `Float` | The reference to the name that the "Name_id" is related to. |
+| 30 | resort | `String` | The property that the record belongs to |
+| 31 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 32 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 33 | toProfileID | `Float` | The reference to the name that the "Name_id" is related to. |
+| 34 | updateDate | `DateTime` | The date the record was modified |
+| 35 | updateUser | `Float` | The user that modified the record |
 
 [⬆ Back to Query](#query)
 
@@ -831,91 +831,91 @@
 
 ### ProfilesIndividualsIndividualDailyStatisticsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cFBRevenue | `Float` | Central Fb Revenue |
-| cFBRevenueTax | `Float` | Central Fb Revenue Tax |
-| cGroupFBRevenue | `Float` | Central Grp Fb Revenue |
-| cGroupFBRevenueTax | `Float` | Central Grp Fb Revenue Tax |
-| cGroupOtherRevenue | `Float` | Central Grp Other Revenue |
-| cGroupOtherRevenueTax | `Float` | Central Grp Other Revenue Tax |
-| cGroupRoomRevenue | `Float` | Central Grp Room Revenue |
-| cGroupRoomRevenueTax | `Float` | Central Grp Room Revenue Tax |
-| cGroupTotalRevenue | `Float` | Central Grp Total Revenue |
-| cGroupTotalRevenueTax | `Float` | Central Grp Total Revenue Tax |
-| cOtherRevenue | `Float` | Central Other Revenue |
-| cOtherRevenueTax | `Float` | Central Other Revenue Tax |
-| cRoomRevenue | `Float` | Central Room Revenue |
-| cRoomRevenueTax | `Float` | Central Room Revenue Tax |
-| cTotalFBRevenueTax | `Float` | Central Total Fb Revenue Tax |
-| cTotalOtherRevenueTax | `Float` | Central Total Other Revenue Tax |
-| cTotalRevenue | `Float` | Central Total Revenue |
-| cTotalRevenueTax | `Float` | Central Total Revenue Tax |
-| cTotalRoomRevenueTax | `Float` | Central Total Room Revenue Tax |
-| cTotalTotalRevenueTax | `Float` | Central Total Total Revenue Tax |
-| cancels | `Float` | Cancels |
-| centralFBRevenue | `Float` | Central FB Revenue |
-| centralOtherRevenue | `Float` | Central Other Revenue |
-| centralRoomRevenue | `Float` | Central Room Revenue |
-| centralTotalRevenue | `Float` | Central Total Revenue |
-| contextCd | `String` | Context Cd |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| fBRevenue | `Float` | FB Revenue |
-| fbRevenue | `Float` | FB Revenue |
-| fbRevenueTax | `Float` | F&B Revenue Tax. |
-| grpFBRevenue | `Float` | Group F&B Revenue. |
-| grpFBRevenueTax | `Float` | Group F&B Revenue Tax. |
-| grpNumberCancels | `Float` | Group Number of Cancellations. |
-| grpNumberNights | `Float` | Group Number of Nights. |
-| grpNumberNumberShows | `Float` | Group Number of No Shows. |
-| grpNumberStays | `Float` | Group Number of Stays. |
-| grpOtherRevenue | `Float` | Group Other Revenue. |
-| grpOtherRevenueTax | `Float` | Group Other Revenue Tax. |
-| grpRoomRevenue | `Float` | Group Room Revenue. |
-| grpRoomRevenueTax | `Float` | Group Room Revenue Tax. |
-| grpTotalRevenue | `Float` | Group Total Revenue. |
-| grpTotalRevenueTax | `Float` | Group Total Revenue Tax. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jrnFilerba | `Float` | Journal Filerba |
-| jrnFileseqno | `Float` | Journal Fileseqno |
-| jrnFlag | `String` | Journal Flag |
-| jrnScn | `Float` | Journal Scn |
-| jrnSlicingTs | `DateTime` | Journal Slicing Ts |
-| jrnUpdateDttm | `DateTime` | Journal Update Dttm |
-| locationID | `String` | The property that the record belongs to |
-| nameId | `Float` | The system-generated Internal numeric ID that corresponds to the Travel Agent for which the current record applies. Part of Primary Key. |
-| nameType | `String` | Name Type |
-| noShows | `Float` | Number Shows |
-| numberCancels | `Float` | Number Cancels |
-| numberNights | `Float` | Number Nights |
-| numberNoShows | `Float` | Number Number Shows |
-| numberStays | `Float` | Number Stays |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| otherRevenue | `Float` | Other Revenue |
-| otherRevenueTax | `Float` | Other Revenue Tax |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | The property that the record belongs to |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomNights | `Float` | Room Nights |
-| roomRevenue | `Float` | Room Revenue |
-| roomRevenueTax | `Float` | Room Revenue Tax |
-| stayDate | `Date` | The Business Date for which the current record applies. Part of Primary Key. |
-| stayMonth | `Float` | Month of Summary. Stores Year and Month as YYYYMM. |
-| stayYear | `Float` | Year of Summary. |
-| stays | `Float` | Stays |
-| totalFbRevenueTax | `Float` | Total FB Revenue Tax |
-| totalOtherRevenue | `Float` | Total of All Revenue for the current record's key value that does not fall under Room/Food/Beverage category. |
-| totalOtherRevenueTax | `Float` | Total Other Revenue Tax |
-| totalRevenue | `Float` | Total Revenue Amount for the current record's key value. |
-| totalRevenueTax | `Float` | Total Revenue Tax |
-| totalRoomRevenue | `Float` | Total Room Revenue Amount for the current record's key value. |
-| totalRoomRevenueTax | `Float` | Total Room Amount (Inc Packages and Taxes) for the Stay. |
-| totalTotalRevenue | `Float` | Total Total Revenue |
-| totalTotalRevenueTax | `Float` | Total Total Revenue Tax |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | cExchangeDate | `Date` | Central Xchange Date |
+| 2 | cExchangeRate | `Float` | Central Xchange Rate |
+| 3 | cFBRevenue | `Float` | Central Fb Revenue |
+| 4 | cFBRevenueTax | `Float` | Central Fb Revenue Tax |
+| 5 | cGroupFBRevenue | `Float` | Central Grp Fb Revenue |
+| 6 | cGroupFBRevenueTax | `Float` | Central Grp Fb Revenue Tax |
+| 7 | cGroupOtherRevenue | `Float` | Central Grp Other Revenue |
+| 8 | cGroupOtherRevenueTax | `Float` | Central Grp Other Revenue Tax |
+| 9 | cGroupRoomRevenue | `Float` | Central Grp Room Revenue |
+| 10 | cGroupRoomRevenueTax | `Float` | Central Grp Room Revenue Tax |
+| 11 | cGroupTotalRevenue | `Float` | Central Grp Total Revenue |
+| 12 | cGroupTotalRevenueTax | `Float` | Central Grp Total Revenue Tax |
+| 13 | cOtherRevenue | `Float` | Central Other Revenue |
+| 14 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
+| 15 | cRoomRevenue | `Float` | Central Room Revenue |
+| 16 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
+| 17 | cTotalFBRevenueTax | `Float` | Central Total Fb Revenue Tax |
+| 18 | cTotalOtherRevenueTax | `Float` | Central Total Other Revenue Tax |
+| 19 | cTotalRevenue | `Float` | Central Total Revenue |
+| 20 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
+| 21 | cTotalRoomRevenueTax | `Float` | Central Total Room Revenue Tax |
+| 22 | cTotalTotalRevenueTax | `Float` | Central Total Total Revenue Tax |
+| 23 | cancels | `Float` | Cancels |
+| 24 | centralFBRevenue | `Float` | Central FB Revenue |
+| 25 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 26 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 27 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 28 | contextCd | `String` | Context Cd |
+| 29 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 30 | deletedFlag | `String` | Deleted Flag |
+| 31 | fBRevenue | `Float` | FB Revenue |
+| 32 | fbRevenue | `Float` | FB Revenue |
+| 33 | fbRevenueTax | `Float` | F&B Revenue Tax. |
+| 34 | grpFBRevenue | `Float` | Group F&B Revenue. |
+| 35 | grpFBRevenueTax | `Float` | Group F&B Revenue Tax. |
+| 36 | grpNumberCancels | `Float` | Group Number of Cancellations. |
+| 37 | grpNumberNights | `Float` | Group Number of Nights. |
+| 38 | grpNumberNumberShows | `Float` | Group Number of No Shows. |
+| 39 | grpNumberStays | `Float` | Group Number of Stays. |
+| 40 | grpOtherRevenue | `Float` | Group Other Revenue. |
+| 41 | grpOtherRevenueTax | `Float` | Group Other Revenue Tax. |
+| 42 | grpRoomRevenue | `Float` | Group Room Revenue. |
+| 43 | grpRoomRevenueTax | `Float` | Group Room Revenue Tax. |
+| 44 | grpTotalRevenue | `Float` | Group Total Revenue. |
+| 45 | grpTotalRevenueTax | `Float` | Group Total Revenue Tax. |
+| 46 | jRNUpdateDate | `Date` | JRN Update Date |
+| 47 | jrnFilerba | `Float` | Journal Filerba |
+| 48 | jrnFileseqno | `Float` | Journal Fileseqno |
+| 49 | jrnFlag | `String` | Journal Flag |
+| 50 | jrnScn | `Float` | Journal Scn |
+| 51 | jrnSlicingTs | `DateTime` | Journal Slicing Ts |
+| 52 | jrnUpdateDttm | `DateTime` | Journal Update Dttm |
+| 53 | locationID | `String` | The property that the record belongs to |
+| 54 | nameId | `Float` | The system-generated Internal numeric ID that corresponds to the Travel Agent for which the current record applies. Part of Primary Key. |
+| 55 | nameType | `String` | Name Type |
+| 56 | noShows | `Float` | Number Shows |
+| 57 | numberCancels | `Float` | Number Cancels |
+| 58 | numberNights | `Float` | Number Nights |
+| 59 | numberNoShows | `Float` | Number Number Shows |
+| 60 | numberStays | `Float` | Number Stays |
+| 61 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 62 | otherRevenue | `Float` | Other Revenue |
+| 63 | otherRevenueTax | `Float` | Other Revenue Tax |
+| 64 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 65 | property | `String` | The property that the record belongs to |
+| 66 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 67 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 68 | roomNights | `Float` | Room Nights |
+| 69 | roomRevenue | `Float` | Room Revenue |
+| 70 | roomRevenueTax | `Float` | Room Revenue Tax |
+| 71 | stayDate | `Date` | The Business Date for which the current record applies. Part of Primary Key. |
+| 72 | stayMonth | `Float` | Month of Summary. Stores Year and Month as YYYYMM. |
+| 73 | stayYear | `Float` | Year of Summary. |
+| 74 | stays | `Float` | Stays |
+| 75 | totalFbRevenueTax | `Float` | Total FB Revenue Tax |
+| 76 | totalOtherRevenue | `Float` | Total of All Revenue for the current record's key value that does not fall under Room/Food/Beverage category. |
+| 77 | totalOtherRevenueTax | `Float` | Total Other Revenue Tax |
+| 78 | totalRevenue | `Float` | Total Revenue Amount for the current record's key value. |
+| 79 | totalRevenueTax | `Float` | Total Revenue Tax |
+| 80 | totalRoomRevenue | `Float` | Total Room Revenue Amount for the current record's key value. |
+| 81 | totalRoomRevenueTax | `Float` | Total Room Amount (Inc Packages and Taxes) for the Stay. |
+| 82 | totalTotalRevenue | `Float` | Total Total Revenue |
+| 83 | totalTotalRevenueTax | `Float` | Total Total Revenue Tax |
 
 [⬆ Back to Query](#query)
 
@@ -923,25 +923,25 @@
 
 ### ProfilesIndividualsProfileKeywordsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralKeywordType | `String` | Central Keyword Type |
-| chainCode | `String` | The Chain code of the chain for which this record belongs to. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| interfaceUpdatedYn | `String` | Interface  update status |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keyword | `String` | The keyword to search on. |
-| keywordSoundex | `String` | The soundex of this keyword. |
-| keywordType | `String` | Derived value based on the Type of the profile for the Search purpose. |
-| laptopChange | `Float` | Code to synchronize with Laptop. |
-| nameId | `Float` | The name these keywords are derived from. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateAllowedYn | `String` | Update allowed status. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralKeywordType | `String` | Central Keyword Type |
+| 2 | chainCode | `String` | The Chain code of the chain for which this record belongs to. |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | interfaceUpdatedYn | `String` | Interface  update status |
+| 6 | jRNUpdateDate | `Date` | JRN Update Date |
+| 7 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 8 | keyword | `String` | The keyword to search on. |
+| 9 | keywordSoundex | `String` | The soundex of this keyword. |
+| 10 | keywordType | `String` | Derived value based on the Type of the profile for the Search purpose. |
+| 11 | laptopChange | `Float` | Code to synchronize with Laptop. |
+| 12 | nameId | `Float` | The name these keywords are derived from. |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 16 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 17 | updateAllowedYn | `String` | Update allowed status. |
 
 [⬆ Back to Query](#query)
 
@@ -949,37 +949,37 @@
 
 ### ProfilesIndividualsProfileSubscriptionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowDuplicateYn | `String` | Allow Duplicate Y/N |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| distributeYn | `String` | Indicates if the profile should be distributed to the external database. |
-| extDBNameID | `String` | Ext DB Name ID |
-| externalDatabaseName | `String` | External Database Name |
-| externalProfileId | `String` | External Profile ID |
-| forceYn | `String` | Indicates if profile distribution should be forced. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastActivityDate | `Date` | Date of Last Activity on the AR Account in regards to: transfers between accounts payments applied (not unallocated) un-applied reversed and invoice compressions un-compressions on the account. |
-| lastDistributeDate | `Date` | The data when profile was last distributed. |
-| nameId | `Float` | Name ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pendingAction | `Float` | Indicates action is pending for queque. It can take values 124 |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| profileId | `Float` | Profile ID |
-| profilesubscriptionId | `Float` | Profilesubscription ID |
-| queryCode | `String` | Query Code |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowDuplicateYn | `String` | Allow Duplicate Y/N |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | distributeYn | `String` | Indicates if the profile should be distributed to the external database. |
+| 6 | extDBNameID | `String` | Ext DB Name ID |
+| 7 | externalDatabaseName | `String` | External Database Name |
+| 8 | externalProfileId | `String` | External Profile ID |
+| 9 | forceYn | `String` | Indicates if profile distribution should be forced. |
+| 10 | inactiveDate | `Date` | Inactive Date |
+| 11 | inactiveFlag | `String` | Inactive Flag |
+| 12 | insertDate | `DateTime` | Insert Date |
+| 13 | insertUser | `Float` | Insert User |
+| 14 | internalOrganizationId | `Float` | Organization ID |
+| 15 | jRNUpdateDate | `Date` | JRN Update Date |
+| 16 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 17 | lastActivityDate | `Date` | Date of Last Activity on the AR Account in regards to: transfers between accounts payments applied (not unallocated) un-applied reversed and invoice compressions un-compressions on the account. |
+| 18 | lastDistributeDate | `Date` | The data when profile was last distributed. |
+| 19 | nameId | `Float` | Name ID |
+| 20 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 21 | pendingAction | `Float` | Indicates action is pending for queque. It can take values 124 |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | profileId | `Float` | Profile ID |
+| 24 | profilesubscriptionId | `Float` | Profilesubscription ID |
+| 25 | queryCode | `String` | Query Code |
+| 26 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 27 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 28 | updateDate | `DateTime` | Update Date |
+| 29 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1439,6 +1439,29 @@
 | namekeywordsDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
 | namekeywordsDetailsUpdateAllowedYn | `StringInput` | Update allowed status. |
 | profilesubscriptionDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+#### Validation Rules
+
+**`conditionalInputPair(pair: 1)`**
+- profileallDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- profileallDetailsNameId
+- profileallDetailsActiveYn
+- profileallDetailsCrsNameid
+- profileallDetailsNameCode
+- profileallDetailsCompanyGroupId
+- profileallDetailsInactiveDate
+- profileallDetailsIndexName
+- profileallDetailsOrganizationId
+- profileallDetailsJrnupdatedttm
+- profileallDetailsProfileId
+- profileallDetailsSname
+- profileallDetailsSxname
+- profileallDetailsSfirst
+- profileallDetailsSrepCode
+- profileallDetailsSxfirstName
+- profileallDetailsUpdateDate
+
 
 [⬆ Back to Query](#query)
 

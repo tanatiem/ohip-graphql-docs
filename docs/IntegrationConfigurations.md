@@ -16,16 +16,16 @@
 
 ### IntegrationConfigurationsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| externalSystems | [`IntegrationConfigurationsExternalSystemsType`](#integrationconfigurationsexternalsystemstype) | External System Resort |
-| externalSystemProperties | [`IntegrationConfigurationsExternalSystemPropertiesType`](#integrationconfigurationsexternalsystempropertiestype) | External System Resort |
-| interfaceMappings | [`IntegrationConfigurationsInterfaceMappingsType`](#integrationconfigurationsinterfacemappingstype) | Interface Setup Mapping and Parameters |
-| interfaceParameters | [`IntegrationConfigurationsInterfaceParametersType`](#integrationconfigurationsinterfaceparameterstype) | Interface Setup Mapping and Parameters |
-| interfaceSetup | [`IntegrationConfigurationsInterfaceSetupType`](#integrationconfigurationsinterfacesetuptype) | Interface Setup Mapping and Parameters |
-| businessEventConfiguration | [`IntegrationConfigurationsBusinessEventConfigurationType`](#integrationconfigurationsbusinesseventconfigurationtype) | External System Database Business Events |
-| externalDatabases | [`IntegrationConfigurationsExternalDatabasesType`](#integrationconfigurationsexternaldatabasestype) | External System Database Business Events |
-| integrationConfigurationsRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | externalSystems | [`IntegrationConfigurationsExternalSystemsType`](#integrationconfigurationsexternalsystemstype) | External System Resort |
+| 2 | externalSystemProperties | [`IntegrationConfigurationsExternalSystemPropertiesType`](#integrationconfigurationsexternalsystempropertiestype) | External System Resort |
+| 3 | interfaceMappings | [`IntegrationConfigurationsInterfaceMappingsType`](#integrationconfigurationsinterfacemappingstype) | Interface Setup Mapping and Parameters |
+| 4 | interfaceParameters | [`IntegrationConfigurationsInterfaceParametersType`](#integrationconfigurationsinterfaceparameterstype) | Interface Setup Mapping and Parameters |
+| 5 | interfaceSetup | [`IntegrationConfigurationsInterfaceSetupType`](#integrationconfigurationsinterfacesetuptype) | Interface Setup Mapping and Parameters |
+| 6 | businessEventConfiguration | [`IntegrationConfigurationsBusinessEventConfigurationType`](#integrationconfigurationsbusinesseventconfigurationtype) | External System Database Business Events |
+| 7 | externalDatabases | [`IntegrationConfigurationsExternalDatabasesType`](#integrationconfigurationsexternaldatabasestype) | External System Database Business Events |
+| 8 | integrationConfigurationsRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -33,24 +33,24 @@
 
 ### IntegrationConfigurationsExternalSystemsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| batchBE | `String` | Batch BE |
-| dSI | `Float` | DSI |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| externalSystem | `String` | External System |
-| externalURI | `String` | External URI |
-| insertDate | `DateTime` | Insert Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lookupYN | `String` | Lookup YN |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| rNUpdateDate | `Date` | JRN Update Date |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| systemType | `String` | System Type |
-| updateDate | `DateTime` | Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | batchBE | `String` | Batch BE |
+| 2 | dSI | `Float` | DSI |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | externalSystem | `String` | External System |
+| 6 | externalURI | `String` | External URI |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | lookupYN | `String` | Lookup YN |
+| 10 | organizationID | `Float` | Organization ID |
+| 11 | primaryKeyID | `Float` | Primary Key ID |
+| 12 | rNUpdateDate | `Date` | JRN Update Date |
+| 13 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 14 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 15 | systemType | `String` | System Type |
+| 16 | updateDate | `DateTime` | Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -58,23 +58,23 @@
 
 ### IntegrationConfigurationsExternalSystemPropertiesType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| consumerName | `String` | Consumer Name |
-| dSI | `Float` | DSI |
-| deletedFlag | `String` | Deleted Flag |
-| displayYN | `String` | Display YN |
-| externalSystem | `String` | External System |
-| inactiveDate | `Date` | Inactive Date |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| machineName | `String` | Machine Name |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| status | `String` | Status |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | consumerName | `String` | Consumer Name |
+| 2 | dSI | `Float` | DSI |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | displayYN | `String` | Display YN |
+| 5 | externalSystem | `String` | External System |
+| 6 | inactiveDate | `Date` | Inactive Date |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | machineName | `String` | Machine Name |
+| 10 | organizationID | `Float` | Organization ID |
+| 11 | primaryKeyID | `Float` | Primary Key ID |
+| 12 | property | `String` | Property |
+| 13 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 14 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 15 | status | `String` | Status |
 
 [⬆ Back to Query](#query)
 
@@ -82,26 +82,26 @@
 
 ### IntegrationConfigurationsInterfaceMappingsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| conversionCode | `String` | Conversion Code |
-| dSI | `Float` | DSI |
-| deletedFlag | `String` | Deleted Flag |
-| externalToOPERA | `String` | External To OPERA |
-| externalValue | `String` | External Value |
-| insertDate | `Date` | Insert Date |
-| interfaceId | `String` | Interface Id |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
-| oPERAToExternal | `String` | OPERA To External |
-| oPERAValue | `String` | OPERA Value |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| property | `String` | Property |
-| rNAInsertDate | `Date` | RNA Insert Date |
-| rNAUpdateDate | `Date` | RNA Update Date |
-| updateDate | `Date` | Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | conversionCode | `String` | Conversion Code |
+| 3 | dSI | `Float` | DSI |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | externalToOPERA | `String` | External To OPERA |
+| 6 | externalValue | `String` | External Value |
+| 7 | insertDate | `Date` | Insert Date |
+| 8 | interfaceId | `String` | Interface Id |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 11 | oPERAToExternal | `String` | OPERA To External |
+| 12 | oPERAValue | `String` | OPERA Value |
+| 13 | organizationID | `Float` | Organization ID |
+| 14 | primaryKeyID | `Float` | Primary Key ID |
+| 15 | property | `String` | Property |
+| 16 | rNAInsertDate | `Date` | RNA Insert Date |
+| 17 | rNAUpdateDate | `Date` | RNA Update Date |
+| 18 | updateDate | `Date` | Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -109,26 +109,26 @@
 
 ### IntegrationConfigurationsInterfaceParametersType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `Date` | Insert Date |
-| interfaceId | `String` | Interface Id |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
-| organizationID | `Float` | Organization ID |
-| parameterGroup | `String` | Parameter Group |
-| parameterName | `String` | Parameter Name |
-| parameterValue | `String` | Parameter Value |
-| primaryKeyID | `Float` | Primary Key ID |
-| property | `String` | Property |
-| rNAInsertDate | `Date` | RNA Insert Date |
-| rNAUpdateDate | `Date` | RNA Update Date |
-| updateDate | `Date` | Update Date |
-| newView | `String` | new view |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | insertDate | `Date` | Insert Date |
+| 6 | interfaceId | `String` | Interface Id |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Organization ID |
+| 10 | parameterGroup | `String` | Parameter Group |
+| 11 | parameterName | `String` | Parameter Name |
+| 12 | parameterValue | `String` | Parameter Value |
+| 13 | primaryKeyID | `Float` | Primary Key ID |
+| 14 | property | `String` | Property |
+| 15 | rNAInsertDate | `Date` | RNA Insert Date |
+| 16 | rNAUpdateDate | `Date` | RNA Update Date |
+| 17 | updateDate | `Date` | Update Date |
+| 18 | newView | `String` | new view |
 
 [⬆ Back to Query](#query)
 
@@ -136,25 +136,25 @@
 
 ### IntegrationConfigurationsInterfaceSetupType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI |
-| dataFlow | `String` | Data Flow |
-| deletedFlag | `String` | Deleted Flag |
-| deltaChangesYN | `String` | Delta Changes YN |
-| description | `String` | Description |
-| externalProperty | `String` | External Property |
-| insertDate | `Date` | Insert Date |
-| interfaceId | `String` | Interface Id |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
-| oPERAProperty | `String` | OPERA Property |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| rNAInsertDate | `Date` | RNA Insert Date |
-| rNAUpdateDate | `Date` | RNA Update Date |
-| updateDate | `Date` | Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI |
+| 3 | dataFlow | `String` | Data Flow |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | deltaChangesYN | `String` | Delta Changes YN |
+| 6 | description | `String` | Description |
+| 7 | externalProperty | `String` | External Property |
+| 8 | insertDate | `Date` | Insert Date |
+| 9 | interfaceId | `String` | Interface Id |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 12 | oPERAProperty | `String` | OPERA Property |
+| 13 | organizationID | `Float` | Organization ID |
+| 14 | primaryKeyID | `Float` | Primary Key ID |
+| 15 | rNAInsertDate | `Date` | RNA Insert Date |
+| 16 | rNAUpdateDate | `Date` | RNA Update Date |
+| 17 | updateDate | `Date` | Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -162,25 +162,25 @@
 
 ### IntegrationConfigurationsBusinessEventConfigurationType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actionType | `String` | Action Type |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI |
-| dataElement | `String` | Data Element |
-| deletedFlag | `String` | Deleted Flag |
-| externalDatabase | `String` | External Database |
-| externalSystem | `String` | External System |
-| insertDate | `DateTime` | Insert Date |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| module | `String` | Module |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `Date` | RNA Update Date |
-| updateDate | `Date` | Update Date |
-| whereClause | `String` | Where Clause |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actionType | `String` | Action Type |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | dSI | `Float` | DSI |
+| 4 | dataElement | `String` | Data Element |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | externalDatabase | `String` | External Database |
+| 7 | externalSystem | `String` | External System |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | module | `String` | Module |
+| 12 | organizationID | `Float` | Organization ID |
+| 13 | primaryKeyID | `Float` | Primary Key ID |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `Date` | RNA Update Date |
+| 16 | updateDate | `Date` | Update Date |
+| 17 | whereClause | `String` | Where Clause |
 
 [⬆ Back to Query](#query)
 
@@ -188,22 +188,22 @@
 
 ### IntegrationConfigurationsExternalDatabasesType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| externalDatabase | `String` | External Database |
-| externalSystem | `String` | External System |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| updateDate | `Date` | Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | externalDatabase | `String` | External Database |
+| 6 | externalSystem | `String` | External System |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Organization ID |
+| 10 | primaryKeyID | `Float` | Primary Key ID |
+| 11 | property | `String` | Property |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 14 | updateDate | `Date` | Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -367,6 +367,11 @@
 | extdbbuseventDetailsEdJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time |
 | extdbbuseventDetailsModule | `StringInput` | Module |
 | extdbbuseventDetailsEdOrganizationid | `FloatInput` | Organization ID |
+#### Validation Rules
+
+**`mandatoryInput`**
+- extsysresortdetailsEsCode
+
 
 [⬆ Back to Query](#query)
 

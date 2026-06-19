@@ -16,10 +16,10 @@
 
 ### ProfilesRelationshipTypesType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| relationshipDetails | [`ProfilesRelationshipTypesRelationshipDetailsType`](#profilesrelationshiptypesrelationshipdetailstype) | Relationship Details |
-| profilesRelationshipTypesRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | relationshipDetails | [`ProfilesRelationshipTypesRelationshipDetailsType`](#profilesrelationshiptypesrelationshipdetailstype) | Relationship Details |
+| 2 | profilesRelationshipTypesRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -27,45 +27,45 @@
 
 ### ProfilesRelationshipTypesRelationshipDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| fromType | `String` | From Relationship Type. |
-| globalYn | `String` | Global Y/N |
-| hierarchyYN | `String` | Hierarchy YN |
-| ignoreProtectionYn | `String` | Indicates if custom profile protection is not applicable for this relationship type. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| individualYN | `String` | Individual YN |
-| inheritRatesYN | `String` | Inherit Rates YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYN | `String` | Primary YN |
-| relationCategory | `String` | Module related to this Name Type whether it is used in PMS S&C etc. |
-| relationship | `String` | Relationship |
-| relationshipId | `String` | Relationship ID |
-| relationshipRole | `String` | Used in S&C Module |
-| relationshipType | `String` | Relationship Type |
-| relationshippms | `String` | Relationshippms |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| tempFlag | `String` | Temp Flag |
-| toDescription | `String` | Description of the To Relationship. |
-| toIndividualYN | `String` | To Individual YN |
-| toInheritRatesYN | `String` | To Inherit Rates YN |
-| toRelationship | `String` | To Relationship type. |
-| toType | `String` | To Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | canDeleteYn | `String` | Can Delete Y/N |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | fromType | `String` | From Relationship Type. |
+| 6 | globalYn | `String` | Global Y/N |
+| 7 | hierarchyYN | `String` | Hierarchy YN |
+| 8 | ignoreProtectionYn | `String` | Indicates if custom profile protection is not applicable for this relationship type. |
+| 9 | inactiveDate | `DateTime` | Inactive Date |
+| 10 | inactiveFlag | `String` | Inactive Flag |
+| 11 | individualYN | `String` | Individual YN |
+| 12 | inheritRatesYN | `String` | Inherit Rates YN |
+| 13 | insertDate | `DateTime` | Insert Date |
+| 14 | insertUser | `Float` | Insert User |
+| 15 | internalInactiveflag | `String` | Inactive Flag |
+| 16 | internalOrganizationId | `Float` | Organization ID |
+| 17 | jRNUpdateDate | `Date` | JRN Update Date |
+| 18 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | primaryYN | `String` | Primary YN |
+| 22 | relationCategory | `String` | Module related to this Name Type whether it is used in PMS S&C etc. |
+| 23 | relationship | `String` | Relationship |
+| 24 | relationshipId | `String` | Relationship ID |
+| 25 | relationshipRole | `String` | Used in S&C Module |
+| 26 | relationshipType | `String` | Relationship Type |
+| 27 | relationshippms | `String` | Relationshippms |
+| 28 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 29 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 30 | tempFlag | `String` | Temp Flag |
+| 31 | toDescription | `String` | Description of the To Relationship. |
+| 32 | toIndividualYN | `String` | To Individual YN |
+| 33 | toInheritRatesYN | `String` | To Inherit Rates YN |
+| 34 | toRelationship | `String` | To Relationship type. |
+| 35 | toType | `String` | To Type |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -194,6 +194,11 @@
 | relationshipDetailsRelationshipId | `StringInput` | Relationship ID |
 | relationshipDetailsRelationship | `StringInput` | Relationship Type |
 | relationshipDetailsToType | `StringInput` | To Type |
+#### Validation Rules
+
+**`mandatoryInput`**
+- relationshipDetailsChainCode
+
 
 [⬆ Back to Query](#query)
 

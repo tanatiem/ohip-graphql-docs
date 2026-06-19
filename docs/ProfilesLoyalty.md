@@ -16,17 +16,17 @@
 
 ### ProfilesLoyaltyType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| loyaltyProfileMembershipDetails | [`ProfilesLoyaltyLoyaltyProfileMembershipDetailsType`](#profilesloyaltyloyaltyprofilemembershipdetailstype) | Loyalty Profile Membership Details |
-| membershipBenefitsDetails | [`ProfilesLoyaltyMembershipBenefitsDetailsType`](#profilesloyaltymembershipbenefitsdetailstype) | Membership Benefits Details |
-| membershipClaimDetails | [`ProfilesLoyaltyMembershipClaimDetailsType`](#profilesloyaltymembershipclaimdetailstype) | Membership Claim Details |
-| membershipHistoryDetails | [`ProfilesLoyaltyMembershipHistoryDetailsType`](#profilesloyaltymembershiphistorydetailstype) | Membership History Details |
-| membershipIssuedAwardsDetails | [`ProfilesLoyaltyMembershipIssuedAwardsDetailsType`](#profilesloyaltymembershipissuedawardsdetailstype) | Membership Issued Awards Details |
-| membershipTransactionsDetails | [`ProfilesLoyaltyMembershipTransactionsDetailsType`](#profilesloyaltymembershiptransactionsdetailstype) | Membership Transactions Details |
-| membershipTransactionHeaderDetails | [`ProfilesLoyaltyMembershipTransactionHeaderDetailsType`](#profilesloyaltymembershiptransactionheaderdetailstype) | Membership Transaction Header |
-| expirePointsByDateDetails | [`ProfilesLoyaltyExpirePointsByDateDetailsType`](#profilesloyaltyexpirepointsbydatedetailstype) | Expire Points By Date Details |
-| profilesLoyaltyRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | loyaltyProfileMembershipDetails | [`ProfilesLoyaltyLoyaltyProfileMembershipDetailsType`](#profilesloyaltyloyaltyprofilemembershipdetailstype) | Loyalty Profile Membership Details |
+| 2 | membershipBenefitsDetails | [`ProfilesLoyaltyMembershipBenefitsDetailsType`](#profilesloyaltymembershipbenefitsdetailstype) | Membership Benefits Details |
+| 3 | membershipClaimDetails | [`ProfilesLoyaltyMembershipClaimDetailsType`](#profilesloyaltymembershipclaimdetailstype) | Membership Claim Details |
+| 4 | membershipHistoryDetails | [`ProfilesLoyaltyMembershipHistoryDetailsType`](#profilesloyaltymembershiphistorydetailstype) | Membership History Details |
+| 5 | membershipIssuedAwardsDetails | [`ProfilesLoyaltyMembershipIssuedAwardsDetailsType`](#profilesloyaltymembershipissuedawardsdetailstype) | Membership Issued Awards Details |
+| 6 | membershipTransactionsDetails | [`ProfilesLoyaltyMembershipTransactionsDetailsType`](#profilesloyaltymembershiptransactionsdetailstype) | Membership Transactions Details |
+| 7 | membershipTransactionHeaderDetails | [`ProfilesLoyaltyMembershipTransactionHeaderDetailsType`](#profilesloyaltymembershiptransactionheaderdetailstype) | Membership Transaction Header |
+| 8 | expirePointsByDateDetails | [`ProfilesLoyaltyExpirePointsByDateDetailsType`](#profilesloyaltyexpirepointsbydatedetailstype) | Expire Points By Date Details |
+| 9 | profilesLoyaltyRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -34,151 +34,151 @@
 
 ### ProfilesLoyaltyLoyaltyProfileMembershipDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowAdhocMultiplierYn | `String` | Indicates if program allows Ad Hoc multipliers for points calculation. |
-| allowDupCardYn | `String` | Allow Dup Card Y/N |
-| allowSharesYn | `String` | Flag indicating if points should be calculated for shared rooms. |
-| autoCardNoBasedOn | `String` | This is used when the card no is auto generated and is based on some other value  like enrollment code. |
-| awardGenerationMethod | `String` | Not used |
-| batchDelayPeriod | `Float` | Not used |
-| bookerProgramYn | `String` | Flag to mark the booker program membership types. |
-| cCostPerPoint | `Float` | Central Cost Per Point |
-| cCreditLimit | `Float` | Central Credit Limit |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoomAssignmentValue | `Float` | Central Room Assignment Value |
-| calculationMethod | `String` | Valid values are ROLLING or CALENDAR.Rolling ? Indicates the membership will run from the same month for a determined amount of time.Calendar ? Indicates the calculation will occur every year at the end of the year. |
-| calculationMonths | `Float` | This signifies the number of months that points are valid for a membership type |
-| canDeleteYn | `String` | Can Delete Y/N |
-| cardLength | `Float` | The length of the card number for default card validation. |
-| cardPrefix | `String` | Card Prefix |
-| cardValidYears | `Float` | Number of years card will be valid for this level. |
-| centralSetupYn | `String` | Indicates if program is managed centrally or at Local property. If central then points will be calculated at ECIS else if program is local then points will be calculated and stored locally. |
-| chainCode | `String` | Chain Code |
-| changesRestrictedYn | `String` | Indicates whether a change to this level is restricted once a guest attains this level. |
-| chipAndPinYn | `String` | Indicates if this membership type is Chip and Pin. |
-| comments | `String` | Comments |
-| costPerPoint | `Float` | Cost Per Point |
-| creditLimit | `Float` | Credit Limit |
-| currencyCode | `String` | Currency Code |
-| currentPoints | `Float` | Used in the EIS Module. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultMemStatus | `String` | Default value for membership status. |
-| deletedFlag | `String` | Deleted Flag |
-| deviceCode | `String` | Device Code |
-| deviceDisableDate | `Date` | Date when device was disabled. |
-| displayColor | `String` | Display Color |
-| downgrade | `String` | Downgrade |
-| downgradePeriod | `Float` | Number of months to consider for downgrade. |
-| earningPreference | `String` | Earning Preference |
-| enrolledAt | `String` | Resort/CRO where enrollment is done. |
-| enrollmentCode | `String` | Code to indicate source used to enroll the member. |
-| enrollmentCodeReqYn | `String` | Enrollment code required flag. |
-| enrollmentDescription | `String` | Enrollment Description |
-| enrollmentSource | `String` | Source from where the enrollment is done. |
-| exceptionType | `String` | Exception Type |
-| exchangeRateType | `String` | Exchange Rate Type |
-| excludeFromBatch | `String` | Flag to determine member actions to include in the fulfillment extract |
-| expiration | `Date` | Expiration date of the Card. |
-| expirationDateRequired | `String` | Expiration Date Required |
-| expirationMonth | `Float` | Expiration month for membership types having a ROLLING calculation method. |
-| externalProcessDays | `Float` | Maximum number of days to process the External Processing Exception. |
-| externallyControlledYn | `String` | Flag that affects how a Membership Type is added edited or deleted from a profile. |
-| folioMessage | `String` | Free form text that can ve configured to display on the folio of clients earning points under this program. |
-| folioMessageCredits | `String` | Folio Message for Credits. |
-| folioMessageNonmembers | `String` | Folio Message Nonmembers |
-| folioMessageNonmembersNq | `String` | Folio message for non members who have a non-qualifying rate code. |
-| folioMessageNq | `String` | Folio message for members who have a non-qualifying rate code. |
-| fulfillmentYn | `String` | Fulfillment Y/N |
-| fulfilmentYn | `String` | Fulfilment Y/N |
-| graceExpirationMonth | `Float` | Used in EIS Module. |
-| gracePeriodIndicator | `String` | Grace Period Indicator |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `String` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| joinDate | `Date` | Used by EIS Module. |
-| label | `String` | Label |
-| levelRequired | `String` | Level Required |
-| loyaltyProgramYn | `String` | Flag to indicate if this is a loyalty program |
-| maxDowngradeLevel | `String` | Used in EIS Module. |
-| mbrprefChangedDate | `Date` | Last Date Earning Preference was changed. |
-| memClassDescription | `String` | Membership Class Description |
-| memClassInsertDate | `DateTime` | Membership Class Insert Date |
-| memClassInsertUser | `Float` | Membership Class Insert User |
-| memClassUpdateDate | `DateTime` | Membership Class Update Date |
-| memClassUpdateUser | `Float` | Membership Class Update User |
-| memLevelDeletedFlag | `String` | Membership Level Deleted Flag |
-| memLevelInactiveDate | `DateTime` | Membership Level Inactive Date |
-| memLevelInsertDate | `DateTime` | Membership Level Insert Date |
-| memLevelInsertUser | `Float` | Membership Level Insert User |
-| memLevelUpdateDate | `DateTime` | Membership Level Update Date |
-| memLevelUpdateUser | `Float` | Membership Level Update User |
-| memTypeCardValidYears | `Float` | Membership Type Card Valid Years |
-| memTypeInactiveDate | `DateTime` | Membership Type Inactive Date |
-| memTypeInsertDate | `DateTime` | Membership Type Insert Date |
-| memTypeInsertUser | `Float` | Membership Type Insert User |
-| memTypeOrderBy | `Float` | Membership Type Order By |
-| memTypeUpdateDate | `DateTime` | Membership Type Update Date |
-| memTypeUpdateUser | `Float` | Membership Type Update User |
-| memberIndicator | `String` | Used in the EIS Module. |
-| memberInfoDispSet | `String` | Display set used for member info. |
-| memberName | `String` | Not Used |
-| memberStatus | `String` | User defined field used by external system. Not used by OCIS upgradedowngrade or renewal process. |
-| memberSubtype | `String` | Used in the EIS Module. |
-| membershipAction | `String` | [A]utopopulate on Reservation [P]rompt on Reservation; Al[W]ays Prompt [N]o action. |
-| membershipCardNumber | `String` | Membership Card Number |
-| membershipClass | `String` | Primary key of this table |
-| membershipId | `Float` | Membership ID |
-| membershipLevel | `String` | Membership Level |
-| membershipLevelCExchangeDate | `Date` | Mem Level Central Xchange Date |
-| membershipLevelCExchangeRate | `Float` | Mem Level Central Xchange Rate |
-| membershipLevelDesc | `String` | Membership Level Description |
-| membershipLevelRank | `Float` | The sequence of membership levels starting with 1 (The starting level) and increasing to the highest level. |
-| membershipType | `String` | Membership Type |
-| membershipTypeCExchangeDate | `Date` | Mem Type Central Xchange Date |
-| membershipTypeCExchangeRate | `Float` | Mem Type Central Xchange Rate |
-| membershipTypeDesc | `String` | Membership Type Description |
-| multipleRoomsLimit | `Float` | Multiple rooms allowed for points exception. |
-| nameId | `Float` | Name ID |
-| nameOnCard | `String` | Name as appeared on the Membership Card. |
-| numberOfTrx | `Float` | Number of transaction(s) for each stay. Value will be 2 in case of double dipping otherwise it will be null or 1. |
-| numericValidation | `String` | Indicates the type of card number validation which should be done. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| partnerMembershipId | `Float` | Membership ID that accrues Miles. |
-| pointsIssuedCentrallyYn | `String` | Indicates that points are issued by central system |
-| pointsLabel | `String` | Label for points (i.e. Points or Miles) |
-| preferredCardYN | `String` | Used in the EIS Module. |
-| primaryAirlinePartner | `String` | Used in the EIS Module. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryMembershipYn | `String` | Primary Membership Y/N |
-| processExpirationDate | `Date` | Used in the EIS Module. |
-| promptAtCheckOut | `String` | Indicates if resv_memberships should popup when a reservation is checked out. |
-| promptAtCheckin | `String` | Indicates if a prompt is required at checkin of a reservation if a membership number exists on profile and not attached to the reservation. |
-| promptAtNewReservation | `String` | Indicates if resv_memberships should popup when a reservation is created. |
-| promptAtUpdateReservation | `String` | Indicates if resv_memberships should popup when a reservation is updated. |
-| rankValue | `Float` | Rank Value |
-| ranking | `Float` | Ranking |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomAssignmentValue | `Float` | Room Assignment Value |
-| sendChkoutToIfc | `String` | Send checkout reservation information to the interface for Courtesy Cards? |
-| sequence | `Float` | Sequence |
-| tierAdministration | `String` | Tier Administration |
-| trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
-| transactionMaxPoints | `Float` | Indicates the maximum points that can be accrued per membership transaction. |
-| tscDateFlag | `String` | Tier Management Based on Date. |
-| udfCardValidationYn | `String` | Indicates if card number validation is a UDF(User defined function) or Default validation is used. |
-| udfFormula | `String` | Udf Formula |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `String` | Update User |
-| upgradePeriod | `Float` | Number of months to consider for upgrade. |
-| validationByIfc | `String` | Indicates if the card is to be validated by an external system. |
-| vipStatus | `String` | VIP Status |
-| yearsToExpire | `Float` | Years To Expire |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowAdhocMultiplierYn | `String` | Indicates if program allows Ad Hoc multipliers for points calculation. |
+| 2 | allowDupCardYn | `String` | Allow Dup Card Y/N |
+| 3 | allowSharesYn | `String` | Flag indicating if points should be calculated for shared rooms. |
+| 4 | autoCardNoBasedOn | `String` | This is used when the card no is auto generated and is based on some other value  like enrollment code. |
+| 5 | awardGenerationMethod | `String` | Not used |
+| 6 | batchDelayPeriod | `Float` | Not used |
+| 7 | bookerProgramYn | `String` | Flag to mark the booker program membership types. |
+| 8 | cCostPerPoint | `Float` | Central Cost Per Point |
+| 9 | cCreditLimit | `Float` | Central Credit Limit |
+| 10 | cExchangeDate | `Date` | Central Xchange Date |
+| 11 | cExchangeRate | `Float` | Central Xchange Rate |
+| 12 | cRoomAssignmentValue | `Float` | Central Room Assignment Value |
+| 13 | calculationMethod | `String` | Valid values are ROLLING or CALENDAR.Rolling ? Indicates the membership will run from the same month for a determined amount of time.Calendar ? Indicates the calculation will occur every year at the end of the year. |
+| 14 | calculationMonths | `Float` | This signifies the number of months that points are valid for a membership type |
+| 15 | canDeleteYn | `String` | Can Delete Y/N |
+| 16 | cardLength | `Float` | The length of the card number for default card validation. |
+| 17 | cardPrefix | `String` | Card Prefix |
+| 18 | cardValidYears | `Float` | Number of years card will be valid for this level. |
+| 19 | centralSetupYn | `String` | Indicates if program is managed centrally or at Local property. If central then points will be calculated at ECIS else if program is local then points will be calculated and stored locally. |
+| 20 | chainCode | `String` | Chain Code |
+| 21 | changesRestrictedYn | `String` | Indicates whether a change to this level is restricted once a guest attains this level. |
+| 22 | chipAndPinYn | `String` | Indicates if this membership type is Chip and Pin. |
+| 23 | comments | `String` | Comments |
+| 24 | costPerPoint | `Float` | Cost Per Point |
+| 25 | creditLimit | `Float` | Credit Limit |
+| 26 | currencyCode | `String` | Currency Code |
+| 27 | currentPoints | `Float` | Used in the EIS Module. |
+| 28 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 29 | defaultMemStatus | `String` | Default value for membership status. |
+| 30 | deletedFlag | `String` | Deleted Flag |
+| 31 | deviceCode | `String` | Device Code |
+| 32 | deviceDisableDate | `Date` | Date when device was disabled. |
+| 33 | displayColor | `String` | Display Color |
+| 34 | downgrade | `String` | Downgrade |
+| 35 | downgradePeriod | `Float` | Number of months to consider for downgrade. |
+| 36 | earningPreference | `String` | Earning Preference |
+| 37 | enrolledAt | `String` | Resort/CRO where enrollment is done. |
+| 38 | enrollmentCode | `String` | Code to indicate source used to enroll the member. |
+| 39 | enrollmentCodeReqYn | `String` | Enrollment code required flag. |
+| 40 | enrollmentDescription | `String` | Enrollment Description |
+| 41 | enrollmentSource | `String` | Source from where the enrollment is done. |
+| 42 | exceptionType | `String` | Exception Type |
+| 43 | exchangeRateType | `String` | Exchange Rate Type |
+| 44 | excludeFromBatch | `String` | Flag to determine member actions to include in the fulfillment extract |
+| 45 | expiration | `Date` | Expiration date of the Card. |
+| 46 | expirationDateRequired | `String` | Expiration Date Required |
+| 47 | expirationMonth | `Float` | Expiration month for membership types having a ROLLING calculation method. |
+| 48 | externalProcessDays | `Float` | Maximum number of days to process the External Processing Exception. |
+| 49 | externallyControlledYn | `String` | Flag that affects how a Membership Type is added edited or deleted from a profile. |
+| 50 | folioMessage | `String` | Free form text that can ve configured to display on the folio of clients earning points under this program. |
+| 51 | folioMessageCredits | `String` | Folio Message for Credits. |
+| 52 | folioMessageNonmembers | `String` | Folio Message Nonmembers |
+| 53 | folioMessageNonmembersNq | `String` | Folio message for non members who have a non-qualifying rate code. |
+| 54 | folioMessageNq | `String` | Folio message for members who have a non-qualifying rate code. |
+| 55 | fulfillmentYn | `String` | Fulfillment Y/N |
+| 56 | fulfilmentYn | `String` | Fulfilment Y/N |
+| 57 | graceExpirationMonth | `Float` | Used in EIS Module. |
+| 58 | gracePeriodIndicator | `String` | Grace Period Indicator |
+| 59 | inactiveDate | `DateTime` | Inactive Date |
+| 60 | inactiveYN | `String` | Inactive YN |
+| 61 | insertDate | `DateTime` | Insert Date |
+| 62 | insertUser | `String` | Insert User |
+| 63 | jRNUpdateDate | `Date` | JRN Update Date |
+| 64 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 65 | joinDate | `Date` | Used by EIS Module. |
+| 66 | label | `String` | Label |
+| 67 | levelRequired | `String` | Level Required |
+| 68 | loyaltyProgramYn | `String` | Flag to indicate if this is a loyalty program |
+| 69 | maxDowngradeLevel | `String` | Used in EIS Module. |
+| 70 | mbrprefChangedDate | `Date` | Last Date Earning Preference was changed. |
+| 71 | memClassDescription | `String` | Membership Class Description |
+| 72 | memClassInsertDate | `DateTime` | Membership Class Insert Date |
+| 73 | memClassInsertUser | `Float` | Membership Class Insert User |
+| 74 | memClassUpdateDate | `DateTime` | Membership Class Update Date |
+| 75 | memClassUpdateUser | `Float` | Membership Class Update User |
+| 76 | memLevelDeletedFlag | `String` | Membership Level Deleted Flag |
+| 77 | memLevelInactiveDate | `DateTime` | Membership Level Inactive Date |
+| 78 | memLevelInsertDate | `DateTime` | Membership Level Insert Date |
+| 79 | memLevelInsertUser | `Float` | Membership Level Insert User |
+| 80 | memLevelUpdateDate | `DateTime` | Membership Level Update Date |
+| 81 | memLevelUpdateUser | `Float` | Membership Level Update User |
+| 82 | memTypeCardValidYears | `Float` | Membership Type Card Valid Years |
+| 83 | memTypeInactiveDate | `DateTime` | Membership Type Inactive Date |
+| 84 | memTypeInsertDate | `DateTime` | Membership Type Insert Date |
+| 85 | memTypeInsertUser | `Float` | Membership Type Insert User |
+| 86 | memTypeOrderBy | `Float` | Membership Type Order By |
+| 87 | memTypeUpdateDate | `DateTime` | Membership Type Update Date |
+| 88 | memTypeUpdateUser | `Float` | Membership Type Update User |
+| 89 | memberIndicator | `String` | Used in the EIS Module. |
+| 90 | memberInfoDispSet | `String` | Display set used for member info. |
+| 91 | memberName | `String` | Not Used |
+| 92 | memberStatus | `String` | User defined field used by external system. Not used by OCIS upgradedowngrade or renewal process. |
+| 93 | memberSubtype | `String` | Used in the EIS Module. |
+| 94 | membershipAction | `String` | [A]utopopulate on Reservation [P]rompt on Reservation; Al[W]ays Prompt [N]o action. |
+| 95 | membershipCardNumber | `String` | Membership Card Number |
+| 96 | membershipClass | `String` | Primary key of this table |
+| 97 | membershipId | `Float` | Membership ID |
+| 98 | membershipLevel | `String` | Membership Level |
+| 99 | membershipLevelCExchangeDate | `Date` | Mem Level Central Xchange Date |
+| 100 | membershipLevelCExchangeRate | `Float` | Mem Level Central Xchange Rate |
+| 101 | membershipLevelDesc | `String` | Membership Level Description |
+| 102 | membershipLevelRank | `Float` | The sequence of membership levels starting with 1 (The starting level) and increasing to the highest level. |
+| 103 | membershipType | `String` | Membership Type |
+| 104 | membershipTypeCExchangeDate | `Date` | Mem Type Central Xchange Date |
+| 105 | membershipTypeCExchangeRate | `Float` | Mem Type Central Xchange Rate |
+| 106 | membershipTypeDesc | `String` | Membership Type Description |
+| 107 | multipleRoomsLimit | `Float` | Multiple rooms allowed for points exception. |
+| 108 | nameId | `Float` | Name ID |
+| 109 | nameOnCard | `String` | Name as appeared on the Membership Card. |
+| 110 | numberOfTrx | `Float` | Number of transaction(s) for each stay. Value will be 2 in case of double dipping otherwise it will be null or 1. |
+| 111 | numericValidation | `String` | Indicates the type of card number validation which should be done. |
+| 112 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 113 | partnerMembershipId | `Float` | Membership ID that accrues Miles. |
+| 114 | pointsIssuedCentrallyYn | `String` | Indicates that points are issued by central system |
+| 115 | pointsLabel | `String` | Label for points (i.e. Points or Miles) |
+| 116 | preferredCardYN | `String` | Used in the EIS Module. |
+| 117 | primaryAirlinePartner | `String` | Used in the EIS Module. |
+| 118 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 119 | primaryMembershipYn | `String` | Primary Membership Y/N |
+| 120 | processExpirationDate | `Date` | Used in the EIS Module. |
+| 121 | promptAtCheckOut | `String` | Indicates if resv_memberships should popup when a reservation is checked out. |
+| 122 | promptAtCheckin | `String` | Indicates if a prompt is required at checkin of a reservation if a membership number exists on profile and not attached to the reservation. |
+| 123 | promptAtNewReservation | `String` | Indicates if resv_memberships should popup when a reservation is created. |
+| 124 | promptAtUpdateReservation | `String` | Indicates if resv_memberships should popup when a reservation is updated. |
+| 125 | rankValue | `Float` | Rank Value |
+| 126 | ranking | `Float` | Ranking |
+| 127 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 128 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 129 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 130 | sendChkoutToIfc | `String` | Send checkout reservation information to the interface for Courtesy Cards? |
+| 131 | sequence | `Float` | Sequence |
+| 132 | tierAdministration | `String` | Tier Administration |
+| 133 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
+| 134 | transactionMaxPoints | `Float` | Indicates the maximum points that can be accrued per membership transaction. |
+| 135 | tscDateFlag | `String` | Tier Management Based on Date. |
+| 136 | udfCardValidationYn | `String` | Indicates if card number validation is a UDF(User defined function) or Default validation is used. |
+| 137 | udfFormula | `String` | Udf Formula |
+| 138 | updateDate | `DateTime` | Update Date |
+| 139 | updateUser | `String` | Update User |
+| 140 | upgradePeriod | `Float` | Number of months to consider for upgrade. |
+| 141 | validationByIfc | `String` | Indicates if the card is to be validated by an external system. |
+| 142 | vipStatus | `String` | VIP Status |
+| 143 | yearsToExpire | `Float` | Years To Expire |
 
 [⬆ Back to Query](#query)
 
@@ -186,28 +186,28 @@
 
 ### ProfilesLoyaltyMembershipBenefitsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYn | `String` | Inactive Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| levelBenefitsCode | `String` | Link to benefit code. |
-| levelBenefitsDescription | `String` | Level Benefits Description |
-| membershipId | `Float` | Membership ID |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| processingMsg | `String` | Processing Msg |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | inactiveYn | `String` | Inactive Y/N |
+| 6 | insertDate | `DateTime` | Insert Date |
+| 7 | insertUser | `Float` | Insert User |
+| 8 | jRNUpdateDate | `Date` | JRN Update Date |
+| 9 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 10 | levelBenefitsCode | `String` | Link to benefit code. |
+| 11 | levelBenefitsDescription | `String` | Level Benefits Description |
+| 12 | membershipId | `Float` | Membership ID |
+| 13 | membershipType | `String` | Membership Type |
+| 14 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 15 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 16 | processingMsg | `String` | Processing Msg |
+| 17 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 18 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -215,72 +215,72 @@
 
 ### ProfilesLoyaltyMembershipClaimDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| approvalStatus | `String` | Approval Status |
-| approveReject | `String` | Approve/Reject/None |
-| arrivalDate | `Date` | Arrival Date |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cMembershipBaseRevenue | `Float` | Central Membership Base Revenue |
-| cMembershipBonusRevenue | `Float` | Central Membership Bonus Revenue |
-| callerInformation | `String` | Information about the caller. |
-| callerName | `String` | name of the person who called. |
-| chainCode | `String` | Chain Code |
-| channel | `String` | Channel |
-| claimAdjLimitCode | `String` | Claim Adj Limit Code |
-| claimDate | `Date` | Date claim was posted in the database. |
-| claimNumber | `Float` | Primary key. |
-| claimOrigin | `String` | User defined origin of claim. |
-| claimOwner | `Float` | Claim Owner |
-| claimSource | `String` | Source of the Claim |
-| claimStatus | `String` | Status of the claim. |
-| claimType | `String` | User Defined Claim Types |
-| closeDate | `Date` | Date and time cashier was closed. |
-| comments | `String` | Comments |
-| confirmationNumber | `String` | Confirmation Number |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| departureDate | `Date` | Departure Date |
-| externalReferenceNumber | `String` | External Reference Number |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| marketCode | `String` | Market Code |
-| membershipBaseNights | `Float` | Membership Base Nights |
-| membershipBaseRevenue | `Float` | Membership Base Revenue |
-| membershipBaseStay | `Float` | Membership Base Stay |
-| membershipBonusNights | `Float` | Membership Bonus Nights |
-| membershipBonusRevenue | `Float` | Membership Bonus Revenue |
-| membershipBonusStay | `Float` | Membership Bonus Stay |
-| membershipClaimProperty | `String` | Membership Claim Property |
-| membershipId | `Float` | Membership ID |
-| membershipNumber | `String` | Membership Number |
-| membershipTransactionId | `Float` | Membership Trx ID |
-| membershipType | `String` | Membership Type |
-| name | `String` | Name |
-| nameId | `Float` | Name ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originOfBooking | `String` | Origin of Booking |
-| owner | `String` | Owner |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| purposeOfStay | `String` | Purpose of stay. |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateTier | `Float` | Tier ID for the Rate Detail. |
-| recordType | `String` | Record Type |
-| replyBy | `Date` | Date when the user gets a response to his/her claim. |
-| reservationNameID | `Float` | Reservation Name ID |
-| reservationStatus | `String` | Reservation Status |
-| room | `String` | Room |
-| submitter | `String` | Submitter |
-| totalBasePoints | `Float` | Total Base Points |
-| totalBonusPoints | `Float` | Total Bonus Points |
-| totalMiscPoints | `Float` | Total Miscellaneous Points |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | approvalStatus | `String` | Approval Status |
+| 2 | approveReject | `String` | Approve/Reject/None |
+| 3 | arrivalDate | `Date` | Arrival Date |
+| 4 | cExchangeDate | `Date` | Central Xchange Date |
+| 5 | cExchangeRate | `Float` | Central Xchange Rate |
+| 6 | cMembershipBaseRevenue | `Float` | Central Membership Base Revenue |
+| 7 | cMembershipBonusRevenue | `Float` | Central Membership Bonus Revenue |
+| 8 | callerInformation | `String` | Information about the caller. |
+| 9 | callerName | `String` | name of the person who called. |
+| 10 | chainCode | `String` | Chain Code |
+| 11 | channel | `String` | Channel |
+| 12 | claimAdjLimitCode | `String` | Claim Adj Limit Code |
+| 13 | claimDate | `Date` | Date claim was posted in the database. |
+| 14 | claimNumber | `Float` | Primary key. |
+| 15 | claimOrigin | `String` | User defined origin of claim. |
+| 16 | claimOwner | `Float` | Claim Owner |
+| 17 | claimSource | `String` | Source of the Claim |
+| 18 | claimStatus | `String` | Status of the claim. |
+| 19 | claimType | `String` | User Defined Claim Types |
+| 20 | closeDate | `Date` | Date and time cashier was closed. |
+| 21 | comments | `String` | Comments |
+| 22 | confirmationNumber | `String` | Confirmation Number |
+| 23 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 24 | deletedFlag | `String` | Deleted Flag |
+| 25 | departureDate | `Date` | Departure Date |
+| 26 | externalReferenceNumber | `String` | External Reference Number |
+| 27 | insertDate | `DateTime` | Insert Date |
+| 28 | insertUser | `Float` | Insert User |
+| 29 | jRNUpdateDate | `Date` | JRN Update Date |
+| 30 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 31 | marketCode | `String` | Market Code |
+| 32 | membershipBaseNights | `Float` | Membership Base Nights |
+| 33 | membershipBaseRevenue | `Float` | Membership Base Revenue |
+| 34 | membershipBaseStay | `Float` | Membership Base Stay |
+| 35 | membershipBonusNights | `Float` | Membership Bonus Nights |
+| 36 | membershipBonusRevenue | `Float` | Membership Bonus Revenue |
+| 37 | membershipBonusStay | `Float` | Membership Bonus Stay |
+| 38 | membershipClaimProperty | `String` | Membership Claim Property |
+| 39 | membershipId | `Float` | Membership ID |
+| 40 | membershipNumber | `String` | Membership Number |
+| 41 | membershipTransactionId | `Float` | Membership Trx ID |
+| 42 | membershipType | `String` | Membership Type |
+| 43 | name | `String` | Name |
+| 44 | nameId | `Float` | Name ID |
+| 45 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 46 | originOfBooking | `String` | Origin of Booking |
+| 47 | owner | `String` | Owner |
+| 48 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 49 | purposeOfStay | `String` | Purpose of stay. |
+| 50 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 51 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 52 | rateCode | `String` | Rate Code |
+| 53 | rateTier | `Float` | Tier ID for the Rate Detail. |
+| 54 | recordType | `String` | Record Type |
+| 55 | replyBy | `Date` | Date when the user gets a response to his/her claim. |
+| 56 | reservationNameID | `Float` | Reservation Name ID |
+| 57 | reservationStatus | `String` | Reservation Status |
+| 58 | room | `String` | Room |
+| 59 | submitter | `String` | Submitter |
+| 60 | totalBasePoints | `Float` | Total Base Points |
+| 61 | totalBonusPoints | `Float` | Total Bonus Points |
+| 62 | totalMiscPoints | `Float` | Total Miscellaneous Points |
+| 63 | updateDate | `DateTime` | Update Date |
+| 64 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -288,28 +288,28 @@
 
 ### ProfilesLoyaltyMembershipHistoryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actionID | `Float` | Action ID |
-| actionType | `String` | Action Type |
-| chainCode | `String` | Chain Code |
-| changeType | `String` | Change Type |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| extractBatchId | `Float` | Internal batch id. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| insertUserName | `String` | The name of the user who created the record. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| membershipID | `Float` | Membership ID |
-| newValue | `String` | New Value |
-| oldValue | `String` | Old Value |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actionID | `Float` | Action ID |
+| 2 | actionType | `String` | Action Type |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | changeType | `String` | Change Type |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | description | `String` | Description |
+| 8 | extractBatchId | `Float` | Internal batch id. |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | insertUserName | `String` | The name of the user who created the record. |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | membershipID | `Float` | Membership ID |
+| 15 | newValue | `String` | New Value |
+| 16 | oldValue | `String` | Old Value |
+| 17 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 18 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 19 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 20 | rnaUpdateDate | `DateTime` | RnA Updatedate |
 
 [⬆ Back to Query](#query)
 
@@ -317,95 +317,95 @@
 
 ### ProfilesLoyaltyMembershipIssuedAwardsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actualCancelPoints | `Float` | Actual penalty points applied while cancelling the reservation_award record. |
-| arrivalDate | `Date` | Arrival Date |
-| autoConsumedYn | `String` | Should award be auto consumed when. |
-| awardBasedOn | `String` | Award Based On |
-| awardCode | `String` | Award Code |
-| awardCodeDescription | `String` | Award Code Description |
-| awardConsumedYn | `String` | Flag to indicate that award has been consumed. |
-| awardID | `Float` | Award ID |
-| awardStatus | `String` | Current status of the award. |
-| awardValue | `Float` | Value of the award in central currency. |
-| awardVoucherNo | `String` | Award Voucher Number |
-| billingGroup | `String` | Billing Group |
-| cAwardValue | `Float` | Central Award Value |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRedeemedCentralAmount | `Float` | Central Redeemed Central Amount |
-| cRedeemedLocalAmount | `Float` | Central Redeemed Local Amount |
-| cTotalCentralAmount | `Float` | Central Total Central Amount |
-| cTotalLocalAmount | `Float` | Central Total Local Amount |
-| cancelDate | `Date` | When award was cancelled. |
-| cancelDays | `Float` | Number days before arrival to apply penalty for cancellation. |
-| cancelMemberStatementId | `Float` | Member statement ID. |
-| cancelPolicyType | `String` | Cancel Policy Type |
-| cancelStatementId | `Float` | Internal statement number. |
-| cancellationNumber | `Float` | Unique id for the award cancellation if cancelled |
-| cancelledYN | `String` | Cancelled YN |
-| centralCurrencyCode | `String` | Central Currency Code |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| confirmationNumber | `String` | Confirmation Number |
-| consumptionDate | `Date` | Consumption Date |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateAwarded | `Date` | Date when award was issued. |
-| dateOfExpiry | `Date` | Date when award is going to expire. |
-| deletedFlag | `String` | Deleted Flag |
-| departureDate | `Date` | Departure Date |
-| exchangeRate | `Float` | Exchange Rate |
-| exchangeRateType | `String` | Exchange Rate Type |
-| extTrxNumber | `String` | External system transaction no. |
-| externalReferenceNumber | `String` | External Reference Number |
-| fromRoomLabel | `String` | Room label before the upgrade in case of an upgrade award |
-| fromRoomLabelName | `String` | Used when award is based on upgrade of room. Indicates the room label from which upgrade took place. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| invRoomCategory | `String` | The room category which is valid for this property. |
-| issuedManuallyYn | `String` | Issued Manually? |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| localReservationNameId | `Float` | Local Resv Name ID |
-| memberStatementId | `Float` | Member Statement ID |
-| membershipAwardId | `Float` | Internal PK for the table. |
-| membershipAwardProperty | `String` | Membership Award Property |
-| membershipId | `Float` | Membership ID |
-| membershipLevel | `String` | Membership Level |
-| membershipNumber | `String` | Membership Number |
-| membershipType | `String` | Membership Type |
-| nameID | `Float` | Name ID |
-| numberOfNights | `Float` | Number of Nights |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| penaltyPoints | `Float` | Number of cancel penalty points. |
-| pmsCurrencyCode | `String` | Pms Currency Code |
-| points | `Float` | Points |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| product | `String` | Product |
-| ptsSchCode | `String` | Pts Sch Code |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| redeemedCentralAmount | `Float` | Amount value redeemed.(central/OCIS currency) |
-| redeemedLocalAmount | `Float` | Redeemed amount for points on bill in local (PMS) currency. This column is for Information purpose only. |
-| reservationCancelNumber | `String` | Reservation Cancel Number |
-| reservationNameID | `Float` | Reservation Name ID |
-| reservationStatus | `String` | Reservation Status |
-| roomLabel | `String` | Room Label |
-| roomLabelName | `String` | Room label when award is based on rate. Indicates what room category was used with rate code. |
-| source | `String` | Origin of the award. |
-| statementId | `Float` | Statement ID |
-| stayDate | `Date` | Stay Date |
-| stayRecordId | `Float` | Stay Record ID |
-| toRoomLabel | `String` | Room label after the upgrade for an upgrade award |
-| toRoomLabelName | `String` | Used when award is based on upgrade of room. Indicates the room label to which upgrade took place. |
-| totalCentralAmount | `Float` | Total amount.(central/OCIS currency) |
-| totalLocalAmount | `Float` | Total amount on bill in local (PMS) currency. This column is for Information purpose only. |
-| trxCode | `String` | Transaction Code |
-| trxNumber | `Float` | Transaction No |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actualCancelPoints | `Float` | Actual penalty points applied while cancelling the reservation_award record. |
+| 2 | arrivalDate | `Date` | Arrival Date |
+| 3 | autoConsumedYn | `String` | Should award be auto consumed when. |
+| 4 | awardBasedOn | `String` | Award Based On |
+| 5 | awardCode | `String` | Award Code |
+| 6 | awardCodeDescription | `String` | Award Code Description |
+| 7 | awardConsumedYn | `String` | Flag to indicate that award has been consumed. |
+| 8 | awardID | `Float` | Award ID |
+| 9 | awardStatus | `String` | Current status of the award. |
+| 10 | awardValue | `Float` | Value of the award in central currency. |
+| 11 | awardVoucherNo | `String` | Award Voucher Number |
+| 12 | billingGroup | `String` | Billing Group |
+| 13 | cAwardValue | `Float` | Central Award Value |
+| 14 | cExchangeDate | `Date` | Central Xchange Date |
+| 15 | cExchangeRate | `Float` | Central Xchange Rate |
+| 16 | cRedeemedCentralAmount | `Float` | Central Redeemed Central Amount |
+| 17 | cRedeemedLocalAmount | `Float` | Central Redeemed Local Amount |
+| 18 | cTotalCentralAmount | `Float` | Central Total Central Amount |
+| 19 | cTotalLocalAmount | `Float` | Central Total Local Amount |
+| 20 | cancelDate | `Date` | When award was cancelled. |
+| 21 | cancelDays | `Float` | Number days before arrival to apply penalty for cancellation. |
+| 22 | cancelMemberStatementId | `Float` | Member statement ID. |
+| 23 | cancelPolicyType | `String` | Cancel Policy Type |
+| 24 | cancelStatementId | `Float` | Internal statement number. |
+| 25 | cancellationNumber | `Float` | Unique id for the award cancellation if cancelled |
+| 26 | cancelledYN | `String` | Cancelled YN |
+| 27 | centralCurrencyCode | `String` | Central Currency Code |
+| 28 | chainCode | `String` | Chain Code |
+| 29 | comments | `String` | Comments |
+| 30 | confirmationNumber | `String` | Confirmation Number |
+| 31 | consumptionDate | `Date` | Consumption Date |
+| 32 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 33 | dateAwarded | `Date` | Date when award was issued. |
+| 34 | dateOfExpiry | `Date` | Date when award is going to expire. |
+| 35 | deletedFlag | `String` | Deleted Flag |
+| 36 | departureDate | `Date` | Departure Date |
+| 37 | exchangeRate | `Float` | Exchange Rate |
+| 38 | exchangeRateType | `String` | Exchange Rate Type |
+| 39 | extTrxNumber | `String` | External system transaction no. |
+| 40 | externalReferenceNumber | `String` | External Reference Number |
+| 41 | fromRoomLabel | `String` | Room label before the upgrade in case of an upgrade award |
+| 42 | fromRoomLabelName | `String` | Used when award is based on upgrade of room. Indicates the room label from which upgrade took place. |
+| 43 | insertDate | `DateTime` | Insert Date |
+| 44 | insertUser | `Float` | Insert User |
+| 45 | invRoomCategory | `String` | The room category which is valid for this property. |
+| 46 | issuedManuallyYn | `String` | Issued Manually? |
+| 47 | jRNUpdateDate | `Date` | JRN Update Date |
+| 48 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 49 | localReservationNameId | `Float` | Local Resv Name ID |
+| 50 | memberStatementId | `Float` | Member Statement ID |
+| 51 | membershipAwardId | `Float` | Internal PK for the table. |
+| 52 | membershipAwardProperty | `String` | Membership Award Property |
+| 53 | membershipId | `Float` | Membership ID |
+| 54 | membershipLevel | `String` | Membership Level |
+| 55 | membershipNumber | `String` | Membership Number |
+| 56 | membershipType | `String` | Membership Type |
+| 57 | nameID | `Float` | Name ID |
+| 58 | numberOfNights | `Float` | Number of Nights |
+| 59 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 60 | penaltyPoints | `Float` | Number of cancel penalty points. |
+| 61 | pmsCurrencyCode | `String` | Pms Currency Code |
+| 62 | points | `Float` | Points |
+| 63 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 64 | product | `String` | Product |
+| 65 | ptsSchCode | `String` | Pts Sch Code |
+| 66 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 67 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 68 | rateCode | `String` | Rate Code |
+| 69 | redeemedCentralAmount | `Float` | Amount value redeemed.(central/OCIS currency) |
+| 70 | redeemedLocalAmount | `Float` | Redeemed amount for points on bill in local (PMS) currency. This column is for Information purpose only. |
+| 71 | reservationCancelNumber | `String` | Reservation Cancel Number |
+| 72 | reservationNameID | `Float` | Reservation Name ID |
+| 73 | reservationStatus | `String` | Reservation Status |
+| 74 | roomLabel | `String` | Room Label |
+| 75 | roomLabelName | `String` | Room label when award is based on rate. Indicates what room category was used with rate code. |
+| 76 | source | `String` | Origin of the award. |
+| 77 | statementId | `Float` | Statement ID |
+| 78 | stayDate | `Date` | Stay Date |
+| 79 | stayRecordId | `Float` | Stay Record ID |
+| 80 | toRoomLabel | `String` | Room label after the upgrade for an upgrade award |
+| 81 | toRoomLabelName | `String` | Used when award is based on upgrade of room. Indicates the room label to which upgrade took place. |
+| 82 | totalCentralAmount | `Float` | Total amount.(central/OCIS currency) |
+| 83 | totalLocalAmount | `Float` | Total amount on bill in local (PMS) currency. This column is for Information purpose only. |
+| 84 | trxCode | `String` | Transaction Code |
+| 85 | trxNumber | `Float` | Transaction No |
+| 86 | updateDate | `DateTime` | Update Date |
+| 87 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -413,110 +413,110 @@
 
 ### ProfilesLoyaltyMembershipTransactionsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adjustmentYn | `String` | Adjustment Y/N |
-| arrivalDate | `Date` | Arrival Date |
-| automaticYn | `String` | Points calculated automatically |
-| averageRateAmount | `Float` | Average Rate Amount |
-| awardOrderNo | `Float` | Unique Identifier assigned to that award |
-| awardRequestId | `Float` | Unique award request id. |
-| baseBillingGroup | `String` | Billing group for base award points. |
-| baseNights | `Float` | Base Nights |
-| basePoints | `Float` | Base Points |
-| baseRevenue | `Float` | Base Revenue |
-| baseStay | `Float` | Base Stay |
-| billingGroup | `String` | Billing Group |
-| bonusBillingGroup | `String` | Billing group for bonus award points. |
-| bonusNights | `Float` | Bonus Nights |
-| bonusPoints | `Float` | Bonus Points |
-| bonusRevenue | `Float` | Bonus Revenue |
-| bonusStay | `Float` | Bonus Stay |
-| bookedRoomLabel | `String` | Booked Room Label |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cTotalEligibleCreditEarn | `Float` | Central Total Eligible Credit Earn |
-| cTotalRevenue | `Float` | Central Total Revenue |
-| cRSBookingNumber | `String` | CRS Booking Number |
-| centralBaseRevenue | `Float` | Central Base Revenue |
-| centralBonusRevenue | `Float` | Central Bonus Revenue |
-| centralPointsCost | `Float` | Central Points Cost |
-| chainCode | `String` | Chain Code |
-| claimAdjLimitCode | `String` | Claim Adj Limit Code |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dataExportedDate | `Date` | Date when the record was exported. |
-| dataExportedYn | `String` | Flag to indicate if record was exported. |
-| deletedFlag | `String` | Deleted Flag |
-| departureDate | `Date` | Departure Date |
-| exceptionType | `String` | Exception Type |
-| exchRateId | `Float` | Exchange rate ID for 'TRF' transactions. |
-| expirationDate | `DateTime` | Point Expiration date. |
-| graceRenewalFlg | `String` | This flag indicate if grace renewals was done. |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| memberStatementId | `Float` | Member Statement ID |
-| membershipCardNo | `String` | Membership Card Number |
-| membershipId | `Float` | Membership ID |
-| membershipLevel | `String` | Membership Level |
-| membershipTransactionId | `Float` | Membership Trx ID |
-| membershipTransactionLinkId | `Float` | Membership Trx Link ID |
-| membershipType | `String` | Membership Type |
-| miscPoints | `Float` | Miscellaneous Points |
-| multipleMembershipId | `Float` | Multiple Membership ID |
-| nameId | `Float` | Name ID |
-| newMemberLevel | `String` | Used in membership tier upgrade rule to indicate new membership level. |
-| nights | `Float` | Nights |
-| nightsNo | `Float` | Nights Number |
-| notes | `String` | Notes |
-| oldBalancePoints | `Float` | Points prior to this transaction |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| origMemberLevel | `String` | Used in membership tier upgrade rule to indicate original member level was upgraded to. |
-| origPointsExpirationDate | `DateTime` | Date when points expired before it was extended. |
-| pMSReservationNo | `String` | PMS Reservation Number |
-| parentMembershipTransactionId | `Float` | Ref to parent transaction. |
-| pmsNameId | `String` | Pms Name ID |
-| pmsReservationNameId | `String` | Pms Resv Name ID |
-| pointsAcYn | `String` | Iindicate membership exceptions of back to back stay and multiple rooms. Valid values are YN and E. |
-| pointsCalculationYN | `String` | Flag to indicate if points are calculated. |
-| pointsCost | `Float` | Points Cost |
-| pointsCreditDate | `Date` | Date when points were created. |
-| pointsRejectedReason | `String` | Point reject reason. |
-| pointsRule | `String` | Rule code for adjustment transactions. |
-| populationMethod | `String` | Population Method |
-| posCode | `String` | Pos Code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| processingMessages | `String` | Any error messages generated during calculation. |
-| profilePromotion1 | `String` | Profile Promotion 1 |
-| profilePromotion2 | `String` | Profile Promotion 2 |
-| property | `String` | Code to uniquely identify the Property |
-| qualifyingNights | `Float` | Number of membership qualifying nights on a reservation. |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ratePromotionCode | `String` | Rate Promotion Code |
-| ratePromotionDescription | `String` | Rate Promotion Description |
-| recordTypeCode | `String` | Record Type Code |
-| recordTypeDescription | `String` | Record Type Description |
-| reference | `String` | Reference |
-| reservationNameID | `Float` | Reservation Name ID |
-| reservationStatus | `String` | Reservation Status |
-| roomLabel | `String` | Room Label |
-| statementId | `Float` | Statement ID |
-| stay | `Float` | Total stay. |
-| stayRecordId | `Float` | Stay Record ID |
-| tierAction | `String` | Type of action performed. |
-| totalEligibleAwardRedeem | `Float` | Total monetary value of transactions on the guest account eligible to redeem Instant Award payments. |
-| totalEligibleCreditEarn | `Float` | Total monetary value of transactions on the guest account eligible to earn membership credits. |
-| totalPoints | `Float` | Total Points |
-| totalRevenue | `Float` | Total Revenue |
-| transactionDate | `Date` | Transaction date. |
-| transactionType | `String` | Transaction Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| username | `String` | Username |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adjustmentYn | `String` | Adjustment Y/N |
+| 2 | arrivalDate | `Date` | Arrival Date |
+| 3 | automaticYn | `String` | Points calculated automatically |
+| 4 | averageRateAmount | `Float` | Average Rate Amount |
+| 5 | awardOrderNo | `Float` | Unique Identifier assigned to that award |
+| 6 | awardRequestId | `Float` | Unique award request id. |
+| 7 | baseBillingGroup | `String` | Billing group for base award points. |
+| 8 | baseNights | `Float` | Base Nights |
+| 9 | basePoints | `Float` | Base Points |
+| 10 | baseRevenue | `Float` | Base Revenue |
+| 11 | baseStay | `Float` | Base Stay |
+| 12 | billingGroup | `String` | Billing Group |
+| 13 | bonusBillingGroup | `String` | Billing group for bonus award points. |
+| 14 | bonusNights | `Float` | Bonus Nights |
+| 15 | bonusPoints | `Float` | Bonus Points |
+| 16 | bonusRevenue | `Float` | Bonus Revenue |
+| 17 | bonusStay | `Float` | Bonus Stay |
+| 18 | bookedRoomLabel | `String` | Booked Room Label |
+| 19 | cExchangeDate | `Date` | Central Xchange Date |
+| 20 | cExchangeRate | `Float` | Central Xchange Rate |
+| 21 | cTotalEligibleCreditEarn | `Float` | Central Total Eligible Credit Earn |
+| 22 | cTotalRevenue | `Float` | Central Total Revenue |
+| 23 | cRSBookingNumber | `String` | CRS Booking Number |
+| 24 | centralBaseRevenue | `Float` | Central Base Revenue |
+| 25 | centralBonusRevenue | `Float` | Central Bonus Revenue |
+| 26 | centralPointsCost | `Float` | Central Points Cost |
+| 27 | chainCode | `String` | Chain Code |
+| 28 | claimAdjLimitCode | `String` | Claim Adj Limit Code |
+| 29 | currencyCode | `String` | Currency Code |
+| 30 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 31 | dataExportedDate | `Date` | Date when the record was exported. |
+| 32 | dataExportedYn | `String` | Flag to indicate if record was exported. |
+| 33 | deletedFlag | `String` | Deleted Flag |
+| 34 | departureDate | `Date` | Departure Date |
+| 35 | exceptionType | `String` | Exception Type |
+| 36 | exchRateId | `Float` | Exchange rate ID for 'TRF' transactions. |
+| 37 | expirationDate | `DateTime` | Point Expiration date. |
+| 38 | graceRenewalFlg | `String` | This flag indicate if grace renewals was done. |
+| 39 | inactiveDate | `Date` | Inactive Date |
+| 40 | insertDate | `DateTime` | Insert Date |
+| 41 | insertUser | `Float` | Insert User |
+| 42 | jRNUpdateDate | `Date` | JRN Update Date |
+| 43 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 44 | memberStatementId | `Float` | Member Statement ID |
+| 45 | membershipCardNo | `String` | Membership Card Number |
+| 46 | membershipId | `Float` | Membership ID |
+| 47 | membershipLevel | `String` | Membership Level |
+| 48 | membershipTransactionId | `Float` | Membership Trx ID |
+| 49 | membershipTransactionLinkId | `Float` | Membership Trx Link ID |
+| 50 | membershipType | `String` | Membership Type |
+| 51 | miscPoints | `Float` | Miscellaneous Points |
+| 52 | multipleMembershipId | `Float` | Multiple Membership ID |
+| 53 | nameId | `Float` | Name ID |
+| 54 | newMemberLevel | `String` | Used in membership tier upgrade rule to indicate new membership level. |
+| 55 | nights | `Float` | Nights |
+| 56 | nightsNo | `Float` | Nights Number |
+| 57 | notes | `String` | Notes |
+| 58 | oldBalancePoints | `Float` | Points prior to this transaction |
+| 59 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 60 | origMemberLevel | `String` | Used in membership tier upgrade rule to indicate original member level was upgraded to. |
+| 61 | origPointsExpirationDate | `DateTime` | Date when points expired before it was extended. |
+| 62 | pMSReservationNo | `String` | PMS Reservation Number |
+| 63 | parentMembershipTransactionId | `Float` | Ref to parent transaction. |
+| 64 | pmsNameId | `String` | Pms Name ID |
+| 65 | pmsReservationNameId | `String` | Pms Resv Name ID |
+| 66 | pointsAcYn | `String` | Iindicate membership exceptions of back to back stay and multiple rooms. Valid values are YN and E. |
+| 67 | pointsCalculationYN | `String` | Flag to indicate if points are calculated. |
+| 68 | pointsCost | `Float` | Points Cost |
+| 69 | pointsCreditDate | `Date` | Date when points were created. |
+| 70 | pointsRejectedReason | `String` | Point reject reason. |
+| 71 | pointsRule | `String` | Rule code for adjustment transactions. |
+| 72 | populationMethod | `String` | Population Method |
+| 73 | posCode | `String` | Pos Code |
+| 74 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 75 | processingMessages | `String` | Any error messages generated during calculation. |
+| 76 | profilePromotion1 | `String` | Profile Promotion 1 |
+| 77 | profilePromotion2 | `String` | Profile Promotion 2 |
+| 78 | property | `String` | Code to uniquely identify the Property |
+| 79 | qualifyingNights | `Float` | Number of membership qualifying nights on a reservation. |
+| 80 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 81 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 82 | ratePromotionCode | `String` | Rate Promotion Code |
+| 83 | ratePromotionDescription | `String` | Rate Promotion Description |
+| 84 | recordTypeCode | `String` | Record Type Code |
+| 85 | recordTypeDescription | `String` | Record Type Description |
+| 86 | reference | `String` | Reference |
+| 87 | reservationNameID | `Float` | Reservation Name ID |
+| 88 | reservationStatus | `String` | Reservation Status |
+| 89 | roomLabel | `String` | Room Label |
+| 90 | statementId | `Float` | Statement ID |
+| 91 | stay | `Float` | Total stay. |
+| 92 | stayRecordId | `Float` | Stay Record ID |
+| 93 | tierAction | `String` | Type of action performed. |
+| 94 | totalEligibleAwardRedeem | `Float` | Total monetary value of transactions on the guest account eligible to redeem Instant Award payments. |
+| 95 | totalEligibleCreditEarn | `Float` | Total monetary value of transactions on the guest account eligible to earn membership credits. |
+| 96 | totalPoints | `Float` | Total Points |
+| 97 | totalRevenue | `Float` | Total Revenue |
+| 98 | transactionDate | `Date` | Transaction date. |
+| 99 | transactionType | `String` | Transaction Type |
+| 100 | updateDate | `DateTime` | Update Date |
+| 101 | updateUser | `Float` | Update User |
+| 102 | username | `String` | Username |
 
 [⬆ Back to Query](#query)
 
@@ -524,52 +524,52 @@
 
 ### ProfilesLoyaltyMembershipTransactionHeaderDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| batchIDCode | `Float` | Batch ID Code |
-| cardNumber | `String` | Card Number |
-| chainCode | `String` | Chain Code |
-| complete | `Float` | Complete |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deleted | `Float` | Deleted |
-| deletedFlag | `String` | Deleted Flag |
-| error | `Float` | Error message. |
-| evaluationDate | `Date` | Date for which routine had run. |
-| expirationDate | `Date` | Old membership card expiration date before upgradedowngrade or renewal. |
-| fromDate | `Date` | Period for which member transactions were evaluated. From date. |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| joinDate | `Date` | Join Date |
-| level | `String` | Old membership level before upgrade or downgrade. |
-| locked | `Float` | Locked |
-| log | `String` | Shows log of how and what was evaluated for the member. |
-| memError | `String` | Shows errors if any while processing for a member. |
-| membershipId | `Float` | Membership ID |
-| membershipType | `String` | Membership Type |
-| membershipTypeDescription | `String` | Membership Type Description |
-| name | `String` | Name |
-| newExpirationDate | `Date` | New membership card expiration date after upgradedowngrade or renewal. |
-| newMembershipLevel | `String` | New membership level. |
-| orderBy | `Float` | Order By |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pending | `Float` | Pending |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| process | `String` | Process |
-| processDate | `DateTime` | Process Date |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reQualifyYn | `String` | Indicates if the re-qualification process was done. |
-| recordStatus | `String` | Status of the record. like (NEW ERROR). Initial value is  NEW. |
-| recordType | `String` | Record Type |
-| reportError | `String` | Shows errors if any while processing for report at report level. |
-| reportLog | `String` | Report Log. |
-| reportStatus | `String` | Status of the report. For future use. |
-| rfmScoreHdrId | `Float` | Rfm Score Hdr ID |
-| tmrActiveYn | `String` | Indicates if the batch is run for Tier Management Reset(TMR) flag active. |
-| toDate | `Date` | Period for which member transactions were evaluated. To date. |
-| total | `Float` | Total number of records to resync |
-| user | `String` | User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | batchIDCode | `Float` | Batch ID Code |
+| 2 | cardNumber | `String` | Card Number |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | complete | `Float` | Complete |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deleted | `Float` | Deleted |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | error | `Float` | Error message. |
+| 9 | evaluationDate | `Date` | Date for which routine had run. |
+| 10 | expirationDate | `Date` | Old membership card expiration date before upgradedowngrade or renewal. |
+| 11 | fromDate | `Date` | Period for which member transactions were evaluated. From date. |
+| 12 | insertUser | `Float` | Insert User |
+| 13 | jRNUpdateDate | `Date` | JRN Update Date |
+| 14 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 15 | joinDate | `Date` | Join Date |
+| 16 | level | `String` | Old membership level before upgrade or downgrade. |
+| 17 | locked | `Float` | Locked |
+| 18 | log | `String` | Shows log of how and what was evaluated for the member. |
+| 19 | memError | `String` | Shows errors if any while processing for a member. |
+| 20 | membershipId | `Float` | Membership ID |
+| 21 | membershipType | `String` | Membership Type |
+| 22 | membershipTypeDescription | `String` | Membership Type Description |
+| 23 | name | `String` | Name |
+| 24 | newExpirationDate | `Date` | New membership card expiration date after upgradedowngrade or renewal. |
+| 25 | newMembershipLevel | `String` | New membership level. |
+| 26 | orderBy | `Float` | Order By |
+| 27 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 28 | pending | `Float` | Pending |
+| 29 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 30 | process | `String` | Process |
+| 31 | processDate | `DateTime` | Process Date |
+| 32 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 33 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 34 | reQualifyYn | `String` | Indicates if the re-qualification process was done. |
+| 35 | recordStatus | `String` | Status of the record. like (NEW ERROR). Initial value is  NEW. |
+| 36 | recordType | `String` | Record Type |
+| 37 | reportError | `String` | Shows errors if any while processing for report at report level. |
+| 38 | reportLog | `String` | Report Log. |
+| 39 | reportStatus | `String` | Status of the report. For future use. |
+| 40 | rfmScoreHdrId | `Float` | Rfm Score Hdr ID |
+| 41 | tmrActiveYn | `String` | Indicates if the batch is run for Tier Management Reset(TMR) flag active. |
+| 42 | toDate | `Date` | Period for which member transactions were evaluated. To date. |
+| 43 | total | `Float` | Total number of records to resync |
+| 44 | user | `String` | User |
 
 [⬆ Back to Query](#query)
 
@@ -577,15 +577,15 @@
 
 ### ProfilesLoyaltyExpirePointsByDateDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| expirationDate | `DateTime` | Point Expiration date. |
-| expireByDate | `Float` | Expire By Date |
-| membershipId | `Float` | Membership ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| totalExpire | `Float` | Total Expire |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | expirationDate | `DateTime` | Point Expiration date. |
+| 4 | expireByDate | `Float` | Expire By Date |
+| 5 | membershipId | `Float` | Membership ID |
+| 6 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 7 | totalExpire | `Float` | Total Expire |
 
 [⬆ Back to Query](#query)
 
@@ -826,6 +826,11 @@
 | membershiptransactionsDetailsTransactionType | `StringInput` | Transaction Type |
 | membershiptransactionsDetailsUpdateDate | `DateTimeInput` | Update Date |
 | membershiptscheaderDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+#### Validation Rules
+
+**`mandatoryInput`**
+- loyaltyprofilemembershipDetailsMembershipType
+
 
 [⬆ Back to Query](#query)
 

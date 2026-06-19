@@ -16,22 +16,22 @@
 
 ### FinancialTransactionDetailsExtendedType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| financialUnifiedDetails | [`FinancialTransactionDetailsExtendedFinancialUnifiedDetailsType`](#financialtransactiondetailsextendedfinancialunifieddetailstype) | Financial Unified |
-| transactionCodeDetails | [`FinancialTransactionDetailsExtendedTransactionCodeDetailsType`](#financialtransactiondetailsextendedtransactioncodedetailstype) | Transaction Code |
-| fromReservationDetails | [`FinancialTransactionDetailsExtendedFromReservationDetailsType`](#financialtransactiondetailsextendedfromreservationdetailstype) | From Reservation Details |
-| guestProfileAllInformationDetails | [`FinancialTransactionDetailsExtendedGuestProfileAllInformationDetailsType`](#financialtransactiondetailsextendedguestprofileallinformationdetailstype) | Profile All Details |
-| payeeProfileDetails | [`FinancialTransactionDetailsExtendedPayeeProfileDetailsType`](#financialtransactiondetailsextendedpayeeprofiledetailstype) | Payee Profile Details |
-| payeeAddressDetails | [`FinancialTransactionDetailsExtendedPayeeAddressDetailsType`](#financialtransactiondetailsextendedpayeeaddressdetailstype) | Payee Address Details |
-| toReservationDetails | [`FinancialTransactionDetailsExtendedToReservationDetailsType`](#financialtransactiondetailsextendedtoreservationdetailstype) | To Reservation Details |
-| reservationUnifiedDetails | [`FinancialTransactionDetailsExtendedReservationUnifiedDetailsType`](#financialtransactiondetailsextendedreservationunifieddetailstype) | Reservation Unified |
-| reservationMembershipDetails | [`FinancialTransactionDetailsExtendedReservationMembershipDetailsType`](#financialtransactiondetailsextendedreservationmembershipdetailstype) | Reservation Membership |
-| folioTaxDetails | [`FinancialTransactionDetailsExtendedFolioTaxDetailsType`](#financialtransactiondetailsextendedfoliotaxdetailstype) | Folio Tax Details |
-| accountDetails | [`FinancialTransactionDetailsExtendedAccountDetailsType`](#financialtransactiondetailsextendedaccountdetailstype) | Account Details |
-| propertyPropertyDetails | [`FinancialTransactionDetailsExtendedPropertyPropertyDetailsType`](#financialtransactiondetailsextendedpropertypropertydetailstype) | Resort Details |
-| roomDetails | [`FinancialTransactionDetailsExtendedRoomDetailsType`](#financialtransactiondetailsextendedroomdetailstype) | Room Details |
-| financialTransactionDetailsExtendedRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | financialUnifiedDetails | [`FinancialTransactionDetailsExtendedFinancialUnifiedDetailsType`](#financialtransactiondetailsextendedfinancialunifieddetailstype) | Financial Unified |
+| 2 | transactionCodeDetails | [`FinancialTransactionDetailsExtendedTransactionCodeDetailsType`](#financialtransactiondetailsextendedtransactioncodedetailstype) | Transaction Code |
+| 3 | fromReservationDetails | [`FinancialTransactionDetailsExtendedFromReservationDetailsType`](#financialtransactiondetailsextendedfromreservationdetailstype) | From Reservation Details |
+| 4 | guestProfileAllInformationDetails | [`FinancialTransactionDetailsExtendedGuestProfileAllInformationDetailsType`](#financialtransactiondetailsextendedguestprofileallinformationdetailstype) | Profile All Details |
+| 5 | payeeProfileDetails | [`FinancialTransactionDetailsExtendedPayeeProfileDetailsType`](#financialtransactiondetailsextendedpayeeprofiledetailstype) | Payee Profile Details |
+| 6 | payeeAddressDetails | [`FinancialTransactionDetailsExtendedPayeeAddressDetailsType`](#financialtransactiondetailsextendedpayeeaddressdetailstype) | Payee Address Details |
+| 7 | toReservationDetails | [`FinancialTransactionDetailsExtendedToReservationDetailsType`](#financialtransactiondetailsextendedtoreservationdetailstype) | To Reservation Details |
+| 8 | reservationUnifiedDetails | [`FinancialTransactionDetailsExtendedReservationUnifiedDetailsType`](#financialtransactiondetailsextendedreservationunifieddetailstype) | Reservation Unified |
+| 9 | reservationMembershipDetails | [`FinancialTransactionDetailsExtendedReservationMembershipDetailsType`](#financialtransactiondetailsextendedreservationmembershipdetailstype) | Reservation Membership |
+| 10 | folioTaxDetails | [`FinancialTransactionDetailsExtendedFolioTaxDetailsType`](#financialtransactiondetailsextendedfoliotaxdetailstype) | Folio Tax Details |
+| 11 | accountDetails | [`FinancialTransactionDetailsExtendedAccountDetailsType`](#financialtransactiondetailsextendedaccountdetailstype) | Account Details |
+| 12 | propertyPropertyDetails | [`FinancialTransactionDetailsExtendedPropertyPropertyDetailsType`](#financialtransactiondetailsextendedpropertypropertydetailstype) | Resort Details |
+| 13 | roomDetails | [`FinancialTransactionDetailsExtendedRoomDetailsType`](#financialtransactiondetailsextendedroomdetailstype) | Room Details |
+| 14 | financialTransactionDetailsExtendedRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -39,210 +39,210 @@
 
 ### FinancialTransactionDetailsExtendedFinancialUnifiedDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRChargeTransferFlagYN | `String` | AR Charge Transfer YN |
-| aRLedgerCredit | `Float` | AR Ledger Credit |
-| aRLedgerDebit | `Float` | AR Ledger Debit |
-| aRState | `String` | AR State |
-| aRTransferDate | `Date` | AR Transfer Date |
-| accountCode | `Float` | Account Code |
-| accountNumber | `String` | Account Number |
-| addressId | `Float` | Address ID |
-| advanceBillReversedYN | `String` | Identifies if this Advance Bill has been reversed. |
-| advanceBillYn | `String` | Identifies if this transaction was generated by Advance Bill. |
-| advancedGenerateYN | `String` | The charge / generate is eligible as part of advanced generates functionality. |
-| advgenTtransCodeID | `String` | Advgen Ttrans Code ID |
-| arrangementCode | `String` | Arrangement Code |
-| arrangementDesc | `String` | Arrangement Description for the Transaction Code. |
-| articleId | `Float` | Article ID |
-| associatedTrxNumber | `Float` | Indicates the associated transaction number for a particular receipt type. |
-| attachedToUser | `String` | Application User Name |
-| authEmployeeID | `Float` | Auth Employee ID |
-| authorizer | `String` | Authorizer |
-| autoCreditbillYn | `String` | Indicates if this column was automatically created for Automatic Credit Bills. |
-| autoSettleYn | `String` | Auto Settle Y/N |
-| businessDate | `Date` | Business Date |
-| cCApproval | `String` | CC Approval Code |
-| cashierCode | `Float` | Cashier Code |
-| cashierCredit | `Float` | Cashier Credit |
-| cashierDebit | `Float` | Cashier Debit |
-| cashierID | `Float` | Cashier ID |
-| cashierName | `String` | Cashier Name |
-| cashierOpeningBalance | `Float` | Cashier Opening Balance |
-| ccRefundPosting | `String` | Identifies if this record was the result of a credit card refund possible values: REFUND or OVERRIDE.OVERRIDE means a user authorized a refund amount larger than the original cc charge. |
-| changesLogCheckIn | `String` | Changes Log Check In |
-| changesLogCheckOut | `String` | Changes Log Check Out |
-| changesLogCloseFolio | `String` | Changes Log Close Folio |
-| changesLogReopenFolio | `String` | Changes Log Reopen Folio |
-| changesLogUpdateReservation | `String` | Changes Log Update Reservation |
-| checkNumber | `String` | Check Number |
-| closureNumber | `Float` | Closure Number |
-| comments | `String` | Comments |
-| compLinkTrxCode | `String` | Trx code of original transaction that was turned into a comp |
-| compLinkTrxNumber | `Float` | Trx no of original transaction that was turned into a comp |
-| compTypeCode | `String` | Comp Type Code |
-| compressedYn | `String` | Compressed Y/N |
-| covers | `String` | Covers |
-| creditCardId | `Float` | Credit Card ID |
-| creditCardSurcharge | `Float` | Fee (surcharge) amount for a credit card transaction. |
-| creditYN | `String` | Credit YN |
-| currencyCode | `String` | Currency Code |
-| currencyDescription | `String` | Currency Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debitYN | `String` | Debit YN |
-| decimals | `Float` | Decimals |
-| deferredYn | `String` | Deferred Y/N |
-| depPostingFlag | `String` | Indicates if the posting is a deposit posting as part of the Guest Ledger Deposits functionality. Also indicates if the charge has been offset after checkin. Possible values [PRX] |
-| depTaxTransferedYn | `String` | Indicates if this row is a deposit tax which has been transfered. |
-| depositLedgerCredit | `Float` | Deposit Ledger Credit |
-| depositLedgerDebit | `Float` | Deposit Ledger Debit |
-| depositTransactionId | `String` | Deposit Transaction ID |
-| displayYN | `String` | Display YN |
-| euroExchangeRate | `Float` | Euro Exchange Rate |
-| exchangeDate | `Date` | Exchange Date |
-| exchangeDifferenceYN | `String` | Exchange Difference YN |
-| exchangeRate | `Float` | Exchange Rate |
-| exchangeType | `String` | Type of currency exchange conducted.  Possible values: [E]xchange [S]ettlement [C]ommission [M]embership [EC] Exchange Check [P]osting. |
-| financialDmlSeqNumber | `Float` | Number to identify the DML sequence. |
-| fiscalBillNo | `String` | Fiscal Bill Number |
-| fixedChargesYN | `String` | Fixed Charges YN |
-| folio | `Float` | Folio |
-| folioNo | `Float` | Folio Number |
-| folioType | `String` | Folio Type |
-| folioView | `Float` | Folio View |
-| foreignCurrencyCode | `String` | Foreign Currency Code |
-| fromReservationId | `Float` | From Resv ID |
-| ftGeneratedType | `String` | Column has become unused after the chage of business rules down the line. |
-| ftSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
-| genCashierId | `Float` | General Cashier Id. |
-| generalCashierYN | `String` | Determines whether the cashier is a General cashier. |
-| grossAmount | `Float` | Gross Amount |
-| guestAccountLedgerCredit | `Float` | Guest Account Ledger Credit |
-| guestAccountLedgerDebit | `Float` | Debit amount on the guest account |
-| inHouseCredit | `Float` | In-House Credit |
-| inHouseDebit | `Float` | In-House Debit |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| insertUserName | `String` | The name of the user who created the record. |
-| interfaceCashierYN | `String` | Decides whether the cashier number is used in interfaces or not. The interface cashiers cannot have numbers more than 999. |
-| internalArticleid | `Float` | Articleid |
-| internalWindowId | `Float` | Internal Window ID |
-| internalYN | `String` | Internal YN |
-| invoiceCloseDate | `Date` | Invoice Close Date |
-| invoiceNumber | `Float` | Invoice Number |
-| invoiceType | `String` | Invoice Type |
-| linkTrxNumber | `Float` | Link Transaction No |
-| marketCode | `String` | Market Code |
-| marketDescription | `String` | Market Description |
-| membershipID | `Float` | Membership ID |
-| mtrxNoAgainstPackage | `Float` | Sequence number generated automatically when packages are posted during manual room and tax. |
-| nameTaxType | `String` | Name Tax Type |
-| netAmount | `Float` | Net Amount |
-| nonRevenueAmount | `Float` | Non Revenue Amount |
-| numberDialed | `String` | Number Dialed. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originalARLedgerDebit | `Float` | Stores the original AR ledger debit amount for Direct Bill transactions. |
-| originalBillNumber | `Float` | Stores original bill number after void. |
-| originalFolioNumber | `String` | Stores original folio type after void. |
-| originalReservationNameId | `Float` | Original Resv Name ID |
-| originalRoom | `String` | Original Room |
-| package | `String` | Package |
-| packageAllowance | `Float` | Package Allowance amount of a package that has an allowance. |
-| packageArrangementCode | `String` | Arrangement code from the package associated to this transaction. |
-| packageLedgerCredit | `Float` | Credit amount on the guest package account. |
-| packageLedgerDebit | `Float` | Debit amount on the guest package account |
-| packageTrxType | `String` | Identifies the type of a package posting. Possible values are: PKG_WRAPPER INCLTAX_PKG_ROOM EXCLTAX_PKG_ROOM INCLTAX_PKG_WITH_ALLOWANCE EXCLTAX_PKG_WITH_ALLOWANCE INCLTAX_PKG_WITHOUT_ALLOWANCE EXCLTAX_PKG_WITHOUT_ALLOWANCE |
-| passerByName | `String` | Passerby Name. |
-| payeeNameID | `Float` | Name Id to which it should be routed. |
-| payeeResvNameID | `Float` | Payee Resv Name ID |
-| paymentSurchargeAmt | `Float` | Payment Surcharge Amount. |
-| paymentSurchargeType | `String` | Payment Surcharge Type. Currency for the CASH payment method. |
-| paymentType | `String` | Payment Type |
-| paymentsReference | `String` | Payments-Reference |
-| postedAmountInBaseCurrency | `Float` | Posted Amount in Base Currency |
-| postedAmountInTransactionCurrency | `Float` | Posted Amount in Transaction Currency |
-| postingDate | `DateTime` | Posting Date |
-| postingRhythm | `String` | Posting Rhythm |
-| postingSourceNameId | `Float` | Source Profile of the posting coming from IFC. Related to 9700 functionality. |
-| postingType | `String` | Indicates if the posting is part of a rate code posting (RATE CODE) or if posted manually (MANUAL). |
-| postitNo | `Float` | Postit Number |
-| postitYn | `String` | Postit Y/N |
-| pricePerUnit | `Float` | Price Per Unit |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| profileID | `Float` | Profile ID |
-| profitLossFlag | `String` | Populated with [P] for package profit and [L] for package loss transactions. |
-| proformaYN | `String` | Proforma Y/N |
-| property | `String` | Property |
-| quantity | `Float` | Quantity |
-| queueName | `String` | Queue Name |
-| rateCode | `String` | Rate Code |
-| receiptNumber | `Float` | Receipt Number |
-| receiptType | `String` | Indicates the receipt type. Different receipts are identified by different types |
-| repTransactionCode | `String` | Reporting Trx Code |
-| repTransactionCodeGroup | `String` | Reporting Tc Group |
-| repTransactionCodeGroupDescription | `String` | Reporting Tc Group Desc |
-| repTransactionCodeSubgroup | `String` | Reporting Tc Subgroup |
-| repTransactionCodeSubgroupDescription | `String` | Reporting Tc Subgroup Desc |
-| reservationDepositId | `Float` | Stores Reservation_deposit_schedule_id from RESERVATION_DEPOSIT_SCHEDULE table  to link the deposit payment to the deposit request. |
-| reservationNameID | `Float` | Reservation Name ID |
-| revenueAmount | `Float` | Revenue Amount. |
-| reversePaymentTrxNumber | `Float` | Stores the trx_no of the reversed payment. |
-| roomClass | `String` | Room Class |
-| roomNts | `Float` | Room Nts |
-| roomNtsEffective | `Float` | Stores the effective room nights with decimals making it significant for postings splits edits and adjustments. Required by B&B Hotels. |
-| roomNumber | `String` | Room Number |
-| roundFactorYn | `String` | Round Factor Y/N |
-| roundLinkTrxno | `Float` | TRX_NO of the transaction associated with this rounding factor posting. |
-| routedYn | `String` | Indicates if the transaction has been routed. |
-| routingCode | `String` | Routing Code |
-| routingCodeDescription | `String` | Routing Code Description |
-| routingDate | `Date` | Routing date for comp routings - populated only if routed transaction has trx date less than business date. |
-| routingIinstructionID | `Float` | Routing Iinstruction ID |
-| routingInstrnId | `Float` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
-| routingType | `String` | To specify whether it is a package routing or not |
-| settlementFlag | `String` | Settlement Flag |
-| sourceCode | `String` | Source Code |
-| sourceDescription | `String` | Source Description |
-| supplement | `String` | Supplement |
-| tRXCode | `String` | Transaction Code |
-| targetResort | `String` | Target Property |
-| taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
-| taxElements | `String` | Tax Elements |
-| taxGeneratedYN | `String` | Tax Generated YN |
-| taxInclusiveYN | `String` | Tax Inclusive YN |
-| tcGroup | `String` | Transaction Code Group |
-| tcSubgroup | `String` | Transaction Code Subgroup |
-| thresholdDiversionId | `Float` | Threshold Diversion ID |
-| thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| thresholdEntityType | `String` | Threshold Entity Type |
-| thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| toReservationNameId | `Float` | To Resv Name ID |
-| tranActionId | `Float` | Tran Action ID |
-| transCodeArrangementID | `Float` | Trans Code Arrangement ID |
-| transactionActivityDate | `Date` | Transaction Activity Date |
-| transactionCodeDescription | `String` | Transaction Code Description |
-| transactionCodeGroupDesc | `String` | Tc Group Description |
-| transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
-| transactionDate | `Date` | Transaction Date |
-| transactionNumberAddedBy | `Float` | Transaction Number Added By |
-| transactionPostingDate | `Date` | Transaction Posting Date |
-| transactionPostingTime | `String` | Time transaction was posted. |
-| transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
-| transactionType | `String` | Transaction Type |
-| transactionFromAccount | `Float` | Transaction from Account |
-| transactionToAccount | `Float` | Transaction to Account |
-| transferFromAccountID | `Float` | Transfer from Account ID |
-| transferToAccountID | `Float` | Transfer to Account ID |
-| trxNo | `Float` | Trx Number |
-| trxNoAgainstPackage | `Float` | Trx Number Against Package |
-| trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| trxNumberHeader | `Float` | Transaction No Header |
-| trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| trxServiceType | `String` | Transaction Service Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| vatAmount | `Float` | Tax Amount for Commission. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRChargeTransferFlagYN | `String` | AR Charge Transfer YN |
+| 2 | aRLedgerCredit | `Float` | AR Ledger Credit |
+| 3 | aRLedgerDebit | `Float` | AR Ledger Debit |
+| 4 | aRState | `String` | AR State |
+| 5 | aRTransferDate | `Date` | AR Transfer Date |
+| 6 | accountCode | `Float` | Account Code |
+| 7 | accountNumber | `String` | Account Number |
+| 8 | addressId | `Float` | Address ID |
+| 9 | advanceBillReversedYN | `String` | Identifies if this Advance Bill has been reversed. |
+| 10 | advanceBillYn | `String` | Identifies if this transaction was generated by Advance Bill. |
+| 11 | advancedGenerateYN | `String` | The charge / generate is eligible as part of advanced generates functionality. |
+| 12 | advgenTtransCodeID | `String` | Advgen Ttrans Code ID |
+| 13 | arrangementCode | `String` | Arrangement Code |
+| 14 | arrangementDesc | `String` | Arrangement Description for the Transaction Code. |
+| 15 | articleId | `Float` | Article ID |
+| 16 | associatedTrxNumber | `Float` | Indicates the associated transaction number for a particular receipt type. |
+| 17 | attachedToUser | `String` | Application User Name |
+| 18 | authEmployeeID | `Float` | Auth Employee ID |
+| 19 | authorizer | `String` | Authorizer |
+| 20 | autoCreditbillYn | `String` | Indicates if this column was automatically created for Automatic Credit Bills. |
+| 21 | autoSettleYn | `String` | Auto Settle Y/N |
+| 22 | businessDate | `Date` | Business Date |
+| 23 | cCApproval | `String` | CC Approval Code |
+| 24 | cashierCode | `Float` | Cashier Code |
+| 25 | cashierCredit | `Float` | Cashier Credit |
+| 26 | cashierDebit | `Float` | Cashier Debit |
+| 27 | cashierID | `Float` | Cashier ID |
+| 28 | cashierName | `String` | Cashier Name |
+| 29 | cashierOpeningBalance | `Float` | Cashier Opening Balance |
+| 30 | ccRefundPosting | `String` | Identifies if this record was the result of a credit card refund possible values: REFUND or OVERRIDE.OVERRIDE means a user authorized a refund amount larger than the original cc charge. |
+| 31 | changesLogCheckIn | `String` | Changes Log Check In |
+| 32 | changesLogCheckOut | `String` | Changes Log Check Out |
+| 33 | changesLogCloseFolio | `String` | Changes Log Close Folio |
+| 34 | changesLogReopenFolio | `String` | Changes Log Reopen Folio |
+| 35 | changesLogUpdateReservation | `String` | Changes Log Update Reservation |
+| 36 | checkNumber | `String` | Check Number |
+| 37 | closureNumber | `Float` | Closure Number |
+| 38 | comments | `String` | Comments |
+| 39 | compLinkTrxCode | `String` | Trx code of original transaction that was turned into a comp |
+| 40 | compLinkTrxNumber | `Float` | Trx no of original transaction that was turned into a comp |
+| 41 | compTypeCode | `String` | Comp Type Code |
+| 42 | compressedYn | `String` | Compressed Y/N |
+| 43 | covers | `String` | Covers |
+| 44 | creditCardId | `Float` | Credit Card ID |
+| 45 | creditCardSurcharge | `Float` | Fee (surcharge) amount for a credit card transaction. |
+| 46 | creditYN | `String` | Credit YN |
+| 47 | currencyCode | `String` | Currency Code |
+| 48 | currencyDescription | `String` | Currency Description |
+| 49 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 50 | debitYN | `String` | Debit YN |
+| 51 | decimals | `Float` | Decimals |
+| 52 | deferredYn | `String` | Deferred Y/N |
+| 53 | depPostingFlag | `String` | Indicates if the posting is a deposit posting as part of the Guest Ledger Deposits functionality. Also indicates if the charge has been offset after checkin. Possible values [PRX] |
+| 54 | depTaxTransferedYn | `String` | Indicates if this row is a deposit tax which has been transfered. |
+| 55 | depositLedgerCredit | `Float` | Deposit Ledger Credit |
+| 56 | depositLedgerDebit | `Float` | Deposit Ledger Debit |
+| 57 | depositTransactionId | `String` | Deposit Transaction ID |
+| 58 | displayYN | `String` | Display YN |
+| 59 | euroExchangeRate | `Float` | Euro Exchange Rate |
+| 60 | exchangeDate | `Date` | Exchange Date |
+| 61 | exchangeDifferenceYN | `String` | Exchange Difference YN |
+| 62 | exchangeRate | `Float` | Exchange Rate |
+| 63 | exchangeType | `String` | Type of currency exchange conducted.  Possible values: [E]xchange [S]ettlement [C]ommission [M]embership [EC] Exchange Check [P]osting. |
+| 64 | financialDmlSeqNumber | `Float` | Number to identify the DML sequence. |
+| 65 | fiscalBillNo | `String` | Fiscal Bill Number |
+| 66 | fixedChargesYN | `String` | Fixed Charges YN |
+| 67 | folio | `Float` | Folio |
+| 68 | folioNo | `Float` | Folio Number |
+| 69 | folioType | `String` | Folio Type |
+| 70 | folioView | `Float` | Folio View |
+| 71 | foreignCurrencyCode | `String` | Foreign Currency Code |
+| 72 | fromReservationId | `Float` | From Resv ID |
+| 73 | ftGeneratedType | `String` | Column has become unused after the chage of business rules down the line. |
+| 74 | ftSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| 75 | genCashierId | `Float` | General Cashier Id. |
+| 76 | generalCashierYN | `String` | Determines whether the cashier is a General cashier. |
+| 77 | grossAmount | `Float` | Gross Amount |
+| 78 | guestAccountLedgerCredit | `Float` | Guest Account Ledger Credit |
+| 79 | guestAccountLedgerDebit | `Float` | Debit amount on the guest account |
+| 80 | inHouseCredit | `Float` | In-House Credit |
+| 81 | inHouseDebit | `Float` | In-House Debit |
+| 82 | insertDate | `DateTime` | Insert Date |
+| 83 | insertUser | `Float` | Insert User |
+| 84 | insertUserName | `String` | The name of the user who created the record. |
+| 85 | interfaceCashierYN | `String` | Decides whether the cashier number is used in interfaces or not. The interface cashiers cannot have numbers more than 999. |
+| 86 | internalArticleid | `Float` | Articleid |
+| 87 | internalWindowId | `Float` | Internal Window ID |
+| 88 | internalYN | `String` | Internal YN |
+| 89 | invoiceCloseDate | `Date` | Invoice Close Date |
+| 90 | invoiceNumber | `Float` | Invoice Number |
+| 91 | invoiceType | `String` | Invoice Type |
+| 92 | linkTrxNumber | `Float` | Link Transaction No |
+| 93 | marketCode | `String` | Market Code |
+| 94 | marketDescription | `String` | Market Description |
+| 95 | membershipID | `Float` | Membership ID |
+| 96 | mtrxNoAgainstPackage | `Float` | Sequence number generated automatically when packages are posted during manual room and tax. |
+| 97 | nameTaxType | `String` | Name Tax Type |
+| 98 | netAmount | `Float` | Net Amount |
+| 99 | nonRevenueAmount | `Float` | Non Revenue Amount |
+| 100 | numberDialed | `String` | Number Dialed. |
+| 101 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 102 | originalARLedgerDebit | `Float` | Stores the original AR ledger debit amount for Direct Bill transactions. |
+| 103 | originalBillNumber | `Float` | Stores original bill number after void. |
+| 104 | originalFolioNumber | `String` | Stores original folio type after void. |
+| 105 | originalReservationNameId | `Float` | Original Resv Name ID |
+| 106 | originalRoom | `String` | Original Room |
+| 107 | package | `String` | Package |
+| 108 | packageAllowance | `Float` | Package Allowance amount of a package that has an allowance. |
+| 109 | packageArrangementCode | `String` | Arrangement code from the package associated to this transaction. |
+| 110 | packageLedgerCredit | `Float` | Credit amount on the guest package account. |
+| 111 | packageLedgerDebit | `Float` | Debit amount on the guest package account |
+| 112 | packageTrxType | `String` | Identifies the type of a package posting. Possible values are: PKG_WRAPPER INCLTAX_PKG_ROOM EXCLTAX_PKG_ROOM INCLTAX_PKG_WITH_ALLOWANCE EXCLTAX_PKG_WITH_ALLOWANCE INCLTAX_PKG_WITHOUT_ALLOWANCE EXCLTAX_PKG_WITHOUT_ALLOWANCE |
+| 113 | passerByName | `String` | Passerby Name. |
+| 114 | payeeNameID | `Float` | Name Id to which it should be routed. |
+| 115 | payeeResvNameID | `Float` | Payee Resv Name ID |
+| 116 | paymentSurchargeAmt | `Float` | Payment Surcharge Amount. |
+| 117 | paymentSurchargeType | `String` | Payment Surcharge Type. Currency for the CASH payment method. |
+| 118 | paymentType | `String` | Payment Type |
+| 119 | paymentsReference | `String` | Payments-Reference |
+| 120 | postedAmountInBaseCurrency | `Float` | Posted Amount in Base Currency |
+| 121 | postedAmountInTransactionCurrency | `Float` | Posted Amount in Transaction Currency |
+| 122 | postingDate | `DateTime` | Posting Date |
+| 123 | postingRhythm | `String` | Posting Rhythm |
+| 124 | postingSourceNameId | `Float` | Source Profile of the posting coming from IFC. Related to 9700 functionality. |
+| 125 | postingType | `String` | Indicates if the posting is part of a rate code posting (RATE CODE) or if posted manually (MANUAL). |
+| 126 | postitNo | `Float` | Postit Number |
+| 127 | postitYn | `String` | Postit Y/N |
+| 128 | pricePerUnit | `Float` | Price Per Unit |
+| 129 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 130 | profileID | `Float` | Profile ID |
+| 131 | profitLossFlag | `String` | Populated with [P] for package profit and [L] for package loss transactions. |
+| 132 | proformaYN | `String` | Proforma Y/N |
+| 133 | property | `String` | Property |
+| 134 | quantity | `Float` | Quantity |
+| 135 | queueName | `String` | Queue Name |
+| 136 | rateCode | `String` | Rate Code |
+| 137 | receiptNumber | `Float` | Receipt Number |
+| 138 | receiptType | `String` | Indicates the receipt type. Different receipts are identified by different types |
+| 139 | repTransactionCode | `String` | Reporting Trx Code |
+| 140 | repTransactionCodeGroup | `String` | Reporting Tc Group |
+| 141 | repTransactionCodeGroupDescription | `String` | Reporting Tc Group Desc |
+| 142 | repTransactionCodeSubgroup | `String` | Reporting Tc Subgroup |
+| 143 | repTransactionCodeSubgroupDescription | `String` | Reporting Tc Subgroup Desc |
+| 144 | reservationDepositId | `Float` | Stores Reservation_deposit_schedule_id from RESERVATION_DEPOSIT_SCHEDULE table  to link the deposit payment to the deposit request. |
+| 145 | reservationNameID | `Float` | Reservation Name ID |
+| 146 | revenueAmount | `Float` | Revenue Amount. |
+| 147 | reversePaymentTrxNumber | `Float` | Stores the trx_no of the reversed payment. |
+| 148 | roomClass | `String` | Room Class |
+| 149 | roomNts | `Float` | Room Nts |
+| 150 | roomNtsEffective | `Float` | Stores the effective room nights with decimals making it significant for postings splits edits and adjustments. Required by B&B Hotels. |
+| 151 | roomNumber | `String` | Room Number |
+| 152 | roundFactorYn | `String` | Round Factor Y/N |
+| 153 | roundLinkTrxno | `Float` | TRX_NO of the transaction associated with this rounding factor posting. |
+| 154 | routedYn | `String` | Indicates if the transaction has been routed. |
+| 155 | routingCode | `String` | Routing Code |
+| 156 | routingCodeDescription | `String` | Routing Code Description |
+| 157 | routingDate | `Date` | Routing date for comp routings - populated only if routed transaction has trx date less than business date. |
+| 158 | routingIinstructionID | `Float` | Routing Iinstruction ID |
+| 159 | routingInstrnId | `Float` | Link the posting to the routing instruction that is specified during the setup of routing instructions for guests. |
+| 160 | routingType | `String` | To specify whether it is a package routing or not |
+| 161 | settlementFlag | `String` | Settlement Flag |
+| 162 | sourceCode | `String` | Source Code |
+| 163 | sourceDescription | `String` | Source Description |
+| 164 | supplement | `String` | Supplement |
+| 165 | tRXCode | `String` | Transaction Code |
+| 166 | targetResort | `String` | Target Property |
+| 167 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
+| 168 | taxElements | `String` | Tax Elements |
+| 169 | taxGeneratedYN | `String` | Tax Generated YN |
+| 170 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 171 | tcGroup | `String` | Transaction Code Group |
+| 172 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 173 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 174 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 175 | thresholdEntityType | `String` | Threshold Entity Type |
+| 176 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 177 | toReservationNameId | `Float` | To Resv Name ID |
+| 178 | tranActionId | `Float` | Tran Action ID |
+| 179 | transCodeArrangementID | `Float` | Trans Code Arrangement ID |
+| 180 | transactionActivityDate | `Date` | Transaction Activity Date |
+| 181 | transactionCodeDescription | `String` | Transaction Code Description |
+| 182 | transactionCodeGroupDesc | `String` | Tc Group Description |
+| 183 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
+| 184 | transactionDate | `Date` | Transaction Date |
+| 185 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
+| 186 | transactionPostingDate | `Date` | Transaction Posting Date |
+| 187 | transactionPostingTime | `String` | Time transaction was posted. |
+| 188 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
+| 189 | transactionType | `String` | Transaction Type |
+| 190 | transactionFromAccount | `Float` | Transaction from Account |
+| 191 | transactionToAccount | `Float` | Transaction to Account |
+| 192 | transferFromAccountID | `Float` | Transfer from Account ID |
+| 193 | transferToAccountID | `Float` | Transfer to Account ID |
+| 194 | trxNo | `Float` | Trx Number |
+| 195 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
+| 196 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 197 | trxNumberHeader | `Float` | Transaction No Header |
+| 198 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 199 | trxServiceType | `String` | Transaction Service Type |
+| 200 | updateDate | `DateTime` | Update Date |
+| 201 | updateUser | `Float` | Update User |
+| 202 | vatAmount | `Float` | Tax Amount for Commission. |
 
 [⬆ Back to Query](#query)
 
@@ -250,176 +250,176 @@
 
 ### FinancialTransactionDetailsExtendedTransactionCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
-| aRNameId | `Float` | Ar Name ID |
-| accountNumber | `String` | Account Number |
-| accountingCode | `String` | Accounting Code |
-| acctrecvprofileid | `Float` | Acctrecvprofileid |
-| adjTrxCode | `String` | Adj Trx Code |
-| adjtranscodeid | `String` | Adjtranscodeid |
-| arrangeCode | `String` | Arrange Code |
-| arrangementCode | `String` | Arrangement Code |
-| cDefaultPrice | `Float` | Central Default Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cExportBucket | `Float` | Central Export Bucket |
-| cMaxAmount | `Float` | Central Max Amt |
-| cMinimumAmount | `Float` | Central Min Amt |
-| cCCode | `String` | CC Code |
-| cRSTaxDesc | `String` | Crs Tax Description |
-| cashTransactionCodeYN | `String` | Cash Transaction Code YN |
-| ccType | `String` | Cc Type |
-| centalSubgroup | `String` | Cental Subgroup |
-| centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
-| centralTransactionCode | `String` | Central Transaction Code |
-| centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
-| checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| commissionCode | `Float` | Commission Code |
-| compNightsYn | `String` | Comp Nights Y/N |
-| compPaymentYn | `String` | Comp Payment Y/N |
-| complimentaryYN | `String` | Complimentary YN |
-| corpPropFlag | `String` | Corp Prop Flag |
-| corporateDescription | `String` | Corporate Description |
-| crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyPlanFolio | `Float` | Daily Plan Folio |
-| dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| defaultPrice | `Float` | Default Price |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
-| depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| eInvoiceYn | `String` | E Invoice Y/N |
-| expenseFolio | `Float` | Expense Folio |
-| exportBucket | `Float` | Export Bucket |
-| externalPaymentCode | `String` | External Payment Code |
-| fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| gDeletedFlag | `String` | Group Deleted Flag |
-| gDescription | `String` | Group Description |
-| gInsertDate | `DateTime` | Group Insert Date |
-| gInsertUser | `Float` | Group Insert User |
-| gOrderBy | `Float` | Group Order By |
-| gRepDescription | `String` | Group Rep Description |
-| gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
-| gRevenuegroupflag | `String` | Group Revenuegroupflag |
-| gTctClassType1 | `String` | Group Tct Class Type1 |
-| gTctClassType2 | `String` | Group Tct Class Type2 |
-| gUpdateDate | `DateTime` | Group Update Date |
-| gUpdateUser | `Float` | Group Update User |
-| group | `String` | Group |
-| groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
-| groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
-| groupFolio | `Float` | Group Folio |
-| groupIndRevenueGroup | `String` | G Individual Revenue Gp |
-| groupInternalYN | `String` | G Internal Y/N |
-| groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| groupRepItem | `String` | G Reporting Item |
-| groupRepItemName | `String` | G Reporting Item Name |
-| groupRepItemOrderby | `Float` | G Reporting Item Orderby |
-| groupRepOrderBy | `Float` | G Reporting Order By |
-| groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
-| groupTcTransactionType | `String` | G Transaction Code Transaction Type |
-| guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| includeIn8300Yn | `String` | Include In 8300 Y/N |
-| includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
-| maximumAmount | `Float` | Maximum Amount |
-| membershipYN | `String` | Membership YN |
-| minimumAmount | `Float` | Minimum Amount |
-| nonTaxableYn | `String` | Non Taxable Y/N |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerRevenueYN | `String` | Owner Rev Y/N |
-| paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| paymentType | `String` | Payment Type |
-| paymentmethodid | `String` | Paymentmethodid |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| property | `String` | Property |
-| quantityCode | `String` | Quantity Code |
-| repDescription | `String` | Rep Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| revenueBucketId | `Float` | Rev Bucket ID |
-| revenueGroupId | `Float` | Rev Gp ID |
-| revenueYN | `String` | Revenue YN |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| rotationRevenueYN | `String` | Rotation Rev Y/N |
-| roundFactorYn | `String` | Round Factor Y/N |
-| serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| sgDeletedFlag | `String` | Sub-Group Deleted Flag |
-| sgDescription | `String` | Sub-Group Description |
-| sgInsertDate | `DateTime` | Sub-Group Insert Date |
-| sgInsertUser | `Float` | Sub-Group Insert User |
-| sgOrderBy | `Float` | Sub-Group Order By |
-| sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
-| sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
-| sgTaxflag | `String` | Sub-Group Taxflag |
-| sgUpdateDate | `DateTime` | Sub-Group Update Date |
-| sgUpdateUser | `Float` | Sub-Group Update User |
-| subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
-| subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
-| subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
-| subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
-| subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
-| subGroupInternalYN | `String` | Sg Internal Y/N |
-| subGroupRepDescription | `String` | Sg Reporting Description |
-| subGroupRepOrderBy | `Float` | Sg Reporting Order By |
-| subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
-| subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
-| subGroupType | `String` | Sub-Group Type |
-| taxCodeNumber | `Float` | Tax Code Number |
-| taxInclusiveYN | `String` | Tax Inclusive YN |
-| taxYN | `String` | Tax YN |
-| tcBofInterface | `String` | Not Used. |
-| tcBofInterface2 | `String` | Not Used. |
-| tcBofRefCode | `String` | Not Used. |
-| tcBofRefCode2 | `String` | Not Used. |
-| tcResort2 | `String` | Not Used. |
-| tcTransactionType | `String` | Transaction Code Transaction Type |
-| tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| transactionActionId | `Float` | Trx Action ID |
-| transactionCodeDescription | `String` | Transaction Code Description |
-| transactionCodeGroup | `String` | Transaction Code Group |
-| transactionCodeResort | `String` | Not Used. |
-| transactionCodeSubGroup | `String` | Transaction Code Sub-group |
-| transactionCodeType | `String` | Transaction Code Type |
-| transactionType | `String` | Transaction Type |
-| transcodearrangementid | `String` | Transcodearrangementid |
-| transcodeid | `String` | Transcodeid |
-| trxCode | `String` | Trx Code |
-| trxCodeDisplay | `String` | Transaction Code Display |
-| trxServiceType | `String` | Transaction Service Type |
-| trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| uPC | `String` | UPC |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
+| 2 | aRNameId | `Float` | Ar Name ID |
+| 3 | accountNumber | `String` | Account Number |
+| 4 | accountingCode | `String` | Accounting Code |
+| 5 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 6 | adjTrxCode | `String` | Adj Trx Code |
+| 7 | adjtranscodeid | `String` | Adjtranscodeid |
+| 8 | arrangeCode | `String` | Arrange Code |
+| 9 | arrangementCode | `String` | Arrangement Code |
+| 10 | cDefaultPrice | `Float` | Central Default Price |
+| 11 | cExchangeDate | `Date` | Central Xchange Date |
+| 12 | cExchangeRate | `Float` | Central Xchange Rate |
+| 13 | cExportBucket | `Float` | Central Export Bucket |
+| 14 | cMaxAmount | `Float` | Central Max Amt |
+| 15 | cMinimumAmount | `Float` | Central Min Amt |
+| 16 | cCCode | `String` | CC Code |
+| 17 | cRSTaxDesc | `String` | Crs Tax Description |
+| 18 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
+| 19 | ccType | `String` | Cc Type |
+| 20 | centalSubgroup | `String` | Cental Subgroup |
+| 21 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
+| 22 | centralTransactionCode | `String` | Central Transaction Code |
+| 23 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 24 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
+| 25 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 26 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 27 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 28 | commissionCode | `Float` | Commission Code |
+| 29 | compNightsYn | `String` | Comp Nights Y/N |
+| 30 | compPaymentYn | `String` | Comp Payment Y/N |
+| 31 | complimentaryYN | `String` | Complimentary YN |
+| 32 | corpPropFlag | `String` | Corp Prop Flag |
+| 33 | corporateDescription | `String` | Corporate Description |
+| 34 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 35 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 36 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 37 | currencyCode | `String` | Currency Code |
+| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 39 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 40 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 41 | defaultPrice | `Float` | Default Price |
+| 42 | deletedFlag | `String` | Deleted Flag |
+| 43 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
+| 44 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 45 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 46 | eInvoiceYn | `String` | E Invoice Y/N |
+| 47 | expenseFolio | `Float` | Expense Folio |
+| 48 | exportBucket | `Float` | Export Bucket |
+| 49 | externalPaymentCode | `String` | External Payment Code |
+| 50 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 51 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 52 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 53 | gDeletedFlag | `String` | Group Deleted Flag |
+| 54 | gDescription | `String` | Group Description |
+| 55 | gInsertDate | `DateTime` | Group Insert Date |
+| 56 | gInsertUser | `Float` | Group Insert User |
+| 57 | gOrderBy | `Float` | Group Order By |
+| 58 | gRepDescription | `String` | Group Rep Description |
+| 59 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
+| 60 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
+| 61 | gTctClassType1 | `String` | Group Tct Class Type1 |
+| 62 | gTctClassType2 | `String` | Group Tct Class Type2 |
+| 63 | gUpdateDate | `DateTime` | Group Update Date |
+| 64 | gUpdateUser | `Float` | Group Update User |
+| 65 | group | `String` | Group |
+| 66 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
+| 67 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
+| 68 | groupFolio | `Float` | Group Folio |
+| 69 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
+| 70 | groupInternalYN | `String` | G Internal Y/N |
+| 71 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 72 | groupRepItem | `String` | G Reporting Item |
+| 73 | groupRepItemName | `String` | G Reporting Item Name |
+| 74 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
+| 75 | groupRepOrderBy | `Float` | G Reporting Order By |
+| 76 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
+| 77 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
+| 78 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
+| 79 | inactiveDate | `Date` | Inactive Date |
+| 80 | inactiveflag | `String` | Inactive Flag |
+| 81 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 82 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
+| 83 | insertDate | `DateTime` | Insert Date |
+| 84 | insertUser | `Float` | Insert User |
+| 85 | internalDeletedflag | `String` | Deleted Flag |
+| 86 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 87 | internalYn | `String` | Internal Y/N |
+| 88 | jRNUpdateDate | `Date` | JRN Update Date |
+| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 90 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 91 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 92 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
+| 93 | maximumAmount | `Float` | Maximum Amount |
+| 94 | membershipYN | `String` | Membership YN |
+| 95 | minimumAmount | `Float` | Minimum Amount |
+| 96 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 97 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 98 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 99 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 100 | paymentType | `String` | Payment Type |
+| 101 | paymentmethodid | `String` | Paymentmethodid |
+| 102 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 103 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 104 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 105 | property | `String` | Property |
+| 106 | quantityCode | `String` | Quantity Code |
+| 107 | repDescription | `String` | Rep Description |
+| 108 | repItem | `String` | Reporting Item |
+| 109 | repItemName | `String` | Reporting Item Name |
+| 110 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 111 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 112 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 113 | revenueBucketId | `Float` | Rev Bucket ID |
+| 114 | revenueGroupId | `Float` | Rev Gp ID |
+| 115 | revenueYN | `String` | Revenue YN |
+| 116 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 117 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 118 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 119 | roundFactorYn | `String` | Round Factor Y/N |
+| 120 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 121 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
+| 122 | sgDescription | `String` | Sub-Group Description |
+| 123 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
+| 124 | sgInsertUser | `Float` | Sub-Group Insert User |
+| 125 | sgOrderBy | `Float` | Sub-Group Order By |
+| 126 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
+| 127 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
+| 128 | sgTaxflag | `String` | Sub-Group Taxflag |
+| 129 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
+| 130 | sgUpdateUser | `Float` | Sub-Group Update User |
+| 131 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
+| 132 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
+| 133 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
+| 134 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
+| 135 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
+| 136 | subGroupInternalYN | `String` | Sg Internal Y/N |
+| 137 | subGroupRepDescription | `String` | Sg Reporting Description |
+| 138 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
+| 139 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
+| 140 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
+| 141 | subGroupType | `String` | Sub-Group Type |
+| 142 | taxCodeNumber | `Float` | Tax Code Number |
+| 143 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 144 | taxYN | `String` | Tax YN |
+| 145 | tcBofInterface | `String` | Not Used. |
+| 146 | tcBofInterface2 | `String` | Not Used. |
+| 147 | tcBofRefCode | `String` | Not Used. |
+| 148 | tcBofRefCode2 | `String` | Not Used. |
+| 149 | tcResort2 | `String` | Not Used. |
+| 150 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 151 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 152 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 153 | transactionActionId | `Float` | Trx Action ID |
+| 154 | transactionCodeDescription | `String` | Transaction Code Description |
+| 155 | transactionCodeGroup | `String` | Transaction Code Group |
+| 156 | transactionCodeResort | `String` | Not Used. |
+| 157 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
+| 158 | transactionCodeType | `String` | Transaction Code Type |
+| 159 | transactionType | `String` | Transaction Type |
+| 160 | transcodearrangementid | `String` | Transcodearrangementid |
+| 161 | transcodeid | `String` | Transcodeid |
+| 162 | trxCode | `String` | Trx Code |
+| 163 | trxCodeDisplay | `String` | Transaction Code Display |
+| 164 | trxServiceType | `String` | Transaction Service Type |
+| 165 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 166 | uPC | `String` | UPC |
+| 167 | updateDate | `DateTime` | Update Date |
+| 168 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -427,676 +427,676 @@
 
 ### FinancialTransactionDetailsExtendedFromReservationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aSBProratedYn | `String` | Indicates whether a prorated amount should be used for an Apartment Style Billing rate. |
-| accompaniedYN | `String` | Accompanied YN |
-| accompanyingName | `String` | Accompanying guest names. |
-| actualCheckInDateTime | `DateTime` | Actual Check In Date Time |
-| actualCheckOutDateTime | `DateTime` | Actual Check Out Date Time |
-| actualCheckInDate | `Date` | Actual Check-In Date |
-| actualCheckInTime | `String` | Actual Check-In Time |
-| actualCheckOutDate | `Date` | Actual Check-Out Date |
-| actualCheckOutTime | `String` | Actual Check-Out Time |
-| addressId | `Float` | Address ID |
-| addresseeNameId | `Float` | Addressee Name ID |
-| adults | `Float` | Adults |
-| adultsTaxFree | `Float` | Adults Tax Free |
-| advanceCheckedInYn | `String` | Indicates if the reservation has performed an Advance Check In. |
-| agencyprofileid | `Float` | Agencyprofileid |
-| allotmentRecordType | `String` | Indicates whether the room type inventory was taken from the allotment or House availabilty. |
-| allotmentid | `Float` | Block ID |
-| amenityEligibleYn | `String` | SPG - Indicates if this stay is eligible for an Amenity. |
-| amenityLevelCode | `String` | Amenity Level Code |
-| amountPercent | `Float` | Amount Percent |
-| approvalAmount | `Float` | Approval Amount |
-| approvalAmountCalcMethod | `Float` | Approval Amount Calc Method |
-| approvalCode | `String` | Approval Code |
-| arrivalComments | `String` | Arrival Comments |
-| arrivalDate | `Date` | Arrival Date |
-| arrivalDateTime | `DateTime` | Arrival Date Time |
-| arrivalEstimateTime | `Date` | Arrival Estimate Time |
-| arrivalTime | `String` | Activity begin time |
-| arrivaltransportid | `String` | Arrivaltransportid |
-| attachedDate | `Date` | Attached Date |
-| authorizedBillingYN | `String` | Not used. |
-| authorizedBy | `Float` | This stores the pmsp.logged_uid who authorizes the direct bill |
-| authorizerId | `Float` | Authorizer ID |
-| autoCheckinYn | `String` | Auto Checkin Y/N |
-| autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
-| autoSettleDays | `Float` | Auto Settle Days |
-| autoSettleType | `String` | Auto Settle Type |
-| autoSettleYN | `String` | Auto Settle YN |
-| awardCode | `String` | Award Code |
-| awardCode1 | `String` | Award code 1 |
-| awardCode2 | `String` | Award code 2 |
-| awardCode3 | `String` | Award code 3 |
-| awardCode4 | `String` | Award Code 4 |
-| awardCode5 | `String` | Award code 5 |
-| awardMembershipID | `Float` | Award Membership ID |
-| awardVoucher1 | `String` | Award Voucher number 1 |
-| awardVoucher2 | `String` | Award Voucher number 2 |
-| awardVoucher3 | `String` | Award Voucher number 3 |
-| awardVoucher4 | `String` | Award Voucher number 4 |
-| awardVoucher5 | `String` | Award Voucher number 5 |
-| awdUpgrFrom | `String` | Room Type  before the Upgrade Award |
-| awdUpgrTo | `String` | Room Type after the Upgrade Award |
-| backToBackYN | `String` | Back To Back YN |
-| balance | `Float` | Balance on the account. |
-| baseRateAmount | `Float` | Base Rate Amount |
-| baseRateCode | `String` | Base Rate Code |
-| baseRateCurrencyCode | `String` | Base Rate Currency Code |
-| basedOnRule | `String` | Based On Rule |
-| baseratecurrencyid | `String` | Baseratecurrencyid |
-| beginCity | `String` | Begin City |
-| beginDatetime | `DateTime` | Begin Datetime |
-| beginDistrict | `String` | Begin District |
-| beginState | `String` | Begin State |
-| beginSystemDateTime | `DateTime` | Stores the actual guest check in date and time. |
-| billNumber | `String` | Bill Number |
-| billingContact | `String` | Billing Contact |
-| billingContactDisplayName | `String` | Billing Contact Display Name |
-| billingContactId | `Float` | Billing Contact ID |
-| billingContactName | `String` | Billing Contact Name |
-| billingcontactprofileid | `Float` | Billing Contact Profile ID |
-| blockCode | `String` | Block Code |
-| blockCreateDate | `DateTime` | Block Create Date |
-| blockID | `Float` | Block ID |
-| blockName | `String` | Block Name |
-| blockResort | `String` | Property this block belongs to. |
-| blockStatus | `String` | Block Status |
-| bonusCheckId | `Float` | Bonus Check ID |
-| bookedRoomCategory | `String` | Booked Room Category |
-| bookedroomcategoryid | `String` | Bookedroomcategoryid |
-| businessDateCreated | `Date` | Business Date Created |
-| businessDatetimeCreated | `DateTime` | Business Datetime Created |
-| bxgyDiscountYn | `String` | Bxgy Discount Y/N |
-| cAutoPostAmount | `Float` | Central Auto Post Amount |
-| cBaseRateAmount | `Float` | Central Base Rate Amount |
-| cDiscountAmount | `Float` | C Discount Amount |
-| cDiscountAmt | `Float` | C Discount Amt |
-| cEffectiveRateAmount | `Float` | C Effective Rate Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cFixedCharge | `Float` | Central Fixed Charge |
-| cGrossRateAmount | `Float` | Central Gross Rate Amt |
-| cLocalBaseRateAmount | `Float` | Central Local Base Rate Amount |
-| cNetRoomAmount | `Float` | Central Net Room Amt |
-| cOriginalBaseRate | `Float` | Central Original Base Rate |
-| cPackageAmount | `Float` | Central Pkg Amt |
-| cPackageTax | `Float` | Central Pkg Tax |
-| cRateAmount | `Float` | C Rate Amount |
-| cRoomCost | `Float` | Central Room Cost |
-| cRoomTax | `Float` | Central Room Tax |
-| cShareAmountOriginal | `Float` | Central Share Amount Original |
-| cUpsellCharge | `Float` | Central Upsell Charge |
-| cancelDate | `Date` | Cancel Date |
-| cancelReason | `String` | Cancel Reason |
-| cancelTime | `String` | Cancel Time |
-| cancellationDate | `DateTime` | Cancellation Date |
-| cancellationDatetime | `DateTime` | Cancellation Datetime |
-| cancellationNumber | `String` | Cancellation Number |
-| cancellationReasonDescription | `String` | Cancellation Reason Description |
-| cancellationreasonid | `String` | Cancellationreasonid |
-| cancelledBy | `String` | The user who canceled this Reservation. |
-| cardNumberByMembershipClass | `String` | Card Number by Membership Class |
-| cardNumberByMembershipType | `String` | Card Number by Membership Type |
-| centralApprovalAmount | `Float` | Central Approval Amount |
-| centralCancelReason | `String` | Central Cancel Reason |
-| centralCommissionCode | `String` | Central Commission Code |
-| centralCommissionDescription | `String` | Central Commission Description |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralDiscountReason | `String` | Central Discount Reason |
-| centralDiscountReasonDescription | `String` | Central Discount Reason Description |
-| centralFBRevenue | `Float` | Central FB Revenue |
-| centralGuestType | `String` | Central Guest Type |
-| centralHurdle | `Float` | Central Hurdle |
-| centralPackageCode | `String` | Central Package Code |
-| centralPackageCodeDescription | `String` | Central Package Code Description |
-| centralPackageForecastGroup | `String` | Central Package Forecast Group |
-| centralPackageForecastGroupDescription | `String` | Central Package Forecast Group Description |
-| centralPaymentAmount | `Float` | Central Payment Amount |
-| centralProjectedFBRevenue | `Float` | Central Projected FB Revenue |
-| centralProjectedRoomRevenue | `Float` | Central Projected Room Revenue |
-| centralProjectedTotalRevenue | `Float` | Central Projected Total Revenue |
-| centralPromotionDescription | `String` | Central Promotion Description |
-| centralRateableValue | `Float` | Central Rateable Value |
-| centralReservationType | `String` | Central Reservation Type |
-| centralReservationTypeDescription | `String` | Central Reservation Type Description |
-| centralRoomRevenue | `Float` | Central Room Revenue |
-| centralRoomTypeCode | `String` | Central Room Type Code |
-| centralRoomTypeDescription | `String` | Central Room Type Description |
-| centralRoomTypeToChargeCode | `String` | Central Room Type To Charge Code |
-| centralRoomTypeToChargeDescription | `String` | Central Room Type to Charge Description |
-| centralSharedRoomRate | `Float` | Central Shared Room Rate |
-| centralSpecialRequestDescription | `String` | Central Special Request Description |
-| centralTaxType | `String` | Central Tax Type |
-| centralTaxTypeDescription | `String` | Central Tax Type Description |
-| centralTotalCostOfStay | `Float` | Central Total Cost of Stay |
-| centralTotalRevenue | `Float` | Central Total Revenue |
-| centralTotalRoomRate | `Float` | Central Total Room Rate |
-| centralWaitlistPriority | `String` | Central Waitlist Priority |
-| centralWaitlistPriorityDescription | `String` | Central Waitlist Priority Description |
-| centralWaitlistReason | `String` | Central Waitlist Reason |
-| centralWaitlistReasonDescription | `String` | Central Waitlist Reason Description |
-| channelDescription | `String` | Channel Description |
-| channelOrderBy | `Float` | Channel Order By |
-| channelid | `String` | Channelid |
-| checkInInitiatedBy | `String` | Check In Initiated By |
-| checkinDuration | `Float` | Duration in seconds to complete Check-In |
-| childBucket1 | `Float` | Child Bucket 1 |
-| childBucket4 | `Float` | Child Bucket 4 |
-| childBucket5 | `Float` | Child Bucket 5 |
-| children | `Float` | Children |
-| childrenAgeGroup2 | `Float` | Children Age Group 2) |
-| childrenAgeGroup3 | `Float` | Children Age Group 3) |
-| childrenAges | `String` | Children Ages |
-| commissionCode | `String` | Commission Code |
-| commissionDescription | `String` | Commission Description |
-| commissionHoldCode | `String` | Commission Hold Code |
-| commissionPaid | `Float` | Commission Paid |
-| commissionPayoutTo | `String` | Indicates to whom the commission will be paid: NULL T (Travel Agent)  S (Source) and B (Both). |
-| commissionableYN | `String` | Commissionable YN |
-| commissionid | `String` | Commissionid |
-| compHouse | `String` | Comp House |
-| compTypeCode | `String` | Comp Type Code |
-| companyCity | `String` | Company City |
-| companyCountry | `String` | Company Country |
-| companyID | `Float` | Company ID |
-| companyName | `String` | Company Name |
-| companyProfileCorporateID | `String` | Company Profile Corporate ID |
-| companyProfileID | `Float` | Company Profile ID |
-| complimentaryYN | `String` | Complimentary YN |
-| compreasonid | `String` | Compreasonid |
-| computedResvStatus | `String` | Calculated reservation status. |
-| confirmationLegNumber | `Float` | Confirmation Leg Number. |
-| confirmationNo | `String` | Shared Confirmation Number |
-| consumerYn | `String` | Consumer Y/N |
-| contactName | `String` | Contact Name; UDFC02 on reservation. |
-| contactProfileID | `Float` | Contact Profile ID |
-| contactProfileName | `String` | Contact Profile Name |
-| createdBy | `String` | The name of the user who created the record. |
-| createdByDefaultResort | `String` | Created By Default Property |
-| createdDate | `Date` | Created Date |
-| createdTime | `String` | Refer to the same column name in the table IFC_WAKE |
-| creditCardAuthDate | `Date` | Credit Card Auth Date |
-| creditCardId | `Float` | Credit Card ID |
-| creditLimit | `Float` | Credit Limit |
-| creditLimitAutoPayAllowYn | `String` | Indicates if the reservation has opted-in for auto payment when credit limit overage is detected. |
-| cribs | `Float` | Cribs |
-| currencyCode | `String` | Currency Code |
-| customReferenceNumber | `String` | Custom Reference Number |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateOfArrivalInCountry | `Date` | Country Specific Requirement for Nigeria. |
-| deletedFlag | `String` | Deleted Flag |
-| departtransportid | `String` | Departtransportid |
-| departureComments | `String` | Departure Comments |
-| departureDate | `Date` | Departure Date |
-| departureDateTime | `Date` | Departure Date Time |
-| departureTime | `String` | Departure Time |
-| departureTransportCode | `String` | Departure Transport Code |
-| departureTransportationYN | `String` | Departure Transportation YN |
-| depositMaturityType | `String` | Stores the Deposit maturity preference. |
-| detatchedDate | `Date` | Detatched Date |
-| detatchedYN | `String` | Detatched YN |
-| directBillVerifyResponse | `String` | Direct Bill Verify Response |
-| directbillauthby | `Float` | Directbillauthby |
-| discountAmount | `Float` | Discount Amount |
-| discountAmt | `Float` | Discount Amount |
-| discountPercent | `Float` | Discount Percentage. |
-| discountPrcnt | `Float` | Discount Prcnt |
-| discountReason | `String` | Discount Reason |
-| discountReasonDescription | `String` | Discount Reason Description |
-| discountreasonid | `String` | Discountreasonid |
-| displayColor | `String` | Display Color |
-| dmlSeqNumber | `Float` | Dml Sequence No |
-| doNotMoveRoom | `String` | Do Not Move Room |
-| doNotMoveYN | `String` | Do not move room flag. |
-| dropOffCarrierCode | `String` | Drop Off Carrier Code |
-| dropOffDate | `Date` | Drop Off Date |
-| dropOffStation | `String` | Drop Off Station |
-| dropOffTime | `String` | Drop Off Time |
-| dropOffType | `String` | Drop Off Type |
-| dropOffTypeDescription | `String` | Drop Off Type Description |
-| eTRComments | `String` | Comments related to Estimated Time of Return. |
-| effectiveRateAmount | `Float` | Not used. |
-| eligibleForUpgradeYn | `String` | Indicates if the reservation is eligible to receive room upgrades. Controlled by Central System. |
-| emailAddress | `String` | Email Address |
-| emailFolioYn | `String` | Email Folio Y/N |
-| emailId | `Float` | Email ID |
-| emailYn | `String` | Email Y/N |
-| endCity | `String` | End City |
-| endDatetime | `DateTime` | End Datetime |
-| endDistrict | `String` | End District |
-| endState | `String` | End State |
-| endbusinessdate | `Date` | Endbusinessdate |
-| entryDate | `Date` | Entry Date into the country. (Croatian Requirements) |
-| entryPoint | `String` | (Customized) Entry point into the country. (Croatian Requirements) |
-| esignedRegCardName | `String` | Name of file that contains the electronically signed registration card. |
-| estimatedDepartureTime | `Date` | Estimated Departure Time |
-| eventId | `Float` | Event ID |
-| exchangePostingType | `String` | Exchange Posting Type |
-| exchangeRate | `Float` | Exchange Rate |
-| excludeFromAutoAuthorizationYN | `String` | Exclude From Auto Authorization YN |
-| expectedTimeOfReturnETR | `DateTime` | The time when an Advance Checked-In Guest is expected to return to perform the actual Check-In. |
-| exportCheckinresId | `Float` | Used for Croatian Requirement Exports to store a unique checkin number. |
-| extSegNo | `Float` | Not used |
-| extSeqNumber | `Float` | Not used |
-| extensionId | `Float` | Internal extension number for the main reservation |
-| externalEfolioYn | `String` | Indicates if the guest has opted to receive Efolio through an external system. |
-| externalReference | `String` | External Reference |
-| externalReferencesList | `String` | External References List |
-| extraBeds | `Float` | Extra Beds |
-| fBRevenue | `Float` | FB Revenue |
-| fBRevenueRemaining | `Float` | F&B Revenue Remaining |
-| faxId | `Float` | Fax ID |
-| faxYn | `String` | Should a confirmation be faxed for this reservation name? Y/N |
-| feature | `String` | This stores the codes for the rooms features. Currently not used |
-| financiallyResponsibleYn | `String` | Financially Responsible Y/N |
-| fixedCharge | `Float` | Not used. |
-| fixedRateYN | `String` | Fixed Rate YN |
-| folioAddrElementId | `Float` | Oracle sequence to identify different attribute values of an address. |
-| folioCloseDate | `Date` | Date the folio was changed to closed. |
-| folioNumber | `String` | Folio Number |
-| folioText1 | `String` | Folio Text1 |
-| folioText2 | `String` | Folio Text2 |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| freeChild | `Float` | Free Child |
-| frequentFlyerMembershipYN | `String` | Frequent Flyer Membership YN |
-| grossRateFuture | `Float` | Gross Rate Future |
-| grossRatePast | `Float` | Gross Rate Past |
-| groupName | `String` | Group Name |
-| groupProfileARNumber | `Float` | Group Profile AR Number |
-| groupProfileARNumberCentral | `String` | Group Profile AR Number (Central) |
-| groupProfileClientID | `String` | Group Profile Client ID |
-| groupProfileID | `Float` | Group Profile ID |
-| groupProfileName | `String` | Group Profile Name |
-| guaranteeCodePreCi | `String` | Guarantee code before check in. Populated when the guarantee code is changed to CHECKED IN. |
-| guaranteecodeid | `String` | Guaranteecodeid |
-| guestFirstName | `String` | Guest First Name |
-| guestFirstNameSdx | `String` | This is soundex of GUEST FIRST NAME - Phonotic sound. |
-| guestLastNameSdx | `String` | This is soundex of GUEST LAST NAME - Phonotic sound. |
-| guestSignature | `String` | Signature of the guest |
-| guestStatus | `String` | Used for Police/Tourist Export |
-| guestType | `String` | Guest Type |
-| guestprofileid | `Float` | Guestprofileid |
-| gueststatusid | `String` | Gueststatusid |
-| guesttypeid | `String` | Guesttypeid |
-| housekeepingServiceTime | `String` | Housekeeping Service Time |
-| hurdle | `Float` | Hurdle |
-| hurdleOverride | `String` | Hurdle Override |
-| iDByMembershipClass | `String` | ID by Membership Class |
-| iDByMembershipType | `String` | ID by Membership Type |
-| individualCity | `String` | Guest Address. |
-| individualCountry | `String` | Country of the guest |
-| individualFirstName | `String` | Individual First Name |
-| individualLastName | `String` | Individual Last Name |
-| insertActionInstanceId | `Float` | Insert Action Instance ID |
-| insertDate | `DateTime` | Insert Date |
-| insertDateTime | `DateTime` | Insert DateTime |
-| insertUser | `Float` | Insert User |
-| intermediaryYn | `String` | Intermediary Y/N |
-| internalAwardMembershipId | `Float` | Award Membership ID |
-| internalBaseratecode | `String` | Baseratecode |
-| internalBlockId | `Float` | Block ID. |
-| internalCompanyprofileid | `Float` | Companyprofileid |
-| internalGroupprofileid | `Float` | Groupprofileid |
-| internalSourceprofileid | `Float` | Sourceprofileid |
-| itemsQuantities | `String` | Items and Quantities |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keyValidUntil | `Date` | Key Valid Until |
-| lastOnlinePrintSeq | `Float` | Last Online-Printing Sequence Number used by this reservation. |
-| lastPeriodicFolioDate | `Date` | Latest date when a folio was printed using the "Periodic Batch Folios" option |
-| lastRoomNumber | `String` | Not used. |
-| lastSettleDate | `Date` | Latest date when a direct bill settlement was automatically done using the "Direct Bill Batch Folios" option |
-| leadTimeDays | `Float` | Lead Time for ordering |
-| lengthOfStay | `Float` | Length of Stay |
-| linkedArrivalDate | `DateTime` | Linked Arrival Date |
-| linkedDepartureDate | `DateTime` | Linked Departure Date |
-| linkedRoomType | `String` | Linked Room Type |
-| listOfMembershipID | `String` | Membership ID |
-| localBaseRateAmount | `Float` | Local Base Rate Amount |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| loyaltySchemeMembershipYN | `String` | Loyalty Scheme Membership YN |
-| mailYn | `String` | Mail Y/N |
-| manualCheckoutStatus | `String` | Indicates if this Reservation has requested or processed a Manual Checkout for consumer mobility. Possible Values: NULL [R]equested [P]rocessed. |
-| marketCode | `String` | Market Code |
-| marketid | `String` | Marketid |
-| mcGenBeginDistrict | `String` | Mc Gen Begin District |
-| mcGenBeginState | `String` | Mc Gen Begin State |
-| mcGenEndDistrict | `String` | Mc Gen End District |
-| mcGenEndState | `String` | Mc Gen End State |
-| mcGenNextCountry | `String` | Mc Gen Next Country |
-| mcGenPreviousCountry | `String` | Mc Gen Previous Country |
-| memberDescription | `String` | Member Description |
-| memberLevel | `String` | Member Level |
-| memberNumber | `String` | Member Number |
-| membershipClass | `String` | Membership Class |
-| membershipClassDescription | `String` | Membership Class Description |
-| membershipCode | `String` | Membership Code |
-| membershipId | `Float` | Membership ID |
-| membershipLevelByMembershipClass | `String` | Membership Level by Membership Class |
-| membershipTypeByMembershipClass | `String` | Membership Type by Membership Class |
-| mobileActionAlertIssued | `Date` | Stores when this Reservation has received a mobile action needed Alert for consumer mobility. |
-| mobileAudioKeyYn | `String` | Marked as Y when the Phone Number/EMail Address is Opt In. |
-| mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
-| mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
-| mobilePreferredCurrency | `String` | Currency preferred by a Mobile Registered Guest. |
-| mobileViewFolioAllowed | `String` | Indicates if the reservation is eligible to view the folio by sending a mobile message. |
-| name | `String` | Name |
-| nameUsageType | `String` | Name Usage Type |
-| nextCountry | `String` | Next Country |
-| nextDestination | `String` | Country Specific Requirement for Nigeria. |
-| numberOfRooms | `Float` | No of Rooms |
-| operaEsignedRegCardYn | `String` | Indicates if reservation?s registration card was esigned via Opera. |
-| optInBatchFolYn | `String` | Indicates if the guest has opted in to receive email through the batch folio option. |
-| optedForCommissionYN | `String` | Indicates if the reservation has opted-in for communications. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originCode | `String` | Origin Code |
-| originOfBooking | `String` | Origin Of Booking |
-| originalBaseRate | `Float` | Not used. |
-| originalEndDate | `Date` | Original End Date |
-| originalStartDate | `Date` | Original Start Date |
-| ownerFfFlag | `String` | Owner Ff Flag |
-| ownerOrFriendsFamily | `String` | Owner or Friends/Family |
-| packageCode | `String` | Package Code |
-| packageCodeDescription | `String` | Package Code Description |
-| packageForecastGroup | `String` | Package Forecast Group |
-| packageForecastGroupDescription | `String` | Package Forecast Group Description |
-| parentReservationNameId | `Float` | Parent Resv Name ID |
-| parentreservationid | `Float` | Parentreservationid |
-| partAllotment | `String` | Part Allotment |
-| partyCode | `String` | Party Code |
-| paxNo | `Float` | Pax Number |
-| paymentAmount | `Float` | Total amount of payment inclusive of VAT |
-| paymentMethod | `String` | Payment Method |
-| paymentmethodid | `String` | Paymentmethodid |
-| periodicFolioFreq | `Float` | Frequency in number of days when folios should be printed for this reservation |
-| phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
-| phoneId | `Float` | Phone ID |
-| physicalQuantity | `Float` | Physical Quantity |
-| pickUpCarrierCode | `String` | Pick Up Carrier Code |
-| pickUpDate | `Date` | Pick Up Date |
-| pickUpStation | `String` | Pick Up Station |
-| pickUpTransportNumber | `String` | Pick Up Transport Number |
-| pickUpType | `String` | Pick Up Type |
-| pickUpTypeDescription | `String` | Pick Up Type Description |
-| pickUpTime | `String` | Pick-Up Time |
-| pickupRequiredYN | `String` | Pickup Required YN |
-| points | `Float` | Points |
-| pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
-| postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
-| postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
-| postingAllowedYN | `String` | Posting Allowed YN |
-| preArrReviewedDt | `DateTime` | This date flags if and when the record was reviewed from pre-arrival screen. |
-| preArrReviewedUser | `Float` | User id who reviewed the record. |
-| preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
-| preRegisteredYn | `String` | Indicates whether the reservation is pre-registered for internet check-in or not. |
-| preference | `String` | Preference |
-| preferenceType | `String` | Preference Type |
-| preferredRoomType | `String` | Preferred Room Type |
-| previousCountry | `String` | Previous Country |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryShare | `String` | Primary Share |
-| printRateYN | `String` | Print Rate YN |
-| projectedFBRevenue | `Float` | Projected FB Revenue |
-| projectedRoomRevenue | `Float` | Projected Room Revenue |
-| projectedTotalRevenue | `Float` | Projected Total Revenue |
-| promotionCode | `String` | Promotion Code |
-| promotionDescription | `String` | Promotion Description |
-| property | `String` | Indicates if the value set for the specific property. |
-| pseudoMemTotalPoints | `Float` | Total pseudo membership points accrued for the default membership type. |
-| pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
-| purgeDate | `DateTime` | Purge Date |
-| purposeOfStay | `String` | Purpose of stay. |
-| quantity | `Float` | Number of Rooms |
-| queuePriority | `Float` | Queue priority of the reservation. |
-| queueWaitTime | `Float` | Queue Wait Time |
-| quoteId | `String` | Quote ID provided by external system. |
-| rateAmount | `Float` | Rate Amount |
-| rateCode | `String` | Rate Code |
-| rateCodeDescriptions | `String` | Event Reservation Rate Code Description |
-| rateTier | `Float` | Tier ID for the Rate Detail. |
-| rateableValue | `Float` | Stay rateable value. |
-| ratecodeid | `String` | Ratecodeid |
-| rdHousekeepingExpectedServiceTime | `String` | Rd Housekeeping Expected Service Time |
-| rdResvStatus | `String` | Rd Reservation Status |
-| rdenBillingContactId | `Float` | Rden Billing Contact ID |
-| rdenReservationContactId | `Float` | Rden Resv Contact ID |
-| rdenReservationDate | `Date` | Rden Reservation Date |
-| rdenResort | `String` | Rden Property |
-| referralYn | `String` | Rotation Rule to be configured for referral flag ? |
-| registrationCardNo | `String` | Registration Card Number |
-| registrationNumber | `Float` | Registration Number |
-| reinstateDate | `DateTime` | Reinstate Date |
-| repChannel | `String` | Reporting Channel |
-| repChannelDescription | `String` | Reporting Channel Description |
-| reportId | `String` | Report ID |
-| resInsertSource | `String` | Reservation Insert Source |
-| resInsertSourceType | `String` | Reservation Insert Source Type |
-| reservationContactId | `Float` | Resv Contact ID |
-| reservationDate | `DateTime` | Reservation Date |
-| reservationNameID | `Float` | Reservation Name ID |
-| reservationStatus | `String` | Reservation Status |
-| reservationType | `String` | Reservation Type |
-| reservationTypeDescription | `String` | Reservation Type Description |
-| reservationid | `Float` | Reservationid |
-| resort | `String` | Property |
-| resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
-| restrictionOverride | `String` | Restriction Override |
-| resvGuid | `String` | Globally unique ID using SYS_GUID() as the source. |
-| resvNameid | `Float` | Reservation Nameid |
-| resvNumber | `Float` | Not used in PMS currently. |
-| resvcontactprofileid | `Float` | Resvcontactprofileid |
-| revenueTypeCode | `String` | Revenue type (catering/rooms) |
-| rhBillingContactId | `Float` | Rh Billing Contact ID |
-| rhReservationContactId | `Float` | Rh Resv Contact ID |
-| rhRoomFeatures | `String` | Rh Room Features |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| room | `String` | Room |
-| roomCategory | `String` | Room Category |
-| roomClass | `String` | Room Class |
-| roomCost | `Float` | Room Cost |
-| roomInstructions | `String` | Room Instructions |
-| roomResort | `String` | Meeting Room Property |
-| roomRevenue | `Float` | Room Revenue |
-| roomRevenueRemaining | `Float` | Room Revenue Remaining |
-| roomServiceTime | `String` | This is the Turndown room service time. |
-| roomTypeDescription | `String` | Room Type Description |
-| roomTypeToChargeCode | `String` | Room Type To Charge Code |
-| roomTypeToChargeDescription | `String` | Room Type to Charge Description |
-| roomcategoryid | `String` | Roomcategoryid |
-| roomid | `String` | Roomid |
-| routingYN | `String` | Routing YN |
-| scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
-| sguestFirstname | `String` | This is CAPITOL version of guest_first_name |
-| sguestName | `String` | Sguest Name |
-| shareConfirmationNumbers | `String` | Share Confirmation Numbers |
-| shareId | `Float` | Share ID. |
-| shareName | `String` | Share Name |
-| sharePrcnt | `Float` | Not used. |
-| shareSeqNumber | `Float` | Type of revenue |
-| shareOfRateAmount | `Float` | Share of Rate Amount |
-| sharedGuestName | `String` | Shared Guest Name |
-| sharedProfileID | `Float` | Shared Profile ID |
-| sharedReservationStatus | `String` | Shared Reservation Status |
-| sharingYN | `String` | Sharing YN |
-| sourceCity | `String` | Source City |
-| sourceCode | `String` | Source Code |
-| sourceCountry | `String` | Source Country |
-| sourceName | `String` | Source Name |
-| sourceProfileARNumber | `Float` | Source Profile AR Number |
-| sourceProfileARNumberCentral | `String` | Source Profile AR Number (Central) |
-| sourceProfileIATANumber | `String` | Source Profile IATA Number |
-| sourceProfileID | `Float` | Source Profile ID |
-| sourceProfileName | `String` | Source Profile Name |
-| sourceid | `String` | Sourceid |
-| specialRequest | `String` | Special Request |
-| specialRequestDescription | `String` | Special Request Description |
-| spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
-| spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
-| spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
-| spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
-| splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
-| splitfromreservationid | `Float` | Splitfromreservationid |
-| statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
-| statisticalRoomType | `Float` | Room Type used to calculate statistics for export(DRS). |
-| stayRecordId | `Float` | Stay Record ID |
-| suiteNumber | `String` | Suite Number |
-| superSearchIndexText | `String` | Super Search Index Text |
-| taRecordLocator | `String` | Ta Record Locator |
-| taxExemptNumber | `String` | Tax exempt number on the profile |
-| taxNumberOfStays | `Float` | Tax No of Stays |
-| taxType | `String` | Tax Type |
-| taxTypeDescription | `String` | Tax Type Description |
-| taxtypeid | `String` | Taxtypeid |
-| tiad | `String` | Tiad |
-| ticketNos | `String` | Ticket Nos |
-| totalCostOfStay | `Float` | Total Cost of Stay |
-| totalRevenue | `Float` | Total Revenue |
-| totalRevenueRemaining | `Float` | Total Revenue Remaining |
-| totalRoomRate | `Float` | Total Room Rate |
-| trackItGroups | `String` | Track It Groups |
-| trackItTypes | `String` | Track It Types |
-| transactionid | `Float` | Transactionid |
-| travelAgentCity | `String` | Travel Agent Address. |
-| travelAgentCountry | `String` | Travel Agent Country |
-| travelAgentID | `Float` | Travel Agent ID |
-| travelAgentName | `String` | Travel Agent Name |
-| travelAgentProfileARNumber | `Float` | Travel Agent Profile AR Number |
-| travelAgentProfileARNumberCentral | `String` | Travel Agent Profile AR Number (Central) |
-| travelAgentProfileIATANumber | `String` | Travel Agent Profile IATA Number |
-| travelAgentProfileID | `Float` | Travel Agent Profile ID |
-| travelAgentProfileName | `String` | Travel Agent Profile Name |
-| truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
-| turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
-| uDFC01 | `String` | UDFC01 |
-| uDFC02 | `String` | UDFC02 |
-| uDFC03 | `String` | UDFC03 |
-| uDFC04 | `String` | UDFC04 |
-| uDFC05 | `String` | UDFC05 |
-| uDFC06 | `String` | UDFC06 |
-| uDFC07 | `String` | UDFC07 |
-| uDFC08 | `String` | UDFC08 |
-| uDFC09 | `String` | UDFC09 |
-| uDFC10 | `String` | UDFC10 |
-| uDFC11 | `String` | UDFC11 |
-| uDFC12 | `String` | UDFC12 |
-| uDFC13 | `String` | UDFC13 |
-| uDFC14 | `String` | UDFC14 |
-| uDFC15 | `String` | UDFC15 |
-| uDFC16 | `String` | UDFC16 |
-| uDFC17 | `String` | UDFC17 |
-| uDFC18 | `String` | UDFC18 |
-| uDFC19 | `String` | UDFC19 |
-| uDFC20 | `String` | UDFC20 |
-| uDFC21 | `String` | UDFC21 |
-| uDFC22 | `String` | UDFC22 |
-| uDFC23 | `String` | UDFC23 |
-| uDFC24 | `String` | UDFC24 |
-| uDFC25 | `String` | UDFC25 |
-| uDFC26 | `String` | UDFC26 |
-| uDFC27 | `String` | UDFC27 |
-| uDFC28 | `String` | UDFC28 |
-| uDFC29 | `String` | UDFC29 |
-| uDFC30 | `String` | UDFC30 |
-| uDFC31 | `String` | UDFC31 |
-| uDFC32 | `String` | UDFC32 |
-| uDFC33 | `String` | UDFC33 |
-| uDFC34 | `String` | UDFC34 |
-| uDFC35 | `String` | UDFC35 |
-| uDFC36 | `String` | UDFC36 |
-| uDFC37 | `String` | UDFC37 |
-| uDFC38 | `String` | UDFC38 |
-| uDFC39 | `String` | UDFC39 |
-| uDFC40 | `String` | UDFC40 |
-| uDFD01 | `Date` | UDFD01 |
-| uDFD02 | `Date` | UDFD02 |
-| uDFD03 | `Date` | UDFD03 |
-| uDFD04 | `Date` | UDFD04 |
-| uDFD05 | `Date` | UDFD05 |
-| uDFD06 | `Date` | UDFD06 |
-| uDFD07 | `Date` | UDFD07 |
-| uDFD08 | `Date` | UDFD08 |
-| uDFD09 | `Date` | UDFD09 |
-| uDFD10 | `Date` | UDFD10 |
-| uDFD11 | `Date` | UDFD11 |
-| uDFD12 | `Date` | UDFD12 |
-| uDFD13 | `Date` | UDFD13 |
-| uDFD14 | `Date` | UDFD14 |
-| uDFD15 | `Date` | UDFD15 |
-| uDFD16 | `Date` | UDFD16 |
-| uDFD17 | `Date` | UDFD17 |
-| uDFD18 | `Date` | UDFD18 |
-| uDFD19 | `Date` | UDFD19 |
-| uDFD20 | `Date` | UDFD20 |
-| uDFN01 | `Float` | UDFN01 |
-| uDFN02 | `Float` | UDFN02 |
-| uDFN03 | `Float` | UDFN03 |
-| uDFN04 | `Float` | UDFN04 |
-| uDFN05 | `Float` | UDFN05 |
-| uDFN06 | `Float` | UDFN06 |
-| uDFN07 | `Float` | UDFN07 |
-| uDFN08 | `Float` | UDFN08 |
-| uDFN09 | `Float` | UDFN09 |
-| uDFN10 | `Float` | UDFN10 |
-| uDFN11 | `Float` | UDFN11 |
-| uDFN12 | `Float` | UDFN12 |
-| uDFN13 | `Float` | UDFN13 |
-| uDFN14 | `Float` | UDFN14 |
-| uDFN15 | `Float` | UDFN15 |
-| uDFN16 | `Float` | UDFN16 |
-| uDFN17 | `Float` | UDFN17 |
-| uDFN18 | `Float` | UDFN18 |
-| uDFN19 | `Float` | UDFN19 |
-| uDFN20 | `Float` | UDFN20 |
-| uDFN21 | `Float` | UDFN21 |
-| uDFN22 | `Float` | UDFN22 |
-| uDFN23 | `Float` | UDFN23 |
-| uDFN24 | `Float` | UDFN24 |
-| uDFN25 | `Float` | UDFN25 |
-| uDFN26 | `Float` | UDFN26 |
-| uDFN27 | `Float` | UDFN27 |
-| uDFN28 | `Float` | UDFN28 |
-| uDFN29 | `Float` | UDFN29 |
-| uDFN30 | `Float` | UDFN30 |
-| uDFN31 | `Float` | UDFN31 |
-| uDFN32 | `Float` | UDFN32 |
-| uDFN33 | `Float` | UDFN33 |
-| uDFN34 | `Float` | UDFN34 |
-| uDFN35 | `Float` | UDFN35 |
-| uDFN36 | `Float` | UDFN36 |
-| uDFN37 | `Float` | UDFN37 |
-| uDFN38 | `Float` | UDFN38 |
-| uDFN39 | `Float` | UDFN39 |
-| uDFN40 | `Float` | UDFN40 |
-| uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
-| updateDate | `DateTime` | Update Date |
-| updateDatetime | `DateTime` | Update Datetime |
-| updateUser | `Float` | Update User |
-| updatedBy | `String` | Updated By |
-| updatedByDefaultResort | `String` | Updated By Default Property |
-| updatedDate | `Date` | Updated Date |
-| updatedTime | `String` | Updated Time |
-| upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
-| videoCheckoutYN | `String` | Flag if the guest can do video checkout |
-| visaExpiryDate | `Date` | Visa Expiry Date |
-| visaIssueDate | `Date` | Visa Issue Date |
-| visaNumber | `String` | Visa Number |
-| waitlistComment | `String` | Waitlist Comment |
-| waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
-| waitlistPriority | `String` | Waitlist Priority |
-| waitlistPriorityDescription | `String` | Waitlist Priority Description |
-| waitlistReason | `String` | Waitlist Reason |
-| waitlistReasonDescription | `String` | Waitlist Reason Description |
-| waitlistpriorityid | `String` | Waitlistpriorityid |
-| waitlistreasonid | `String` | Waitlistreasonid |
-| walkInYN | `String` | Walk-In YN |
-| yieldableYn | `String` | Yieldable Y/N |
-| ymCode | `String` | Ym Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aSBProratedYn | `String` | Indicates whether a prorated amount should be used for an Apartment Style Billing rate. |
+| 2 | accompaniedYN | `String` | Accompanied YN |
+| 3 | accompanyingName | `String` | Accompanying guest names. |
+| 4 | actualCheckInDateTime | `DateTime` | Actual Check In Date Time |
+| 5 | actualCheckOutDateTime | `DateTime` | Actual Check Out Date Time |
+| 6 | actualCheckInDate | `Date` | Actual Check-In Date |
+| 7 | actualCheckInTime | `String` | Actual Check-In Time |
+| 8 | actualCheckOutDate | `Date` | Actual Check-Out Date |
+| 9 | actualCheckOutTime | `String` | Actual Check-Out Time |
+| 10 | addressId | `Float` | Address ID |
+| 11 | addresseeNameId | `Float` | Addressee Name ID |
+| 12 | adults | `Float` | Adults |
+| 13 | adultsTaxFree | `Float` | Adults Tax Free |
+| 14 | advanceCheckedInYn | `String` | Indicates if the reservation has performed an Advance Check In. |
+| 15 | agencyprofileid | `Float` | Agencyprofileid |
+| 16 | allotmentRecordType | `String` | Indicates whether the room type inventory was taken from the allotment or House availabilty. |
+| 17 | allotmentid | `Float` | Block ID |
+| 18 | amenityEligibleYn | `String` | SPG - Indicates if this stay is eligible for an Amenity. |
+| 19 | amenityLevelCode | `String` | Amenity Level Code |
+| 20 | amountPercent | `Float` | Amount Percent |
+| 21 | approvalAmount | `Float` | Approval Amount |
+| 22 | approvalAmountCalcMethod | `Float` | Approval Amount Calc Method |
+| 23 | approvalCode | `String` | Approval Code |
+| 24 | arrivalComments | `String` | Arrival Comments |
+| 25 | arrivalDate | `Date` | Arrival Date |
+| 26 | arrivalDateTime | `DateTime` | Arrival Date Time |
+| 27 | arrivalEstimateTime | `Date` | Arrival Estimate Time |
+| 28 | arrivalTime | `String` | Activity begin time |
+| 29 | arrivaltransportid | `String` | Arrivaltransportid |
+| 30 | attachedDate | `Date` | Attached Date |
+| 31 | authorizedBillingYN | `String` | Not used. |
+| 32 | authorizedBy | `Float` | This stores the pmsp.logged_uid who authorizes the direct bill |
+| 33 | authorizerId | `Float` | Authorizer ID |
+| 34 | autoCheckinYn | `String` | Auto Checkin Y/N |
+| 35 | autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
+| 36 | autoSettleDays | `Float` | Auto Settle Days |
+| 37 | autoSettleType | `String` | Auto Settle Type |
+| 38 | autoSettleYN | `String` | Auto Settle YN |
+| 39 | awardCode | `String` | Award Code |
+| 40 | awardCode1 | `String` | Award code 1 |
+| 41 | awardCode2 | `String` | Award code 2 |
+| 42 | awardCode3 | `String` | Award code 3 |
+| 43 | awardCode4 | `String` | Award Code 4 |
+| 44 | awardCode5 | `String` | Award code 5 |
+| 45 | awardMembershipID | `Float` | Award Membership ID |
+| 46 | awardVoucher1 | `String` | Award Voucher number 1 |
+| 47 | awardVoucher2 | `String` | Award Voucher number 2 |
+| 48 | awardVoucher3 | `String` | Award Voucher number 3 |
+| 49 | awardVoucher4 | `String` | Award Voucher number 4 |
+| 50 | awardVoucher5 | `String` | Award Voucher number 5 |
+| 51 | awdUpgrFrom | `String` | Room Type  before the Upgrade Award |
+| 52 | awdUpgrTo | `String` | Room Type after the Upgrade Award |
+| 53 | backToBackYN | `String` | Back To Back YN |
+| 54 | balance | `Float` | Balance on the account. |
+| 55 | baseRateAmount | `Float` | Base Rate Amount |
+| 56 | baseRateCode | `String` | Base Rate Code |
+| 57 | baseRateCurrencyCode | `String` | Base Rate Currency Code |
+| 58 | basedOnRule | `String` | Based On Rule |
+| 59 | baseratecurrencyid | `String` | Baseratecurrencyid |
+| 60 | beginCity | `String` | Begin City |
+| 61 | beginDatetime | `DateTime` | Begin Datetime |
+| 62 | beginDistrict | `String` | Begin District |
+| 63 | beginState | `String` | Begin State |
+| 64 | beginSystemDateTime | `DateTime` | Stores the actual guest check in date and time. |
+| 65 | billNumber | `String` | Bill Number |
+| 66 | billingContact | `String` | Billing Contact |
+| 67 | billingContactDisplayName | `String` | Billing Contact Display Name |
+| 68 | billingContactId | `Float` | Billing Contact ID |
+| 69 | billingContactName | `String` | Billing Contact Name |
+| 70 | billingcontactprofileid | `Float` | Billing Contact Profile ID |
+| 71 | blockCode | `String` | Block Code |
+| 72 | blockCreateDate | `DateTime` | Block Create Date |
+| 73 | blockID | `Float` | Block ID |
+| 74 | blockName | `String` | Block Name |
+| 75 | blockResort | `String` | Property this block belongs to. |
+| 76 | blockStatus | `String` | Block Status |
+| 77 | bonusCheckId | `Float` | Bonus Check ID |
+| 78 | bookedRoomCategory | `String` | Booked Room Category |
+| 79 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
+| 80 | businessDateCreated | `Date` | Business Date Created |
+| 81 | businessDatetimeCreated | `DateTime` | Business Datetime Created |
+| 82 | bxgyDiscountYn | `String` | Bxgy Discount Y/N |
+| 83 | cAutoPostAmount | `Float` | Central Auto Post Amount |
+| 84 | cBaseRateAmount | `Float` | Central Base Rate Amount |
+| 85 | cDiscountAmount | `Float` | C Discount Amount |
+| 86 | cDiscountAmt | `Float` | C Discount Amt |
+| 87 | cEffectiveRateAmount | `Float` | C Effective Rate Amount |
+| 88 | cExchangeDate | `Date` | Central Xchange Date |
+| 89 | cExchangeRate | `Float` | Central Xchange Rate |
+| 90 | cFixedCharge | `Float` | Central Fixed Charge |
+| 91 | cGrossRateAmount | `Float` | Central Gross Rate Amt |
+| 92 | cLocalBaseRateAmount | `Float` | Central Local Base Rate Amount |
+| 93 | cNetRoomAmount | `Float` | Central Net Room Amt |
+| 94 | cOriginalBaseRate | `Float` | Central Original Base Rate |
+| 95 | cPackageAmount | `Float` | Central Pkg Amt |
+| 96 | cPackageTax | `Float` | Central Pkg Tax |
+| 97 | cRateAmount | `Float` | C Rate Amount |
+| 98 | cRoomCost | `Float` | Central Room Cost |
+| 99 | cRoomTax | `Float` | Central Room Tax |
+| 100 | cShareAmountOriginal | `Float` | Central Share Amount Original |
+| 101 | cUpsellCharge | `Float` | Central Upsell Charge |
+| 102 | cancelDate | `Date` | Cancel Date |
+| 103 | cancelReason | `String` | Cancel Reason |
+| 104 | cancelTime | `String` | Cancel Time |
+| 105 | cancellationDate | `DateTime` | Cancellation Date |
+| 106 | cancellationDatetime | `DateTime` | Cancellation Datetime |
+| 107 | cancellationNumber | `String` | Cancellation Number |
+| 108 | cancellationReasonDescription | `String` | Cancellation Reason Description |
+| 109 | cancellationreasonid | `String` | Cancellationreasonid |
+| 110 | cancelledBy | `String` | The user who canceled this Reservation. |
+| 111 | cardNumberByMembershipClass | `String` | Card Number by Membership Class |
+| 112 | cardNumberByMembershipType | `String` | Card Number by Membership Type |
+| 113 | centralApprovalAmount | `Float` | Central Approval Amount |
+| 114 | centralCancelReason | `String` | Central Cancel Reason |
+| 115 | centralCommissionCode | `String` | Central Commission Code |
+| 116 | centralCommissionDescription | `String` | Central Commission Description |
+| 117 | centralCreditLimit | `Float` | Central Credit Limit |
+| 118 | centralDiscountReason | `String` | Central Discount Reason |
+| 119 | centralDiscountReasonDescription | `String` | Central Discount Reason Description |
+| 120 | centralFBRevenue | `Float` | Central FB Revenue |
+| 121 | centralGuestType | `String` | Central Guest Type |
+| 122 | centralHurdle | `Float` | Central Hurdle |
+| 123 | centralPackageCode | `String` | Central Package Code |
+| 124 | centralPackageCodeDescription | `String` | Central Package Code Description |
+| 125 | centralPackageForecastGroup | `String` | Central Package Forecast Group |
+| 126 | centralPackageForecastGroupDescription | `String` | Central Package Forecast Group Description |
+| 127 | centralPaymentAmount | `Float` | Central Payment Amount |
+| 128 | centralProjectedFBRevenue | `Float` | Central Projected FB Revenue |
+| 129 | centralProjectedRoomRevenue | `Float` | Central Projected Room Revenue |
+| 130 | centralProjectedTotalRevenue | `Float` | Central Projected Total Revenue |
+| 131 | centralPromotionDescription | `String` | Central Promotion Description |
+| 132 | centralRateableValue | `Float` | Central Rateable Value |
+| 133 | centralReservationType | `String` | Central Reservation Type |
+| 134 | centralReservationTypeDescription | `String` | Central Reservation Type Description |
+| 135 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 136 | centralRoomTypeCode | `String` | Central Room Type Code |
+| 137 | centralRoomTypeDescription | `String` | Central Room Type Description |
+| 138 | centralRoomTypeToChargeCode | `String` | Central Room Type To Charge Code |
+| 139 | centralRoomTypeToChargeDescription | `String` | Central Room Type to Charge Description |
+| 140 | centralSharedRoomRate | `Float` | Central Shared Room Rate |
+| 141 | centralSpecialRequestDescription | `String` | Central Special Request Description |
+| 142 | centralTaxType | `String` | Central Tax Type |
+| 143 | centralTaxTypeDescription | `String` | Central Tax Type Description |
+| 144 | centralTotalCostOfStay | `Float` | Central Total Cost of Stay |
+| 145 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 146 | centralTotalRoomRate | `Float` | Central Total Room Rate |
+| 147 | centralWaitlistPriority | `String` | Central Waitlist Priority |
+| 148 | centralWaitlistPriorityDescription | `String` | Central Waitlist Priority Description |
+| 149 | centralWaitlistReason | `String` | Central Waitlist Reason |
+| 150 | centralWaitlistReasonDescription | `String` | Central Waitlist Reason Description |
+| 151 | channelDescription | `String` | Channel Description |
+| 152 | channelOrderBy | `Float` | Channel Order By |
+| 153 | channelid | `String` | Channelid |
+| 154 | checkInInitiatedBy | `String` | Check In Initiated By |
+| 155 | checkinDuration | `Float` | Duration in seconds to complete Check-In |
+| 156 | childBucket1 | `Float` | Child Bucket 1 |
+| 157 | childBucket4 | `Float` | Child Bucket 4 |
+| 158 | childBucket5 | `Float` | Child Bucket 5 |
+| 159 | children | `Float` | Children |
+| 160 | childrenAgeGroup2 | `Float` | Children Age Group 2) |
+| 161 | childrenAgeGroup3 | `Float` | Children Age Group 3) |
+| 162 | childrenAges | `String` | Children Ages |
+| 163 | commissionCode | `String` | Commission Code |
+| 164 | commissionDescription | `String` | Commission Description |
+| 165 | commissionHoldCode | `String` | Commission Hold Code |
+| 166 | commissionPaid | `Float` | Commission Paid |
+| 167 | commissionPayoutTo | `String` | Indicates to whom the commission will be paid: NULL T (Travel Agent)  S (Source) and B (Both). |
+| 168 | commissionableYN | `String` | Commissionable YN |
+| 169 | commissionid | `String` | Commissionid |
+| 170 | compHouse | `String` | Comp House |
+| 171 | compTypeCode | `String` | Comp Type Code |
+| 172 | companyCity | `String` | Company City |
+| 173 | companyCountry | `String` | Company Country |
+| 174 | companyID | `Float` | Company ID |
+| 175 | companyName | `String` | Company Name |
+| 176 | companyProfileCorporateID | `String` | Company Profile Corporate ID |
+| 177 | companyProfileID | `Float` | Company Profile ID |
+| 178 | complimentaryYN | `String` | Complimentary YN |
+| 179 | compreasonid | `String` | Compreasonid |
+| 180 | computedResvStatus | `String` | Calculated reservation status. |
+| 181 | confirmationLegNumber | `Float` | Confirmation Leg Number. |
+| 182 | confirmationNo | `String` | Shared Confirmation Number |
+| 183 | consumerYn | `String` | Consumer Y/N |
+| 184 | contactName | `String` | Contact Name; UDFC02 on reservation. |
+| 185 | contactProfileID | `Float` | Contact Profile ID |
+| 186 | contactProfileName | `String` | Contact Profile Name |
+| 187 | createdBy | `String` | The name of the user who created the record. |
+| 188 | createdByDefaultResort | `String` | Created By Default Property |
+| 189 | createdDate | `Date` | Created Date |
+| 190 | createdTime | `String` | Refer to the same column name in the table IFC_WAKE |
+| 191 | creditCardAuthDate | `Date` | Credit Card Auth Date |
+| 192 | creditCardId | `Float` | Credit Card ID |
+| 193 | creditLimit | `Float` | Credit Limit |
+| 194 | creditLimitAutoPayAllowYn | `String` | Indicates if the reservation has opted-in for auto payment when credit limit overage is detected. |
+| 195 | cribs | `Float` | Cribs |
+| 196 | currencyCode | `String` | Currency Code |
+| 197 | customReferenceNumber | `String` | Custom Reference Number |
+| 198 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 199 | dateOfArrivalInCountry | `Date` | Country Specific Requirement for Nigeria. |
+| 200 | deletedFlag | `String` | Deleted Flag |
+| 201 | departtransportid | `String` | Departtransportid |
+| 202 | departureComments | `String` | Departure Comments |
+| 203 | departureDate | `Date` | Departure Date |
+| 204 | departureDateTime | `Date` | Departure Date Time |
+| 205 | departureTime | `String` | Departure Time |
+| 206 | departureTransportCode | `String` | Departure Transport Code |
+| 207 | departureTransportationYN | `String` | Departure Transportation YN |
+| 208 | depositMaturityType | `String` | Stores the Deposit maturity preference. |
+| 209 | detatchedDate | `Date` | Detatched Date |
+| 210 | detatchedYN | `String` | Detatched YN |
+| 211 | directBillVerifyResponse | `String` | Direct Bill Verify Response |
+| 212 | directbillauthby | `Float` | Directbillauthby |
+| 213 | discountAmount | `Float` | Discount Amount |
+| 214 | discountAmt | `Float` | Discount Amount |
+| 215 | discountPercent | `Float` | Discount Percentage. |
+| 216 | discountPrcnt | `Float` | Discount Prcnt |
+| 217 | discountReason | `String` | Discount Reason |
+| 218 | discountReasonDescription | `String` | Discount Reason Description |
+| 219 | discountreasonid | `String` | Discountreasonid |
+| 220 | displayColor | `String` | Display Color |
+| 221 | dmlSeqNumber | `Float` | Dml Sequence No |
+| 222 | doNotMoveRoom | `String` | Do Not Move Room |
+| 223 | doNotMoveYN | `String` | Do not move room flag. |
+| 224 | dropOffCarrierCode | `String` | Drop Off Carrier Code |
+| 225 | dropOffDate | `Date` | Drop Off Date |
+| 226 | dropOffStation | `String` | Drop Off Station |
+| 227 | dropOffTime | `String` | Drop Off Time |
+| 228 | dropOffType | `String` | Drop Off Type |
+| 229 | dropOffTypeDescription | `String` | Drop Off Type Description |
+| 230 | eTRComments | `String` | Comments related to Estimated Time of Return. |
+| 231 | effectiveRateAmount | `Float` | Not used. |
+| 232 | eligibleForUpgradeYn | `String` | Indicates if the reservation is eligible to receive room upgrades. Controlled by Central System. |
+| 233 | emailAddress | `String` | Email Address |
+| 234 | emailFolioYn | `String` | Email Folio Y/N |
+| 235 | emailId | `Float` | Email ID |
+| 236 | emailYn | `String` | Email Y/N |
+| 237 | endCity | `String` | End City |
+| 238 | endDatetime | `DateTime` | End Datetime |
+| 239 | endDistrict | `String` | End District |
+| 240 | endState | `String` | End State |
+| 241 | endbusinessdate | `Date` | Endbusinessdate |
+| 242 | entryDate | `Date` | Entry Date into the country. (Croatian Requirements) |
+| 243 | entryPoint | `String` | (Customized) Entry point into the country. (Croatian Requirements) |
+| 244 | esignedRegCardName | `String` | Name of file that contains the electronically signed registration card. |
+| 245 | estimatedDepartureTime | `Date` | Estimated Departure Time |
+| 246 | eventId | `Float` | Event ID |
+| 247 | exchangePostingType | `String` | Exchange Posting Type |
+| 248 | exchangeRate | `Float` | Exchange Rate |
+| 249 | excludeFromAutoAuthorizationYN | `String` | Exclude From Auto Authorization YN |
+| 250 | expectedTimeOfReturnETR | `DateTime` | The time when an Advance Checked-In Guest is expected to return to perform the actual Check-In. |
+| 251 | exportCheckinresId | `Float` | Used for Croatian Requirement Exports to store a unique checkin number. |
+| 252 | extSegNo | `Float` | Not used |
+| 253 | extSeqNumber | `Float` | Not used |
+| 254 | extensionId | `Float` | Internal extension number for the main reservation |
+| 255 | externalEfolioYn | `String` | Indicates if the guest has opted to receive Efolio through an external system. |
+| 256 | externalReference | `String` | External Reference |
+| 257 | externalReferencesList | `String` | External References List |
+| 258 | extraBeds | `Float` | Extra Beds |
+| 259 | fBRevenue | `Float` | FB Revenue |
+| 260 | fBRevenueRemaining | `Float` | F&B Revenue Remaining |
+| 261 | faxId | `Float` | Fax ID |
+| 262 | faxYn | `String` | Should a confirmation be faxed for this reservation name? Y/N |
+| 263 | feature | `String` | This stores the codes for the rooms features. Currently not used |
+| 264 | financiallyResponsibleYn | `String` | Financially Responsible Y/N |
+| 265 | fixedCharge | `Float` | Not used. |
+| 266 | fixedRateYN | `String` | Fixed Rate YN |
+| 267 | folioAddrElementId | `Float` | Oracle sequence to identify different attribute values of an address. |
+| 268 | folioCloseDate | `Date` | Date the folio was changed to closed. |
+| 269 | folioNumber | `String` | Folio Number |
+| 270 | folioText1 | `String` | Folio Text1 |
+| 271 | folioText2 | `String` | Folio Text2 |
+| 272 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 273 | freeChild | `Float` | Free Child |
+| 274 | frequentFlyerMembershipYN | `String` | Frequent Flyer Membership YN |
+| 275 | grossRateFuture | `Float` | Gross Rate Future |
+| 276 | grossRatePast | `Float` | Gross Rate Past |
+| 277 | groupName | `String` | Group Name |
+| 278 | groupProfileARNumber | `Float` | Group Profile AR Number |
+| 279 | groupProfileARNumberCentral | `String` | Group Profile AR Number (Central) |
+| 280 | groupProfileClientID | `String` | Group Profile Client ID |
+| 281 | groupProfileID | `Float` | Group Profile ID |
+| 282 | groupProfileName | `String` | Group Profile Name |
+| 283 | guaranteeCodePreCi | `String` | Guarantee code before check in. Populated when the guarantee code is changed to CHECKED IN. |
+| 284 | guaranteecodeid | `String` | Guaranteecodeid |
+| 285 | guestFirstName | `String` | Guest First Name |
+| 286 | guestFirstNameSdx | `String` | This is soundex of GUEST FIRST NAME - Phonotic sound. |
+| 287 | guestLastNameSdx | `String` | This is soundex of GUEST LAST NAME - Phonotic sound. |
+| 288 | guestSignature | `String` | Signature of the guest |
+| 289 | guestStatus | `String` | Used for Police/Tourist Export |
+| 290 | guestType | `String` | Guest Type |
+| 291 | guestprofileid | `Float` | Guestprofileid |
+| 292 | gueststatusid | `String` | Gueststatusid |
+| 293 | guesttypeid | `String` | Guesttypeid |
+| 294 | housekeepingServiceTime | `String` | Housekeeping Service Time |
+| 295 | hurdle | `Float` | Hurdle |
+| 296 | hurdleOverride | `String` | Hurdle Override |
+| 297 | iDByMembershipClass | `String` | ID by Membership Class |
+| 298 | iDByMembershipType | `String` | ID by Membership Type |
+| 299 | individualCity | `String` | Guest Address. |
+| 300 | individualCountry | `String` | Country of the guest |
+| 301 | individualFirstName | `String` | Individual First Name |
+| 302 | individualLastName | `String` | Individual Last Name |
+| 303 | insertActionInstanceId | `Float` | Insert Action Instance ID |
+| 304 | insertDate | `DateTime` | Insert Date |
+| 305 | insertDateTime | `DateTime` | Insert DateTime |
+| 306 | insertUser | `Float` | Insert User |
+| 307 | intermediaryYn | `String` | Intermediary Y/N |
+| 308 | internalAwardMembershipId | `Float` | Award Membership ID |
+| 309 | internalBaseratecode | `String` | Baseratecode |
+| 310 | internalBlockId | `Float` | Block ID. |
+| 311 | internalCompanyprofileid | `Float` | Companyprofileid |
+| 312 | internalGroupprofileid | `Float` | Groupprofileid |
+| 313 | internalSourceprofileid | `Float` | Sourceprofileid |
+| 314 | itemsQuantities | `String` | Items and Quantities |
+| 315 | jRNUpdateDate | `Date` | JRN Update Date |
+| 316 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 317 | keyValidUntil | `Date` | Key Valid Until |
+| 318 | lastOnlinePrintSeq | `Float` | Last Online-Printing Sequence Number used by this reservation. |
+| 319 | lastPeriodicFolioDate | `Date` | Latest date when a folio was printed using the "Periodic Batch Folios" option |
+| 320 | lastRoomNumber | `String` | Not used. |
+| 321 | lastSettleDate | `Date` | Latest date when a direct bill settlement was automatically done using the "Direct Bill Batch Folios" option |
+| 322 | leadTimeDays | `Float` | Lead Time for ordering |
+| 323 | lengthOfStay | `Float` | Length of Stay |
+| 324 | linkedArrivalDate | `DateTime` | Linked Arrival Date |
+| 325 | linkedDepartureDate | `DateTime` | Linked Departure Date |
+| 326 | linkedRoomType | `String` | Linked Room Type |
+| 327 | listOfMembershipID | `String` | Membership ID |
+| 328 | localBaseRateAmount | `Float` | Local Base Rate Amount |
+| 329 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 330 | loyaltySchemeMembershipYN | `String` | Loyalty Scheme Membership YN |
+| 331 | mailYn | `String` | Mail Y/N |
+| 332 | manualCheckoutStatus | `String` | Indicates if this Reservation has requested or processed a Manual Checkout for consumer mobility. Possible Values: NULL [R]equested [P]rocessed. |
+| 333 | marketCode | `String` | Market Code |
+| 334 | marketid | `String` | Marketid |
+| 335 | mcGenBeginDistrict | `String` | Mc Gen Begin District |
+| 336 | mcGenBeginState | `String` | Mc Gen Begin State |
+| 337 | mcGenEndDistrict | `String` | Mc Gen End District |
+| 338 | mcGenEndState | `String` | Mc Gen End State |
+| 339 | mcGenNextCountry | `String` | Mc Gen Next Country |
+| 340 | mcGenPreviousCountry | `String` | Mc Gen Previous Country |
+| 341 | memberDescription | `String` | Member Description |
+| 342 | memberLevel | `String` | Member Level |
+| 343 | memberNumber | `String` | Member Number |
+| 344 | membershipClass | `String` | Membership Class |
+| 345 | membershipClassDescription | `String` | Membership Class Description |
+| 346 | membershipCode | `String` | Membership Code |
+| 347 | membershipId | `Float` | Membership ID |
+| 348 | membershipLevelByMembershipClass | `String` | Membership Level by Membership Class |
+| 349 | membershipTypeByMembershipClass | `String` | Membership Type by Membership Class |
+| 350 | mobileActionAlertIssued | `Date` | Stores when this Reservation has received a mobile action needed Alert for consumer mobility. |
+| 351 | mobileAudioKeyYn | `String` | Marked as Y when the Phone Number/EMail Address is Opt In. |
+| 352 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
+| 353 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
+| 354 | mobilePreferredCurrency | `String` | Currency preferred by a Mobile Registered Guest. |
+| 355 | mobileViewFolioAllowed | `String` | Indicates if the reservation is eligible to view the folio by sending a mobile message. |
+| 356 | name | `String` | Name |
+| 357 | nameUsageType | `String` | Name Usage Type |
+| 358 | nextCountry | `String` | Next Country |
+| 359 | nextDestination | `String` | Country Specific Requirement for Nigeria. |
+| 360 | numberOfRooms | `Float` | No of Rooms |
+| 361 | operaEsignedRegCardYn | `String` | Indicates if reservation?s registration card was esigned via Opera. |
+| 362 | optInBatchFolYn | `String` | Indicates if the guest has opted in to receive email through the batch folio option. |
+| 363 | optedForCommissionYN | `String` | Indicates if the reservation has opted-in for communications. |
+| 364 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 365 | originCode | `String` | Origin Code |
+| 366 | originOfBooking | `String` | Origin Of Booking |
+| 367 | originalBaseRate | `Float` | Not used. |
+| 368 | originalEndDate | `Date` | Original End Date |
+| 369 | originalStartDate | `Date` | Original Start Date |
+| 370 | ownerFfFlag | `String` | Owner Ff Flag |
+| 371 | ownerOrFriendsFamily | `String` | Owner or Friends/Family |
+| 372 | packageCode | `String` | Package Code |
+| 373 | packageCodeDescription | `String` | Package Code Description |
+| 374 | packageForecastGroup | `String` | Package Forecast Group |
+| 375 | packageForecastGroupDescription | `String` | Package Forecast Group Description |
+| 376 | parentReservationNameId | `Float` | Parent Resv Name ID |
+| 377 | parentreservationid | `Float` | Parentreservationid |
+| 378 | partAllotment | `String` | Part Allotment |
+| 379 | partyCode | `String` | Party Code |
+| 380 | paxNo | `Float` | Pax Number |
+| 381 | paymentAmount | `Float` | Total amount of payment inclusive of VAT |
+| 382 | paymentMethod | `String` | Payment Method |
+| 383 | paymentmethodid | `String` | Paymentmethodid |
+| 384 | periodicFolioFreq | `Float` | Frequency in number of days when folios should be printed for this reservation |
+| 385 | phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
+| 386 | phoneId | `Float` | Phone ID |
+| 387 | physicalQuantity | `Float` | Physical Quantity |
+| 388 | pickUpCarrierCode | `String` | Pick Up Carrier Code |
+| 389 | pickUpDate | `Date` | Pick Up Date |
+| 390 | pickUpStation | `String` | Pick Up Station |
+| 391 | pickUpTransportNumber | `String` | Pick Up Transport Number |
+| 392 | pickUpType | `String` | Pick Up Type |
+| 393 | pickUpTypeDescription | `String` | Pick Up Type Description |
+| 394 | pickUpTime | `String` | Pick-Up Time |
+| 395 | pickupRequiredYN | `String` | Pickup Required YN |
+| 396 | points | `Float` | Points |
+| 397 | pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
+| 398 | postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
+| 399 | postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
+| 400 | postingAllowedYN | `String` | Posting Allowed YN |
+| 401 | preArrReviewedDt | `DateTime` | This date flags if and when the record was reviewed from pre-arrival screen. |
+| 402 | preArrReviewedUser | `Float` | User id who reviewed the record. |
+| 403 | preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
+| 404 | preRegisteredYn | `String` | Indicates whether the reservation is pre-registered for internet check-in or not. |
+| 405 | preference | `String` | Preference |
+| 406 | preferenceType | `String` | Preference Type |
+| 407 | preferredRoomType | `String` | Preferred Room Type |
+| 408 | previousCountry | `String` | Previous Country |
+| 409 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 410 | primaryShare | `String` | Primary Share |
+| 411 | printRateYN | `String` | Print Rate YN |
+| 412 | projectedFBRevenue | `Float` | Projected FB Revenue |
+| 413 | projectedRoomRevenue | `Float` | Projected Room Revenue |
+| 414 | projectedTotalRevenue | `Float` | Projected Total Revenue |
+| 415 | promotionCode | `String` | Promotion Code |
+| 416 | promotionDescription | `String` | Promotion Description |
+| 417 | property | `String` | Indicates if the value set for the specific property. |
+| 418 | pseudoMemTotalPoints | `Float` | Total pseudo membership points accrued for the default membership type. |
+| 419 | pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
+| 420 | purgeDate | `DateTime` | Purge Date |
+| 421 | purposeOfStay | `String` | Purpose of stay. |
+| 422 | quantity | `Float` | Number of Rooms |
+| 423 | queuePriority | `Float` | Queue priority of the reservation. |
+| 424 | queueWaitTime | `Float` | Queue Wait Time |
+| 425 | quoteId | `String` | Quote ID provided by external system. |
+| 426 | rateAmount | `Float` | Rate Amount |
+| 427 | rateCode | `String` | Rate Code |
+| 428 | rateCodeDescriptions | `String` | Event Reservation Rate Code Description |
+| 429 | rateTier | `Float` | Tier ID for the Rate Detail. |
+| 430 | rateableValue | `Float` | Stay rateable value. |
+| 431 | ratecodeid | `String` | Ratecodeid |
+| 432 | rdHousekeepingExpectedServiceTime | `String` | Rd Housekeeping Expected Service Time |
+| 433 | rdResvStatus | `String` | Rd Reservation Status |
+| 434 | rdenBillingContactId | `Float` | Rden Billing Contact ID |
+| 435 | rdenReservationContactId | `Float` | Rden Resv Contact ID |
+| 436 | rdenReservationDate | `Date` | Rden Reservation Date |
+| 437 | rdenResort | `String` | Rden Property |
+| 438 | referralYn | `String` | Rotation Rule to be configured for referral flag ? |
+| 439 | registrationCardNo | `String` | Registration Card Number |
+| 440 | registrationNumber | `Float` | Registration Number |
+| 441 | reinstateDate | `DateTime` | Reinstate Date |
+| 442 | repChannel | `String` | Reporting Channel |
+| 443 | repChannelDescription | `String` | Reporting Channel Description |
+| 444 | reportId | `String` | Report ID |
+| 445 | resInsertSource | `String` | Reservation Insert Source |
+| 446 | resInsertSourceType | `String` | Reservation Insert Source Type |
+| 447 | reservationContactId | `Float` | Resv Contact ID |
+| 448 | reservationDate | `DateTime` | Reservation Date |
+| 449 | reservationNameID | `Float` | Reservation Name ID |
+| 450 | reservationStatus | `String` | Reservation Status |
+| 451 | reservationType | `String` | Reservation Type |
+| 452 | reservationTypeDescription | `String` | Reservation Type Description |
+| 453 | reservationid | `Float` | Reservationid |
+| 454 | resort | `String` | Property |
+| 455 | resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
+| 456 | restrictionOverride | `String` | Restriction Override |
+| 457 | resvGuid | `String` | Globally unique ID using SYS_GUID() as the source. |
+| 458 | resvNameid | `Float` | Reservation Nameid |
+| 459 | resvNumber | `Float` | Not used in PMS currently. |
+| 460 | resvcontactprofileid | `Float` | Resvcontactprofileid |
+| 461 | revenueTypeCode | `String` | Revenue type (catering/rooms) |
+| 462 | rhBillingContactId | `Float` | Rh Billing Contact ID |
+| 463 | rhReservationContactId | `Float` | Rh Resv Contact ID |
+| 464 | rhRoomFeatures | `String` | Rh Room Features |
+| 465 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 466 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 467 | room | `String` | Room |
+| 468 | roomCategory | `String` | Room Category |
+| 469 | roomClass | `String` | Room Class |
+| 470 | roomCost | `Float` | Room Cost |
+| 471 | roomInstructions | `String` | Room Instructions |
+| 472 | roomResort | `String` | Meeting Room Property |
+| 473 | roomRevenue | `Float` | Room Revenue |
+| 474 | roomRevenueRemaining | `Float` | Room Revenue Remaining |
+| 475 | roomServiceTime | `String` | This is the Turndown room service time. |
+| 476 | roomTypeDescription | `String` | Room Type Description |
+| 477 | roomTypeToChargeCode | `String` | Room Type To Charge Code |
+| 478 | roomTypeToChargeDescription | `String` | Room Type to Charge Description |
+| 479 | roomcategoryid | `String` | Roomcategoryid |
+| 480 | roomid | `String` | Roomid |
+| 481 | routingYN | `String` | Routing YN |
+| 482 | scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
+| 483 | sguestFirstname | `String` | This is CAPITOL version of guest_first_name |
+| 484 | sguestName | `String` | Sguest Name |
+| 485 | shareConfirmationNumbers | `String` | Share Confirmation Numbers |
+| 486 | shareId | `Float` | Share ID. |
+| 487 | shareName | `String` | Share Name |
+| 488 | sharePrcnt | `Float` | Not used. |
+| 489 | shareSeqNumber | `Float` | Type of revenue |
+| 490 | shareOfRateAmount | `Float` | Share of Rate Amount |
+| 491 | sharedGuestName | `String` | Shared Guest Name |
+| 492 | sharedProfileID | `Float` | Shared Profile ID |
+| 493 | sharedReservationStatus | `String` | Shared Reservation Status |
+| 494 | sharingYN | `String` | Sharing YN |
+| 495 | sourceCity | `String` | Source City |
+| 496 | sourceCode | `String` | Source Code |
+| 497 | sourceCountry | `String` | Source Country |
+| 498 | sourceName | `String` | Source Name |
+| 499 | sourceProfileARNumber | `Float` | Source Profile AR Number |
+| 500 | sourceProfileARNumberCentral | `String` | Source Profile AR Number (Central) |
+| 501 | sourceProfileIATANumber | `String` | Source Profile IATA Number |
+| 502 | sourceProfileID | `Float` | Source Profile ID |
+| 503 | sourceProfileName | `String` | Source Profile Name |
+| 504 | sourceid | `String` | Sourceid |
+| 505 | specialRequest | `String` | Special Request |
+| 506 | specialRequestDescription | `String` | Special Request Description |
+| 507 | spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
+| 508 | spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
+| 509 | spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
+| 510 | spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
+| 511 | splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
+| 512 | splitfromreservationid | `Float` | Splitfromreservationid |
+| 513 | statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
+| 514 | statisticalRoomType | `Float` | Room Type used to calculate statistics for export(DRS). |
+| 515 | stayRecordId | `Float` | Stay Record ID |
+| 516 | suiteNumber | `String` | Suite Number |
+| 517 | superSearchIndexText | `String` | Super Search Index Text |
+| 518 | taRecordLocator | `String` | Ta Record Locator |
+| 519 | taxExemptNumber | `String` | Tax exempt number on the profile |
+| 520 | taxNumberOfStays | `Float` | Tax No of Stays |
+| 521 | taxType | `String` | Tax Type |
+| 522 | taxTypeDescription | `String` | Tax Type Description |
+| 523 | taxtypeid | `String` | Taxtypeid |
+| 524 | tiad | `String` | Tiad |
+| 525 | ticketNos | `String` | Ticket Nos |
+| 526 | totalCostOfStay | `Float` | Total Cost of Stay |
+| 527 | totalRevenue | `Float` | Total Revenue |
+| 528 | totalRevenueRemaining | `Float` | Total Revenue Remaining |
+| 529 | totalRoomRate | `Float` | Total Room Rate |
+| 530 | trackItGroups | `String` | Track It Groups |
+| 531 | trackItTypes | `String` | Track It Types |
+| 532 | transactionid | `Float` | Transactionid |
+| 533 | travelAgentCity | `String` | Travel Agent Address. |
+| 534 | travelAgentCountry | `String` | Travel Agent Country |
+| 535 | travelAgentID | `Float` | Travel Agent ID |
+| 536 | travelAgentName | `String` | Travel Agent Name |
+| 537 | travelAgentProfileARNumber | `Float` | Travel Agent Profile AR Number |
+| 538 | travelAgentProfileARNumberCentral | `String` | Travel Agent Profile AR Number (Central) |
+| 539 | travelAgentProfileIATANumber | `String` | Travel Agent Profile IATA Number |
+| 540 | travelAgentProfileID | `Float` | Travel Agent Profile ID |
+| 541 | travelAgentProfileName | `String` | Travel Agent Profile Name |
+| 542 | truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
+| 543 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 544 | turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
+| 545 | uDFC01 | `String` | UDFC01 |
+| 546 | uDFC02 | `String` | UDFC02 |
+| 547 | uDFC03 | `String` | UDFC03 |
+| 548 | uDFC04 | `String` | UDFC04 |
+| 549 | uDFC05 | `String` | UDFC05 |
+| 550 | uDFC06 | `String` | UDFC06 |
+| 551 | uDFC07 | `String` | UDFC07 |
+| 552 | uDFC08 | `String` | UDFC08 |
+| 553 | uDFC09 | `String` | UDFC09 |
+| 554 | uDFC10 | `String` | UDFC10 |
+| 555 | uDFC11 | `String` | UDFC11 |
+| 556 | uDFC12 | `String` | UDFC12 |
+| 557 | uDFC13 | `String` | UDFC13 |
+| 558 | uDFC14 | `String` | UDFC14 |
+| 559 | uDFC15 | `String` | UDFC15 |
+| 560 | uDFC16 | `String` | UDFC16 |
+| 561 | uDFC17 | `String` | UDFC17 |
+| 562 | uDFC18 | `String` | UDFC18 |
+| 563 | uDFC19 | `String` | UDFC19 |
+| 564 | uDFC20 | `String` | UDFC20 |
+| 565 | uDFC21 | `String` | UDFC21 |
+| 566 | uDFC22 | `String` | UDFC22 |
+| 567 | uDFC23 | `String` | UDFC23 |
+| 568 | uDFC24 | `String` | UDFC24 |
+| 569 | uDFC25 | `String` | UDFC25 |
+| 570 | uDFC26 | `String` | UDFC26 |
+| 571 | uDFC27 | `String` | UDFC27 |
+| 572 | uDFC28 | `String` | UDFC28 |
+| 573 | uDFC29 | `String` | UDFC29 |
+| 574 | uDFC30 | `String` | UDFC30 |
+| 575 | uDFC31 | `String` | UDFC31 |
+| 576 | uDFC32 | `String` | UDFC32 |
+| 577 | uDFC33 | `String` | UDFC33 |
+| 578 | uDFC34 | `String` | UDFC34 |
+| 579 | uDFC35 | `String` | UDFC35 |
+| 580 | uDFC36 | `String` | UDFC36 |
+| 581 | uDFC37 | `String` | UDFC37 |
+| 582 | uDFC38 | `String` | UDFC38 |
+| 583 | uDFC39 | `String` | UDFC39 |
+| 584 | uDFC40 | `String` | UDFC40 |
+| 585 | uDFD01 | `Date` | UDFD01 |
+| 586 | uDFD02 | `Date` | UDFD02 |
+| 587 | uDFD03 | `Date` | UDFD03 |
+| 588 | uDFD04 | `Date` | UDFD04 |
+| 589 | uDFD05 | `Date` | UDFD05 |
+| 590 | uDFD06 | `Date` | UDFD06 |
+| 591 | uDFD07 | `Date` | UDFD07 |
+| 592 | uDFD08 | `Date` | UDFD08 |
+| 593 | uDFD09 | `Date` | UDFD09 |
+| 594 | uDFD10 | `Date` | UDFD10 |
+| 595 | uDFD11 | `Date` | UDFD11 |
+| 596 | uDFD12 | `Date` | UDFD12 |
+| 597 | uDFD13 | `Date` | UDFD13 |
+| 598 | uDFD14 | `Date` | UDFD14 |
+| 599 | uDFD15 | `Date` | UDFD15 |
+| 600 | uDFD16 | `Date` | UDFD16 |
+| 601 | uDFD17 | `Date` | UDFD17 |
+| 602 | uDFD18 | `Date` | UDFD18 |
+| 603 | uDFD19 | `Date` | UDFD19 |
+| 604 | uDFD20 | `Date` | UDFD20 |
+| 605 | uDFN01 | `Float` | UDFN01 |
+| 606 | uDFN02 | `Float` | UDFN02 |
+| 607 | uDFN03 | `Float` | UDFN03 |
+| 608 | uDFN04 | `Float` | UDFN04 |
+| 609 | uDFN05 | `Float` | UDFN05 |
+| 610 | uDFN06 | `Float` | UDFN06 |
+| 611 | uDFN07 | `Float` | UDFN07 |
+| 612 | uDFN08 | `Float` | UDFN08 |
+| 613 | uDFN09 | `Float` | UDFN09 |
+| 614 | uDFN10 | `Float` | UDFN10 |
+| 615 | uDFN11 | `Float` | UDFN11 |
+| 616 | uDFN12 | `Float` | UDFN12 |
+| 617 | uDFN13 | `Float` | UDFN13 |
+| 618 | uDFN14 | `Float` | UDFN14 |
+| 619 | uDFN15 | `Float` | UDFN15 |
+| 620 | uDFN16 | `Float` | UDFN16 |
+| 621 | uDFN17 | `Float` | UDFN17 |
+| 622 | uDFN18 | `Float` | UDFN18 |
+| 623 | uDFN19 | `Float` | UDFN19 |
+| 624 | uDFN20 | `Float` | UDFN20 |
+| 625 | uDFN21 | `Float` | UDFN21 |
+| 626 | uDFN22 | `Float` | UDFN22 |
+| 627 | uDFN23 | `Float` | UDFN23 |
+| 628 | uDFN24 | `Float` | UDFN24 |
+| 629 | uDFN25 | `Float` | UDFN25 |
+| 630 | uDFN26 | `Float` | UDFN26 |
+| 631 | uDFN27 | `Float` | UDFN27 |
+| 632 | uDFN28 | `Float` | UDFN28 |
+| 633 | uDFN29 | `Float` | UDFN29 |
+| 634 | uDFN30 | `Float` | UDFN30 |
+| 635 | uDFN31 | `Float` | UDFN31 |
+| 636 | uDFN32 | `Float` | UDFN32 |
+| 637 | uDFN33 | `Float` | UDFN33 |
+| 638 | uDFN34 | `Float` | UDFN34 |
+| 639 | uDFN35 | `Float` | UDFN35 |
+| 640 | uDFN36 | `Float` | UDFN36 |
+| 641 | uDFN37 | `Float` | UDFN37 |
+| 642 | uDFN38 | `Float` | UDFN38 |
+| 643 | uDFN39 | `Float` | UDFN39 |
+| 644 | uDFN40 | `Float` | UDFN40 |
+| 645 | uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
+| 646 | updateDate | `DateTime` | Update Date |
+| 647 | updateDatetime | `DateTime` | Update Datetime |
+| 648 | updateUser | `Float` | Update User |
+| 649 | updatedBy | `String` | Updated By |
+| 650 | updatedByDefaultResort | `String` | Updated By Default Property |
+| 651 | updatedDate | `Date` | Updated Date |
+| 652 | updatedTime | `String` | Updated Time |
+| 653 | upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
+| 654 | videoCheckoutYN | `String` | Flag if the guest can do video checkout |
+| 655 | visaExpiryDate | `Date` | Visa Expiry Date |
+| 656 | visaIssueDate | `Date` | Visa Issue Date |
+| 657 | visaNumber | `String` | Visa Number |
+| 658 | waitlistComment | `String` | Waitlist Comment |
+| 659 | waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
+| 660 | waitlistPriority | `String` | Waitlist Priority |
+| 661 | waitlistPriorityDescription | `String` | Waitlist Priority Description |
+| 662 | waitlistReason | `String` | Waitlist Reason |
+| 663 | waitlistReasonDescription | `String` | Waitlist Reason Description |
+| 664 | waitlistpriorityid | `String` | Waitlistpriorityid |
+| 665 | waitlistreasonid | `String` | Waitlistreasonid |
+| 666 | walkInYN | `String` | Walk-In YN |
+| 667 | yieldableYn | `String` | Yieldable Y/N |
+| 668 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -1104,434 +1104,434 @@
 
 ### FinancialTransactionDetailsExtendedGuestProfileAllInformationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| guestProfileID | `Float` | The primary key for this table. |
-| aRNumber | `String` | Account number. |
-| aRNumberCentral | `String` | Account Receivable No. of this profile. |
-| aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
-| aRCMailFlag | `String` | The ARC mailing flag (received from ARC Update program) |
-| aRCOfficeType | `String` | The ARC office type (received from ARC Update program) |
-| aRCUpdateDate | `Date` | The date this record was last updated by the ARC update program. |
-| accountBillingContact | `String` | Billing contact person in company. |
-| accountSource | `String` | Used in S&C Module. |
-| accountType | `String` | Account Type of this Profile |
-| accountTypeDescription | `String` | The description of this value. |
-| accountsourceDesc | `String` | The description of this value. |
-| actionCode | `String` | Mailing action codes. |
-| activeYN | `String` | Profile is active or not. |
-| address1 | `String` | The first line of street address. |
-| address2 | `String` | The second line of street address. |
-| address3 | `String` | The third line of street address. |
-| address4 | `String` | The fourth line of street address. |
-| addressId | `Float` | The primary key for this table. |
-| addressLangCodeDesc | `String` | Description for each language code. |
-| addressLanguageCode | `String` | Address Language Code |
-| addressType | `String` | The type of address. |
-| alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
-| allResorts | `String` | All Resorts |
-| alternateEnvelopeGreeting | `String` | Field which stores the multibyte envelop greeting used in S&C |
-| alternateLanguage | `String` | The Extended Byte Language of the Profile. |
-| alternateLanguageDescription | `String` | Description for each language code. |
-| alternateSalutation | `String` | Alternate Salutation |
-| autoEnrollMemberYN | `String` | Auto-Enroll Member YN |
-| availabilityOverride | `String` | Does profile have Availability Override Y/N |
-| billingCode | `String` | The billing code for this name record. |
-| billingInstruction | `String` | Billing Instruction |
-| billingProfileCode | `String` | For tour operators the type of billing profile for this name. |
-| birthCountry | `String` | Country of Birth |
-| birthDate | `Date` | Date of Birth of the Individual Profiles. |
-| birthDateStr | `String` | Stores the encrypted birth date. |
-| birthPlace | `String` | Place of Birth |
-| blMsg | `String` | Any Message for the Restricted profile. |
-| businessSegment | `String` | Used in S&C Module. |
-| businessSegmentDescription | `String` | The description of this value. |
-| businessTitle | `String` | The business title for this individual. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cProfileCreditLimit | `Float` | Central Profile Credit Limit |
-| cRSNameid | `Float` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
-| ccProfileYn | `String` | This field tells whether this profile is a credit card profile or not. |
-| centralAccountType | `String` | Central Account Type |
-| centralBusinessSegment | `String` | Central Business Segment |
-| centralBusinessSegmentDescription | `String` | Central Business Segment Description |
-| centralCorporateIDType | `String` | Central Corporate ID Type |
-| centralDefaultKeyword | `String` | The keyword to search on. |
-| centralGuestTitleCode | `String` | Central Guest Title Code |
-| centralInactiveReason | `String` | Central Inactive Reason |
-| centralInactiveReasonDescription | `String` | Central Inactive Reason Description |
-| centralMailActionDescription | `String` | Central Mail Action Description |
-| centralMailingActionCode | `String` | Central Mailing Action Code |
-| centralPriority | `String` | Central Priority |
-| centralStateCode | `String` | Central State Code |
-| centralTerritory | `String` | Central Territory |
-| centralVIPCode | `String` | Central VIP Code |
-| centralVIPDescription | `String` | Central VIP Description |
-| chainCode | `String` | Chain Code |
-| city | `String` | The city for this address. |
-| clientID | `String` | The unique key of this name stores IATA# Company # etc. |
-| collectionUserId | `Float` | The user that has been assigned to this account for collections. |
-| combinedName | `String` | Combined Name |
-| commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
-| comments | `String` | Not Used. |
-| commissionCode | `String` | Commission Code for the Commission Percentage. |
-| commissionCodes | `String` | Code for the commission for Travel Agent |
-| commissionCurrencyId | `String` | Comm Curr ID |
-| commissionid | `String` | Commission Code for the Commission Percentage. |
-| communicationRole1 | `String` | Role in which this phone type belongs to. |
-| communicationRole2 | `String` | Role in which this phone type belongs to. |
-| communicationRole3 | `String` | Role in which this phone type belongs to. |
-| communicationType1 | `String` | The type of this phone number. |
-| communicationType2 | `String` | The type of this phone number. |
-| communicationType3 | `String` | The type of this phone number. |
-| communicationValue1 | `String` | The phone number for this record |
-| communicationValue2 | `String` | The phone number for this record |
-| communicationValue3 | `String` | The phone number for this record |
-| companyAlternate | `String` | Extended Byte Company Name |
-| companyGroupId | `String` | The company group or company group user ID in hierarchical format |
-| companyNameId | `Float` | Not used. |
-| competition | `String` | Competaion code . |
-| competitionDesc | `String` | The description of this value. |
-| contactYN | `String` | Used in S&C Module. |
-| contractNo | `String` | Group Contract number. |
-| contractRecvDate | `Date` | The date the group contract was received. |
-| corpTypeDesc | `String` | Corp Type Description |
-| corporateIDType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
-| country | `String` | Country name. |
-| countryCode | `String` | Country . |
-| createdByUser | `String` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| creditRating | `String` | Credit rating. |
-| currencyCode | `String` | Currency Code |
-| currencySymbol | `String` | Currency Symbol like $ or EURO symbol |
-| dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
-| dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
-| dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
-| dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
-| dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
-| dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
-| dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
-| dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debtorName | `String` | Debtor Name |
-| decimalPositions | `Float` | The number of digits after the decimal to allow for this currency. |
-| defaultKeyword | `String` | The keyword to search on. |
-| deletedFlag | `String` | Deleted Flag |
-| department | `String` | Used in S&C Module. |
-| deptId | `String` | Used in S&C Module. |
-| description | `String` | Used in QMS Module |
-| directBillBatchType | `String` | Direct Bill Batch Type |
-| displayName | `String` | Display Name |
-| downloadDate | `Date` | Date on which the record is downloaded to laptop. |
-| downloadResort | `String` | REsort name which has downloaded on the laptop. |
-| downloadSrep | `Float` | Owner of the record who downloaded on to laptop. |
-| eInvLiableLastUpdated | `Date` | The date when the E-Invoice liable flag was updated for this profile. |
-| eInvoiceLiableYn | `String` | Turkey Country requirement: Indicated if this profile e-Invoice liable. Folios generated for this profile will be directly sent to an external system. |
-| email | `String` | The phone number for this record |
-| emailYN | `String` | Email YN |
-| envelopeGreeting | `String` | Field which stores the envelop greeting used in S&C |
-| externalDisplayName | `String` | External Display Name |
-| externalFirstName | `String` | The first name of an individual. |
-| externalId | `String` | External ID used for V6 Interface stores the PMS guest number |
-| externalName | `String` | The last name of the individual profile. |
-| externalReferenceRequ | `String` | Not Used. |
-| externalReferenceRequired | `String` | During the booking process is the user required to enter the tour operator or TA record locator. |
-| fMembershipCardNumbers | `String` | Membership Card Number. |
-| fMembershipClassDesc | `String` | Descripion of membership class |
-| fMembershipClasses | `String` | F Membership Classes |
-| fMembershipCodes | `String` | F Membership Codes |
-| fMembershipDescriptions | `String` | F Membership Descriptions |
-| fMembershipIds | `String` | Primary Key for this table. |
-| fMembershipType | `String` | Type of the Membership. |
-| fSubscriptionDb | `String` | The ID of the external Database. |
-| fSubscriptionYn | `String` | The ID of the external Database. |
-| faxNumber | `String` | The phone number for this record |
-| firstName | `String` | The first name of an individual name. |
-| firstNameAlternate | `String` | First Name Alternate |
-| firstNameIncognito | `String` | The keyword to search on. |
-| followOn | `String` | The follow on for this individual (I.E: III etc). |
-| gDSName | `String` | The name as communicated from the GDS. system.  Filled on names that are created during the booking. |
-| gDSTransactionNo | `String` | Not used. |
-| gender | `String` | Indicates gender of Individual profile. Either (M)ale or F(emale) |
-| geographicRegion | `String` | Not used. |
-| guestClassification | `String` | Not used. |
-| guestCountry | `String` | Country name. |
-| guestCurrencyCode | `String` | Currency code for the Commission payment. |
-| guestLanguageCode | `String` | Description for each language code. |
-| guestLastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
-| guestMiddleName | `String` | The middle name of this individual. |
-| guestNameSuffix | `String` | Guest Name Suffix |
-| guestPrivilegeYN | `String` | Guest Privilege YN |
-| guestTitleCode | `String` | The title of the individual. |
-| hasRequestedMailYN | `String` | Has Requested Mail YN |
-| historyYN | `String` | Keep guest in history Y/N |
-| holdCode | `String` | Hold code for the Commission handling purposes. |
-| iataConsortia | `String` | Consortia for the IATA number. |
-| idCountry | `String` | The country where ID was issued |
-| idDate | `Date` | Issued date of Identification |
-| idDocumentAttachId | `Float` | This will store the value of LINKED_ATTACHMENTS.ATTACH_ID (Which maps to the physical table WORK_ORDERS.WO_NUMBER) |
-| idPlace | `String` | The place where ID was issued |
-| idType | `String` | Identification Type. Eg Passport Driving License etc |
-| immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
-| inactiveDate | `Date` | The date the record was marked as inactive |
-| inactiveFlag | `String` | Inactive Flag |
-| inactiveReason | `String` | Reason why record was inactivated. |
-| inactiveReasonDescription | `String` | The description of this value. |
-| includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
-| indexName | `String` | Index Name |
-| industryCode | `String` | The Industry this profile belongs to. Used only for the Non-Individual Profiles. |
-| industryDesc | `String` | The description of this value. |
-| influence | `String` | Used in S&C Module. |
-| influenceDesc | `String` | The description of this value. |
-| interest | `String` | Interest Code. |
-| internalBillYn | `String` | Indicates that this profile should be generating an internal bill instead of a regular bill during settlement. |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Primary language used for the profile. |
-| laptopChange | `Float` | Code to synchronize to Laptop values are 012. |
-| lastGroup | `String` | Last Group |
-| lastNameAlternate | `String` | Last Name Alternate |
-| lastNameIncognito | `String` | The keyword to search on. |
-| lastRate | `Float` | Last Rate |
-| lastRateCode | `String` | Last Rate Code |
-| lastRoom | `String` | The room that is booked for this reservation leg. |
-| lastRoomProperty | `String` | Last Room Property |
-| lastSource | `String` | Last Source |
-| lastStay | `Date` | This contains the truncated component of end_date (i.e without timecomponent) |
-| lastUpdatedResort | `String` | Last property that updated this record. |
-| legalCompany | `String` | The legal company name for this company. |
-| letterGreeting | `String` | Used in S&C Module. |
-| mailActionDescription | `String` | The description of this value. |
-| mailList | `String` | This indicates whether the mailing list must be sent to the guest. |
-| mailType | `String` | The type of mail this user should be sent. |
-| mailingActionCode | `String` | Mailing action codes. |
-| marketResearchYN | `String` | Market Research YN |
-| masterAccountYn | `String` | Is this account a master account (Y/N)? |
-| nameTaxType | `String` | Not used. |
-| nameType | `String` | The type of Profile. |
-| nameTypeDescription | `String` | The description of this value. |
-| name2 | `String` | Not Used. |
-| name3 | `String` | Not used. |
-| nationality | `String` | Nationality |
-| nationalityCode | `String` | Nationality of the individual. |
-| negotiatedRateCodes | `String` | The rate code for which this record applies. |
-| nextStay | `Date` | This is a begin_date  with no  time component. |
-| nickname | `String` | The nickname of this individual. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
-| paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| phone | `String` | The phone number for this record |
-| phoneWeb | `String` | The phone number for this record |
-| phoneYN | `String` | Phone YN |
-| postalCode | `String` | The postal code of this address. |
-| postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
-| preferredRoomNo | `String` | Preferred Room Number |
-| primaryAddressId | `Float` | Not used. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryNameId | `Float` | Not Used. |
-| primaryOwner | `String` | Primary Owner |
-| primaryOwnerCode | `String` | Primary Owner Code |
-| primaryPhoneId | `Float` | Not used. |
-| priority | `String` | Priority of the account |
-| priorityDesc | `String` | The description of this value. |
-| privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
-| productInterest | `String` | Preference Code. Part of the Primary Key. |
-| profession | `String` | The profession of the Individual |
-| profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
-| profileId | `Float` | The primary key for this table. |
-| profileType | `String` | The type of Profile. |
-| propertyRegistered | `String` | Resort for which Job is registered. |
-| protected | `String` | Protected |
-| psuedoProfileYn | `String` | Psuedo Profile Y/N |
-| rateStructure | `String` | The default rate structure for this name. |
-| region | `String` | The region for this name. |
-| regionid | `String` | The region for this name. |
-| repAccountTypeDescription | `String` | Reporting Account Type Description |
-| repAccountsource | `String` | Reporting Accountsource |
-| repAccountsourceDescription | `String` | Reporting Accountsource Desc |
-| repCompetitionCode | `String` | Reporting Competition Code |
-| repCompetitionDescription | `String` | Reporting Competition Desc |
-| repCorpTypeDescription | `String` | Reporting Corp Type Desc |
-| repIndustryCode | `String` | Reporting Industry Code |
-| repIndustryDescription | `String` | Reporting Industry Desc |
-| repInfluence | `String` | Reporting Influence |
-| repInfluenceDescription | `String` | Reporting Influence Desc |
-| repNameType | `String` | Reporting Name Type |
-| repNameTypeDescription | `String` | Reporting Name Type Description |
-| repNationalityCode | `String` | Rep Nationality Code |
-| repNationalityDescription | `String` | Rep Nationality Description |
-| repPriorityDescription | `String` | Reporting Priority Desc |
-| repRoomsPotential | `String` | Reporting Rooms Potential |
-| repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
-| repScope | `String` | Reporting Scope |
-| repScopeCity | `String` | Reporting Scope City |
-| repScopeCityDescription | `String` | Reporting Scope City Desc |
-| repScopeDescription | `String` | Reporting Scope Desc |
-| repStateDescription | `String` | Reporting State Desc |
-| repTaxTypeDescription | `String` | Reporting Tax Type Desc |
-| repTerritoryDescription | `String` | Reporting Territory Desc |
-| repTitleName | `String` | Reporting Title Name |
-| repeatGuestId | `String` | The primary membership # for this guest. |
-| replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
-| requestType | `String` | This column store the Name of the Company Profiles. |
-| restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
-| restrictedRule | `String` | The description of this value. |
-| resvContact | `String` | Reservation Contact person. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomsPotential | `String` | Potential no of rooms per year for a account |
-| roomsPotentialDesc | `String` | The description of this value. |
-| sMSYN | `String` | Use this alert to text a notification. |
-| salutation | `String` | Salutation Greeting |
-| scope | `String` | Scope of the account |
-| scopeCity | `String` | Scope City |
-| scopeCityDesc | `String` | The description of this value. |
-| scopeDesc | `String` | The description of this value. |
-| searchName | `String` | The Uppercase value of Last or Company. |
-| searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
-| sfirst | `String` | Uppercase value of First Name. |
-| soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
-| soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
-| srepCode | `String` | Used in QMS Module |
-| state | `String` | The state of this address. |
-| stateCode | `String` | State Code |
-| stateDescription | `String` | Description of the state. |
-| summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
-| summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
-| superSearchIndexText | `String` | Used in Oracle Text Index. |
-| sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
-| taxCategory | `String` | Tax Category |
-| taxExemptStatus | `String` | Not used. |
-| taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
-| taxID2 | `String` | Tax No |
-| taxOffice | `String` | Tax Office Name |
-| taxType | `String` | Tax Type |
-| territory | `String` | TERRITORY of  a account |
-| territoryDesc | `String` | The description of this value. |
-| thirdPartyYN | `String` | Third Party YN |
-| titleAlternate | `String` | Title Alternate |
-| titleName | `String` | The description of this value. |
-| titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
-| totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
-| tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
-| traceCode | `String` | Code to Trace a record for all Triggered actions. |
-| tracecodeDesc | `String` | Description |
-| typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
-| uDFC01 | `String` | User defined character field. |
-| uDFC02 | `String` | User defined character field. |
-| uDFC03 | `String` | User defined character field. |
-| uDFC04 | `String` | User defined character field. |
-| uDFC05 | `String` | User defined character field. |
-| uDFC06 | `String` | User defined character field. |
-| uDFC07 | `String` | User defined character field. |
-| uDFC08 | `String` | User defined character field. |
-| uDFC09 | `String` | User defined character field. |
-| uDFC10 | `String` | User defined character field. |
-| uDFC11 | `String` | User defined character field. |
-| uDFC12 | `String` | User defined character field. |
-| uDFC13 | `String` | User defined character field. |
-| uDFC14 | `String` | User defined character field. |
-| uDFC15 | `String` | User defined character field. |
-| uDFC16 | `String` | User defined character field. |
-| uDFC17 | `String` | User defined character field. |
-| uDFC18 | `String` | User defined character field. |
-| uDFC19 | `String` | User defined character field. |
-| uDFC20 | `String` | User defined character field. |
-| uDFC21 | `String` | User defined character field. |
-| uDFC22 | `String` | User defined character field. |
-| uDFC23 | `String` | User defined character field. |
-| uDFC24 | `String` | User defined character field. |
-| uDFC25 | `String` | User defined character field. |
-| uDFC26 | `String` | User defined character field. |
-| uDFC27 | `String` | User defined character field. |
-| uDFC28 | `String` | User defined character field. |
-| uDFC29 | `String` | User defined character field. |
-| uDFC30 | `String` | User defined character field. |
-| uDFC31 | `String` | User defined character field. |
-| uDFC32 | `String` | User defined character field. |
-| uDFC33 | `String` | User defined character field. |
-| uDFC34 | `String` | User defined character field. |
-| uDFC35 | `String` | User defined character field. |
-| uDFC36 | `String` | User defined character field. |
-| uDFC37 | `String` | User defined character field. |
-| uDFC38 | `String` | User defined character field. |
-| uDFC39 | `String` | User defined character field. |
-| uDFC40 | `String` | User defined character field. |
-| uDFD01 | `Date` | User defined date field. |
-| uDFD02 | `Date` | User defined date field. |
-| uDFD03 | `Date` | User defined date field. |
-| uDFD04 | `Date` | User defined date field. |
-| uDFD05 | `Date` | User defined date field. |
-| uDFD06 | `Date` | User defined date field. |
-| uDFD07 | `Date` | User defined date field. |
-| uDFD08 | `Date` | User defined date field. |
-| uDFD09 | `Date` | User defined date field. |
-| uDFD10 | `Date` | User defined date field. |
-| uDFD11 | `Date` | User defined date field. |
-| uDFD12 | `Date` | User defined date field. |
-| uDFD13 | `Date` | User defined date field. |
-| uDFD14 | `Date` | User defined date field. |
-| uDFD15 | `Date` | User defined date field. |
-| uDFD16 | `Date` | User defined date field. |
-| uDFD17 | `Date` | User defined date field. |
-| uDFD18 | `Date` | User defined date field. |
-| uDFD19 | `Date` | User defined date field. |
-| uDFD20 | `Date` | User defined date field. |
-| uDFN01 | `Float` | User defined number field. |
-| uDFN02 | `Float` | User defined number field. |
-| uDFN03 | `Float` | User defined number field. |
-| uDFN04 | `Float` | User defined number field. |
-| uDFN05 | `Float` | User defined number field. |
-| uDFN06 | `Float` | User defined number field. |
-| uDFN07 | `Float` | User defined number field. |
-| uDFN08 | `Float` | User defined number field. |
-| uDFN09 | `Float` | User defined number field. |
-| uDFN10 | `Float` | User defined number field. |
-| uDFN11 | `Float` | User defined number field. |
-| uDFN12 | `Float` | User defined number field. |
-| uDFN13 | `Float` | User defined number field. |
-| uDFN14 | `Float` | User defined number field. |
-| uDFN15 | `Float` | User defined number field. |
-| uDFN16 | `Float` | User defined number field. |
-| uDFN17 | `Float` | User defined number field. |
-| uDFN18 | `Float` | User defined number field. |
-| uDFN19 | `Float` | User defined number field. |
-| uDFN20 | `Float` | User defined number field. |
-| uDFN21 | `Float` | User defined number field. |
-| uDFN22 | `Float` | User defined number field. |
-| uDFN23 | `Float` | User defined number field. |
-| uDFN24 | `Float` | User defined number field. |
-| uDFN25 | `Float` | User defined number field. |
-| uDFN26 | `Float` | User defined number field. |
-| uDFN27 | `Float` | User defined number field. |
-| uDFN28 | `Float` | User defined number field. |
-| uDFN29 | `Float` | User defined number field. |
-| uDFN30 | `Float` | User defined number field. |
-| uDFN31 | `Float` | User defined number field. |
-| uDFN32 | `Float` | User defined number field. |
-| uDFN33 | `Float` | User defined number field. |
-| uDFN34 | `Float` | User defined number field. |
-| uDFN35 | `Float` | User defined number field. |
-| uDFN36 | `Float` | User defined number field. |
-| uDFN37 | `Float` | User defined number field. |
-| uDFN38 | `Float` | User defined number field. |
-| uDFN39 | `Float` | User defined number field. |
-| uDFN40 | `Float` | User defined number field. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateFaxDate | `Date` | The last date this record's fax # was updated. |
-| updateUser | `String` | The user that modified the record |
-| uploadDate | `Date` | Date on which the record is uploaded to laptop. |
-| vIPCode | `String` | VIP Status of the Individual. |
-| vIPDescription | `String` | The description of this value. |
-| vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
-| vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
-| vipAuthorization | `String` | Not Used. |
-| visaValidityType | `String` | Country Specific Requirement for Nigeria. |
-| xdisplayName | `String` | Xdisplay Name |
-| xmiddleName | `String` | Extended Byte middle name. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | guestProfileID | `Float` | The primary key for this table. |
+| 2 | aRNumber | `String` | Account number. |
+| 3 | aRNumberCentral | `String` | Account Receivable No. of this profile. |
+| 4 | aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
+| 5 | aRCMailFlag | `String` | The ARC mailing flag (received from ARC Update program) |
+| 6 | aRCOfficeType | `String` | The ARC office type (received from ARC Update program) |
+| 7 | aRCUpdateDate | `Date` | The date this record was last updated by the ARC update program. |
+| 8 | accountBillingContact | `String` | Billing contact person in company. |
+| 9 | accountSource | `String` | Used in S&C Module. |
+| 10 | accountType | `String` | Account Type of this Profile |
+| 11 | accountTypeDescription | `String` | The description of this value. |
+| 12 | accountsourceDesc | `String` | The description of this value. |
+| 13 | actionCode | `String` | Mailing action codes. |
+| 14 | activeYN | `String` | Profile is active or not. |
+| 15 | address1 | `String` | The first line of street address. |
+| 16 | address2 | `String` | The second line of street address. |
+| 17 | address3 | `String` | The third line of street address. |
+| 18 | address4 | `String` | The fourth line of street address. |
+| 19 | addressId | `Float` | The primary key for this table. |
+| 20 | addressLangCodeDesc | `String` | Description for each language code. |
+| 21 | addressLanguageCode | `String` | Address Language Code |
+| 22 | addressType | `String` | The type of address. |
+| 23 | alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
+| 24 | allResorts | `String` | All Resorts |
+| 25 | alternateEnvelopeGreeting | `String` | Field which stores the multibyte envelop greeting used in S&C |
+| 26 | alternateLanguage | `String` | The Extended Byte Language of the Profile. |
+| 27 | alternateLanguageDescription | `String` | Description for each language code. |
+| 28 | alternateSalutation | `String` | Alternate Salutation |
+| 29 | autoEnrollMemberYN | `String` | Auto-Enroll Member YN |
+| 30 | availabilityOverride | `String` | Does profile have Availability Override Y/N |
+| 31 | billingCode | `String` | The billing code for this name record. |
+| 32 | billingInstruction | `String` | Billing Instruction |
+| 33 | billingProfileCode | `String` | For tour operators the type of billing profile for this name. |
+| 34 | birthCountry | `String` | Country of Birth |
+| 35 | birthDate | `Date` | Date of Birth of the Individual Profiles. |
+| 36 | birthDateStr | `String` | Stores the encrypted birth date. |
+| 37 | birthPlace | `String` | Place of Birth |
+| 38 | blMsg | `String` | Any Message for the Restricted profile. |
+| 39 | businessSegment | `String` | Used in S&C Module. |
+| 40 | businessSegmentDescription | `String` | The description of this value. |
+| 41 | businessTitle | `String` | The business title for this individual. |
+| 42 | cExchangeDate | `Date` | Central Xchange Date |
+| 43 | cExchangeRate | `Float` | Central Xchange Rate |
+| 44 | cProfileCreditLimit | `Float` | Central Profile Credit Limit |
+| 45 | cRSNameid | `Float` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
+| 46 | ccProfileYn | `String` | This field tells whether this profile is a credit card profile or not. |
+| 47 | centralAccountType | `String` | Central Account Type |
+| 48 | centralBusinessSegment | `String` | Central Business Segment |
+| 49 | centralBusinessSegmentDescription | `String` | Central Business Segment Description |
+| 50 | centralCorporateIDType | `String` | Central Corporate ID Type |
+| 51 | centralDefaultKeyword | `String` | The keyword to search on. |
+| 52 | centralGuestTitleCode | `String` | Central Guest Title Code |
+| 53 | centralInactiveReason | `String` | Central Inactive Reason |
+| 54 | centralInactiveReasonDescription | `String` | Central Inactive Reason Description |
+| 55 | centralMailActionDescription | `String` | Central Mail Action Description |
+| 56 | centralMailingActionCode | `String` | Central Mailing Action Code |
+| 57 | centralPriority | `String` | Central Priority |
+| 58 | centralStateCode | `String` | Central State Code |
+| 59 | centralTerritory | `String` | Central Territory |
+| 60 | centralVIPCode | `String` | Central VIP Code |
+| 61 | centralVIPDescription | `String` | Central VIP Description |
+| 62 | chainCode | `String` | Chain Code |
+| 63 | city | `String` | The city for this address. |
+| 64 | clientID | `String` | The unique key of this name stores IATA# Company # etc. |
+| 65 | collectionUserId | `Float` | The user that has been assigned to this account for collections. |
+| 66 | combinedName | `String` | Combined Name |
+| 67 | commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
+| 68 | comments | `String` | Not Used. |
+| 69 | commissionCode | `String` | Commission Code for the Commission Percentage. |
+| 70 | commissionCodes | `String` | Code for the commission for Travel Agent |
+| 71 | commissionCurrencyId | `String` | Comm Curr ID |
+| 72 | commissionid | `String` | Commission Code for the Commission Percentage. |
+| 73 | communicationRole1 | `String` | Role in which this phone type belongs to. |
+| 74 | communicationRole2 | `String` | Role in which this phone type belongs to. |
+| 75 | communicationRole3 | `String` | Role in which this phone type belongs to. |
+| 76 | communicationType1 | `String` | The type of this phone number. |
+| 77 | communicationType2 | `String` | The type of this phone number. |
+| 78 | communicationType3 | `String` | The type of this phone number. |
+| 79 | communicationValue1 | `String` | The phone number for this record |
+| 80 | communicationValue2 | `String` | The phone number for this record |
+| 81 | communicationValue3 | `String` | The phone number for this record |
+| 82 | companyAlternate | `String` | Extended Byte Company Name |
+| 83 | companyGroupId | `String` | The company group or company group user ID in hierarchical format |
+| 84 | companyNameId | `Float` | Not used. |
+| 85 | competition | `String` | Competaion code . |
+| 86 | competitionDesc | `String` | The description of this value. |
+| 87 | contactYN | `String` | Used in S&C Module. |
+| 88 | contractNo | `String` | Group Contract number. |
+| 89 | contractRecvDate | `Date` | The date the group contract was received. |
+| 90 | corpTypeDesc | `String` | Corp Type Description |
+| 91 | corporateIDType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
+| 92 | country | `String` | Country name. |
+| 93 | countryCode | `String` | Country . |
+| 94 | createdByUser | `String` | The user that created the record |
+| 95 | createdOnDate | `DateTime` | The date the record was created |
+| 96 | creditRating | `String` | Credit rating. |
+| 97 | currencyCode | `String` | Currency Code |
+| 98 | currencySymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 99 | dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
+| 100 | dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
+| 101 | dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
+| 102 | dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
+| 103 | dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
+| 104 | dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
+| 105 | dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
+| 106 | dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
+| 107 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 108 | debtorName | `String` | Debtor Name |
+| 109 | decimalPositions | `Float` | The number of digits after the decimal to allow for this currency. |
+| 110 | defaultKeyword | `String` | The keyword to search on. |
+| 111 | deletedFlag | `String` | Deleted Flag |
+| 112 | department | `String` | Used in S&C Module. |
+| 113 | deptId | `String` | Used in S&C Module. |
+| 114 | description | `String` | Used in QMS Module |
+| 115 | directBillBatchType | `String` | Direct Bill Batch Type |
+| 116 | displayName | `String` | Display Name |
+| 117 | downloadDate | `Date` | Date on which the record is downloaded to laptop. |
+| 118 | downloadResort | `String` | REsort name which has downloaded on the laptop. |
+| 119 | downloadSrep | `Float` | Owner of the record who downloaded on to laptop. |
+| 120 | eInvLiableLastUpdated | `Date` | The date when the E-Invoice liable flag was updated for this profile. |
+| 121 | eInvoiceLiableYn | `String` | Turkey Country requirement: Indicated if this profile e-Invoice liable. Folios generated for this profile will be directly sent to an external system. |
+| 122 | email | `String` | The phone number for this record |
+| 123 | emailYN | `String` | Email YN |
+| 124 | envelopeGreeting | `String` | Field which stores the envelop greeting used in S&C |
+| 125 | externalDisplayName | `String` | External Display Name |
+| 126 | externalFirstName | `String` | The first name of an individual. |
+| 127 | externalId | `String` | External ID used for V6 Interface stores the PMS guest number |
+| 128 | externalName | `String` | The last name of the individual profile. |
+| 129 | externalReferenceRequ | `String` | Not Used. |
+| 130 | externalReferenceRequired | `String` | During the booking process is the user required to enter the tour operator or TA record locator. |
+| 131 | fMembershipCardNumbers | `String` | Membership Card Number. |
+| 132 | fMembershipClassDesc | `String` | Descripion of membership class |
+| 133 | fMembershipClasses | `String` | F Membership Classes |
+| 134 | fMembershipCodes | `String` | F Membership Codes |
+| 135 | fMembershipDescriptions | `String` | F Membership Descriptions |
+| 136 | fMembershipIds | `String` | Primary Key for this table. |
+| 137 | fMembershipType | `String` | Type of the Membership. |
+| 138 | fSubscriptionDb | `String` | The ID of the external Database. |
+| 139 | fSubscriptionYn | `String` | The ID of the external Database. |
+| 140 | faxNumber | `String` | The phone number for this record |
+| 141 | firstName | `String` | The first name of an individual name. |
+| 142 | firstNameAlternate | `String` | First Name Alternate |
+| 143 | firstNameIncognito | `String` | The keyword to search on. |
+| 144 | followOn | `String` | The follow on for this individual (I.E: III etc). |
+| 145 | gDSName | `String` | The name as communicated from the GDS. system.  Filled on names that are created during the booking. |
+| 146 | gDSTransactionNo | `String` | Not used. |
+| 147 | gender | `String` | Indicates gender of Individual profile. Either (M)ale or F(emale) |
+| 148 | geographicRegion | `String` | Not used. |
+| 149 | guestClassification | `String` | Not used. |
+| 150 | guestCountry | `String` | Country name. |
+| 151 | guestCurrencyCode | `String` | Currency code for the Commission payment. |
+| 152 | guestLanguageCode | `String` | Description for each language code. |
+| 153 | guestLastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| 154 | guestMiddleName | `String` | The middle name of this individual. |
+| 155 | guestNameSuffix | `String` | Guest Name Suffix |
+| 156 | guestPrivilegeYN | `String` | Guest Privilege YN |
+| 157 | guestTitleCode | `String` | The title of the individual. |
+| 158 | hasRequestedMailYN | `String` | Has Requested Mail YN |
+| 159 | historyYN | `String` | Keep guest in history Y/N |
+| 160 | holdCode | `String` | Hold code for the Commission handling purposes. |
+| 161 | iataConsortia | `String` | Consortia for the IATA number. |
+| 162 | idCountry | `String` | The country where ID was issued |
+| 163 | idDate | `Date` | Issued date of Identification |
+| 164 | idDocumentAttachId | `Float` | This will store the value of LINKED_ATTACHMENTS.ATTACH_ID (Which maps to the physical table WORK_ORDERS.WO_NUMBER) |
+| 165 | idPlace | `String` | The place where ID was issued |
+| 166 | idType | `String` | Identification Type. Eg Passport Driving License etc |
+| 167 | immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
+| 168 | inactiveDate | `Date` | The date the record was marked as inactive |
+| 169 | inactiveFlag | `String` | Inactive Flag |
+| 170 | inactiveReason | `String` | Reason why record was inactivated. |
+| 171 | inactiveReasonDescription | `String` | The description of this value. |
+| 172 | includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
+| 173 | indexName | `String` | Index Name |
+| 174 | industryCode | `String` | The Industry this profile belongs to. Used only for the Non-Individual Profiles. |
+| 175 | industryDesc | `String` | The description of this value. |
+| 176 | influence | `String` | Used in S&C Module. |
+| 177 | influenceDesc | `String` | The description of this value. |
+| 178 | interest | `String` | Interest Code. |
+| 179 | internalBillYn | `String` | Indicates that this profile should be generating an internal bill instead of a regular bill during settlement. |
+| 180 | internalDeletedflag | `String` | Deleted Flag |
+| 181 | internalInactiveflag | `String` | Inactive Flag |
+| 182 | internalOrganizationId | `Float` | Organization ID |
+| 183 | jRNUpdateDate | `Date` | JRN Update Date |
+| 184 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 185 | languageCode | `String` | Primary language used for the profile. |
+| 186 | laptopChange | `Float` | Code to synchronize to Laptop values are 012. |
+| 187 | lastGroup | `String` | Last Group |
+| 188 | lastNameAlternate | `String` | Last Name Alternate |
+| 189 | lastNameIncognito | `String` | The keyword to search on. |
+| 190 | lastRate | `Float` | Last Rate |
+| 191 | lastRateCode | `String` | Last Rate Code |
+| 192 | lastRoom | `String` | The room that is booked for this reservation leg. |
+| 193 | lastRoomProperty | `String` | Last Room Property |
+| 194 | lastSource | `String` | Last Source |
+| 195 | lastStay | `Date` | This contains the truncated component of end_date (i.e without timecomponent) |
+| 196 | lastUpdatedResort | `String` | Last property that updated this record. |
+| 197 | legalCompany | `String` | The legal company name for this company. |
+| 198 | letterGreeting | `String` | Used in S&C Module. |
+| 199 | mailActionDescription | `String` | The description of this value. |
+| 200 | mailList | `String` | This indicates whether the mailing list must be sent to the guest. |
+| 201 | mailType | `String` | The type of mail this user should be sent. |
+| 202 | mailingActionCode | `String` | Mailing action codes. |
+| 203 | marketResearchYN | `String` | Market Research YN |
+| 204 | masterAccountYn | `String` | Is this account a master account (Y/N)? |
+| 205 | nameTaxType | `String` | Not used. |
+| 206 | nameType | `String` | The type of Profile. |
+| 207 | nameTypeDescription | `String` | The description of this value. |
+| 208 | name2 | `String` | Not Used. |
+| 209 | name3 | `String` | Not used. |
+| 210 | nationality | `String` | Nationality |
+| 211 | nationalityCode | `String` | Nationality of the individual. |
+| 212 | negotiatedRateCodes | `String` | The rate code for which this record applies. |
+| 213 | nextStay | `Date` | This is a begin_date  with no  time component. |
+| 214 | nickname | `String` | The nickname of this individual. |
+| 215 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 216 | origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
+| 217 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 218 | phone | `String` | The phone number for this record |
+| 219 | phoneWeb | `String` | The phone number for this record |
+| 220 | phoneYN | `String` | Phone YN |
+| 221 | postalCode | `String` | The postal code of this address. |
+| 222 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
+| 223 | preferredRoomNo | `String` | Preferred Room Number |
+| 224 | primaryAddressId | `Float` | Not used. |
+| 225 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 226 | primaryNameId | `Float` | Not Used. |
+| 227 | primaryOwner | `String` | Primary Owner |
+| 228 | primaryOwnerCode | `String` | Primary Owner Code |
+| 229 | primaryPhoneId | `Float` | Not used. |
+| 230 | priority | `String` | Priority of the account |
+| 231 | priorityDesc | `String` | The description of this value. |
+| 232 | privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
+| 233 | productInterest | `String` | Preference Code. Part of the Primary Key. |
+| 234 | profession | `String` | The profession of the Individual |
+| 235 | profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
+| 236 | profileId | `Float` | The primary key for this table. |
+| 237 | profileType | `String` | The type of Profile. |
+| 238 | propertyRegistered | `String` | Resort for which Job is registered. |
+| 239 | protected | `String` | Protected |
+| 240 | psuedoProfileYn | `String` | Psuedo Profile Y/N |
+| 241 | rateStructure | `String` | The default rate structure for this name. |
+| 242 | region | `String` | The region for this name. |
+| 243 | regionid | `String` | The region for this name. |
+| 244 | repAccountTypeDescription | `String` | Reporting Account Type Description |
+| 245 | repAccountsource | `String` | Reporting Accountsource |
+| 246 | repAccountsourceDescription | `String` | Reporting Accountsource Desc |
+| 247 | repCompetitionCode | `String` | Reporting Competition Code |
+| 248 | repCompetitionDescription | `String` | Reporting Competition Desc |
+| 249 | repCorpTypeDescription | `String` | Reporting Corp Type Desc |
+| 250 | repIndustryCode | `String` | Reporting Industry Code |
+| 251 | repIndustryDescription | `String` | Reporting Industry Desc |
+| 252 | repInfluence | `String` | Reporting Influence |
+| 253 | repInfluenceDescription | `String` | Reporting Influence Desc |
+| 254 | repNameType | `String` | Reporting Name Type |
+| 255 | repNameTypeDescription | `String` | Reporting Name Type Description |
+| 256 | repNationalityCode | `String` | Rep Nationality Code |
+| 257 | repNationalityDescription | `String` | Rep Nationality Description |
+| 258 | repPriorityDescription | `String` | Reporting Priority Desc |
+| 259 | repRoomsPotential | `String` | Reporting Rooms Potential |
+| 260 | repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
+| 261 | repScope | `String` | Reporting Scope |
+| 262 | repScopeCity | `String` | Reporting Scope City |
+| 263 | repScopeCityDescription | `String` | Reporting Scope City Desc |
+| 264 | repScopeDescription | `String` | Reporting Scope Desc |
+| 265 | repStateDescription | `String` | Reporting State Desc |
+| 266 | repTaxTypeDescription | `String` | Reporting Tax Type Desc |
+| 267 | repTerritoryDescription | `String` | Reporting Territory Desc |
+| 268 | repTitleName | `String` | Reporting Title Name |
+| 269 | repeatGuestId | `String` | The primary membership # for this guest. |
+| 270 | replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
+| 271 | requestType | `String` | This column store the Name of the Company Profiles. |
+| 272 | restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
+| 273 | restrictedRule | `String` | The description of this value. |
+| 274 | resvContact | `String` | Reservation Contact person. |
+| 275 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 276 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 277 | roomsPotential | `String` | Potential no of rooms per year for a account |
+| 278 | roomsPotentialDesc | `String` | The description of this value. |
+| 279 | sMSYN | `String` | Use this alert to text a notification. |
+| 280 | salutation | `String` | Salutation Greeting |
+| 281 | scope | `String` | Scope of the account |
+| 282 | scopeCity | `String` | Scope City |
+| 283 | scopeCityDesc | `String` | The description of this value. |
+| 284 | scopeDesc | `String` | The description of this value. |
+| 285 | searchName | `String` | The Uppercase value of Last or Company. |
+| 286 | searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
+| 287 | sfirst | `String` | Uppercase value of First Name. |
+| 288 | soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
+| 289 | soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
+| 290 | srepCode | `String` | Used in QMS Module |
+| 291 | state | `String` | The state of this address. |
+| 292 | stateCode | `String` | State Code |
+| 293 | stateDescription | `String` | Description of the state. |
+| 294 | summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
+| 295 | summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
+| 296 | superSearchIndexText | `String` | Used in Oracle Text Index. |
+| 297 | sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
+| 298 | taxCategory | `String` | Tax Category |
+| 299 | taxExemptStatus | `String` | Not used. |
+| 300 | taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
+| 301 | taxID2 | `String` | Tax No |
+| 302 | taxOffice | `String` | Tax Office Name |
+| 303 | taxType | `String` | Tax Type |
+| 304 | territory | `String` | TERRITORY of  a account |
+| 305 | territoryDesc | `String` | The description of this value. |
+| 306 | thirdPartyYN | `String` | Third Party YN |
+| 307 | titleAlternate | `String` | Title Alternate |
+| 308 | titleName | `String` | The description of this value. |
+| 309 | titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
+| 310 | totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
+| 311 | tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
+| 312 | traceCode | `String` | Code to Trace a record for all Triggered actions. |
+| 313 | tracecodeDesc | `String` | Description |
+| 314 | typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
+| 315 | uDFC01 | `String` | User defined character field. |
+| 316 | uDFC02 | `String` | User defined character field. |
+| 317 | uDFC03 | `String` | User defined character field. |
+| 318 | uDFC04 | `String` | User defined character field. |
+| 319 | uDFC05 | `String` | User defined character field. |
+| 320 | uDFC06 | `String` | User defined character field. |
+| 321 | uDFC07 | `String` | User defined character field. |
+| 322 | uDFC08 | `String` | User defined character field. |
+| 323 | uDFC09 | `String` | User defined character field. |
+| 324 | uDFC10 | `String` | User defined character field. |
+| 325 | uDFC11 | `String` | User defined character field. |
+| 326 | uDFC12 | `String` | User defined character field. |
+| 327 | uDFC13 | `String` | User defined character field. |
+| 328 | uDFC14 | `String` | User defined character field. |
+| 329 | uDFC15 | `String` | User defined character field. |
+| 330 | uDFC16 | `String` | User defined character field. |
+| 331 | uDFC17 | `String` | User defined character field. |
+| 332 | uDFC18 | `String` | User defined character field. |
+| 333 | uDFC19 | `String` | User defined character field. |
+| 334 | uDFC20 | `String` | User defined character field. |
+| 335 | uDFC21 | `String` | User defined character field. |
+| 336 | uDFC22 | `String` | User defined character field. |
+| 337 | uDFC23 | `String` | User defined character field. |
+| 338 | uDFC24 | `String` | User defined character field. |
+| 339 | uDFC25 | `String` | User defined character field. |
+| 340 | uDFC26 | `String` | User defined character field. |
+| 341 | uDFC27 | `String` | User defined character field. |
+| 342 | uDFC28 | `String` | User defined character field. |
+| 343 | uDFC29 | `String` | User defined character field. |
+| 344 | uDFC30 | `String` | User defined character field. |
+| 345 | uDFC31 | `String` | User defined character field. |
+| 346 | uDFC32 | `String` | User defined character field. |
+| 347 | uDFC33 | `String` | User defined character field. |
+| 348 | uDFC34 | `String` | User defined character field. |
+| 349 | uDFC35 | `String` | User defined character field. |
+| 350 | uDFC36 | `String` | User defined character field. |
+| 351 | uDFC37 | `String` | User defined character field. |
+| 352 | uDFC38 | `String` | User defined character field. |
+| 353 | uDFC39 | `String` | User defined character field. |
+| 354 | uDFC40 | `String` | User defined character field. |
+| 355 | uDFD01 | `Date` | User defined date field. |
+| 356 | uDFD02 | `Date` | User defined date field. |
+| 357 | uDFD03 | `Date` | User defined date field. |
+| 358 | uDFD04 | `Date` | User defined date field. |
+| 359 | uDFD05 | `Date` | User defined date field. |
+| 360 | uDFD06 | `Date` | User defined date field. |
+| 361 | uDFD07 | `Date` | User defined date field. |
+| 362 | uDFD08 | `Date` | User defined date field. |
+| 363 | uDFD09 | `Date` | User defined date field. |
+| 364 | uDFD10 | `Date` | User defined date field. |
+| 365 | uDFD11 | `Date` | User defined date field. |
+| 366 | uDFD12 | `Date` | User defined date field. |
+| 367 | uDFD13 | `Date` | User defined date field. |
+| 368 | uDFD14 | `Date` | User defined date field. |
+| 369 | uDFD15 | `Date` | User defined date field. |
+| 370 | uDFD16 | `Date` | User defined date field. |
+| 371 | uDFD17 | `Date` | User defined date field. |
+| 372 | uDFD18 | `Date` | User defined date field. |
+| 373 | uDFD19 | `Date` | User defined date field. |
+| 374 | uDFD20 | `Date` | User defined date field. |
+| 375 | uDFN01 | `Float` | User defined number field. |
+| 376 | uDFN02 | `Float` | User defined number field. |
+| 377 | uDFN03 | `Float` | User defined number field. |
+| 378 | uDFN04 | `Float` | User defined number field. |
+| 379 | uDFN05 | `Float` | User defined number field. |
+| 380 | uDFN06 | `Float` | User defined number field. |
+| 381 | uDFN07 | `Float` | User defined number field. |
+| 382 | uDFN08 | `Float` | User defined number field. |
+| 383 | uDFN09 | `Float` | User defined number field. |
+| 384 | uDFN10 | `Float` | User defined number field. |
+| 385 | uDFN11 | `Float` | User defined number field. |
+| 386 | uDFN12 | `Float` | User defined number field. |
+| 387 | uDFN13 | `Float` | User defined number field. |
+| 388 | uDFN14 | `Float` | User defined number field. |
+| 389 | uDFN15 | `Float` | User defined number field. |
+| 390 | uDFN16 | `Float` | User defined number field. |
+| 391 | uDFN17 | `Float` | User defined number field. |
+| 392 | uDFN18 | `Float` | User defined number field. |
+| 393 | uDFN19 | `Float` | User defined number field. |
+| 394 | uDFN20 | `Float` | User defined number field. |
+| 395 | uDFN21 | `Float` | User defined number field. |
+| 396 | uDFN22 | `Float` | User defined number field. |
+| 397 | uDFN23 | `Float` | User defined number field. |
+| 398 | uDFN24 | `Float` | User defined number field. |
+| 399 | uDFN25 | `Float` | User defined number field. |
+| 400 | uDFN26 | `Float` | User defined number field. |
+| 401 | uDFN27 | `Float` | User defined number field. |
+| 402 | uDFN28 | `Float` | User defined number field. |
+| 403 | uDFN29 | `Float` | User defined number field. |
+| 404 | uDFN30 | `Float` | User defined number field. |
+| 405 | uDFN31 | `Float` | User defined number field. |
+| 406 | uDFN32 | `Float` | User defined number field. |
+| 407 | uDFN33 | `Float` | User defined number field. |
+| 408 | uDFN34 | `Float` | User defined number field. |
+| 409 | uDFN35 | `Float` | User defined number field. |
+| 410 | uDFN36 | `Float` | User defined number field. |
+| 411 | uDFN37 | `Float` | User defined number field. |
+| 412 | uDFN38 | `Float` | User defined number field. |
+| 413 | uDFN39 | `Float` | User defined number field. |
+| 414 | uDFN40 | `Float` | User defined number field. |
+| 415 | updateDate | `DateTime` | The date the record was modified |
+| 416 | updateFaxDate | `Date` | The last date this record's fax # was updated. |
+| 417 | updateUser | `String` | The user that modified the record |
+| 418 | uploadDate | `Date` | Date on which the record is uploaded to laptop. |
+| 419 | vIPCode | `String` | VIP Status of the Individual. |
+| 420 | vIPDescription | `String` | The description of this value. |
+| 421 | vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
+| 422 | vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
+| 423 | vipAuthorization | `String` | Not Used. |
+| 424 | visaValidityType | `String` | Country Specific Requirement for Nigeria. |
+| 425 | xdisplayName | `String` | Xdisplay Name |
+| 426 | xmiddleName | `String` | Extended Byte middle name. |
 
 [⬆ Back to Query](#query)
 
@@ -1539,434 +1539,434 @@
 
 ### FinancialTransactionDetailsExtendedPayeeProfileDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| guestProfileID | `Float` | The primary key for this table. |
-| aRNumber | `String` | Account number. |
-| aRNumberCentral | `String` | Account Receivable No. of this profile. |
-| aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
-| aRCMailFlag | `String` | The ARC mailing flag (received from ARC Update program) |
-| aRCOfficeType | `String` | The ARC office type (received from ARC Update program) |
-| aRCUpdateDate | `Date` | The date this record was last updated by the ARC update program. |
-| accountBillingContact | `String` | Billing contact person in company. |
-| accountSource | `String` | Used in S&C Module. |
-| accountType | `String` | Account Type of this Profile |
-| accountTypeDescription | `String` | The description of this value. |
-| accountsourceDesc | `String` | The description of this value. |
-| actionCode | `String` | Mailing action codes. |
-| activeYN | `String` | Profile is active or not. |
-| address1 | `String` | The first line of street address. |
-| address2 | `String` | The second line of street address. |
-| address3 | `String` | The third line of street address. |
-| address4 | `String` | The fourth line of street address. |
-| addressId | `Float` | The primary key for this table. |
-| addressLangCodeDesc | `String` | Description for each language code. |
-| addressLanguageCode | `String` | Address Language Code |
-| addressType | `String` | The type of address. |
-| alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
-| allResorts | `String` | All Resorts |
-| alternateEnvelopeGreeting | `String` | Field which stores the multibyte envelop greeting used in S&C |
-| alternateLanguage | `String` | The Extended Byte Language of the Profile. |
-| alternateLanguageDescription | `String` | Description for each language code. |
-| alternateSalutation | `String` | Alternate Salutation |
-| autoEnrollMemberYN | `String` | Auto-Enroll Member YN |
-| availabilityOverride | `String` | Does profile have Availability Override Y/N |
-| billingCode | `String` | The billing code for this name record. |
-| billingInstruction | `String` | Billing Instruction |
-| billingProfileCode | `String` | For tour operators the type of billing profile for this name. |
-| birthCountry | `String` | Country of Birth |
-| birthDate | `Date` | Date of Birth of the Individual Profiles. |
-| birthDateStr | `String` | Stores the encrypted birth date. |
-| birthPlace | `String` | Place of Birth |
-| blMsg | `String` | Any Message for the Restricted profile. |
-| businessSegment | `String` | Used in S&C Module. |
-| businessSegmentDescription | `String` | The description of this value. |
-| businessTitle | `String` | The business title for this individual. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cProfileCreditLimit | `Float` | Central Profile Credit Limit |
-| cRSNameid | `Float` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
-| ccProfileYn | `String` | This field tells whether this profile is a credit card profile or not. |
-| centralAccountType | `String` | Central Account Type |
-| centralBusinessSegment | `String` | Central Business Segment |
-| centralBusinessSegmentDescription | `String` | Central Business Segment Description |
-| centralCorporateIDType | `String` | Central Corporate ID Type |
-| centralDefaultKeyword | `String` | The keyword to search on. |
-| centralGuestTitleCode | `String` | Central Guest Title Code |
-| centralInactiveReason | `String` | Central Inactive Reason |
-| centralInactiveReasonDescription | `String` | Central Inactive Reason Description |
-| centralMailActionDescription | `String` | Central Mail Action Description |
-| centralMailingActionCode | `String` | Central Mailing Action Code |
-| centralPriority | `String` | Central Priority |
-| centralStateCode | `String` | Central State Code |
-| centralTerritory | `String` | Central Territory |
-| centralVIPCode | `String` | Central VIP Code |
-| centralVIPDescription | `String` | Central VIP Description |
-| chainCode | `String` | Chain Code |
-| city | `String` | The city for this address. |
-| clientID | `String` | The unique key of this name stores IATA# Company # etc. |
-| collectionUserId | `Float` | The user that has been assigned to this account for collections. |
-| combinedName | `String` | Combined Name |
-| commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
-| comments | `String` | Not Used. |
-| commissionCode | `String` | Commission Code for the Commission Percentage. |
-| commissionCodes | `String` | Code for the commission for Travel Agent |
-| commissionCurrencyId | `String` | Comm Curr ID |
-| commissionid | `String` | Commission Code for the Commission Percentage. |
-| communicationRole1 | `String` | Role in which this phone type belongs to. |
-| communicationRole2 | `String` | Role in which this phone type belongs to. |
-| communicationRole3 | `String` | Role in which this phone type belongs to. |
-| communicationType1 | `String` | The type of this phone number. |
-| communicationType2 | `String` | The type of this phone number. |
-| communicationType3 | `String` | The type of this phone number. |
-| communicationValue1 | `String` | The phone number for this record |
-| communicationValue2 | `String` | The phone number for this record |
-| communicationValue3 | `String` | The phone number for this record |
-| companyAlternate | `String` | Extended Byte Company Name |
-| companyGroupId | `String` | The company group or company group user ID in hierarchical format |
-| companyNameId | `Float` | Not used. |
-| competition | `String` | Competaion code . |
-| competitionDesc | `String` | The description of this value. |
-| contactYN | `String` | Used in S&C Module. |
-| contractNo | `String` | Group Contract number. |
-| contractRecvDate | `Date` | The date the group contract was received. |
-| corpTypeDesc | `String` | Corp Type Description |
-| corporateIDType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
-| country | `String` | Country name. |
-| countryCode | `String` | Country . |
-| createdByUser | `String` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| creditRating | `String` | Credit rating. |
-| currencyCode | `String` | Currency Code |
-| currencySymbol | `String` | Currency Symbol like $ or EURO symbol |
-| dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
-| dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
-| dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
-| dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
-| dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
-| dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
-| dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
-| dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debtorName | `String` | Debtor Name |
-| decimalPositions | `Float` | The number of digits after the decimal to allow for this currency. |
-| defaultKeyword | `String` | The keyword to search on. |
-| deletedFlag | `String` | Deleted Flag |
-| department | `String` | Used in S&C Module. |
-| deptId | `String` | Used in S&C Module. |
-| description | `String` | Used in QMS Module |
-| directBillBatchType | `String` | Direct Bill Batch Type |
-| displayName | `String` | Display Name |
-| downloadDate | `Date` | Date on which the record is downloaded to laptop. |
-| downloadResort | `String` | REsort name which has downloaded on the laptop. |
-| downloadSrep | `Float` | Owner of the record who downloaded on to laptop. |
-| eInvLiableLastUpdated | `DateTime` | The date when the E-Invoice liable flag was updated for this profile. |
-| eInvoiceLiableYn | `String` | Turkey Country requirement: Indicated if this profile e-Invoice liable. Folios generated for this profile will be directly sent to an external system. |
-| email | `String` | The phone number for this record |
-| emailYN | `String` | Email YN |
-| envelopeGreeting | `String` | Field which stores the envelop greeting used in S&C |
-| externalDisplayName | `String` | External Display Name |
-| externalFirstName | `String` | The first name of an individual. |
-| externalId | `String` | External ID used for V6 Interface stores the PMS guest number |
-| externalName | `String` | The last name of the individual profile. |
-| externalReferenceRequ | `String` | Not Used. |
-| externalReferenceRequired | `String` | During the booking process is the user required to enter the tour operator or TA record locator. |
-| fMembershipCardNumbers | `String` | Membership Card Number. |
-| fMembershipClassDesc | `String` | Descripion of membership class |
-| fMembershipClasses | `String` | F Membership Classes |
-| fMembershipCodes | `String` | F Membership Codes |
-| fMembershipDescriptions | `String` | F Membership Descriptions |
-| fMembershipIds | `String` | Primary Key for this table. |
-| fMembershipType | `String` | Type of the Membership. |
-| fSubscriptionDb | `String` | The ID of the external Database. |
-| fSubscriptionYn | `String` | The ID of the external Database. |
-| faxNumber | `String` | The phone number for this record |
-| firstName | `String` | The first name of an individual name. |
-| firstNameAlternate | `String` | First Name Alternate |
-| firstNameIncognito | `String` | The keyword to search on. |
-| followOn | `String` | The follow on for this individual (I.E: III etc). |
-| gDSName | `String` | The name as communicated from the GDS. system.  Filled on names that are created during the booking. |
-| gDSTransactionNo | `String` | Not used. |
-| gender | `String` | Indicates gender of Individual profile. Either (M)ale or F(emale) |
-| geographicRegion | `String` | Not used. |
-| guestClassification | `String` | Not used. |
-| guestCountry | `String` | Country name. |
-| guestCurrencyCode | `String` | Currency code for the Commission payment. |
-| guestLanguageCode | `String` | Description for each language code. |
-| guestLastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
-| guestMiddleName | `String` | The middle name of this individual. |
-| guestNameSuffix | `String` | Guest Name Suffix |
-| guestPrivilegeYN | `String` | Guest Privilege YN |
-| guestTitleCode | `String` | The title of the individual. |
-| hasRequestedMailYN | `String` | Has Requested Mail YN |
-| historyYN | `String` | Keep guest in history Y/N |
-| holdCode | `String` | Hold code for the Commission handling purposes. |
-| iataConsortia | `String` | Consortia for the IATA number. |
-| idCountry | `String` | The country where ID was issued |
-| idDate | `Date` | Issued date of Identification |
-| idDocumentAttachId | `Float` | This will store the value of LINKED_ATTACHMENTS.ATTACH_ID (Which maps to the physical table WORK_ORDERS.WO_NUMBER) |
-| idPlace | `String` | The place where ID was issued |
-| idType | `String` | Identification Type. Eg Passport Driving License etc |
-| immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveFlag | `String` | Inactive Flag |
-| inactiveReason | `String` | Reason why record was inactivated. |
-| inactiveReasonDescription | `String` | The description of this value. |
-| includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
-| indexName | `String` | Index Name |
-| industryCode | `String` | The Industry this profile belongs to. Used only for the Non-Individual Profiles. |
-| industryDesc | `String` | The description of this value. |
-| influence | `String` | Used in S&C Module. |
-| influenceDesc | `String` | The description of this value. |
-| interest | `String` | Interest Code. |
-| internalBillYn | `String` | Indicates that this profile should be generating an internal bill instead of a regular bill during settlement. |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Primary language used for the profile. |
-| laptopChange | `Float` | Code to synchronize to Laptop values are 012. |
-| lastGroup | `String` | Last Group |
-| lastNameAlternate | `String` | Last Name Alternate |
-| lastNameIncognito | `String` | The keyword to search on. |
-| lastRate | `Float` | Last Rate |
-| lastRateCode | `String` | Last Rate Code |
-| lastRoom | `String` | The room that is booked for this reservation leg. |
-| lastRoomProperty | `String` | Last Room Property |
-| lastSource | `String` | Last Source |
-| lastStay | `Date` | This contains the truncated component of end_date (i.e without timecomponent) |
-| lastUpdatedResort | `String` | Last property that updated this record. |
-| legalCompany | `String` | The legal company name for this company. |
-| letterGreeting | `String` | Used in S&C Module. |
-| mailActionDescription | `String` | The description of this value. |
-| mailList | `String` | This indicates whether the mailing list must be sent to the guest. |
-| mailType | `String` | The type of mail this user should be sent. |
-| mailingActionCode | `String` | Mailing action codes. |
-| marketResearchYN | `String` | Market Research YN |
-| masterAccountYn | `String` | Is this account a master account (Y/N)? |
-| nameTaxType | `String` | Not used. |
-| nameType | `String` | The type of Profile. |
-| nameTypeDescription | `String` | The description of this value. |
-| name2 | `String` | Not Used. |
-| name3 | `String` | Not used. |
-| nationality | `String` | Nationality |
-| nationalityCode | `String` | Nationality of the individual. |
-| negotiatedRateCodes | `String` | The rate code for which this record applies. |
-| nextStay | `Date` | This is a begin_date  with no  time component. |
-| nickname | `String` | The nickname of this individual. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
-| paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| phone | `String` | The phone number for this record |
-| phoneWeb | `String` | The phone number for this record |
-| phoneYN | `String` | Phone YN |
-| postalCode | `String` | The postal code of this address. |
-| postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
-| preferredRoomNo | `String` | Preferred Room Number |
-| primaryAddressId | `Float` | Not used. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryNameId | `Float` | Not Used. |
-| primaryOwner | `String` | Primary Owner |
-| primaryOwnerCode | `String` | Primary Owner Code |
-| primaryPhoneId | `Float` | Not used. |
-| priority | `String` | Priority of the account |
-| priorityDesc | `String` | The description of this value. |
-| privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
-| productInterest | `String` | Preference Code. Part of the Primary Key. |
-| profession | `String` | The profession of the Individual |
-| profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
-| profileId | `Float` | The primary key for this table. |
-| profileType | `String` | The type of Profile. |
-| propertyRegistered | `String` | Resort for which Job is registered. |
-| protected | `String` | Protected |
-| psuedoProfileYn | `String` | Psuedo Profile Y/N |
-| rateStructure | `String` | The default rate structure for this name. |
-| region | `String` | The region for this name. |
-| regionid | `String` | The region for this name. |
-| repAccountTypeDescription | `String` | Reporting Account Type Description |
-| repAccountsource | `String` | Reporting Accountsource |
-| repAccountsourceDescription | `String` | Reporting Accountsource Desc |
-| repCompetitionCode | `String` | Reporting Competition Code |
-| repCompetitionDescription | `String` | Reporting Competition Desc |
-| repCorpTypeDescription | `String` | Reporting Corp Type Desc |
-| repIndustryCode | `String` | Reporting Industry Code |
-| repIndustryDescription | `String` | Reporting Industry Desc |
-| repInfluence | `String` | Reporting Influence |
-| repInfluenceDescription | `String` | Reporting Influence Desc |
-| repNameType | `String` | Reporting Name Type |
-| repNameTypeDescription | `String` | Reporting Name Type Description |
-| repNationalityCode | `String` | Rep Nationality Code |
-| repNationalityDescription | `String` | Rep Nationality Description |
-| repPriorityDescription | `String` | Reporting Priority Desc |
-| repRoomsPotential | `String` | Reporting Rooms Potential |
-| repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
-| repScope | `String` | Reporting Scope |
-| repScopeCity | `String` | Reporting Scope City |
-| repScopeCityDescription | `String` | Reporting Scope City Desc |
-| repScopeDescription | `String` | Reporting Scope Desc |
-| repStateDescription | `String` | Reporting State Desc |
-| repTaxTypeDescription | `String` | Reporting Tax Type Desc |
-| repTerritoryDescription | `String` | Reporting Territory Desc |
-| repTitleName | `String` | Reporting Title Name |
-| repeatGuestId | `String` | The primary membership # for this guest. |
-| replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
-| requestType | `String` | This column store the Name of the Company Profiles. |
-| restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
-| restrictedRule | `String` | The description of this value. |
-| resvContact | `String` | Reservation Contact person. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomsPotential | `String` | Potential no of rooms per year for a account |
-| roomsPotentialDesc | `String` | The description of this value. |
-| sMSYN | `String` | Use this alert to text a notification. |
-| salutation | `String` | Salutation Greeting |
-| scope | `String` | Scope of the account |
-| scopeCity | `String` | Scope City |
-| scopeCityDesc | `String` | The description of this value. |
-| scopeDesc | `String` | The description of this value. |
-| searchName | `String` | The Uppercase value of Last or Company. |
-| searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
-| sfirst | `String` | Uppercase value of First Name. |
-| soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
-| soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
-| srepCode | `String` | Used in QMS Module |
-| state | `String` | The state of this address. |
-| stateCode | `String` | State Code |
-| stateDescription | `String` | Description of the state. |
-| summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
-| summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
-| superSearchIndexText | `String` | Used in Oracle Text Index. |
-| sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
-| taxCategory | `String` | Tax Category |
-| taxExemptStatus | `String` | Not used. |
-| taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
-| taxID2 | `String` | Tax No |
-| taxOffice | `String` | Tax Office Name |
-| taxType | `String` | Tax Type |
-| territory | `String` | TERRITORY of  a account |
-| territoryDesc | `String` | The description of this value. |
-| thirdPartyYN | `String` | Third Party YN |
-| titleAlternate | `String` | Title Alternate |
-| titleName | `String` | The description of this value. |
-| titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
-| totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
-| tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
-| traceCode | `String` | Code to Trace a record for all Triggered actions. |
-| tracecodeDesc | `String` | Description |
-| typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
-| uDFC01 | `String` | User defined character field. |
-| uDFC02 | `String` | User defined character field. |
-| uDFC03 | `String` | User defined character field. |
-| uDFC04 | `String` | User defined character field. |
-| uDFC05 | `String` | User defined character field. |
-| uDFC06 | `String` | User defined character field. |
-| uDFC07 | `String` | User defined character field. |
-| uDFC08 | `String` | User defined character field. |
-| uDFC09 | `String` | User defined character field. |
-| uDFC10 | `String` | User defined character field. |
-| uDFC11 | `String` | User defined character field. |
-| uDFC12 | `String` | User defined character field. |
-| uDFC13 | `String` | User defined character field. |
-| uDFC14 | `String` | User defined character field. |
-| uDFC15 | `String` | User defined character field. |
-| uDFC16 | `String` | User defined character field. |
-| uDFC17 | `String` | User defined character field. |
-| uDFC18 | `String` | User defined character field. |
-| uDFC19 | `String` | User defined character field. |
-| uDFC20 | `String` | User defined character field. |
-| uDFC21 | `String` | User defined character field. |
-| uDFC22 | `String` | User defined character field. |
-| uDFC23 | `String` | User defined character field. |
-| uDFC24 | `String` | User defined character field. |
-| uDFC25 | `String` | User defined character field. |
-| uDFC26 | `String` | User defined character field. |
-| uDFC27 | `String` | User defined character field. |
-| uDFC28 | `String` | User defined character field. |
-| uDFC29 | `String` | User defined character field. |
-| uDFC30 | `String` | User defined character field. |
-| uDFC31 | `String` | User defined character field. |
-| uDFC32 | `String` | User defined character field. |
-| uDFC33 | `String` | User defined character field. |
-| uDFC34 | `String` | User defined character field. |
-| uDFC35 | `String` | User defined character field. |
-| uDFC36 | `String` | User defined character field. |
-| uDFC37 | `String` | User defined character field. |
-| uDFC38 | `String` | User defined character field. |
-| uDFC39 | `String` | User defined character field. |
-| uDFC40 | `String` | User defined character field. |
-| uDFD01 | `Date` | User defined date field. |
-| uDFD02 | `Date` | User defined date field. |
-| uDFD03 | `Date` | User defined date field. |
-| uDFD04 | `Date` | User defined date field. |
-| uDFD05 | `Date` | User defined date field. |
-| uDFD06 | `Date` | User defined date field. |
-| uDFD07 | `Date` | User defined date field. |
-| uDFD08 | `Date` | User defined date field. |
-| uDFD09 | `Date` | User defined date field. |
-| uDFD10 | `Date` | User defined date field. |
-| uDFD11 | `Date` | User defined date field. |
-| uDFD12 | `Date` | User defined date field. |
-| uDFD13 | `Date` | User defined date field. |
-| uDFD14 | `Date` | User defined date field. |
-| uDFD15 | `Date` | User defined date field. |
-| uDFD16 | `Date` | User defined date field. |
-| uDFD17 | `Date` | User defined date field. |
-| uDFD18 | `Date` | User defined date field. |
-| uDFD19 | `Date` | User defined date field. |
-| uDFD20 | `Date` | User defined date field. |
-| uDFN01 | `Float` | User defined number field. |
-| uDFN02 | `Float` | User defined number field. |
-| uDFN03 | `Float` | User defined number field. |
-| uDFN04 | `Float` | User defined number field. |
-| uDFN05 | `Float` | User defined number field. |
-| uDFN06 | `Float` | User defined number field. |
-| uDFN07 | `Float` | User defined number field. |
-| uDFN08 | `Float` | User defined number field. |
-| uDFN09 | `Float` | User defined number field. |
-| uDFN10 | `Float` | User defined number field. |
-| uDFN11 | `Float` | User defined number field. |
-| uDFN12 | `Float` | User defined number field. |
-| uDFN13 | `Float` | User defined number field. |
-| uDFN14 | `Float` | User defined number field. |
-| uDFN15 | `Float` | User defined number field. |
-| uDFN16 | `Float` | User defined number field. |
-| uDFN17 | `Float` | User defined number field. |
-| uDFN18 | `Float` | User defined number field. |
-| uDFN19 | `Float` | User defined number field. |
-| uDFN20 | `Float` | User defined number field. |
-| uDFN21 | `Float` | User defined number field. |
-| uDFN22 | `Float` | User defined number field. |
-| uDFN23 | `Float` | User defined number field. |
-| uDFN24 | `Float` | User defined number field. |
-| uDFN25 | `Float` | User defined number field. |
-| uDFN26 | `Float` | User defined number field. |
-| uDFN27 | `Float` | User defined number field. |
-| uDFN28 | `Float` | User defined number field. |
-| uDFN29 | `Float` | User defined number field. |
-| uDFN30 | `Float` | User defined number field. |
-| uDFN31 | `Float` | User defined number field. |
-| uDFN32 | `Float` | User defined number field. |
-| uDFN33 | `Float` | User defined number field. |
-| uDFN34 | `Float` | User defined number field. |
-| uDFN35 | `Float` | User defined number field. |
-| uDFN36 | `Float` | User defined number field. |
-| uDFN37 | `Float` | User defined number field. |
-| uDFN38 | `Float` | User defined number field. |
-| uDFN39 | `Float` | User defined number field. |
-| uDFN40 | `Float` | User defined number field. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateFaxDate | `Date` | The last date this record's fax # was updated. |
-| updateUser | `String` | The user that modified the record |
-| uploadDate | `Date` | Date on which the record is uploaded to laptop. |
-| vIPCode | `String` | VIP Status of the Individual. |
-| vIPDescription | `String` | The description of this value. |
-| vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
-| vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
-| vipAuthorization | `String` | Not Used. |
-| visaValidityType | `String` | Country Specific Requirement for Nigeria. |
-| xdisplayName | `String` | Xdisplay Name |
-| xmiddleName | `String` | Extended Byte middle name. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | guestProfileID | `Float` | The primary key for this table. |
+| 2 | aRNumber | `String` | Account number. |
+| 3 | aRNumberCentral | `String` | Account Receivable No. of this profile. |
+| 4 | aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
+| 5 | aRCMailFlag | `String` | The ARC mailing flag (received from ARC Update program) |
+| 6 | aRCOfficeType | `String` | The ARC office type (received from ARC Update program) |
+| 7 | aRCUpdateDate | `Date` | The date this record was last updated by the ARC update program. |
+| 8 | accountBillingContact | `String` | Billing contact person in company. |
+| 9 | accountSource | `String` | Used in S&C Module. |
+| 10 | accountType | `String` | Account Type of this Profile |
+| 11 | accountTypeDescription | `String` | The description of this value. |
+| 12 | accountsourceDesc | `String` | The description of this value. |
+| 13 | actionCode | `String` | Mailing action codes. |
+| 14 | activeYN | `String` | Profile is active or not. |
+| 15 | address1 | `String` | The first line of street address. |
+| 16 | address2 | `String` | The second line of street address. |
+| 17 | address3 | `String` | The third line of street address. |
+| 18 | address4 | `String` | The fourth line of street address. |
+| 19 | addressId | `Float` | The primary key for this table. |
+| 20 | addressLangCodeDesc | `String` | Description for each language code. |
+| 21 | addressLanguageCode | `String` | Address Language Code |
+| 22 | addressType | `String` | The type of address. |
+| 23 | alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
+| 24 | allResorts | `String` | All Resorts |
+| 25 | alternateEnvelopeGreeting | `String` | Field which stores the multibyte envelop greeting used in S&C |
+| 26 | alternateLanguage | `String` | The Extended Byte Language of the Profile. |
+| 27 | alternateLanguageDescription | `String` | Description for each language code. |
+| 28 | alternateSalutation | `String` | Alternate Salutation |
+| 29 | autoEnrollMemberYN | `String` | Auto-Enroll Member YN |
+| 30 | availabilityOverride | `String` | Does profile have Availability Override Y/N |
+| 31 | billingCode | `String` | The billing code for this name record. |
+| 32 | billingInstruction | `String` | Billing Instruction |
+| 33 | billingProfileCode | `String` | For tour operators the type of billing profile for this name. |
+| 34 | birthCountry | `String` | Country of Birth |
+| 35 | birthDate | `Date` | Date of Birth of the Individual Profiles. |
+| 36 | birthDateStr | `String` | Stores the encrypted birth date. |
+| 37 | birthPlace | `String` | Place of Birth |
+| 38 | blMsg | `String` | Any Message for the Restricted profile. |
+| 39 | businessSegment | `String` | Used in S&C Module. |
+| 40 | businessSegmentDescription | `String` | The description of this value. |
+| 41 | businessTitle | `String` | The business title for this individual. |
+| 42 | cExchangeDate | `Date` | Central Xchange Date |
+| 43 | cExchangeRate | `Float` | Central Xchange Rate |
+| 44 | cProfileCreditLimit | `Float` | Central Profile Credit Limit |
+| 45 | cRSNameid | `Float` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
+| 46 | ccProfileYn | `String` | This field tells whether this profile is a credit card profile or not. |
+| 47 | centralAccountType | `String` | Central Account Type |
+| 48 | centralBusinessSegment | `String` | Central Business Segment |
+| 49 | centralBusinessSegmentDescription | `String` | Central Business Segment Description |
+| 50 | centralCorporateIDType | `String` | Central Corporate ID Type |
+| 51 | centralDefaultKeyword | `String` | The keyword to search on. |
+| 52 | centralGuestTitleCode | `String` | Central Guest Title Code |
+| 53 | centralInactiveReason | `String` | Central Inactive Reason |
+| 54 | centralInactiveReasonDescription | `String` | Central Inactive Reason Description |
+| 55 | centralMailActionDescription | `String` | Central Mail Action Description |
+| 56 | centralMailingActionCode | `String` | Central Mailing Action Code |
+| 57 | centralPriority | `String` | Central Priority |
+| 58 | centralStateCode | `String` | Central State Code |
+| 59 | centralTerritory | `String` | Central Territory |
+| 60 | centralVIPCode | `String` | Central VIP Code |
+| 61 | centralVIPDescription | `String` | Central VIP Description |
+| 62 | chainCode | `String` | Chain Code |
+| 63 | city | `String` | The city for this address. |
+| 64 | clientID | `String` | The unique key of this name stores IATA# Company # etc. |
+| 65 | collectionUserId | `Float` | The user that has been assigned to this account for collections. |
+| 66 | combinedName | `String` | Combined Name |
+| 67 | commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
+| 68 | comments | `String` | Not Used. |
+| 69 | commissionCode | `String` | Commission Code for the Commission Percentage. |
+| 70 | commissionCodes | `String` | Code for the commission for Travel Agent |
+| 71 | commissionCurrencyId | `String` | Comm Curr ID |
+| 72 | commissionid | `String` | Commission Code for the Commission Percentage. |
+| 73 | communicationRole1 | `String` | Role in which this phone type belongs to. |
+| 74 | communicationRole2 | `String` | Role in which this phone type belongs to. |
+| 75 | communicationRole3 | `String` | Role in which this phone type belongs to. |
+| 76 | communicationType1 | `String` | The type of this phone number. |
+| 77 | communicationType2 | `String` | The type of this phone number. |
+| 78 | communicationType3 | `String` | The type of this phone number. |
+| 79 | communicationValue1 | `String` | The phone number for this record |
+| 80 | communicationValue2 | `String` | The phone number for this record |
+| 81 | communicationValue3 | `String` | The phone number for this record |
+| 82 | companyAlternate | `String` | Extended Byte Company Name |
+| 83 | companyGroupId | `String` | The company group or company group user ID in hierarchical format |
+| 84 | companyNameId | `Float` | Not used. |
+| 85 | competition | `String` | Competaion code . |
+| 86 | competitionDesc | `String` | The description of this value. |
+| 87 | contactYN | `String` | Used in S&C Module. |
+| 88 | contractNo | `String` | Group Contract number. |
+| 89 | contractRecvDate | `Date` | The date the group contract was received. |
+| 90 | corpTypeDesc | `String` | Corp Type Description |
+| 91 | corporateIDType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
+| 92 | country | `String` | Country name. |
+| 93 | countryCode | `String` | Country . |
+| 94 | createdByUser | `String` | The user that created the record |
+| 95 | createdOnDate | `DateTime` | The date the record was created |
+| 96 | creditRating | `String` | Credit rating. |
+| 97 | currencyCode | `String` | Currency Code |
+| 98 | currencySymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 99 | dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
+| 100 | dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
+| 101 | dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
+| 102 | dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
+| 103 | dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
+| 104 | dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
+| 105 | dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
+| 106 | dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
+| 107 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 108 | debtorName | `String` | Debtor Name |
+| 109 | decimalPositions | `Float` | The number of digits after the decimal to allow for this currency. |
+| 110 | defaultKeyword | `String` | The keyword to search on. |
+| 111 | deletedFlag | `String` | Deleted Flag |
+| 112 | department | `String` | Used in S&C Module. |
+| 113 | deptId | `String` | Used in S&C Module. |
+| 114 | description | `String` | Used in QMS Module |
+| 115 | directBillBatchType | `String` | Direct Bill Batch Type |
+| 116 | displayName | `String` | Display Name |
+| 117 | downloadDate | `Date` | Date on which the record is downloaded to laptop. |
+| 118 | downloadResort | `String` | REsort name which has downloaded on the laptop. |
+| 119 | downloadSrep | `Float` | Owner of the record who downloaded on to laptop. |
+| 120 | eInvLiableLastUpdated | `DateTime` | The date when the E-Invoice liable flag was updated for this profile. |
+| 121 | eInvoiceLiableYn | `String` | Turkey Country requirement: Indicated if this profile e-Invoice liable. Folios generated for this profile will be directly sent to an external system. |
+| 122 | email | `String` | The phone number for this record |
+| 123 | emailYN | `String` | Email YN |
+| 124 | envelopeGreeting | `String` | Field which stores the envelop greeting used in S&C |
+| 125 | externalDisplayName | `String` | External Display Name |
+| 126 | externalFirstName | `String` | The first name of an individual. |
+| 127 | externalId | `String` | External ID used for V6 Interface stores the PMS guest number |
+| 128 | externalName | `String` | The last name of the individual profile. |
+| 129 | externalReferenceRequ | `String` | Not Used. |
+| 130 | externalReferenceRequired | `String` | During the booking process is the user required to enter the tour operator or TA record locator. |
+| 131 | fMembershipCardNumbers | `String` | Membership Card Number. |
+| 132 | fMembershipClassDesc | `String` | Descripion of membership class |
+| 133 | fMembershipClasses | `String` | F Membership Classes |
+| 134 | fMembershipCodes | `String` | F Membership Codes |
+| 135 | fMembershipDescriptions | `String` | F Membership Descriptions |
+| 136 | fMembershipIds | `String` | Primary Key for this table. |
+| 137 | fMembershipType | `String` | Type of the Membership. |
+| 138 | fSubscriptionDb | `String` | The ID of the external Database. |
+| 139 | fSubscriptionYn | `String` | The ID of the external Database. |
+| 140 | faxNumber | `String` | The phone number for this record |
+| 141 | firstName | `String` | The first name of an individual name. |
+| 142 | firstNameAlternate | `String` | First Name Alternate |
+| 143 | firstNameIncognito | `String` | The keyword to search on. |
+| 144 | followOn | `String` | The follow on for this individual (I.E: III etc). |
+| 145 | gDSName | `String` | The name as communicated from the GDS. system.  Filled on names that are created during the booking. |
+| 146 | gDSTransactionNo | `String` | Not used. |
+| 147 | gender | `String` | Indicates gender of Individual profile. Either (M)ale or F(emale) |
+| 148 | geographicRegion | `String` | Not used. |
+| 149 | guestClassification | `String` | Not used. |
+| 150 | guestCountry | `String` | Country name. |
+| 151 | guestCurrencyCode | `String` | Currency code for the Commission payment. |
+| 152 | guestLanguageCode | `String` | Description for each language code. |
+| 153 | guestLastName | `String` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
+| 154 | guestMiddleName | `String` | The middle name of this individual. |
+| 155 | guestNameSuffix | `String` | Guest Name Suffix |
+| 156 | guestPrivilegeYN | `String` | Guest Privilege YN |
+| 157 | guestTitleCode | `String` | The title of the individual. |
+| 158 | hasRequestedMailYN | `String` | Has Requested Mail YN |
+| 159 | historyYN | `String` | Keep guest in history Y/N |
+| 160 | holdCode | `String` | Hold code for the Commission handling purposes. |
+| 161 | iataConsortia | `String` | Consortia for the IATA number. |
+| 162 | idCountry | `String` | The country where ID was issued |
+| 163 | idDate | `Date` | Issued date of Identification |
+| 164 | idDocumentAttachId | `Float` | This will store the value of LINKED_ATTACHMENTS.ATTACH_ID (Which maps to the physical table WORK_ORDERS.WO_NUMBER) |
+| 165 | idPlace | `String` | The place where ID was issued |
+| 166 | idType | `String` | Identification Type. Eg Passport Driving License etc |
+| 167 | immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
+| 168 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 169 | inactiveFlag | `String` | Inactive Flag |
+| 170 | inactiveReason | `String` | Reason why record was inactivated. |
+| 171 | inactiveReasonDescription | `String` | The description of this value. |
+| 172 | includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
+| 173 | indexName | `String` | Index Name |
+| 174 | industryCode | `String` | The Industry this profile belongs to. Used only for the Non-Individual Profiles. |
+| 175 | industryDesc | `String` | The description of this value. |
+| 176 | influence | `String` | Used in S&C Module. |
+| 177 | influenceDesc | `String` | The description of this value. |
+| 178 | interest | `String` | Interest Code. |
+| 179 | internalBillYn | `String` | Indicates that this profile should be generating an internal bill instead of a regular bill during settlement. |
+| 180 | internalDeletedflag | `String` | Deleted Flag |
+| 181 | internalInactiveflag | `String` | Inactive Flag |
+| 182 | internalOrganizationId | `Float` | Organization ID |
+| 183 | jRNUpdateDate | `Date` | JRN Update Date |
+| 184 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 185 | languageCode | `String` | Primary language used for the profile. |
+| 186 | laptopChange | `Float` | Code to synchronize to Laptop values are 012. |
+| 187 | lastGroup | `String` | Last Group |
+| 188 | lastNameAlternate | `String` | Last Name Alternate |
+| 189 | lastNameIncognito | `String` | The keyword to search on. |
+| 190 | lastRate | `Float` | Last Rate |
+| 191 | lastRateCode | `String` | Last Rate Code |
+| 192 | lastRoom | `String` | The room that is booked for this reservation leg. |
+| 193 | lastRoomProperty | `String` | Last Room Property |
+| 194 | lastSource | `String` | Last Source |
+| 195 | lastStay | `Date` | This contains the truncated component of end_date (i.e without timecomponent) |
+| 196 | lastUpdatedResort | `String` | Last property that updated this record. |
+| 197 | legalCompany | `String` | The legal company name for this company. |
+| 198 | letterGreeting | `String` | Used in S&C Module. |
+| 199 | mailActionDescription | `String` | The description of this value. |
+| 200 | mailList | `String` | This indicates whether the mailing list must be sent to the guest. |
+| 201 | mailType | `String` | The type of mail this user should be sent. |
+| 202 | mailingActionCode | `String` | Mailing action codes. |
+| 203 | marketResearchYN | `String` | Market Research YN |
+| 204 | masterAccountYn | `String` | Is this account a master account (Y/N)? |
+| 205 | nameTaxType | `String` | Not used. |
+| 206 | nameType | `String` | The type of Profile. |
+| 207 | nameTypeDescription | `String` | The description of this value. |
+| 208 | name2 | `String` | Not Used. |
+| 209 | name3 | `String` | Not used. |
+| 210 | nationality | `String` | Nationality |
+| 211 | nationalityCode | `String` | Nationality of the individual. |
+| 212 | negotiatedRateCodes | `String` | The rate code for which this record applies. |
+| 213 | nextStay | `Date` | This is a begin_date  with no  time component. |
+| 214 | nickname | `String` | The nickname of this individual. |
+| 215 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 216 | origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
+| 217 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 218 | phone | `String` | The phone number for this record |
+| 219 | phoneWeb | `String` | The phone number for this record |
+| 220 | phoneYN | `String` | Phone YN |
+| 221 | postalCode | `String` | The postal code of this address. |
+| 222 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
+| 223 | preferredRoomNo | `String` | Preferred Room Number |
+| 224 | primaryAddressId | `Float` | Not used. |
+| 225 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 226 | primaryNameId | `Float` | Not Used. |
+| 227 | primaryOwner | `String` | Primary Owner |
+| 228 | primaryOwnerCode | `String` | Primary Owner Code |
+| 229 | primaryPhoneId | `Float` | Not used. |
+| 230 | priority | `String` | Priority of the account |
+| 231 | priorityDesc | `String` | The description of this value. |
+| 232 | privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
+| 233 | productInterest | `String` | Preference Code. Part of the Primary Key. |
+| 234 | profession | `String` | The profession of the Individual |
+| 235 | profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
+| 236 | profileId | `Float` | The primary key for this table. |
+| 237 | profileType | `String` | The type of Profile. |
+| 238 | propertyRegistered | `String` | Resort for which Job is registered. |
+| 239 | protected | `String` | Protected |
+| 240 | psuedoProfileYn | `String` | Psuedo Profile Y/N |
+| 241 | rateStructure | `String` | The default rate structure for this name. |
+| 242 | region | `String` | The region for this name. |
+| 243 | regionid | `String` | The region for this name. |
+| 244 | repAccountTypeDescription | `String` | Reporting Account Type Description |
+| 245 | repAccountsource | `String` | Reporting Accountsource |
+| 246 | repAccountsourceDescription | `String` | Reporting Accountsource Desc |
+| 247 | repCompetitionCode | `String` | Reporting Competition Code |
+| 248 | repCompetitionDescription | `String` | Reporting Competition Desc |
+| 249 | repCorpTypeDescription | `String` | Reporting Corp Type Desc |
+| 250 | repIndustryCode | `String` | Reporting Industry Code |
+| 251 | repIndustryDescription | `String` | Reporting Industry Desc |
+| 252 | repInfluence | `String` | Reporting Influence |
+| 253 | repInfluenceDescription | `String` | Reporting Influence Desc |
+| 254 | repNameType | `String` | Reporting Name Type |
+| 255 | repNameTypeDescription | `String` | Reporting Name Type Description |
+| 256 | repNationalityCode | `String` | Rep Nationality Code |
+| 257 | repNationalityDescription | `String` | Rep Nationality Description |
+| 258 | repPriorityDescription | `String` | Reporting Priority Desc |
+| 259 | repRoomsPotential | `String` | Reporting Rooms Potential |
+| 260 | repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
+| 261 | repScope | `String` | Reporting Scope |
+| 262 | repScopeCity | `String` | Reporting Scope City |
+| 263 | repScopeCityDescription | `String` | Reporting Scope City Desc |
+| 264 | repScopeDescription | `String` | Reporting Scope Desc |
+| 265 | repStateDescription | `String` | Reporting State Desc |
+| 266 | repTaxTypeDescription | `String` | Reporting Tax Type Desc |
+| 267 | repTerritoryDescription | `String` | Reporting Territory Desc |
+| 268 | repTitleName | `String` | Reporting Title Name |
+| 269 | repeatGuestId | `String` | The primary membership # for this guest. |
+| 270 | replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
+| 271 | requestType | `String` | This column store the Name of the Company Profiles. |
+| 272 | restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
+| 273 | restrictedRule | `String` | The description of this value. |
+| 274 | resvContact | `String` | Reservation Contact person. |
+| 275 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 276 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 277 | roomsPotential | `String` | Potential no of rooms per year for a account |
+| 278 | roomsPotentialDesc | `String` | The description of this value. |
+| 279 | sMSYN | `String` | Use this alert to text a notification. |
+| 280 | salutation | `String` | Salutation Greeting |
+| 281 | scope | `String` | Scope of the account |
+| 282 | scopeCity | `String` | Scope City |
+| 283 | scopeCityDesc | `String` | The description of this value. |
+| 284 | scopeDesc | `String` | The description of this value. |
+| 285 | searchName | `String` | The Uppercase value of Last or Company. |
+| 286 | searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
+| 287 | sfirst | `String` | Uppercase value of First Name. |
+| 288 | soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
+| 289 | soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
+| 290 | srepCode | `String` | Used in QMS Module |
+| 291 | state | `String` | The state of this address. |
+| 292 | stateCode | `String` | State Code |
+| 293 | stateDescription | `String` | Description of the state. |
+| 294 | summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
+| 295 | summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
+| 296 | superSearchIndexText | `String` | Used in Oracle Text Index. |
+| 297 | sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
+| 298 | taxCategory | `String` | Tax Category |
+| 299 | taxExemptStatus | `String` | Not used. |
+| 300 | taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
+| 301 | taxID2 | `String` | Tax No |
+| 302 | taxOffice | `String` | Tax Office Name |
+| 303 | taxType | `String` | Tax Type |
+| 304 | territory | `String` | TERRITORY of  a account |
+| 305 | territoryDesc | `String` | The description of this value. |
+| 306 | thirdPartyYN | `String` | Third Party YN |
+| 307 | titleAlternate | `String` | Title Alternate |
+| 308 | titleName | `String` | The description of this value. |
+| 309 | titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
+| 310 | totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
+| 311 | tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
+| 312 | traceCode | `String` | Code to Trace a record for all Triggered actions. |
+| 313 | tracecodeDesc | `String` | Description |
+| 314 | typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
+| 315 | uDFC01 | `String` | User defined character field. |
+| 316 | uDFC02 | `String` | User defined character field. |
+| 317 | uDFC03 | `String` | User defined character field. |
+| 318 | uDFC04 | `String` | User defined character field. |
+| 319 | uDFC05 | `String` | User defined character field. |
+| 320 | uDFC06 | `String` | User defined character field. |
+| 321 | uDFC07 | `String` | User defined character field. |
+| 322 | uDFC08 | `String` | User defined character field. |
+| 323 | uDFC09 | `String` | User defined character field. |
+| 324 | uDFC10 | `String` | User defined character field. |
+| 325 | uDFC11 | `String` | User defined character field. |
+| 326 | uDFC12 | `String` | User defined character field. |
+| 327 | uDFC13 | `String` | User defined character field. |
+| 328 | uDFC14 | `String` | User defined character field. |
+| 329 | uDFC15 | `String` | User defined character field. |
+| 330 | uDFC16 | `String` | User defined character field. |
+| 331 | uDFC17 | `String` | User defined character field. |
+| 332 | uDFC18 | `String` | User defined character field. |
+| 333 | uDFC19 | `String` | User defined character field. |
+| 334 | uDFC20 | `String` | User defined character field. |
+| 335 | uDFC21 | `String` | User defined character field. |
+| 336 | uDFC22 | `String` | User defined character field. |
+| 337 | uDFC23 | `String` | User defined character field. |
+| 338 | uDFC24 | `String` | User defined character field. |
+| 339 | uDFC25 | `String` | User defined character field. |
+| 340 | uDFC26 | `String` | User defined character field. |
+| 341 | uDFC27 | `String` | User defined character field. |
+| 342 | uDFC28 | `String` | User defined character field. |
+| 343 | uDFC29 | `String` | User defined character field. |
+| 344 | uDFC30 | `String` | User defined character field. |
+| 345 | uDFC31 | `String` | User defined character field. |
+| 346 | uDFC32 | `String` | User defined character field. |
+| 347 | uDFC33 | `String` | User defined character field. |
+| 348 | uDFC34 | `String` | User defined character field. |
+| 349 | uDFC35 | `String` | User defined character field. |
+| 350 | uDFC36 | `String` | User defined character field. |
+| 351 | uDFC37 | `String` | User defined character field. |
+| 352 | uDFC38 | `String` | User defined character field. |
+| 353 | uDFC39 | `String` | User defined character field. |
+| 354 | uDFC40 | `String` | User defined character field. |
+| 355 | uDFD01 | `Date` | User defined date field. |
+| 356 | uDFD02 | `Date` | User defined date field. |
+| 357 | uDFD03 | `Date` | User defined date field. |
+| 358 | uDFD04 | `Date` | User defined date field. |
+| 359 | uDFD05 | `Date` | User defined date field. |
+| 360 | uDFD06 | `Date` | User defined date field. |
+| 361 | uDFD07 | `Date` | User defined date field. |
+| 362 | uDFD08 | `Date` | User defined date field. |
+| 363 | uDFD09 | `Date` | User defined date field. |
+| 364 | uDFD10 | `Date` | User defined date field. |
+| 365 | uDFD11 | `Date` | User defined date field. |
+| 366 | uDFD12 | `Date` | User defined date field. |
+| 367 | uDFD13 | `Date` | User defined date field. |
+| 368 | uDFD14 | `Date` | User defined date field. |
+| 369 | uDFD15 | `Date` | User defined date field. |
+| 370 | uDFD16 | `Date` | User defined date field. |
+| 371 | uDFD17 | `Date` | User defined date field. |
+| 372 | uDFD18 | `Date` | User defined date field. |
+| 373 | uDFD19 | `Date` | User defined date field. |
+| 374 | uDFD20 | `Date` | User defined date field. |
+| 375 | uDFN01 | `Float` | User defined number field. |
+| 376 | uDFN02 | `Float` | User defined number field. |
+| 377 | uDFN03 | `Float` | User defined number field. |
+| 378 | uDFN04 | `Float` | User defined number field. |
+| 379 | uDFN05 | `Float` | User defined number field. |
+| 380 | uDFN06 | `Float` | User defined number field. |
+| 381 | uDFN07 | `Float` | User defined number field. |
+| 382 | uDFN08 | `Float` | User defined number field. |
+| 383 | uDFN09 | `Float` | User defined number field. |
+| 384 | uDFN10 | `Float` | User defined number field. |
+| 385 | uDFN11 | `Float` | User defined number field. |
+| 386 | uDFN12 | `Float` | User defined number field. |
+| 387 | uDFN13 | `Float` | User defined number field. |
+| 388 | uDFN14 | `Float` | User defined number field. |
+| 389 | uDFN15 | `Float` | User defined number field. |
+| 390 | uDFN16 | `Float` | User defined number field. |
+| 391 | uDFN17 | `Float` | User defined number field. |
+| 392 | uDFN18 | `Float` | User defined number field. |
+| 393 | uDFN19 | `Float` | User defined number field. |
+| 394 | uDFN20 | `Float` | User defined number field. |
+| 395 | uDFN21 | `Float` | User defined number field. |
+| 396 | uDFN22 | `Float` | User defined number field. |
+| 397 | uDFN23 | `Float` | User defined number field. |
+| 398 | uDFN24 | `Float` | User defined number field. |
+| 399 | uDFN25 | `Float` | User defined number field. |
+| 400 | uDFN26 | `Float` | User defined number field. |
+| 401 | uDFN27 | `Float` | User defined number field. |
+| 402 | uDFN28 | `Float` | User defined number field. |
+| 403 | uDFN29 | `Float` | User defined number field. |
+| 404 | uDFN30 | `Float` | User defined number field. |
+| 405 | uDFN31 | `Float` | User defined number field. |
+| 406 | uDFN32 | `Float` | User defined number field. |
+| 407 | uDFN33 | `Float` | User defined number field. |
+| 408 | uDFN34 | `Float` | User defined number field. |
+| 409 | uDFN35 | `Float` | User defined number field. |
+| 410 | uDFN36 | `Float` | User defined number field. |
+| 411 | uDFN37 | `Float` | User defined number field. |
+| 412 | uDFN38 | `Float` | User defined number field. |
+| 413 | uDFN39 | `Float` | User defined number field. |
+| 414 | uDFN40 | `Float` | User defined number field. |
+| 415 | updateDate | `DateTime` | The date the record was modified |
+| 416 | updateFaxDate | `Date` | The last date this record's fax # was updated. |
+| 417 | updateUser | `String` | The user that modified the record |
+| 418 | uploadDate | `Date` | Date on which the record is uploaded to laptop. |
+| 419 | vIPCode | `String` | VIP Status of the Individual. |
+| 420 | vIPDescription | `String` | The description of this value. |
+| 421 | vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
+| 422 | vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
+| 423 | vipAuthorization | `String` | Not Used. |
+| 424 | visaValidityType | `String` | Country Specific Requirement for Nigeria. |
+| 425 | xdisplayName | `String` | Xdisplay Name |
+| 426 | xmiddleName | `String` | Extended Byte middle name. |
 
 [⬆ Back to Query](#query)
 
@@ -1974,62 +1974,62 @@
 
 ### FinancialTransactionDetailsExtendedPayeeAddressDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| address1 | `String` | The first line of street address. |
-| address2 | `String` | The second line of street address. |
-| address3 | `String` | The third line of street address. |
-| address4 | `String` | The fourth line of street address. |
-| addressID | `Float` | The primary key for this table. |
-| addressLanguage | `String` | Address Language |
-| addressLanguageDescription | `String` | Description for each language code. |
-| addressType | `String` | The type of address. |
-| addressTypeDesc | `String` | The description of this value. |
-| barcode | `String` | The postal barcode for the address. |
-| beginDate | `Date` | Not used. |
-| centralState | `String` | Central State |
-| centralStateDescription | `String` | Central State Description |
-| chainCode | `String` | The Chain code of the chain for which this record belongs to. |
-| city | `String` | The city for this address. |
-| cleansedDatetime | `DateTime` | The Timestamp when this record was cleansed. |
-| cleansedErrormsg | `String` | The error message why this record was not cleansed. |
-| cleansedMatchstatus | `String` | Specifies how the address elements match with the postal reference data. |
-| cleansedStatus | `String` | Status of Address Cleansing. Null = Record is not cleansed. C = Cleansed. F = Failure. |
-| cleansedValidationstatus | `String` | Validation Status as returned by the Address Cleansing System. |
-| clientID | `String` | The unique key of this name stores IATA# Company # etc. |
-| countryCode | `String` | Country . |
-| countryDescription | `String` | Country name. |
-| createdByUser | `Float` | The user that created the record |
-| createdOnDate | `DateTime` | The date the record was created |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedYN | `String` | Deleted Y/n |
-| endDate | `Date` | Not used. |
-| firstName | `String` | The first name of an individual name. |
-| foreignCountry | `String` | Not used. |
-| inCareOf | `String` | Not used. |
-| inactiveDate | `DateTime` | The date the record was marked as inactive |
-| inactiveYN | `String` | Inactive Y/n |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopChange | `Float` | Code to synchronize with Laptop. (not used) |
-| lastUpdatedResort | `String` | Last property that updated this record. |
-| name | `String` | Name |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| postalCode | `String` | The postal code of this address. |
-| postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYN | `String` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |
-| profileAddressId | `Float` | The primary key for this table. |
-| profileId | `Float` | The reference to the NAME record that owns this address. |
-| profileIdx | `Float` | The reference to the NAME record that owns this address. |
-| province | `String` | Province. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| state | `String` | State |
-| stateCode | `String` | The state of this address. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | address1 | `String` | The first line of street address. |
+| 2 | address2 | `String` | The second line of street address. |
+| 3 | address3 | `String` | The third line of street address. |
+| 4 | address4 | `String` | The fourth line of street address. |
+| 5 | addressID | `Float` | The primary key for this table. |
+| 6 | addressLanguage | `String` | Address Language |
+| 7 | addressLanguageDescription | `String` | Description for each language code. |
+| 8 | addressType | `String` | The type of address. |
+| 9 | addressTypeDesc | `String` | The description of this value. |
+| 10 | barcode | `String` | The postal barcode for the address. |
+| 11 | beginDate | `Date` | Not used. |
+| 12 | centralState | `String` | Central State |
+| 13 | centralStateDescription | `String` | Central State Description |
+| 14 | chainCode | `String` | The Chain code of the chain for which this record belongs to. |
+| 15 | city | `String` | The city for this address. |
+| 16 | cleansedDatetime | `DateTime` | The Timestamp when this record was cleansed. |
+| 17 | cleansedErrormsg | `String` | The error message why this record was not cleansed. |
+| 18 | cleansedMatchstatus | `String` | Specifies how the address elements match with the postal reference data. |
+| 19 | cleansedStatus | `String` | Status of Address Cleansing. Null = Record is not cleansed. C = Cleansed. F = Failure. |
+| 20 | cleansedValidationstatus | `String` | Validation Status as returned by the Address Cleansing System. |
+| 21 | clientID | `String` | The unique key of this name stores IATA# Company # etc. |
+| 22 | countryCode | `String` | Country . |
+| 23 | countryDescription | `String` | Country name. |
+| 24 | createdByUser | `Float` | The user that created the record |
+| 25 | createdOnDate | `DateTime` | The date the record was created |
+| 26 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 27 | deletedYN | `String` | Deleted Y/n |
+| 28 | endDate | `Date` | Not used. |
+| 29 | firstName | `String` | The first name of an individual name. |
+| 30 | foreignCountry | `String` | Not used. |
+| 31 | inCareOf | `String` | Not used. |
+| 32 | inactiveDate | `DateTime` | The date the record was marked as inactive |
+| 33 | inactiveYN | `String` | Inactive Y/n |
+| 34 | internalOrganizationId | `Float` | Organization ID |
+| 35 | jRNUpdateDate | `Date` | JRN Update Date |
+| 36 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 37 | laptopChange | `Float` | Code to synchronize with Laptop. (not used) |
+| 38 | lastUpdatedResort | `String` | Last property that updated this record. |
+| 39 | name | `String` | Name |
+| 40 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 41 | postalCode | `String` | The postal code of this address. |
+| 42 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
+| 43 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 44 | primaryYN | `String` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |
+| 45 | profileAddressId | `Float` | The primary key for this table. |
+| 46 | profileId | `Float` | The reference to the NAME record that owns this address. |
+| 47 | profileIdx | `Float` | The reference to the NAME record that owns this address. |
+| 48 | province | `String` | Province. |
+| 49 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 50 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 51 | state | `String` | State |
+| 52 | stateCode | `String` | The state of this address. |
+| 53 | updateDate | `DateTime` | The date the record was modified |
+| 54 | updateUser | `Float` | The user that modified the record |
 
 [⬆ Back to Query](#query)
 
@@ -2037,676 +2037,676 @@
 
 ### FinancialTransactionDetailsExtendedToReservationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aSBProratedYn | `String` | Indicates whether a prorated amount should be used for an Apartment Style Billing rate. |
-| accompaniedYN | `String` | Accompanied YN |
-| accompanyingName | `String` | Accompanying guest names. |
-| actualCheckInDateTime | `DateTime` | Actual Check In Date Time |
-| actualCheckOutDateTime | `DateTime` | Actual Check Out Date Time |
-| actualCheckInDate | `Date` | Actual Check-In Date |
-| actualCheckInTime | `String` | Actual Check-In Time |
-| actualCheckOutDate | `Date` | Actual Check-Out Date |
-| actualCheckOutTime | `String` | Actual Check-Out Time |
-| addressId | `Float` | Address ID |
-| addresseeNameId | `Float` | Addressee Name ID |
-| adults | `Float` | Adults |
-| adultsTaxFree | `Float` | Adults Tax Free |
-| advanceCheckedInYn | `String` | Indicates if the reservation has performed an Advance Check In. |
-| agencyprofileid | `Float` | Agencyprofileid |
-| allotmentRecordType | `String` | Indicates whether the room type inventory was taken from the allotment or House availabilty. |
-| allotmentid | `Float` | Block ID |
-| amenityEligibleYn | `String` | SPG - Indicates if this stay is eligible for an Amenity. |
-| amenityLevelCode | `String` | Amenity Level Code |
-| amountPercent | `Float` | Amount Percent |
-| approvalAmount | `Float` | Approval Amount |
-| approvalAmountCalcMethod | `Float` | Approval Amount Calc Method |
-| approvalCode | `String` | Approval Code |
-| arrivalComments | `String` | Arrival Comments |
-| arrivalDate | `Date` | Arrival Date |
-| arrivalDateTime | `DateTime` | Arrival Date Time |
-| arrivalEstimateTime | `Date` | Arrival Estimate Time |
-| arrivalTime | `String` | Activity begin time |
-| arrivaltransportid | `String` | Arrivaltransportid |
-| attachedDate | `Date` | Attached Date |
-| authorizedBillingYN | `String` | Not used. |
-| authorizedBy | `Float` | This stores the pmsp.logged_uid who authorizes the direct bill |
-| authorizerId | `Float` | Authorizer ID |
-| autoCheckinYn | `String` | Auto Checkin Y/N |
-| autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
-| autoSettleDays | `Float` | Auto Settle Days |
-| autoSettleType | `String` | Auto Settle Type |
-| autoSettleYN | `String` | Auto Settle YN |
-| awardCode | `String` | Award Code |
-| awardCode1 | `String` | Award code 1 |
-| awardCode2 | `String` | Award code 2 |
-| awardCode3 | `String` | Award code 3 |
-| awardCode4 | `String` | Award Code 4 |
-| awardCode5 | `String` | Award code 5 |
-| awardMembershipID | `Float` | Award Membership ID |
-| awardVoucher1 | `String` | Award Voucher number 1 |
-| awardVoucher2 | `String` | Award Voucher number 2 |
-| awardVoucher3 | `String` | Award Voucher number 3 |
-| awardVoucher4 | `String` | Award Voucher number 4 |
-| awardVoucher5 | `String` | Award Voucher number 5 |
-| awdUpgrFrom | `String` | Room Type  before the Upgrade Award |
-| awdUpgrTo | `String` | Room Type after the Upgrade Award |
-| backToBackYN | `String` | Back To Back YN |
-| balance | `Float` | Balance on the account. |
-| baseRateAmount | `Float` | Base Rate Amount |
-| baseRateCode | `String` | Base Rate Code |
-| baseRateCurrencyCode | `String` | Base Rate Currency Code |
-| basedOnRule | `String` | Based On Rule |
-| baseratecurrencyid | `String` | Baseratecurrencyid |
-| beginCity | `String` | Begin City |
-| beginDatetime | `DateTime` | Begin Datetime |
-| beginDistrict | `String` | Begin District |
-| beginState | `String` | Begin State |
-| beginSystemDateTime | `DateTime` | Stores the actual guest check in date and time. |
-| billNumber | `String` | Bill Number |
-| billingContact | `String` | Billing Contact |
-| billingContactDisplayName | `String` | Billing Contact Display Name |
-| billingContactId | `Float` | Billing Contact ID |
-| billingContactName | `String` | Billing Contact Name |
-| billingcontactprofileid | `Float` | Billing Contact Profile ID |
-| blockCode | `String` | Block Code |
-| blockCreateDate | `DateTime` | Block Create Date |
-| blockID | `Float` | Block ID |
-| blockName | `String` | Block Name |
-| blockResort | `String` | Property this block belongs to. |
-| blockStatus | `String` | Block Status |
-| bonusCheckId | `Float` | Bonus Check ID |
-| bookedRoomCategory | `String` | Booked Room Category |
-| bookedroomcategoryid | `String` | Bookedroomcategoryid |
-| businessDateCreated | `Date` | Business Date Created |
-| businessDatetimeCreated | `DateTime` | Business Datetime Created |
-| bxgyDiscountYn | `String` | Bxgy Discount Y/N |
-| cAutoPostAmount | `Float` | Central Auto Post Amount |
-| cBaseRateAmount | `Float` | Central Base Rate Amount |
-| cDiscountAmount | `Float` | C Discount Amount |
-| cDiscountAmt | `Float` | C Discount Amt |
-| cEffectiveRateAmount | `Float` | C Effective Rate Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cFixedCharge | `Float` | Central Fixed Charge |
-| cGrossRateAmount | `Float` | Central Gross Rate Amt |
-| cLocalBaseRateAmount | `Float` | Central Local Base Rate Amount |
-| cNetRoomAmount | `Float` | Central Net Room Amt |
-| cOriginalBaseRate | `Float` | Central Original Base Rate |
-| cPackageAmount | `Float` | Central Pkg Amt |
-| cPackageTax | `Float` | Central Pkg Tax |
-| cRateAmount | `Float` | C Rate Amount |
-| cRoomCost | `Float` | Central Room Cost |
-| cRoomTax | `Float` | Central Room Tax |
-| cShareAmountOriginal | `Float` | Central Share Amount Original |
-| cUpsellCharge | `Float` | Central Upsell Charge |
-| cancelDate | `Date` | Cancel Date |
-| cancelReason | `String` | Cancel Reason |
-| cancelTime | `String` | Cancel Time |
-| cancellationDate | `DateTime` | Cancellation Date |
-| cancellationDatetime | `DateTime` | Cancellation Datetime |
-| cancellationNumber | `String` | Cancellation Number |
-| cancellationReasonDescription | `String` | Cancellation Reason Description |
-| cancellationreasonid | `String` | Cancellationreasonid |
-| cancelledBy | `String` | The user who canceled this Reservation. |
-| cardNumberByMembershipClass | `String` | Card Number by Membership Class |
-| cardNumberByMembershipType | `String` | Card Number by Membership Type |
-| centralApprovalAmount | `Float` | Central Approval Amount |
-| centralCancelReason | `String` | Central Cancel Reason |
-| centralCommissionCode | `String` | Central Commission Code |
-| centralCommissionDescription | `String` | Central Commission Description |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralDiscountReason | `String` | Central Discount Reason |
-| centralDiscountReasonDescription | `String` | Central Discount Reason Description |
-| centralFBRevenue | `Float` | Central FB Revenue |
-| centralGuestType | `String` | Central Guest Type |
-| centralHurdle | `Float` | Central Hurdle |
-| centralPackageCode | `String` | Central Package Code |
-| centralPackageCodeDescription | `String` | Central Package Code Description |
-| centralPackageForecastGroup | `String` | Central Package Forecast Group |
-| centralPackageForecastGroupDescription | `String` | Central Package Forecast Group Description |
-| centralPaymentAmount | `Float` | Central Payment Amount |
-| centralProjectedFBRevenue | `Float` | Central Projected FB Revenue |
-| centralProjectedRoomRevenue | `Float` | Central Projected Room Revenue |
-| centralProjectedTotalRevenue | `Float` | Central Projected Total Revenue |
-| centralPromotionDescription | `String` | Central Promotion Description |
-| centralRateableValue | `Float` | Central Rateable Value |
-| centralReservationType | `String` | Central Reservation Type |
-| centralReservationTypeDescription | `String` | Central Reservation Type Description |
-| centralRoomRevenue | `Float` | Central Room Revenue |
-| centralRoomTypeCode | `String` | Central Room Type Code |
-| centralRoomTypeDescription | `String` | Central Room Type Description |
-| centralRoomTypeToChargeCode | `String` | Central Room Type To Charge Code |
-| centralRoomTypeToChargeDescription | `String` | Central Room Type to Charge Description |
-| centralSharedRoomRate | `Float` | Central Shared Room Rate |
-| centralSpecialRequestDescription | `String` | Central Special Request Description |
-| centralTaxType | `String` | Central Tax Type |
-| centralTaxTypeDescription | `String` | Central Tax Type Description |
-| centralTotalCostOfStay | `Float` | Central Total Cost of Stay |
-| centralTotalRevenue | `Float` | Central Total Revenue |
-| centralTotalRoomRate | `Float` | Central Total Room Rate |
-| centralWaitlistPriority | `String` | Central Waitlist Priority |
-| centralWaitlistPriorityDescription | `String` | Central Waitlist Priority Description |
-| centralWaitlistReason | `String` | Central Waitlist Reason |
-| centralWaitlistReasonDescription | `String` | Central Waitlist Reason Description |
-| channelDescription | `String` | Channel Description |
-| channelOrderBy | `Float` | Channel Order By |
-| channelid | `String` | Channelid |
-| checkInInitiatedBy | `String` | Check In Initiated By |
-| checkinDuration | `Float` | Duration in seconds to complete Check-In |
-| childBucket1 | `Float` | Child Bucket 1 |
-| childBucket4 | `Float` | Child Bucket 4 |
-| childBucket5 | `Float` | Child Bucket 5 |
-| children | `Float` | Children |
-| childrenAgeGroup2 | `Float` | Children Age Group 2) |
-| childrenAgeGroup3 | `Float` | Children Age Group 3) |
-| childrenAges | `String` | Children Ages |
-| commissionCode | `String` | Commission Code |
-| commissionDescription | `String` | Commission Description |
-| commissionHoldCode | `String` | Commission Hold Code |
-| commissionPaid | `Float` | Commission Paid |
-| commissionPayoutTo | `String` | Indicates to whom the commission will be paid: NULL T (Travel Agent)  S (Source) and B (Both). |
-| commissionableYN | `String` | Commissionable YN |
-| commissionid | `String` | Commissionid |
-| compHouse | `String` | Comp House |
-| compTypeCode | `String` | Comp Type Code |
-| companyCity | `String` | Company City |
-| companyCountry | `String` | Company Country |
-| companyID | `Float` | Company ID |
-| companyName | `String` | Company Name |
-| companyProfileCorporateID | `String` | Company Profile Corporate ID |
-| companyProfileID | `Float` | Company Profile ID |
-| complimentaryYN | `String` | Complimentary YN |
-| compreasonid | `String` | Compreasonid |
-| computedResvStatus | `String` | Calculated reservation status. |
-| confirmationLegNumber | `Float` | Confirmation Leg Number. |
-| confirmationNo | `String` | Shared Confirmation Number |
-| consumerYn | `String` | Consumer Y/N |
-| contactName | `String` | Contact Name; UDFC02 on reservation. |
-| contactProfileID | `Float` | Contact Profile ID |
-| contactProfileName | `String` | Contact Profile Name |
-| createdBy | `String` | The name of the user who created the record. |
-| createdByDefaultResort | `String` | Created By Default Property |
-| createdDate | `Date` | Created Date |
-| createdTime | `String` | Refer to the same column name in the table IFC_WAKE |
-| creditCardAuthDate | `Date` | Credit Card Auth Date |
-| creditCardId | `Float` | Credit Card ID |
-| creditLimit | `Float` | Credit Limit |
-| creditLimitAutoPayAllowYn | `String` | Indicates if the reservation has opted-in for auto payment when credit limit overage is detected. |
-| cribs | `Float` | Cribs |
-| currencyCode | `String` | Currency Code |
-| customReferenceNumber | `String` | Custom Reference Number |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateOfArrivalInCountry | `Date` | Country Specific Requirement for Nigeria. |
-| deletedFlag | `String` | Deleted Flag |
-| departtransportid | `String` | Departtransportid |
-| departureComments | `String` | Departure Comments |
-| departureDate | `Date` | Departure Date |
-| departureDateTime | `Date` | Departure Date Time |
-| departureTime | `String` | Departure Time |
-| departureTransportCode | `String` | Departure Transport Code |
-| departureTransportationYN | `String` | Departure Transportation YN |
-| depositMaturityType | `String` | Stores the Deposit maturity preference. |
-| detatchedDate | `Date` | Detatched Date |
-| detatchedYN | `String` | Detatched YN |
-| directBillVerifyResponse | `String` | Direct Bill Verify Response |
-| directbillauthby | `Float` | Directbillauthby |
-| discountAmount | `Float` | Discount Amount |
-| discountAmt | `Float` | Discount Amount |
-| discountPercent | `Float` | Discount Percentage. |
-| discountPrcnt | `Float` | Discount Prcnt |
-| discountReason | `String` | Discount Reason |
-| discountReasonDescription | `String` | Discount Reason Description |
-| discountreasonid | `String` | Discountreasonid |
-| displayColor | `String` | Display Color |
-| dmlSeqNumber | `Float` | Dml Sequence No |
-| doNotMoveRoom | `String` | Do Not Move Room |
-| doNotMoveYN | `String` | Do not move room flag. |
-| dropOffCarrierCode | `String` | Drop Off Carrier Code |
-| dropOffDate | `Date` | Drop Off Date |
-| dropOffStation | `String` | Drop Off Station |
-| dropOffTime | `String` | Drop Off Time |
-| dropOffType | `String` | Drop Off Type |
-| dropOffTypeDescription | `String` | Drop Off Type Description |
-| eTRComments | `String` | Comments related to Estimated Time of Return. |
-| effectiveRateAmount | `Float` | Not used. |
-| eligibleForUpgradeYn | `String` | Indicates if the reservation is eligible to receive room upgrades. Controlled by Central System. |
-| emailAddress | `String` | Email Address |
-| emailFolioYn | `String` | Email Folio Y/N |
-| emailId | `Float` | Email ID |
-| emailYn | `String` | Email Y/N |
-| endCity | `String` | End City |
-| endDatetime | `DateTime` | End Datetime |
-| endDistrict | `String` | End District |
-| endState | `String` | End State |
-| endbusinessdate | `Date` | Endbusinessdate |
-| entryDate | `Date` | Entry Date into the country. (Croatian Requirements) |
-| entryPoint | `String` | (Customized) Entry point into the country. (Croatian Requirements) |
-| esignedRegCardName | `String` | Name of file that contains the electronically signed registration card. |
-| estimatedDepartureTime | `Date` | Estimated Departure Time |
-| eventId | `Float` | Event ID |
-| exchangePostingType | `String` | Exchange Posting Type |
-| exchangeRate | `Float` | Exchange Rate |
-| excludeFromAutoAuthorizationYN | `String` | Exclude From Auto Authorization YN |
-| expectedTimeOfReturnETR | `DateTime` | The time when an Advance Checked-In Guest is expected to return to perform the actual Check-In. |
-| exportCheckinresId | `Float` | Used for Croatian Requirement Exports to store a unique checkin number. |
-| extSegNo | `Float` | Not used |
-| extSeqNumber | `Float` | Not used |
-| extensionId | `Float` | Internal extension number for the main reservation |
-| externalEfolioYn | `String` | Indicates if the guest has opted to receive Efolio through an external system. |
-| externalReference | `String` | External Reference |
-| externalReferencesList | `String` | External References List |
-| extraBeds | `Float` | Extra Beds |
-| fBRevenue | `Float` | FB Revenue |
-| fBRevenueRemaining | `Float` | F&B Revenue Remaining |
-| faxId | `Float` | Fax ID |
-| faxYn | `String` | Should a confirmation be faxed for this reservation name? Y/N |
-| feature | `String` | This stores the codes for the rooms features. Currently not used |
-| financiallyResponsibleYn | `String` | Financially Responsible Y/N |
-| fixedCharge | `Float` | Not used. |
-| fixedRateYN | `String` | Fixed Rate YN |
-| folioAddrElementId | `Float` | Oracle sequence to identify different attribute values of an address. |
-| folioCloseDate | `Date` | Date the folio was changed to closed. |
-| folioNumber | `String` | Folio Number |
-| folioText1 | `String` | Folio Text1 |
-| folioText2 | `String` | Folio Text2 |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| freeChild | `Float` | Free Child |
-| frequentFlyerMembershipYN | `String` | Frequent Flyer Membership YN |
-| grossRateFuture | `Float` | Gross Rate Future |
-| grossRatePast | `Float` | Gross Rate Past |
-| groupName | `String` | Group Name |
-| groupProfileARNumber | `Float` | Group Profile AR Number |
-| groupProfileARNumberCentral | `String` | Group Profile AR Number (Central) |
-| groupProfileClientID | `String` | Group Profile Client ID |
-| groupProfileID | `Float` | Group Profile ID |
-| groupProfileName | `String` | Group Profile Name |
-| guaranteeCodePreCi | `String` | Guarantee code before check in. Populated when the guarantee code is changed to CHECKED IN. |
-| guaranteecodeid | `String` | Guaranteecodeid |
-| guestFirstName | `String` | Guest First Name |
-| guestFirstNameSdx | `String` | This is soundex of GUEST FIRST NAME - Phonotic sound. |
-| guestLastNameSdx | `String` | This is soundex of GUEST LAST NAME - Phonotic sound. |
-| guestSignature | `String` | Signature of the guest |
-| guestStatus | `String` | Used for Police/Tourist Export |
-| guestType | `String` | Guest Type |
-| guestprofileid | `Float` | Guestprofileid |
-| gueststatusid | `String` | Gueststatusid |
-| guesttypeid | `String` | Guesttypeid |
-| housekeepingServiceTime | `String` | Housekeeping Service Time |
-| hurdle | `Float` | Hurdle |
-| hurdleOverride | `String` | Hurdle Override |
-| iDByMembershipClass | `String` | ID by Membership Class |
-| iDByMembershipType | `String` | ID by Membership Type |
-| individualCity | `String` | Guest Address. |
-| individualCountry | `String` | Country of the guest |
-| individualFirstName | `String` | Individual First Name |
-| individualLastName | `String` | Individual Last Name |
-| insertActionInstanceId | `Float` | Insert Action Instance ID |
-| insertDate | `DateTime` | Insert Date |
-| insertDateTime | `DateTime` | Insert DateTime |
-| insertUser | `Float` | Insert User |
-| intermediaryYn | `String` | Intermediary Y/N |
-| internalAwardMembershipId | `Float` | Award Membership ID |
-| internalBaseratecode | `String` | Baseratecode |
-| internalBlockId | `Float` | Block ID. |
-| internalCompanyprofileid | `Float` | Companyprofileid |
-| internalGroupprofileid | `Float` | Groupprofileid |
-| internalSourceprofileid | `Float` | Sourceprofileid |
-| itemsQuantities | `String` | Items and Quantities |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keyValidUntil | `Date` | Key Valid Until |
-| lastOnlinePrintSeq | `Float` | Last Online-Printing Sequence Number used by this reservation. |
-| lastPeriodicFolioDate | `Date` | Latest date when a folio was printed using the "Periodic Batch Folios" option |
-| lastRoomNumber | `String` | Not used. |
-| lastSettleDate | `Date` | Latest date when a direct bill settlement was automatically done using the "Direct Bill Batch Folios" option |
-| leadTimeDays | `Float` | Lead Time for ordering |
-| lengthOfStay | `Float` | Length of Stay |
-| linkedArrivalDate | `DateTime` | Linked Arrival Date |
-| linkedDepartureDate | `DateTime` | Linked Departure Date |
-| linkedRoomType | `String` | Linked Room Type |
-| listOfMembershipID | `String` | Membership ID |
-| localBaseRateAmount | `Float` | Local Base Rate Amount |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| loyaltySchemeMembershipYN | `String` | Loyalty Scheme Membership YN |
-| mailYn | `String` | Mail Y/N |
-| manualCheckoutStatus | `String` | Indicates if this Reservation has requested or processed a Manual Checkout for consumer mobility. Possible Values: NULL [R]equested [P]rocessed. |
-| marketCode | `String` | Market Code |
-| marketid | `String` | Marketid |
-| mcGenBeginDistrict | `String` | Mc Gen Begin District |
-| mcGenBeginState | `String` | Mc Gen Begin State |
-| mcGenEndDistrict | `String` | Mc Gen End District |
-| mcGenEndState | `String` | Mc Gen End State |
-| mcGenNextCountry | `String` | Mc Gen Next Country |
-| mcGenPreviousCountry | `String` | Mc Gen Previous Country |
-| memberDescription | `String` | Member Description |
-| memberLevel | `String` | Member Level |
-| memberNumber | `String` | Member Number |
-| membershipClass | `String` | Membership Class |
-| membershipClassDescription | `String` | Membership Class Description |
-| membershipCode | `String` | Membership Code |
-| membershipId | `Float` | Membership ID |
-| membershipLevelByMembershipClass | `String` | Membership Level by Membership Class |
-| membershipTypeByMembershipClass | `String` | Membership Type by Membership Class |
-| mobileActionAlertIssued | `Date` | Stores when this Reservation has received a mobile action needed Alert for consumer mobility. |
-| mobileAudioKeyYn | `String` | Marked as Y when the Phone Number/EMail Address is Opt In. |
-| mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
-| mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
-| mobilePreferredCurrency | `String` | Currency preferred by a Mobile Registered Guest. |
-| mobileViewFolioAllowed | `String` | Indicates if the reservation is eligible to view the folio by sending a mobile message. |
-| name | `String` | Name |
-| nameUsageType | `String` | Name Usage Type |
-| nextCountry | `String` | Next Country |
-| nextDestination | `String` | Country Specific Requirement for Nigeria. |
-| numberOfRooms | `Float` | No of Rooms |
-| operaEsignedRegCardYn | `String` | Indicates if reservation?s registration card was esigned via Opera. |
-| optInBatchFolYn | `String` | Indicates if the guest has opted in to receive email through the batch folio option. |
-| optedForCommissionYN | `String` | Indicates if the reservation has opted-in for communications. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originCode | `String` | Origin Code |
-| originOfBooking | `String` | Origin Of Booking |
-| originalBaseRate | `Float` | Not used. |
-| originalEndDate | `Date` | Original End Date |
-| originalStartDate | `Date` | Original Start Date |
-| ownerFfFlag | `String` | Owner Ff Flag |
-| ownerOrFriendsFamily | `String` | Owner or Friends/Family |
-| packageCode | `String` | Package Code |
-| packageCodeDescription | `String` | Package Code Description |
-| packageForecastGroup | `String` | Package Forecast Group |
-| packageForecastGroupDescription | `String` | Package Forecast Group Description |
-| parentReservationNameId | `Float` | Parent Resv Name ID |
-| parentreservationid | `Float` | Parentreservationid |
-| partAllotment | `String` | Part Allotment |
-| partyCode | `String` | Party Code |
-| paxNo | `Float` | Pax Number |
-| paymentAmount | `Float` | Total amount of payment inclusive of VAT |
-| paymentMethod | `String` | Payment Method |
-| paymentmethodid | `String` | Paymentmethodid |
-| periodicFolioFreq | `Float` | Frequency in number of days when folios should be printed for this reservation |
-| phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
-| phoneId | `Float` | Phone ID |
-| physicalQuantity | `Float` | Physical Quantity |
-| pickUpCarrierCode | `String` | Pick Up Carrier Code |
-| pickUpDate | `Date` | Pick Up Date |
-| pickUpStation | `String` | Pick Up Station |
-| pickUpTransportNumber | `String` | Pick Up Transport Number |
-| pickUpType | `String` | Pick Up Type |
-| pickUpTypeDescription | `String` | Pick Up Type Description |
-| pickUpTime | `String` | Pick-Up Time |
-| pickupRequiredYN | `String` | Pickup Required YN |
-| points | `Float` | Points |
-| pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
-| postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
-| postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
-| postingAllowedYN | `String` | Posting Allowed YN |
-| preArrReviewedDt | `DateTime` | This date flags if and when the record was reviewed from pre-arrival screen. |
-| preArrReviewedUser | `Float` | User id who reviewed the record. |
-| preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
-| preRegisteredYn | `String` | Indicates whether the reservation is pre-registered for internet check-in or not. |
-| preference | `String` | Preference |
-| preferenceType | `String` | Preference Type |
-| preferredRoomType | `String` | Preferred Room Type |
-| previousCountry | `String` | Previous Country |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryShare | `String` | Primary Share |
-| printRateYN | `String` | Print Rate YN |
-| projectedFBRevenue | `Float` | Projected FB Revenue |
-| projectedRoomRevenue | `Float` | Projected Room Revenue |
-| projectedTotalRevenue | `Float` | Projected Total Revenue |
-| promotionCode | `String` | Promotion Code |
-| promotionDescription | `String` | Promotion Description |
-| property | `String` | Indicates if the value set for the specific property. |
-| pseudoMemTotalPoints | `Float` | Total pseudo membership points accrued for the default membership type. |
-| pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
-| purgeDate | `DateTime` | Purge Date |
-| purposeOfStay | `String` | Purpose of stay. |
-| quantity | `Float` | Number of Rooms |
-| queuePriority | `Float` | Queue priority of the reservation. |
-| queueWaitTime | `Float` | Queue Wait Time |
-| quoteId | `String` | Quote ID provided by external system. |
-| rateAmount | `Float` | Rate Amount |
-| rateCode | `String` | Rate Code |
-| rateCodeDescriptions | `String` | Event Reservation Rate Code Description |
-| rateTier | `Float` | Tier ID for the Rate Detail. |
-| rateableValue | `Float` | Stay rateable value. |
-| ratecodeid | `String` | Ratecodeid |
-| rdHousekeepingExpectedServiceTime | `String` | Rd Housekeeping Expected Service Time |
-| rdResvStatus | `String` | Rd Reservation Status |
-| rdenBillingContactId | `Float` | Rden Billing Contact ID |
-| rdenReservationContactId | `Float` | Rden Resv Contact ID |
-| rdenReservationDate | `Date` | Rden Reservation Date |
-| rdenResort | `String` | Rden Property |
-| referralYn | `String` | Rotation Rule to be configured for referral flag ? |
-| registrationCardNo | `String` | Registration Card Number |
-| registrationNumber | `Float` | Registration Number |
-| reinstateDate | `DateTime` | Reinstate Date |
-| repChannel | `String` | Reporting Channel |
-| repChannelDescription | `String` | Reporting Channel Description |
-| reportId | `String` | Report ID |
-| resInsertSource | `String` | Reservation Insert Source |
-| resInsertSourceType | `String` | Reservation Insert Source Type |
-| reservationContactId | `Float` | Resv Contact ID |
-| reservationDate | `DateTime` | Reservation Date |
-| reservationNameID | `Float` | Reservation Name ID |
-| reservationStatus | `String` | Reservation Status |
-| reservationType | `String` | Reservation Type |
-| reservationTypeDescription | `String` | Reservation Type Description |
-| reservationid | `Float` | Reservationid |
-| resort | `String` | Property |
-| resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
-| restrictionOverride | `String` | Restriction Override |
-| resvGuid | `String` | Globally unique ID using SYS_GUID() as the source. |
-| resvNameid | `Float` | Reservation Nameid |
-| resvNumber | `Float` | Not used in PMS currently. |
-| resvcontactprofileid | `Float` | Resvcontactprofileid |
-| revenueTypeCode | `String` | Revenue type (catering/rooms) |
-| rhBillingContactId | `Float` | Rh Billing Contact ID |
-| rhReservationContactId | `Float` | Rh Resv Contact ID |
-| rhRoomFeatures | `String` | Rh Room Features |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| room | `String` | Room |
-| roomCategory | `String` | Room Category |
-| roomClass | `String` | Room Class |
-| roomCost | `Float` | Room Cost |
-| roomInstructions | `String` | Room Instructions |
-| roomResort | `String` | Meeting Room Property |
-| roomRevenue | `Float` | Room Revenue |
-| roomRevenueRemaining | `Float` | Room Revenue Remaining |
-| roomServiceTime | `String` | This is the Turndown room service time. |
-| roomTypeDescription | `String` | Room Type Description |
-| roomTypeToChargeCode | `String` | Room Type To Charge Code |
-| roomTypeToChargeDescription | `String` | Room Type to Charge Description |
-| roomcategoryid | `String` | Roomcategoryid |
-| roomid | `String` | Roomid |
-| routingYN | `String` | Routing YN |
-| scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
-| sguestFirstname | `String` | This is CAPITOL version of guest_first_name |
-| sguestName | `String` | Sguest Name |
-| shareConfirmationNumbers | `String` | Share Confirmation Numbers |
-| shareId | `Float` | Share ID. |
-| shareName | `String` | Share Name |
-| sharePrcnt | `Float` | Not used. |
-| shareSeqNumber | `Float` | Type of revenue |
-| shareOfRateAmount | `Float` | Share of Rate Amount |
-| sharedGuestName | `String` | Shared Guest Name |
-| sharedProfileID | `Float` | Shared Profile ID |
-| sharedReservationStatus | `String` | Shared Reservation Status |
-| sharingYN | `String` | Sharing YN |
-| sourceCity | `String` | Source City |
-| sourceCode | `String` | Source Code |
-| sourceCountry | `String` | Source Country |
-| sourceName | `String` | Source Name |
-| sourceProfileARNumber | `Float` | Source Profile AR Number |
-| sourceProfileARNumberCentral | `String` | Source Profile AR Number (Central) |
-| sourceProfileIATANumber | `String` | Source Profile IATA Number |
-| sourceProfileID | `Float` | Source Profile ID |
-| sourceProfileName | `String` | Source Profile Name |
-| sourceid | `String` | Sourceid |
-| specialRequest | `String` | Special Request |
-| specialRequestDescription | `String` | Special Request Description |
-| spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
-| spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
-| spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
-| spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
-| splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
-| splitfromreservationid | `Float` | Splitfromreservationid |
-| statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
-| statisticalRoomType | `Float` | Room Type used to calculate statistics for export(DRS). |
-| stayRecordId | `Float` | Stay Record ID |
-| suiteNumber | `String` | Suite Number |
-| superSearchIndexText | `String` | Super Search Index Text |
-| taRecordLocator | `String` | Ta Record Locator |
-| taxExemptNumber | `String` | Tax exempt number on the profile |
-| taxNumberOfStays | `Float` | Tax No of Stays |
-| taxType | `String` | Tax Type |
-| taxTypeDescription | `String` | Tax Type Description |
-| taxtypeid | `String` | Taxtypeid |
-| tiad | `String` | Tiad |
-| ticketNos | `String` | Ticket Nos |
-| totalCostOfStay | `Float` | Total Cost of Stay |
-| totalRevenue | `Float` | Total Revenue |
-| totalRevenueRemaining | `Float` | Total Revenue Remaining |
-| totalRoomRate | `Float` | Total Room Rate |
-| trackItGroups | `String` | Track It Groups |
-| trackItTypes | `String` | Track It Types |
-| transactionid | `Float` | Transactionid |
-| travelAgentCity | `String` | Travel Agent Address. |
-| travelAgentCountry | `String` | Travel Agent Country |
-| travelAgentID | `Float` | Travel Agent ID |
-| travelAgentName | `String` | Travel Agent Name |
-| travelAgentProfileARNumber | `Float` | Travel Agent Profile AR Number |
-| travelAgentProfileARNumberCentral | `String` | Travel Agent Profile AR Number (Central) |
-| travelAgentProfileIATANumber | `String` | Travel Agent Profile IATA Number |
-| travelAgentProfileID | `Float` | Travel Agent Profile ID |
-| travelAgentProfileName | `String` | Travel Agent Profile Name |
-| truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
-| turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
-| uDFC01 | `String` | UDFC01 |
-| uDFC02 | `String` | UDFC02 |
-| uDFC03 | `String` | UDFC03 |
-| uDFC04 | `String` | UDFC04 |
-| uDFC05 | `String` | UDFC05 |
-| uDFC06 | `String` | UDFC06 |
-| uDFC07 | `String` | UDFC07 |
-| uDFC08 | `String` | UDFC08 |
-| uDFC09 | `String` | UDFC09 |
-| uDFC10 | `String` | UDFC10 |
-| uDFC11 | `String` | UDFC11 |
-| uDFC12 | `String` | UDFC12 |
-| uDFC13 | `String` | UDFC13 |
-| uDFC14 | `String` | UDFC14 |
-| uDFC15 | `String` | UDFC15 |
-| uDFC16 | `String` | UDFC16 |
-| uDFC17 | `String` | UDFC17 |
-| uDFC18 | `String` | UDFC18 |
-| uDFC19 | `String` | UDFC19 |
-| uDFC20 | `String` | UDFC20 |
-| uDFC21 | `String` | UDFC21 |
-| uDFC22 | `String` | UDFC22 |
-| uDFC23 | `String` | UDFC23 |
-| uDFC24 | `String` | UDFC24 |
-| uDFC25 | `String` | UDFC25 |
-| uDFC26 | `String` | UDFC26 |
-| uDFC27 | `String` | UDFC27 |
-| uDFC28 | `String` | UDFC28 |
-| uDFC29 | `String` | UDFC29 |
-| uDFC30 | `String` | UDFC30 |
-| uDFC31 | `String` | UDFC31 |
-| uDFC32 | `String` | UDFC32 |
-| uDFC33 | `String` | UDFC33 |
-| uDFC34 | `String` | UDFC34 |
-| uDFC35 | `String` | UDFC35 |
-| uDFC36 | `String` | UDFC36 |
-| uDFC37 | `String` | UDFC37 |
-| uDFC38 | `String` | UDFC38 |
-| uDFC39 | `String` | UDFC39 |
-| uDFC40 | `String` | UDFC40 |
-| uDFD01 | `Date` | UDFD01 |
-| uDFD02 | `Date` | UDFD02 |
-| uDFD03 | `Date` | UDFD03 |
-| uDFD04 | `Date` | UDFD04 |
-| uDFD05 | `Date` | UDFD05 |
-| uDFD06 | `Date` | UDFD06 |
-| uDFD07 | `Date` | UDFD07 |
-| uDFD08 | `Date` | UDFD08 |
-| uDFD09 | `Date` | UDFD09 |
-| uDFD10 | `Date` | UDFD10 |
-| uDFD11 | `Date` | UDFD11 |
-| uDFD12 | `Date` | UDFD12 |
-| uDFD13 | `Date` | UDFD13 |
-| uDFD14 | `Date` | UDFD14 |
-| uDFD15 | `Date` | UDFD15 |
-| uDFD16 | `Date` | UDFD16 |
-| uDFD17 | `Date` | UDFD17 |
-| uDFD18 | `Date` | UDFD18 |
-| uDFD19 | `Date` | UDFD19 |
-| uDFD20 | `Date` | UDFD20 |
-| uDFN01 | `Float` | UDFN01 |
-| uDFN02 | `Float` | UDFN02 |
-| uDFN03 | `Float` | UDFN03 |
-| uDFN04 | `Float` | UDFN04 |
-| uDFN05 | `Float` | UDFN05 |
-| uDFN06 | `Float` | UDFN06 |
-| uDFN07 | `Float` | UDFN07 |
-| uDFN08 | `Float` | UDFN08 |
-| uDFN09 | `Float` | UDFN09 |
-| uDFN10 | `Float` | UDFN10 |
-| uDFN11 | `Float` | UDFN11 |
-| uDFN12 | `Float` | UDFN12 |
-| uDFN13 | `Float` | UDFN13 |
-| uDFN14 | `Float` | UDFN14 |
-| uDFN15 | `Float` | UDFN15 |
-| uDFN16 | `Float` | UDFN16 |
-| uDFN17 | `Float` | UDFN17 |
-| uDFN18 | `Float` | UDFN18 |
-| uDFN19 | `Float` | UDFN19 |
-| uDFN20 | `Float` | UDFN20 |
-| uDFN21 | `Float` | UDFN21 |
-| uDFN22 | `Float` | UDFN22 |
-| uDFN23 | `Float` | UDFN23 |
-| uDFN24 | `Float` | UDFN24 |
-| uDFN25 | `Float` | UDFN25 |
-| uDFN26 | `Float` | UDFN26 |
-| uDFN27 | `Float` | UDFN27 |
-| uDFN28 | `Float` | UDFN28 |
-| uDFN29 | `Float` | UDFN29 |
-| uDFN30 | `Float` | UDFN30 |
-| uDFN31 | `Float` | UDFN31 |
-| uDFN32 | `Float` | UDFN32 |
-| uDFN33 | `Float` | UDFN33 |
-| uDFN34 | `Float` | UDFN34 |
-| uDFN35 | `Float` | UDFN35 |
-| uDFN36 | `Float` | UDFN36 |
-| uDFN37 | `Float` | UDFN37 |
-| uDFN38 | `Float` | UDFN38 |
-| uDFN39 | `Float` | UDFN39 |
-| uDFN40 | `Float` | UDFN40 |
-| uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
-| updateDate | `DateTime` | Update Date |
-| updateDatetime | `DateTime` | Update Datetime |
-| updateUser | `Float` | Update User |
-| updatedBy | `String` | Updated By |
-| updatedByDefaultResort | `String` | Updated By Default Property |
-| updatedDate | `Date` | Updated Date |
-| updatedTime | `String` | Updated Time |
-| upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
-| videoCheckoutYN | `String` | Flag if the guest can do video checkout |
-| visaExpiryDate | `Date` | Visa Expiry Date |
-| visaIssueDate | `Date` | Visa Issue Date |
-| visaNumber | `String` | Visa Number |
-| waitlistComment | `String` | Waitlist Comment |
-| waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
-| waitlistPriority | `String` | Waitlist Priority |
-| waitlistPriorityDescription | `String` | Waitlist Priority Description |
-| waitlistReason | `String` | Waitlist Reason |
-| waitlistReasonDescription | `String` | Waitlist Reason Description |
-| waitlistpriorityid | `String` | Waitlistpriorityid |
-| waitlistreasonid | `String` | Waitlistreasonid |
-| walkInYN | `String` | Walk-In YN |
-| yieldableYn | `String` | Yieldable Y/N |
-| ymCode | `String` | Ym Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aSBProratedYn | `String` | Indicates whether a prorated amount should be used for an Apartment Style Billing rate. |
+| 2 | accompaniedYN | `String` | Accompanied YN |
+| 3 | accompanyingName | `String` | Accompanying guest names. |
+| 4 | actualCheckInDateTime | `DateTime` | Actual Check In Date Time |
+| 5 | actualCheckOutDateTime | `DateTime` | Actual Check Out Date Time |
+| 6 | actualCheckInDate | `Date` | Actual Check-In Date |
+| 7 | actualCheckInTime | `String` | Actual Check-In Time |
+| 8 | actualCheckOutDate | `Date` | Actual Check-Out Date |
+| 9 | actualCheckOutTime | `String` | Actual Check-Out Time |
+| 10 | addressId | `Float` | Address ID |
+| 11 | addresseeNameId | `Float` | Addressee Name ID |
+| 12 | adults | `Float` | Adults |
+| 13 | adultsTaxFree | `Float` | Adults Tax Free |
+| 14 | advanceCheckedInYn | `String` | Indicates if the reservation has performed an Advance Check In. |
+| 15 | agencyprofileid | `Float` | Agencyprofileid |
+| 16 | allotmentRecordType | `String` | Indicates whether the room type inventory was taken from the allotment or House availabilty. |
+| 17 | allotmentid | `Float` | Block ID |
+| 18 | amenityEligibleYn | `String` | SPG - Indicates if this stay is eligible for an Amenity. |
+| 19 | amenityLevelCode | `String` | Amenity Level Code |
+| 20 | amountPercent | `Float` | Amount Percent |
+| 21 | approvalAmount | `Float` | Approval Amount |
+| 22 | approvalAmountCalcMethod | `Float` | Approval Amount Calc Method |
+| 23 | approvalCode | `String` | Approval Code |
+| 24 | arrivalComments | `String` | Arrival Comments |
+| 25 | arrivalDate | `Date` | Arrival Date |
+| 26 | arrivalDateTime | `DateTime` | Arrival Date Time |
+| 27 | arrivalEstimateTime | `Date` | Arrival Estimate Time |
+| 28 | arrivalTime | `String` | Activity begin time |
+| 29 | arrivaltransportid | `String` | Arrivaltransportid |
+| 30 | attachedDate | `Date` | Attached Date |
+| 31 | authorizedBillingYN | `String` | Not used. |
+| 32 | authorizedBy | `Float` | This stores the pmsp.logged_uid who authorizes the direct bill |
+| 33 | authorizerId | `Float` | Authorizer ID |
+| 34 | autoCheckinYn | `String` | Auto Checkin Y/N |
+| 35 | autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
+| 36 | autoSettleDays | `Float` | Auto Settle Days |
+| 37 | autoSettleType | `String` | Auto Settle Type |
+| 38 | autoSettleYN | `String` | Auto Settle YN |
+| 39 | awardCode | `String` | Award Code |
+| 40 | awardCode1 | `String` | Award code 1 |
+| 41 | awardCode2 | `String` | Award code 2 |
+| 42 | awardCode3 | `String` | Award code 3 |
+| 43 | awardCode4 | `String` | Award Code 4 |
+| 44 | awardCode5 | `String` | Award code 5 |
+| 45 | awardMembershipID | `Float` | Award Membership ID |
+| 46 | awardVoucher1 | `String` | Award Voucher number 1 |
+| 47 | awardVoucher2 | `String` | Award Voucher number 2 |
+| 48 | awardVoucher3 | `String` | Award Voucher number 3 |
+| 49 | awardVoucher4 | `String` | Award Voucher number 4 |
+| 50 | awardVoucher5 | `String` | Award Voucher number 5 |
+| 51 | awdUpgrFrom | `String` | Room Type  before the Upgrade Award |
+| 52 | awdUpgrTo | `String` | Room Type after the Upgrade Award |
+| 53 | backToBackYN | `String` | Back To Back YN |
+| 54 | balance | `Float` | Balance on the account. |
+| 55 | baseRateAmount | `Float` | Base Rate Amount |
+| 56 | baseRateCode | `String` | Base Rate Code |
+| 57 | baseRateCurrencyCode | `String` | Base Rate Currency Code |
+| 58 | basedOnRule | `String` | Based On Rule |
+| 59 | baseratecurrencyid | `String` | Baseratecurrencyid |
+| 60 | beginCity | `String` | Begin City |
+| 61 | beginDatetime | `DateTime` | Begin Datetime |
+| 62 | beginDistrict | `String` | Begin District |
+| 63 | beginState | `String` | Begin State |
+| 64 | beginSystemDateTime | `DateTime` | Stores the actual guest check in date and time. |
+| 65 | billNumber | `String` | Bill Number |
+| 66 | billingContact | `String` | Billing Contact |
+| 67 | billingContactDisplayName | `String` | Billing Contact Display Name |
+| 68 | billingContactId | `Float` | Billing Contact ID |
+| 69 | billingContactName | `String` | Billing Contact Name |
+| 70 | billingcontactprofileid | `Float` | Billing Contact Profile ID |
+| 71 | blockCode | `String` | Block Code |
+| 72 | blockCreateDate | `DateTime` | Block Create Date |
+| 73 | blockID | `Float` | Block ID |
+| 74 | blockName | `String` | Block Name |
+| 75 | blockResort | `String` | Property this block belongs to. |
+| 76 | blockStatus | `String` | Block Status |
+| 77 | bonusCheckId | `Float` | Bonus Check ID |
+| 78 | bookedRoomCategory | `String` | Booked Room Category |
+| 79 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
+| 80 | businessDateCreated | `Date` | Business Date Created |
+| 81 | businessDatetimeCreated | `DateTime` | Business Datetime Created |
+| 82 | bxgyDiscountYn | `String` | Bxgy Discount Y/N |
+| 83 | cAutoPostAmount | `Float` | Central Auto Post Amount |
+| 84 | cBaseRateAmount | `Float` | Central Base Rate Amount |
+| 85 | cDiscountAmount | `Float` | C Discount Amount |
+| 86 | cDiscountAmt | `Float` | C Discount Amt |
+| 87 | cEffectiveRateAmount | `Float` | C Effective Rate Amount |
+| 88 | cExchangeDate | `Date` | Central Xchange Date |
+| 89 | cExchangeRate | `Float` | Central Xchange Rate |
+| 90 | cFixedCharge | `Float` | Central Fixed Charge |
+| 91 | cGrossRateAmount | `Float` | Central Gross Rate Amt |
+| 92 | cLocalBaseRateAmount | `Float` | Central Local Base Rate Amount |
+| 93 | cNetRoomAmount | `Float` | Central Net Room Amt |
+| 94 | cOriginalBaseRate | `Float` | Central Original Base Rate |
+| 95 | cPackageAmount | `Float` | Central Pkg Amt |
+| 96 | cPackageTax | `Float` | Central Pkg Tax |
+| 97 | cRateAmount | `Float` | C Rate Amount |
+| 98 | cRoomCost | `Float` | Central Room Cost |
+| 99 | cRoomTax | `Float` | Central Room Tax |
+| 100 | cShareAmountOriginal | `Float` | Central Share Amount Original |
+| 101 | cUpsellCharge | `Float` | Central Upsell Charge |
+| 102 | cancelDate | `Date` | Cancel Date |
+| 103 | cancelReason | `String` | Cancel Reason |
+| 104 | cancelTime | `String` | Cancel Time |
+| 105 | cancellationDate | `DateTime` | Cancellation Date |
+| 106 | cancellationDatetime | `DateTime` | Cancellation Datetime |
+| 107 | cancellationNumber | `String` | Cancellation Number |
+| 108 | cancellationReasonDescription | `String` | Cancellation Reason Description |
+| 109 | cancellationreasonid | `String` | Cancellationreasonid |
+| 110 | cancelledBy | `String` | The user who canceled this Reservation. |
+| 111 | cardNumberByMembershipClass | `String` | Card Number by Membership Class |
+| 112 | cardNumberByMembershipType | `String` | Card Number by Membership Type |
+| 113 | centralApprovalAmount | `Float` | Central Approval Amount |
+| 114 | centralCancelReason | `String` | Central Cancel Reason |
+| 115 | centralCommissionCode | `String` | Central Commission Code |
+| 116 | centralCommissionDescription | `String` | Central Commission Description |
+| 117 | centralCreditLimit | `Float` | Central Credit Limit |
+| 118 | centralDiscountReason | `String` | Central Discount Reason |
+| 119 | centralDiscountReasonDescription | `String` | Central Discount Reason Description |
+| 120 | centralFBRevenue | `Float` | Central FB Revenue |
+| 121 | centralGuestType | `String` | Central Guest Type |
+| 122 | centralHurdle | `Float` | Central Hurdle |
+| 123 | centralPackageCode | `String` | Central Package Code |
+| 124 | centralPackageCodeDescription | `String` | Central Package Code Description |
+| 125 | centralPackageForecastGroup | `String` | Central Package Forecast Group |
+| 126 | centralPackageForecastGroupDescription | `String` | Central Package Forecast Group Description |
+| 127 | centralPaymentAmount | `Float` | Central Payment Amount |
+| 128 | centralProjectedFBRevenue | `Float` | Central Projected FB Revenue |
+| 129 | centralProjectedRoomRevenue | `Float` | Central Projected Room Revenue |
+| 130 | centralProjectedTotalRevenue | `Float` | Central Projected Total Revenue |
+| 131 | centralPromotionDescription | `String` | Central Promotion Description |
+| 132 | centralRateableValue | `Float` | Central Rateable Value |
+| 133 | centralReservationType | `String` | Central Reservation Type |
+| 134 | centralReservationTypeDescription | `String` | Central Reservation Type Description |
+| 135 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 136 | centralRoomTypeCode | `String` | Central Room Type Code |
+| 137 | centralRoomTypeDescription | `String` | Central Room Type Description |
+| 138 | centralRoomTypeToChargeCode | `String` | Central Room Type To Charge Code |
+| 139 | centralRoomTypeToChargeDescription | `String` | Central Room Type to Charge Description |
+| 140 | centralSharedRoomRate | `Float` | Central Shared Room Rate |
+| 141 | centralSpecialRequestDescription | `String` | Central Special Request Description |
+| 142 | centralTaxType | `String` | Central Tax Type |
+| 143 | centralTaxTypeDescription | `String` | Central Tax Type Description |
+| 144 | centralTotalCostOfStay | `Float` | Central Total Cost of Stay |
+| 145 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 146 | centralTotalRoomRate | `Float` | Central Total Room Rate |
+| 147 | centralWaitlistPriority | `String` | Central Waitlist Priority |
+| 148 | centralWaitlistPriorityDescription | `String` | Central Waitlist Priority Description |
+| 149 | centralWaitlistReason | `String` | Central Waitlist Reason |
+| 150 | centralWaitlistReasonDescription | `String` | Central Waitlist Reason Description |
+| 151 | channelDescription | `String` | Channel Description |
+| 152 | channelOrderBy | `Float` | Channel Order By |
+| 153 | channelid | `String` | Channelid |
+| 154 | checkInInitiatedBy | `String` | Check In Initiated By |
+| 155 | checkinDuration | `Float` | Duration in seconds to complete Check-In |
+| 156 | childBucket1 | `Float` | Child Bucket 1 |
+| 157 | childBucket4 | `Float` | Child Bucket 4 |
+| 158 | childBucket5 | `Float` | Child Bucket 5 |
+| 159 | children | `Float` | Children |
+| 160 | childrenAgeGroup2 | `Float` | Children Age Group 2) |
+| 161 | childrenAgeGroup3 | `Float` | Children Age Group 3) |
+| 162 | childrenAges | `String` | Children Ages |
+| 163 | commissionCode | `String` | Commission Code |
+| 164 | commissionDescription | `String` | Commission Description |
+| 165 | commissionHoldCode | `String` | Commission Hold Code |
+| 166 | commissionPaid | `Float` | Commission Paid |
+| 167 | commissionPayoutTo | `String` | Indicates to whom the commission will be paid: NULL T (Travel Agent)  S (Source) and B (Both). |
+| 168 | commissionableYN | `String` | Commissionable YN |
+| 169 | commissionid | `String` | Commissionid |
+| 170 | compHouse | `String` | Comp House |
+| 171 | compTypeCode | `String` | Comp Type Code |
+| 172 | companyCity | `String` | Company City |
+| 173 | companyCountry | `String` | Company Country |
+| 174 | companyID | `Float` | Company ID |
+| 175 | companyName | `String` | Company Name |
+| 176 | companyProfileCorporateID | `String` | Company Profile Corporate ID |
+| 177 | companyProfileID | `Float` | Company Profile ID |
+| 178 | complimentaryYN | `String` | Complimentary YN |
+| 179 | compreasonid | `String` | Compreasonid |
+| 180 | computedResvStatus | `String` | Calculated reservation status. |
+| 181 | confirmationLegNumber | `Float` | Confirmation Leg Number. |
+| 182 | confirmationNo | `String` | Shared Confirmation Number |
+| 183 | consumerYn | `String` | Consumer Y/N |
+| 184 | contactName | `String` | Contact Name; UDFC02 on reservation. |
+| 185 | contactProfileID | `Float` | Contact Profile ID |
+| 186 | contactProfileName | `String` | Contact Profile Name |
+| 187 | createdBy | `String` | The name of the user who created the record. |
+| 188 | createdByDefaultResort | `String` | Created By Default Property |
+| 189 | createdDate | `Date` | Created Date |
+| 190 | createdTime | `String` | Refer to the same column name in the table IFC_WAKE |
+| 191 | creditCardAuthDate | `Date` | Credit Card Auth Date |
+| 192 | creditCardId | `Float` | Credit Card ID |
+| 193 | creditLimit | `Float` | Credit Limit |
+| 194 | creditLimitAutoPayAllowYn | `String` | Indicates if the reservation has opted-in for auto payment when credit limit overage is detected. |
+| 195 | cribs | `Float` | Cribs |
+| 196 | currencyCode | `String` | Currency Code |
+| 197 | customReferenceNumber | `String` | Custom Reference Number |
+| 198 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 199 | dateOfArrivalInCountry | `Date` | Country Specific Requirement for Nigeria. |
+| 200 | deletedFlag | `String` | Deleted Flag |
+| 201 | departtransportid | `String` | Departtransportid |
+| 202 | departureComments | `String` | Departure Comments |
+| 203 | departureDate | `Date` | Departure Date |
+| 204 | departureDateTime | `Date` | Departure Date Time |
+| 205 | departureTime | `String` | Departure Time |
+| 206 | departureTransportCode | `String` | Departure Transport Code |
+| 207 | departureTransportationYN | `String` | Departure Transportation YN |
+| 208 | depositMaturityType | `String` | Stores the Deposit maturity preference. |
+| 209 | detatchedDate | `Date` | Detatched Date |
+| 210 | detatchedYN | `String` | Detatched YN |
+| 211 | directBillVerifyResponse | `String` | Direct Bill Verify Response |
+| 212 | directbillauthby | `Float` | Directbillauthby |
+| 213 | discountAmount | `Float` | Discount Amount |
+| 214 | discountAmt | `Float` | Discount Amount |
+| 215 | discountPercent | `Float` | Discount Percentage. |
+| 216 | discountPrcnt | `Float` | Discount Prcnt |
+| 217 | discountReason | `String` | Discount Reason |
+| 218 | discountReasonDescription | `String` | Discount Reason Description |
+| 219 | discountreasonid | `String` | Discountreasonid |
+| 220 | displayColor | `String` | Display Color |
+| 221 | dmlSeqNumber | `Float` | Dml Sequence No |
+| 222 | doNotMoveRoom | `String` | Do Not Move Room |
+| 223 | doNotMoveYN | `String` | Do not move room flag. |
+| 224 | dropOffCarrierCode | `String` | Drop Off Carrier Code |
+| 225 | dropOffDate | `Date` | Drop Off Date |
+| 226 | dropOffStation | `String` | Drop Off Station |
+| 227 | dropOffTime | `String` | Drop Off Time |
+| 228 | dropOffType | `String` | Drop Off Type |
+| 229 | dropOffTypeDescription | `String` | Drop Off Type Description |
+| 230 | eTRComments | `String` | Comments related to Estimated Time of Return. |
+| 231 | effectiveRateAmount | `Float` | Not used. |
+| 232 | eligibleForUpgradeYn | `String` | Indicates if the reservation is eligible to receive room upgrades. Controlled by Central System. |
+| 233 | emailAddress | `String` | Email Address |
+| 234 | emailFolioYn | `String` | Email Folio Y/N |
+| 235 | emailId | `Float` | Email ID |
+| 236 | emailYn | `String` | Email Y/N |
+| 237 | endCity | `String` | End City |
+| 238 | endDatetime | `DateTime` | End Datetime |
+| 239 | endDistrict | `String` | End District |
+| 240 | endState | `String` | End State |
+| 241 | endbusinessdate | `Date` | Endbusinessdate |
+| 242 | entryDate | `Date` | Entry Date into the country. (Croatian Requirements) |
+| 243 | entryPoint | `String` | (Customized) Entry point into the country. (Croatian Requirements) |
+| 244 | esignedRegCardName | `String` | Name of file that contains the electronically signed registration card. |
+| 245 | estimatedDepartureTime | `Date` | Estimated Departure Time |
+| 246 | eventId | `Float` | Event ID |
+| 247 | exchangePostingType | `String` | Exchange Posting Type |
+| 248 | exchangeRate | `Float` | Exchange Rate |
+| 249 | excludeFromAutoAuthorizationYN | `String` | Exclude From Auto Authorization YN |
+| 250 | expectedTimeOfReturnETR | `DateTime` | The time when an Advance Checked-In Guest is expected to return to perform the actual Check-In. |
+| 251 | exportCheckinresId | `Float` | Used for Croatian Requirement Exports to store a unique checkin number. |
+| 252 | extSegNo | `Float` | Not used |
+| 253 | extSeqNumber | `Float` | Not used |
+| 254 | extensionId | `Float` | Internal extension number for the main reservation |
+| 255 | externalEfolioYn | `String` | Indicates if the guest has opted to receive Efolio through an external system. |
+| 256 | externalReference | `String` | External Reference |
+| 257 | externalReferencesList | `String` | External References List |
+| 258 | extraBeds | `Float` | Extra Beds |
+| 259 | fBRevenue | `Float` | FB Revenue |
+| 260 | fBRevenueRemaining | `Float` | F&B Revenue Remaining |
+| 261 | faxId | `Float` | Fax ID |
+| 262 | faxYn | `String` | Should a confirmation be faxed for this reservation name? Y/N |
+| 263 | feature | `String` | This stores the codes for the rooms features. Currently not used |
+| 264 | financiallyResponsibleYn | `String` | Financially Responsible Y/N |
+| 265 | fixedCharge | `Float` | Not used. |
+| 266 | fixedRateYN | `String` | Fixed Rate YN |
+| 267 | folioAddrElementId | `Float` | Oracle sequence to identify different attribute values of an address. |
+| 268 | folioCloseDate | `Date` | Date the folio was changed to closed. |
+| 269 | folioNumber | `String` | Folio Number |
+| 270 | folioText1 | `String` | Folio Text1 |
+| 271 | folioText2 | `String` | Folio Text2 |
+| 272 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 273 | freeChild | `Float` | Free Child |
+| 274 | frequentFlyerMembershipYN | `String` | Frequent Flyer Membership YN |
+| 275 | grossRateFuture | `Float` | Gross Rate Future |
+| 276 | grossRatePast | `Float` | Gross Rate Past |
+| 277 | groupName | `String` | Group Name |
+| 278 | groupProfileARNumber | `Float` | Group Profile AR Number |
+| 279 | groupProfileARNumberCentral | `String` | Group Profile AR Number (Central) |
+| 280 | groupProfileClientID | `String` | Group Profile Client ID |
+| 281 | groupProfileID | `Float` | Group Profile ID |
+| 282 | groupProfileName | `String` | Group Profile Name |
+| 283 | guaranteeCodePreCi | `String` | Guarantee code before check in. Populated when the guarantee code is changed to CHECKED IN. |
+| 284 | guaranteecodeid | `String` | Guaranteecodeid |
+| 285 | guestFirstName | `String` | Guest First Name |
+| 286 | guestFirstNameSdx | `String` | This is soundex of GUEST FIRST NAME - Phonotic sound. |
+| 287 | guestLastNameSdx | `String` | This is soundex of GUEST LAST NAME - Phonotic sound. |
+| 288 | guestSignature | `String` | Signature of the guest |
+| 289 | guestStatus | `String` | Used for Police/Tourist Export |
+| 290 | guestType | `String` | Guest Type |
+| 291 | guestprofileid | `Float` | Guestprofileid |
+| 292 | gueststatusid | `String` | Gueststatusid |
+| 293 | guesttypeid | `String` | Guesttypeid |
+| 294 | housekeepingServiceTime | `String` | Housekeeping Service Time |
+| 295 | hurdle | `Float` | Hurdle |
+| 296 | hurdleOverride | `String` | Hurdle Override |
+| 297 | iDByMembershipClass | `String` | ID by Membership Class |
+| 298 | iDByMembershipType | `String` | ID by Membership Type |
+| 299 | individualCity | `String` | Guest Address. |
+| 300 | individualCountry | `String` | Country of the guest |
+| 301 | individualFirstName | `String` | Individual First Name |
+| 302 | individualLastName | `String` | Individual Last Name |
+| 303 | insertActionInstanceId | `Float` | Insert Action Instance ID |
+| 304 | insertDate | `DateTime` | Insert Date |
+| 305 | insertDateTime | `DateTime` | Insert DateTime |
+| 306 | insertUser | `Float` | Insert User |
+| 307 | intermediaryYn | `String` | Intermediary Y/N |
+| 308 | internalAwardMembershipId | `Float` | Award Membership ID |
+| 309 | internalBaseratecode | `String` | Baseratecode |
+| 310 | internalBlockId | `Float` | Block ID. |
+| 311 | internalCompanyprofileid | `Float` | Companyprofileid |
+| 312 | internalGroupprofileid | `Float` | Groupprofileid |
+| 313 | internalSourceprofileid | `Float` | Sourceprofileid |
+| 314 | itemsQuantities | `String` | Items and Quantities |
+| 315 | jRNUpdateDate | `Date` | JRN Update Date |
+| 316 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 317 | keyValidUntil | `Date` | Key Valid Until |
+| 318 | lastOnlinePrintSeq | `Float` | Last Online-Printing Sequence Number used by this reservation. |
+| 319 | lastPeriodicFolioDate | `Date` | Latest date when a folio was printed using the "Periodic Batch Folios" option |
+| 320 | lastRoomNumber | `String` | Not used. |
+| 321 | lastSettleDate | `Date` | Latest date when a direct bill settlement was automatically done using the "Direct Bill Batch Folios" option |
+| 322 | leadTimeDays | `Float` | Lead Time for ordering |
+| 323 | lengthOfStay | `Float` | Length of Stay |
+| 324 | linkedArrivalDate | `DateTime` | Linked Arrival Date |
+| 325 | linkedDepartureDate | `DateTime` | Linked Departure Date |
+| 326 | linkedRoomType | `String` | Linked Room Type |
+| 327 | listOfMembershipID | `String` | Membership ID |
+| 328 | localBaseRateAmount | `Float` | Local Base Rate Amount |
+| 329 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 330 | loyaltySchemeMembershipYN | `String` | Loyalty Scheme Membership YN |
+| 331 | mailYn | `String` | Mail Y/N |
+| 332 | manualCheckoutStatus | `String` | Indicates if this Reservation has requested or processed a Manual Checkout for consumer mobility. Possible Values: NULL [R]equested [P]rocessed. |
+| 333 | marketCode | `String` | Market Code |
+| 334 | marketid | `String` | Marketid |
+| 335 | mcGenBeginDistrict | `String` | Mc Gen Begin District |
+| 336 | mcGenBeginState | `String` | Mc Gen Begin State |
+| 337 | mcGenEndDistrict | `String` | Mc Gen End District |
+| 338 | mcGenEndState | `String` | Mc Gen End State |
+| 339 | mcGenNextCountry | `String` | Mc Gen Next Country |
+| 340 | mcGenPreviousCountry | `String` | Mc Gen Previous Country |
+| 341 | memberDescription | `String` | Member Description |
+| 342 | memberLevel | `String` | Member Level |
+| 343 | memberNumber | `String` | Member Number |
+| 344 | membershipClass | `String` | Membership Class |
+| 345 | membershipClassDescription | `String` | Membership Class Description |
+| 346 | membershipCode | `String` | Membership Code |
+| 347 | membershipId | `Float` | Membership ID |
+| 348 | membershipLevelByMembershipClass | `String` | Membership Level by Membership Class |
+| 349 | membershipTypeByMembershipClass | `String` | Membership Type by Membership Class |
+| 350 | mobileActionAlertIssued | `Date` | Stores when this Reservation has received a mobile action needed Alert for consumer mobility. |
+| 351 | mobileAudioKeyYn | `String` | Marked as Y when the Phone Number/EMail Address is Opt In. |
+| 352 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
+| 353 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
+| 354 | mobilePreferredCurrency | `String` | Currency preferred by a Mobile Registered Guest. |
+| 355 | mobileViewFolioAllowed | `String` | Indicates if the reservation is eligible to view the folio by sending a mobile message. |
+| 356 | name | `String` | Name |
+| 357 | nameUsageType | `String` | Name Usage Type |
+| 358 | nextCountry | `String` | Next Country |
+| 359 | nextDestination | `String` | Country Specific Requirement for Nigeria. |
+| 360 | numberOfRooms | `Float` | No of Rooms |
+| 361 | operaEsignedRegCardYn | `String` | Indicates if reservation?s registration card was esigned via Opera. |
+| 362 | optInBatchFolYn | `String` | Indicates if the guest has opted in to receive email through the batch folio option. |
+| 363 | optedForCommissionYN | `String` | Indicates if the reservation has opted-in for communications. |
+| 364 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 365 | originCode | `String` | Origin Code |
+| 366 | originOfBooking | `String` | Origin Of Booking |
+| 367 | originalBaseRate | `Float` | Not used. |
+| 368 | originalEndDate | `Date` | Original End Date |
+| 369 | originalStartDate | `Date` | Original Start Date |
+| 370 | ownerFfFlag | `String` | Owner Ff Flag |
+| 371 | ownerOrFriendsFamily | `String` | Owner or Friends/Family |
+| 372 | packageCode | `String` | Package Code |
+| 373 | packageCodeDescription | `String` | Package Code Description |
+| 374 | packageForecastGroup | `String` | Package Forecast Group |
+| 375 | packageForecastGroupDescription | `String` | Package Forecast Group Description |
+| 376 | parentReservationNameId | `Float` | Parent Resv Name ID |
+| 377 | parentreservationid | `Float` | Parentreservationid |
+| 378 | partAllotment | `String` | Part Allotment |
+| 379 | partyCode | `String` | Party Code |
+| 380 | paxNo | `Float` | Pax Number |
+| 381 | paymentAmount | `Float` | Total amount of payment inclusive of VAT |
+| 382 | paymentMethod | `String` | Payment Method |
+| 383 | paymentmethodid | `String` | Paymentmethodid |
+| 384 | periodicFolioFreq | `Float` | Frequency in number of days when folios should be printed for this reservation |
+| 385 | phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
+| 386 | phoneId | `Float` | Phone ID |
+| 387 | physicalQuantity | `Float` | Physical Quantity |
+| 388 | pickUpCarrierCode | `String` | Pick Up Carrier Code |
+| 389 | pickUpDate | `Date` | Pick Up Date |
+| 390 | pickUpStation | `String` | Pick Up Station |
+| 391 | pickUpTransportNumber | `String` | Pick Up Transport Number |
+| 392 | pickUpType | `String` | Pick Up Type |
+| 393 | pickUpTypeDescription | `String` | Pick Up Type Description |
+| 394 | pickUpTime | `String` | Pick-Up Time |
+| 395 | pickupRequiredYN | `String` | Pickup Required YN |
+| 396 | points | `Float` | Points |
+| 397 | pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
+| 398 | postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
+| 399 | postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
+| 400 | postingAllowedYN | `String` | Posting Allowed YN |
+| 401 | preArrReviewedDt | `DateTime` | This date flags if and when the record was reviewed from pre-arrival screen. |
+| 402 | preArrReviewedUser | `Float` | User id who reviewed the record. |
+| 403 | preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
+| 404 | preRegisteredYn | `String` | Indicates whether the reservation is pre-registered for internet check-in or not. |
+| 405 | preference | `String` | Preference |
+| 406 | preferenceType | `String` | Preference Type |
+| 407 | preferredRoomType | `String` | Preferred Room Type |
+| 408 | previousCountry | `String` | Previous Country |
+| 409 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 410 | primaryShare | `String` | Primary Share |
+| 411 | printRateYN | `String` | Print Rate YN |
+| 412 | projectedFBRevenue | `Float` | Projected FB Revenue |
+| 413 | projectedRoomRevenue | `Float` | Projected Room Revenue |
+| 414 | projectedTotalRevenue | `Float` | Projected Total Revenue |
+| 415 | promotionCode | `String` | Promotion Code |
+| 416 | promotionDescription | `String` | Promotion Description |
+| 417 | property | `String` | Indicates if the value set for the specific property. |
+| 418 | pseudoMemTotalPoints | `Float` | Total pseudo membership points accrued for the default membership type. |
+| 419 | pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
+| 420 | purgeDate | `DateTime` | Purge Date |
+| 421 | purposeOfStay | `String` | Purpose of stay. |
+| 422 | quantity | `Float` | Number of Rooms |
+| 423 | queuePriority | `Float` | Queue priority of the reservation. |
+| 424 | queueWaitTime | `Float` | Queue Wait Time |
+| 425 | quoteId | `String` | Quote ID provided by external system. |
+| 426 | rateAmount | `Float` | Rate Amount |
+| 427 | rateCode | `String` | Rate Code |
+| 428 | rateCodeDescriptions | `String` | Event Reservation Rate Code Description |
+| 429 | rateTier | `Float` | Tier ID for the Rate Detail. |
+| 430 | rateableValue | `Float` | Stay rateable value. |
+| 431 | ratecodeid | `String` | Ratecodeid |
+| 432 | rdHousekeepingExpectedServiceTime | `String` | Rd Housekeeping Expected Service Time |
+| 433 | rdResvStatus | `String` | Rd Reservation Status |
+| 434 | rdenBillingContactId | `Float` | Rden Billing Contact ID |
+| 435 | rdenReservationContactId | `Float` | Rden Resv Contact ID |
+| 436 | rdenReservationDate | `Date` | Rden Reservation Date |
+| 437 | rdenResort | `String` | Rden Property |
+| 438 | referralYn | `String` | Rotation Rule to be configured for referral flag ? |
+| 439 | registrationCardNo | `String` | Registration Card Number |
+| 440 | registrationNumber | `Float` | Registration Number |
+| 441 | reinstateDate | `DateTime` | Reinstate Date |
+| 442 | repChannel | `String` | Reporting Channel |
+| 443 | repChannelDescription | `String` | Reporting Channel Description |
+| 444 | reportId | `String` | Report ID |
+| 445 | resInsertSource | `String` | Reservation Insert Source |
+| 446 | resInsertSourceType | `String` | Reservation Insert Source Type |
+| 447 | reservationContactId | `Float` | Resv Contact ID |
+| 448 | reservationDate | `DateTime` | Reservation Date |
+| 449 | reservationNameID | `Float` | Reservation Name ID |
+| 450 | reservationStatus | `String` | Reservation Status |
+| 451 | reservationType | `String` | Reservation Type |
+| 452 | reservationTypeDescription | `String` | Reservation Type Description |
+| 453 | reservationid | `Float` | Reservationid |
+| 454 | resort | `String` | Property |
+| 455 | resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
+| 456 | restrictionOverride | `String` | Restriction Override |
+| 457 | resvGuid | `String` | Globally unique ID using SYS_GUID() as the source. |
+| 458 | resvNameid | `Float` | Reservation Nameid |
+| 459 | resvNumber | `Float` | Not used in PMS currently. |
+| 460 | resvcontactprofileid | `Float` | Resvcontactprofileid |
+| 461 | revenueTypeCode | `String` | Revenue type (catering/rooms) |
+| 462 | rhBillingContactId | `Float` | Rh Billing Contact ID |
+| 463 | rhReservationContactId | `Float` | Rh Resv Contact ID |
+| 464 | rhRoomFeatures | `String` | Rh Room Features |
+| 465 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 466 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 467 | room | `String` | Room |
+| 468 | roomCategory | `String` | Room Category |
+| 469 | roomClass | `String` | Room Class |
+| 470 | roomCost | `Float` | Room Cost |
+| 471 | roomInstructions | `String` | Room Instructions |
+| 472 | roomResort | `String` | Meeting Room Property |
+| 473 | roomRevenue | `Float` | Room Revenue |
+| 474 | roomRevenueRemaining | `Float` | Room Revenue Remaining |
+| 475 | roomServiceTime | `String` | This is the Turndown room service time. |
+| 476 | roomTypeDescription | `String` | Room Type Description |
+| 477 | roomTypeToChargeCode | `String` | Room Type To Charge Code |
+| 478 | roomTypeToChargeDescription | `String` | Room Type to Charge Description |
+| 479 | roomcategoryid | `String` | Roomcategoryid |
+| 480 | roomid | `String` | Roomid |
+| 481 | routingYN | `String` | Routing YN |
+| 482 | scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
+| 483 | sguestFirstname | `String` | This is CAPITOL version of guest_first_name |
+| 484 | sguestName | `String` | Sguest Name |
+| 485 | shareConfirmationNumbers | `String` | Share Confirmation Numbers |
+| 486 | shareId | `Float` | Share ID. |
+| 487 | shareName | `String` | Share Name |
+| 488 | sharePrcnt | `Float` | Not used. |
+| 489 | shareSeqNumber | `Float` | Type of revenue |
+| 490 | shareOfRateAmount | `Float` | Share of Rate Amount |
+| 491 | sharedGuestName | `String` | Shared Guest Name |
+| 492 | sharedProfileID | `Float` | Shared Profile ID |
+| 493 | sharedReservationStatus | `String` | Shared Reservation Status |
+| 494 | sharingYN | `String` | Sharing YN |
+| 495 | sourceCity | `String` | Source City |
+| 496 | sourceCode | `String` | Source Code |
+| 497 | sourceCountry | `String` | Source Country |
+| 498 | sourceName | `String` | Source Name |
+| 499 | sourceProfileARNumber | `Float` | Source Profile AR Number |
+| 500 | sourceProfileARNumberCentral | `String` | Source Profile AR Number (Central) |
+| 501 | sourceProfileIATANumber | `String` | Source Profile IATA Number |
+| 502 | sourceProfileID | `Float` | Source Profile ID |
+| 503 | sourceProfileName | `String` | Source Profile Name |
+| 504 | sourceid | `String` | Sourceid |
+| 505 | specialRequest | `String` | Special Request |
+| 506 | specialRequestDescription | `String` | Special Request Description |
+| 507 | spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
+| 508 | spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
+| 509 | spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
+| 510 | spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
+| 511 | splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
+| 512 | splitfromreservationid | `Float` | Splitfromreservationid |
+| 513 | statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
+| 514 | statisticalRoomType | `Float` | Room Type used to calculate statistics for export(DRS). |
+| 515 | stayRecordId | `Float` | Stay Record ID |
+| 516 | suiteNumber | `String` | Suite Number |
+| 517 | superSearchIndexText | `String` | Super Search Index Text |
+| 518 | taRecordLocator | `String` | Ta Record Locator |
+| 519 | taxExemptNumber | `String` | Tax exempt number on the profile |
+| 520 | taxNumberOfStays | `Float` | Tax No of Stays |
+| 521 | taxType | `String` | Tax Type |
+| 522 | taxTypeDescription | `String` | Tax Type Description |
+| 523 | taxtypeid | `String` | Taxtypeid |
+| 524 | tiad | `String` | Tiad |
+| 525 | ticketNos | `String` | Ticket Nos |
+| 526 | totalCostOfStay | `Float` | Total Cost of Stay |
+| 527 | totalRevenue | `Float` | Total Revenue |
+| 528 | totalRevenueRemaining | `Float` | Total Revenue Remaining |
+| 529 | totalRoomRate | `Float` | Total Room Rate |
+| 530 | trackItGroups | `String` | Track It Groups |
+| 531 | trackItTypes | `String` | Track It Types |
+| 532 | transactionid | `Float` | Transactionid |
+| 533 | travelAgentCity | `String` | Travel Agent Address. |
+| 534 | travelAgentCountry | `String` | Travel Agent Country |
+| 535 | travelAgentID | `Float` | Travel Agent ID |
+| 536 | travelAgentName | `String` | Travel Agent Name |
+| 537 | travelAgentProfileARNumber | `Float` | Travel Agent Profile AR Number |
+| 538 | travelAgentProfileARNumberCentral | `String` | Travel Agent Profile AR Number (Central) |
+| 539 | travelAgentProfileIATANumber | `String` | Travel Agent Profile IATA Number |
+| 540 | travelAgentProfileID | `Float` | Travel Agent Profile ID |
+| 541 | travelAgentProfileName | `String` | Travel Agent Profile Name |
+| 542 | truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
+| 543 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 544 | turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
+| 545 | uDFC01 | `String` | UDFC01 |
+| 546 | uDFC02 | `String` | UDFC02 |
+| 547 | uDFC03 | `String` | UDFC03 |
+| 548 | uDFC04 | `String` | UDFC04 |
+| 549 | uDFC05 | `String` | UDFC05 |
+| 550 | uDFC06 | `String` | UDFC06 |
+| 551 | uDFC07 | `String` | UDFC07 |
+| 552 | uDFC08 | `String` | UDFC08 |
+| 553 | uDFC09 | `String` | UDFC09 |
+| 554 | uDFC10 | `String` | UDFC10 |
+| 555 | uDFC11 | `String` | UDFC11 |
+| 556 | uDFC12 | `String` | UDFC12 |
+| 557 | uDFC13 | `String` | UDFC13 |
+| 558 | uDFC14 | `String` | UDFC14 |
+| 559 | uDFC15 | `String` | UDFC15 |
+| 560 | uDFC16 | `String` | UDFC16 |
+| 561 | uDFC17 | `String` | UDFC17 |
+| 562 | uDFC18 | `String` | UDFC18 |
+| 563 | uDFC19 | `String` | UDFC19 |
+| 564 | uDFC20 | `String` | UDFC20 |
+| 565 | uDFC21 | `String` | UDFC21 |
+| 566 | uDFC22 | `String` | UDFC22 |
+| 567 | uDFC23 | `String` | UDFC23 |
+| 568 | uDFC24 | `String` | UDFC24 |
+| 569 | uDFC25 | `String` | UDFC25 |
+| 570 | uDFC26 | `String` | UDFC26 |
+| 571 | uDFC27 | `String` | UDFC27 |
+| 572 | uDFC28 | `String` | UDFC28 |
+| 573 | uDFC29 | `String` | UDFC29 |
+| 574 | uDFC30 | `String` | UDFC30 |
+| 575 | uDFC31 | `String` | UDFC31 |
+| 576 | uDFC32 | `String` | UDFC32 |
+| 577 | uDFC33 | `String` | UDFC33 |
+| 578 | uDFC34 | `String` | UDFC34 |
+| 579 | uDFC35 | `String` | UDFC35 |
+| 580 | uDFC36 | `String` | UDFC36 |
+| 581 | uDFC37 | `String` | UDFC37 |
+| 582 | uDFC38 | `String` | UDFC38 |
+| 583 | uDFC39 | `String` | UDFC39 |
+| 584 | uDFC40 | `String` | UDFC40 |
+| 585 | uDFD01 | `Date` | UDFD01 |
+| 586 | uDFD02 | `Date` | UDFD02 |
+| 587 | uDFD03 | `Date` | UDFD03 |
+| 588 | uDFD04 | `Date` | UDFD04 |
+| 589 | uDFD05 | `Date` | UDFD05 |
+| 590 | uDFD06 | `Date` | UDFD06 |
+| 591 | uDFD07 | `Date` | UDFD07 |
+| 592 | uDFD08 | `Date` | UDFD08 |
+| 593 | uDFD09 | `Date` | UDFD09 |
+| 594 | uDFD10 | `Date` | UDFD10 |
+| 595 | uDFD11 | `Date` | UDFD11 |
+| 596 | uDFD12 | `Date` | UDFD12 |
+| 597 | uDFD13 | `Date` | UDFD13 |
+| 598 | uDFD14 | `Date` | UDFD14 |
+| 599 | uDFD15 | `Date` | UDFD15 |
+| 600 | uDFD16 | `Date` | UDFD16 |
+| 601 | uDFD17 | `Date` | UDFD17 |
+| 602 | uDFD18 | `Date` | UDFD18 |
+| 603 | uDFD19 | `Date` | UDFD19 |
+| 604 | uDFD20 | `Date` | UDFD20 |
+| 605 | uDFN01 | `Float` | UDFN01 |
+| 606 | uDFN02 | `Float` | UDFN02 |
+| 607 | uDFN03 | `Float` | UDFN03 |
+| 608 | uDFN04 | `Float` | UDFN04 |
+| 609 | uDFN05 | `Float` | UDFN05 |
+| 610 | uDFN06 | `Float` | UDFN06 |
+| 611 | uDFN07 | `Float` | UDFN07 |
+| 612 | uDFN08 | `Float` | UDFN08 |
+| 613 | uDFN09 | `Float` | UDFN09 |
+| 614 | uDFN10 | `Float` | UDFN10 |
+| 615 | uDFN11 | `Float` | UDFN11 |
+| 616 | uDFN12 | `Float` | UDFN12 |
+| 617 | uDFN13 | `Float` | UDFN13 |
+| 618 | uDFN14 | `Float` | UDFN14 |
+| 619 | uDFN15 | `Float` | UDFN15 |
+| 620 | uDFN16 | `Float` | UDFN16 |
+| 621 | uDFN17 | `Float` | UDFN17 |
+| 622 | uDFN18 | `Float` | UDFN18 |
+| 623 | uDFN19 | `Float` | UDFN19 |
+| 624 | uDFN20 | `Float` | UDFN20 |
+| 625 | uDFN21 | `Float` | UDFN21 |
+| 626 | uDFN22 | `Float` | UDFN22 |
+| 627 | uDFN23 | `Float` | UDFN23 |
+| 628 | uDFN24 | `Float` | UDFN24 |
+| 629 | uDFN25 | `Float` | UDFN25 |
+| 630 | uDFN26 | `Float` | UDFN26 |
+| 631 | uDFN27 | `Float` | UDFN27 |
+| 632 | uDFN28 | `Float` | UDFN28 |
+| 633 | uDFN29 | `Float` | UDFN29 |
+| 634 | uDFN30 | `Float` | UDFN30 |
+| 635 | uDFN31 | `Float` | UDFN31 |
+| 636 | uDFN32 | `Float` | UDFN32 |
+| 637 | uDFN33 | `Float` | UDFN33 |
+| 638 | uDFN34 | `Float` | UDFN34 |
+| 639 | uDFN35 | `Float` | UDFN35 |
+| 640 | uDFN36 | `Float` | UDFN36 |
+| 641 | uDFN37 | `Float` | UDFN37 |
+| 642 | uDFN38 | `Float` | UDFN38 |
+| 643 | uDFN39 | `Float` | UDFN39 |
+| 644 | uDFN40 | `Float` | UDFN40 |
+| 645 | uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
+| 646 | updateDate | `DateTime` | Update Date |
+| 647 | updateDatetime | `DateTime` | Update Datetime |
+| 648 | updateUser | `Float` | Update User |
+| 649 | updatedBy | `String` | Updated By |
+| 650 | updatedByDefaultResort | `String` | Updated By Default Property |
+| 651 | updatedDate | `Date` | Updated Date |
+| 652 | updatedTime | `String` | Updated Time |
+| 653 | upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
+| 654 | videoCheckoutYN | `String` | Flag if the guest can do video checkout |
+| 655 | visaExpiryDate | `Date` | Visa Expiry Date |
+| 656 | visaIssueDate | `Date` | Visa Issue Date |
+| 657 | visaNumber | `String` | Visa Number |
+| 658 | waitlistComment | `String` | Waitlist Comment |
+| 659 | waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
+| 660 | waitlistPriority | `String` | Waitlist Priority |
+| 661 | waitlistPriorityDescription | `String` | Waitlist Priority Description |
+| 662 | waitlistReason | `String` | Waitlist Reason |
+| 663 | waitlistReasonDescription | `String` | Waitlist Reason Description |
+| 664 | waitlistpriorityid | `String` | Waitlistpriorityid |
+| 665 | waitlistreasonid | `String` | Waitlistreasonid |
+| 666 | walkInYN | `String` | Walk-In YN |
+| 667 | yieldableYn | `String` | Yieldable Y/N |
+| 668 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -2714,434 +2714,434 @@
 
 ### FinancialTransactionDetailsExtendedReservationUnifiedDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aSBProratedYn | `String` | Indicates whether a prorated amount should be used for an Apartment Style Billing rate. |
-| actionId | `Float` | Action ID |
-| actualCheckInDateTime | `String` | Actual Check In Date Time |
-| actualCheckOutDateTime | `String` | Actual Check Out Date Time |
-| actualCheckInDate | `Date` | Actual Check-In Date |
-| actualCheckOutDate | `Date` | Actual Check-Out Date |
-| addressId | `Float` | Address ID |
-| addresseeNameId | `Float` | Addressee Name ID |
-| adults | `Float` | Adults |
-| adultsTaxFree | `Float` | Adults Tax Free |
-| advanceCheckedInYn | `String` | Indicates if the reservation has performed an Advance Check In. |
-| agencyprofileid | `Float` | Agencyprofileid |
-| agentNameId | `Float` | Agent Name ID |
-| allAliases | `String` | All Aliases |
-| allBlockOwners | `String` | All Block Owners |
-| allCateringOwners | `String` | All Catering Owners |
-| allCompanyContacts | `String` | All Company Contacts |
-| allRateCodes | `String` | All Rate Codes |
-| allRoomOwners | `String` | All Room Owners |
-| allRoomTypes | `String` | All Room Types |
-| allSourceContacts | `String` | All Source Contacts |
-| allTravelAgentContacts | `String` | All Travel Agent Contacts |
-| allotmentOrigin | `String` | Allotment Origin |
-| allotmentRecordType | `Float` | Indicates whether the room type inventory was taken from the allotment or House availabilty. |
-| allotmentType | `String` | Type of Block alloted for the group. |
-| allotmentid | `Float` | Block ID |
-| amenityEligibleYn | `String` | SPG - Indicates if this stay is eligible for an Amenity. |
-| amenityLevelCode | `String` | Amenity Level Code |
-| amountPercent | `Float` | Amount Percent |
-| approvalAmount | `Float` | Approval Amount |
-| approvalAmountCalcMethod | `Float` | Approval Amount Calc Method |
-| approvalCode | `String` | Approval Code |
-| arrivalComments | `String` | Arrival Comments |
-| arrivalDate | `DateTime` | Arrival Date |
-| arrivalDateTime | `Date` | Arrival Date Time |
-| arrivalEstimateTime | `Date` | Arrival Estimate Time |
-| authorizedBy | `Float` | This stores the pmsp.logged_uid who authorizes the direct bill |
-| authorizerId | `Float` | Authorizer ID |
-| autoCheckinYn | `String` | Auto Checkin Y/N |
-| autoSettleDays | `String` | Auto Settle Days |
-| autoSettleYN | `Float` | Auto Settle YN |
-| averageRate | `Float` | Average Rate |
-| awardCode | `String` | Award Code |
-| awardCode1 | `String` | Award code 1 |
-| awardCode2 | `String` | Award code 2 |
-| awardCode3 | `String` | Award code 3 |
-| awardCode4 | `String` | Award Code 4 |
-| awardCode5 | `String` | Award code 5 |
-| awardVoucher1 | `String` | Award Voucher number 1 |
-| awardVoucher2 | `String` | Award Voucher number 2 |
-| awardVoucher3 | `String` | Award Voucher number 3 |
-| awardVoucher4 | `String` | Award Voucher number 4 |
-| awardVoucher5 | `String` | Award Voucher number 5 |
-| awdUpgrFrom | `String` | Room Type  before the Upgrade Award |
-| awdUpgrTo | `String` | Room Type after the Upgrade Award |
-| baseRateAmount | `Float` | Base Rate Amount |
-| baseRateCode | `String` | Base Rate Code |
-| baseRateCurrencyCode | `String` | Base Rate Currency Code |
-| baseratecurrencyid | `String` | Baseratecurrencyid |
-| beginDatetime | `String` | Begin Datetime |
-| beginSystemDateTime | `String` | Stores the actual guest check in date and time. |
-| billingContactId | `Float` | Billing Contact ID |
-| billingcontactprofileid | `Float` | Billing Contact Profile ID |
-| blockAlias | `String` | Block Alias |
-| blockCode | `String` | Block Code |
-| blockDescription | `String` | Block Description |
-| blockDmlSeqNumber | `Float` | Block Dml Seq Number |
-| blockEndbusinessdate | `Date` | Block Endbusinessdate |
-| blockExchangePostingType | `String` | Block Exchange Posting Type |
-| blockExchangeRate | `Float` | Block Exchange Rate |
-| blockExternalReference | `String` | Block External Reference |
-| blockID | `String` | Block ID |
-| blockOwnerCode | `String` | Block Owner Code |
-| blockResort | `String` | Property this block belongs to. |
-| blockStatus | `String` | Block Status |
-| blockStatusDescription | `String` | Block Status Description |
-| blocksExternalReference | `String` | Blocks External Reference |
-| bonusCheckId | `Float` | Bonus Check ID |
-| bookedRoomCategory | `String` | Booked Room Category |
-| bookedroomcategoryid | `String` | Bookedroomcategoryid |
-| businessDateCreated | `Date` | Business Date Created |
-| cancelDate | `Date` | Cancel Date |
-| cancelReason | `String` | Cancel Reason |
-| cancelTime | `String` | Cancel Time |
-| cancellationDate | `DateTime` | Cancellation Date |
-| cancellationNumber | `String` | Cancellation Number |
-| cancellationReasonDescription | `String` | Cancellation Reason Description |
-| cancellationreasonid | `String` | Cancellationreasonid |
-| centralApprovalAmount | `Float` | Central Approval Amount |
-| changesLogCheckIn | `String` | Changes Log Check In |
-| changesLogCheckOut | `String` | Changes Log Check Out |
-| changesLogCloseFolio | `String` | Changes Log Close Folio |
-| changesLogReopenFolio | `String` | Changes Log Reopen Folio |
-| changesLogUpdateReservation | `String` | Changes Log Update Reservation |
-| checkinDuration | `Float` | Duration in seconds to complete Check-In |
-| childBucket1 | `Float` | Child Bucket 1 |
-| childBucket4 | `Float` | Child Bucket 4 |
-| childBucket5 | `Float` | Child Bucket 5 |
-| children | `Float` | Children |
-| childrenAgeGroup2 | `Float` | Children Age Group 2) |
-| childrenAgeGroup3 | `Float` | Children Age Group 3) |
-| commissionCode | `String` | Commission Code |
-| commissionHoldCode | `String` | Commission Hold Code |
-| commissionPaid | `Float` | Commission Paid |
-| commissionPayoutTo | `Float` | Indicates to whom the commission will be paid: NULL T (Travel Agent)  S (Source) and B (Both). |
-| commissionableYN | `String` | Commissionable YN |
-| commissionid | `String` | Commissionid |
-| compTypeCode | `String` | Comp Type Code |
-| companyAll | `String` | Company All |
-| companyID | `Float` | Company ID |
-| companyNameId | `Float` | Company Name ID |
-| compreasonid | `String` | Compreasonid |
-| confirmationLegNumber | `Float` | Confirmation Leg Number. |
-| confirmationNo | `String` | Shared Confirmation Number |
-| consumerYn | `String` | Consumer Y/N |
-| contactNameId | `Float` | Contact Name ID |
-| contactProfileID | `Float` | Contact Profile ID |
-| createdBy | `String` | The name of the user who created the record. |
-| createdDate | `Date` | Created Date |
-| creditCardId | `Float` | Credit Card ID |
-| creditLimitAutoPayAllowYn | `String` | Indicates if the reservation has opted-in for auto payment when credit limit overage is detected. |
-| cribs | `Float` | Cribs |
-| currencyCode | `String` | Currency Code |
-| customReferenceNumber | `String` | Custom Reference Number |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateOfArrivalInCountry | `String` | Country Specific Requirement for Nigeria. |
-| dateOpenedForPickup | `Date` | Date Opened for Pickup |
-| departureComments | `String` | Departure Comments |
-| departureDate | `Date` | Departure Date |
-| departureDateTime | `Date` | Departure Date Time |
-| departureTime | `String` | Departure Time |
-| departureTransportCode | `String` | Departure Transport Code |
-| departureTransportationYN | `String` | Departure Transportation YN |
-| directBillVerifyResponse | `String` | Direct Bill Verify Response |
-| discountAmount | `Float` | Discount Amount |
-| discountAmt | `Float` | Discount Amount |
-| discountPercent | `Float` | Discount Percentage. |
-| discountPrcnt | `Float` | Discount Prcnt |
-| discountReason | `String` | Discount Reason |
-| discountreasonid | `String` | Discountreasonid |
-| displayColor | `String` | Display Color |
-| dmlSeqNumber | `Float` | Dml Sequence No |
-| doNotMoveRoom | `String` | Do Not Move Room |
-| doNotMoveYN | `String` | Do not move room flag. |
-| downloadDate | `Date` | Download Date |
-| downloadResort | `String` | Download Property |
-| downloadSrep | `Float` | Download Srep |
-| dropOffCarrierCode | `String` | Drop Off Carrier Code |
-| dropOffDate | `Date` | Drop Off Date |
-| dropOffStation | `String` | Drop Off Station |
-| dropOffTime | `String` | Drop Off Time |
-| eTRComments | `Date` | Comments related to Estimated Time of Return. |
-| effectiveRateAmount | `Float` | Not used. |
-| eligibleForUpgradeYn | `String` | Indicates if the reservation is eligible to receive room upgrades. Controlled by Central System. |
-| emailAddress | `String` | Email Address |
-| emailFolioYn | `String` | Email Folio Y/N |
-| emailId | `Float` | Email ID |
-| emailYn | `String` | Email Y/N |
-| endDate | `Date` | End Date |
-| endbusinessdate | `Date` | Endbusinessdate |
-| entryDate | `String` | Entry Date into the country. (Croatian Requirements) |
-| entryPoint | `Float` | (Customized) Entry point into the country. (Croatian Requirements) |
-| esignedRegCardName | `String` | Name of file that contains the electronically signed registration card. |
-| estimatedDepartureTime | `Date` | Estimated Departure Time |
-| eventId | `Float` | Event ID |
-| exchangePostingType | `String` | Exchange Posting Type |
-| exchangeRate | `Float` | Exchange Rate |
-| expectedTimeOfReturnETR | `String` | The time when an Advance Checked-In Guest is expected to return to perform the actual Check-In. |
-| exportCheckinresId | `Float` | Used for Croatian Requirement Exports to store a unique checkin number. |
-| extBookingID | `String` | Ext Allotment ID |
-| extSegNo | `Float` | Not used |
-| extSeqNumber | `Float` | Not used |
-| extensionId | `Float` | Internal extension number for the main reservation |
-| externalEfolioYn | `Date` | Indicates if the guest has opted to receive Efolio through an external system. |
-| externalReference | `String` | External Reference |
-| externallyLocked | `String` | Externally Locked |
-| extraBeds | `Float` | Extra Beds |
-| faxId | `Float` | Fax ID |
-| faxYn | `String` | Should a confirmation be faxed for this reservation name? Y/N |
-| financiallyResponsibleYn | `String` | Financially Responsible Y/N |
-| fixedRateYN | `String` | Fixed Rate YN |
-| folioAddrElementId | `Float` | Oracle sequence to identify different attribute values of an address. |
-| folioCloseDate | `Date` | Date the folio was changed to closed. |
-| folioText1 | `Date` | Folio Text1 |
-| folioText2 | `String` | Folio Text2 |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| freeChild | `Float` | Free Child |
-| gUID | `String` | GUID |
-| guaranteeCodePreCi | `String` | Guarantee code before check in. Populated when the guarantee code is changed to CHECKED IN. |
-| guaranteecodeid | `String` | Guaranteecodeid |
-| guestFirstName | `String` | Guest First Name |
-| guestFirstNameSdx | `String` | This is soundex of GUEST FIRST NAME - Phonotic sound. |
-| guestLastNameSdx | `String` | Guest Last Name Sdx |
-| guestSignature | `Float` | Signature of the guest |
-| guestStatus | `String` | Used for Police/Tourist Export |
-| guestType | `String` | Guest Type |
-| guestprofileid | `Float` | Guestprofileid |
-| gueststatusid | `String` | Gueststatusid |
-| guesttypeid | `String` | Guesttypeid |
-| housekeepingServiceTime | `String` | Housekeeping Service Time |
-| hurdle | `Float` | Hurdle |
-| hurdleOverride | `String` | Hurdle Override |
-| inactiveDate | `Date` | Inactive Date |
-| insertActionInstanceId | `Float` | Insert Action Instance ID |
-| insertUser | `Float` | Insert User |
-| interfaceID | `String` | This is the Interface_id of the System which sent/Received Allotment |
-| intermediaryYn | `String` | Intermediary Y/N |
-| internalAwardMembershipId | `Float` | Award Membership ID |
-| internalBaseratecode | `String` | Baseratecode |
-| internalBlockId | `String` | Block ID. |
-| internalCompanyprofileid | `Float` | Companyprofileid |
-| internalGroupprofileid | `Float` | Groupprofileid |
-| internalSourceprofileid | `Float` | Sourceprofileid |
-| keyValidUntil | `Float` | Key Valid Until |
-| laptopChange | `Float` | Laptop Change |
-| lastOnlinePrintSeq | `Float` | Last Online-Printing Sequence Number used by this reservation. |
-| lastPeriodicFolioDate | `Date` | Latest date when a folio was printed using the "Periodic Batch Folios" option |
-| lastSettleDate | `Date` | Latest date when a direct bill settlement was automatically done using the "Direct Bill Batch Folios" option |
-| lengthOfStay | `Float` | Length of Stay |
-| linkedArrivalDate | `Date` | Linked Arrival Date |
-| linkedDepartureDate | `Date` | Linked Departure Date |
-| localBaseRateAmount | `Float` | Local Base Rate Amount |
-| mailYn | `String` | Mail Y/N |
-| mainmarket | `String` | Mainmarket |
-| manualCheckoutStatus | `String` | Indicates if this Reservation has requested or processed a Manual Checkout for consumer mobility. Possible Values: NULL [R]equested [P]rocessed. |
-| marketCode | `String` | Market Code |
-| marketDescription | `String` | Market Description |
-| marketid | `String` | Marketid |
-| masterBlockID | `Float` | Parent Block ID |
-| masterBlockProperty | `String` | Parent Resort |
-| masterNameId | `Float` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
-| membershipId | `Float` | Membership ID |
-| mobileActionAlertIssued | `String` | Stores when this Reservation has received a mobile action needed Alert for consumer mobility. |
-| mobileAudioKeyYn | `Float` | Marked as Y when the Phone Number/EMail Address is Opt In. |
-| mobileCheckinAllowedYn | `Date` | Mobile Checkin Allowed Y/N |
-| mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
-| mobilePreferredCurrency | `String` | Currency preferred by a Mobile Registered Guest. |
-| mobileViewFolioAllowed | `String` | Indicates if the reservation is eligible to view the folio by sending a mobile message. |
-| name | `String` | Name |
-| nameUsageType | `String` | Name Usage Type |
-| nextDestination | `String` | Country Specific Requirement for Nigeria. |
-| numberOfRooms | `Float` | No of Rooms |
-| operaEsignedRegCardYn | `String` | Indicates if reservation?s registration card was esigned via Opera. |
-| optInBatchFolYn | `String` | Indicates if the guest has opted in to receive email through the batch folio option. |
-| optedForCommissionYN | `String` | Indicates if the reservation has opted-in for communications. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originCodeDescription | `String` | Origin Code Description |
-| originOfBooking | `String` | Origin Of Booking |
-| originalBaseRate | `Float` | Not used. |
-| originalEndDate | `Date` | Original End Date |
-| originalStartDate | `Date` | Original Start Date |
-| owner | `Float` | Owner |
-| ownerFfFlag | `String` | Owner Ff Flag |
-| ownerResort | `String` | Owner Property |
-| parentReservationNameId | `Float` | Parent Resv Name ID |
-| parentreservationid | `Float` | Parentreservationid |
-| partAllotment | `String` | Part Allotment |
-| partyCode | `String` | Party Code |
-| payment | `String` | Payment |
-| paymentDescription | `String` | Payment Description |
-| paymentMethod | `String` | Payment Method |
-| paymentmethodid | `String` | Paymentmethodid |
-| periodicFolioFreq | `Date` | Frequency in number of days when folios should be printed for this reservation |
-| phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
-| phoneId | `Float` | Phone ID |
-| physicalQuantity | `Float` | Physical Quantity |
-| pickUpCarrierCode | `String` | Pick Up Carrier Code |
-| pickUpDate | `Date` | Pick Up Date |
-| pickUpStation | `String` | Pick Up Station |
-| pickUpTransportNumber | `String` | Pick Up Transport Number |
-| pickUpTime | `String` | Pick-Up Time |
-| pickupRequiredYN | `String` | Pickup Required YN |
-| points | `Float` | Points |
-| pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
-| postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
-| postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
-| postingAllowedYN | `String` | Posting Allowed YN |
-| preArrReviewedDt | `Date` | This date flags if and when the record was reviewed from pre-arrival screen. |
-| preArrReviewedUser | `Date` | User id who reviewed the record. |
-| preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
-| preRegisteredYn | `Date` | Indicates whether the reservation is pre-registered for internet check-in or not. |
-| primaryShare | `String` | Primary Share |
-| printRateYN | `String` | Print Rate YN |
-| profileId | `String` | Profile ID |
-| property | `String` | Indicates if the value set for the specific property. |
-| pseudoMemTotalPoints | `String` | Total pseudo membership points accrued for the default membership type. |
-| pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
-| purgeDate | `Date` | Purge Date |
-| purposeOfStay | `String` | Purpose of stay. |
-| quantity | `Float` | Number of Rooms |
-| quoteId | `String` | Quote ID provided by external system. |
-| rateAmount | `String` | Rate Amount |
-| rateCode | `String` | Rate Code |
-| rateableValue | `Float` | Stay rateable value. |
-| ratecodeid | `String` | Ratecodeid |
-| rdenBillingContactId | `Float` | Rden Billing Contact ID |
-| rdenReservationContactId | `Float` | Rden Resv Contact ID |
-| rdenReservationDate | `Date` | Rden Reservation Date |
-| referralYn | `String` | Rotation Rule to be configured for referral flag ? |
-| registrationCardNo | `String` | Registration Card Number |
-| registrationNumber | `String` | Registration Number |
-| reinstateDate | `String` | Reinstate Date |
-| reportId | `String` | Report ID |
-| resInsertSource | `String` | Reservation Insert Source |
-| resInsertSourceType | `String` | Reservation Insert Source Type |
-| reservationContactId | `Float` | Resv Contact ID |
-| reservationNameID | `Float` | Reservation Name ID |
-| reservationStatus | `String` | Reservation Status |
-| reservationType | `String` | Reservation Type |
-| reservationTypeDescription | `String` | The Description of the Guarantee code. |
-| reserveInventoryYN | `String` | Reserve Inventory YN |
-| resort | `String` | Property |
-| resortBooked | `String` | Final resort where Booking is confirmed -via Lead process. |
-| resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
-| restrictionOverride | `String` | Restriction Override |
-| resvNumber | `Float` | Not used in PMS currently. |
-| resvcontactprofileid | `Float` | Resvcontactprofileid |
-| revenueTypeCode | `String` | Revenue type (catering/rooms) |
-| rhBillingContactId | `Float` | Rh Billing Contact ID |
-| rhReservationContactId | `Float` | Rh Resv Contact ID |
-| rivMarketSegment | `String` | Not used |
-| room | `String` | Room |
-| roomCategory | `String` | Room Category |
-| roomClass | `String` | Room Class |
-| roomInstructions | `String` | Room Instructions |
-| roomServiceTime | `String` | This is the Turndown room service time. |
-| roomcategoryid | `String` | Roomcategoryid |
-| roomid | `String` | Roomid |
-| roomsPerDay | `Float` | Rooms Per Day |
-| salesId | `String` | Not used |
-| sbegindate | `Date` | Sbegindate |
-| scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
-| senddate | `Date` | Senddate |
-| serviceCharge | `Float` | Service Charge |
-| sguestFirstName | `String` | Sguest First Name |
-| sguestName | `String` | Sguest Name |
-| shareId | `Float` | Share ID. |
-| shareSeqNumber | `String` | Type of revenue |
-| shareOfRateAmount | `Float` | Share of Rate Amount |
-| sharedProfileID | `Float` | Shared Profile ID |
-| sharedReservationStatus | `String` | Shared Reservation Status |
-| shoulderEnd | `Date` | Shoulder End |
-| shoulderStart | `Date` | Shoulder Start |
-| sourceCodeDescription | `String` | Source Code Description |
-| sourceContactAll | `String` | Source Contact All |
-| sourceNameId | `Float` | Source Name ID |
-| sourceid | `String` | Sourceid |
-| spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
-| spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
-| spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
-| spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
-| splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
-| splitfromreservationid | `Float` | Splitfromreservationid |
-| startDate | `Date` | Start Date |
-| statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
-| statisticalRoomType | `String` | Room Type used to calculate statistics for export(DRS). |
-| stayRecordId | `Float` | Stay Record ID |
-| superSearchIndexText | `String` | Super Search Index Text |
-| taxAmount | `Float` | Tax Amount |
-| taxExemptNumber | `String` | Tax exempt number on the profile |
-| taxNumberOfStays | `Date` | Tax No of Stays |
-| taxType | `String` | Tax Type |
-| taxtypeid | `String` | Taxtypeid |
-| tiad | `String` | Tiad |
-| traceCode | `String` | Trace Code |
-| transactionid | `Float` | Transactionid |
-| travelAgentAll | `String` | Travel Agent All |
-| travelAgentID | `Float` | Travel Agent ID |
-| truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
-| turndownStatus | `Float` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
-| uDFC01 | `String` | UDFC01 |
-| uDFC02 | `String` | UDFC02 |
-| uDFC03 | `String` | UDFC03 |
-| uDFC04 | `String` | UDFC04 |
-| uDFC05 | `String` | UDFC05 |
-| uDFC06 | `String` | UDFC06 |
-| uDFC07 | `String` | UDFC07 |
-| uDFC08 | `String` | UDFC08 |
-| uDFC09 | `String` | UDFC09 |
-| uDFC10 | `String` | UDFC10 |
-| uDFC11 | `String` | UDFC11 |
-| uDFC12 | `String` | UDFC12 |
-| uDFC13 | `String` | UDFC13 |
-| uDFC14 | `String` | UDFC14 |
-| uDFC15 | `String` | UDFC15 |
-| uDFC16 | `String` | UDFC16 |
-| uDFC17 | `String` | UDFC17 |
-| uDFC18 | `String` | UDFC18 |
-| uDFC19 | `String` | UDFC19 |
-| uDFC20 | `String` | UDFC20 |
-| uDFC21 | `String` | UDFC21 |
-| uDFC22 | `String` | UDFC22 |
-| uDFC23 | `String` | UDFC23 |
-| uDFC24 | `String` | UDFC24 |
-| uDFC25 | `String` | UDFC25 |
-| uDFC26 | `String` | UDFC26 |
-| uDFC27 | `String` | UDFC27 |
-| uDFC28 | `String` | UDFC28 |
-| uDFC29 | `String` | UDFC29 |
-| uDFC30 | `String` | UDFC30 |
-| uDFC31 | `String` | UDFC31 |
-| uDFC32 | `String` | UDFC32 |
-| uDFC33 | `String` | UDFC33 |
-| uDFC34 | `String` | UDFC34 |
-| uDFC35 | `String` | UDFC35 |
-| uDFC36 | `String` | UDFC36 |
-| uDFC37 | `String` | UDFC37 |
-| uDFC38 | `String` | UDFC38 |
-| uDFC39 | `String` | UDFC39 |
-| uDFC40 | `String` | UDFC40 |
-| uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
-| updateUser | `Float` | Update User |
-| updatedBy | `String` | Updated By |
-| updatedDate | `Date` | Updated Date |
-| uploadDate | `Date` | Upload Date |
-| upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
-| videoCheckoutYN | `String` | Flag if the guest can do video checkout |
-| visaExpiryDate | `Date` | Visa Expiry Date |
-| visaIssueDate | `String` | Visa Issue Date |
-| visaNumber | `Float` | Visa Number |
-| waitlistComment | `String` | Waitlist Comment |
-| waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
-| walkInYN | `String` | Walk-In YN |
-| yieldableYn | `String` | Yieldable Y/N |
-| ymCode | `Float` | Ym Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aSBProratedYn | `String` | Indicates whether a prorated amount should be used for an Apartment Style Billing rate. |
+| 2 | actionId | `Float` | Action ID |
+| 3 | actualCheckInDateTime | `String` | Actual Check In Date Time |
+| 4 | actualCheckOutDateTime | `String` | Actual Check Out Date Time |
+| 5 | actualCheckInDate | `Date` | Actual Check-In Date |
+| 6 | actualCheckOutDate | `Date` | Actual Check-Out Date |
+| 7 | addressId | `Float` | Address ID |
+| 8 | addresseeNameId | `Float` | Addressee Name ID |
+| 9 | adults | `Float` | Adults |
+| 10 | adultsTaxFree | `Float` | Adults Tax Free |
+| 11 | advanceCheckedInYn | `String` | Indicates if the reservation has performed an Advance Check In. |
+| 12 | agencyprofileid | `Float` | Agencyprofileid |
+| 13 | agentNameId | `Float` | Agent Name ID |
+| 14 | allAliases | `String` | All Aliases |
+| 15 | allBlockOwners | `String` | All Block Owners |
+| 16 | allCateringOwners | `String` | All Catering Owners |
+| 17 | allCompanyContacts | `String` | All Company Contacts |
+| 18 | allRateCodes | `String` | All Rate Codes |
+| 19 | allRoomOwners | `String` | All Room Owners |
+| 20 | allRoomTypes | `String` | All Room Types |
+| 21 | allSourceContacts | `String` | All Source Contacts |
+| 22 | allTravelAgentContacts | `String` | All Travel Agent Contacts |
+| 23 | allotmentOrigin | `String` | Allotment Origin |
+| 24 | allotmentRecordType | `Float` | Indicates whether the room type inventory was taken from the allotment or House availabilty. |
+| 25 | allotmentType | `String` | Type of Block alloted for the group. |
+| 26 | allotmentid | `Float` | Block ID |
+| 27 | amenityEligibleYn | `String` | SPG - Indicates if this stay is eligible for an Amenity. |
+| 28 | amenityLevelCode | `String` | Amenity Level Code |
+| 29 | amountPercent | `Float` | Amount Percent |
+| 30 | approvalAmount | `Float` | Approval Amount |
+| 31 | approvalAmountCalcMethod | `Float` | Approval Amount Calc Method |
+| 32 | approvalCode | `String` | Approval Code |
+| 33 | arrivalComments | `String` | Arrival Comments |
+| 34 | arrivalDate | `DateTime` | Arrival Date |
+| 35 | arrivalDateTime | `Date` | Arrival Date Time |
+| 36 | arrivalEstimateTime | `Date` | Arrival Estimate Time |
+| 37 | authorizedBy | `Float` | This stores the pmsp.logged_uid who authorizes the direct bill |
+| 38 | authorizerId | `Float` | Authorizer ID |
+| 39 | autoCheckinYn | `String` | Auto Checkin Y/N |
+| 40 | autoSettleDays | `String` | Auto Settle Days |
+| 41 | autoSettleYN | `Float` | Auto Settle YN |
+| 42 | averageRate | `Float` | Average Rate |
+| 43 | awardCode | `String` | Award Code |
+| 44 | awardCode1 | `String` | Award code 1 |
+| 45 | awardCode2 | `String` | Award code 2 |
+| 46 | awardCode3 | `String` | Award code 3 |
+| 47 | awardCode4 | `String` | Award Code 4 |
+| 48 | awardCode5 | `String` | Award code 5 |
+| 49 | awardVoucher1 | `String` | Award Voucher number 1 |
+| 50 | awardVoucher2 | `String` | Award Voucher number 2 |
+| 51 | awardVoucher3 | `String` | Award Voucher number 3 |
+| 52 | awardVoucher4 | `String` | Award Voucher number 4 |
+| 53 | awardVoucher5 | `String` | Award Voucher number 5 |
+| 54 | awdUpgrFrom | `String` | Room Type  before the Upgrade Award |
+| 55 | awdUpgrTo | `String` | Room Type after the Upgrade Award |
+| 56 | baseRateAmount | `Float` | Base Rate Amount |
+| 57 | baseRateCode | `String` | Base Rate Code |
+| 58 | baseRateCurrencyCode | `String` | Base Rate Currency Code |
+| 59 | baseratecurrencyid | `String` | Baseratecurrencyid |
+| 60 | beginDatetime | `String` | Begin Datetime |
+| 61 | beginSystemDateTime | `String` | Stores the actual guest check in date and time. |
+| 62 | billingContactId | `Float` | Billing Contact ID |
+| 63 | billingcontactprofileid | `Float` | Billing Contact Profile ID |
+| 64 | blockAlias | `String` | Block Alias |
+| 65 | blockCode | `String` | Block Code |
+| 66 | blockDescription | `String` | Block Description |
+| 67 | blockDmlSeqNumber | `Float` | Block Dml Seq Number |
+| 68 | blockEndbusinessdate | `Date` | Block Endbusinessdate |
+| 69 | blockExchangePostingType | `String` | Block Exchange Posting Type |
+| 70 | blockExchangeRate | `Float` | Block Exchange Rate |
+| 71 | blockExternalReference | `String` | Block External Reference |
+| 72 | blockID | `String` | Block ID |
+| 73 | blockOwnerCode | `String` | Block Owner Code |
+| 74 | blockResort | `String` | Property this block belongs to. |
+| 75 | blockStatus | `String` | Block Status |
+| 76 | blockStatusDescription | `String` | Block Status Description |
+| 77 | blocksExternalReference | `String` | Blocks External Reference |
+| 78 | bonusCheckId | `Float` | Bonus Check ID |
+| 79 | bookedRoomCategory | `String` | Booked Room Category |
+| 80 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
+| 81 | businessDateCreated | `Date` | Business Date Created |
+| 82 | cancelDate | `Date` | Cancel Date |
+| 83 | cancelReason | `String` | Cancel Reason |
+| 84 | cancelTime | `String` | Cancel Time |
+| 85 | cancellationDate | `DateTime` | Cancellation Date |
+| 86 | cancellationNumber | `String` | Cancellation Number |
+| 87 | cancellationReasonDescription | `String` | Cancellation Reason Description |
+| 88 | cancellationreasonid | `String` | Cancellationreasonid |
+| 89 | centralApprovalAmount | `Float` | Central Approval Amount |
+| 90 | changesLogCheckIn | `String` | Changes Log Check In |
+| 91 | changesLogCheckOut | `String` | Changes Log Check Out |
+| 92 | changesLogCloseFolio | `String` | Changes Log Close Folio |
+| 93 | changesLogReopenFolio | `String` | Changes Log Reopen Folio |
+| 94 | changesLogUpdateReservation | `String` | Changes Log Update Reservation |
+| 95 | checkinDuration | `Float` | Duration in seconds to complete Check-In |
+| 96 | childBucket1 | `Float` | Child Bucket 1 |
+| 97 | childBucket4 | `Float` | Child Bucket 4 |
+| 98 | childBucket5 | `Float` | Child Bucket 5 |
+| 99 | children | `Float` | Children |
+| 100 | childrenAgeGroup2 | `Float` | Children Age Group 2) |
+| 101 | childrenAgeGroup3 | `Float` | Children Age Group 3) |
+| 102 | commissionCode | `String` | Commission Code |
+| 103 | commissionHoldCode | `String` | Commission Hold Code |
+| 104 | commissionPaid | `Float` | Commission Paid |
+| 105 | commissionPayoutTo | `Float` | Indicates to whom the commission will be paid: NULL T (Travel Agent)  S (Source) and B (Both). |
+| 106 | commissionableYN | `String` | Commissionable YN |
+| 107 | commissionid | `String` | Commissionid |
+| 108 | compTypeCode | `String` | Comp Type Code |
+| 109 | companyAll | `String` | Company All |
+| 110 | companyID | `Float` | Company ID |
+| 111 | companyNameId | `Float` | Company Name ID |
+| 112 | compreasonid | `String` | Compreasonid |
+| 113 | confirmationLegNumber | `Float` | Confirmation Leg Number. |
+| 114 | confirmationNo | `String` | Shared Confirmation Number |
+| 115 | consumerYn | `String` | Consumer Y/N |
+| 116 | contactNameId | `Float` | Contact Name ID |
+| 117 | contactProfileID | `Float` | Contact Profile ID |
+| 118 | createdBy | `String` | The name of the user who created the record. |
+| 119 | createdDate | `Date` | Created Date |
+| 120 | creditCardId | `Float` | Credit Card ID |
+| 121 | creditLimitAutoPayAllowYn | `String` | Indicates if the reservation has opted-in for auto payment when credit limit overage is detected. |
+| 122 | cribs | `Float` | Cribs |
+| 123 | currencyCode | `String` | Currency Code |
+| 124 | customReferenceNumber | `String` | Custom Reference Number |
+| 125 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 126 | dateOfArrivalInCountry | `String` | Country Specific Requirement for Nigeria. |
+| 127 | dateOpenedForPickup | `Date` | Date Opened for Pickup |
+| 128 | departureComments | `String` | Departure Comments |
+| 129 | departureDate | `Date` | Departure Date |
+| 130 | departureDateTime | `Date` | Departure Date Time |
+| 131 | departureTime | `String` | Departure Time |
+| 132 | departureTransportCode | `String` | Departure Transport Code |
+| 133 | departureTransportationYN | `String` | Departure Transportation YN |
+| 134 | directBillVerifyResponse | `String` | Direct Bill Verify Response |
+| 135 | discountAmount | `Float` | Discount Amount |
+| 136 | discountAmt | `Float` | Discount Amount |
+| 137 | discountPercent | `Float` | Discount Percentage. |
+| 138 | discountPrcnt | `Float` | Discount Prcnt |
+| 139 | discountReason | `String` | Discount Reason |
+| 140 | discountreasonid | `String` | Discountreasonid |
+| 141 | displayColor | `String` | Display Color |
+| 142 | dmlSeqNumber | `Float` | Dml Sequence No |
+| 143 | doNotMoveRoom | `String` | Do Not Move Room |
+| 144 | doNotMoveYN | `String` | Do not move room flag. |
+| 145 | downloadDate | `Date` | Download Date |
+| 146 | downloadResort | `String` | Download Property |
+| 147 | downloadSrep | `Float` | Download Srep |
+| 148 | dropOffCarrierCode | `String` | Drop Off Carrier Code |
+| 149 | dropOffDate | `Date` | Drop Off Date |
+| 150 | dropOffStation | `String` | Drop Off Station |
+| 151 | dropOffTime | `String` | Drop Off Time |
+| 152 | eTRComments | `Date` | Comments related to Estimated Time of Return. |
+| 153 | effectiveRateAmount | `Float` | Not used. |
+| 154 | eligibleForUpgradeYn | `String` | Indicates if the reservation is eligible to receive room upgrades. Controlled by Central System. |
+| 155 | emailAddress | `String` | Email Address |
+| 156 | emailFolioYn | `String` | Email Folio Y/N |
+| 157 | emailId | `Float` | Email ID |
+| 158 | emailYn | `String` | Email Y/N |
+| 159 | endDate | `Date` | End Date |
+| 160 | endbusinessdate | `Date` | Endbusinessdate |
+| 161 | entryDate | `String` | Entry Date into the country. (Croatian Requirements) |
+| 162 | entryPoint | `Float` | (Customized) Entry point into the country. (Croatian Requirements) |
+| 163 | esignedRegCardName | `String` | Name of file that contains the electronically signed registration card. |
+| 164 | estimatedDepartureTime | `Date` | Estimated Departure Time |
+| 165 | eventId | `Float` | Event ID |
+| 166 | exchangePostingType | `String` | Exchange Posting Type |
+| 167 | exchangeRate | `Float` | Exchange Rate |
+| 168 | expectedTimeOfReturnETR | `String` | The time when an Advance Checked-In Guest is expected to return to perform the actual Check-In. |
+| 169 | exportCheckinresId | `Float` | Used for Croatian Requirement Exports to store a unique checkin number. |
+| 170 | extBookingID | `String` | Ext Allotment ID |
+| 171 | extSegNo | `Float` | Not used |
+| 172 | extSeqNumber | `Float` | Not used |
+| 173 | extensionId | `Float` | Internal extension number for the main reservation |
+| 174 | externalEfolioYn | `Date` | Indicates if the guest has opted to receive Efolio through an external system. |
+| 175 | externalReference | `String` | External Reference |
+| 176 | externallyLocked | `String` | Externally Locked |
+| 177 | extraBeds | `Float` | Extra Beds |
+| 178 | faxId | `Float` | Fax ID |
+| 179 | faxYn | `String` | Should a confirmation be faxed for this reservation name? Y/N |
+| 180 | financiallyResponsibleYn | `String` | Financially Responsible Y/N |
+| 181 | fixedRateYN | `String` | Fixed Rate YN |
+| 182 | folioAddrElementId | `Float` | Oracle sequence to identify different attribute values of an address. |
+| 183 | folioCloseDate | `Date` | Date the folio was changed to closed. |
+| 184 | folioText1 | `Date` | Folio Text1 |
+| 185 | folioText2 | `String` | Folio Text2 |
+| 186 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 187 | freeChild | `Float` | Free Child |
+| 188 | gUID | `String` | GUID |
+| 189 | guaranteeCodePreCi | `String` | Guarantee code before check in. Populated when the guarantee code is changed to CHECKED IN. |
+| 190 | guaranteecodeid | `String` | Guaranteecodeid |
+| 191 | guestFirstName | `String` | Guest First Name |
+| 192 | guestFirstNameSdx | `String` | This is soundex of GUEST FIRST NAME - Phonotic sound. |
+| 193 | guestLastNameSdx | `String` | Guest Last Name Sdx |
+| 194 | guestSignature | `Float` | Signature of the guest |
+| 195 | guestStatus | `String` | Used for Police/Tourist Export |
+| 196 | guestType | `String` | Guest Type |
+| 197 | guestprofileid | `Float` | Guestprofileid |
+| 198 | gueststatusid | `String` | Gueststatusid |
+| 199 | guesttypeid | `String` | Guesttypeid |
+| 200 | housekeepingServiceTime | `String` | Housekeeping Service Time |
+| 201 | hurdle | `Float` | Hurdle |
+| 202 | hurdleOverride | `String` | Hurdle Override |
+| 203 | inactiveDate | `Date` | Inactive Date |
+| 204 | insertActionInstanceId | `Float` | Insert Action Instance ID |
+| 205 | insertUser | `Float` | Insert User |
+| 206 | interfaceID | `String` | This is the Interface_id of the System which sent/Received Allotment |
+| 207 | intermediaryYn | `String` | Intermediary Y/N |
+| 208 | internalAwardMembershipId | `Float` | Award Membership ID |
+| 209 | internalBaseratecode | `String` | Baseratecode |
+| 210 | internalBlockId | `String` | Block ID. |
+| 211 | internalCompanyprofileid | `Float` | Companyprofileid |
+| 212 | internalGroupprofileid | `Float` | Groupprofileid |
+| 213 | internalSourceprofileid | `Float` | Sourceprofileid |
+| 214 | keyValidUntil | `Float` | Key Valid Until |
+| 215 | laptopChange | `Float` | Laptop Change |
+| 216 | lastOnlinePrintSeq | `Float` | Last Online-Printing Sequence Number used by this reservation. |
+| 217 | lastPeriodicFolioDate | `Date` | Latest date when a folio was printed using the "Periodic Batch Folios" option |
+| 218 | lastSettleDate | `Date` | Latest date when a direct bill settlement was automatically done using the "Direct Bill Batch Folios" option |
+| 219 | lengthOfStay | `Float` | Length of Stay |
+| 220 | linkedArrivalDate | `Date` | Linked Arrival Date |
+| 221 | linkedDepartureDate | `Date` | Linked Departure Date |
+| 222 | localBaseRateAmount | `Float` | Local Base Rate Amount |
+| 223 | mailYn | `String` | Mail Y/N |
+| 224 | mainmarket | `String` | Mainmarket |
+| 225 | manualCheckoutStatus | `String` | Indicates if this Reservation has requested or processed a Manual Checkout for consumer mobility. Possible Values: NULL [R]equested [P]rocessed. |
+| 226 | marketCode | `String` | Market Code |
+| 227 | marketDescription | `String` | Market Description |
+| 228 | marketid | `String` | Marketid |
+| 229 | masterBlockID | `Float` | Parent Block ID |
+| 230 | masterBlockProperty | `String` | Parent Resort |
+| 231 | masterNameId | `Float` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
+| 232 | membershipId | `Float` | Membership ID |
+| 233 | mobileActionAlertIssued | `String` | Stores when this Reservation has received a mobile action needed Alert for consumer mobility. |
+| 234 | mobileAudioKeyYn | `Float` | Marked as Y when the Phone Number/EMail Address is Opt In. |
+| 235 | mobileCheckinAllowedYn | `Date` | Mobile Checkin Allowed Y/N |
+| 236 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
+| 237 | mobilePreferredCurrency | `String` | Currency preferred by a Mobile Registered Guest. |
+| 238 | mobileViewFolioAllowed | `String` | Indicates if the reservation is eligible to view the folio by sending a mobile message. |
+| 239 | name | `String` | Name |
+| 240 | nameUsageType | `String` | Name Usage Type |
+| 241 | nextDestination | `String` | Country Specific Requirement for Nigeria. |
+| 242 | numberOfRooms | `Float` | No of Rooms |
+| 243 | operaEsignedRegCardYn | `String` | Indicates if reservation?s registration card was esigned via Opera. |
+| 244 | optInBatchFolYn | `String` | Indicates if the guest has opted in to receive email through the batch folio option. |
+| 245 | optedForCommissionYN | `String` | Indicates if the reservation has opted-in for communications. |
+| 246 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 247 | originCodeDescription | `String` | Origin Code Description |
+| 248 | originOfBooking | `String` | Origin Of Booking |
+| 249 | originalBaseRate | `Float` | Not used. |
+| 250 | originalEndDate | `Date` | Original End Date |
+| 251 | originalStartDate | `Date` | Original Start Date |
+| 252 | owner | `Float` | Owner |
+| 253 | ownerFfFlag | `String` | Owner Ff Flag |
+| 254 | ownerResort | `String` | Owner Property |
+| 255 | parentReservationNameId | `Float` | Parent Resv Name ID |
+| 256 | parentreservationid | `Float` | Parentreservationid |
+| 257 | partAllotment | `String` | Part Allotment |
+| 258 | partyCode | `String` | Party Code |
+| 259 | payment | `String` | Payment |
+| 260 | paymentDescription | `String` | Payment Description |
+| 261 | paymentMethod | `String` | Payment Method |
+| 262 | paymentmethodid | `String` | Paymentmethodid |
+| 263 | periodicFolioFreq | `Date` | Frequency in number of days when folios should be printed for this reservation |
+| 264 | phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
+| 265 | phoneId | `Float` | Phone ID |
+| 266 | physicalQuantity | `Float` | Physical Quantity |
+| 267 | pickUpCarrierCode | `String` | Pick Up Carrier Code |
+| 268 | pickUpDate | `Date` | Pick Up Date |
+| 269 | pickUpStation | `String` | Pick Up Station |
+| 270 | pickUpTransportNumber | `String` | Pick Up Transport Number |
+| 271 | pickUpTime | `String` | Pick-Up Time |
+| 272 | pickupRequiredYN | `String` | Pickup Required YN |
+| 273 | points | `Float` | Points |
+| 274 | pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
+| 275 | postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
+| 276 | postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
+| 277 | postingAllowedYN | `String` | Posting Allowed YN |
+| 278 | preArrReviewedDt | `Date` | This date flags if and when the record was reviewed from pre-arrival screen. |
+| 279 | preArrReviewedUser | `Date` | User id who reviewed the record. |
+| 280 | preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
+| 281 | preRegisteredYn | `Date` | Indicates whether the reservation is pre-registered for internet check-in or not. |
+| 282 | primaryShare | `String` | Primary Share |
+| 283 | printRateYN | `String` | Print Rate YN |
+| 284 | profileId | `String` | Profile ID |
+| 285 | property | `String` | Indicates if the value set for the specific property. |
+| 286 | pseudoMemTotalPoints | `String` | Total pseudo membership points accrued for the default membership type. |
+| 287 | pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
+| 288 | purgeDate | `Date` | Purge Date |
+| 289 | purposeOfStay | `String` | Purpose of stay. |
+| 290 | quantity | `Float` | Number of Rooms |
+| 291 | quoteId | `String` | Quote ID provided by external system. |
+| 292 | rateAmount | `String` | Rate Amount |
+| 293 | rateCode | `String` | Rate Code |
+| 294 | rateableValue | `Float` | Stay rateable value. |
+| 295 | ratecodeid | `String` | Ratecodeid |
+| 296 | rdenBillingContactId | `Float` | Rden Billing Contact ID |
+| 297 | rdenReservationContactId | `Float` | Rden Resv Contact ID |
+| 298 | rdenReservationDate | `Date` | Rden Reservation Date |
+| 299 | referralYn | `String` | Rotation Rule to be configured for referral flag ? |
+| 300 | registrationCardNo | `String` | Registration Card Number |
+| 301 | registrationNumber | `String` | Registration Number |
+| 302 | reinstateDate | `String` | Reinstate Date |
+| 303 | reportId | `String` | Report ID |
+| 304 | resInsertSource | `String` | Reservation Insert Source |
+| 305 | resInsertSourceType | `String` | Reservation Insert Source Type |
+| 306 | reservationContactId | `Float` | Resv Contact ID |
+| 307 | reservationNameID | `Float` | Reservation Name ID |
+| 308 | reservationStatus | `String` | Reservation Status |
+| 309 | reservationType | `String` | Reservation Type |
+| 310 | reservationTypeDescription | `String` | The Description of the Guarantee code. |
+| 311 | reserveInventoryYN | `String` | Reserve Inventory YN |
+| 312 | resort | `String` | Property |
+| 313 | resortBooked | `String` | Final resort where Booking is confirmed -via Lead process. |
+| 314 | resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
+| 315 | restrictionOverride | `String` | Restriction Override |
+| 316 | resvNumber | `Float` | Not used in PMS currently. |
+| 317 | resvcontactprofileid | `Float` | Resvcontactprofileid |
+| 318 | revenueTypeCode | `String` | Revenue type (catering/rooms) |
+| 319 | rhBillingContactId | `Float` | Rh Billing Contact ID |
+| 320 | rhReservationContactId | `Float` | Rh Resv Contact ID |
+| 321 | rivMarketSegment | `String` | Not used |
+| 322 | room | `String` | Room |
+| 323 | roomCategory | `String` | Room Category |
+| 324 | roomClass | `String` | Room Class |
+| 325 | roomInstructions | `String` | Room Instructions |
+| 326 | roomServiceTime | `String` | This is the Turndown room service time. |
+| 327 | roomcategoryid | `String` | Roomcategoryid |
+| 328 | roomid | `String` | Roomid |
+| 329 | roomsPerDay | `Float` | Rooms Per Day |
+| 330 | salesId | `String` | Not used |
+| 331 | sbegindate | `Date` | Sbegindate |
+| 332 | scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
+| 333 | senddate | `Date` | Senddate |
+| 334 | serviceCharge | `Float` | Service Charge |
+| 335 | sguestFirstName | `String` | Sguest First Name |
+| 336 | sguestName | `String` | Sguest Name |
+| 337 | shareId | `Float` | Share ID. |
+| 338 | shareSeqNumber | `String` | Type of revenue |
+| 339 | shareOfRateAmount | `Float` | Share of Rate Amount |
+| 340 | sharedProfileID | `Float` | Shared Profile ID |
+| 341 | sharedReservationStatus | `String` | Shared Reservation Status |
+| 342 | shoulderEnd | `Date` | Shoulder End |
+| 343 | shoulderStart | `Date` | Shoulder Start |
+| 344 | sourceCodeDescription | `String` | Source Code Description |
+| 345 | sourceContactAll | `String` | Source Contact All |
+| 346 | sourceNameId | `Float` | Source Name ID |
+| 347 | sourceid | `String` | Sourceid |
+| 348 | spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
+| 349 | spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
+| 350 | spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
+| 351 | spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
+| 352 | splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
+| 353 | splitfromreservationid | `Float` | Splitfromreservationid |
+| 354 | startDate | `Date` | Start Date |
+| 355 | statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
+| 356 | statisticalRoomType | `String` | Room Type used to calculate statistics for export(DRS). |
+| 357 | stayRecordId | `Float` | Stay Record ID |
+| 358 | superSearchIndexText | `String` | Super Search Index Text |
+| 359 | taxAmount | `Float` | Tax Amount |
+| 360 | taxExemptNumber | `String` | Tax exempt number on the profile |
+| 361 | taxNumberOfStays | `Date` | Tax No of Stays |
+| 362 | taxType | `String` | Tax Type |
+| 363 | taxtypeid | `String` | Taxtypeid |
+| 364 | tiad | `String` | Tiad |
+| 365 | traceCode | `String` | Trace Code |
+| 366 | transactionid | `Float` | Transactionid |
+| 367 | travelAgentAll | `String` | Travel Agent All |
+| 368 | travelAgentID | `Float` | Travel Agent ID |
+| 369 | truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
+| 370 | turndownStatus | `Float` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 371 | turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
+| 372 | uDFC01 | `String` | UDFC01 |
+| 373 | uDFC02 | `String` | UDFC02 |
+| 374 | uDFC03 | `String` | UDFC03 |
+| 375 | uDFC04 | `String` | UDFC04 |
+| 376 | uDFC05 | `String` | UDFC05 |
+| 377 | uDFC06 | `String` | UDFC06 |
+| 378 | uDFC07 | `String` | UDFC07 |
+| 379 | uDFC08 | `String` | UDFC08 |
+| 380 | uDFC09 | `String` | UDFC09 |
+| 381 | uDFC10 | `String` | UDFC10 |
+| 382 | uDFC11 | `String` | UDFC11 |
+| 383 | uDFC12 | `String` | UDFC12 |
+| 384 | uDFC13 | `String` | UDFC13 |
+| 385 | uDFC14 | `String` | UDFC14 |
+| 386 | uDFC15 | `String` | UDFC15 |
+| 387 | uDFC16 | `String` | UDFC16 |
+| 388 | uDFC17 | `String` | UDFC17 |
+| 389 | uDFC18 | `String` | UDFC18 |
+| 390 | uDFC19 | `String` | UDFC19 |
+| 391 | uDFC20 | `String` | UDFC20 |
+| 392 | uDFC21 | `String` | UDFC21 |
+| 393 | uDFC22 | `String` | UDFC22 |
+| 394 | uDFC23 | `String` | UDFC23 |
+| 395 | uDFC24 | `String` | UDFC24 |
+| 396 | uDFC25 | `String` | UDFC25 |
+| 397 | uDFC26 | `String` | UDFC26 |
+| 398 | uDFC27 | `String` | UDFC27 |
+| 399 | uDFC28 | `String` | UDFC28 |
+| 400 | uDFC29 | `String` | UDFC29 |
+| 401 | uDFC30 | `String` | UDFC30 |
+| 402 | uDFC31 | `String` | UDFC31 |
+| 403 | uDFC32 | `String` | UDFC32 |
+| 404 | uDFC33 | `String` | UDFC33 |
+| 405 | uDFC34 | `String` | UDFC34 |
+| 406 | uDFC35 | `String` | UDFC35 |
+| 407 | uDFC36 | `String` | UDFC36 |
+| 408 | uDFC37 | `String` | UDFC37 |
+| 409 | uDFC38 | `String` | UDFC38 |
+| 410 | uDFC39 | `String` | UDFC39 |
+| 411 | uDFC40 | `String` | UDFC40 |
+| 412 | uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
+| 413 | updateUser | `Float` | Update User |
+| 414 | updatedBy | `String` | Updated By |
+| 415 | updatedDate | `Date` | Updated Date |
+| 416 | uploadDate | `Date` | Upload Date |
+| 417 | upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
+| 418 | videoCheckoutYN | `String` | Flag if the guest can do video checkout |
+| 419 | visaExpiryDate | `Date` | Visa Expiry Date |
+| 420 | visaIssueDate | `String` | Visa Issue Date |
+| 421 | visaNumber | `Float` | Visa Number |
+| 422 | waitlistComment | `String` | Waitlist Comment |
+| 423 | waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
+| 424 | walkInYN | `String` | Walk-In YN |
+| 425 | yieldableYn | `String` | Yieldable Y/N |
+| 426 | ymCode | `Float` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -3149,59 +3149,59 @@
 
 ### FinancialTransactionDetailsExtendedReservationMembershipDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| cardNumberByMembershipClass | `String` | Card Number by Membership Class |
-| cardNumberByMembershipType | `String` | Card Number by Membership Type |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| earningPreference | `String` | Earning Preference |
-| frequentFlyerMembershipYN | `String` | Frequent Flyer Membership YN |
-| hostBusinessDate | `Date` | Business date when the host-multiplier relationship was set. |
-| hostCardinality | `Float` | Number of multipliers attached if a host-multiplier relationship exists. |
-| hostFlag | `String` | Indicator whether the current membership for the rervation is a (H)ost membership detail |
-| iDByMembershipClass | `String` | ID by Membership Class |
-| iDByMembershipType | `String` | ID by Membership Type |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalMembershipid | `Float` | Membershipid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| levelByMembershipType | `String` | Level by Membership Type |
-| listOfMembershipIDs | `Float` | Membership ID |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| loyaltySchemeMembershipYN | `String` | Loyalty Scheme Membership YN |
-| mbrprefChangedDate | `Date` | Last Date Earning Preference was changed. |
-| membershipCardNo | `String` | Membership Card Number |
-| membershipCardNumber | `String` | Membership Card Number |
-| membershipClass | `String` | Membership Class |
-| membershipClassDescription | `String` | Membership Class Description |
-| membershipCode | `String` | Membership Code |
-| membershipDescription | `String` | Membership Description |
-| membershipId | `Float` | Membership ID |
-| membershipLevel | `String` | Membership Level |
-| membershipLevelByMembershipClass | `String` | Membership Level by Membership Class |
-| membershipType | `String` | Membership Type |
-| membershipTypeByMembershipClass | `String` | Membership Type by Membership Class |
-| multiplierInstance | `Float` | Multiplier instance number if a host-multiplier relationship exists. |
-| nameId | `Float` | Name ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pointsMultiplier | `Float` | Indicates any multiplier for the points accumulated. |
-| populationMethod | `String` | Population Method |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| processedDate | `Date` | Processed Date |
-| processedYn | `String` | Processed Y/N |
-| profileid | `Float` | Profileid |
-| property | `String` | Code to uniquely identify the Property |
-| rankValue | `Float` | Rank Value |
-| reservationNameId | `Float` | Resv Name ID |
-| reservationid | `Float` | Reservationid |
-| reservationmembershipid | `Float` | Reservationmembershipid |
-| resvenddate | `Date` | Resvenddate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | cardNumberByMembershipClass | `String` | Card Number by Membership Class |
+| 2 | cardNumberByMembershipType | `String` | Card Number by Membership Type |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | earningPreference | `String` | Earning Preference |
+| 6 | frequentFlyerMembershipYN | `String` | Frequent Flyer Membership YN |
+| 7 | hostBusinessDate | `Date` | Business date when the host-multiplier relationship was set. |
+| 8 | hostCardinality | `Float` | Number of multipliers attached if a host-multiplier relationship exists. |
+| 9 | hostFlag | `String` | Indicator whether the current membership for the rervation is a (H)ost membership detail |
+| 10 | iDByMembershipClass | `String` | ID by Membership Class |
+| 11 | iDByMembershipType | `String` | ID by Membership Type |
+| 12 | insertDate | `DateTime` | Insert Date |
+| 13 | insertUser | `Float` | Insert User |
+| 14 | internalMembershipid | `Float` | Membershipid |
+| 15 | jRNUpdateDate | `Date` | JRN Update Date |
+| 16 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 17 | levelByMembershipType | `String` | Level by Membership Type |
+| 18 | listOfMembershipIDs | `Float` | Membership ID |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | loyaltySchemeMembershipYN | `String` | Loyalty Scheme Membership YN |
+| 21 | mbrprefChangedDate | `Date` | Last Date Earning Preference was changed. |
+| 22 | membershipCardNo | `String` | Membership Card Number |
+| 23 | membershipCardNumber | `String` | Membership Card Number |
+| 24 | membershipClass | `String` | Membership Class |
+| 25 | membershipClassDescription | `String` | Membership Class Description |
+| 26 | membershipCode | `String` | Membership Code |
+| 27 | membershipDescription | `String` | Membership Description |
+| 28 | membershipId | `Float` | Membership ID |
+| 29 | membershipLevel | `String` | Membership Level |
+| 30 | membershipLevelByMembershipClass | `String` | Membership Level by Membership Class |
+| 31 | membershipType | `String` | Membership Type |
+| 32 | membershipTypeByMembershipClass | `String` | Membership Type by Membership Class |
+| 33 | multiplierInstance | `Float` | Multiplier instance number if a host-multiplier relationship exists. |
+| 34 | nameId | `Float` | Name ID |
+| 35 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 36 | pointsMultiplier | `Float` | Indicates any multiplier for the points accumulated. |
+| 37 | populationMethod | `String` | Population Method |
+| 38 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 39 | processedDate | `Date` | Processed Date |
+| 40 | processedYn | `String` | Processed Y/N |
+| 41 | profileid | `Float` | Profileid |
+| 42 | property | `String` | Code to uniquely identify the Property |
+| 43 | rankValue | `Float` | Rank Value |
+| 44 | reservationNameId | `Float` | Resv Name ID |
+| 45 | reservationid | `Float` | Reservationid |
+| 46 | reservationmembershipid | `Float` | Reservationmembershipid |
+| 47 | resvenddate | `Date` | Resvenddate |
+| 48 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 49 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 50 | updateDate | `DateTime` | Update Date |
+| 51 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3209,678 +3209,678 @@
 
 ### FinancialTransactionDetailsExtendedFolioTaxDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountCode | `Float` | Account Code |
-| addresseeNameId | `Float` | Addressee Name ID |
-| amountPostedFromAR | `Float` | This is to store amount posted from AR for a bill. In this case CLPAY will not have value if the bill is generated in AR |
-| amountFromDirectBill | `Float` | The amount that has been paid using direct bill. |
-| associatedBillDate | `Date` | Date on which the Original Bill was generated. This is used in case of Credit Bill. |
-| associatedBillNumber | `String` | Associated Bill Number |
-| associatedFiscalBillDate | `Date` | Associated Fiscal Bill number generation date. |
-| associatedFiscalBillNumber | `String` | Associated Fiscal Bill number. |
-| associatedFiscalBillNumberGenerationTime | `String` | Associated Fiscal Bill number generation time. |
-| associatedSeqNumber | `Float` | Self referencing sequence number to gather information for other operations. |
-| billGenerationDate | `Date` | Bill Generation Date |
-| billNumber | `Float` | Bill Number |
-| billPaymentTrxNumber | `Float` | Bill Payment Transaction No |
-| billPrefix | `String` | Bill Prefix |
-| billSequenceNumber | `Float` | Bill Sequence Number |
-| billStartDate | `Date` | Date of the first charge in the bill. |
-| billStatus | `String` | Bill Status |
-| businessDate | `Date` | Business Date |
-| businessId | `String` | Business ID |
-| cCashpay | `Float` | Central Cashpay |
-| cCcpay | `Float` | Central Ccpay |
-| cClarpay | `Float` | Central Clarpay |
-| cClpay | `Float` | Central Clpay |
-| cCollectionTax1 | `Float` | Central Coll Tax1 |
-| cCollectionTax2 | `Float` | Central Coll Tax2 |
-| cCollectionTax3 | `Float` | Central Coll Tax3 |
-| cCollectionTax4 | `Float` | Central Coll Tax4 |
-| cCollectionTax5 | `Float` | Central Coll Tax5 |
-| cDailyRunningTotal | `Float` | Central Daily Running Total |
-| cDeposit | `Float` | Central Deposit |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cFiscalInvoiceCurrencyRate | `Float` | Central Fiscal Invoice Currency Rate |
-| cNet1Amount | `Float` | Central Net1 Amt |
-| cNet10Amount | `Float` | Central Net10 Amt |
-| cNet11Amount | `Float` | Central Net11 Amt |
-| cNet12Amount | `Float` | Central Net12 Amt |
-| cNet13Amount | `Float` | Central Net13 Amt |
-| cNet14Amount | `Float` | Central Net14 Amt |
-| cNet15Amount | `Float` | Central Net15 Amt |
-| cNet16Amount | `Float` | Central Net16 Amt |
-| cNet17Amount | `Float` | Central Net17 Amt |
-| cNet18Amount | `Float` | Central Net18 Amt |
-| cNet19Amount | `Float` | Central Net19 Amt |
-| cNet2Amount | `Float` | Central Net2 Amt |
-| cNet20Amount | `Float` | Central Net20 Amt |
-| cNet3Amount | `Float` | Central Net3 Amt |
-| cNet4Amount | `Float` | Central Net4 Amt |
-| cNet5Amount | `Float` | Central Net5 Amt |
-| cNet6Amount | `Float` | Central Net6 Amt |
-| cNet7Amount | `Float` | Central Net7 Amt |
-| cNet8Amount | `Float` | Central Net8 Amt |
-| cNet9Amount | `Float` | Central Net9 Amt |
-| cPaidout | `Float` | Central Paidout |
-| cPerpetualAmount | `Float` | Central Perpetual Amount |
-| cPnet1Amount | `Float` | Central Pnet1 Amt |
-| cPnet10Amount | `Float` | Central Pnet10 Amt |
-| cPnet11Amount | `Float` | Central Pnet11 Amt |
-| cPnet12Amount | `Float` | Central Pnet12 Amt |
-| cPnet13Amount | `Float` | Central Pnet13 Amt |
-| cPnet14Amount | `Float` | Central Pnet14 Amt |
-| cPnet15Amount | `Float` | Central Pnet15 Amt |
-| cPnet16Amount | `Float` | Central Pnet16 Amt |
-| cPnet17Amount | `Float` | Central Pnet17 Amt |
-| cPnet18Amount | `Float` | Central Pnet18 Amt |
-| cPnet19Amount | `Float` | Central Pnet19 Amt |
-| cPnet2Amount | `Float` | Central Pnet2 Amt |
-| cPnet20Amount | `Float` | Central Pnet20 Amt |
-| cPnet3Amount | `Float` | Central Pnet3 Amt |
-| cPnet4Amount | `Float` | Central Pnet4 Amt |
-| cPnet5Amount | `Float` | Central Pnet5 Amt |
-| cPnet6Amount | `Float` | Central Pnet6 Amt |
-| cPnet7Amount | `Float` | Central Pnet7 Amt |
-| cPnet8Amount | `Float` | Central Pnet8 Amt |
-| cPnet9Amount | `Float` | Central Pnet9 Amt |
-| cPtax1Amount | `Float` | Central Ptax1 Amt |
-| cPtax10Amount | `Float` | Central Ptax10 Amt |
-| cPtax11Amount | `Float` | Central Ptax11 Amt |
-| cPtax12Amount | `Float` | Central Ptax12 Amt |
-| cPtax13Amount | `Float` | Central Ptax13 Amt |
-| cPtax14Amount | `Float` | Central Ptax14 Amt |
-| cPtax15Amount | `Float` | Central Ptax15 Amt |
-| cPtax16Amount | `Float` | Central Ptax16 Amt |
-| cPtax17Amount | `Float` | Central Ptax17 Amt |
-| cPtax18Amount | `Float` | Central Ptax18 Amt |
-| cPtax19Amount | `Float` | Central Ptax19 Amt |
-| cPtax2Amount | `Float` | Central Ptax2 Amt |
-| cPtax20Amount | `Float` | Central Ptax20 Amt |
-| cPtax3Amount | `Float` | Central Ptax3 Amt |
-| cPtax4Amount | `Float` | Central Ptax4 Amt |
-| cPtax5Amount | `Float` | Central Ptax5 Amt |
-| cPtax6Amount | `Float` | Central Ptax6 Amt |
-| cPtax7Amount | `Float` | Central Ptax7 Amt |
-| cPtax8Amount | `Float` | Central Ptax8 Amt |
-| cPtax9Amount | `Float` | Central Ptax9 Amt |
-| cPtotNonrevNonTaxable | `Float` | Central Ptot Nonrev Nontaxable |
-| cPtotNonrevTaxable | `Float` | Central Ptot Nonrev Taxable |
-| cPtotRevenueNonTaxable | `Float` | Central Ptot Rev Nontaxable |
-| cPtotRevenueTaxable | `Float` | Central Ptot Rev Taxable |
-| cRealPerpetualAmount | `Float` | Central Real Perpetual Amount |
-| cTax1Amount | `Float` | Central Tax1 Amt |
-| cTax2Amount | `Float` | Central Tax2 Amt |
-| cTaxCode1 | `String` | Central Tax Code 1 |
-| cTaxCode10 | `String` | Central Tax Code 10 |
-| cTaxCode11 | `String` | Central Tax Code 11 |
-| cTaxCode12 | `String` | Central Tax Code 12 |
-| cTaxCode13 | `String` | Central Tax Code 13 |
-| cTaxCode14 | `String` | Central Tax Code 14 |
-| cTaxCode15 | `String` | Central Tax Code 15 |
-| cTaxCode16 | `String` | Central Tax Code 16 |
-| cTaxCode17 | `String` | Central Tax Code 17 |
-| cTaxCode18 | `String` | Central Tax Code 18 |
-| cTaxCode19 | `String` | Central Tax Code 19 |
-| cTaxCode2 | `String` | Central Tax Code 2 |
-| cTaxCode20 | `String` | Central Tax Code 20 |
-| cTaxCode3 | `String` | Central Tax Code 3 |
-| cTaxCode4 | `String` | Central Tax Code 4 |
-| cTaxCode5 | `String` | Central Tax Code 5 |
-| cTaxCode6 | `String` | Central Tax Code 6 |
-| cTaxCode7 | `String` | Central Tax Code 7 |
-| cTaxCode8 | `String` | Central Tax Code 8 |
-| cTaxCode9 | `String` | Central Tax Code 9 |
-| cTaxCodeDescription1 | `String` | Central Tax Code Desc 1 |
-| cTaxCodeDescription10 | `String` | Central Tax Code Desc 10 |
-| cTaxCodeDescription11 | `String` | Central Tax Code Desc 11 |
-| cTaxCodeDescription12 | `String` | Central Tax Code Desc 12 |
-| cTaxCodeDescription13 | `String` | Central Tax Code Desc 13 |
-| cTaxCodeDescription14 | `String` | Central Tax Code Desc 14 |
-| cTaxCodeDescription15 | `String` | Central Tax Code Desc 15 |
-| cTaxCodeDescription16 | `String` | Central Tax Code Desc 16 |
-| cTaxCodeDescription17 | `String` | Central Tax Code Desc 17 |
-| cTaxCodeDescription18 | `String` | Central Tax Code Desc 18 |
-| cTaxCodeDescription19 | `String` | Central Tax Code Desc 19 |
-| cTaxCodeDescription2 | `String` | Central Tax Code Desc 2 |
-| cTaxCodeDescription20 | `String` | Central Tax Code Desc 20 |
-| cTaxCodeDescription3 | `String` | Central Tax Code Desc 3 |
-| cTaxCodeDescription4 | `String` | Central Tax Code Desc 4 |
-| cTaxCodeDescription5 | `String` | Central Tax Code Desc 5 |
-| cTaxCodeDescription6 | `String` | Central Tax Code Desc 6 |
-| cTaxCodeDescription7 | `String` | Central Tax Code Desc 7 |
-| cTaxCodeDescription8 | `String` | Central Tax Code Desc 8 |
-| cTaxCodeDescription9 | `String` | Central Tax Code Desc 9 |
-| cTax10Amount | `Float` | Central Tax10 Amt |
-| cTax11Amount | `Float` | Central Tax11 Amt |
-| cTax12Amount | `Float` | Central Tax12 Amt |
-| cTax13Amount | `Float` | Central Tax13 Amt |
-| cTax14Amount | `Float` | Central Tax14 Amt |
-| cTax15Amount | `Float` | Central Tax15 Amt |
-| cTax16Amount | `Float` | Central Tax16 Amt |
-| cTax17Amount | `Float` | Central Tax17 Amt |
-| cTax18Amount | `Float` | Central Tax18 Amt |
-| cTax19Amount | `Float` | Central Tax19 Amt |
-| cTax20Amount | `Float` | Central Tax20 Amt |
-| cTax3Amount | `Float` | Central Tax3 Amt |
-| cTax4Amount | `Float` | Central Tax4 Amt |
-| cTax5Amount | `Float` | Central Tax5 Amt |
-| cTax6Amount | `Float` | Central Tax6 Amt |
-| cTax7Amount | `Float` | Central Tax7 Amt |
-| cTax8Amount | `Float` | Central Tax8 Amt |
-| cTax9Amount | `Float` | Central Tax9 Amt |
-| cTotalGross | `Float` | Central Total Gross |
-| cTotalNet | `Float` | Central Total Net |
-| cTotalNonTaxable | `Float` | Central Total Nontaxable |
-| cTotalNonrevNonTaxable | `Float` | Central Tot Nonrev Nontaxable |
-| cTotalNonrevTaxable | `Float` | Central Tot Nonrev Taxable |
-| cTotalRevenueNonTaxable | `Float` | Central Tot Rev Nontaxable |
-| cTotalRevenueTaxable | `Float` | Central Tot Rev Taxable |
-| cTotalTax | `Float` | Central Total Tax |
-| cXnet1Amount | `Float` | Central Xnet1 Amt |
-| cXnet10Amount | `Float` | Central Xnet10 Amt |
-| cXnet11Amount | `Float` | Central Xnet11 Amt |
-| cXnet12Amount | `Float` | Central Xnet12 Amt |
-| cXnet13Amount | `Float` | Central Xnet13 Amt |
-| cXnet14Amount | `Float` | Central Xnet14 Amt |
-| cXnet15Amount | `Float` | Central Xnet15 Amt |
-| cXnet16Amount | `Float` | Central Xnet16 Amt |
-| cXnet17Amount | `Float` | Central Xnet17 Amt |
-| cXnet18Amount | `Float` | Central Xnet18 Amt |
-| cXnet19Amount | `Float` | Central Xnet19 Amt |
-| cXnet2Amount | `Float` | Central Xnet2 Amt |
-| cXnet20Amount | `Float` | Central Xnet20 Amt |
-| cXnet3Amount | `Float` | Central Xnet3 Amt |
-| cXnet4Amount | `Float` | Central Xnet4 Amt |
-| cXnet5Amount | `Float` | Central Xnet5 Amt |
-| cXnet6Amount | `Float` | Central Xnet6 Amt |
-| cXnet7Amount | `Float` | Central Xnet7 Amt |
-| cXnet8Amount | `Float` | Central Xnet8 Amt |
-| cXnet9Amount | `Float` | Central Xnet9 Amt |
-| cXtax1Amount | `Float` | Central Xtax1 Amt |
-| cXtax10Amount | `Float` | Central Xtax10 Amt |
-| cXtax11Amount | `Float` | Central Xtax11 Amt |
-| cXtax12Amount | `Float` | Central Xtax12 Amt |
-| cXtax13Amount | `Float` | Central Xtax13 Amt |
-| cXtax14Amount | `Float` | Central Xtax14 Amt |
-| cXtax15Amount | `Float` | Central Xtax15 Amt |
-| cXtax16Amount | `Float` | Central Xtax16 Amt |
-| cXtax17Amount | `Float` | Central Xtax17 Amt |
-| cXtax18Amount | `Float` | Central Xtax18 Amt |
-| cXtax19Amount | `Float` | Central Xtax19 Amt |
-| cXtax2Amount | `Float` | Central Xtax2 Amt |
-| cXtax20Amount | `Float` | Central Xtax20 Amt |
-| cXtax3Amount | `Float` | Central Xtax3 Amt |
-| cXtax4Amount | `Float` | Central Xtax4 Amt |
-| cXtax5Amount | `Float` | Central Xtax5 Amt |
-| cXtax6Amount | `Float` | Central Xtax6 Amt |
-| cXtax7Amount | `Float` | Central Xtax7 Amt |
-| cXtax8Amount | `Float` | Central Xtax8 Amt |
-| cXtax9Amount | `Float` | Central Xtax9 Amt |
-| cashRegisterId | `String` | Cash Register ID |
-| cashRegisterInvNumber | `Float` | Internal sequence number for the Cash Register ID. |
-| cashTotal | `Float` | Total paid in cash |
-| cashierID | `Float` | Cashier ID |
-| centralTaxRate1 | `Float` | Central Tax Rate 1 |
-| centralTaxRate10 | `Float` | Central Tax Rate 10 |
-| centralTaxRate11 | `Float` | Central Tax Rate 11 |
-| centralTaxRate12 | `Float` | Central Tax Rate 12 |
-| centralTaxRate13 | `Float` | Central Tax Rate 13 |
-| centralTaxRate14 | `Float` | Central Tax Rate 14 |
-| centralTaxRate15 | `Float` | Central Tax Rate 15 |
-| centralTaxRate16 | `Float` | Central Tax Rate 16 |
-| centralTaxRate17 | `Float` | Central Tax Rate 17 |
-| centralTaxRate18 | `Float` | Central Tax Rate 18 |
-| centralTaxRate19 | `Float` | Central Tax Rate 19 |
-| centralTaxRate2 | `Float` | Central Tax Rate 2 |
-| centralTaxRate20 | `Float` | Central Tax Rate 20 |
-| centralTaxRate3 | `Float` | Central Tax Rate 3 |
-| centralTaxRate4 | `Float` | Central Tax Rate 4 |
-| centralTaxRate5 | `Float` | Central Tax Rate 5 |
-| centralTaxRate6 | `Float` | Central Tax Rate 6 |
-| centralTaxRate7 | `Float` | Central Tax Rate 7 |
-| centralTaxRate8 | `Float` | Central Tax Rate 8 |
-| centralTaxRate9 | `Float` | Central Tax Rate 9 |
-| city | `String` | City |
-| cityLedgerYN | `String` | City Ledger YN |
-| clTrxNumber | `Float` | Internal number given to the direct bill payment in financial_transactions. |
-| collectionAgentTotalTax1 | `Float` | Collection Agent Total Tax 1 |
-| collectionAgentTotalTax2 | `Float` | Collection Agent Total Tax 2 |
-| collectionAgentTotalTax3 | `Float` | Collection Agent Total Tax 3 |
-| collectionAgentTotalTax4 | `Float` | Collection Agent Total Tax 4 |
-| collectionAgentTotalTax5 | `Float` | Collection Agent Total Tax 5 |
-| companyFinancialValue | `String` | The financial value of the company. |
-| companyName | `String` | Company Name |
-| companyType | `String` | The type of legal entity / company e.g. Individual Micro enterprise etc. |
-| compressBillNo | `String` | To store the Compressed Bill No. and Converted Bill number information |
-| creditBillGeneratedYN | `String` | Indicates if a credit bill has been generated for this folio. |
-| creditBillNumber | `Float` | Credit Bill Number |
-| creditCardTotal | `Float` | Total paid in the form of credit cards. |
-| customNumber1 | `String` | Custom Number 1 |
-| customNumber2 | `String` | Custom Number 2 |
-| customNumber3 | `String` | Custom Number 3 |
-| customNumber4 | `String` | Custom Number 4 |
-| customNumber5 | `String` | Custom Number 5 |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyRunningTotal | `Float` | Daily running total. |
-| deletedFlag | `String` | Deleted Flag |
-| deposit | `Float` | Total deposits. |
-| depositReqReceiptNumber | `Float` | Deposit Req Receipt Number |
-| documentCode | `String` | Unique Document Code |
-| documentType | `String` | Document Type |
-| eArchiveEttnNumber | `String` | Unique ETTN number for an E Archive invoice. |
-| eArchiveNumber | `String` | E Archive number. |
-| eArchiveReportNo | `String` | E Archive report number provided by external system e.g. PROTEL. |
-| eArchiveStatus | `String` | E Archive status. |
-| eInvoiceNumber | `String` | E-Invoice Number |
-| eInvoiceStatus | `String` | E-Invoice number received from Portal+. This number be updated via Web Service call from Portal+. |
-| fiscalBillCheckDigit | `Float` | Fiscal Bill Check Digit |
-| fiscalBillGenerationDate | `Date` | Fiscal Bill Generation Date |
-| fiscalBillGenerationTime | `String` | Fiscal Bill Generation Time |
-| fiscalBillNumber | `String` | Fiscal Bill Number |
-| fiscalInvoiceCurrency | `String` | Currency Code used by and sent to the Fiscal Service. |
-| fiscalInvoiceCurrencyRate | `Float` | Exchange Rate of the Fiscal Invoice currency for settlement on the bill generation date. |
-| fiscalSessionNo | `String` | Session number generated by the fiscal printer. This numbers gets reset during EOD. |
-| fiscalUnitControlCode | `String` | Fiscal Unit Control Code |
-| folioAddress | `String` | Folio Full Address. |
-| folioAddressCorrectedYn | `String` | Indicates if the folio header was corrected. |
-| folioAttachmentLinkId | `Float` | Folio Attachment Link ID |
-| folioAttachmentStatus | `Float` | Folio Attachment Status |
-| folioNo | `Float` | Folio Number |
-| folioStyle | `String` | Folio Style |
-| folioTaxSeqNumber | `Float` | Folio Tax Sequence No |
-| folioTime | `String` | Folio Time |
-| folioType | `String` | Folio Type |
-| folioType1 | `String` | Folio Type 1 |
-| folioTypeJoin | `String` | Folio Type Join |
-| folioView | `Float` | Folio View |
-| forexTaxYn | `String` | Populate as Y for transactions posted with application settings 1)Currency Exchange Tax and 2)Currency Exchange Offset. |
-| fullFolioNo | `String` | Full Folio Number |
-| hasWatermarkYn | `String` | If PERMANENT FOLIO STORAGE is active this flag indicates whether the PDF file has the "Copy" watermark. |
-| hotelName | `String` | Hotel name of the property at the time of bill generation. |
-| insTimestamp | `DateTime` | Timestamp to capture the exact order of inserts. |
-| insertDate | `DateTime` | Insert Date |
-| invoiceNumber | `Float` | Invoice Number |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastSignature | `String` | Last Signature |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| nRBusinessID | `String` | Business ID |
-| nafApeHotelCode | `String` | NAF/APE code of the hotel at the time of bill generation. |
-| nameId | `Float` | Name ID |
-| nameTaxType | `String` | Name Tax Type |
-| netAmount1 | `Float` | Net Amount 1 |
-| netAmount10 | `Float` | Net Amount 10 |
-| netAmount11 | `Float` | Net Amount 11 |
-| netAmount12 | `Float` | Net Amount 12 |
-| netAmount13 | `Float` | Net Amount 13 |
-| netAmount14 | `Float` | Net Amount 14 |
-| netAmount15 | `Float` | Net Amount 15 |
-| netAmount16 | `Float` | Net Amount 16 |
-| netAmount17 | `Float` | Net Amount 17 |
-| netAmount18 | `Float` | Net Amount 18 |
-| netAmount19 | `Float` | Net Amount 19 |
-| netAmount2 | `Float` | Net Amount 2 |
-| netAmount20 | `Float` | Net Amount 20 |
-| netAmount3 | `Float` | Net Amount 3 |
-| netAmount4 | `Float` | Net Amount 4 |
-| netAmount5 | `Float` | Net Amount 5 |
-| netAmount6 | `Float` | Net Amount 6 |
-| netAmount7 | `Float` | Net Amount 7 |
-| netAmount8 | `Float` | Net Amount 8 |
-| netAmount9 | `Float` | Net Amount 9 |
-| numberOfPages | `Float` | Number of pages for a given bill. |
-| operaFiscalFolioStatus | `String` | This coulumn is used to store the status of Fiscal Folio /Payload Generation. The values will be SUCCESS - Payload has been sent successfully OFFLINE - User confirmed to generate Offline Folio i.e. Folio will be generated but Fiscal Folio/Payload not generated FAILURE - User do not want to create OFFLINE FOLIO but as FISCAL service is not available so the status is FAILURE i.e. in this case VOID Folio generated with FAILURE Fiscal Folio Status BLANK/NULL - Fiscal Printing is turned off or Past data after the upgrade. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pageNumber | `Float` | Stores the page number within the bill generation. |
-| palmVideoFlag | `String` | Indicator to identify if the bill was generated from Video checkout or PALM.  (V->Video  P->PALM). |
-| partnerFiscalFolioStatus | `String` | Partner Fiscal Folio Status |
-| payeeAddress | `String` | Payee Address |
-| payeeCountry | `String` | Payee Country |
-| payeeFirstName | `String` | Payee First Name |
-| payeeLastName | `String` | Payee Last Name |
-| payeeName | `String` | Payee Name used for signature generation. |
-| payeeNameID | `Float` | Payee Name ID |
-| payeePostalCode | `String` | Payee Postal Code |
-| payeeTaxID1 | `String` | Payee Tax ID 1 |
-| payeeTaxID2 | `String` | Payee Tax ID 2 |
-| payeeZipCode | `String` | Payee Zip Code used for signature generation. |
-| paymentDate | `Date` | Payment Date |
-| perpetualAmount | `Float` | Perpetual Amount. |
-| pnet1Amt | `Float` | Parallel Net1 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet10Amt | `Float` | Parallel Net10 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet11Amt | `Float` | Parallel Net11 extension to the existing pnet amount. |
-| pnet12Amt | `Float` | Parallel Net12 extension to the existing pnet amount. |
-| pnet13Amt | `Float` | Parallel Net13 extension to the existing pnet amount. |
-| pnet14Amt | `Float` | Parallel Net14 extension to the existing pnet amount. |
-| pnet15Amt | `Float` | Parallel Net15 extension to the existing pnet amount. |
-| pnet16Amt | `Float` | Parallel Net16 extension to the existing pnet amount. |
-| pnet17Amt | `Float` | Parallel Net17 extension to the existing pnet amount. |
-| pnet18Amt | `Float` | Parallel Net18 extension to the existing pnet amount. |
-| pnet19Amt | `Float` | Parallel Net19 extension to the existing pnet amount. |
-| pnet2Amt | `Float` | Parallel Net2 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet20Amt | `Float` | Parallel Net20 extension to the existing pnet amount. |
-| pnet3Amt | `Float` | Parallel Net3 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet4Amt | `Float` | Parallel Net4 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet5Amt | `Float` | Parallel Net5 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet6Amt | `Float` | Parallel Net6 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet7Amt | `Float` | Parallel Net7 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet8Amt | `Float` | Parallel Net8 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| pnet9Amt | `Float` | Parallel Net9 amount of the transaction for which the tax1 code is attached as one of the taxes. |
-| postitSequenceNumber | `Float` | Postit Sequence Number |
-| postitYN | `String` | Postit YN |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printerQueueName | `String` | Printer Queue Name |
-| profileTypeCode | `String` | Profile Type Code |
-| promotionalText1 | `String` | Text returned by the credit card company |
-| promotionalText2 | `String` | Text returned by the credit card company |
-| property | `String` | Code to uniquely identify the Property |
-| propertyBillPrefix | `String` | Property Bill Prefix |
-| propertyTaxNumber | `String` | Property Tax Number |
-| ptax1Amt | `Float` | Parallel Total tax1 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax10Amt | `Float` | Parallel Total tax10 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax11Amt | `Float` | Parallel Total tax11 amount extension to the existing ptax amounts. |
-| ptax12Amt | `Float` | Parallel Total tax12 amount extension to the existing ptax amounts. |
-| ptax13Amt | `Float` | Parallel Total tax13 amount extension to the existing ptax amounts. |
-| ptax14Amt | `Float` | Parallel Total tax14 amount extension to the existing ptax amounts. |
-| ptax15Amt | `Float` | Parallel Total tax15 amount extension to the existing ptax amounts. |
-| ptax16Amt | `Float` | Parallel Total tax16 amount extension to the existing ptax amounts. |
-| ptax17Amt | `Float` | Parallel Total tax17 amount extension to the existing ptax amounts. |
-| ptax18Amt | `Float` | Parallel Total tax18 amount extension to the existing ptax amounts. |
-| ptax19Amt | `Float` | Parallel Total tax19 amount extension to the existing ptax amounts. |
-| ptax2Amt | `Float` | Parallel Total tax2 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax20Amt | `Float` | Parallel Total tax20 amount extension to the existing ptax amounts. |
-| ptax3Amt | `Float` | Parallel Total tax3 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax4Amt | `Float` | Parallel Total tax4 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax5Amt | `Float` | Parallel Total tax5 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax6Amt | `Float` | Parallel Total tax6 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax7Amt | `Float` | Parallel Total tax7 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax8Amt | `Float` | Parallel Total tax8 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptax9Amt | `Float` | Parallel Total tax9 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| ptotNonrevNonTaxable | `Float` | Parallel total non revenue amount that is not taxable. |
-| ptotNonrevTaxable | `Float` | Parallel total non revenue amount that is taxable. |
-| ptotRevNonTaxable | `Float` | Parallel total revenue amount that is not taxable. |
-| ptotRevTaxable | `Float` | Parallel total revenue amount that is taxable. |
-| realPerpetualAmount | `Float` | Real perpetual amount at the time of generating the bill. |
-| reservationNameId | `Float` | Resv Name ID |
-| resortCity | `String` | City of the hotel at the time of bill generation. |
-| resortCountry | `String` | Country of the hotel at the time of bill generation. |
-| resortFullAddress | `String` | Property Full Address |
-| resortZipcodeCode | `String` | Zipcode of the hotel at the time of bill generation. |
-| revisionNo | `Float` | Revision Number |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomNumber | `String` | Room Number |
-| seqNumber | `Float` | Sequence No |
-| signature | `String` | Signature |
-| signatureKeyVersion | `String` | Signature Key Version |
-| softwareVersion | `String` | OPERA software version at the time of bill generation. |
-| tax1RateType | `String` | Tax Rate Type 1 of the bill for which Tax Code 1 is attached as one of the taxes. |
-| tax2RateType | `String` | Tax Rate Type 2 of the bill for which Tax Code 2 is attached as one of the taxes. |
-| taxAmount1 | `Float` | Tax Amount 1 |
-| taxAmount10 | `Float` | Tax Amount 10 |
-| taxAmount11 | `Float` | Tax Amount 11 |
-| taxAmount12 | `Float` | Tax Amount 12 |
-| taxAmount13 | `Float` | Tax Amount 13 |
-| taxAmount14 | `Float` | Tax Amount 14 |
-| taxAmount15 | `Float` | Tax Amount 15 |
-| taxAmount16 | `Float` | Tax Amount 16 |
-| taxAmount17 | `Float` | Tax Amount 17 |
-| taxAmount18 | `Float` | Tax Amount 18 |
-| taxAmount19 | `Float` | Tax Amount 19 |
-| taxAmount2 | `Float` | Tax Amount 2 |
-| taxAmount20 | `Float` | Tax Amount 20 |
-| taxAmount3 | `Float` | Tax Amount 3 |
-| taxAmount4 | `Float` | Tax Amount 4 |
-| taxAmount5 | `Float` | Tax Amount 5 |
-| taxAmount6 | `Float` | Tax Amount 6 |
-| taxAmount7 | `Float` | Tax Amount 7 |
-| taxAmount8 | `Float` | Tax Amount 8 |
-| taxAmount9 | `Float` | Tax Amount 9 |
-| taxCode1 | `String` | Tax Code 1 |
-| taxCode10 | `String` | Tax Code 10 |
-| taxCode11 | `String` | Tax Code 11 |
-| taxCode12 | `String` | Tax Code 12 |
-| taxCode13 | `String` | Tax Code 13 |
-| taxCode14 | `String` | Tax Code 14 |
-| taxCode15 | `String` | Tax Code 15 |
-| taxCode16 | `String` | Tax Code 16 |
-| taxCode17 | `String` | Tax Code 17 |
-| taxCode18 | `String` | Tax Code 18 |
-| taxCode19 | `String` | Tax Code 19 |
-| taxCode2 | `String` | Tax Code 2 |
-| taxCode20 | `String` | Tax Code 20 |
-| taxCode3 | `String` | Tax Code 3 |
-| taxCode4 | `String` | Tax Code 4 |
-| taxCode5 | `String` | Tax Code 5 |
-| taxCode6 | `String` | Tax Code 6 |
-| taxCode7 | `String` | Tax Code 7 |
-| taxCode8 | `String` | Tax Code 8 |
-| taxCode9 | `String` | Tax Code 9 |
-| taxCodeDesc1 | `String` | Tax Code Description 1 |
-| taxCodeDesc10 | `String` | Tax Code Description 10 |
-| taxCodeDesc11 | `String` | Tax Code Description 11 |
-| taxCodeDesc12 | `String` | Tax Code Description 12 |
-| taxCodeDesc13 | `String` | Tax Code Description 13 |
-| taxCodeDesc14 | `String` | Tax Code Description 14 |
-| taxCodeDesc15 | `String` | Tax Code Description 15 |
-| taxCodeDesc16 | `String` | Tax Code Description 16 |
-| taxCodeDesc17 | `String` | Tax Code Description 17 |
-| taxCodeDesc18 | `String` | Tax Code Description 18 |
-| taxCodeDesc19 | `String` | Tax Code Description 19 |
-| taxCodeDesc2 | `String` | Tax Code Description 2 |
-| taxCodeDesc20 | `String` | Tax Code Description 20 |
-| taxCodeDesc3 | `String` | Tax Code Description 3 |
-| taxCodeDesc4 | `String` | Tax Code Description 4 |
-| taxCodeDesc5 | `String` | Tax Code Description 5 |
-| taxCodeDesc6 | `String` | Tax Code Description 6 |
-| taxCodeDesc7 | `String` | Tax Code Description 7 |
-| taxCodeDesc8 | `String` | Tax Code Description 8 |
-| taxCodeDesc9 | `String` | Tax Code Description 9 |
-| taxId | `String` | Tax ID |
-| taxRate1 | `Float` | Tax Rate 1 amount of the bill for which Tax Code 1 is attached as one of the taxes. |
-| taxRate10 | `Float` | Tax Rate 10 amount of the bill for which Tax Code 10  is attached as one of the taxes. |
-| taxRate11 | `Float` | Tax Rate 11 amount of the bill for which Tax Code 11  is attached as one of the taxes. |
-| taxRate12 | `Float` | Tax Rate 12 amount of the bill for which Tax Code 12 is attached as one of the taxes. |
-| taxRate13 | `Float` | Tax Rate 13 amount of the bill for which Tax Code 13 is attached as one of the taxes. |
-| taxRate14 | `Float` | Tax Rate 14 amount of the bill for which Tax Code 14 is attached as one of the taxes. |
-| taxRate15 | `Float` | Tax Rate 15 amount of the bill for which Tax Code 15 is attached as one of the taxes. |
-| taxRate16 | `Float` | Tax Rate 16 amount of the bill for which Tax Code 16 is attached as one of the taxes. |
-| taxRate17 | `Float` | Tax Rate 17 amount of the bill for which Tax Code 17 is attached as one of the taxes. |
-| taxRate18 | `Float` | Tax Rate 18 amount of the bill for which Tax Code 18 is attached as one of the taxes. |
-| taxRate19 | `Float` | Tax Rate 19 amount of the bill for which Tax Code 19 is attached as one of the taxes. |
-| taxRate2 | `Float` | Tax Rate 2 amount of the bill for which Tax Code 2 is attached as one of the taxes. |
-| taxRate20 | `Float` | Tax Rate 20 amount of the bill for which Tax Code 20 is attached as one of the taxes. |
-| taxRate3 | `Float` | Tax Rate 3 amount of the bill for which Tax Code 3 is attached as one of the taxes. |
-| taxRate4 | `Float` | Tax Rate 4 amount of the bill for which Tax Code 4 is attached as one of the taxes. |
-| taxRate5 | `Float` | Tax Rate 5 amount of the bill for which Tax Code 5 is attached as one of the taxes. |
-| taxRate6 | `Float` | Tax Rate 6 amount of the bill for which Tax Code 6 is attached as one of the taxes. |
-| taxRate7 | `Float` | Tax Rate 7 amount of the bill for which Tax Code 7 is attached as one of the taxes. |
-| taxRate8 | `Float` | Tax Rate 8 amount of the bill for which Tax Code 8 is attached as one of the taxes. |
-| taxRate9 | `Float` | Tax Rate 9 amount of the bill for which Tax Code 9 is attached as one of the taxes. |
-| tax10RateType | `String` | Tax Rate Type 10 of the bill for which Tax Code 10 is attached as one of the taxes. |
-| tax11RateType | `String` | Tax Rate Type 11 of the bill for which Tax Code 11 is attached as one of the taxes. |
-| tax12RateType | `String` | Tax Rate Type 12 of the bill for which Tax Code 12 is attached as one of the taxes. |
-| tax13RateType | `String` | Tax Rate Type 13 of the bill for which Tax Code 13 is attached as one of the taxes. |
-| tax14RateType | `String` | Tax Rate Type 14 of the bill for which Tax Code 14 is attached as one of the taxes. |
-| tax15RateType | `String` | Tax Rate Type 15 of the bill for which Tax Code 15 is attached as one of the taxes. |
-| tax16RateType | `String` | Tax Rate Type 16 of the bill for which Tax Code 16 is attached as one of the taxes. |
-| tax17RateType | `String` | Tax Rate Type 17 of the bill for which Tax Code 17 is attached as one of the taxes. |
-| tax18RateType | `String` | Tax Rate Type 18 of the bill for which Tax Code 18 is attached as one of the taxes. |
-| tax19RateType | `String` | Tax Rate Type 19 of the bill for which Tax Code 19 is attached as one of the taxes. |
-| tax20RateType | `String` | Tax Rate Type 20 of the bill for which Tax Code 20 is attached as one of the taxes. |
-| tax3RateType | `String` | Tax Rate Type 3 of the bill for which Tax Code 3 is attached as one of the taxes. |
-| tax4RateType | `String` | Tax Rate Type 4 of the bill for which Tax Code 4 is attached as one of the taxes. |
-| tax5RateType | `String` | Tax Rate Type 5 of the bill for which Tax Code 5 is attached as one of the taxes. |
-| tax6RateType | `String` | Tax Rate Type 6 of the bill for which Tax Code 6 is attached as one of the taxes. |
-| tax7RateType | `String` | Tax Rate Type 7 of the bill for which Tax Code 7 is attached as one of the taxes. |
-| tax8RateType | `String` | Tax Rate Type 8 of the bill for which Tax Code 8 is attached as one of the taxes. |
-| tax9RateType | `String` | Tax Rate Type 9 of the bill for which Tax Code 9 is attached as one of the taxes. |
-| terminal | `String` | Terminal |
-| totalGrossAmount | `Float` | Total Gross Amount |
-| totalNetAmount | `Float` | Total Net Amount |
-| totalNonRevenueNonTaxableAmount | `Float` | Total non revenue amount that is non taxable. |
-| totalNonRevenueTaxableAmount | `Float` | Total non revenue amount that is not taxable. |
-| totalNonTaxableAmount | `Float` | Total non taxable amount. |
-| totalNonTaxableRevenue | `Float` | Total revenue amount that is non taxable. |
-| totalPaidOuts | `Float` | Total paid outs. |
-| totalTax | `Float` | Total Tax |
-| totalTaxableRevenue | `Float` | Total revenue amount that is taxable. |
-| transactLastSignatureHash | `String` | Last Signature for Transaction Totals. |
-| transactSignatureHash | `String` | Signature hash for Transaction Totals. |
-| transactSignatureKeyVersion | `String` | Signature key version for Transaction Totals. |
-| transactionSignature | `String` | Transaction Signature Value. |
-| trxServiceType | `String` | Transaction Service Type |
-| uDFC01 | `String` | UDFC01 |
-| uDFC02 | `String` | UDFC02 |
-| uDFC03 | `String` | UDFC03 |
-| uDFC04 | `String` | UDFC04 |
-| uDFC05 | `String` | UDFC05 |
-| uDFC06 | `String` | UDFC06 |
-| uDFC07 | `String` | UDFC07 |
-| uDFC08 | `String` | UDFC08 |
-| uDFC09 | `String` | UDFC09 |
-| uDFC10 | `String` | UDFC10 |
-| uDFC11 | `String` | UDFC11 |
-| uDFC12 | `String` | UDFC12 |
-| uDFC13 | `String` | UDFC13 |
-| uDFC14 | `String` | UDFC14 |
-| uDFC15 | `String` | UDFC15 |
-| uDFC16 | `String` | UDFC16 |
-| uDFC17 | `String` | UDFC17 |
-| uDFC18 | `String` | UDFC18 |
-| uDFC19 | `String` | UDFC19 |
-| uDFC20 | `String` | UDFC20 |
-| uDFC21 | `String` | UDFC21 |
-| uDFC22 | `String` | UDFC22 |
-| uDFC23 | `String` | UDFC23 |
-| uDFC24 | `String` | UDFC24 |
-| uDFC25 | `String` | UDFC25 |
-| uDFC26 | `String` | UDFC26 |
-| uDFC27 | `String` | UDFC27 |
-| uDFC28 | `String` | UDFC28 |
-| uDFC29 | `String` | UDFC29 |
-| uDFC30 | `String` | UDFC30 |
-| uDFC31 | `String` | UDFC31 |
-| uDFC32 | `String` | UDFC32 |
-| uDFC33 | `String` | UDFC33 |
-| uDFC34 | `String` | UDFC34 |
-| uDFC35 | `String` | UDFC35 |
-| uDFC36 | `String` | UDFC36 |
-| uDFC37 | `String` | UDFC37 |
-| uDFC38 | `String` | UDFC38 |
-| uDFC39 | `String` | UDFC39 |
-| uDFC40 | `String` | UDFC40 |
-| uDFD01 | `Date` | UDFD01 |
-| uDFD02 | `Date` | UDFD02 |
-| uDFD03 | `Date` | UDFD03 |
-| uDFD04 | `Date` | UDFD04 |
-| uDFD05 | `Date` | UDFD05 |
-| uDFD06 | `Date` | UDFD06 |
-| uDFD07 | `Date` | UDFD07 |
-| uDFD08 | `Date` | UDFD08 |
-| uDFD09 | `Date` | UDFD09 |
-| uDFD10 | `Date` | UDFD10 |
-| uDFD11 | `Date` | UDFD11 |
-| uDFD12 | `Date` | UDFD12 |
-| uDFD13 | `Date` | UDFD13 |
-| uDFD14 | `Date` | UDFD14 |
-| uDFD15 | `Date` | UDFD15 |
-| uDFD16 | `Date` | UDFD16 |
-| uDFD17 | `Date` | UDFD17 |
-| uDFD18 | `Date` | UDFD18 |
-| uDFD19 | `Date` | UDFD19 |
-| uDFD20 | `Date` | UDFD20 |
-| uDFN01 | `Float` | UDFN01 |
-| uDFN02 | `Float` | UDFN02 |
-| uDFN03 | `Float` | UDFN03 |
-| uDFN04 | `Float` | UDFN04 |
-| uDFN05 | `Float` | UDFN05 |
-| uDFN06 | `Float` | UDFN06 |
-| uDFN07 | `Float` | UDFN07 |
-| uDFN08 | `Float` | UDFN08 |
-| uDFN09 | `Float` | UDFN09 |
-| uDFN10 | `Float` | UDFN10 |
-| uDFN11 | `Float` | UDFN11 |
-| uDFN12 | `Float` | UDFN12 |
-| uDFN13 | `Float` | UDFN13 |
-| uDFN14 | `Float` | UDFN14 |
-| uDFN15 | `Float` | UDFN15 |
-| uDFN16 | `Float` | UDFN16 |
-| uDFN17 | `Float` | UDFN17 |
-| uDFN18 | `Float` | UDFN18 |
-| uDFN19 | `Float` | UDFN19 |
-| uDFN20 | `Float` | UDFN20 |
-| uDFN21 | `Float` | UDFN21 |
-| uDFN22 | `Float` | UDFN22 |
-| uDFN23 | `Float` | UDFN23 |
-| uDFN24 | `Float` | UDFN24 |
-| uDFN25 | `Float` | UDFN25 |
-| uDFN26 | `Float` | UDFN26 |
-| uDFN27 | `Float` | UDFN27 |
-| uDFN28 | `Float` | UDFN28 |
-| uDFN29 | `Float` | UDFN29 |
-| uDFN30 | `Float` | UDFN30 |
-| uDFN31 | `Float` | UDFN31 |
-| uDFN32 | `Float` | UDFN32 |
-| uDFN33 | `Float` | UDFN33 |
-| uDFN34 | `Float` | UDFN34 |
-| uDFN35 | `Float` | UDFN35 |
-| uDFN36 | `Float` | UDFN36 |
-| uDFN37 | `Float` | UDFN37 |
-| uDFN38 | `Float` | UDFN38 |
-| uDFN39 | `Float` | UDFN39 |
-| uDFN40 | `Float` | UDFN40 |
-| updTimestamp | `DateTime` | Timestamp to capture the exact order of updates. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| userID | `Float` | User ID |
-| userName | `String` | The name of the user who created the record. |
-| voidNumber | `Float` | Void Number |
-| voidReason | `String` | This column will store the reason for voiding the folio. |
-| workingDocId | `Float` | Working Doc ID |
-| xnet1Amt | `Float` | Xnet1 Amount |
-| xnet10Amt | `Float` | Xnet10 Amount |
-| xnet11Amt | `Float` | Xnet11 Amount |
-| xnet12Amt | `Float` | Xnet12 Amount |
-| xnet13Amt | `Float` | Xnet13 Amount |
-| xnet14Amt | `Float` | Xnet14 Amount |
-| xnet15Amt | `Float` | Xnet15 Amount |
-| xnet16Amt | `Float` | Xnet16 Amount |
-| xnet17Amt | `Float` | Xnet17 Amount |
-| xnet18Amt | `Float` | Xnet18 Amount |
-| xnet19Amt | `Float` | Xnet19 Amount |
-| xnet2Amt | `Float` | Xnet2 Amount |
-| xnet20Amt | `Float` | Xnet20 Amount |
-| xnet3Amt | `Float` | Xnet3 Amount |
-| xnet4Amt | `Float` | Xnet4 Amount |
-| xnet5Amt | `Float` | Xnet5 Amount |
-| xnet6Amt | `Float` | Xnet6 Amount |
-| xnet7Amt | `Float` | Xnet7 Amount |
-| xnet8Amt | `Float` | Xnet8 Amount |
-| xnet9Amt | `Float` | Xnet9 Amount |
-| xtax1Amt | `Float` | Total tax1 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax10Amt | `Float` | Total tax10 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax11Amt | `Float` | Total tax11 amount extension to the existing xtax amounts. |
-| xtax12Amt | `Float` | Total tax12 amount extension to the existing xtax amounts. |
-| xtax13Amt | `Float` | Total tax13 amount extension to the existing xtax amounts. |
-| xtax14Amt | `Float` | Total tax14 amount extension to the existing xtax amounts. |
-| xtax15Amt | `Float` | Total tax15 amount extension to the existing xtax amounts. |
-| xtax16Amt | `Float` | Total tax16 amount extension to the existing xtax amounts. |
-| xtax17Amt | `Float` | Total tax17 amount extension to the existing xtax amounts. |
-| xtax18Amt | `Float` | Total tax18 amount extension to the existing xtax amounts. |
-| xtax19Amt | `Float` | Total tax19 amount extension to the existing xtax amounts. |
-| xtax2Amt | `Float` | Total tax2 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax20Amt | `Float` | Total tax20 amount extension to the existing xtax amounts. |
-| xtax3Amt | `Float` | Total tax3 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax4Amt | `Float` | Total tax4 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax5Amt | `Float` | Total tax5 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax6Amt | `Float` | Total tax6 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax7Amt | `Float` | Total tax7 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax8Amt | `Float` | Total tax8 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
-| xtax9Amt | `Float` | Total tax9 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountCode | `Float` | Account Code |
+| 2 | addresseeNameId | `Float` | Addressee Name ID |
+| 3 | amountPostedFromAR | `Float` | This is to store amount posted from AR for a bill. In this case CLPAY will not have value if the bill is generated in AR |
+| 4 | amountFromDirectBill | `Float` | The amount that has been paid using direct bill. |
+| 5 | associatedBillDate | `Date` | Date on which the Original Bill was generated. This is used in case of Credit Bill. |
+| 6 | associatedBillNumber | `String` | Associated Bill Number |
+| 7 | associatedFiscalBillDate | `Date` | Associated Fiscal Bill number generation date. |
+| 8 | associatedFiscalBillNumber | `String` | Associated Fiscal Bill number. |
+| 9 | associatedFiscalBillNumberGenerationTime | `String` | Associated Fiscal Bill number generation time. |
+| 10 | associatedSeqNumber | `Float` | Self referencing sequence number to gather information for other operations. |
+| 11 | billGenerationDate | `Date` | Bill Generation Date |
+| 12 | billNumber | `Float` | Bill Number |
+| 13 | billPaymentTrxNumber | `Float` | Bill Payment Transaction No |
+| 14 | billPrefix | `String` | Bill Prefix |
+| 15 | billSequenceNumber | `Float` | Bill Sequence Number |
+| 16 | billStartDate | `Date` | Date of the first charge in the bill. |
+| 17 | billStatus | `String` | Bill Status |
+| 18 | businessDate | `Date` | Business Date |
+| 19 | businessId | `String` | Business ID |
+| 20 | cCashpay | `Float` | Central Cashpay |
+| 21 | cCcpay | `Float` | Central Ccpay |
+| 22 | cClarpay | `Float` | Central Clarpay |
+| 23 | cClpay | `Float` | Central Clpay |
+| 24 | cCollectionTax1 | `Float` | Central Coll Tax1 |
+| 25 | cCollectionTax2 | `Float` | Central Coll Tax2 |
+| 26 | cCollectionTax3 | `Float` | Central Coll Tax3 |
+| 27 | cCollectionTax4 | `Float` | Central Coll Tax4 |
+| 28 | cCollectionTax5 | `Float` | Central Coll Tax5 |
+| 29 | cDailyRunningTotal | `Float` | Central Daily Running Total |
+| 30 | cDeposit | `Float` | Central Deposit |
+| 31 | cExchangeDate | `Date` | Central Xchange Date |
+| 32 | cExchangeRate | `Float` | Central Xchange Rate |
+| 33 | cFiscalInvoiceCurrencyRate | `Float` | Central Fiscal Invoice Currency Rate |
+| 34 | cNet1Amount | `Float` | Central Net1 Amt |
+| 35 | cNet10Amount | `Float` | Central Net10 Amt |
+| 36 | cNet11Amount | `Float` | Central Net11 Amt |
+| 37 | cNet12Amount | `Float` | Central Net12 Amt |
+| 38 | cNet13Amount | `Float` | Central Net13 Amt |
+| 39 | cNet14Amount | `Float` | Central Net14 Amt |
+| 40 | cNet15Amount | `Float` | Central Net15 Amt |
+| 41 | cNet16Amount | `Float` | Central Net16 Amt |
+| 42 | cNet17Amount | `Float` | Central Net17 Amt |
+| 43 | cNet18Amount | `Float` | Central Net18 Amt |
+| 44 | cNet19Amount | `Float` | Central Net19 Amt |
+| 45 | cNet2Amount | `Float` | Central Net2 Amt |
+| 46 | cNet20Amount | `Float` | Central Net20 Amt |
+| 47 | cNet3Amount | `Float` | Central Net3 Amt |
+| 48 | cNet4Amount | `Float` | Central Net4 Amt |
+| 49 | cNet5Amount | `Float` | Central Net5 Amt |
+| 50 | cNet6Amount | `Float` | Central Net6 Amt |
+| 51 | cNet7Amount | `Float` | Central Net7 Amt |
+| 52 | cNet8Amount | `Float` | Central Net8 Amt |
+| 53 | cNet9Amount | `Float` | Central Net9 Amt |
+| 54 | cPaidout | `Float` | Central Paidout |
+| 55 | cPerpetualAmount | `Float` | Central Perpetual Amount |
+| 56 | cPnet1Amount | `Float` | Central Pnet1 Amt |
+| 57 | cPnet10Amount | `Float` | Central Pnet10 Amt |
+| 58 | cPnet11Amount | `Float` | Central Pnet11 Amt |
+| 59 | cPnet12Amount | `Float` | Central Pnet12 Amt |
+| 60 | cPnet13Amount | `Float` | Central Pnet13 Amt |
+| 61 | cPnet14Amount | `Float` | Central Pnet14 Amt |
+| 62 | cPnet15Amount | `Float` | Central Pnet15 Amt |
+| 63 | cPnet16Amount | `Float` | Central Pnet16 Amt |
+| 64 | cPnet17Amount | `Float` | Central Pnet17 Amt |
+| 65 | cPnet18Amount | `Float` | Central Pnet18 Amt |
+| 66 | cPnet19Amount | `Float` | Central Pnet19 Amt |
+| 67 | cPnet2Amount | `Float` | Central Pnet2 Amt |
+| 68 | cPnet20Amount | `Float` | Central Pnet20 Amt |
+| 69 | cPnet3Amount | `Float` | Central Pnet3 Amt |
+| 70 | cPnet4Amount | `Float` | Central Pnet4 Amt |
+| 71 | cPnet5Amount | `Float` | Central Pnet5 Amt |
+| 72 | cPnet6Amount | `Float` | Central Pnet6 Amt |
+| 73 | cPnet7Amount | `Float` | Central Pnet7 Amt |
+| 74 | cPnet8Amount | `Float` | Central Pnet8 Amt |
+| 75 | cPnet9Amount | `Float` | Central Pnet9 Amt |
+| 76 | cPtax1Amount | `Float` | Central Ptax1 Amt |
+| 77 | cPtax10Amount | `Float` | Central Ptax10 Amt |
+| 78 | cPtax11Amount | `Float` | Central Ptax11 Amt |
+| 79 | cPtax12Amount | `Float` | Central Ptax12 Amt |
+| 80 | cPtax13Amount | `Float` | Central Ptax13 Amt |
+| 81 | cPtax14Amount | `Float` | Central Ptax14 Amt |
+| 82 | cPtax15Amount | `Float` | Central Ptax15 Amt |
+| 83 | cPtax16Amount | `Float` | Central Ptax16 Amt |
+| 84 | cPtax17Amount | `Float` | Central Ptax17 Amt |
+| 85 | cPtax18Amount | `Float` | Central Ptax18 Amt |
+| 86 | cPtax19Amount | `Float` | Central Ptax19 Amt |
+| 87 | cPtax2Amount | `Float` | Central Ptax2 Amt |
+| 88 | cPtax20Amount | `Float` | Central Ptax20 Amt |
+| 89 | cPtax3Amount | `Float` | Central Ptax3 Amt |
+| 90 | cPtax4Amount | `Float` | Central Ptax4 Amt |
+| 91 | cPtax5Amount | `Float` | Central Ptax5 Amt |
+| 92 | cPtax6Amount | `Float` | Central Ptax6 Amt |
+| 93 | cPtax7Amount | `Float` | Central Ptax7 Amt |
+| 94 | cPtax8Amount | `Float` | Central Ptax8 Amt |
+| 95 | cPtax9Amount | `Float` | Central Ptax9 Amt |
+| 96 | cPtotNonrevNonTaxable | `Float` | Central Ptot Nonrev Nontaxable |
+| 97 | cPtotNonrevTaxable | `Float` | Central Ptot Nonrev Taxable |
+| 98 | cPtotRevenueNonTaxable | `Float` | Central Ptot Rev Nontaxable |
+| 99 | cPtotRevenueTaxable | `Float` | Central Ptot Rev Taxable |
+| 100 | cRealPerpetualAmount | `Float` | Central Real Perpetual Amount |
+| 101 | cTax1Amount | `Float` | Central Tax1 Amt |
+| 102 | cTax2Amount | `Float` | Central Tax2 Amt |
+| 103 | cTaxCode1 | `String` | Central Tax Code 1 |
+| 104 | cTaxCode10 | `String` | Central Tax Code 10 |
+| 105 | cTaxCode11 | `String` | Central Tax Code 11 |
+| 106 | cTaxCode12 | `String` | Central Tax Code 12 |
+| 107 | cTaxCode13 | `String` | Central Tax Code 13 |
+| 108 | cTaxCode14 | `String` | Central Tax Code 14 |
+| 109 | cTaxCode15 | `String` | Central Tax Code 15 |
+| 110 | cTaxCode16 | `String` | Central Tax Code 16 |
+| 111 | cTaxCode17 | `String` | Central Tax Code 17 |
+| 112 | cTaxCode18 | `String` | Central Tax Code 18 |
+| 113 | cTaxCode19 | `String` | Central Tax Code 19 |
+| 114 | cTaxCode2 | `String` | Central Tax Code 2 |
+| 115 | cTaxCode20 | `String` | Central Tax Code 20 |
+| 116 | cTaxCode3 | `String` | Central Tax Code 3 |
+| 117 | cTaxCode4 | `String` | Central Tax Code 4 |
+| 118 | cTaxCode5 | `String` | Central Tax Code 5 |
+| 119 | cTaxCode6 | `String` | Central Tax Code 6 |
+| 120 | cTaxCode7 | `String` | Central Tax Code 7 |
+| 121 | cTaxCode8 | `String` | Central Tax Code 8 |
+| 122 | cTaxCode9 | `String` | Central Tax Code 9 |
+| 123 | cTaxCodeDescription1 | `String` | Central Tax Code Desc 1 |
+| 124 | cTaxCodeDescription10 | `String` | Central Tax Code Desc 10 |
+| 125 | cTaxCodeDescription11 | `String` | Central Tax Code Desc 11 |
+| 126 | cTaxCodeDescription12 | `String` | Central Tax Code Desc 12 |
+| 127 | cTaxCodeDescription13 | `String` | Central Tax Code Desc 13 |
+| 128 | cTaxCodeDescription14 | `String` | Central Tax Code Desc 14 |
+| 129 | cTaxCodeDescription15 | `String` | Central Tax Code Desc 15 |
+| 130 | cTaxCodeDescription16 | `String` | Central Tax Code Desc 16 |
+| 131 | cTaxCodeDescription17 | `String` | Central Tax Code Desc 17 |
+| 132 | cTaxCodeDescription18 | `String` | Central Tax Code Desc 18 |
+| 133 | cTaxCodeDescription19 | `String` | Central Tax Code Desc 19 |
+| 134 | cTaxCodeDescription2 | `String` | Central Tax Code Desc 2 |
+| 135 | cTaxCodeDescription20 | `String` | Central Tax Code Desc 20 |
+| 136 | cTaxCodeDescription3 | `String` | Central Tax Code Desc 3 |
+| 137 | cTaxCodeDescription4 | `String` | Central Tax Code Desc 4 |
+| 138 | cTaxCodeDescription5 | `String` | Central Tax Code Desc 5 |
+| 139 | cTaxCodeDescription6 | `String` | Central Tax Code Desc 6 |
+| 140 | cTaxCodeDescription7 | `String` | Central Tax Code Desc 7 |
+| 141 | cTaxCodeDescription8 | `String` | Central Tax Code Desc 8 |
+| 142 | cTaxCodeDescription9 | `String` | Central Tax Code Desc 9 |
+| 143 | cTax10Amount | `Float` | Central Tax10 Amt |
+| 144 | cTax11Amount | `Float` | Central Tax11 Amt |
+| 145 | cTax12Amount | `Float` | Central Tax12 Amt |
+| 146 | cTax13Amount | `Float` | Central Tax13 Amt |
+| 147 | cTax14Amount | `Float` | Central Tax14 Amt |
+| 148 | cTax15Amount | `Float` | Central Tax15 Amt |
+| 149 | cTax16Amount | `Float` | Central Tax16 Amt |
+| 150 | cTax17Amount | `Float` | Central Tax17 Amt |
+| 151 | cTax18Amount | `Float` | Central Tax18 Amt |
+| 152 | cTax19Amount | `Float` | Central Tax19 Amt |
+| 153 | cTax20Amount | `Float` | Central Tax20 Amt |
+| 154 | cTax3Amount | `Float` | Central Tax3 Amt |
+| 155 | cTax4Amount | `Float` | Central Tax4 Amt |
+| 156 | cTax5Amount | `Float` | Central Tax5 Amt |
+| 157 | cTax6Amount | `Float` | Central Tax6 Amt |
+| 158 | cTax7Amount | `Float` | Central Tax7 Amt |
+| 159 | cTax8Amount | `Float` | Central Tax8 Amt |
+| 160 | cTax9Amount | `Float` | Central Tax9 Amt |
+| 161 | cTotalGross | `Float` | Central Total Gross |
+| 162 | cTotalNet | `Float` | Central Total Net |
+| 163 | cTotalNonTaxable | `Float` | Central Total Nontaxable |
+| 164 | cTotalNonrevNonTaxable | `Float` | Central Tot Nonrev Nontaxable |
+| 165 | cTotalNonrevTaxable | `Float` | Central Tot Nonrev Taxable |
+| 166 | cTotalRevenueNonTaxable | `Float` | Central Tot Rev Nontaxable |
+| 167 | cTotalRevenueTaxable | `Float` | Central Tot Rev Taxable |
+| 168 | cTotalTax | `Float` | Central Total Tax |
+| 169 | cXnet1Amount | `Float` | Central Xnet1 Amt |
+| 170 | cXnet10Amount | `Float` | Central Xnet10 Amt |
+| 171 | cXnet11Amount | `Float` | Central Xnet11 Amt |
+| 172 | cXnet12Amount | `Float` | Central Xnet12 Amt |
+| 173 | cXnet13Amount | `Float` | Central Xnet13 Amt |
+| 174 | cXnet14Amount | `Float` | Central Xnet14 Amt |
+| 175 | cXnet15Amount | `Float` | Central Xnet15 Amt |
+| 176 | cXnet16Amount | `Float` | Central Xnet16 Amt |
+| 177 | cXnet17Amount | `Float` | Central Xnet17 Amt |
+| 178 | cXnet18Amount | `Float` | Central Xnet18 Amt |
+| 179 | cXnet19Amount | `Float` | Central Xnet19 Amt |
+| 180 | cXnet2Amount | `Float` | Central Xnet2 Amt |
+| 181 | cXnet20Amount | `Float` | Central Xnet20 Amt |
+| 182 | cXnet3Amount | `Float` | Central Xnet3 Amt |
+| 183 | cXnet4Amount | `Float` | Central Xnet4 Amt |
+| 184 | cXnet5Amount | `Float` | Central Xnet5 Amt |
+| 185 | cXnet6Amount | `Float` | Central Xnet6 Amt |
+| 186 | cXnet7Amount | `Float` | Central Xnet7 Amt |
+| 187 | cXnet8Amount | `Float` | Central Xnet8 Amt |
+| 188 | cXnet9Amount | `Float` | Central Xnet9 Amt |
+| 189 | cXtax1Amount | `Float` | Central Xtax1 Amt |
+| 190 | cXtax10Amount | `Float` | Central Xtax10 Amt |
+| 191 | cXtax11Amount | `Float` | Central Xtax11 Amt |
+| 192 | cXtax12Amount | `Float` | Central Xtax12 Amt |
+| 193 | cXtax13Amount | `Float` | Central Xtax13 Amt |
+| 194 | cXtax14Amount | `Float` | Central Xtax14 Amt |
+| 195 | cXtax15Amount | `Float` | Central Xtax15 Amt |
+| 196 | cXtax16Amount | `Float` | Central Xtax16 Amt |
+| 197 | cXtax17Amount | `Float` | Central Xtax17 Amt |
+| 198 | cXtax18Amount | `Float` | Central Xtax18 Amt |
+| 199 | cXtax19Amount | `Float` | Central Xtax19 Amt |
+| 200 | cXtax2Amount | `Float` | Central Xtax2 Amt |
+| 201 | cXtax20Amount | `Float` | Central Xtax20 Amt |
+| 202 | cXtax3Amount | `Float` | Central Xtax3 Amt |
+| 203 | cXtax4Amount | `Float` | Central Xtax4 Amt |
+| 204 | cXtax5Amount | `Float` | Central Xtax5 Amt |
+| 205 | cXtax6Amount | `Float` | Central Xtax6 Amt |
+| 206 | cXtax7Amount | `Float` | Central Xtax7 Amt |
+| 207 | cXtax8Amount | `Float` | Central Xtax8 Amt |
+| 208 | cXtax9Amount | `Float` | Central Xtax9 Amt |
+| 209 | cashRegisterId | `String` | Cash Register ID |
+| 210 | cashRegisterInvNumber | `Float` | Internal sequence number for the Cash Register ID. |
+| 211 | cashTotal | `Float` | Total paid in cash |
+| 212 | cashierID | `Float` | Cashier ID |
+| 213 | centralTaxRate1 | `Float` | Central Tax Rate 1 |
+| 214 | centralTaxRate10 | `Float` | Central Tax Rate 10 |
+| 215 | centralTaxRate11 | `Float` | Central Tax Rate 11 |
+| 216 | centralTaxRate12 | `Float` | Central Tax Rate 12 |
+| 217 | centralTaxRate13 | `Float` | Central Tax Rate 13 |
+| 218 | centralTaxRate14 | `Float` | Central Tax Rate 14 |
+| 219 | centralTaxRate15 | `Float` | Central Tax Rate 15 |
+| 220 | centralTaxRate16 | `Float` | Central Tax Rate 16 |
+| 221 | centralTaxRate17 | `Float` | Central Tax Rate 17 |
+| 222 | centralTaxRate18 | `Float` | Central Tax Rate 18 |
+| 223 | centralTaxRate19 | `Float` | Central Tax Rate 19 |
+| 224 | centralTaxRate2 | `Float` | Central Tax Rate 2 |
+| 225 | centralTaxRate20 | `Float` | Central Tax Rate 20 |
+| 226 | centralTaxRate3 | `Float` | Central Tax Rate 3 |
+| 227 | centralTaxRate4 | `Float` | Central Tax Rate 4 |
+| 228 | centralTaxRate5 | `Float` | Central Tax Rate 5 |
+| 229 | centralTaxRate6 | `Float` | Central Tax Rate 6 |
+| 230 | centralTaxRate7 | `Float` | Central Tax Rate 7 |
+| 231 | centralTaxRate8 | `Float` | Central Tax Rate 8 |
+| 232 | centralTaxRate9 | `Float` | Central Tax Rate 9 |
+| 233 | city | `String` | City |
+| 234 | cityLedgerYN | `String` | City Ledger YN |
+| 235 | clTrxNumber | `Float` | Internal number given to the direct bill payment in financial_transactions. |
+| 236 | collectionAgentTotalTax1 | `Float` | Collection Agent Total Tax 1 |
+| 237 | collectionAgentTotalTax2 | `Float` | Collection Agent Total Tax 2 |
+| 238 | collectionAgentTotalTax3 | `Float` | Collection Agent Total Tax 3 |
+| 239 | collectionAgentTotalTax4 | `Float` | Collection Agent Total Tax 4 |
+| 240 | collectionAgentTotalTax5 | `Float` | Collection Agent Total Tax 5 |
+| 241 | companyFinancialValue | `String` | The financial value of the company. |
+| 242 | companyName | `String` | Company Name |
+| 243 | companyType | `String` | The type of legal entity / company e.g. Individual Micro enterprise etc. |
+| 244 | compressBillNo | `String` | To store the Compressed Bill No. and Converted Bill number information |
+| 245 | creditBillGeneratedYN | `String` | Indicates if a credit bill has been generated for this folio. |
+| 246 | creditBillNumber | `Float` | Credit Bill Number |
+| 247 | creditCardTotal | `Float` | Total paid in the form of credit cards. |
+| 248 | customNumber1 | `String` | Custom Number 1 |
+| 249 | customNumber2 | `String` | Custom Number 2 |
+| 250 | customNumber3 | `String` | Custom Number 3 |
+| 251 | customNumber4 | `String` | Custom Number 4 |
+| 252 | customNumber5 | `String` | Custom Number 5 |
+| 253 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 254 | dailyRunningTotal | `Float` | Daily running total. |
+| 255 | deletedFlag | `String` | Deleted Flag |
+| 256 | deposit | `Float` | Total deposits. |
+| 257 | depositReqReceiptNumber | `Float` | Deposit Req Receipt Number |
+| 258 | documentCode | `String` | Unique Document Code |
+| 259 | documentType | `String` | Document Type |
+| 260 | eArchiveEttnNumber | `String` | Unique ETTN number for an E Archive invoice. |
+| 261 | eArchiveNumber | `String` | E Archive number. |
+| 262 | eArchiveReportNo | `String` | E Archive report number provided by external system e.g. PROTEL. |
+| 263 | eArchiveStatus | `String` | E Archive status. |
+| 264 | eInvoiceNumber | `String` | E-Invoice Number |
+| 265 | eInvoiceStatus | `String` | E-Invoice number received from Portal+. This number be updated via Web Service call from Portal+. |
+| 266 | fiscalBillCheckDigit | `Float` | Fiscal Bill Check Digit |
+| 267 | fiscalBillGenerationDate | `Date` | Fiscal Bill Generation Date |
+| 268 | fiscalBillGenerationTime | `String` | Fiscal Bill Generation Time |
+| 269 | fiscalBillNumber | `String` | Fiscal Bill Number |
+| 270 | fiscalInvoiceCurrency | `String` | Currency Code used by and sent to the Fiscal Service. |
+| 271 | fiscalInvoiceCurrencyRate | `Float` | Exchange Rate of the Fiscal Invoice currency for settlement on the bill generation date. |
+| 272 | fiscalSessionNo | `String` | Session number generated by the fiscal printer. This numbers gets reset during EOD. |
+| 273 | fiscalUnitControlCode | `String` | Fiscal Unit Control Code |
+| 274 | folioAddress | `String` | Folio Full Address. |
+| 275 | folioAddressCorrectedYn | `String` | Indicates if the folio header was corrected. |
+| 276 | folioAttachmentLinkId | `Float` | Folio Attachment Link ID |
+| 277 | folioAttachmentStatus | `Float` | Folio Attachment Status |
+| 278 | folioNo | `Float` | Folio Number |
+| 279 | folioStyle | `String` | Folio Style |
+| 280 | folioTaxSeqNumber | `Float` | Folio Tax Sequence No |
+| 281 | folioTime | `String` | Folio Time |
+| 282 | folioType | `String` | Folio Type |
+| 283 | folioType1 | `String` | Folio Type 1 |
+| 284 | folioTypeJoin | `String` | Folio Type Join |
+| 285 | folioView | `Float` | Folio View |
+| 286 | forexTaxYn | `String` | Populate as Y for transactions posted with application settings 1)Currency Exchange Tax and 2)Currency Exchange Offset. |
+| 287 | fullFolioNo | `String` | Full Folio Number |
+| 288 | hasWatermarkYn | `String` | If PERMANENT FOLIO STORAGE is active this flag indicates whether the PDF file has the "Copy" watermark. |
+| 289 | hotelName | `String` | Hotel name of the property at the time of bill generation. |
+| 290 | insTimestamp | `DateTime` | Timestamp to capture the exact order of inserts. |
+| 291 | insertDate | `DateTime` | Insert Date |
+| 292 | invoiceNumber | `Float` | Invoice Number |
+| 293 | jRNUpdateDate | `Date` | JRN Update Date |
+| 294 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 295 | lastSignature | `String` | Last Signature |
+| 296 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 297 | nRBusinessID | `String` | Business ID |
+| 298 | nafApeHotelCode | `String` | NAF/APE code of the hotel at the time of bill generation. |
+| 299 | nameId | `Float` | Name ID |
+| 300 | nameTaxType | `String` | Name Tax Type |
+| 301 | netAmount1 | `Float` | Net Amount 1 |
+| 302 | netAmount10 | `Float` | Net Amount 10 |
+| 303 | netAmount11 | `Float` | Net Amount 11 |
+| 304 | netAmount12 | `Float` | Net Amount 12 |
+| 305 | netAmount13 | `Float` | Net Amount 13 |
+| 306 | netAmount14 | `Float` | Net Amount 14 |
+| 307 | netAmount15 | `Float` | Net Amount 15 |
+| 308 | netAmount16 | `Float` | Net Amount 16 |
+| 309 | netAmount17 | `Float` | Net Amount 17 |
+| 310 | netAmount18 | `Float` | Net Amount 18 |
+| 311 | netAmount19 | `Float` | Net Amount 19 |
+| 312 | netAmount2 | `Float` | Net Amount 2 |
+| 313 | netAmount20 | `Float` | Net Amount 20 |
+| 314 | netAmount3 | `Float` | Net Amount 3 |
+| 315 | netAmount4 | `Float` | Net Amount 4 |
+| 316 | netAmount5 | `Float` | Net Amount 5 |
+| 317 | netAmount6 | `Float` | Net Amount 6 |
+| 318 | netAmount7 | `Float` | Net Amount 7 |
+| 319 | netAmount8 | `Float` | Net Amount 8 |
+| 320 | netAmount9 | `Float` | Net Amount 9 |
+| 321 | numberOfPages | `Float` | Number of pages for a given bill. |
+| 322 | operaFiscalFolioStatus | `String` | This coulumn is used to store the status of Fiscal Folio /Payload Generation. The values will be SUCCESS - Payload has been sent successfully OFFLINE - User confirmed to generate Offline Folio i.e. Folio will be generated but Fiscal Folio/Payload not generated FAILURE - User do not want to create OFFLINE FOLIO but as FISCAL service is not available so the status is FAILURE i.e. in this case VOID Folio generated with FAILURE Fiscal Folio Status BLANK/NULL - Fiscal Printing is turned off or Past data after the upgrade. |
+| 323 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 324 | pageNumber | `Float` | Stores the page number within the bill generation. |
+| 325 | palmVideoFlag | `String` | Indicator to identify if the bill was generated from Video checkout or PALM.  (V->Video  P->PALM). |
+| 326 | partnerFiscalFolioStatus | `String` | Partner Fiscal Folio Status |
+| 327 | payeeAddress | `String` | Payee Address |
+| 328 | payeeCountry | `String` | Payee Country |
+| 329 | payeeFirstName | `String` | Payee First Name |
+| 330 | payeeLastName | `String` | Payee Last Name |
+| 331 | payeeName | `String` | Payee Name used for signature generation. |
+| 332 | payeeNameID | `Float` | Payee Name ID |
+| 333 | payeePostalCode | `String` | Payee Postal Code |
+| 334 | payeeTaxID1 | `String` | Payee Tax ID 1 |
+| 335 | payeeTaxID2 | `String` | Payee Tax ID 2 |
+| 336 | payeeZipCode | `String` | Payee Zip Code used for signature generation. |
+| 337 | paymentDate | `Date` | Payment Date |
+| 338 | perpetualAmount | `Float` | Perpetual Amount. |
+| 339 | pnet1Amt | `Float` | Parallel Net1 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 340 | pnet10Amt | `Float` | Parallel Net10 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 341 | pnet11Amt | `Float` | Parallel Net11 extension to the existing pnet amount. |
+| 342 | pnet12Amt | `Float` | Parallel Net12 extension to the existing pnet amount. |
+| 343 | pnet13Amt | `Float` | Parallel Net13 extension to the existing pnet amount. |
+| 344 | pnet14Amt | `Float` | Parallel Net14 extension to the existing pnet amount. |
+| 345 | pnet15Amt | `Float` | Parallel Net15 extension to the existing pnet amount. |
+| 346 | pnet16Amt | `Float` | Parallel Net16 extension to the existing pnet amount. |
+| 347 | pnet17Amt | `Float` | Parallel Net17 extension to the existing pnet amount. |
+| 348 | pnet18Amt | `Float` | Parallel Net18 extension to the existing pnet amount. |
+| 349 | pnet19Amt | `Float` | Parallel Net19 extension to the existing pnet amount. |
+| 350 | pnet2Amt | `Float` | Parallel Net2 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 351 | pnet20Amt | `Float` | Parallel Net20 extension to the existing pnet amount. |
+| 352 | pnet3Amt | `Float` | Parallel Net3 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 353 | pnet4Amt | `Float` | Parallel Net4 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 354 | pnet5Amt | `Float` | Parallel Net5 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 355 | pnet6Amt | `Float` | Parallel Net6 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 356 | pnet7Amt | `Float` | Parallel Net7 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 357 | pnet8Amt | `Float` | Parallel Net8 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 358 | pnet9Amt | `Float` | Parallel Net9 amount of the transaction for which the tax1 code is attached as one of the taxes. |
+| 359 | postitSequenceNumber | `Float` | Postit Sequence Number |
+| 360 | postitYN | `String` | Postit YN |
+| 361 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 362 | printerQueueName | `String` | Printer Queue Name |
+| 363 | profileTypeCode | `String` | Profile Type Code |
+| 364 | promotionalText1 | `String` | Text returned by the credit card company |
+| 365 | promotionalText2 | `String` | Text returned by the credit card company |
+| 366 | property | `String` | Code to uniquely identify the Property |
+| 367 | propertyBillPrefix | `String` | Property Bill Prefix |
+| 368 | propertyTaxNumber | `String` | Property Tax Number |
+| 369 | ptax1Amt | `Float` | Parallel Total tax1 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 370 | ptax10Amt | `Float` | Parallel Total tax10 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 371 | ptax11Amt | `Float` | Parallel Total tax11 amount extension to the existing ptax amounts. |
+| 372 | ptax12Amt | `Float` | Parallel Total tax12 amount extension to the existing ptax amounts. |
+| 373 | ptax13Amt | `Float` | Parallel Total tax13 amount extension to the existing ptax amounts. |
+| 374 | ptax14Amt | `Float` | Parallel Total tax14 amount extension to the existing ptax amounts. |
+| 375 | ptax15Amt | `Float` | Parallel Total tax15 amount extension to the existing ptax amounts. |
+| 376 | ptax16Amt | `Float` | Parallel Total tax16 amount extension to the existing ptax amounts. |
+| 377 | ptax17Amt | `Float` | Parallel Total tax17 amount extension to the existing ptax amounts. |
+| 378 | ptax18Amt | `Float` | Parallel Total tax18 amount extension to the existing ptax amounts. |
+| 379 | ptax19Amt | `Float` | Parallel Total tax19 amount extension to the existing ptax amounts. |
+| 380 | ptax2Amt | `Float` | Parallel Total tax2 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 381 | ptax20Amt | `Float` | Parallel Total tax20 amount extension to the existing ptax amounts. |
+| 382 | ptax3Amt | `Float` | Parallel Total tax3 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 383 | ptax4Amt | `Float` | Parallel Total tax4 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 384 | ptax5Amt | `Float` | Parallel Total tax5 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 385 | ptax6Amt | `Float` | Parallel Total tax6 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 386 | ptax7Amt | `Float` | Parallel Total tax7 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 387 | ptax8Amt | `Float` | Parallel Total tax8 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 388 | ptax9Amt | `Float` | Parallel Total tax9 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 389 | ptotNonrevNonTaxable | `Float` | Parallel total non revenue amount that is not taxable. |
+| 390 | ptotNonrevTaxable | `Float` | Parallel total non revenue amount that is taxable. |
+| 391 | ptotRevNonTaxable | `Float` | Parallel total revenue amount that is not taxable. |
+| 392 | ptotRevTaxable | `Float` | Parallel total revenue amount that is taxable. |
+| 393 | realPerpetualAmount | `Float` | Real perpetual amount at the time of generating the bill. |
+| 394 | reservationNameId | `Float` | Resv Name ID |
+| 395 | resortCity | `String` | City of the hotel at the time of bill generation. |
+| 396 | resortCountry | `String` | Country of the hotel at the time of bill generation. |
+| 397 | resortFullAddress | `String` | Property Full Address |
+| 398 | resortZipcodeCode | `String` | Zipcode of the hotel at the time of bill generation. |
+| 399 | revisionNo | `Float` | Revision Number |
+| 400 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 401 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 402 | roomNumber | `String` | Room Number |
+| 403 | seqNumber | `Float` | Sequence No |
+| 404 | signature | `String` | Signature |
+| 405 | signatureKeyVersion | `String` | Signature Key Version |
+| 406 | softwareVersion | `String` | OPERA software version at the time of bill generation. |
+| 407 | tax1RateType | `String` | Tax Rate Type 1 of the bill for which Tax Code 1 is attached as one of the taxes. |
+| 408 | tax2RateType | `String` | Tax Rate Type 2 of the bill for which Tax Code 2 is attached as one of the taxes. |
+| 409 | taxAmount1 | `Float` | Tax Amount 1 |
+| 410 | taxAmount10 | `Float` | Tax Amount 10 |
+| 411 | taxAmount11 | `Float` | Tax Amount 11 |
+| 412 | taxAmount12 | `Float` | Tax Amount 12 |
+| 413 | taxAmount13 | `Float` | Tax Amount 13 |
+| 414 | taxAmount14 | `Float` | Tax Amount 14 |
+| 415 | taxAmount15 | `Float` | Tax Amount 15 |
+| 416 | taxAmount16 | `Float` | Tax Amount 16 |
+| 417 | taxAmount17 | `Float` | Tax Amount 17 |
+| 418 | taxAmount18 | `Float` | Tax Amount 18 |
+| 419 | taxAmount19 | `Float` | Tax Amount 19 |
+| 420 | taxAmount2 | `Float` | Tax Amount 2 |
+| 421 | taxAmount20 | `Float` | Tax Amount 20 |
+| 422 | taxAmount3 | `Float` | Tax Amount 3 |
+| 423 | taxAmount4 | `Float` | Tax Amount 4 |
+| 424 | taxAmount5 | `Float` | Tax Amount 5 |
+| 425 | taxAmount6 | `Float` | Tax Amount 6 |
+| 426 | taxAmount7 | `Float` | Tax Amount 7 |
+| 427 | taxAmount8 | `Float` | Tax Amount 8 |
+| 428 | taxAmount9 | `Float` | Tax Amount 9 |
+| 429 | taxCode1 | `String` | Tax Code 1 |
+| 430 | taxCode10 | `String` | Tax Code 10 |
+| 431 | taxCode11 | `String` | Tax Code 11 |
+| 432 | taxCode12 | `String` | Tax Code 12 |
+| 433 | taxCode13 | `String` | Tax Code 13 |
+| 434 | taxCode14 | `String` | Tax Code 14 |
+| 435 | taxCode15 | `String` | Tax Code 15 |
+| 436 | taxCode16 | `String` | Tax Code 16 |
+| 437 | taxCode17 | `String` | Tax Code 17 |
+| 438 | taxCode18 | `String` | Tax Code 18 |
+| 439 | taxCode19 | `String` | Tax Code 19 |
+| 440 | taxCode2 | `String` | Tax Code 2 |
+| 441 | taxCode20 | `String` | Tax Code 20 |
+| 442 | taxCode3 | `String` | Tax Code 3 |
+| 443 | taxCode4 | `String` | Tax Code 4 |
+| 444 | taxCode5 | `String` | Tax Code 5 |
+| 445 | taxCode6 | `String` | Tax Code 6 |
+| 446 | taxCode7 | `String` | Tax Code 7 |
+| 447 | taxCode8 | `String` | Tax Code 8 |
+| 448 | taxCode9 | `String` | Tax Code 9 |
+| 449 | taxCodeDesc1 | `String` | Tax Code Description 1 |
+| 450 | taxCodeDesc10 | `String` | Tax Code Description 10 |
+| 451 | taxCodeDesc11 | `String` | Tax Code Description 11 |
+| 452 | taxCodeDesc12 | `String` | Tax Code Description 12 |
+| 453 | taxCodeDesc13 | `String` | Tax Code Description 13 |
+| 454 | taxCodeDesc14 | `String` | Tax Code Description 14 |
+| 455 | taxCodeDesc15 | `String` | Tax Code Description 15 |
+| 456 | taxCodeDesc16 | `String` | Tax Code Description 16 |
+| 457 | taxCodeDesc17 | `String` | Tax Code Description 17 |
+| 458 | taxCodeDesc18 | `String` | Tax Code Description 18 |
+| 459 | taxCodeDesc19 | `String` | Tax Code Description 19 |
+| 460 | taxCodeDesc2 | `String` | Tax Code Description 2 |
+| 461 | taxCodeDesc20 | `String` | Tax Code Description 20 |
+| 462 | taxCodeDesc3 | `String` | Tax Code Description 3 |
+| 463 | taxCodeDesc4 | `String` | Tax Code Description 4 |
+| 464 | taxCodeDesc5 | `String` | Tax Code Description 5 |
+| 465 | taxCodeDesc6 | `String` | Tax Code Description 6 |
+| 466 | taxCodeDesc7 | `String` | Tax Code Description 7 |
+| 467 | taxCodeDesc8 | `String` | Tax Code Description 8 |
+| 468 | taxCodeDesc9 | `String` | Tax Code Description 9 |
+| 469 | taxId | `String` | Tax ID |
+| 470 | taxRate1 | `Float` | Tax Rate 1 amount of the bill for which Tax Code 1 is attached as one of the taxes. |
+| 471 | taxRate10 | `Float` | Tax Rate 10 amount of the bill for which Tax Code 10  is attached as one of the taxes. |
+| 472 | taxRate11 | `Float` | Tax Rate 11 amount of the bill for which Tax Code 11  is attached as one of the taxes. |
+| 473 | taxRate12 | `Float` | Tax Rate 12 amount of the bill for which Tax Code 12 is attached as one of the taxes. |
+| 474 | taxRate13 | `Float` | Tax Rate 13 amount of the bill for which Tax Code 13 is attached as one of the taxes. |
+| 475 | taxRate14 | `Float` | Tax Rate 14 amount of the bill for which Tax Code 14 is attached as one of the taxes. |
+| 476 | taxRate15 | `Float` | Tax Rate 15 amount of the bill for which Tax Code 15 is attached as one of the taxes. |
+| 477 | taxRate16 | `Float` | Tax Rate 16 amount of the bill for which Tax Code 16 is attached as one of the taxes. |
+| 478 | taxRate17 | `Float` | Tax Rate 17 amount of the bill for which Tax Code 17 is attached as one of the taxes. |
+| 479 | taxRate18 | `Float` | Tax Rate 18 amount of the bill for which Tax Code 18 is attached as one of the taxes. |
+| 480 | taxRate19 | `Float` | Tax Rate 19 amount of the bill for which Tax Code 19 is attached as one of the taxes. |
+| 481 | taxRate2 | `Float` | Tax Rate 2 amount of the bill for which Tax Code 2 is attached as one of the taxes. |
+| 482 | taxRate20 | `Float` | Tax Rate 20 amount of the bill for which Tax Code 20 is attached as one of the taxes. |
+| 483 | taxRate3 | `Float` | Tax Rate 3 amount of the bill for which Tax Code 3 is attached as one of the taxes. |
+| 484 | taxRate4 | `Float` | Tax Rate 4 amount of the bill for which Tax Code 4 is attached as one of the taxes. |
+| 485 | taxRate5 | `Float` | Tax Rate 5 amount of the bill for which Tax Code 5 is attached as one of the taxes. |
+| 486 | taxRate6 | `Float` | Tax Rate 6 amount of the bill for which Tax Code 6 is attached as one of the taxes. |
+| 487 | taxRate7 | `Float` | Tax Rate 7 amount of the bill for which Tax Code 7 is attached as one of the taxes. |
+| 488 | taxRate8 | `Float` | Tax Rate 8 amount of the bill for which Tax Code 8 is attached as one of the taxes. |
+| 489 | taxRate9 | `Float` | Tax Rate 9 amount of the bill for which Tax Code 9 is attached as one of the taxes. |
+| 490 | tax10RateType | `String` | Tax Rate Type 10 of the bill for which Tax Code 10 is attached as one of the taxes. |
+| 491 | tax11RateType | `String` | Tax Rate Type 11 of the bill for which Tax Code 11 is attached as one of the taxes. |
+| 492 | tax12RateType | `String` | Tax Rate Type 12 of the bill for which Tax Code 12 is attached as one of the taxes. |
+| 493 | tax13RateType | `String` | Tax Rate Type 13 of the bill for which Tax Code 13 is attached as one of the taxes. |
+| 494 | tax14RateType | `String` | Tax Rate Type 14 of the bill for which Tax Code 14 is attached as one of the taxes. |
+| 495 | tax15RateType | `String` | Tax Rate Type 15 of the bill for which Tax Code 15 is attached as one of the taxes. |
+| 496 | tax16RateType | `String` | Tax Rate Type 16 of the bill for which Tax Code 16 is attached as one of the taxes. |
+| 497 | tax17RateType | `String` | Tax Rate Type 17 of the bill for which Tax Code 17 is attached as one of the taxes. |
+| 498 | tax18RateType | `String` | Tax Rate Type 18 of the bill for which Tax Code 18 is attached as one of the taxes. |
+| 499 | tax19RateType | `String` | Tax Rate Type 19 of the bill for which Tax Code 19 is attached as one of the taxes. |
+| 500 | tax20RateType | `String` | Tax Rate Type 20 of the bill for which Tax Code 20 is attached as one of the taxes. |
+| 501 | tax3RateType | `String` | Tax Rate Type 3 of the bill for which Tax Code 3 is attached as one of the taxes. |
+| 502 | tax4RateType | `String` | Tax Rate Type 4 of the bill for which Tax Code 4 is attached as one of the taxes. |
+| 503 | tax5RateType | `String` | Tax Rate Type 5 of the bill for which Tax Code 5 is attached as one of the taxes. |
+| 504 | tax6RateType | `String` | Tax Rate Type 6 of the bill for which Tax Code 6 is attached as one of the taxes. |
+| 505 | tax7RateType | `String` | Tax Rate Type 7 of the bill for which Tax Code 7 is attached as one of the taxes. |
+| 506 | tax8RateType | `String` | Tax Rate Type 8 of the bill for which Tax Code 8 is attached as one of the taxes. |
+| 507 | tax9RateType | `String` | Tax Rate Type 9 of the bill for which Tax Code 9 is attached as one of the taxes. |
+| 508 | terminal | `String` | Terminal |
+| 509 | totalGrossAmount | `Float` | Total Gross Amount |
+| 510 | totalNetAmount | `Float` | Total Net Amount |
+| 511 | totalNonRevenueNonTaxableAmount | `Float` | Total non revenue amount that is non taxable. |
+| 512 | totalNonRevenueTaxableAmount | `Float` | Total non revenue amount that is not taxable. |
+| 513 | totalNonTaxableAmount | `Float` | Total non taxable amount. |
+| 514 | totalNonTaxableRevenue | `Float` | Total revenue amount that is non taxable. |
+| 515 | totalPaidOuts | `Float` | Total paid outs. |
+| 516 | totalTax | `Float` | Total Tax |
+| 517 | totalTaxableRevenue | `Float` | Total revenue amount that is taxable. |
+| 518 | transactLastSignatureHash | `String` | Last Signature for Transaction Totals. |
+| 519 | transactSignatureHash | `String` | Signature hash for Transaction Totals. |
+| 520 | transactSignatureKeyVersion | `String` | Signature key version for Transaction Totals. |
+| 521 | transactionSignature | `String` | Transaction Signature Value. |
+| 522 | trxServiceType | `String` | Transaction Service Type |
+| 523 | uDFC01 | `String` | UDFC01 |
+| 524 | uDFC02 | `String` | UDFC02 |
+| 525 | uDFC03 | `String` | UDFC03 |
+| 526 | uDFC04 | `String` | UDFC04 |
+| 527 | uDFC05 | `String` | UDFC05 |
+| 528 | uDFC06 | `String` | UDFC06 |
+| 529 | uDFC07 | `String` | UDFC07 |
+| 530 | uDFC08 | `String` | UDFC08 |
+| 531 | uDFC09 | `String` | UDFC09 |
+| 532 | uDFC10 | `String` | UDFC10 |
+| 533 | uDFC11 | `String` | UDFC11 |
+| 534 | uDFC12 | `String` | UDFC12 |
+| 535 | uDFC13 | `String` | UDFC13 |
+| 536 | uDFC14 | `String` | UDFC14 |
+| 537 | uDFC15 | `String` | UDFC15 |
+| 538 | uDFC16 | `String` | UDFC16 |
+| 539 | uDFC17 | `String` | UDFC17 |
+| 540 | uDFC18 | `String` | UDFC18 |
+| 541 | uDFC19 | `String` | UDFC19 |
+| 542 | uDFC20 | `String` | UDFC20 |
+| 543 | uDFC21 | `String` | UDFC21 |
+| 544 | uDFC22 | `String` | UDFC22 |
+| 545 | uDFC23 | `String` | UDFC23 |
+| 546 | uDFC24 | `String` | UDFC24 |
+| 547 | uDFC25 | `String` | UDFC25 |
+| 548 | uDFC26 | `String` | UDFC26 |
+| 549 | uDFC27 | `String` | UDFC27 |
+| 550 | uDFC28 | `String` | UDFC28 |
+| 551 | uDFC29 | `String` | UDFC29 |
+| 552 | uDFC30 | `String` | UDFC30 |
+| 553 | uDFC31 | `String` | UDFC31 |
+| 554 | uDFC32 | `String` | UDFC32 |
+| 555 | uDFC33 | `String` | UDFC33 |
+| 556 | uDFC34 | `String` | UDFC34 |
+| 557 | uDFC35 | `String` | UDFC35 |
+| 558 | uDFC36 | `String` | UDFC36 |
+| 559 | uDFC37 | `String` | UDFC37 |
+| 560 | uDFC38 | `String` | UDFC38 |
+| 561 | uDFC39 | `String` | UDFC39 |
+| 562 | uDFC40 | `String` | UDFC40 |
+| 563 | uDFD01 | `Date` | UDFD01 |
+| 564 | uDFD02 | `Date` | UDFD02 |
+| 565 | uDFD03 | `Date` | UDFD03 |
+| 566 | uDFD04 | `Date` | UDFD04 |
+| 567 | uDFD05 | `Date` | UDFD05 |
+| 568 | uDFD06 | `Date` | UDFD06 |
+| 569 | uDFD07 | `Date` | UDFD07 |
+| 570 | uDFD08 | `Date` | UDFD08 |
+| 571 | uDFD09 | `Date` | UDFD09 |
+| 572 | uDFD10 | `Date` | UDFD10 |
+| 573 | uDFD11 | `Date` | UDFD11 |
+| 574 | uDFD12 | `Date` | UDFD12 |
+| 575 | uDFD13 | `Date` | UDFD13 |
+| 576 | uDFD14 | `Date` | UDFD14 |
+| 577 | uDFD15 | `Date` | UDFD15 |
+| 578 | uDFD16 | `Date` | UDFD16 |
+| 579 | uDFD17 | `Date` | UDFD17 |
+| 580 | uDFD18 | `Date` | UDFD18 |
+| 581 | uDFD19 | `Date` | UDFD19 |
+| 582 | uDFD20 | `Date` | UDFD20 |
+| 583 | uDFN01 | `Float` | UDFN01 |
+| 584 | uDFN02 | `Float` | UDFN02 |
+| 585 | uDFN03 | `Float` | UDFN03 |
+| 586 | uDFN04 | `Float` | UDFN04 |
+| 587 | uDFN05 | `Float` | UDFN05 |
+| 588 | uDFN06 | `Float` | UDFN06 |
+| 589 | uDFN07 | `Float` | UDFN07 |
+| 590 | uDFN08 | `Float` | UDFN08 |
+| 591 | uDFN09 | `Float` | UDFN09 |
+| 592 | uDFN10 | `Float` | UDFN10 |
+| 593 | uDFN11 | `Float` | UDFN11 |
+| 594 | uDFN12 | `Float` | UDFN12 |
+| 595 | uDFN13 | `Float` | UDFN13 |
+| 596 | uDFN14 | `Float` | UDFN14 |
+| 597 | uDFN15 | `Float` | UDFN15 |
+| 598 | uDFN16 | `Float` | UDFN16 |
+| 599 | uDFN17 | `Float` | UDFN17 |
+| 600 | uDFN18 | `Float` | UDFN18 |
+| 601 | uDFN19 | `Float` | UDFN19 |
+| 602 | uDFN20 | `Float` | UDFN20 |
+| 603 | uDFN21 | `Float` | UDFN21 |
+| 604 | uDFN22 | `Float` | UDFN22 |
+| 605 | uDFN23 | `Float` | UDFN23 |
+| 606 | uDFN24 | `Float` | UDFN24 |
+| 607 | uDFN25 | `Float` | UDFN25 |
+| 608 | uDFN26 | `Float` | UDFN26 |
+| 609 | uDFN27 | `Float` | UDFN27 |
+| 610 | uDFN28 | `Float` | UDFN28 |
+| 611 | uDFN29 | `Float` | UDFN29 |
+| 612 | uDFN30 | `Float` | UDFN30 |
+| 613 | uDFN31 | `Float` | UDFN31 |
+| 614 | uDFN32 | `Float` | UDFN32 |
+| 615 | uDFN33 | `Float` | UDFN33 |
+| 616 | uDFN34 | `Float` | UDFN34 |
+| 617 | uDFN35 | `Float` | UDFN35 |
+| 618 | uDFN36 | `Float` | UDFN36 |
+| 619 | uDFN37 | `Float` | UDFN37 |
+| 620 | uDFN38 | `Float` | UDFN38 |
+| 621 | uDFN39 | `Float` | UDFN39 |
+| 622 | uDFN40 | `Float` | UDFN40 |
+| 623 | updTimestamp | `DateTime` | Timestamp to capture the exact order of updates. |
+| 624 | updateDate | `DateTime` | Update Date |
+| 625 | updateUser | `Float` | Update User |
+| 626 | userID | `Float` | User ID |
+| 627 | userName | `String` | The name of the user who created the record. |
+| 628 | voidNumber | `Float` | Void Number |
+| 629 | voidReason | `String` | This column will store the reason for voiding the folio. |
+| 630 | workingDocId | `Float` | Working Doc ID |
+| 631 | xnet1Amt | `Float` | Xnet1 Amount |
+| 632 | xnet10Amt | `Float` | Xnet10 Amount |
+| 633 | xnet11Amt | `Float` | Xnet11 Amount |
+| 634 | xnet12Amt | `Float` | Xnet12 Amount |
+| 635 | xnet13Amt | `Float` | Xnet13 Amount |
+| 636 | xnet14Amt | `Float` | Xnet14 Amount |
+| 637 | xnet15Amt | `Float` | Xnet15 Amount |
+| 638 | xnet16Amt | `Float` | Xnet16 Amount |
+| 639 | xnet17Amt | `Float` | Xnet17 Amount |
+| 640 | xnet18Amt | `Float` | Xnet18 Amount |
+| 641 | xnet19Amt | `Float` | Xnet19 Amount |
+| 642 | xnet2Amt | `Float` | Xnet2 Amount |
+| 643 | xnet20Amt | `Float` | Xnet20 Amount |
+| 644 | xnet3Amt | `Float` | Xnet3 Amount |
+| 645 | xnet4Amt | `Float` | Xnet4 Amount |
+| 646 | xnet5Amt | `Float` | Xnet5 Amount |
+| 647 | xnet6Amt | `Float` | Xnet6 Amount |
+| 648 | xnet7Amt | `Float` | Xnet7 Amount |
+| 649 | xnet8Amt | `Float` | Xnet8 Amount |
+| 650 | xnet9Amt | `Float` | Xnet9 Amount |
+| 651 | xtax1Amt | `Float` | Total tax1 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 652 | xtax10Amt | `Float` | Total tax10 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 653 | xtax11Amt | `Float` | Total tax11 amount extension to the existing xtax amounts. |
+| 654 | xtax12Amt | `Float` | Total tax12 amount extension to the existing xtax amounts. |
+| 655 | xtax13Amt | `Float` | Total tax13 amount extension to the existing xtax amounts. |
+| 656 | xtax14Amt | `Float` | Total tax14 amount extension to the existing xtax amounts. |
+| 657 | xtax15Amt | `Float` | Total tax15 amount extension to the existing xtax amounts. |
+| 658 | xtax16Amt | `Float` | Total tax16 amount extension to the existing xtax amounts. |
+| 659 | xtax17Amt | `Float` | Total tax17 amount extension to the existing xtax amounts. |
+| 660 | xtax18Amt | `Float` | Total tax18 amount extension to the existing xtax amounts. |
+| 661 | xtax19Amt | `Float` | Total tax19 amount extension to the existing xtax amounts. |
+| 662 | xtax2Amt | `Float` | Total tax2 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 663 | xtax20Amt | `Float` | Total tax20 amount extension to the existing xtax amounts. |
+| 664 | xtax3Amt | `Float` | Total tax3 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 665 | xtax4Amt | `Float` | Total tax4 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 666 | xtax5Amt | `Float` | Total tax5 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 667 | xtax6Amt | `Float` | Total tax6 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 668 | xtax7Amt | `Float` | Total tax7 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 669 | xtax8Amt | `Float` | Total tax8 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
+| 670 | xtax9Amt | `Float` | Total tax9 amount. Tax1 thru Tax10 are the codes that can be given to 10 different tax transaction codes in the setup. |
 
 [⬆ Back to Query](#query)
 
@@ -3888,110 +3888,110 @@
 
 ### FinancialTransactionDetailsExtendedAccountDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountCode | `Float` | Account Code |
-| accountCreditLimitYn | `String` | Indicates if a Credit Limit amount will be required "Y" will take precedence over the credit limit amount on Profile level. |
-| accountName | `String` | Account Name |
-| accountNumber | `String` | Account Number |
-| accountSname | `String` | Name on the account in upper case. |
-| accountStatus | `String` | Status of an account. (Normal Restricted) |
-| accountStatusMsg | `String` | Message prompt when the AR Account is defined as restricted. |
-| accountType | `String` | Account Type |
-| accountTypeFlag | `String` | Account Type Flag |
-| accountTypeId | `Float` | Account Type ID |
-| accountid | `Float` | Accountid |
-| acctflagreasonid | `String` | Acctflagreasonid |
-| activeYN | `String` | Active YN |
-| addressId | `Float` | Address ID |
-| address1 | `String` | Address1 |
-| address2 | `String` | Address2 |
-| address3 | `String` | Address3 |
-| age | `Float` | Age. |
-| agent | `String` | Agent |
-| agentUserId | `Float` | Application User ID of the Account Controller/Agent |
-| agentemployeeid | `Float` | Agentemployeeid |
-| balance | `Float` | Balance on the account. |
-| batchStmtYn | `String` | Include the account in batch statement |
-| beginDate | `Date` | Begin Date |
-| centralAccountType | `String` | Central Account Type |
-| centralBalance | `Float` | Central Balance |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralFlaggedReasonCode | `String` | Central Flagged Reason Code |
-| centralState | `String` | Central State |
-| centralXchangeDate | `Date` | Central Exchange Date |
-| centralXchangeRate | `Float` | Central Exchange Rate |
-| city | `String` | City |
-| company | `String` | Company |
-| contact | `String` | Contact information. |
-| country | `String` | Country |
-| countryCode | `String` | Country Code |
-| countryName | `String` | Country Name |
-| creditLimit | `Float` | Credit Limit |
-| creditLimitUpdatedOn | `DateTime` | Date when the Credit Limit was updated. |
-| currencyCode | `String` | Summary Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debtorName | `String` | Debtor Name |
-| deletedflag | `String` | Deleted Flag |
-| email | `String` | Email |
-| emailAddr | `String` | Email Addr |
-| emailId | `Float` | Email ID |
-| emailOptInYn | `String` | Indicates if the email address can be used to send Statements and Reminders by default. |
-| endDate | `Date` | End Date |
-| fax | `String` | Fax |
-| faxId | `Float` | Fax ID |
-| faxNumber | `String` | Fax Number |
-| flaggedReasonCode | `String` | The flagged reason code from table AR$_FLAGGED_REASONS. |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalAccounttypeid | `Float` | Accounttypeid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastActivityDate | `DateTime` | Date of Last Activity on the AR Account in regards to: transfers between accounts payments applied (not unallocated) un-applied reversed and invoice compressions un-compressions on the account. |
-| lastRemFaxNo | `String` | Fax number to which the last reminder letter was sent. |
-| lastStmtFaxNo | `String` | Fax number to which the last statement was sent. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| lstRemPrtDate | `Date` | Date on which the last reminder letter was printed. |
-| lstRemSent | `Date` | Date on which the last reminder letter was sent. |
-| lstRemText | `String` | Name of the reminder letter |
-| lstStmtNoSent | `Float` | Stores the statement number of the last statement sent for a particular AR account. |
-| lstStmtSent | `DateTime` | Date of Last reminderletter sent |
-| monthEndCalcYn | `String` | If Y the Payment due date calculation begins from the last day of the month of invoice generation date if N  then calculation starts from the day of the invoice generation. |
-| nAAddress1 | `String` | NA Address 1 |
-| nAAddress2 | `String` | NA Address 2 |
-| nAAddress3 | `String` | NA Address 3 |
-| naCity | `String` | Na City |
-| naCountryName | `String` | Na Country Name |
-| naState | `String` | Na State |
-| naStateDescription | `String` | Na State Description |
-| nameId | `Float` | Name ID |
-| numberOfPersons | `Float` | No of persons currently using the account |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| permAccountYN | `String` | Status indicator to show the account as a permanent account. User will not be able to delete the account if it is Y |
-| phone | `String` | Phone |
-| phoneId | `Float` | Phone ID |
-| phoneNumber | `String` | Phone Number |
-| postalCode | `String` | Postal Code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| primaryYn | `String` | Primary Y/N |
-| profileid | `Float` | Profileid |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repStateDescription | `String` | Reporting State Description |
-| revenuePool | `String` | Revenue Pool |
-| state | `String` | State |
-| stateDescription | `String` | State Description |
-| status | `String` | Status |
-| summaryforeigncurrid | `String` | Summaryforeigncurrid |
-| superSearchIndexText | `String` | Super Search Index Text |
-| supplement | `String` | Supplement |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| upperCaseName | `String` | Upper Case Name |
-| zip | `String` | Zip code. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountCode | `Float` | Account Code |
+| 2 | accountCreditLimitYn | `String` | Indicates if a Credit Limit amount will be required "Y" will take precedence over the credit limit amount on Profile level. |
+| 3 | accountName | `String` | Account Name |
+| 4 | accountNumber | `String` | Account Number |
+| 5 | accountSname | `String` | Name on the account in upper case. |
+| 6 | accountStatus | `String` | Status of an account. (Normal Restricted) |
+| 7 | accountStatusMsg | `String` | Message prompt when the AR Account is defined as restricted. |
+| 8 | accountType | `String` | Account Type |
+| 9 | accountTypeFlag | `String` | Account Type Flag |
+| 10 | accountTypeId | `Float` | Account Type ID |
+| 11 | accountid | `Float` | Accountid |
+| 12 | acctflagreasonid | `String` | Acctflagreasonid |
+| 13 | activeYN | `String` | Active YN |
+| 14 | addressId | `Float` | Address ID |
+| 15 | address1 | `String` | Address1 |
+| 16 | address2 | `String` | Address2 |
+| 17 | address3 | `String` | Address3 |
+| 18 | age | `Float` | Age. |
+| 19 | agent | `String` | Agent |
+| 20 | agentUserId | `Float` | Application User ID of the Account Controller/Agent |
+| 21 | agentemployeeid | `Float` | Agentemployeeid |
+| 22 | balance | `Float` | Balance on the account. |
+| 23 | batchStmtYn | `String` | Include the account in batch statement |
+| 24 | beginDate | `Date` | Begin Date |
+| 25 | centralAccountType | `String` | Central Account Type |
+| 26 | centralBalance | `Float` | Central Balance |
+| 27 | centralCreditLimit | `Float` | Central Credit Limit |
+| 28 | centralFlaggedReasonCode | `String` | Central Flagged Reason Code |
+| 29 | centralState | `String` | Central State |
+| 30 | centralXchangeDate | `Date` | Central Exchange Date |
+| 31 | centralXchangeRate | `Float` | Central Exchange Rate |
+| 32 | city | `String` | City |
+| 33 | company | `String` | Company |
+| 34 | contact | `String` | Contact information. |
+| 35 | country | `String` | Country |
+| 36 | countryCode | `String` | Country Code |
+| 37 | countryName | `String` | Country Name |
+| 38 | creditLimit | `Float` | Credit Limit |
+| 39 | creditLimitUpdatedOn | `DateTime` | Date when the Credit Limit was updated. |
+| 40 | currencyCode | `String` | Summary Currency Code |
+| 41 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 42 | debtorName | `String` | Debtor Name |
+| 43 | deletedflag | `String` | Deleted Flag |
+| 44 | email | `String` | Email |
+| 45 | emailAddr | `String` | Email Addr |
+| 46 | emailId | `Float` | Email ID |
+| 47 | emailOptInYn | `String` | Indicates if the email address can be used to send Statements and Reminders by default. |
+| 48 | endDate | `Date` | End Date |
+| 49 | fax | `String` | Fax |
+| 50 | faxId | `Float` | Fax ID |
+| 51 | faxNumber | `String` | Fax Number |
+| 52 | flaggedReasonCode | `String` | The flagged reason code from table AR$_FLAGGED_REASONS. |
+| 53 | inactiveDate | `DateTime` | Inactive Date |
+| 54 | insertDate | `DateTime` | Insert Date |
+| 55 | insertUser | `Float` | Insert User |
+| 56 | internalAccounttypeid | `Float` | Accounttypeid |
+| 57 | jRNUpdateDate | `Date` | JRN Update Date |
+| 58 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 59 | lastActivityDate | `DateTime` | Date of Last Activity on the AR Account in regards to: transfers between accounts payments applied (not unallocated) un-applied reversed and invoice compressions un-compressions on the account. |
+| 60 | lastRemFaxNo | `String` | Fax number to which the last reminder letter was sent. |
+| 61 | lastStmtFaxNo | `String` | Fax number to which the last statement was sent. |
+| 62 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 63 | lstRemPrtDate | `Date` | Date on which the last reminder letter was printed. |
+| 64 | lstRemSent | `Date` | Date on which the last reminder letter was sent. |
+| 65 | lstRemText | `String` | Name of the reminder letter |
+| 66 | lstStmtNoSent | `Float` | Stores the statement number of the last statement sent for a particular AR account. |
+| 67 | lstStmtSent | `DateTime` | Date of Last reminderletter sent |
+| 68 | monthEndCalcYn | `String` | If Y the Payment due date calculation begins from the last day of the month of invoice generation date if N  then calculation starts from the day of the invoice generation. |
+| 69 | nAAddress1 | `String` | NA Address 1 |
+| 70 | nAAddress2 | `String` | NA Address 2 |
+| 71 | nAAddress3 | `String` | NA Address 3 |
+| 72 | naCity | `String` | Na City |
+| 73 | naCountryName | `String` | Na Country Name |
+| 74 | naState | `String` | Na State |
+| 75 | naStateDescription | `String` | Na State Description |
+| 76 | nameId | `Float` | Name ID |
+| 77 | numberOfPersons | `Float` | No of persons currently using the account |
+| 78 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 79 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 80 | permAccountYN | `String` | Status indicator to show the account as a permanent account. User will not be able to delete the account if it is Y |
+| 81 | phone | `String` | Phone |
+| 82 | phoneId | `Float` | Phone ID |
+| 83 | phoneNumber | `String` | Phone Number |
+| 84 | postalCode | `String` | Postal Code |
+| 85 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 86 | primaryYn | `String` | Primary Y/N |
+| 87 | profileid | `Float` | Profileid |
+| 88 | property | `String` | Code to uniquely identify the Property |
+| 89 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 90 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 91 | repStateDescription | `String` | Reporting State Description |
+| 92 | revenuePool | `String` | Revenue Pool |
+| 93 | state | `String` | State |
+| 94 | stateDescription | `String` | State Description |
+| 95 | status | `String` | Status |
+| 96 | summaryforeigncurrid | `String` | Summaryforeigncurrid |
+| 97 | superSearchIndexText | `String` | Super Search Index Text |
+| 98 | supplement | `String` | Supplement |
+| 99 | updateDate | `DateTime` | Update Date |
+| 100 | updateUser | `Float` | Update User |
+| 101 | upperCaseName | `String` | Upper Case Name |
+| 102 | zip | `String` | Zip code. |
 
 [⬆ Back to Query](#query)
 
@@ -3999,270 +3999,270 @@
 
 ### FinancialTransactionDetailsExtendedPropertyPropertyDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| property | `String` | The property that the record belongs to |
-| aRAccountNoFormat | `String` | Number format of AR account no. |
-| aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
-| aRAgent | `String` | Default Account Type for an Agent for the Property |
-| aRBalanceTrxCode | `String` | Internal |
-| aRCompany | `String` | Default Account Type for a Company for the Property |
-| aRCreditTrxCode | `String` | Internal |
-| aRGroups | `String` | Default Account Type for a Group for the Property |
-| aRIndividuals | `String` | Default Account Type for Individual for the Property |
-| aRSettleCode | `String` | Internal |
-| aRTypewriter | `String` | Internal |
-| accessCode | `String` | Access Code |
-| accessibleRooms | `Float` | Number of handicapped rooms. |
-| agingLevel1 | `Float` | Aging bucket 1 |
-| agingLevel2 | `Float` | Aging bucket 2 |
-| agingLevel3 | `Float` | Aging bucket 3 |
-| agingLevel4 | `Float` | Aging bucket 4 |
-| agingLevel5 | `Float` | Aging bucket 3 |
-| airport | `String` | The Airport Code for the airport near the property |
-| airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
-| airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
-| allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
-| allowancePeriodAdj | `String` | Period for the allowance |
-| awardsTimeout | `Float` | Internal |
-| ballroomArea | `String` | Ball Room Area |
-| ballroomSeats | `Float` | No of Ballroom Seats |
-| baseLanguage | `String` | The base language of the Hotel |
-| block | `String` | It contains the reservation type to be used when making group block |
-| brandCode | `String` | Brand Code of the property. |
-| budgetMonth | `Float` | Financial Year of the Property |
-| businessDate | `Date` | The date this resort becomes valid for use by the system |
-| businessID | `String` | Value for the parameter. |
-| businessRegistrationCode | `String` | Value for the parameter. |
-| cROCODE | `String` | Code for the CRO |
-| cashShiftDrop | `String` | Internal |
-| cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
-| cateringCurrencyFormat | `String` | Catering currency format. |
-| centralXchangeDate | `Date` | Central  Exchange Date |
-| centralXchangeRate | `Float` | Central  Exchange Rate |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralCurrencyCode | `String` | Central Currency Code |
-| centralCurrencyDescription | `String` | Central Currency Description |
-| centralDblRate2 | `Float` | Central Double Rate2 |
-| centralDblRate1 | `Float` | Central Double Rate1 |
-| centralPasserbyMarket | `String` | Central Passerby Market |
-| centralPasserbySource | `String` | Central Passerby Source |
-| centralPropertyType | `String` | Central Property Type |
-| centralSglRate1 | `Float` | Central Sgl Rate1 |
-| centralSglRate2 | `Float` | Central Sgl Rate 2 |
-| centralState | `String` | Central State |
-| centralStateDescription | `String` | Central State Description |
-| centralSuiRate1 | `Float` | Central Sui Rate1 |
-| centralSuiRate2 | `Float` | Central Sui Rate 2 |
-| centralTplRate1 | `Float` | Central Tpl Rate1 |
-| centralTplRate2 | `Float` | Central Tpl Rate 2 |
-| centralWarningAmount | `Float` | Central Warning Amount |
-| chainCode | `String` | Chain Code for the chain to which the property belongs |
-| chainDescription | `String` | The description of this chain. |
-| chainMode | `String` | Chain Mode |
-| checkExgPaidout | `String` | Internal |
-| checkOutTime | `DateTime` | The Hotel official check out time |
-| checkShiftDrop | `String` | Internal |
-| checkTrxcode | `String` | Internal |
-| checkInTime | `DateTime` | The Hotel official check intime |
-| city | `String` | The physical city in which this property resides. |
-| cityDescription | `String` | City Description |
-| comAddress | `String` | Internal |
-| comMethod | `String` | Internal |
-| comNameXrefId | `Float` | Internal |
-| companyAddressType | `String` | Internal |
-| companyPhoneType | `String` | Internal |
-| configurationMode | `String` | Internal |
-| confirmRegcardPrinter | `String` | Internal |
-| connectingRooms | `Float` | Number of connecting rooms. |
-| contacts | `String` | The unique name of application user |
-| copies | `Float` | Number of copies to be printed |
-| country | `String` | Country name. |
-| countryCode | `String` | The name of the country in which this property resides. |
-| countryMode | `String` | Value for the parameter. |
-| creditLimit | `Float` | The default credit limit for guests. |
-| currencyCode | `String` | Currency Code. |
-| currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
-| currencyDescription | `String` | A description of this currency. |
-| currencyFormat | `String` | Format for the local currency. |
-| curtainColor | `String` | Color that of the background |
-| dSI | `Float` | DSI |
-| dateForAging | `String` | Date the aging should begin |
-| dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
-| decimalPlaces | `Float` | Number of places for the default currency |
-| decimalSeparator | `String` | Type of decimal separator |
-| decimals | `Float` | Number of decimals to designate currency |
-| defaultFolioStyle | `Float` | Folio style to be used for all guests |
-| defaultGuestAddress | `String` | Default guest address format. |
-| defaultMembershipType | `String` | Future use |
-| defaultPostingRoom | `String` | Future use |
-| defaultPropertyAddress | `String` | Default property address format. |
-| defaultRateCode | `String` | Future use |
-| defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
-| defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
-| defaultRegistrationCard | `String` | Default registration card for the property. |
-| defaultReservationType | `String` | The Default reservation type for this property |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerTrxCode | `String` | Future use |
-| destinationId | `String` | Destination ID |
-| dfltPkgTranCode | `String` | Future use |
-| dfltTranCodeRateCode | `String` | Future use |
-| directions | `String` | Internal |
-| dirsales | `String` | Future use |
-| disableLoginYN | `String` | LOGIN into the application is disabled. |
-| doubleRooms | `Float` | Number of double rooms. |
-| downloadRestYN | `String` | Download Rest YN |
-| dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
-| email | `String` | Email id for the property. |
-| endDate | `Date` | Future use. |
-| exchangePostingType | `String` | Default Exchange posting status for the property |
-| executiveFloorNumber | `String` | Floor number of executive floor. |
-| expHotelCode | `String` | Hotel code used for third party exports |
-| extExpFileLocation | `String` | Future use |
-| extPropertyCode | `String` | Future use |
-| externalSCYN | `String` | Indicates that the property uses an external SC system. |
-| familyRooms | `Float` | Number of family rooms. |
-| faxNoFormat | `String` | Fax number formats. |
-| faxNumber | `String` | The fax phone number |
-| fiscalEndDate | `Date` | Future use |
-| fiscalPeriodType | `String` | Future use |
-| fiscalStartDate | `Date` | Future use |
-| fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
-| fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
-| flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
-| flowCode | `String` | Future use |
-| fnsTier | `String` | Property Free Nights Stay Tier. |
-| folioLanguage1 | `String` | Other languages |
-| folioLanguage2 | `String` | Other languages |
-| folioLanguage3 | `String` | Other languages |
-| folioLanguage4 | `String` | Other languages |
-| genmgr | `String` | Future use |
-| groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
-| guestLookupTimeout | `Float` | Future use |
-| guestRoomElevators | `Float` | Number of guest elevators. |
-| guestRoomFloors | `Float` | Total of guest rooms floors. |
-| hotelCode | `String` | Future use |
-| hotelFC | `String` | Future use |
-| hotelID | `String` | Hotel id |
-| hotelType | `String` | Future use |
-| iMGDirectionID | `Float` | Future use |
-| iMGHotelID | `Float` | Future use |
-| iMGMapID | `Float` | Future use |
-| inactiveDaysForGuestProfile | `Float` | Future use |
-| inactiveFlag | `String` | Inactive Flag |
-| individualAddressType | `String` | Future use |
-| individualPhoneType | `String` | Future use |
-| individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `Float` | The user that created the record |
-| intTaxIncludedYN | `String` | Int Tax Included YN |
-| inventoryYN | `String` | Future use |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
-| latitude | `Float` | Latitude of the property in decimal |
-| leadsend | `String` | Future use |
-| legalOwner | `String` | The owner who owns this property |
-| locationID | `String` | The property that the record belongs to |
-| longDateFormat | `String` | Long date format for the property. |
-| longStayControl | `Float` | The default length of stay |
-| longitude | `Float` | Longitude of the property in decimal |
-| maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
-| maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
-| maxOccupancy | `Float` | Future use |
-| maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
-| mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
-| meetRooms | `Float` | Future use |
-| meetSeats | `Float` | Future use |
-| meetSpace | `Float` | Future use |
-| meetingFC | `String` | Future use |
-| minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
-| nameIdLink | `Float` | Internal |
-| nightAuditCashierID | `String` | Future use |
-| nonSmokingRooms | `Float` | Number of non smoking rooms. |
-| noteDetails | `String` | Notes for the property |
-| numberOfBeds | `Float` | Total number of beds in this property |
-| numberOfFloors | `Float` | Total number of floors in this property |
-| numberOfRooms | `Float` | Number of Rooms |
-| opusCurrencyCode | `String` | Future use |
-| organizationID | `Float` | Organization ID |
-| organizationInternalID | `Float` | Organization Internal ID |
-| ownership | `String` | Future use |
-| packageLoss | `String` | Package Loss code for a particular package |
-| packageProfit | `String` | Package Profit code for a particular Package |
-| parentOrgCode | `String` | Parent Org Code |
-| passerbyMarket | `String` | Market code |
-| passerbySource | `String` | Source code |
-| path | `String` | Path |
-| paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| perReservationRoomLimit | `Float` | Future use |
-| phoneNumber | `String` | The direct dial phone number of this property |
-| postalCode | `String` | The postal code of this property. |
-| primaryKeyID | `Float` | Primary Key ID |
-| proinfoUrl | `String` | URL where property information is located. |
-| propMapUrl | `String` | Property MAP URL. |
-| propPicUrl | `String` | Property picture URL. |
-| propertyCode | `String` | The property that the record belongs to |
-| propertyName | `String` | The name of this property. |
-| propertyType | `String` | Type of resort. |
-| quotedCurrency | `String` | Future use |
-| rNAInsertdate | `DateTime` | RNA Insert Date |
-| rNAUpdatedate | `DateTime` | RNA Update Date |
-| reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| regionCode | `String` | Future use |
-| regionDescription | `String` | Description of the Region. |
-| restaurant | `Float` | Future use |
-| rhythmSheets | `Float` | Total number of Sheets |
-| rhythmTowels | `Float` | Total number of Towels |
-| roomAmenities | `String` | Room amenity. |
-| sGLNum | `String` | Future use |
-| sGLRate1 | `Float` | Future use |
-| sGLRate2 | `Float` | Future use |
-| sUINum | `String` | Future use |
-| sUIRate1 | `Float` | Future use |
-| sUIRate2 | `Float` | Future use |
-| saveProfiles | `Float` | To store number of days before deleting the gest profile |
-| scriptID | `Float` | Future use |
-| season1 | `String` | Future use |
-| season2 | `String` | Future use |
-| season3 | `String` | Future use |
-| season4 | `String` | Future use |
-| season5 | `String` | Future use |
-| sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
-| shopDescription | `String` | Shop description. |
-| shortDateFormat | `String` | Short date format for the property. |
-| singleRooms | `Float` | Number of single rooms. |
-| sourceCommission | `String` | For default commission percentage |
-| state | `String` | The state in which this property is located. |
-| stateDescription | `String` | Description of the state. |
-| street | `String` | The street of the property. |
-| suites | `Float` | Number of suites. |
-| summCurrencyCode | `String` | Internal |
-| tACommission | `String` | For default commission percentage |
-| tPLNum | `String` | Future use |
-| tPLRate1 | `Float` | Future use |
-| tPLRate2 | `Float` | Future use |
-| telephoneNoFormat | `String` | Formats for telephone number |
-| thousandSeparator | `String` | Separator for monetory values |
-| timeFormat | `String` | Default time format for the property. |
-| timeZone | `String` | Time zone region selected by the employee. |
-| tollFree | `String` | Toll free telephone number. |
-| totalRooms | `Float` | Future use |
-| touristNumber | `String` | Tourist Number |
-| translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
-| turnawayCode | `String` | Turnaway code for the property. |
-| twinRooms | `Float` | Number of twin rooms. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
-| vatID | `String` | VAT ID of this property. |
-| videoCheckoutPrinter | `String` | Future use |
-| videoCheckoutStart | `DateTime` | Video check out start time. |
-| videoCheckoutStop | `DateTime` | Video check out end time. |
-| wakeUpDelay | `Float` | Future use |
-| warningAmount | `Float` | Amount at which warning is raised. |
-| web | `String` | Webaddress of the property |
-| weekendDays | `String` | Weekend days for the property. |
-| zeroInvPurDays | `Float` | Internal |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | property | `String` | The property that the record belongs to |
+| 2 | aRAccountNoFormat | `String` | Number format of AR account no. |
+| 3 | aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
+| 4 | aRAgent | `String` | Default Account Type for an Agent for the Property |
+| 5 | aRBalanceTrxCode | `String` | Internal |
+| 6 | aRCompany | `String` | Default Account Type for a Company for the Property |
+| 7 | aRCreditTrxCode | `String` | Internal |
+| 8 | aRGroups | `String` | Default Account Type for a Group for the Property |
+| 9 | aRIndividuals | `String` | Default Account Type for Individual for the Property |
+| 10 | aRSettleCode | `String` | Internal |
+| 11 | aRTypewriter | `String` | Internal |
+| 12 | accessCode | `String` | Access Code |
+| 13 | accessibleRooms | `Float` | Number of handicapped rooms. |
+| 14 | agingLevel1 | `Float` | Aging bucket 1 |
+| 15 | agingLevel2 | `Float` | Aging bucket 2 |
+| 16 | agingLevel3 | `Float` | Aging bucket 3 |
+| 17 | agingLevel4 | `Float` | Aging bucket 4 |
+| 18 | agingLevel5 | `Float` | Aging bucket 3 |
+| 19 | airport | `String` | The Airport Code for the airport near the property |
+| 20 | airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
+| 21 | airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
+| 22 | allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
+| 23 | allowancePeriodAdj | `String` | Period for the allowance |
+| 24 | awardsTimeout | `Float` | Internal |
+| 25 | ballroomArea | `String` | Ball Room Area |
+| 26 | ballroomSeats | `Float` | No of Ballroom Seats |
+| 27 | baseLanguage | `String` | The base language of the Hotel |
+| 28 | block | `String` | It contains the reservation type to be used when making group block |
+| 29 | brandCode | `String` | Brand Code of the property. |
+| 30 | budgetMonth | `Float` | Financial Year of the Property |
+| 31 | businessDate | `Date` | The date this resort becomes valid for use by the system |
+| 32 | businessID | `String` | Value for the parameter. |
+| 33 | businessRegistrationCode | `String` | Value for the parameter. |
+| 34 | cROCODE | `String` | Code for the CRO |
+| 35 | cashShiftDrop | `String` | Internal |
+| 36 | cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
+| 37 | cateringCurrencyFormat | `String` | Catering currency format. |
+| 38 | centralXchangeDate | `Date` | Central  Exchange Date |
+| 39 | centralXchangeRate | `Float` | Central  Exchange Rate |
+| 40 | centralCreditLimit | `Float` | Central Credit Limit |
+| 41 | centralCurrencyCode | `String` | Central Currency Code |
+| 42 | centralCurrencyDescription | `String` | Central Currency Description |
+| 43 | centralDblRate2 | `Float` | Central Double Rate2 |
+| 44 | centralDblRate1 | `Float` | Central Double Rate1 |
+| 45 | centralPasserbyMarket | `String` | Central Passerby Market |
+| 46 | centralPasserbySource | `String` | Central Passerby Source |
+| 47 | centralPropertyType | `String` | Central Property Type |
+| 48 | centralSglRate1 | `Float` | Central Sgl Rate1 |
+| 49 | centralSglRate2 | `Float` | Central Sgl Rate 2 |
+| 50 | centralState | `String` | Central State |
+| 51 | centralStateDescription | `String` | Central State Description |
+| 52 | centralSuiRate1 | `Float` | Central Sui Rate1 |
+| 53 | centralSuiRate2 | `Float` | Central Sui Rate 2 |
+| 54 | centralTplRate1 | `Float` | Central Tpl Rate1 |
+| 55 | centralTplRate2 | `Float` | Central Tpl Rate 2 |
+| 56 | centralWarningAmount | `Float` | Central Warning Amount |
+| 57 | chainCode | `String` | Chain Code for the chain to which the property belongs |
+| 58 | chainDescription | `String` | The description of this chain. |
+| 59 | chainMode | `String` | Chain Mode |
+| 60 | checkExgPaidout | `String` | Internal |
+| 61 | checkOutTime | `DateTime` | The Hotel official check out time |
+| 62 | checkShiftDrop | `String` | Internal |
+| 63 | checkTrxcode | `String` | Internal |
+| 64 | checkInTime | `DateTime` | The Hotel official check intime |
+| 65 | city | `String` | The physical city in which this property resides. |
+| 66 | cityDescription | `String` | City Description |
+| 67 | comAddress | `String` | Internal |
+| 68 | comMethod | `String` | Internal |
+| 69 | comNameXrefId | `Float` | Internal |
+| 70 | companyAddressType | `String` | Internal |
+| 71 | companyPhoneType | `String` | Internal |
+| 72 | configurationMode | `String` | Internal |
+| 73 | confirmRegcardPrinter | `String` | Internal |
+| 74 | connectingRooms | `Float` | Number of connecting rooms. |
+| 75 | contacts | `String` | The unique name of application user |
+| 76 | copies | `Float` | Number of copies to be printed |
+| 77 | country | `String` | Country name. |
+| 78 | countryCode | `String` | The name of the country in which this property resides. |
+| 79 | countryMode | `String` | Value for the parameter. |
+| 80 | creditLimit | `Float` | The default credit limit for guests. |
+| 81 | currencyCode | `String` | Currency Code. |
+| 82 | currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 83 | currencyDescription | `String` | A description of this currency. |
+| 84 | currencyFormat | `String` | Format for the local currency. |
+| 85 | curtainColor | `String` | Color that of the background |
+| 86 | dSI | `Float` | DSI |
+| 87 | dateForAging | `String` | Date the aging should begin |
+| 88 | dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
+| 89 | decimalPlaces | `Float` | Number of places for the default currency |
+| 90 | decimalSeparator | `String` | Type of decimal separator |
+| 91 | decimals | `Float` | Number of decimals to designate currency |
+| 92 | defaultFolioStyle | `Float` | Folio style to be used for all guests |
+| 93 | defaultGuestAddress | `String` | Default guest address format. |
+| 94 | defaultMembershipType | `String` | Future use |
+| 95 | defaultPostingRoom | `String` | Future use |
+| 96 | defaultPropertyAddress | `String` | Default property address format. |
+| 97 | defaultRateCode | `String` | Future use |
+| 98 | defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
+| 99 | defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
+| 100 | defaultRegistrationCard | `String` | Default registration card for the property. |
+| 101 | defaultReservationType | `String` | The Default reservation type for this property |
+| 102 | deletedFlag | `String` | Deleted Flag |
+| 103 | depositLedgerTrxCode | `String` | Future use |
+| 104 | destinationId | `String` | Destination ID |
+| 105 | dfltPkgTranCode | `String` | Future use |
+| 106 | dfltTranCodeRateCode | `String` | Future use |
+| 107 | directions | `String` | Internal |
+| 108 | dirsales | `String` | Future use |
+| 109 | disableLoginYN | `String` | LOGIN into the application is disabled. |
+| 110 | doubleRooms | `Float` | Number of double rooms. |
+| 111 | downloadRestYN | `String` | Download Rest YN |
+| 112 | dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
+| 113 | email | `String` | Email id for the property. |
+| 114 | endDate | `Date` | Future use. |
+| 115 | exchangePostingType | `String` | Default Exchange posting status for the property |
+| 116 | executiveFloorNumber | `String` | Floor number of executive floor. |
+| 117 | expHotelCode | `String` | Hotel code used for third party exports |
+| 118 | extExpFileLocation | `String` | Future use |
+| 119 | extPropertyCode | `String` | Future use |
+| 120 | externalSCYN | `String` | Indicates that the property uses an external SC system. |
+| 121 | familyRooms | `Float` | Number of family rooms. |
+| 122 | faxNoFormat | `String` | Fax number formats. |
+| 123 | faxNumber | `String` | The fax phone number |
+| 124 | fiscalEndDate | `Date` | Future use |
+| 125 | fiscalPeriodType | `String` | Future use |
+| 126 | fiscalStartDate | `Date` | Future use |
+| 127 | fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
+| 128 | fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
+| 129 | flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
+| 130 | flowCode | `String` | Future use |
+| 131 | fnsTier | `String` | Property Free Nights Stay Tier. |
+| 132 | folioLanguage1 | `String` | Other languages |
+| 133 | folioLanguage2 | `String` | Other languages |
+| 134 | folioLanguage3 | `String` | Other languages |
+| 135 | folioLanguage4 | `String` | Other languages |
+| 136 | genmgr | `String` | Future use |
+| 137 | groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
+| 138 | guestLookupTimeout | `Float` | Future use |
+| 139 | guestRoomElevators | `Float` | Number of guest elevators. |
+| 140 | guestRoomFloors | `Float` | Total of guest rooms floors. |
+| 141 | hotelCode | `String` | Future use |
+| 142 | hotelFC | `String` | Future use |
+| 143 | hotelID | `String` | Hotel id |
+| 144 | hotelType | `String` | Future use |
+| 145 | iMGDirectionID | `Float` | Future use |
+| 146 | iMGHotelID | `Float` | Future use |
+| 147 | iMGMapID | `Float` | Future use |
+| 148 | inactiveDaysForGuestProfile | `Float` | Future use |
+| 149 | inactiveFlag | `String` | Inactive Flag |
+| 150 | individualAddressType | `String` | Future use |
+| 151 | individualPhoneType | `String` | Future use |
+| 152 | individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
+| 153 | insertDate | `DateTime` | The date the record was created |
+| 154 | insertUser | `Float` | The user that created the record |
+| 155 | intTaxIncludedYN | `String` | Int Tax Included YN |
+| 156 | inventoryYN | `String` | Future use |
+| 157 | jRNUpdateDate | `Date` | JRN Update Date |
+| 158 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 159 | keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
+| 160 | latitude | `Float` | Latitude of the property in decimal |
+| 161 | leadsend | `String` | Future use |
+| 162 | legalOwner | `String` | The owner who owns this property |
+| 163 | locationID | `String` | The property that the record belongs to |
+| 164 | longDateFormat | `String` | Long date format for the property. |
+| 165 | longStayControl | `Float` | The default length of stay |
+| 166 | longitude | `Float` | Longitude of the property in decimal |
+| 167 | maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
+| 168 | maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
+| 169 | maxOccupancy | `Float` | Future use |
+| 170 | maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
+| 171 | mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
+| 172 | meetRooms | `Float` | Future use |
+| 173 | meetSeats | `Float` | Future use |
+| 174 | meetSpace | `Float` | Future use |
+| 175 | meetingFC | `String` | Future use |
+| 176 | minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
+| 177 | nameIdLink | `Float` | Internal |
+| 178 | nightAuditCashierID | `String` | Future use |
+| 179 | nonSmokingRooms | `Float` | Number of non smoking rooms. |
+| 180 | noteDetails | `String` | Notes for the property |
+| 181 | numberOfBeds | `Float` | Total number of beds in this property |
+| 182 | numberOfFloors | `Float` | Total number of floors in this property |
+| 183 | numberOfRooms | `Float` | Number of Rooms |
+| 184 | opusCurrencyCode | `String` | Future use |
+| 185 | organizationID | `Float` | Organization ID |
+| 186 | organizationInternalID | `Float` | Organization Internal ID |
+| 187 | ownership | `String` | Future use |
+| 188 | packageLoss | `String` | Package Loss code for a particular package |
+| 189 | packageProfit | `String` | Package Profit code for a particular Package |
+| 190 | parentOrgCode | `String` | Parent Org Code |
+| 191 | passerbyMarket | `String` | Market code |
+| 192 | passerbySource | `String` | Source code |
+| 193 | path | `String` | Path |
+| 194 | paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 195 | perReservationRoomLimit | `Float` | Future use |
+| 196 | phoneNumber | `String` | The direct dial phone number of this property |
+| 197 | postalCode | `String` | The postal code of this property. |
+| 198 | primaryKeyID | `Float` | Primary Key ID |
+| 199 | proinfoUrl | `String` | URL where property information is located. |
+| 200 | propMapUrl | `String` | Property MAP URL. |
+| 201 | propPicUrl | `String` | Property picture URL. |
+| 202 | propertyCode | `String` | The property that the record belongs to |
+| 203 | propertyName | `String` | The name of this property. |
+| 204 | propertyType | `String` | Type of resort. |
+| 205 | quotedCurrency | `String` | Future use |
+| 206 | rNAInsertdate | `DateTime` | RNA Insert Date |
+| 207 | rNAUpdatedate | `DateTime` | RNA Update Date |
+| 208 | reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 209 | regionCode | `String` | Future use |
+| 210 | regionDescription | `String` | Description of the Region. |
+| 211 | restaurant | `Float` | Future use |
+| 212 | rhythmSheets | `Float` | Total number of Sheets |
+| 213 | rhythmTowels | `Float` | Total number of Towels |
+| 214 | roomAmenities | `String` | Room amenity. |
+| 215 | sGLNum | `String` | Future use |
+| 216 | sGLRate1 | `Float` | Future use |
+| 217 | sGLRate2 | `Float` | Future use |
+| 218 | sUINum | `String` | Future use |
+| 219 | sUIRate1 | `Float` | Future use |
+| 220 | sUIRate2 | `Float` | Future use |
+| 221 | saveProfiles | `Float` | To store number of days before deleting the gest profile |
+| 222 | scriptID | `Float` | Future use |
+| 223 | season1 | `String` | Future use |
+| 224 | season2 | `String` | Future use |
+| 225 | season3 | `String` | Future use |
+| 226 | season4 | `String` | Future use |
+| 227 | season5 | `String` | Future use |
+| 228 | sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
+| 229 | shopDescription | `String` | Shop description. |
+| 230 | shortDateFormat | `String` | Short date format for the property. |
+| 231 | singleRooms | `Float` | Number of single rooms. |
+| 232 | sourceCommission | `String` | For default commission percentage |
+| 233 | state | `String` | The state in which this property is located. |
+| 234 | stateDescription | `String` | Description of the state. |
+| 235 | street | `String` | The street of the property. |
+| 236 | suites | `Float` | Number of suites. |
+| 237 | summCurrencyCode | `String` | Internal |
+| 238 | tACommission | `String` | For default commission percentage |
+| 239 | tPLNum | `String` | Future use |
+| 240 | tPLRate1 | `Float` | Future use |
+| 241 | tPLRate2 | `Float` | Future use |
+| 242 | telephoneNoFormat | `String` | Formats for telephone number |
+| 243 | thousandSeparator | `String` | Separator for monetory values |
+| 244 | timeFormat | `String` | Default time format for the property. |
+| 245 | timeZone | `String` | Time zone region selected by the employee. |
+| 246 | tollFree | `String` | Toll free telephone number. |
+| 247 | totalRooms | `Float` | Future use |
+| 248 | touristNumber | `String` | Tourist Number |
+| 249 | translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
+| 250 | turnawayCode | `String` | Turnaway code for the property. |
+| 251 | twinRooms | `Float` | Number of twin rooms. |
+| 252 | updateDate | `DateTime` | The date the record was modified |
+| 253 | updateUser | `Float` | The user that modified the record |
+| 254 | vatID | `String` | VAT ID of this property. |
+| 255 | videoCheckoutPrinter | `String` | Future use |
+| 256 | videoCheckoutStart | `DateTime` | Video check out start time. |
+| 257 | videoCheckoutStop | `DateTime` | Video check out end time. |
+| 258 | wakeUpDelay | `Float` | Future use |
+| 259 | warningAmount | `Float` | Amount at which warning is raised. |
+| 260 | web | `String` | Webaddress of the property |
+| 261 | weekendDays | `String` | Weekend days for the property. |
+| 262 | zeroInvPurDays | `Float` | Internal |
 
 [⬆ Back to Query](#query)
 
@@ -4270,185 +4270,185 @@
 
 ### FinancialTransactionDetailsExtendedRoomDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accessible | `String` | Accessible |
-| areaF | `Float` | Area in sqft |
-| areaM | `Float` | Area in sqm |
-| assignAssignStatus | `String` | Assign Assign Status |
-| assignDate | `DateTime` | Room assignment date |
-| assignReasonDesc | `String` | Assign Reason Desc |
-| assignType | `String` | Assign Type |
-| assignemployeeid | `Float` | Assignemployeeid |
-| assignreasonid | `String` | Assignreasonid |
-| bedType | `String` | Bed Type |
-| building | `String` | Building |
-| buildingGroup | `String` | Building Group |
-| businessDate | `Date` | Business Date |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cMinimumRevenue | `Float` | Central Minimum Revenue |
-| cRackRate | `Float` | Central Rack Rate |
-| centralMeetingRoomType | `String` | Central Meeting Room Type |
-| centralRoomClass | `String` | Central Room Class |
-| centralRoomType | `String` | Central Room Type |
-| centralRoomTypeDescription | `String` | Central Room Type Description |
-| combinationRoomYN | `String` | Combination Room YN |
-| comments | `String` | Comments |
-| componentRoom | `String` | Suite component room numbers |
-| connectingRoomNumber | `String` | Connecting Room Number |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daySection | `String` | Indicates the section to which employee belongs. |
-| deductYN | `String` | Deduct YN |
-| defatulratecodeid | `String` | Defatulratecodeid |
-| defaultRateDesc | `String` | Default Rate Description |
-| deletedflag | `String` | Deleted Flag |
-| departureCredits | `Float` | Credits associated with the task after departure. |
-| description | `String` | Description |
-| diaryName | `String` | Diary name to show room in |
-| diarydisplayflag | `String` | Diarydisplayflag |
-| discrepancy | `String` | Discrepancy |
-| doors | `String` | Number of doors |
-| eveningSection | `String` | Section the room belongs to for evening housekeeping |
-| evisitorFacilityId | `String` | Facility ID for eVisitor. |
-| excludedEventTypes | `String` | Stores event types which do not require alternate spaces. |
-| facing | `String` | Direction room faces |
-| floor | `String` | Floor |
-| foPers | `Float` | The persons staying in room according to Front office. |
-| forceAlternateYn | `String` | Defines if the function space needs an alternate space when booked. |
-| frontDeskLocation | `String` | The front desk location this room should check in to. |
-| frontOfficeStatus | `String` | Front Office Status of the room i.e.: Vacant or Occupied. |
-| fullUtilizationTime | `Float` | Minutes occupied that define the room as 100% utilized. Maximum is 1440 minutes. |
-| genericYN | `String` | Generic YN |
-| handicapflag | `String` | Handicapflag |
-| heightmaxF | `Float` | Max Height in ft |
-| heightmaxM | `Float` | Max Height in m |
-| heightminF | `Float` | Minumum heigth of room (feet) |
-| heightminM | `Float` | Minumum heigth of room (meters) |
-| holdDateTime | `DateTime` | Date and time when room will be released from hold. |
-| holdType | `String` | Hold type from resort_assignment_reasons table. |
-| holdUser | `Float` | User that is holding the room. |
-| housekeepingAssignmentOrderBy | `Float` | Sequence for automatically generated task assignment. |
-| housekeepingInspDate | `Date` | Housekeeping Inspected date |
-| housekeepingInspEmpId | `String` | Houskeeping inspected employee id |
-| housekeepingPers | `Float` | The number of persons staying in the room according to housekeeping |
-| housekeepingStatus | `String` | The status of this room according to housekeeping |
-| imageId | `Float` | Image ID |
-| inactiveflag | `String` | Inactive Flag |
-| includeInStatisticsYN | `String` | Include in Statistics YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalTempflag | `String` | Tempflag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keyCode | `String` | The current key code for this room.  Used to create keys for a room. |
-| keyOptions | `String` | Privileges available for this key |
-| lastCheckOutDate | `Date` | The last check out date for this room. |
-| lastMeterReading | `Float` | The last meter reading for condos that track electrical usage of rented rooms. |
-| lengthF | `Float` | Length (feet) |
-| lengthM | `Float` | Length (meters) |
-| light | `String` | Number of lights in the room |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| loudspeakersflag | `String` | Loudspeakersflag |
-| maxAdvance | `Float` | Maximum number of days before the catering event date  that the space can be booked on the web. |
-| maxCapacity | `Float` | Function Space Maximum Capacity. |
-| maxSharedGroups | `Float` | Maximum number of groups for a Shared function space allowed. |
-| maximumOccupancy | `Float` | Maximum Occupancy |
-| measurement | `String` | The unit of measurement for this square units (IE: Feet Meters etc) |
-| meetingRoomType | `String` | Type of meeting room |
-| meetingRoomYN | `String` | Meeting Room YN |
-| meetingroomTypeDesc | `String` | Meetingroom Type Description |
-| meetingroomTypeSeq | `Float` | Meetingroom Type Sequence |
-| microphoneSocketTypes | `String` | Type of microphone sockets |
-| microphoneSockets | `Float` | Number of microphone sockets |
-| minAdvance | `Float` | Minimum number of days before the catering event date that the space can be booked on the web. |
-| minCapacity | `Float` | Minimum Capacity |
-| minimumRevenue | `Float` | Minimum Revenue |
-| numberOfBeds | `Float` | Specifies the number of beds in this room. |
-| occupancyCondition | `String` | Current room condition updated daily.(ie StayOverDueOutExpected etc) |
-| occupantDiscrepancy | `Float` | Discrepancy between front desk and housekeeping |
-| onlinePrintingYn | `String` | Used for pseudo rooms. If Y then this pseudo room will be included in Online Printing for reservation changes. |
-| orderBy2 | `Float` | Display sequence 2 |
-| orderBy3 | `Float` | Display sequence 3 |
-| orderBy4 | `Float` | Display sequence 4 |
-| orderBy5 | `Float` | Display sequence 5 |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ovosGradeCode | `String` | Stores a Grade associated with a unit to determine the room display order in Room Assignment and Room Plan screens. |
-| ovosUnitYn | `String` | Room can be OVOS unit. |
-| pcode | `String` | Not used |
-| personDiscrepancy | `Float` | Person discrepancy between front desk and houskeeping |
-| phoneNumber | `String` | Phone Number |
-| physicalNumberOfRooms | `Float` | Physical Number of Rooms |
-| pickupCredits | `Float` | Houskeeping credits for cleaning room in pickup status |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| pseudoRoomYN | `String` | Pseudo Room YN |
-| publishedRateAmount | `Float` | Default rate for the room |
-| publishedRateCode | `String` | Default rate code to be used to calculate the total revenue. |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rating | `String` | Rating |
-| repAssignReasonDescription | `String` | Reporting Assign Reason Desc |
-| repBedTypeDescription | `String` | Reporting Bed Type Desc |
-| repMeetingroomTypeDescription | `String` | Reporting Meetingroom Type Desc |
-| repMeetingroomTypeSequence | `Float` | Reporting Meetingroom Type Seq |
-| repRoomClassSellSequence | `Float` | Reporting Room Class Sell Seq |
-| repRoomFeaturesDescs | `String` | Reporting Room Features Descs |
-| repRoomStatusReason | `String` | Reporting Room Status Reason |
-| repRoomStatusReasonDescription | `String` | Reporting Room Status Reason Desc |
-| returnStatus | `String` | Room return status |
-| room | `String` | Room |
-| roomAssignmentRating | `Float` | Room Assignment Rating. |
-| roomCategoryBedtype | `String` | Room Category Bedtype |
-| roomCategoryDesc | `String` | Room Category Desc |
-| roomClass | `String` | Room Class |
-| roomClassCentralDescription | `String` | Room Class Central Description |
-| roomClassDescription | `String` | Room Class Description |
-| roomClassSequence | `Float` | Room Class Sequence |
-| roomCondition | `String` | Room Condition |
-| roomFeatureDescription | `String` | Room Feature Description |
-| roomFeatures | `String` | This stores the codes for the rooms features. Currently not used |
-| roomNumber | `String` | Room Number |
-| roomParity | `String` | Room Parity |
-| roomStatus | `String` | Room Status |
-| roomStatusDescription | `String` | Room Status Description |
-| roomStatusFromDate | `Date` | The date as of which the room_status is valid. |
-| roomStatusReason | `String` | Room Status Reason |
-| roomStatusReasonDesc | `String` | Room Status Reason Description |
-| roomStatusRemarks | `String` | Room status remarks |
-| roomStatusToDate | `Date` | The date till which the room_status is valid.(Used during OO and OS status of rooms ) |
-| roomType | `String` | Room Type |
-| roomUseCount | `Float` | Total Count of the number of days the room was used. |
-| roomcategoryid | `String` | Roomcategoryid |
-| roomclassid | `String` | Roomclassid |
-| roomid | `String` | Roomid |
-| roomstatusreasonid | `String` | Roomstatusreasonid |
-| sequence | `Float` | Sequence |
-| serviceStatus | `String` | Current guest service status code for this room. Example: Service status can be DND (Do Not Disturb) or MUP (Make Up Room) |
-| setupNotes | `String` | Notes for the setup of the room |
-| shareableflag | `String` | Shareableflag |
-| smoking | `String` | Smoking |
-| smokingPreferences | `String` | Smoking Preferences |
-| squareUnits | `Float` | The square units for this room (IE: if a condo in the US likely the square feet of this room) |
-| stayoverCredits | `Float` | Stayover Credits |
-| suiteType | `String` | Standard or Suite |
-| suiteYN | `String` | Suite YN |
-| supplement | `String` | Supplement |
-| tempFlag | `String` | Temp Flag |
-| translationboothNum | `Float` | Number for the booth |
-| turnDown | `String` | Turn Down |
-| turndownCredits | `Float` | Houskeeping credits for Turndown. |
-| tvRadioSockets | `Float` | Number of TV or radio sockets |
-| unit | `String` | Unit |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| visibleOnWebYn | `String` | Flag makes a Function Space visible on the web. |
-| webBookingYn | `String` | Web Booking Y/N |
-| weightF | `Float` | Room weigth (feet) |
-| weightM | `Float` | Room weigth (meters) |
-| widthF | `Float` | Width (feet) |
-| widthM | `Float` | Width (meters) |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accessible | `String` | Accessible |
+| 2 | areaF | `Float` | Area in sqft |
+| 3 | areaM | `Float` | Area in sqm |
+| 4 | assignAssignStatus | `String` | Assign Assign Status |
+| 5 | assignDate | `DateTime` | Room assignment date |
+| 6 | assignReasonDesc | `String` | Assign Reason Desc |
+| 7 | assignType | `String` | Assign Type |
+| 8 | assignemployeeid | `Float` | Assignemployeeid |
+| 9 | assignreasonid | `String` | Assignreasonid |
+| 10 | bedType | `String` | Bed Type |
+| 11 | building | `String` | Building |
+| 12 | buildingGroup | `String` | Building Group |
+| 13 | businessDate | `Date` | Business Date |
+| 14 | cExchangeDate | `Date` | Central Xchange Date |
+| 15 | cExchangeRate | `Float` | Central Xchange Rate |
+| 16 | cMinimumRevenue | `Float` | Central Minimum Revenue |
+| 17 | cRackRate | `Float` | Central Rack Rate |
+| 18 | centralMeetingRoomType | `String` | Central Meeting Room Type |
+| 19 | centralRoomClass | `String` | Central Room Class |
+| 20 | centralRoomType | `String` | Central Room Type |
+| 21 | centralRoomTypeDescription | `String` | Central Room Type Description |
+| 22 | combinationRoomYN | `String` | Combination Room YN |
+| 23 | comments | `String` | Comments |
+| 24 | componentRoom | `String` | Suite component room numbers |
+| 25 | connectingRoomNumber | `String` | Connecting Room Number |
+| 26 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 27 | daySection | `String` | Indicates the section to which employee belongs. |
+| 28 | deductYN | `String` | Deduct YN |
+| 29 | defatulratecodeid | `String` | Defatulratecodeid |
+| 30 | defaultRateDesc | `String` | Default Rate Description |
+| 31 | deletedflag | `String` | Deleted Flag |
+| 32 | departureCredits | `Float` | Credits associated with the task after departure. |
+| 33 | description | `String` | Description |
+| 34 | diaryName | `String` | Diary name to show room in |
+| 35 | diarydisplayflag | `String` | Diarydisplayflag |
+| 36 | discrepancy | `String` | Discrepancy |
+| 37 | doors | `String` | Number of doors |
+| 38 | eveningSection | `String` | Section the room belongs to for evening housekeeping |
+| 39 | evisitorFacilityId | `String` | Facility ID for eVisitor. |
+| 40 | excludedEventTypes | `String` | Stores event types which do not require alternate spaces. |
+| 41 | facing | `String` | Direction room faces |
+| 42 | floor | `String` | Floor |
+| 43 | foPers | `Float` | The persons staying in room according to Front office. |
+| 44 | forceAlternateYn | `String` | Defines if the function space needs an alternate space when booked. |
+| 45 | frontDeskLocation | `String` | The front desk location this room should check in to. |
+| 46 | frontOfficeStatus | `String` | Front Office Status of the room i.e.: Vacant or Occupied. |
+| 47 | fullUtilizationTime | `Float` | Minutes occupied that define the room as 100% utilized. Maximum is 1440 minutes. |
+| 48 | genericYN | `String` | Generic YN |
+| 49 | handicapflag | `String` | Handicapflag |
+| 50 | heightmaxF | `Float` | Max Height in ft |
+| 51 | heightmaxM | `Float` | Max Height in m |
+| 52 | heightminF | `Float` | Minumum heigth of room (feet) |
+| 53 | heightminM | `Float` | Minumum heigth of room (meters) |
+| 54 | holdDateTime | `DateTime` | Date and time when room will be released from hold. |
+| 55 | holdType | `String` | Hold type from resort_assignment_reasons table. |
+| 56 | holdUser | `Float` | User that is holding the room. |
+| 57 | housekeepingAssignmentOrderBy | `Float` | Sequence for automatically generated task assignment. |
+| 58 | housekeepingInspDate | `Date` | Housekeeping Inspected date |
+| 59 | housekeepingInspEmpId | `String` | Houskeeping inspected employee id |
+| 60 | housekeepingPers | `Float` | The number of persons staying in the room according to housekeeping |
+| 61 | housekeepingStatus | `String` | The status of this room according to housekeeping |
+| 62 | imageId | `Float` | Image ID |
+| 63 | inactiveflag | `String` | Inactive Flag |
+| 64 | includeInStatisticsYN | `String` | Include in Statistics YN |
+| 65 | insertDate | `DateTime` | Insert Date |
+| 66 | insertUser | `Float` | Insert User |
+| 67 | internalTempflag | `String` | Tempflag |
+| 68 | jRNUpdateDate | `Date` | JRN Update Date |
+| 69 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 70 | keyCode | `String` | The current key code for this room.  Used to create keys for a room. |
+| 71 | keyOptions | `String` | Privileges available for this key |
+| 72 | lastCheckOutDate | `Date` | The last check out date for this room. |
+| 73 | lastMeterReading | `Float` | The last meter reading for condos that track electrical usage of rented rooms. |
+| 74 | lengthF | `Float` | Length (feet) |
+| 75 | lengthM | `Float` | Length (meters) |
+| 76 | light | `String` | Number of lights in the room |
+| 77 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 78 | loudspeakersflag | `String` | Loudspeakersflag |
+| 79 | maxAdvance | `Float` | Maximum number of days before the catering event date  that the space can be booked on the web. |
+| 80 | maxCapacity | `Float` | Function Space Maximum Capacity. |
+| 81 | maxSharedGroups | `Float` | Maximum number of groups for a Shared function space allowed. |
+| 82 | maximumOccupancy | `Float` | Maximum Occupancy |
+| 83 | measurement | `String` | The unit of measurement for this square units (IE: Feet Meters etc) |
+| 84 | meetingRoomType | `String` | Type of meeting room |
+| 85 | meetingRoomYN | `String` | Meeting Room YN |
+| 86 | meetingroomTypeDesc | `String` | Meetingroom Type Description |
+| 87 | meetingroomTypeSeq | `Float` | Meetingroom Type Sequence |
+| 88 | microphoneSocketTypes | `String` | Type of microphone sockets |
+| 89 | microphoneSockets | `Float` | Number of microphone sockets |
+| 90 | minAdvance | `Float` | Minimum number of days before the catering event date that the space can be booked on the web. |
+| 91 | minCapacity | `Float` | Minimum Capacity |
+| 92 | minimumRevenue | `Float` | Minimum Revenue |
+| 93 | numberOfBeds | `Float` | Specifies the number of beds in this room. |
+| 94 | occupancyCondition | `String` | Current room condition updated daily.(ie StayOverDueOutExpected etc) |
+| 95 | occupantDiscrepancy | `Float` | Discrepancy between front desk and housekeeping |
+| 96 | onlinePrintingYn | `String` | Used for pseudo rooms. If Y then this pseudo room will be included in Online Printing for reservation changes. |
+| 97 | orderBy2 | `Float` | Display sequence 2 |
+| 98 | orderBy3 | `Float` | Display sequence 3 |
+| 99 | orderBy4 | `Float` | Display sequence 4 |
+| 100 | orderBy5 | `Float` | Display sequence 5 |
+| 101 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 102 | ovosGradeCode | `String` | Stores a Grade associated with a unit to determine the room display order in Room Assignment and Room Plan screens. |
+| 103 | ovosUnitYn | `String` | Room can be OVOS unit. |
+| 104 | pcode | `String` | Not used |
+| 105 | personDiscrepancy | `Float` | Person discrepancy between front desk and houskeeping |
+| 106 | phoneNumber | `String` | Phone Number |
+| 107 | physicalNumberOfRooms | `Float` | Physical Number of Rooms |
+| 108 | pickupCredits | `Float` | Houskeeping credits for cleaning room in pickup status |
+| 109 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 110 | property | `String` | Code to uniquely identify the Property |
+| 111 | pseudoRoomYN | `String` | Pseudo Room YN |
+| 112 | publishedRateAmount | `Float` | Default rate for the room |
+| 113 | publishedRateCode | `String` | Default rate code to be used to calculate the total revenue. |
+| 114 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 115 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 116 | rateCode | `String` | Rate Code |
+| 117 | rating | `String` | Rating |
+| 118 | repAssignReasonDescription | `String` | Reporting Assign Reason Desc |
+| 119 | repBedTypeDescription | `String` | Reporting Bed Type Desc |
+| 120 | repMeetingroomTypeDescription | `String` | Reporting Meetingroom Type Desc |
+| 121 | repMeetingroomTypeSequence | `Float` | Reporting Meetingroom Type Seq |
+| 122 | repRoomClassSellSequence | `Float` | Reporting Room Class Sell Seq |
+| 123 | repRoomFeaturesDescs | `String` | Reporting Room Features Descs |
+| 124 | repRoomStatusReason | `String` | Reporting Room Status Reason |
+| 125 | repRoomStatusReasonDescription | `String` | Reporting Room Status Reason Desc |
+| 126 | returnStatus | `String` | Room return status |
+| 127 | room | `String` | Room |
+| 128 | roomAssignmentRating | `Float` | Room Assignment Rating. |
+| 129 | roomCategoryBedtype | `String` | Room Category Bedtype |
+| 130 | roomCategoryDesc | `String` | Room Category Desc |
+| 131 | roomClass | `String` | Room Class |
+| 132 | roomClassCentralDescription | `String` | Room Class Central Description |
+| 133 | roomClassDescription | `String` | Room Class Description |
+| 134 | roomClassSequence | `Float` | Room Class Sequence |
+| 135 | roomCondition | `String` | Room Condition |
+| 136 | roomFeatureDescription | `String` | Room Feature Description |
+| 137 | roomFeatures | `String` | This stores the codes for the rooms features. Currently not used |
+| 138 | roomNumber | `String` | Room Number |
+| 139 | roomParity | `String` | Room Parity |
+| 140 | roomStatus | `String` | Room Status |
+| 141 | roomStatusDescription | `String` | Room Status Description |
+| 142 | roomStatusFromDate | `Date` | The date as of which the room_status is valid. |
+| 143 | roomStatusReason | `String` | Room Status Reason |
+| 144 | roomStatusReasonDesc | `String` | Room Status Reason Description |
+| 145 | roomStatusRemarks | `String` | Room status remarks |
+| 146 | roomStatusToDate | `Date` | The date till which the room_status is valid.(Used during OO and OS status of rooms ) |
+| 147 | roomType | `String` | Room Type |
+| 148 | roomUseCount | `Float` | Total Count of the number of days the room was used. |
+| 149 | roomcategoryid | `String` | Roomcategoryid |
+| 150 | roomclassid | `String` | Roomclassid |
+| 151 | roomid | `String` | Roomid |
+| 152 | roomstatusreasonid | `String` | Roomstatusreasonid |
+| 153 | sequence | `Float` | Sequence |
+| 154 | serviceStatus | `String` | Current guest service status code for this room. Example: Service status can be DND (Do Not Disturb) or MUP (Make Up Room) |
+| 155 | setupNotes | `String` | Notes for the setup of the room |
+| 156 | shareableflag | `String` | Shareableflag |
+| 157 | smoking | `String` | Smoking |
+| 158 | smokingPreferences | `String` | Smoking Preferences |
+| 159 | squareUnits | `Float` | The square units for this room (IE: if a condo in the US likely the square feet of this room) |
+| 160 | stayoverCredits | `Float` | Stayover Credits |
+| 161 | suiteType | `String` | Standard or Suite |
+| 162 | suiteYN | `String` | Suite YN |
+| 163 | supplement | `String` | Supplement |
+| 164 | tempFlag | `String` | Temp Flag |
+| 165 | translationboothNum | `Float` | Number for the booth |
+| 166 | turnDown | `String` | Turn Down |
+| 167 | turndownCredits | `Float` | Houskeeping credits for Turndown. |
+| 168 | tvRadioSockets | `Float` | Number of TV or radio sockets |
+| 169 | unit | `String` | Unit |
+| 170 | updateDate | `DateTime` | Update Date |
+| 171 | updateUser | `Float` | Update User |
+| 172 | visibleOnWebYn | `String` | Flag makes a Function Space visible on the web. |
+| 173 | webBookingYn | `String` | Web Booking Y/N |
+| 174 | weightF | `Float` | Room weigth (feet) |
+| 175 | weightM | `Float` | Room weigth (meters) |
+| 176 | widthF | `Float` | Width (feet) |
+| 177 | widthM | `Float` | Width (meters) |
 
 [⬆ Back to Query](#query)
 
@@ -5247,6 +5247,48 @@
 | roomDetailsRoompmsref | `StringInput` | Room |
 | roomDetailsRoom | `StringInput` | Room Number |
 | roomDetailsRoomid | `StringInput` | Roomid |
+#### Validation Rules
+
+**`conditionalInputPair(pair: 1)`**
+- financialunifiedDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- financialunifiedDetailsFtArLedCredit
+- financialunifiedDetailsFtArLedDebit
+- financialunifiedDetailsFtArNumber
+- financialunifiedDetailsFtArticleId
+- financialunifiedDetailsFtBusinessDate
+- financialunifiedDetailsFtCashierId
+- financialunifiedDetailsFtChequeNumber
+- financialunifiedDetailsFtClosureNo
+- financialunifiedDetailsFtCompLinkTrxCode
+- financialunifiedDetailsFtFinDmlSeqNo
+- financialunifiedDetailsFtBillNo
+- financialunifiedDetailsFtFolioView
+- financialunifiedDetailsFromResvId
+- financialunifiedDetailsFtGuestAccountCredit
+- financialunifiedDetailsFtGuestAccountDebit
+- financialunifiedDetailsFtInsertDate
+- financialunifiedDetailsFtFolioNo
+- financialunifiedDetailsFtInvoiceNo
+- financialunifiedDetailsFtOriginalResvNameId
+- financialunifiedDetailsFtOriginalRoom
+- financialunifiedDetailsFtProduct
+- financialunifiedDetailsFtPostitNo
+- financialunifiedDetailsFtProfileid
+- financialunifiedDetailsFtRateCode
+- financialunifiedDetailsResvNameId
+- financialunifiedDetailsFtRoom
+- financialunifiedDetailsFtRoundLinkTrxno
+- financialunifiedDetailsFtRoutingInstrnId
+- financialunifiedDetailsFtTranActionId
+- financialunifiedDetailsFtTrxDate
+- financialunifiedDetailsFtTrxNoAddedBy
+- financialunifiedDetailsFtTrxNo
+- financialunifiedDetailsFtTrxNoAgainstPackage
+- financialunifiedDetailsFtTrxNoAdjust
+- financialunifiedDetailsFtTrxNoHeader
+
 
 [⬆ Back to Query](#query)
 

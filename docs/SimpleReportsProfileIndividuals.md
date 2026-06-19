@@ -16,11 +16,11 @@
 
 ### SimpleReportsProfileIndividualsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| profileDetails | [`SimpleReportsProfileIndividualsProfileDetailsType`](#simplereportsprofileindividualsprofiledetailstype) | Profile |
-| profilePropertyDetails | [`SimpleReportsProfileIndividualsProfilePropertyDetailsType`](#simplereportsprofileindividualsprofilepropertydetailstype) | Profile Property |
-| simpleReportsProfileIndividualsRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | profileDetails | [`SimpleReportsProfileIndividualsProfileDetailsType`](#simplereportsprofileindividualsprofiledetailstype) | Profile |
+| 2 | profilePropertyDetails | [`SimpleReportsProfileIndividualsProfilePropertyDetailsType`](#simplereportsprofileindividualsprofilepropertydetailstype) | Profile Property |
+| 3 | simpleReportsProfileIndividualsRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -28,385 +28,385 @@
 
 ### SimpleReportsProfileIndividualsProfileDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
-| accountType | `String` | Account Type |
-| accountsource | `String` | Accountsource |
-| acctContact | `String` | Billing contact person in company. |
-| activeYn | `String` | Active Y/N |
-| addrCleansedDatetime | `Date` | Addr Cleansed Datetime |
-| addrCleansedErrormsg | `String` | Addr Cleansed Errormsg |
-| addrCleansedStatus | `String` | Addr Cleansed Status |
-| addrCleansedValstatus | `String` | Addr Cleansed Valstatus |
-| addrLanguageCode | `String` | Addr Language Code |
-| addrLanguageDesc | `String` | Addr Language Description |
-| addressId | `Float` | Address ID |
-| addressType | `String` | Address Type |
-| addressTypeDesc | `String` | Address Type Description |
-| address1 | `String` | Address1 |
-| address2 | `String` | Address2 |
-| address3 | `String` | Address3 |
-| address4 | `String` | Address4 |
-| alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
-| allOwners | `String` | All Owners |
-| alternateLanguage | `String` | The Extended Byte Language of the Profile. |
-| alternateLanguageDesc | `String` | Xlanguage Description |
-| alternateSalutation | `String` | Alternate Salutation |
-| alternateTitle | `String` | Alternate Title |
-| anonymizationDate | `Date` | System Date when the guest was anonymized in OPERA. |
-| anonymizationStatus | `String` | Anonymization Status possible values: REQUESTED ANONYMIZED. |
-| arNumberCentral | `String` | AR No Central |
-| autoenrollMemberYn | `String` | Autoenroll Member Y/N |
-| availoverYn | `String` | Availover Y/N |
-| barcode | `String` | Barcode |
-| birthCountry | `String` | Country of birth. |
-| birthPlace | `String` | Place of birth. |
-| blMsg | `String` | Bl Msg |
-| businessExtension | `String` | Business Extension |
-| businessPhoneId | `Float` | Business Phone ID |
-| businessPhoneNumber | `String` | Business Phone Number |
-| businessTitle | `String` | Business Title |
-| cRSNameid | `Float` | The unique identifier of the CRS |
-| cblInd | `String` | Cbl Individual |
-| chainCode | `String` | Chain Code |
-| city | `String` | City |
-| cityExt | `String` | City Ext |
-| commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
-| comm1CountryDialingCode | `Float` | Comm1 Country Dialing Code |
-| comm1Id | `Float` | Comm1 ID |
-| comm1PhoneCountryCode | `String` | Comm1 Phone Country Code |
-| comm1Type | `String` | Comm1 Type |
-| comm1ValidYn | `String` | Comm1 Valid Y/N |
-| comm1ValidateDate | `Date` | Comm1 Validate Date |
-| comm1ValidateStatus | `String` | Comm1 Validate Status |
-| comm1Value | `String` | Comm1 Value |
-| comm2CountryDialingCode | `Float` | Comm2 Country Dialing Code |
-| comm2Id | `Float` | Comm2 ID |
-| comm2PhoneCountryCode | `String` | Comm2 Phone Country Code |
-| comm2Type | `String` | Comm2 Type |
-| comm2ValidYn | `String` | Comm2 Valid Y/N |
-| comm2ValidateDate | `Date` | Comm2 Validate Date |
-| comm2ValidateStatus | `String` | Comm2 Validate Status |
-| comm2Value | `String` | Comm2 Value |
-| comm3CountryDialingCode | `Float` | Comm3 Country Dialing Code |
-| comm3Id | `Float` | Comm3 ID |
-| comm3PhoneCountryCode | `String` | Comm3 Phone Country Code |
-| comm3Type | `String` | Comm3 Type |
-| comm3ValidYn | `String` | Comm3 Valid Y/N |
-| comm3ValidateDate | `Date` | Comm3 Validate Date |
-| comm3ValidateStatus | `String` | Comm3 Validate Status |
-| comm3Value | `String` | Comm3 Value |
-| commissionAccountId | `Float` | Commission Account ID |
-| commissionAccountName | `String` | Commission Account Name |
-| compPreApprovalRequiredYn | `String` | Comp Pre Approval Required Y/N |
-| company | `String` | Company |
-| companyGroupId | `String` | Linked internal ID for booker. |
-| contactYn | `String` | Contact Y/N |
-| contractNo | `String` | Contract Number (used for customers). |
-| contractRecvDate | `Date` | The date the group contract was received. |
-| country | `String` | Country |
-| countryDesc | `String` | Country Description |
-| creditRating | `String` | Credit Rating |
-| dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
-| dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
-| dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
-| dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
-| dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
-| dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
-| dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
-| dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| department | `String` | Department |
-| deptId | `String` | Dept ID |
-| directBillBatchType | `String` | Direct Bill Batch Type |
-| displayName | `String` | Display Name |
-| downloadDate | `Date` | Download Date |
-| downloadResort | `String` | Download Property |
-| downloadSrep | `Float` | Download Srep |
-| eInvLiableLastUpdated | `Date` | The date when the E-Invoice liable flag was updated for this profile. |
-| eInvoiceLiableYn | `String` | Indicates if the payee profile ID is E_INVOICE liable. |
-| eMail | `String` | E Mail |
-| eMailId | `Float` | E Mail ID |
-| emailFormat | `String` | Format type for email messages: HTML PLAIN text. |
-| emailValidateDate | `Date` | Email Validate Date |
-| emailValidateStatus | `String` | Email Validate Status |
-| emailYn | `String` | Email Y/N |
-| envelopeGreeting | `String` | Envelope Greeting |
-| faxCountryCode | `String` | Fax Country Code |
-| faxCountryDialingCode | `Float` | Fax Country Dialing Code |
-| faxId | `Float` | Fax ID |
-| faxNo | `String` | Fax Number |
-| faxValidYn | `String` | Fax Valid Y/N |
-| first | `String` | First |
-| folioAddressId | `Float` | Folio Address ID |
-| gender | `String` | Gender |
-| guestPrivYn | `String` | Guest Priv Y/N |
-| hasnotes | `String` | Hasnotes |
-| historyYn | `String` | History Y/N |
-| holdCode | `String` | Hold Code |
-| homePhoneId | `Float` | Home Phone ID |
-| homePhoneNumber | `String` | Home Phone Number |
-| iataCompType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
-| iataConsortia | `String` | IATA Consortia |
-| iataCorpNumber | `String` | IATA Corp No |
-| idCountry | `String` | ID Country |
-| idDate | `Date` | ID Date |
-| idDocumentAttachId | `Float` | Store the ID value of linked_attachments.attach_id pointing to the physical table column that stores the scanned document. |
-| idExpirationDate | `Date` | ID Expiration Date |
-| idPlace | `String` | ID Place |
-| idType | `String` | ID Type |
-| immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveReason | `String` | Reason why record was inactivated. |
-| includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
-| incognitoDisplayname | `String` | Incognito Displayname |
-| incognitoFirst | `String` | Incognito First |
-| incognitoName | `String` | Incognito Name |
-| incognitoYn | `String` | Incognito Y/N |
-| industryCode | `String` | Industry Code |
-| influence | `String` | Influence |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| insertUserName | `String` | The name of the user who created the record. |
-| interest | `String` | Interest Code. |
-| internalBillYn | `String` | Internal bill that will be solely used for accounting purposes on barter agreements and interim billing amongst hotels which belong to the same owner. |
-| internalPrimaryKeyIDToUniquelyIdentifyTheRow | `Float` | Primary Key ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keyword | `String` | Keyword |
-| language | `String` | Language |
-| languageDesc | `String` | Description for each language code. |
-| lastGroup | `String` | Last Group |
-| lastRate | `Float` | Last Rate |
-| lastRoom | `String` | Not used. |
-| lastSource | `String` | Last Source |
-| lastStay | `Date` | Last Stay |
-| lastUpdatedResort | `String` | Last property that updated this record. |
-| legalCompany | `String` | Legal Company |
-| letterGreeting | `String` | Letter Greeting |
-| loggedSrepCode | `String` | Logged Srep Code |
-| loyaltySegmentCodes | `String` | Loyalty Segment Codes |
-| mailList | `String` | Mail List |
-| mailType | `String` | The type of mail this user should be sent. |
-| mailYn | `String` | Mail Y/N |
-| marketResearchYn | `String` | Market Research Y/N |
-| markets | `String` | Markets |
-| membershipExpirationDate | `Date` | Membership Expiration Date |
-| membershipId | `Float` | Membership ID |
-| membershipLevel | `String` | Membership Level |
-| membershipNameOnCard | `String` | Membership Name On Card |
-| membershipNumber | `String` | Membership Number |
-| membershipStatus | `String` | User defined field used by external system. Not used by OCIS upgradedowngrade or renewal process. |
-| membershipType | `String` | Membership Type |
-| middle | `String` | Middle |
-| mobilePhoneId | `Float` | Mobile Phone ID |
-| mobilePhoneNumber | `String` | Mobile Phone Number |
-| multipleAddressYn | `String` | Multiple Address Y/N |
-| multipleCommentsYn | `String` | Not used. |
-| multiplePhonesYn | `String` | Multiple Phones Y/N |
-| name | `String` | Name |
-| nameComment | `String` | Not Used. |
-| nameId | `Float` | Name ID |
-| nameKeywords | `String` | Name Keywords |
-| nameType | `String` | Name Type |
-| nameTypeDesc | `String` | Name Type Description |
-| name2 | `String` | Name2 |
-| name3 | `String` | Name3 |
-| nationality | `String` | Nationality |
-| nationalityDesc | `String` | Nationality Description |
-| nextStay | `Date` | Next Stay |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| phoneCountryCode | `String` | Phone Country Code |
-| phoneCountryDialingCode | `Float` | Phone Country Dialing Code |
-| phoneExtension | `String` | Phone Extension |
-| phoneId | `Float` | Phone ID |
-| phoneNo | `String` | Phone no. |
-| phoneType | `String` | Phone Type |
-| phoneValidYn | `String` | Phone Valid Y/N |
-| phoneYn | `String` | Phone Y/N |
-| preferredRoomNo | `String` | Preferred Room Number |
-| profession | `String` | Profession of the guest |
-| profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
-| profilePrivacyFlg | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
-| propertyActionCode | `String` | Property Action Code |
-| propertyCompetitionCode | `String` | Property Competition Code |
-| propertyPriority | `String` | Property Priority |
-| propertyRoomsPotential | `String` | Property Rooms Potential |
-| protected | `String` | Protected |
-| psuedoProfileYn | `String` | Psuedo Profile Y/N |
-| repAccountType | `String` | Reporting Account Type |
-| repAccountsource | `String` | Reporting Accountsource |
-| repActionCode | `String` | Reporting Actioncode |
-| repIATACompType | `String` | Reporting Iata Comp Type |
-| repInactiveReason | `String` | Reporting Inactive Reason |
-| repIndustryCode | `String` | Reporting Industry Code |
-| repInfluence | `String` | Reporting Influence |
-| repKeyword | `String` | Reporting Keyword |
-| repMarkets | `String` | Reporting Markets |
-| repNameType | `String` | Reporting Name Type |
-| repNationality | `String` | Reporting Nationality |
-| repNationalityDescription | `String` | Reporting Nationality Desc |
-| repPropertyPriority | `String` | Reporting Property Priority |
-| repRoomsPotential | `String` | Reporting Rooms Potential |
-| repScope | `String` | Reporting Scope |
-| repScopeCity | `String` | Reporting Scope City |
-| repState | `String` | Reporting State |
-| repStateDescription | `String` | Reporting State Desc |
-| repTaxType | `String` | Reporting Tax Type |
-| repTerritory | `String` | Reporting Territory |
-| repTitle | `String` | Reporting Title |
-| repTitleName | `String` | Reporting Title Name |
-| repVIPName | `String` | Reporting Vip Name |
-| repVIPStatus | `String` | Reporting Vip Status |
-| replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
-| resortRegistered | `String` | Resort for which Job is registered. |
-| restrictReasonCode | `String` | Restrict Reason Code |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| salesrep | `String` | Sales Representative Code for this profile. |
-| salutation | `String` | Salutation Greeting |
-| scope | `String` | Scope |
-| scopeCity | `String` | Scope City |
-| sfirst | `String` | Uppercase value of First Name. |
-| smsYn | `String` | Use this alert to text a notification. |
-| sname | `String` | The Uppercase value of Last or Company. |
-| srepCode | `String` | Srep Code |
-| srepId | `Float` | Srep ID |
-| state | `String` | State |
-| stateDesc | `String` | State Description of the Guest of Payee |
-| suffix | `String` | Suffix |
-| summRefCc | `String` | Summ Ref Cc |
-| sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
-| sxname | `String` | Internal Indexed field for Searching by Extended Byte Name. |
-| tax1No | `String` | Tax1 Number |
-| tax2No | `String` | Tax2 Number |
-| taxCategory | `String` | Tax Category |
-| taxOffice | `String` | Tax Office Name |
-| taxType | `String` | Tax Type |
-| territory | `String` | Territory |
-| thirdPartyYn | `String` | Third Party Y/N |
-| title | `String` | Title |
-| titleName | `String` | Title Name |
-| titleSuffix | `Float` | Title Suffix |
-| totalStay | `Float` | Total Stay |
-| tracecode | `String` | Tracecode |
-| udfc01 | `String` | Udfc01 |
-| udfc02 | `String` | Udfc02 |
-| udfc03 | `String` | Udfc03 |
-| udfc04 | `String` | Udfc04 |
-| udfc05 | `String` | Udfc05 |
-| udfc06 | `String` | Udfc06 |
-| udfc07 | `String` | Udfc07 |
-| udfc08 | `String` | Udfc08 |
-| udfc09 | `String` | Udfc09 |
-| udfc10 | `String` | Udfc10 |
-| udfc11 | `String` | Udfc11 |
-| udfc12 | `String` | Udfc12 |
-| udfc13 | `String` | Udfc13 |
-| udfc14 | `String` | Udfc14 |
-| udfc15 | `String` | Udfc15 |
-| udfc16 | `String` | Udfc16 |
-| udfc17 | `String` | Udfc17 |
-| udfc18 | `String` | Udfc18 |
-| udfc19 | `String` | Udfc19 |
-| udfc20 | `String` | Udfc20 |
-| udfc21 | `String` | Udfc21 |
-| udfc22 | `String` | Udfc22 |
-| udfc23 | `String` | Udfc23 |
-| udfc24 | `String` | Udfc24 |
-| udfc25 | `String` | Udfc25 |
-| udfc26 | `String` | Udfc26 |
-| udfc27 | `String` | Udfc27 |
-| udfc28 | `String` | Udfc28 |
-| udfc29 | `String` | Udfc29 |
-| udfc30 | `String` | Udfc30 |
-| udfc31 | `String` | Udfc31 |
-| udfc32 | `String` | Udfc32 |
-| udfc33 | `String` | Udfc33 |
-| udfc34 | `String` | Udfc34 |
-| udfc35 | `String` | Udfc35 |
-| udfc36 | `String` | Udfc36 |
-| udfc37 | `String` | Udfc37 |
-| udfc38 | `String` | Udfc38 |
-| udfc39 | `String` | Udfc39 |
-| udfc40 | `String` | Udfc40 |
-| udfd01 | `Date` | Udfd01 |
-| udfd02 | `Date` | Udfd02 |
-| udfd03 | `Date` | Udfd03 |
-| udfd04 | `Date` | Udfd04 |
-| udfd05 | `Date` | Udfd05 |
-| udfd06 | `Date` | Udfd06 |
-| udfd07 | `Date` | Udfd07 |
-| udfd08 | `Date` | Udfd08 |
-| udfd09 | `Date` | Udfd09 |
-| udfd10 | `Date` | Udfd10 |
-| udfd11 | `Date` | Udfd11 |
-| udfd12 | `Date` | Udfd12 |
-| udfd13 | `Date` | Udfd13 |
-| udfd14 | `Date` | Udfd14 |
-| udfd15 | `Date` | Udfd15 |
-| udfd16 | `Date` | Udfd16 |
-| udfd17 | `Date` | Udfd17 |
-| udfd18 | `Date` | Udfd18 |
-| udfd19 | `Date` | Udfd19 |
-| udfd20 | `Date` | Udfd20 |
-| udfn01 | `Float` | Udfn01 |
-| udfn02 | `Float` | Udfn02 |
-| udfn03 | `Float` | Udfn03 |
-| udfn04 | `Float` | Udfn04 |
-| udfn05 | `Float` | Udfn05 |
-| udfn06 | `Float` | Udfn06 |
-| udfn07 | `Float` | Udfn07 |
-| udfn08 | `Float` | Udfn08 |
-| udfn09 | `Float` | Udfn09 |
-| udfn10 | `Float` | Udfn10 |
-| udfn11 | `Float` | Udfn11 |
-| udfn12 | `Float` | Udfn12 |
-| udfn13 | `Float` | Udfn13 |
-| udfn14 | `Float` | Udfn14 |
-| udfn15 | `Float` | Udfn15 |
-| udfn16 | `Float` | Udfn16 |
-| udfn17 | `Float` | Udfn17 |
-| udfn18 | `Float` | Udfn18 |
-| udfn19 | `Float` | Udfn19 |
-| udfn20 | `Float` | Udfn20 |
-| udfn21 | `Float` | Udfn21 |
-| udfn22 | `Float` | Udfn22 |
-| udfn23 | `Float` | Udfn23 |
-| udfn24 | `Float` | Udfn24 |
-| udfn25 | `Float` | Udfn25 |
-| udfn26 | `Float` | Udfn26 |
-| udfn27 | `Float` | Udfn27 |
-| udfn28 | `Float` | Udfn28 |
-| udfn29 | `Float` | Udfn29 |
-| udfn30 | `Float` | Udfn30 |
-| udfn31 | `Float` | Udfn31 |
-| udfn32 | `Float` | Udfn32 |
-| udfn33 | `Float` | Udfn33 |
-| udfn34 | `Float` | Udfn34 |
-| udfn35 | `Float` | Udfn35 |
-| udfn36 | `Float` | Udfn36 |
-| udfn37 | `Float` | Udfn37 |
-| udfn38 | `Float` | Udfn38 |
-| udfn39 | `Float` | Udfn39 |
-| udfn40 | `Float` | Udfn40 |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| updateUserName | `String` | Update User Name |
-| uploadDate | `Date` | Upload Date |
-| vipName | `String` | VIP Name |
-| vipStatus | `String` | VIP Status |
-| visaValidityType | `String` | Country Specific Requirement for Nigeria. |
-| webPage | `String` | Web Page |
-| webPageId | `Float` | Web Page ID |
-| xdisplayName | `String` | Xdisplay Name |
-| xenvelopeGreeting | `String` | Xenvelope Greeting |
-| xfirstName | `String` | Xfirst Name |
-| xmiddleName | `String` | Extended Byte middle name. |
-| xname | `String` | Xname |
-| zipCode | `String` | Zipcode Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRCreditLimitYN | `String` | Indicates if a Credit Limit amount on Profile level will be required. |
+| 2 | accountType | `String` | Account Type |
+| 3 | accountsource | `String` | Accountsource |
+| 4 | acctContact | `String` | Billing contact person in company. |
+| 5 | activeYn | `String` | Active Y/N |
+| 6 | addrCleansedDatetime | `Date` | Addr Cleansed Datetime |
+| 7 | addrCleansedErrormsg | `String` | Addr Cleansed Errormsg |
+| 8 | addrCleansedStatus | `String` | Addr Cleansed Status |
+| 9 | addrCleansedValstatus | `String` | Addr Cleansed Valstatus |
+| 10 | addrLanguageCode | `String` | Addr Language Code |
+| 11 | addrLanguageDesc | `String` | Addr Language Description |
+| 12 | addressId | `Float` | Address ID |
+| 13 | addressType | `String` | Address Type |
+| 14 | addressTypeDesc | `String` | Address Type Description |
+| 15 | address1 | `String` | Address1 |
+| 16 | address2 | `String` | Address2 |
+| 17 | address3 | `String` | Address3 |
+| 18 | address4 | `String` | Address4 |
+| 19 | alienRegistrationNo | `String` | Country Specific Requirement for Nigeria. |
+| 20 | allOwners | `String` | All Owners |
+| 21 | alternateLanguage | `String` | The Extended Byte Language of the Profile. |
+| 22 | alternateLanguageDesc | `String` | Xlanguage Description |
+| 23 | alternateSalutation | `String` | Alternate Salutation |
+| 24 | alternateTitle | `String` | Alternate Title |
+| 25 | anonymizationDate | `Date` | System Date when the guest was anonymized in OPERA. |
+| 26 | anonymizationStatus | `String` | Anonymization Status possible values: REQUESTED ANONYMIZED. |
+| 27 | arNumberCentral | `String` | AR No Central |
+| 28 | autoenrollMemberYn | `String` | Autoenroll Member Y/N |
+| 29 | availoverYn | `String` | Availover Y/N |
+| 30 | barcode | `String` | Barcode |
+| 31 | birthCountry | `String` | Country of birth. |
+| 32 | birthPlace | `String` | Place of birth. |
+| 33 | blMsg | `String` | Bl Msg |
+| 34 | businessExtension | `String` | Business Extension |
+| 35 | businessPhoneId | `Float` | Business Phone ID |
+| 36 | businessPhoneNumber | `String` | Business Phone Number |
+| 37 | businessTitle | `String` | Business Title |
+| 38 | cRSNameid | `Float` | The unique identifier of the CRS |
+| 39 | cblInd | `String` | Cbl Individual |
+| 40 | chainCode | `String` | Chain Code |
+| 41 | city | `String` | City |
+| 42 | cityExt | `String` | City Ext |
+| 43 | commPayCentral | `String` | This flag will be used in case Profiles are being controlled Centrally (CRS). |
+| 44 | comm1CountryDialingCode | `Float` | Comm1 Country Dialing Code |
+| 45 | comm1Id | `Float` | Comm1 ID |
+| 46 | comm1PhoneCountryCode | `String` | Comm1 Phone Country Code |
+| 47 | comm1Type | `String` | Comm1 Type |
+| 48 | comm1ValidYn | `String` | Comm1 Valid Y/N |
+| 49 | comm1ValidateDate | `Date` | Comm1 Validate Date |
+| 50 | comm1ValidateStatus | `String` | Comm1 Validate Status |
+| 51 | comm1Value | `String` | Comm1 Value |
+| 52 | comm2CountryDialingCode | `Float` | Comm2 Country Dialing Code |
+| 53 | comm2Id | `Float` | Comm2 ID |
+| 54 | comm2PhoneCountryCode | `String` | Comm2 Phone Country Code |
+| 55 | comm2Type | `String` | Comm2 Type |
+| 56 | comm2ValidYn | `String` | Comm2 Valid Y/N |
+| 57 | comm2ValidateDate | `Date` | Comm2 Validate Date |
+| 58 | comm2ValidateStatus | `String` | Comm2 Validate Status |
+| 59 | comm2Value | `String` | Comm2 Value |
+| 60 | comm3CountryDialingCode | `Float` | Comm3 Country Dialing Code |
+| 61 | comm3Id | `Float` | Comm3 ID |
+| 62 | comm3PhoneCountryCode | `String` | Comm3 Phone Country Code |
+| 63 | comm3Type | `String` | Comm3 Type |
+| 64 | comm3ValidYn | `String` | Comm3 Valid Y/N |
+| 65 | comm3ValidateDate | `Date` | Comm3 Validate Date |
+| 66 | comm3ValidateStatus | `String` | Comm3 Validate Status |
+| 67 | comm3Value | `String` | Comm3 Value |
+| 68 | commissionAccountId | `Float` | Commission Account ID |
+| 69 | commissionAccountName | `String` | Commission Account Name |
+| 70 | compPreApprovalRequiredYn | `String` | Comp Pre Approval Required Y/N |
+| 71 | company | `String` | Company |
+| 72 | companyGroupId | `String` | Linked internal ID for booker. |
+| 73 | contactYn | `String` | Contact Y/N |
+| 74 | contractNo | `String` | Contract Number (used for customers). |
+| 75 | contractRecvDate | `Date` | The date the group contract was received. |
+| 76 | country | `String` | Country |
+| 77 | countryDesc | `String` | Country Description |
+| 78 | creditRating | `String` | Credit Rating |
+| 79 | dOptInAutoenrollMemberFlg | `String` | Double Opt In for  AUTOENROLL_MEMBER_YN |
+| 80 | dOptInEmailFlg | `String` | Double Opt In for  EMAIL_YN |
+| 81 | dOptInGuestPrivFlg | `String` | Double Opt In for  GUEST_PRIV_YN |
+| 82 | dOptInMailListFlg | `String` | Double Opt In for  MAIL_LIST |
+| 83 | dOptInMarketResearchFlg | `String` | Double Opt In for  MARKET_RESEARCH_YN |
+| 84 | dOptInPhoneFlg | `String` | Double Opt In for  PHONE_YN |
+| 85 | dOptInSmsFlg | `String` | Double Opt In for  SMS_YN |
+| 86 | dOptInThirdPartyFlg | `String` | Double Opt In for  THIRD_PARTY_YN |
+| 87 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 88 | department | `String` | Department |
+| 89 | deptId | `String` | Dept ID |
+| 90 | directBillBatchType | `String` | Direct Bill Batch Type |
+| 91 | displayName | `String` | Display Name |
+| 92 | downloadDate | `Date` | Download Date |
+| 93 | downloadResort | `String` | Download Property |
+| 94 | downloadSrep | `Float` | Download Srep |
+| 95 | eInvLiableLastUpdated | `Date` | The date when the E-Invoice liable flag was updated for this profile. |
+| 96 | eInvoiceLiableYn | `String` | Indicates if the payee profile ID is E_INVOICE liable. |
+| 97 | eMail | `String` | E Mail |
+| 98 | eMailId | `Float` | E Mail ID |
+| 99 | emailFormat | `String` | Format type for email messages: HTML PLAIN text. |
+| 100 | emailValidateDate | `Date` | Email Validate Date |
+| 101 | emailValidateStatus | `String` | Email Validate Status |
+| 102 | emailYn | `String` | Email Y/N |
+| 103 | envelopeGreeting | `String` | Envelope Greeting |
+| 104 | faxCountryCode | `String` | Fax Country Code |
+| 105 | faxCountryDialingCode | `Float` | Fax Country Dialing Code |
+| 106 | faxId | `Float` | Fax ID |
+| 107 | faxNo | `String` | Fax Number |
+| 108 | faxValidYn | `String` | Fax Valid Y/N |
+| 109 | first | `String` | First |
+| 110 | folioAddressId | `Float` | Folio Address ID |
+| 111 | gender | `String` | Gender |
+| 112 | guestPrivYn | `String` | Guest Priv Y/N |
+| 113 | hasnotes | `String` | Hasnotes |
+| 114 | historyYn | `String` | History Y/N |
+| 115 | holdCode | `String` | Hold Code |
+| 116 | homePhoneId | `Float` | Home Phone ID |
+| 117 | homePhoneNumber | `String` | Home Phone Number |
+| 118 | iataCompType | `String` | Specified whether Name_Code column has Company # or IATA #. For Company # the value will beCOMP and for IATA # the Value of this column will be IATA. |
+| 119 | iataConsortia | `String` | IATA Consortia |
+| 120 | iataCorpNumber | `String` | IATA Corp No |
+| 121 | idCountry | `String` | ID Country |
+| 122 | idDate | `Date` | ID Date |
+| 123 | idDocumentAttachId | `Float` | Store the ID value of linked_attachments.attach_id pointing to the physical table column that stores the scanned document. |
+| 124 | idExpirationDate | `Date` | ID Expiration Date |
+| 125 | idPlace | `String` | ID Place |
+| 126 | idType | `String` | ID Type |
+| 127 | immigrationStatus | `String` | Country Specific Requirement for Nigeria. |
+| 128 | inactiveDate | `Date` | Inactive Date |
+| 129 | inactiveReason | `String` | Reason why record was inactivated. |
+| 130 | includeInTax1099Yn | `String` | Include travel agents/sources profile in 1099 reporting ?Y/N |
+| 131 | incognitoDisplayname | `String` | Incognito Displayname |
+| 132 | incognitoFirst | `String` | Incognito First |
+| 133 | incognitoName | `String` | Incognito Name |
+| 134 | incognitoYn | `String` | Incognito Y/N |
+| 135 | industryCode | `String` | Industry Code |
+| 136 | influence | `String` | Influence |
+| 137 | insertDate | `DateTime` | Insert Date |
+| 138 | insertUser | `Float` | Insert User |
+| 139 | insertUserName | `String` | The name of the user who created the record. |
+| 140 | interest | `String` | Interest Code. |
+| 141 | internalBillYn | `String` | Internal bill that will be solely used for accounting purposes on barter agreements and interim billing amongst hotels which belong to the same owner. |
+| 142 | internalPrimaryKeyIDToUniquelyIdentifyTheRow | `Float` | Primary Key ID |
+| 143 | jRNUpdateDate | `Date` | JRN Update Date |
+| 144 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 145 | keyword | `String` | Keyword |
+| 146 | language | `String` | Language |
+| 147 | languageDesc | `String` | Description for each language code. |
+| 148 | lastGroup | `String` | Last Group |
+| 149 | lastRate | `Float` | Last Rate |
+| 150 | lastRoom | `String` | Not used. |
+| 151 | lastSource | `String` | Last Source |
+| 152 | lastStay | `Date` | Last Stay |
+| 153 | lastUpdatedResort | `String` | Last property that updated this record. |
+| 154 | legalCompany | `String` | Legal Company |
+| 155 | letterGreeting | `String` | Letter Greeting |
+| 156 | loggedSrepCode | `String` | Logged Srep Code |
+| 157 | loyaltySegmentCodes | `String` | Loyalty Segment Codes |
+| 158 | mailList | `String` | Mail List |
+| 159 | mailType | `String` | The type of mail this user should be sent. |
+| 160 | mailYn | `String` | Mail Y/N |
+| 161 | marketResearchYn | `String` | Market Research Y/N |
+| 162 | markets | `String` | Markets |
+| 163 | membershipExpirationDate | `Date` | Membership Expiration Date |
+| 164 | membershipId | `Float` | Membership ID |
+| 165 | membershipLevel | `String` | Membership Level |
+| 166 | membershipNameOnCard | `String` | Membership Name On Card |
+| 167 | membershipNumber | `String` | Membership Number |
+| 168 | membershipStatus | `String` | User defined field used by external system. Not used by OCIS upgradedowngrade or renewal process. |
+| 169 | membershipType | `String` | Membership Type |
+| 170 | middle | `String` | Middle |
+| 171 | mobilePhoneId | `Float` | Mobile Phone ID |
+| 172 | mobilePhoneNumber | `String` | Mobile Phone Number |
+| 173 | multipleAddressYn | `String` | Multiple Address Y/N |
+| 174 | multipleCommentsYn | `String` | Not used. |
+| 175 | multiplePhonesYn | `String` | Multiple Phones Y/N |
+| 176 | name | `String` | Name |
+| 177 | nameComment | `String` | Not Used. |
+| 178 | nameId | `Float` | Name ID |
+| 179 | nameKeywords | `String` | Name Keywords |
+| 180 | nameType | `String` | Name Type |
+| 181 | nameTypeDesc | `String` | Name Type Description |
+| 182 | name2 | `String` | Name2 |
+| 183 | name3 | `String` | Name3 |
+| 184 | nationality | `String` | Nationality |
+| 185 | nationalityDesc | `String` | Nationality Description |
+| 186 | nextStay | `Date` | Next Stay |
+| 187 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 188 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 189 | phoneCountryCode | `String` | Phone Country Code |
+| 190 | phoneCountryDialingCode | `Float` | Phone Country Dialing Code |
+| 191 | phoneExtension | `String` | Phone Extension |
+| 192 | phoneId | `Float` | Phone ID |
+| 193 | phoneNo | `String` | Phone no. |
+| 194 | phoneType | `String` | Phone Type |
+| 195 | phoneValidYn | `String` | Phone Valid Y/N |
+| 196 | phoneYn | `String` | Phone Y/N |
+| 197 | preferredRoomNo | `String` | Preferred Room Number |
+| 198 | profession | `String` | Profession of the guest |
+| 199 | profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
+| 200 | profilePrivacyFlg | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
+| 201 | propertyActionCode | `String` | Property Action Code |
+| 202 | propertyCompetitionCode | `String` | Property Competition Code |
+| 203 | propertyPriority | `String` | Property Priority |
+| 204 | propertyRoomsPotential | `String` | Property Rooms Potential |
+| 205 | protected | `String` | Protected |
+| 206 | psuedoProfileYn | `String` | Psuedo Profile Y/N |
+| 207 | repAccountType | `String` | Reporting Account Type |
+| 208 | repAccountsource | `String` | Reporting Accountsource |
+| 209 | repActionCode | `String` | Reporting Actioncode |
+| 210 | repIATACompType | `String` | Reporting Iata Comp Type |
+| 211 | repInactiveReason | `String` | Reporting Inactive Reason |
+| 212 | repIndustryCode | `String` | Reporting Industry Code |
+| 213 | repInfluence | `String` | Reporting Influence |
+| 214 | repKeyword | `String` | Reporting Keyword |
+| 215 | repMarkets | `String` | Reporting Markets |
+| 216 | repNameType | `String` | Reporting Name Type |
+| 217 | repNationality | `String` | Reporting Nationality |
+| 218 | repNationalityDescription | `String` | Reporting Nationality Desc |
+| 219 | repPropertyPriority | `String` | Reporting Property Priority |
+| 220 | repRoomsPotential | `String` | Reporting Rooms Potential |
+| 221 | repScope | `String` | Reporting Scope |
+| 222 | repScopeCity | `String` | Reporting Scope City |
+| 223 | repState | `String` | Reporting State |
+| 224 | repStateDescription | `String` | Reporting State Desc |
+| 225 | repTaxType | `String` | Reporting Tax Type |
+| 226 | repTerritory | `String` | Reporting Territory |
+| 227 | repTitle | `String` | Reporting Title |
+| 228 | repTitleName | `String` | Reporting Title Name |
+| 229 | repVIPName | `String` | Reporting Vip Name |
+| 230 | repVIPStatus | `String` | Reporting Vip Status |
+| 231 | replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
+| 232 | resortRegistered | `String` | Resort for which Job is registered. |
+| 233 | restrictReasonCode | `String` | Restrict Reason Code |
+| 234 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 235 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 236 | salesrep | `String` | Sales Representative Code for this profile. |
+| 237 | salutation | `String` | Salutation Greeting |
+| 238 | scope | `String` | Scope |
+| 239 | scopeCity | `String` | Scope City |
+| 240 | sfirst | `String` | Uppercase value of First Name. |
+| 241 | smsYn | `String` | Use this alert to text a notification. |
+| 242 | sname | `String` | The Uppercase value of Last or Company. |
+| 243 | srepCode | `String` | Srep Code |
+| 244 | srepId | `Float` | Srep ID |
+| 245 | state | `String` | State |
+| 246 | stateDesc | `String` | State Description of the Guest of Payee |
+| 247 | suffix | `String` | Suffix |
+| 248 | summRefCc | `String` | Summ Ref Cc |
+| 249 | sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
+| 250 | sxname | `String` | Internal Indexed field for Searching by Extended Byte Name. |
+| 251 | tax1No | `String` | Tax1 Number |
+| 252 | tax2No | `String` | Tax2 Number |
+| 253 | taxCategory | `String` | Tax Category |
+| 254 | taxOffice | `String` | Tax Office Name |
+| 255 | taxType | `String` | Tax Type |
+| 256 | territory | `String` | Territory |
+| 257 | thirdPartyYn | `String` | Third Party Y/N |
+| 258 | title | `String` | Title |
+| 259 | titleName | `String` | Title Name |
+| 260 | titleSuffix | `Float` | Title Suffix |
+| 261 | totalStay | `Float` | Total Stay |
+| 262 | tracecode | `String` | Tracecode |
+| 263 | udfc01 | `String` | Udfc01 |
+| 264 | udfc02 | `String` | Udfc02 |
+| 265 | udfc03 | `String` | Udfc03 |
+| 266 | udfc04 | `String` | Udfc04 |
+| 267 | udfc05 | `String` | Udfc05 |
+| 268 | udfc06 | `String` | Udfc06 |
+| 269 | udfc07 | `String` | Udfc07 |
+| 270 | udfc08 | `String` | Udfc08 |
+| 271 | udfc09 | `String` | Udfc09 |
+| 272 | udfc10 | `String` | Udfc10 |
+| 273 | udfc11 | `String` | Udfc11 |
+| 274 | udfc12 | `String` | Udfc12 |
+| 275 | udfc13 | `String` | Udfc13 |
+| 276 | udfc14 | `String` | Udfc14 |
+| 277 | udfc15 | `String` | Udfc15 |
+| 278 | udfc16 | `String` | Udfc16 |
+| 279 | udfc17 | `String` | Udfc17 |
+| 280 | udfc18 | `String` | Udfc18 |
+| 281 | udfc19 | `String` | Udfc19 |
+| 282 | udfc20 | `String` | Udfc20 |
+| 283 | udfc21 | `String` | Udfc21 |
+| 284 | udfc22 | `String` | Udfc22 |
+| 285 | udfc23 | `String` | Udfc23 |
+| 286 | udfc24 | `String` | Udfc24 |
+| 287 | udfc25 | `String` | Udfc25 |
+| 288 | udfc26 | `String` | Udfc26 |
+| 289 | udfc27 | `String` | Udfc27 |
+| 290 | udfc28 | `String` | Udfc28 |
+| 291 | udfc29 | `String` | Udfc29 |
+| 292 | udfc30 | `String` | Udfc30 |
+| 293 | udfc31 | `String` | Udfc31 |
+| 294 | udfc32 | `String` | Udfc32 |
+| 295 | udfc33 | `String` | Udfc33 |
+| 296 | udfc34 | `String` | Udfc34 |
+| 297 | udfc35 | `String` | Udfc35 |
+| 298 | udfc36 | `String` | Udfc36 |
+| 299 | udfc37 | `String` | Udfc37 |
+| 300 | udfc38 | `String` | Udfc38 |
+| 301 | udfc39 | `String` | Udfc39 |
+| 302 | udfc40 | `String` | Udfc40 |
+| 303 | udfd01 | `Date` | Udfd01 |
+| 304 | udfd02 | `Date` | Udfd02 |
+| 305 | udfd03 | `Date` | Udfd03 |
+| 306 | udfd04 | `Date` | Udfd04 |
+| 307 | udfd05 | `Date` | Udfd05 |
+| 308 | udfd06 | `Date` | Udfd06 |
+| 309 | udfd07 | `Date` | Udfd07 |
+| 310 | udfd08 | `Date` | Udfd08 |
+| 311 | udfd09 | `Date` | Udfd09 |
+| 312 | udfd10 | `Date` | Udfd10 |
+| 313 | udfd11 | `Date` | Udfd11 |
+| 314 | udfd12 | `Date` | Udfd12 |
+| 315 | udfd13 | `Date` | Udfd13 |
+| 316 | udfd14 | `Date` | Udfd14 |
+| 317 | udfd15 | `Date` | Udfd15 |
+| 318 | udfd16 | `Date` | Udfd16 |
+| 319 | udfd17 | `Date` | Udfd17 |
+| 320 | udfd18 | `Date` | Udfd18 |
+| 321 | udfd19 | `Date` | Udfd19 |
+| 322 | udfd20 | `Date` | Udfd20 |
+| 323 | udfn01 | `Float` | Udfn01 |
+| 324 | udfn02 | `Float` | Udfn02 |
+| 325 | udfn03 | `Float` | Udfn03 |
+| 326 | udfn04 | `Float` | Udfn04 |
+| 327 | udfn05 | `Float` | Udfn05 |
+| 328 | udfn06 | `Float` | Udfn06 |
+| 329 | udfn07 | `Float` | Udfn07 |
+| 330 | udfn08 | `Float` | Udfn08 |
+| 331 | udfn09 | `Float` | Udfn09 |
+| 332 | udfn10 | `Float` | Udfn10 |
+| 333 | udfn11 | `Float` | Udfn11 |
+| 334 | udfn12 | `Float` | Udfn12 |
+| 335 | udfn13 | `Float` | Udfn13 |
+| 336 | udfn14 | `Float` | Udfn14 |
+| 337 | udfn15 | `Float` | Udfn15 |
+| 338 | udfn16 | `Float` | Udfn16 |
+| 339 | udfn17 | `Float` | Udfn17 |
+| 340 | udfn18 | `Float` | Udfn18 |
+| 341 | udfn19 | `Float` | Udfn19 |
+| 342 | udfn20 | `Float` | Udfn20 |
+| 343 | udfn21 | `Float` | Udfn21 |
+| 344 | udfn22 | `Float` | Udfn22 |
+| 345 | udfn23 | `Float` | Udfn23 |
+| 346 | udfn24 | `Float` | Udfn24 |
+| 347 | udfn25 | `Float` | Udfn25 |
+| 348 | udfn26 | `Float` | Udfn26 |
+| 349 | udfn27 | `Float` | Udfn27 |
+| 350 | udfn28 | `Float` | Udfn28 |
+| 351 | udfn29 | `Float` | Udfn29 |
+| 352 | udfn30 | `Float` | Udfn30 |
+| 353 | udfn31 | `Float` | Udfn31 |
+| 354 | udfn32 | `Float` | Udfn32 |
+| 355 | udfn33 | `Float` | Udfn33 |
+| 356 | udfn34 | `Float` | Udfn34 |
+| 357 | udfn35 | `Float` | Udfn35 |
+| 358 | udfn36 | `Float` | Udfn36 |
+| 359 | udfn37 | `Float` | Udfn37 |
+| 360 | udfn38 | `Float` | Udfn38 |
+| 361 | udfn39 | `Float` | Udfn39 |
+| 362 | udfn40 | `Float` | Udfn40 |
+| 363 | updateDate | `DateTime` | Update Date |
+| 364 | updateUser | `Float` | Update User |
+| 365 | updateUserName | `String` | Update User Name |
+| 366 | uploadDate | `Date` | Upload Date |
+| 367 | vipName | `String` | VIP Name |
+| 368 | vipStatus | `String` | VIP Status |
+| 369 | visaValidityType | `String` | Country Specific Requirement for Nigeria. |
+| 370 | webPage | `String` | Web Page |
+| 371 | webPageId | `Float` | Web Page ID |
+| 372 | xdisplayName | `String` | Xdisplay Name |
+| 373 | xenvelopeGreeting | `String` | Xenvelope Greeting |
+| 374 | xfirstName | `String` | Xfirst Name |
+| 375 | xmiddleName | `String` | Extended Byte middle name. |
+| 376 | xname | `String` | Xname |
+| 377 | zipCode | `String` | Zipcode Code |
 
 [⬆ Back to Query](#query)
 
@@ -414,51 +414,51 @@
 
 ### SimpleReportsProfileIndividualsProfilePropertyDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actionCode | `String` | Action Code |
-| arNumber | `String` | AR No |
-| autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
-| billingInstruction | `String` | Billing Instruction |
-| birGuestType | `String` | Guest type in PH country mode. Further used for showing proper adjustment options. |
-| businessId | `String` | Business ID |
-| businessRegistration | `String` | This column stores the BUSINESS REGISTRATION for a Profile for this property. |
-| commissionCode | `String` | Commission Code |
-| competitionCode | `String` | Competition Code |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| departmentNote | `String` | Department Note |
-| electronicFiscalFlag | `String` | Indicates if a Profile can be marked to Generate Fiscal Folio/Payload. |
-| features | `String` | Features |
-| guestType | `Float` | Guest Type |
-| internalPrimaryKeyIDToUniquelyIdentifyTheRow | `Float` | Primary Key ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastPrivacyPromptDate | `Date` | Last date the guest was prompted for privacy option. |
-| nameId | `Float` | Name ID |
-| nameTaxType | `String` | Name Tax Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paymentMethod | `String` | Payment Method |
-| potentialNights | `Float` | Potential Nights |
-| potentialRevenue | `Float` | Potential Revenue |
-| priority | `String` | Priority |
-| productInterest | `String` | Product Interest |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| repActionCode | `String` | Reporting Actioncode |
-| repCompetitionCode | `String` | Reporting Competition Code |
-| repPriority | `String` | Reporting Priority |
-| repRoomsPotential | `String` | Reporting Rooms Potential |
-| roomsPotential | `String` | Rooms Potential |
-| specials | `String` | Specials |
-| taxPerc1 | `Float` | Tax Perc1 |
-| taxPerc2 | `Float` | Tax Perc2 |
-| taxPerc3 | `Float` | Tax Perc3 |
-| taxPerc4 | `Float` | Tax Perc4 |
-| taxPerc5 | `Float` | Tax Perc5 |
-| vatOffsetYn | `String` | Vat Offset Y/N |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actionCode | `String` | Action Code |
+| 2 | arNumber | `String` | AR No |
+| 3 | autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
+| 4 | billingInstruction | `String` | Billing Instruction |
+| 5 | birGuestType | `String` | Guest type in PH country mode. Further used for showing proper adjustment options. |
+| 6 | businessId | `String` | Business ID |
+| 7 | businessRegistration | `String` | This column stores the BUSINESS REGISTRATION for a Profile for this property. |
+| 8 | commissionCode | `String` | Commission Code |
+| 9 | competitionCode | `String` | Competition Code |
+| 10 | currencyCode | `String` | Currency Code |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | departmentNote | `String` | Department Note |
+| 13 | electronicFiscalFlag | `String` | Indicates if a Profile can be marked to Generate Fiscal Folio/Payload. |
+| 14 | features | `String` | Features |
+| 15 | guestType | `Float` | Guest Type |
+| 16 | internalPrimaryKeyIDToUniquelyIdentifyTheRow | `Float` | Primary Key ID |
+| 17 | jRNUpdateDate | `Date` | JRN Update Date |
+| 18 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 19 | lastPrivacyPromptDate | `Date` | Last date the guest was prompted for privacy option. |
+| 20 | nameId | `Float` | Name ID |
+| 21 | nameTaxType | `String` | Name Tax Type |
+| 22 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 23 | paymentMethod | `String` | Payment Method |
+| 24 | potentialNights | `Float` | Potential Nights |
+| 25 | potentialRevenue | `Float` | Potential Revenue |
+| 26 | priority | `String` | Priority |
+| 27 | productInterest | `String` | Product Interest |
+| 28 | property | `String` | Code to uniquely identify the Property |
+| 29 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 30 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 31 | rateCode | `String` | Rate Code |
+| 32 | repActionCode | `String` | Reporting Actioncode |
+| 33 | repCompetitionCode | `String` | Reporting Competition Code |
+| 34 | repPriority | `String` | Reporting Priority |
+| 35 | repRoomsPotential | `String` | Reporting Rooms Potential |
+| 36 | roomsPotential | `String` | Rooms Potential |
+| 37 | specials | `String` | Specials |
+| 38 | taxPerc1 | `Float` | Tax Perc1 |
+| 39 | taxPerc2 | `Float` | Tax Perc2 |
+| 40 | taxPerc3 | `Float` | Tax Perc3 |
+| 41 | taxPerc4 | `Float` | Tax Perc4 |
+| 42 | taxPerc5 | `Float` | Tax Perc5 |
+| 43 | vatOffsetYn | `String` | Vat Offset Y/N |
 
 [⬆ Back to Query](#query)
 
@@ -599,6 +599,11 @@
 | nameDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
 | nameDetailsUpdateDate | `DateTimeInput` | Update Date |
 | nameresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+#### Validation Rules
+
+**`mandatoryInput`**
+- nameDetailsChainCode
+
 
 [⬆ Back to Query](#query)
 

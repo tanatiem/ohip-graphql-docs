@@ -16,162 +16,162 @@
 
 ### ConfigurationResortType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| propertyPropertyDetails | [`ConfigurationResortPropertyPropertyDetailsType`](#configurationresortpropertypropertydetailstype) | Resort Details |
-| membershipClaimOriginDetails | [`ConfigurationResortMembershipClaimOriginDetailsType`](#configurationresortmembershipclaimorigindetailstype) | Membership Claim Origin |
-| membershipPointsDetails | [`ConfigurationResortMembershipPointsDetailsType`](#configurationresortmembershippointsdetailstype) | Membership Points |
-| membershipAwardRatesDetails | [`ConfigurationResortMembershipAwardRatesDetailsType`](#configurationresortmembershipawardratesdetailstype) | Membership Award Rates |
-| membershipAwardProductsDetails | [`ConfigurationResortMembershipAwardProductsDetailsType`](#configurationresortmembershipawardproductsdetailstype) | Membership Award Products |
-| membershipAwardUpgradesDetails | [`ConfigurationResortMembershipAwardUpgradesDetailsType`](#configurationresortmembershipawardupgradesdetailstype) | Membership Award Upgrades |
-| membershipAwardFinancialTransactionDetails | [`ConfigurationResortMembershipAwardFinancialTransactionDetailsType`](#configurationresortmembershipawardfinancialtransactiondetailstype) | Membership Award Financial Transaction |
-| membershipPropertyGroupCodeDetails | [`ConfigurationResortMembershipPropertyGroupCodeDetailsType`](#configurationresortmembershippropertygroupcodedetailstype) | Membership Property Group Code |
-| airportDetails | [`ConfigurationResortAirportDetailsType`](#configurationresortairportdetailstype) | Airport Details |
-| featureDetails | [`ConfigurationResortFeatureDetailsType`](#configurationresortfeaturedetailstype) | Feature Details |
-| attractionCategoryDetails | [`ConfigurationResortAttractionCategoryDetailsType`](#configurationresortattractioncategorydetailstype) | Attraction Category Details |
-| attractionDetails | [`ConfigurationResortAttractionDetailsType`](#configurationresortattractiondetailstype) | Attraction Details |
-| chainDetails | [`ConfigurationResortChainDetailsType`](#configurationresortchaindetailstype) | Chain Details |
-| closingScriptDetails | [`ConfigurationResortClosingScriptDetailsType`](#configurationresortclosingscriptdetailstype) | Closing Script Details |
-| communicationMethodDetails | [`ConfigurationResortCommunicationMethodDetailsType`](#configurationresortcommunicationmethoddetailstype) | Communication Method Details |
-| deliveryStatusDetails | [`ConfigurationResortDeliveryStatusDetailsType`](#configurationresortdeliverystatusdetailstype) | Delivery Status Details |
-| departmentDetails | [`ConfigurationResortDepartmentDetailsType`](#configurationresortdepartmentdetailstype) | Department Details |
-| elecRegCardScriptDetails | [`ConfigurationResortElecRegCardScriptDetailsType`](#configurationresortelecregcardscriptdetailstype) | Elec Reg Card Script Details |
-| hubPropertyDetails | [`ConfigurationResortHubPropertyDetailsType`](#configurationresorthubpropertydetailstype) | Hub Property |
-| jobTitleDetails | [`ConfigurationResortJobTitleDetailsType`](#configurationresortjobtitledetailstype) | Job Title Details |
-| uDFCategoryDetails | [`ConfigurationResortUDFCategoryDetailsType`](#configurationresortudfcategorydetailstype) | UDF Category |
-| uDFTypeDetails | [`ConfigurationResortUDFTypeDetailsType`](#configurationresortudftypedetailstype) | UDF Type |
-| brandCodeDetails | [`ConfigurationResortBrandCodeDetailsType`](#configurationresortbrandcodedetailstype) | Brand Code Details |
-| businessUnitDetails | [`ConfigurationResortBusinessUnitDetailsType`](#configurationresortbusinessunitdetailstype) | Business Unit Details |
-| departmentCodeDetails | [`ConfigurationResortDepartmentCodeDetailsType`](#configurationresortdepartmentcodedetailstype) | Department Code Details |
-| divisionDetails | [`ConfigurationResortDivisionDetailsType`](#configurationresortdivisiondetailstype) | Division Details |
-| hotelCategoryDetails | [`ConfigurationResortHotelCategoryDetailsType`](#configurationresorthotelcategorydetailstype) | Hotel Category Details |
-| operatingUnitDetails | [`ConfigurationResortOperatingUnitDetailsType`](#configurationresortoperatingunitdetailstype) | Operating Unit Details |
-| applicationParameterValueDetails | [`ConfigurationResortApplicationParameterValueDetailsType`](#configurationresortapplicationparametervaluedetailstype) | Application Parameter Value Details |
-| trackitActionDetails | [`ConfigurationResortTrackitActionDetailsType`](#configurationresorttrackitactiondetailstype) | Trackit Action Details |
-| trackitLocationDetails | [`ConfigurationResortTrackitLocationDetailsType`](#configurationresorttrackitlocationdetailstype) | Trackit Location Details |
-| trackitTypeDetails | [`ConfigurationResortTrackitTypeDetailsType`](#configurationresorttrackittypedetailstype) | Trackit Type Details |
-| accountTypeDetails | [`ConfigurationResortAccountTypeDetailsType`](#configurationresortaccounttypedetailstype) | Account Type Details |
-| aRReminderCycleDetails | [`ConfigurationResortARReminderCycleDetailsType`](#configurationresortarremindercycledetailstype) | AR Reminder Cycle |
-| acctFlagReasonDetails | [`ConfigurationResortAcctFlagReasonDetailsType`](#configurationresortacctflagreasondetailstype) | Acct Flag Reason Details |
-| transactionReasonCodeDetails | [`ConfigurationResortTransactionReasonCodeDetailsType`](#configurationresorttransactionreasoncodedetailstype) | Transaction Reason Code |
-| creditCardAuthorizationRulesDetails | [`ConfigurationResortCreditCardAuthorizationRulesDetailsType`](#configurationresortcreditcardauthorizationrulesdetailstype) | Credit Card Authorization Rules |
-| autoFolioSettlementTypeDetails | [`ConfigurationResortAutoFolioSettlementTypeDetailsType`](#configurationresortautofoliosettlementtypedetailstype) | Auto Folio Settlement Type Details |
-| cashierDetails | [`ConfigurationResortCashierDetailsType`](#configurationresortcashierdetailstype) | Cashier Details |
-| customNumberDetails | [`ConfigurationResortCustomNumberDetailsType`](#configurationresortcustomnumberdetailstype) | Custom Number Details |
-| currencyExchangeTaxDetails | [`ConfigurationResortCurrencyExchangeTaxDetailsType`](#configurationresortcurrencyexchangetaxdetailstype) | Currency Exchange Tax Details |
-| expenseArrangementCodeDetails | [`ConfigurationResortExpenseArrangementCodeDetailsType`](#configurationresortexpensearrangementcodedetailstype) | Expense Arrangement Code Details |
-| transactionCodeDetails | [`ConfigurationResortTransactionCodeDetailsType`](#configurationresorttransactioncodedetailstype) | Transaction Code |
-| folioArrangementCodeDetails | [`ConfigurationResortFolioArrangementCodeDetailsType`](#configurationresortfolioarrangementcodedetailstype) | Folio Arrangement Code Details |
-| groupArrangementCodeDetails | [`ConfigurationResortGroupArrangementCodeDetailsType`](#configurationresortgrouparrangementcodedetailstype) | Group Arrangement Code Details |
-| folioTypeDetails | [`ConfigurationResortFolioTypeDetailsType`](#configurationresortfoliotypedetailstype) | Folio Type Details |
-| folioTypeDetailDetails | [`ConfigurationResortFolioTypeDetailDetailsType`](#configurationresortfoliotypedetaildetailstype) | Folio Type Detail Details |
-| bankAccountDetails | [`ConfigurationResortBankAccountDetailsType`](#configurationresortbankaccountdetailstype) | Bank Account Details |
-| commissionDetails | [`ConfigurationResortCommissionDetailsType`](#configurationresortcommissiondetailstype) | Commission Details |
-| authorizerGroupDetails | [`ConfigurationResortAuthorizerGroupDetailsType`](#configurationresortauthorizergroupdetailstype) | Authorizer Group Details |
-| authorizerGroupDetailDetails | [`ConfigurationResortAuthorizerGroupDetailDetailsType`](#configurationresortauthorizergroupdetaildetailstype) | Authorizer Group Detail Details |
-| authorizerDetails | [`ConfigurationResortAuthorizerDetailsType`](#configurationresortauthorizerdetailstype) | Authorizer Details |
-| bucketRedemptionCodeDetails | [`ConfigurationResortBucketRedemptionCodeDetailsType`](#configurationresortbucketredemptioncodedetailstype) | Bucket Redemption Code Details |
-| compRoutingCodeDetails | [`ConfigurationResortCompRoutingCodeDetailsType`](#configurationresortcomproutingcodedetailstype) | Comp Routing Code Details |
-| compTransactionCodeDetails | [`ConfigurationResortCompTransactionCodeDetailsType`](#configurationresortcomptransactioncodedetailstype) | Comp Transaction Code |
-| transactionCodeCompExternalReferenceDetails | [`ConfigurationResortTransactionCodeCompExternalReferenceDetailsType`](#configurationresorttransactioncodecompexternalreferencedetailstype) | Transaction Code Comp External Reference |
-| codeGeneratesDetails | [`ConfigurationResortCodeGeneratesDetailsType`](#configurationresortcodegeneratesdetailstype) | Code Generates Details |
-| compTypeDetails | [`ConfigurationResortCompTypeDetailsType`](#configurationresortcomptypedetailstype) | Comp Type Details |
-| barScheduleDetails | [`ConfigurationResortBarScheduleDetailsType`](#configurationresortbarscheduledetailstype) | Bar Schedule Details |
-| cityTaxRangeDetails | [`ConfigurationResortCityTaxRangeDetailsType`](#configurationresortcitytaxrangedetailstype) | City Tax Range Details |
-| propertyDayTypeDetails | [`ConfigurationResortPropertyDayTypeDetailsType`](#configurationresortpropertydaytypedetailstype) | Property Day Type |
-| displaySetDetails | [`ConfigurationResortDisplaySetDetailsType`](#configurationresortdisplaysetdetailstype) | Display Set Details |
-| propertyCalendarEventDetails | [`ConfigurationResortPropertyCalendarEventDetailsType`](#configurationresortpropertycalendareventdetailstype) | Property Calendar Event |
-| rateHurdlesDetails | [`ConfigurationResortRateHurdlesDetailsType`](#configurationresortratehurdlesdetailstype) | Rate Hurdles Details |
-| productDetails | [`ConfigurationResortProductDetailsType`](#configurationresortproductdetailstype) | Product Details |
-| itemPackageDetails | [`ConfigurationResortItemPackageDetailsType`](#configurationresortitempackagedetailstype) | Item Package Details |
-| rateProductPriceDetails | [`ConfigurationResortRateProductPriceDetailsType`](#configurationresortrateproductpricedetailstype) | Rate Product Price Details |
-| packageForecastGroupDetails | [`ConfigurationResortPackageForecastGroupDetailsType`](#configurationresortpackageforecastgroupdetailstype) | Package Forecast Group |
-| promotionDetails | [`ConfigurationResortPromotionDetailsType`](#configurationresortpromotiondetailstype) | Promotion Details |
-| promotionRateDetails | [`ConfigurationResortPromotionRateDetailsType`](#configurationresortpromotionratedetailstype) | Promotion Rate |
-| promotionCodeRoutingInstructionDetails | [`ConfigurationResortPromotionCodeRoutingInstructionDetailsType`](#configurationresortpromotioncoderoutinginstructiondetailstype) | Promotion Code Routing Instruction |
-| rateCategoriesDetails | [`ConfigurationResortRateCategoriesDetailsType`](#configurationresortratecategoriesdetailstype) | Rate Categories Details |
-| articleDetails | [`ConfigurationResortArticleDetailsType`](#configurationresortarticledetailstype) | Article Details |
-| creditCardTypesDetails | [`ConfigurationResortCreditCardTypesDetailsType`](#configurationresortcreditcardtypesdetailstype) | Credit Card Types Details |
-| paymentMethodDetails | [`ConfigurationResortPaymentMethodDetailsType`](#configurationresortpaymentmethoddetailstype) | Payment Method Details |
-| exportBucketCodeDetails | [`ConfigurationResortExportBucketCodeDetailsType`](#configurationresortexportbucketcodedetailstype) | Export Bucket Code Details |
-| transactionCodeArrangeDetailDetails | [`ConfigurationResortTransactionCodeArrangeDetailDetailsType`](#configurationresorttransactioncodearrangedetaildetailstype) | Transaction Code Arrange Detail |
-| exportBucketTypeDetails | [`ConfigurationResortExportBucketTypeDetailsType`](#configurationresortexportbuckettypedetailstype) | Export Bucket Type Details |
-| routingCodeDetails | [`ConfigurationResortRoutingCodeDetailsType`](#configurationresortroutingcodedetailstype) | Routing Code Details |
-| transactionDiversionRuleDetails | [`ConfigurationResortTransactionDiversionRuleDetailsType`](#configurationresorttransactiondiversionruledetailstype) | Transaction Diversion Rule |
-| transactionDiversionRuleDetailsDetails | [`ConfigurationResortTransactionDiversionRuleDetailsDetailsType`](#configurationresorttransactiondiversionruledetailsdetailstype) | Transaction Diversion Rule Details |
-| transactionGroupDetails | [`ConfigurationResortTransactionGroupDetailsType`](#configurationresorttransactiongroupdetailstype) | Transaction Group |
-| groupGeneratesDetails | [`ConfigurationResortGroupGeneratesDetailsType`](#configurationresortgroupgeneratesdetailstype) | Group Generates Details |
-| transactionSubgroupDetails | [`ConfigurationResortTransactionSubgroupDetailsType`](#configurationresorttransactionsubgroupdetailstype) | Transaction Subgroup |
-| subgroupGeneratesDetails | [`ConfigurationResortSubgroupGeneratesDetailsType`](#configurationresortsubgroupgeneratesdetailstype) | Subgroup Generates Details |
-| propertyAlertDetails | [`ConfigurationResortPropertyAlertDetailsType`](#configurationresortpropertyalertdetailstype) | Property Alert |
-| globalAlertsDetails | [`ConfigurationResortGlobalAlertsDetailsType`](#configurationresortglobalalertsdetailstype) | Global Alerts Details |
-| blockCancellationCodeDetails | [`ConfigurationResortBlockCancellationCodeDetailsType`](#configurationresortblockcancellationcodedetailstype) | Block Cancellation Code Details |
-| salesEventDestinationDetails | [`ConfigurationResortSalesEventDestinationDetailsType`](#configurationresortsaleseventdestinationdetailstype) | Sales Event Destination |
-| lostBookingCodesDetails | [`ConfigurationResortLostBookingCodesDetailsType`](#configurationresortlostbookingcodesdetailstype) | Lost Booking Codes Details |
-| refusedBookingCodesDetails | [`ConfigurationResortRefusedBookingCodesDetailsType`](#configurationresortrefusedbookingcodesdetailstype) | Refused Booking Codes Details |
-| bookingMethodDetails | [`ConfigurationResortBookingMethodDetailsType`](#configurationresortbookingmethoddetailstype) | Booking Method Details |
-| propertyCutoffScheduleDetails | [`ConfigurationResortPropertyCutoffScheduleDetailsType`](#configurationresortpropertycutoffscheduledetailstype) | Property Cutoff Schedule |
-| bookingStatusDetails | [`ConfigurationResortBookingStatusDetailsType`](#configurationresortbookingstatusdetailstype) | Booking Status Details |
-| cancelRuleDetails | [`ConfigurationResortCancelRuleDetailsType`](#configurationresortcancelruledetailstype) | Cancel Rule Details |
-| cancelRuleScheduleDetails | [`ConfigurationResortCancelRuleScheduleDetailsType`](#configurationresortcancelrulescheduledetailstype) | Cancel Rule Schedule Details |
-| depositRuleDetails | [`ConfigurationResortDepositRuleDetailsType`](#configurationresortdepositruledetailstype) | Deposit Rule Details |
-| depositRuleScheduleDetails | [`ConfigurationResortDepositRuleScheduleDetailsType`](#configurationresortdepositrulescheduledetailstype) | Deposit Rule Schedule Details |
-| guaranteeDetails | [`ConfigurationResortGuaranteeDetailsType`](#configurationresortguaranteedetailstype) | Guarantee Details |
-| reservationTypeScheduleDetails | [`ConfigurationResortReservationTypeScheduleDetailsType`](#configurationresortreservationtypescheduledetailstype) | Reservation Type Schedule Details |
-| marketDetails | [`ConfigurationResortMarketDetailsType`](#configurationresortmarketdetailstype) | Market Details |
-| marketGroupDetails | [`ConfigurationResortMarketGroupDetailsType`](#configurationresortmarketgroupdetailstype) | Market Group Details |
-| propertyMarketingCityDetails | [`ConfigurationResortPropertyMarketingCityDetailsType`](#configurationresortpropertymarketingcitydetailstype) | Property Marketing City |
-| marketingRegionsDetails | [`ConfigurationResortMarketingRegionsDetailsType`](#configurationresortmarketingregionsdetailstype) | Marketing Regions Details |
-| channelDetails | [`ConfigurationResortChannelDetailsType`](#configurationresortchanneldetailstype) | Channel Details |
-| sellMessagesDetails | [`ConfigurationResortSellMessagesDetailsType`](#configurationresortsellmessagesdetailstype) | Sell Messages Details |
-| sourceTableDetails | [`ConfigurationResortSourceTableDetailsType`](#configurationresortsourcetabledetailstype) | Source Table Details |
-| sourceGroupDetails | [`ConfigurationResortSourceGroupDetailsType`](#configurationresortsourcegroupdetailstype) | Source Group Details |
-| reservationAutoAttachRulesDetails | [`ConfigurationResortReservationAutoAttachRulesDetailsType`](#configurationresortreservationautoattachrulesdetailstype) | Reservation Auto Attach Rules |
-| reservationAutoAttachDetailsDetails | [`ConfigurationResortReservationAutoAttachDetailsDetailsType`](#configurationresortreservationautoattachdetailsdetailstype) | Reservation Auto Attach Details |
-| cancellationCodesDetails | [`ConfigurationResortCancellationCodesDetailsType`](#configurationresortcancellationcodesdetailstype) | Cancellation Codes Details |
-| entryPointDetails | [`ConfigurationResortEntryPointDetailsType`](#configurationresortentrypointdetailstype) | Entry Point Details |
-| discountReasonDetails | [`ConfigurationResortDiscountReasonDetailsType`](#configurationresortdiscountreasondetailstype) | Discount Reason Details |
-| ecouponDetails | [`ConfigurationResortEcouponDetailsType`](#configurationresortecoupondetailstype) | Ecoupon Details |
-| propertyLocatorDetails | [`ConfigurationResortPropertyLocatorDetailsType`](#configurationresortpropertylocatordetailstype) | Property Locator |
-| propertyMessageDetails | [`ConfigurationResortPropertyMessageDetailsType`](#configurationresortpropertymessagedetailstype) | Property Message |
-| guestStatusDetails | [`ConfigurationResortGuestStatusDetailsType`](#configurationresortgueststatusdetailstype) | Guest Status Details |
-| guestTypeDetails | [`ConfigurationResortGuestTypeDetailsType`](#configurationresortguesttypedetailstype) | Guest Type Details |
-| immigrationStatusDetails | [`ConfigurationResortImmigrationStatusDetailsType`](#configurationresortimmigrationstatusdetailstype) | Immigration Status Details |
-| preRegRulesDetails | [`ConfigurationResortPreRegRulesDetailsType`](#configurationresortpreregrulesdetailstype) | Pre Reg Rules Details |
-| itemClassDetails | [`ConfigurationResortItemClassDetailsType`](#configurationresortitemclassdetailstype) | Item Class Details |
-| itemInventoryDetails | [`ConfigurationResortItemInventoryDetailsType`](#configurationresortiteminventorydetailstype) | Item Inventory Details |
-| itemPoolDetails | [`ConfigurationResortItemPoolDetailsType`](#configurationresortitempooldetailstype) | Item Pool Details |
-| birthCountryDetails | [`ConfigurationResortBirthCountryDetailsType`](#configurationresortbirthcountrydetailstype) | Birth Country Details |
-| propertyCountryDetails | [`ConfigurationResortPropertyCountryDetailsType`](#configurationresortpropertycountrydetailstype) | Property Country |
-| countryGroupDetails | [`ConfigurationResortCountryGroupDetailsType`](#configurationresortcountrygroupdetailstype) | Country Group Details |
-| distanceTypeDetails | [`ConfigurationResortDistanceTypeDetailsType`](#configurationresortdistancetypedetailstype) | Distance Type Details |
-| districtDetails | [`ConfigurationResortDistrictDetailsType`](#configurationresortdistrictdetailstype) | District Details |
-| fiscalGuestTypeDetails | [`ConfigurationResortFiscalGuestTypeDetailsType`](#configurationresortfiscalguesttypedetailstype) | Fiscal Guest Type Details |
-| fiscalRegionDetails | [`ConfigurationResortFiscalRegionDetailsType`](#configurationresortfiscalregiondetailstype) | Fiscal Region Details |
-| profileIDCountryDetails | [`ConfigurationResortProfileIDCountryDetailsType`](#configurationresortprofileidcountrydetailstype) | Profile ID Country |
-| nationalityDetails | [`ConfigurationResortNationalityDetailsType`](#configurationresortnationalitydetailstype) | Nationality Details |
-| qualifyingRatesDetails | [`ConfigurationResortQualifyingRatesDetailsType`](#configurationresortqualifyingratesdetailstype) | Qualifying Rates Details |
-| membershipStatusDetails | [`ConfigurationResortMembershipStatusDetailsType`](#configurationresortmembershipstatusdetailstype) | Membership Status Details |
-| priorityDetails | [`ConfigurationResortPriorityDetailsType`](#configurationresortprioritydetailstype) | Priority Details |
-| entityAccountTypeDetails | [`ConfigurationResortEntityAccountTypeDetailsType`](#configurationresortentityaccounttypedetailstype) | Entity Account Type Details |
-| addressTypeDetails | [`ConfigurationResortAddressTypeDetailsType`](#configurationresortaddresstypedetailstype) | Address Type Details |
-| alternateLanguageTitleDetails | [`ConfigurationResortAlternateLanguageTitleDetailsType`](#configurationresortalternatelanguagetitledetailstype) | Alternate Language Title |
-| roomsPotentialDetails | [`ConfigurationResortRoomsPotentialDetailsType`](#configurationresortroomspotentialdetailstype) | Rooms Potential Details |
-| businessSegmentDetails | [`ConfigurationResortBusinessSegmentDetailsType`](#configurationresortbusinesssegmentdetailstype) | Business Segment Details |
-| companyTypeDetails | [`ConfigurationResortCompanyTypeDetailsType`](#configurationresortcompanytypedetailstype) | Company Type Details |
-| competitionDetails | [`ConfigurationResortCompetitionDetailsType`](#configurationresortcompetitiondetailstype) | Competition Details |
-| genderDetails | [`ConfigurationResortGenderDetailsType`](#configurationresortgenderdetailstype) | Gender Details |
-| profileInactiveReasonDetails | [`ConfigurationResortProfileInactiveReasonDetailsType`](#configurationresortprofileinactivereasondetailstype) | Profile Inactive Reason Details |
-| industryCodeDetails | [`ConfigurationResortIndustryCodeDetailsType`](#configurationresortindustrycodedetailstype) | Industry Code Details |
-| influenceCodeDetails | [`ConfigurationResortInfluenceCodeDetailsType`](#configurationresortinfluencecodedetailstype) | Influence Code Details |
-| keywordTypeDetails | [`ConfigurationResortKeywordTypeDetailsType`](#configurationresortkeywordtypedetailstype) | Keyword Type Details |
-| mailingActionDetails | [`ConfigurationResortMailingActionDetailsType`](#configurationresortmailingactiondetailstype) | Mailing Action Details |
-| preferenceDetails | [`ConfigurationResortPreferenceDetailsType`](#configurationresortpreferencedetailstype) | Preference Details |
-| profileRestrictionReasonDetails | [`ConfigurationResortProfileRestrictionReasonDetailsType`](#configurationresortprofilerestrictionreasondetailstype) | Profile Restriction Reason Details |
-| salesEventScopeDetails | [`ConfigurationResortSalesEventScopeDetailsType`](#configurationresortsaleseventscopedetailstype) | Sales Event Scope |
-| salesEventScopeCityDetails | [`ConfigurationResortSalesEventScopeCityDetailsType`](#configurationresortsaleseventscopecitydetailstype) | Sales Event Scope City |
-| membershipClaimAdjustmentLimitDetails | [`ConfigurationResortMembershipClaimAdjustmentLimitDetailsType`](#configurationresortmembershipclaimadjustmentlimitdetailstype) | Membership Claim Adjustment Limit |
-| configurationResortRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | propertyPropertyDetails | [`ConfigurationResortPropertyPropertyDetailsType`](#configurationresortpropertypropertydetailstype) | Resort Details |
+| 2 | membershipClaimOriginDetails | [`ConfigurationResortMembershipClaimOriginDetailsType`](#configurationresortmembershipclaimorigindetailstype) | Membership Claim Origin |
+| 3 | membershipPointsDetails | [`ConfigurationResortMembershipPointsDetailsType`](#configurationresortmembershippointsdetailstype) | Membership Points |
+| 4 | membershipAwardRatesDetails | [`ConfigurationResortMembershipAwardRatesDetailsType`](#configurationresortmembershipawardratesdetailstype) | Membership Award Rates |
+| 5 | membershipAwardProductsDetails | [`ConfigurationResortMembershipAwardProductsDetailsType`](#configurationresortmembershipawardproductsdetailstype) | Membership Award Products |
+| 6 | membershipAwardUpgradesDetails | [`ConfigurationResortMembershipAwardUpgradesDetailsType`](#configurationresortmembershipawardupgradesdetailstype) | Membership Award Upgrades |
+| 7 | membershipAwardFinancialTransactionDetails | [`ConfigurationResortMembershipAwardFinancialTransactionDetailsType`](#configurationresortmembershipawardfinancialtransactiondetailstype) | Membership Award Financial Transaction |
+| 8 | membershipPropertyGroupCodeDetails | [`ConfigurationResortMembershipPropertyGroupCodeDetailsType`](#configurationresortmembershippropertygroupcodedetailstype) | Membership Property Group Code |
+| 9 | airportDetails | [`ConfigurationResortAirportDetailsType`](#configurationresortairportdetailstype) | Airport Details |
+| 10 | featureDetails | [`ConfigurationResortFeatureDetailsType`](#configurationresortfeaturedetailstype) | Feature Details |
+| 11 | attractionCategoryDetails | [`ConfigurationResortAttractionCategoryDetailsType`](#configurationresortattractioncategorydetailstype) | Attraction Category Details |
+| 12 | attractionDetails | [`ConfigurationResortAttractionDetailsType`](#configurationresortattractiondetailstype) | Attraction Details |
+| 13 | chainDetails | [`ConfigurationResortChainDetailsType`](#configurationresortchaindetailstype) | Chain Details |
+| 14 | closingScriptDetails | [`ConfigurationResortClosingScriptDetailsType`](#configurationresortclosingscriptdetailstype) | Closing Script Details |
+| 15 | communicationMethodDetails | [`ConfigurationResortCommunicationMethodDetailsType`](#configurationresortcommunicationmethoddetailstype) | Communication Method Details |
+| 16 | deliveryStatusDetails | [`ConfigurationResortDeliveryStatusDetailsType`](#configurationresortdeliverystatusdetailstype) | Delivery Status Details |
+| 17 | departmentDetails | [`ConfigurationResortDepartmentDetailsType`](#configurationresortdepartmentdetailstype) | Department Details |
+| 18 | elecRegCardScriptDetails | [`ConfigurationResortElecRegCardScriptDetailsType`](#configurationresortelecregcardscriptdetailstype) | Elec Reg Card Script Details |
+| 19 | hubPropertyDetails | [`ConfigurationResortHubPropertyDetailsType`](#configurationresorthubpropertydetailstype) | Hub Property |
+| 20 | jobTitleDetails | [`ConfigurationResortJobTitleDetailsType`](#configurationresortjobtitledetailstype) | Job Title Details |
+| 21 | uDFCategoryDetails | [`ConfigurationResortUDFCategoryDetailsType`](#configurationresortudfcategorydetailstype) | UDF Category |
+| 22 | uDFTypeDetails | [`ConfigurationResortUDFTypeDetailsType`](#configurationresortudftypedetailstype) | UDF Type |
+| 23 | brandCodeDetails | [`ConfigurationResortBrandCodeDetailsType`](#configurationresortbrandcodedetailstype) | Brand Code Details |
+| 24 | businessUnitDetails | [`ConfigurationResortBusinessUnitDetailsType`](#configurationresortbusinessunitdetailstype) | Business Unit Details |
+| 25 | departmentCodeDetails | [`ConfigurationResortDepartmentCodeDetailsType`](#configurationresortdepartmentcodedetailstype) | Department Code Details |
+| 26 | divisionDetails | [`ConfigurationResortDivisionDetailsType`](#configurationresortdivisiondetailstype) | Division Details |
+| 27 | hotelCategoryDetails | [`ConfigurationResortHotelCategoryDetailsType`](#configurationresorthotelcategorydetailstype) | Hotel Category Details |
+| 28 | operatingUnitDetails | [`ConfigurationResortOperatingUnitDetailsType`](#configurationresortoperatingunitdetailstype) | Operating Unit Details |
+| 29 | applicationParameterValueDetails | [`ConfigurationResortApplicationParameterValueDetailsType`](#configurationresortapplicationparametervaluedetailstype) | Application Parameter Value Details |
+| 30 | trackitActionDetails | [`ConfigurationResortTrackitActionDetailsType`](#configurationresorttrackitactiondetailstype) | Trackit Action Details |
+| 31 | trackitLocationDetails | [`ConfigurationResortTrackitLocationDetailsType`](#configurationresorttrackitlocationdetailstype) | Trackit Location Details |
+| 32 | trackitTypeDetails | [`ConfigurationResortTrackitTypeDetailsType`](#configurationresorttrackittypedetailstype) | Trackit Type Details |
+| 33 | accountTypeDetails | [`ConfigurationResortAccountTypeDetailsType`](#configurationresortaccounttypedetailstype) | Account Type Details |
+| 34 | aRReminderCycleDetails | [`ConfigurationResortARReminderCycleDetailsType`](#configurationresortarremindercycledetailstype) | AR Reminder Cycle |
+| 35 | acctFlagReasonDetails | [`ConfigurationResortAcctFlagReasonDetailsType`](#configurationresortacctflagreasondetailstype) | Acct Flag Reason Details |
+| 36 | transactionReasonCodeDetails | [`ConfigurationResortTransactionReasonCodeDetailsType`](#configurationresorttransactionreasoncodedetailstype) | Transaction Reason Code |
+| 37 | creditCardAuthorizationRulesDetails | [`ConfigurationResortCreditCardAuthorizationRulesDetailsType`](#configurationresortcreditcardauthorizationrulesdetailstype) | Credit Card Authorization Rules |
+| 38 | autoFolioSettlementTypeDetails | [`ConfigurationResortAutoFolioSettlementTypeDetailsType`](#configurationresortautofoliosettlementtypedetailstype) | Auto Folio Settlement Type Details |
+| 39 | cashierDetails | [`ConfigurationResortCashierDetailsType`](#configurationresortcashierdetailstype) | Cashier Details |
+| 40 | customNumberDetails | [`ConfigurationResortCustomNumberDetailsType`](#configurationresortcustomnumberdetailstype) | Custom Number Details |
+| 41 | currencyExchangeTaxDetails | [`ConfigurationResortCurrencyExchangeTaxDetailsType`](#configurationresortcurrencyexchangetaxdetailstype) | Currency Exchange Tax Details |
+| 42 | expenseArrangementCodeDetails | [`ConfigurationResortExpenseArrangementCodeDetailsType`](#configurationresortexpensearrangementcodedetailstype) | Expense Arrangement Code Details |
+| 43 | transactionCodeDetails | [`ConfigurationResortTransactionCodeDetailsType`](#configurationresorttransactioncodedetailstype) | Transaction Code |
+| 44 | folioArrangementCodeDetails | [`ConfigurationResortFolioArrangementCodeDetailsType`](#configurationresortfolioarrangementcodedetailstype) | Folio Arrangement Code Details |
+| 45 | groupArrangementCodeDetails | [`ConfigurationResortGroupArrangementCodeDetailsType`](#configurationresortgrouparrangementcodedetailstype) | Group Arrangement Code Details |
+| 46 | folioTypeDetails | [`ConfigurationResortFolioTypeDetailsType`](#configurationresortfoliotypedetailstype) | Folio Type Details |
+| 47 | folioTypeDetailDetails | [`ConfigurationResortFolioTypeDetailDetailsType`](#configurationresortfoliotypedetaildetailstype) | Folio Type Detail Details |
+| 48 | bankAccountDetails | [`ConfigurationResortBankAccountDetailsType`](#configurationresortbankaccountdetailstype) | Bank Account Details |
+| 49 | commissionDetails | [`ConfigurationResortCommissionDetailsType`](#configurationresortcommissiondetailstype) | Commission Details |
+| 50 | authorizerGroupDetails | [`ConfigurationResortAuthorizerGroupDetailsType`](#configurationresortauthorizergroupdetailstype) | Authorizer Group Details |
+| 51 | authorizerGroupDetailDetails | [`ConfigurationResortAuthorizerGroupDetailDetailsType`](#configurationresortauthorizergroupdetaildetailstype) | Authorizer Group Detail Details |
+| 52 | authorizerDetails | [`ConfigurationResortAuthorizerDetailsType`](#configurationresortauthorizerdetailstype) | Authorizer Details |
+| 53 | bucketRedemptionCodeDetails | [`ConfigurationResortBucketRedemptionCodeDetailsType`](#configurationresortbucketredemptioncodedetailstype) | Bucket Redemption Code Details |
+| 54 | compRoutingCodeDetails | [`ConfigurationResortCompRoutingCodeDetailsType`](#configurationresortcomproutingcodedetailstype) | Comp Routing Code Details |
+| 55 | compTransactionCodeDetails | [`ConfigurationResortCompTransactionCodeDetailsType`](#configurationresortcomptransactioncodedetailstype) | Comp Transaction Code |
+| 56 | transactionCodeCompExternalReferenceDetails | [`ConfigurationResortTransactionCodeCompExternalReferenceDetailsType`](#configurationresorttransactioncodecompexternalreferencedetailstype) | Transaction Code Comp External Reference |
+| 57 | codeGeneratesDetails | [`ConfigurationResortCodeGeneratesDetailsType`](#configurationresortcodegeneratesdetailstype) | Code Generates Details |
+| 58 | compTypeDetails | [`ConfigurationResortCompTypeDetailsType`](#configurationresortcomptypedetailstype) | Comp Type Details |
+| 59 | barScheduleDetails | [`ConfigurationResortBarScheduleDetailsType`](#configurationresortbarscheduledetailstype) | Bar Schedule Details |
+| 60 | cityTaxRangeDetails | [`ConfigurationResortCityTaxRangeDetailsType`](#configurationresortcitytaxrangedetailstype) | City Tax Range Details |
+| 61 | propertyDayTypeDetails | [`ConfigurationResortPropertyDayTypeDetailsType`](#configurationresortpropertydaytypedetailstype) | Property Day Type |
+| 62 | displaySetDetails | [`ConfigurationResortDisplaySetDetailsType`](#configurationresortdisplaysetdetailstype) | Display Set Details |
+| 63 | propertyCalendarEventDetails | [`ConfigurationResortPropertyCalendarEventDetailsType`](#configurationresortpropertycalendareventdetailstype) | Property Calendar Event |
+| 64 | rateHurdlesDetails | [`ConfigurationResortRateHurdlesDetailsType`](#configurationresortratehurdlesdetailstype) | Rate Hurdles Details |
+| 65 | productDetails | [`ConfigurationResortProductDetailsType`](#configurationresortproductdetailstype) | Product Details |
+| 66 | itemPackageDetails | [`ConfigurationResortItemPackageDetailsType`](#configurationresortitempackagedetailstype) | Item Package Details |
+| 67 | rateProductPriceDetails | [`ConfigurationResortRateProductPriceDetailsType`](#configurationresortrateproductpricedetailstype) | Rate Product Price Details |
+| 68 | packageForecastGroupDetails | [`ConfigurationResortPackageForecastGroupDetailsType`](#configurationresortpackageforecastgroupdetailstype) | Package Forecast Group |
+| 69 | promotionDetails | [`ConfigurationResortPromotionDetailsType`](#configurationresortpromotiondetailstype) | Promotion Details |
+| 70 | promotionRateDetails | [`ConfigurationResortPromotionRateDetailsType`](#configurationresortpromotionratedetailstype) | Promotion Rate |
+| 71 | promotionCodeRoutingInstructionDetails | [`ConfigurationResortPromotionCodeRoutingInstructionDetailsType`](#configurationresortpromotioncoderoutinginstructiondetailstype) | Promotion Code Routing Instruction |
+| 72 | rateCategoriesDetails | [`ConfigurationResortRateCategoriesDetailsType`](#configurationresortratecategoriesdetailstype) | Rate Categories Details |
+| 73 | articleDetails | [`ConfigurationResortArticleDetailsType`](#configurationresortarticledetailstype) | Article Details |
+| 74 | creditCardTypesDetails | [`ConfigurationResortCreditCardTypesDetailsType`](#configurationresortcreditcardtypesdetailstype) | Credit Card Types Details |
+| 75 | paymentMethodDetails | [`ConfigurationResortPaymentMethodDetailsType`](#configurationresortpaymentmethoddetailstype) | Payment Method Details |
+| 76 | exportBucketCodeDetails | [`ConfigurationResortExportBucketCodeDetailsType`](#configurationresortexportbucketcodedetailstype) | Export Bucket Code Details |
+| 77 | transactionCodeArrangeDetailDetails | [`ConfigurationResortTransactionCodeArrangeDetailDetailsType`](#configurationresorttransactioncodearrangedetaildetailstype) | Transaction Code Arrange Detail |
+| 78 | exportBucketTypeDetails | [`ConfigurationResortExportBucketTypeDetailsType`](#configurationresortexportbuckettypedetailstype) | Export Bucket Type Details |
+| 79 | routingCodeDetails | [`ConfigurationResortRoutingCodeDetailsType`](#configurationresortroutingcodedetailstype) | Routing Code Details |
+| 80 | transactionDiversionRuleDetails | [`ConfigurationResortTransactionDiversionRuleDetailsType`](#configurationresorttransactiondiversionruledetailstype) | Transaction Diversion Rule |
+| 81 | transactionDiversionRuleDetailsDetails | [`ConfigurationResortTransactionDiversionRuleDetailsDetailsType`](#configurationresorttransactiondiversionruledetailsdetailstype) | Transaction Diversion Rule Details |
+| 82 | transactionGroupDetails | [`ConfigurationResortTransactionGroupDetailsType`](#configurationresorttransactiongroupdetailstype) | Transaction Group |
+| 83 | groupGeneratesDetails | [`ConfigurationResortGroupGeneratesDetailsType`](#configurationresortgroupgeneratesdetailstype) | Group Generates Details |
+| 84 | transactionSubgroupDetails | [`ConfigurationResortTransactionSubgroupDetailsType`](#configurationresorttransactionsubgroupdetailstype) | Transaction Subgroup |
+| 85 | subgroupGeneratesDetails | [`ConfigurationResortSubgroupGeneratesDetailsType`](#configurationresortsubgroupgeneratesdetailstype) | Subgroup Generates Details |
+| 86 | propertyAlertDetails | [`ConfigurationResortPropertyAlertDetailsType`](#configurationresortpropertyalertdetailstype) | Property Alert |
+| 87 | globalAlertsDetails | [`ConfigurationResortGlobalAlertsDetailsType`](#configurationresortglobalalertsdetailstype) | Global Alerts Details |
+| 88 | blockCancellationCodeDetails | [`ConfigurationResortBlockCancellationCodeDetailsType`](#configurationresortblockcancellationcodedetailstype) | Block Cancellation Code Details |
+| 89 | salesEventDestinationDetails | [`ConfigurationResortSalesEventDestinationDetailsType`](#configurationresortsaleseventdestinationdetailstype) | Sales Event Destination |
+| 90 | lostBookingCodesDetails | [`ConfigurationResortLostBookingCodesDetailsType`](#configurationresortlostbookingcodesdetailstype) | Lost Booking Codes Details |
+| 91 | refusedBookingCodesDetails | [`ConfigurationResortRefusedBookingCodesDetailsType`](#configurationresortrefusedbookingcodesdetailstype) | Refused Booking Codes Details |
+| 92 | bookingMethodDetails | [`ConfigurationResortBookingMethodDetailsType`](#configurationresortbookingmethoddetailstype) | Booking Method Details |
+| 93 | propertyCutoffScheduleDetails | [`ConfigurationResortPropertyCutoffScheduleDetailsType`](#configurationresortpropertycutoffscheduledetailstype) | Property Cutoff Schedule |
+| 94 | bookingStatusDetails | [`ConfigurationResortBookingStatusDetailsType`](#configurationresortbookingstatusdetailstype) | Booking Status Details |
+| 95 | cancelRuleDetails | [`ConfigurationResortCancelRuleDetailsType`](#configurationresortcancelruledetailstype) | Cancel Rule Details |
+| 96 | cancelRuleScheduleDetails | [`ConfigurationResortCancelRuleScheduleDetailsType`](#configurationresortcancelrulescheduledetailstype) | Cancel Rule Schedule Details |
+| 97 | depositRuleDetails | [`ConfigurationResortDepositRuleDetailsType`](#configurationresortdepositruledetailstype) | Deposit Rule Details |
+| 98 | depositRuleScheduleDetails | [`ConfigurationResortDepositRuleScheduleDetailsType`](#configurationresortdepositrulescheduledetailstype) | Deposit Rule Schedule Details |
+| 99 | guaranteeDetails | [`ConfigurationResortGuaranteeDetailsType`](#configurationresortguaranteedetailstype) | Guarantee Details |
+| 100 | reservationTypeScheduleDetails | [`ConfigurationResortReservationTypeScheduleDetailsType`](#configurationresortreservationtypescheduledetailstype) | Reservation Type Schedule Details |
+| 101 | marketDetails | [`ConfigurationResortMarketDetailsType`](#configurationresortmarketdetailstype) | Market Details |
+| 102 | marketGroupDetails | [`ConfigurationResortMarketGroupDetailsType`](#configurationresortmarketgroupdetailstype) | Market Group Details |
+| 103 | propertyMarketingCityDetails | [`ConfigurationResortPropertyMarketingCityDetailsType`](#configurationresortpropertymarketingcitydetailstype) | Property Marketing City |
+| 104 | marketingRegionsDetails | [`ConfigurationResortMarketingRegionsDetailsType`](#configurationresortmarketingregionsdetailstype) | Marketing Regions Details |
+| 105 | channelDetails | [`ConfigurationResortChannelDetailsType`](#configurationresortchanneldetailstype) | Channel Details |
+| 106 | sellMessagesDetails | [`ConfigurationResortSellMessagesDetailsType`](#configurationresortsellmessagesdetailstype) | Sell Messages Details |
+| 107 | sourceTableDetails | [`ConfigurationResortSourceTableDetailsType`](#configurationresortsourcetabledetailstype) | Source Table Details |
+| 108 | sourceGroupDetails | [`ConfigurationResortSourceGroupDetailsType`](#configurationresortsourcegroupdetailstype) | Source Group Details |
+| 109 | reservationAutoAttachRulesDetails | [`ConfigurationResortReservationAutoAttachRulesDetailsType`](#configurationresortreservationautoattachrulesdetailstype) | Reservation Auto Attach Rules |
+| 110 | reservationAutoAttachDetailsDetails | [`ConfigurationResortReservationAutoAttachDetailsDetailsType`](#configurationresortreservationautoattachdetailsdetailstype) | Reservation Auto Attach Details |
+| 111 | cancellationCodesDetails | [`ConfigurationResortCancellationCodesDetailsType`](#configurationresortcancellationcodesdetailstype) | Cancellation Codes Details |
+| 112 | entryPointDetails | [`ConfigurationResortEntryPointDetailsType`](#configurationresortentrypointdetailstype) | Entry Point Details |
+| 113 | discountReasonDetails | [`ConfigurationResortDiscountReasonDetailsType`](#configurationresortdiscountreasondetailstype) | Discount Reason Details |
+| 114 | ecouponDetails | [`ConfigurationResortEcouponDetailsType`](#configurationresortecoupondetailstype) | Ecoupon Details |
+| 115 | propertyLocatorDetails | [`ConfigurationResortPropertyLocatorDetailsType`](#configurationresortpropertylocatordetailstype) | Property Locator |
+| 116 | propertyMessageDetails | [`ConfigurationResortPropertyMessageDetailsType`](#configurationresortpropertymessagedetailstype) | Property Message |
+| 117 | guestStatusDetails | [`ConfigurationResortGuestStatusDetailsType`](#configurationresortgueststatusdetailstype) | Guest Status Details |
+| 118 | guestTypeDetails | [`ConfigurationResortGuestTypeDetailsType`](#configurationresortguesttypedetailstype) | Guest Type Details |
+| 119 | immigrationStatusDetails | [`ConfigurationResortImmigrationStatusDetailsType`](#configurationresortimmigrationstatusdetailstype) | Immigration Status Details |
+| 120 | preRegRulesDetails | [`ConfigurationResortPreRegRulesDetailsType`](#configurationresortpreregrulesdetailstype) | Pre Reg Rules Details |
+| 121 | itemClassDetails | [`ConfigurationResortItemClassDetailsType`](#configurationresortitemclassdetailstype) | Item Class Details |
+| 122 | itemInventoryDetails | [`ConfigurationResortItemInventoryDetailsType`](#configurationresortiteminventorydetailstype) | Item Inventory Details |
+| 123 | itemPoolDetails | [`ConfigurationResortItemPoolDetailsType`](#configurationresortitempooldetailstype) | Item Pool Details |
+| 124 | birthCountryDetails | [`ConfigurationResortBirthCountryDetailsType`](#configurationresortbirthcountrydetailstype) | Birth Country Details |
+| 125 | propertyCountryDetails | [`ConfigurationResortPropertyCountryDetailsType`](#configurationresortpropertycountrydetailstype) | Property Country |
+| 126 | countryGroupDetails | [`ConfigurationResortCountryGroupDetailsType`](#configurationresortcountrygroupdetailstype) | Country Group Details |
+| 127 | distanceTypeDetails | [`ConfigurationResortDistanceTypeDetailsType`](#configurationresortdistancetypedetailstype) | Distance Type Details |
+| 128 | districtDetails | [`ConfigurationResortDistrictDetailsType`](#configurationresortdistrictdetailstype) | District Details |
+| 129 | fiscalGuestTypeDetails | [`ConfigurationResortFiscalGuestTypeDetailsType`](#configurationresortfiscalguesttypedetailstype) | Fiscal Guest Type Details |
+| 130 | fiscalRegionDetails | [`ConfigurationResortFiscalRegionDetailsType`](#configurationresortfiscalregiondetailstype) | Fiscal Region Details |
+| 131 | profileIDCountryDetails | [`ConfigurationResortProfileIDCountryDetailsType`](#configurationresortprofileidcountrydetailstype) | Profile ID Country |
+| 132 | nationalityDetails | [`ConfigurationResortNationalityDetailsType`](#configurationresortnationalitydetailstype) | Nationality Details |
+| 133 | qualifyingRatesDetails | [`ConfigurationResortQualifyingRatesDetailsType`](#configurationresortqualifyingratesdetailstype) | Qualifying Rates Details |
+| 134 | membershipStatusDetails | [`ConfigurationResortMembershipStatusDetailsType`](#configurationresortmembershipstatusdetailstype) | Membership Status Details |
+| 135 | priorityDetails | [`ConfigurationResortPriorityDetailsType`](#configurationresortprioritydetailstype) | Priority Details |
+| 136 | entityAccountTypeDetails | [`ConfigurationResortEntityAccountTypeDetailsType`](#configurationresortentityaccounttypedetailstype) | Entity Account Type Details |
+| 137 | addressTypeDetails | [`ConfigurationResortAddressTypeDetailsType`](#configurationresortaddresstypedetailstype) | Address Type Details |
+| 138 | alternateLanguageTitleDetails | [`ConfigurationResortAlternateLanguageTitleDetailsType`](#configurationresortalternatelanguagetitledetailstype) | Alternate Language Title |
+| 139 | roomsPotentialDetails | [`ConfigurationResortRoomsPotentialDetailsType`](#configurationresortroomspotentialdetailstype) | Rooms Potential Details |
+| 140 | businessSegmentDetails | [`ConfigurationResortBusinessSegmentDetailsType`](#configurationresortbusinesssegmentdetailstype) | Business Segment Details |
+| 141 | companyTypeDetails | [`ConfigurationResortCompanyTypeDetailsType`](#configurationresortcompanytypedetailstype) | Company Type Details |
+| 142 | competitionDetails | [`ConfigurationResortCompetitionDetailsType`](#configurationresortcompetitiondetailstype) | Competition Details |
+| 143 | genderDetails | [`ConfigurationResortGenderDetailsType`](#configurationresortgenderdetailstype) | Gender Details |
+| 144 | profileInactiveReasonDetails | [`ConfigurationResortProfileInactiveReasonDetailsType`](#configurationresortprofileinactivereasondetailstype) | Profile Inactive Reason Details |
+| 145 | industryCodeDetails | [`ConfigurationResortIndustryCodeDetailsType`](#configurationresortindustrycodedetailstype) | Industry Code Details |
+| 146 | influenceCodeDetails | [`ConfigurationResortInfluenceCodeDetailsType`](#configurationresortinfluencecodedetailstype) | Influence Code Details |
+| 147 | keywordTypeDetails | [`ConfigurationResortKeywordTypeDetailsType`](#configurationresortkeywordtypedetailstype) | Keyword Type Details |
+| 148 | mailingActionDetails | [`ConfigurationResortMailingActionDetailsType`](#configurationresortmailingactiondetailstype) | Mailing Action Details |
+| 149 | preferenceDetails | [`ConfigurationResortPreferenceDetailsType`](#configurationresortpreferencedetailstype) | Preference Details |
+| 150 | profileRestrictionReasonDetails | [`ConfigurationResortProfileRestrictionReasonDetailsType`](#configurationresortprofilerestrictionreasondetailstype) | Profile Restriction Reason Details |
+| 151 | salesEventScopeDetails | [`ConfigurationResortSalesEventScopeDetailsType`](#configurationresortsaleseventscopedetailstype) | Sales Event Scope |
+| 152 | salesEventScopeCityDetails | [`ConfigurationResortSalesEventScopeCityDetailsType`](#configurationresortsaleseventscopecitydetailstype) | Sales Event Scope City |
+| 153 | membershipClaimAdjustmentLimitDetails | [`ConfigurationResortMembershipClaimAdjustmentLimitDetailsType`](#configurationresortmembershipclaimadjustmentlimitdetailstype) | Membership Claim Adjustment Limit |
+| 154 | configurationResortRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -179,270 +179,270 @@
 
 ### ConfigurationResortPropertyPropertyDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| property | `String` | The property that the record belongs to |
-| aRAccountNoFormat | `String` | Number format of AR account no. |
-| aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
-| aRAgent | `String` | Default Account Type for an Agent for the Property |
-| aRBalanceTrxCode | `String` | Internal |
-| aRCompany | `String` | Default Account Type for a Company for the Property |
-| aRCreditTrxCode | `String` | Internal |
-| aRGroups | `String` | Default Account Type for a Group for the Property |
-| aRIndividuals | `String` | Default Account Type for Individual for the Property |
-| aRSettleCode | `String` | Internal |
-| aRTypewriter | `String` | Internal |
-| accessCode | `String` | Access Code |
-| accessibleRooms | `Float` | Number of handicapped rooms. |
-| agingLevel1 | `Float` | Aging bucket 1 |
-| agingLevel2 | `Float` | Aging bucket 2 |
-| agingLevel3 | `Float` | Aging bucket 3 |
-| agingLevel4 | `Float` | Aging bucket 4 |
-| agingLevel5 | `Float` | Aging bucket 3 |
-| airport | `String` | The Airport Code for the airport near the property |
-| airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
-| airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
-| allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
-| allowancePeriodAdj | `String` | Period for the allowance |
-| awardsTimeout | `Float` | Internal |
-| ballroomArea | `String` | Ball Room Area |
-| ballroomSeats | `Float` | No of Ballroom Seats |
-| baseLanguage | `String` | The base language of the Hotel |
-| block | `String` | It contains the reservation type to be used when making group block |
-| brandCode | `String` | Brand Code of the property. |
-| budgetMonth | `Float` | Financial Year of the Property |
-| businessDate | `Date` | The date this resort becomes valid for use by the system |
-| businessID | `String` | Value for the parameter. |
-| businessRegistrationCode | `String` | Value for the parameter. |
-| cROCODE | `String` | Code for the CRO |
-| cashShiftDrop | `String` | Internal |
-| cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
-| cateringCurrencyFormat | `String` | Catering currency format. |
-| centralXchangeDate | `Date` | Central  Exchange Date |
-| centralXchangeRate | `Float` | Central  Exchange Rate |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralCurrencyCode | `String` | Central Currency Code |
-| centralCurrencyDescription | `String` | Central Currency Description |
-| centralDblRate2 | `Float` | Central Double Rate2 |
-| centralDblRate1 | `Float` | Central Double Rate1 |
-| centralPasserbyMarket | `String` | Central Passerby Market |
-| centralPasserbySource | `String` | Central Passerby Source |
-| centralPropertyType | `String` | Central Property Type |
-| centralSglRate1 | `Float` | Central Sgl Rate1 |
-| centralSglRate2 | `Float` | Central Sgl Rate 2 |
-| centralState | `String` | Central State |
-| centralStateDescription | `String` | Central State Description |
-| centralSuiRate1 | `Float` | Central Sui Rate1 |
-| centralSuiRate2 | `Float` | Central Sui Rate 2 |
-| centralTplRate1 | `Float` | Central Tpl Rate1 |
-| centralTplRate2 | `Float` | Central Tpl Rate 2 |
-| centralWarningAmount | `Float` | Central Warning Amount |
-| chainCode | `String` | Chain Code for the chain to which the property belongs |
-| chainDescription | `String` | The description of this chain. |
-| chainMode | `String` | Chain Mode |
-| checkExgPaidout | `String` | Internal |
-| checkOutTime | `DateTime` | The Hotel official check out time |
-| checkShiftDrop | `String` | Internal |
-| checkTrxcode | `String` | Internal |
-| checkInTime | `DateTime` | The Hotel official check intime |
-| city | `String` | The physical city in which this property resides. |
-| cityDescription | `String` | City Description |
-| comAddress | `String` | Internal |
-| comMethod | `String` | Internal |
-| comNameXrefId | `Float` | Internal |
-| companyAddressType | `String` | Internal |
-| companyPhoneType | `String` | Internal |
-| configurationMode | `String` | Internal |
-| confirmRegcardPrinter | `String` | Internal |
-| connectingRooms | `Float` | Number of connecting rooms. |
-| contacts | `String` | The unique name of application user |
-| copies | `Float` | Number of copies to be printed |
-| country | `String` | Country name. |
-| countryCode | `String` | The name of the country in which this property resides. |
-| countryMode | `String` | Value for the parameter. |
-| creditLimit | `Float` | The default credit limit for guests. |
-| currencyCode | `String` | Currency Code. |
-| currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
-| currencyDescription | `String` | A description of this currency. |
-| currencyFormat | `String` | Format for the local currency. |
-| curtainColor | `String` | Color that of the background |
-| dSI | `Float` | DSI |
-| dateForAging | `String` | Date the aging should begin |
-| dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
-| decimalPlaces | `Float` | Number of places for the default currency |
-| decimalSeparator | `String` | Type of decimal separator |
-| decimals | `Float` | Number of decimals to designate currency |
-| defaultFolioStyle | `Float` | Folio style to be used for all guests |
-| defaultGuestAddress | `String` | Default guest address format. |
-| defaultMembershipType | `String` | Future use |
-| defaultPostingRoom | `String` | Future use |
-| defaultPropertyAddress | `String` | Default property address format. |
-| defaultRateCode | `String` | Future use |
-| defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
-| defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
-| defaultRegistrationCard | `String` | Default registration card for the property. |
-| defaultReservationType | `String` | The Default reservation type for this property |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerTrxCode | `String` | Future use |
-| destinationId | `String` | Destination ID |
-| dfltPkgTranCode | `String` | Future use |
-| dfltTranCodeRateCode | `String` | Future use |
-| directions | `String` | Internal |
-| dirsales | `String` | Future use |
-| disableLoginYN | `String` | LOGIN into the application is disabled. |
-| doubleRooms | `Float` | Number of double rooms. |
-| downloadRestYN | `String` | Download Rest YN |
-| dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
-| email | `String` | Email id for the property. |
-| endDate | `Date` | Future use. |
-| exchangePostingType | `String` | Default Exchange posting status for the property |
-| executiveFloorNumber | `String` | Floor number of executive floor. |
-| expHotelCode | `String` | Hotel code used for third party exports |
-| extExpFileLocation | `String` | Future use |
-| extPropertyCode | `String` | Future use |
-| externalSCYN | `String` | Indicates that the property uses an external SC system. |
-| familyRooms | `Float` | Number of family rooms. |
-| faxNoFormat | `String` | Fax number formats. |
-| faxNumber | `String` | The fax phone number |
-| fiscalEndDate | `Date` | Future use |
-| fiscalPeriodType | `String` | Future use |
-| fiscalStartDate | `Date` | Future use |
-| fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
-| fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
-| flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
-| flowCode | `String` | Future use |
-| fnsTier | `String` | Property Free Nights Stay Tier. |
-| folioLanguage1 | `String` | Other languages |
-| folioLanguage2 | `String` | Other languages |
-| folioLanguage3 | `String` | Other languages |
-| folioLanguage4 | `String` | Other languages |
-| genmgr | `String` | Future use |
-| groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
-| guestLookupTimeout | `Float` | Future use |
-| guestRoomElevators | `Float` | Number of guest elevators. |
-| guestRoomFloors | `Float` | Total of guest rooms floors. |
-| hotelCode | `String` | Future use |
-| hotelFC | `String` | Future use |
-| hotelID | `String` | Hotel id |
-| hotelType | `String` | Future use |
-| iMGDirectionID | `Float` | Future use |
-| iMGHotelID | `Float` | Future use |
-| iMGMapID | `Float` | Future use |
-| inactiveDaysForGuestProfile | `Float` | Future use |
-| inactiveFlag | `String` | Inactive Flag |
-| individualAddressType | `String` | Future use |
-| individualPhoneType | `String` | Future use |
-| individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
-| insertDate | `DateTime` | The date the record was created |
-| insertUser | `Float` | The user that created the record |
-| intTaxIncludedYN | `String` | Int Tax Included YN |
-| inventoryYN | `String` | Future use |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
-| latitude | `Float` | Latitude of the property in decimal |
-| leadsend | `String` | Future use |
-| legalOwner | `String` | The owner who owns this property |
-| locationID | `String` | The property that the record belongs to |
-| longDateFormat | `String` | Long date format for the property. |
-| longStayControl | `Float` | The default length of stay |
-| longitude | `Float` | Longitude of the property in decimal |
-| maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
-| maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
-| maxOccupancy | `Float` | Future use |
-| maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
-| mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
-| meetRooms | `Float` | Future use |
-| meetSeats | `Float` | Future use |
-| meetSpace | `Float` | Future use |
-| meetingFC | `String` | Future use |
-| minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
-| nameIdLink | `Float` | Internal |
-| nightAuditCashierID | `String` | Future use |
-| nonSmokingRooms | `Float` | Number of non smoking rooms. |
-| noteDetails | `String` | Notes for the property |
-| numberOfBeds | `Float` | Total number of beds in this property |
-| numberOfFloors | `Float` | Total number of floors in this property |
-| numberOfRooms | `Float` | Number of Rooms |
-| opusCurrencyCode | `String` | Future use |
-| organizationID | `Float` | Organization ID |
-| organizationInternalID | `Float` | Organization Internal ID |
-| ownership | `String` | Future use |
-| packageLoss | `String` | Package Loss code for a particular package |
-| packageProfit | `String` | Package Profit code for a particular Package |
-| parentOrgCode | `String` | Parent Org Code |
-| passerbyMarket | `String` | Market code |
-| passerbySource | `String` | Source code |
-| path | `String` | Path |
-| paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| perReservationRoomLimit | `Float` | Future use |
-| phoneNumber | `String` | The direct dial phone number of this property |
-| postalCode | `String` | The postal code of this property. |
-| primaryKeyID | `Float` | Primary Key ID |
-| proinfoUrl | `String` | URL where property information is located. |
-| propMapUrl | `String` | Property MAP URL. |
-| propPicUrl | `String` | Property picture URL. |
-| propertyCode | `String` | The property that the record belongs to |
-| propertyName | `String` | The name of this property. |
-| propertyType | `String` | Type of resort. |
-| quotedCurrency | `String` | Future use |
-| rNAInsertdate | `DateTime` | RNA Insert Date |
-| rNAUpdatedate | `DateTime` | RNA Update Date |
-| reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
-| regionCode | `String` | Future use |
-| regionDescription | `String` | Description of the Region. |
-| restaurant | `Float` | Future use |
-| rhythmSheets | `Float` | Total number of Sheets |
-| rhythmTowels | `Float` | Total number of Towels |
-| roomAmenities | `String` | Room amenity. |
-| sGLNum | `String` | Future use |
-| sGLRate1 | `Float` | Future use |
-| sGLRate2 | `Float` | Future use |
-| sUINum | `String` | Future use |
-| sUIRate1 | `Float` | Future use |
-| sUIRate2 | `Float` | Future use |
-| saveProfiles | `Float` | To store number of days before deleting the gest profile |
-| scriptID | `Float` | Future use |
-| season1 | `String` | Future use |
-| season2 | `String` | Future use |
-| season3 | `String` | Future use |
-| season4 | `String` | Future use |
-| season5 | `String` | Future use |
-| sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
-| shopDescription | `String` | Shop description. |
-| shortDateFormat | `String` | Short date format for the property. |
-| singleRooms | `Float` | Number of single rooms. |
-| sourceCommission | `String` | For default commission percentage |
-| state | `String` | The state in which this property is located. |
-| stateDescription | `String` | Description of the state. |
-| street | `String` | The street of the property. |
-| suites | `Float` | Number of suites. |
-| summCurrencyCode | `String` | Internal |
-| tACommission | `String` | For default commission percentage |
-| tPLNum | `String` | Future use |
-| tPLRate1 | `Float` | Future use |
-| tPLRate2 | `Float` | Future use |
-| telephoneNoFormat | `String` | Formats for telephone number |
-| thousandSeparator | `String` | Separator for monetory values |
-| timeFormat | `String` | Default time format for the property. |
-| timeZone | `String` | Time zone region selected by the employee. |
-| tollFree | `String` | Toll free telephone number. |
-| totalRooms | `Float` | Future use |
-| touristNumber | `String` | Tourist Number |
-| translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
-| turnawayCode | `String` | Turnaway code for the property. |
-| twinRooms | `Float` | Number of twin rooms. |
-| updateDate | `DateTime` | The date the record was modified |
-| updateUser | `Float` | The user that modified the record |
-| vatID | `String` | VAT ID of this property. |
-| videoCheckoutPrinter | `String` | Future use |
-| videoCheckoutStart | `DateTime` | Video check out start time. |
-| videoCheckoutStop | `DateTime` | Video check out end time. |
-| wakeUpDelay | `Float` | Future use |
-| warningAmount | `Float` | Amount at which warning is raised. |
-| web | `String` | Webaddress of the property |
-| weekendDays | `String` | Weekend days for the property. |
-| zeroInvPurDays | `Float` | Internal |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | property | `String` | The property that the record belongs to |
+| 2 | aRAccountNoFormat | `String` | Number format of AR account no. |
+| 3 | aRAccountNumberMandatoryYN | `String` | Specifies if the AR acct No is mandatory(Y/N) |
+| 4 | aRAgent | `String` | Default Account Type for an Agent for the Property |
+| 5 | aRBalanceTrxCode | `String` | Internal |
+| 6 | aRCompany | `String` | Default Account Type for a Company for the Property |
+| 7 | aRCreditTrxCode | `String` | Internal |
+| 8 | aRGroups | `String` | Default Account Type for a Group for the Property |
+| 9 | aRIndividuals | `String` | Default Account Type for Individual for the Property |
+| 10 | aRSettleCode | `String` | Internal |
+| 11 | aRTypewriter | `String` | Internal |
+| 12 | accessCode | `String` | Access Code |
+| 13 | accessibleRooms | `Float` | Number of handicapped rooms. |
+| 14 | agingLevel1 | `Float` | Aging bucket 1 |
+| 15 | agingLevel2 | `Float` | Aging bucket 2 |
+| 16 | agingLevel3 | `Float` | Aging bucket 3 |
+| 17 | agingLevel4 | `Float` | Aging bucket 4 |
+| 18 | agingLevel5 | `Float` | Aging bucket 3 |
+| 19 | airport | `String` | The Airport Code for the airport near the property |
+| 20 | airportDistance | `String` | Distance of the Airport specified in the AIRPORT_CODE column from the Property |
+| 21 | airportTime | `String` | Time it takes to travel the distance between the Property and the Airport specified in AIRPORT_CODE column |
+| 22 | allowLoginYN | `String` | Allow loggin in to this resort(Y/N) |
+| 23 | allowancePeriodAdj | `String` | Period for the allowance |
+| 24 | awardsTimeout | `Float` | Internal |
+| 25 | ballroomArea | `String` | Ball Room Area |
+| 26 | ballroomSeats | `Float` | No of Ballroom Seats |
+| 27 | baseLanguage | `String` | The base language of the Hotel |
+| 28 | block | `String` | It contains the reservation type to be used when making group block |
+| 29 | brandCode | `String` | Brand Code of the property. |
+| 30 | budgetMonth | `Float` | Financial Year of the Property |
+| 31 | businessDate | `Date` | The date this resort becomes valid for use by the system |
+| 32 | businessID | `String` | Value for the parameter. |
+| 33 | businessRegistrationCode | `String` | Value for the parameter. |
+| 34 | cROCODE | `String` | Code for the CRO |
+| 35 | cashShiftDrop | `String` | Internal |
+| 36 | cateringCurrencyCode | `String` | Catering Currency Code used when Catering Currency differs from base currency. |
+| 37 | cateringCurrencyFormat | `String` | Catering currency format. |
+| 38 | centralXchangeDate | `Date` | Central  Exchange Date |
+| 39 | centralXchangeRate | `Float` | Central  Exchange Rate |
+| 40 | centralCreditLimit | `Float` | Central Credit Limit |
+| 41 | centralCurrencyCode | `String` | Central Currency Code |
+| 42 | centralCurrencyDescription | `String` | Central Currency Description |
+| 43 | centralDblRate2 | `Float` | Central Double Rate2 |
+| 44 | centralDblRate1 | `Float` | Central Double Rate1 |
+| 45 | centralPasserbyMarket | `String` | Central Passerby Market |
+| 46 | centralPasserbySource | `String` | Central Passerby Source |
+| 47 | centralPropertyType | `String` | Central Property Type |
+| 48 | centralSglRate1 | `Float` | Central Sgl Rate1 |
+| 49 | centralSglRate2 | `Float` | Central Sgl Rate 2 |
+| 50 | centralState | `String` | Central State |
+| 51 | centralStateDescription | `String` | Central State Description |
+| 52 | centralSuiRate1 | `Float` | Central Sui Rate1 |
+| 53 | centralSuiRate2 | `Float` | Central Sui Rate 2 |
+| 54 | centralTplRate1 | `Float` | Central Tpl Rate1 |
+| 55 | centralTplRate2 | `Float` | Central Tpl Rate 2 |
+| 56 | centralWarningAmount | `Float` | Central Warning Amount |
+| 57 | chainCode | `String` | Chain Code for the chain to which the property belongs |
+| 58 | chainDescription | `String` | The description of this chain. |
+| 59 | chainMode | `String` | Chain Mode |
+| 60 | checkExgPaidout | `String` | Internal |
+| 61 | checkOutTime | `DateTime` | The Hotel official check out time |
+| 62 | checkShiftDrop | `String` | Internal |
+| 63 | checkTrxcode | `String` | Internal |
+| 64 | checkInTime | `DateTime` | The Hotel official check intime |
+| 65 | city | `String` | The physical city in which this property resides. |
+| 66 | cityDescription | `String` | City Description |
+| 67 | comAddress | `String` | Internal |
+| 68 | comMethod | `String` | Internal |
+| 69 | comNameXrefId | `Float` | Internal |
+| 70 | companyAddressType | `String` | Internal |
+| 71 | companyPhoneType | `String` | Internal |
+| 72 | configurationMode | `String` | Internal |
+| 73 | confirmRegcardPrinter | `String` | Internal |
+| 74 | connectingRooms | `Float` | Number of connecting rooms. |
+| 75 | contacts | `String` | The unique name of application user |
+| 76 | copies | `Float` | Number of copies to be printed |
+| 77 | country | `String` | Country name. |
+| 78 | countryCode | `String` | The name of the country in which this property resides. |
+| 79 | countryMode | `String` | Value for the parameter. |
+| 80 | creditLimit | `Float` | The default credit limit for guests. |
+| 81 | currencyCode | `String` | Currency Code. |
+| 82 | currencyCodeSymbol | `String` | Currency Symbol like $ or EURO symbol |
+| 83 | currencyDescription | `String` | A description of this currency. |
+| 84 | currencyFormat | `String` | Format for the local currency. |
+| 85 | curtainColor | `String` | Color that of the background |
+| 86 | dSI | `Float` | DSI |
+| 87 | dateForAging | `String` | Date the aging should begin |
+| 88 | dateSeparator | `String` | Type of separator to distinguish between DD MM and YYYY |
+| 89 | decimalPlaces | `Float` | Number of places for the default currency |
+| 90 | decimalSeparator | `String` | Type of decimal separator |
+| 91 | decimals | `Float` | Number of decimals to designate currency |
+| 92 | defaultFolioStyle | `Float` | Folio style to be used for all guests |
+| 93 | defaultGuestAddress | `String` | Default guest address format. |
+| 94 | defaultMembershipType | `String` | Future use |
+| 95 | defaultPostingRoom | `String` | Future use |
+| 96 | defaultPropertyAddress | `String` | Default property address format. |
+| 97 | defaultRateCode | `String` | Future use |
+| 98 | defaultRatecodePcr | `String` | Rate code used to default a PCR rate code used in FIT Contracts. |
+| 99 | defaultRatecodeRack | `String` | Rate code used to default a RACK rate code used for FIT Contracts. |
+| 100 | defaultRegistrationCard | `String` | Default registration card for the property. |
+| 101 | defaultReservationType | `String` | The Default reservation type for this property |
+| 102 | deletedFlag | `String` | Deleted Flag |
+| 103 | depositLedgerTrxCode | `String` | Future use |
+| 104 | destinationId | `String` | Destination ID |
+| 105 | dfltPkgTranCode | `String` | Future use |
+| 106 | dfltTranCodeRateCode | `String` | Future use |
+| 107 | directions | `String` | Internal |
+| 108 | dirsales | `String` | Future use |
+| 109 | disableLoginYN | `String` | LOGIN into the application is disabled. |
+| 110 | doubleRooms | `Float` | Number of double rooms. |
+| 111 | downloadRestYN | `String` | Download Rest YN |
+| 112 | dutyManagerPager | `String` | Pager number for the Manager on duty for the property. |
+| 113 | email | `String` | Email id for the property. |
+| 114 | endDate | `Date` | Future use. |
+| 115 | exchangePostingType | `String` | Default Exchange posting status for the property |
+| 116 | executiveFloorNumber | `String` | Floor number of executive floor. |
+| 117 | expHotelCode | `String` | Hotel code used for third party exports |
+| 118 | extExpFileLocation | `String` | Future use |
+| 119 | extPropertyCode | `String` | Future use |
+| 120 | externalSCYN | `String` | Indicates that the property uses an external SC system. |
+| 121 | familyRooms | `Float` | Number of family rooms. |
+| 122 | faxNoFormat | `String` | Fax number formats. |
+| 123 | faxNumber | `String` | The fax phone number |
+| 124 | fiscalEndDate | `Date` | Future use |
+| 125 | fiscalPeriodType | `String` | Future use |
+| 126 | fiscalStartDate | `Date` | Future use |
+| 127 | fiscalYearBeginMonth | `Float` | Fiscal Year Begin Month |
+| 128 | fiscalYearBeginYear | `Float` | Fiscal Year Begin Year |
+| 129 | flags | `String` | Screen Painter flags to indicate whether an item is changable/ movable etc. |
+| 130 | flowCode | `String` | Future use |
+| 131 | fnsTier | `String` | Property Free Nights Stay Tier. |
+| 132 | folioLanguage1 | `String` | Other languages |
+| 133 | folioLanguage2 | `String` | Other languages |
+| 134 | folioLanguage3 | `String` | Other languages |
+| 135 | folioLanguage4 | `String` | Other languages |
+| 136 | genmgr | `String` | Future use |
+| 137 | groupRoomWarning | `Float` | To define an upper limit to the number of rooms for Group |
+| 138 | guestLookupTimeout | `Float` | Future use |
+| 139 | guestRoomElevators | `Float` | Number of guest elevators. |
+| 140 | guestRoomFloors | `Float` | Total of guest rooms floors. |
+| 141 | hotelCode | `String` | Future use |
+| 142 | hotelFC | `String` | Future use |
+| 143 | hotelID | `String` | Hotel id |
+| 144 | hotelType | `String` | Future use |
+| 145 | iMGDirectionID | `Float` | Future use |
+| 146 | iMGHotelID | `Float` | Future use |
+| 147 | iMGMapID | `Float` | Future use |
+| 148 | inactiveDaysForGuestProfile | `Float` | Future use |
+| 149 | inactiveFlag | `String` | Inactive Flag |
+| 150 | individualAddressType | `String` | Future use |
+| 151 | individualPhoneType | `String` | Future use |
+| 152 | individualRoomWarning | `Float` | To define an upper limit to the number of rooms for group |
+| 153 | insertDate | `DateTime` | The date the record was created |
+| 154 | insertUser | `Float` | The user that created the record |
+| 155 | intTaxIncludedYN | `String` | Int Tax Included YN |
+| 156 | inventoryYN | `String` | Future use |
+| 157 | jRNUpdateDate | `Date` | JRN Update Date |
+| 158 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 159 | keepAvailability | `Float` | To calculate the entire availability of the Hotel for future reservations |
+| 160 | latitude | `Float` | Latitude of the property in decimal |
+| 161 | leadsend | `String` | Future use |
+| 162 | legalOwner | `String` | The owner who owns this property |
+| 163 | locationID | `String` | The property that the record belongs to |
+| 164 | longDateFormat | `String` | Long date format for the property. |
+| 165 | longStayControl | `Float` | The default length of stay |
+| 166 | longitude | `Float` | Longitude of the property in decimal |
+| 167 | maxAdultsInFamilyRoom | `Float` | Maximum adults in family rooms. |
+| 168 | maxChildrenInFamilyRoom | `Float` | Maximum children in family rooms. |
+| 169 | maxOccupancy | `Float` | Future use |
+| 170 | maximumCreditDays | `Float` | Maximum number of days that are allowed to credit a bill. (Country requirements.) Used in CASHIERING MODULE. |
+| 171 | mbsSupportedYN | `String` | Indicates whether the property supports MBS. Used in some file exports. |
+| 172 | meetRooms | `Float` | Future use |
+| 173 | meetSeats | `Float` | Future use |
+| 174 | meetSpace | `Float` | Future use |
+| 175 | meetingFC | `String` | Future use |
+| 176 | minDaysBet2ReminderLetter | `Float` | Minimum days for reminder letter. |
+| 177 | nameIdLink | `Float` | Internal |
+| 178 | nightAuditCashierID | `String` | Future use |
+| 179 | nonSmokingRooms | `Float` | Number of non smoking rooms. |
+| 180 | noteDetails | `String` | Notes for the property |
+| 181 | numberOfBeds | `Float` | Total number of beds in this property |
+| 182 | numberOfFloors | `Float` | Total number of floors in this property |
+| 183 | numberOfRooms | `Float` | Number of Rooms |
+| 184 | opusCurrencyCode | `String` | Future use |
+| 185 | organizationID | `Float` | Organization ID |
+| 186 | organizationInternalID | `Float` | Organization Internal ID |
+| 187 | ownership | `String` | Future use |
+| 188 | packageLoss | `String` | Package Loss code for a particular package |
+| 189 | packageProfit | `String` | Package Profit code for a particular Package |
+| 190 | parentOrgCode | `String` | Parent Org Code |
+| 191 | passerbyMarket | `String` | Market code |
+| 192 | passerbySource | `String` | Source code |
+| 193 | path | `String` | Path |
+| 194 | paymentDate | `DateTime` | Minimim Payment Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 195 | perReservationRoomLimit | `Float` | Future use |
+| 196 | phoneNumber | `String` | The direct dial phone number of this property |
+| 197 | postalCode | `String` | The postal code of this property. |
+| 198 | primaryKeyID | `Float` | Primary Key ID |
+| 199 | proinfoUrl | `String` | URL where property information is located. |
+| 200 | propMapUrl | `String` | Property MAP URL. |
+| 201 | propPicUrl | `String` | Property picture URL. |
+| 202 | propertyCode | `String` | The property that the record belongs to |
+| 203 | propertyName | `String` | The name of this property. |
+| 204 | propertyType | `String` | Type of resort. |
+| 205 | quotedCurrency | `String` | Future use |
+| 206 | rNAInsertdate | `DateTime` | RNA Insert Date |
+| 207 | rNAUpdatedate | `DateTime` | RNA Update Date |
+| 208 | reconcileDate | `DateTime` | Minimim last Reconciliation Date for the Property used in Cross Property Postings. This will get updated while running the user defined procedure during the night audit process. |
+| 209 | regionCode | `String` | Future use |
+| 210 | regionDescription | `String` | Description of the Region. |
+| 211 | restaurant | `Float` | Future use |
+| 212 | rhythmSheets | `Float` | Total number of Sheets |
+| 213 | rhythmTowels | `Float` | Total number of Towels |
+| 214 | roomAmenities | `String` | Room amenity. |
+| 215 | sGLNum | `String` | Future use |
+| 216 | sGLRate1 | `Float` | Future use |
+| 217 | sGLRate2 | `Float` | Future use |
+| 218 | sUINum | `String` | Future use |
+| 219 | sUIRate1 | `Float` | Future use |
+| 220 | sUIRate2 | `Float` | Future use |
+| 221 | saveProfiles | `Float` | To store number of days before deleting the gest profile |
+| 222 | scriptID | `Float` | Future use |
+| 223 | season1 | `String` | Future use |
+| 224 | season2 | `String` | Future use |
+| 225 | season3 | `String` | Future use |
+| 226 | season4 | `String` | Future use |
+| 227 | season5 | `String` | Future use |
+| 228 | sendLeadAsBooking | `String` | Indicates that the property accepts leads as bookings. |
+| 229 | shopDescription | `String` | Shop description. |
+| 230 | shortDateFormat | `String` | Short date format for the property. |
+| 231 | singleRooms | `Float` | Number of single rooms. |
+| 232 | sourceCommission | `String` | For default commission percentage |
+| 233 | state | `String` | The state in which this property is located. |
+| 234 | stateDescription | `String` | Description of the state. |
+| 235 | street | `String` | The street of the property. |
+| 236 | suites | `Float` | Number of suites. |
+| 237 | summCurrencyCode | `String` | Internal |
+| 238 | tACommission | `String` | For default commission percentage |
+| 239 | tPLNum | `String` | Future use |
+| 240 | tPLRate1 | `Float` | Future use |
+| 241 | tPLRate2 | `Float` | Future use |
+| 242 | telephoneNoFormat | `String` | Formats for telephone number |
+| 243 | thousandSeparator | `String` | Separator for monetory values |
+| 244 | timeFormat | `String` | Default time format for the property. |
+| 245 | timeZone | `String` | Time zone region selected by the employee. |
+| 246 | tollFree | `String` | Toll free telephone number. |
+| 247 | totalRooms | `Float` | Future use |
+| 248 | touristNumber | `String` | Tourist Number |
+| 249 | translateMulticharYN | `String` | Indicates whether the property handles multi byte characters and whether they are translateable or not |
+| 250 | turnawayCode | `String` | Turnaway code for the property. |
+| 251 | twinRooms | `Float` | Number of twin rooms. |
+| 252 | updateDate | `DateTime` | The date the record was modified |
+| 253 | updateUser | `Float` | The user that modified the record |
+| 254 | vatID | `String` | VAT ID of this property. |
+| 255 | videoCheckoutPrinter | `String` | Future use |
+| 256 | videoCheckoutStart | `DateTime` | Video check out start time. |
+| 257 | videoCheckoutStop | `DateTime` | Video check out end time. |
+| 258 | wakeUpDelay | `Float` | Future use |
+| 259 | warningAmount | `Float` | Amount at which warning is raised. |
+| 260 | web | `String` | Webaddress of the property |
+| 261 | weekendDays | `String` | Weekend days for the property. |
+| 262 | zeroInvPurDays | `Float` | Internal |
 
 [⬆ Back to Query](#query)
 
@@ -450,45 +450,45 @@
 
 ### ConfigurationResortMembershipClaimOriginDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| claimOriginCode | `String` | Claim Origin Code |
-| claimOriginDescription | `String` | Claim Origin Description |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | claimOriginCode | `String` | Claim Origin Code |
+| 5 | claimOriginDescription | `String` | Claim Origin Description |
+| 6 | comments | `String` | Comments |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedflag | `String` | Deleted Flag |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Code to uniquely identify the Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -496,104 +496,104 @@
 
 ### ConfigurationResortMembershipPointsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allMembershipRatesYn | `String` | Indicates if this rule applies to all Rates checked for membership. |
-| allMembershipTransactionYN | `String` | Indicates if this rule applies to all transactions checked for membership. |
-| averageRateAmount | `Float` | Average Rate Amount |
-| beginDate | `Date` | Begin Date |
-| billingGroup | `String` | Billing Group |
-| bookingEndDate | `Date` | Booking End Date |
-| bookingStartDate | `Date` | Booking Start Date |
-| calculationRule | `String` | Calculation Rule |
-| chainCode | `String` | Chain Code |
-| costPerPoint | `Float` | Cost Per Point |
-| creditMultipleMembershipYn | `String` | Credit Multiple Membership Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysSinceEnrolled | `Float` | Number of days from enrollment. |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| earningRhythmFlg | `String` | Flag indicating type of earning rhythm applied. |
-| earningRhythmNights | `Float` | Indicate that points will be earned every X nights. |
-| endDate | `Date` | End Date |
-| enrollmentCode | `String` | The enrollment code to which this rule applies. |
-| enrollmentGroup | `String` | Enrollment group that includes the enrollment code(s) to which this rule applies. |
-| excludeBbFlg | `String` | Flag to indicate this rule is excluded if back to back is detected. |
-| excludeFromPointProjectionYN | `String` | Determines while calculating points projection should the rule be excluded or included. Default is included(N). |
-| excludeMktGroup | `String` | Determines if the market group should be excluded or included ). Default is included(N). |
-| excludeRevGroup | `String` | Determines if the revenue group should be excluded or included ). Default is included(N). |
-| excludeRoomGroupYn | `String` | Indicates if the room group should be excluded if Y. |
-| expirationDate | `Date` | Expiration date of the Card. |
-| exportLabel | `String` | This field will be used to store export label and will be used only for exporting purposes. |
-| fridayYN | `String` | Friday YN |
-| inactiveDate | `DateTime` | Inactive Date |
-| includeGraceRenewalFlg | `String` | This flag indicate if grace renewals need to be included or not. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| marketCode | `String` | Market Code |
-| marketGroup | `String` | Market Group |
-| marketGroupIncludeYN | `String` | Market Group Include YN |
-| maxBucketSize | `Float` | Maximum quantity bucket can contain. |
-| maximumNights | `Float` | This field indicates the maximum nights eligible  to receive points If membership type is based on NIGHTS. |
-| maximumRevenue | `Float` | Maximum Revenue |
-| memRevenueGroup | `String` | Membership rate group. |
-| membershipLevel | `String` | Membership level to which this rule applies. |
-| membershipPointsSeqno | `Float` | Membership Points Seqno |
-| membershipRateGroupExcludeYN | `String` | Mem Rate Group Exclude Y/N |
-| membershipType | `String` | Membership Type |
-| minPropertiesReq | `Float` | Determines if transactions should belong to minimum different properties. If empty then they can belong to same property. |
-| minimumNights | `Float` | This field indicates the minimum length of stay required to receive points If membership type is based on STAY. |
-| minimumRateAmount | `Float` | This field indicates the minimum rate amount required for the guest to earn points. |
-| minimumRevenue | `Float` | Minimum Revenue |
-| minimumStays | `Float` | Minimum Stays |
-| mondayYN | `String` | Monday YN |
-| multipleTransactionsYn | `String` | Multiple Transactions Y/N |
-| numberOfTimesEligible | `Float` | Number of Times Eligible |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| perRevenueUnits | `Float` | Specifies the minimum units needed |
-| points | `Float` | Specifies the ratio of the points accumulated per Stay or Night or Revenue. This ratio multiplied by the actual Stays or Nights or Revenue will give the Total points accumulated. |
-| pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
-| pointsRatioPercentYn | `String` | Points ratio is expressed in terms of %. |
-| pointsRatioRoundingFlg | `String` | This flag tells if the total amount computed will be rounded rounded up or rounded down. |
-| preferredCardExcludeYn | `String` | Exclude the rule if a preferred card exception exists on the transaction. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| programType | `String` | Program Type |
-| programTypeDesc | `String` | Program Type Desc |
-| promotionCode | `String` | Promotion Code |
-| property | `String` | Property |
-| propertyGroup | `String` | Property Group |
-| pseudoRuleYn | `String` | Pseudo rule is used for OCIS memberships to show computed points in PMS for a reservation. |
-| qualifyingRatesYN | `String` | Qualifying Rates YN |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateGroup | `String` | Rate Group |
-| rateGroupIncludeYN | `String` | Rate Group Include YN |
-| reservationChannel | `String` | Reservation Channel |
-| revenueGroup | `String` | Revenue Group |
-| revenueGroupIncludeYN | `String` | Revenue Group Include YN |
-| roomClass | `String` | Room Class |
-| roomGroup | `String` | Room Group |
-| roomType | `String` | Room Type |
-| roomTypeToChargeYN | `String` | Y to calculate the membership upgrade based on the "room to charge" for the stay and not the actual room type in which the member stayed. |
-| rounding | `String` | Rounding |
-| ruleAppliesTo | `String` | Rule Applies To |
-| ruleBasedOn | `String` | Indicates the field on which  calculation of points is valid for. Eg if value is 'RATE_GROUP' then this rule is valid for the value in RATE_GROUP field. Thus we can specify different points rule for BUSINESS rates and NON-BUSINESS rates. |
-| ruleCode | `String` | Rule Code |
-| saturdayYN | `String` | Saturday YN |
-| sundayYN | `String` | Sunday YN |
-| thursdayYN | `String` | Thursday YN |
-| toMemberLevel | `String` | Used in membership tier upgrade rule to determine to which level the upgrade will eligible. |
-| transactionType | `String` | Transaction Type |
-| tuesdayYN | `String` | Tuesday YN |
-| type | `String` | Type |
-| typeOfPoints | `String` | Types of points earned (Loyalty FF). |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| userpostingOnlyYn | `String` | Userposting Only Y/N |
-| wednesdayYN | `String` | Wednesday YN |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allMembershipRatesYn | `String` | Indicates if this rule applies to all Rates checked for membership. |
+| 2 | allMembershipTransactionYN | `String` | Indicates if this rule applies to all transactions checked for membership. |
+| 3 | averageRateAmount | `Float` | Average Rate Amount |
+| 4 | beginDate | `Date` | Begin Date |
+| 5 | billingGroup | `String` | Billing Group |
+| 6 | bookingEndDate | `Date` | Booking End Date |
+| 7 | bookingStartDate | `Date` | Booking Start Date |
+| 8 | calculationRule | `String` | Calculation Rule |
+| 9 | chainCode | `String` | Chain Code |
+| 10 | costPerPoint | `Float` | Cost Per Point |
+| 11 | creditMultipleMembershipYn | `String` | Credit Multiple Membership Y/N |
+| 12 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 13 | daysSinceEnrolled | `Float` | Number of days from enrollment. |
+| 14 | deletedFlag | `String` | Deleted Flag |
+| 15 | description | `String` | Description |
+| 16 | earningRhythmFlg | `String` | Flag indicating type of earning rhythm applied. |
+| 17 | earningRhythmNights | `Float` | Indicate that points will be earned every X nights. |
+| 18 | endDate | `Date` | End Date |
+| 19 | enrollmentCode | `String` | The enrollment code to which this rule applies. |
+| 20 | enrollmentGroup | `String` | Enrollment group that includes the enrollment code(s) to which this rule applies. |
+| 21 | excludeBbFlg | `String` | Flag to indicate this rule is excluded if back to back is detected. |
+| 22 | excludeFromPointProjectionYN | `String` | Determines while calculating points projection should the rule be excluded or included. Default is included(N). |
+| 23 | excludeMktGroup | `String` | Determines if the market group should be excluded or included ). Default is included(N). |
+| 24 | excludeRevGroup | `String` | Determines if the revenue group should be excluded or included ). Default is included(N). |
+| 25 | excludeRoomGroupYn | `String` | Indicates if the room group should be excluded if Y. |
+| 26 | expirationDate | `Date` | Expiration date of the Card. |
+| 27 | exportLabel | `String` | This field will be used to store export label and will be used only for exporting purposes. |
+| 28 | fridayYN | `String` | Friday YN |
+| 29 | inactiveDate | `DateTime` | Inactive Date |
+| 30 | includeGraceRenewalFlg | `String` | This flag indicate if grace renewals need to be included or not. |
+| 31 | insertDate | `DateTime` | Insert Date |
+| 32 | insertUser | `Float` | Insert User |
+| 33 | jRNUpdateDate | `Date` | JRN Update Date |
+| 34 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 35 | marketCode | `String` | Market Code |
+| 36 | marketGroup | `String` | Market Group |
+| 37 | marketGroupIncludeYN | `String` | Market Group Include YN |
+| 38 | maxBucketSize | `Float` | Maximum quantity bucket can contain. |
+| 39 | maximumNights | `Float` | This field indicates the maximum nights eligible  to receive points If membership type is based on NIGHTS. |
+| 40 | maximumRevenue | `Float` | Maximum Revenue |
+| 41 | memRevenueGroup | `String` | Membership rate group. |
+| 42 | membershipLevel | `String` | Membership level to which this rule applies. |
+| 43 | membershipPointsSeqno | `Float` | Membership Points Seqno |
+| 44 | membershipRateGroupExcludeYN | `String` | Mem Rate Group Exclude Y/N |
+| 45 | membershipType | `String` | Membership Type |
+| 46 | minPropertiesReq | `Float` | Determines if transactions should belong to minimum different properties. If empty then they can belong to same property. |
+| 47 | minimumNights | `Float` | This field indicates the minimum length of stay required to receive points If membership type is based on STAY. |
+| 48 | minimumRateAmount | `Float` | This field indicates the minimum rate amount required for the guest to earn points. |
+| 49 | minimumRevenue | `Float` | Minimum Revenue |
+| 50 | minimumStays | `Float` | Minimum Stays |
+| 51 | mondayYN | `String` | Monday YN |
+| 52 | multipleTransactionsYn | `String` | Multiple Transactions Y/N |
+| 53 | numberOfTimesEligible | `Float` | Number of Times Eligible |
+| 54 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 55 | perRevenueUnits | `Float` | Specifies the minimum units needed |
+| 56 | points | `Float` | Specifies the ratio of the points accumulated per Stay or Night or Revenue. This ratio multiplied by the actual Stays or Nights or Revenue will give the Total points accumulated. |
+| 57 | pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
+| 58 | pointsRatioPercentYn | `String` | Points ratio is expressed in terms of %. |
+| 59 | pointsRatioRoundingFlg | `String` | This flag tells if the total amount computed will be rounded rounded up or rounded down. |
+| 60 | preferredCardExcludeYn | `String` | Exclude the rule if a preferred card exception exists on the transaction. |
+| 61 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 62 | programType | `String` | Program Type |
+| 63 | programTypeDesc | `String` | Program Type Desc |
+| 64 | promotionCode | `String` | Promotion Code |
+| 65 | property | `String` | Property |
+| 66 | propertyGroup | `String` | Property Group |
+| 67 | pseudoRuleYn | `String` | Pseudo rule is used for OCIS memberships to show computed points in PMS for a reservation. |
+| 68 | qualifyingRatesYN | `String` | Qualifying Rates YN |
+| 69 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 70 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 71 | rateCode | `String` | Rate Code |
+| 72 | rateGroup | `String` | Rate Group |
+| 73 | rateGroupIncludeYN | `String` | Rate Group Include YN |
+| 74 | reservationChannel | `String` | Reservation Channel |
+| 75 | revenueGroup | `String` | Revenue Group |
+| 76 | revenueGroupIncludeYN | `String` | Revenue Group Include YN |
+| 77 | roomClass | `String` | Room Class |
+| 78 | roomGroup | `String` | Room Group |
+| 79 | roomType | `String` | Room Type |
+| 80 | roomTypeToChargeYN | `String` | Y to calculate the membership upgrade based on the "room to charge" for the stay and not the actual room type in which the member stayed. |
+| 81 | rounding | `String` | Rounding |
+| 82 | ruleAppliesTo | `String` | Rule Applies To |
+| 83 | ruleBasedOn | `String` | Indicates the field on which  calculation of points is valid for. Eg if value is 'RATE_GROUP' then this rule is valid for the value in RATE_GROUP field. Thus we can specify different points rule for BUSINESS rates and NON-BUSINESS rates. |
+| 84 | ruleCode | `String` | Rule Code |
+| 85 | saturdayYN | `String` | Saturday YN |
+| 86 | sundayYN | `String` | Sunday YN |
+| 87 | thursdayYN | `String` | Thursday YN |
+| 88 | toMemberLevel | `String` | Used in membership tier upgrade rule to determine to which level the upgrade will eligible. |
+| 89 | transactionType | `String` | Transaction Type |
+| 90 | tuesdayYN | `String` | Tuesday YN |
+| 91 | type | `String` | Type |
+| 92 | typeOfPoints | `String` | Types of points earned (Loyalty FF). |
+| 93 | updateDate | `DateTime` | Update Date |
+| 94 | updateUser | `Float` | Update User |
+| 95 | userpostingOnlyYn | `String` | Userposting Only Y/N |
+| 96 | wednesdayYN | `String` | Wednesday YN |
 
 [⬆ Back to Query](#query)
 
@@ -601,17 +601,17 @@
 
 ### ConfigurationResortMembershipAwardRatesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| awardType | `String` | Award Type |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| property | `String` | Code to uniquely identify the Property |
-| rateCode | `String` | Rate Code |
-| rateDescription | `String` | Rate Description |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | awardType | `String` | Award Type |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | membershipType | `String` | Membership Type |
+| 6 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 7 | property | `String` | Code to uniquely identify the Property |
+| 8 | rateCode | `String` | Rate Code |
+| 9 | rateDescription | `String` | Rate Description |
 
 [⬆ Back to Query](#query)
 
@@ -619,19 +619,19 @@
 
 ### ConfigurationResortMembershipAwardProductsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| awardType | `String` | Award Type |
-| centralPackageCode | `String` | Central Package Code |
-| centralPackageDescription | `String` | Central Package Description |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| packageCode | `String` | Products Codes |
-| packageDescription | `String` | Package Description |
-| property | `String` | Code to uniquely identify the Property |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | awardType | `String` | Award Type |
+| 2 | centralPackageCode | `String` | Central Package Code |
+| 3 | centralPackageDescription | `String` | Central Package Description |
+| 4 | chainCode | `String` | Chain Code |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | membershipType | `String` | Membership Type |
+| 8 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 9 | packageCode | `String` | Products Codes |
+| 10 | packageDescription | `String` | Package Description |
+| 11 | property | `String` | Code to uniquely identify the Property |
 
 [⬆ Back to Query](#query)
 
@@ -639,35 +639,35 @@
 
 ### ConfigurationResortMembershipAwardUpgradesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| awardType | `String` | Award Type |
-| centralUpgradeFromRoom | `String` | Central Upgrade From Room |
-| centralUpgradeToRoom | `String` | Central Upgrade To Room |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| fromDate | `Date` | From Date |
-| fromRoom | `String` | Room Number of the reservation from which charges were routed when routing charges between reservations. |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| membershipAwardId | `Float` | Internal PK for the table. |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pointsRequiredUpgrades | `Float` | Points Required Upgrades |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| toDate | `Date` | To Date |
-| toRoom | `String` | Upgraded room. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| upgradeFromRoom | `String` | Upgrade From Room |
-| upgradeToRoom | `String` | Upgrade To Room |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | awardType | `String` | Award Type |
+| 2 | centralUpgradeFromRoom | `String` | Central Upgrade From Room |
+| 3 | centralUpgradeToRoom | `String` | Central Upgrade To Room |
+| 4 | chainCode | `String` | Chain Code |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | fromDate | `Date` | From Date |
+| 8 | fromRoom | `String` | Room Number of the reservation from which charges were routed when routing charges between reservations. |
+| 9 | inactiveDate | `DateTime` | Inactive Date |
+| 10 | insertDate | `DateTime` | Insert Date |
+| 11 | insertUser | `Float` | Insert User |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | membershipAwardId | `Float` | Internal PK for the table. |
+| 15 | membershipType | `String` | Membership Type |
+| 16 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 17 | pointsRequiredUpgrades | `Float` | Points Required Upgrades |
+| 18 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 19 | property | `String` | Code to uniquely identify the Property |
+| 20 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 21 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 22 | toDate | `Date` | To Date |
+| 23 | toRoom | `String` | Upgraded room. |
+| 24 | updateDate | `DateTime` | Update Date |
+| 25 | updateUser | `Float` | Update User |
+| 26 | upgradeFromRoom | `String` | Upgrade From Room |
+| 27 | upgradeToRoom | `String` | Upgrade To Room |
 
 [⬆ Back to Query](#query)
 
@@ -675,28 +675,28 @@
 
 ### ConfigurationResortMembershipAwardFinancialTransactionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| awardType | `String` | Award Type |
-| centralTransactionCode | `String` | Central Transaction Code |
-| centralTransactionCodeDescription | `String` | Central Transaction Code Description |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| transactionCode | `String` | Transaction Code |
-| transactionCodeDescription | `String` | Transaction Code Description |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | awardType | `String` | Award Type |
+| 2 | centralTransactionCode | `String` | Central Transaction Code |
+| 3 | centralTransactionCodeDescription | `String` | Central Transaction Code Description |
+| 4 | chainCode | `String` | Chain Code |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | membershipType | `String` | Membership Type |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Code to uniquely identify the Property |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | transactionCode | `String` | Transaction Code |
+| 18 | transactionCodeDescription | `String` | Transaction Code Description |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -704,26 +704,26 @@
 
 ### ConfigurationResortMembershipPropertyGroupCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| attachedPropertyCode | `String` | Attached Property Code |
-| attachedPropertyDescription | `String` | Attached Property Description |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| membershipResortGroup | `String` | Mem Property Group |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| requiredYn | `String` | Required Y/N |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | attachedPropertyCode | `String` | Attached Property Code |
+| 2 | attachedPropertyDescription | `String` | Attached Property Description |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | inactiveDate | `DateTime` | Inactive Date |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | membershipResortGroup | `String` | Mem Property Group |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | requiredYn | `String` | Required Y/N |
+| 17 | updateDate | `DateTime` | Update Date |
+| 18 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -731,35 +731,35 @@
 
 ### ConfigurationResortAirportDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Airport code. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| distance | `Float` | Distance from the airport to the property. |
-| distanceType | `String` | Type of units for distance (mileskilometers). |
-| drivingDirections | `String` | Directions from the airport to the property. |
-| drivingTime | `String` | Driving Time |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| sequence | `Float` | Sequence |
-| transportationCode1 | `String` | Internal. |
-| transportationCode2 | `String` | Internal. |
-| transportationCode3 | `String` | Internal. |
-| transportationCode4 | `String` | Internal. |
-| transportationCode5 | `String` | Internal. |
-| transportationCode6 | `String` | Internal. |
-| transportationCode7 | `String` | Internal. |
-| transportationCode8 | `String` | Internal. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| website | `String` | Website |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Airport code. |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | distance | `Float` | Distance from the airport to the property. |
+| 6 | distanceType | `String` | Type of units for distance (mileskilometers). |
+| 7 | drivingDirections | `String` | Directions from the airport to the property. |
+| 8 | drivingTime | `String` | Driving Time |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Property |
+| 16 | sequence | `Float` | Sequence |
+| 17 | transportationCode1 | `String` | Internal. |
+| 18 | transportationCode2 | `String` | Internal. |
+| 19 | transportationCode3 | `String` | Internal. |
+| 20 | transportationCode4 | `String` | Internal. |
+| 21 | transportationCode5 | `String` | Internal. |
+| 22 | transportationCode6 | `String` | Internal. |
+| 23 | transportationCode7 | `String` | Internal. |
+| 24 | transportationCode8 | `String` | Internal. |
+| 25 | updateDate | `DateTime` | Update Date |
+| 26 | updateUser | `Float` | Update User |
+| 27 | website | `String` | Website |
 
 [⬆ Back to Query](#query)
 
@@ -767,36 +767,36 @@
 
 ### ConfigurationResortFeatureDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| endDate | `Date` | End Date |
-| featureType | `String` | Feature Type |
-| featureid | `String` | Featureid |
-| hours | `String` | Hours |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| notes | `String` | Notes |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| price | `String` | Price |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| startDate | `Date` | Start Date |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | endDate | `Date` | End Date |
+| 6 | featureType | `String` | Feature Type |
+| 7 | featureid | `String` | Featureid |
+| 8 | hours | `String` | Hours |
+| 9 | inactiveDate | `Date` | Inactive Date |
+| 10 | inactiveflag | `String` | Inactive Flag |
+| 11 | insertDate | `DateTime` | Insert Date |
+| 12 | insertUser | `Float` | Insert User |
+| 13 | internalDeletedflag | `String` | Deleted Flag |
+| 14 | jRNUpdateDate | `Date` | JRN Update Date |
+| 15 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 16 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 17 | notes | `String` | Notes |
+| 18 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 19 | price | `String` | Price |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | property | `String` | Property |
+| 22 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 23 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 24 | sequence | `Float` | Sequence |
+| 25 | startDate | `Date` | Start Date |
+| 26 | type | `String` | Type |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -804,45 +804,45 @@
 
 ### ConfigurationResortAttractionCategoryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -850,47 +850,47 @@
 
 ### ConfigurationResortAttractionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| address1 | `String` | Address1 |
-| address2 | `String` | Address2 |
-| address3 | `String` | Address3 |
-| address4 | `String` | Address4 |
-| attractionClass | `String` | Attraction Class |
-| category | `String` | Type of attraction |
-| city | `String` | City |
-| code | `String` | The unique identifier for this attraction. The primary key to this table. |
-| coordinateSupplier | `String` | Who supplied the geo-coded coordinates for this attraction. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| direction | `String` | Direction |
-| directions | `String` | Internal |
-| distance | `Float` | Distance |
-| distanceType | `String` | Distance Type |
-| drivingTime | `String` | Driving Time |
-| generalDirections | `String` | The general directions to this attraction. |
-| hoursOfOperation | `String` | The hours of operation for this attraction. |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| latitude | `Float` | The latitude of this attraction in geo-coded format. |
-| longitude | `Float` | The longitude of this attraction in geo-coded format. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| priceRange | `String` | Price Range |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| region | `String` | Region |
-| sequence | `Float` | Sequence |
-| state | `String` | State |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| website | `String` | Website |
-| zipCode | `String` | Zipcode Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | address1 | `String` | Address1 |
+| 2 | address2 | `String` | Address2 |
+| 3 | address3 | `String` | Address3 |
+| 4 | address4 | `String` | Address4 |
+| 5 | attractionClass | `String` | Attraction Class |
+| 6 | category | `String` | Type of attraction |
+| 7 | city | `String` | City |
+| 8 | code | `String` | The unique identifier for this attraction. The primary key to this table. |
+| 9 | coordinateSupplier | `String` | Who supplied the geo-coded coordinates for this attraction. |
+| 10 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 11 | deletedFlag | `String` | Deleted Flag |
+| 12 | description | `String` | Description |
+| 13 | direction | `String` | Direction |
+| 14 | directions | `String` | Internal |
+| 15 | distance | `Float` | Distance |
+| 16 | distanceType | `String` | Distance Type |
+| 17 | drivingTime | `String` | Driving Time |
+| 18 | generalDirections | `String` | The general directions to this attraction. |
+| 19 | hoursOfOperation | `String` | The hours of operation for this attraction. |
+| 20 | inactiveDate | `Date` | Inactive Date |
+| 21 | insertDate | `DateTime` | Insert Date |
+| 22 | insertUser | `Float` | Insert User |
+| 23 | jRNUpdateDate | `Date` | JRN Update Date |
+| 24 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 25 | latitude | `Float` | The latitude of this attraction in geo-coded format. |
+| 26 | longitude | `Float` | The longitude of this attraction in geo-coded format. |
+| 27 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 28 | priceRange | `String` | Price Range |
+| 29 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 30 | property | `String` | Property |
+| 31 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 32 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 33 | region | `String` | Region |
+| 34 | sequence | `Float` | Sequence |
+| 35 | state | `String` | State |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
+| 38 | website | `String` | Website |
+| 39 | zipCode | `String` | Zipcode Code |
 
 [⬆ Back to Query](#query)
 
@@ -898,50 +898,50 @@
 
 ### ConfigurationResortChainDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aspYn | `String` | Chain used for ASP Y/N. |
-| beginDate | `Date` | Begin Date |
-| bookingConditions | `String` | Booking conditions chainwide such as commission policies for TA Group policies Cancellation/Deposit/Guarantee and family and child rules. |
-| centralChain | `String` | Central Chain |
-| centralDescription | `String` | Central Description |
-| chain | `String` | Chain |
-| chainName | `String` | Chain Name |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| endDate | `Date` | End Date |
-| frequentFlierCardsAcceptYn | `String` | Specifies if frequent flier cards are accepted by the chain (Y/N). |
-| hoCity | `String` | The city of the Head Office of the chain. |
-| hoCountry | `String` | The country of the Head Office of the chain. |
-| hoEmail | `String` | The email ID of the Head Office of the chain. |
-| hoFax | `String` | The fax number of the Head Office of the chain. |
-| hoPostCode | `String` | The postal code of the Head Office of the chain. |
-| hoState | `String` | The state of the Head Office of the chain. |
-| hoStreet | `String` | The street of the Head Office of the chain. |
-| hoTelephone | `String` | The phone number of the Head Office of the chain. |
-| imgChainId | `Float` | Img Chain ID |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| logoFileName | `String` | File name of the chains' logo |
-| loyaltyProgram | `String` | Loyalty program data. |
-| marketingText | `String` | Marketing Text |
-| nameId | `Float` | Name ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| scriptId | `Float` | Script ID |
-| shareProfilesYN | `String` | Sharing Profiles across the Chain. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aspYn | `String` | Chain used for ASP Y/N. |
+| 2 | beginDate | `Date` | Begin Date |
+| 3 | bookingConditions | `String` | Booking conditions chainwide such as commission policies for TA Group policies Cancellation/Deposit/Guarantee and family and child rules. |
+| 4 | centralChain | `String` | Central Chain |
+| 5 | centralDescription | `String` | Central Description |
+| 6 | chain | `String` | Chain |
+| 7 | chainName | `String` | Chain Name |
+| 8 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 9 | deletedFlag | `String` | Deleted Flag |
+| 10 | description | `String` | Description |
+| 11 | endDate | `Date` | End Date |
+| 12 | frequentFlierCardsAcceptYn | `String` | Specifies if frequent flier cards are accepted by the chain (Y/N). |
+| 13 | hoCity | `String` | The city of the Head Office of the chain. |
+| 14 | hoCountry | `String` | The country of the Head Office of the chain. |
+| 15 | hoEmail | `String` | The email ID of the Head Office of the chain. |
+| 16 | hoFax | `String` | The fax number of the Head Office of the chain. |
+| 17 | hoPostCode | `String` | The postal code of the Head Office of the chain. |
+| 18 | hoState | `String` | The state of the Head Office of the chain. |
+| 19 | hoStreet | `String` | The street of the Head Office of the chain. |
+| 20 | hoTelephone | `String` | The phone number of the Head Office of the chain. |
+| 21 | imgChainId | `Float` | Img Chain ID |
+| 22 | inactiveDate | `Date` | Inactive Date |
+| 23 | insertDate | `DateTime` | Insert Date |
+| 24 | insertUser | `Float` | Insert User |
+| 25 | jRNUpdateDate | `Date` | JRN Update Date |
+| 26 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 27 | logoFileName | `String` | File name of the chains' logo |
+| 28 | loyaltyProgram | `String` | Loyalty program data. |
+| 29 | marketingText | `String` | Marketing Text |
+| 30 | nameId | `Float` | Name ID |
+| 31 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 32 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 33 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 34 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 35 | repItem | `String` | Reporting Item |
+| 36 | repItemName | `String` | Reporting Item Name |
+| 37 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 38 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 39 | scriptId | `Float` | Script ID |
+| 40 | shareProfilesYN | `String` | Sharing Profiles across the Chain. |
+| 41 | updateDate | `DateTime` | Update Date |
+| 42 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -949,23 +949,23 @@
 
 ### ConfigurationResortClosingScriptDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| resortType | `String` | Property Type |
-| scriptId | `Float` | Script ID |
-| scriptType | `String` | Script Type. (e.g. [SMS] for SMS script and [RESV] for Closing Script) |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | jRNUpdateDate | `Date` | JRN Update Date |
+| 5 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 6 | language | `String` | Language |
+| 7 | membershipType | `String` | Membership Type |
+| 8 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 9 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 10 | property | `String` | Property |
+| 11 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 12 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 13 | resortType | `String` | Property Type |
+| 14 | scriptId | `Float` | Script ID |
+| 15 | scriptType | `String` | Script Type. (e.g. [SMS] for SMS script and [RESV] for Closing Script) |
 
 [⬆ Back to Query](#query)
 
@@ -973,45 +973,45 @@
 
 ### ConfigurationResortCommunicationMethodDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1019,45 +1019,45 @@
 
 ### ConfigurationResortDeliveryStatusDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1065,42 +1065,42 @@
 
 ### ConfigurationResortDepartmentDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowOnTaskSheetYn | `String` | Indicates if Reservation Traces related to this Department will appear on Housekeeping Task Sheets. |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| departmentCode | `String` | Department Code |
-| departmentid | `String` | Departmentid |
-| deptManagerPager | `String` | Pager number of department manager |
-| description | `String` | Description of the department |
-| email | `String` | Department E-Mail Address. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| messageText | `String` | Message Text |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| repDeptName | `String` | Reporting Dept Name |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reportingDeptId | `String` | Rep Dept ID |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowOnTaskSheetYn | `String` | Indicates if Reservation Traces related to this Department will appear on Housekeeping Task Sheets. |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | departmentCode | `String` | Department Code |
+| 7 | departmentid | `String` | Departmentid |
+| 8 | deptManagerPager | `String` | Pager number of department manager |
+| 9 | description | `String` | Description of the department |
+| 10 | email | `String` | Department E-Mail Address. |
+| 11 | inactiveDate | `DateTime` | Inactive Date |
+| 12 | inactiveflag | `String` | Inactive Flag |
+| 13 | insertDate | `DateTime` | Insert Date |
+| 14 | insertUser | `Float` | Insert User |
+| 15 | internalDeletedflag | `String` | Deleted Flag |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 19 | messageText | `String` | Message Text |
+| 20 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 21 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 22 | property | `String` | Property |
+| 23 | repDeptName | `String` | Reporting Dept Name |
+| 24 | repItem | `String` | Reporting Item |
+| 25 | repItemName | `String` | Reporting Item Name |
+| 26 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 27 | repOrderBy | `Float` | Reporting Order By |
+| 28 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 29 | reportingDeptId | `String` | Rep Dept ID |
+| 30 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 31 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 32 | sequence | `Float` | Sequence |
+| 33 | updateDate | `DateTime` | Update Date |
+| 34 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1108,23 +1108,23 @@
 
 ### ConfigurationResortElecRegCardScriptDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| membershipType | `String` | Membership Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| resortType | `String` | Property Type |
-| scriptId | `Float` | Script ID |
-| scriptType | `String` | Script Type. (e.g. [SMS] for SMS script and [RESV] for Closing Script) |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | jRNUpdateDate | `Date` | JRN Update Date |
+| 5 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 6 | language | `String` | Language |
+| 7 | membershipType | `String` | Membership Type |
+| 8 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 9 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 10 | property | `String` | Property |
+| 11 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 12 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 13 | resortType | `String` | Property Type |
+| 14 | scriptId | `Float` | Script ID |
+| 15 | scriptType | `String` | Script Type. (e.g. [SMS] for SMS script and [RESV] for Closing Script) |
 
 [⬆ Back to Query](#query)
 
@@ -1132,23 +1132,23 @@
 
 ### ConfigurationResortHubPropertyDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| associatedProperty | `String` | Associated Property |
-| associatedPropertyName | `String` | Associated Property Name |
-| croCode | `String` | Cro Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | associatedProperty | `String` | Associated Property |
+| 2 | associatedPropertyName | `String` | Associated Property Name |
+| 3 | croCode | `String` | Cro Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | insertDate | `DateTime` | Insert Date |
+| 7 | insertUser | `Float` | Insert User |
+| 8 | jRNUpdateDate | `Date` | JRN Update Date |
+| 9 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 10 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 11 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 12 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 13 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 14 | updateDate | `DateTime` | Update Date |
+| 15 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1156,21 +1156,21 @@
 
 ### ConfigurationResortJobTitleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| closingScriptYn | `String` | Display reservation closing script? |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Job title description |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | closingScriptYn | `String` | Display reservation closing script? |
+| 3 | code | `String` | Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | description | `String` | Job title description |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | property | `String` | Property |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -1178,45 +1178,45 @@
 
 ### ConfigurationResortUDFCategoryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1224,31 +1224,31 @@
 
 ### ConfigurationResortUDFTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| attributeType | `String` | Determines the type of attribute. The value is bit specific. |
-| attributeVerified | `String` | Attribute Verified |
-| category | `String` | Category |
-| chainCode | `String` | Chain Code |
-| code | `String` | UDF type - CND. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| multipleYn | `String` | Not used. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| tableName | `String` | Table Name |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | attributeType | `String` | Determines the type of attribute. The value is bit specific. |
+| 2 | attributeVerified | `String` | Attribute Verified |
+| 3 | category | `String` | Category |
+| 4 | chainCode | `String` | Chain Code |
+| 5 | code | `String` | UDF type - CND. |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | inactiveDate | `DateTime` | Inactive Date |
+| 10 | insertDate | `DateTime` | Insert Date |
+| 11 | insertUser | `Float` | Insert User |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | multipleYn | `String` | Not used. |
+| 15 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 16 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 17 | property | `String` | Property |
+| 18 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 19 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 20 | sequence | `Float` | Sequence |
+| 21 | tableName | `String` | Table Name |
+| 22 | updateDate | `DateTime` | Update Date |
+| 23 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1256,45 +1256,45 @@
 
 ### ConfigurationResortBrandCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1302,45 +1302,45 @@
 
 ### ConfigurationResortBusinessUnitDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1348,45 +1348,45 @@
 
 ### ConfigurationResortDepartmentCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1394,45 +1394,45 @@
 
 ### ConfigurationResortDivisionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1440,45 +1440,45 @@
 
 ### ConfigurationResortHotelCategoryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1486,45 +1486,45 @@
 
 ### ConfigurationResortOperatingUnitDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1532,45 +1532,45 @@
 
 ### ConfigurationResortApplicationParameterValueDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aPNDeletedFlag | `String` | APN Deleted Flag |
-| aPNDisplayYN | `String` | APN Display Parameter |
-| aPNJRNUpdateDate | `Date` | JRN Update Date |
-| aPNJRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| aPNPrimaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| aPNRNAInsertDate | `DateTime` | RNA Insert Date |
-| aPNRNAUpdateDate | `DateTime` | RNA Update Date |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| copyYn | `String` | Determines if a parameter value shall not be copied due to dependent business logic in the target property. |
-| coreYn | `String` | Indicates if parameter is used for Core functionality |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| displayYn | `String` | Display Y/N |
-| explanation | `String` | Not Used. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lovValues | `String` | Lov Values |
-| orderBy | `Float` | Order By |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| parameterDescription | `String` | Parameter Description |
-| parameterDisplayName | `String` | Parameter Display Name |
-| parameterGroup | `String` | Parameter Group |
-| parameterName | `String` | Parameter Name |
-| parameterType | `String` | Parameter Type |
-| parameterTypeDetail | `String` | Parameter Type Detail |
-| parameterValue | `String` | Parameter Value |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| storedInResort | `String` | Internal Field that tells whether the value of the field is stored in the resort table or in the application Parameter table itself. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| usedInApp | `String` | Used In App |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aPNDeletedFlag | `String` | APN Deleted Flag |
+| 2 | aPNDisplayYN | `String` | APN Display Parameter |
+| 3 | aPNJRNUpdateDate | `Date` | JRN Update Date |
+| 4 | aPNJRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 5 | aPNPrimaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 6 | aPNRNAInsertDate | `DateTime` | RNA Insert Date |
+| 7 | aPNRNAUpdateDate | `DateTime` | RNA Update Date |
+| 8 | canDeleteYn | `String` | Can Delete Y/N |
+| 9 | chainCode | `String` | Chain Code |
+| 10 | copyYn | `String` | Determines if a parameter value shall not be copied due to dependent business logic in the target property. |
+| 11 | coreYn | `String` | Indicates if parameter is used for Core functionality |
+| 12 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 13 | deletedFlag | `String` | Deleted Flag |
+| 14 | displayYn | `String` | Display Y/N |
+| 15 | explanation | `String` | Not Used. |
+| 16 | insertDate | `DateTime` | Insert Date |
+| 17 | insertUser | `Float` | Insert User |
+| 18 | jRNUpdateDate | `Date` | JRN Update Date |
+| 19 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 20 | lovValues | `String` | Lov Values |
+| 21 | orderBy | `Float` | Order By |
+| 22 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 23 | parameterDescription | `String` | Parameter Description |
+| 24 | parameterDisplayName | `String` | Parameter Display Name |
+| 25 | parameterGroup | `String` | Parameter Group |
+| 26 | parameterName | `String` | Parameter Name |
+| 27 | parameterType | `String` | Parameter Type |
+| 28 | parameterTypeDetail | `String` | Parameter Type Detail |
+| 29 | parameterValue | `String` | Parameter Value |
+| 30 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 31 | property | `String` | Property |
+| 32 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 33 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 34 | storedInResort | `String` | Internal Field that tells whether the value of the field is stored in the resort table or in the application Parameter table itself. |
+| 35 | updateDate | `DateTime` | Update Date |
+| 36 | updateUser | `Float` | Update User |
+| 37 | usedInApp | `String` | Used In App |
 
 [⬆ Back to Query](#query)
 
@@ -1578,36 +1578,36 @@
 
 ### ConfigurationResortTrackitActionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultYn | `String` | Default Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| messageText | `String` | Message Text |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sendMessageYn | `String` | Indicator to send a message to the guest when a new trackit item is created. |
-| sequence | `Float` | Sequence |
-| status | `String` | Internal status for this action. Used for ti_subgroup='ACTION'. |
-| tiSubgroup | `String` | Track it SubGroup. Example: Location Type or Action. |
-| trackItGroup | `String` | Trackit Group. |
-| trackitTypesUrl | `String` | URL for trackit types. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | defaultYn | `String` | Default Y/N |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | description | `String` | Description |
+| 6 | inactiveDate | `DateTime` | Inactive Date |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | messageText | `String` | Message Text |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Property |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | repItem | `String` | Reporting Item |
+| 18 | repItemName | `String` | Reporting Item Name |
+| 19 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 20 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 21 | sendMessageYn | `String` | Indicator to send a message to the guest when a new trackit item is created. |
+| 22 | sequence | `Float` | Sequence |
+| 23 | status | `String` | Internal status for this action. Used for ti_subgroup='ACTION'. |
+| 24 | tiSubgroup | `String` | Track it SubGroup. Example: Location Type or Action. |
+| 25 | trackItGroup | `String` | Trackit Group. |
+| 26 | trackitTypesUrl | `String` | URL for trackit types. |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1615,36 +1615,36 @@
 
 ### ConfigurationResortTrackitLocationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actionStatus | `String` | Internal status for this action. Used for ti_subgroup='ACTION'. |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultYn | `String` | Default Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| messageText | `String` | Message Text |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sendMessageYn | `String` | Indicator to send a message to the guest when a new trackit item is created. |
-| sequence | `Float` | Sequence |
-| tiSubgroup | `String` | Track it SubGroup. Example: Location Type or Action. |
-| trackItGroup | `String` | Trackit Group. |
-| trackitTypesUrl | `String` | URL for trackit types. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actionStatus | `String` | Internal status for this action. Used for ti_subgroup='ACTION'. |
+| 2 | code | `String` | Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | defaultYn | `String` | Default Y/N |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | description | `String` | Description |
+| 7 | inactiveDate | `DateTime` | Inactive Date |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | insertUser | `Float` | Insert User |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | messageText | `String` | Message Text |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Property |
+| 16 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 17 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 18 | repItem | `String` | Reporting Item |
+| 19 | repItemName | `String` | Reporting Item Name |
+| 20 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 21 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 22 | sendMessageYn | `String` | Indicator to send a message to the guest when a new trackit item is created. |
+| 23 | sequence | `Float` | Sequence |
+| 24 | tiSubgroup | `String` | Track it SubGroup. Example: Location Type or Action. |
+| 25 | trackItGroup | `String` | Trackit Group. |
+| 26 | trackitTypesUrl | `String` | URL for trackit types. |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1652,36 +1652,36 @@
 
 ### ConfigurationResortTrackitTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actionStatus | `String` | Internal status for this action. Used for ti_subgroup='ACTION'. |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultYn | `String` | Default Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| messageText | `String` | Message Text |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sendMessageYN | `String` | Indicator to send a message to the guest when a new trackit item is created. |
-| sequence | `Float` | Sequence |
-| tiSubgroup | `String` | Track it SubGroup. Example: Location Type or Action. |
-| trackItGroup | `String` | Trackit Group. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| website | `String` | URL for trackit types. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actionStatus | `String` | Internal status for this action. Used for ti_subgroup='ACTION'. |
+| 2 | code | `String` | Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | defaultYn | `String` | Default Y/N |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | description | `String` | Description |
+| 7 | inactiveDate | `DateTime` | Inactive Date |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | insertUser | `Float` | Insert User |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | messageText | `String` | Message Text |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Property |
+| 16 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 17 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 18 | repItem | `String` | Reporting Item |
+| 19 | repItemName | `String` | Reporting Item Name |
+| 20 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 21 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 22 | sendMessageYN | `String` | Indicator to send a message to the guest when a new trackit item is created. |
+| 23 | sequence | `Float` | Sequence |
+| 24 | tiSubgroup | `String` | Track it SubGroup. Example: Location Type or Action. |
+| 25 | trackItGroup | `String` | Trackit Group. |
+| 26 | updateDate | `DateTime` | Update Date |
+| 27 | updateUser | `Float` | Update User |
+| 28 | website | `String` | URL for trackit types. |
 
 [⬆ Back to Query](#query)
 
@@ -1689,55 +1689,55 @@
 
 ### ConfigurationResortAccountTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountType | `String` | Account Type |
-| accountTypeDescription | `String` | Account Type Description |
-| accountTypeId | `Float` | Account Type ID |
-| agingDelayDays | `Float` | Stores the aging delay in days which is used by the ar_unpaid report. |
-| centralAccountType | `String` | Central Account Type |
-| centralAccountTypeDescription | `String` | Central Account Type Description |
-| centralCreditLimit | `Float` | Central Credit Limit |
-| centralFinanceChargeAmount | `Float` | Central Finance Charge Amount |
-| centralXchangeDate | `Date` | Central Exchange Date |
-| centralXchangeRate | `Float` | Central Exchange Rate |
-| chargesOlderThanNDays | `Float` | Min Number of days to consider older invoices for the account to post finance charges. |
-| creditLimit | `Float` | Credit Limit |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| financeChargeAmount | `Float` | Amount or Fee to charge to the Account for overdue invoices. |
-| financeChargePercentage | `Float` | Percentage to apply to the sum of older invoices. |
-| inactiveflag | `String` | Inactive Flag |
-| includeUnallocatedPaymentsYN | `String` | Used to include unallocated payments in the calculation of the finance charges. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalAccounttypeid | `Float` | Accounttypeid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| letterNameEndOfMonth | `String` | Letter name that is send every end of month when the Reminder Cycle is set to [E]nd of Month. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerCashbookReport | `String` | Name of the owner cashbook report to be given to auditors. |
-| ownerStatementName | `String` | Name of the owner statement report that needs to be send to the owner of the unit. |
-| ownerSummary | `String` | Name of the owner summary report that needs to be send to the owner of the unit. |
-| postOnDay | `Float` | Day of the month when Night Audit will check for older invoices to post finance charges onto a new invoice. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printInvoiceDetailsYn | `String` | Print Invoice Details on Statements Y/N. |
-| printInvoicesWithDetailsYN | `String` | Print Invoices With Details YN |
-| printInvoicesWithoutDetailsYN | `String` | Print Invoices Without Details YN |
-| printSeperateFoliosYN | `String` | Print Seperate Folios YN |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reminderCycle | `String` | Indicates if the Reminder Cycle generation is based on calendar [D]ays or [E]nd of Month. |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| statementMode | `String` | Indicates if the Account Type will utilize the '(B)alance Brought Forward? single line or '(I)ndividual Open Items?  when generating statements. |
-| statementName | `String` | Name of the statement that needs to be sent to the account. |
-| statementNameDescription | `String` | Statement Name Description |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountType | `String` | Account Type |
+| 2 | accountTypeDescription | `String` | Account Type Description |
+| 3 | accountTypeId | `Float` | Account Type ID |
+| 4 | agingDelayDays | `Float` | Stores the aging delay in days which is used by the ar_unpaid report. |
+| 5 | centralAccountType | `String` | Central Account Type |
+| 6 | centralAccountTypeDescription | `String` | Central Account Type Description |
+| 7 | centralCreditLimit | `Float` | Central Credit Limit |
+| 8 | centralFinanceChargeAmount | `Float` | Central Finance Charge Amount |
+| 9 | centralXchangeDate | `Date` | Central Exchange Date |
+| 10 | centralXchangeRate | `Float` | Central Exchange Rate |
+| 11 | chargesOlderThanNDays | `Float` | Min Number of days to consider older invoices for the account to post finance charges. |
+| 12 | creditLimit | `Float` | Credit Limit |
+| 13 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 14 | deletedflag | `String` | Deleted Flag |
+| 15 | financeChargeAmount | `Float` | Amount or Fee to charge to the Account for overdue invoices. |
+| 16 | financeChargePercentage | `Float` | Percentage to apply to the sum of older invoices. |
+| 17 | inactiveflag | `String` | Inactive Flag |
+| 18 | includeUnallocatedPaymentsYN | `String` | Used to include unallocated payments in the calculation of the finance charges. |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | internalAccounttypeid | `Float` | Accounttypeid |
+| 22 | jRNUpdateDate | `Date` | JRN Update Date |
+| 23 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 24 | letterNameEndOfMonth | `String` | Letter name that is send every end of month when the Reminder Cycle is set to [E]nd of Month. |
+| 25 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | ownerCashbookReport | `String` | Name of the owner cashbook report to be given to auditors. |
+| 28 | ownerStatementName | `String` | Name of the owner statement report that needs to be send to the owner of the unit. |
+| 29 | ownerSummary | `String` | Name of the owner summary report that needs to be send to the owner of the unit. |
+| 30 | postOnDay | `Float` | Day of the month when Night Audit will check for older invoices to post finance charges onto a new invoice. |
+| 31 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 32 | printInvoiceDetailsYn | `String` | Print Invoice Details on Statements Y/N. |
+| 33 | printInvoicesWithDetailsYN | `String` | Print Invoices With Details YN |
+| 34 | printInvoicesWithoutDetailsYN | `String` | Print Invoices Without Details YN |
+| 35 | printSeperateFoliosYN | `String` | Print Seperate Folios YN |
+| 36 | property | `String` | Property |
+| 37 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 38 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 39 | reminderCycle | `String` | Indicates if the Reminder Cycle generation is based on calendar [D]ays or [E]nd of Month. |
+| 40 | repItem | `String` | Reporting Item |
+| 41 | repItemName | `String` | Reporting Item Name |
+| 42 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 43 | statementMode | `String` | Indicates if the Account Type will utilize the '(B)alance Brought Forward? single line or '(I)ndividual Open Items?  when generating statements. |
+| 44 | statementName | `String` | Name of the statement that needs to be sent to the account. |
+| 45 | statementNameDescription | `String` | Statement Name Description |
+| 46 | updateDate | `DateTime` | Update Date |
+| 47 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1745,26 +1745,26 @@
 
 ### ConfigurationResortARReminderCycleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountTypeId | `Float` | Account Type ID |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| globalAccountYN | `String` | Indicates whether the account type is Global Account Type. Value 'Y' indicates that it is Global. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| letterName | `String` | Name of the reminder letter. |
-| numberOfDays | `Float` | Number of days before the system geneates the Reminder letter. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reminderCode | `Float` | Internal number. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountTypeId | `Float` | Account Type ID |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | globalAccountYN | `String` | Indicates whether the account type is Global Account Type. Value 'Y' indicates that it is Global. |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | letterName | `String` | Name of the reminder letter. |
+| 10 | numberOfDays | `Float` | Number of days before the system geneates the Reminder letter. |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Property |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | reminderCode | `Float` | Internal number. |
+| 17 | updateDate | `DateTime` | Update Date |
+| 18 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1772,34 +1772,34 @@
 
 ### ConfigurationResortAcctFlagReasonDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| acctflagreasonid | `String` | Acctflagreasonid |
-| centralFlaggedReasonCode | `String` | Central Flagged Reason Code |
-| centralRestrictedReasonDescription | `String` | Central Restricted Reason Description |
-| centralSequence | `Float` | Central Sequence |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| flaggedReasonCode | `String` | Flagged Reason Code |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| restrictedReasonDescription | `String` | Restricted Reason Description |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | acctflagreasonid | `String` | Acctflagreasonid |
+| 2 | centralFlaggedReasonCode | `String` | Central Flagged Reason Code |
+| 3 | centralRestrictedReasonDescription | `String` | Central Restricted Reason Description |
+| 4 | centralSequence | `Float` | Central Sequence |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedflag | `String` | Deleted Flag |
+| 7 | flaggedReasonCode | `String` | Flagged Reason Code |
+| 8 | inactiveflag | `String` | Inactive Flag |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 13 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 14 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 15 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 16 | property | `String` | Property |
+| 17 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 18 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 19 | repItem | `String` | Reporting Item |
+| 20 | repItemName | `String` | Reporting Item Name |
+| 21 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 22 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 23 | restrictedReasonDescription | `String` | Restricted Reason Description |
+| 24 | sequence | `Float` | Sequence |
+| 25 | updateDate | `DateTime` | Update Date |
+| 26 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1807,29 +1807,29 @@
 
 ### ConfigurationResortTransactionReasonCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adjustmentCode | `String` | Reason Code. |
-| adjustmentCodeDescription | `String` | Description |
-| adjustmentType | `String` | Adjustment Type |
-| amountPercentFlag | `String` | Percentage / Amount flag. Allowed values: AMOUNT PERCENT. |
-| amountPercentValue | `Float` | Amount or Percentage to consider during the adjustment. |
-| birGuestType | `String` | Guest type in PH country mode. Further used for showing proper adjustment options. |
-| codeType | `String` | Code Type |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| tranCodeType | `String` | Correction type. e.g. ADJ for adjustment COR for correction DEL for deletion. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adjustmentCode | `String` | Reason Code. |
+| 2 | adjustmentCodeDescription | `String` | Description |
+| 3 | adjustmentType | `String` | Adjustment Type |
+| 4 | amountPercentFlag | `String` | Percentage / Amount flag. Allowed values: AMOUNT PERCENT. |
+| 5 | amountPercentValue | `Float` | Amount or Percentage to consider during the adjustment. |
+| 6 | birGuestType | `String` | Guest type in PH country mode. Further used for showing proper adjustment options. |
+| 7 | codeType | `String` | Code Type |
+| 8 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 9 | deletedFlag | `String` | Deleted Flag |
+| 10 | insertDate | `DateTime` | Insert Date |
+| 11 | insertUser | `Float` | Insert User |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 15 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 16 | property | `String` | Property |
+| 17 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 18 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 19 | tranCodeType | `String` | Correction type. e.g. ADJ for adjustment COR for correction DEL for deletion. |
+| 20 | updateDate | `DateTime` | Update Date |
+| 21 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1837,31 +1837,31 @@
 
 ### ConfigurationResortCreditCardAuthorizationRulesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| amount | `Float` | Amount |
-| authorizationRules | `Float` | Authorization Rules |
-| cAmount | `Float` | Central Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| guaranteeCode | `String` | Guarantee Code |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| mainWindowYn | `String` | Indicates if this auth rule is for the main window (i.e. window 1). Default is Y i.e. Only if the flag is explicitly set to N does the rule apply to windows other than 1. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| percentage | `Float` | Percentage |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCategory | `String` | Rate Category |
-| rateCode | `String` | Rate Code |
-| roomClass | `String` | Room Class |
-| roomType | `String` | Room Type |
-| sourceCode | `String` | Source Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | amount | `Float` | Amount |
+| 2 | authorizationRules | `Float` | Authorization Rules |
+| 3 | cAmount | `Float` | Central Amount |
+| 4 | cExchangeDate | `Date` | Central Xchange Date |
+| 5 | cExchangeRate | `Float` | Central Xchange Rate |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | guaranteeCode | `String` | Guarantee Code |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | mainWindowYn | `String` | Indicates if this auth rule is for the main window (i.e. window 1). Default is Y i.e. Only if the flag is explicitly set to N does the rule apply to windows other than 1. |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | percentage | `Float` | Percentage |
+| 15 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 16 | property | `String` | Property |
+| 17 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 18 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 19 | rateCategory | `String` | Rate Category |
+| 20 | rateCode | `String` | Rate Code |
+| 21 | roomClass | `String` | Room Class |
+| 22 | roomType | `String` | Room Type |
+| 23 | sourceCode | `String` | Source Code |
 
 [⬆ Back to Query](#query)
 
@@ -1869,45 +1869,45 @@
 
 ### ConfigurationResortAutoFolioSettlementTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1915,54 +1915,54 @@
 
 ### ConfigurationResortCashierDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activeYN | `String` | Active YN |
-| amtDifferenceInitial | `Float` | The difference in cash the cashier must pay or receive when the cashier is set up. |
-| attachedToUser | `String` | Application User Name |
-| cAmountDifferenceInitial | `Float` | Central Amt Diff Initial |
-| cAmountFloat | `Float` | Central Amt Float |
-| cCashierBalance | `Float` | Central Cashier Bal |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cashierBal | `Float` | At the time he closes his account on that day after drop off the difference in cash he has to pay or has to be paid. |
-| cashierid | `Float` | Cashierid |
-| chainCode | `String` | Chain Code |
-| closureInProgressYn | `String` | Indicates if the cashier is in progress to be closed. |
-| closureNo | `Float` | Closure Number |
-| csrTrxNumber | `Float` | CSR Trx No. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dateoflastuse | `Date` | Date of last use. |
-| deletedflag | `String` | Deleted Flag |
-| floatOverShort | `String` | Parameter to set up whether the cashier has to drop the whole cash including the float or just the amt excess of float. |
-| generalCashierYN | `String` | Determines whether the cashier is a General cashier. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| interfaceCashierYN | `String` | Decides whether the cashier number is used in interfaces or not. The interface cashiers cannot have numbers more than 999. |
-| internalUpdateYn | `String` | Internally used. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| kioskCashierYN | `String` | Identifies if the cashier is used by KIOSK interfaces. Only one KIOSK cashier is allowed. |
-| lastOpened | `Date` | Date Last Opened. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| maximumDailyUses | `Float` | The no. of times cashier is allowed to open per day. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paymentsCashierCode | `Float` | Payments-Cashier Code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| reservedResort | `String` | Property that this cashier is reserved for. Used for floating cashier functionality. |
-| reservedYn | `String` | Identifies if this cashier is currently being used as a floating cashier. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| startingAmount | `Float` | The initial amount the cashier should have every day. |
-| state | `String` | State |
-| timeoffirstopen | `Date` | Time first time he opened on that day. |
-| timeoflastclose | `Date` | Time cashier last closed on that day. |
-| timesOpened | `Float` | The no. of times the cashier opened his account today. |
-| tranActionId | `Float` | Tran Action ID |
-| transactionsCashierName | `String` | Transactions-Cashier Name |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activeYN | `String` | Active YN |
+| 2 | amtDifferenceInitial | `Float` | The difference in cash the cashier must pay or receive when the cashier is set up. |
+| 3 | attachedToUser | `String` | Application User Name |
+| 4 | cAmountDifferenceInitial | `Float` | Central Amt Diff Initial |
+| 5 | cAmountFloat | `Float` | Central Amt Float |
+| 6 | cCashierBalance | `Float` | Central Cashier Bal |
+| 7 | cExchangeDate | `Date` | Central Xchange Date |
+| 8 | cExchangeRate | `Float` | Central Xchange Rate |
+| 9 | cashierBal | `Float` | At the time he closes his account on that day after drop off the difference in cash he has to pay or has to be paid. |
+| 10 | cashierid | `Float` | Cashierid |
+| 11 | chainCode | `String` | Chain Code |
+| 12 | closureInProgressYn | `String` | Indicates if the cashier is in progress to be closed. |
+| 13 | closureNo | `Float` | Closure Number |
+| 14 | csrTrxNumber | `Float` | CSR Trx No. |
+| 15 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 16 | dateoflastuse | `Date` | Date of last use. |
+| 17 | deletedflag | `String` | Deleted Flag |
+| 18 | floatOverShort | `String` | Parameter to set up whether the cashier has to drop the whole cash including the float or just the amt excess of float. |
+| 19 | generalCashierYN | `String` | Determines whether the cashier is a General cashier. |
+| 20 | insertDate | `DateTime` | Insert Date |
+| 21 | insertUser | `Float` | Insert User |
+| 22 | interfaceCashierYN | `String` | Decides whether the cashier number is used in interfaces or not. The interface cashiers cannot have numbers more than 999. |
+| 23 | internalUpdateYn | `String` | Internally used. |
+| 24 | jRNUpdateDate | `Date` | JRN Update Date |
+| 25 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 26 | kioskCashierYN | `String` | Identifies if the cashier is used by KIOSK interfaces. Only one KIOSK cashier is allowed. |
+| 27 | lastOpened | `Date` | Date Last Opened. |
+| 28 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 29 | maximumDailyUses | `Float` | The no. of times cashier is allowed to open per day. |
+| 30 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 31 | paymentsCashierCode | `Float` | Payments-Cashier Code |
+| 32 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 33 | property | `String` | Property |
+| 34 | reservedResort | `String` | Property that this cashier is reserved for. Used for floating cashier functionality. |
+| 35 | reservedYn | `String` | Identifies if this cashier is currently being used as a floating cashier. |
+| 36 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 37 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 38 | startingAmount | `Float` | The initial amount the cashier should have every day. |
+| 39 | state | `String` | State |
+| 40 | timeoffirstopen | `Date` | Time first time he opened on that day. |
+| 41 | timeoflastclose | `Date` | Time cashier last closed on that day. |
+| 42 | timesOpened | `Float` | The no. of times the cashier opened his account today. |
+| 43 | tranActionId | `Float` | Tran Action ID |
+| 44 | transactionsCashierName | `String` | Transactions-Cashier Name |
+| 45 | updateDate | `DateTime` | Update Date |
+| 46 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1970,32 +1970,32 @@
 
 ### ConfigurationResortCustomNumberDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activeYN | `String` | Active YN |
-| chainCode | `String` | Chain Code |
-| code | `String` | Internal code to identify the custom number. |
-| customNumberFormula | `String` | Custom Number Formula |
-| customNumberType | `String` | Custom Number Type |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| endDate | `Date` | End Date |
-| filterCondition | `String` | Filter Condition |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| startDate | `Date` | Start Date |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activeYN | `String` | Active YN |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | code | `String` | Internal code to identify the custom number. |
+| 4 | customNumberFormula | `String` | Custom Number Formula |
+| 5 | customNumberType | `String` | Custom Number Type |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | endDate | `Date` | End Date |
+| 10 | filterCondition | `String` | Filter Condition |
+| 11 | inactiveDate | `DateTime` | Inactive Date |
+| 12 | insertDate | `DateTime` | Insert Date |
+| 13 | insertUser | `Float` | Insert User |
+| 14 | jRNUpdateDate | `Date` | JRN Update Date |
+| 15 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 16 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 17 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 18 | property | `String` | Property |
+| 19 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 20 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 21 | sequence | `Float` | Sequence |
+| 22 | startDate | `Date` | Start Date |
+| 23 | updateDate | `DateTime` | Update Date |
+| 24 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2003,35 +2003,35 @@
 
 ### ConfigurationResortCurrencyExchangeTaxDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| amountFrom | `Float` | Minimum amount applicable to apply tax on the Currency Exchange. |
-| amountTo | `Float` | Maximum amount applicable to apply tax on the Currency Exchange. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cMaxAmount | `Float` | Central Max Amount |
-| cMaxServiceTax | `Float` | Central Max Service Tax |
-| cMinimumAmount | `Float` | Central Min Amount |
-| cMinimumServiceTax | `Float` | Central Min Service Tax |
-| cNotionalAmount | `Float` | Central Notional Amount |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| maximum | `Float` | Flat amount service tax to be used when calculated service tax amount exceeds the flat amount. |
-| minimum | `Float` | Flat amount service tax to be used when calculated service tax amount is less than this flat amount. |
-| notionalAmount | `Float` | Notional amount applicable based on the service tax type range. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| percentage | `Float` | Tax Percentage applicable based on the service tax type. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| serviceTaxType | `String` | Stores the Service tax type. Possible values can be: R1 R2 R3 and so on. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | amountFrom | `Float` | Minimum amount applicable to apply tax on the Currency Exchange. |
+| 2 | amountTo | `Float` | Maximum amount applicable to apply tax on the Currency Exchange. |
+| 3 | cExchangeDate | `Date` | Central Xchange Date |
+| 4 | cExchangeRate | `Float` | Central Xchange Rate |
+| 5 | cMaxAmount | `Float` | Central Max Amount |
+| 6 | cMaxServiceTax | `Float` | Central Max Service Tax |
+| 7 | cMinimumAmount | `Float` | Central Min Amount |
+| 8 | cMinimumServiceTax | `Float` | Central Min Service Tax |
+| 9 | cNotionalAmount | `Float` | Central Notional Amount |
+| 10 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 11 | deletedFlag | `String` | Deleted Flag |
+| 12 | insertDate | `DateTime` | Insert Date |
+| 13 | insertUser | `Float` | Insert User |
+| 14 | jRNUpdateDate | `Date` | JRN Update Date |
+| 15 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 16 | maximum | `Float` | Flat amount service tax to be used when calculated service tax amount exceeds the flat amount. |
+| 17 | minimum | `Float` | Flat amount service tax to be used when calculated service tax amount is less than this flat amount. |
+| 18 | notionalAmount | `Float` | Notional amount applicable based on the service tax type range. |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | percentage | `Float` | Tax Percentage applicable based on the service tax type. |
+| 21 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 22 | property | `String` | Property |
+| 23 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 24 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 25 | serviceTaxType | `String` | Stores the Service tax type. Possible values can be: R1 R2 R3 and so on. |
+| 26 | updateDate | `DateTime` | Update Date |
+| 27 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2039,48 +2039,48 @@
 
 ### ConfigurationResortExpenseArrangementCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
-| arrangeId | `String` | Arrange ID |
-| arrangementId | `Float` | Arrangement ID |
-| bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoutingAmount | `Float` | Central Routing Amount |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyYn | `String` | Daily Y/N |
-| day1 | `String` | Day1 |
-| day2 | `String` | Day2 |
-| day3 | `String` | Day3 |
-| day4 | `String` | Day4 |
-| day5 | `String` | Day5 |
-| day6 | `String` | Day6 |
-| day7 | `String` | Day7 |
-| deletedFlag | `String` | Deleted Flag |
-| eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
-| expenseArrangementCode | `String` | Expense Arrangement Code |
-| expenseArrangementDescription | `String` | Arrangement Description for the Transaction Code. |
-| exportBucketType | `String` | User defined Export Bucket type. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
-| routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingPercent | `Float` | Routing Percent |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
+| 2 | arrangeId | `String` | Arrange ID |
+| 3 | arrangementId | `Float` | Arrangement ID |
+| 4 | bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | cRoutingAmount | `Float` | Central Routing Amount |
+| 8 | compYn | `String` | Comp Y/N |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | dailyYn | `String` | Daily Y/N |
+| 11 | day1 | `String` | Day1 |
+| 12 | day2 | `String` | Day2 |
+| 13 | day3 | `String` | Day3 |
+| 14 | day4 | `String` | Day4 |
+| 15 | day5 | `String` | Day5 |
+| 16 | day6 | `String` | Day6 |
+| 17 | day7 | `String` | Day7 |
+| 18 | deletedFlag | `String` | Deleted Flag |
+| 19 | eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
+| 20 | expenseArrangementCode | `String` | Expense Arrangement Code |
+| 21 | expenseArrangementDescription | `String` | Arrangement Description for the Transaction Code. |
+| 22 | exportBucketType | `String` | User defined Export Bucket type. |
+| 23 | inactiveDate | `DateTime` | Inactive Date |
+| 24 | inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
+| 25 | insertDate | `DateTime` | Insert Date |
+| 26 | insertUser | `Float` | Insert User |
+| 27 | jRNUpdateDate | `Date` | JRN Update Date |
+| 28 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 29 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 30 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 31 | property | `String` | Property |
+| 32 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 33 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 34 | revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
+| 35 | routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
+| 36 | routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 37 | routingPercent | `Float` | Routing Percent |
+| 38 | type | `String` | Type |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2088,176 +2088,176 @@
 
 ### ConfigurationResortTransactionCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
-| aRNameId | `Float` | Ar Name ID |
-| accountNumber | `String` | Account Number |
-| accountingCode | `String` | Accounting Code |
-| acctrecvprofileid | `Float` | Acctrecvprofileid |
-| adjTrxCode | `String` | Adj Trx Code |
-| adjtranscodeid | `String` | Adjtranscodeid |
-| arrangeCode | `String` | Arrange Code |
-| arrangementCode | `String` | Arrangement Code |
-| cDefaultPrice | `Float` | Central Default Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cExportBucket | `Float` | Central Export Bucket |
-| cMaxAmount | `Float` | Central Max Amt |
-| cMinimumAmount | `Float` | Central Min Amt |
-| cCCode | `String` | CC Code |
-| cRSTaxDesc | `String` | Crs Tax Description |
-| cashTransactionCodeYN | `String` | Cash Transaction Code YN |
-| ccType | `String` | Cc Type |
-| centalSubgroup | `String` | Cental Subgroup |
-| centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
-| centralTransactionCode | `String` | Central Transaction Code |
-| centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
-| checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| commissionCode | `Float` | Commission Code |
-| compNightsYn | `String` | Comp Nights Y/N |
-| compPaymentYn | `String` | Comp Payment Y/N |
-| complimentaryYN | `String` | Complimentary YN |
-| corpPropFlag | `String` | Corp Prop Flag |
-| corporateDescription | `String` | Corporate Description |
-| crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyPlanFolio | `Float` | Daily Plan Folio |
-| dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| defaultPrice | `Float` | Default Price |
-| deletedFlag | `String` | Deleted Flag |
-| depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
-| depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| eInvoiceYn | `String` | E Invoice Y/N |
-| expenseFolio | `Float` | Expense Folio |
-| exportBucket | `Float` | Export Bucket |
-| externalPaymentCode | `String` | External Payment Code |
-| fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| gDeletedFlag | `String` | Group Deleted Flag |
-| gDescription | `String` | Group Description |
-| gInsertDate | `DateTime` | Group Insert Date |
-| gInsertUser | `Float` | Group Insert User |
-| gOrderBy | `Float` | Group Order By |
-| gRepDescription | `String` | Group Rep Description |
-| gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
-| gRevenuegroupflag | `String` | Group Revenuegroupflag |
-| gTctClassType1 | `String` | Group Tct Class Type1 |
-| gTctClassType2 | `String` | Group Tct Class Type2 |
-| gUpdateDate | `DateTime` | Group Update Date |
-| gUpdateUser | `Float` | Group Update User |
-| group | `String` | Group |
-| groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
-| groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
-| groupFolio | `Float` | Group Folio |
-| groupIndRevenueGroup | `String` | G Individual Revenue Gp |
-| groupInternalYN | `String` | G Internal Y/N |
-| groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| groupRepItem | `String` | G Reporting Item |
-| groupRepItemName | `String` | G Reporting Item Name |
-| groupRepItemOrderby | `Float` | G Reporting Item Orderby |
-| groupRepOrderBy | `Float` | G Reporting Order By |
-| groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
-| groupTcTransactionType | `String` | G Transaction Code Transaction Type |
-| guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| includeIn8300Yn | `String` | Include In 8300 Y/N |
-| includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
-| maximumAmount | `Float` | Maximum Amount |
-| membershipYN | `String` | Membership YN |
-| minimumAmount | `Float` | Minimum Amount |
-| nonTaxableYn | `String` | Non Taxable Y/N |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerRevenueYN | `String` | Owner Rev Y/N |
-| paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| paymentType | `String` | Payment Type |
-| paymentmethodid | `String` | Paymentmethodid |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| property | `String` | Property |
-| quantityCode | `String` | Quantity Code |
-| repDescription | `String` | Rep Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| revenueBucketId | `Float` | Rev Bucket ID |
-| revenueGroupId | `Float` | Rev Gp ID |
-| revenueYN | `String` | Revenue YN |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| rotationRevenueYN | `String` | Rotation Rev Y/N |
-| roundFactorYn | `String` | Round Factor Y/N |
-| serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| sgDeletedFlag | `String` | Sub-Group Deleted Flag |
-| sgDescription | `String` | Sub-Group Description |
-| sgInsertDate | `DateTime` | Sub-Group Insert Date |
-| sgInsertUser | `Float` | Sub-Group Insert User |
-| sgOrderBy | `Float` | Sub-Group Order By |
-| sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
-| sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
-| sgTaxflag | `String` | Sub-Group Taxflag |
-| sgUpdateDate | `DateTime` | Sub-Group Update Date |
-| sgUpdateUser | `Float` | Sub-Group Update User |
-| subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
-| subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
-| subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
-| subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
-| subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
-| subGroupInternalYN | `String` | Sg Internal Y/N |
-| subGroupRepDescription | `String` | Sg Reporting Description |
-| subGroupRepOrderBy | `Float` | Sg Reporting Order By |
-| subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
-| subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
-| subGroupType | `String` | Sub-Group Type |
-| taxCodeNumber | `Float` | Tax Code Number |
-| taxInclusiveYN | `String` | Tax Inclusive YN |
-| taxYN | `String` | Tax YN |
-| tcBofInterface | `String` | Not Used. |
-| tcBofInterface2 | `String` | Not Used. |
-| tcBofRefCode | `String` | Not Used. |
-| tcBofRefCode2 | `String` | Not Used. |
-| tcResort2 | `String` | Not Used. |
-| tcTransactionType | `String` | Transaction Code Transaction Type |
-| tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| transactionActionId | `Float` | Trx Action ID |
-| transactionCodeDescription | `String` | Transaction Code Description |
-| transactionCodeGroup | `String` | Transaction Code Group |
-| transactionCodeResort | `String` | Not Used. |
-| transactionCodeSubGroup | `String` | Transaction Code Sub-group |
-| transactionCodeType | `String` | Transaction Code Type |
-| transactionType | `String` | Transaction Type |
-| transcodearrangementid | `String` | Transcodearrangementid |
-| transcodeid | `String` | Transcodeid |
-| trxCode | `String` | Trx Code |
-| trxCodeDisplay | `String` | Transaction Code Display |
-| trxServiceType | `String` | Transaction Service Type |
-| trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| uPC | `String` | UPC |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
+| 2 | aRNameId | `Float` | Ar Name ID |
+| 3 | accountNumber | `String` | Account Number |
+| 4 | accountingCode | `String` | Accounting Code |
+| 5 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 6 | adjTrxCode | `String` | Adj Trx Code |
+| 7 | adjtranscodeid | `String` | Adjtranscodeid |
+| 8 | arrangeCode | `String` | Arrange Code |
+| 9 | arrangementCode | `String` | Arrangement Code |
+| 10 | cDefaultPrice | `Float` | Central Default Price |
+| 11 | cExchangeDate | `Date` | Central Xchange Date |
+| 12 | cExchangeRate | `Float` | Central Xchange Rate |
+| 13 | cExportBucket | `Float` | Central Export Bucket |
+| 14 | cMaxAmount | `Float` | Central Max Amt |
+| 15 | cMinimumAmount | `Float` | Central Min Amt |
+| 16 | cCCode | `String` | CC Code |
+| 17 | cRSTaxDesc | `String` | Crs Tax Description |
+| 18 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
+| 19 | ccType | `String` | Cc Type |
+| 20 | centalSubgroup | `String` | Cental Subgroup |
+| 21 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
+| 22 | centralTransactionCode | `String` | Central Transaction Code |
+| 23 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 24 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
+| 25 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 26 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 27 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 28 | commissionCode | `Float` | Commission Code |
+| 29 | compNightsYn | `String` | Comp Nights Y/N |
+| 30 | compPaymentYn | `String` | Comp Payment Y/N |
+| 31 | complimentaryYN | `String` | Complimentary YN |
+| 32 | corpPropFlag | `String` | Corp Prop Flag |
+| 33 | corporateDescription | `String` | Corporate Description |
+| 34 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 35 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 36 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 37 | currencyCode | `String` | Currency Code |
+| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 39 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 40 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 41 | defaultPrice | `Float` | Default Price |
+| 42 | deletedFlag | `String` | Deleted Flag |
+| 43 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
+| 44 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 45 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 46 | eInvoiceYn | `String` | E Invoice Y/N |
+| 47 | expenseFolio | `Float` | Expense Folio |
+| 48 | exportBucket | `Float` | Export Bucket |
+| 49 | externalPaymentCode | `String` | External Payment Code |
+| 50 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 51 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 52 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 53 | gDeletedFlag | `String` | Group Deleted Flag |
+| 54 | gDescription | `String` | Group Description |
+| 55 | gInsertDate | `DateTime` | Group Insert Date |
+| 56 | gInsertUser | `Float` | Group Insert User |
+| 57 | gOrderBy | `Float` | Group Order By |
+| 58 | gRepDescription | `String` | Group Rep Description |
+| 59 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
+| 60 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
+| 61 | gTctClassType1 | `String` | Group Tct Class Type1 |
+| 62 | gTctClassType2 | `String` | Group Tct Class Type2 |
+| 63 | gUpdateDate | `DateTime` | Group Update Date |
+| 64 | gUpdateUser | `Float` | Group Update User |
+| 65 | group | `String` | Group |
+| 66 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
+| 67 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
+| 68 | groupFolio | `Float` | Group Folio |
+| 69 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
+| 70 | groupInternalYN | `String` | G Internal Y/N |
+| 71 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 72 | groupRepItem | `String` | G Reporting Item |
+| 73 | groupRepItemName | `String` | G Reporting Item Name |
+| 74 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
+| 75 | groupRepOrderBy | `Float` | G Reporting Order By |
+| 76 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
+| 77 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
+| 78 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
+| 79 | inactiveDate | `Date` | Inactive Date |
+| 80 | inactiveflag | `String` | Inactive Flag |
+| 81 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 82 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
+| 83 | insertDate | `DateTime` | Insert Date |
+| 84 | insertUser | `Float` | Insert User |
+| 85 | internalDeletedflag | `String` | Deleted Flag |
+| 86 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 87 | internalYn | `String` | Internal Y/N |
+| 88 | jRNUpdateDate | `Date` | JRN Update Date |
+| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 90 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 91 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 92 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
+| 93 | maximumAmount | `Float` | Maximum Amount |
+| 94 | membershipYN | `String` | Membership YN |
+| 95 | minimumAmount | `Float` | Minimum Amount |
+| 96 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 97 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 98 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 99 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 100 | paymentType | `String` | Payment Type |
+| 101 | paymentmethodid | `String` | Paymentmethodid |
+| 102 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 103 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 104 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 105 | property | `String` | Property |
+| 106 | quantityCode | `String` | Quantity Code |
+| 107 | repDescription | `String` | Rep Description |
+| 108 | repItem | `String` | Reporting Item |
+| 109 | repItemName | `String` | Reporting Item Name |
+| 110 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 111 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 112 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 113 | revenueBucketId | `Float` | Rev Bucket ID |
+| 114 | revenueGroupId | `Float` | Rev Gp ID |
+| 115 | revenueYN | `String` | Revenue YN |
+| 116 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 117 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 118 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 119 | roundFactorYn | `String` | Round Factor Y/N |
+| 120 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 121 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
+| 122 | sgDescription | `String` | Sub-Group Description |
+| 123 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
+| 124 | sgInsertUser | `Float` | Sub-Group Insert User |
+| 125 | sgOrderBy | `Float` | Sub-Group Order By |
+| 126 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
+| 127 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
+| 128 | sgTaxflag | `String` | Sub-Group Taxflag |
+| 129 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
+| 130 | sgUpdateUser | `Float` | Sub-Group Update User |
+| 131 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
+| 132 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
+| 133 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
+| 134 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
+| 135 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
+| 136 | subGroupInternalYN | `String` | Sg Internal Y/N |
+| 137 | subGroupRepDescription | `String` | Sg Reporting Description |
+| 138 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
+| 139 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
+| 140 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
+| 141 | subGroupType | `String` | Sub-Group Type |
+| 142 | taxCodeNumber | `Float` | Tax Code Number |
+| 143 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 144 | taxYN | `String` | Tax YN |
+| 145 | tcBofInterface | `String` | Not Used. |
+| 146 | tcBofInterface2 | `String` | Not Used. |
+| 147 | tcBofRefCode | `String` | Not Used. |
+| 148 | tcBofRefCode2 | `String` | Not Used. |
+| 149 | tcResort2 | `String` | Not Used. |
+| 150 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 151 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 152 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 153 | transactionActionId | `Float` | Trx Action ID |
+| 154 | transactionCodeDescription | `String` | Transaction Code Description |
+| 155 | transactionCodeGroup | `String` | Transaction Code Group |
+| 156 | transactionCodeResort | `String` | Not Used. |
+| 157 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
+| 158 | transactionCodeType | `String` | Transaction Code Type |
+| 159 | transactionType | `String` | Transaction Type |
+| 160 | transcodearrangementid | `String` | Transcodearrangementid |
+| 161 | transcodeid | `String` | Transcodeid |
+| 162 | trxCode | `String` | Trx Code |
+| 163 | trxCodeDisplay | `String` | Transaction Code Display |
+| 164 | trxServiceType | `String` | Transaction Service Type |
+| 165 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 166 | uPC | `String` | UPC |
+| 167 | updateDate | `DateTime` | Update Date |
+| 168 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2265,48 +2265,48 @@
 
 ### ConfigurationResortFolioArrangementCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
-| arrangeId | `String` | Arrange ID |
-| arrangementId | `Float` | Arrangement ID |
-| bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoutingAmount | `Float` | Central Routing Amount |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyYn | `String` | Daily Y/N |
-| day1 | `String` | Day1 |
-| day2 | `String` | Day2 |
-| day3 | `String` | Day3 |
-| day4 | `String` | Day4 |
-| day5 | `String` | Day5 |
-| day6 | `String` | Day6 |
-| day7 | `String` | Day7 |
-| deletedFlag | `String` | Deleted Flag |
-| eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
-| exportBucketType | `String` | User defined Export Bucket type. |
-| folioArrangementCode | `String` | Folio Arrangement Code |
-| folioArrangementDescription | `String` | Arrangement Description for the Transaction Code. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
-| routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingPercent | `Float` | Routing Percent |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
+| 2 | arrangeId | `String` | Arrange ID |
+| 3 | arrangementId | `Float` | Arrangement ID |
+| 4 | bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | cRoutingAmount | `Float` | Central Routing Amount |
+| 8 | compYn | `String` | Comp Y/N |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | dailyYn | `String` | Daily Y/N |
+| 11 | day1 | `String` | Day1 |
+| 12 | day2 | `String` | Day2 |
+| 13 | day3 | `String` | Day3 |
+| 14 | day4 | `String` | Day4 |
+| 15 | day5 | `String` | Day5 |
+| 16 | day6 | `String` | Day6 |
+| 17 | day7 | `String` | Day7 |
+| 18 | deletedFlag | `String` | Deleted Flag |
+| 19 | eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
+| 20 | exportBucketType | `String` | User defined Export Bucket type. |
+| 21 | folioArrangementCode | `String` | Folio Arrangement Code |
+| 22 | folioArrangementDescription | `String` | Arrangement Description for the Transaction Code. |
+| 23 | inactiveDate | `DateTime` | Inactive Date |
+| 24 | inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
+| 25 | insertDate | `DateTime` | Insert Date |
+| 26 | insertUser | `Float` | Insert User |
+| 27 | jRNUpdateDate | `Date` | JRN Update Date |
+| 28 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 29 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 30 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 31 | property | `String` | Property |
+| 32 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 33 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 34 | revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
+| 35 | routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
+| 36 | routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 37 | routingPercent | `Float` | Routing Percent |
+| 38 | type | `String` | Type |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2314,48 +2314,48 @@
 
 ### ConfigurationResortGroupArrangementCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
-| arrangeId | `String` | Arrange ID |
-| arrangementId | `Float` | Arrangement ID |
-| bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoutingAmount | `Float` | Central Routing Amount |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyYn | `String` | Daily Y/N |
-| day1 | `String` | Day1 |
-| day2 | `String` | Day2 |
-| day3 | `String` | Day3 |
-| day4 | `String` | Day4 |
-| day5 | `String` | Day5 |
-| day6 | `String` | Day6 |
-| day7 | `String` | Day7 |
-| deletedFlag | `String` | Deleted Flag |
-| eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
-| exportBucketType | `String` | User defined Export Bucket type. |
-| groupArrangementCode | `String` | Group Arrangement Code |
-| groupArrangementDescription | `String` | Arrangement Description for the Transaction Code. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
-| routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingPercent | `Float` | Routing Percent |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
+| 2 | arrangeId | `String` | Arrange ID |
+| 3 | arrangementId | `Float` | Arrangement ID |
+| 4 | bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | cRoutingAmount | `Float` | Central Routing Amount |
+| 8 | compYn | `String` | Comp Y/N |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | dailyYn | `String` | Daily Y/N |
+| 11 | day1 | `String` | Day1 |
+| 12 | day2 | `String` | Day2 |
+| 13 | day3 | `String` | Day3 |
+| 14 | day4 | `String` | Day4 |
+| 15 | day5 | `String` | Day5 |
+| 16 | day6 | `String` | Day6 |
+| 17 | day7 | `String` | Day7 |
+| 18 | deletedFlag | `String` | Deleted Flag |
+| 19 | eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
+| 20 | exportBucketType | `String` | User defined Export Bucket type. |
+| 21 | groupArrangementCode | `String` | Group Arrangement Code |
+| 22 | groupArrangementDescription | `String` | Arrangement Description for the Transaction Code. |
+| 23 | inactiveDate | `DateTime` | Inactive Date |
+| 24 | inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
+| 25 | insertDate | `DateTime` | Insert Date |
+| 26 | insertUser | `Float` | Insert User |
+| 27 | jRNUpdateDate | `Date` | JRN Update Date |
+| 28 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 29 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 30 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 31 | property | `String` | Property |
+| 32 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 33 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 34 | revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
+| 35 | routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
+| 36 | routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 37 | routingPercent | `Float` | Routing Percent |
+| 38 | type | `String` | Type |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2363,56 +2363,56 @@
 
 ### ConfigurationResortFolioTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowCompressYn | `String` | Folio to be use for compress bills |
-| allowConvertYn | `String` | Folio type used for Converting the Folios |
-| allowCreditbillYn | `String` | Allow Credit Bill |
-| allowDifferenceProfile | `String` | This column is used to allow (or) disallow different profile when generating Credit/Debit bill. |
-| arfolioName | `String` | name of the folio which is used for bills generated in A/R |
-| associatedCreditFolioType | `String` | Stores the Linked / Associated Credit Folio Type. |
-| clFlag | `String` | whether this folio type is used for City Ledger bills or not |
-| columnSeparator | `String` | Column Separator to be used when creating XML file for Fiscal Printing. |
-| compressYn | `String` | Whether to compress the file before delivery. |
-| convertFolioType | `String` | Folio Type that will be converted to |
-| correctionFolioYn | `String` | Identify the correction folio type. Added for Greece. |
-| correctionHeaderYn | `String` | Identifies if this folio type is used for folio header correction. |
-| creditYN | `String` | folio type used for Credit bills or not |
-| currencyActionId | `Float` | Curr Action ID |
-| customOnProfAttributesYn | `String` | If "Y" OPERA calls an API to consider the folio type based on attributes of the payee / company / TA / guest profiles of the guest. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| debitBillYN | `String` | Identifies if this folio type is used for a Supplemental Folio which is an additional folio to an existing folio. |
-| debitFlag | `String` | Identifies if the folio_type is a debit folio. [Y/N] |
-| deletedFlag | `String` | Deleted Flag |
-| depositFolioYn | `String` | Identifies if this folio type is a deposit folio type. |
-| directBillYn | `String` | Folio type related to Direct Bill / City Ledger settlements. |
-| documentCode | `String` | Unique Document Code |
-| fiscalPrintingYn | `String` | Identifies if the folio type will generate fiscal folio. |
-| fiscalProgramName | `String` | Fiscal Executable Program Name (without filepath) |
-| fiscalYn | `String` | Indicates if this export bucket is FISCAL related. |
-| folioName | `String` | name of the folio report to be used for this folio type for Reservation Bills |
-| folioTypeCode | `String` | Folio Type Code |
-| guestType | `Float` | Guest Type |
-| internalBillYn | `String` | Internal bill that will be solely used for accounting purposes on barter agreements and interim billing amongst hotels which belong to the same owner. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| localCurrFlag | `String` | whether this folio type is used for any bills generated with local currency or any other currency |
-| manualFolioPrintTask | `String` | Indicates if the folio type has a manual folio print task associated. |
-| nameTaxType | `String` | Name Tax Type |
-| nationalityFlag | `String` | whether this record is used for Local national or foreigner |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originalFolioStayDetailsYN | `String` | Indicates if this folio type will display stay details of the original folio.  Used for Credit Bills and Supplemental folios. |
-| passerbyfolioName | `String` | name of the passerby folio used for bills generated from Passerby |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printFolioYn | `String` | Identifies if the settlements using this folio type will print a paper folio. |
-| property | `String` | Property |
-| queueName | `String` | Queue Name |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| simpleFolioYn | `String` | Identifies if this folio type is a simple folio type. |
-| taxNoFlag | `String` | Folio type is used for profiles which have a tax number or not. |
-| trxServiceType | `String` | Transaction Service Type |
-| workingDocsYn | `String` | Used only for Information and Pro-forma folios. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowCompressYn | `String` | Folio to be use for compress bills |
+| 2 | allowConvertYn | `String` | Folio type used for Converting the Folios |
+| 3 | allowCreditbillYn | `String` | Allow Credit Bill |
+| 4 | allowDifferenceProfile | `String` | This column is used to allow (or) disallow different profile when generating Credit/Debit bill. |
+| 5 | arfolioName | `String` | name of the folio which is used for bills generated in A/R |
+| 6 | associatedCreditFolioType | `String` | Stores the Linked / Associated Credit Folio Type. |
+| 7 | clFlag | `String` | whether this folio type is used for City Ledger bills or not |
+| 8 | columnSeparator | `String` | Column Separator to be used when creating XML file for Fiscal Printing. |
+| 9 | compressYn | `String` | Whether to compress the file before delivery. |
+| 10 | convertFolioType | `String` | Folio Type that will be converted to |
+| 11 | correctionFolioYn | `String` | Identify the correction folio type. Added for Greece. |
+| 12 | correctionHeaderYn | `String` | Identifies if this folio type is used for folio header correction. |
+| 13 | creditYN | `String` | folio type used for Credit bills or not |
+| 14 | currencyActionId | `Float` | Curr Action ID |
+| 15 | customOnProfAttributesYn | `String` | If "Y" OPERA calls an API to consider the folio type based on attributes of the payee / company / TA / guest profiles of the guest. |
+| 16 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 17 | debitBillYN | `String` | Identifies if this folio type is used for a Supplemental Folio which is an additional folio to an existing folio. |
+| 18 | debitFlag | `String` | Identifies if the folio_type is a debit folio. [Y/N] |
+| 19 | deletedFlag | `String` | Deleted Flag |
+| 20 | depositFolioYn | `String` | Identifies if this folio type is a deposit folio type. |
+| 21 | directBillYn | `String` | Folio type related to Direct Bill / City Ledger settlements. |
+| 22 | documentCode | `String` | Unique Document Code |
+| 23 | fiscalPrintingYn | `String` | Identifies if the folio type will generate fiscal folio. |
+| 24 | fiscalProgramName | `String` | Fiscal Executable Program Name (without filepath) |
+| 25 | fiscalYn | `String` | Indicates if this export bucket is FISCAL related. |
+| 26 | folioName | `String` | name of the folio report to be used for this folio type for Reservation Bills |
+| 27 | folioTypeCode | `String` | Folio Type Code |
+| 28 | guestType | `Float` | Guest Type |
+| 29 | internalBillYn | `String` | Internal bill that will be solely used for accounting purposes on barter agreements and interim billing amongst hotels which belong to the same owner. |
+| 30 | jRNUpdateDate | `Date` | JRN Update Date |
+| 31 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 32 | localCurrFlag | `String` | whether this folio type is used for any bills generated with local currency or any other currency |
+| 33 | manualFolioPrintTask | `String` | Indicates if the folio type has a manual folio print task associated. |
+| 34 | nameTaxType | `String` | Name Tax Type |
+| 35 | nationalityFlag | `String` | whether this record is used for Local national or foreigner |
+| 36 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 37 | originalFolioStayDetailsYN | `String` | Indicates if this folio type will display stay details of the original folio.  Used for Credit Bills and Supplemental folios. |
+| 38 | passerbyfolioName | `String` | name of the passerby folio used for bills generated from Passerby |
+| 39 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 40 | printFolioYn | `String` | Identifies if the settlements using this folio type will print a paper folio. |
+| 41 | property | `String` | Property |
+| 42 | queueName | `String` | Queue Name |
+| 43 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 44 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 45 | simpleFolioYn | `String` | Identifies if this folio type is a simple folio type. |
+| 46 | taxNoFlag | `String` | Folio type is used for profiles which have a tax number or not. |
+| 47 | trxServiceType | `String` | Transaction Service Type |
+| 48 | workingDocsYn | `String` | Used only for Information and Pro-forma folios. |
 
 [⬆ Back to Query](#query)
 
@@ -2420,22 +2420,22 @@
 
 ### ConfigurationResortFolioTypeDetailDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | name of the folio report to be used for this folio type for Reservation Bills |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| folioType | `String` | Folio Type |
-| group | `String` | The Group for which this belongs to P- Passerby;G-Guest FolioA- Ar folio |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | name of the folio report to be used for this folio type for Reservation Bills |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | folioType | `String` | Folio Type |
+| 6 | group | `String` | The Group for which this belongs to P- Passerby;G-Guest FolioA- Ar folio |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | language | `String` | Language |
+| 10 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 11 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 12 | property | `String` | Code to uniquely identify the Property |
+| 13 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 14 | rNAUpdateDate | `DateTime` | RNA Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -2443,54 +2443,54 @@
 
 ### ConfigurationResortBankAccountDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| accountId | `Float` | Account ID |
-| accountNumber | `String` | Account Number |
-| bankAcctType | `String` | Flag to identify bank type  [O] OVOS user |
-| bankCode | `String` | Code for the bank account |
-| branchCode | `String` | Code for the bank accounts branch |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| centralMinProcessingAmount | `Float` | Central Min. Processing Amount |
-| checkReport | `String` | Check Report |
-| checkSubLines | `Float` | Number of lines to be printed on check stub |
-| currency | `String` | Currency |
-| currencyDescription | `String` | Currency Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultYN | `String` | Default YN |
-| defaultForCurrencyYN | `String` | Only one 'Y' value is permitted per resort / currency combination used mainly by interface to figure out default bank for resort and currency combination |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Bank name |
-| editCheckNumberYN | `String` | Check number allowed to be edited Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| lastExportDate | `Date` | Last Export File Run Date |
-| lastExportedFile | `Float` | Last Export Run File Number |
-| maxCheckNo | `Float` | Internal |
-| minProcessingAmount | `Float` | Minimum amount required to produce a check through commission processing for the selected account. |
-| nextCheckNumber | `Float` | Last check number used by commisison handling module for bank account selected |
-| onHold | `Float` | On Hold |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paidInAR | `Float` | Paid in AR |
-| paymentMethod | `String` | Payment Method |
-| positivePayExportYN | `String` | Indicate that the bank account uses Positive Pay Export. |
-| potential | `Float` | Potential |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| routingNumber | `String` | Routing number for the bank account |
-| sourceImportDir | `String` | Source directory for importing commission information. |
-| targetImportDir | `String` | Target directory where import files will be stored. |
-| tax1099ReportYN | `String` | Indicate that bank account use 1099 report |
-| toBePaid | `Float` | To Be Paid |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| validateIATANumberYN | `String` | Force validation of TA/Source IATA number during commision payment process. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | accountId | `Float` | Account ID |
+| 2 | accountNumber | `String` | Account Number |
+| 3 | bankAcctType | `String` | Flag to identify bank type  [O] OVOS user |
+| 4 | bankCode | `String` | Code for the bank account |
+| 5 | branchCode | `String` | Code for the bank accounts branch |
+| 6 | cExchangeDate | `Date` | Central Xchange Date |
+| 7 | cExchangeRate | `Float` | Central Xchange Rate |
+| 8 | centralMinProcessingAmount | `Float` | Central Min. Processing Amount |
+| 9 | checkReport | `String` | Check Report |
+| 10 | checkSubLines | `Float` | Number of lines to be printed on check stub |
+| 11 | currency | `String` | Currency |
+| 12 | currencyDescription | `String` | Currency Description |
+| 13 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 14 | defaultYN | `String` | Default YN |
+| 15 | defaultForCurrencyYN | `String` | Only one 'Y' value is permitted per resort / currency combination used mainly by interface to figure out default bank for resort and currency combination |
+| 16 | deletedFlag | `String` | Deleted Flag |
+| 17 | description | `String` | Bank name |
+| 18 | editCheckNumberYN | `String` | Check number allowed to be edited Y/N |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | language | `String` | Language |
+| 24 | lastExportDate | `Date` | Last Export File Run Date |
+| 25 | lastExportedFile | `Float` | Last Export Run File Number |
+| 26 | maxCheckNo | `Float` | Internal |
+| 27 | minProcessingAmount | `Float` | Minimum amount required to produce a check through commission processing for the selected account. |
+| 28 | nextCheckNumber | `Float` | Last check number used by commisison handling module for bank account selected |
+| 29 | onHold | `Float` | On Hold |
+| 30 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 31 | paidInAR | `Float` | Paid in AR |
+| 32 | paymentMethod | `String` | Payment Method |
+| 33 | positivePayExportYN | `String` | Indicate that the bank account uses Positive Pay Export. |
+| 34 | potential | `Float` | Potential |
+| 35 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 36 | property | `String` | Property |
+| 37 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 38 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 39 | routingNumber | `String` | Routing number for the bank account |
+| 40 | sourceImportDir | `String` | Source directory for importing commission information. |
+| 41 | targetImportDir | `String` | Target directory where import files will be stored. |
+| 42 | tax1099ReportYN | `String` | Indicate that bank account use 1099 report |
+| 43 | toBePaid | `Float` | To Be Paid |
+| 44 | updateDate | `DateTime` | Update Date |
+| 45 | updateUser | `Float` | Update User |
+| 46 | validateIATANumberYN | `String` | Force validation of TA/Source IATA number during commision payment process. |
 
 [⬆ Back to Query](#query)
 
@@ -2498,55 +2498,55 @@
 
 ### ConfigurationResortCommissionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| amount | `Float` | Amount |
-| basedOn | `String` | Based On |
-| cAmount | `Float` | Central Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cVatAmount | `Float` | Central Vat Amount |
-| centralCode | `String` | Central Code |
-| centralCommissionDescription | `String` | Central Commission Description |
-| code | `String` | Code |
-| commissionCalcRule | `String` | Calculation rule for the commission |
-| commissionFlatPercentage | `String` | Commission percentage or flat commission |
-| commissionamount | `Float` | Commissionamount |
-| commissionid | `String` | Commissionid |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultYN | `String` | Default YN |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| holdARYN | `String` | Commission marked as Hold if transaction code AR_SETTLE_CODE used for payment. |
-| holdAlwaysYN | `String` | Commission marked as Hold automatically. |
-| holdPrepaidYN | `String` | Commission marked as Hold if  transaction code DEFAULT_PREPAID_COMM used for payment. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masteralias | `Float` | Masteralias |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| perNight | `String` | Commission is per night Y/N |
-| perNightAmount | `Float` | Per Night Amount |
-| perStay | `String` | Commission is per stay Y/N |
-| perStayAmount | `Float` | Per Stay Amount |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repSellSequence | `Float` | Reporting Sell Sequence |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sellSequence | `Float` | Sell Sequence |
-| taxPercent | `Float` | Tax Amount for Commission. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | amount | `Float` | Amount |
+| 2 | basedOn | `String` | Based On |
+| 3 | cAmount | `Float` | Central Amount |
+| 4 | cExchangeDate | `Date` | Central Xchange Date |
+| 5 | cExchangeRate | `Float` | Central Xchange Rate |
+| 6 | cVatAmount | `Float` | Central Vat Amount |
+| 7 | centralCode | `String` | Central Code |
+| 8 | centralCommissionDescription | `String` | Central Commission Description |
+| 9 | code | `String` | Code |
+| 10 | commissionCalcRule | `String` | Calculation rule for the commission |
+| 11 | commissionFlatPercentage | `String` | Commission percentage or flat commission |
+| 12 | commissionamount | `Float` | Commissionamount |
+| 13 | commissionid | `String` | Commissionid |
+| 14 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 15 | defaultYN | `String` | Default YN |
+| 16 | deletedFlag | `String` | Deleted Flag |
+| 17 | description | `String` | Description |
+| 18 | holdARYN | `String` | Commission marked as Hold if transaction code AR_SETTLE_CODE used for payment. |
+| 19 | holdAlwaysYN | `String` | Commission marked as Hold automatically. |
+| 20 | holdPrepaidYN | `String` | Commission marked as Hold if  transaction code DEFAULT_PREPAID_COMM used for payment. |
+| 21 | inactiveDate | `DateTime` | Inactive Date |
+| 22 | inactiveflag | `String` | Inactive Flag |
+| 23 | insertDate | `DateTime` | Insert Date |
+| 24 | insertUser | `Float` | Insert User |
+| 25 | internalDeletedflag | `String` | Deleted Flag |
+| 26 | jRNUpdateDate | `Date` | JRN Update Date |
+| 27 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 28 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 29 | masteralias | `Float` | Masteralias |
+| 30 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 31 | perNight | `String` | Commission is per night Y/N |
+| 32 | perNightAmount | `Float` | Per Night Amount |
+| 33 | perStay | `String` | Commission is per stay Y/N |
+| 34 | perStayAmount | `Float` | Per Stay Amount |
+| 35 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 36 | property | `String` | Property |
+| 37 | repItem | `String` | Reporting Item |
+| 38 | repItemName | `String` | Reporting Item Name |
+| 39 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 40 | repSellSequence | `Float` | Reporting Sell Sequence |
+| 41 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 42 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 43 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 44 | sellSequence | `Float` | Sell Sequence |
+| 45 | taxPercent | `Float` | Tax Amount for Commission. |
+| 46 | updateDate | `DateTime` | Update Date |
+| 47 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2554,24 +2554,24 @@
 
 ### ConfigurationResortAuthorizerGroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Code |
-| compAuthorizerGroupDescription | `String` | Comp Authorizer Group Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Code |
+| 2 | compAuthorizerGroupDescription | `String` | Comp Authorizer Group Description |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | property | `String` | Property |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 14 | rateCode | `String` | Rate Code |
+| 15 | updateDate | `DateTime` | Update Date |
+| 16 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2579,33 +2579,33 @@
 
 ### ConfigurationResortAuthorizerGroupDetailDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| arrangementId | `Float` | Arrangement ID |
-| authGroupCode | `String` | Auth Group Code |
-| cCreditLimit | `Float` | Central Credit Limit |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cOccurrenceLimit | `Float` | Central Occurrence Limit |
-| centralTransactionCodes | `String` | Central Transaction Codes |
-| compRoutingCodes | `String` | Comp Routing Codes |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyCreditLimit | `Float` | Daily Credit Limit |
-| deletedFlag | `String` | Deleted Flag |
-| groupHeaderId | `Float` | Group header ID used to assign transaction or arrangement codes to different limit groups |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| transactionCodes | `String` | Transaction Codes |
-| transferLimit | `Float` | Per instance limit for this group_header_id. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | arrangementId | `Float` | Arrangement ID |
+| 2 | authGroupCode | `String` | Auth Group Code |
+| 3 | cCreditLimit | `Float` | Central Credit Limit |
+| 4 | cExchangeDate | `Date` | Central Xchange Date |
+| 5 | cExchangeRate | `Float` | Central Xchange Rate |
+| 6 | cOccurrenceLimit | `Float` | Central Occurrence Limit |
+| 7 | centralTransactionCodes | `String` | Central Transaction Codes |
+| 8 | compRoutingCodes | `String` | Comp Routing Codes |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | dailyCreditLimit | `Float` | Daily Credit Limit |
+| 11 | deletedFlag | `String` | Deleted Flag |
+| 12 | groupHeaderId | `Float` | Group header ID used to assign transaction or arrangement codes to different limit groups |
+| 13 | insertDate | `DateTime` | Insert Date |
+| 14 | insertUser | `Float` | Insert User |
+| 15 | jRNUpdateDate | `Date` | JRN Update Date |
+| 16 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 17 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 18 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 19 | property | `String` | Code to uniquely identify the Property |
+| 20 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 21 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 22 | transactionCodes | `String` | Transaction Codes |
+| 23 | transferLimit | `Float` | Per instance limit for this group_header_id. |
+| 24 | updateDate | `DateTime` | Update Date |
+| 25 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2613,161 +2613,161 @@
 
 ### ConfigurationResortAuthorizerDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRAccountNumber | `String` | AR Account Number |
-| accessConfig | `String` | Allow user access to Configuration. |
-| accessEod | `String` | Allow user access to End of Day. |
-| accessObi | `String` | Allow user access to Opera BI. |
-| accessOcis | `String` | Allow user access to OCIS. |
-| accessOcm | `String` | Allow user access to Channel Mangement. |
-| accessOcrm | `String` | Allow user access to OCRM. |
-| accessOrms | `String` | Allow user access to Opera Revenue Management System. |
-| accessOrs | `String` | Allow user access to ORS. |
-| accessOxi | `String` | Allow user access to OXI. |
-| accessOxihub | `String` | Allow user access to OXIHUB. |
-| accessPms | `String` | Allow user access to PMS. |
-| accessSc | `String` | Allow user access to SC. |
-| accessScbi | `String` | Allow user access to OPERA S&C Analytics. |
-| accessSfa | `String` | Allow user access to SFA. |
-| accessUtil | `String` | Allow user access to Utilities. |
-| accountLockedOutYn | `String` | Indicates if user is allowed to login in the application. |
-| appPassword | `String` | The encrypted application password of this user |
-| appUserDescription | `String` | Description about the User |
-| appUserId | `Float` | App User ID |
-| appUserType | `String` | Defines the type of user.Valid values: U and G U-->User :: G-->Group |
-| appUserUniq | `String` | Unique internal ID...needed for ASP module as the same user name can't exists across chains. |
-| authHeaderId | `Float` | Link from Authorizer_limits_header table. |
-| authorizerGroup | `String` | Authorizer Group |
-| authorizerId | `Float` | Authorizer ID |
-| authorizerInactiveDate | `DateTime` | Date the authorizer became inactive |
-| authorizerYn | `String` | Denotes if this user is an authorizer. Allowable values are 'Y' and 'N' |
-| cCreditLimit | `Float` | Central Credit Limit |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cHourlyRate | `Float` | Central Hourly Rate |
-| cOccurrenceLimit | `Float` | Central Occurrence Limit |
-| cWeeklySalary | `Float` | Central Weekly Salary |
-| centralTransactionCodes | `String` | Central  Transaction Codes |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| compRoutingCodes | `String` | Comp Routing Codes |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyCreditLimit | `Float` | Daily Credit Limit |
-| dateHired | `Date` | Date employee was hired |
-| defCashierId | `Float` | Cashier ID for the User |
-| defaultForm | `String` | Not Used |
-| defaultLanguage | `String` | Default language of the user. |
-| defaultMfnResort | `String` | Not used. |
-| defaultReportgroup | `String` | Defaults the Report Module to this Report Group |
-| defaultResort | `String` | Stores resort name to which user will log in every time |
-| defaultTerminal | `String` | Default terminal of the user. |
-| deletedFlag | `String` | Deleted Flag |
-| deptId | `String` | Dept ID |
-| description | `String` | Description |
-| disabledUntil | `Date` | When account is disabled this date is set to date when account should be enabled again |
-| empExtension | `String` | Employee Extension Number |
-| empPager | `String` | Pager Number |
-| empStatus | `String` | Emp Status |
-| employeeIncentiveNumber | `String` | Identifies a hotel employee for incentive programs. |
-| employeeNumber | `String` | This column is used by Starwood Hotels for Storing their internal employee number |
-| expiresOn | `DateTime` | Date on which user ID will be disabled. |
-| firstName | `String` | First Name |
-| forcePasswordChangeYn | `String` | Requires the user to change the password at login. |
-| fridayMax | `Float` | Max hours for Friday |
-| fridayMin | `Float` | Min hours for Friday |
-| generalFilepath | `String` | Stores General File path for Mailmerge |
-| graceLogin | `Float` | Number of Logins allowed after password has expired |
-| hireType | `String` | Type of hire: F-Full Time P-Part Time |
-| hourlyRate | `Float` | If RATE_TYPE=H: hourly employee rate |
-| hoursPerWeek | `Float` | Hours Per Week |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveFrom | `DateTime` | Inactive Start Date |
-| inactiveReasonCode | `String` | Reason Code for inactive status from REASON table |
-| inactiveTo | `DateTime` | Inactive End Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalYn | `String` | Internal Y/N |
-| isSuperuser | `String` | When this is set to Y a user gets all the rights defined in application. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| laptopId | `Float` | Laptop ID |
-| lastLoggedResort | `String` | Last property the user was logged in. |
-| lastLoggedTimestamp | `Date` | Date and Time the User was logged in last time |
-| lastName | `String` | Last Name |
-| leadAddress | `String` | Lead Address Code determines primary receipient |
-| leadAddressDet | `String` | Lead Address (email/fax no) |
-| leadComm | `String` | Lead Communication Type |
-| lockoutDate | `DateTime` | Timestamp with the useraccount was locked out. |
-| loginAttempts | `Float` | Invalid password login attempts counter. |
-| loginCro | `String` | Login Cro |
-| loginDomain | `String` | Login Domain |
-| maleFemale | `String` | Employee Gender |
-| maxCheckoutDays | `Float` | Maximum number of days allowed for checkout in Laptop Module |
-| maxDaysAfterCo | `Float` | Maximum number of days after checkout that a folio can be reopened. |
-| maxUserSessions | `Float` | Maximum number of Opera Sessions allowed at single point of time. |
-| mfnUserType | `String` | User type for OCM mode: [C]orporate User |
-| mobileAlertsYn | `String` | Indiciates if alerts are send to mobile registered guests for required action and manual checkout.. |
-| mondayMax | `Float` | Max hours for Monday |
-| mondayMin | `Float` | Min hours for Monday |
-| nCExchangeDate | `Date` | N Central Xchange Date |
-| nCExchangeRate | `Float` | N Central Xchange Rate |
-| nDeletedFlag | `String` | N Deleted Flag |
-| nInsertDate | `DateTime` | N Insert Date |
-| nInsertUser | `Float` | N Insert User |
-| nUpdateDate | `Date` | N Update Date |
-| nUpdateUser | `Float` | N Update User |
-| occurrenceLimit | `Float` | Per instance limit for this group_header_id. |
-| oraclePassword | `String` | not used |
-| oracleUid | `Float` | Not used |
-| oracleUser | `String` | not used |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| otMultiplier | `Float` | Overtime Multiplier |
-| passwordChangeDays | `Float` | Period of Days the Password expires |
-| passwordLastChange | `Date` | TimeStamp of last Password Change |
-| personNameId | `Float` | Foreign key to NAME table that links this USER to an Employee |
-| preventAccountLockout | `String` | Indicates if this user can be excluded from user account lock. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| propertyAccessYn | `String` | Indicates that a User Group has the purpose of defining property access only (no permissions allowed). |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Default rate code for this authorizer. |
-| rateType | `String` | Rate Type |
-| receiveBroadcastMsg | `String` | Receive Broadcast Msg |
-| rehireYn | `String` | Indicates if a terminated employee shall be rehired |
-| salaryInterval | `String` | Salary Interval: M-Monthly W-Weekly |
-| saturdayMax | `Float` | Max hours for Saturday |
-| saturdayMin | `Float` | Min hours for Saturday |
-| serviceRequestAlertsYn | `String` | Indicates if this Application User can receive Alerts related to Service Requests. |
-| sfaName | `String` | Sfa Name |
-| srepCode | `String` | Srep Code |
-| srepGroup | `String` | Assigned Sales Manager Group(s) |
-| sundayMax | `Float` | Max hours for Sunday |
-| sundayMin | `Float` | Min hours for Sunday |
-| termReason | `String` | Termination Reason |
-| terminatedDate | `Date` | Termination Date |
-| thursdayMax | `Float` | Max hours for Thursday |
-| thursdayMin | `Float` | Min hours for Thursday |
-| timezoneRegion | `String` | Time zone region selected by the employee. |
-| title | `String` | Title |
-| transactionCodes | `String` | Transaction Codes |
-| transferLimit | `Float` | Transfer Limit |
-| tuesdayMax | `Float` | Max hours for Tuesday |
-| tuesdayMin | `Float` | Min hours for Tuesday |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| userFilepath | `String` | Store User File path. for Mailmerge |
-| userGroupAdmin | `String` | User group can be granted by the user group administrator if value is 'Y'. |
-| userIDCode | `String` | User ID Code |
-| userPbxId | `Float` | PBX ID - referred as password to access PBX system |
-| wednesdayMax | `Float` | Max hours for Wednesday |
-| wednesdayMin | `Float` | Min hours for Wednesday |
-| weekMax | `Float` | Maximum total hours this employee can work per week |
-| weekMin | `Float` | Minimum total hours this employee can work per week |
-| weeklySalary | `Float` | Weekly Salary |
-| workPermitExpdate | `Date` | Workpermit Expiration date |
-| workPermitNo | `String` | Working Permit Number |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRAccountNumber | `String` | AR Account Number |
+| 2 | accessConfig | `String` | Allow user access to Configuration. |
+| 3 | accessEod | `String` | Allow user access to End of Day. |
+| 4 | accessObi | `String` | Allow user access to Opera BI. |
+| 5 | accessOcis | `String` | Allow user access to OCIS. |
+| 6 | accessOcm | `String` | Allow user access to Channel Mangement. |
+| 7 | accessOcrm | `String` | Allow user access to OCRM. |
+| 8 | accessOrms | `String` | Allow user access to Opera Revenue Management System. |
+| 9 | accessOrs | `String` | Allow user access to ORS. |
+| 10 | accessOxi | `String` | Allow user access to OXI. |
+| 11 | accessOxihub | `String` | Allow user access to OXIHUB. |
+| 12 | accessPms | `String` | Allow user access to PMS. |
+| 13 | accessSc | `String` | Allow user access to SC. |
+| 14 | accessScbi | `String` | Allow user access to OPERA S&C Analytics. |
+| 15 | accessSfa | `String` | Allow user access to SFA. |
+| 16 | accessUtil | `String` | Allow user access to Utilities. |
+| 17 | accountLockedOutYn | `String` | Indicates if user is allowed to login in the application. |
+| 18 | appPassword | `String` | The encrypted application password of this user |
+| 19 | appUserDescription | `String` | Description about the User |
+| 20 | appUserId | `Float` | App User ID |
+| 21 | appUserType | `String` | Defines the type of user.Valid values: U and G U-->User :: G-->Group |
+| 22 | appUserUniq | `String` | Unique internal ID...needed for ASP module as the same user name can't exists across chains. |
+| 23 | authHeaderId | `Float` | Link from Authorizer_limits_header table. |
+| 24 | authorizerGroup | `String` | Authorizer Group |
+| 25 | authorizerId | `Float` | Authorizer ID |
+| 26 | authorizerInactiveDate | `DateTime` | Date the authorizer became inactive |
+| 27 | authorizerYn | `String` | Denotes if this user is an authorizer. Allowable values are 'Y' and 'N' |
+| 28 | cCreditLimit | `Float` | Central Credit Limit |
+| 29 | cExchangeDate | `Date` | Central Xchange Date |
+| 30 | cExchangeRate | `Float` | Central Xchange Rate |
+| 31 | cHourlyRate | `Float` | Central Hourly Rate |
+| 32 | cOccurrenceLimit | `Float` | Central Occurrence Limit |
+| 33 | cWeeklySalary | `Float` | Central Weekly Salary |
+| 34 | centralTransactionCodes | `String` | Central  Transaction Codes |
+| 35 | chainCode | `String` | Chain Code |
+| 36 | comments | `String` | Comments |
+| 37 | compRoutingCodes | `String` | Comp Routing Codes |
+| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 39 | dailyCreditLimit | `Float` | Daily Credit Limit |
+| 40 | dateHired | `Date` | Date employee was hired |
+| 41 | defCashierId | `Float` | Cashier ID for the User |
+| 42 | defaultForm | `String` | Not Used |
+| 43 | defaultLanguage | `String` | Default language of the user. |
+| 44 | defaultMfnResort | `String` | Not used. |
+| 45 | defaultReportgroup | `String` | Defaults the Report Module to this Report Group |
+| 46 | defaultResort | `String` | Stores resort name to which user will log in every time |
+| 47 | defaultTerminal | `String` | Default terminal of the user. |
+| 48 | deletedFlag | `String` | Deleted Flag |
+| 49 | deptId | `String` | Dept ID |
+| 50 | description | `String` | Description |
+| 51 | disabledUntil | `Date` | When account is disabled this date is set to date when account should be enabled again |
+| 52 | empExtension | `String` | Employee Extension Number |
+| 53 | empPager | `String` | Pager Number |
+| 54 | empStatus | `String` | Emp Status |
+| 55 | employeeIncentiveNumber | `String` | Identifies a hotel employee for incentive programs. |
+| 56 | employeeNumber | `String` | This column is used by Starwood Hotels for Storing their internal employee number |
+| 57 | expiresOn | `DateTime` | Date on which user ID will be disabled. |
+| 58 | firstName | `String` | First Name |
+| 59 | forcePasswordChangeYn | `String` | Requires the user to change the password at login. |
+| 60 | fridayMax | `Float` | Max hours for Friday |
+| 61 | fridayMin | `Float` | Min hours for Friday |
+| 62 | generalFilepath | `String` | Stores General File path for Mailmerge |
+| 63 | graceLogin | `Float` | Number of Logins allowed after password has expired |
+| 64 | hireType | `String` | Type of hire: F-Full Time P-Part Time |
+| 65 | hourlyRate | `Float` | If RATE_TYPE=H: hourly employee rate |
+| 66 | hoursPerWeek | `Float` | Hours Per Week |
+| 67 | inactiveDate | `DateTime` | Inactive Date |
+| 68 | inactiveFrom | `DateTime` | Inactive Start Date |
+| 69 | inactiveReasonCode | `String` | Reason Code for inactive status from REASON table |
+| 70 | inactiveTo | `DateTime` | Inactive End Date |
+| 71 | insertDate | `DateTime` | Insert Date |
+| 72 | insertUser | `Float` | Insert User |
+| 73 | internalYn | `String` | Internal Y/N |
+| 74 | isSuperuser | `String` | When this is set to Y a user gets all the rights defined in application. |
+| 75 | jRNUpdateDate | `Date` | JRN Update Date |
+| 76 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 77 | laptopId | `Float` | Laptop ID |
+| 78 | lastLoggedResort | `String` | Last property the user was logged in. |
+| 79 | lastLoggedTimestamp | `Date` | Date and Time the User was logged in last time |
+| 80 | lastName | `String` | Last Name |
+| 81 | leadAddress | `String` | Lead Address Code determines primary receipient |
+| 82 | leadAddressDet | `String` | Lead Address (email/fax no) |
+| 83 | leadComm | `String` | Lead Communication Type |
+| 84 | lockoutDate | `DateTime` | Timestamp with the useraccount was locked out. |
+| 85 | loginAttempts | `Float` | Invalid password login attempts counter. |
+| 86 | loginCro | `String` | Login Cro |
+| 87 | loginDomain | `String` | Login Domain |
+| 88 | maleFemale | `String` | Employee Gender |
+| 89 | maxCheckoutDays | `Float` | Maximum number of days allowed for checkout in Laptop Module |
+| 90 | maxDaysAfterCo | `Float` | Maximum number of days after checkout that a folio can be reopened. |
+| 91 | maxUserSessions | `Float` | Maximum number of Opera Sessions allowed at single point of time. |
+| 92 | mfnUserType | `String` | User type for OCM mode: [C]orporate User |
+| 93 | mobileAlertsYn | `String` | Indiciates if alerts are send to mobile registered guests for required action and manual checkout.. |
+| 94 | mondayMax | `Float` | Max hours for Monday |
+| 95 | mondayMin | `Float` | Min hours for Monday |
+| 96 | nCExchangeDate | `Date` | N Central Xchange Date |
+| 97 | nCExchangeRate | `Float` | N Central Xchange Rate |
+| 98 | nDeletedFlag | `String` | N Deleted Flag |
+| 99 | nInsertDate | `DateTime` | N Insert Date |
+| 100 | nInsertUser | `Float` | N Insert User |
+| 101 | nUpdateDate | `Date` | N Update Date |
+| 102 | nUpdateUser | `Float` | N Update User |
+| 103 | occurrenceLimit | `Float` | Per instance limit for this group_header_id. |
+| 104 | oraclePassword | `String` | not used |
+| 105 | oracleUid | `Float` | Not used |
+| 106 | oracleUser | `String` | not used |
+| 107 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 108 | otMultiplier | `Float` | Overtime Multiplier |
+| 109 | passwordChangeDays | `Float` | Period of Days the Password expires |
+| 110 | passwordLastChange | `Date` | TimeStamp of last Password Change |
+| 111 | personNameId | `Float` | Foreign key to NAME table that links this USER to an Employee |
+| 112 | preventAccountLockout | `String` | Indicates if this user can be excluded from user account lock. |
+| 113 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 114 | property | `String` | Property |
+| 115 | propertyAccessYn | `String` | Indicates that a User Group has the purpose of defining property access only (no permissions allowed). |
+| 116 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 117 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 118 | rateCode | `String` | Default rate code for this authorizer. |
+| 119 | rateType | `String` | Rate Type |
+| 120 | receiveBroadcastMsg | `String` | Receive Broadcast Msg |
+| 121 | rehireYn | `String` | Indicates if a terminated employee shall be rehired |
+| 122 | salaryInterval | `String` | Salary Interval: M-Monthly W-Weekly |
+| 123 | saturdayMax | `Float` | Max hours for Saturday |
+| 124 | saturdayMin | `Float` | Min hours for Saturday |
+| 125 | serviceRequestAlertsYn | `String` | Indicates if this Application User can receive Alerts related to Service Requests. |
+| 126 | sfaName | `String` | Sfa Name |
+| 127 | srepCode | `String` | Srep Code |
+| 128 | srepGroup | `String` | Assigned Sales Manager Group(s) |
+| 129 | sundayMax | `Float` | Max hours for Sunday |
+| 130 | sundayMin | `Float` | Min hours for Sunday |
+| 131 | termReason | `String` | Termination Reason |
+| 132 | terminatedDate | `Date` | Termination Date |
+| 133 | thursdayMax | `Float` | Max hours for Thursday |
+| 134 | thursdayMin | `Float` | Min hours for Thursday |
+| 135 | timezoneRegion | `String` | Time zone region selected by the employee. |
+| 136 | title | `String` | Title |
+| 137 | transactionCodes | `String` | Transaction Codes |
+| 138 | transferLimit | `Float` | Transfer Limit |
+| 139 | tuesdayMax | `Float` | Max hours for Tuesday |
+| 140 | tuesdayMin | `Float` | Min hours for Tuesday |
+| 141 | updateDate | `DateTime` | Update Date |
+| 142 | updateUser | `Float` | Update User |
+| 143 | userFilepath | `String` | Store User File path. for Mailmerge |
+| 144 | userGroupAdmin | `String` | User group can be granted by the user group administrator if value is 'Y'. |
+| 145 | userIDCode | `String` | User ID Code |
+| 146 | userPbxId | `Float` | PBX ID - referred as password to access PBX system |
+| 147 | wednesdayMax | `Float` | Max hours for Wednesday |
+| 148 | wednesdayMin | `Float` | Min hours for Wednesday |
+| 149 | weekMax | `Float` | Maximum total hours this employee can work per week |
+| 150 | weekMin | `Float` | Minimum total hours this employee can work per week |
+| 151 | weeklySalary | `Float` | Weekly Salary |
+| 152 | workPermitExpdate | `Date` | Workpermit Expiration date |
+| 153 | workPermitNo | `String` | Working Permit Number |
 
 [⬆ Back to Query](#query)
 
@@ -2775,24 +2775,24 @@
 
 ### ConfigurationResortBucketRedemptionCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| transactionCode | `String` | Transaction Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | property | `String` | Property |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 14 | transactionCode | `String` | Transaction Code |
+| 15 | updateDate | `DateTime` | Update Date |
+| 16 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2800,49 +2800,49 @@
 
 ### ConfigurationResortCompRoutingCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| applyPerDayYN | `String` | Apply Per Day YN |
-| arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
-| arrangementId | `Float` | Arrangement ID |
-| bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoutingAmount | `Float` | Central Routing Amount |
-| centralTransactionCodes | `String` | Central Transaction Codes |
-| code | `String` | Code |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Arrangement Description for the Transaction Code. |
-| eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
-| exportBucketType | `String` | User defined Export Bucket type. |
-| friday | `String` | Friday |
-| inactiveDate | `DateTime` | Inactive Date |
-| inheritRateCodeYN | `String` | Inherit the authorizer rate code onto the reservation. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| monday | `String` | Monday |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
-| routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingPercentage | `Float` | Routing Percentage |
-| saturday | `String` | Saturday |
-| sunday | `String` | Sunday |
-| thursday | `String` | Thursday |
-| transactionCodes | `String` | Transaction Codes |
-| tuesday | `String` | Tuesday |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| wednesday | `String` | Wednesday |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | applyPerDayYN | `String` | Apply Per Day YN |
+| 2 | arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
+| 3 | arrangementId | `Float` | Arrangement ID |
+| 4 | bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | cRoutingAmount | `Float` | Central Routing Amount |
+| 8 | centralTransactionCodes | `String` | Central Transaction Codes |
+| 9 | code | `String` | Code |
+| 10 | compYn | `String` | Comp Y/N |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | description | `String` | Arrangement Description for the Transaction Code. |
+| 14 | eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
+| 15 | exportBucketType | `String` | User defined Export Bucket type. |
+| 16 | friday | `String` | Friday |
+| 17 | inactiveDate | `DateTime` | Inactive Date |
+| 18 | inheritRateCodeYN | `String` | Inherit the authorizer rate code onto the reservation. |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | monday | `String` | Monday |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
+| 30 | routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
+| 31 | routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 32 | routingPercentage | `Float` | Routing Percentage |
+| 33 | saturday | `String` | Saturday |
+| 34 | sunday | `String` | Sunday |
+| 35 | thursday | `String` | Thursday |
+| 36 | transactionCodes | `String` | Transaction Codes |
+| 37 | tuesday | `String` | Tuesday |
+| 38 | type | `String` | Type |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
+| 41 | wednesday | `String` | Wednesday |
 
 [⬆ Back to Query](#query)
 
@@ -2850,130 +2850,130 @@
 
 ### ConfigurationResortCompTransactionCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aRNameId | `Float` | Ar Name ID |
-| accountNumber | `String` | Account Number |
-| accountingCode | `String` | Accounting Code |
-| acctrecvprofileid | `Float` | Acctrecvprofileid |
-| adjTrxCode | `String` | Adj Transaction Code |
-| adjtranscodeid | `String` | Adjtranscodeid |
-| arrangeCode | `String` | Arrange Code |
-| cDefaultPrice | `Float` | Central Default Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cExportBucket | `Float` | Central Export Bucket |
-| cMaxAmount | `Float` | Central Max Amt |
-| cMinimumAmount | `Float` | Central Min Amt |
-| cCCode | `String` | CC Code |
-| cRSTaxDesc | `String` | Crs Tax Description |
-| ccType | `String` | Cc Type |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralGroup | `String` | Central Group |
-| centralSubgroup | `String` | Central Subgroup |
-| checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| code | `String` | Code |
-| commission | `Float` | Commission |
-| compNightsYn | `String` | Comp Nights Y/N |
-| compPaymentsYN | `String` | Comp Payments YN |
-| compYn | `String` | Comp Y/N |
-| corpPropFlag | `String` | Corp Prop Flag |
-| corporateDescription | `String` | Corporate Description |
-| currency | `String` | Currency |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyPlanFolio | `Float` | Daily Plan Folio |
-| dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| defaultPrice | `Float` | Default Price |
-| deferredYn | `String` | Deferred Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| description | `String` | Description |
-| eInvoiceYn | `String` | E Invoice Y/N |
-| expenseFolio | `Float` | Expense Folio |
-| exportBucket | `Float` | Export Bucket |
-| externalPaymentCode | `String` | External Payment Code |
-| fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| frequentFlyerYn | `String` | Frequent Flyer Y/N |
-| generatesInclusiveYN | `String` | Generates Inclusive YN |
-| group | `String` | Group |
-| groupFolio | `Float` | Group Folio |
-| groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| inHouseDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| inHousePayYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| inHouseSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| includeIn8300Yn | `String` | Include In 8300 Y/N |
-| includeInDepositCXLRuleYN | `String` | Include in Deposit/CXL Rule YN |
-| indBilling | `String` | Individual Billing |
-| indCash | `String` | Individual Cash |
-| individualAr | `String` | Ind AR |
-| individualDepositYN | `String` | Ind Deposit Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalYn | `String` | Internal Y/N |
-| isManualPostAllowed | `String` | Is Manual Post Allowed |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| maximumAmount | `Float` | Maximum Amount |
-| minimumAmount | `Float` | Minimum Amount |
-| nonTaxableYn | `String` | Non Taxable Y/N |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| ownerRevenueYN | `String` | Owner Rev Y/N |
-| paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| paymentType | `String` | Payment Type |
-| paymentmethodid | `String` | Paymentmethodid |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| property | `String` | Property |
-| quantityCode | `String` | Quantity Code |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| revenueBucketId | `Float` | Rev Bucket ID |
-| revenueGroupId | `Float` | Rev Gp ID |
-| revenueGroupYN | `String` | Revenue Group YN |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| rotationRevenueYN | `String` | Rotation Rev Y/N |
-| roundingFactorYN | `String` | Rounding Factor YN |
-| serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| subgroup | `String` | Subgroup |
-| taxCode | `Float` | Tax Code |
-| tcBofInterface | `String` | Not Used. |
-| tcBofInterface2 | `String` | Not Used. |
-| tcBofRefCode | `String` | Not Used. |
-| tcBofRefCode2 | `String` | Not Used. |
-| tcResort2 | `String` | Not Used. |
-| tcTransactionType | `String` | Transaction Code Transaction Type |
-| tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| transactionActionId | `Float` | Trx Action ID |
-| transactionCodeResort | `String` | Not Used. |
-| transactionType | `String` | Transaction Type |
-| transcodearrangementid | `String` | Transcodearrangementid |
-| transcodeid | `String` | Transcodeid |
-| transgroupid | `String` | Transgroupid |
-| transsubgroupid | `String` | Transsubgroupid |
-| trxCodeDisplay | `String` | Transaction Code Display |
-| trxCodeType | `String` | Transaction Code Type |
-| trxServiceType | `String` | Transaction Service Type |
-| trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| upcCode | `String` | Upc Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aRNameId | `Float` | Ar Name ID |
+| 2 | accountNumber | `String` | Account Number |
+| 3 | accountingCode | `String` | Accounting Code |
+| 4 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 5 | adjTrxCode | `String` | Adj Transaction Code |
+| 6 | adjtranscodeid | `String` | Adjtranscodeid |
+| 7 | arrangeCode | `String` | Arrange Code |
+| 8 | cDefaultPrice | `Float` | Central Default Price |
+| 9 | cExchangeDate | `Date` | Central Xchange Date |
+| 10 | cExchangeRate | `Float` | Central Xchange Rate |
+| 11 | cExportBucket | `Float` | Central Export Bucket |
+| 12 | cMaxAmount | `Float` | Central Max Amt |
+| 13 | cMinimumAmount | `Float` | Central Min Amt |
+| 14 | cCCode | `String` | CC Code |
+| 15 | cRSTaxDesc | `String` | Crs Tax Description |
+| 16 | ccType | `String` | Cc Type |
+| 17 | centralCode | `String` | Central Code |
+| 18 | centralDescription | `String` | Central Description |
+| 19 | centralGroup | `String` | Central Group |
+| 20 | centralSubgroup | `String` | Central Subgroup |
+| 21 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 22 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 23 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 24 | code | `String` | Code |
+| 25 | commission | `Float` | Commission |
+| 26 | compNightsYn | `String` | Comp Nights Y/N |
+| 27 | compPaymentsYN | `String` | Comp Payments YN |
+| 28 | compYn | `String` | Comp Y/N |
+| 29 | corpPropFlag | `String` | Corp Prop Flag |
+| 30 | corporateDescription | `String` | Corporate Description |
+| 31 | currency | `String` | Currency |
+| 32 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 33 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 34 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 35 | defaultPrice | `Float` | Default Price |
+| 36 | deferredYn | `String` | Deferred Y/N |
+| 37 | deletedFlag | `String` | Deleted Flag |
+| 38 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 39 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 40 | description | `String` | Description |
+| 41 | eInvoiceYn | `String` | E Invoice Y/N |
+| 42 | expenseFolio | `Float` | Expense Folio |
+| 43 | exportBucket | `Float` | Export Bucket |
+| 44 | externalPaymentCode | `String` | External Payment Code |
+| 45 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 46 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 47 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 48 | frequentFlyerYn | `String` | Frequent Flyer Y/N |
+| 49 | generatesInclusiveYN | `String` | Generates Inclusive YN |
+| 50 | group | `String` | Group |
+| 51 | groupFolio | `Float` | Group Folio |
+| 52 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 53 | inHouseDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 54 | inHousePayYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 55 | inHouseSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 56 | inactiveDate | `Date` | Inactive Date |
+| 57 | inactiveflag | `String` | Inactive Flag |
+| 58 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 59 | includeInDepositCXLRuleYN | `String` | Include in Deposit/CXL Rule YN |
+| 60 | indBilling | `String` | Individual Billing |
+| 61 | indCash | `String` | Individual Cash |
+| 62 | individualAr | `String` | Ind AR |
+| 63 | individualDepositYN | `String` | Ind Deposit Y/N |
+| 64 | insertDate | `DateTime` | Insert Date |
+| 65 | insertUser | `Float` | Insert User |
+| 66 | internalDeletedflag | `String` | Deleted Flag |
+| 67 | internalYn | `String` | Internal Y/N |
+| 68 | isManualPostAllowed | `String` | Is Manual Post Allowed |
+| 69 | jRNUpdateDate | `Date` | JRN Update Date |
+| 70 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 71 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 72 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 73 | maximumAmount | `Float` | Maximum Amount |
+| 74 | minimumAmount | `Float` | Minimum Amount |
+| 75 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 76 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 77 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 78 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 79 | paymentType | `String` | Payment Type |
+| 80 | paymentmethodid | `String` | Paymentmethodid |
+| 81 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 82 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 83 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 84 | property | `String` | Property |
+| 85 | quantityCode | `String` | Quantity Code |
+| 86 | repItem | `String` | Reporting Item |
+| 87 | repItemName | `String` | Reporting Item Name |
+| 88 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 89 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 90 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 91 | revenueBucketId | `Float` | Rev Bucket ID |
+| 92 | revenueGroupId | `Float` | Rev Gp ID |
+| 93 | revenueGroupYN | `String` | Revenue Group YN |
+| 94 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 95 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 96 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 97 | roundingFactorYN | `String` | Rounding Factor YN |
+| 98 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 99 | subgroup | `String` | Subgroup |
+| 100 | taxCode | `Float` | Tax Code |
+| 101 | tcBofInterface | `String` | Not Used. |
+| 102 | tcBofInterface2 | `String` | Not Used. |
+| 103 | tcBofRefCode | `String` | Not Used. |
+| 104 | tcBofRefCode2 | `String` | Not Used. |
+| 105 | tcResort2 | `String` | Not Used. |
+| 106 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 107 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 108 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 109 | transactionActionId | `Float` | Trx Action ID |
+| 110 | transactionCodeResort | `String` | Not Used. |
+| 111 | transactionType | `String` | Transaction Type |
+| 112 | transcodearrangementid | `String` | Transcodearrangementid |
+| 113 | transcodeid | `String` | Transcodeid |
+| 114 | transgroupid | `String` | Transgroupid |
+| 115 | transsubgroupid | `String` | Transsubgroupid |
+| 116 | trxCodeDisplay | `String` | Transaction Code Display |
+| 117 | trxCodeType | `String` | Transaction Code Type |
+| 118 | trxServiceType | `String` | Transaction Service Type |
+| 119 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 120 | upcCode | `String` | Upc Code |
+| 121 | updateDate | `DateTime` | Update Date |
+| 122 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2981,22 +2981,22 @@
 
 ### ConfigurationResortTransactionCodeCompExternalReferenceDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| associatedTransactionCode | `String` | Associated Transaction Code |
-| associatedTransactionDescription | `String` | Associated Transaction Description |
-| centralAssociatedTransactionCode | `String` | Central Associated Transaction Code |
-| centralAssociatedTransactionDescription | `String` | Central Associated Transaction Description |
-| compTrxCode | `String` | Comp Transaction Code that the trx_code value will be posted against |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | associatedTransactionCode | `String` | Associated Transaction Code |
+| 2 | associatedTransactionDescription | `String` | Associated Transaction Description |
+| 3 | centralAssociatedTransactionCode | `String` | Central Associated Transaction Code |
+| 4 | centralAssociatedTransactionDescription | `String` | Central Associated Transaction Description |
+| 5 | compTrxCode | `String` | Comp Transaction Code that the trx_code value will be posted against |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | jRNUpdateDate | `Date` | JRN Update Date |
+| 9 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 10 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 11 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 12 | property | `String` | Code to uniquely identify the Property |
+| 13 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 14 | rNAUpdateDate | `DateTime` | RNA Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -3004,61 +3004,61 @@
 
 ### ConfigurationResortCodeGeneratesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adjustmentType | `String` | Adjustment Type |
-| amount | `Float` | Amount |
-| amountFromScheduleYn | `String` | Whether to take the taxes from Price Schedules. |
-| cAmount | `Float` | Central Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| calculationSequence | `Float` | Sequence in which the taxes should be applied. |
-| centralDescription | `String` | Central Description |
-| centralGeneratedCode | `String` | Central Generated Code |
-| currency | `String` | Currency |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| generateRules | `String` | Generate Rules |
-| generatedBy | `String` | Generated By |
-| generatedCode | `String` | Generated Code |
-| generatedPrintedOnFolioYn | `String` | Whether to print on folio. |
-| id | `Float` | ID |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| nameTaxType | `String` | Name Tax Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| percentage | `Float` | Percentage |
-| percentageBaseCode | `Float` | Indicates if the tax is based on a percentage. It would have a value of 0 if based on BASE amount 1 if on S1 2 if based on S2 3 if based on S3. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| roundingMethod | `String` | Rounding method to be used when calculating a generate amount. Allowed values are UP DOWN NONE and NULL. |
-| seqBy | `Float` | Sequence By |
-| stopDays | `Float` | Days after which the generates will not be posted for long standing guests. |
-| subTotal1YN | `String` | Sub-Total 1 YN |
-| subTotal2YN | `String` | Sub-Total 2 YN |
-| subTotal3YN | `String` | Sub-Total 3 YN |
-| tcDsi | `Float` | Transaction Code Dsi |
-| tcGroup | `String` | Transaction Code Group |
-| tcGroupGenerator | `String` | Group generator. |
-| tcOrganizationid | `Float` | Transaction Code Organizationid |
-| tcSubgroup | `String` | Transaction Code Subgroup |
-| tcSubgroupGenerator | `String` | Subgroup generator. |
-| tclCodeGenerator | `String` | Identify if the taxes are generated on the Class. |
-| tcrType | `String` | Flag to indicate the addon tax. |
-| transactionCodeResort | `String` | Not Used. |
-| transactionCodeTrxCode | `String` | Tc Transaction Code |
-| trxCodeGenerator | `String` | Transaction Code Generator |
-| udfFunction | `String` | Udf Function |
-| udfInverse | `String` | Not used currently. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| useTaxBracketYn | `String` | Flag to indicate if tax brackets are used for this tax. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adjustmentType | `String` | Adjustment Type |
+| 2 | amount | `Float` | Amount |
+| 3 | amountFromScheduleYn | `String` | Whether to take the taxes from Price Schedules. |
+| 4 | cAmount | `Float` | Central Amount |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | calculationSequence | `Float` | Sequence in which the taxes should be applied. |
+| 8 | centralDescription | `String` | Central Description |
+| 9 | centralGeneratedCode | `String` | Central Generated Code |
+| 10 | currency | `String` | Currency |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | description | `String` | Description |
+| 14 | generateRules | `String` | Generate Rules |
+| 15 | generatedBy | `String` | Generated By |
+| 16 | generatedCode | `String` | Generated Code |
+| 17 | generatedPrintedOnFolioYn | `String` | Whether to print on folio. |
+| 18 | id | `Float` | ID |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | nameTaxType | `String` | Name Tax Type |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | percentage | `Float` | Percentage |
+| 26 | percentageBaseCode | `Float` | Indicates if the tax is based on a percentage. It would have a value of 0 if based on BASE amount 1 if on S1 2 if based on S2 3 if based on S3. |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Code to uniquely identify the Property |
+| 29 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 30 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 31 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 32 | roundingMethod | `String` | Rounding method to be used when calculating a generate amount. Allowed values are UP DOWN NONE and NULL. |
+| 33 | seqBy | `Float` | Sequence By |
+| 34 | stopDays | `Float` | Days after which the generates will not be posted for long standing guests. |
+| 35 | subTotal1YN | `String` | Sub-Total 1 YN |
+| 36 | subTotal2YN | `String` | Sub-Total 2 YN |
+| 37 | subTotal3YN | `String` | Sub-Total 3 YN |
+| 38 | tcDsi | `Float` | Transaction Code Dsi |
+| 39 | tcGroup | `String` | Transaction Code Group |
+| 40 | tcGroupGenerator | `String` | Group generator. |
+| 41 | tcOrganizationid | `Float` | Transaction Code Organizationid |
+| 42 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 43 | tcSubgroupGenerator | `String` | Subgroup generator. |
+| 44 | tclCodeGenerator | `String` | Identify if the taxes are generated on the Class. |
+| 45 | tcrType | `String` | Flag to indicate the addon tax. |
+| 46 | transactionCodeResort | `String` | Not Used. |
+| 47 | transactionCodeTrxCode | `String` | Tc Transaction Code |
+| 48 | trxCodeGenerator | `String` | Transaction Code Generator |
+| 49 | udfFunction | `String` | Udf Function |
+| 50 | udfInverse | `String` | Not used currently. |
+| 51 | updateDate | `DateTime` | Update Date |
+| 52 | updateUser | `Float` | Update User |
+| 53 | useTaxBracketYn | `String` | Flag to indicate if tax brackets are used for this tax. |
 
 [⬆ Back to Query](#query)
 
@@ -3066,31 +3066,31 @@
 
 ### ConfigurationResortCompTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralCode | `String` | Central Code |
+| 2 | centralDescription | `String` | Central Description |
+| 3 | centralSequence | `Float` | Central Sequence |
+| 4 | code | `String` | Code |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | description | `String` | Description |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | insertUser | `Float` | Insert User |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Property |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | repItem | `String` | Reporting Item |
+| 18 | repItemName | `String` | Reporting Item Name |
+| 19 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 20 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 21 | sequence | `Float` | Sequence |
+| 22 | updateDate | `DateTime` | Update Date |
+| 23 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3098,27 +3098,27 @@
 
 ### ConfigurationResortBarScheduleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| date | `Date` | Date |
-| dayOfWeek | `String` | Day of Week |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lengthOfStay | `Float` | Length of Stay |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 2 | date | `Date` | Date |
+| 3 | dayOfWeek | `String` | Day of Week |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | description | `String` | Description |
+| 6 | inactiveDate | `Date` | Inactive Date |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | lengthOfStay | `Float` | Length of Stay |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Property |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | rateCode | `String` | Rate Code |
+| 18 | updateDate | `DateTime` | Update Date |
+| 19 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3126,30 +3126,30 @@
 
 ### ConfigurationResortCityTaxRangeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| amountFrom | `Float` | Defines the starting value for the amount range. |
-| amountTo | `Float` | Defines the ending value for the amount range. |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| intervalAmount | `Float` | Defines the incremental value for the amounts that qualify for additional tax amounts. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| packageFormulaRangeId | `Float` | Oracle sequence to maintain uniqueness. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| recordType | `String` | Record Type |
-| taxAmount | `Float` | Tax Amount |
-| taxPercentage | `Float` | The Luxury Tax Percentage for the country for which this record belongs to. |
-| taxRangeType | `String` | Stores the Japanese Tax Range Type. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | amountFrom | `Float` | Defines the starting value for the amount range. |
+| 2 | amountTo | `Float` | Defines the ending value for the amount range. |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | insertDate | `DateTime` | Insert Date |
+| 7 | insertUser | `Float` | Insert User |
+| 8 | intervalAmount | `Float` | Defines the incremental value for the amounts that qualify for additional tax amounts. |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | packageFormulaRangeId | `Float` | Oracle sequence to maintain uniqueness. |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Property |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | recordType | `String` | Record Type |
+| 18 | taxAmount | `Float` | Tax Amount |
+| 19 | taxPercentage | `Float` | The Luxury Tax Percentage for the country for which this record belongs to. |
+| 20 | taxRangeType | `String` | Stores the Japanese Tax Range Type. |
+| 21 | updateDate | `DateTime` | Update Date |
+| 22 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3157,37 +3157,37 @@
 
 ### ConfigurationResortPropertyDayTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adder | `Float` | Amount to be added  before showing in rate query |
-| centralDayTypesCode | `String` | Central Day Types Code |
-| centralSequence | `Float` | Central Sequence |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dayTypesCode | `String` | Day Types Code |
-| dayTypesDescription | `String` | Day Type description |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| dtRemarks | `String` | Remarks for the day type |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| multiplier | `Float` | Amount to be multiplied before showing in rate query |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repDtRemarks | `String` | Reporting Dt Remarks |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adder | `Float` | Amount to be added  before showing in rate query |
+| 2 | centralDayTypesCode | `String` | Central Day Types Code |
+| 3 | centralSequence | `Float` | Central Sequence |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | dayTypesCode | `String` | Day Types Code |
+| 6 | dayTypesDescription | `String` | Day Type description |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | dtRemarks | `String` | Remarks for the day type |
+| 11 | inactiveDate | `Date` | Inactive Date |
+| 12 | insertDate | `DateTime` | Insert Date |
+| 13 | insertUser | `Float` | Insert User |
+| 14 | jRNUpdateDate | `Date` | JRN Update Date |
+| 15 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 16 | multiplier | `Float` | Amount to be multiplied before showing in rate query |
+| 17 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 18 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 19 | property | `String` | Property |
+| 20 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 21 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 22 | repDtRemarks | `String` | Reporting Dt Remarks |
+| 23 | repItem | `String` | Reporting Item |
+| 24 | repItemName | `String` | Reporting Item Name |
+| 25 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 26 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 27 | sequence | `Float` | Sequence |
+| 28 | updateDate | `DateTime` | Update Date |
+| 29 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3195,45 +3195,45 @@
 
 ### ConfigurationResortDisplaySetDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3241,36 +3241,36 @@
 
 ### ConfigurationResortPropertyCalendarEventDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activeYN | `String` | Active YN |
-| blackoutYn | `String` | Indicates whether an event is a blackout event or not. |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description of the event |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| oRMSEventYN | `String` | Orms Event Y/N |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| showInOperaYn | `String` | Indicates if the event should be displayed in Opera. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activeYN | `String` | Active YN |
+| 2 | blackoutYn | `String` | Indicates whether an event is a blackout event or not. |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | code | `String` | Code |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedFlag | `String` | Deleted Flag |
+| 9 | description | `String` | Description of the event |
+| 10 | inactiveDate | `DateTime` | Inactive Date |
+| 11 | insertDate | `DateTime` | Insert Date |
+| 12 | insertUser | `Float` | Insert User |
+| 13 | jRNUpdateDate | `Date` | JRN Update Date |
+| 14 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 15 | oRMSEventYN | `String` | Orms Event Y/N |
+| 16 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 17 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 18 | property | `String` | Property |
+| 19 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 20 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 21 | repItem | `String` | Reporting Item |
+| 22 | repItemName | `String` | Reporting Item Name |
+| 23 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 24 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 25 | sequence | `Float` | Sequence |
+| 26 | showInOperaYn | `String` | Indicates if the event should be displayed in Opera. |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3278,51 +3278,51 @@
 
 ### ConfigurationResortRateHurdlesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| actualRoomsSold | `Float` | Actual Rooms Sold |
-| amountOfHurdleRate | `Float` | Amount of Hurdle Rate |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cHurdle | `Float` | Central Hurdle |
-| cORMSPriceRoomDelta | `Float` | Central Orms Price Room Delta |
-| centralRoomClass | `String` | Central Room Class |
-| centralRoomClassDescription | `String` | Central Room Class Description |
-| centralRoomType | `String` | Central Room Type |
-| centralRoomTypeDescription | `String` | Central Room Type Description |
-| centralYieldCategory | `String` | Central Yield Category |
-| centralYieldCategoryDescription | `String` | Central Yield Category Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| delta | `Float` | Delta |
-| hurdleDate | `Date` | Hurdle Date |
-| hurdlerateid | `Float` | Hurdlerateid |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lengthOfStay | `Float` | Length of Stay |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| maxRoomsSold | `Float` | Max Rooms Sold |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| overrideYN | `String` | Override YN |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomCategoryLabel | `String` | Room Category Label |
-| roomClass | `String` | Room Class |
-| roomClassDescription | `String` | Room Class Description |
-| roomType | `String` | Room Type |
-| roomTypeDescription | `String` | Room Type Description |
-| roomcategoryid | `String` | Roomcategoryid |
-| roomsToSellBeforeDeltaIsApplied | `Float` | Rooms to Sell before Delta is Applied |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| yieldCategory | `String` | Yield Category |
-| yieldCategoryDescription | `String` | Yield Category Description |
-| yieldcategoryid | `String` | Yieldcategoryid |
-| yieldmarkettype | `String` | Yieldmarkettype |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | actualRoomsSold | `Float` | Actual Rooms Sold |
+| 2 | amountOfHurdleRate | `Float` | Amount of Hurdle Rate |
+| 3 | cExchangeDate | `Date` | Central Xchange Date |
+| 4 | cExchangeRate | `Float` | Central Xchange Rate |
+| 5 | cHurdle | `Float` | Central Hurdle |
+| 6 | cORMSPriceRoomDelta | `Float` | Central Orms Price Room Delta |
+| 7 | centralRoomClass | `String` | Central Room Class |
+| 8 | centralRoomClassDescription | `String` | Central Room Class Description |
+| 9 | centralRoomType | `String` | Central Room Type |
+| 10 | centralRoomTypeDescription | `String` | Central Room Type Description |
+| 11 | centralYieldCategory | `String` | Central Yield Category |
+| 12 | centralYieldCategoryDescription | `String` | Central Yield Category Description |
+| 13 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 14 | deletedflag | `String` | Deleted Flag |
+| 15 | delta | `Float` | Delta |
+| 16 | hurdleDate | `Date` | Hurdle Date |
+| 17 | hurdlerateid | `Float` | Hurdlerateid |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | lengthOfStay | `Float` | Length of Stay |
+| 23 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 24 | maxRoomsSold | `Float` | Max Rooms Sold |
+| 25 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 26 | overrideYN | `String` | Override YN |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 30 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 31 | roomCategoryLabel | `String` | Room Category Label |
+| 32 | roomClass | `String` | Room Class |
+| 33 | roomClassDescription | `String` | Room Class Description |
+| 34 | roomType | `String` | Room Type |
+| 35 | roomTypeDescription | `String` | Room Type Description |
+| 36 | roomcategoryid | `String` | Roomcategoryid |
+| 37 | roomsToSellBeforeDeltaIsApplied | `Float` | Rooms to Sell before Delta is Applied |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
+| 40 | yieldCategory | `String` | Yield Category |
+| 41 | yieldCategoryDescription | `String` | Yield Category Description |
+| 42 | yieldcategoryid | `String` | Yieldcategoryid |
+| 43 | yieldmarkettype | `String` | Yieldmarkettype |
 
 [⬆ Back to Query](#query)
 
@@ -3330,89 +3330,89 @@
 
 ### ConfigurationResortProductDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addtorateflag | `String` | Addtorateflag |
-| alternateCodes | `String` | Alternate Codes |
-| arrangementCode | `String` | Arrangement Code |
-| beginSellDate | `Date` | Begin Sell Date |
-| bookingDuration | `Float` | Not used |
-| calculationRule | `String` | Calculation Rule |
-| cateringYn | `String` | Catering Y/N |
-| centralAlternateCodes | `String` | Central Alternate Codes |
-| centralPackage | `String` | Central Package |
-| centralPackageGroupCode | `String` | Central Package Group Code |
-| centralPackageGroupDescription | `String` | Central Package Group Description |
-| centralPackageLoss | `String` | Central Package Loss |
-| centralPackageOverage | `String` | Central Package Overage |
-| centralPackageProfit | `String` | Central Package Profit |
-| centralTransactionCode | `String` | Central Transaction Code |
-| currency | `String` | Currency |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| deliveryTimeReqrdYn | `String` | Indicates if a Delivery Time is required. |
-| description | `String` | Description |
-| endSellDate | `Date` | End Sell Date |
-| externalLocked | `String` | External Locked |
-| flexibleDurationYn | `String` | Not used |
-| forecastGroup | `String` | Package forcast group code |
-| forecastGroupCode | `String` | Not used |
-| forecastNextDayYN | `String` | Forecast Next Day YN |
-| foreignCurrencyID | `String` | Foreign Currency ID |
-| formula | `String` | Formula |
-| genPlAtEodOfCoDate | `String` | Gen Pl At Eod of Co Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| inventoriedflag | `String` | Inventoriedflag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| longInfo | `String` | Long Info |
-| maxPersons | `String` | Maximum number of persons |
-| minimumAdvBookDays | `Float` | Minimum Advance Booking Days required for the product. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| outletCode | `String` | Outlet Code |
-| overrideFixedRateYn | `String` | Override Fixed Rate Y/N |
-| package | `String` | Package |
-| packageAllowanceYN | `String` | Package Allowance YN |
-| packageDescription | `String` | Package Description |
-| packageGroupCode | `String` | Package Group Code |
-| packageGroupDescription | `String` | Package Group Description |
-| packageLoss | `String` | Package Loss |
-| packageOverage | `String` | Package Overage |
-| packageOverageTaxInclusiveYN | `String` | Package Overage Tax Inclusive YN |
-| packageProfit | `String` | Package Profit |
-| pkgforecastgrpid | `String` | Pkgforecastgrpid |
-| postNextDayYN | `String` | Post Next Day YN |
-| postingRhythm | `String` | Posting Rhythm |
-| postingType | `String` | Type of package (group element) |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printseparateflag | `String` | Printseparateflag |
-| productid | `String` | Productid |
-| property | `String` | Property |
-| redemptionproductflag | `String` | Redemptionproductflag |
-| repDescription | `String` | Rep Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repTrxCodeDesc | `String` | Rep Trx Code Desc |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sellSeparateYN | `String` | Sell Separate YN |
-| sellowsflag | `String` | Sellowsflag |
-| shortDescription | `String` | Short Description |
-| standardDuration | `Float` | Not used |
-| standardPersons | `String` | Not used |
-| taxInclusiveYN | `String` | Tax included Y/N |
-| ticketsYn | `String` | Indicates a Reservation Ticket Package. |
-| transactionCode | `String` | Transaction Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| validEndTime | `Date` | Valid End Time |
-| validStartTime | `Date` | Valid Start Time |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addtorateflag | `String` | Addtorateflag |
+| 2 | alternateCodes | `String` | Alternate Codes |
+| 3 | arrangementCode | `String` | Arrangement Code |
+| 4 | beginSellDate | `Date` | Begin Sell Date |
+| 5 | bookingDuration | `Float` | Not used |
+| 6 | calculationRule | `String` | Calculation Rule |
+| 7 | cateringYn | `String` | Catering Y/N |
+| 8 | centralAlternateCodes | `String` | Central Alternate Codes |
+| 9 | centralPackage | `String` | Central Package |
+| 10 | centralPackageGroupCode | `String` | Central Package Group Code |
+| 11 | centralPackageGroupDescription | `String` | Central Package Group Description |
+| 12 | centralPackageLoss | `String` | Central Package Loss |
+| 13 | centralPackageOverage | `String` | Central Package Overage |
+| 14 | centralPackageProfit | `String` | Central Package Profit |
+| 15 | centralTransactionCode | `String` | Central Transaction Code |
+| 16 | currency | `String` | Currency |
+| 17 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 18 | deletedFlag | `String` | Deleted Flag |
+| 19 | deliveryTimeReqrdYn | `String` | Indicates if a Delivery Time is required. |
+| 20 | description | `String` | Description |
+| 21 | endSellDate | `Date` | End Sell Date |
+| 22 | externalLocked | `String` | External Locked |
+| 23 | flexibleDurationYn | `String` | Not used |
+| 24 | forecastGroup | `String` | Package forcast group code |
+| 25 | forecastGroupCode | `String` | Not used |
+| 26 | forecastNextDayYN | `String` | Forecast Next Day YN |
+| 27 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 28 | formula | `String` | Formula |
+| 29 | genPlAtEodOfCoDate | `String` | Gen Pl At Eod of Co Date |
+| 30 | inactiveflag | `String` | Inactive Flag |
+| 31 | insertDate | `DateTime` | Insert Date |
+| 32 | insertUser | `Float` | Insert User |
+| 33 | internalDeletedflag | `String` | Deleted Flag |
+| 34 | inventoriedflag | `String` | Inventoriedflag |
+| 35 | jRNUpdateDate | `Date` | JRN Update Date |
+| 36 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 37 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 38 | longInfo | `String` | Long Info |
+| 39 | maxPersons | `String` | Maximum number of persons |
+| 40 | minimumAdvBookDays | `Float` | Minimum Advance Booking Days required for the product. |
+| 41 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 42 | outletCode | `String` | Outlet Code |
+| 43 | overrideFixedRateYn | `String` | Override Fixed Rate Y/N |
+| 44 | package | `String` | Package |
+| 45 | packageAllowanceYN | `String` | Package Allowance YN |
+| 46 | packageDescription | `String` | Package Description |
+| 47 | packageGroupCode | `String` | Package Group Code |
+| 48 | packageGroupDescription | `String` | Package Group Description |
+| 49 | packageLoss | `String` | Package Loss |
+| 50 | packageOverage | `String` | Package Overage |
+| 51 | packageOverageTaxInclusiveYN | `String` | Package Overage Tax Inclusive YN |
+| 52 | packageProfit | `String` | Package Profit |
+| 53 | pkgforecastgrpid | `String` | Pkgforecastgrpid |
+| 54 | postNextDayYN | `String` | Post Next Day YN |
+| 55 | postingRhythm | `String` | Posting Rhythm |
+| 56 | postingType | `String` | Type of package (group element) |
+| 57 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 58 | printseparateflag | `String` | Printseparateflag |
+| 59 | productid | `String` | Productid |
+| 60 | property | `String` | Property |
+| 61 | redemptionproductflag | `String` | Redemptionproductflag |
+| 62 | repDescription | `String` | Rep Description |
+| 63 | repItem | `String` | Reporting Item |
+| 64 | repItemName | `String` | Reporting Item Name |
+| 65 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 66 | repTrxCodeDesc | `String` | Rep Trx Code Desc |
+| 67 | repUpdateDate | `Date` | Reporting Updatedate |
+| 68 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 69 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 70 | sellSeparateYN | `String` | Sell Separate YN |
+| 71 | sellowsflag | `String` | Sellowsflag |
+| 72 | shortDescription | `String` | Short Description |
+| 73 | standardDuration | `Float` | Not used |
+| 74 | standardPersons | `String` | Not used |
+| 75 | taxInclusiveYN | `String` | Tax included Y/N |
+| 76 | ticketsYn | `String` | Indicates a Reservation Ticket Package. |
+| 77 | transactionCode | `String` | Transaction Code |
+| 78 | updateDate | `DateTime` | Update Date |
+| 79 | updateUser | `Float` | Update User |
+| 80 | validEndTime | `Date` | Valid End Time |
+| 81 | validStartTime | `Date` | Valid Start Time |
 
 [⬆ Back to Query](#query)
 
@@ -3420,27 +3420,27 @@
 
 ### ConfigurationResortItemPackageDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| item | `String` | Item of configuration data. |
-| itemId | `Float` | Item ID |
-| itemProdId | `Float` | Unqiue ID from ITEM_PACKAGES_SEQNO |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| product | `String` | Product |
-| property | `String` | Code to uniquely identify the Property |
-| qunatity | `Float` | Qunatity |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 2 | deletedFlag | `String` | Deleted Flag |
+| 3 | description | `String` | Description |
+| 4 | insertDate | `DateTime` | Insert Date |
+| 5 | insertUser | `Float` | Insert User |
+| 6 | item | `String` | Item of configuration data. |
+| 7 | itemId | `Float` | Item ID |
+| 8 | itemProdId | `Float` | Unqiue ID from ITEM_PACKAGES_SEQNO |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | product | `String` | Product |
+| 14 | property | `String` | Code to uniquely identify the Property |
+| 15 | qunatity | `Float` | Qunatity |
+| 16 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 17 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 18 | updateDate | `DateTime` | Update Date |
+| 19 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3448,54 +3448,54 @@
 
 ### ConfigurationResortRateProductPriceDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowanceAmount | `Float` | Allowance for the product. |
-| bucket2AllowanceAmount | `Float` | Allowance for the product for children in age bucket2. |
-| bucket2Price | `Float` | Product price for children in age bucket2. |
-| bucket3AllowanceAmount | `Float` | Allowance for the product for children in age bucket3. |
-| bucket3Price | `Float` | Product price for children in age bucket3. |
-| cAllowanceAmount | `Float` | Central Allowance Amount |
-| cBucket2AllowanceAmount | `Float` | Central Bucket2 Allowance Amount |
-| cBucket2Price | `Float` | Central Bucket2 Price |
-| cBucket3AllowanceAmount | `Float` | Central Bucket3 Allowance Amount |
-| cBucket3Price | `Float` | Central Bucket3 Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cPrice | `Float` | Central Price |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| day1 | `String` | Day1 |
-| day2 | `String` | Day2 |
-| day3 | `String` | Day3 |
-| day4 | `String` | Day4 |
-| day5 | `String` | Day5 |
-| day6 | `String` | Day6 |
-| day7 | `String` | Day7 |
-| deletedFlag | `String` | Deleted Flag |
-| endDate | `Date` | End Date |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| maximumGuests | `Float` | Maximum number of persons |
-| maximumNights | `Float` | Maximum Nights. |
-| minimumGuests | `Float` | Minimum number of persons for the rate product price. |
-| minimumNights | `Float` | Minimum number of stay nights for the rate product price. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pointsRequired | `Float` | Points Required |
-| price | `Float` | Price |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| product | `String` | Product |
-| property | `String` | Property |
-| propertyRateProductDetailId | `Float` | Internal id |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| seasonCode | `String` | Season Code |
-| startDate | `Date` | Start Date |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowanceAmount | `Float` | Allowance for the product. |
+| 2 | bucket2AllowanceAmount | `Float` | Allowance for the product for children in age bucket2. |
+| 3 | bucket2Price | `Float` | Product price for children in age bucket2. |
+| 4 | bucket3AllowanceAmount | `Float` | Allowance for the product for children in age bucket3. |
+| 5 | bucket3Price | `Float` | Product price for children in age bucket3. |
+| 6 | cAllowanceAmount | `Float` | Central Allowance Amount |
+| 7 | cBucket2AllowanceAmount | `Float` | Central Bucket2 Allowance Amount |
+| 8 | cBucket2Price | `Float` | Central Bucket2 Price |
+| 9 | cBucket3AllowanceAmount | `Float` | Central Bucket3 Allowance Amount |
+| 10 | cBucket3Price | `Float` | Central Bucket3 Price |
+| 11 | cExchangeDate | `Date` | Central Xchange Date |
+| 12 | cExchangeRate | `Float` | Central Xchange Rate |
+| 13 | cPrice | `Float` | Central Price |
+| 14 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 15 | day1 | `String` | Day1 |
+| 16 | day2 | `String` | Day2 |
+| 17 | day3 | `String` | Day3 |
+| 18 | day4 | `String` | Day4 |
+| 19 | day5 | `String` | Day5 |
+| 20 | day6 | `String` | Day6 |
+| 21 | day7 | `String` | Day7 |
+| 22 | deletedFlag | `String` | Deleted Flag |
+| 23 | endDate | `Date` | End Date |
+| 24 | inactiveDate | `Date` | Inactive Date |
+| 25 | insertDate | `DateTime` | Insert Date |
+| 26 | insertUser | `Float` | Insert User |
+| 27 | jRNUpdateDate | `Date` | JRN Update Date |
+| 28 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 29 | maximumGuests | `Float` | Maximum number of persons |
+| 30 | maximumNights | `Float` | Maximum Nights. |
+| 31 | minimumGuests | `Float` | Minimum number of persons for the rate product price. |
+| 32 | minimumNights | `Float` | Minimum number of stay nights for the rate product price. |
+| 33 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 34 | pointsRequired | `Float` | Points Required |
+| 35 | price | `Float` | Price |
+| 36 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 37 | product | `String` | Product |
+| 38 | property | `String` | Property |
+| 39 | propertyRateProductDetailId | `Float` | Internal id |
+| 40 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 41 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 42 | rateCode | `String` | Rate Code |
+| 43 | seasonCode | `String` | Season Code |
+| 44 | startDate | `Date` | Start Date |
+| 45 | updateDate | `DateTime` | Update Date |
+| 46 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3503,30 +3503,30 @@
 
 ### ConfigurationResortPackageForecastGroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activeYN | `String` | Active YN |
-| code | `String` | Package forcast group code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activeYN | `String` | Active YN |
+| 2 | code | `String` | Package forcast group code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | description | `String` | Description |
+| 6 | inactiveDate | `DateTime` | Inactive Date |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Property |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | repItem | `String` | Reporting Item |
+| 17 | repItemName | `String` | Reporting Item Name |
+| 18 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 19 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 20 | sequence | `Float` | Sequence |
+| 21 | updateDate | `DateTime` | Update Date |
+| 22 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3534,62 +3534,62 @@
 
 ### ConfigurationResortPromotionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| authorizerId | `Float` | Authorizer ID |
-| bookingEndDate | `Date` | Last Date Bookings can be made using the promotion. |
-| bookingStartDate | `Date` | First Date Bookings can be made using the promotion. |
-| category | `String` | Category |
-| centralDescription | `String` | Promotion Name. |
-| chainCode | `String` | Chain Code |
-| checkInTime | `Date` | CheckIn Time for Promotion. |
-| checkOutTime | `Date` | Check Out Time for Promotion. |
-| code | `String` | Code |
-| couponExChars | `String` | Exclude Characters while generating custom coupons. |
-| couponGenFormat | `String` | Format for Custom based Random Generation option. 9 :Numbers U  :  upper case alpha characters only X  :  any alpha-numeric characters (upper). |
-| couponGenOption | `String` | Generation option. N :Numbers U  :  upper case alpha characters only X  :  any alpha-numeric characters (upper) C  :  Custom Format. |
-| couponLength | `Float` | Length of coupon code. |
-| couponPrefix | `String` | Any Prefix to be appended to custom coupons. |
-| couponSuffix | `String` | Any Suffix to be appended to custom coupons. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| group | `String` | Group |
-| idRequiredDescription | `String` | Description of id requirements. |
-| idRequiredYN | `String` | Indicates if an id is required for the promotion. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| information | `String` | Information for the promotion. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| instructions | `String` | Promotion Instructions for the property. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| limitedTimePromotionYn | `String` | Indicate if promotion is limited time use. |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| lockedByCode | `String` | Code of the system that is managing this record: local system application name or external system database id |
-| lockedByType | `String` | Type of the system that is managing this record: L for local and E for external system. |
-| longDescription | `String` | Description of Promotion. |
-| mktgprogramid | `String` | Mktgprogramid |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| promoSequenceId | `Float` | Promo Seq ID |
-| promotionid | `String` | Promotionid |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| reportingPromoSequenceId | `String` | Rep Promo Seq ID |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| setOrAccountFlag | `String` | Indicates if set(S) or account (a) is required for booking. |
-| stayEndDate | `Date` | End Date a guest can stay for the promotion. |
-| stayStartDate | `Date` | First Date a guest can stay for the promotion. |
-| updateDate | `DateTime` | Update Date |
-| updateOutsideBookingDatesYN | `String` | Indicates if reservations with this promotion can be updated outside the promotion booking dates. |
-| updateUser | `Float` | Update User |
-| upgradeAllowedYN | `String` | Indicates if upgrades are allowed for the promotion. |
-| voucherBenefitCode | `String` | Voucher Benefit Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | authorizerId | `Float` | Authorizer ID |
+| 2 | bookingEndDate | `Date` | Last Date Bookings can be made using the promotion. |
+| 3 | bookingStartDate | `Date` | First Date Bookings can be made using the promotion. |
+| 4 | category | `String` | Category |
+| 5 | centralDescription | `String` | Promotion Name. |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | checkInTime | `Date` | CheckIn Time for Promotion. |
+| 8 | checkOutTime | `Date` | Check Out Time for Promotion. |
+| 9 | code | `String` | Code |
+| 10 | couponExChars | `String` | Exclude Characters while generating custom coupons. |
+| 11 | couponGenFormat | `String` | Format for Custom based Random Generation option. 9 :Numbers U  :  upper case alpha characters only X  :  any alpha-numeric characters (upper). |
+| 12 | couponGenOption | `String` | Generation option. N :Numbers U  :  upper case alpha characters only X  :  any alpha-numeric characters (upper) C  :  Custom Format. |
+| 13 | couponLength | `Float` | Length of coupon code. |
+| 14 | couponPrefix | `String` | Any Prefix to be appended to custom coupons. |
+| 15 | couponSuffix | `String` | Any Suffix to be appended to custom coupons. |
+| 16 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 17 | deletedflag | `String` | Deleted Flag |
+| 18 | description | `String` | Description |
+| 19 | group | `String` | Group |
+| 20 | idRequiredDescription | `String` | Description of id requirements. |
+| 21 | idRequiredYN | `String` | Indicates if an id is required for the promotion. |
+| 22 | inactiveDate | `Date` | Inactive Date |
+| 23 | inactiveflag | `String` | Inactive Flag |
+| 24 | information | `String` | Information for the promotion. |
+| 25 | insertDate | `DateTime` | Insert Date |
+| 26 | insertUser | `Float` | Insert User |
+| 27 | instructions | `String` | Promotion Instructions for the property. |
+| 28 | jRNUpdateDate | `Date` | JRN Update Date |
+| 29 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 30 | limitedTimePromotionYn | `String` | Indicate if promotion is limited time use. |
+| 31 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 32 | lockedByCode | `String` | Code of the system that is managing this record: local system application name or external system database id |
+| 33 | lockedByType | `String` | Type of the system that is managing this record: L for local and E for external system. |
+| 34 | longDescription | `String` | Description of Promotion. |
+| 35 | mktgprogramid | `String` | Mktgprogramid |
+| 36 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 37 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 38 | promoSequenceId | `Float` | Promo Seq ID |
+| 39 | promotionid | `String` | Promotionid |
+| 40 | property | `String` | Property |
+| 41 | repItem | `String` | Reporting Item |
+| 42 | repItemName | `String` | Reporting Item Name |
+| 43 | repUpdateDate | `Date` | Reporting Updatedate |
+| 44 | reportingPromoSequenceId | `String` | Rep Promo Seq ID |
+| 45 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 46 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 47 | setOrAccountFlag | `String` | Indicates if set(S) or account (a) is required for booking. |
+| 48 | stayEndDate | `Date` | End Date a guest can stay for the promotion. |
+| 49 | stayStartDate | `Date` | First Date a guest can stay for the promotion. |
+| 50 | updateDate | `DateTime` | Update Date |
+| 51 | updateOutsideBookingDatesYN | `String` | Indicates if reservations with this promotion can be updated outside the promotion booking dates. |
+| 52 | updateUser | `Float` | Update User |
+| 53 | upgradeAllowedYN | `String` | Indicates if upgrades are allowed for the promotion. |
+| 54 | voucherBenefitCode | `String` | Voucher Benefit Code |
 
 [⬆ Back to Query](#query)
 
@@ -3597,21 +3597,21 @@
 
 ### ConfigurationResortPromotionRateDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | How  the Rate Plan applies to the promotion such as Booking awardmiles |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| promoCode | `String` | Promo Code |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | code | `String` | Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | description | `String` | How  the Rate Plan applies to the promotion such as Booking awardmiles |
+| 6 | jRNUpdateDate | `Date` | JRN Update Date |
+| 7 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 8 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 9 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 10 | promoCode | `String` | Promo Code |
+| 11 | property | `String` | Property |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -3619,38 +3619,38 @@
 
 ### ConfigurationResortPromotionCodeRoutingInstructionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| authorizerId | `Float` | Authorizer ID |
-| authorizerName | `String` | Authorizer Name |
-| autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
-| beginDate | `Date` | Begin Date |
-| centralTransactionCodes | `String` | Central  Transaction Codes |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| compPreApprovalRequiredYn | `String` | Comp Pre Approval Required Y/N |
-| covers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| creditLimit | `Float` | Credit Limit |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyYn | `String` | Daily Y/N |
-| deletedFlag | `String` | Deleted Flag |
-| endDate | `Date` | End Date |
-| folioView | `Float` | Folio View |
-| friday | `String` | Friday |
-| membershipId | `Float` | Membership ID |
-| monday | `String` | Monday |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| percentage | `Float` | Percentage |
-| promoCode | `String` | Promo Code |
-| promptForAuthorizerYn | `String` | Indicates if the user should be prompted for an Authorizer. |
-| property | `String` | Property |
-| routingCodes | `String` | Reservation routing code. |
-| saturday | `String` | Saturday |
-| sunday | `String` | Sunday |
-| thursday | `String` | Thursday |
-| transactionCodes | `String` | Transaction Codes |
-| tuesday | `String` | Tuesday |
-| wednesday | `String` | Wednesday |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | authorizerId | `Float` | Authorizer ID |
+| 2 | authorizerName | `String` | Authorizer Name |
+| 3 | autoPopulateRoutingYn | `String` | Activates auto population of routing instructions. |
+| 4 | beginDate | `Date` | Begin Date |
+| 5 | centralTransactionCodes | `String` | Central  Transaction Codes |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | comments | `String` | Comments |
+| 8 | compPreApprovalRequiredYn | `String` | Comp Pre Approval Required Y/N |
+| 9 | covers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 10 | creditLimit | `Float` | Credit Limit |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | dailyYn | `String` | Daily Y/N |
+| 13 | deletedFlag | `String` | Deleted Flag |
+| 14 | endDate | `Date` | End Date |
+| 15 | folioView | `Float` | Folio View |
+| 16 | friday | `String` | Friday |
+| 17 | membershipId | `Float` | Membership ID |
+| 18 | monday | `String` | Monday |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | percentage | `Float` | Percentage |
+| 21 | promoCode | `String` | Promo Code |
+| 22 | promptForAuthorizerYn | `String` | Indicates if the user should be prompted for an Authorizer. |
+| 23 | property | `String` | Property |
+| 24 | routingCodes | `String` | Reservation routing code. |
+| 25 | saturday | `String` | Saturday |
+| 26 | sunday | `String` | Sunday |
+| 27 | thursday | `String` | Thursday |
+| 28 | transactionCodes | `String` | Transaction Codes |
+| 29 | tuesday | `String` | Tuesday |
+| 30 | wednesday | `String` | Wednesday |
 
 [⬆ Back to Query](#query)
 
@@ -3658,45 +3658,45 @@
 
 ### ConfigurationResortRateCategoriesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessDate | `Date` | Business Date |
-| centralDescription | `String` | Central Description |
-| centralRateCategory | `String` | Central Rate Category |
-| centralRateClass | `String` | Central Rate Class |
-| centralRateClassDescription | `String` | Central Rate Class Description |
-| centralSequence | `Float` | Central Sequence |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| displayDefaultYn | `String` | Display the rate category Y/N |
-| displaySet | `String` | Display Set |
-| endDate | `Date` | End Date |
-| exportBucketCode | `String` | Export Bucket Code |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rateCategory | `String` | Rate Category |
-| rateCategoryDescription | `String` | Rate Category Description |
-| rateClass | `String` | Rate Class |
-| rateClassDescription | `String` | Rate Class Description |
-| rateTier | `String` | Rate Tier |
-| ratecategoryid | `String` | Ratecategoryid |
-| ratetierid | `String` | Ratetierid |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessDate | `Date` | Business Date |
+| 2 | centralDescription | `String` | Central Description |
+| 3 | centralRateCategory | `String` | Central Rate Category |
+| 4 | centralRateClass | `String` | Central Rate Class |
+| 5 | centralRateClassDescription | `String` | Central Rate Class Description |
+| 6 | centralSequence | `Float` | Central Sequence |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedflag | `String` | Deleted Flag |
+| 9 | displayDefaultYn | `String` | Display the rate category Y/N |
+| 10 | displaySet | `String` | Display Set |
+| 11 | endDate | `Date` | End Date |
+| 12 | exportBucketCode | `String` | Export Bucket Code |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | property | `String` | Property |
+| 22 | rateCategory | `String` | Rate Category |
+| 23 | rateCategoryDescription | `String` | Rate Category Description |
+| 24 | rateClass | `String` | Rate Class |
+| 25 | rateClassDescription | `String` | Rate Class Description |
+| 26 | rateTier | `String` | Rate Tier |
+| 27 | ratecategoryid | `String` | Ratecategoryid |
+| 28 | ratetierid | `String` | Ratetierid |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 33 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 34 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 35 | sequence | `Float` | Sequence |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3704,47 +3704,47 @@
 
 ### ConfigurationResortArticleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activeYN | `String` | Active YN |
-| articleCode | `String` | Article Code |
-| articleDescription | `String` | Article Description |
-| articleId | `Float` | Article ID |
-| availableInPostItYN | `String` | Available in Post It YN |
-| cDefaultPrice | `Float` | Central Default Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| centralArticleCode | `String` | Central Article Code |
-| centralArticleDescription | `String` | Central Article Description |
-| centralSequence | `Float` | Central Sequence |
-| centralTransactionCode | `String` | Central Transaction Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultPrice | `Float` | Default Price |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | The button colour used in the Postit screen for this article. |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalArticleid | `Float` | Articleid |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| transactionCode | `String` | Transaction Code |
-| transcodeid | `String` | Transcodeid |
-| uPC | `String` | UPC |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activeYN | `String` | Active YN |
+| 2 | articleCode | `String` | Article Code |
+| 3 | articleDescription | `String` | Article Description |
+| 4 | articleId | `Float` | Article ID |
+| 5 | availableInPostItYN | `String` | Available in Post It YN |
+| 6 | cDefaultPrice | `Float` | Central Default Price |
+| 7 | cExchangeDate | `Date` | Central Xchange Date |
+| 8 | cExchangeRate | `Float` | Central Xchange Rate |
+| 9 | centralArticleCode | `String` | Central Article Code |
+| 10 | centralArticleDescription | `String` | Central Article Description |
+| 11 | centralSequence | `Float` | Central Sequence |
+| 12 | centralTransactionCode | `String` | Central Transaction Code |
+| 13 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 14 | defaultPrice | `Float` | Default Price |
+| 15 | deletedflag | `String` | Deleted Flag |
+| 16 | description | `String` | Description |
+| 17 | displayColor | `String` | The button colour used in the Postit screen for this article. |
+| 18 | inactiveDate | `DateTime` | Inactive Date |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | internalArticleid | `Float` | Articleid |
+| 22 | jRNUpdateDate | `Date` | JRN Update Date |
+| 23 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 24 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 25 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 26 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 27 | property | `String` | Property |
+| 28 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 29 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | transactionCode | `String` | Transaction Code |
+| 36 | transcodeid | `String` | Transcodeid |
+| 37 | uPC | `String` | UPC |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3752,30 +3752,30 @@
 
 ### ConfigurationResortCreditCardTypesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| canDeleteYn | `String` | Can Delete Y/N |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | canDeleteYn | `String` | Can Delete Y/N |
+| 2 | code | `String` | Code |
+| 3 | comments | `String` | Comments |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | description | `String` | Description |
+| 7 | displayColor | `String` | Display Color |
+| 8 | entityName | `String` | Entity Name |
+| 9 | inactiveDate | `DateTime` | Inactive Date |
+| 10 | insertDate | `DateTime` | Insert Date |
+| 11 | insertUser | `Float` | Insert User |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | languageCode | `String` | Language Code |
+| 15 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 16 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 17 | property | `String` | Property |
+| 18 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 19 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 20 | sequence | `Float` | Sequence |
+| 21 | updateDate | `DateTime` | Update Date |
+| 22 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3783,75 +3783,75 @@
 
 ### ConfigurationResortPaymentMethodDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addressVerificationYn | `String` | Determines if this payment type captures the credit card billing address information during payment. |
-| authAtCheckinYn | `String` | Authorization has to be done during check in. |
-| authDuringStayYn | `String` | Authorization is done during stay. |
-| authReversalYn | `String` | Authorization reversal  has to be done. |
-| authStlmtAtCheckOutYn | `String` | Indicates if this payment method supports credit card interface functionality of sending a combined message for Auth & Settlement. |
-| autopayAtCheckinYn | `String` | Determines if this payment type can be used in Auto Advance Bill and Payment process after Check-In if this value equals 'Y'. |
-| bonusCheckType | `String` | The type of bonus check. |
-| calcPoints | `String` | Indicates if points have to be calculated. [A]lways [P]rompt to check. NULL = No points will be calculated. |
-| cardNumberLength | `String` | Comma separated credit card number lengths. |
-| cardPrefix | `String` | Card Prefix |
-| cashSurchargeYn | `String` | Indicates that the payment method selected is subject to an additional surcharge. The surcharge amount / percentage is based on range of amount. The functionality is introduced for Algeria and is only applicable for Cash. |
-| ccTrxFeePct | `Float` | Fee (surcharge) percentage amount for a credit card transaction. |
-| ccTrxFeeThreshold | `Float` | Fee (surcharge) threshold that will indicate the minimum credit card transaction amount for which the fee applies. |
-| centralPaymentMethod | `String` | Central Payment Method |
-| centralPaymentMethodDescription | `String` | Central Payment Method Description |
-| centralSequence | `Float` | Central Sequence |
-| chipPinYn | `String` | Indicates if the payment type can be used with the chip and pin card functionality. |
-| code | `String` | Code |
-| creditCardType | `String` | Abbreviates the card_type and is used exclusively for the interface. |
-| creditLimit | `Float` | Credit Limit |
-| currencyCode | `String` | Currency Code |
-| cvv2CheckYn | `String` | Determines if this payment type captures the Credit Card Security Code (CVV2) during payment. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| expirationRule | `String` | Expiration Rule |
-| extraPerc | `Float` | Extra Percentage. |
-| formatMask | `String` | Format Mask |
-| formula | `String` | Formula |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| issueNumber | `Float` | Issue Number |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationId | `String` | Location ID |
-| merchantNumber | `String` | The merchant # to use when settling / transmitting credit card information. |
-| numberDigits | `Float` | The number of digits to allow for this type of credit card. |
-| numberPostYN | `String` | Indicates the code is used for post charging. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| paymentMethod | `String` | Payment Method |
-| paymentMethodDescription | `String` | Payment Method Description |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printAuthReceiptYn | `String` | Indicates if an Authorization Receipt needs to be printed. |
-| promptAtCheckinYn | `String` | Prompt user to go to cashiering after Check-In if this value equals 'Y'. |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| reservationYN | `String` | Indicates if the card type can be used as a payment method for a reservation. |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| startDate | `Float` | Start Date |
-| tempFlag | `Float` | Temp Flag |
-| transactionCode | `String` | Transaction Code |
-| trxUsage1 | `String` | Transaction Code for Card Usage 1 for ex. Credit Card |
-| trxUsage2 | `String` | Transaction Code for Card Usage 2 for ex. Debit Card |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| validationRule | `String` | Validation Rule |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addressVerificationYn | `String` | Determines if this payment type captures the credit card billing address information during payment. |
+| 2 | authAtCheckinYn | `String` | Authorization has to be done during check in. |
+| 3 | authDuringStayYn | `String` | Authorization is done during stay. |
+| 4 | authReversalYn | `String` | Authorization reversal  has to be done. |
+| 5 | authStlmtAtCheckOutYn | `String` | Indicates if this payment method supports credit card interface functionality of sending a combined message for Auth & Settlement. |
+| 6 | autopayAtCheckinYn | `String` | Determines if this payment type can be used in Auto Advance Bill and Payment process after Check-In if this value equals 'Y'. |
+| 7 | bonusCheckType | `String` | The type of bonus check. |
+| 8 | calcPoints | `String` | Indicates if points have to be calculated. [A]lways [P]rompt to check. NULL = No points will be calculated. |
+| 9 | cardNumberLength | `String` | Comma separated credit card number lengths. |
+| 10 | cardPrefix | `String` | Card Prefix |
+| 11 | cashSurchargeYn | `String` | Indicates that the payment method selected is subject to an additional surcharge. The surcharge amount / percentage is based on range of amount. The functionality is introduced for Algeria and is only applicable for Cash. |
+| 12 | ccTrxFeePct | `Float` | Fee (surcharge) percentage amount for a credit card transaction. |
+| 13 | ccTrxFeeThreshold | `Float` | Fee (surcharge) threshold that will indicate the minimum credit card transaction amount for which the fee applies. |
+| 14 | centralPaymentMethod | `String` | Central Payment Method |
+| 15 | centralPaymentMethodDescription | `String` | Central Payment Method Description |
+| 16 | centralSequence | `Float` | Central Sequence |
+| 17 | chipPinYn | `String` | Indicates if the payment type can be used with the chip and pin card functionality. |
+| 18 | code | `String` | Code |
+| 19 | creditCardType | `String` | Abbreviates the card_type and is used exclusively for the interface. |
+| 20 | creditLimit | `Float` | Credit Limit |
+| 21 | currencyCode | `String` | Currency Code |
+| 22 | cvv2CheckYn | `String` | Determines if this payment type captures the Credit Card Security Code (CVV2) during payment. |
+| 23 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 24 | deletedFlag | `String` | Deleted Flag |
+| 25 | description | `String` | Description |
+| 26 | expirationRule | `String` | Expiration Rule |
+| 27 | extraPerc | `Float` | Extra Percentage. |
+| 28 | formatMask | `String` | Format Mask |
+| 29 | formula | `String` | Formula |
+| 30 | inactiveDate | `Date` | Inactive Date |
+| 31 | inactiveFlag | `String` | Inactive Flag |
+| 32 | insertDate | `DateTime` | Insert Date |
+| 33 | insertUser | `Float` | Insert User |
+| 34 | internalDeletedflag | `String` | Deleted Flag |
+| 35 | internalInactiveflag | `String` | Inactive Flag |
+| 36 | internalOrganizationId | `Float` | Organization ID |
+| 37 | issueNumber | `Float` | Issue Number |
+| 38 | jRNUpdateDate | `Date` | JRN Update Date |
+| 39 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 40 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 41 | locationId | `String` | Location ID |
+| 42 | merchantNumber | `String` | The merchant # to use when settling / transmitting credit card information. |
+| 43 | numberDigits | `Float` | The number of digits to allow for this type of credit card. |
+| 44 | numberPostYN | `String` | Indicates the code is used for post charging. |
+| 45 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 46 | paymentMethod | `String` | Payment Method |
+| 47 | paymentMethodDescription | `String` | Payment Method Description |
+| 48 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 49 | printAuthReceiptYn | `String` | Indicates if an Authorization Receipt needs to be printed. |
+| 50 | promptAtCheckinYn | `String` | Prompt user to go to cashiering after Check-In if this value equals 'Y'. |
+| 51 | property | `String` | Property |
+| 52 | repItem | `String` | Reporting Item |
+| 53 | repItemName | `String` | Reporting Item Name |
+| 54 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 55 | repUpdateDate | `Date` | Reporting Updatedate |
+| 56 | reservationYN | `String` | Indicates if the card type can be used as a payment method for a reservation. |
+| 57 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 58 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 59 | sequence | `Float` | Sequence |
+| 60 | startDate | `Float` | Start Date |
+| 61 | tempFlag | `Float` | Temp Flag |
+| 62 | transactionCode | `String` | Transaction Code |
+| 63 | trxUsage1 | `String` | Transaction Code for Card Usage 1 for ex. Credit Card |
+| 64 | trxUsage2 | `String` | Transaction Code for Card Usage 2 for ex. Debit Card |
+| 65 | updateDate | `DateTime` | Update Date |
+| 66 | updateUser | `Float` | Update User |
+| 67 | validationRule | `String` | Validation Rule |
 
 [⬆ Back to Query](#query)
 
@@ -3859,47 +3859,47 @@
 
 ### ConfigurationResortExportBucketCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
-| arrangementId | `Float` | Arrangement ID |
-| bucketType | `String` | User defined Export Bucket type. |
-| bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoutingAmount | `Float` | Central Routing Amount |
-| code | `String` | Code |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyYn | `String` | Daily Y/N |
-| day1 | `String` | Day1 |
-| day2 | `String` | Day2 |
-| day3 | `String` | Day3 |
-| day4 | `String` | Day4 |
-| day5 | `String` | Day5 |
-| day6 | `String` | Day6 |
-| day7 | `String` | Day7 |
-| deletedFlag | `String` | Deleted Flag |
-| eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| revenueBucketDescription | `String` | Arrangement Description for the Transaction Code. |
-| revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
-| routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingPercent | `Float` | Routing Percent |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
+| 2 | arrangementId | `Float` | Arrangement ID |
+| 3 | bucketType | `String` | User defined Export Bucket type. |
+| 4 | bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | cRoutingAmount | `Float` | Central Routing Amount |
+| 8 | code | `String` | Code |
+| 9 | compYn | `String` | Comp Y/N |
+| 10 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 11 | dailyYn | `String` | Daily Y/N |
+| 12 | day1 | `String` | Day1 |
+| 13 | day2 | `String` | Day2 |
+| 14 | day3 | `String` | Day3 |
+| 15 | day4 | `String` | Day4 |
+| 16 | day5 | `String` | Day5 |
+| 17 | day6 | `String` | Day6 |
+| 18 | day7 | `String` | Day7 |
+| 19 | deletedFlag | `String` | Deleted Flag |
+| 20 | eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
+| 21 | inactiveDate | `DateTime` | Inactive Date |
+| 22 | inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
+| 23 | insertDate | `DateTime` | Insert Date |
+| 24 | insertUser | `Float` | Insert User |
+| 25 | jRNUpdateDate | `Date` | JRN Update Date |
+| 26 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 27 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 28 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 29 | property | `String` | Property |
+| 30 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 31 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 32 | revenueBucketDescription | `String` | Arrangement Description for the Transaction Code. |
+| 33 | revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
+| 34 | routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
+| 35 | routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 36 | routingPercent | `Float` | Routing Percent |
+| 37 | type | `String` | Type |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3907,28 +3907,28 @@
 
 ### ConfigurationResortTransactionCodeArrangeDetailDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addTransactionYN | `String` | Add Trx Y/N |
-| arrangementId | `Float` | Arrangement ID |
-| centralTransactionCode | `String` | Central Transaction Code |
-| centralTransactionCodeDescription | `String` | Central Transaction Code Description |
-| childArrangementId | `Float` | Child arrangement id. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| transactionCode | `String` | Transaction Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addTransactionYN | `String` | Add Trx Y/N |
+| 2 | arrangementId | `Float` | Arrangement ID |
+| 3 | centralTransactionCode | `String` | Central Transaction Code |
+| 4 | centralTransactionCodeDescription | `String` | Central Transaction Code Description |
+| 5 | childArrangementId | `Float` | Child arrangement id. |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Code to uniquely identify the Property |
+| 16 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 17 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 18 | transactionCode | `String` | Transaction Code |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3936,26 +3936,26 @@
 
 ### ConfigurationResortExportBucketTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | User defined Export Bucket type. |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| fiscalYn | `String` | Indicates if this export bucket is FISCAL related. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| transactionCodeInMultiBucketsYN | `String` | Indicates that a user can configure the same Transaction Code into Revenue Buckets Codes of the same Revenue Bucket Type. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | User defined Export Bucket type. |
+| 2 | compYn | `String` | Comp Y/N |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | description | `String` | Description |
+| 6 | fiscalYn | `String` | Indicates if this export bucket is FISCAL related. |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Property |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | transactionCodeInMultiBucketsYN | `String` | Indicates that a user can configure the same Transaction Code into Revenue Buckets Codes of the same Revenue Bucket Type. |
+| 17 | updateDate | `DateTime` | Update Date |
+| 18 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -3963,47 +3963,47 @@
 
 ### ConfigurationResortRoutingCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| applyPerDayYN | `String` | Apply Per Day YN |
-| arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
-| arrangementId | `Float` | Arrangement ID |
-| bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoutingAmount | `Float` | Central Routing Amount |
-| code | `String` | Code |
-| compYn | `String` | Comp Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Arrangement Description for the Transaction Code. |
-| eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
-| exportBucketType | `String` | User defined Export Bucket type. |
-| friday | `String` | Friday |
-| inactiveDate | `DateTime` | Inactive Date |
-| inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| monday | `String` | Monday |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
-| routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
-| routingPercentage | `Float` | Routing Percentage |
-| saturday | `String` | Saturday |
-| sunday | `String` | Sunday |
-| thursday | `String` | Thursday |
-| tuesday | `String` | Tuesday |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| wednesday | `String` | Wednesday |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | applyPerDayYN | `String` | Apply Per Day YN |
+| 2 | arrTaxTypeCode | `String` | Tax Type code used for certain country requirements. |
+| 3 | arrangementId | `Float` | Arrangement ID |
+| 4 | bucketValue | `String` | Stores the default value for the arrangement code for revenue buckets in order to group transaction codes. |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | cRoutingAmount | `Float` | Central Routing Amount |
+| 8 | code | `String` | Code |
+| 9 | compYn | `String` | Comp Y/N |
+| 10 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 11 | deletedFlag | `String` | Deleted Flag |
+| 12 | description | `String` | Arrangement Description for the Transaction Code. |
+| 13 | eligibleYn | `String` | Specifies the Eligibility to calculate membership points. |
+| 14 | exportBucketType | `String` | User defined Export Bucket type. |
+| 15 | friday | `String` | Friday |
+| 16 | inactiveDate | `DateTime` | Inactive Date |
+| 17 | inheritAuthRatecodeYn | `String` | Inherit the authorizer rate code onto the reservation. |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | monday | `String` | Monday |
+| 23 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 24 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 25 | property | `String` | Property |
+| 26 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 27 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 28 | revenueYn | `String` | Indicates if arrangement code is of a revenue type. Used for country requirements. |
+| 29 | routingAmount | `Float` | Contains amount to route for a routing code. This value will be auto populated to the routing instruction. |
+| 30 | routingCovers | `Float` | Contains covers to route for a routing code. This value will be auto populated to the routing instruction. |
+| 31 | routingPercentage | `Float` | Routing Percentage |
+| 32 | saturday | `String` | Saturday |
+| 33 | sunday | `String` | Sunday |
+| 34 | thursday | `String` | Thursday |
+| 35 | tuesday | `String` | Tuesday |
+| 36 | type | `String` | Type |
+| 37 | updateDate | `DateTime` | Update Date |
+| 38 | updateUser | `Float` | Update User |
+| 39 | wednesday | `String` | Wednesday |
 
 [⬆ Back to Query](#query)
 
@@ -4011,36 +4011,36 @@
 
 ### ConfigurationResortTransactionDiversionRuleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| basedOn | `String` | Based On |
-| calculation | `String` | Indicates the scope or applicability of the threshold as PER STAY or PER DAY. |
-| code | `String` | User configured diversion code. |
-| complimentary | `Float` | The quantity to be diverted to a designated Posting Master. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| diversionId | `Float` | Unique ID generated for the Diversion Instruction. |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| level | `String` | Possible values: PROPERTY / RESERVATION. When configured as the PROPERTY type the rule is applicable to all the guests staying in the property. Thresholds of type RESERVATION need to be attached to a reservation to take effect. |
-| membershipLevel | `String` | Membership Level |
-| membershipType | `String` | Membership Type |
-| minimumRequired | `Float` | The quantity required by the rule before the posting can be diverted to a designated Posting Master. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| room | `String` | Room number to receive all the diverted transactions configured for this instruction. |
-| ruleType | `String` | Rule Type |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| vIP | `String` | VIP |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | basedOn | `String` | Based On |
+| 2 | calculation | `String` | Indicates the scope or applicability of the threshold as PER STAY or PER DAY. |
+| 3 | code | `String` | User configured diversion code. |
+| 4 | complimentary | `Float` | The quantity to be diverted to a designated Posting Master. |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | description | `String` | Description |
+| 8 | diversionId | `Float` | Unique ID generated for the Diversion Instruction. |
+| 9 | inactiveDate | `DateTime` | Inactive Date |
+| 10 | insertDate | `DateTime` | Insert Date |
+| 11 | insertUser | `Float` | Insert User |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | level | `String` | Possible values: PROPERTY / RESERVATION. When configured as the PROPERTY type the rule is applicable to all the guests staying in the property. Thresholds of type RESERVATION need to be attached to a reservation to take effect. |
+| 15 | membershipLevel | `String` | Membership Level |
+| 16 | membershipType | `String` | Membership Type |
+| 17 | minimumRequired | `Float` | The quantity required by the rule before the posting can be diverted to a designated Posting Master. |
+| 18 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 19 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 20 | property | `String` | Property |
+| 21 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 22 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 23 | room | `String` | Room number to receive all the diverted transactions configured for this instruction. |
+| 24 | ruleType | `String` | Rule Type |
+| 25 | sequence | `Float` | Sequence |
+| 26 | updateDate | `DateTime` | Update Date |
+| 27 | updateUser | `Float` | Update User |
+| 28 | vIP | `String` | VIP |
 
 [⬆ Back to Query](#query)
 
@@ -4048,23 +4048,23 @@
 
 ### ConfigurationResortTransactionDiversionRuleDetailsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| diversionId | `Float` | Unique ID generated for the Diversion Instruction. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| transactionCodes | `String` | Transaction Codes |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 2 | deletedFlag | `String` | Deleted Flag |
+| 3 | diversionId | `Float` | Unique ID generated for the Diversion Instruction. |
+| 4 | insertDate | `DateTime` | Insert Date |
+| 5 | insertUser | `Float` | Insert User |
+| 6 | jRNUpdateDate | `Date` | JRN Update Date |
+| 7 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 8 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 9 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 10 | property | `String` | Code to uniquely identify the Property |
+| 11 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 12 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 13 | transactionCodes | `String` | Transaction Codes |
+| 14 | updateDate | `DateTime` | Update Date |
+| 15 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4072,45 +4072,45 @@
 
 ### ConfigurationResortTransactionGroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralDescription | `String` | Central Description |
-| centralDisplaySequence | `Float` | Central Display Sequence |
-| centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displaySequence | `Float` | Display Sequence |
-| inactiveflag | `String` | Inactive Flag |
-| indRevenueGroup | `String` | Individual Revenue Gp |
-| indicatorRevenueGroup | `String` | Indicator Revenue Group |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| tctClassType1 | `String` | Not Used. |
-| tctClassType2 | `String` | Not Used. |
-| transactionCodeActivityType | `String` | Transaction Code Activity Type |
-| transactionCodeGroup | `String` | Transaction Code Group |
-| transgroupid | `String` | Transgroupid |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralDescription | `String` | Central Description |
+| 2 | centralDisplaySequence | `Float` | Central Display Sequence |
+| 3 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 4 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 5 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displaySequence | `Float` | Display Sequence |
+| 10 | inactiveflag | `String` | Inactive Flag |
+| 11 | indRevenueGroup | `String` | Individual Revenue Gp |
+| 12 | indicatorRevenueGroup | `String` | Indicator Revenue Group |
+| 13 | insertDate | `DateTime` | Insert Date |
+| 14 | insertUser | `Float` | Insert User |
+| 15 | internalDeletedflag | `String` | Deleted Flag |
+| 16 | internalYn | `String` | Internal Y/N |
+| 17 | jRNUpdateDate | `Date` | JRN Update Date |
+| 18 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 21 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 22 | property | `String` | Property |
+| 23 | repItem | `String` | Reporting Item |
+| 24 | repItemName | `String` | Reporting Item Name |
+| 25 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 26 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 27 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 28 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 29 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 30 | tctClassType1 | `String` | Not Used. |
+| 31 | tctClassType2 | `String` | Not Used. |
+| 32 | transactionCodeActivityType | `String` | Transaction Code Activity Type |
+| 33 | transactionCodeGroup | `String` | Transaction Code Group |
+| 34 | transgroupid | `String` | Transgroupid |
+| 35 | type | `String` | Type |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4118,56 +4118,56 @@
 
 ### ConfigurationResortGroupGeneratesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adjustmentType | `String` | Adjustment Type |
-| amount | `Float` | Amount |
-| amountFromScheduleYn | `String` | Whether to take the taxes from Price Schedules. |
-| cAmount | `Float` | Central Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| calculationSequence | `Float` | Sequence in which the taxes should be applied. |
-| centralDescription | `String` | Central Description |
-| centralGeneratedCode | `String` | Central Generated Code |
-| currency | `String` | Currency |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| generateRules | `String` | Generate Rules |
-| generatedBy | `String` | Generated By |
-| generatedCode | `String` | Generated Code |
-| generatedPrintedOnFolioYn | `String` | Whether to print on folio. |
-| id | `Float` | ID |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| nameTaxType | `String` | Name Tax Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| percentage | `Float` | Percentage |
-| percentageBaseCode | `Float` | Indicates if the tax is based on a percentage. It would have a value of 0 if based on BASE amount 1 if on S1 2 if based on S2 3 if based on S3. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| roundingMethod | `String` | Rounding method to be used when calculating a generate amount. Allowed values are UP DOWN NONE and NULL. |
-| stopDays | `Float` | Days after which the generates will not be posted for long standing guests. |
-| subTotal1YN | `String` | Sub-Total 1 YN |
-| subTotal2YN | `String` | Sub-Total 2 YN |
-| subTotal3YN | `String` | Sub-Total 3 YN |
-| tcGroup | `String` | Transaction Code Group |
-| tcGroupGenerator | `String` | Group generator. |
-| tcSubgroup | `String` | Transaction Code Subgroup |
-| tcSubgroupGenerator | `String` | Subgroup generator. |
-| tclCodeGenerator | `String` | Identify if the taxes are generated on the Class. |
-| tcrType | `String` | Flag to indicate the addon tax. |
-| trxCodeGenerator | `String` | Transaction Code Generator |
-| udfFunction | `String` | Udf Function |
-| udfInverse | `String` | Not used currently. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| useTaxBracketYn | `String` | Flag to indicate if tax brackets are used for this tax. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adjustmentType | `String` | Adjustment Type |
+| 2 | amount | `Float` | Amount |
+| 3 | amountFromScheduleYn | `String` | Whether to take the taxes from Price Schedules. |
+| 4 | cAmount | `Float` | Central Amount |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | calculationSequence | `Float` | Sequence in which the taxes should be applied. |
+| 8 | centralDescription | `String` | Central Description |
+| 9 | centralGeneratedCode | `String` | Central Generated Code |
+| 10 | currency | `String` | Currency |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | description | `String` | Description |
+| 14 | generateRules | `String` | Generate Rules |
+| 15 | generatedBy | `String` | Generated By |
+| 16 | generatedCode | `String` | Generated Code |
+| 17 | generatedPrintedOnFolioYn | `String` | Whether to print on folio. |
+| 18 | id | `Float` | ID |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | nameTaxType | `String` | Name Tax Type |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | percentage | `Float` | Percentage |
+| 26 | percentageBaseCode | `Float` | Indicates if the tax is based on a percentage. It would have a value of 0 if based on BASE amount 1 if on S1 2 if based on S2 3 if based on S3. |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Code to uniquely identify the Property |
+| 29 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 30 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 31 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 32 | roundingMethod | `String` | Rounding method to be used when calculating a generate amount. Allowed values are UP DOWN NONE and NULL. |
+| 33 | stopDays | `Float` | Days after which the generates will not be posted for long standing guests. |
+| 34 | subTotal1YN | `String` | Sub-Total 1 YN |
+| 35 | subTotal2YN | `String` | Sub-Total 2 YN |
+| 36 | subTotal3YN | `String` | Sub-Total 3 YN |
+| 37 | tcGroup | `String` | Transaction Code Group |
+| 38 | tcGroupGenerator | `String` | Group generator. |
+| 39 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 40 | tcSubgroupGenerator | `String` | Subgroup generator. |
+| 41 | tclCodeGenerator | `String` | Identify if the taxes are generated on the Class. |
+| 42 | tcrType | `String` | Flag to indicate the addon tax. |
+| 43 | trxCodeGenerator | `String` | Transaction Code Generator |
+| 44 | udfFunction | `String` | Udf Function |
+| 45 | udfInverse | `String` | Not used currently. |
+| 46 | updateDate | `DateTime` | Update Date |
+| 47 | updateUser | `Float` | Update User |
+| 48 | useTaxBracketYn | `String` | Flag to indicate if tax brackets are used for this tax. |
 
 [⬆ Back to Query](#query)
 
@@ -4175,48 +4175,48 @@
 
 ### ConfigurationResortTransactionSubgroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralDescription | `String` | Central Description |
-| centralDisplaySequence | `Float` | Central Display Sequence |
-| centralGroup | `String` | Central Group |
-| centralTransactionCodeSubGroup | `String` | Central Transaction Code Sub-Group |
-| class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displaySequence | `Float` | Display Sequence |
-| frequentFlyerYn | `String` | Frequent Flyer Y/N |
-| group | `String` | Group |
-| groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| inactiveflag | `String` | Inactive Flag |
-| indRevenueGroup | `String` | Individual Revenue Gp |
-| indicatorRevenueGroup | `String` | Indicator Revenue Group |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| subGroupType | `String` | Sub-Group level code to group all attached transaction codes into one of the different pre-defined categories. |
-| taxFlagYN | `String` | Tax YN |
-| taxYN | `String` | Not Used. |
-| tcGroupAndSubgroup | `String` | Transaction Code Group And Subgroup |
-| tcTransactionType | `String` | Transaction Code Transaction Type |
-| transactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| transgroupid | `String` | Transgroupid |
-| transsubgroupid | `String` | Transsubgroupid |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralDescription | `String` | Central Description |
+| 2 | centralDisplaySequence | `Float` | Central Display Sequence |
+| 3 | centralGroup | `String` | Central Group |
+| 4 | centralTransactionCodeSubGroup | `String` | Central Transaction Code Sub-Group |
+| 5 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 6 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedFlag | `String` | Deleted Flag |
+| 9 | description | `String` | Description |
+| 10 | displaySequence | `Float` | Display Sequence |
+| 11 | frequentFlyerYn | `String` | Frequent Flyer Y/N |
+| 12 | group | `String` | Group |
+| 13 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 14 | inactiveflag | `String` | Inactive Flag |
+| 15 | indRevenueGroup | `String` | Individual Revenue Gp |
+| 16 | indicatorRevenueGroup | `String` | Indicator Revenue Group |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | internalYn | `String` | Internal Y/N |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 28 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 29 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 30 | subGroupType | `String` | Sub-Group level code to group all attached transaction codes into one of the different pre-defined categories. |
+| 31 | taxFlagYN | `String` | Tax YN |
+| 32 | taxYN | `String` | Not Used. |
+| 33 | tcGroupAndSubgroup | `String` | Transaction Code Group And Subgroup |
+| 34 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 35 | transactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 36 | transgroupid | `String` | Transgroupid |
+| 37 | transsubgroupid | `String` | Transsubgroupid |
+| 38 | type | `String` | Type |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4224,61 +4224,61 @@
 
 ### ConfigurationResortSubgroupGeneratesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adjustmentType | `String` | Adjustment Type |
-| amount | `Float` | Amount |
-| amountFromScheduleYn | `String` | Whether to take the taxes from Price Schedules. |
-| cAmount | `Float` | Central Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| calculationSequence | `Float` | Sequence in which the taxes should be applied. |
-| centralDescription | `String` | Central Description |
-| centralGeneratedCode | `String` | Central Generated Code |
-| currency | `String` | Currency |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| generateRules | `String` | Generate Rules |
-| generatedBy | `String` | Generated By |
-| generatedCode | `String` | Generated Code |
-| generatedPrintedOnFolioYn | `String` | Whether to print on folio. |
-| id | `Float` | ID |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| nameTaxType | `String` | Name Tax Type |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| percentage | `Float` | Percentage |
-| percentageBaseCode | `Float` | Indicates if the tax is based on a percentage. It would have a value of 0 if based on BASE amount 1 if on S1 2 if based on S2 3 if based on S3. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| roundingMethod | `String` | Rounding method to be used when calculating a generate amount. Allowed values are UP DOWN NONE and NULL. |
-| seqBy | `Float` | Sequence By |
-| stopDays | `Float` | Days after which the generates will not be posted for long standing guests. |
-| subTotal1YN | `String` | Sub-Total 1 YN |
-| subTotal2YN | `String` | Sub-Total 2 YN |
-| subTotal3YN | `String` | Sub-Total 3 YN |
-| tcDsi | `Float` | Transaction Code Dsi |
-| tcGroup | `String` | Transaction Code Group |
-| tcGroupGenerator | `String` | Group generator. |
-| tcOrganizationid | `Float` | Transaction Code Organizationid |
-| tcSubgroup | `String` | Transaction Code Subgroup |
-| tcSubgroupGenerator | `String` | Subgroup generator. |
-| tcTcSubgroup | `String` | Transaction Code Transaction Code Subgroup |
-| tclCodeGenerator | `String` | Identify if the taxes are generated on the Class. |
-| tcrType | `String` | Flag to indicate the addon tax. |
-| transactionCodeResort | `String` | Not Used. |
-| trxCodeGenerator | `String` | Transaction Code Generator |
-| udfFunction | `String` | Udf Function |
-| udfInverse | `String` | Not used currently. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| useTaxBracketYn | `String` | Flag to indicate if tax brackets are used for this tax. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adjustmentType | `String` | Adjustment Type |
+| 2 | amount | `Float` | Amount |
+| 3 | amountFromScheduleYn | `String` | Whether to take the taxes from Price Schedules. |
+| 4 | cAmount | `Float` | Central Amount |
+| 5 | cExchangeDate | `Date` | Central Xchange Date |
+| 6 | cExchangeRate | `Float` | Central Xchange Rate |
+| 7 | calculationSequence | `Float` | Sequence in which the taxes should be applied. |
+| 8 | centralDescription | `String` | Central Description |
+| 9 | centralGeneratedCode | `String` | Central Generated Code |
+| 10 | currency | `String` | Currency |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | description | `String` | Description |
+| 14 | generateRules | `String` | Generate Rules |
+| 15 | generatedBy | `String` | Generated By |
+| 16 | generatedCode | `String` | Generated Code |
+| 17 | generatedPrintedOnFolioYn | `String` | Whether to print on folio. |
+| 18 | id | `Float` | ID |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | nameTaxType | `String` | Name Tax Type |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | percentage | `Float` | Percentage |
+| 26 | percentageBaseCode | `Float` | Indicates if the tax is based on a percentage. It would have a value of 0 if based on BASE amount 1 if on S1 2 if based on S2 3 if based on S3. |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Code to uniquely identify the Property |
+| 29 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 30 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 31 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 32 | roundingMethod | `String` | Rounding method to be used when calculating a generate amount. Allowed values are UP DOWN NONE and NULL. |
+| 33 | seqBy | `Float` | Sequence By |
+| 34 | stopDays | `Float` | Days after which the generates will not be posted for long standing guests. |
+| 35 | subTotal1YN | `String` | Sub-Total 1 YN |
+| 36 | subTotal2YN | `String` | Sub-Total 2 YN |
+| 37 | subTotal3YN | `String` | Sub-Total 3 YN |
+| 38 | tcDsi | `Float` | Transaction Code Dsi |
+| 39 | tcGroup | `String` | Transaction Code Group |
+| 40 | tcGroupGenerator | `String` | Group generator. |
+| 41 | tcOrganizationid | `Float` | Transaction Code Organizationid |
+| 42 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 43 | tcSubgroupGenerator | `String` | Subgroup generator. |
+| 44 | tcTcSubgroup | `String` | Transaction Code Transaction Code Subgroup |
+| 45 | tclCodeGenerator | `String` | Identify if the taxes are generated on the Class. |
+| 46 | tcrType | `String` | Flag to indicate the addon tax. |
+| 47 | transactionCodeResort | `String` | Not Used. |
+| 48 | trxCodeGenerator | `String` | Transaction Code Generator |
+| 49 | udfFunction | `String` | Udf Function |
+| 50 | udfInverse | `String` | Not used currently. |
+| 51 | updateDate | `DateTime` | Update Date |
+| 52 | updateUser | `Float` | Update User |
+| 53 | useTaxBracketYn | `String` | Flag to indicate if tax brackets are used for this tax. |
 
 [⬆ Back to Query](#query)
 
@@ -4286,24 +4286,24 @@
 
 ### ConfigurationResortPropertyAlertDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| propery | `String` | Propery |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | propery | `String` | Propery |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 14 | sequence | `Float` | Sequence |
+| 15 | updateDate | `DateTime` | Update Date |
+| 16 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4311,161 +4311,161 @@
 
 ### ConfigurationResortGlobalAlertsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| alertCode | `String` | Alert Code |
-| alertText | `String` | Alert Text |
-| area | `String` | Area |
-| brandStayCnt | `Float` | Brand Stay Count |
-| comments | `String` | Comments |
-| conditions | `String` | Conditions |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| department | `String` | Department |
-| description | `String` | Description |
-| emailAddress | `String` | Email Address |
-| emailYn | `String` | Email Y/N |
-| externalAlertId | `String` | Unique ID in External System. |
-| hasTagsYn | `String` | Indicates if the current alert can contain tags. |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| lastStayDate | `Date` | Last Stay Date |
-| lastStayLocation | `String` | Last Stay Location |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| membershipAlertYn | `String` | Indicate if the current alert belongs to a membership module. |
-| membershipCardNo | `String` | Membership Card Number |
-| orderBy | `Float` | Order By |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| pref1 | `String` | Preference 1 |
-| pref2 | `String` | Preference 2 |
-| pref3 | `String` | Preference 3 |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printerYN | `String` | Use this alert to print notification. |
-| printerName | `String` | Name of the printer where alert will be printed. |
-| property | `String` | Property |
-| propertyStayCnt | `Float` | Property Stay Count |
-| propertyStayDate | `Date` | Previous Stay Date at this property for repeat guests. |
-| queryId | `Float` | Query ID |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reportName | `String` | Report Name |
-| reservationAlertId | `Float` | Resv Alert ID |
-| reservationNameId | `Float` | Resv Name ID |
-| screenYN | `String` | Screen YN |
-| skipGuestOverviewYn | `String` | Indicates if the guest overview screen should be suppressed. |
-| smsNumber | `String` | The phone number to where the notification will be send. |
-| smsYn | `String` | Use this alert to text a notification. |
-| stopCheckInCheckOut | `String` | Indicates if this alert will be used to perform a validation. |
-| udfc01 | `String` | Udfc01 |
-| udfc02 | `String` | Udfc02 |
-| udfc03 | `String` | Udfc03 |
-| udfc04 | `String` | Udfc04 |
-| udfc05 | `String` | Udfc05 |
-| udfc06 | `String` | Udfc06 |
-| udfc07 | `String` | Udfc07 |
-| udfc08 | `String` | Udfc08 |
-| udfc09 | `String` | Udfc09 |
-| udfc10 | `String` | Udfc10 |
-| udfc11 | `String` | Udfc11 |
-| udfc12 | `String` | Udfc12 |
-| udfc13 | `String` | Udfc13 |
-| udfc14 | `String` | Udfc14 |
-| udfc15 | `String` | Udfc15 |
-| udfc16 | `String` | Udfc16 |
-| udfc17 | `String` | Udfc17 |
-| udfc18 | `String` | Udfc18 |
-| udfc19 | `String` | Udfc19 |
-| udfc20 | `String` | Udfc20 |
-| udfc21 | `String` | Udfc21 |
-| udfc22 | `String` | Udfc22 |
-| udfc23 | `String` | Udfc23 |
-| udfc24 | `String` | Udfc24 |
-| udfc25 | `String` | Udfc25 |
-| udfc26 | `String` | Udfc26 |
-| udfc27 | `String` | Udfc27 |
-| udfc28 | `String` | Udfc28 |
-| udfc29 | `String` | Udfc29 |
-| udfc30 | `String` | Udfc30 |
-| udfc31 | `String` | Udfc31 |
-| udfc32 | `String` | Udfc32 |
-| udfc33 | `String` | Udfc33 |
-| udfc34 | `String` | Udfc34 |
-| udfc35 | `String` | Udfc35 |
-| udfc36 | `String` | Udfc36 |
-| udfc37 | `String` | Udfc37 |
-| udfc38 | `String` | Udfc38 |
-| udfc39 | `String` | Udfc39 |
-| udfc40 | `String` | Udfc40 |
-| udfd01 | `Date` | Udfd01 |
-| udfd02 | `Date` | Udfd02 |
-| udfd03 | `Date` | Udfd03 |
-| udfd04 | `Date` | Udfd04 |
-| udfd05 | `Date` | Udfd05 |
-| udfd06 | `Date` | Udfd06 |
-| udfd07 | `Date` | Udfd07 |
-| udfd08 | `Date` | Udfd08 |
-| udfd09 | `Date` | Udfd09 |
-| udfd10 | `Date` | Udfd10 |
-| udfd11 | `Date` | Udfd11 |
-| udfd12 | `Date` | Udfd12 |
-| udfd13 | `Date` | Udfd13 |
-| udfd14 | `Date` | Udfd14 |
-| udfd15 | `Date` | Udfd15 |
-| udfd16 | `Date` | Udfd16 |
-| udfd17 | `Date` | Udfd17 |
-| udfd18 | `Date` | Udfd18 |
-| udfd19 | `Date` | Udfd19 |
-| udfd20 | `Date` | Udfd20 |
-| udfn01 | `Float` | Udfn01 |
-| udfn02 | `Float` | Udfn02 |
-| udfn03 | `Float` | Udfn03 |
-| udfn04 | `Float` | Udfn04 |
-| udfn05 | `Float` | Udfn05 |
-| udfn06 | `Float` | Udfn06 |
-| udfn07 | `Float` | Udfn07 |
-| udfn08 | `Float` | Udfn08 |
-| udfn09 | `Float` | Udfn09 |
-| udfn10 | `Float` | Udfn10 |
-| udfn11 | `Float` | Udfn11 |
-| udfn12 | `Float` | Udfn12 |
-| udfn13 | `Float` | Udfn13 |
-| udfn14 | `Float` | Udfn14 |
-| udfn15 | `Float` | Udfn15 |
-| udfn16 | `Float` | Udfn16 |
-| udfn17 | `Float` | Udfn17 |
-| udfn18 | `Float` | Udfn18 |
-| udfn19 | `Float` | Udfn19 |
-| udfn20 | `Float` | Udfn20 |
-| udfn21 | `Float` | Udfn21 |
-| udfn22 | `Float` | Udfn22 |
-| udfn23 | `Float` | Udfn23 |
-| udfn24 | `Float` | Udfn24 |
-| udfn25 | `Float` | Udfn25 |
-| udfn26 | `Float` | Udfn26 |
-| udfn27 | `Float` | Udfn27 |
-| udfn28 | `Float` | Udfn28 |
-| udfn29 | `Float` | Udfn29 |
-| udfn30 | `Float` | Udfn30 |
-| udfn31 | `Float` | Udfn31 |
-| udfn32 | `Float` | Udfn32 |
-| udfn33 | `Float` | Udfn33 |
-| udfn34 | `Float` | Udfn34 |
-| udfn35 | `Float` | Udfn35 |
-| udfn36 | `Float` | Udfn36 |
-| udfn37 | `Float` | Udfn37 |
-| udfn38 | `Float` | Udfn38 |
-| udfn39 | `Float` | Udfn39 |
-| udfn40 | `Float` | Udfn40 |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| validationOverridePermission | `String` | The user permission required in order to override a validation alert. |
-| valueRating | `String` | Value Rating |
-| vipStatus | `String` | VIP Status |
-| welcomeOfferCode | `String` | Offer code if this alert is linked to a guest welcome offer. |
-| welcomeOfferYn | `String` | Welcome Offer Y/N |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | alertCode | `String` | Alert Code |
+| 2 | alertText | `String` | Alert Text |
+| 3 | area | `String` | Area |
+| 4 | brandStayCnt | `Float` | Brand Stay Count |
+| 5 | comments | `String` | Comments |
+| 6 | conditions | `String` | Conditions |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedFlag | `String` | Deleted Flag |
+| 9 | department | `String` | Department |
+| 10 | description | `String` | Description |
+| 11 | emailAddress | `String` | Email Address |
+| 12 | emailYn | `String` | Email Y/N |
+| 13 | externalAlertId | `String` | Unique ID in External System. |
+| 14 | hasTagsYn | `String` | Indicates if the current alert can contain tags. |
+| 15 | insertDate | `DateTime` | Insert Date |
+| 16 | insertUser | `Float` | Insert User |
+| 17 | jRNUpdateDate | `Date` | JRN Update Date |
+| 18 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 19 | language | `String` | Language |
+| 20 | lastStayDate | `Date` | Last Stay Date |
+| 21 | lastStayLocation | `String` | Last Stay Location |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | membershipAlertYn | `String` | Indicate if the current alert belongs to a membership module. |
+| 24 | membershipCardNo | `String` | Membership Card Number |
+| 25 | orderBy | `Float` | Order By |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | pref1 | `String` | Preference 1 |
+| 28 | pref2 | `String` | Preference 2 |
+| 29 | pref3 | `String` | Preference 3 |
+| 30 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 31 | printerYN | `String` | Use this alert to print notification. |
+| 32 | printerName | `String` | Name of the printer where alert will be printed. |
+| 33 | property | `String` | Property |
+| 34 | propertyStayCnt | `Float` | Property Stay Count |
+| 35 | propertyStayDate | `Date` | Previous Stay Date at this property for repeat guests. |
+| 36 | queryId | `Float` | Query ID |
+| 37 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 38 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 39 | reportName | `String` | Report Name |
+| 40 | reservationAlertId | `Float` | Resv Alert ID |
+| 41 | reservationNameId | `Float` | Resv Name ID |
+| 42 | screenYN | `String` | Screen YN |
+| 43 | skipGuestOverviewYn | `String` | Indicates if the guest overview screen should be suppressed. |
+| 44 | smsNumber | `String` | The phone number to where the notification will be send. |
+| 45 | smsYn | `String` | Use this alert to text a notification. |
+| 46 | stopCheckInCheckOut | `String` | Indicates if this alert will be used to perform a validation. |
+| 47 | udfc01 | `String` | Udfc01 |
+| 48 | udfc02 | `String` | Udfc02 |
+| 49 | udfc03 | `String` | Udfc03 |
+| 50 | udfc04 | `String` | Udfc04 |
+| 51 | udfc05 | `String` | Udfc05 |
+| 52 | udfc06 | `String` | Udfc06 |
+| 53 | udfc07 | `String` | Udfc07 |
+| 54 | udfc08 | `String` | Udfc08 |
+| 55 | udfc09 | `String` | Udfc09 |
+| 56 | udfc10 | `String` | Udfc10 |
+| 57 | udfc11 | `String` | Udfc11 |
+| 58 | udfc12 | `String` | Udfc12 |
+| 59 | udfc13 | `String` | Udfc13 |
+| 60 | udfc14 | `String` | Udfc14 |
+| 61 | udfc15 | `String` | Udfc15 |
+| 62 | udfc16 | `String` | Udfc16 |
+| 63 | udfc17 | `String` | Udfc17 |
+| 64 | udfc18 | `String` | Udfc18 |
+| 65 | udfc19 | `String` | Udfc19 |
+| 66 | udfc20 | `String` | Udfc20 |
+| 67 | udfc21 | `String` | Udfc21 |
+| 68 | udfc22 | `String` | Udfc22 |
+| 69 | udfc23 | `String` | Udfc23 |
+| 70 | udfc24 | `String` | Udfc24 |
+| 71 | udfc25 | `String` | Udfc25 |
+| 72 | udfc26 | `String` | Udfc26 |
+| 73 | udfc27 | `String` | Udfc27 |
+| 74 | udfc28 | `String` | Udfc28 |
+| 75 | udfc29 | `String` | Udfc29 |
+| 76 | udfc30 | `String` | Udfc30 |
+| 77 | udfc31 | `String` | Udfc31 |
+| 78 | udfc32 | `String` | Udfc32 |
+| 79 | udfc33 | `String` | Udfc33 |
+| 80 | udfc34 | `String` | Udfc34 |
+| 81 | udfc35 | `String` | Udfc35 |
+| 82 | udfc36 | `String` | Udfc36 |
+| 83 | udfc37 | `String` | Udfc37 |
+| 84 | udfc38 | `String` | Udfc38 |
+| 85 | udfc39 | `String` | Udfc39 |
+| 86 | udfc40 | `String` | Udfc40 |
+| 87 | udfd01 | `Date` | Udfd01 |
+| 88 | udfd02 | `Date` | Udfd02 |
+| 89 | udfd03 | `Date` | Udfd03 |
+| 90 | udfd04 | `Date` | Udfd04 |
+| 91 | udfd05 | `Date` | Udfd05 |
+| 92 | udfd06 | `Date` | Udfd06 |
+| 93 | udfd07 | `Date` | Udfd07 |
+| 94 | udfd08 | `Date` | Udfd08 |
+| 95 | udfd09 | `Date` | Udfd09 |
+| 96 | udfd10 | `Date` | Udfd10 |
+| 97 | udfd11 | `Date` | Udfd11 |
+| 98 | udfd12 | `Date` | Udfd12 |
+| 99 | udfd13 | `Date` | Udfd13 |
+| 100 | udfd14 | `Date` | Udfd14 |
+| 101 | udfd15 | `Date` | Udfd15 |
+| 102 | udfd16 | `Date` | Udfd16 |
+| 103 | udfd17 | `Date` | Udfd17 |
+| 104 | udfd18 | `Date` | Udfd18 |
+| 105 | udfd19 | `Date` | Udfd19 |
+| 106 | udfd20 | `Date` | Udfd20 |
+| 107 | udfn01 | `Float` | Udfn01 |
+| 108 | udfn02 | `Float` | Udfn02 |
+| 109 | udfn03 | `Float` | Udfn03 |
+| 110 | udfn04 | `Float` | Udfn04 |
+| 111 | udfn05 | `Float` | Udfn05 |
+| 112 | udfn06 | `Float` | Udfn06 |
+| 113 | udfn07 | `Float` | Udfn07 |
+| 114 | udfn08 | `Float` | Udfn08 |
+| 115 | udfn09 | `Float` | Udfn09 |
+| 116 | udfn10 | `Float` | Udfn10 |
+| 117 | udfn11 | `Float` | Udfn11 |
+| 118 | udfn12 | `Float` | Udfn12 |
+| 119 | udfn13 | `Float` | Udfn13 |
+| 120 | udfn14 | `Float` | Udfn14 |
+| 121 | udfn15 | `Float` | Udfn15 |
+| 122 | udfn16 | `Float` | Udfn16 |
+| 123 | udfn17 | `Float` | Udfn17 |
+| 124 | udfn18 | `Float` | Udfn18 |
+| 125 | udfn19 | `Float` | Udfn19 |
+| 126 | udfn20 | `Float` | Udfn20 |
+| 127 | udfn21 | `Float` | Udfn21 |
+| 128 | udfn22 | `Float` | Udfn22 |
+| 129 | udfn23 | `Float` | Udfn23 |
+| 130 | udfn24 | `Float` | Udfn24 |
+| 131 | udfn25 | `Float` | Udfn25 |
+| 132 | udfn26 | `Float` | Udfn26 |
+| 133 | udfn27 | `Float` | Udfn27 |
+| 134 | udfn28 | `Float` | Udfn28 |
+| 135 | udfn29 | `Float` | Udfn29 |
+| 136 | udfn30 | `Float` | Udfn30 |
+| 137 | udfn31 | `Float` | Udfn31 |
+| 138 | udfn32 | `Float` | Udfn32 |
+| 139 | udfn33 | `Float` | Udfn33 |
+| 140 | udfn34 | `Float` | Udfn34 |
+| 141 | udfn35 | `Float` | Udfn35 |
+| 142 | udfn36 | `Float` | Udfn36 |
+| 143 | udfn37 | `Float` | Udfn37 |
+| 144 | udfn38 | `Float` | Udfn38 |
+| 145 | udfn39 | `Float` | Udfn39 |
+| 146 | udfn40 | `Float` | Udfn40 |
+| 147 | updateDate | `DateTime` | Update Date |
+| 148 | updateUser | `Float` | Update User |
+| 149 | validationOverridePermission | `String` | The user permission required in order to override a validation alert. |
+| 150 | valueRating | `String` | Value Rating |
+| 151 | vipStatus | `String` | VIP Status |
+| 152 | welcomeOfferCode | `String` | Offer code if this alert is linked to a guest welcome offer. |
+| 153 | welcomeOfferYn | `String` | Welcome Offer Y/N |
 
 [⬆ Back to Query](#query)
 
@@ -4473,48 +4473,48 @@
 
 ### ConfigurationResortBlockCancellationCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | languageCode | `String` | Language Code |
+| 23 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 24 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 25 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `Date` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | tempFlag | `String` | Temp Flag |
+| 38 | titleSuffix | `Float` | Title Suffix |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4522,49 +4522,49 @@
 
 ### ConfigurationResortSalesEventDestinationDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| cancellationDestination | `String` | Cancellation Destination |
-| centralCancellationDestination | `String` | Central Cancellation Destination |
-| centralCancellationDestinationDescription | `String` | Central Cancellation Destination Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| scdestinationid | `String` | Scdestinationid |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | cancellationDestination | `String` | Cancellation Destination |
+| 4 | centralCancellationDestination | `String` | Central Cancellation Destination |
+| 5 | centralCancellationDestinationDescription | `String` | Central Cancellation Destination Description |
+| 6 | centralSequence | `Float` | Central Sequence |
+| 7 | chainCode | `String` | Chain Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | languageCode | `String` | Language Code |
+| 23 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 24 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 25 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `Date` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | scdestinationid | `String` | Scdestinationid |
+| 37 | sequence | `Float` | Sequence |
+| 38 | tempFlag | `String` | Temp Flag |
+| 39 | titleSuffix | `Float` | Title Suffix |
+| 40 | updateDate | `DateTime` | Update Date |
+| 41 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4572,48 +4572,48 @@
 
 ### ConfigurationResortLostBookingCodesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | languageCode | `String` | Language Code |
+| 23 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 24 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 25 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `Date` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | tempFlag | `String` | Temp Flag |
+| 38 | titleSuffix | `Float` | Title Suffix |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4621,48 +4621,48 @@
 
 ### ConfigurationResortRefusedBookingCodesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | languageCode | `String` | Language Code |
+| 23 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 24 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 25 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `Date` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | tempFlag | `String` | Temp Flag |
+| 38 | titleSuffix | `Float` | Title Suffix |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4670,43 +4670,43 @@
 
 ### ConfigurationResortBookingMethodDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| bookingmethodid | `String` | Bookingmethodid |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralDescription | `String` | Central Description |
-| centralReservationMethod | `String` | Central Reservation Method |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reservationMethod | `String` | Reservation Method |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | bookingmethodid | `String` | Bookingmethodid |
+| 2 | businessTitle | `String` | Business Title |
+| 3 | canDeleteYn | `String` | Can Delete Y/N |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralReservationMethod | `String` | Central Reservation Method |
+| 6 | centralSequence | `Float` | Central Sequence |
+| 7 | chainCode | `String` | Chain Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 14 | inactiveDate | `DateTime` | Inactive Date |
+| 15 | inactiveflag | `String` | Inactive Flag |
+| 16 | insertDate | `DateTime` | Insert Date |
+| 17 | insertUser | `Float` | Insert User |
+| 18 | jRNUpdateDate | `Date` | JRN Update Date |
+| 19 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repItem | `String` | Reporting Item |
+| 28 | repItemName | `String` | Reporting Item Name |
+| 29 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 30 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 31 | reservationMethod | `String` | Reservation Method |
+| 32 | sequence | `Float` | Sequence |
+| 33 | titleSuffix | `Float` | Title Suffix |
+| 34 | updateDate | `DateTime` | Update Date |
+| 35 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4714,30 +4714,30 @@
 
 ### ConfigurationResortPropertyCutoffScheduleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Unique code to identify a Wash schedule. |
-| cutoffRooms2 | `Float` | Number of rooms that should be washed for Occupancy 2. |
-| cutoffRooms3 | `Float` | Number of rooms that should be washed for Occupancy 3. |
-| cutoffRooms4 | `Float` | Number of rooms that should be washed  for Occupancy 4. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysPriorToArrival | `Float` | Cut off days for the stay date. |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rooms | `Float` | Number of rooms that should be washed. |
-| sell | `Float` | Wash value for sell limits when the SELL LIMITS parameter is ON. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| washByPercent | `Float` | Cutoff Percentage. |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Unique code to identify a Wash schedule. |
+| 2 | cutoffRooms2 | `Float` | Number of rooms that should be washed for Occupancy 2. |
+| 3 | cutoffRooms3 | `Float` | Number of rooms that should be washed for Occupancy 3. |
+| 4 | cutoffRooms4 | `Float` | Number of rooms that should be washed  for Occupancy 4. |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | daysPriorToArrival | `Float` | Cut off days for the stay date. |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Property |
+| 16 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 17 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 18 | rooms | `Float` | Number of rooms that should be washed. |
+| 19 | sell | `Float` | Wash value for sell limits when the SELL LIMITS parameter is ON. |
+| 20 | updateDate | `DateTime` | Update Date |
+| 21 | updateUser | `Float` | Update User |
+| 22 | washByPercent | `Float` | Cutoff Percentage. |
 
 [⬆ Back to Query](#query)
 
@@ -4745,49 +4745,49 @@
 
 ### ConfigurationResortBookingStatusDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowPickupYN | `String` | Allow Pickup YN |
-| bookingstatusid | `String` | Bookingstatusid |
-| cateringStatusType | `String` | Catering Status Type |
-| cateringdeductinvflag | `String` | Cateringdeductinvflag |
-| centralDescription | `String` | Central Description |
-| centralEventStatus | `String` | Central Event Status |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deductinventoryflag | `String` | Deductinventoryflag |
-| defaultReservationType | `String` | Default reservation type |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| diaryYN | `String` | Show the booking status in the diary |
-| displayColor | `String` | Display Color |
-| fitStatusYn | `String` | Indicates an FIT statuscode. |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| leadStatusYn | `String` | Indicates if this Booking Status is an Initial Lead status. |
-| logCateringYn | `String` | Will store the information whether the details_ok_yn flag of allotment_header will be set to Y. This operation is done at trigger level. |
-| oRMSYN | `String` | Indicates that the blocks in this status will be considered by ORMS for forecasting. |
-| oldBlockStatus | `String` | Old Block Status |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| reasonType | `String` | Type of the reason for the booking status |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| returnInventoryYN | `String` | Return Inventory YN |
-| roomStatusType | `String` | Room Status Type |
-| sequence | `Float` | Sequence |
-| startingYN | `String` | Booking starting status (intial pickup) |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowPickupYN | `String` | Allow Pickup YN |
+| 2 | bookingstatusid | `String` | Bookingstatusid |
+| 3 | cateringStatusType | `String` | Catering Status Type |
+| 4 | cateringdeductinvflag | `String` | Cateringdeductinvflag |
+| 5 | centralDescription | `String` | Central Description |
+| 6 | centralEventStatus | `String` | Central Event Status |
+| 7 | centralSequence | `Float` | Central Sequence |
+| 8 | chainCode | `String` | Chain Code |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deductinventoryflag | `String` | Deductinventoryflag |
+| 11 | defaultReservationType | `String` | Default reservation type |
+| 12 | deletedflag | `String` | Deleted Flag |
+| 13 | description | `String` | Description |
+| 14 | diaryYN | `String` | Show the booking status in the diary |
+| 15 | displayColor | `String` | Display Color |
+| 16 | fitStatusYn | `String` | Indicates an FIT statuscode. |
+| 17 | inactiveflag | `String` | Inactive Flag |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | leadStatusYn | `String` | Indicates if this Booking Status is an Initial Lead status. |
+| 23 | logCateringYn | `String` | Will store the information whether the details_ok_yn flag of allotment_header will be set to Y. This operation is done at trigger level. |
+| 24 | oRMSYN | `String` | Indicates that the blocks in this status will be considered by ORMS for forecasting. |
+| 25 | oldBlockStatus | `String` | Old Block Status |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 30 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 31 | reasonType | `String` | Type of the reason for the booking status |
+| 32 | repItem | `String` | Reporting Item |
+| 33 | repItemName | `String` | Reporting Item Name |
+| 34 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 35 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 36 | returnInventoryYN | `String` | Return Inventory YN |
+| 37 | roomStatusType | `String` | Room Status Type |
+| 38 | sequence | `Float` | Sequence |
+| 39 | startingYN | `String` | Booking starting status (intial pickup) |
+| 40 | updateDate | `DateTime` | Update Date |
+| 41 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4795,65 +4795,65 @@
 
 ### ConfigurationResortCancelRuleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allotmentHeaderId | `Float` | Allotment Header ID |
-| amount | `Float` | Amount |
-| applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
-| beforeTime | `DateTime` | Before Time |
-| beginDate | `Date` | Begin Date |
-| cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
-| cDepAmount | `Float` | Central Dep Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| code | `String` | Code |
-| creditRating | `String` | Credit Rating |
-| d1 | `String` | D1 |
-| d2 | `String` | For future use |
-| d3 | `String` | Internal date column. |
-| d4 | `String` | Internal date column. |
-| d5 | `String` | Internal date column. |
-| d6 | `String` | Internal date column. |
-| d7 | `String` | Internal date column. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysBeforeArrival | `Float` | Days Before Arrival |
-| daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
-| deletedflag | `String` | Deleted Flag |
-| depositAmount | `Float` | Deposit Amount |
-| depositAmountType | `String` | Deposit Amount Type |
-| depositDaysAfterBooking | `Float` | Deposit Days After Booking |
-| depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
-| depositcancelruleid | `Float` | Depositcancelruleid |
-| depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
-| depositorCancellationRule | `String` | Depositor Cancellation Rule |
-| description | `String` | Description |
-| endDate | `Date` | End Date |
-| guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| overrideYn | `String` | override allowed or not for booking. |
-| parentRateDcSeq | `Float` | Refers to Master ID for this child record |
-| paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateCodeDescription | `String` | Rate Code Description |
-| rateSetId | `Float` | Rate Set ID |
-| repSeasonCode | `String` | Reporting Season Code |
-| reservationType | `String` | Reservation Type |
-| seasonCode | `String` | Season Code |
-| sequence | `Float` | Sequence |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 2 | amount | `Float` | Amount |
+| 3 | applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
+| 4 | beforeTime | `DateTime` | Before Time |
+| 5 | beginDate | `Date` | Begin Date |
+| 6 | cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
+| 7 | cDepAmount | `Float` | Central Dep Amount |
+| 8 | cExchangeDate | `Date` | Central Xchange Date |
+| 9 | cExchangeRate | `Float` | Central Xchange Rate |
+| 10 | code | `String` | Code |
+| 11 | creditRating | `String` | Credit Rating |
+| 12 | d1 | `String` | D1 |
+| 13 | d2 | `String` | For future use |
+| 14 | d3 | `String` | Internal date column. |
+| 15 | d4 | `String` | Internal date column. |
+| 16 | d5 | `String` | Internal date column. |
+| 17 | d6 | `String` | Internal date column. |
+| 18 | d7 | `String` | Internal date column. |
+| 19 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 20 | daysBeforeArrival | `Float` | Days Before Arrival |
+| 21 | daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
+| 22 | deletedflag | `String` | Deleted Flag |
+| 23 | depositAmount | `Float` | Deposit Amount |
+| 24 | depositAmountType | `String` | Deposit Amount Type |
+| 25 | depositDaysAfterBooking | `Float` | Deposit Days After Booking |
+| 26 | depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
+| 27 | depositcancelruleid | `Float` | Depositcancelruleid |
+| 28 | depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
+| 29 | depositorCancellationRule | `String` | Depositor Cancellation Rule |
+| 30 | description | `String` | Description |
+| 31 | endDate | `Date` | End Date |
+| 32 | guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
+| 33 | inactiveDate | `DateTime` | Inactive Date |
+| 34 | inactiveflag | `String` | Inactive Flag |
+| 35 | insertDate | `DateTime` | Insert Date |
+| 36 | insertUser | `Float` | Insert User |
+| 37 | jRNUpdateDate | `Date` | JRN Update Date |
+| 38 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 39 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 40 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 41 | overrideYn | `String` | override allowed or not for booking. |
+| 42 | parentRateDcSeq | `Float` | Refers to Master ID for this child record |
+| 43 | paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
+| 44 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 45 | property | `String` | Property |
+| 46 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 47 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 48 | rateCode | `String` | Rate Code |
+| 49 | rateCodeDescription | `String` | Rate Code Description |
+| 50 | rateSetId | `Float` | Rate Set ID |
+| 51 | repSeasonCode | `String` | Reporting Season Code |
+| 52 | reservationType | `String` | Reservation Type |
+| 53 | seasonCode | `String` | Season Code |
+| 54 | sequence | `Float` | Sequence |
+| 55 | type | `String` | Type |
+| 56 | updateDate | `DateTime` | Update Date |
+| 57 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4861,66 +4861,66 @@
 
 ### ConfigurationResortCancelRuleScheduleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allotmentHeaderId | `Float` | Allotment Header ID |
-| applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
-| beginDate | `Date` | Begin Date |
-| blockCode | `String` | Block Code |
-| cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
-| cDepAmount | `Float` | Central Dep Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| canBeforeTime | `DateTime` | Can Before Time |
-| canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
-| canPenaltyAmount | `Float` | Can Penalty Amount |
-| canPenaltyAmountType | `String` | Can Penalty Amount Type |
-| creditRating | `String` | Credit Rating |
-| d1 | `String` | D1 |
-| d2 | `String` | For future use |
-| d3 | `String` | Internal date column. |
-| d4 | `String` | Internal date column. |
-| d5 | `String` | Internal date column. |
-| d6 | `String` | Internal date column. |
-| d7 | `String` | Internal date column. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
-| deletedflag | `String` | Deleted Flag |
-| depositAmount | `Float` | Deposit Amount |
-| depositAmountType | `String` | Deposit Amount Type |
-| depositDaysAfterBooking | `Float` | Deposit Days After Booking |
-| depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
-| depositcancelruleid | `Float` | Depositcancelruleid |
-| depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
-| depositorCancellationRule | `String` | Depositor Cancellation Rule |
-| endDate | `Date` | End Date |
-| guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| overrideYN | `String` | override allowed or not for booking. |
-| parentRateDcSeq | `Float` | Refers to Master ID for this child record |
-| paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateCodeDescription | `String` | Rate Code Description |
-| rateSetId | `Float` | Rate Set ID |
-| repSeasonCode | `String` | Reporting Season Code |
-| reservationType | `String` | Reservation Type |
-| rule | `String` | Rule |
-| ruleDescription | `String` | Rule Description |
-| seasonCode | `String` | Season Code |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 2 | applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
+| 3 | beginDate | `Date` | Begin Date |
+| 4 | blockCode | `String` | Block Code |
+| 5 | cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
+| 6 | cDepAmount | `Float` | Central Dep Amount |
+| 7 | cExchangeDate | `Date` | Central Xchange Date |
+| 8 | cExchangeRate | `Float` | Central Xchange Rate |
+| 9 | canBeforeTime | `DateTime` | Can Before Time |
+| 10 | canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
+| 11 | canPenaltyAmount | `Float` | Can Penalty Amount |
+| 12 | canPenaltyAmountType | `String` | Can Penalty Amount Type |
+| 13 | creditRating | `String` | Credit Rating |
+| 14 | d1 | `String` | D1 |
+| 15 | d2 | `String` | For future use |
+| 16 | d3 | `String` | Internal date column. |
+| 17 | d4 | `String` | Internal date column. |
+| 18 | d5 | `String` | Internal date column. |
+| 19 | d6 | `String` | Internal date column. |
+| 20 | d7 | `String` | Internal date column. |
+| 21 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 22 | daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
+| 23 | deletedflag | `String` | Deleted Flag |
+| 24 | depositAmount | `Float` | Deposit Amount |
+| 25 | depositAmountType | `String` | Deposit Amount Type |
+| 26 | depositDaysAfterBooking | `Float` | Deposit Days After Booking |
+| 27 | depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
+| 28 | depositcancelruleid | `Float` | Depositcancelruleid |
+| 29 | depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
+| 30 | depositorCancellationRule | `String` | Depositor Cancellation Rule |
+| 31 | endDate | `Date` | End Date |
+| 32 | guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
+| 33 | inactiveDate | `DateTime` | Inactive Date |
+| 34 | inactiveYN | `String` | Inactive YN |
+| 35 | insertDate | `DateTime` | Insert Date |
+| 36 | insertUser | `Float` | Insert User |
+| 37 | jRNUpdateDate | `Date` | JRN Update Date |
+| 38 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 39 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 40 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 41 | overrideYN | `String` | override allowed or not for booking. |
+| 42 | parentRateDcSeq | `Float` | Refers to Master ID for this child record |
+| 43 | paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
+| 44 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 45 | property | `String` | Property |
+| 46 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 47 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 48 | rateCode | `String` | Rate Code |
+| 49 | rateCodeDescription | `String` | Rate Code Description |
+| 50 | rateSetId | `Float` | Rate Set ID |
+| 51 | repSeasonCode | `String` | Reporting Season Code |
+| 52 | reservationType | `String` | Reservation Type |
+| 53 | rule | `String` | Rule |
+| 54 | ruleDescription | `String` | Rule Description |
+| 55 | seasonCode | `String` | Season Code |
+| 56 | sequence | `Float` | Sequence |
+| 57 | updateDate | `DateTime` | Update Date |
+| 58 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4928,65 +4928,65 @@
 
 ### ConfigurationResortDepositRuleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| afterBooking | `Float` | After Booking |
-| allotmentHeaderId | `Float` | Allotment Header ID |
-| amount | `Float` | Amount |
-| applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
-| beforeArrival | `Float` | Before Arrival |
-| beginDate | `Date` | Begin Date |
-| cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
-| cDepAmount | `Float` | Central Dep Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| canBeforeTime | `Date` | Can Before Time |
-| canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
-| canPenaltyAmount | `Float` | Can Penalty Amount |
-| canPenaltyAmountType | `String` | Can Penalty Amount Type |
-| creditRating | `String` | Credit Rating |
-| d1 | `String` | D1 |
-| d2 | `String` | For future use |
-| d3 | `String` | Internal date column. |
-| d4 | `String` | Internal date column. |
-| d5 | `String` | Internal date column. |
-| d6 | `String` | Internal date column. |
-| d7 | `String` | Internal date column. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
-| deletedflag | `String` | Deleted Flag |
-| depositRule | `String` | Deposit Rule |
-| depositcancelruleid | `Float` | Depositcancelruleid |
-| depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
-| depositorCancellationRule | `String` | Depositor Cancellation Rule |
-| description | `String` | Description |
-| endDate | `Date` | End Date |
-| guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| overrideYn | `String` | override allowed or not for booking. |
-| parentRateDcSeq | `Float` | Refers to Master ID for this child record |
-| paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateCodeDescription | `String` | Rate Code Description |
-| rateSetId | `Float` | Rate Set ID |
-| repSeasonCode | `String` | Reporting Season Code |
-| reservationType | `String` | Reservation Type |
-| seasonCode | `String` | Season Code |
-| sequence | `Float` | Sequence |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | afterBooking | `Float` | After Booking |
+| 2 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 3 | amount | `Float` | Amount |
+| 4 | applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
+| 5 | beforeArrival | `Float` | Before Arrival |
+| 6 | beginDate | `Date` | Begin Date |
+| 7 | cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
+| 8 | cDepAmount | `Float` | Central Dep Amount |
+| 9 | cExchangeDate | `Date` | Central Xchange Date |
+| 10 | cExchangeRate | `Float` | Central Xchange Rate |
+| 11 | canBeforeTime | `Date` | Can Before Time |
+| 12 | canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
+| 13 | canPenaltyAmount | `Float` | Can Penalty Amount |
+| 14 | canPenaltyAmountType | `String` | Can Penalty Amount Type |
+| 15 | creditRating | `String` | Credit Rating |
+| 16 | d1 | `String` | D1 |
+| 17 | d2 | `String` | For future use |
+| 18 | d3 | `String` | Internal date column. |
+| 19 | d4 | `String` | Internal date column. |
+| 20 | d5 | `String` | Internal date column. |
+| 21 | d6 | `String` | Internal date column. |
+| 22 | d7 | `String` | Internal date column. |
+| 23 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 24 | daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
+| 25 | deletedflag | `String` | Deleted Flag |
+| 26 | depositRule | `String` | Deposit Rule |
+| 27 | depositcancelruleid | `Float` | Depositcancelruleid |
+| 28 | depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
+| 29 | depositorCancellationRule | `String` | Depositor Cancellation Rule |
+| 30 | description | `String` | Description |
+| 31 | endDate | `Date` | End Date |
+| 32 | guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
+| 33 | inactiveDate | `Date` | Inactive Date |
+| 34 | inactiveYN | `String` | Inactive YN |
+| 35 | insertDate | `DateTime` | Insert Date |
+| 36 | insertUser | `Float` | Insert User |
+| 37 | jRNUpdateDate | `Date` | JRN Update Date |
+| 38 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 39 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 40 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 41 | overrideYn | `String` | override allowed or not for booking. |
+| 42 | parentRateDcSeq | `Float` | Refers to Master ID for this child record |
+| 43 | paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
+| 44 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 45 | property | `String` | Property |
+| 46 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 47 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 48 | rateCode | `String` | Rate Code |
+| 49 | rateCodeDescription | `String` | Rate Code Description |
+| 50 | rateSetId | `Float` | Rate Set ID |
+| 51 | repSeasonCode | `String` | Reporting Season Code |
+| 52 | reservationType | `String` | Reservation Type |
+| 53 | seasonCode | `String` | Season Code |
+| 54 | sequence | `Float` | Sequence |
+| 55 | type | `String` | Type |
+| 56 | updateDate | `DateTime` | Update Date |
+| 57 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -4994,66 +4994,66 @@
 
 ### ConfigurationResortDepositRuleScheduleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allotmentHeaderId | `Float` | Allotment Header ID |
-| applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
-| beginDate | `Date` | Begin Date |
-| blockCode | `String` | Block Code |
-| cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
-| cDepAmount | `Float` | Central Dep Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| canBeforeTime | `DateTime` | Can Before Time |
-| canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
-| canPenaltyAmount | `Float` | Can Penalty Amount |
-| canPenaltyAmountType | `String` | Can Penalty Amount Type |
-| creditRating | `String` | Credit Rating |
-| d1 | `String` | D1 |
-| d2 | `String` | For future use |
-| d3 | `String` | Internal date column. |
-| d4 | `String` | Internal date column. |
-| d5 | `String` | Internal date column. |
-| d6 | `String` | Internal date column. |
-| d7 | `String` | Internal date column. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
-| deletedflag | `String` | Deleted Flag |
-| depositAmount | `Float` | Deposit Amount |
-| depositAmountType | `String` | Deposit Amount Type |
-| depositDaysAfterBooking | `Float` | Deposit Days After Booking |
-| depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
-| depositcancelruleid | `Float` | Depositcancelruleid |
-| depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
-| depositorCancellationRule | `String` | Depositor Cancellation Rule |
-| endDate | `Date` | End Date |
-| guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| overrideYN | `String` | override allowed or not for booking. |
-| parentRateDcSeq | `Float` | Refers to Master ID for this child record |
-| paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateCodeDescription | `String` | Rate Code Description |
-| rateSetId | `Float` | Rate Set ID |
-| repSeasonCode | `String` | Reporting Season Code |
-| reservationType | `String` | Reservation Type |
-| rule | `String` | Rule |
-| ruleDescription | `String` | Rule Description |
-| seasonCode | `String` | Season Code |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 2 | applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
+| 3 | beginDate | `Date` | Begin Date |
+| 4 | blockCode | `String` | Block Code |
+| 5 | cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
+| 6 | cDepAmount | `Float` | Central Dep Amount |
+| 7 | cExchangeDate | `Date` | Central Xchange Date |
+| 8 | cExchangeRate | `Float` | Central Xchange Rate |
+| 9 | canBeforeTime | `DateTime` | Can Before Time |
+| 10 | canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
+| 11 | canPenaltyAmount | `Float` | Can Penalty Amount |
+| 12 | canPenaltyAmountType | `String` | Can Penalty Amount Type |
+| 13 | creditRating | `String` | Credit Rating |
+| 14 | d1 | `String` | D1 |
+| 15 | d2 | `String` | For future use |
+| 16 | d3 | `String` | Internal date column. |
+| 17 | d4 | `String` | Internal date column. |
+| 18 | d5 | `String` | Internal date column. |
+| 19 | d6 | `String` | Internal date column. |
+| 20 | d7 | `String` | Internal date column. |
+| 21 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 22 | daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
+| 23 | deletedflag | `String` | Deleted Flag |
+| 24 | depositAmount | `Float` | Deposit Amount |
+| 25 | depositAmountType | `String` | Deposit Amount Type |
+| 26 | depositDaysAfterBooking | `Float` | Deposit Days After Booking |
+| 27 | depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
+| 28 | depositcancelruleid | `Float` | Depositcancelruleid |
+| 29 | depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
+| 30 | depositorCancellationRule | `String` | Depositor Cancellation Rule |
+| 31 | endDate | `Date` | End Date |
+| 32 | guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
+| 33 | inactiveDate | `DateTime` | Inactive Date |
+| 34 | inactiveYN | `String` | Inactive YN |
+| 35 | insertDate | `DateTime` | Insert Date |
+| 36 | insertUser | `Float` | Insert User |
+| 37 | jRNUpdateDate | `Date` | JRN Update Date |
+| 38 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 39 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 40 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 41 | overrideYN | `String` | override allowed or not for booking. |
+| 42 | parentRateDcSeq | `Float` | Refers to Master ID for this child record |
+| 43 | paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
+| 44 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 45 | property | `String` | Property |
+| 46 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 47 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 48 | rateCode | `String` | Rate Code |
+| 49 | rateCodeDescription | `String` | Rate Code Description |
+| 50 | rateSetId | `Float` | Rate Set ID |
+| 51 | repSeasonCode | `String` | Reporting Season Code |
+| 52 | reservationType | `String` | Reservation Type |
+| 53 | rule | `String` | Rule |
+| 54 | ruleDescription | `String` | Rule Description |
+| 55 | seasonCode | `String` | Season Code |
+| 56 | sequence | `Float` | Sequence |
+| 57 | updateDate | `DateTime` | Update Date |
+| 58 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5061,56 +5061,56 @@
 
 ### ConfigurationResortGuaranteeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addressYN | `String` | Is an address required when using this confirm code? Y/N |
-| arrivalYN | `String` | Arrival Time needed |
-| autoCancelReservationYN | `String` | Indicates whether a reservation of this type will be auto cancelled if no payment or CC is not received. |
-| bookingStatus | `String` | Booking Status |
-| bookingStatusOrder | `String` | Booking Status Order |
-| canDeleteYn | `String` | Can Delete Y/N |
-| cashBasisYn | `String` | Is a reservation with this confirm code on a cash basis? Y/N |
-| ccPendingDays | `Float` | Cc Pending Days |
-| ccVerifyCodeRequiredYn | `String` | Used for GDS channels and indicates the requirement of verification code. |
-| centralReservationType | `String` | Central Reservation Type |
-| centralReservationTypeDescription | `String` | Central Reservation Type Description |
-| closingProbability | `Float` | A probability to have a revenue out of the reservation guaranted by this guaranted code |
-| creditCardYN | `String` | Credit card needed |
-| croAllowedYn | `String` | Is the CRO allowed to use this confirm code? Y/N |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| depositYN | `String` | Deposit YN |
-| gDSShortDescription | `String` | External GDS Description |
-| guaranteecodeid | `String` | Guaranteecodeid |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalYn | `String` | Internal Y/N |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| longDescription | `String` | Long Description |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| phoneYN | `String` | Is a phone # required when using this confirm code? Y/N |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reservationType | `String` | Reservation Type |
-| reservationTypeDescription | `String` | Reservation Type Description |
-| reserveInventoryYn | `String` | Reserve Inventory Y/N |
-| restrictedYn | `String` | Restricted Y/N |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| shortDescription | `String` | Short Description |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addressYN | `String` | Is an address required when using this confirm code? Y/N |
+| 2 | arrivalYN | `String` | Arrival Time needed |
+| 3 | autoCancelReservationYN | `String` | Indicates whether a reservation of this type will be auto cancelled if no payment or CC is not received. |
+| 4 | bookingStatus | `String` | Booking Status |
+| 5 | bookingStatusOrder | `String` | Booking Status Order |
+| 6 | canDeleteYn | `String` | Can Delete Y/N |
+| 7 | cashBasisYn | `String` | Is a reservation with this confirm code on a cash basis? Y/N |
+| 8 | ccPendingDays | `Float` | Cc Pending Days |
+| 9 | ccVerifyCodeRequiredYn | `String` | Used for GDS channels and indicates the requirement of verification code. |
+| 10 | centralReservationType | `String` | Central Reservation Type |
+| 11 | centralReservationTypeDescription | `String` | Central Reservation Type Description |
+| 12 | closingProbability | `Float` | A probability to have a revenue out of the reservation guaranted by this guaranted code |
+| 13 | creditCardYN | `String` | Credit card needed |
+| 14 | croAllowedYn | `String` | Is the CRO allowed to use this confirm code? Y/N |
+| 15 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 16 | deletedFlag | `String` | Deleted Flag |
+| 17 | depositYN | `String` | Deposit YN |
+| 18 | gDSShortDescription | `String` | External GDS Description |
+| 19 | guaranteecodeid | `String` | Guaranteecodeid |
+| 20 | inactiveDate | `DateTime` | Inactive Date |
+| 21 | inactiveYN | `String` | Inactive YN |
+| 22 | insertDate | `DateTime` | Insert Date |
+| 23 | insertUser | `Float` | Insert User |
+| 24 | internalDeletedflag | `String` | Deleted Flag |
+| 25 | internalYn | `String` | Internal Y/N |
+| 26 | jRNUpdateDate | `Date` | JRN Update Date |
+| 27 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 28 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 29 | longDescription | `String` | Long Description |
+| 30 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 31 | phoneYN | `String` | Is a phone # required when using this confirm code? Y/N |
+| 32 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 33 | property | `String` | Property |
+| 34 | repItem | `String` | Reporting Item |
+| 35 | repItemName | `String` | Reporting Item Name |
+| 36 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 37 | repOrderBy | `Float` | Reporting Order By |
+| 38 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 39 | reservationType | `String` | Reservation Type |
+| 40 | reservationTypeDescription | `String` | Reservation Type Description |
+| 41 | reserveInventoryYn | `String` | Reserve Inventory Y/N |
+| 42 | restrictedYn | `String` | Restricted Y/N |
+| 43 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 44 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 45 | sequence | `Float` | Sequence |
+| 46 | shortDescription | `String` | Short Description |
+| 47 | updateDate | `DateTime` | Update Date |
+| 48 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5118,66 +5118,66 @@
 
 ### ConfigurationResortReservationTypeScheduleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allotmentHeaderId | `Float` | Allotment Header ID |
-| applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
-| beginDate | `Date` | Begin Date |
-| cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
-| cDepAmount | `Float` | Central Dep Amount |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| canBeforeTime | `Date` | Can Before Time |
-| canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
-| canPenaltyAmount | `Float` | Can Penalty Amount |
-| canPenaltyAmountType | `String` | Can Penalty Amount Type |
-| creditRating | `String` | Credit Rating |
-| d1 | `String` | D1 |
-| d2 | `String` | For future use |
-| d3 | `String` | Internal date column. |
-| d4 | `String` | Internal date column. |
-| d5 | `String` | Internal date column. |
-| d6 | `String` | Internal date column. |
-| d7 | `String` | Internal date column. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
-| deletedflag | `String` | Deleted Flag |
-| depositAmount | `Float` | Deposit Amount |
-| depositAmountType | `String` | Deposit Amount Type |
-| depositDaysAfterBooking | `Float` | Deposit Days After Booking |
-| depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
-| depositcancelruleid | `Float` | Depositcancelruleid |
-| depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
-| depositorCancellationRule | `String` | Depositor Cancellation Rule |
-| description | `String` | Description |
-| endDate | `Date` | End Date |
-| guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| orderBy | `Float` | Order By |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| overrideYN | `String` | override allowed or not for booking. |
-| parentRateDcSeq | `Float` | Refers to Master ID for this child record |
-| paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| rateCodeDescription | `String` | Rate Code Description |
-| rateSetId | `Float` | Rate Set ID |
-| repSeasonCode | `String` | Reporting Season Code |
-| reservationType | `String` | Reservation Type |
-| ruleCode | `String` | Rule Code |
-| ruledescription | `String` | Ruledescription |
-| seasonCode | `String` | Season Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 2 | applyRuleTo | `String` | For Web Bookings only the deposit amount will be calculated either from room or catering revenue or from both. This column stores either: [ALL] [ROOMS] or [CATERING]. |
+| 3 | beginDate | `Date` | Begin Date |
+| 4 | cCnclPenltyAmount | `Float` | Central Cncl Penlty Amount |
+| 5 | cDepAmount | `Float` | Central Dep Amount |
+| 6 | cExchangeDate | `Date` | Central Xchange Date |
+| 7 | cExchangeRate | `Float` | Central Xchange Rate |
+| 8 | canBeforeTime | `Date` | Can Before Time |
+| 9 | canDaysPriorToArrival | `Float` | Can Days Prior To Arrival |
+| 10 | canPenaltyAmount | `Float` | Can Penalty Amount |
+| 11 | canPenaltyAmountType | `String` | Can Penalty Amount Type |
+| 12 | creditRating | `String` | Credit Rating |
+| 13 | d1 | `String` | D1 |
+| 14 | d2 | `String` | For future use |
+| 15 | d3 | `String` | Internal date column. |
+| 16 | d4 | `String` | Internal date column. |
+| 17 | d5 | `String` | Internal date column. |
+| 18 | d6 | `String` | Internal date column. |
+| 19 | d7 | `String` | Internal date column. |
+| 20 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 21 | daysofweek | `String` | Day of week values as Y or N applicable for the cancel policies starting Sun to Sat. |
+| 22 | deletedflag | `String` | Deleted Flag |
+| 23 | depositAmount | `Float` | Deposit Amount |
+| 24 | depositAmountType | `String` | Deposit Amount Type |
+| 25 | depositDaysAfterBooking | `Float` | Deposit Days After Booking |
+| 26 | depositDaysPriorToArrival | `Float` | Deposit Days Prior To Arrival |
+| 27 | depositcancelruleid | `Float` | Depositcancelruleid |
+| 28 | depositcancelrulepmsref | `Float` | Deposit Cancel Rule PMS Reference |
+| 29 | depositorCancellationRule | `String` | Depositor Cancellation Rule |
+| 30 | description | `String` | Description |
+| 31 | endDate | `Date` | End Date |
+| 32 | guaranteeClass | `String` | Guarantee class for cancel policy. Specifically added for BWI. |
+| 33 | inactiveDate | `Date` | Inactive Date |
+| 34 | inactiveYN | `String` | Inactive YN |
+| 35 | insertDate | `DateTime` | Insert Date |
+| 36 | insertUser | `Float` | Insert User |
+| 37 | jRNUpdateDate | `Date` | JRN Update Date |
+| 38 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 39 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 40 | orderBy | `Float` | Order By |
+| 41 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 42 | overrideYN | `String` | override allowed or not for booking. |
+| 43 | parentRateDcSeq | `Float` | Refers to Master ID for this child record |
+| 44 | paymentRequired | `String` | Payment Required within Rule Period. (FULL NONE PARTIAL) |
+| 45 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 46 | property | `String` | Property |
+| 47 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 48 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 49 | rateCode | `String` | Rate Code |
+| 50 | rateCodeDescription | `String` | Rate Code Description |
+| 51 | rateSetId | `Float` | Rate Set ID |
+| 52 | repSeasonCode | `String` | Reporting Season Code |
+| 53 | reservationType | `String` | Reservation Type |
+| 54 | ruleCode | `String` | Rule Code |
+| 55 | ruledescription | `String` | Ruledescription |
+| 56 | seasonCode | `String` | Season Code |
+| 57 | updateDate | `DateTime` | Update Date |
+| 58 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5185,47 +5185,47 @@
 
 ### ConfigurationResortMarketDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralMarketCode | `String` | Central Market Code |
-| centralMarketDescription | `String` | Central Market Description |
-| centralMarketGroupCode | `String` | Central Market Group Code |
-| centralMarketGroupDescription | `String` | Central Market Group Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| displayColor | `String` | Display Color |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| marketCode | `String` | Market Code |
-| marketDescription | `String` | Market Description |
-| marketDisplaySequence | `Float` | Market Display Sequence |
-| marketGroupCode | `String` | Market group attached to the market code |
-| marketGroupDescription | `String` | Market Group Description |
-| marketGroupDisplaySequence | `Float` | Market Group Display Sequence |
-| marketgroupid | `String` | Marketgroupid |
-| marketid | `String` | Marketid |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printGroup | `String` | Print Group for Nationality Report |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repMarketSellSequence | `Float` | Reporting Market Sell Sequence |
-| repParentSellSequence | `Float` | Reporting Parent Sell Sequence |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| scOrderby | `Float` | Sc Orderby |
-| trxCode | `String` | Transaction Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralMarketCode | `String` | Central Market Code |
+| 2 | centralMarketDescription | `String` | Central Market Description |
+| 3 | centralMarketGroupCode | `String` | Central Market Group Code |
+| 4 | centralMarketGroupDescription | `String` | Central Market Group Description |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | displayColor | `String` | Display Color |
+| 8 | inactiveDate | `DateTime` | Inactive Date |
+| 9 | inactiveYN | `String` | Inactive YN |
+| 10 | insertDate | `DateTime` | Insert Date |
+| 11 | insertUser | `Float` | Insert User |
+| 12 | internalDeletedflag | `String` | Deleted Flag |
+| 13 | jRNUpdateDate | `Date` | JRN Update Date |
+| 14 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 15 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 16 | marketCode | `String` | Market Code |
+| 17 | marketDescription | `String` | Market Description |
+| 18 | marketDisplaySequence | `Float` | Market Display Sequence |
+| 19 | marketGroupCode | `String` | Market group attached to the market code |
+| 20 | marketGroupDescription | `String` | Market Group Description |
+| 21 | marketGroupDisplaySequence | `Float` | Market Group Display Sequence |
+| 22 | marketgroupid | `String` | Marketgroupid |
+| 23 | marketid | `String` | Marketid |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | printGroup | `String` | Print Group for Nationality Report |
+| 27 | property | `String` | Property |
+| 28 | repItem | `String` | Reporting Item |
+| 29 | repItemName | `String` | Reporting Item Name |
+| 30 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 31 | repMarketSellSequence | `Float` | Reporting Market Sell Sequence |
+| 32 | repParentSellSequence | `Float` | Reporting Parent Sell Sequence |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | scOrderby | `Float` | Sc Orderby |
+| 37 | trxCode | `String` | Transaction Code |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5233,39 +5233,39 @@
 
 ### ConfigurationResortMarketGroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| autoupgradeYn | `String` | Defines whether this Market Group is eligible for auto upgrade of room types in the Room Assignment Optimization. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| marketGroup | `String` | Market group code |
-| marketgroupid | `String` | Marketgroupid |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repMarketGroup | `String` | Reporting Market Group |
-| repSellSequence | `Float` | Reporting Sell Sequence |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| scOrderBy | `Float` | Sc Order By |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | autoupgradeYn | `String` | Defines whether this Market Group is eligible for auto upgrade of room types in the Room Assignment Optimization. |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | inactiveDate | `DateTime` | Inactive Date |
+| 6 | inactiveYN | `String` | Inactive YN |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | internalDeletedflag | `String` | Deleted Flag |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 13 | marketGroup | `String` | Market group code |
+| 14 | marketgroupid | `String` | Marketgroupid |
+| 15 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 16 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 17 | property | `String` | Property |
+| 18 | ranking | `Float` | Ranking |
+| 19 | repDescription | `String` | Reporting Description |
+| 20 | repItem | `String` | Reporting Item |
+| 21 | repItemName | `String` | Reporting Item Name |
+| 22 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 23 | repMarketGroup | `String` | Reporting Market Group |
+| 24 | repSellSequence | `Float` | Reporting Sell Sequence |
+| 25 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 26 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 27 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 28 | scOrderBy | `Float` | Sc Order By |
+| 29 | sequence | `Float` | Sequence |
+| 30 | updateDate | `DateTime` | Update Date |
+| 31 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5273,31 +5273,31 @@
 
 ### ConfigurationResortPropertyMarketingCityDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | City Description. |
-| direction | `String` | Direction |
-| displaySeq | `Float` | Display Sequence |
-| distance | `Float` | Distance |
-| distanceType | `String` | Distance Type |
-| drivingTime | `String` | Driving Time |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| marketingCity | `String` | Marketing City |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| regionCode | `String` | Region Code |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 2 | deletedFlag | `String` | Deleted Flag |
+| 3 | description | `String` | City Description. |
+| 4 | direction | `String` | Direction |
+| 5 | displaySeq | `Float` | Display Sequence |
+| 6 | distance | `Float` | Distance |
+| 7 | distanceType | `String` | Distance Type |
+| 8 | drivingTime | `String` | Driving Time |
+| 9 | inactiveDate | `DateTime` | Inactive Date |
+| 10 | inactiveYN | `String` | Inactive YN |
+| 11 | insertDate | `DateTime` | Insert Date |
+| 12 | insertUser | `Float` | Insert User |
+| 13 | jRNUpdateDate | `Date` | JRN Update Date |
+| 14 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 15 | marketingCity | `String` | Marketing City |
+| 16 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 17 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 18 | property | `String` | Property |
+| 19 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 20 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 21 | regionCode | `String` | Region Code |
+| 22 | updateDate | `DateTime` | Update Date |
+| 23 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5305,48 +5305,48 @@
 
 ### ConfigurationResortMarketingRegionsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `Date` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | internalDeletedflag | `String` | Deleted Flag |
+| 17 | jRNUpdateDate | `Date` | JRN Update Date |
+| 18 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 19 | languageCode | `String` | Language Code |
+| 20 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 21 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 22 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 23 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 24 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 25 | property | `String` | Property |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `Date` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | tempFlag | `String` | Temp Flag |
+| 38 | titleSuffix | `Float` | Title Suffix |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5354,46 +5354,46 @@
 
 ### ConfigurationResortChannelDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralOriginCode | `String` | Central Origin Code |
-| centralOriginDescription | `String` | Central Origin Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| channelid | `String` | Channelid |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| originCode | `String` | Origin Code |
-| originDescription | `String` | Origin Description |
-| originDisplaySequence | `Float` | Origin Display Sequence |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralOriginCode | `String` | Central Origin Code |
+| 4 | centralOriginDescription | `String` | Central Origin Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | channelid | `String` | Channelid |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | displayColor | `String` | Display Color |
+| 12 | entityName | `String` | Entity Name |
+| 13 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 14 | inactiveDate | `DateTime` | Inactive Date |
+| 15 | inactiveflag | `String` | Inactive Flag |
+| 16 | insertDate | `DateTime` | Insert Date |
+| 17 | insertUser | `Float` | Insert User |
+| 18 | internalDeletedflag | `String` | Deleted Flag |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 23 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 24 | originCode | `String` | Origin Code |
+| 25 | originDescription | `String` | Origin Description |
+| 26 | originDisplaySequence | `Float` | Origin Display Sequence |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | titleSuffix | `Float` | Title Suffix |
+| 37 | updateDate | `DateTime` | Update Date |
+| 38 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5401,36 +5401,36 @@
 
 ### ConfigurationResortSellMessagesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allotmentHeaderId | `Float` | Allotment Header ID |
-| beginDate | `Date` | Begin Date |
-| blockCode | `String` | Block Code |
-| centralRoomType | `String` | Central Room Type |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| endDate | `Date` | End Date |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| roomCategory | `String` | Room Category |
-| roomType | `String` | Room Type |
-| sellId | `Float` | The primary key for this table. |
-| sellMessage | `String` | The actual message to be displayed. |
-| sequence | `Float` | Sequence |
-| stickyFlag | `String` | Stick the message on top of the screen without scrolling it. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 2 | beginDate | `Date` | Begin Date |
+| 3 | blockCode | `String` | Block Code |
+| 4 | centralRoomType | `String` | Central Room Type |
+| 5 | chainCode | `String` | Chain Code |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | endDate | `Date` | End Date |
+| 8 | inactiveDate | `DateTime` | Inactive Date |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 13 | language | `String` | Language |
+| 14 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 15 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 16 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 17 | property | `String` | Property |
+| 18 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 19 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 20 | rateCode | `String` | Rate Code |
+| 21 | roomCategory | `String` | Room Category |
+| 22 | roomType | `String` | Room Type |
+| 23 | sellId | `Float` | The primary key for this table. |
+| 24 | sellMessage | `String` | The actual message to be displayed. |
+| 25 | sequence | `Float` | Sequence |
+| 26 | stickyFlag | `String` | Stick the message on top of the screen without scrolling it. |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5438,47 +5438,47 @@
 
 ### ConfigurationResortSourceTableDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralSequence | `Float` | Central Sequence |
-| centralSourceCode | `String` | Central Source Code |
-| centralSourceDescription | `String` | Central Source Description |
-| centralSourceGroupCode | `String` | Central Source Group Code |
-| centralSourceGroupDescription | `String` | Central Source Group Description |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedYn | `String` | Row deleted YN (if set to 'Y' then the row joined by SEQ from postal_codes will not be displayed). |
-| deletedflag | `String` | Deleted Flag |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlagYN | `String` | Inactive YN |
-| inactiveYn | `String` | Inactive Y/N |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internetSalesYn | `String` | Indicates if the source code is marked to track internet sales. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| lastuseddatetime | `DateTime` | Lastuseddatetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| parentsourceid | `String` | Parentsourceid |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| sourceCode | `String` | Source Code |
-| sourceDescription | `String` | Source Description |
-| sourceDisplaySequence | `Float` | Source Display Sequence |
-| sourceGroupCode | `String` | Source group of the source code |
-| sourceGroupDescription | `String` | Source Group Description |
-| sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| sourceid | `String` | Sourceid |
-| tempYn | `String` | Temp Y/N |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralSequence | `Float` | Central Sequence |
+| 2 | centralSourceCode | `String` | Central Source Code |
+| 3 | centralSourceDescription | `String` | Central Source Description |
+| 4 | centralSourceGroupCode | `String` | Central Source Group Code |
+| 5 | centralSourceGroupDescription | `String` | Central Source Group Description |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedYn | `String` | Row deleted YN (if set to 'Y' then the row joined by SEQ from postal_codes will not be displayed). |
+| 8 | deletedflag | `String` | Deleted Flag |
+| 9 | inactiveDate | `Date` | Inactive Date |
+| 10 | inactiveFlagYN | `String` | Inactive YN |
+| 11 | inactiveYn | `String` | Inactive Y/N |
+| 12 | insertDate | `DateTime` | Insert Date |
+| 13 | insertUser | `Float` | Insert User |
+| 14 | internetSalesYn | `String` | Indicates if the source code is marked to track internet sales. |
+| 15 | jRNUpdateDate | `Date` | JRN Update Date |
+| 16 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 17 | lastuseddatetime | `DateTime` | Lastuseddatetime |
+| 18 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | parentsourceid | `String` | Parentsourceid |
+| 21 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 22 | property | `String` | Property |
+| 23 | repItem | `String` | Reporting Item |
+| 24 | repItemName | `String` | Reporting Item Name |
+| 25 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 26 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 27 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 28 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 29 | sequence | `Float` | Sequence |
+| 30 | sourceCode | `String` | Source Code |
+| 31 | sourceDescription | `String` | Source Description |
+| 32 | sourceDisplaySequence | `Float` | Source Display Sequence |
+| 33 | sourceGroupCode | `String` | Source group of the source code |
+| 34 | sourceGroupDescription | `String` | Source Group Description |
+| 35 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
+| 36 | sourceid | `String` | Sourceid |
+| 37 | tempYn | `String` | Temp Y/N |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5486,36 +5486,36 @@
 
 ### ConfigurationResortSourceGroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| centralSourceGroup | `String` | Central Source Group |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internetSalesYn | `String` | Indicates if the source code is marked to track internet sales. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| parentSourceCode | `String` | Source group of the source code |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| scOrderby | `Float` | Sc Orderby |
-| sequence | `Float` | Sequence |
-| sourceGroup | `String` | Source Group |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | centralDescription | `String` | Central Description |
+| 2 | centralSequence | `Float` | Central Sequence |
+| 3 | centralSourceGroup | `String` | Central Source Group |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | description | `String` | Description |
+| 7 | inactiveDate | `DateTime` | Inactive Date |
+| 8 | inactiveYN | `String` | Inactive YN |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | internetSalesYn | `String` | Indicates if the source code is marked to track internet sales. |
+| 12 | jRNUpdateDate | `Date` | JRN Update Date |
+| 13 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 14 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 15 | parentSourceCode | `String` | Source group of the source code |
+| 16 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 17 | property | `String` | Property |
+| 18 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 19 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 20 | repItem | `String` | Reporting Item |
+| 21 | repItemName | `String` | Reporting Item Name |
+| 22 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 23 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 24 | scOrderby | `Float` | Sc Orderby |
+| 25 | sequence | `Float` | Sequence |
+| 26 | sourceGroup | `String` | Source Group |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5523,39 +5523,39 @@
 
 ### ConfigurationResortReservationAutoAttachRulesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| advancedYn | `String` | Indicates if this rule uses advanced filter conditions |
-| basedOn | `String` | Defines what the rule is based on the type of condition which need to be satisfied in order to qualify for this rule. Valid values are MEMBERSHIP RATE_CODE REFERENCE VIP. |
-| code | `String` | Code |
-| convertedToAdvancedYn | `String` | Flag to indicate if the condition on this rule was automatically converted to an advanced expression. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| keywordType | `String` | Keyword Type |
-| level | `String` | Level |
-| minAdults | `Float` | This column will be filled when Based_on value is MIN_ADULTS. Otherwise it will be empty. |
-| minChildren | `Float` | This column will be filled when Based_on value is MIN_CHILDREN. Otherwise it will be empty. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| preference | `String` | Preference |
-| preferenceType | `String` | Preference Type |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| queryId | `Float` | Query ID |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| roomCategory | `String` | Room Category |
-| ruleType | `String` | Rule Type |
-| type | `String` | Type |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| vipStatus | `String` | VIP Status |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | advancedYn | `String` | Indicates if this rule uses advanced filter conditions |
+| 2 | basedOn | `String` | Defines what the rule is based on the type of condition which need to be satisfied in order to qualify for this rule. Valid values are MEMBERSHIP RATE_CODE REFERENCE VIP. |
+| 3 | code | `String` | Code |
+| 4 | convertedToAdvancedYn | `String` | Flag to indicate if the condition on this rule was automatically converted to an advanced expression. |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | inactiveDate | `DateTime` | Inactive Date |
+| 8 | inactiveYN | `String` | Inactive YN |
+| 9 | insertDate | `DateTime` | Insert Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 13 | keywordType | `String` | Keyword Type |
+| 14 | level | `String` | Level |
+| 15 | minAdults | `Float` | This column will be filled when Based_on value is MIN_ADULTS. Otherwise it will be empty. |
+| 16 | minChildren | `Float` | This column will be filled when Based_on value is MIN_CHILDREN. Otherwise it will be empty. |
+| 17 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 18 | preference | `String` | Preference |
+| 19 | preferenceType | `String` | Preference Type |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | property | `String` | Property |
+| 22 | queryId | `Float` | Query ID |
+| 23 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 24 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 25 | rateCode | `String` | Rate Code |
+| 26 | roomCategory | `String` | Room Category |
+| 27 | ruleType | `String` | Rule Type |
+| 28 | type | `String` | Type |
+| 29 | updateDate | `DateTime` | Update Date |
+| 30 | updateUser | `Float` | Update User |
+| 31 | vipStatus | `String` | VIP Status |
 
 [⬆ Back to Query](#query)
 
@@ -5563,32 +5563,32 @@
 
 ### ConfigurationResortReservationAutoAttachDetailsDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| associatedCodes | `String` | Associated Codes. |
-| attachId | `Float` | Attach ID |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| discountReasonCode | `String` | Discount Reason Code |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| itemId | `Float` | Item ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| preference | `String` | Preference |
-| preferenceType | `String` | Preference Type |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| product | `String` | Product |
-| promoCode | `String` | Promo Code |
-| property | `String` | Code to uniquely identify the Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ruleCode | `String` | Rule Code |
-| traceDeptId | `String` | Internal Trace ID. |
-| traceText | `String` | Trace Text |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | associatedCodes | `String` | Associated Codes. |
+| 2 | attachId | `Float` | Attach ID |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | discountReasonCode | `String` | Discount Reason Code |
+| 6 | insertDate | `DateTime` | Insert Date |
+| 7 | insertUser | `Float` | Insert User |
+| 8 | itemId | `Float` | Item ID |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | preference | `String` | Preference |
+| 13 | preferenceType | `String` | Preference Type |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | product | `String` | Product |
+| 16 | promoCode | `String` | Promo Code |
+| 17 | property | `String` | Code to uniquely identify the Property |
+| 18 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 19 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 20 | ruleCode | `String` | Rule Code |
+| 21 | traceDeptId | `String` | Internal Trace ID. |
+| 22 | traceText | `String` | Trace Text |
+| 23 | updateDate | `DateTime` | Update Date |
+| 24 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5596,48 +5596,48 @@
 
 ### ConfigurationResortCancellationCodesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `DateTime` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | languageCode | `String` | Language Code |
+| 23 | lastUsedDatetime | `DateTime` | Last Used Datetime |
+| 24 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 25 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | tempFlag | `String` | Temp Flag |
+| 38 | titleSuffix | `Float` | Title Suffix |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5645,48 +5645,48 @@
 
 ### ConfigurationResortEntryPointDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `Date` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | internalDeletedflag | `String` | Deleted Flag |
+| 17 | jRNUpdateDate | `Date` | JRN Update Date |
+| 18 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 19 | languageCode | `String` | Language Code |
+| 20 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 21 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 22 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 23 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 24 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 25 | property | `String` | Property |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `Date` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | tempFlag | `String` | Temp Flag |
+| 38 | titleSuffix | `Float` | Title Suffix |
+| 39 | updateDate | `DateTime` | Update Date |
+| 40 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5694,47 +5694,47 @@
 
 ### ConfigurationResortDiscountReasonDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| advanceYN | `String` | Indicates if this rule uses advanced filter conditions |
-| attributeCode | `String` | Attribute Code |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | advanceYN | `String` | Indicates if this rule uses advanced filter conditions |
+| 2 | attributeCode | `String` | Attribute Code |
+| 3 | businessTitle | `String` | Business Title |
+| 4 | canDeleteYn | `String` | Can Delete Y/N |
+| 5 | chainCode | `String` | Chain Code |
+| 6 | code | `String` | Code |
+| 7 | comments | `String` | Comments |
+| 8 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 9 | deletedflag | `String` | Deleted Flag |
+| 10 | description | `String` | Description |
+| 11 | displayColor | `String` | Display Color |
+| 12 | entityName | `String` | Entity Name |
+| 13 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 14 | inactiveDate | `DateTime` | Inactive Date |
+| 15 | inactiveflag | `String` | Inactive Flag |
+| 16 | insertDate | `DateTime` | Insert Date |
+| 17 | insertUser | `Float` | Insert User |
+| 18 | jRNUpdateDate | `Date` | JRN Update Date |
+| 19 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 20 | languageCode | `String` | Language Code |
+| 21 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 22 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 23 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 24 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 25 | property | `String` | Property |
+| 26 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 27 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 28 | ranking | `Float` | Ranking |
+| 29 | repAttributeCode | `String` | Reporting Attribute Code |
+| 30 | repDescription | `String` | Reporting Description |
+| 31 | repItem | `String` | Reporting Item |
+| 32 | repItemName | `String` | Reporting Item Name |
+| 33 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 34 | repOrderBy | `Float` | Reporting Order By |
+| 35 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | titleSuffix | `Float` | Title Suffix |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5742,30 +5742,30 @@
 
 ### ConfigurationResortEcouponDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| defaultQuantity | `Float` | Default quantity of the eCoupon. |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| postingRoom | `String` | Charges coming with this eCoupon will be routed to this Pseudo room. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rateCode | `String` | Rate Code |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| welcomeOfferYn | `String` | Welcome Offer Y/N |
-| eCouponCode | `String` | eCoupon Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 2 | defaultQuantity | `Float` | Default quantity of the eCoupon. |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | inactiveDate | `DateTime` | Inactive Date |
+| 6 | inactiveYN | `String` | Inactive YN |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | postingRoom | `String` | Charges coming with this eCoupon will be routed to this Pseudo room. |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Property |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | rateCode | `String` | Rate Code |
+| 18 | sequence | `Float` | Sequence |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
+| 21 | welcomeOfferYn | `String` | Welcome Offer Y/N |
+| 22 | eCouponCode | `String` | eCoupon Code |
 
 [⬆ Back to Query](#query)
 
@@ -5773,26 +5773,26 @@
 
 ### ConfigurationResortPropertyLocatorDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `Float` | Locator code. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveYN | `String` | Inactive YN |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `Float` | Locator code. |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | inactiveDate | `DateTime` | Inactive Date |
+| 6 | inactiveYN | `String` | Inactive YN |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Property |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | sequence | `Float` | Sequence |
+| 17 | updateDate | `DateTime` | Update Date |
+| 18 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5800,24 +5800,24 @@
 
 ### ConfigurationResortPropertyMessageDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| message | `String` | Message |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | insertDate | `DateTime` | Insert Date |
+| 5 | insertUser | `Float` | Insert User |
+| 6 | jRNUpdateDate | `Date` | JRN Update Date |
+| 7 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 8 | message | `String` | Message |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | property | `String` | Property |
+| 12 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 13 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 14 | sequence | `Float` | Sequence |
+| 15 | updateDate | `DateTime` | Update Date |
+| 16 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5825,50 +5825,50 @@
 
 ### ConfigurationResortGuestStatusDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| guestStatus | `String` | Used for Police/Tourist Export |
-| gueststatusid | `String` | Gueststatusid |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalEntityname | `String` | Entityname |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| statustype | `Float` | Statustype |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | guestStatus | `String` | Used for Police/Tourist Export |
+| 16 | gueststatusid | `String` | Gueststatusid |
+| 17 | inactiveDate | `DateTime` | Inactive Date |
+| 18 | inactiveflag | `String` | Inactive Flag |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | internalDeletedflag | `String` | Deleted Flag |
+| 22 | internalEntityname | `String` | Entityname |
+| 23 | jRNUpdateDate | `Date` | JRN Update Date |
+| 24 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 25 | languageCode | `String` | Language Code |
+| 26 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 27 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 28 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 29 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 30 | property | `String` | Property |
+| 31 | ranking | `Float` | Ranking |
+| 32 | repItem | `String` | Reporting Item |
+| 33 | repItemName | `String` | Reporting Item Name |
+| 34 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 35 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 36 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 37 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 38 | sequence | `Float` | Sequence |
+| 39 | statustype | `Float` | Statustype |
+| 40 | titleSuffix | `Float` | Title Suffix |
+| 41 | updateDate | `DateTime` | Update Date |
+| 42 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5876,46 +5876,46 @@
 
 ### ConfigurationResortGuestTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralDescription | `String` | Central Description |
-| centralGuestType | `String` | Central Guest Type |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| guestType | `String` | Guest Type |
-| guesttypeid | `String` | Guesttypeid |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralDescription | `String` | Central Description |
+| 4 | centralGuestType | `String` | Central Guest Type |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | comments | `String` | Comments |
+| 8 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 9 | deletedFlag | `String` | Deleted Flag |
+| 10 | description | `String` | Description |
+| 11 | displayColor | `String` | Display Color |
+| 12 | entityName | `String` | Entity Name |
+| 13 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 14 | guestType | `String` | Guest Type |
+| 15 | guesttypeid | `String` | Guesttypeid |
+| 16 | inactiveDate | `DateTime` | Inactive Date |
+| 17 | inactiveflag | `String` | Inactive Flag |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | internalDeletedflag | `String` | Deleted Flag |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | languageCode | `String` | Language Code |
+| 24 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 25 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 26 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 27 | property | `String` | Property |
+| 28 | ranking | `Float` | Ranking |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 33 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 34 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 35 | sequence | `Float` | Sequence |
+| 36 | titleSuffix | `Float` | Title Suffix |
+| 37 | updateDate | `DateTime` | Update Date |
+| 38 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5923,45 +5923,45 @@
 
 ### ConfigurationResortImmigrationStatusDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `Date` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5969,29 +5969,29 @@
 
 ### ConfigurationResortPreRegRulesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| allowRestrict | `String` | Indicates whether this rule defines the values that will restrict or allow the internet check-in. Will be used in future versions. |
-| beginDate | `Date` | Begin Date |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| endDate | `Date` | End Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ruleDetails | `String` | Rule Details |
-| ruleId | `Float` | Rule ID |
-| ruleType | `String` | Rule Type |
-| ruleTypeDesc | `String` | Rule Type Desc |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | allowRestrict | `String` | Indicates whether this rule defines the values that will restrict or allow the internet check-in. Will be used in future versions. |
+| 2 | beginDate | `Date` | Begin Date |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | endDate | `Date` | End Date |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Property |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | ruleDetails | `String` | Rule Details |
+| 17 | ruleId | `Float` | Rule ID |
+| 18 | ruleType | `String` | Rule Type |
+| 19 | ruleTypeDesc | `String` | Rule Type Desc |
+| 20 | updateDate | `DateTime` | Update Date |
+| 21 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -5999,36 +5999,36 @@
 
 ### ConfigurationResortItemClassDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| bookableViaWebsiteYN | `String` | Bookable via Website YN |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| code | `String` | Item Class Code. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| discountableYn | `String` | Discountable Y/N |
-| eventTypes | `String` | Event Types |
-| iconName | `String` | Icon Name |
-| inactiveDate | `DateTime` | Inactive Date |
-| itemclassId | `Float` | Itemclass ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reportingItemclassId | `String` | Rep Itemclass ID |
-| reservationYN | `String` | Indicates if this menu item depends on the reservation. |
-| responsibleDepartment | `String` | Responsible Department |
-| sequence | `Float` | Sequence |
-| usedInApp | `String` | Used In App |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | bookableViaWebsiteYN | `String` | Bookable via Website YN |
+| 2 | centralDescription | `String` | Central Description |
+| 3 | centralSequence | `Float` | Central Sequence |
+| 4 | code | `String` | Item Class Code. |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | description | `String` | Description |
+| 8 | discountableYn | `String` | Discountable Y/N |
+| 9 | eventTypes | `String` | Event Types |
+| 10 | iconName | `String` | Icon Name |
+| 11 | inactiveDate | `DateTime` | Inactive Date |
+| 12 | itemclassId | `Float` | Itemclass ID |
+| 13 | jRNUpdateDate | `Date` | JRN Update Date |
+| 14 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 15 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 16 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 17 | property | `String` | Property |
+| 18 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 19 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 20 | repItem | `String` | Reporting Item |
+| 21 | repItemName | `String` | Reporting Item Name |
+| 22 | repOrderBy | `Float` | Reporting Order By |
+| 23 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 24 | reportingItemclassId | `String` | Rep Itemclass ID |
+| 25 | reservationYN | `String` | Indicates if this menu item depends on the reservation. |
+| 26 | responsibleDepartment | `String` | Responsible Department |
+| 27 | sequence | `Float` | Sequence |
+| 28 | usedInApp | `String` | Used In App |
 
 [⬆ Back to Query](#query)
 
@@ -6036,69 +6036,69 @@
 
 ### ConfigurationResortItemInventoryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| activityExtSystem | `String` | Exterbal system for which the activity will be created. |
-| activityLinkYn | `String` | Indicates whether an activity will be created for the item or not. |
-| activityLocationCode | `String` | Location code of the activity that will be created when linked with an activity. |
-| activityStatusCode | `String` | Initial activity status code when linked to an activity. |
-| activityType | `String` | Activity Type |
-| allowedOutsideStayYn | `String` | Can this item be held outside of the reservation stay dates ? |
-| availableFrom | `DateTime` | Item available from this time. |
-| availableTo | `DateTime` | Item available until this time. |
-| braceletRuleCode | `String` | Links to RESORT_BRACELET_RULES.RULE_CODE. |
-| cCost | `Float` | Central Cost |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| cost | `Float` | Cost |
-| criticalYn | `String` | Critical Item watch stock |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyInventoryYn | `String` | Indicates if daily inventory is setup for this item. |
-| defaultDuration | `Float` | Defines the default duration when booking the item (in Days). |
-| defaultQty | `Float` | Defines the default quantity when booking the item. |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| discountableYN | `String` | Discountable YN |
-| displayColor | `String` | Display Color |
-| externalYN | `String` | Item is external |
-| inactiveDate | `DateTime` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| itemClass | `String` | Item Class |
-| itemCode | `String` | Item Code |
-| itemId | `Float` | Item ID |
-| itemPoolId | `Float` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |
-| itemclassId | `Float` | Itemclass ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| mandatoryYn | `String` | Mandatory Y/N |
-| objectType | `String` | Type of object  1.CONSTRAINT 2.TABLE. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| promptFixedChargesYn | `String` | Should the Fixed Charges screen be automatically displayed when this item gets attached to a reservation ? |
-| property | `String` | Property |
-| quantityInStock | `Float` | Item Quantity in stock |
-| quickInsert | `String` | Quick Insert |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reportingItemId | `String` | Rep Item ID |
-| revType | `String` | Rev Type |
-| revenueType | `String` | Revenue Type |
-| sellSeparate | `String` | Indicates whether it could be sold separately |
-| sequence | `Float` | Sequence |
-| setdownTime | `Float` | Setdown Time |
-| setupTime | `Float` | Setup Time |
-| showbeoYn | `String` | Showbeo Y/N |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| webBookingYn | `String` | Web Booking Y/N |
-| welcomeOfferYn | `String` | Welcome Offer Y/N |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | activityExtSystem | `String` | Exterbal system for which the activity will be created. |
+| 2 | activityLinkYn | `String` | Indicates whether an activity will be created for the item or not. |
+| 3 | activityLocationCode | `String` | Location code of the activity that will be created when linked with an activity. |
+| 4 | activityStatusCode | `String` | Initial activity status code when linked to an activity. |
+| 5 | activityType | `String` | Activity Type |
+| 6 | allowedOutsideStayYn | `String` | Can this item be held outside of the reservation stay dates ? |
+| 7 | availableFrom | `DateTime` | Item available from this time. |
+| 8 | availableTo | `DateTime` | Item available until this time. |
+| 9 | braceletRuleCode | `String` | Links to RESORT_BRACELET_RULES.RULE_CODE. |
+| 10 | cCost | `Float` | Central Cost |
+| 11 | cExchangeDate | `Date` | Central Xchange Date |
+| 12 | cExchangeRate | `Float` | Central Xchange Rate |
+| 13 | centralDescription | `String` | Central Description |
+| 14 | centralSequence | `Float` | Central Sequence |
+| 15 | cost | `Float` | Cost |
+| 16 | criticalYn | `String` | Critical Item watch stock |
+| 17 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 18 | dailyInventoryYn | `String` | Indicates if daily inventory is setup for this item. |
+| 19 | defaultDuration | `Float` | Defines the default duration when booking the item (in Days). |
+| 20 | defaultQty | `Float` | Defines the default quantity when booking the item. |
+| 21 | deletedFlag | `String` | Deleted Flag |
+| 22 | description | `String` | Description |
+| 23 | discountableYN | `String` | Discountable YN |
+| 24 | displayColor | `String` | Display Color |
+| 25 | externalYN | `String` | Item is external |
+| 26 | inactiveDate | `DateTime` | Inactive Date |
+| 27 | insertDate | `DateTime` | Insert Date |
+| 28 | insertUser | `Float` | Insert User |
+| 29 | itemClass | `String` | Item Class |
+| 30 | itemCode | `String` | Item Code |
+| 31 | itemId | `Float` | Item ID |
+| 32 | itemPoolId | `Float` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |
+| 33 | itemclassId | `Float` | Itemclass ID |
+| 34 | jRNUpdateDate | `Date` | JRN Update Date |
+| 35 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 36 | mandatoryYn | `String` | Mandatory Y/N |
+| 37 | objectType | `String` | Type of object  1.CONSTRAINT 2.TABLE. |
+| 38 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 39 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 40 | promptFixedChargesYn | `String` | Should the Fixed Charges screen be automatically displayed when this item gets attached to a reservation ? |
+| 41 | property | `String` | Property |
+| 42 | quantityInStock | `Float` | Item Quantity in stock |
+| 43 | quickInsert | `String` | Quick Insert |
+| 44 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 45 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 46 | repItem | `String` | Reporting Item |
+| 47 | repItemName | `String` | Reporting Item Name |
+| 48 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 49 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 50 | reportingItemId | `String` | Rep Item ID |
+| 51 | revType | `String` | Rev Type |
+| 52 | revenueType | `String` | Revenue Type |
+| 53 | sellSeparate | `String` | Indicates whether it could be sold separately |
+| 54 | sequence | `Float` | Sequence |
+| 55 | setdownTime | `Float` | Setdown Time |
+| 56 | setupTime | `Float` | Setup Time |
+| 57 | showbeoYn | `String` | Showbeo Y/N |
+| 58 | updateDate | `DateTime` | Update Date |
+| 59 | updateUser | `Float` | Update User |
+| 60 | webBookingYn | `String` | Web Booking Y/N |
+| 61 | welcomeOfferYn | `String` | Welcome Offer Y/N |
 
 [⬆ Back to Query](#query)
 
@@ -6106,26 +6106,26 @@
 
 ### ConfigurationResortItemPoolDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| code | `String` | User Definable Item Pool Code. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| insertTs | `DateTime` | Insert Ts |
-| insertUser | `Float` | Insert User |
-| itemClass | `String` | Item Class Code. |
-| itemPoolId | `Float` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| sequence | `Float` | Sequence |
-| updateTs | `DateTime` | Update Ts |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | code | `String` | User Definable Item Pool Code. |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | description | `String` | Description |
+| 5 | insertTs | `DateTime` | Insert Ts |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | itemClass | `String` | Item Class Code. |
+| 8 | itemPoolId | `Float` | References the ITEM_POOL_ID from GEM$ITEM_POOL. |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Property |
+| 14 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 15 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 16 | sequence | `Float` | Sequence |
+| 17 | updateTs | `DateTime` | Update Ts |
+| 18 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6133,45 +6133,45 @@
 
 ### ConfigurationResortBirthCountryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6179,43 +6179,43 @@
 
 ### ConfigurationResortPropertyCountryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| addressdoctorMode | `String` | Defines the mode used to invoke Addressdoctor service [INTERACTIVE or FASTCOMPLETION] |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| countryCode | `String` | Country Code |
-| countryMainGroup | `String` | Country Main Group |
-| countryName | `String` | Country Name |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| displayCountryFlagYN | `String` | Indicates if the Country Flag should be displayed on the front end. |
-| guestAddressFormat | `String` | Guest Address Format Codes. For Confirmation Letters. |
-| iSOCode | `String` | ISO standard code for the country |
-| iSOName | `String` | ISO standard name for the country |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| name | `String` | Name |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| propertyAddressFormat | `String` | Property Address Format Codes. For Confirmation Letters. |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| region | `String` | Region |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reportSequence | `Float` | Report Sequence |
-| sequence | `Float` | Display sequence for LOVs |
-| statisticsCode | `String` | Internal |
-| status | `String` | Status |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | addressdoctorMode | `String` | Defines the mode used to invoke Addressdoctor service [INTERACTIVE or FASTCOMPLETION] |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | countryCode | `String` | Country Code |
+| 5 | countryMainGroup | `String` | Country Main Group |
+| 6 | countryName | `String` | Country Name |
+| 7 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 8 | deletedFlag | `String` | Deleted Flag |
+| 9 | displayCountryFlagYN | `String` | Indicates if the Country Flag should be displayed on the front end. |
+| 10 | guestAddressFormat | `String` | Guest Address Format Codes. For Confirmation Letters. |
+| 11 | iSOCode | `String` | ISO standard code for the country |
+| 12 | iSOName | `String` | ISO standard name for the country |
+| 13 | inactiveDate | `Date` | Inactive Date |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | name | `String` | Name |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | property | `String` | Property |
+| 22 | propertyAddressFormat | `String` | Property Address Format Codes. For Confirmation Letters. |
+| 23 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 24 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 25 | region | `String` | Region |
+| 26 | repItem | `String` | Reporting Item |
+| 27 | repItemName | `String` | Reporting Item Name |
+| 28 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 29 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 30 | reportSequence | `Float` | Report Sequence |
+| 31 | sequence | `Float` | Display sequence for LOVs |
+| 32 | statisticsCode | `String` | Internal |
+| 33 | status | `String` | Status |
+| 34 | updateDate | `DateTime` | Update Date |
+| 35 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6223,46 +6223,46 @@
 
 ### ConfigurationResortCountryGroupDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| comments | `String` | Comments |
-| countryGroup | `String` | Country Group |
-| countryGroupCode | `String` | Country Group Code |
-| countrygroupid | `String` | Countrygroupid |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | comments | `String` | Comments |
+| 8 | countryGroup | `String` | Country Group |
+| 9 | countryGroupCode | `String` | Country Group Code |
+| 10 | countrygroupid | `String` | Countrygroupid |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | displayColor | `String` | Display Color |
+| 14 | entityName | `String` | Entity Name |
+| 15 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 16 | inactiveDate | `DateTime` | Inactive Date |
+| 17 | inactiveflag | `String` | Inactive Flag |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | internalDeletedflag | `String` | Deleted Flag |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | languageCode | `String` | Language Code |
+| 24 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 25 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 26 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 27 | property | `String` | Property |
+| 28 | ranking | `Float` | Ranking |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 33 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 34 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 35 | sequence | `Float` | Sequence |
+| 36 | titleSuffix | `Float` | Title Suffix |
+| 37 | updateDate | `DateTime` | Update Date |
+| 38 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6270,45 +6270,45 @@
 
 ### ConfigurationResortDistanceTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6316,45 +6316,45 @@
 
 ### ConfigurationResortDistrictDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6362,45 +6362,45 @@
 
 ### ConfigurationResortFiscalGuestTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6408,45 +6408,45 @@
 
 ### ConfigurationResortFiscalRegionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6454,45 +6454,45 @@
 
 ### ConfigurationResortProfileIDCountryDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6500,47 +6500,47 @@
 
 ### ConfigurationResortNationalityDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralDescription | `String` | Central Description |
-| centralNationalityCode | `String` | Central Nationality Code |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| nationalityid | `String` | Nationalityid |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralDescription | `String` | Central Description |
+| 4 | centralNationalityCode | `String` | Central Nationality Code |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | jRNUpdateDate | `Date` | JRN Update Date |
+| 21 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 22 | languageCode | `String` | Language Code |
+| 23 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 24 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 25 | nationalityid | `String` | Nationalityid |
+| 26 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 27 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 28 | property | `String` | Property |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 35 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 36 | sequence | `Float` | Sequence |
+| 37 | titleSuffix | `Float` | Title Suffix |
+| 38 | updateDate | `DateTime` | Update Date |
+| 39 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6548,184 +6548,184 @@
 
 ### ConfigurationResortQualifyingRatesDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| aSBRateCycle | `String` | Not null value in this column indicates that this is ASB Rate. This column also specifies the cycle of ASB rate. MC=Fixed Calendar Month Cycle WC=Fixed Calendar Week Cycle MF= Floating Monthly Cycle WF=Floating Weekly Cycle. |
-| addition | `String` | Amount to be added to the base rate when shown on rate query |
-| advBaseRateCode | `String` | With Advanced Base Rate Parameter ON this field stores the rate code on which this rate schedule is dynamically based on. |
-| advBaseRounding | `String` | Indicates how rounding of advanced dynamic rate calculation is performed.[U]p  [D]own [N]one [C] -Up - keep decimal [F] -Down - keep decimal. |
-| advanceBaseCompareYN | `String` | Identifies if during the availability check the calculated based amount should be compared to rate detail of BAR rate code. |
-| advanceBooking | `Float` | Min number of days to book rate in advance. |
-| advanceDailyBaseYN | `String` | Indicates if this rate code is an Advanced Daily Base Rate. |
-| advanceDailyRateYN | `String` | Indicates if this rate code is an Advanced Daily Rate. |
-| alternateRateCode | `String` | Alternative rate code if current rate is not available |
-| availabilityUpdateYn | `String` | Flag to indicate whether to send Rate code to AVH or not. |
-| backToBackYn | `String` | Back To Back Y/N |
-| baseAmount | `Float` | Base Amount |
-| baseFltPct | `String` | Flat or Percentage of the Base Rate |
-| baseRateCode | `String` | Base Rate Code |
-| baseRounding | `String` | Indicates if rounding of rate is required |
-| baseType | `String` | Indicating a rate type such as flat rate or percentage rate. Possible values are: FLAT DIFFERENTIAL and NULL. |
-| bbarBaseAmount | `Float` | This column use to store Percentage or Amount difference between BAR Rate code and this Rate Code. |
-| bbarBaseFltPct | `String` | This flag column identify that amount column represent Flat or Percentage value. |
-| bbarBaseRounding | `String` | This column identify the rounding formula for the BBAR Rate calculation. |
-| bbarBasedYn | `String` | This column will identify that Rate Code is Best BAR based rate code or not. Possible values are Y/N. |
-| bbarCompareYn | `String` | Identifies if during the availability check the calculated based amount should be compared to rate detail of BBAR rate code. |
-| bbarYn | `String` | Bbar Y/N |
-| beginBookingDate | `Date` | Begin Booking Date |
-| breakfastInclYn | `String` | PCR: Is breakfast is included in this rate code? |
-| breakfastPrice | `Float` | Breakfast Price |
-| bypassHurdleYn | `String` | In case of ORMS when this flag is Y system ignore this rate code from Hurdle Check. |
-| bypassRankCheckYn | `String` | Indicates that this rate code will not go through rank validations if value is 'Y'. |
-| cBaseAmount | `Float` | Central Base Amount |
-| cBbarBaseAmount | `Float` | Central Bbar Base Amount |
-| cBreakfastPrice | `Float` | Central Bfst Price |
-| cDbaseAmount | `Float` | Central Dbase Amount |
-| cDiscountRateAmount | `Float` | Central Discount Rate Amount |
-| cDoubleRoomSupplementPrice | `Float` | Central Dbl Rm Supplement Price |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRateFloor | `Float` | Central Rate Floor |
-| cRateLevel | `Float` | Central Rate Level |
-| cRodBaseAmount | `Float` | Central Rod Base Amount |
-| cRoomAssignmentValue | `Float` | Central Room Assignment Value |
-| catPackageCode | `String` | Stores the catering package code linked to this rate code. |
-| cateringPackageYN | `String` | Specifies if a catering package is linked to this rate code. |
-| changeState | `String` | Indicates the state of chaange of the rate code with values null=enabled D=disabled P=changes pending of approval |
-| closedToArrival | `String` | Days the rate restriction is not available for arrival |
-| commissionCode | `String` | Commission Code |
-| commissionPct | `Float` | This field is used to populate rate code commission percentage for informational purposes for GDS and ORS reservation agents |
-| commissionYn | `String` | Are commissions allowed for this rate code? Y/N |
-| commissionablePerc | `Float` | PCR: Commissionable Percentage. |
-| commissionableYn | `String` | Commissionable Y/N |
-| complimentaryYn | `String` | Complimentary Y/N |
-| currCodeDecimalPos | `Float` | Introduced for Holidex inbound delta rate processing this column stores the value indicating the decimal position specific to the received the currency code. |
-| currencyCode | `String` | Currency Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| dailyRatesYn | `String` | Daily Rates Y/N |
-| dayuseYn | `String` | Day use reservation Y/N. |
-| dbaseAmount | `Float` | Indicates either Flat amount or Percentage increase or decrease from the dynamic base rate. |
-| dbaseCompareYn | `String` | This flag identify that while checking availability calculated based amount should be compared to rate detail of rate code or not. |
-| dbaseFltPct | `String` | Flat or Percentage of the dynamic base rate code. |
-| dbaseRateCode | `String` | The rate code on which this rate shedule is dynamically based on. |
-| dbaseRounding | `String` | Indicates if rounding of dynamic rate calculation is required. |
-| dblRoomSupplementPrice | `Float` | Stores the double room supplement price. |
-| defaultToHighestBarYn | `String` | For BAR dependent Rate Code this flag indicates that when all BAR Rates are closed the Rate Amount should be calculated based on the highest BAR Rate Amount instead of based on its own Rate Detail. |
-| deletedFlag | `String` | Deleted Flag |
-| depositMaturityPreference | `String` | Stores the Deposit maturity preference. |
-| deptCode | `String` | Department code for the transaction. |
-| description | `String` | Description |
-| discountRateAmount | `Float` | Discount rate amount value. |
-| discountRatePercentageYn | `String` | Indicates if discount rate amount is a percentage value. |
-| discountYn | `String` | Discount Flag. |
-| displayRegionalYn | `String` | Flag indicates rate needs to display in area availability or not. |
-| displaySet | `String` | Display Set |
-| distributeYn | `String` | Indicates if the profile should be distributed to the external database. |
-| doubleRoomSupplementYN | `String` | Stores the double room supplement. |
-| endBookingDate | `Date` | End Booking Date |
-| exchangePostingType | `String` | Exchange Posting Type |
-| externalLocked | `String` | External Locked |
-| extraPersonChargeBegins | `Float` | Introduced for Holidex inbound delta rate processing this column stores the value indicating at person level the extra charge begins. |
-| fitDiscountLevel | `Float` | Fit Discount Level. |
-| fitDiscountPerc | `Float` | Published Corporate Rate: Discount Percentage. |
-| flatOrPercentage | `String` | Flat Or Percentage |
-| folioText | `String` | Text displayed on the Folio |
-| gDSAllowedYn | `String` | Is this rate code available for GDS |
-| groupCode | `String` | Group Code |
-| highlightRateAmountYn | `String` | To highlight on the rate query |
-| houseUseYn | `String` | House Use Y/N |
-| inactiveDate | `Date` | Inactive Date |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| label | `String` | Label |
-| longInfo | `String` | Long Info |
-| losUnit | `Float` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
-| loyaltyProgramYn | `String` | Flag to indicate if this is a loyalty program |
-| mandateResvProfiles | `String` | Indicates mandatory reservation profiles. This is used to force entry of profiles on the reservation header if this rate is picked. |
-| marketCode | `String` | Market Code |
-| marshaRateProgram | `String` | Contains the rate program information from the MARSHA interface. |
-| maxAdvanceBooking | `Float` | Max number of days to book rate in advance. |
-| maxLos | `Float` | Max Los |
-| maxOccupancy | `Float` | Max Occupancy |
-| mfnUploadYn | `String` | Flag used to determine if the rate code is to be sent to MyFidelio.net if the rate is being received from a V6 V7 V8 or OPMS on a lower version on which flag used to determine if the rate code is to be sent to MyFidelio.net does not exist on the rate header. |
-| minOccupancy | `Float` | Minimum Occupancy |
-| mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
-| mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
-| multiplication | `String` | Amount to be multiplied to the base rate when shown on rate query |
-| negotiated | `String` | Negotiated rate Y/N |
-| occupancyBasedYn | `String` | Indicates if the rate code is occupancy based. |
-| occupancyLevel | `Float` | Indicates the occupancy level for hurdle evaluation. |
-| operatorType | `String` | The operator type to use during the calculation of base rates. (ADD_TO SUBTRACT) |
-| orderBy | `Float` | Order By |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| orsSellSequence | `Float` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
-| overridePackageYn | `String` | Indicates if we need to override package for hurdle evaluation. |
-| ownerRateYn | `String` | Indicates Owners Rate Code. This is used to perform rolling noshow. |
-| packageTransactionTaxInclYN | `String` | Wrapper transaction code tax inclusive Y/N |
-| packageTransactionWkTaxInclYN | `String` | Wrapper transaction code tax inclusive for weekend days Y/N |
-| packageTrxCode | `String` | Wrapper transaction code |
-| packageTrxCodeWk | `String` | Wrapper transaction code for weekend days |
-| packageYn | `String` | Package Y/N |
-| pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
-| postingRhythm | `String` | Posting Rhythm |
-| postingRhythmNights | `Float` | Number of nights for posting rhythm. |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| printRateYn | `String` | Print Rate Y/N |
-| privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
-| privilegedYn | `String` | Indicates if rate is privileged or not. |
-| profitTrxCode | `String` | Transaction code for profit |
-| property | `String` | Property |
-| qualifying | `String` | Qualifying |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
-| rankValue | `Float` | Rank Value |
-| rateBucket | `String` | Yield rate bucket |
-| rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
-| rateCategories | `String` | Rate Categories |
-| rateClass | `String` | Rate Class |
-| rateCodeLocked | `String` | Not used |
-| rateCodes | `String` | Rate Codes |
-| rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
-| rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
-| rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
-| rateLevel | `Float` | Rate Level this rate code belongs to. |
-| rateinfoUrl | `String` | Rateinfo Url |
-| ratesToGDSYn | `String` | Needs to send this rate to GDS or not. |
-| redemptionRateYn | `String` | Redemption Rate Y/N |
-| repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
-| rodBaseAmount | `Float` | Rod Base Amount |
-| rodBaseFltPct | `String` | Rod Base Flt Pct |
-| rodBaseRounding | `String` | Rod Base Rounding |
-| rodBasedYn | `String` | Is the group code rate of day based |
-| rodYn | `String` | Rod Y/N |
-| roomAssignmentValue | `Float` | Room Assignment Value |
-| sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
-| sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
-| sellSequence | `Float` | Sell Sequence |
-| serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
-| servicePerc | `Float` | Service Percentage included. |
-| shortInfo | `String` | Information to be used in the rate query |
-| showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
-| sourceCode | `String` | Source Code |
-| taxIncludedPerc | `Float` | Percentage of included Tax. |
-| taxIncludedYn | `String` | Tax is included in this rate. |
-| tieredYn | `String` | Indicates if the rate is a tiered rate. |
-| transactionTaxInclYN | `String` | Transaction code is inclusive of tax Y/N |
-| transactionWkTaxInclYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
-| trxCode | `String` | Transaction Code |
-| trxCodeWk | `String` | The transaction code associated with this rate for weekend days |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
-| upsellYn | `String` | Indicates if the rate code can be upsold |
-| voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
-| weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
-| wkDeptCode | `String` | Wk Dept Code |
-| yieldAs | `String` | Yield As |
-| yieldableYn | `String` | Yieldable Y/N |
-| ymCode | `String` | Ym Code |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | aSBRateCycle | `String` | Not null value in this column indicates that this is ASB Rate. This column also specifies the cycle of ASB rate. MC=Fixed Calendar Month Cycle WC=Fixed Calendar Week Cycle MF= Floating Monthly Cycle WF=Floating Weekly Cycle. |
+| 2 | addition | `String` | Amount to be added to the base rate when shown on rate query |
+| 3 | advBaseRateCode | `String` | With Advanced Base Rate Parameter ON this field stores the rate code on which this rate schedule is dynamically based on. |
+| 4 | advBaseRounding | `String` | Indicates how rounding of advanced dynamic rate calculation is performed.[U]p  [D]own [N]one [C] -Up - keep decimal [F] -Down - keep decimal. |
+| 5 | advanceBaseCompareYN | `String` | Identifies if during the availability check the calculated based amount should be compared to rate detail of BAR rate code. |
+| 6 | advanceBooking | `Float` | Min number of days to book rate in advance. |
+| 7 | advanceDailyBaseYN | `String` | Indicates if this rate code is an Advanced Daily Base Rate. |
+| 8 | advanceDailyRateYN | `String` | Indicates if this rate code is an Advanced Daily Rate. |
+| 9 | alternateRateCode | `String` | Alternative rate code if current rate is not available |
+| 10 | availabilityUpdateYn | `String` | Flag to indicate whether to send Rate code to AVH or not. |
+| 11 | backToBackYn | `String` | Back To Back Y/N |
+| 12 | baseAmount | `Float` | Base Amount |
+| 13 | baseFltPct | `String` | Flat or Percentage of the Base Rate |
+| 14 | baseRateCode | `String` | Base Rate Code |
+| 15 | baseRounding | `String` | Indicates if rounding of rate is required |
+| 16 | baseType | `String` | Indicating a rate type such as flat rate or percentage rate. Possible values are: FLAT DIFFERENTIAL and NULL. |
+| 17 | bbarBaseAmount | `Float` | This column use to store Percentage or Amount difference between BAR Rate code and this Rate Code. |
+| 18 | bbarBaseFltPct | `String` | This flag column identify that amount column represent Flat or Percentage value. |
+| 19 | bbarBaseRounding | `String` | This column identify the rounding formula for the BBAR Rate calculation. |
+| 20 | bbarBasedYn | `String` | This column will identify that Rate Code is Best BAR based rate code or not. Possible values are Y/N. |
+| 21 | bbarCompareYn | `String` | Identifies if during the availability check the calculated based amount should be compared to rate detail of BBAR rate code. |
+| 22 | bbarYn | `String` | Bbar Y/N |
+| 23 | beginBookingDate | `Date` | Begin Booking Date |
+| 24 | breakfastInclYn | `String` | PCR: Is breakfast is included in this rate code? |
+| 25 | breakfastPrice | `Float` | Breakfast Price |
+| 26 | bypassHurdleYn | `String` | In case of ORMS when this flag is Y system ignore this rate code from Hurdle Check. |
+| 27 | bypassRankCheckYn | `String` | Indicates that this rate code will not go through rank validations if value is 'Y'. |
+| 28 | cBaseAmount | `Float` | Central Base Amount |
+| 29 | cBbarBaseAmount | `Float` | Central Bbar Base Amount |
+| 30 | cBreakfastPrice | `Float` | Central Bfst Price |
+| 31 | cDbaseAmount | `Float` | Central Dbase Amount |
+| 32 | cDiscountRateAmount | `Float` | Central Discount Rate Amount |
+| 33 | cDoubleRoomSupplementPrice | `Float` | Central Dbl Rm Supplement Price |
+| 34 | cExchangeDate | `Date` | Central Xchange Date |
+| 35 | cExchangeRate | `Float` | Central Xchange Rate |
+| 36 | cRateFloor | `Float` | Central Rate Floor |
+| 37 | cRateLevel | `Float` | Central Rate Level |
+| 38 | cRodBaseAmount | `Float` | Central Rod Base Amount |
+| 39 | cRoomAssignmentValue | `Float` | Central Room Assignment Value |
+| 40 | catPackageCode | `String` | Stores the catering package code linked to this rate code. |
+| 41 | cateringPackageYN | `String` | Specifies if a catering package is linked to this rate code. |
+| 42 | changeState | `String` | Indicates the state of chaange of the rate code with values null=enabled D=disabled P=changes pending of approval |
+| 43 | closedToArrival | `String` | Days the rate restriction is not available for arrival |
+| 44 | commissionCode | `String` | Commission Code |
+| 45 | commissionPct | `Float` | This field is used to populate rate code commission percentage for informational purposes for GDS and ORS reservation agents |
+| 46 | commissionYn | `String` | Are commissions allowed for this rate code? Y/N |
+| 47 | commissionablePerc | `Float` | PCR: Commissionable Percentage. |
+| 48 | commissionableYn | `String` | Commissionable Y/N |
+| 49 | complimentaryYn | `String` | Complimentary Y/N |
+| 50 | currCodeDecimalPos | `Float` | Introduced for Holidex inbound delta rate processing this column stores the value indicating the decimal position specific to the received the currency code. |
+| 51 | currencyCode | `String` | Currency Code |
+| 52 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 53 | dailyRatesYn | `String` | Daily Rates Y/N |
+| 54 | dayuseYn | `String` | Day use reservation Y/N. |
+| 55 | dbaseAmount | `Float` | Indicates either Flat amount or Percentage increase or decrease from the dynamic base rate. |
+| 56 | dbaseCompareYn | `String` | This flag identify that while checking availability calculated based amount should be compared to rate detail of rate code or not. |
+| 57 | dbaseFltPct | `String` | Flat or Percentage of the dynamic base rate code. |
+| 58 | dbaseRateCode | `String` | The rate code on which this rate shedule is dynamically based on. |
+| 59 | dbaseRounding | `String` | Indicates if rounding of dynamic rate calculation is required. |
+| 60 | dblRoomSupplementPrice | `Float` | Stores the double room supplement price. |
+| 61 | defaultToHighestBarYn | `String` | For BAR dependent Rate Code this flag indicates that when all BAR Rates are closed the Rate Amount should be calculated based on the highest BAR Rate Amount instead of based on its own Rate Detail. |
+| 62 | deletedFlag | `String` | Deleted Flag |
+| 63 | depositMaturityPreference | `String` | Stores the Deposit maturity preference. |
+| 64 | deptCode | `String` | Department code for the transaction. |
+| 65 | description | `String` | Description |
+| 66 | discountRateAmount | `Float` | Discount rate amount value. |
+| 67 | discountRatePercentageYn | `String` | Indicates if discount rate amount is a percentage value. |
+| 68 | discountYn | `String` | Discount Flag. |
+| 69 | displayRegionalYn | `String` | Flag indicates rate needs to display in area availability or not. |
+| 70 | displaySet | `String` | Display Set |
+| 71 | distributeYn | `String` | Indicates if the profile should be distributed to the external database. |
+| 72 | doubleRoomSupplementYN | `String` | Stores the double room supplement. |
+| 73 | endBookingDate | `Date` | End Booking Date |
+| 74 | exchangePostingType | `String` | Exchange Posting Type |
+| 75 | externalLocked | `String` | External Locked |
+| 76 | extraPersonChargeBegins | `Float` | Introduced for Holidex inbound delta rate processing this column stores the value indicating at person level the extra charge begins. |
+| 77 | fitDiscountLevel | `Float` | Fit Discount Level. |
+| 78 | fitDiscountPerc | `Float` | Published Corporate Rate: Discount Percentage. |
+| 79 | flatOrPercentage | `String` | Flat Or Percentage |
+| 80 | folioText | `String` | Text displayed on the Folio |
+| 81 | gDSAllowedYn | `String` | Is this rate code available for GDS |
+| 82 | groupCode | `String` | Group Code |
+| 83 | highlightRateAmountYn | `String` | To highlight on the rate query |
+| 84 | houseUseYn | `String` | House Use Y/N |
+| 85 | inactiveDate | `Date` | Inactive Date |
+| 86 | insertDate | `DateTime` | Insert Date |
+| 87 | insertUser | `Float` | Insert User |
+| 88 | jRNUpdateDate | `Date` | JRN Update Date |
+| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 90 | label | `String` | Label |
+| 91 | longInfo | `String` | Long Info |
+| 92 | losUnit | `Float` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
+| 93 | loyaltyProgramYn | `String` | Flag to indicate if this is a loyalty program |
+| 94 | mandateResvProfiles | `String` | Indicates mandatory reservation profiles. This is used to force entry of profiles on the reservation header if this rate is picked. |
+| 95 | marketCode | `String` | Market Code |
+| 96 | marshaRateProgram | `String` | Contains the rate program information from the MARSHA interface. |
+| 97 | maxAdvanceBooking | `Float` | Max number of days to book rate in advance. |
+| 98 | maxLos | `Float` | Max Los |
+| 99 | maxOccupancy | `Float` | Max Occupancy |
+| 100 | mfnUploadYn | `String` | Flag used to determine if the rate code is to be sent to MyFidelio.net if the rate is being received from a V6 V7 V8 or OPMS on a lower version on which flag used to determine if the rate code is to be sent to MyFidelio.net does not exist on the rate header. |
+| 101 | minOccupancy | `Float` | Minimum Occupancy |
+| 102 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
+| 103 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
+| 104 | multiplication | `String` | Amount to be multiplied to the base rate when shown on rate query |
+| 105 | negotiated | `String` | Negotiated rate Y/N |
+| 106 | occupancyBasedYn | `String` | Indicates if the rate code is occupancy based. |
+| 107 | occupancyLevel | `Float` | Indicates the occupancy level for hurdle evaluation. |
+| 108 | operatorType | `String` | The operator type to use during the calculation of base rates. (ADD_TO SUBTRACT) |
+| 109 | orderBy | `Float` | Order By |
+| 110 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 111 | orsSellSequence | `Float` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
+| 112 | overridePackageYn | `String` | Indicates if we need to override package for hurdle evaluation. |
+| 113 | ownerRateYn | `String` | Indicates Owners Rate Code. This is used to perform rolling noshow. |
+| 114 | packageTransactionTaxInclYN | `String` | Wrapper transaction code tax inclusive Y/N |
+| 115 | packageTransactionWkTaxInclYN | `String` | Wrapper transaction code tax inclusive for weekend days Y/N |
+| 116 | packageTrxCode | `String` | Wrapper transaction code |
+| 117 | packageTrxCodeWk | `String` | Wrapper transaction code for weekend days |
+| 118 | packageYn | `String` | Package Y/N |
+| 119 | pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
+| 120 | postingRhythm | `String` | Posting Rhythm |
+| 121 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
+| 122 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 123 | printRateYn | `String` | Print Rate Y/N |
+| 124 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
+| 125 | privilegedYn | `String` | Indicates if rate is privileged or not. |
+| 126 | profitTrxCode | `String` | Transaction code for profit |
+| 127 | property | `String` | Property |
+| 128 | qualifying | `String` | Qualifying |
+| 129 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 130 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 131 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
+| 132 | rankValue | `Float` | Rank Value |
+| 133 | rateBucket | `String` | Yield rate bucket |
+| 134 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
+| 135 | rateCategories | `String` | Rate Categories |
+| 136 | rateClass | `String` | Rate Class |
+| 137 | rateCodeLocked | `String` | Not used |
+| 138 | rateCodes | `String` | Rate Codes |
+| 139 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
+| 140 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
+| 141 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
+| 142 | rateLevel | `Float` | Rate Level this rate code belongs to. |
+| 143 | rateinfoUrl | `String` | Rateinfo Url |
+| 144 | ratesToGDSYn | `String` | Needs to send this rate to GDS or not. |
+| 145 | redemptionRateYn | `String` | Redemption Rate Y/N |
+| 146 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
+| 147 | rodBaseAmount | `Float` | Rod Base Amount |
+| 148 | rodBaseFltPct | `String` | Rod Base Flt Pct |
+| 149 | rodBaseRounding | `String` | Rod Base Rounding |
+| 150 | rodBasedYn | `String` | Is the group code rate of day based |
+| 151 | rodYn | `String` | Rod Y/N |
+| 152 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 153 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
+| 154 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
+| 155 | sellSequence | `Float` | Sell Sequence |
+| 156 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
+| 157 | servicePerc | `Float` | Service Percentage included. |
+| 158 | shortInfo | `String` | Information to be used in the rate query |
+| 159 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
+| 160 | sourceCode | `String` | Source Code |
+| 161 | taxIncludedPerc | `Float` | Percentage of included Tax. |
+| 162 | taxIncludedYn | `String` | Tax is included in this rate. |
+| 163 | tieredYn | `String` | Indicates if the rate is a tiered rate. |
+| 164 | transactionTaxInclYN | `String` | Transaction code is inclusive of tax Y/N |
+| 165 | transactionWkTaxInclYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
+| 166 | trxCode | `String` | Transaction Code |
+| 167 | trxCodeWk | `String` | The transaction code associated with this rate for weekend days |
+| 168 | updateDate | `DateTime` | Update Date |
+| 169 | updateUser | `Float` | Update User |
+| 170 | upsellYn | `String` | Indicates if the rate code can be upsold |
+| 171 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
+| 172 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
+| 173 | wkDeptCode | `String` | Wk Dept Code |
+| 174 | yieldAs | `String` | Yield As |
+| 175 | yieldableYn | `String` | Yieldable Y/N |
+| 176 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -6733,45 +6733,45 @@
 
 ### ConfigurationResortMembershipStatusDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6779,52 +6779,52 @@
 
 ### ConfigurationResortPriorityDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| priorityId | `String` | Priority ID |
-| priorityType | `String` | Priority Type.  Default Value is PMSGRID |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `Float` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveFlag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | internalInactiveflag | `String` | Inactive Flag |
+| 21 | internalOrganizationId | `Float` | Organization ID |
+| 22 | jRNUpdateDate | `Date` | JRN Update Date |
+| 23 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 24 | languageCode | `String` | Language Code |
+| 25 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 26 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 27 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 28 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 29 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 30 | priorityId | `String` | Priority ID |
+| 31 | priorityType | `String` | Priority Type.  Default Value is PMSGRID |
+| 32 | property | `String` | Property |
+| 33 | ranking | `Float` | Ranking |
+| 34 | repItem | `String` | Reporting Item |
+| 35 | repItemName | `String` | Reporting Item Name |
+| 36 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 37 | repUpdateDate | `Date` | Reporting Updatedate |
+| 38 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 39 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 40 | sequence | `Float` | Sequence |
+| 41 | tempFlag | `Float` | Temp Flag |
+| 42 | titleSuffix | `Float` | Title Suffix |
+| 43 | updateDate | `DateTime` | Update Date |
+| 44 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6832,45 +6832,45 @@
 
 ### ConfigurationResortEntityAccountTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6878,45 +6878,45 @@
 
 ### ConfigurationResortAddressTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6924,45 +6924,45 @@
 
 ### ConfigurationResortAlternateLanguageTitleDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| envelopeGreeting | `String` | Envelope Greeting |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| language | `String` | Language |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| salutation | `String` | Salutation |
-| sequence | `Float` | Sequence |
-| titleNumber | `Float` | Title Number |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | canDeleteYn | `String` | Can Delete Y/N |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | code | `String` | Code |
+| 4 | comments | `String` | Comments |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedflag | `String` | Deleted Flag |
+| 7 | displayColor | `String` | Display Color |
+| 8 | entityName | `String` | Entity Name |
+| 9 | envelopeGreeting | `String` | Envelope Greeting |
+| 10 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 11 | inactiveDate | `DateTime` | Inactive Date |
+| 12 | inactiveflag | `String` | Inactive Flag |
+| 13 | insertDate | `DateTime` | Insert Date |
+| 14 | insertUser | `Float` | Insert User |
+| 15 | jRNUpdateDate | `Date` | JRN Update Date |
+| 16 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 17 | language | `String` | Language |
+| 18 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 19 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 20 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 21 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 22 | property | `String` | Property |
+| 23 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 24 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 25 | ranking | `Float` | Ranking |
+| 26 | repAttributeCode | `String` | Reporting Attribute Code |
+| 27 | repDescription | `String` | Reporting Description |
+| 28 | repItem | `String` | Reporting Item |
+| 29 | repItemName | `String` | Reporting Item Name |
+| 30 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 31 | repOrderBy | `Float` | Reporting Order By |
+| 32 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 33 | salutation | `String` | Salutation |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleNumber | `Float` | Title Number |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6970,51 +6970,51 @@
 
 ### ConfigurationResortRoomsPotentialDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomsPotentialType | `String` | Rooms Potential Type |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveFlag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | internalInactiveflag | `String` | Inactive Flag |
+| 21 | internalOrganizationId | `Float` | Organization ID |
+| 22 | jRNUpdateDate | `Date` | JRN Update Date |
+| 23 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 24 | languageCode | `String` | Language Code |
+| 25 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 26 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 27 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 28 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 29 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 30 | property | `String` | Property |
+| 31 | ranking | `Float` | Ranking |
+| 32 | repItem | `String` | Reporting Item |
+| 33 | repItemName | `String` | Reporting Item Name |
+| 34 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 35 | repUpdateDate | `Date` | Reporting Updatedate |
+| 36 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 37 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 38 | roomsPotentialType | `String` | Rooms Potential Type |
+| 39 | sequence | `Float` | Sequence |
+| 40 | tempFlag | `String` | Temp Flag |
+| 41 | titleSuffix | `Float` | Title Suffix |
+| 42 | updateDate | `DateTime` | Update Date |
+| 43 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7022,45 +7022,45 @@
 
 ### ConfigurationResortBusinessSegmentDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7068,45 +7068,45 @@
 
 ### ConfigurationResortCompanyTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7114,49 +7114,49 @@
 
 ### ConfigurationResortCompetitionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| attributeCode | `String` | Attribute Code |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCompetition | `String` | Central Competition |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| competition | `String` | Competition |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `Float` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | attributeCode | `String` | Attribute Code |
+| 2 | businessTitle | `String` | Business Title |
+| 3 | canDeleteYn | `String` | Can Delete Y/N |
+| 4 | centralCompetition | `String` | Central Competition |
+| 5 | centralDescription | `String` | Central Description |
+| 6 | centralSequence | `Float` | Central Sequence |
+| 7 | chainCode | `String` | Chain Code |
+| 8 | code | `String` | Code |
+| 9 | comments | `String` | Comments |
+| 10 | competition | `String` | Competition |
+| 11 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 12 | deletedFlag | `String` | Deleted Flag |
+| 13 | description | `String` | Description |
+| 14 | displayColor | `String` | Display Color |
+| 15 | entityName | `String` | Entity Name |
+| 16 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 17 | inactiveDate | `Date` | Inactive Date |
+| 18 | inactiveFlag | `String` | Inactive Flag |
+| 19 | insertDate | `DateTime` | Insert Date |
+| 20 | insertUser | `Float` | Insert User |
+| 21 | internalOrganizationId | `Float` | Organization ID |
+| 22 | jRNUpdateDate | `Date` | JRN Update Date |
+| 23 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 24 | languageCode | `String` | Language Code |
+| 25 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 26 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 27 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 28 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 29 | property | `String` | Property |
+| 30 | ranking | `Float` | Ranking |
+| 31 | repItem | `String` | Reporting Item |
+| 32 | repItemName | `String` | Reporting Item Name |
+| 33 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 34 | repUpdateDate | `Date` | Reporting Updatedate |
+| 35 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 36 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 37 | sequence | `Float` | Sequence |
+| 38 | tempFlag | `Float` | Temp Flag |
+| 39 | titleSuffix | `Float` | Title Suffix |
+| 40 | updateDate | `DateTime` | Update Date |
+| 41 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7164,45 +7164,45 @@
 
 ### ConfigurationResortGenderDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7210,45 +7210,45 @@
 
 ### ConfigurationResortProfileInactiveReasonDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7256,45 +7256,45 @@
 
 ### ConfigurationResortIndustryCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7302,45 +7302,45 @@
 
 ### ConfigurationResortInfluenceCodeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7348,45 +7348,45 @@
 
 ### ConfigurationResortKeywordTypeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7394,51 +7394,51 @@
 
 ### ConfigurationResortMailingActionDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `Date` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalDeletedflag | `String` | Deleted Flag |
-| internalInactiveflag | `String` | Inactive Flag |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| lastUsedDatetime | `Date` | Last Used Datetime |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| mailingActionType | `String` | Mailing Action Type |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `Date` | Reporting Updatedate |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| sequence | `Float` | Sequence |
-| tempFlag | `String` | Temp Flag |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedFlag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `Date` | Inactive Date |
+| 16 | inactiveFlag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | internalDeletedflag | `String` | Deleted Flag |
+| 20 | internalInactiveflag | `String` | Inactive Flag |
+| 21 | internalOrganizationId | `Float` | Organization ID |
+| 22 | jRNUpdateDate | `Date` | JRN Update Date |
+| 23 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 24 | languageCode | `String` | Language Code |
+| 25 | lastUsedDatetime | `Date` | Last Used Datetime |
+| 26 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 27 | mailingActionType | `String` | Mailing Action Type |
+| 28 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 29 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 30 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 31 | property | `String` | Property |
+| 32 | ranking | `Float` | Ranking |
+| 33 | repItem | `String` | Reporting Item |
+| 34 | repItemName | `String` | Reporting Item Name |
+| 35 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 36 | repUpdateDate | `Date` | Reporting Updatedate |
+| 37 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 38 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 39 | sequence | `Float` | Sequence |
+| 40 | tempFlag | `String` | Temp Flag |
+| 41 | titleSuffix | `Float` | Title Suffix |
+| 42 | updateDate | `DateTime` | Update Date |
+| 43 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7446,55 +7446,55 @@
 
 ### ConfigurationResortPreferenceDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| amenityYn | `String` | Indicates if a special request is an Amenity. Used in SPG Transformation functionality. |
-| cExchangeDate | `Date` | Central Xchange Date |
-| cExchangeRate | `Float` | Central Xchange Rate |
-| cRoomAssignmentValue | `Float` | Central Room Assignment Value |
-| cRSPreferenceYn | `String` | Whether this Preference is used in CRS Module or not. |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `Float` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| corporateYn | `String` | Indicates if the preference is configured as Global in ORS. |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| description1 | `String` | Description of the first column in the query result. |
-| housekeepingYn | `String` | Indicated if this floor preference is used for task assignments broken out by floor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveFlag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| internalOrganizationId | `Float` | Organization ID |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| locationId | `String` | Location ID |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| owsAllowedYN | `String` | Indicates if the preference is exposed in OWS Lookup queries. |
-| preferenceAttribute | `String` | Preference Attribute. |
-| preferenceCode | `String` | Preference Code |
-| preferenceDescription | `String` | Preference Description |
-| preferenceGroup | `String` | Preference Group |
-| preferenceId | `Float` | Internal Id of the preference |
-| preferenceSubType | `String` | Preference Sub Type. |
-| preference1 | `String` | Preference1 |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| reportingPreferenceSequenceId | `String` | Rep Preference Seq ID |
-| rnaInsertDate | `DateTime` | RnA Insertdate |
-| rnaUpdateDate | `DateTime` | RnA Updatedate |
-| roomAssignmentValue | `Float` | Room Assignment Value |
-| sendDeleteRequestYn | `String` | Indicates delete preference request should be to central system instead of deleting the preference from profile. |
-| sequence | `Float` | Sequence |
-| source | `String` | Source |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | amenityYn | `String` | Indicates if a special request is an Amenity. Used in SPG Transformation functionality. |
+| 2 | cExchangeDate | `Date` | Central Xchange Date |
+| 3 | cExchangeRate | `Float` | Central Xchange Rate |
+| 4 | cRoomAssignmentValue | `Float` | Central Room Assignment Value |
+| 5 | cRSPreferenceYn | `String` | Whether this Preference is used in CRS Module or not. |
+| 6 | canDeleteYn | `String` | Can Delete Y/N |
+| 7 | centralCode | `Float` | Central Code |
+| 8 | centralDescription | `String` | Central Description |
+| 9 | centralSequence | `Float` | Central Sequence |
+| 10 | chainCode | `String` | Chain Code |
+| 11 | corporateYn | `String` | Indicates if the preference is configured as Global in ORS. |
+| 12 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 13 | deletedFlag | `String` | Deleted Flag |
+| 14 | description1 | `String` | Description of the first column in the query result. |
+| 15 | housekeepingYn | `String` | Indicated if this floor preference is used for task assignments broken out by floor. |
+| 16 | inactiveDate | `DateTime` | Inactive Date |
+| 17 | inactiveFlag | `String` | Inactive Flag |
+| 18 | insertDate | `DateTime` | Insert Date |
+| 19 | insertUser | `Float` | Insert User |
+| 20 | internalOrganizationId | `Float` | Organization ID |
+| 21 | jRNUpdateDate | `Date` | JRN Update Date |
+| 22 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 23 | locationId | `String` | Location ID |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | owsAllowedYN | `String` | Indicates if the preference is exposed in OWS Lookup queries. |
+| 26 | preferenceAttribute | `String` | Preference Attribute. |
+| 27 | preferenceCode | `String` | Preference Code |
+| 28 | preferenceDescription | `String` | Preference Description |
+| 29 | preferenceGroup | `String` | Preference Group |
+| 30 | preferenceId | `Float` | Internal Id of the preference |
+| 31 | preferenceSubType | `String` | Preference Sub Type. |
+| 32 | preference1 | `String` | Preference1 |
+| 33 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 34 | property | `String` | Property |
+| 35 | repItem | `String` | Reporting Item |
+| 36 | repItemName | `String` | Reporting Item Name |
+| 37 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 38 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 39 | reportingPreferenceSequenceId | `String` | Rep Preference Seq ID |
+| 40 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 41 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 42 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 43 | sendDeleteRequestYn | `String` | Indicates delete preference request should be to central system instead of deleting the preference from profile. |
+| 44 | sequence | `Float` | Sequence |
+| 45 | source | `String` | Source |
+| 46 | updateDate | `DateTime` | Update Date |
+| 47 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7502,45 +7502,45 @@
 
 ### ConfigurationResortProfileRestrictionReasonDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repAttributeCode | `String` | Reporting Attribute Code |
-| repDescription | `String` | Reporting Description |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repOrderBy | `Float` | Reporting Order By |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | code | `String` | Code |
+| 5 | comments | `String` | Comments |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedflag | `String` | Deleted Flag |
+| 8 | description | `String` | Description |
+| 9 | displayColor | `String` | Display Color |
+| 10 | entityName | `String` | Entity Name |
+| 11 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | inactiveflag | `String` | Inactive Flag |
+| 14 | insertDate | `DateTime` | Insert Date |
+| 15 | insertUser | `Float` | Insert User |
+| 16 | jRNUpdateDate | `Date` | JRN Update Date |
+| 17 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 18 | languageCode | `String` | Language Code |
+| 19 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 20 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 21 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 22 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 23 | property | `String` | Property |
+| 24 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 25 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 26 | ranking | `Float` | Ranking |
+| 27 | repAttributeCode | `String` | Reporting Attribute Code |
+| 28 | repDescription | `String` | Reporting Description |
+| 29 | repItem | `String` | Reporting Item |
+| 30 | repItemName | `String` | Reporting Item Name |
+| 31 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 32 | repOrderBy | `Float` | Reporting Order By |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7548,45 +7548,45 @@
 
 ### ConfigurationResortSalesEventScopeDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7594,45 +7594,45 @@
 
 ### ConfigurationResortSalesEventScopeCityDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| businessTitle | `String` | Business Title |
-| canDeleteYn | `String` | Can Delete Y/N |
-| centralCode | `String` | Central Code |
-| centralDescription | `String` | Central Description |
-| centralSequence | `Float` | Central Sequence |
-| chainCode | `String` | Chain Code |
-| code | `String` | Code |
-| comments | `String` | Comments |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedflag | `String` | Deleted Flag |
-| description | `String` | Description |
-| displayColor | `String` | Display Color |
-| entityName | `String` | Entity Name |
-| externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
-| inactiveDate | `DateTime` | Inactive Date |
-| inactiveflag | `String` | Inactive Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| languageCode | `String` | Language Code |
-| locationID | `String` | Internal ID to uniquely identify the Property |
-| masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Property |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| ranking | `Float` | Ranking |
-| repItem | `String` | Reporting Item |
-| repItemName | `String` | Reporting Item Name |
-| repItemOrderby | `Float` | Reporting Item Orderby |
-| repUpdateDate | `DateTime` | Reporting Updatedate |
-| sequence | `Float` | Sequence |
-| titleSuffix | `Float` | Title Suffix |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | businessTitle | `String` | Business Title |
+| 2 | canDeleteYn | `String` | Can Delete Y/N |
+| 3 | centralCode | `String` | Central Code |
+| 4 | centralDescription | `String` | Central Description |
+| 5 | centralSequence | `Float` | Central Sequence |
+| 6 | chainCode | `String` | Chain Code |
+| 7 | code | `String` | Code |
+| 8 | comments | `String` | Comments |
+| 9 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 10 | deletedflag | `String` | Deleted Flag |
+| 11 | description | `String` | Description |
+| 12 | displayColor | `String` | Display Color |
+| 13 | entityName | `String` | Entity Name |
+| 14 | externalAttributeCodes | `String` | Contains a list of codes used by a vendor. |
+| 15 | inactiveDate | `DateTime` | Inactive Date |
+| 16 | inactiveflag | `String` | Inactive Flag |
+| 17 | insertDate | `DateTime` | Insert Date |
+| 18 | insertUser | `Float` | Insert User |
+| 19 | jRNUpdateDate | `Date` | JRN Update Date |
+| 20 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 21 | languageCode | `String` | Language Code |
+| 22 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 23 | masterSubKeywordYn | `String` | Indicates if the KEYWORD TYPE is to be copied from a Company Master to a Company Subsidiary. |
+| 24 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 25 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 26 | property | `String` | Property |
+| 27 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 28 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 29 | ranking | `Float` | Ranking |
+| 30 | repItem | `String` | Reporting Item |
+| 31 | repItemName | `String` | Reporting Item Name |
+| 32 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 33 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 34 | sequence | `Float` | Sequence |
+| 35 | titleSuffix | `Float` | Title Suffix |
+| 36 | updateDate | `DateTime` | Update Date |
+| 37 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -7640,32 +7640,32 @@
 
 ### ConfigurationResortMembershipClaimAdjustmentLimitDetailsType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| adjustmentLimitCode | `String` | Adjustment Limit Code |
-| awardLowerLimit | `Float` | Lower limit for award. |
-| awardUpperLimit | `Float` | Higher limit for award. |
-| billingGroup | `String` | Billing Group |
-| chainCode | `String` | Chain Code |
-| dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| deletedFlag | `String` | Deleted Flag |
-| insertDate | `DateTime` | Insert Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| property | `String` | Deprecated. Child table GDS_ACCESS_CODE_RESORTS will instead hold all properties to which to auto publish. |
-| rNAInsertDate | `DateTime` | RNA Insert Date |
-| rNAUpdateDate | `DateTime` | RNA Update Date |
-| tierNightsLowerLimit | `Float` | Lower limit for tier points for nights. |
-| tierNightsUpperLimit | `Float` | Higher limit for tier points for nights. |
-| tierRevenueLowerLimit | `Float` | Lower limit for tier points for revenue. |
-| tierRevenueUpperLimit | `Float` | Higher limit for tier points for revenue. |
-| tierStaysLowerLimit | `Float` | Lower limit for tier points for stay. |
-| tierStaysUpperLimit | `Float` | Higher limit for tier points for stay. |
-| updateDate | `DateTime` | Update Date |
-| updateUser | `Float` | Update User |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | adjustmentLimitCode | `String` | Adjustment Limit Code |
+| 2 | awardLowerLimit | `Float` | Lower limit for award. |
+| 3 | awardUpperLimit | `Float` | Higher limit for award. |
+| 4 | billingGroup | `String` | Billing Group |
+| 5 | chainCode | `String` | Chain Code |
+| 6 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | insertUser | `Float` | Insert User |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Deprecated. Child table GDS_ACCESS_CODE_RESORTS will instead hold all properties to which to auto publish. |
+| 15 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 16 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 17 | tierNightsLowerLimit | `Float` | Lower limit for tier points for nights. |
+| 18 | tierNightsUpperLimit | `Float` | Higher limit for tier points for nights. |
+| 19 | tierRevenueLowerLimit | `Float` | Lower limit for tier points for revenue. |
+| 20 | tierRevenueUpperLimit | `Float` | Higher limit for tier points for revenue. |
+| 21 | tierStaysLowerLimit | `Float` | Lower limit for tier points for stay. |
+| 22 | tierStaysUpperLimit | `Float` | Higher limit for tier points for stay. |
+| 23 | updateDate | `DateTime` | Update Date |
+| 24 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -9148,6 +9148,11 @@
 | memclaimadjlimitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | memclaimadjlimitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | memclaimadjlimitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+#### Validation Rules
+
+**`conditionalInputPair(pair: 1)`**
+- resortDetailsResort
+
 
 [⬆ Back to Query](#query)
 

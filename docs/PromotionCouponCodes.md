@@ -16,10 +16,10 @@
 
 ### PromotionCouponCodesType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| promotionCouponCodesDetail | [`PromotionCouponCodesPromotionCouponCodesDetailType`](#promotioncouponcodespromotioncouponcodesdetailtype) | One Time Promo Coupons |
-| promotionCouponCodesRecordCount | `Int` |  |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | promotionCouponCodesDetail | [`PromotionCouponCodesPromotionCouponCodesDetailType`](#promotioncouponcodespromotioncouponcodesdetailtype) | One Time Promo Coupons |
+| 2 | promotionCouponCodesRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -27,31 +27,31 @@
 
 ### PromotionCouponCodesPromotionCouponCodesDetailType
 
-| Field | Type | Description |
-| --- | --- | --- |
-| batchCode | `String` | Batch Code |
-| chainCode | `String` | Chain Code |
-| couponCode | `String` | Coupon Code |
-| couponID | `Float` | Coupon ID |
-| createDate | `Date` | Create Date |
-| dSI | `Float` | DSI |
-| deletedFlag | `String` | Deleted Flag |
-| exportDate | `Date` | Export Date |
-| inactiveDate | `Date` | Inactive Date |
-| insertUser | `Float` | Insert User |
-| jRNUpdateDate | `Date` | JRN Update Date |
-| jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
-| organizationID | `Float` | Organization ID |
-| primaryKeyID | `Float` | Primary Key ID |
-| promotionCode | `String` | Promotion Code |
-| property | `String` | Property |
-| rNAInsertDate | `Date` | RNA Insert Date |
-| rNAUpdateDate | `Date` | RNA Update Date |
-| status | `String` | Status |
-| updateDate | `Date` | Update Date |
-| updateUser | `Float` | Update User |
-| usedInReservationNameID | `Float` | Used In Reservation Name ID |
-| usedInReservationProperty | `String` | Used In Reservation Property |
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | batchCode | `String` | Batch Code |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | couponCode | `String` | Coupon Code |
+| 4 | couponID | `Float` | Coupon ID |
+| 5 | createDate | `Date` | Create Date |
+| 6 | dSI | `Float` | DSI |
+| 7 | deletedFlag | `String` | Deleted Flag |
+| 8 | exportDate | `Date` | Export Date |
+| 9 | inactiveDate | `Date` | Inactive Date |
+| 10 | insertUser | `Float` | Insert User |
+| 11 | jRNUpdateDate | `Date` | JRN Update Date |
+| 12 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 13 | organizationID | `Float` | Organization ID |
+| 14 | primaryKeyID | `Float` | Primary Key ID |
+| 15 | promotionCode | `String` | Promotion Code |
+| 16 | property | `String` | Property |
+| 17 | rNAInsertDate | `Date` | RNA Insert Date |
+| 18 | rNAUpdateDate | `Date` | RNA Update Date |
+| 19 | status | `String` | Status |
+| 20 | updateDate | `Date` | Update Date |
+| 21 | updateUser | `Float` | Update User |
+| 22 | usedInReservationNameID | `Float` | Used In Reservation Name ID |
+| 23 | usedInReservationProperty | `String` | Used In Reservation Property |
 
 [⬆ Back to Query](#query)
 
@@ -178,6 +178,11 @@
 | onetimepromocouponsDetailsResort | `StringInput!` | Property<br>`@mandatoryInput` |
 | onetimepromocouponsDetailsUsedInResvNameId | `FloatInput` | Used In Reservation Name ID |
 | onetimepromocouponsDetailsUsedInResvResort | `StringInput` | Used In Reservation Property |
+#### Validation Rules
+
+**`mandatoryInput`**
+- onetimepromocouponsDetailsResort
+
 
 [⬆ Back to Query](#query)
 
