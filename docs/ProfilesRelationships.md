@@ -1,5 +1,5 @@
 # ProfilesRelationships
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesRelationships`
 > The Profile - Relationships subject area contains relationship details including the relationship type description and role and the profiles that are linked through the relationship.

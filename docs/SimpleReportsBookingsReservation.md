@@ -1,5 +1,5 @@
 # SimpleReportsBookingsReservation
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsBookingsReservation`
 > The Simple Reports Bookings Reservation Subject Area simplifies creating and building adhoc reports including the ability to create new reports.

@@ -1,5 +1,5 @@
 # FinancialGuestLedger
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `financialGuestLedger`
 > Guest ledger details including individual reservations posted transaction details with debit and credit amounts.

@@ -1,5 +1,5 @@
 # StatisticsReservationsDaily
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsReservationsDaily`
 > Detailed information on past reservations including occupancy and revenue figures with all profile data broken down by Market Rate code room type and periods of time.

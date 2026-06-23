@@ -1,5 +1,5 @@
 # FinancialCommissions
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `financialCommissions`
 > Detailed information on the commissions module including Reservation and Travel Agent profile information with commission codes amounts payment activity and processing status. Commission information can be reported across all properties by Travel Agent and Source profiles bank account guest information and dates.

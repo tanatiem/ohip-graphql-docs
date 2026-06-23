@@ -1,5 +1,5 @@
 # StatisticsManagersReport
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsManagersReport`
 > Past statistics including rooms and revenue figures arrivals departures and occupancy broken out by multiple time periods.

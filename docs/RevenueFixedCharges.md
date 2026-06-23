@@ -1,5 +1,5 @@
 # RevenueFixedCharges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `revenueFixedCharges`
 > Details on fixed charges including amount frequency and transaction code and the linked reservations.

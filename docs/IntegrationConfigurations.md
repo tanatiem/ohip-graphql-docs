@@ -1,5 +1,5 @@
 # IntegrationConfigurations
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `integrationConfigurations`
 > Exchange Configurations data including External Systems External Databases Business Events Interface Setup Interface Controls and Interface Mappings.

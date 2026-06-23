@@ -1,5 +1,5 @@
 # CateringEventPostings
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `cateringEventPostings`
 > Event posting details including revenues by property Block Event and Revenue groups

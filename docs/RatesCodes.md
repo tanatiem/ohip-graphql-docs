@@ -1,5 +1,5 @@
 # RatesCodes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesCodes`
 > Rate detail information including all rate header details  room type rate tiers and rate amounts per occupant.

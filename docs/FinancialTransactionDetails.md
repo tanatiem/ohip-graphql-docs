@@ -1,5 +1,5 @@
 # FinancialTransactionDetails
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionDetails`
 > Detailed information on all posted transactions including net and gross amounts currency calendar and financial period market and rate code

@@ -1,5 +1,5 @@
 # StatisticsForecastSummary
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsForecastSummary`
 > Future on the books information including rooms revenue and persons with breakdowns by room types market code source code and periods of time.

@@ -1,5 +1,5 @@
 # ProfilesCommunications
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesCommunications`
 > All associated communication details including communication types and roles which can be associated with the proper profile and profile type.

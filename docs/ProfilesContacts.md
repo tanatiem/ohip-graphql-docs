@@ -1,5 +1,5 @@
 # ProfilesContacts
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesContacts`
 > The Contacts subject area contains Room Night and Revenue statistics broken down between booked and stays reservations and can be summarized by Property Stay Date Business Segment and Owner.

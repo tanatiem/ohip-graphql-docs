@@ -1,5 +1,5 @@
 # BookingsBlockProductionChanges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsBlockProductionChanges`
 > Detailed information on blocks and any changes to the number of rooms or revenue by stay date property and Block Owner.

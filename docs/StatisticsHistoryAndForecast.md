@@ -1,5 +1,5 @@
 # StatisticsHistoryAndForecast
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsHistoryAndForecast`
 > Detailed information on past and future reservations including occupancy and revenue figures with all profile data broken down by Market Rate code Room type and Periods of time.

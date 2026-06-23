@@ -1,5 +1,5 @@
 # BookingsReservation
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsReservation`
 > Detailed information on reservations booked in the past and future including market code rate code reservation status guest information and associated room and revenue details.

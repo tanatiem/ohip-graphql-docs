@@ -1,5 +1,5 @@
 # InventoryHousekeepingManagementTaskSheet
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryHousekeepingManagementTaskSheet`
 > Details on Tasks Task Sheets and Credits for the current date

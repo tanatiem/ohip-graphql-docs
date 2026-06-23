@@ -1,5 +1,5 @@
 # ExportMappings
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `exportMappings`
 > Provides detailed information of all configured external codes/values (i.e. general ledger codes) mapped to codes used in OPERA (i.e transaction codes market codes). It contains a comprehensive set of data including but not limited to Mapping Type Code/Descriptions Mapped To Code/Descriptions with other Mapping details such as Export Values by Property / Chain.

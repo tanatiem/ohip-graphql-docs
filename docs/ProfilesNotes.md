@@ -1,5 +1,5 @@
 # ProfilesNotes
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesNotes`
 > Profile note types and note details including internal and confidential flags and the profile details they are associated with.

@@ -1,5 +1,5 @@
 # ResortBudgetForecast
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `resortBudgetForecast`
 > This Subject Area Contains the Budget Forecast Details of the Property(s)

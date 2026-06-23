@@ -1,5 +1,5 @@
 # RatesHurdles
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesHurdles`
 > Rate yielding and hurdle information including date amount  length of stay and room type.

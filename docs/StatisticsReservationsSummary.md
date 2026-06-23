@@ -1,5 +1,5 @@
 # StatisticsReservationsSummary
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `statisticsReservationsSummary`
 > Summarized booking data for both on the books and past stays including rooms revenue and occupancy details broken out by Market Code Rate code and periods of time.

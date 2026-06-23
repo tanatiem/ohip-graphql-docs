@@ -1,5 +1,5 @@
 # CateringEventsAndResources
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `cateringEventsAndResources`
 > Event and Block details including group profile information menu packages and revenues broken down by event type.

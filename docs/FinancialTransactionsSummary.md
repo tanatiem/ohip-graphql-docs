@@ -1,5 +1,5 @@
 # FinancialTransactionsSummary
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionsSummary`
 > Summarized information on posted transactions including transaction group sub group and codes broken down by property and business date.

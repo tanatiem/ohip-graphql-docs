@@ -1,5 +1,5 @@
 # BookingsBlockStatusChanges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsBlockStatusChanges`
 > Detailed information on the status changes throughout the production period of a block including the new and old status codes rooms and associated revenues by property and Block Owner.

@@ -1,5 +1,5 @@
 # ProfilesAddresses
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesAddresses`
 > All associated addresses including primary and secondary addresses and address types which can be associated with the proper profile and profile type.

@@ -1,5 +1,5 @@
 # SimpleReportsActivities
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `simpleReportsActivities`
 > The Simple Report Activities Subject Area simplifies creating and building adhoc reports including the ability to create new reports.

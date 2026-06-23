@@ -1,5 +1,5 @@
 # ARAgingReport
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `aRAgingReport`
 > Detailed information on accounts receivable transactions including aging bucket of invoices open transaction amounts folio information and the account details.

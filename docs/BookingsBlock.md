@@ -1,5 +1,5 @@
 # BookingsBlock
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `bookingsBlock`
 > Block header and grid details including actual and potential room and revenue statistics catering events and the associated profile and reservations data.

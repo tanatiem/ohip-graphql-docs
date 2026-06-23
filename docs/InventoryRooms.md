@@ -1,5 +1,5 @@
 # InventoryRooms
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryRooms`
 > Comprehensive Information on Guest Room Details and Configuration

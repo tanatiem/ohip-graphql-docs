@@ -1,5 +1,5 @@
 # InventoryRoomsManagement
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `inventoryRoomsManagement`
 > Provides detailed information on room maintenance and out of order/service assignments broken down by property time and room dimensions. Also provides reservations and profile details for service requests.

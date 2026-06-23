@@ -1,5 +1,5 @@
 # RevenuePackages
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `revenuePackages`
 > Package header details including package group setup and associated flags for selling and consumption options.

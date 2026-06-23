@@ -1,5 +1,5 @@
 # EFolio
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `eFolio`
 > This subject area contains data for billing folio settlements to be used for exporting to an external system for efolios.

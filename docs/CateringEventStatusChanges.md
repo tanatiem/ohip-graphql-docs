@@ -1,5 +1,5 @@
 # CateringEventStatusChanges
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `cateringEventStatusChanges`
 > Detailed information on the status changes throughout the production period of an event including the new and old status codes change date revenue and attendees.

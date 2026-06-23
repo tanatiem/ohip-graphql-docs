@@ -1,5 +1,5 @@
 # ProfilesLoyalty
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `profilesLoyalty`
 > Detailed information on the Loyalty Program providing details on the Membership Profiles Stay Information and the ability to  track Awards and Claims.

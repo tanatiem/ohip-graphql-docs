@@ -1,5 +1,5 @@
 # FinancialTransactionDetailsExtended
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `financialTransactionDetailsExtended`
 > Provide financial transaction information with extended or additional details such as routing cashiers currency etc.

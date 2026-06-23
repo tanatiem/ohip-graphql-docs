@@ -1,5 +1,5 @@
 # ChangesLog
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `changesLog`
 > Provides detailed information on actions and the users who completed the action including date time activity type and description. Also providing the capability to combine with reservation block and profile data

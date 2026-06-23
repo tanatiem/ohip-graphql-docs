@@ -1,5 +1,5 @@
 # RatesRestrictions
-[Object Types](#object-types) | [Input Types](#input-types) | [Query Template](#query-template) | [Parquet Schema](#parquet-schema)
+[📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
 ### `ratesRestrictions`
 > Rate restriction definition including restriction type date applied room and rate code with day of the week and length of the stay details.
