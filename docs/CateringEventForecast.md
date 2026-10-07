@@ -487,21 +487,21 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| eventtypeforecastDetailsBookingType | `StringInput` | Allotment Type attached to this event forecast record. |
+| eventtypeforecastDetailsBookingType | `StringInput` | Allotment Type attached to this event forecast record.<br>`@conditionalInputPair(pair: 2)` |
 | eventtypeforecastDetailsRepBookingType | `StringInput` | Central Booking Type |
 | eventtypeforecastDetailsRepEventType | `StringInput` | Central Event Type |
 | eventtypeforecastDetailsRepMarketCode | `StringInput` | Central Market Code |
 | eventtypeforecastDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | eventtypeforecastDetailsEvForecastid | `FloatInput` | EV_FORECAST_SEQNO |
-| eventtypeforecastDetailsEvType | `StringInput!` | Event Type<br>`@mandatoryInput` |
+| eventtypeforecastDetailsEvType | `StringInput` | Event Type<br>`@conditionalInputPair(pair: 2)` |
 | eventtypeforecastDetailsEventtypeid | `StringInput` | Eventtypeid |
 | eventtypeforecastDetailsFcBegin | `DateInput` | Forecast Start Date |
 | eventtypeforecastDetailsFcEnd | `DateInput` | Forecast Enddate |
-| eventtypeforecastDetailsEventforecastid | `FloatInput` | Eventforecastid |
-| eventtypeforecastDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| eventtypeforecastDetailsMarketCode | `StringInput` | Market Code |
+| eventtypeforecastDetailsEventforecastid | `FloatInput` | Eventforecastid<br>`@conditionalInputPair(pair: 2)` |
+| eventtypeforecastDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| eventtypeforecastDetailsMarketCode | `StringInput` | Market Code<br>`@conditionalInputPair(pair: 2)` |
 | eventtypeforecastDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| eventtypeforecastDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| eventtypeforecastDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | eventtypeforecastDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
 | eventtypeforecastDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
 | eventforecastrevDetailsCXchangeDate | `DateInput` | Central Xchange Date |
@@ -776,9 +776,15 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
-- eventtypeforecastDetailsEvType
+**`conditionalInputPair(pair: 1)`**
 - eventtypeforecastDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- eventtypeforecastDetailsBookingType
+- eventtypeforecastDetailsEvType
+- eventtypeforecastDetailsEventforecastid
+- eventtypeforecastDetailsJrnupdatedttm
+- eventtypeforecastDetailsMarketCode
 
 
 [⬆ Back to Query](#query)

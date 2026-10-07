@@ -30,104 +30,105 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | actClass | `String` | Act Class |
-| 2 | actId | `Float` | Activity ID |
-| 3 | actType | `String` | Act Type |
-| 4 | activityOwnerCode | `String` | Activity Owner Code |
-| 5 | assignedBy | `Float` | User who assigned the task. |
-| 6 | assignedByUser | `String` | Assigned By User |
-| 7 | assignedOnDate | `Date` | Date on which this work order was assigned to someone else |
-| 8 | assignedTo | `Float` | Assigned To |
-| 9 | assignedToUser | `String` | Assigned To User |
-| 10 | author | `Float` | Author |
-| 11 | cTotalLaborCost | `Float` | Central Total Labor Cost |
-| 12 | cTotalPartsCost | `Float` | Central Total Parts Cost |
-| 13 | categoryCode | `String` | Category Code |
-| 14 | colorCode | `String` | Contains the color code in which the record has to be shown because of the current priority |
-| 15 | completedBy | `Float` | Completed By |
-| 16 | completedByUser | `String` | Completed By User |
-| 17 | completedDate | `Date` | Completed Date |
-| 18 | createdBy | `Float` | Created By |
-| 19 | createdByUser | `String` | Created By User |
-| 20 | createdDate | `Date` | Created Date |
-| 21 | dSI | `Float` | DSI |
-| 22 | dependingOnActId | `Float` | Depending On Act ID |
-| 23 | deptOfAction | `String` | Dept to which the employee who created the work order belongs |
-| 24 | done | `String` | Done |
-| 25 | dueDate | `Date` | Due Date |
-| 26 | duration | `Float` | Duration |
-| 27 | durationTimeCode | `String` | Duration Measured in unit of time |
-| 28 | endDate | `Date` | End Date |
-| 29 | endDateColumn | `Date` | End Date Column |
-| 30 | estTimeToComplete | `Float` | Time estimated to complete the work order |
-| 31 | estUotCode | `String` | Est Uot Code |
-| 32 | externalSystem | `String` | External System |
-| 33 | externalSystemId | `String` | External System ID. |
-| 34 | generatedByCampaign | `String` | Indicates if a Campain generated this activity. |
-| 35 | guestOriginatedYn | `String` | Whether the work order is guest originated or not |
-| 36 | guestRoomYn | `String` | Whether this location is a a guest room or not |
-| 37 | highPriorityYn | `String` | Whether the work order is having high priority or not. |
-| 38 | inactiveDate | `Date` | Inactive Date |
-| 39 | insertDate | `DateTime` | Insert Date |
-| 40 | insertUser | `Float` | Insert User |
-| 41 | internalPrimaryKeyIDToUniquelyIdentifyTheRow | `Float` | Primary Key ID |
-| 42 | internalYn | `String` | Internal Y/N |
-| 43 | jRNUpdateDate | `Date` | JRN Update Date |
-| 44 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 45 | locationCode | `String` | Location Code |
-| 46 | locationDesc | `String` | Location Description |
-| 47 | masterSub | `String` | Decides whether a particular workorder is a master or sub or none. |
-| 48 | minutesBeforeAlert | `Float` | Number of minutes before the activity start time when the alert will be raised. (Default value) |
-| 49 | multiAccount | `String` | Multi Account |
-| 50 | multiBblocks | `String` | Multi Bblocks |
-| 51 | multiContact | `String` | Multi Contact |
-| 52 | multiContract | `String` | Multi Contract |
-| 53 | multiProfiles | `String` | Multi Profiles |
-| 54 | notes | `String` | Notes |
-| 55 | notifiedYn | `String` | Has the user been notified about this activity ? |
-| 56 | organizationID | `Float` | Organization ID |
-| 57 | parentActId | `Float` | Parent Act ID |
-| 58 | plantItemCode | `String` | Plant Item Code |
-| 59 | plantItemDesc | `String` | Plant Item Description |
-| 60 | priorityChangedYn | `String` | Whether the priority was manually changed or not |
-| 61 | priorityCode | `String` | Priority Code |
-| 62 | priorityDesc | `String` | Priority Description |
-| 63 | prioritySeqNumber | `Float` | A number which indicates the importance of a priority. |
-| 64 | privateYn | `String` | Private Y/N |
-| 65 | problemDesc | `String` | Description of the Problem reported |
-| 66 | property | `String` | Code to uniquely identify the Property |
-| 67 | proposalSentDate | `Date` | Proposal Sent Date |
-| 68 | proposalViewToken | `String` | Proposal View Token |
-| 69 | purpose | `String` | Purpose: HASH or ENCRYPT. |
-| 70 | reasonCode | `String` | Reason Code |
-| 71 | reasonDesc | `String` | Reason Description |
-| 72 | releasedBy | `Float` | Emp number of the person who has released this workorder |
-| 73 | releasedByUser | `String` | Released By User |
-| 74 | releasedDate | `Date` | Date on which a work orderwas released |
-| 75 | repActType | `String` | Reporting Act Type |
-| 76 | result | `String` | Result |
-| 77 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 78 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 79 | room | `String` | Room |
-| 80 | startDate | `Date` | Start Date |
-| 81 | startDateColumn | `Date` | Start Date Column |
-| 82 | statusCode | `String` | Status Code |
-| 83 | surveyId | `Float` | Linked Survey ID |
-| 84 | takenBy | `Float` | Empnumber of the person who has accepted this workorder |
-| 85 | takenByUser | `String` | Taken By User |
-| 86 | takenDate | `Date` | Date on which an employee has accepted this workorder |
-| 87 | taskCode | `Float` | Task Code |
-| 88 | taskDesc | `String` | Task Description |
-| 89 | taskitemNumber | `Float` | Taskitem Number |
-| 90 | timezoneConvertedYn | `String` | Indicated if the activity times are converted to database time zone. |
-| 91 | totalLaborCost | `Float` | Calculated Labor cost spent for this workorder |
-| 92 | totalPartsCost | `Float` | Calculate total parts cost spent for this workorder |
-| 93 | tracecode | `String` | Tracecode |
-| 94 | typeCode | `String` | Type Code |
-| 95 | updateDate | `DateTime` | Update Date |
-| 96 | updateUser | `Float` | Update User |
-| 97 | userExt | `String` | Extension of the user |
-| 98 | workCategoryDesc | `String` | Work Category Description |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | actClass | `String` | Act Class |
+| 3 | actId | `Float` | Activity ID |
+| 4 | actType | `String` | Act Type |
+| 5 | activityOwnerCode | `String` | Activity Owner Code |
+| 6 | assignedBy | `Float` | User who assigned the task. |
+| 7 | assignedByUser | `String` | Assigned By User |
+| 8 | assignedOnDate | `Date` | Date on which this work order was assigned to someone else |
+| 9 | assignedTo | `Float` | Assigned To |
+| 10 | assignedToUser | `String` | Assigned To User |
+| 11 | author | `Float` | Author |
+| 12 | cTotalLaborCost | `Float` | Central Total Labor Cost |
+| 13 | cTotalPartsCost | `Float` | Central Total Parts Cost |
+| 14 | categoryCode | `String` | Category Code |
+| 15 | colorCode | `String` | Contains the color code in which the record has to be shown because of the current priority |
+| 16 | completedBy | `Float` | Completed By |
+| 17 | completedByUser | `String` | Completed By User |
+| 18 | completedDate | `Date` | Completed Date |
+| 19 | createdBy | `Float` | Created By |
+| 20 | createdByUser | `String` | Created By User |
+| 21 | createdDate | `Date` | Created Date |
+| 22 | dSI | `Float` | DSI |
+| 23 | dependingOnActId | `Float` | Depending On Act ID |
+| 24 | deptOfAction | `String` | Dept to which the employee who created the work order belongs |
+| 25 | done | `String` | Done |
+| 26 | dueDate | `Date` | Due Date |
+| 27 | duration | `Float` | Duration |
+| 28 | durationTimeCode | `String` | Duration Measured in unit of time |
+| 29 | endDate | `Date` | End Date |
+| 30 | endDateColumn | `Date` | End Date Column |
+| 31 | estTimeToComplete | `Float` | Time estimated to complete the work order |
+| 32 | estUotCode | `String` | Est Uot Code |
+| 33 | externalSystem | `String` | External System |
+| 34 | externalSystemId | `String` | External System ID. |
+| 35 | generatedByCampaign | `String` | Indicates if a Campain generated this activity. |
+| 36 | guestOriginatedYn | `String` | Whether the work order is guest originated or not |
+| 37 | guestRoomYn | `String` | Whether this location is a a guest room or not |
+| 38 | highPriorityYn | `String` | Whether the work order is having high priority or not. |
+| 39 | inactiveDate | `Date` | Inactive Date |
+| 40 | insertDate | `DateTime` | Insert Date |
+| 41 | insertUser | `Float` | Insert User |
+| 42 | internalPrimaryKeyIDToUniquelyIdentifyTheRow | `Float` | Primary Key ID |
+| 43 | internalYn | `String` | Internal Y/N |
+| 44 | jRNUpdateDate | `Date` | JRN Update Date |
+| 45 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 46 | locationCode | `String` | Location Code |
+| 47 | locationDesc | `String` | Location Description |
+| 48 | masterSub | `String` | Decides whether a particular workorder is a master or sub or none. |
+| 49 | minutesBeforeAlert | `Float` | Number of minutes before the activity start time when the alert will be raised. (Default value) |
+| 50 | multiAccount | `String` | Multi Account |
+| 51 | multiBblocks | `String` | Multi Bblocks |
+| 52 | multiContact | `String` | Multi Contact |
+| 53 | multiContract | `String` | Multi Contract |
+| 54 | multiProfiles | `String` | Multi Profiles |
+| 55 | notes | `String` | Notes |
+| 56 | notifiedYn | `String` | Has the user been notified about this activity ? |
+| 57 | organizationID | `Float` | Organization ID |
+| 58 | parentActId | `Float` | Parent Act ID |
+| 59 | plantItemCode | `String` | Plant Item Code |
+| 60 | plantItemDesc | `String` | Plant Item Description |
+| 61 | priorityChangedYn | `String` | Whether the priority was manually changed or not |
+| 62 | priorityCode | `String` | Priority Code |
+| 63 | priorityDesc | `String` | Priority Description |
+| 64 | prioritySeqNumber | `Float` | A number which indicates the importance of a priority. |
+| 65 | privateYn | `String` | Private Y/N |
+| 66 | problemDesc | `String` | Description of the Problem reported |
+| 67 | property | `String` | Code to uniquely identify the Property |
+| 68 | proposalSentDate | `Date` | Proposal Sent Date |
+| 69 | proposalViewToken | `String` | Proposal View Token |
+| 70 | purpose | `String` | Purpose: HASH or ENCRYPT. |
+| 71 | reasonCode | `String` | Reason Code |
+| 72 | reasonDesc | `String` | Reason Description |
+| 73 | releasedBy | `Float` | Emp number of the person who has released this workorder |
+| 74 | releasedByUser | `String` | Released By User |
+| 75 | releasedDate | `Date` | Date on which a work orderwas released |
+| 76 | repActType | `String` | Reporting Act Type |
+| 77 | result | `String` | Result |
+| 78 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 79 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 80 | room | `String` | Room |
+| 81 | startDate | `Date` | Start Date |
+| 82 | startDateColumn | `Date` | Start Date Column |
+| 83 | statusCode | `String` | Status Code |
+| 84 | surveyId | `Float` | Linked Survey ID |
+| 85 | takenBy | `Float` | Empnumber of the person who has accepted this workorder |
+| 86 | takenByUser | `String` | Taken By User |
+| 87 | takenDate | `Date` | Date on which an employee has accepted this workorder |
+| 88 | taskCode | `Float` | Task Code |
+| 89 | taskDesc | `String` | Task Description |
+| 90 | taskitemNumber | `Float` | Taskitem Number |
+| 91 | timezoneConvertedYn | `String` | Indicated if the activity times are converted to database time zone. |
+| 92 | totalLaborCost | `Float` | Calculated Labor cost spent for this workorder |
+| 93 | totalPartsCost | `Float` | Calculate total parts cost spent for this workorder |
+| 94 | tracecode | `String` | Tracecode |
+| 95 | typeCode | `String` | Type Code |
+| 96 | updateDate | `DateTime` | Update Date |
+| 97 | updateUser | `Float` | Update User |
+| 98 | userExt | `String` | Extension of the user |
+| 99 | workCategoryDesc | `String` | Work Category Description |
 
 [⬆ Back to Query](#query)
 
@@ -518,24 +519,26 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| sractivitiesDetailsActId | `FloatInput` | Activity ID |
-| sractivitiesDetailsAssignedTo | `FloatInput` | Assigned To |
-| sractivitiesDetailsCategoryCode | `StringInput` | Category Code |
-| sractivitiesDetailsCompletedDate | `DateInput` | Completed Date |
-| sractivitiesDetailsCreatedDate | `DateInput` | Created Date |
-| sractivitiesDetailsEndDate | `DateInput!` | End Date<br>`@mandatoryInput` |
-| sractivitiesDetailsEstUotCode | `StringInput` | Est Uot Code |
-| sractivitiesDetailsLocationCode | `StringInput` | Location Code |
-| sractivitiesDetailsParentActId | `FloatInput` | Parent Act ID |
-| sractivitiesDetailsPlantItemCode | `StringInput` | Plant Item Code |
-| sractivitiesDetailsPriorityCode | `StringInput` | Priority Code |
-| sractivitiesDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| sractivitiesDetailsStartDate | `DateInput!` | Start Date<br>`@mandatoryInput` |
-| sractivitiesDetailsStatusCode | `StringInput` | Status Code |
-| sractivitiesDetailsSurveyId | `FloatInput` | Linked Survey ID |
-| sractivitiesDetailsTaskCode | `FloatInput` | Task Code |
-| sractivitiesDetailsTaskitemNumber | `FloatInput` | Taskitem Number |
-| sractivitiesDetailsTypeCode | `StringInput` | Type Code |
+| sractivitiesdetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| sractivitiesDetailsActId | `FloatInput` | Activity ID<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsAssignedTo | `FloatInput` | Assigned To<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsCategoryCode | `StringInput` | Category Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsCompletedDate | `DateInput` | Completed Date<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsCreatedDate | `DateInput` | Created Date<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsEstUotCode | `StringInput` | Est Uot Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsJrnUpdateDateandTime | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsLocationCode | `StringInput` | Location Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsParentActId | `FloatInput` | Parent Act ID<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsPlantItemCode | `StringInput` | Plant Item Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsPriorityCode | `StringInput` | Priority Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| sractivitiesDetailsStartDate | `DateInput` | Start Date<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsStatusCode | `StringInput` | Status Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsSurveyId | `FloatInput` | Linked Survey ID<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsTaskCode | `FloatInput` | Task Code<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsTaskitemNumber | `FloatInput` | Taskitem Number<br>`@conditionalInputPair(pair: 2)` |
+| sractivitiesDetailsTypeCode | `StringInput` | Type Code<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -799,10 +802,29 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
-- sractivitiesDetailsEndDate
+**`conditionalInputPair(pair: 1)`**
+- sractivitiesdetailsChainCode
 - sractivitiesDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- sractivitiesDetailsActId
+- sractivitiesDetailsAssignedTo
+- sractivitiesDetailsCategoryCode
+- sractivitiesDetailsCompletedDate
+- sractivitiesDetailsCreatedDate
+- sractivitiesDetailsEndDate
+- sractivitiesDetailsEstUotCode
+- sractivitiesDetailsJrnUpdateDateandTime
+- sractivitiesDetailsLocationCode
+- sractivitiesDetailsParentActId
+- sractivitiesDetailsPlantItemCode
+- sractivitiesDetailsPriorityCode
 - sractivitiesDetailsStartDate
+- sractivitiesDetailsStatusCode
+- sractivitiesDetailsSurveyId
+- sractivitiesDetailsTaskCode
+- sractivitiesDetailsTaskitemNumber
+- sractivitiesDetailsTypeCode
 
 
 [⬆ Back to Query](#query)
@@ -814,6 +836,7 @@
 query simpleReportsActivities($input: SimpleReportsActivitiesQueryArgumentsType!) {
   simpleReportsActivities(input: $input) @stream {
     srActivitiesDetails {
+      chainCode
       actClass
       actId
       actType
@@ -1186,6 +1209,7 @@ query simpleReportsActivities($input: SimpleReportsActivitiesQueryArgumentsType!
   
 ```python
 sr_activities_details_schema = {
+    'chainCode': pl.Utf8,
     'actClass': pl.Utf8,
     'actId': pl.Float64,
     'actType': pl.Utf8,

@@ -313,32 +313,33 @@
 | 88 | promptatcheckinflag | `String` | Promptatcheckinflag |
 | 89 | randomGenerationYN | `String` | Random Generation YN |
 | 90 | rank | `Float` | Rank |
-| 91 | requalifyOnUpgradeYN | `String` | Requalify on Upgrade YN |
-| 92 | requiredOnStayPeriodYN | `String` | Required on Stay Period YN |
-| 93 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 94 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 95 | rule | `String` | Rule for posting NOSHOW revenue. |
-| 96 | saveCardNumberHistoryYN | `String` | Save Card Number History YN |
-| 97 | sendChkoutToIfc | `String` | Send checkout reservation information to the interface for Courtesy Cards? |
-| 98 | sendcheckouttoifcflag | `String` | Sendcheckouttoifcflag |
-| 99 | sequence | `Float` | Sequence |
-| 100 | tierExpirationMonth | `String` | Tier Expiration Month |
-| 101 | tierManagementResetYN | `String` | Tier Management Reset YN |
-| 102 | toSequenceNumber | `Float` | To Sequence Number |
-| 103 | transactionMaxPoints | `Float` | Indicates the maximum points that can be accrued per membership transaction. |
-| 104 | tscDateFlag | `String` | Tier Management Based on Date. |
-| 105 | type | `String` | Type |
-| 106 | udfCardValidationYn | `String` | Indicates if card number validation is a UDF(User defined function) or Default validation is used. |
-| 107 | udfFormula | `String` | Udf Formula |
-| 108 | updateDate | `DateTime` | Update Date |
-| 109 | updateReservationYN | `String` | Indicates if resv_memberships should popup when a reservation is updated. |
-| 110 | updateUser | `Float` | Update User |
-| 111 | upgradePeriod | `Float` | Number of months to consider for upgrade. |
-| 112 | upgradePeriodYr | `String` | Upgrade Period Year |
-| 113 | validationByIfc | `String` | Indicates if the card is to be validated by an external system. |
-| 114 | validationRule | `String` | Validation Rule |
-| 115 | validationbyifcflag | `String` | Validationbyifcflag |
-| 116 | yearsToExpire | `Float` | Years To Expire |
+| 91 | referralPeriod | `Float` | Number of days from join date of new member till when referral can be added. |
+| 92 | requalifyOnUpgradeYN | `String` | Requalify on Upgrade YN |
+| 93 | requiredOnStayPeriodYN | `String` | Required on Stay Period YN |
+| 94 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 95 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 96 | rule | `String` | Rule for posting NOSHOW revenue. |
+| 97 | saveCardNumberHistoryYN | `String` | Save Card Number History YN |
+| 98 | sendChkoutToIfc | `String` | Send checkout reservation information to the interface for Courtesy Cards? |
+| 99 | sendcheckouttoifcflag | `String` | Sendcheckouttoifcflag |
+| 100 | sequence | `Float` | Sequence |
+| 101 | tierExpirationMonth | `String` | Tier Expiration Month |
+| 102 | tierManagementResetYN | `String` | Tier Management Reset YN |
+| 103 | toSequenceNumber | `Float` | To Sequence Number |
+| 104 | transactionMaxPoints | `Float` | Indicates the maximum points that can be accrued per membership transaction. |
+| 105 | tscDateFlag | `String` | Tier Management Based on Date. |
+| 106 | type | `String` | Type |
+| 107 | udfCardValidationYn | `String` | Indicates if card number validation is a UDF(User defined function) or Default validation is used. |
+| 108 | udfFormula | `String` | Udf Formula |
+| 109 | updateDate | `DateTime` | Update Date |
+| 110 | updateReservationYN | `String` | Indicates if resv_memberships should popup when a reservation is updated. |
+| 111 | updateUser | `Float` | Update User |
+| 112 | upgradePeriod | `Float` | Number of months to consider for upgrade. |
+| 113 | upgradePeriodYr | `String` | Upgrade Period Year |
+| 114 | validationByIfc | `String` | Indicates if the card is to be validated by an external system. |
+| 115 | validationRule | `String` | Validation Rule |
+| 116 | validationbyifcflag | `String` | Validationbyifcflag |
+| 117 | yearsToExpire | `Float` | Years To Expire |
 
 [⬆ Back to Query](#query)
 
@@ -1704,9 +1705,9 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| chainDetailsChainCode | `StringInput!` | Chain<br>`@mandatoryInput` |
+| chainDetailsChainCode | `StringInput` | Chain<br>`@conditionalInputPair(pair: 1)` |
 | chainDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| chainDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| chainDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | chainDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | memenrollmentcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | memenrollmentcodeDetailsAttributeCode | `StringInput` | Enrollment Code |
@@ -1895,8 +1896,11 @@
 | resortbookingstatusnextDetailsStatus | `StringInput` | Status |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - chainDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- chainDetailsJrnupdatedttm
 
 
 [⬆ Back to Query](#query)
@@ -2121,6 +2125,7 @@ query configurationChain($input: ConfigurationChainQueryArgumentsType!) {
       promptatcheckinflag
       randomGenerationYN
       rank
+      referralPeriod
       requalifyOnUpgradeYN
       requiredOnStayPeriodYN
       rnaInsertDate
@@ -3409,6 +3414,7 @@ membership_type_details_schema = {
     'promptatcheckinflag': pl.Utf8,
     'randomGenerationYN': pl.Utf8,
     'rank': pl.Float64,
+    'referralPeriod': pl.Float64,
     'requalifyOnUpgradeYN': pl.Utf8,
     'requiredOnStayPeriodYN': pl.Utf8,
     'rnaInsertDate': pl.Utf8,

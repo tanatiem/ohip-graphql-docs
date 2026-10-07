@@ -451,15 +451,15 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | rateseasonDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| rateseasonDetailsEndDate | `DateInput` | End Date |
-| rateseasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| rateseasonDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| rateseasonDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| rateseasonDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| rateseasonDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | rateseasonDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| rateseasonDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| rateseasonDetailsRateCode | `StringInput` | Rate Code |
-| rateseasonDetailsRateseasonid | `StringInput` | Rateseasonid |
-| rateseasonDetailsSeason | `StringInput` | Season Code |
-| rateseasonDetailsBeginDate | `DateInput` | Start Date |
+| rateseasonDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| rateseasonDetailsRateCode | `StringInput` | Rate Code<br>`@conditionalInputPair(pair: 2)` |
+| rateseasonDetailsRateseasonid | `StringInput` | Rateseasonid<br>`@conditionalInputPair(pair: 2)` |
+| rateseasonDetailsSeason | `StringInput` | Season Code<br>`@conditionalInputPair(pair: 2)` |
+| rateseasonDetailsBeginDate | `DateInput` | Start Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -723,8 +723,17 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - rateseasonDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- rateseasonDetailsEndDate
+- rateseasonDetailsJrnupdatedttm
+- rateseasonDetailsLocationid
+- rateseasonDetailsRateCode
+- rateseasonDetailsRateseasonid
+- rateseasonDetailsSeason
+- rateseasonDetailsBeginDate
 
 
 [⬆ Back to Query](#query)

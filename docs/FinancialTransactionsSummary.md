@@ -34,192 +34,193 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | aRLedgerCredit | `Float` | AR Ledger Credit |
-| 2 | aRLedgerDebit | `Float` | AR Ledger Debit |
-| 3 | arLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 4 | arLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 5 | arLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 6 | arLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 7 | cARLedgerCreditMonthToDate | `Float` | Central Ar Led Credit Mm |
-| 8 | cARLedgerCreditYearToDate | `Float` | Central Ar Led Credit Yy |
-| 9 | cARLedgerDebitMonthToDate | `Float` | Central Ar Led Debit Mm |
-| 10 | cARLedgerDebitYearToDate | `Float` | Central Ar Led Debit Yy |
-| 11 | cDepFolioDebit | `Float` | Central Dep Folio Debit |
-| 12 | cDepLedgerCreditMonthToDate | `Float` | Central Dep Led Credit Mm |
-| 13 | cDepLedgerCreditYearToDate | `Float` | Central Dep Led Credit Yy |
-| 14 | cDepLedgerDebitMonthToDate | `Float` | Central Dep Led Debit Mm |
-| 15 | cDepLedgerDebitYearToDate | `Float` | Central Dep Led Debit Yy |
-| 16 | cExchangeDate | `Date` | Central Xchange Date |
-| 17 | cExchangeRate | `Float` | Central Xchange Rate |
-| 18 | cGrossAmountMonthToDate | `Float` | Central Gross Amount Mm |
-| 19 | cGrossAmountYearToDate | `Float` | Central Gross Amount Yy |
-| 20 | cGuestLedgerCreditMonthToDate | `Float` | Central Guest Led Credit Mm |
-| 21 | cGuestLedgerCreditYearToDate | `Float` | Central Guest Led Credit Yy |
-| 22 | cGuestLedgerDebitMonthToDate | `Float` | Central Guest Led Debit Mm |
-| 23 | cGuestLedgerDebitYearToDate | `Float` | Central Guest Led Debit Yy |
-| 24 | cInternalDbPayments | `Float` | Central Internal Db Payments |
-| 25 | cNetAmountMonthToDate | `Float` | Central Net Amount Mm |
-| 26 | cNetAmountYearToDate | `Float` | Central Net Amount Yy |
-| 27 | cNet1Amount | `Float` | Central Net1 Amt |
-| 28 | cNet10Amount | `Float` | Central Net10 Amt |
-| 29 | cNet11Amount | `Float` | Central Net11 Amt |
-| 30 | cNet12Amount | `Float` | Central Net12 Amt |
-| 31 | cNet13Amount | `Float` | Central Net13 Amt |
-| 32 | cNet14Amount | `Float` | Central Net14 Amt |
-| 33 | cNet15Amount | `Float` | Central Net15 Amt |
-| 34 | cNet16Amount | `Float` | Central Net16 Amt |
-| 35 | cNet17Amount | `Float` | Central Net17 Amt |
-| 36 | cNet18Amount | `Float` | Central Net18 Amt |
-| 37 | cNet19Amount | `Float` | Central Net19 Amt |
-| 38 | cNet2Amount | `Float` | Central Net2 Amt |
-| 39 | cNet20Amount | `Float` | Central Net20 Amt |
-| 40 | cNet3Amount | `Float` | Central Net3 Amt |
-| 41 | cNet4Amount | `Float` | Central Net4 Amt |
-| 42 | cNet5Amount | `Float` | Central Net5 Amt |
-| 43 | cNet6Amount | `Float` | Central Net6 Amt |
-| 44 | cNet7Amount | `Float` | Central Net7 Amt |
-| 45 | cNet8Amount | `Float` | Central Net8 Amt |
-| 46 | cNet9Amount | `Float` | Central Net9 Amt |
-| 47 | cOwnerLedgerCredit | `Float` | Central Owner Led Credit |
-| 48 | cOwnerLedgerDebit | `Float` | Central Owner Led Debit |
-| 49 | cPackageLedgerCreditMonthToDate | `Float` | Central Package Led Credit Mm |
-| 50 | cPackageLedgerCreditYearToDate | `Float` | Central Package Led Credit Yy |
-| 51 | cPackageLedgerDebitMonthToDate | `Float` | Central Package Led Debit Mm |
-| 52 | cPackageLedgerDebitYearToDate | `Float` | Central Package Led Debit Yy |
-| 53 | cPackageLedgerTax | `Float` | Central Package Led Tax |
-| 54 | cRevenueMonthToDate | `Float` | Central Revenue Mm |
-| 55 | cRevenueYearToDate | `Float` | Central Revenue Yy |
-| 56 | cTax1Amount | `Float` | Central Tax1 Amt |
-| 57 | cTax2Amount | `Float` | Central Tax2 Amt |
-| 58 | cTax10Amount | `Float` | Central Tax10 Amt |
-| 59 | cTax11Amount | `Float` | Central Tax11 Amt |
-| 60 | cTax12Amount | `Float` | Central Tax12 Amt |
-| 61 | cTax13Amount | `Float` | Central Tax13 Amt |
-| 62 | cTax14Amount | `Float` | Central Tax14 Amt |
-| 63 | cTax15Amount | `Float` | Central Tax15 Amt |
-| 64 | cTax16Amount | `Float` | Central Tax16 Amt |
-| 65 | cTax17Amount | `Float` | Central Tax17 Amt |
-| 66 | cTax18Amount | `Float` | Central Tax18 Amt |
-| 67 | cTax19Amount | `Float` | Central Tax19 Amt |
-| 68 | cTax20Amount | `Float` | Central Tax20 Amt |
-| 69 | cTax3Amount | `Float` | Central Tax3 Amt |
-| 70 | cTax4Amount | `Float` | Central Tax4 Amt |
-| 71 | cTax5Amount | `Float` | Central Tax5 Amt |
-| 72 | cTax6Amount | `Float` | Central Tax6 Amt |
-| 73 | cTax7Amount | `Float` | Central Tax7 Amt |
-| 74 | cTax8Amount | `Float` | Central Tax8 Amt |
-| 75 | cTax9Amount | `Float` | Central Tax9 Amt |
-| 76 | cTransactionAmountMonthToDate | `Float` | Central Trx Amount Mm |
-| 77 | cTransactionAmountYearToDate | `Float` | Central Trx Amount Yy |
-| 78 | centralARLedgerCredit | `Float` | Central AR Ledger Credit |
-| 79 | centralARLedgerDebit | `Float` | Central AR Ledger Debit |
-| 80 | centralDepositLedgerCredit | `Float` | Central Deposit Ledger Credit |
-| 81 | centralDepositLedgerDebit | `Float` | Central Deposit Ledger Debit |
-| 82 | centralGrossAmount | `Float` | Central Gross Amount |
-| 83 | centralGuestLedgerCredit | `Float` | Central Guest Ledger Credit |
-| 84 | centralGuestLedgerDebit | `Float` | Central Guest Ledger Debit |
-| 85 | centralInHouseCredit | `Float` | Central In-House Credit |
-| 86 | centralInHouseDebit | `Float` | Central In-House Debit |
-| 87 | centralNetAmount | `Float` | Central Net Amount |
-| 88 | centralNonRevenueAmount | `Float` | Central Non Revenue Amount |
-| 89 | centralPackageLedgerCredit | `Float` | Central Package Ledger Credit |
-| 90 | centralPackageLedgerDebit | `Float` | Central Package Ledger Debit |
-| 91 | centralRevenueAmount | `Float` | Central Revenue Amount |
-| 92 | centralTransactionAmount | `Float` | Central Transaction Amount |
-| 93 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 94 | depFolioDebit | `Float` | Deposit ledger debit of consumption records from Deposit Folios. |
-| 95 | depLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 96 | depLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 97 | depLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 98 | depLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 99 | depositLedgerCredit | `Float` | Deposit Ledger Credit |
-| 100 | depositLedgerDebit | `Float` | Deposit Ledger Debit |
-| 101 | grossAmount | `Float` | Gross Amount |
-| 102 | grossAmountMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 103 | grossAmountYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 104 | guestLedgerCredit | `Float` | Deposit ledger credit amount |
-| 105 | guestLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 106 | guestLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 107 | guestLedgerDebit | `Float` | Deposit ledger debit amount |
-| 108 | guestLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 109 | guestLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 110 | inHouseCredit | `Float` | In-House Credit |
-| 111 | inHouseDebit | `Float` | In-House Debit |
-| 112 | internalDbPayments | `Float` | Internal DB settlement Amount for Invoices Created in A/R excluding Credit Card Compressions. |
-| 113 | jRNUpdateDate | `Date` | JRN Update Date |
-| 114 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 115 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 116 | netAmount | `Float` | Net Amount |
-| 117 | netAmountMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 118 | netAmountYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 119 | net1Amt | `Float` | Net1 Amount |
-| 120 | net10Amt | `Float` | Net10 Amount |
-| 121 | net11Amt | `Float` | Net11 Amount |
-| 122 | net12Amt | `Float` | Net12 Amount |
-| 123 | net13Amt | `Float` | Net13 Amount |
-| 124 | net14Amt | `Float` | Net14 Amount |
-| 125 | net15Amt | `Float` | Net15 Amount |
-| 126 | net16Amt | `Float` | Net16 Amount |
-| 127 | net17Amt | `Float` | Net17 Amount |
-| 128 | net18Amt | `Float` | Net18 Amount |
-| 129 | net19Amt | `Float` | Net19 Amount |
-| 130 | net2Amt | `Float` | Net2 Amount |
-| 131 | net20Amt | `Float` | Net20 Amount |
-| 132 | net3Amt | `Float` | Net3 Amount |
-| 133 | net4Amt | `Float` | Net4 Amount |
-| 134 | net5Amt | `Float` | Net5 Amount |
-| 135 | net6Amt | `Float` | Net6 Amount |
-| 136 | net7Amt | `Float` | Net7 Amount |
-| 137 | net8Amt | `Float` | Net8 Amount |
-| 138 | net9Amt | `Float` | Net9 Amount |
-| 139 | nonRevenueAmount | `Float` | Non revenue amount |
-| 140 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 141 | ownerLedgerCredit | `Float` | Total credit amount of the Owner Ledger for the key value of this record. |
-| 142 | ownerLedgerDebit | `Float` | Total debit amount of the Owner Ledger for the key value of this record. |
-| 143 | packageLedgerCredit | `Float` | Package ledger credit amount |
-| 144 | packageLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 145 | packageLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 146 | packageLedgerDebit | `Float` | Package ledger debit amount |
-| 147 | packageLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 148 | packageLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 149 | packageLedgerTax | `Float` | Tax of a package allowance product. |
-| 150 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 151 | property | `String` | Code to uniquely identify the Property |
-| 152 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 153 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 154 | revenueAmount | `Float` | Revenue Amount |
-| 155 | revenueMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 156 | revenueYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 157 | roomClass | `String` | Room Class |
-| 158 | roomclassid | `String` | Roomclassid |
-| 159 | tax1Amt | `Float` | Tax1 Amount |
-| 160 | tax2Amt | `Float` | Tax2 Amount |
-| 161 | tax10Amt | `Float` | Tax10 Amount |
-| 162 | tax11Amt | `Float` | Tax11 Amount |
-| 163 | tax12Amt | `Float` | Tax12 Amount |
-| 164 | tax13Amt | `Float` | Tax13 Amount |
-| 165 | tax14Amt | `Float` | Tax14 Amount |
-| 166 | tax15Amt | `Float` | Tax15 Amount |
-| 167 | tax16Amt | `Float` | Tax16 Amount |
-| 168 | tax17Amt | `Float` | Tax17 Amount |
-| 169 | tax18Amt | `Float` | Tax18 Amount |
-| 170 | tax19Amt | `Float` | Tax19 Amount |
-| 171 | tax20Amt | `Float` | Tax20 Amount |
-| 172 | tax3Amt | `Float` | Tax3 Amount |
-| 173 | tax4Amt | `Float` | Tax4 Amount |
-| 174 | tax5Amt | `Float` | Tax5 Amount |
-| 175 | tax6Amt | `Float` | Tax6 Amount |
-| 176 | tax7Amt | `Float` | Tax7 Amount |
-| 177 | tax8Amt | `Float` | Tax8 Amount |
-| 178 | tax9Amt | `Float` | Tax9 Amount |
-| 179 | transactionAmount | `Float` | Transaction Amount |
-| 180 | transactionCodeDescription | `String` | Transaction Code Description |
-| 181 | transactionDate | `Date` | Transaction Date |
-| 182 | transcodeid | `String` | Transcodeid |
-| 183 | trialbalanceid | `Float` | Trialbalanceid |
-| 184 | trxAmountMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
-| 185 | trxAmountYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
-| 186 | trxCode | `String` | Transaction Code |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | aRLedgerCredit | `Float` | AR Ledger Credit |
+| 3 | aRLedgerDebit | `Float` | AR Ledger Debit |
+| 4 | arLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 5 | arLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 6 | arLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 7 | arLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 8 | cARLedgerCreditMonthToDate | `Float` | Central Ar Led Credit Mm |
+| 9 | cARLedgerCreditYearToDate | `Float` | Central Ar Led Credit Yy |
+| 10 | cARLedgerDebitMonthToDate | `Float` | Central Ar Led Debit Mm |
+| 11 | cARLedgerDebitYearToDate | `Float` | Central Ar Led Debit Yy |
+| 12 | cDepFolioDebit | `Float` | Central Dep Folio Debit |
+| 13 | cDepLedgerCreditMonthToDate | `Float` | Central Dep Led Credit Mm |
+| 14 | cDepLedgerCreditYearToDate | `Float` | Central Dep Led Credit Yy |
+| 15 | cDepLedgerDebitMonthToDate | `Float` | Central Dep Led Debit Mm |
+| 16 | cDepLedgerDebitYearToDate | `Float` | Central Dep Led Debit Yy |
+| 17 | cExchangeDate | `Date` | Central Xchange Date |
+| 18 | cExchangeRate | `Float` | Central Xchange Rate |
+| 19 | cGrossAmountMonthToDate | `Float` | Central Gross Amount Mm |
+| 20 | cGrossAmountYearToDate | `Float` | Central Gross Amount Yy |
+| 21 | cGuestLedgerCreditMonthToDate | `Float` | Central Guest Led Credit Mm |
+| 22 | cGuestLedgerCreditYearToDate | `Float` | Central Guest Led Credit Yy |
+| 23 | cGuestLedgerDebitMonthToDate | `Float` | Central Guest Led Debit Mm |
+| 24 | cGuestLedgerDebitYearToDate | `Float` | Central Guest Led Debit Yy |
+| 25 | cInternalDbPayments | `Float` | Central Internal Db Payments |
+| 26 | cNetAmountMonthToDate | `Float` | Central Net Amount Mm |
+| 27 | cNetAmountYearToDate | `Float` | Central Net Amount Yy |
+| 28 | cNet1Amount | `Float` | Central Net1 Amt |
+| 29 | cNet10Amount | `Float` | Central Net10 Amt |
+| 30 | cNet11Amount | `Float` | Central Net11 Amt |
+| 31 | cNet12Amount | `Float` | Central Net12 Amt |
+| 32 | cNet13Amount | `Float` | Central Net13 Amt |
+| 33 | cNet14Amount | `Float` | Central Net14 Amt |
+| 34 | cNet15Amount | `Float` | Central Net15 Amt |
+| 35 | cNet16Amount | `Float` | Central Net16 Amt |
+| 36 | cNet17Amount | `Float` | Central Net17 Amt |
+| 37 | cNet18Amount | `Float` | Central Net18 Amt |
+| 38 | cNet19Amount | `Float` | Central Net19 Amt |
+| 39 | cNet2Amount | `Float` | Central Net2 Amt |
+| 40 | cNet20Amount | `Float` | Central Net20 Amt |
+| 41 | cNet3Amount | `Float` | Central Net3 Amt |
+| 42 | cNet4Amount | `Float` | Central Net4 Amt |
+| 43 | cNet5Amount | `Float` | Central Net5 Amt |
+| 44 | cNet6Amount | `Float` | Central Net6 Amt |
+| 45 | cNet7Amount | `Float` | Central Net7 Amt |
+| 46 | cNet8Amount | `Float` | Central Net8 Amt |
+| 47 | cNet9Amount | `Float` | Central Net9 Amt |
+| 48 | cOwnerLedgerCredit | `Float` | Central Owner Led Credit |
+| 49 | cOwnerLedgerDebit | `Float` | Central Owner Led Debit |
+| 50 | cPackageLedgerCreditMonthToDate | `Float` | Central Package Led Credit Mm |
+| 51 | cPackageLedgerCreditYearToDate | `Float` | Central Package Led Credit Yy |
+| 52 | cPackageLedgerDebitMonthToDate | `Float` | Central Package Led Debit Mm |
+| 53 | cPackageLedgerDebitYearToDate | `Float` | Central Package Led Debit Yy |
+| 54 | cPackageLedgerTax | `Float` | Central Package Led Tax |
+| 55 | cRevenueMonthToDate | `Float` | Central Revenue Mm |
+| 56 | cRevenueYearToDate | `Float` | Central Revenue Yy |
+| 57 | cTax1Amount | `Float` | Central Tax1 Amt |
+| 58 | cTax2Amount | `Float` | Central Tax2 Amt |
+| 59 | cTax10Amount | `Float` | Central Tax10 Amt |
+| 60 | cTax11Amount | `Float` | Central Tax11 Amt |
+| 61 | cTax12Amount | `Float` | Central Tax12 Amt |
+| 62 | cTax13Amount | `Float` | Central Tax13 Amt |
+| 63 | cTax14Amount | `Float` | Central Tax14 Amt |
+| 64 | cTax15Amount | `Float` | Central Tax15 Amt |
+| 65 | cTax16Amount | `Float` | Central Tax16 Amt |
+| 66 | cTax17Amount | `Float` | Central Tax17 Amt |
+| 67 | cTax18Amount | `Float` | Central Tax18 Amt |
+| 68 | cTax19Amount | `Float` | Central Tax19 Amt |
+| 69 | cTax20Amount | `Float` | Central Tax20 Amt |
+| 70 | cTax3Amount | `Float` | Central Tax3 Amt |
+| 71 | cTax4Amount | `Float` | Central Tax4 Amt |
+| 72 | cTax5Amount | `Float` | Central Tax5 Amt |
+| 73 | cTax6Amount | `Float` | Central Tax6 Amt |
+| 74 | cTax7Amount | `Float` | Central Tax7 Amt |
+| 75 | cTax8Amount | `Float` | Central Tax8 Amt |
+| 76 | cTax9Amount | `Float` | Central Tax9 Amt |
+| 77 | cTransactionAmountMonthToDate | `Float` | Central Trx Amount Mm |
+| 78 | cTransactionAmountYearToDate | `Float` | Central Trx Amount Yy |
+| 79 | centralARLedgerCredit | `Float` | Central AR Ledger Credit |
+| 80 | centralARLedgerDebit | `Float` | Central AR Ledger Debit |
+| 81 | centralDepositLedgerCredit | `Float` | Central Deposit Ledger Credit |
+| 82 | centralDepositLedgerDebit | `Float` | Central Deposit Ledger Debit |
+| 83 | centralGrossAmount | `Float` | Central Gross Amount |
+| 84 | centralGuestLedgerCredit | `Float` | Central Guest Ledger Credit |
+| 85 | centralGuestLedgerDebit | `Float` | Central Guest Ledger Debit |
+| 86 | centralInHouseCredit | `Float` | Central In-House Credit |
+| 87 | centralInHouseDebit | `Float` | Central In-House Debit |
+| 88 | centralNetAmount | `Float` | Central Net Amount |
+| 89 | centralNonRevenueAmount | `Float` | Central Non Revenue Amount |
+| 90 | centralPackageLedgerCredit | `Float` | Central Package Ledger Credit |
+| 91 | centralPackageLedgerDebit | `Float` | Central Package Ledger Debit |
+| 92 | centralRevenueAmount | `Float` | Central Revenue Amount |
+| 93 | centralTransactionAmount | `Float` | Central Transaction Amount |
+| 94 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 95 | depFolioDebit | `Float` | Deposit ledger debit of consumption records from Deposit Folios. |
+| 96 | depLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 97 | depLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 98 | depLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 99 | depLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 100 | depositLedgerCredit | `Float` | Deposit Ledger Credit |
+| 101 | depositLedgerDebit | `Float` | Deposit Ledger Debit |
+| 102 | grossAmount | `Float` | Gross Amount |
+| 103 | grossAmountMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 104 | grossAmountYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 105 | guestLedgerCredit | `Float` | Deposit ledger credit amount |
+| 106 | guestLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 107 | guestLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 108 | guestLedgerDebit | `Float` | Deposit ledger debit amount |
+| 109 | guestLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 110 | guestLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 111 | inHouseCredit | `Float` | In-House Credit |
+| 112 | inHouseDebit | `Float` | In-House Debit |
+| 113 | internalDbPayments | `Float` | Internal DB settlement Amount for Invoices Created in A/R excluding Credit Card Compressions. |
+| 114 | jRNUpdateDate | `Date` | JRN Update Date |
+| 115 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 116 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 117 | netAmount | `Float` | Net Amount |
+| 118 | netAmountMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 119 | netAmountYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 120 | net1Amt | `Float` | Net1 Amount |
+| 121 | net10Amt | `Float` | Net10 Amount |
+| 122 | net11Amt | `Float` | Net11 Amount |
+| 123 | net12Amt | `Float` | Net12 Amount |
+| 124 | net13Amt | `Float` | Net13 Amount |
+| 125 | net14Amt | `Float` | Net14 Amount |
+| 126 | net15Amt | `Float` | Net15 Amount |
+| 127 | net16Amt | `Float` | Net16 Amount |
+| 128 | net17Amt | `Float` | Net17 Amount |
+| 129 | net18Amt | `Float` | Net18 Amount |
+| 130 | net19Amt | `Float` | Net19 Amount |
+| 131 | net2Amt | `Float` | Net2 Amount |
+| 132 | net20Amt | `Float` | Net20 Amount |
+| 133 | net3Amt | `Float` | Net3 Amount |
+| 134 | net4Amt | `Float` | Net4 Amount |
+| 135 | net5Amt | `Float` | Net5 Amount |
+| 136 | net6Amt | `Float` | Net6 Amount |
+| 137 | net7Amt | `Float` | Net7 Amount |
+| 138 | net8Amt | `Float` | Net8 Amount |
+| 139 | net9Amt | `Float` | Net9 Amount |
+| 140 | nonRevenueAmount | `Float` | Non revenue amount |
+| 141 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 142 | ownerLedgerCredit | `Float` | Total credit amount of the Owner Ledger for the key value of this record. |
+| 143 | ownerLedgerDebit | `Float` | Total debit amount of the Owner Ledger for the key value of this record. |
+| 144 | packageLedgerCredit | `Float` | Package ledger credit amount |
+| 145 | packageLedgerCreditMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 146 | packageLedgerCreditYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 147 | packageLedgerDebit | `Float` | Package ledger debit amount |
+| 148 | packageLedgerDebitMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 149 | packageLedgerDebitYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 150 | packageLedgerTax | `Float` | Tax of a package allowance product. |
+| 151 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 152 | property | `String` | Code to uniquely identify the Property |
+| 153 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 154 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 155 | revenueAmount | `Float` | Revenue Amount |
+| 156 | revenueMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 157 | revenueYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 158 | roomClass | `String` | Room Class |
+| 159 | roomclassid | `String` | Roomclassid |
+| 160 | tax1Amt | `Float` | Tax1 Amount |
+| 161 | tax2Amt | `Float` | Tax2 Amount |
+| 162 | tax10Amt | `Float` | Tax10 Amount |
+| 163 | tax11Amt | `Float` | Tax11 Amount |
+| 164 | tax12Amt | `Float` | Tax12 Amount |
+| 165 | tax13Amt | `Float` | Tax13 Amount |
+| 166 | tax14Amt | `Float` | Tax14 Amount |
+| 167 | tax15Amt | `Float` | Tax15 Amount |
+| 168 | tax16Amt | `Float` | Tax16 Amount |
+| 169 | tax17Amt | `Float` | Tax17 Amount |
+| 170 | tax18Amt | `Float` | Tax18 Amount |
+| 171 | tax19Amt | `Float` | Tax19 Amount |
+| 172 | tax20Amt | `Float` | Tax20 Amount |
+| 173 | tax3Amt | `Float` | Tax3 Amount |
+| 174 | tax4Amt | `Float` | Tax4 Amount |
+| 175 | tax5Amt | `Float` | Tax5 Amount |
+| 176 | tax6Amt | `Float` | Tax6 Amount |
+| 177 | tax7Amt | `Float` | Tax7 Amount |
+| 178 | tax8Amt | `Float` | Tax8 Amount |
+| 179 | tax9Amt | `Float` | Tax9 Amount |
+| 180 | transactionAmount | `Float` | Transaction Amount |
+| 181 | transactionCodeDescription | `String` | Transaction Code Description |
+| 182 | transactionDate | `Date` | Transaction Date |
+| 183 | transcodeid | `String` | Transcodeid |
+| 184 | trialbalanceid | `Float` | Trialbalanceid |
+| 185 | trxAmountMonthToDate | `Float` | Month-to-Date value of the corresponding field in this table without the _MM suffix. |
+| 186 | trxAmountYearToDate | `Float` | Year-to-Date value of the corresponding field in this table without the _YY suffix. |
+| 187 | trxCode | `String` | Transaction Code |
 
 [⬆ Back to Query](#query)
 
@@ -229,174 +230,175 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
-| 2 | aRNameId | `Float` | Ar Name ID |
-| 3 | accountNumber | `String` | Account Number |
-| 4 | accountingCode | `String` | Accounting Code |
-| 5 | acctrecvprofileid | `Float` | Acctrecvprofileid |
-| 6 | adjTrxCode | `String` | Adj Trx Code |
-| 7 | adjtranscodeid | `String` | Adjtranscodeid |
-| 8 | arrangeCode | `String` | Arrange Code |
-| 9 | arrangementCode | `String` | Arrangement Code |
-| 10 | cDefaultPrice | `Float` | Central Default Price |
-| 11 | cExchangeDate | `Date` | Central Xchange Date |
-| 12 | cExchangeRate | `Float` | Central Xchange Rate |
-| 13 | cExportBucket | `Float` | Central Export Bucket |
-| 14 | cMaxAmount | `Float` | Central Max Amt |
-| 15 | cMinimumAmount | `Float` | Central Min Amt |
-| 16 | cCCode | `String` | CC Code |
-| 17 | cRSTaxDesc | `String` | Crs Tax Description |
-| 18 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
-| 19 | ccType | `String` | Cc Type |
-| 20 | centalSubgroup | `String` | Cental Subgroup |
-| 21 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
-| 22 | centralTransactionCode | `String` | Central Transaction Code |
-| 23 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| 24 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
-| 25 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| 26 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| 27 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| 28 | commissionCode | `Float` | Commission Code |
-| 29 | compNightsYn | `String` | Comp Nights Y/N |
-| 30 | compPaymentYn | `String` | Comp Payment Y/N |
-| 31 | complimentaryYN | `String` | Complimentary YN |
-| 32 | corpPropFlag | `String` | Corp Prop Flag |
-| 33 | corporateDescription | `String` | Corporate Description |
-| 34 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 35 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 36 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 37 | currencyCode | `String` | Currency Code |
-| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 39 | dailyPlanFolio | `Float` | Daily Plan Folio |
-| 40 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| 41 | defaultPrice | `Float` | Default Price |
-| 42 | deletedFlag | `String` | Deleted Flag |
-| 43 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
-| 44 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| 45 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| 46 | eInvoiceYn | `String` | E Invoice Y/N |
-| 47 | expenseFolio | `Float` | Expense Folio |
-| 48 | exportBucket | `Float` | Export Bucket |
-| 49 | externalPaymentCode | `String` | External Payment Code |
-| 50 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| 51 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| 52 | foreignCurrencyID | `String` | Foreign Currency ID |
-| 53 | gDeletedFlag | `String` | Group Deleted Flag |
-| 54 | gDescription | `String` | Group Description |
-| 55 | gInsertDate | `DateTime` | Group Insert Date |
-| 56 | gInsertUser | `Float` | Group Insert User |
-| 57 | gOrderBy | `Float` | Group Order By |
-| 58 | gRepDescription | `String` | Group Rep Description |
-| 59 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
-| 60 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
-| 61 | gTctClassType1 | `String` | Group Tct Class Type1 |
-| 62 | gTctClassType2 | `String` | Group Tct Class Type2 |
-| 63 | gUpdateDate | `DateTime` | Group Update Date |
-| 64 | gUpdateUser | `Float` | Group Update User |
-| 65 | group | `String` | Group |
-| 66 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
-| 67 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
-| 68 | groupFolio | `Float` | Group Folio |
-| 69 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
-| 70 | groupInternalYN | `String` | G Internal Y/N |
-| 71 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| 72 | groupRepItem | `String` | G Reporting Item |
-| 73 | groupRepItemName | `String` | G Reporting Item Name |
-| 74 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
-| 75 | groupRepOrderBy | `Float` | G Reporting Order By |
-| 76 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
-| 77 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
-| 78 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
-| 79 | inactiveDate | `Date` | Inactive Date |
-| 80 | inactiveflag | `String` | Inactive Flag |
-| 81 | includeIn8300Yn | `String` | Include In 8300 Y/N |
-| 82 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
-| 83 | insertDate | `DateTime` | Insert Date |
-| 84 | insertUser | `Float` | Insert User |
-| 85 | internalDeletedflag | `String` | Deleted Flag |
-| 86 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| 87 | internalYn | `String` | Internal Y/N |
-| 88 | jRNUpdateDate | `Date` | JRN Update Date |
-| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 90 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 91 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| 92 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
-| 93 | maximumAmount | `Float` | Maximum Amount |
-| 94 | membershipYN | `String` | Membership YN |
-| 95 | minimumAmount | `Float` | Minimum Amount |
-| 96 | nonTaxableYn | `String` | Non Taxable Y/N |
-| 97 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 98 | ownerRevenueYN | `String` | Owner Rev Y/N |
-| 99 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| 100 | paymentType | `String` | Payment Type |
-| 101 | paymentmethodid | `String` | Paymentmethodid |
-| 102 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 103 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| 104 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| 105 | property | `String` | Property |
-| 106 | quantityCode | `String` | Quantity Code |
-| 107 | repDescription | `String` | Rep Description |
-| 108 | repItem | `String` | Reporting Item |
-| 109 | repItemName | `String` | Reporting Item Name |
-| 110 | repItemOrderby | `Float` | Reporting Item Orderby |
-| 111 | repUpdateDate | `DateTime` | Reporting Updatedate |
-| 112 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| 113 | revenueBucketId | `Float` | Rev Bucket ID |
-| 114 | revenueGroupId | `Float` | Rev Gp ID |
-| 115 | revenueYN | `String` | Revenue YN |
-| 116 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 117 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 118 | rotationRevenueYN | `String` | Rotation Rev Y/N |
-| 119 | roundFactorYn | `String` | Round Factor Y/N |
-| 120 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| 121 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
-| 122 | sgDescription | `String` | Sub-Group Description |
-| 123 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
-| 124 | sgInsertUser | `Float` | Sub-Group Insert User |
-| 125 | sgOrderBy | `Float` | Sub-Group Order By |
-| 126 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
-| 127 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
-| 128 | sgTaxflag | `String` | Sub-Group Taxflag |
-| 129 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
-| 130 | sgUpdateUser | `Float` | Sub-Group Update User |
-| 131 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
-| 132 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
-| 133 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
-| 134 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
-| 135 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
-| 136 | subGroupInternalYN | `String` | Sg Internal Y/N |
-| 137 | subGroupRepDescription | `String` | Sg Reporting Description |
-| 138 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
-| 139 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
-| 140 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
-| 141 | subGroupType | `String` | Sub-Group Type |
-| 142 | taxCodeNumber | `Float` | Tax Code Number |
-| 143 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 144 | taxYN | `String` | Tax YN |
-| 145 | tcBofInterface | `String` | Not Used. |
-| 146 | tcBofInterface2 | `String` | Not Used. |
-| 147 | tcBofRefCode | `String` | Not Used. |
-| 148 | tcBofRefCode2 | `String` | Not Used. |
-| 149 | tcResort2 | `String` | Not Used. |
-| 150 | tcTransactionType | `String` | Transaction Code Transaction Type |
-| 151 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| 152 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| 153 | transactionActionId | `Float` | Trx Action ID |
-| 154 | transactionCodeDescription | `String` | Transaction Code Description |
-| 155 | transactionCodeGroup | `String` | Transaction Code Group |
-| 156 | transactionCodeResort | `String` | Not Used. |
-| 157 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
-| 158 | transactionCodeType | `String` | Transaction Code Type |
-| 159 | transactionType | `String` | Transaction Type |
-| 160 | transcodearrangementid | `String` | Transcodearrangementid |
-| 161 | transcodeid | `String` | Transcodeid |
-| 162 | trxCode | `String` | Trx Code |
-| 163 | trxCodeDisplay | `String` | Transaction Code Display |
-| 164 | trxServiceType | `String` | Transaction Service Type |
-| 165 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| 166 | uPC | `String` | UPC |
-| 167 | updateDate | `DateTime` | Update Date |
-| 168 | updateUser | `Float` | Update User |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
+| 3 | aRNameId | `Float` | Ar Name ID |
+| 4 | accountNumber | `String` | Account Number |
+| 5 | accountingCode | `String` | Accounting Code |
+| 6 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 7 | adjTrxCode | `String` | Adj Trx Code |
+| 8 | adjtranscodeid | `String` | Adjtranscodeid |
+| 9 | arrangeCode | `String` | Arrange Code |
+| 10 | arrangementCode | `String` | Arrangement Code |
+| 11 | cDefaultPrice | `Float` | Central Default Price |
+| 12 | cExchangeDate | `Date` | Central Xchange Date |
+| 13 | cExchangeRate | `Float` | Central Xchange Rate |
+| 14 | cExportBucket | `Float` | Central Export Bucket |
+| 15 | cMaxAmount | `Float` | Central Max Amt |
+| 16 | cMinimumAmount | `Float` | Central Min Amt |
+| 17 | cCCode | `String` | CC Code |
+| 18 | cRSTaxDesc | `String` | Crs Tax Description |
+| 19 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
+| 20 | ccType | `String` | Cc Type |
+| 21 | centalSubgroup | `String` | Cental Subgroup |
+| 22 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
+| 23 | centralTransactionCode | `String` | Central Transaction Code |
+| 24 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 25 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
+| 26 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 27 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 28 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 29 | commissionCode | `Float` | Commission Code |
+| 30 | compNightsYn | `String` | Comp Nights Y/N |
+| 31 | compPaymentYn | `String` | Comp Payment Y/N |
+| 32 | complimentaryYN | `String` | Complimentary YN |
+| 33 | corpPropFlag | `String` | Corp Prop Flag |
+| 34 | corporateDescription | `String` | Corporate Description |
+| 35 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 36 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 37 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 38 | currencyCode | `String` | Currency Code |
+| 39 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 40 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 41 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 42 | defaultPrice | `Float` | Default Price |
+| 43 | deletedFlag | `String` | Deleted Flag |
+| 44 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
+| 45 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 46 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 47 | eInvoiceYn | `String` | E Invoice Y/N |
+| 48 | expenseFolio | `Float` | Expense Folio |
+| 49 | exportBucket | `Float` | Export Bucket |
+| 50 | externalPaymentCode | `String` | External Payment Code |
+| 51 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 52 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 53 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 54 | gDeletedFlag | `String` | Group Deleted Flag |
+| 55 | gDescription | `String` | Group Description |
+| 56 | gInsertDate | `DateTime` | Group Insert Date |
+| 57 | gInsertUser | `Float` | Group Insert User |
+| 58 | gOrderBy | `Float` | Group Order By |
+| 59 | gRepDescription | `String` | Group Rep Description |
+| 60 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
+| 61 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
+| 62 | gTctClassType1 | `String` | Group Tct Class Type1 |
+| 63 | gTctClassType2 | `String` | Group Tct Class Type2 |
+| 64 | gUpdateDate | `DateTime` | Group Update Date |
+| 65 | gUpdateUser | `Float` | Group Update User |
+| 66 | group | `String` | Group |
+| 67 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
+| 68 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
+| 69 | groupFolio | `Float` | Group Folio |
+| 70 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
+| 71 | groupInternalYN | `String` | G Internal Y/N |
+| 72 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 73 | groupRepItem | `String` | G Reporting Item |
+| 74 | groupRepItemName | `String` | G Reporting Item Name |
+| 75 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
+| 76 | groupRepOrderBy | `Float` | G Reporting Order By |
+| 77 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
+| 78 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
+| 79 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
+| 80 | inactiveDate | `Date` | Inactive Date |
+| 81 | inactiveflag | `String` | Inactive Flag |
+| 82 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 83 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
+| 84 | insertDate | `DateTime` | Insert Date |
+| 85 | insertUser | `Float` | Insert User |
+| 86 | internalDeletedflag | `String` | Deleted Flag |
+| 87 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 88 | internalYn | `String` | Internal Y/N |
+| 89 | jRNUpdateDate | `Date` | JRN Update Date |
+| 90 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 91 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 92 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 93 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
+| 94 | maximumAmount | `Float` | Maximum Amount |
+| 95 | membershipYN | `String` | Membership YN |
+| 96 | minimumAmount | `Float` | Minimum Amount |
+| 97 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 98 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 99 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 100 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 101 | paymentType | `String` | Payment Type |
+| 102 | paymentmethodid | `String` | Paymentmethodid |
+| 103 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 104 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 105 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 106 | property | `String` | Property |
+| 107 | quantityCode | `String` | Quantity Code |
+| 108 | repDescription | `String` | Rep Description |
+| 109 | repItem | `String` | Reporting Item |
+| 110 | repItemName | `String` | Reporting Item Name |
+| 111 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 112 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 113 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 114 | revenueBucketId | `Float` | Rev Bucket ID |
+| 115 | revenueGroupId | `Float` | Rev Gp ID |
+| 116 | revenueYN | `String` | Revenue YN |
+| 117 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 118 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 119 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 120 | roundFactorYn | `String` | Round Factor Y/N |
+| 121 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 122 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
+| 123 | sgDescription | `String` | Sub-Group Description |
+| 124 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
+| 125 | sgInsertUser | `Float` | Sub-Group Insert User |
+| 126 | sgOrderBy | `Float` | Sub-Group Order By |
+| 127 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
+| 128 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
+| 129 | sgTaxflag | `String` | Sub-Group Taxflag |
+| 130 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
+| 131 | sgUpdateUser | `Float` | Sub-Group Update User |
+| 132 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
+| 133 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
+| 134 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
+| 135 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
+| 136 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
+| 137 | subGroupInternalYN | `String` | Sg Internal Y/N |
+| 138 | subGroupRepDescription | `String` | Sg Reporting Description |
+| 139 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
+| 140 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
+| 141 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
+| 142 | subGroupType | `String` | Sub-Group Type |
+| 143 | taxCodeNumber | `Float` | Tax Code Number |
+| 144 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 145 | taxYN | `String` | Tax YN |
+| 146 | tcBofInterface | `String` | Not Used. |
+| 147 | tcBofInterface2 | `String` | Not Used. |
+| 148 | tcBofRefCode | `String` | Not Used. |
+| 149 | tcBofRefCode2 | `String` | Not Used. |
+| 150 | tcResort2 | `String` | Not Used. |
+| 151 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 152 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 153 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 154 | transactionActionId | `Float` | Trx Action ID |
+| 155 | transactionCodeDescription | `String` | Transaction Code Description |
+| 156 | transactionCodeGroup | `String` | Transaction Code Group |
+| 157 | transactionCodeResort | `String` | Not Used. |
+| 158 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
+| 159 | transactionCodeType | `String` | Transaction Code Type |
+| 160 | transactionType | `String` | Transaction Type |
+| 161 | transcodearrangementid | `String` | Transcodearrangementid |
+| 162 | transcodeid | `String` | Transcodeid |
+| 163 | trxCode | `String` | Trx Code |
+| 164 | trxCodeDisplay | `String` | Transaction Code Display |
+| 165 | trxServiceType | `String` | Transaction Service Type |
+| 166 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 167 | uPC | `String` | UPC |
+| 168 | updateDate | `DateTime` | Update Date |
+| 169 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -908,20 +910,28 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
+| trialbalancedetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
 | trialbalanceDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | trialbalanceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| trialbalanceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| trialbalanceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | trialbalanceDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
 | trialbalanceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| trialbalanceDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| trialbalanceDetailsTrxDate | `DateInput!` | Transaction Date<br>`@mandatoryInput` |
-| trialbalanceDetailsTrxCode | `StringInput` | Transaction Code |
+| trialbalanceDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| trialbalanceDetailsTrxDate | `DateInput` | Transaction Date<br>`@conditionalInputPair(pair: 2)` |
+| trialbalanceDetailsTrxCode | `StringInput` | Transaction Code<br>`@conditionalInputPair(pair: 2)` |
+| transactioncodedetailsChainCode | `StringInput` | CHAIN_CODE |
+| transcodeDetailsArNameId | `FloatInput` | Ar Name ID |
+| transcodeDetailsAdjTrxCode | `StringInput` | Adj Trx Code |
 | transcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | transcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| transcodeDetailsTcGroup | `StringInput` | Group |
 | transcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | transcodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
 | transcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | transcodeDetailsResort | `StringInput` | Property |
+| transcodeDetailsTrxActionId | `FloatInput` | Trx Action ID |
+| transcodeDetailsTcSubgroup | `StringInput` | Transaction Code Sub-group |
+| transcodeDetailsTrxCodeType | `StringInput` | Transaction Code Type |
 | transcodeDetailsTranscodeid | `StringInput` | Transcodeid |
 | transcodeDetailsTrxCode | `StringInput` | Trx Code |
 | roomclassDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
@@ -1208,9 +1218,14 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- trialbalancedetailsChainCode
 - trialbalanceDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- trialbalanceDetailsJrnupdatedttm
 - trialbalanceDetailsTrxDate
+- trialbalanceDetailsTrxCode
 
 
 [⬆ Back to Query](#query)
@@ -1222,6 +1237,7 @@
 query financialTransactionsSummary($input: FinancialTransactionsSummaryQueryArgumentsType!) {
   financialTransactionsSummary(input: $input) @stream {
     trialBalanceDetails {
+      chainCode
       aRLedgerCredit
       aRLedgerDebit
       arLedgerCreditMonthToDate
@@ -1410,6 +1426,7 @@ query financialTransactionsSummary($input: FinancialTransactionsSummaryQueryArgu
       trxCode
     }
     transactionCodeDetails {
+      chainCode
       aRLedgerPaymentsYN
       aRNameId
       accountNumber
@@ -1952,6 +1969,7 @@ query financialTransactionsSummary($input: FinancialTransactionsSummaryQueryArgu
   
 ```python
 trial_balance_details_schema = {
+    'chainCode': pl.Utf8,
     'aRLedgerCredit': pl.Float64,
     'aRLedgerDebit': pl.Float64,
     'arLedgerCreditMonthToDate': pl.Float64,
@@ -2142,6 +2160,7 @@ trial_balance_details_schema = {
 ```
 ```python
 transaction_code_details_schema = {
+    'chainCode': pl.Utf8,
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
     'accountNumber': pl.Utf8,

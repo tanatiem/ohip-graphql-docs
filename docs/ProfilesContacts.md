@@ -710,11 +710,13 @@
 | 51 | processExpirationDate | `Date` | Used in the EIS Module. |
 | 52 | profileid | `Float` | Reference to the name that owns this record. |
 | 53 | ranking | `Float` | Current membership ranking value for this profile possible values: 1-10. |
-| 54 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 55 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 56 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
-| 57 | updateDate | `DateTime` | The date the record was modified |
-| 58 | updateUser | `String` | The unique name of application user |
+| 54 | referralCount | `Float` | Number of times a new member has been referred. |
+| 55 | referredByMember | `String` | Name ID of member who referred. |
+| 56 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 57 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 58 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
+| 59 | updateDate | `DateTime` | The date the record was modified |
+| 60 | updateUser | `String` | The unique name of application user |
 
 [⬆ Back to Query](#query)
 
@@ -1461,27 +1463,27 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| contactDetailsActiveYn | `StringInput` | Active Flag |
-| contactDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |
-| contactDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
-| contactDetailsNameCode | `StringInput` | Client ID |
-| contactDetailsCompany | `StringInput` | Company |
-| contactDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker. |
-| contactDetailsNameId | `FloatInput` | Contact Profile ID |
+| contactDetailsActiveYn | `StringInput` | Active Flag<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
+| contactDetailsNameCode | `StringInput` | Client ID<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsCompany | `StringInput` | Company<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker.<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsNameId | `FloatInput` | Contact Profile ID<br>`@conditionalInputPair(pair: 2)` |
 | contactDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| contactDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |
-| contactDetailsHistoryYn | `StringInput` | History YN |
-| contactDetailsInactiveDate | `DateTimeInput` | Inactive Date |
-| contactDetailsIndexName | `StringInput` | Index Name |
-| contactDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| contactDetailsLast | `StringInput` | Last Name |
+| contactDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsHistoryYn | `StringInput` | History YN<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsInactiveDate | `DateTimeInput` | Inactive Date<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsIndexName | `StringInput` | Index Name<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsLast | `StringInput` | Last Name<br>`@conditionalInputPair(pair: 2)` |
 | contactDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | contactDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
-| contactDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
-| contactDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
-| contactDetailsSfirst | `StringInput` | Uppercase value of First Name. |
-| contactDetailsSrepCode | `StringInput` | Srep Code |
-| contactDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
+| contactDetailsSname | `StringInput` | The Uppercase value of Last or Company.<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name.<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsSfirst | `StringInput` | Uppercase value of First Name.<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsSrepCode | `StringInput` | Srep Code<br>`@conditionalInputPair(pair: 2)` |
+| contactDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name.<br>`@conditionalInputPair(pair: 2)` |
 | contactDetailsUpdateDate | `DateTimeInput` | Update Date |
 | profileaddressDetailsAddress1 | `StringInput` | The first line of street address. |
 | profileaddressDetailsAddress2 | `StringInput` | The second line of street address. |
@@ -1753,8 +1755,27 @@
 | profileownerDetailsUserId | `FloatInput` | User ID |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - contactDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- contactDetailsActiveYn
+- contactDetailsCrsNameid
+- contactDetailsNameCode
+- contactDetailsCompany
+- contactDetailsCompanyGroupId
+- contactDetailsNameId
+- contactDetailsDirectBillBatchType
+- contactDetailsHistoryYn
+- contactDetailsInactiveDate
+- contactDetailsIndexName
+- contactDetailsJrnupdatedttm
+- contactDetailsLast
+- contactDetailsSname
+- contactDetailsSxname
+- contactDetailsSfirst
+- contactDetailsSrepCode
+- contactDetailsSxfirstName
 
 
 [⬆ Back to Query](#query)
@@ -2409,6 +2430,8 @@ query profilesContacts($input: ProfilesContactsQueryArgumentsType!) {
       processExpirationDate
       profileid
       ranking
+      referralCount
+      referredByMember
       rnaInsertDate
       rnaUpdateDate
       trackData
@@ -3660,6 +3683,8 @@ profile_membership_details_schema = {
     'processExpirationDate': pl.Utf8,
     'profileid': pl.Float64,
     'ranking': pl.Float64,
+    'referralCount': pl.Float64,
+    'referredByMember': pl.Utf8,
     'rnaInsertDate': pl.Utf8,
     'rnaUpdateDate': pl.Utf8,
     'trackData': pl.Utf8,

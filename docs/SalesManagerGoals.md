@@ -486,14 +486,14 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| salesmanagerDetailsChainCode | `StringInput` | Chain Code |
+| salesmanagerDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
 | salesmanagerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| salesmanagerDetailsFirst | `StringInput` | First Name |
-| salesmanagerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| salesmanagerDetailsLast | `StringInput` | Last Name |
-| salesmanagerDetailsNameId | `FloatInput` | Name ID |
+| salesmanagerDetailsFirst | `StringInput` | First Name<br>`@conditionalInputPair(pair: 2)` |
+| salesmanagerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| salesmanagerDetailsLast | `StringInput` | Last Name<br>`@conditionalInputPair(pair: 2)` |
+| salesmanagerDetailsNameId | `FloatInput` | Name ID<br>`@conditionalInputPair(pair: 2)` |
 | salesmanagerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| salesmanagerDetailsSrepCode | `StringInput!` | Owner Code<br>`@mandatoryInput` |
+| salesmanagerDetailsSrepCode | `StringInput` | Owner Code<br>`@conditionalInputPair(pair: 2)` |
 | employeegoalDetailsActType | `StringInput` | Activity Type |
 | employeegoalDetailsActivitytypeid | `StringInput` | Activitytypeid |
 | employeegoalDetailsBudgetType | `StringInput` | Budget Type |
@@ -512,12 +512,15 @@
 | employeegoalDetailsNameId | `FloatInput` | User ID |
 | employeegoalDetailsYearId | `FloatInput` | Year ID |
 | workordersDetailsCompletedYn | `StringInput` | Activity Completed |
+| workordersDetailsAssignedTo | `FloatInput` | Activity Completion Date |
 | workordersDetailsCreatedDate | `DateTimeInput` | Activity Created On |
 | workordersDetailsEndDate | `DateTimeInput` | Activity End Date |
 | workordersDetailsWoNumber | `FloatInput` | Activity ID |
 | workordersDetailsProblemDesc | `StringInput` | Description of the Problem reported |
 | workordersDetailsPriorityCode | `StringInput` | Activity Priority |
 | workordersDetailsStartDate | `DateTimeInput` | Activity Start Date |
+| workordersDetailsCategoryCode | `StringInput` | Category Code |
+| workordersDetailsChainCode | `StringInput` | Chain Code |
 | workordersDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | workordersDetailsEstUotCode | `StringInput` | Est Uot Code |
 | workordersDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
@@ -547,7 +550,14 @@
 | owneraccountdailystatDetailsUserId | `FloatInput` | User ID |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- salesmanagerDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- salesmanagerDetailsFirst
+- salesmanagerDetailsJrnupdatedttm
+- salesmanagerDetailsLast
+- salesmanagerDetailsNameId
 - salesmanagerDetailsSrepCode
 
 

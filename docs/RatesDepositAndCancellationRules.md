@@ -477,20 +477,22 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| ratedepositcanDetailsCXchangeDate | `DateInput` | Central Xchange Date |
+| ratedepositcanDetailsCXchangeDate | `DateInput` | Central Xchange Date<br>`@conditionalInputPair(pair: 2)` |
 | ratedepositcanDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| ratedepositcanDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid |
-| ratedepositcanDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference |
-| ratedepositcanDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule |
-| ratedepositcanDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| ratedepositcanDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| ratedepositcanDetailsDepositcancelruleid | `FloatInput` | Depositcancelruleid<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsDepositcancelrulepmsref | `FloatInput` | Deposit Cancel Rule PMS Reference<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsDepositorCancellationRule | `StringInput` | Depositor Cancellation Rule<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | ratedepositcanDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| ratedepositcanDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| ratedepositcanDetailsRateCode | `StringInput` | Rate Code |
-| ratedepositcanDetailsRateSetId | `FloatInput` | Rate Set ID |
-| ratedepositcanDetailsReservationType | `StringInput` | Reservation Type |
-| ratedepositcanDetailsRulecode | `StringInput` | Rulecode |
-| ratedepositcanDetailsSeasonCode | `StringInput` | Season Code |
+| ratedepositcanDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| ratedepositcanDetailsRateCode | `StringInput` | Rate Code<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsRateSetId | `FloatInput` | Rate Set ID<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsReservationType | `StringInput` | Reservation Type<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsRulecode | `StringInput` | Rulecode<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsSeasonCode | `StringInput` | Season Code<br>`@conditionalInputPair(pair: 2)` |
+| ratedepositcanDetailsBeginDate | `DateInput` | Start Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -754,8 +756,23 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - ratedepositcanDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- ratedepositcanDetailsCXchangeDate
+- ratedepositcanDetailsDepositcancelruleid
+- ratedepositcanDetailsDepositcancelrulepmsref
+- ratedepositcanDetailsDepositorCancellationRule
+- ratedepositcanDetailsEndDate
+- ratedepositcanDetailsJrnupdatedttm
+- ratedepositcanDetailsLocationid
+- ratedepositcanDetailsRateCode
+- ratedepositcanDetailsRateSetId
+- ratedepositcanDetailsReservationType
+- ratedepositcanDetailsRulecode
+- ratedepositcanDetailsSeasonCode
+- ratedepositcanDetailsBeginDate
 
 
 [⬆ Back to Query](#query)

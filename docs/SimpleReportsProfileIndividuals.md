@@ -578,31 +578,50 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| nameDetailsAnonymizationStatus | `StringInput` | Anonymization Status possible values: REQUESTED ANONYMIZED. |
-| nameDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |
-| nameDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
-| nameDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker. |
-| nameDetailsContactYn | `StringInput` | Contact Y/N |
+| nameDetailsAnonymizationStatus | `StringInput` | Anonymization Status possible values: REQUESTED ANONYMIZED.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
+| nameDetailsCompanyGroupId | `StringInput` | Linked internal ID for booker.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsContactYn | `StringInput` | Contact Y/N<br>`@conditionalInputPair(pair: 2)` |
 | nameDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| nameDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type |
-| nameDetailsHistoryYn | `StringInput` | History Y/N |
-| nameDetailsIataCorpNo | `StringInput` | IATA Corp No |
-| nameDetailsInactiveDate | `DateInput` | Inactive Date |
-| nameDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| nameDetailsNameId | `FloatInput` | Name ID |
-| nameDetailsNameType | `StringInput` | Name Type |
+| nameDetailsDirectBillBatchType | `StringInput` | Direct Bill Batch Type<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsHistoryYn | `StringInput` | History Y/N<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsIataCorpNo | `StringInput` | IATA Corp No<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsInactiveDate | `DateInput` | Inactive Date<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsNameId | `FloatInput` | Name ID<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsNameType | `StringInput` | Name Type<br>`@conditionalInputPair(pair: 2)` |
 | nameDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| nameDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
-| nameDetailsSfirst | `StringInput` | Uppercase value of First Name. |
-| nameDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
-| nameDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
-| nameDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
-| nameDetailsUpdateDate | `DateTimeInput` | Update Date |
+| nameDetailsResortRegistered | `StringInput` | Resort for which Job is registered.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsSfirst | `StringInput` | Uppercase value of First Name.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsSname | `StringInput` | The Uppercase value of Last or Company.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name.<br>`@conditionalInputPair(pair: 2)` |
+| nameDetailsUpdateDate | `DateTimeInput` | Update Date<br>`@conditionalInputPair(pair: 2)` |
 | nameresortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - nameDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- nameDetailsAnonymizationStatus
+- nameDetailsCrsNameid
+- nameDetailsCompanyGroupId
+- nameDetailsContactYn
+- nameDetailsDirectBillBatchType
+- nameDetailsHistoryYn
+- nameDetailsIataCorpNo
+- nameDetailsInactiveDate
+- nameDetailsJrnupdatedttm
+- nameDetailsNameId
+- nameDetailsNameType
+- nameDetailsResortRegistered
+- nameDetailsSfirst
+- nameDetailsSname
+- nameDetailsSxfirstName
+- nameDetailsSxname
+- nameDetailsUpdateDate
 
 
 [⬆ Back to Query](#query)

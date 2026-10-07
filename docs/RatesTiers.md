@@ -646,10 +646,10 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | ratetierDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| ratetierDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ratetierDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | ratetierDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| ratetierDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| ratetierDetailsTierId | `FloatInput` | Tier ID for the Rate Detail. |
+| ratetierDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| ratetierDetailsTierId | `FloatInput` | Tier ID for the Rate Detail.<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -926,8 +926,12 @@
 | ratecodedetailsDetailsTierId | `FloatInput` | Tier ID for the Rate Detail. |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - ratetierDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- ratetierDetailsJrnupdatedttm
+- ratetierDetailsTierId
 
 
 [⬆ Back to Query](#query)

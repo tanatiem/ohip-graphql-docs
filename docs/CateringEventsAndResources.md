@@ -522,57 +522,55 @@
 | 26 | centralBilledExtraRevenue | `Float` | Central Billed Extra Revenue |
 | 27 | centralBilledPrice | `Float` | Central Billed Price |
 | 28 | centralDiscountedMenuPrice | `Float` | Central Menu Price |
-| 29 | centralDiscountedPrice | `Float` | Central Discounted Price |
-| 30 | centralExpectedExtraCost | `Float` | Central Expected Extra Cost |
-| 31 | centralExpectedExtraRevenue | `Float` | Central Expected Extra Revenue |
-| 32 | centralGuaranteedCost | `Float` | Central Guaranteed Cost |
-| 33 | centralGuaranteedExtraCost | `Float` | Central Guaranteed Extra Cost |
-| 34 | centralGuaranteedExtraRevenue | `Float` | Central Guaranteed Extra Revenue |
-| 35 | centralGuaranteedPrice | `Float` | Central Guaranteed Price |
-| 36 | centralInternalQuote | `Float` | Central Internal Quote |
-| 37 | centralMenuPrice | `Float` | Central Menu Price |
-| 38 | complimentaryNumber | `Float` | Complimentary Number of Menus |
-| 39 | customYN | `String` | Custom YN |
-| 40 | customrevtypeflag | `String` | Customrevtypeflag |
-| 41 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 42 | deletedFlag | `String` | Deleted Flag |
-| 43 | discountedMenuPrice | `Float` | Menu Price |
-| 44 | discountedPrice | `Float` | Discounted Price |
-| 45 | eventId | `Float` | Event ID |
-| 46 | eventMenuId | `Float` | Event Menu ID |
-| 47 | eventpkgrevenueid | `Float` | Eventpkgrevenueid |
-| 48 | expectedCost | `Float` | Expected Cost |
-| 49 | expectedExtraCost | `Float` | Expected Extra Cost |
-| 50 | expectedExtraRevenue | `Float` | Expected Extra Revenue |
-| 51 | expectedNumber | `Float` | Expected Number |
-| 52 | guaranteedCost | `Float` | Guaranteed Cost |
-| 53 | guaranteedExtraCost | `Float` | Guaranteed Extra Cost |
-| 54 | guaranteedExtraRevenue | `Float` | Guaranteed Extra Revenue |
-| 55 | guaranteedNumber | `Float` | Guaranteed Number |
-| 56 | guaranteedPrice | `Float` | Guaranteed Price |
-| 57 | insertDate | `DateTime` | Insert Date |
-| 58 | insertUser | `Float` | Insert User |
-| 59 | internalEventid | `Float` | Eventid |
-| 60 | internalEventmenuid | `Float` | Eventmenuid |
-| 61 | internalQuote | `Float` | Expected Price |
-| 62 | itemCost | `Float` | Item Cost |
-| 63 | itemPrice | `Float` | Item Price |
-| 64 | jRNUpdateDate | `Date` | JRN Update Date |
-| 65 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 66 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 67 | menuDiscountPercentage | `Float` | Menu Discount Percentage |
-| 68 | menuPrice | `Float` | Menu Price |
-| 69 | orderBy | `Float` | Order By |
-| 70 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 71 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 72 | property | `String` | Code to uniquely identify the Property |
-| 73 | revGroup | `String` | Revenue Group |
-| 74 | revenueType | `String` | Revenue Type |
-| 75 | revenuetypeid | `String` | Revenuetypeid |
-| 76 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 77 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 78 | updateDate | `DateTime` | Update Date |
-| 79 | updateUser | `Float` | Update User |
+| 29 | centralExpectedExtraCost | `Float` | Central Expected Extra Cost |
+| 30 | centralExpectedExtraRevenue | `Float` | Central Expected Extra Revenue |
+| 31 | centralGuaranteedCost | `Float` | Central Guaranteed Cost |
+| 32 | centralGuaranteedExtraCost | `Float` | Central Guaranteed Extra Cost |
+| 33 | centralGuaranteedExtraRevenue | `Float` | Central Guaranteed Extra Revenue |
+| 34 | centralGuaranteedPrice | `Float` | Central Guaranteed Price |
+| 35 | centralInternalQuote | `Float` | Central Internal Quote |
+| 36 | centralMenuPrice | `Float` | Central Menu Price |
+| 37 | complimentaryNumber | `Float` | Complimentary Number of Menus |
+| 38 | customYN | `String` | Custom YN |
+| 39 | customrevtypeflag | `String` | Customrevtypeflag |
+| 40 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 41 | deletedFlag | `String` | Deleted Flag |
+| 42 | discountedMenuPrice | `Float` | Menu Price |
+| 43 | eventId | `Float` | Event ID |
+| 44 | eventMenuId | `Float` | Event Menu ID |
+| 45 | eventpkgrevenueid | `Float` | Eventpkgrevenueid |
+| 46 | expectedCost | `Float` | Expected Cost |
+| 47 | expectedExtraCost | `Float` | Expected Extra Cost |
+| 48 | expectedExtraRevenue | `Float` | Expected Extra Revenue |
+| 49 | expectedNumber | `Float` | Expected Number |
+| 50 | guaranteedCost | `Float` | Guaranteed Cost |
+| 51 | guaranteedExtraCost | `Float` | Guaranteed Extra Cost |
+| 52 | guaranteedExtraRevenue | `Float` | Guaranteed Extra Revenue |
+| 53 | guaranteedNumber | `Float` | Guaranteed Number |
+| 54 | guaranteedPrice | `Float` | Guaranteed Price |
+| 55 | insertDate | `DateTime` | Insert Date |
+| 56 | insertUser | `Float` | Insert User |
+| 57 | internalEventid | `Float` | Eventid |
+| 58 | internalEventmenuid | `Float` | Eventmenuid |
+| 59 | internalQuote | `Float` | Expected Price |
+| 60 | itemCost | `Float` | Item Cost |
+| 61 | itemPrice | `Float` | Item Price |
+| 62 | jRNUpdateDate | `Date` | JRN Update Date |
+| 63 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 64 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 65 | menuDiscountPercentage | `Float` | Menu Discount Percentage |
+| 66 | menuPrice | `Float` | Menu Price |
+| 67 | orderBy | `Float` | Order By |
+| 68 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 69 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 70 | property | `String` | Code to uniquely identify the Property |
+| 71 | revGroup | `String` | Revenue Group |
+| 72 | revenueType | `String` | Revenue Type |
+| 73 | revenuetypeid | `String` | Revenuetypeid |
+| 74 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 75 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 76 | updateDate | `DateTime` | Update Date |
+| 77 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -2596,7 +2594,6 @@ query cateringEventsAndResources($input: CateringEventsAndResourcesQueryArgument
       centralBilledExtraRevenue
       centralBilledPrice
       centralDiscountedMenuPrice
-      centralDiscountedPrice
       centralExpectedExtraCost
       centralExpectedExtraRevenue
       centralGuaranteedCost
@@ -2611,7 +2608,6 @@ query cateringEventsAndResources($input: CateringEventsAndResourcesQueryArgument
       dSI
       deletedFlag
       discountedMenuPrice
-      discountedPrice
       eventId
       eventMenuId
       eventpkgrevenueid
@@ -4062,7 +4058,6 @@ event_menu_revenue_details_schema = {
     'centralBilledExtraRevenue': pl.Float64,
     'centralBilledPrice': pl.Float64,
     'centralDiscountedMenuPrice': pl.Float64,
-    'centralDiscountedPrice': pl.Float64,
     'centralExpectedExtraCost': pl.Float64,
     'centralExpectedExtraRevenue': pl.Float64,
     'centralGuaranteedCost': pl.Float64,
@@ -4077,7 +4072,6 @@ event_menu_revenue_details_schema = {
     'dSI': pl.Int64,
     'deletedFlag': pl.Utf8,
     'discountedMenuPrice': pl.Float64,
-    'discountedPrice': pl.Float64,
     'eventId': pl.Float64,
     'eventMenuId': pl.Float64,
     'eventpkgrevenueid': pl.Float64,

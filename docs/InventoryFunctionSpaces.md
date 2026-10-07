@@ -32,158 +32,159 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | _100PercentOccupancy | `Float` | Minutes occupied that define the room as 100% utilized. Maximum is 1440 minutes. |
-| 2 | accessibleYN | `String` | Accessible YN |
-| 3 | areaSquareFeet | `Float` | Area in sqft |
-| 4 | areaSquareMeters | `Float` | Area in sqm |
-| 5 | assignAssignStatus | `String` | Assign Assign Status |
-| 6 | assignDate | `DateTime` | Room assignment date |
-| 7 | assignType | `String` | Assign Type |
-| 8 | assignemployeeid | `Float` | Assignemployeeid |
-| 9 | assignreasonid | `String` | Assignreasonid |
-| 10 | buildingGroup | `String` | Building Group |
-| 11 | cExchangeDate | `Date` | Central Xchange Date |
-| 12 | cExchangeRate | `Float` | Central Xchange Rate |
-| 13 | cMinimumRevenue | `Float` | Central Minimum Revenue |
-| 14 | cRackRate | `Float` | Central Rack Rate |
-| 15 | comboroomflag | `String` | Comboroomflag |
-| 16 | comments | `String` | Comments |
-| 17 | componentRoom | `String` | Suite component room numbers |
-| 18 | connectingRooms | `String` | Connecting Rooms |
-| 19 | credits | `Float` | Credits |
-| 20 | creditsDeparture | `Float` | Credits associated with the task after departure. |
-| 21 | creditsPickup | `Float` | Houskeeping credits for cleaning room in pickup status |
-| 22 | creditsTurndown | `Float` | Houskeeping credits for Turndown. |
-| 23 | customOrder1 | `Float` | Custom Order 1 |
-| 24 | customOrder2 | `Float` | Display sequence 2 |
-| 25 | customOrder3 | `Float` | Display sequence 3 |
-| 26 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 27 | defatulratecodeid | `String` | Defatulratecodeid |
-| 28 | defaultRateCode | `String` | Default rate code to be used to calculate the total revenue. |
-| 29 | defaultRateDesc | `String` | Default Rate Description |
-| 30 | deletedflag | `String` | Deleted Flag |
-| 31 | description | `String` | Description |
-| 32 | displayInDiary | `String` | Display in Diary |
-| 33 | doors | `String` | Number of doors |
-| 34 | evisitorFacilityId | `String` | Facility ID for eVisitor. |
-| 35 | excludedEventTypes | `String` | Stores event types which do not require alternate spaces. |
-| 36 | facing | `String` | Direction room faces |
-| 37 | floor | `String` | Floor |
-| 38 | foPers | `Float` | The persons staying in room according to Front office. |
-| 39 | foStatus | `String` | Front Office Status of the room i.e.: Vacant or Occupied. |
-| 40 | forceAlternate | `String` | Defines if the function space needs an alternate space when booked. |
-| 41 | frontDeskLocation | `String` | The front desk location this room should check in to. |
-| 42 | hkinspectedflag | `String` | Hkinspectedflag |
-| 43 | holdDateTime | `DateTime` | Date and time when room will be released from hold. |
-| 44 | holdType | `String` | Hold type from resort_assignment_reasons table. |
-| 45 | holdUser | `Float` | User that is holding the room. |
-| 46 | housekeepingAssignmentOrderBy | `Float` | Sequence for automatically generated task assignment. |
-| 47 | housekeepingEveningSection | `String` | Section the room belongs to for evening housekeeping |
-| 48 | housekeepingInspDate | `Date` | Housekeeping Inspected date |
-| 49 | housekeepingInspEmpId | `String` | Houskeeping inspected employee id |
-| 50 | housekeepingPers | `Float` | The number of persons staying in the room according to housekeeping |
-| 51 | housekeepingSectionCode | `String` | Indicates the section to which employee belongs. |
-| 52 | housekeepingStatus | `String` | The status of this room according to housekeeping |
-| 53 | imageId | `Float` | Image ID |
-| 54 | inactiveflag | `String` | Inactive Flag |
-| 55 | insertDate | `DateTime` | Insert Date |
-| 56 | insertUser | `Float` | Insert User |
-| 57 | jRNUpdateDate | `Date` | JRN Update Date |
-| 58 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 59 | keyCode | `String` | The current key code for this room.  Used to create keys for a room. |
-| 60 | keyOptions | `String` | Privileges available for this key |
-| 61 | lastCheckOutDate | `Date` | The last check out date for this room. |
-| 62 | lastMeterReading | `Float` | The last meter reading for condos that track electrical usage of rented rooms. |
-| 63 | lengthFeet | `Float` | Length (feet) |
-| 64 | lengthMeters | `Float` | Length (meters) |
-| 65 | light | `String` | Number of lights in the room |
-| 66 | location | `String` | Location |
-| 67 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 68 | loudspeakersflag | `String` | Loudspeakersflag |
-| 69 | maxAdvance | `Float` | Maximum number of days before the catering event date  that the space can be booked on the web. |
-| 70 | maxOccupancy | `Float` | Max Occupancy |
-| 71 | maxSharedGroups | `Float` | Maximum number of groups for a Shared function space allowed. |
-| 72 | maximumHeightFeet | `Float` | Max Height in ft |
-| 73 | maximumHeightMeters | `Float` | Max Height in m |
-| 74 | maximumCapacity | `Float` | Function Space Maximum Capacity. |
-| 75 | meetingroomTypeSeq | `Float` | Meetingroom Type Sequence |
-| 76 | meetingroomflag | `String` | Meetingroomflag |
-| 77 | microphoneSocketTypes | `String` | Type of microphone sockets |
-| 78 | microphoneSockets | `Float` | Number of microphone sockets |
-| 79 | minAdvance | `Float` | Minimum number of days before the catering event date that the space can be booked on the web. |
-| 80 | minimumCapacity | `Float` | Minimum Capacity |
-| 81 | minimumHeightFeet | `Float` | Minumum heigth of room (feet) |
-| 82 | minimumHeightMeters | `Float` | Minumum heigth of room (meters) |
-| 83 | minimumRevenue | `Float` | Minimum Revenue |
-| 84 | notes | `String` | Notes for the setup of the room |
-| 85 | numberOfBeds | `Float` | Specifies the number of beds in this room. |
-| 86 | occupancyCondition | `String` | Current room condition updated daily.(ie StayOverDueOutExpected etc) |
-| 87 | occupantDiscrepancy | `Float` | Discrepancy between front desk and housekeeping |
-| 88 | onlinePrintingYn | `String` | Used for pseudo rooms. If Y then this pseudo room will be included in Online Printing for reservation changes. |
-| 89 | orderBy4 | `Float` | Display sequence 4 |
-| 90 | orderBy5 | `Float` | Display sequence 5 |
-| 91 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 92 | ovosGradeCode | `String` | Stores a Grade associated with a unit to determine the room display order in Room Assignment and Room Plan screens. |
-| 93 | ovosUnitYn | `String` | Room can be OVOS unit. |
-| 94 | pcode | `String` | Not used |
-| 95 | personDiscrepancy | `Float` | Person discrepancy between front desk and houskeeping |
-| 96 | phoneNumber | `String` | Phone Number |
-| 97 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 98 | property | `String` | Code to uniquely identify the Property |
-| 99 | pseudoflag | `String` | Pseudoflag |
-| 100 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 101 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 102 | rackRate | `Float` | Default rate for the room |
-| 103 | rateCode | `String` | Rate Code |
-| 104 | repMeetingroomType | `String` | Reporting Meetingroom Type |
-| 105 | repMeetingroomTypeDescription | `String` | Reporting Meetingroom Type Desc |
-| 106 | repMeetingroomTypeSequence | `Float` | Reporting Meetingroom Type Seq |
-| 107 | returnStatus | `String` | Room return status |
-| 108 | room | `String` | Room |
-| 109 | roomAssignmentRating | `Float` | Room Assignment Rating. |
-| 110 | roomCategory | `String` | Room Category |
-| 111 | roomCategoryBedtype | `String` | Room Category Bedtype |
-| 112 | roomCategoryDesc | `String` | Room Category Description |
-| 113 | roomClass | `String` | Room Class |
-| 114 | roomClassDesc | `String` | Room Class Description |
-| 115 | roomClassSellSeq | `Float` | Room Class Sell Sequence |
-| 116 | roomFeatures | `String` | This stores the codes for the rooms features. Currently not used |
-| 117 | roomStatus | `String` | Room Status |
-| 118 | roomStatusFromDate | `Date` | The date as of which the room_status is valid. |
-| 119 | roomStatusReason | `String` | Room Status Reason |
-| 120 | roomStatusReasonDesc | `String` | Room Status Reason Description |
-| 121 | roomStatusRemarks | `String` | Room status remarks |
-| 122 | roomStatusToDate | `Date` | The date till which the room_status is valid.(Used during OO and OS status of rooms ) |
-| 123 | roomType | `String` | Type of meeting room |
-| 124 | roomTypeDescription | `String` | Room Type Description |
-| 125 | roomUseCount | `Float` | Total Count of the number of days the room was used. |
-| 126 | roomcategoryid | `String` | Roomcategoryid |
-| 127 | roomclassid | `String` | Roomclassid |
-| 128 | roomid | `String` | Roomid |
-| 129 | roompmsref | `String` | Roompmsref |
-| 130 | roomstatusreasonid | `String` | Roomstatusreasonid |
-| 131 | serviceStatus | `String` | Current guest service status code for this room. Example: Service status can be DND (Do Not Disturb) or MUP (Make Up Room) |
-| 132 | shareable | `String` | Shareable |
-| 133 | shortName | `String` | Diary name to show room in |
-| 134 | smokingPreference | `String` | Smoking Preference |
-| 135 | smokingPreferences | `String` | Smoking Preferences |
-| 136 | spaceName | `String` | Space Name |
-| 137 | squareUnitMeasurement | `String` | The unit of measurement for this square units (IE: Feet Meters etc) |
-| 138 | squareUnits | `Float` | The square units for this room (IE: if a condo in the US likely the square feet of this room) |
-| 139 | suiteType | `String` | Standard or Suite |
-| 140 | tempflag | `String` | Tempflag |
-| 141 | translationboothNum | `Float` | Number for the booth |
-| 142 | turndownflag | `String` | Turndownflag |
-| 143 | tvRadioSockets | `Float` | Number of TV or radio sockets |
-| 144 | unit | `String` | Unit |
-| 145 | updateDate | `DateTime` | Update Date |
-| 146 | updateUser | `Float` | Update User |
-| 147 | visibleOnWebYn | `String` | Flag makes a Function Space visible on the web. |
-| 148 | webBookingYn | `String` | Web Booking Y/N |
-| 149 | weightKgSqMeter | `Float` | Room weigth (meters) |
-| 150 | weightLbsSqFeet | `Float` | Room weigth (feet) |
-| 151 | widthFeet | `Float` | Width (feet) |
-| 152 | widthMeters | `Float` | Width (meters) |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | _100PercentOccupancy | `Float` | Minutes occupied that define the room as 100% utilized. Maximum is 1440 minutes. |
+| 3 | accessibleYN | `String` | Accessible YN |
+| 4 | areaSquareFeet | `Float` | Area in sqft |
+| 5 | areaSquareMeters | `Float` | Area in sqm |
+| 6 | assignAssignStatus | `String` | Assign Assign Status |
+| 7 | assignDate | `DateTime` | Room assignment date |
+| 8 | assignType | `String` | Assign Type |
+| 9 | assignemployeeid | `Float` | Assignemployeeid |
+| 10 | assignreasonid | `String` | Assignreasonid |
+| 11 | buildingGroup | `String` | Building Group |
+| 12 | cExchangeDate | `Date` | Central Xchange Date |
+| 13 | cExchangeRate | `Float` | Central Xchange Rate |
+| 14 | cMinimumRevenue | `Float` | Central Minimum Revenue |
+| 15 | cRackRate | `Float` | Central Rack Rate |
+| 16 | comboroomflag | `String` | Comboroomflag |
+| 17 | comments | `String` | Comments |
+| 18 | componentRoom | `String` | Suite component room numbers |
+| 19 | connectingRooms | `String` | Connecting Rooms |
+| 20 | credits | `Float` | Credits |
+| 21 | creditsDeparture | `Float` | Credits associated with the task after departure. |
+| 22 | creditsPickup | `Float` | Houskeeping credits for cleaning room in pickup status |
+| 23 | creditsTurndown | `Float` | Houskeeping credits for Turndown. |
+| 24 | customOrder1 | `Float` | Custom Order 1 |
+| 25 | customOrder2 | `Float` | Display sequence 2 |
+| 26 | customOrder3 | `Float` | Display sequence 3 |
+| 27 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 28 | defatulratecodeid | `String` | Defatulratecodeid |
+| 29 | defaultRateCode | `String` | Default rate code to be used to calculate the total revenue. |
+| 30 | defaultRateDesc | `String` | Default Rate Description |
+| 31 | deletedflag | `String` | Deleted Flag |
+| 32 | description | `String` | Description |
+| 33 | displayInDiary | `String` | Display in Diary |
+| 34 | doors | `String` | Number of doors |
+| 35 | evisitorFacilityId | `String` | Facility ID for eVisitor. |
+| 36 | excludedEventTypes | `String` | Stores event types which do not require alternate spaces. |
+| 37 | facing | `String` | Direction room faces |
+| 38 | floor | `String` | Floor |
+| 39 | foPers | `Float` | The persons staying in room according to Front office. |
+| 40 | foStatus | `String` | Front Office Status of the room i.e.: Vacant or Occupied. |
+| 41 | forceAlternate | `String` | Defines if the function space needs an alternate space when booked. |
+| 42 | frontDeskLocation | `String` | The front desk location this room should check in to. |
+| 43 | hkinspectedflag | `String` | Hkinspectedflag |
+| 44 | holdDateTime | `DateTime` | Date and time when room will be released from hold. |
+| 45 | holdType | `String` | Hold type from resort_assignment_reasons table. |
+| 46 | holdUser | `Float` | User that is holding the room. |
+| 47 | housekeepingAssignmentOrderBy | `Float` | Sequence for automatically generated task assignment. |
+| 48 | housekeepingEveningSection | `String` | Section the room belongs to for evening housekeeping |
+| 49 | housekeepingInspDate | `Date` | Housekeeping Inspected date |
+| 50 | housekeepingInspEmpId | `String` | Houskeeping inspected employee id |
+| 51 | housekeepingPers | `Float` | The number of persons staying in the room according to housekeeping |
+| 52 | housekeepingSectionCode | `String` | Indicates the section to which employee belongs. |
+| 53 | housekeepingStatus | `String` | The status of this room according to housekeeping |
+| 54 | imageId | `Float` | Image ID |
+| 55 | inactiveflag | `String` | Inactive Flag |
+| 56 | insertDate | `DateTime` | Insert Date |
+| 57 | insertUser | `Float` | Insert User |
+| 58 | jRNUpdateDate | `Date` | JRN Update Date |
+| 59 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 60 | keyCode | `String` | The current key code for this room.  Used to create keys for a room. |
+| 61 | keyOptions | `String` | Privileges available for this key |
+| 62 | lastCheckOutDate | `Date` | The last check out date for this room. |
+| 63 | lastMeterReading | `Float` | The last meter reading for condos that track electrical usage of rented rooms. |
+| 64 | lengthFeet | `Float` | Length (feet) |
+| 65 | lengthMeters | `Float` | Length (meters) |
+| 66 | light | `String` | Number of lights in the room |
+| 67 | location | `String` | Location |
+| 68 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 69 | loudspeakersflag | `String` | Loudspeakersflag |
+| 70 | maxAdvance | `Float` | Maximum number of days before the catering event date  that the space can be booked on the web. |
+| 71 | maxOccupancy | `Float` | Max Occupancy |
+| 72 | maxSharedGroups | `Float` | Maximum number of groups for a Shared function space allowed. |
+| 73 | maximumHeightFeet | `Float` | Max Height in ft |
+| 74 | maximumHeightMeters | `Float` | Max Height in m |
+| 75 | maximumCapacity | `Float` | Function Space Maximum Capacity. |
+| 76 | meetingroomTypeSeq | `Float` | Meetingroom Type Sequence |
+| 77 | meetingroomflag | `String` | Meetingroomflag |
+| 78 | microphoneSocketTypes | `String` | Type of microphone sockets |
+| 79 | microphoneSockets | `Float` | Number of microphone sockets |
+| 80 | minAdvance | `Float` | Minimum number of days before the catering event date that the space can be booked on the web. |
+| 81 | minimumCapacity | `Float` | Minimum Capacity |
+| 82 | minimumHeightFeet | `Float` | Minumum heigth of room (feet) |
+| 83 | minimumHeightMeters | `Float` | Minumum heigth of room (meters) |
+| 84 | minimumRevenue | `Float` | Minimum Revenue |
+| 85 | notes | `String` | Notes for the setup of the room |
+| 86 | numberOfBeds | `Float` | Specifies the number of beds in this room. |
+| 87 | occupancyCondition | `String` | Current room condition updated daily.(ie StayOverDueOutExpected etc) |
+| 88 | occupantDiscrepancy | `Float` | Discrepancy between front desk and housekeeping |
+| 89 | onlinePrintingYn | `String` | Used for pseudo rooms. If Y then this pseudo room will be included in Online Printing for reservation changes. |
+| 90 | orderBy4 | `Float` | Display sequence 4 |
+| 91 | orderBy5 | `Float` | Display sequence 5 |
+| 92 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 93 | ovosGradeCode | `String` | Stores a Grade associated with a unit to determine the room display order in Room Assignment and Room Plan screens. |
+| 94 | ovosUnitYn | `String` | Room can be OVOS unit. |
+| 95 | pcode | `String` | Not used |
+| 96 | personDiscrepancy | `Float` | Person discrepancy between front desk and houskeeping |
+| 97 | phoneNumber | `String` | Phone Number |
+| 98 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 99 | property | `String` | Code to uniquely identify the Property |
+| 100 | pseudoflag | `String` | Pseudoflag |
+| 101 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 102 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 103 | rackRate | `Float` | Default rate for the room |
+| 104 | rateCode | `String` | Rate Code |
+| 105 | repMeetingroomType | `String` | Reporting Meetingroom Type |
+| 106 | repMeetingroomTypeDescription | `String` | Reporting Meetingroom Type Desc |
+| 107 | repMeetingroomTypeSequence | `Float` | Reporting Meetingroom Type Seq |
+| 108 | returnStatus | `String` | Room return status |
+| 109 | room | `String` | Room |
+| 110 | roomAssignmentRating | `Float` | Room Assignment Rating. |
+| 111 | roomCategory | `String` | Room Category |
+| 112 | roomCategoryBedtype | `String` | Room Category Bedtype |
+| 113 | roomCategoryDesc | `String` | Room Category Description |
+| 114 | roomClass | `String` | Room Class |
+| 115 | roomClassDesc | `String` | Room Class Description |
+| 116 | roomClassSellSeq | `Float` | Room Class Sell Sequence |
+| 117 | roomFeatures | `String` | This stores the codes for the rooms features. Currently not used |
+| 118 | roomStatus | `String` | Room Status |
+| 119 | roomStatusFromDate | `Date` | The date as of which the room_status is valid. |
+| 120 | roomStatusReason | `String` | Room Status Reason |
+| 121 | roomStatusReasonDesc | `String` | Room Status Reason Description |
+| 122 | roomStatusRemarks | `String` | Room status remarks |
+| 123 | roomStatusToDate | `Date` | The date till which the room_status is valid.(Used during OO and OS status of rooms ) |
+| 124 | roomType | `String` | Type of meeting room |
+| 125 | roomTypeDescription | `String` | Room Type Description |
+| 126 | roomUseCount | `Float` | Total Count of the number of days the room was used. |
+| 127 | roomcategoryid | `String` | Roomcategoryid |
+| 128 | roomclassid | `String` | Roomclassid |
+| 129 | roomid | `String` | Roomid |
+| 130 | roompmsref | `String` | Roompmsref |
+| 131 | roomstatusreasonid | `String` | Roomstatusreasonid |
+| 132 | serviceStatus | `String` | Current guest service status code for this room. Example: Service status can be DND (Do Not Disturb) or MUP (Make Up Room) |
+| 133 | shareable | `String` | Shareable |
+| 134 | shortName | `String` | Diary name to show room in |
+| 135 | smokingPreference | `String` | Smoking Preference |
+| 136 | smokingPreferences | `String` | Smoking Preferences |
+| 137 | spaceName | `String` | Space Name |
+| 138 | squareUnitMeasurement | `String` | The unit of measurement for this square units (IE: Feet Meters etc) |
+| 139 | squareUnits | `Float` | The square units for this room (IE: if a condo in the US likely the square feet of this room) |
+| 140 | suiteType | `String` | Standard or Suite |
+| 141 | tempflag | `String` | Tempflag |
+| 142 | translationboothNum | `Float` | Number for the booth |
+| 143 | turndownflag | `String` | Turndownflag |
+| 144 | tvRadioSockets | `Float` | Number of TV or radio sockets |
+| 145 | unit | `String` | Unit |
+| 146 | updateDate | `DateTime` | Update Date |
+| 147 | updateUser | `Float` | Update User |
+| 148 | visibleOnWebYn | `String` | Flag makes a Function Space visible on the web. |
+| 149 | webBookingYn | `String` | Web Booking Y/N |
+| 150 | weightKgSqMeter | `Float` | Room weigth (meters) |
+| 151 | weightLbsSqFeet | `Float` | Room weigth (feet) |
+| 152 | widthFeet | `Float` | Width (feet) |
+| 153 | widthMeters | `Float` | Width (meters) |
 
 [⬆ Back to Query](#query)
 
@@ -649,12 +650,19 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
+| functionspacedetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| functionspaceDetailsOrderBy | `FloatInput` | Custom Order 1<br>`@conditionalInputPair(pair: 2)` |
+| functionspaceDetailsOrderBy2 | `FloatInput` | Display sequence 2<br>`@conditionalInputPair(pair: 2)` |
+| functionspaceDetailsOrderBy3 | `FloatInput` | Display sequence 3<br>`@conditionalInputPair(pair: 2)` |
 | functionspaceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| functionspaceDetailsHkSectionCode | `StringInput` | Indicates the section to which employee belongs.<br>`@conditionalInputPair(pair: 2)` |
 | functionspaceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | functionspaceDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
 | functionspaceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| functionspaceDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| functionspaceDetailsRoom | `StringInput` | Room |
+| functionspaceDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| functionspaceDetailsRoom | `StringInput` | Room<br>`@conditionalInputPair(pair: 2)` |
+| functionspaceDetailsRoomCategory | `StringInput` | Room Category<br>`@conditionalInputPair(pair: 2)` |
+| functionspaceDetailsRoomClass | `StringInput` | Room Class<br>`@conditionalInputPair(pair: 2)` |
 | functionspaceDetailsRoomid | `StringInput` | Roomid |
 | functionspaceDetailsRoompmsref | `StringInput` | Roompmsref |
 | roomsetupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
@@ -935,8 +943,18 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- functionspacedetailsChainCode
 - functionspaceDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- functionspaceDetailsOrderBy
+- functionspaceDetailsOrderBy2
+- functionspaceDetailsOrderBy3
+- functionspaceDetailsHkSectionCode
+- functionspaceDetailsRoom
+- functionspaceDetailsRoomCategory
+- functionspaceDetailsRoomClass
 
 
 [⬆ Back to Query](#query)
@@ -948,6 +966,7 @@
 query inventoryFunctionSpaces($input: InventoryFunctionSpacesQueryArgumentsType!) {
   inventoryFunctionSpaces(input: $input) @stream {
     functionSpaceDetails {
+      chainCode
       _100PercentOccupancy
       accessibleYN
       areaSquareFeet
@@ -1435,6 +1454,7 @@ query inventoryFunctionSpaces($input: InventoryFunctionSpacesQueryArgumentsType!
   
 ```python
 function_space_details_schema = {
+    'chainCode': pl.Utf8,
     '_100PercentOccupancy': pl.Float64,
     'accessibleYN': pl.Utf8,
     'areaSquareFeet': pl.Float64,

@@ -472,24 +472,24 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| sceventinfoDetailsBookId | `FloatInput` | Book ID |
+| sceventinfoDetailsBookId | `FloatInput` | Book ID<br>`@conditionalInputPair(pair: 2)` |
 | sceventinfoDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| sceventinfoDetailsEndTime | `DateTimeInput` | End Time |
-| sceventinfoDetailsEvResort | `StringInput!` | Event Property.<br>`@mandatoryInput` |
-| sceventinfoDetailsEventEndDate | `DateInput!` | Event End Date.<br>`@mandatoryInput` |
-| sceventinfoDetailsEventId | `StringInput` | Event ID |
-| sceventinfoDetailsEventStartDate | `DateInput!` | Event Start Date.<br>`@mandatoryInput` |
-| sceventinfoDetailsEventStatus | `StringInput` | Event Status |
-| sceventinfoDetailsEventType | `StringInput` | Event Type |
-| sceventinfoDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| sceventinfoDetailsMasterEventId | `FloatInput` | Master Event ID |
+| sceventinfoDetailsEndTime | `DateTimeInput` | End Time<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsEvResort | `StringInput` | Event Property.<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsEventEndDate | `DateInput` | Event End Date.<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsEventId | `StringInput` | Event ID<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsEventStartDate | `DateInput` | Event Start Date.<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsEventStatus | `StringInput` | Event Status<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsEventType | `StringInput` | Event Type<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsMasterEventId | `FloatInput` | Master Event ID<br>`@conditionalInputPair(pair: 2)` |
 | sceventinfoDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| sceventinfoDetailsPkgId | `FloatInput` | Pkg ID |
-| sceventinfoDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| sceventinfoDetailsPkgId | `FloatInput` | Pkg ID<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | sceventinfoDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
 | sceventinfoDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
-| sceventinfoDetailsRoom | `StringInput` | Room |
-| sceventinfoDetailsStartTime | `DateTimeInput` | Start Time |
+| sceventinfoDetailsRoom | `StringInput` | Room<br>`@conditionalInputPair(pair: 2)` |
+| sceventinfoDetailsStartTime | `DateTimeInput` | Start Time<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -753,10 +753,23 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- sceventinfoDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- sceventinfoDetailsBookId
+- sceventinfoDetailsEndTime
 - sceventinfoDetailsEvResort
 - sceventinfoDetailsEventEndDate
+- sceventinfoDetailsEventId
 - sceventinfoDetailsEventStartDate
+- sceventinfoDetailsEventStatus
+- sceventinfoDetailsEventType
+- sceventinfoDetailsJrnupdatedttm
+- sceventinfoDetailsMasterEventId
+- sceventinfoDetailsPkgId
+- sceventinfoDetailsRoom
+- sceventinfoDetailsStartTime
 
 
 [⬆ Back to Query](#query)

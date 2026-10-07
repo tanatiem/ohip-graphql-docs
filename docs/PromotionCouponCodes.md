@@ -40,7 +40,7 @@
 | 9 | inactiveDate | `Date` | Inactive Date |
 | 10 | insertUser | `Float` | Insert User |
 | 11 | jRNUpdateDate | `Date` | JRN Update Date |
-| 12 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 12 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
 | 13 | organizationID | `Float` | Organization ID |
 | 14 | primaryKeyID | `Float` | Primary Key ID |
 | 15 | promotionCode | `String` | Promotion Code |
@@ -171,17 +171,29 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| onetimepromocouponsDetailsBatchCode | `StringInput` | Batch Code |
-| onetimepromocouponsDetailsCouponCode | `StringInput` | Coupon Code |
-| onetimepromocouponsDetailsCouponId | `FloatInput` | Coupon ID |
-| onetimepromocouponsDetailsPromotionCode | `StringInput` | Promotion Code |
-| onetimepromocouponsDetailsResort | `StringInput!` | Property<br>`@mandatoryInput` |
-| onetimepromocouponsDetailsUsedInResvNameId | `FloatInput` | Used In Reservation Name ID |
-| onetimepromocouponsDetailsUsedInResvResort | `StringInput` | Used In Reservation Property |
+| onetimepromocouponsDetailsBatchCode | `StringInput` | Batch Code<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsCouponCode | `StringInput` | Coupon Code<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsCouponId | `FloatInput` | Coupon ID<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsPromotionCode | `StringInput` | Promotion Code<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsResort | `StringInput` | Property<br>`@conditionalInputPair(pair: 1)` |
+| onetimepromocouponsDetailsUsedInResvNameId | `FloatInput` | Used In Reservation Name ID<br>`@conditionalInputPair(pair: 2)` |
+| onetimepromocouponsDetailsUsedInResvResort | `StringInput` | Used In Reservation Property<br>`@conditionalInputPair(pair: 2)` |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - onetimepromocouponsDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- onetimepromocouponsDetailsBatchCode
+- onetimepromocouponsDetailsChainCode
+- onetimepromocouponsDetailsCouponCode
+- onetimepromocouponsDetailsCouponId
+- onetimepromocouponsDetailsJrnUpdateDttm
+- onetimepromocouponsDetailsPromotionCode
+- onetimepromocouponsDetailsUsedInResvNameId
+- onetimepromocouponsDetailsUsedInResvResort
 
 
 [⬆ Back to Query](#query)

@@ -47,174 +47,175 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | adults | `Float` | Adults |
-| 2 | adultsTaxFree | `Float` | Adults Tax Free |
-| 3 | agentId | `Float` | Agent ID |
-| 4 | allotmentHeaderId | `Float` | Allotment Header ID |
-| 5 | allotmentid | `Float` | Block ID |
-| 6 | arrivalPersons | `Float` | Arrival Persons |
-| 7 | arrivalRooms | `Float` | Arrival Rooms |
-| 8 | blockStatus | `String` | Block Status |
-| 9 | bookedRoomCategory | `String` | Booked Room Category |
-| 10 | bookingStatus | `String` | Booking Status |
-| 11 | bookingstatusid | `String` | Bookingstatusid |
-| 12 | businessDateCreated | `Date` | Business Date Created |
-| 13 | cDayUseNetRoomRevenue | `Float` | Central Day Use Net Room Revenue |
-| 14 | cExchangeDate | `Date` | Central Xchange Date |
-| 15 | cExchangeRate | `Float` | Central Xchange Rate |
-| 16 | cFCExtraRevenue | `Float` | Central Fc Extra Revenue |
-| 17 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
-| 18 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
-| 19 | cFCGrossRate | `Float` | Central Fc Gross Rate |
-| 20 | cFCNetRoomRevenue | `Float` | Central Fc Net Room Revenue |
-| 21 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
-| 22 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
-| 23 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
-| 24 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
-| 25 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
-| 26 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
-| 27 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
-| 28 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
-| 29 | cFoodRevenueTax | `Float` | Central Food Revenue Tax |
-| 30 | cNonRevenueTax | `Float` | Central Non Revenue Tax |
-| 31 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
-| 32 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
-| 33 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
-| 34 | centralCurrencyCode | `String` | Central Currency Code |
-| 35 | centralDayUseExtraRevenue | `Float` | Central Day Use Extra Revenue |
-| 36 | centralDayUseGrossRate | `Float` | Central Day Use Gross Rate |
-| 37 | centralExchangeRate | `Float` | Central Exchange Rate |
-| 38 | centralExtraRevenue | `Float` | Central Extra Revenue |
-| 39 | centralFoodRevenue | `Float` | Central Food Revenue |
-| 40 | centralGrossRate | `Float` | Central Gross Rate |
-| 41 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
-| 42 | centralNonRevenue | `Float` | Central Non Revenue |
-| 43 | centralOtherRevenue | `Float` | Central Other Revenue |
-| 44 | centralRoomRevenue | `Float` | Central Room Revenue |
-| 45 | centralRoomType | `String` | Central Room Type |
-| 46 | centralTotalRevenue | `Float` | Central Total Revenue |
-| 47 | centralWaitlistExtraRevenue | `Float` | Central Waitlist Extra Revenue |
-| 48 | centralWaitlistGrossRate | `Float` | Central Waitlist Gross Rate |
-| 49 | centralWaitlistNetRoomRevenue | `Float` | Central Waitlist Net Room Revenue |
-| 50 | centralcurrencyid | `String` | Centralcurrencyid |
-| 51 | channel | `String` | Channel |
-| 52 | channelid | `String` | Channelid |
-| 53 | children | `Float` | Children |
-| 54 | childrenTaxFree | `Float` | Children Tax Free |
-| 55 | children1 | `Float` | Children1 |
-| 56 | children2 | `Float` | Children2 |
-| 57 | children3 | `Float` | Children3 |
-| 58 | children4 | `Float` | Children4 |
-| 59 | children5 | `Float` | Children5 |
-| 60 | city | `String` | City |
-| 61 | considereddate | `Date` | Considereddate |
-| 62 | country | `String` | Country |
-| 63 | countryid | `String` | Countryid |
-| 64 | cribs | `Float` | Cribs |
-| 65 | currencyCode | `String` | Currency Code |
-| 66 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 67 | dayUseExtraRevenue | `Float` | Day Use Extra Revenue |
-| 68 | dayUseGrossRate | `Float` | Day Use Gross Rate |
-| 69 | dayUseNetRoomRevenue | `Float` | Day Use Net Room Revenue |
-| 70 | dayUsePersons | `Float` | Day Use Persons |
-| 71 | dayUseRooms | `Float` | Day Use Rooms |
-| 72 | dayUseYn | `String` | Day Use Y/N |
-| 73 | departurePersons | `Float` | Departure Persons |
-| 74 | departureRooms | `Float` | Departure Rooms |
-| 75 | district | `String` | District |
-| 76 | eventType | `String` | Event Type |
-| 77 | exchangeDate | `Date` | Exchange Date |
-| 78 | extraBeds | `Float` | Extra Beds |
-| 79 | extraRevenue | `Float` | Extra Revenue |
-| 80 | fcExtraRevenue | `Float` | FC Extra Revenue |
-| 81 | fcFoodRevenue | `Float` | FC Food Revenue |
-| 82 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
-| 83 | fcGrossRate | `Float` | FC Gross Rate |
-| 84 | fcNetRoomRevenue | `Float` | FC Net Room Revenue |
-| 85 | fcNonRevenue | `Float` | FC Non Revenue |
-| 86 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
-| 87 | fcOtherRevenue | `Float` | FC Other Revenue |
-| 88 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
-| 89 | fcRoomRevenue | `Float` | FC Room Revenue |
-| 90 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
-| 91 | fcTotalRevenue | `Float` | FC Total Revenue |
-| 92 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
-| 93 | foodRevenue | `Float` | Food Revenue |
-| 94 | foodRevenueTax | `Float` | Food Revenue Tax |
-| 95 | gender | `String` | Gender |
-| 96 | grossRate | `Float` | Gross Rate |
-| 97 | groupId | `Float` | Group ID |
-| 98 | id | `Float` | ID |
-| 99 | jRNUpdateDate | `Date` | JRN Update Date |
-| 100 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 101 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 102 | marketCode | `String` | Market Code |
-| 103 | marketid | `String` | Marketid |
-| 104 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
-| 105 | nationality | `String` | Nationality |
-| 106 | nationalityid | `String` | Nationalityid |
-| 107 | netRoomRevenue | `Float` | Net Room Revenue |
-| 108 | nonRevenue | `Float` | Non Revenue |
-| 109 | nonRevenueTax | `Float` | Non Revenue Tax |
-| 110 | numberOfGuests | `Float` | Number of Guests |
-| 111 | numberOfRooms | `Float` | Number of Rooms |
-| 112 | oooRooms | `Float` | Number of Rooms marked as Out of Order for today |
-| 113 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 114 | osRooms | `Float` | Os Rooms |
-| 115 | otherRevenue | `Float` | Other Revenue |
-| 116 | otherRevenueTax | `Float` | Other Revenue Tax |
-| 117 | ownerFfFlag | `String` | Owner Ff Flag |
-| 118 | ownerRentalFlag | `String` | Owner Rental Flag |
-| 119 | parentCompanyId | `Float` | Parent Company ID |
-| 120 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
-| 121 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
-| 122 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 123 | property | `String` | Code to uniquely identify the Property |
-| 124 | pseudoRoomYN | `String` | Pseudo Room YN |
-| 125 | quantity | `Float` | Quantity |
-| 126 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 127 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 128 | rateCategory | `String` | Rate Category |
-| 129 | rateClass | `String` | Rate Class |
-| 130 | rateCode | `String` | Rate Code |
-| 131 | ratecategoryid | `String` | Ratecategoryid |
-| 132 | rateclassid | `String` | Rateclassid |
-| 133 | ratecodeid | `String` | Ratecodeid |
-| 134 | regionCode | `String` | Region Code |
-| 135 | regionid | `String` | Regionid |
-| 136 | remainingBlockRooms | `Float` | Remaining Block Rooms |
-| 137 | resInsertSource | `String` | Reservation Insert Source |
-| 138 | reservationInventoryType | `String` | Reservation Inventory Type |
-| 139 | reservationType | `String` | Reservation Type |
-| 140 | reservationdailytotalid | `Float` | Reservation Daily Total ID |
-| 141 | reservationid | `String` | Reservationid |
-| 142 | resvStatus | `String` | Reservation Status |
-| 143 | roomCategory | `String` | Room Category |
-| 144 | roomClass | `String` | Room Class |
-| 145 | roomRevenue | `Float` | Room Revenue |
-| 146 | roomRevenueTax | `Float` | Room Revenue Tax |
-| 147 | roomType | `String` | Room Type |
-| 148 | roomclassid | `String` | Roomclassid |
-| 149 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
-| 150 | sourceCode | `String` | Source Code |
-| 151 | sourceProfId | `Float` | Source Prof ID |
-| 152 | sourceid | `String` | Sourceid |
-| 153 | state | `String` | State |
-| 154 | stayDate | `Date` | Stay Date |
-| 155 | totalRevenue | `Float` | Total Revenue |
-| 156 | totalRevenueTax | `Float` | Total Revenue Tax |
-| 157 | truncEndDate | `Date` | Trunc End Date |
-| 158 | truncStartDate | `Date` | Trunc Start Date |
-| 159 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| 160 | updateBusinessDate | `Date` | Update Business Date |
-| 161 | updateDate | `DateTime` | Update Date |
-| 162 | vipStatus | `String` | VIP Status |
-| 163 | waitlistExtraRevenue | `Float` | Waitlist Extra Revenue |
-| 164 | waitlistGrossRate | `Float` | Waitlist Gross Rate |
-| 165 | waitlistNetRoomRevenue | `Float` | Waitlist Net Room Revenue |
-| 166 | waitlistPersons | `Float` | Waitlist Persons |
-| 167 | waitlistRooms | `Float` | Waitlist Rooms |
-| 168 | zipCode | `String` | Zipcode Code |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | adults | `Float` | Adults |
+| 3 | adultsTaxFree | `Float` | Adults Tax Free |
+| 4 | agentId | `Float` | Agent ID |
+| 5 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 6 | allotmentid | `Float` | Block ID |
+| 7 | arrivalPersons | `Float` | Arrival Persons |
+| 8 | arrivalRooms | `Float` | Arrival Rooms |
+| 9 | blockStatus | `String` | Block Status |
+| 10 | bookedRoomCategory | `String` | Booked Room Category |
+| 11 | bookingStatus | `String` | Booking Status |
+| 12 | bookingstatusid | `String` | Bookingstatusid |
+| 13 | businessDateCreated | `Date` | Business Date Created |
+| 14 | cDayUseNetRoomRevenue | `Float` | Central Day Use Net Room Revenue |
+| 15 | cExchangeDate | `Date` | Central Xchange Date |
+| 16 | cExchangeRate | `Float` | Central Xchange Rate |
+| 17 | cFCExtraRevenue | `Float` | Central Fc Extra Revenue |
+| 18 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
+| 19 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
+| 20 | cFCGrossRate | `Float` | Central Fc Gross Rate |
+| 21 | cFCNetRoomRevenue | `Float` | Central Fc Net Room Revenue |
+| 22 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
+| 23 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
+| 24 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
+| 25 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
+| 26 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
+| 27 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
+| 28 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
+| 29 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
+| 30 | cFoodRevenueTax | `Float` | Central Food Revenue Tax |
+| 31 | cNonRevenueTax | `Float` | Central Non Revenue Tax |
+| 32 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
+| 33 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
+| 34 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
+| 35 | centralCurrencyCode | `String` | Central Currency Code |
+| 36 | centralDayUseExtraRevenue | `Float` | Central Day Use Extra Revenue |
+| 37 | centralDayUseGrossRate | `Float` | Central Day Use Gross Rate |
+| 38 | centralExchangeRate | `Float` | Central Exchange Rate |
+| 39 | centralExtraRevenue | `Float` | Central Extra Revenue |
+| 40 | centralFoodRevenue | `Float` | Central Food Revenue |
+| 41 | centralGrossRate | `Float` | Central Gross Rate |
+| 42 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
+| 43 | centralNonRevenue | `Float` | Central Non Revenue |
+| 44 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 45 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 46 | centralRoomType | `String` | Central Room Type |
+| 47 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 48 | centralWaitlistExtraRevenue | `Float` | Central Waitlist Extra Revenue |
+| 49 | centralWaitlistGrossRate | `Float` | Central Waitlist Gross Rate |
+| 50 | centralWaitlistNetRoomRevenue | `Float` | Central Waitlist Net Room Revenue |
+| 51 | centralcurrencyid | `String` | Centralcurrencyid |
+| 52 | channel | `String` | Channel |
+| 53 | channelid | `String` | Channelid |
+| 54 | children | `Float` | Children |
+| 55 | childrenTaxFree | `Float` | Children Tax Free |
+| 56 | children1 | `Float` | Children1 |
+| 57 | children2 | `Float` | Children2 |
+| 58 | children3 | `Float` | Children3 |
+| 59 | children4 | `Float` | Children4 |
+| 60 | children5 | `Float` | Children5 |
+| 61 | city | `String` | City |
+| 62 | considereddate | `Date` | Considereddate |
+| 63 | country | `String` | Country |
+| 64 | countryid | `String` | Countryid |
+| 65 | cribs | `Float` | Cribs |
+| 66 | currencyCode | `String` | Currency Code |
+| 67 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 68 | dayUseExtraRevenue | `Float` | Day Use Extra Revenue |
+| 69 | dayUseGrossRate | `Float` | Day Use Gross Rate |
+| 70 | dayUseNetRoomRevenue | `Float` | Day Use Net Room Revenue |
+| 71 | dayUsePersons | `Float` | Day Use Persons |
+| 72 | dayUseRooms | `Float` | Day Use Rooms |
+| 73 | dayUseYn | `String` | Day Use Y/N |
+| 74 | departurePersons | `Float` | Departure Persons |
+| 75 | departureRooms | `Float` | Departure Rooms |
+| 76 | district | `String` | District |
+| 77 | eventType | `String` | Event Type |
+| 78 | exchangeDate | `Date` | Exchange Date |
+| 79 | extraBeds | `Float` | Extra Beds |
+| 80 | extraRevenue | `Float` | Extra Revenue |
+| 81 | fcExtraRevenue | `Float` | FC Extra Revenue |
+| 82 | fcFoodRevenue | `Float` | FC Food Revenue |
+| 83 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
+| 84 | fcGrossRate | `Float` | FC Gross Rate |
+| 85 | fcNetRoomRevenue | `Float` | FC Net Room Revenue |
+| 86 | fcNonRevenue | `Float` | FC Non Revenue |
+| 87 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
+| 88 | fcOtherRevenue | `Float` | FC Other Revenue |
+| 89 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
+| 90 | fcRoomRevenue | `Float` | FC Room Revenue |
+| 91 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
+| 92 | fcTotalRevenue | `Float` | FC Total Revenue |
+| 93 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
+| 94 | foodRevenue | `Float` | Food Revenue |
+| 95 | foodRevenueTax | `Float` | Food Revenue Tax |
+| 96 | gender | `String` | Gender |
+| 97 | grossRate | `Float` | Gross Rate |
+| 98 | groupId | `Float` | Group ID |
+| 99 | id | `Float` | ID |
+| 100 | jRNUpdateDate | `Date` | JRN Update Date |
+| 101 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 102 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 103 | marketCode | `String` | Market Code |
+| 104 | marketid | `String` | Marketid |
+| 105 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
+| 106 | nationality | `String` | Nationality |
+| 107 | nationalityid | `String` | Nationalityid |
+| 108 | netRoomRevenue | `Float` | Net Room Revenue |
+| 109 | nonRevenue | `Float` | Non Revenue |
+| 110 | nonRevenueTax | `Float` | Non Revenue Tax |
+| 111 | numberOfGuests | `Float` | Number of Guests |
+| 112 | numberOfRooms | `Float` | Number of Rooms |
+| 113 | oooRooms | `Float` | Number of Rooms marked as Out of Order for today |
+| 114 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 115 | osRooms | `Float` | Os Rooms |
+| 116 | otherRevenue | `Float` | Other Revenue |
+| 117 | otherRevenueTax | `Float` | Other Revenue Tax |
+| 118 | ownerFfFlag | `String` | Owner Ff Flag |
+| 119 | ownerRentalFlag | `String` | Owner Rental Flag |
+| 120 | parentCompanyId | `Float` | Parent Company ID |
+| 121 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
+| 122 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
+| 123 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 124 | property | `String` | Code to uniquely identify the Property |
+| 125 | pseudoRoomYN | `String` | Pseudo Room YN |
+| 126 | quantity | `Float` | Quantity |
+| 127 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 128 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 129 | rateCategory | `String` | Rate Category |
+| 130 | rateClass | `String` | Rate Class |
+| 131 | rateCode | `String` | Rate Code |
+| 132 | ratecategoryid | `String` | Ratecategoryid |
+| 133 | rateclassid | `String` | Rateclassid |
+| 134 | ratecodeid | `String` | Ratecodeid |
+| 135 | regionCode | `String` | Region Code |
+| 136 | regionid | `String` | Regionid |
+| 137 | remainingBlockRooms | `Float` | Remaining Block Rooms |
+| 138 | resInsertSource | `String` | Reservation Insert Source |
+| 139 | reservationInventoryType | `String` | Reservation Inventory Type |
+| 140 | reservationType | `String` | Reservation Type |
+| 141 | reservationdailytotalid | `Float` | Reservation Daily Total ID |
+| 142 | reservationid | `String` | Reservationid |
+| 143 | resvStatus | `String` | Reservation Status |
+| 144 | roomCategory | `String` | Room Category |
+| 145 | roomClass | `String` | Room Class |
+| 146 | roomRevenue | `Float` | Room Revenue |
+| 147 | roomRevenueTax | `Float` | Room Revenue Tax |
+| 148 | roomType | `String` | Room Type |
+| 149 | roomclassid | `String` | Roomclassid |
+| 150 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
+| 151 | sourceCode | `String` | Source Code |
+| 152 | sourceProfId | `Float` | Source Prof ID |
+| 153 | sourceid | `String` | Sourceid |
+| 154 | state | `String` | State |
+| 155 | stayDate | `Date` | Stay Date |
+| 156 | totalRevenue | `Float` | Total Revenue |
+| 157 | totalRevenueTax | `Float` | Total Revenue Tax |
+| 158 | truncEndDate | `Date` | Trunc End Date |
+| 159 | truncStartDate | `Date` | Trunc Start Date |
+| 160 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 161 | updateBusinessDate | `Date` | Update Business Date |
+| 162 | updateDate | `DateTime` | Update Date |
+| 163 | vipStatus | `String` | VIP Status |
+| 164 | waitlistExtraRevenue | `Float` | Waitlist Extra Revenue |
+| 165 | waitlistGrossRate | `Float` | Waitlist Gross Rate |
+| 166 | waitlistNetRoomRevenue | `Float` | Waitlist Net Room Revenue |
+| 167 | waitlistPersons | `Float` | Waitlist Persons |
+| 168 | waitlistRooms | `Float` | Waitlist Rooms |
+| 169 | zipCode | `String` | Zipcode Code |
 
 [⬆ Back to Query](#query)
 
@@ -1492,109 +1493,113 @@
 | 106 | internalOrganizationId | `Float` | Organization ID |
 | 107 | jRNUpdateDate | `Date` | JRN Update Date |
 | 108 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 109 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 110 | longInfo | `String` | Long Info |
-| 111 | loyaltyProgramYN | `String` | Flag to indicate if this is a loyalty program |
-| 112 | mandateResvProfiles | `String` | Indicates mandatory reservation profiles. This is used to force entry of profiles on the reservation header if this rate is picked. |
-| 113 | marketCode | `String` | Market Code |
-| 114 | marketDescription | `String` | Market Description |
-| 115 | marketGroupCode | `String` | Market Group Code |
-| 116 | marketGroupDescription | `String` | Market Group Description |
-| 117 | marshaRateProgram | `String` | Contains the rate program information from the MARSHA interface. |
-| 118 | maximumDaysAdvanceBooking | `Float` | Maximum Days Advance Booking |
-| 119 | maximumLengthOfStay | `Float` | Maximum Length of Stay |
-| 120 | maximumOccupancy | `Float` | Maximum Occupancy |
-| 121 | mfnUploadYn | `String` | Flag used to determine if the rate code is to be sent to MyFidelio.net if the rate is being received from a V6 V7 V8 or OPMS on a lower version on which flag used to determine if the rate code is to be sent to MyFidelio.net does not exist on the rate header. |
-| 122 | minimumDaysAdvanceBooking | `Float` | Minimum Days Advance Booking |
-| 123 | minimumOccupancy | `Float` | Minimum Occupancy |
-| 124 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
-| 125 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
-| 126 | multiplication | `String` | Amount to be multiplied to the base rate when shown on rate query |
-| 127 | myFidelioUploadYN | `String` | MyFidelio Upload YN |
-| 128 | negotiatedYN | `String` | Property is negotiated of search criteria or not. |
-| 129 | occupancyBasedYn | `String` | Indicates if the rate code is occupancy based. |
-| 130 | occupancyLevel | `Float` | Indicates the occupancy level for hurdle evaluation. |
-| 131 | operatorType | `String` | The operator type to use during the calculation of base rates. (ADD_TO SUBTRACT) |
-| 132 | orderBy | `Float` | Order By |
-| 133 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 134 | originalRateCode | `String` | Original Rate Code |
-| 135 | orsSellSequence | `Float` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
-| 136 | overridePackageYn | `String` | Indicates if we need to override package for hurdle evaluation. |
-| 137 | ownerRateYN | `String` | Indicates Owners Rate Code. This is used to perform rolling noshow. |
-| 138 | packageTransactionCode | `String` | Package Transaction Code |
-| 139 | packageTransactionCodeWeekend | `String` | Package Transaction Code Weekend |
-| 140 | packageTransactionTaxInclYN | `String` | Wrapper transaction code tax inclusive Y/N |
-| 141 | packageTransactionTaxIncludedYN | `String` | Transaction code is inclusive of tax Y/N |
-| 142 | packageTransactionWkTaxInclYN | `String` | Wrapper transaction code tax inclusive for weekend days Y/N |
-| 143 | packageYN | `String` | Package YN |
-| 144 | packages | `String` | Packages |
-| 145 | pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
-| 146 | postingRhythm | `String` | Posting Rhythm |
-| 147 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
-| 148 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 149 | printRateYn | `String` | Print Rate Y/N |
-| 150 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
-| 151 | privilegedYn | `String` | Indicates if rate is privileged or not. |
-| 152 | profitTransactionCode | `String` | Profit Transaction Code |
-| 153 | property | `String` | Code to uniquely identify the Property |
-| 154 | propertyName | `String` | Property Name |
-| 155 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
-| 156 | rankValue | `Float` | Rank Value |
-| 157 | rateBucket | `String` | Yield rate bucket |
-| 158 | rateBucketDescription | `String` | Rate Bucket Description |
-| 159 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
-| 160 | rateCategory | `String` | Rate Category |
-| 161 | rateCategoryDescription | `String` | Rate Category Description |
-| 162 | rateClass | `String` | Rate Class |
-| 163 | rateClassDescription | `String` | Rate Class Description |
-| 164 | rateCodeId | `String` | Rate Code ID |
-| 165 | rateCodeLockedYn | `String` | Rate Code Locked Y/N |
-| 166 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
-| 167 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
-| 168 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
-| 169 | rateLabel | `String` | Rate Label |
-| 170 | rateLevel | `Float` | Rate Level this rate code belongs to. |
-| 171 | rateUpdateYN | `String` | Needs to send this rate to GDS or not. |
-| 172 | rateinfoUrl | `String` | Rateinfo Url |
-| 173 | redemptionRateYN | `String` | Redemption Rate YN |
-| 174 | regionalAvailabilityYN | `String` | Regional Availability YN |
-| 175 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
-| 176 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 177 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 178 | rodBaseAmount | `Float` | Rod Base Amount |
-| 179 | rodBaseFltPct | `String` | Rod Base Flt Pct |
-| 180 | rodBaseRounding | `String` | Rod Base Rounding |
-| 181 | rodBasedYn | `String` | Is the group code rate of day based |
-| 182 | rodYn | `String` | Rod Y/N |
-| 183 | roomAssignmentValue | `Float` | Room Assignment Value |
-| 184 | roomType | `String` | Room Type |
-| 185 | roomTypeDescription | `String` | Room Type Description |
-| 186 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
-| 187 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
-| 188 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
-| 189 | servicePerc | `Float` | Service Percentage included. |
-| 190 | shortInfo | `String` | Information to be used in the rate query |
-| 191 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
-| 192 | sourceCode | `String` | Source Code |
-| 193 | sourceDescription | `String` | Source Description |
-| 194 | sourceGroupCode | `String` | Source Group Code |
-| 195 | sourceGroupDescription | `String` | Source Group Description |
-| 196 | taxIncludedPerc | `Float` | Percentage of included Tax. |
-| 197 | taxIncludedYn | `String` | Tax is included in this rate. |
-| 198 | tieredYN | `String` | Indicates if the rate is a tiered rate. |
-| 199 | transactionCode | `String` | Rate transaction code |
-| 200 | transactionCodeWeekend | `String` | Transaction Code Weekend |
-| 201 | transactionTaxWeekendIncludedYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
-| 202 | unitOfLengthOfStay | `Float` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
-| 203 | updateDate | `DateTime` | Update Date |
-| 204 | updateUser | `Float` | Update User |
-| 205 | upsellYn | `String` | Indicates if the rate code can be upsold |
-| 206 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
-| 207 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
-| 208 | wkDeptCode | `String` | Wk Dept Code |
-| 209 | yieldAs | `String` | Yield As |
-| 210 | yieldableYN | `String` | Yieldable YN |
-| 211 | ymCode | `String` | Ym Code |
+| 109 | localRateCode | `String` | Local rate code associated with offshore rate code. |
+| 110 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 111 | longInfo | `String` | Long Info |
+| 112 | loyaltyProgramYN | `String` | Flag to indicate if this is a loyalty program |
+| 113 | mandateResvProfiles | `String` | Indicates mandatory reservation profiles. This is used to force entry of profiles on the reservation header if this rate is picked. |
+| 114 | marketCode | `String` | Market Code |
+| 115 | marketDescription | `String` | Market Description |
+| 116 | marketGroupCode | `String` | Market Group Code |
+| 117 | marketGroupDescription | `String` | Market Group Description |
+| 118 | marshaRateProgram | `String` | Contains the rate program information from the MARSHA interface. |
+| 119 | maximumDaysAdvanceBooking | `Float` | Maximum Days Advance Booking |
+| 120 | maximumLengthOfStay | `Float` | Maximum Length of Stay |
+| 121 | maximumOccupancy | `Float` | Maximum Occupancy |
+| 122 | mfnUploadYn | `String` | Flag used to determine if the rate code is to be sent to MyFidelio.net if the rate is being received from a V6 V7 V8 or OPMS on a lower version on which flag used to determine if the rate code is to be sent to MyFidelio.net does not exist on the rate header. |
+| 123 | minimumDaysAdvanceBooking | `Float` | Minimum Days Advance Booking |
+| 124 | minimumOccupancy | `Float` | Minimum Occupancy |
+| 125 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
+| 126 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
+| 127 | multiplication | `String` | Amount to be multiplied to the base rate when shown on rate query |
+| 128 | myFidelioUploadYN | `String` | MyFidelio Upload YN |
+| 129 | negotiatedYN | `String` | Property is negotiated of search criteria or not. |
+| 130 | occupancyBasedYn | `String` | Indicates if the rate code is occupancy based. |
+| 131 | occupancyLevel | `Float` | Indicates the occupancy level for hurdle evaluation. |
+| 132 | offshoreRateYN | `String` | Indicates if rate code is an offshore rate. |
+| 133 | operatorType | `String` | The operator type to use during the calculation of base rates. (ADD_TO SUBTRACT) |
+| 134 | orderBy | `Float` | Order By |
+| 135 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 136 | originalRateCode | `String` | Original Rate Code |
+| 137 | orsSellSequence | `Float` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
+| 138 | overridePackageYn | `String` | Indicates if we need to override package for hurdle evaluation. |
+| 139 | ownerRateYN | `String` | Indicates Owners Rate Code. This is used to perform rolling noshow. |
+| 140 | packageTransactionCode | `String` | Package Transaction Code |
+| 141 | packageTransactionCodeWeekend | `String` | Package Transaction Code Weekend |
+| 142 | packageTransactionTaxInclYN | `String` | Wrapper transaction code tax inclusive Y/N |
+| 143 | packageTransactionTaxIncludedYN | `String` | Transaction code is inclusive of tax Y/N |
+| 144 | packageTransactionWkTaxInclYN | `String` | Wrapper transaction code tax inclusive for weekend days Y/N |
+| 145 | packageYN | `String` | Package YN |
+| 146 | packages | `String` | Packages |
+| 147 | pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
+| 148 | pointsDiscountYN | `String` | Allow users to use points to get discount on rate codes. |
+| 149 | postingInterval | `String` | Posting Interval. |
+| 150 | postingRhythm | `String` | Posting Rhythm |
+| 151 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
+| 152 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 153 | printRateYn | `String` | Print Rate Y/N |
+| 154 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
+| 155 | privilegedYn | `String` | Indicates if rate is privileged or not. |
+| 156 | profitTransactionCode | `String` | Profit Transaction Code |
+| 157 | property | `String` | Code to uniquely identify the Property |
+| 158 | propertyName | `String` | Property Name |
+| 159 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
+| 160 | rankValue | `Float` | Rank Value |
+| 161 | rateBucket | `String` | Yield rate bucket |
+| 162 | rateBucketDescription | `String` | Rate Bucket Description |
+| 163 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
+| 164 | rateCategory | `String` | Rate Category |
+| 165 | rateCategoryDescription | `String` | Rate Category Description |
+| 166 | rateClass | `String` | Rate Class |
+| 167 | rateClassDescription | `String` | Rate Class Description |
+| 168 | rateCodeId | `String` | Rate Code ID |
+| 169 | rateCodeLockedYn | `String` | Rate Code Locked Y/N |
+| 170 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
+| 171 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
+| 172 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
+| 173 | rateLabel | `String` | Rate Label |
+| 174 | rateLevel | `Float` | Rate Level this rate code belongs to. |
+| 175 | rateUpdateYN | `String` | Needs to send this rate to GDS or not. |
+| 176 | rateinfoUrl | `String` | Rateinfo Url |
+| 177 | redemptionRateYN | `String` | Redemption Rate YN |
+| 178 | regionalAvailabilityYN | `String` | Regional Availability YN |
+| 179 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
+| 180 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 181 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 182 | rodBaseAmount | `Float` | Rod Base Amount |
+| 183 | rodBaseFltPct | `String` | Rod Base Flt Pct |
+| 184 | rodBaseRounding | `String` | Rod Base Rounding |
+| 185 | rodBasedYn | `String` | Is the group code rate of day based |
+| 186 | rodYn | `String` | Rod Y/N |
+| 187 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 188 | roomType | `String` | Room Type |
+| 189 | roomTypeDescription | `String` | Room Type Description |
+| 190 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
+| 191 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
+| 192 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
+| 193 | servicePerc | `Float` | Service Percentage included. |
+| 194 | shortInfo | `String` | Information to be used in the rate query |
+| 195 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
+| 196 | sourceCode | `String` | Source Code |
+| 197 | sourceDescription | `String` | Source Description |
+| 198 | sourceGroupCode | `String` | Source Group Code |
+| 199 | sourceGroupDescription | `String` | Source Group Description |
+| 200 | taxIncludedPerc | `Float` | Percentage of included Tax. |
+| 201 | taxIncludedYn | `String` | Tax is included in this rate. |
+| 202 | tieredYN | `String` | Indicates if the rate is a tiered rate. |
+| 203 | transactionCode | `String` | Rate transaction code |
+| 204 | transactionCodeWeekend | `String` | Transaction Code Weekend |
+| 205 | transactionTaxWeekendIncludedYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
+| 206 | unitOfLengthOfStay | `Float` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
+| 207 | updateDate | `DateTime` | Update Date |
+| 208 | updateUser | `Float` | Update User |
+| 209 | upsellYn | `String` | Indicates if the rate code can be upsold |
+| 210 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
+| 211 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
+| 212 | wkDeptCode | `String` | Wk Dept Code |
+| 213 | yieldAs | `String` | Yield As |
+| 214 | yieldableYN | `String` | Yieldable YN |
+| 215 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -1954,13 +1959,20 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
+| forecastsummarydetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| forecastsummaryDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID<br>`@conditionalInputPair(pair: 2)` |
 | forecastsummaryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| forecastsummaryDetailsEventType | `StringInput` | Event Type |
-| forecastsummaryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| forecastsummaryDetailsEventType | `StringInput` | Event Type<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsMarketCode | `StringInput` | Market Code<br>`@conditionalInputPair(pair: 2)` |
 | forecastsummaryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| forecastsummaryDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| forecastsummaryDetailsRoomCategory | `StringInput` | Room Category |
-| forecastsummaryDetailsConsideredDate | `DateInput!` | Stay Date<br>`@mandatoryInput` |
+| forecastsummaryDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| forecastsummaryDetailsResvInvType | `StringInput` | Reservation Inventory Type<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsResvStatus | `StringInput` | Reservation Status<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsRoomCategory | `StringInput` | Room Category<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsRoomClass | `StringInput` | Room Class<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsConsideredDate | `DateInput` | Stay Date<br>`@conditionalInputPair(pair: 2)` |
+| forecastsummaryDetailsUpdateBusinessDate | `DateInput` | Update Business Date<br>`@conditionalInputPair(pair: 2)` |
 | parentcompanyprofileDetailsActiveYn | `StringInput` | Active YN |
 | parentcompanyprofileDetailsCrsNameid | `FloatInput` | The unique identifier of the CRS |
 | parentcompanyprofileDetailsNameCode | `StringInput` | Corporate ID |
@@ -2285,11 +2297,13 @@
 | marketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | marketDetailsResort | `StringInput` | Property |
 | rateclassesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| rateclassesDetailsEndDate | `DateInput` | End Date |
 | rateclassesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | rateclassesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | rateclassesDetailsResort | `StringInput` | Code to uniquely identify the Property |
 | rateclassesDetailsRateClass | `StringInput` | Rate Class |
 | rateclassesDetailsResortResort | `StringInput` | Property code |
+| rateclassesDetailsBeginDate | `DateInput` | Start Date |
 | sourcetableDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | sourcetableDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | sourcetableDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
@@ -2309,7 +2323,9 @@
 | nationalityDetailsNationalityid | `StringInput` | Nationalityid |
 | nationalityDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | nationalityDetailsTitleSuffix | `FloatInput` | Title Suffix |
+| ratecategoriesDetailsBeginDate | `DateInput` | Business Date |
 | ratecategoriesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ratecategoriesDetailsEndDate | `DateInput` | End Date |
 | ratecategoriesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | ratecategoriesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | ratecategoriesDetailsResort | `StringInput` | Property |
@@ -2324,6 +2340,7 @@
 | ratecodeDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |
 | ratecodeDetailsSellSequence | `FloatInput` | Display Sequence |
 | ratecodeDetailsEndBookingDate | `DateInput` | End Date |
+| ratecodeDetailsGdsAllowedYn | `StringInput` | Is this rate code available for GDS |
 | ratecodeDetailsGroupCode | `StringInput` | Group Code |
 | ratecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | ratecodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
@@ -2375,9 +2392,21 @@
 | regionDetailsRegionid | `StringInput` | Regionid |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- forecastsummarydetailsChainCode
 - forecastsummaryDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- forecastsummaryDetailsAllotmentHeaderId
+- forecastsummaryDetailsEventType
+- forecastsummaryDetailsJrnupdatedttm
+- forecastsummaryDetailsMarketCode
+- forecastsummaryDetailsResvInvType
+- forecastsummaryDetailsResvStatus
+- forecastsummaryDetailsRoomCategory
+- forecastsummaryDetailsRoomClass
 - forecastsummaryDetailsConsideredDate
+- forecastsummaryDetailsUpdateBusinessDate
 
 
 [⬆ Back to Query](#query)
@@ -2389,6 +2418,7 @@
 query statisticsForecastSummary($input: StatisticsForecastSummaryQueryArgumentsType!) {
   statisticsForecastSummary(input: $input) @stream {
     forecastSummaryDetails {
+      chainCode
       adults
       adultsTaxFree
       agentId
@@ -3736,6 +3766,7 @@ query statisticsForecastSummary($input: StatisticsForecastSummaryQueryArgumentsT
       internalOrganizationId
       jRNUpdateDate
       jRNUpdateDateAndTime
+      localRateCode
       locationID
       longInfo
       loyaltyProgramYN
@@ -3758,6 +3789,7 @@ query statisticsForecastSummary($input: StatisticsForecastSummaryQueryArgumentsT
       negotiatedYN
       occupancyBasedYn
       occupancyLevel
+      offshoreRateYN
       operatorType
       orderBy
       organizationID
@@ -3773,6 +3805,8 @@ query statisticsForecastSummary($input: StatisticsForecastSummaryQueryArgumentsT
       packageYN
       packages
       pendingApprovalYn
+      pointsDiscountYN
+      postingInterval
       postingRhythm
       postingRhythmNights
       primaryKeyID
@@ -4061,6 +4095,7 @@ query statisticsForecastSummary($input: StatisticsForecastSummaryQueryArgumentsT
   
 ```python
 forecast_summary_details_schema = {
+    'chainCode': pl.Utf8,
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
     'agentId': pl.Float64,
@@ -5436,6 +5471,7 @@ rate_code_details_schema = {
     'internalOrganizationId': pl.Float64,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
+    'localRateCode': pl.Utf8,
     'locationID': pl.Utf8,
     'longInfo': pl.Utf8,
     'loyaltyProgramYN': pl.Utf8,
@@ -5458,6 +5494,7 @@ rate_code_details_schema = {
     'negotiatedYN': pl.Utf8,
     'occupancyBasedYn': pl.Utf8,
     'occupancyLevel': pl.Float64,
+    'offshoreRateYN': pl.Utf8,
     'operatorType': pl.Utf8,
     'orderBy': pl.Float64,
     'organizationID': pl.Int64,
@@ -5473,6 +5510,8 @@ rate_code_details_schema = {
     'packageYN': pl.Utf8,
     'packages': pl.Utf8,
     'pendingApprovalYn': pl.Utf8,
+    'pointsDiscountYN': pl.Utf8,
+    'postingInterval': pl.Utf8,
     'postingRhythm': pl.Utf8,
     'postingRhythmNights': pl.Float64,
     'primaryKeyID': pl.Int64,

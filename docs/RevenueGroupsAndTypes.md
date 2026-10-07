@@ -458,15 +458,15 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | revenuegrptypesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| revenuegrptypesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| revenuegrptypesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| revenuegrptypesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| revenuegrptypesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | revenuegrptypesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| revenuegrptypesDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| revenuegrptypesDetailsRevType | `StringInput` | Revenue Type |
-| revenuegrptypesDetailsRevenuegrouppmsref | `StringInput` | Revenue Group |
-| revenuegrptypesDetailsRevenuetypepmsref | `StringInput` | Revenue Type |
-| revenuegrptypesDetailsRevenuegroupid | `StringInput` | Revenuegroupid |
-| revenuegrptypesDetailsRevenuetypeid | `StringInput` | Revenuetypeid |
+| revenuegrptypesDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| revenuegrptypesDetailsRevType | `StringInput` | Revenue Type<br>`@conditionalInputPair(pair: 2)` |
+| revenuegrptypesDetailsRevenuegrouppmsref | `StringInput` | Revenue Group<br>`@conditionalInputPair(pair: 2)` |
+| revenuegrptypesDetailsRevenuetypepmsref | `StringInput` | Revenue Type<br>`@conditionalInputPair(pair: 2)` |
+| revenuegrptypesDetailsRevenuegroupid | `StringInput` | Revenuegroupid<br>`@conditionalInputPair(pair: 2)` |
+| revenuegrptypesDetailsRevenuetypeid | `StringInput` | Revenuetypeid<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -730,8 +730,17 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - revenuegrptypesDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- revenuegrptypesDetailsJrnupdatedttm
+- revenuegrptypesDetailsLocationid
+- revenuegrptypesDetailsRevType
+- revenuegrptypesDetailsRevenuegrouppmsref
+- revenuegrptypesDetailsRevenuetypepmsref
+- revenuegrptypesDetailsRevenuegroupid
+- revenuegrptypesDetailsRevenuetypeid
 
 
 [⬆ Back to Query](#query)

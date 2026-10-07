@@ -171,7 +171,17 @@
 | 151 | salesEventScopeDetails | [`ConfigurationResortSalesEventScopeDetailsType`](#configurationresortsaleseventscopedetailstype) | Sales Event Scope |
 | 152 | salesEventScopeCityDetails | [`ConfigurationResortSalesEventScopeCityDetailsType`](#configurationresortsaleseventscopecitydetailstype) | Sales Event Scope City |
 | 153 | membershipClaimAdjustmentLimitDetails | [`ConfigurationResortMembershipClaimAdjustmentLimitDetailsType`](#configurationresortmembershipclaimadjustmentlimitdetailstype) | Membership Claim Adjustment Limit |
-| 154 | configurationResortRecordCount | `Int` |  |
+| 154 | leisureExperienceDetails | [`ConfigurationResortLeisureExperienceDetailsType`](#configurationresortleisureexperiencedetailstype) | LM Experience Details |
+| 155 | leisureExperienceGroupDetails | [`ConfigurationResortLeisureExperienceGroupDetailsType`](#configurationresortleisureexperiencegroupdetailstype) | LM Leisure Experience Group Details |
+| 156 | leisureExperienceResourceDetails | [`ConfigurationResortLeisureExperienceResourceDetailsType`](#configurationresortleisureexperienceresourcedetailstype) | LM Experience Resource Details |
+| 157 | leisureExperienceTypeDetails | [`ConfigurationResortLeisureExperienceTypeDetailsType`](#configurationresortleisureexperiencetypedetailstype) | LM Experience Type Details |
+| 158 | leisureLocationDetails | [`ConfigurationResortLeisureLocationDetailsType`](#configurationresortleisurelocationdetailstype) | LM Location Details |
+| 159 | leisureLocationScheduleDetails | [`ConfigurationResortLeisureLocationScheduleDetailsType`](#configurationresortleisurelocationscheduledetailstype) | LM Location Schedule Details |
+| 160 | leisureLocationTypeDetails | [`ConfigurationResortLeisureLocationTypeDetailsType`](#configurationresortleisurelocationtypedetailstype) | LM Location Type Details |
+| 161 | leisureResourceDetails | [`ConfigurationResortLeisureResourceDetailsType`](#configurationresortleisureresourcedetailstype) | LM Resource Details |
+| 162 | leisureResourceScheduleDetails | [`ConfigurationResortLeisureResourceScheduleDetailsType`](#configurationresortleisureresourcescheduledetailstype) | LM Resource Schedule Details |
+| 163 | leisureResourceTypeDetails | [`ConfigurationResortLeisureResourceTypeDetailsType`](#configurationresortleisureresourcetypedetailstype) | LM Resource Type Details |
+| 164 | configurationResortRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
@@ -748,18 +758,20 @@
 | 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
 | 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
 | 15 | property | `String` | Property |
-| 16 | sequence | `Float` | Sequence |
-| 17 | transportationCode1 | `String` | Internal. |
-| 18 | transportationCode2 | `String` | Internal. |
-| 19 | transportationCode3 | `String` | Internal. |
-| 20 | transportationCode4 | `String` | Internal. |
-| 21 | transportationCode5 | `String` | Internal. |
-| 22 | transportationCode6 | `String` | Internal. |
-| 23 | transportationCode7 | `String` | Internal. |
-| 24 | transportationCode8 | `String` | Internal. |
-| 25 | updateDate | `DateTime` | Update Date |
-| 26 | updateUser | `Float` | Update User |
-| 27 | website | `String` | Website |
+| 16 | rnaInsertDate | `Date` | Rna Insert Date. |
+| 17 | rnaUpdateDate | `Date` | Rna Update Date. |
+| 18 | sequence | `Float` | Sequence |
+| 19 | transportationCode1 | `String` | Internal. |
+| 20 | transportationCode2 | `String` | Internal. |
+| 21 | transportationCode3 | `String` | Internal. |
+| 22 | transportationCode4 | `String` | Internal. |
+| 23 | transportationCode5 | `String` | Internal. |
+| 24 | transportationCode6 | `String` | Internal. |
+| 25 | transportationCode7 | `String` | Internal. |
+| 26 | transportationCode8 | `String` | Internal. |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
+| 29 | website | `String` | Website |
 
 [⬆ Back to Query](#query)
 
@@ -2090,174 +2102,175 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
-| 2 | aRNameId | `Float` | Ar Name ID |
-| 3 | accountNumber | `String` | Account Number |
-| 4 | accountingCode | `String` | Accounting Code |
-| 5 | acctrecvprofileid | `Float` | Acctrecvprofileid |
-| 6 | adjTrxCode | `String` | Adj Trx Code |
-| 7 | adjtranscodeid | `String` | Adjtranscodeid |
-| 8 | arrangeCode | `String` | Arrange Code |
-| 9 | arrangementCode | `String` | Arrangement Code |
-| 10 | cDefaultPrice | `Float` | Central Default Price |
-| 11 | cExchangeDate | `Date` | Central Xchange Date |
-| 12 | cExchangeRate | `Float` | Central Xchange Rate |
-| 13 | cExportBucket | `Float` | Central Export Bucket |
-| 14 | cMaxAmount | `Float` | Central Max Amt |
-| 15 | cMinimumAmount | `Float` | Central Min Amt |
-| 16 | cCCode | `String` | CC Code |
-| 17 | cRSTaxDesc | `String` | Crs Tax Description |
-| 18 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
-| 19 | ccType | `String` | Cc Type |
-| 20 | centalSubgroup | `String` | Cental Subgroup |
-| 21 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
-| 22 | centralTransactionCode | `String` | Central Transaction Code |
-| 23 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| 24 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
-| 25 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| 26 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| 27 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| 28 | commissionCode | `Float` | Commission Code |
-| 29 | compNightsYn | `String` | Comp Nights Y/N |
-| 30 | compPaymentYn | `String` | Comp Payment Y/N |
-| 31 | complimentaryYN | `String` | Complimentary YN |
-| 32 | corpPropFlag | `String` | Corp Prop Flag |
-| 33 | corporateDescription | `String` | Corporate Description |
-| 34 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 35 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 36 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 37 | currencyCode | `String` | Currency Code |
-| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 39 | dailyPlanFolio | `Float` | Daily Plan Folio |
-| 40 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| 41 | defaultPrice | `Float` | Default Price |
-| 42 | deletedFlag | `String` | Deleted Flag |
-| 43 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
-| 44 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| 45 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| 46 | eInvoiceYn | `String` | E Invoice Y/N |
-| 47 | expenseFolio | `Float` | Expense Folio |
-| 48 | exportBucket | `Float` | Export Bucket |
-| 49 | externalPaymentCode | `String` | External Payment Code |
-| 50 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| 51 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| 52 | foreignCurrencyID | `String` | Foreign Currency ID |
-| 53 | gDeletedFlag | `String` | Group Deleted Flag |
-| 54 | gDescription | `String` | Group Description |
-| 55 | gInsertDate | `DateTime` | Group Insert Date |
-| 56 | gInsertUser | `Float` | Group Insert User |
-| 57 | gOrderBy | `Float` | Group Order By |
-| 58 | gRepDescription | `String` | Group Rep Description |
-| 59 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
-| 60 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
-| 61 | gTctClassType1 | `String` | Group Tct Class Type1 |
-| 62 | gTctClassType2 | `String` | Group Tct Class Type2 |
-| 63 | gUpdateDate | `DateTime` | Group Update Date |
-| 64 | gUpdateUser | `Float` | Group Update User |
-| 65 | group | `String` | Group |
-| 66 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
-| 67 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
-| 68 | groupFolio | `Float` | Group Folio |
-| 69 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
-| 70 | groupInternalYN | `String` | G Internal Y/N |
-| 71 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| 72 | groupRepItem | `String` | G Reporting Item |
-| 73 | groupRepItemName | `String` | G Reporting Item Name |
-| 74 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
-| 75 | groupRepOrderBy | `Float` | G Reporting Order By |
-| 76 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
-| 77 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
-| 78 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
-| 79 | inactiveDate | `Date` | Inactive Date |
-| 80 | inactiveflag | `String` | Inactive Flag |
-| 81 | includeIn8300Yn | `String` | Include In 8300 Y/N |
-| 82 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
-| 83 | insertDate | `DateTime` | Insert Date |
-| 84 | insertUser | `Float` | Insert User |
-| 85 | internalDeletedflag | `String` | Deleted Flag |
-| 86 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| 87 | internalYn | `String` | Internal Y/N |
-| 88 | jRNUpdateDate | `Date` | JRN Update Date |
-| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 90 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 91 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| 92 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
-| 93 | maximumAmount | `Float` | Maximum Amount |
-| 94 | membershipYN | `String` | Membership YN |
-| 95 | minimumAmount | `Float` | Minimum Amount |
-| 96 | nonTaxableYn | `String` | Non Taxable Y/N |
-| 97 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 98 | ownerRevenueYN | `String` | Owner Rev Y/N |
-| 99 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| 100 | paymentType | `String` | Payment Type |
-| 101 | paymentmethodid | `String` | Paymentmethodid |
-| 102 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 103 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| 104 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| 105 | property | `String` | Property |
-| 106 | quantityCode | `String` | Quantity Code |
-| 107 | repDescription | `String` | Rep Description |
-| 108 | repItem | `String` | Reporting Item |
-| 109 | repItemName | `String` | Reporting Item Name |
-| 110 | repItemOrderby | `Float` | Reporting Item Orderby |
-| 111 | repUpdateDate | `DateTime` | Reporting Updatedate |
-| 112 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| 113 | revenueBucketId | `Float` | Rev Bucket ID |
-| 114 | revenueGroupId | `Float` | Rev Gp ID |
-| 115 | revenueYN | `String` | Revenue YN |
-| 116 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 117 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 118 | rotationRevenueYN | `String` | Rotation Rev Y/N |
-| 119 | roundFactorYn | `String` | Round Factor Y/N |
-| 120 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| 121 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
-| 122 | sgDescription | `String` | Sub-Group Description |
-| 123 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
-| 124 | sgInsertUser | `Float` | Sub-Group Insert User |
-| 125 | sgOrderBy | `Float` | Sub-Group Order By |
-| 126 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
-| 127 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
-| 128 | sgTaxflag | `String` | Sub-Group Taxflag |
-| 129 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
-| 130 | sgUpdateUser | `Float` | Sub-Group Update User |
-| 131 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
-| 132 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
-| 133 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
-| 134 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
-| 135 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
-| 136 | subGroupInternalYN | `String` | Sg Internal Y/N |
-| 137 | subGroupRepDescription | `String` | Sg Reporting Description |
-| 138 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
-| 139 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
-| 140 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
-| 141 | subGroupType | `String` | Sub-Group Type |
-| 142 | taxCodeNumber | `Float` | Tax Code Number |
-| 143 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 144 | taxYN | `String` | Tax YN |
-| 145 | tcBofInterface | `String` | Not Used. |
-| 146 | tcBofInterface2 | `String` | Not Used. |
-| 147 | tcBofRefCode | `String` | Not Used. |
-| 148 | tcBofRefCode2 | `String` | Not Used. |
-| 149 | tcResort2 | `String` | Not Used. |
-| 150 | tcTransactionType | `String` | Transaction Code Transaction Type |
-| 151 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| 152 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| 153 | transactionActionId | `Float` | Trx Action ID |
-| 154 | transactionCodeDescription | `String` | Transaction Code Description |
-| 155 | transactionCodeGroup | `String` | Transaction Code Group |
-| 156 | transactionCodeResort | `String` | Not Used. |
-| 157 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
-| 158 | transactionCodeType | `String` | Transaction Code Type |
-| 159 | transactionType | `String` | Transaction Type |
-| 160 | transcodearrangementid | `String` | Transcodearrangementid |
-| 161 | transcodeid | `String` | Transcodeid |
-| 162 | trxCode | `String` | Trx Code |
-| 163 | trxCodeDisplay | `String` | Transaction Code Display |
-| 164 | trxServiceType | `String` | Transaction Service Type |
-| 165 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| 166 | uPC | `String` | UPC |
-| 167 | updateDate | `DateTime` | Update Date |
-| 168 | updateUser | `Float` | Update User |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
+| 3 | aRNameId | `Float` | Ar Name ID |
+| 4 | accountNumber | `String` | Account Number |
+| 5 | accountingCode | `String` | Accounting Code |
+| 6 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 7 | adjTrxCode | `String` | Adj Trx Code |
+| 8 | adjtranscodeid | `String` | Adjtranscodeid |
+| 9 | arrangeCode | `String` | Arrange Code |
+| 10 | arrangementCode | `String` | Arrangement Code |
+| 11 | cDefaultPrice | `Float` | Central Default Price |
+| 12 | cExchangeDate | `Date` | Central Xchange Date |
+| 13 | cExchangeRate | `Float` | Central Xchange Rate |
+| 14 | cExportBucket | `Float` | Central Export Bucket |
+| 15 | cMaxAmount | `Float` | Central Max Amt |
+| 16 | cMinimumAmount | `Float` | Central Min Amt |
+| 17 | cCCode | `String` | CC Code |
+| 18 | cRSTaxDesc | `String` | Crs Tax Description |
+| 19 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
+| 20 | ccType | `String` | Cc Type |
+| 21 | centalSubgroup | `String` | Cental Subgroup |
+| 22 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
+| 23 | centralTransactionCode | `String` | Central Transaction Code |
+| 24 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 25 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
+| 26 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 27 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 28 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 29 | commissionCode | `Float` | Commission Code |
+| 30 | compNightsYn | `String` | Comp Nights Y/N |
+| 31 | compPaymentYn | `String` | Comp Payment Y/N |
+| 32 | complimentaryYN | `String` | Complimentary YN |
+| 33 | corpPropFlag | `String` | Corp Prop Flag |
+| 34 | corporateDescription | `String` | Corporate Description |
+| 35 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 36 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 37 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 38 | currencyCode | `String` | Currency Code |
+| 39 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 40 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 41 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 42 | defaultPrice | `Float` | Default Price |
+| 43 | deletedFlag | `String` | Deleted Flag |
+| 44 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
+| 45 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 46 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 47 | eInvoiceYn | `String` | E Invoice Y/N |
+| 48 | expenseFolio | `Float` | Expense Folio |
+| 49 | exportBucket | `Float` | Export Bucket |
+| 50 | externalPaymentCode | `String` | External Payment Code |
+| 51 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 52 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 53 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 54 | gDeletedFlag | `String` | Group Deleted Flag |
+| 55 | gDescription | `String` | Group Description |
+| 56 | gInsertDate | `DateTime` | Group Insert Date |
+| 57 | gInsertUser | `Float` | Group Insert User |
+| 58 | gOrderBy | `Float` | Group Order By |
+| 59 | gRepDescription | `String` | Group Rep Description |
+| 60 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
+| 61 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
+| 62 | gTctClassType1 | `String` | Group Tct Class Type1 |
+| 63 | gTctClassType2 | `String` | Group Tct Class Type2 |
+| 64 | gUpdateDate | `DateTime` | Group Update Date |
+| 65 | gUpdateUser | `Float` | Group Update User |
+| 66 | group | `String` | Group |
+| 67 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
+| 68 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
+| 69 | groupFolio | `Float` | Group Folio |
+| 70 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
+| 71 | groupInternalYN | `String` | G Internal Y/N |
+| 72 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 73 | groupRepItem | `String` | G Reporting Item |
+| 74 | groupRepItemName | `String` | G Reporting Item Name |
+| 75 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
+| 76 | groupRepOrderBy | `Float` | G Reporting Order By |
+| 77 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
+| 78 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
+| 79 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
+| 80 | inactiveDate | `Date` | Inactive Date |
+| 81 | inactiveflag | `String` | Inactive Flag |
+| 82 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 83 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
+| 84 | insertDate | `DateTime` | Insert Date |
+| 85 | insertUser | `Float` | Insert User |
+| 86 | internalDeletedflag | `String` | Deleted Flag |
+| 87 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 88 | internalYn | `String` | Internal Y/N |
+| 89 | jRNUpdateDate | `Date` | JRN Update Date |
+| 90 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 91 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 92 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 93 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
+| 94 | maximumAmount | `Float` | Maximum Amount |
+| 95 | membershipYN | `String` | Membership YN |
+| 96 | minimumAmount | `Float` | Minimum Amount |
+| 97 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 98 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 99 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 100 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 101 | paymentType | `String` | Payment Type |
+| 102 | paymentmethodid | `String` | Paymentmethodid |
+| 103 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 104 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 105 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 106 | property | `String` | Property |
+| 107 | quantityCode | `String` | Quantity Code |
+| 108 | repDescription | `String` | Rep Description |
+| 109 | repItem | `String` | Reporting Item |
+| 110 | repItemName | `String` | Reporting Item Name |
+| 111 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 112 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 113 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 114 | revenueBucketId | `Float` | Rev Bucket ID |
+| 115 | revenueGroupId | `Float` | Rev Gp ID |
+| 116 | revenueYN | `String` | Revenue YN |
+| 117 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 118 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 119 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 120 | roundFactorYn | `String` | Round Factor Y/N |
+| 121 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 122 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
+| 123 | sgDescription | `String` | Sub-Group Description |
+| 124 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
+| 125 | sgInsertUser | `Float` | Sub-Group Insert User |
+| 126 | sgOrderBy | `Float` | Sub-Group Order By |
+| 127 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
+| 128 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
+| 129 | sgTaxflag | `String` | Sub-Group Taxflag |
+| 130 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
+| 131 | sgUpdateUser | `Float` | Sub-Group Update User |
+| 132 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
+| 133 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
+| 134 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
+| 135 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
+| 136 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
+| 137 | subGroupInternalYN | `String` | Sg Internal Y/N |
+| 138 | subGroupRepDescription | `String` | Sg Reporting Description |
+| 139 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
+| 140 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
+| 141 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
+| 142 | subGroupType | `String` | Sub-Group Type |
+| 143 | taxCodeNumber | `Float` | Tax Code Number |
+| 144 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 145 | taxYN | `String` | Tax YN |
+| 146 | tcBofInterface | `String` | Not Used. |
+| 147 | tcBofInterface2 | `String` | Not Used. |
+| 148 | tcBofRefCode | `String` | Not Used. |
+| 149 | tcBofRefCode2 | `String` | Not Used. |
+| 150 | tcResort2 | `String` | Not Used. |
+| 151 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 152 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 153 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 154 | transactionActionId | `Float` | Trx Action ID |
+| 155 | transactionCodeDescription | `String` | Transaction Code Description |
+| 156 | transactionCodeGroup | `String` | Transaction Code Group |
+| 157 | transactionCodeResort | `String` | Not Used. |
+| 158 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
+| 159 | transactionCodeType | `String` | Transaction Code Type |
+| 160 | transactionType | `String` | Transaction Type |
+| 161 | transcodearrangementid | `String` | Transcodearrangementid |
+| 162 | transcodeid | `String` | Transcodeid |
+| 163 | trxCode | `String` | Trx Code |
+| 164 | trxCodeDisplay | `String` | Transaction Code Display |
+| 165 | trxServiceType | `String` | Transaction Service Type |
+| 166 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 167 | uPC | `String` | UPC |
+| 168 | updateDate | `DateTime` | Update Date |
+| 169 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -6669,63 +6682,64 @@
 | 117 | packageTrxCodeWk | `String` | Wrapper transaction code for weekend days |
 | 118 | packageYn | `String` | Package Y/N |
 | 119 | pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
-| 120 | postingRhythm | `String` | Posting Rhythm |
-| 121 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
-| 122 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 123 | printRateYn | `String` | Print Rate Y/N |
-| 124 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
-| 125 | privilegedYn | `String` | Indicates if rate is privileged or not. |
-| 126 | profitTrxCode | `String` | Transaction code for profit |
-| 127 | property | `String` | Property |
-| 128 | qualifying | `String` | Qualifying |
-| 129 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 130 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 131 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
-| 132 | rankValue | `Float` | Rank Value |
-| 133 | rateBucket | `String` | Yield rate bucket |
-| 134 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
-| 135 | rateCategories | `String` | Rate Categories |
-| 136 | rateClass | `String` | Rate Class |
-| 137 | rateCodeLocked | `String` | Not used |
-| 138 | rateCodes | `String` | Rate Codes |
-| 139 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
-| 140 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
-| 141 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
-| 142 | rateLevel | `Float` | Rate Level this rate code belongs to. |
-| 143 | rateinfoUrl | `String` | Rateinfo Url |
-| 144 | ratesToGDSYn | `String` | Needs to send this rate to GDS or not. |
-| 145 | redemptionRateYn | `String` | Redemption Rate Y/N |
-| 146 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
-| 147 | rodBaseAmount | `Float` | Rod Base Amount |
-| 148 | rodBaseFltPct | `String` | Rod Base Flt Pct |
-| 149 | rodBaseRounding | `String` | Rod Base Rounding |
-| 150 | rodBasedYn | `String` | Is the group code rate of day based |
-| 151 | rodYn | `String` | Rod Y/N |
-| 152 | roomAssignmentValue | `Float` | Room Assignment Value |
-| 153 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
-| 154 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
-| 155 | sellSequence | `Float` | Sell Sequence |
-| 156 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
-| 157 | servicePerc | `Float` | Service Percentage included. |
-| 158 | shortInfo | `String` | Information to be used in the rate query |
-| 159 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
-| 160 | sourceCode | `String` | Source Code |
-| 161 | taxIncludedPerc | `Float` | Percentage of included Tax. |
-| 162 | taxIncludedYn | `String` | Tax is included in this rate. |
-| 163 | tieredYn | `String` | Indicates if the rate is a tiered rate. |
-| 164 | transactionTaxInclYN | `String` | Transaction code is inclusive of tax Y/N |
-| 165 | transactionWkTaxInclYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
-| 166 | trxCode | `String` | Transaction Code |
-| 167 | trxCodeWk | `String` | The transaction code associated with this rate for weekend days |
-| 168 | updateDate | `DateTime` | Update Date |
-| 169 | updateUser | `Float` | Update User |
-| 170 | upsellYn | `String` | Indicates if the rate code can be upsold |
-| 171 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
-| 172 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
-| 173 | wkDeptCode | `String` | Wk Dept Code |
-| 174 | yieldAs | `String` | Yield As |
-| 175 | yieldableYn | `String` | Yieldable Y/N |
-| 176 | ymCode | `String` | Ym Code |
+| 120 | pointsDiscountYN | `String` | Points Discount Y/n. |
+| 121 | postingRhythm | `String` | Posting Rhythm |
+| 122 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
+| 123 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 124 | printRateYn | `String` | Print Rate Y/N |
+| 125 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
+| 126 | privilegedYn | `String` | Indicates if rate is privileged or not. |
+| 127 | profitTrxCode | `String` | Transaction code for profit |
+| 128 | property | `String` | Property |
+| 129 | qualifying | `String` | Qualifying |
+| 130 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 131 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 132 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
+| 133 | rankValue | `Float` | Rank Value |
+| 134 | rateBucket | `String` | Yield rate bucket |
+| 135 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
+| 136 | rateCategories | `String` | Rate Categories |
+| 137 | rateClass | `String` | Rate Class |
+| 138 | rateCodeLocked | `String` | Not used |
+| 139 | rateCodes | `String` | Rate Codes |
+| 140 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
+| 141 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
+| 142 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
+| 143 | rateLevel | `Float` | Rate Level this rate code belongs to. |
+| 144 | rateinfoUrl | `String` | Rateinfo Url |
+| 145 | ratesToGDSYn | `String` | Needs to send this rate to GDS or not. |
+| 146 | redemptionRateYn | `String` | Redemption Rate Y/N |
+| 147 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
+| 148 | rodBaseAmount | `Float` | Rod Base Amount |
+| 149 | rodBaseFltPct | `String` | Rod Base Flt Pct |
+| 150 | rodBaseRounding | `String` | Rod Base Rounding |
+| 151 | rodBasedYn | `String` | Is the group code rate of day based |
+| 152 | rodYn | `String` | Rod Y/N |
+| 153 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 154 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
+| 155 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
+| 156 | sellSequence | `Float` | Sell Sequence |
+| 157 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
+| 158 | servicePerc | `Float` | Service Percentage included. |
+| 159 | shortInfo | `String` | Information to be used in the rate query |
+| 160 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
+| 161 | sourceCode | `String` | Source Code |
+| 162 | taxIncludedPerc | `Float` | Percentage of included Tax. |
+| 163 | taxIncludedYn | `String` | Tax is included in this rate. |
+| 164 | tieredYn | `String` | Indicates if the rate is a tiered rate. |
+| 165 | transactionTaxInclYN | `String` | Transaction code is inclusive of tax Y/N |
+| 166 | transactionWkTaxInclYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
+| 167 | trxCode | `String` | Transaction Code |
+| 168 | trxCodeWk | `String` | The transaction code associated with this rate for weekend days |
+| 169 | updateDate | `DateTime` | Update Date |
+| 170 | updateUser | `Float` | Update User |
+| 171 | upsellYn | `String` | Indicates if the rate code can be upsold |
+| 172 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
+| 173 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
+| 174 | wkDeptCode | `String` | Wk Dept Code |
+| 175 | yieldAs | `String` | Yield As |
+| 176 | yieldableYn | `String` | Yieldable Y/N |
+| 177 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -7671,6 +7685,312 @@
 
 ---
 
+### ConfigurationResortLeisureExperienceDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | currencyCode | `String` | Currency in which the amount for the leisure experience is defined. |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | duration | `Float` | Duration time of the leisure experience in minutes. |
+| 6 | experienceCode | `String` | Unique identifier for the leisure experience. |
+| 7 | experienceDescription | `String` | Description of the leisure experience. |
+| 8 | experienceName | `String` | Name for the leisure experience. |
+| 9 | experienceType | `String` | Selection of leisure experience type to link to the leisure experience. |
+| 10 | inactiveDate | `DateTime` | Inactive Date |
+| 11 | insertDate | `DateTime` | Insert Date |
+| 12 | insertUser | `Float` | Insert User |
+| 13 | jRNUpdateDate | `Date` | JRN Update Date |
+| 14 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 15 | locationCode | `String` | Selection of the leisure location to link to the leisure experience. |
+| 16 | maxNumberOfPeople | `Float` | Maximum number of participants allowed. |
+| 17 | minimumNumberOfPeople | `Float` | Minimum number of participants required. |
+| 18 | orderBy | `Float` | Sequence value used to control display. |
+| 19 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 20 | packageCode | `String` | Identifier for the pricing package. |
+| 21 | prepTime | `Float` | Time required to prepare for the Leisure experience. |
+| 22 | price | `Float` | Amount of the leisure experience. |
+| 23 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 24 | property | `String` | Internal ID to uniquely identify the Property |
+| 25 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 26 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 27 | turnoverTime | `Float` | Time required between consecutive leisure experience sessions. |
+| 28 | updateDate | `DateTime` | Update Date |
+| 29 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureExperienceGroupDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | experienceGroupCode | `String` | Unique identifier for the leisure experience group. |
+| 5 | experienceGroupDescription | `String` | Description of the leisure experience group. |
+| 6 | inactiveDate | `DateTime` | Inactive Date |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | orderBy | `Float` | Sequence value used to control display. |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Internal ID to uniquely identify the Property |
+| 15 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 16 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 17 | updateDate | `DateTime` | Update Date |
+| 18 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureExperienceResourceDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | duration | `Float` | Duration the leisure resource is used during the experience. |
+| 5 | experienceCode | `String` | Unique identifier for the leisure experience. |
+| 6 | insertDate | `DateTime` | Insert Date |
+| 7 | insertUser | `Float` | Insert User |
+| 8 | jRNUpdateDate | `Date` | JRN Update Date |
+| 9 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 10 | maxCapacity | `Float` | Maximum capacity supported by the leisure resource. |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | prepTime | `Float` | Preparation time specific to the leisure resource for the leisure experience. |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Internal ID to uniquely identify the Property |
+| 15 | resourceCode | `String` | Unique identifier for the leisure resource. |
+| 16 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 17 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 18 | sharedYN | `String` | Indicates whether the resource can be shared across experiences (Y/N). |
+| 19 | turnoverTime | `Float` | Time required before the leisure resource can be reused. |
+| 20 | updateDate | `DateTime` | Update Date |
+| 21 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureExperienceTypeDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | experienceGroupCode | `String` | Selection of leisure experience group to link to the leisure experience type. |
+| 5 | experienceTypeCode | `String` | Unique identifier for the leisure experience type. |
+| 6 | experienceTypeDescription | `String` | Description of the leisure experience type. |
+| 7 | inactiveDate | `DateTime` | Inactive Date |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | insertUser | `Float` | Insert User |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | locationCode | `String` | Selection of the leisure location to link to the leisure experience type. |
+| 13 | orderBy | `Float` | Sequence value used to control display. |
+| 14 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 15 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 16 | property | `String` | Internal ID to uniquely identify the Property |
+| 17 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 18 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureLocationDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | locationCode | `String` | Unique identifier for the leisure location. |
+| 10 | locationDescription | `String` | Description of the leisure location. |
+| 11 | locationTypeCode | `String` | Unique identifier for the leisure location type. |
+| 12 | orderBy | `Float` | Sequence value used to control display. |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Internal ID to uniquely identify the Property |
+| 16 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 17 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 18 | updateDate | `DateTime` | Update Date |
+| 19 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureLocationScheduleDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | endDate | `Date` | Start date when the leisure location schedule becomes effective. |
+| 5 | endTime | `DateTime` | Daily end time of availability for the leisure location. |
+| 6 | fridayYN | `String` | Indicates if the schedule for the leisure location applies on Friday (Y/N) |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | locationCode | `String` | Identifier of the leisure location associated with the schedule. |
+| 12 | mondayYN | `String` | Indicates if the schedule for the leisure location applies on Monday (Y/N) |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Internal ID to uniquely identify the Property |
+| 16 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 17 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 18 | saturdayYN | `String` | Indicates if the schedule for the leisure location applies on Saturday (Y/N) |
+| 19 | startDate | `Date` | Start date when the leisure location schedule becomes effective. |
+| 20 | startTime | `DateTime` | Daily start time of availability for the leisure location. |
+| 21 | sundayYN | `String` | Indicates if the schedule for the leisure location applies on Sunday (Y/N) |
+| 22 | thursdayYN | `String` | Indicates if the schedule for the leisure location applies on Thursday (Y/N) |
+| 23 | tuesdayYN | `String` | Indicates if the schedule for the leisure location applies on Tuesday (Y/N) |
+| 24 | updateDate | `DateTime` | Update Date |
+| 25 | updateUser | `Float` | Update User |
+| 26 | wednesdayYN | `String` | Indicates if the schedule for the leisure location applies on Wednesday (Y/N) |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureLocationTypeDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | locationTypeCode | `String` | Unique identifier for the leisure location type. |
+| 10 | locationTypeDescription | `String` | Description of the leisure location type. |
+| 11 | orderBy | `Float` | Sequence value used to control display. |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Internal ID to uniquely identify the Property |
+| 15 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 16 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 17 | updateDate | `DateTime` | Update Date |
+| 18 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureResourceDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | orderBy | `Float` | Sequence value used to control display. |
+| 10 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 11 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 12 | property | `String` | Internal ID to uniquely identify the Property |
+| 13 | quantity | `Float` | Quantity available for the resources that require inventory. |
+| 14 | resourceCode | `String` | Unique identifier for the leisure resource. |
+| 15 | resourceDescription | `String` | Description of the leisure resource. |
+| 16 | resourceType | `String` | Unique identifier for the leisure resource type. |
+| 17 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 18 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureResourceScheduleDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | beginTime | `DateTime` | Daily start time of availability for the leisure resource. |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 4 | deletedFlag | `String` | Deleted Flag |
+| 5 | endTime | `DateTime` | Daily end time of availability for the leisure resource. |
+| 6 | fridayYN | `String` | Indicates if the schedule for the leisure resource applies on Friday (Y/N) |
+| 7 | insertDate | `DateTime` | Insert Date |
+| 8 | insertUser | `Float` | Insert User |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 11 | locationCode | `String` | Selection of leisure locations to link to the leisure resource schedule. |
+| 12 | mondayYN | `String` | Indicates if the schedule for the leisure resource applies on Monday (Y/N) |
+| 13 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 14 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 15 | property | `String` | Internal ID to uniquely identify the Property |
+| 16 | resourceCode | `String` | Unique identifier for the leisure resource. |
+| 17 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 18 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 19 | saturdayYN | `String` | Indicates if the schedule for the leisure resource applies on Saturday (Y/N) |
+| 20 | sundayYN | `String` | Indicates if the schedule for the leisure resource applies on Sunday (Y/N) |
+| 21 | thursdayYN | `String` | Indicates if the schedule for the leisure resource applies on Thursday (Y/N) |
+| 22 | tuesdayYN | `String` | Indicates if the schedule for the leisure resource applies on Tuesday (Y/N) |
+| 23 | updateDate | `DateTime` | Update Date |
+| 24 | updateUser | `Float` | Update User |
+| 25 | wednesdayYN | `String` | Indicates if the schedule for the leisure resource applies on Wednesday (Y/N) |
+
+[⬆ Back to Query](#query)
+
+---
+
+### ConfigurationResortLeisureResourceTypeDetailsType
+
+| No. | Field | Type | Description |
+| --- | --- | --- | --- |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | inventoryYN | `String` | Indicate if leisure resource type is considered inventory |
+| 8 | jRNUpdateDate | `Date` | JRN Update Date |
+| 9 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 10 | orderBy | `Float` | Sequence value used to control display. |
+| 11 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 12 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 13 | property | `String` | Internal ID to uniquely identify the Property |
+| 14 | resourceCategory | `String` | Classification grouping for the leisure resource type. List of values to select: personnel space or equipment. |
+| 15 | resourceType | `String` | Unique identifier for the leisure resource type. |
+| 16 | resourceTypeDescription | `String` | Description of the leisure resource type. |
+| 17 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 18 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 19 | updateDate | `DateTime` | Update Date |
+| 20 | updateUser | `Float` | Update User |
+
+[⬆ Back to Query](#query)
+
+---
+
 ## Input Types
 
 ### DateInput
@@ -7941,7 +8261,7 @@
 | resortDetailsInsertUser | `FloatInput` | The user that created the record |
 | resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |
 | resortDetailsInventoryYn | `StringInput` | Future use |
-| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |
 | resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |
 | resortDetailsLeadsend | `StringInput` | Future use |
@@ -8323,12 +8643,19 @@
 | expensearrangementcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | expensearrangementcodeDetailsResort | `StringInput` | Property |
 | expensearrangementcodeDetailsType | `StringInput` | Type |
+| transactioncodedetailsChainCode | `StringInput` | CHAIN_CODE |
+| transcodeDetailsArNameId | `FloatInput` | Ar Name ID |
+| transcodeDetailsAdjTrxCode | `StringInput` | Adj Trx Code |
 | transcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | transcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| transcodeDetailsTcGroup | `StringInput` | Group |
 | transcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | transcodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
 | transcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | transcodeDetailsResort | `StringInput` | Property |
+| transcodeDetailsTrxActionId | `FloatInput` | Trx Action ID |
+| transcodeDetailsTcSubgroup | `StringInput` | Transaction Code Sub-group |
+| transcodeDetailsTrxCodeType | `StringInput` | Transaction Code Type |
 | transcodeDetailsTranscodeid | `StringInput` | Transcodeid |
 | transcodeDetailsTrxCode | `StringInput` | Trx Code |
 | folioarrangementcodeDetailsArrangementId | `FloatInput` | Arrangement ID |
@@ -8537,7 +8864,9 @@
 | promocoderoutinstrDetailsPromoCode | `StringInput` | Promo Code |
 | promocoderoutinstrDetailsResort | `StringInput` | Property |
 | promocoderoutinstrDetailsTrxCodes | `StringInput` | Transaction Codes |
+| ratecategoriesDetailsBeginDate | `DateInput` | Business Date |
 | ratecategoriesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| ratecategoriesDetailsEndDate | `DateInput` | End Date |
 | ratecategoriesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | ratecategoriesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | ratecategoriesDetailsResort | `StringInput` | Property |
@@ -9148,10 +9477,81 @@
 | memclaimadjlimitDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | memclaimadjlimitDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | memclaimadjlimitDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureExperienceDetailsChainCode | `StringInput` | Chain Code |
+| leisureExperienceDetailsCurrencyCode | `StringInput` | Currency in which the amount for the leisure experience is defined. |
+| leisureExperienceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureExperienceDetailsActCode | `StringInput` | Unique identifier for the leisure experience. |
+| leisureExperienceDetailsActName | `StringInput` | Name for the leisure experience. |
+| leisureExperienceDetailsActType | `StringInput` | Selection of leisure experience type to link to the leisure experience. |
+| leisureExperienceDetailsLocationCode | `StringInput` | Selection of the leisure location to link to the leisure experience. |
+| leisureExperienceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureExperienceDetailsPricePkgCode | `StringInput` | Identifier for the pricing package. |
+| leisureExperienceDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureExperienceGroupDetailsChainCode | `StringInput` | Chain Code |
+| leisureExperienceGroupDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureExperienceGroupDetailsActGroupCode | `StringInput` | Unique identifier for the leisure experience group. |
+| leisureExperienceGroupDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureExperienceGroupDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureExperienceResourceDetailsChainCode | `StringInput` | Chain Code |
+| leisureExperienceResourceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureExperienceResourceDetailsActCode | `StringInput` | Unique identifier for the leisure experience. |
+| leisureExperienceResourceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureExperienceResourceDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureExperienceResourceDetailsResCode | `StringInput` | Unique identifier for the leisure resource. |
+| leisureExperienceResourceDetailsSharedYn | `StringInput` | Indicates whether the resource can be shared across experiences (Y/N). |
+| leisureExperienceTypeDetailsChainCode | `StringInput` | Chain Code |
+| leisureExperienceTypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureExperienceTypeDetailsActGroupCode | `StringInput` | Selection of leisure experience group to link to the leisure experience type. |
+| leisureExperienceTypeDetailsActTypeCode | `StringInput` | Unique identifier for the leisure experience type. |
+| leisureExperienceTypeDetailsLocationCode | `StringInput` | Selection of the leisure location to link to the leisure experience type. |
+| leisureExperienceTypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureExperienceTypeDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureLocationDetailsChainCode | `StringInput` | Chain Code |
+| leisureLocationDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureLocationDetailsLocationCode | `StringInput` | Unique identifier for the leisure location. |
+| leisureLocationDetailsLocationTypeCode | `StringInput` | Unique identifier for the leisure location type. |
+| leisureLocationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureLocationDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureLocationScheduleDetailsChainCode | `StringInput` | Chain Code |
+| leisureLocationScheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureLocationScheduleDetailsEndDate | `DateInput` | Start date when the leisure location schedule becomes effective. |
+| leisureLocationScheduleDetailsEndTime | `DateTimeInput` | Daily end time of availability for the leisure location. |
+| leisureLocationScheduleDetailsLocationCode | `StringInput` | Identifier of the leisure location associated with the schedule. |
+| leisureLocationScheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureLocationScheduleDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureLocationScheduleDetailsBeginDate | `DateInput` | Start date when the leisure location schedule becomes effective. |
+| leisureLocationScheduleDetailsBeginTime | `DateTimeInput` | Daily start time of availability for the leisure location. |
+| leisureLocationTypeDetailsChainCode | `StringInput` | Chain Code |
+| leisureLocationTypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureLocationTypeDetailsLocationTypeCode | `StringInput` | Unique identifier for the leisure location type. |
+| leisureLocationTypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureLocationTypeDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureResourceDetailsChainCode | `StringInput` | Chain Code |
+| leisureResourceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureResourceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureResourceDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureResourceDetailsResCode | `StringInput` | Unique identifier for the leisure resource. |
+| leisureResourceDetailsResType | `StringInput` | Unique identifier for the leisure resource type. |
+| leisureResourceScheduleDetailsBeginTime | `DateTimeInput` | Daily start time of availability for the leisure resource. |
+| leisureResourceScheduleDetailsChainCode | `StringInput` | Chain Code |
+| leisureResourceScheduleDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureResourceScheduleDetailsEndTime | `DateTimeInput` | Daily end time of availability for the leisure resource. |
+| leisureResourceScheduleDetailsLocationCode | `StringInput` | Selection of leisure locations to link to the leisure resource schedule. |
+| leisureResourceScheduleDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureResourceScheduleDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureResourceTypeDetailsChainCode | `StringInput` | Chain Code |
+| leisureResourceTypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureResourceTypeDetailsInventoryYn | `StringInput` | Indicate if leisure resource type is considered inventory |
+| leisureResourceTypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureResourceTypeDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureResourceTypeDetailsResType | `StringInput` | Unique identifier for the leisure resource type. |
 #### Validation Rules
 
 **`conditionalInputPair(pair: 1)`**
 - resortDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- resortDetailsJrnupdatedttm
 
 
 [⬆ Back to Query](#query)
@@ -9674,6 +10074,8 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
       organizationID
       primaryKeyID
       property
+      rnaInsertDate
+      rnaUpdateDate
       sequence
       transportationCode1
       transportationCode2
@@ -10778,6 +11180,7 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
       updateUser
     }
     transactionCodeDetails {
+      chainCode
       aRLedgerPaymentsYN
       aRNameId
       accountNumber
@@ -14727,6 +15130,7 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
       packageTrxCodeWk
       packageYn
       pendingApprovalYn
+      pointsDiscountYN
       postingRhythm
       postingRhythmNights
       primaryKeyID
@@ -15585,6 +15989,242 @@ query configurationResort($input: ConfigurationResortQueryArgumentsType!) {
       updateDate
       updateUser
     }
+    leisureExperienceDetails {
+      chainCode
+      currencyCode
+      dSI
+      deletedFlag
+      duration
+      experienceCode
+      experienceDescription
+      experienceName
+      experienceType
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      locationCode
+      maxNumberOfPeople
+      minimumNumberOfPeople
+      orderBy
+      organizationID
+      packageCode
+      prepTime
+      price
+      primaryKeyID
+      property
+      rnaInsertDate
+      rnaUpdateDate
+      turnoverTime
+      updateDate
+      updateUser
+    }
+    leisureExperienceGroupDetails {
+      chainCode
+      dSI
+      deletedFlag
+      experienceGroupCode
+      experienceGroupDescription
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      orderBy
+      organizationID
+      primaryKeyID
+      property
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
+    leisureExperienceResourceDetails {
+      chainCode
+      dSI
+      deletedFlag
+      duration
+      experienceCode
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      maxCapacity
+      organizationID
+      prepTime
+      primaryKeyID
+      property
+      resourceCode
+      rnaInsertDate
+      rnaUpdateDate
+      sharedYN
+      turnoverTime
+      updateDate
+      updateUser
+    }
+    leisureExperienceTypeDetails {
+      chainCode
+      dSI
+      deletedFlag
+      experienceGroupCode
+      experienceTypeCode
+      experienceTypeDescription
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      locationCode
+      orderBy
+      organizationID
+      primaryKeyID
+      property
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
+    leisureLocationDetails {
+      chainCode
+      dSI
+      deletedFlag
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      locationCode
+      locationDescription
+      locationTypeCode
+      orderBy
+      organizationID
+      primaryKeyID
+      property
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
+    leisureLocationScheduleDetails {
+      chainCode
+      dSI
+      deletedFlag
+      endDate
+      endTime
+      fridayYN
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      locationCode
+      mondayYN
+      organizationID
+      primaryKeyID
+      property
+      rnaInsertDate
+      rnaUpdateDate
+      saturdayYN
+      startDate
+      startTime
+      sundayYN
+      thursdayYN
+      tuesdayYN
+      updateDate
+      updateUser
+      wednesdayYN
+    }
+    leisureLocationTypeDetails {
+      chainCode
+      dSI
+      deletedFlag
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      locationTypeCode
+      locationTypeDescription
+      orderBy
+      organizationID
+      primaryKeyID
+      property
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
+    leisureResourceDetails {
+      chainCode
+      dSI
+      deletedFlag
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      orderBy
+      organizationID
+      primaryKeyID
+      property
+      quantity
+      resourceCode
+      resourceDescription
+      resourceType
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
+    leisureResourceScheduleDetails {
+      beginTime
+      chainCode
+      dSI
+      deletedFlag
+      endTime
+      fridayYN
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      locationCode
+      mondayYN
+      organizationID
+      primaryKeyID
+      property
+      resourceCode
+      rnaInsertDate
+      rnaUpdateDate
+      saturdayYN
+      sundayYN
+      thursdayYN
+      tuesdayYN
+      updateDate
+      updateUser
+      wednesdayYN
+    }
+    leisureResourceTypeDetails {
+      chainCode
+      dSI
+      deletedFlag
+      inactiveDate
+      insertDate
+      insertUser
+      inventoryYN
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      orderBy
+      organizationID
+      primaryKeyID
+      property
+      resourceCategory
+      resourceType
+      resourceTypeDescription
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
   }
 }
 ```
@@ -16121,6 +16761,8 @@ airport_details_schema = {
     'organizationID': pl.Int64,
     'primaryKeyID': pl.Int64,
     'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
     'sequence': pl.Float64,
     'transportationCode1': pl.Utf8,
     'transportationCode2': pl.Utf8,
@@ -17293,6 +17935,7 @@ expense_arrangement_code_details_schema = {
 ```
 ```python
 transaction_code_details_schema = {
+    'chainCode': pl.Utf8,
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
     'accountNumber': pl.Utf8,
@@ -21422,6 +22065,7 @@ qualifying_rates_details_schema = {
     'packageTrxCodeWk': pl.Utf8,
     'packageYn': pl.Utf8,
     'pendingApprovalYn': pl.Utf8,
+    'pointsDiscountYN': pl.Utf8,
     'postingRhythm': pl.Utf8,
     'postingRhythmNights': pl.Float64,
     'primaryKeyID': pl.Int64,
@@ -22317,6 +22961,262 @@ membership_claim_adjustment_limit_details_schema = {
     'tierRevenueUpperLimit': pl.Float64,
     'tierStaysLowerLimit': pl.Float64,
     'tierStaysUpperLimit': pl.Float64,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_experience_details_schema = {
+    'chainCode': pl.Utf8,
+    'currencyCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'duration': pl.Float64,
+    'experienceCode': pl.Utf8,
+    'experienceDescription': pl.Utf8,
+    'experienceName': pl.Utf8,
+    'experienceType': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationCode': pl.Utf8,
+    'maxNumberOfPeople': pl.Float64,
+    'minimumNumberOfPeople': pl.Float64,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'packageCode': pl.Utf8,
+    'prepTime': pl.Float64,
+    'price': pl.Float64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'turnoverTime': pl.Float64,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_experience_group_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'experienceGroupCode': pl.Utf8,
+    'experienceGroupDescription': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_experience_resource_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'duration': pl.Float64,
+    'experienceCode': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'maxCapacity': pl.Float64,
+    'organizationID': pl.Int64,
+    'prepTime': pl.Float64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'resourceCode': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'sharedYN': pl.Utf8,
+    'turnoverTime': pl.Float64,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_experience_type_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'experienceGroupCode': pl.Utf8,
+    'experienceTypeCode': pl.Utf8,
+    'experienceTypeDescription': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationCode': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_location_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationCode': pl.Utf8,
+    'locationDescription': pl.Utf8,
+    'locationTypeCode': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_location_schedule_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'endDate': pl.Utf8,
+    'endTime': pl.Utf8,
+    'fridayYN': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationCode': pl.Utf8,
+    'mondayYN': pl.Utf8,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'saturdayYN': pl.Utf8,
+    'startDate': pl.Utf8,
+    'startTime': pl.Utf8,
+    'sundayYN': pl.Utf8,
+    'thursdayYN': pl.Utf8,
+    'tuesdayYN': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+    'wednesdayYN': pl.Utf8,
+}
+```
+```python
+leisure_location_type_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationTypeCode': pl.Utf8,
+    'locationTypeDescription': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_resource_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'quantity': pl.Float64,
+    'resourceCode': pl.Utf8,
+    'resourceDescription': pl.Utf8,
+    'resourceType': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_resource_schedule_details_schema = {
+    'beginTime': pl.Utf8,
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'endTime': pl.Utf8,
+    'fridayYN': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'locationCode': pl.Utf8,
+    'mondayYN': pl.Utf8,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'resourceCode': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'saturdayYN': pl.Utf8,
+    'sundayYN': pl.Utf8,
+    'thursdayYN': pl.Utf8,
+    'tuesdayYN': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+    'wednesdayYN': pl.Utf8,
+}
+```
+```python
+leisure_resource_type_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'inventoryYN': pl.Utf8,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'orderBy': pl.Float64,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'resourceCategory': pl.Utf8,
+    'resourceType': pl.Utf8,
+    'resourceTypeDescription': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,
     'updateUser': pl.Int64,
 }

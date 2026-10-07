@@ -20,9 +20,9 @@
 | --- | --- | --- | --- |
 | 1 | externalSystems | [`IntegrationConfigurationsExternalSystemsType`](#integrationconfigurationsexternalsystemstype) | External System Resort |
 | 2 | externalSystemProperties | [`IntegrationConfigurationsExternalSystemPropertiesType`](#integrationconfigurationsexternalsystempropertiestype) | External System Resort |
-| 3 | interfaceMappings | [`IntegrationConfigurationsInterfaceMappingsType`](#integrationconfigurationsinterfacemappingstype) | Interface Setup Mapping and Parameters |
+| 3 | interfaceSetup | [`IntegrationConfigurationsInterfaceSetupType`](#integrationconfigurationsinterfacesetuptype) | Interface Setup Mapping and Parameters |
 | 4 | interfaceParameters | [`IntegrationConfigurationsInterfaceParametersType`](#integrationconfigurationsinterfaceparameterstype) | Interface Setup Mapping and Parameters |
-| 5 | interfaceSetup | [`IntegrationConfigurationsInterfaceSetupType`](#integrationconfigurationsinterfacesetuptype) | Interface Setup Mapping and Parameters |
+| 5 | interfaceMappings | [`IntegrationConfigurationsInterfaceMappingsType`](#integrationconfigurationsinterfacemappingstype) | Interface Setup Mapping and Parameters |
 | 6 | businessEventConfiguration | [`IntegrationConfigurationsBusinessEventConfigurationType`](#integrationconfigurationsbusinesseventconfigurationtype) | External System Database Business Events |
 | 7 | externalDatabases | [`IntegrationConfigurationsExternalDatabasesType`](#integrationconfigurationsexternaldatabasestype) | External System Database Business Events |
 | 8 | integrationConfigurationsRecordCount | `Int` |  |
@@ -80,28 +80,27 @@
 
 ---
 
-### IntegrationConfigurationsInterfaceMappingsType
+### IntegrationConfigurationsInterfaceSetupType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
 | 1 | chainCode | `String` | Chain Code |
-| 2 | conversionCode | `String` | Conversion Code |
-| 3 | dSI | `Float` | DSI |
+| 2 | dSI | `Float` | DSI |
+| 3 | dataFlow | `String` | Data Flow |
 | 4 | deletedFlag | `String` | Deleted Flag |
-| 5 | externalToOPERA | `String` | External To OPERA |
-| 6 | externalValue | `String` | External Value |
-| 7 | insertDate | `Date` | Insert Date |
-| 8 | interfaceId | `String` | Interface Id |
-| 9 | jRNUpdateDate | `Date` | JRN Update Date |
-| 10 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
-| 11 | oPERAToExternal | `String` | OPERA To External |
-| 12 | oPERAValue | `String` | OPERA Value |
+| 5 | deltaChangesYN | `String` | Delta Changes YN |
+| 6 | description | `String` | Description |
+| 7 | externalProperty | `String` | External Property |
+| 8 | insertDate | `Date` | Insert Date |
+| 9 | interfaceId | `String` | Interface Id |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 12 | oPERAProperty | `String` | OPERA Property |
 | 13 | organizationID | `Float` | Organization ID |
 | 14 | primaryKeyID | `Float` | Primary Key ID |
-| 15 | property | `String` | Property |
-| 16 | rNAInsertDate | `Date` | RNA Insert Date |
-| 17 | rNAUpdateDate | `Date` | RNA Update Date |
-| 18 | updateDate | `Date` | Update Date |
+| 15 | rNAInsertDate | `Date` | RNA Insert Date |
+| 16 | rNAUpdateDate | `Date` | RNA Update Date |
+| 17 | updateDate | `Date` | Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -134,27 +133,28 @@
 
 ---
 
-### IntegrationConfigurationsInterfaceSetupType
+### IntegrationConfigurationsInterfaceMappingsType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
 | 1 | chainCode | `String` | Chain Code |
-| 2 | dSI | `Float` | DSI |
-| 3 | dataFlow | `String` | Data Flow |
+| 2 | conversionCode | `String` | Conversion Code |
+| 3 | dSI | `Float` | DSI |
 | 4 | deletedFlag | `String` | Deleted Flag |
-| 5 | deltaChangesYN | `String` | Delta Changes YN |
-| 6 | description | `String` | Description |
-| 7 | externalProperty | `String` | External Property |
-| 8 | insertDate | `Date` | Insert Date |
-| 9 | interfaceId | `String` | Interface Id |
-| 10 | jRNUpdateDate | `Date` | JRN Update Date |
-| 11 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
-| 12 | oPERAProperty | `String` | OPERA Property |
+| 5 | externalToOPERA | `String` | External To OPERA |
+| 6 | externalValue | `String` | External Value |
+| 7 | insertDate | `Date` | Insert Date |
+| 8 | interfaceId | `String` | Interface Id |
+| 9 | jRNUpdateDate | `Date` | JRN Update Date |
+| 10 | jRNUpdateDateAndTime | `Date` | JRN Update Date and Time |
+| 11 | oPERAToExternal | `String` | OPERA To External |
+| 12 | oPERAValue | `String` | OPERA Value |
 | 13 | organizationID | `Float` | Organization ID |
 | 14 | primaryKeyID | `Float` | Primary Key ID |
-| 15 | rNAInsertDate | `Date` | RNA Insert Date |
-| 16 | rNAUpdateDate | `Date` | RNA Update Date |
-| 17 | updateDate | `Date` | Update Date |
+| 15 | property | `String` | Property |
+| 16 | rNAInsertDate | `Date` | RNA Insert Date |
+| 17 | rNAUpdateDate | `Date` | RNA Update Date |
+| 18 | updateDate | `Date` | Update Date |
 
 [⬆ Back to Query](#query)
 
@@ -323,54 +323,61 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| extsysresortdetailsConsumerName | `StringInput` | Consumer Name |
+| extsysresortdetailsConsumerName | `StringInput` | Consumer Name<br>`@conditionalInputPair(pair: 2)` |
 | extsysresortdetailsDsi | `FloatInput` | DSI |
 | extsysresortdetailsEsDsi | `FloatInput` | DSI |
-| extsysresortdetailsCode | `StringInput` | External System |
-| extsysresortdetailsEsCode | `StringInput!` | External System<br>`@mandatoryInput` |
-| extsysresortdetailsExternalUri | `StringInput` | External URI |
+| extsysresortdetailsEsCode | `StringInput` | External System<br>`@conditionalInputPair(pair: 2)` |
+| extsysresortdetailsCode | `StringInput` | External System<br>`@conditionalInputPair(pair: 2)` |
+| extsysresortdetailsExternalUri | `StringInput` | External URI<br>`@conditionalInputPair(pair: 2)` |
 | extsysresortdetailsInactiveDate | `DateInput` | Inactive Date |
-| extsysresortdetailsJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time |
 | extsysresortdetailsEsJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time |
+| extsysresortdetailsJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | extsysresortdetailsOrganizationid | `FloatInput` | Organization ID |
 | extsysresortdetailsEsOrganizationid | `FloatInput` | Organization ID |
-| extsysresortdetailsResort | `StringInput` | Property |
+| extsysresortdetailsResort | `StringInput` | Property<br>`@conditionalInputPair(pair: 1)` |
 | interfacealldetailsDetailsMapChainCode | `StringInput` | Chain Code |
 | interfacealldetailsDetailsConversionCode | `StringInput` | Conversion Code |
-| interfacealldetailsDetailsMapDsi | `FloatInput` | DSI |
-| interfacealldetailsDetailsDsi | `FloatInput` | DSI |
 | interfacealldetailsDetailsSuDsi | `FloatInput` | DSI |
+| interfacealldetailsDetailsDsi | `FloatInput` | DSI |
+| interfacealldetailsDetailsMapDsi | `FloatInput` | DSI |
 | interfacealldetailsDetailsExternalResort | `StringInput` | External Property |
 | interfacealldetailsDetailsExtValue | `StringInput` | External Value |
-| interfacealldetailsDetailsMapInterfaceId | `StringInput` | Interface Id |
 | interfacealldetailsDetailsInterfaceId | `StringInput` | Interface Id |
 | interfacealldetailsDetailsSuInterfaceId | `StringInput` | Interface Id |
-| interfacealldetailsDetailsMapJrnUpdateDttm | `DateInput` | JRN Update Date and Time |
-| interfacealldetailsDetailsJrnUpdateDttm | `DateInput` | JRN Update Date and Time |
+| interfacealldetailsDetailsMapInterfaceId | `StringInput` | Interface Id |
 | interfacealldetailsDetailsSuJrnUpdateDttm | `DateInput` | JRN Update Date and Time |
+| interfacealldetailsDetailsJrnUpdateDttm | `DateInput` | JRN Update Date and Time |
+| interfacealldetailsDetailsMapJrnUpdateDttm | `DateInput` | JRN Update Date and Time |
 | interfacealldetailsDetailsPmsResort | `StringInput` | OPERA Property |
 | interfacealldetailsDetailsPmsValue | `StringInput` | OPERA Value |
+| interfacealldetailsDetailsSuOrganizationid | `FloatInput` | Organization ID |
 | interfacealldetailsDetailsMapOrganizationid | `FloatInput` | Organization ID |
 | interfacealldetailsDetailsOrganizationid | `FloatInput` | Organization ID |
-| interfacealldetailsDetailsSuOrganizationid | `FloatInput` | Organization ID |
 | interfacealldetailsDetailsParameterName | `StringInput` | Parameter Name |
-| interfacealldetailsDetailsResort | `StringInput` | Property |
 | interfacealldetailsDetailsMapResort | `StringInput` | Property |
+| interfacealldetailsDetailsResort | `StringInput` | Property |
 | extdbbuseventDetailsActionType | `StringInput` | Action Type |
-| extdbbuseventDetailsEdDsi | `FloatInput` | DSI |
 | extdbbuseventDetailsDsi | `FloatInput` | DSI |
+| extdbbuseventDetailsEdDsi | `FloatInput` | DSI |
 | extdbbuseventDetailsDataElement | `StringInput` | Data Element |
 | extdbbuseventDetailsEdDatabaseId | `StringInput` | External Database |
 | extdbbuseventDetailsDatabaseId | `StringInput` | External Database |
 | extdbbuseventDetailsExtSystemCode | `StringInput` | External System |
-| extdbbuseventDetailsJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time |
 | extdbbuseventDetailsEdJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time |
+| extdbbuseventDetailsJrnUpdateDttm | `DateTimeInput` | JRN Update Date and Time |
 | extdbbuseventDetailsModule | `StringInput` | Module |
 | extdbbuseventDetailsEdOrganizationid | `FloatInput` | Organization ID |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- extsysresortdetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- extsysresortdetailsConsumerName
 - extsysresortdetailsEsCode
+- extsysresortdetailsCode
+- extsysresortdetailsExternalUri
+- extsysresortdetailsJrnUpdateDttm
 
 
 [⬆ Back to Query](#query)
@@ -416,22 +423,21 @@ query integrationConfigurations($input: IntegrationConfigurationsQueryArgumentsT
       rNAUpdateDate
       status
     }
-    interfaceMappings {
+    interfaceSetup {
       chainCode
-      conversionCode
       dSI
+      dataFlow
       deletedFlag
-      externalToOPERA
-      externalValue
+      deltaChangesYN
+      description
+      externalProperty
       insertDate
       interfaceId
       jRNUpdateDate
       jRNUpdateDateAndTime
-      oPERAToExternal
-      oPERAValue
+      oPERAProperty
       organizationID
       primaryKeyID
-      property
       rNAInsertDate
       rNAUpdateDate
       updateDate
@@ -456,21 +462,22 @@ query integrationConfigurations($input: IntegrationConfigurationsQueryArgumentsT
       updateDate
       newView
     }
-    interfaceSetup {
+    interfaceMappings {
       chainCode
+      conversionCode
       dSI
-      dataFlow
       deletedFlag
-      deltaChangesYN
-      description
-      externalProperty
+      externalToOPERA
+      externalValue
       insertDate
       interfaceId
       jRNUpdateDate
       jRNUpdateDateAndTime
-      oPERAProperty
+      oPERAToExternal
+      oPERAValue
       organizationID
       primaryKeyID
+      property
       rNAInsertDate
       rNAUpdateDate
       updateDate
@@ -557,22 +564,21 @@ external_system_properties_schema = {
 }
 ```
 ```python
-interface_mappings_schema = {
+interface_setup_schema = {
     'chainCode': pl.Utf8,
-    'conversionCode': pl.Utf8,
     'dSI': pl.Int64,
+    'dataFlow': pl.Utf8,
     'deletedFlag': pl.Utf8,
-    'externalToOPERA': pl.Utf8,
-    'externalValue': pl.Utf8,
+    'deltaChangesYN': pl.Utf8,
+    'description': pl.Utf8,
+    'externalProperty': pl.Utf8,
     'insertDate': pl.Utf8,
     'interfaceId': pl.Utf8,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
-    'oPERAToExternal': pl.Utf8,
-    'oPERAValue': pl.Utf8,
+    'oPERAProperty': pl.Utf8,
     'organizationID': pl.Int64,
     'primaryKeyID': pl.Int64,
-    'property': pl.Utf8,
     'rNAInsertDate': pl.Utf8,
     'rNAUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,
@@ -601,21 +607,22 @@ interface_parameters_schema = {
 }
 ```
 ```python
-interface_setup_schema = {
+interface_mappings_schema = {
     'chainCode': pl.Utf8,
+    'conversionCode': pl.Utf8,
     'dSI': pl.Int64,
-    'dataFlow': pl.Utf8,
     'deletedFlag': pl.Utf8,
-    'deltaChangesYN': pl.Utf8,
-    'description': pl.Utf8,
-    'externalProperty': pl.Utf8,
+    'externalToOPERA': pl.Utf8,
+    'externalValue': pl.Utf8,
     'insertDate': pl.Utf8,
     'interfaceId': pl.Utf8,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
-    'oPERAProperty': pl.Utf8,
+    'oPERAToExternal': pl.Utf8,
+    'oPERAValue': pl.Utf8,
     'organizationID': pl.Int64,
     'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
     'rNAInsertDate': pl.Utf8,
     'rNAUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,

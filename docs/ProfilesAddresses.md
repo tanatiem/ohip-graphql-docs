@@ -690,7 +690,7 @@
 | profileaddressDetailsAddress2 | `StringInput` | The second line of street address. |
 | profileaddressDetailsAddress3 | `StringInput` | The third line of street address. |
 | profileaddressDetailsAddress4 | `StringInput` | The fourth line of street address. |
-| profileaddressDetailsAddressId | `FloatInput` | The primary key for this table. |
+| profileaddressDetailsAddressId | `FloatInput` | The primary key for this table.<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsLanguageCode | `StringInput` | Address Language |
 | profileaddressDetailsLanguageDesc | `StringInput` | Description for each language code. |
 | profileaddressDetailsAddressType | `StringInput` | The type of address. |
@@ -699,8 +699,8 @@
 | profileaddressDetailsBeginDate | `DateInput` | Not used. |
 | profileaddressDetailsRepStateCode | `StringInput` | Central State |
 | profileaddressDetailsRepState | `StringInput` | Central State Description |
-| profileaddressDetailsChainCode | `StringInput!` | The Chain code of the chain for which this record belongs to.<br>`@mandatoryInput` |
-| profileaddressDetailsCity | `StringInput` | The city for this address. |
+| profileaddressDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to.<br>`@conditionalInputPair(pair: 1)` |
+| profileaddressDetailsCity | `StringInput` | The city for this address.<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsCleansedDatetime | `DateTimeInput` | The Timestamp when this record was cleansed. |
 | profileaddressDetailsCleansedErrormsg | `StringInput` | The error message why this record was not cleansed. |
 | profileaddressDetailsCleansedMatchstatus | `StringInput` | Specifies how the address elements match with the postal reference data. |
@@ -708,9 +708,9 @@
 | profileaddressDetailsCleansedValidationstatus | `StringInput` | Validation Status as returned by the Address Cleansing System. |
 | profileaddressDetailsNameCode | `StringInput` | The unique key of this name stores IATA# Company # etc. |
 | profileaddressDetailsCountryCode | `StringInput` | Country . |
-| profileaddressDetailsCountry | `StringInput` | Country name. |
+| profileaddressDetailsCountry | `StringInput` | Country name.<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsInsertUser | `FloatInput` | The user that created the record |
-| profileaddressDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profileaddressDetailsInsertDate | `DateTimeInput` | The date the record was created<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | profileaddressDetailsDeletedFlag | `StringInput` | Deleted Y/n |
 | profileaddressDetailsEndDate | `DateInput` | Not used. |
@@ -720,7 +720,7 @@
 | profileaddressDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
 | profileaddressDetailsInactiveFlag | `StringInput` | Inactive Y/n |
 | profileaddressDetailsOrganizationId | `FloatInput` | Organization ID |
-| profileaddressDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profileaddressDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop. (not used) |
 | profileaddressDetailsLastUpdatedResort | `StringInput` | Last property that updated this record. |
 | profileaddressDetailsName | `StringInput` | Name |
@@ -728,9 +728,9 @@
 | profileaddressDetailsZipCode | `StringInput` | The postal code of this address. |
 | profileaddressDetailsCityExt | `StringInput` | City Extension mainly used for UK addresses. |
 | profileaddressDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
-| profileaddressDetailsPrimaryYn | `StringInput` | Profile having Multiple Addresses Need to have one Primary Address for each Type. |
+| profileaddressDetailsPrimaryYn | `StringInput` | Profile having Multiple Addresses Need to have one Primary Address for each Type.<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsProfileAddressId | `FloatInput` | The primary key for this table. |
-| profileaddressDetailsNameId | `FloatInput` | The reference to the NAME record that owns this address. |
+| profileaddressDetailsNameId | `FloatInput` | The reference to the NAME record that owns this address.<br>`@conditionalInputPair(pair: 2)` |
 | profileaddressDetailsProfileId | `FloatInput` | The reference to the NAME record that owns this address. |
 | profileaddressDetailsProvince | `StringInput` | Province. |
 | profileaddressDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
@@ -768,8 +768,17 @@
 | profileDetailsUpdateDate | `DateTimeInput` | Update Date |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - profileaddressDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- profileaddressDetailsAddressId
+- profileaddressDetailsCity
+- profileaddressDetailsCountry
+- profileaddressDetailsInsertDate
+- profileaddressDetailsJrnupdatedttm
+- profileaddressDetailsPrimaryYn
+- profileaddressDetailsNameId
 
 
 [⬆ Back to Query](#query)

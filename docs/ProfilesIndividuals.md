@@ -728,11 +728,13 @@
 | 51 | processExpirationDate | `Date` | Used in the EIS Module. |
 | 52 | profileid | `Float` | Reference to the name that owns this record. |
 | 53 | ranking | `Float` | Current membership ranking value for this profile possible values: 1-10. |
-| 54 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 55 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 56 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
-| 57 | updateDate | `DateTime` | The date the record was modified |
-| 58 | updateUser | `String` | The unique name of application user |
+| 54 | referralCount | `Float` | Number of times a new member has been referred. |
+| 55 | referredByMember | `String` | Name ID of member who referred. |
+| 56 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 57 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 58 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
+| 59 | updateDate | `DateTime` | The date the record was modified |
+| 60 | updateUser | `String` | The unique name of application user |
 
 [⬆ Back to Query](#query)
 
@@ -2126,6 +2128,8 @@ query profilesIndividuals($input: ProfilesIndividualsQueryArgumentsType!) {
       processExpirationDate
       profileid
       ranking
+      referralCount
+      referredByMember
       rnaInsertDate
       rnaUpdateDate
       trackData
@@ -3017,6 +3021,8 @@ profile_membership_details_schema = {
     'processExpirationDate': pl.Utf8,
     'profileid': pl.Float64,
     'ranking': pl.Float64,
+    'referralCount': pl.Float64,
+    'referredByMember': pl.Utf8,
     'rnaInsertDate': pl.Utf8,
     'rnaUpdateDate': pl.Utf8,
     'trackData': pl.Utf8,

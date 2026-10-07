@@ -646,109 +646,113 @@
 | 106 | internalOrganizationId | `Float` | Organization ID |
 | 107 | jRNUpdateDate | `Date` | JRN Update Date |
 | 108 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 109 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 110 | longInfo | `String` | Long Info |
-| 111 | loyaltyProgramYN | `String` | Flag to indicate if this is a loyalty program |
-| 112 | mandateResvProfiles | `String` | Indicates mandatory reservation profiles. This is used to force entry of profiles on the reservation header if this rate is picked. |
-| 113 | marketCode | `String` | Market Code |
-| 114 | marketDescription | `String` | Market Description |
-| 115 | marketGroupCode | `String` | Market Group Code |
-| 116 | marketGroupDescription | `String` | Market Group Description |
-| 117 | marshaRateProgram | `String` | Contains the rate program information from the MARSHA interface. |
-| 118 | maximumDaysAdvanceBooking | `Float` | Maximum Days Advance Booking |
-| 119 | maximumLengthOfStay | `Float` | Maximum Length of Stay |
-| 120 | maximumOccupancy | `Float` | Maximum Occupancy |
-| 121 | mfnUploadYn | `String` | Flag used to determine if the rate code is to be sent to MyFidelio.net if the rate is being received from a V6 V7 V8 or OPMS on a lower version on which flag used to determine if the rate code is to be sent to MyFidelio.net does not exist on the rate header. |
-| 122 | minimumDaysAdvanceBooking | `Float` | Minimum Days Advance Booking |
-| 123 | minimumOccupancy | `Float` | Minimum Occupancy |
-| 124 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
-| 125 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
-| 126 | multiplication | `String` | Amount to be multiplied to the base rate when shown on rate query |
-| 127 | myFidelioUploadYN | `String` | MyFidelio Upload YN |
-| 128 | negotiatedYN | `String` | Property is negotiated of search criteria or not. |
-| 129 | occupancyBasedYn | `String` | Indicates if the rate code is occupancy based. |
-| 130 | occupancyLevel | `Float` | Indicates the occupancy level for hurdle evaluation. |
-| 131 | operatorType | `String` | The operator type to use during the calculation of base rates. (ADD_TO SUBTRACT) |
-| 132 | orderBy | `Float` | Order By |
-| 133 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 134 | originalRateCode | `String` | Original Rate Code |
-| 135 | orsSellSequence | `Float` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
-| 136 | overridePackageYn | `String` | Indicates if we need to override package for hurdle evaluation. |
-| 137 | ownerRateYN | `String` | Indicates Owners Rate Code. This is used to perform rolling noshow. |
-| 138 | packageTransactionCode | `String` | Package Transaction Code |
-| 139 | packageTransactionCodeWeekend | `String` | Package Transaction Code Weekend |
-| 140 | packageTransactionTaxInclYN | `String` | Wrapper transaction code tax inclusive Y/N |
-| 141 | packageTransactionTaxIncludedYN | `String` | Transaction code is inclusive of tax Y/N |
-| 142 | packageTransactionWkTaxInclYN | `String` | Wrapper transaction code tax inclusive for weekend days Y/N |
-| 143 | packageYN | `String` | Package YN |
-| 144 | packages | `String` | Packages |
-| 145 | pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
-| 146 | postingRhythm | `String` | Posting Rhythm |
-| 147 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
-| 148 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 149 | printRateYn | `String` | Print Rate Y/N |
-| 150 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
-| 151 | privilegedYn | `String` | Indicates if rate is privileged or not. |
-| 152 | profitTransactionCode | `String` | Profit Transaction Code |
-| 153 | property | `String` | Code to uniquely identify the Property |
-| 154 | propertyName | `String` | Property Name |
-| 155 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
-| 156 | rankValue | `Float` | Rank Value |
-| 157 | rateBucket | `String` | Yield rate bucket |
-| 158 | rateBucketDescription | `String` | Rate Bucket Description |
-| 159 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
-| 160 | rateCategory | `String` | Rate Category |
-| 161 | rateCategoryDescription | `String` | Rate Category Description |
-| 162 | rateClass | `String` | Rate Class |
-| 163 | rateClassDescription | `String` | Rate Class Description |
-| 164 | rateCodeId | `String` | Rate Code ID |
-| 165 | rateCodeLockedYn | `String` | Rate Code Locked Y/N |
-| 166 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
-| 167 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
-| 168 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
-| 169 | rateLabel | `String` | Rate Label |
-| 170 | rateLevel | `Float` | Rate Level this rate code belongs to. |
-| 171 | rateUpdateYN | `String` | Needs to send this rate to GDS or not. |
-| 172 | rateinfoUrl | `String` | Rateinfo Url |
-| 173 | redemptionRateYN | `String` | Redemption Rate YN |
-| 174 | regionalAvailabilityYN | `String` | Regional Availability YN |
-| 175 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
-| 176 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 177 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 178 | rodBaseAmount | `Float` | Rod Base Amount |
-| 179 | rodBaseFltPct | `String` | Rod Base Flt Pct |
-| 180 | rodBaseRounding | `String` | Rod Base Rounding |
-| 181 | rodBasedYn | `String` | Is the group code rate of day based |
-| 182 | rodYn | `String` | Rod Y/N |
-| 183 | roomAssignmentValue | `Float` | Room Assignment Value |
-| 184 | roomType | `String` | Room Type |
-| 185 | roomTypeDescription | `String` | Room Type Description |
-| 186 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
-| 187 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
-| 188 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
-| 189 | servicePerc | `Float` | Service Percentage included. |
-| 190 | shortInfo | `String` | Information to be used in the rate query |
-| 191 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
-| 192 | sourceCode | `String` | Source Code |
-| 193 | sourceDescription | `String` | Source Description |
-| 194 | sourceGroupCode | `String` | Source Group Code |
-| 195 | sourceGroupDescription | `String` | Source Group Description |
-| 196 | taxIncludedPerc | `Float` | Percentage of included Tax. |
-| 197 | taxIncludedYn | `String` | Tax is included in this rate. |
-| 198 | tieredYN | `String` | Indicates if the rate is a tiered rate. |
-| 199 | transactionCode | `String` | Rate transaction code |
-| 200 | transactionCodeWeekend | `String` | Transaction Code Weekend |
-| 201 | transactionTaxWeekendIncludedYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
-| 202 | unitOfLengthOfStay | `Float` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
-| 203 | updateDate | `DateTime` | Update Date |
-| 204 | updateUser | `Float` | Update User |
-| 205 | upsellYn | `String` | Indicates if the rate code can be upsold |
-| 206 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
-| 207 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
-| 208 | wkDeptCode | `String` | Wk Dept Code |
-| 209 | yieldAs | `String` | Yield As |
-| 210 | yieldableYN | `String` | Yieldable YN |
-| 211 | ymCode | `String` | Ym Code |
+| 109 | localRateCode | `String` | Local rate code associated with offshore rate code. |
+| 110 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 111 | longInfo | `String` | Long Info |
+| 112 | loyaltyProgramYN | `String` | Flag to indicate if this is a loyalty program |
+| 113 | mandateResvProfiles | `String` | Indicates mandatory reservation profiles. This is used to force entry of profiles on the reservation header if this rate is picked. |
+| 114 | marketCode | `String` | Market Code |
+| 115 | marketDescription | `String` | Market Description |
+| 116 | marketGroupCode | `String` | Market Group Code |
+| 117 | marketGroupDescription | `String` | Market Group Description |
+| 118 | marshaRateProgram | `String` | Contains the rate program information from the MARSHA interface. |
+| 119 | maximumDaysAdvanceBooking | `Float` | Maximum Days Advance Booking |
+| 120 | maximumLengthOfStay | `Float` | Maximum Length of Stay |
+| 121 | maximumOccupancy | `Float` | Maximum Occupancy |
+| 122 | mfnUploadYn | `String` | Flag used to determine if the rate code is to be sent to MyFidelio.net if the rate is being received from a V6 V7 V8 or OPMS on a lower version on which flag used to determine if the rate code is to be sent to MyFidelio.net does not exist on the rate header. |
+| 123 | minimumDaysAdvanceBooking | `Float` | Minimum Days Advance Booking |
+| 124 | minimumOccupancy | `Float` | Minimum Occupancy |
+| 125 | mobileCheckinAllowedYn | `String` | Mobile Checkin Allowed Y/N |
+| 126 | mobileChkoutAllowed | `String` | Mobile Chkout Allowed |
+| 127 | multiplication | `String` | Amount to be multiplied to the base rate when shown on rate query |
+| 128 | myFidelioUploadYN | `String` | MyFidelio Upload YN |
+| 129 | negotiatedYN | `String` | Property is negotiated of search criteria or not. |
+| 130 | occupancyBasedYn | `String` | Indicates if the rate code is occupancy based. |
+| 131 | occupancyLevel | `Float` | Indicates the occupancy level for hurdle evaluation. |
+| 132 | offshoreRateYN | `String` | Indicates if rate code is an offshore rate. |
+| 133 | operatorType | `String` | The operator type to use during the calculation of base rates. (ADD_TO SUBTRACT) |
+| 134 | orderBy | `Float` | Order By |
+| 135 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 136 | originalRateCode | `String` | Original Rate Code |
+| 137 | orsSellSequence | `Float` | Indicates the order in which this rate should be displayed during the booking process when the ors_rate_sell_sequence functionality is active. |
+| 138 | overridePackageYn | `String` | Indicates if we need to override package for hurdle evaluation. |
+| 139 | ownerRateYN | `String` | Indicates Owners Rate Code. This is used to perform rolling noshow. |
+| 140 | packageTransactionCode | `String` | Package Transaction Code |
+| 141 | packageTransactionCodeWeekend | `String` | Package Transaction Code Weekend |
+| 142 | packageTransactionTaxInclYN | `String` | Wrapper transaction code tax inclusive Y/N |
+| 143 | packageTransactionTaxIncludedYN | `String` | Transaction code is inclusive of tax Y/N |
+| 144 | packageTransactionWkTaxInclYN | `String` | Wrapper transaction code tax inclusive for weekend days Y/N |
+| 145 | packageYN | `String` | Package YN |
+| 146 | packages | `String` | Packages |
+| 147 | pendingApprovalYn | `String` | Indicates whether the rate code is pending for approval or not |
+| 148 | pointsDiscountYN | `String` | Allow users to use points to get discount on rate codes. |
+| 149 | postingInterval | `String` | Posting Interval. |
+| 150 | postingRhythm | `String` | Posting Rhythm |
+| 151 | postingRhythmNights | `Float` | Number of nights for posting rhythm. |
+| 152 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 153 | printRateYn | `String` | Print Rate Y/N |
+| 154 | privilegedRestrictionYn | `String` | Indicates if restriction for rate is privileged or not. |
+| 155 | privilegedYn | `String` | Indicates if rate is privileged or not. |
+| 156 | profitTransactionCode | `String` | Profit Transaction Code |
+| 157 | property | `String` | Code to uniquely identify the Property |
+| 158 | propertyName | `String` | Property Name |
+| 159 | rankAdjustmentFactor | `Float` | Any number between -10 and +10. This adjustment factor will be applied to the daily ranking value of table RESORT_DAY_TYPE_DATES for the stay date to determine the Rate code rank value. |
+| 160 | rankValue | `Float` | Rank Value |
+| 161 | rateBucket | `String` | Yield rate bucket |
+| 162 | rateBucketDescription | `String` | Rate Bucket Description |
+| 163 | rateCalendarYn | `String` | Indicates if rate Calendar factors such as adder/multiplier should be used for price calculation. |
+| 164 | rateCategory | `String` | Rate Category |
+| 165 | rateCategoryDescription | `String` | Rate Category Description |
+| 166 | rateClass | `String` | Rate Class |
+| 167 | rateClassDescription | `String` | Rate Class Description |
+| 168 | rateCodeId | `String` | Rate Code ID |
+| 169 | rateCodeLockedYn | `String` | Rate Code Locked Y/N |
+| 170 | rateFloor | `Float` | Contains the minimum value of the rate amount which can be defined in the rate details. |
+| 171 | rateFloorOverrideYn | `String` | This flag indicates if the Rate Floor Rate is overridden for a particular Rate Code. |
+| 172 | rateIncludesTaxYn | `String` | Does this rate include tax? Y/N |
+| 173 | rateLabel | `String` | Rate Label |
+| 174 | rateLevel | `Float` | Rate Level this rate code belongs to. |
+| 175 | rateUpdateYN | `String` | Needs to send this rate to GDS or not. |
+| 176 | rateinfoUrl | `String` | Rateinfo Url |
+| 177 | redemptionRateYN | `String` | Redemption Rate YN |
+| 178 | regionalAvailabilityYN | `String` | Regional Availability YN |
+| 179 | repeatPostingRhythmYn | `String` | Indicates if the posting rhythm on the rate code is repeated until the end of the stay otherwise the posting rhythm is applied only once. |
+| 180 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 181 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 182 | rodBaseAmount | `Float` | Rod Base Amount |
+| 183 | rodBaseFltPct | `String` | Rod Base Flt Pct |
+| 184 | rodBaseRounding | `String` | Rod Base Rounding |
+| 185 | rodBasedYn | `String` | Is the group code rate of day based |
+| 186 | rodYn | `String` | Rod Y/N |
+| 187 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 188 | roomType | `String` | Room Type |
+| 189 | roomTypeDescription | `String` | Room Type Description |
+| 190 | sdowBeginBookingDate | `Date` | Holds a copy of the column begin_booking_date while the rate code is disabled or with changes pending of approval |
+| 191 | sdowEndBookingDate | `Date` | Holds a copy of the column end_booking_date while the rate code is disabled or with changes pending of approval |
+| 192 | serviceInclYn | `String` | PCR: Are Service Charges included in this rate code? |
+| 193 | servicePerc | `Float` | Service Percentage included. |
+| 194 | shortInfo | `String` | Information to be used in the rate query |
+| 195 | showRateAmountYn | `String` | Flag used to show or hide rate column in Block Grid and used as default by block reservations. |
+| 196 | sourceCode | `String` | Source Code |
+| 197 | sourceDescription | `String` | Source Description |
+| 198 | sourceGroupCode | `String` | Source Group Code |
+| 199 | sourceGroupDescription | `String` | Source Group Description |
+| 200 | taxIncludedPerc | `Float` | Percentage of included Tax. |
+| 201 | taxIncludedYn | `String` | Tax is included in this rate. |
+| 202 | tieredYN | `String` | Indicates if the rate is a tiered rate. |
+| 203 | transactionCode | `String` | Rate transaction code |
+| 204 | transactionCodeWeekend | `String` | Transaction Code Weekend |
+| 205 | transactionTaxWeekendIncludedYN | `String` | Transaction code is inclusive of tax for weekend days Y/N |
+| 206 | unitOfLengthOfStay | `Float` | Indicates the lengh of Stay Unit in days. If value is > 1 then it is a pkg rate code. |
+| 207 | updateDate | `DateTime` | Update Date |
+| 208 | updateUser | `Float` | Update User |
+| 209 | upsellYn | `String` | Indicates if the rate code can be upsold |
+| 210 | voucherBenefitRateYn | `String` | Flag to indicate if this is a voucher benefit rate code. |
+| 211 | weekendDays | `String` | Indicates weekend days seperated by '' Eg 17 ie Sun and Sat |
+| 212 | wkDeptCode | `String` | Wk Dept Code |
+| 213 | yieldAs | `String` | Yield As |
+| 214 | yieldableYN | `String` | Yieldable YN |
+| 215 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -892,18 +896,18 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | ratecodedetailsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| ratecodedetailsDetailsEndDate | `DateInput` | End Date |
-| ratecodedetailsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| ratecodedetailsDetailsLinkRateSetId | `FloatInput` | Rate set id of the base rates rate set. |
-| ratecodedetailsDetailsMarketCode | `StringInput` | Market Code |
+| ratecodedetailsDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsLinkRateSetId | `FloatInput` | Rate set id of the base rates rate set.<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsMarketCode | `StringInput` | Market Code<br>`@conditionalInputPair(pair: 2)` |
 | ratecodedetailsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| ratecodedetailsDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| ratecodedetailsDetailsRateCode | `StringInput` | Rate Code |
-| ratecodedetailsDetailsRateSetId | `FloatInput` | Rate Set ID |
-| ratecodedetailsDetailsSeasonCode | `StringInput` | Season Code |
-| ratecodedetailsDetailsSourceCode | `StringInput` | Source Code |
-| ratecodedetailsDetailsBeginDate | `DateInput` | Start Date |
-| ratecodedetailsDetailsTierId | `FloatInput` | Tier ID for the Rate Detail. |
+| ratecodedetailsDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| ratecodedetailsDetailsRateCode | `StringInput` | Rate Code<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsRateSetId | `FloatInput` | Rate Set ID<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsSeasonCode | `StringInput` | Season Code<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsSourceCode | `StringInput` | Source Code<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsBeginDate | `DateInput` | Start Date<br>`@conditionalInputPair(pair: 2)` |
+| ratecodedetailsDetailsTierId | `FloatInput` | Tier ID for the Rate Detail.<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -1179,6 +1183,7 @@
 | ratecodeDetailsDbaseRateCode | `StringInput` | The rate code on which this rate shedule is dynamically based on. |
 | ratecodeDetailsSellSequence | `FloatInput` | Display Sequence |
 | ratecodeDetailsEndBookingDate | `DateInput` | End Date |
+| ratecodeDetailsGdsAllowedYn | `StringInput` | Is this rate code available for GDS |
 | ratecodeDetailsGroupCode | `StringInput` | Group Code |
 | ratecodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | ratecodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
@@ -1207,8 +1212,20 @@
 | ratetierDetailsTierId | `FloatInput` | Tier ID for the Rate Detail. |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - ratecodedetailsDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- ratecodedetailsDetailsEndDate
+- ratecodedetailsDetailsJrnupdatedttm
+- ratecodedetailsDetailsLinkRateSetId
+- ratecodedetailsDetailsMarketCode
+- ratecodedetailsDetailsRateCode
+- ratecodedetailsDetailsRateSetId
+- ratecodedetailsDetailsSeasonCode
+- ratecodedetailsDetailsSourceCode
+- ratecodedetailsDetailsBeginDate
+- ratecodedetailsDetailsTierId
 
 
 [⬆ Back to Query](#query)
@@ -1812,6 +1829,7 @@ query ratesCodeDetails($input: RatesCodeDetailsQueryArgumentsType!) {
       internalOrganizationId
       jRNUpdateDate
       jRNUpdateDateAndTime
+      localRateCode
       locationID
       longInfo
       loyaltyProgramYN
@@ -1834,6 +1852,7 @@ query ratesCodeDetails($input: RatesCodeDetailsQueryArgumentsType!) {
       negotiatedYN
       occupancyBasedYn
       occupancyLevel
+      offshoreRateYN
       operatorType
       orderBy
       organizationID
@@ -1849,6 +1868,8 @@ query ratesCodeDetails($input: RatesCodeDetailsQueryArgumentsType!) {
       packageYN
       packages
       pendingApprovalYn
+      pointsDiscountYN
+      postingInterval
       postingRhythm
       postingRhythmNights
       primaryKeyID
@@ -2539,6 +2560,7 @@ rate_code_details_schema = {
     'internalOrganizationId': pl.Float64,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
+    'localRateCode': pl.Utf8,
     'locationID': pl.Utf8,
     'longInfo': pl.Utf8,
     'loyaltyProgramYN': pl.Utf8,
@@ -2561,6 +2583,7 @@ rate_code_details_schema = {
     'negotiatedYN': pl.Utf8,
     'occupancyBasedYn': pl.Utf8,
     'occupancyLevel': pl.Float64,
+    'offshoreRateYN': pl.Utf8,
     'operatorType': pl.Utf8,
     'orderBy': pl.Float64,
     'organizationID': pl.Int64,
@@ -2576,6 +2599,8 @@ rate_code_details_schema = {
     'packageYN': pl.Utf8,
     'packages': pl.Utf8,
     'pendingApprovalYn': pl.Utf8,
+    'pointsDiscountYN': pl.Utf8,
+    'postingInterval': pl.Utf8,
     'postingRhythm': pl.Utf8,
     'postingRhythmNights': pl.Float64,
     'primaryKeyID': pl.Int64,

@@ -162,23 +162,25 @@
 | 124 | promptAtUpdateReservation | `String` | Indicates if resv_memberships should popup when a reservation is updated. |
 | 125 | rankValue | `Float` | Rank Value |
 | 126 | ranking | `Float` | Ranking |
-| 127 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 128 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 129 | roomAssignmentValue | `Float` | Room Assignment Value |
-| 130 | sendChkoutToIfc | `String` | Send checkout reservation information to the interface for Courtesy Cards? |
-| 131 | sequence | `Float` | Sequence |
-| 132 | tierAdministration | `String` | Tier Administration |
-| 133 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
-| 134 | transactionMaxPoints | `Float` | Indicates the maximum points that can be accrued per membership transaction. |
-| 135 | tscDateFlag | `String` | Tier Management Based on Date. |
-| 136 | udfCardValidationYn | `String` | Indicates if card number validation is a UDF(User defined function) or Default validation is used. |
-| 137 | udfFormula | `String` | Udf Formula |
-| 138 | updateDate | `DateTime` | Update Date |
-| 139 | updateUser | `String` | Update User |
-| 140 | upgradePeriod | `Float` | Number of months to consider for upgrade. |
-| 141 | validationByIfc | `String` | Indicates if the card is to be validated by an external system. |
-| 142 | vipStatus | `String` | VIP Status |
-| 143 | yearsToExpire | `Float` | Years To Expire |
+| 127 | referralCount | `Float` | Number of times a new member has been referred. |
+| 128 | referredByMember | `String` | Name ID of member who referred. |
+| 129 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 130 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 131 | roomAssignmentValue | `Float` | Room Assignment Value |
+| 132 | sendChkoutToIfc | `String` | Send checkout reservation information to the interface for Courtesy Cards? |
+| 133 | sequence | `Float` | Sequence |
+| 134 | tierAdministration | `String` | Tier Administration |
+| 135 | trackData | `String` | Stores key track information for a universal card that may be different than the membership number. |
+| 136 | transactionMaxPoints | `Float` | Indicates the maximum points that can be accrued per membership transaction. |
+| 137 | tscDateFlag | `String` | Tier Management Based on Date. |
+| 138 | udfCardValidationYn | `String` | Indicates if card number validation is a UDF(User defined function) or Default validation is used. |
+| 139 | udfFormula | `String` | Udf Formula |
+| 140 | updateDate | `DateTime` | Update Date |
+| 141 | updateUser | `String` | Update User |
+| 142 | upgradePeriod | `Float` | Number of months to consider for upgrade. |
+| 143 | validationByIfc | `String` | Indicates if the card is to be validated by an external system. |
+| 144 | vipStatus | `String` | VIP Status |
+| 145 | yearsToExpire | `Float` | Years To Expire |
 
 [⬆ Back to Query](#query)
 
@@ -501,22 +503,23 @@
 | 84 | recordTypeCode | `String` | Record Type Code |
 | 85 | recordTypeDescription | `String` | Record Type Description |
 | 86 | reference | `String` | Reference |
-| 87 | reservationNameID | `Float` | Reservation Name ID |
-| 88 | reservationStatus | `String` | Reservation Status |
-| 89 | roomLabel | `String` | Room Label |
-| 90 | statementId | `Float` | Statement ID |
-| 91 | stay | `Float` | Total stay. |
-| 92 | stayRecordId | `Float` | Stay Record ID |
-| 93 | tierAction | `String` | Type of action performed. |
-| 94 | totalEligibleAwardRedeem | `Float` | Total monetary value of transactions on the guest account eligible to redeem Instant Award payments. |
-| 95 | totalEligibleCreditEarn | `Float` | Total monetary value of transactions on the guest account eligible to earn membership credits. |
-| 96 | totalPoints | `Float` | Total Points |
-| 97 | totalRevenue | `Float` | Total Revenue |
-| 98 | transactionDate | `Date` | Transaction date. |
-| 99 | transactionType | `String` | Transaction Type |
-| 100 | updateDate | `DateTime` | Update Date |
-| 101 | updateUser | `Float` | Update User |
-| 102 | username | `String` | Username |
+| 87 | referredMember | `String` | Name ID of member referred. |
+| 88 | reservationNameID | `Float` | Reservation Name ID |
+| 89 | reservationStatus | `String` | Reservation Status |
+| 90 | roomLabel | `String` | Room Label |
+| 91 | statementId | `Float` | Statement ID |
+| 92 | stay | `Float` | Total stay. |
+| 93 | stayRecordId | `Float` | Stay Record ID |
+| 94 | tierAction | `String` | Type of action performed. |
+| 95 | totalEligibleAwardRedeem | `Float` | Total monetary value of transactions on the guest account eligible to redeem Instant Award payments. |
+| 96 | totalEligibleCreditEarn | `Float` | Total monetary value of transactions on the guest account eligible to earn membership credits. |
+| 97 | totalPoints | `Float` | Total Points |
+| 98 | totalRevenue | `Float` | Total Revenue |
+| 99 | transactionDate | `Date` | Transaction date. |
+| 100 | transactionType | `String` | Transaction Type |
+| 101 | updateDate | `DateTime` | Update Date |
+| 102 | updateUser | `Float` | Update User |
+| 103 | username | `String` | Username |
 
 [⬆ Back to Query](#query)
 
@@ -705,19 +708,20 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
+| loyaltyprofilemembershipDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
 | loyaltyprofilemembershipDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| loyaltyprofilemembershipDetailsDeviceCode | `StringInput` | Device Code |
-| loyaltyprofilemembershipDetailsInactiveDate | `DateTimeInput` | Inactive Date |
-| loyaltyprofilemembershipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| loyaltyprofilemembershipDetailsMembershipCardNo | `StringInput` | Membership Card Number |
-| loyaltyprofilemembershipDetailsMembershipClass | `StringInput` | Primary key of this table |
-| loyaltyprofilemembershipDetailsMembershipId | `FloatInput` | Membership ID |
-| loyaltyprofilemembershipDetailsMembershipLevel | `StringInput` | Membership Level |
-| loyaltyprofilemembershipDetailsMembershipType | `StringInput!` | Membership Type<br>`@mandatoryInput` |
-| loyaltyprofilemembershipDetailsNameId | `FloatInput` | Name ID |
+| loyaltyprofilemembershipDetailsDeviceCode | `StringInput` | Device Code<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsInactiveDate | `DateTimeInput` | Inactive Date<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsMembershipCardNo | `StringInput` | Membership Card Number<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsMembershipClass | `StringInput` | Primary key of this table<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsMembershipId | `FloatInput` | Membership ID<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsMembershipLevel | `StringInput` | Membership Level<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsMembershipType | `StringInput` | Membership Type<br>`@conditionalInputPair(pair: 1)` |
+| loyaltyprofilemembershipDetailsNameId | `FloatInput` | Name ID<br>`@conditionalInputPair(pair: 2)` |
 | loyaltyprofilemembershipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| loyaltyprofilemembershipDetailsPartnerMembershipId | `FloatInput` | Membership ID that accrues Miles. |
-| loyaltyprofilemembershipDetailsUpdateDate | `DateTimeInput` | Update Date |
+| loyaltyprofilemembershipDetailsPartnerMembershipId | `FloatInput` | Membership ID that accrues Miles.<br>`@conditionalInputPair(pair: 2)` |
+| loyaltyprofilemembershipDetailsUpdateDate | `DateTimeInput` | Update Date<br>`@conditionalInputPair(pair: 2)` |
 | membershipbenefitsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | membershipclaimDetailsApprovalStatus | `StringInput` | Approval Status |
 | membershipclaimDetailsApproveReject | `StringInput` | Approve/Reject/None |
@@ -731,6 +735,7 @@
 | membershipclaimDetailsClaimDate | `DateInput` | Date claim was posted in the database. |
 | membershipclaimDetailsMembershipClaimId | `FloatInput` | Primary key. |
 | membershipclaimDetailsClaimOrigin | `StringInput` | User defined origin of claim. |
+| membershipclaimDetailsClaimOwner | `FloatInput` | Claim Owner |
 | membershipclaimDetailsClaimSource | `StringInput` | Source of the Claim |
 | membershipclaimDetailsClaimStatus | `StringInput` | Status of the claim. |
 | membershipclaimDetailsClaimType | `StringInput` | User Defined Claim Types |
@@ -741,6 +746,7 @@
 | membershipclaimDetailsDepartureDate | `DateInput` | Departure Date |
 | membershipclaimDetailsCrsBookNo | `StringInput` | External Reference Number |
 | membershipclaimDetailsInsertDate | `DateTimeInput` | Insert Date |
+| membershipclaimDetailsInsertUser | `FloatInput` | Insert User |
 | membershipclaimDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | membershipclaimDetailsMarketCode | `StringInput` | Market Code |
 | membershipclaimDetailsResort | `StringInput` | Membership Claim Property |
@@ -820,6 +826,7 @@
 | membershiptransactionsDetailsRecordTypeDesc | `StringInput` | Record Type Description |
 | membershiptransactionsDetailsResvStatus | `StringInput` | Reservation Status |
 | membershiptransactionsDetailsRoomLabel | `StringInput` | Room Label |
+| membershiptransactionsDetailsStatementId | `FloatInput` | Statement ID |
 | membershiptransactionsDetailsStayRecordId | `FloatInput` | Stay Record ID |
 | membershiptransactionsDetailsTierAction | `StringInput` | Type of action performed. |
 | membershiptransactionsDetailsMembershipTrxDate | `DateInput` | Transaction date. |
@@ -828,8 +835,21 @@
 | membershiptscheaderDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- loyaltyprofilemembershipDetailsChainCode
 - loyaltyprofilemembershipDetailsMembershipType
+
+**`conditionalInputPair(pair: 2)`**
+- loyaltyprofilemembershipDetailsDeviceCode
+- loyaltyprofilemembershipDetailsInactiveDate
+- loyaltyprofilemembershipDetailsJrnupdatedttm
+- loyaltyprofilemembershipDetailsMembershipCardNo
+- loyaltyprofilemembershipDetailsMembershipClass
+- loyaltyprofilemembershipDetailsMembershipId
+- loyaltyprofilemembershipDetailsMembershipLevel
+- loyaltyprofilemembershipDetailsNameId
+- loyaltyprofilemembershipDetailsPartnerMembershipId
+- loyaltyprofilemembershipDetailsUpdateDate
 
 
 [⬆ Back to Query](#query)
@@ -967,6 +987,8 @@ query profilesLoyalty($input: ProfilesLoyaltyQueryArgumentsType!) {
       promptAtUpdateReservation
       rankValue
       ranking
+      referralCount
+      referredByMember
       rnaInsertDate
       rnaUpdateDate
       roomAssignmentValue
@@ -1271,6 +1293,7 @@ query profilesLoyalty($input: ProfilesLoyaltyQueryArgumentsType!) {
       recordTypeCode
       recordTypeDescription
       reference
+      referredMember
       reservationNameID
       reservationStatus
       roomLabel
@@ -1478,6 +1501,8 @@ loyalty_profile_membership_details_schema = {
     'promptAtUpdateReservation': pl.Utf8,
     'rankValue': pl.Float64,
     'ranking': pl.Float64,
+    'referralCount': pl.Float64,
+    'referredByMember': pl.Utf8,
     'rnaInsertDate': pl.Utf8,
     'rnaUpdateDate': pl.Utf8,
     'roomAssignmentValue': pl.Float64,
@@ -1792,6 +1817,7 @@ membership_transactions_details_schema = {
     'recordTypeCode': pl.Utf8,
     'recordTypeDescription': pl.Utf8,
     'reference': pl.Utf8,
+    'referredMember': pl.Utf8,
     'reservationNameID': pl.Float64,
     'reservationStatus': pl.Utf8,
     'roomLabel': pl.Utf8,

@@ -183,16 +183,20 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| eventtypeDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
+| eventtypeDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
 | eventtypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| eventtypeDetailsEventType | `StringInput` | Event Type |
+| eventtypeDetailsEventType | `StringInput` | Event Type<br>`@conditionalInputPair(pair: 2)` |
 | eventtypeDetailsEventtypeid | `StringInput` | Eventtypeid |
-| eventtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| eventtypeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | eventtypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - eventtypeDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- eventtypeDetailsEventType
+- eventtypeDetailsJrnupdatedttm
 
 
 [⬆ Back to Query](#query)

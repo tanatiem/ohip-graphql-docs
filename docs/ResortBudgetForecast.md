@@ -537,17 +537,17 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| resortbudgetforecastDetailsAccountingYear | `FloatInput!` | Accounting Year.<br>`@mandatoryInput` |
-| resortbudgetforecastDetailsBudgetCodeType | `StringInput` | Budget Code |
-| resortbudgetforecastDetailsBudgetType | `StringInput` | Budget Type |
-| resortbudgetforecastDetailsBudgetCodeValue | `StringInput` | Budget Code. Can be either Market Code Transaction Code or Custom Code. Depends on field Budget Code Type. |
+| resortbudgetforecastDetailsAccountingYear | `FloatInput` | Accounting Year.<br>`@conditionalInputPair(pair: 2)` |
+| resortbudgetforecastDetailsBudgetCodeType | `StringInput` | Budget Code<br>`@conditionalInputPair(pair: 2)` |
+| resortbudgetforecastDetailsBudgetType | `StringInput` | Budget Type<br>`@conditionalInputPair(pair: 2)` |
+| resortbudgetforecastDetailsBudgetCodeValue | `StringInput` | Budget Code. Can be either Market Code Transaction Code or Custom Code. Depends on field Budget Code Type.<br>`@conditionalInputPair(pair: 2)` |
 | resortbudgetforecastDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| resortbudgetforecastDetailsEndDate | `DateInput` | End Date |
-| resortbudgetforecastDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| resortbudgetforecastDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| resortbudgetforecastDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| resortbudgetforecastDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| resortbudgetforecastDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | resortbudgetforecastDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| resortbudgetforecastDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| resortbudgetforecastDetailsStartDate | `DateInput` | Start Date |
+| resortbudgetforecastDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| resortbudgetforecastDetailsStartDate | `DateInput` | Start Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -827,9 +827,18 @@
 | gregeriancalendarDetailsYearpkid | `FloatInput` | Yearpkid |
 #### Validation Rules
 
-**`mandatoryInput`**
-- resortbudgetforecastDetailsAccountingYear
+**`conditionalInputPair(pair: 1)`**
 - resortbudgetforecastDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- resortbudgetforecastDetailsAccountingYear
+- resortbudgetforecastDetailsBudgetCodeType
+- resortbudgetforecastDetailsBudgetType
+- resortbudgetforecastDetailsBudgetCodeValue
+- resortbudgetforecastDetailsEndDate
+- resortbudgetforecastDetailsJrnupdatedttm
+- resortbudgetforecastDetailsLocationid
+- resortbudgetforecastDetailsStartDate
 
 
 [⬆ Back to Query](#query)

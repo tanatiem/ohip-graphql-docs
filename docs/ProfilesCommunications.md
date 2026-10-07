@@ -678,7 +678,7 @@
 | --- | --- | --- |
 | profilecommunicationDetailsAddressId | `FloatInput` | Not used. |
 | profilecommunicationDetailsBeginDate | `DateInput` | Not used. |
-| profilecommunicationDetailsChainCode | `StringInput!` | The Chain code of the chain for which this record belongs to.<br>`@mandatoryInput` |
+| profilecommunicationDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to.<br>`@conditionalInputPair(pair: 1)` |
 | profilecommunicationDetailsPmsPhoneId | `FloatInput` | The primary key for this table. |
 | profilecommunicationDetailsRole | `StringInput` | Role in which this phone type belongs to. |
 | profilecommunicationDetailsPhoneNumber | `StringInput` | The phone number for this record |
@@ -694,25 +694,25 @@
 | profilecommunicationDetailsEndDate | `DateInput` | The date this record becomes invalid for use in the system. User enterable. |
 | profilecommunicationDetailsExtension | `StringInput` | Telephone Extension. |
 | profilecommunicationDetailsFirst | `StringInput` | The first name of an individual name. |
-| profilecommunicationDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profilecommunicationDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive<br>`@conditionalInputPair(pair: 2)` |
 | profilecommunicationDetailsInactiveFlag | `StringInput` | Inactive Flag |
-| profilecommunicationDetailsIndexPhone | `StringInput` | Index Phone |
+| profilecommunicationDetailsIndexPhone | `StringInput` | Index Phone<br>`@conditionalInputPair(pair: 2)` |
 | profilecommunicationDetailsInsertDate | `DateTimeInput` | The date the record was created |
 | profilecommunicationDetailsInsertUser | `FloatInput` | The user that created the record |
 | profilecommunicationDetailsOrganizationId | `FloatInput` | Organization ID |
 | profilecommunicationDetailsProfileId | `FloatInput` | The reference to the name that owns this phone. |
-| profilecommunicationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilecommunicationDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | profilecommunicationDetailsLaptopChange | `FloatInput` | Code to synchronize with Laptop |
 | profilecommunicationDetailsLast | `StringInput` | The last name of the individual Profile and Search name ofr the other Types of Profiles (Group Travel Agent & Source) are stored in this column. |
 | profilecommunicationDetailsMobileAudioKeyYn | `StringInput` | Marked as Y when the Phone Number/EMail Address is Opt In. |
 | profilecommunicationDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| profilecommunicationDetailsPhoneId | `FloatInput` | The primary key for this table. |
+| profilecommunicationDetailsPhoneId | `FloatInput` | The primary key for this table.<br>`@conditionalInputPair(pair: 2)` |
 | profilecommunicationDetailsPhoneType | `StringInput` | The type of this phone number. |
 | profilecommunicationDetailsPhoneTypeDescription | `StringInput` | Description of Phone Types. |
 | profilecommunicationDetailsPhoneTypeId | `StringInput` | The type of this phone number. |
 | profilecommunicationDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
-| profilecommunicationDetailsPrimaryYn | `StringInput` | Indicates the primary telephone number in the case of multiple phone numbers on a profile. |
-| profilecommunicationDetailsNameId | `FloatInput` | The reference to the name that owns this phone. |
+| profilecommunicationDetailsPrimaryYn | `StringInput` | Indicates the primary telephone number in the case of multiple phone numbers on a profile.<br>`@conditionalInputPair(pair: 2)` |
+| profilecommunicationDetailsNameId | `FloatInput` | The reference to the name that owns this phone.<br>`@conditionalInputPair(pair: 2)` |
 | profilecommunicationDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
 | profilecommunicationDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
 | profilecommunicationDetailsShareEmailYn | `StringInput` | Used for uploading the email to holidex if the value is Y. |
@@ -748,8 +748,16 @@
 | profileDetailsUpdateDate | `DateTimeInput` | Update Date |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - profilecommunicationDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- profilecommunicationDetailsInactiveDate
+- profilecommunicationDetailsIndexPhone
+- profilecommunicationDetailsJrnupdatedttm
+- profilecommunicationDetailsPhoneId
+- profilecommunicationDetailsPrimaryYn
+- profilecommunicationDetailsNameId
 
 
 [⬆ Back to Query](#query)

@@ -624,13 +624,13 @@
 | --- | --- | --- |
 | profilenoteDetailsActionDueDate | `DateInput` | Activity Due Date |
 | profilenoteDetailsActionType | `StringInput` | Activity Type |
-| profilenoteDetailsChainCode | `StringInput!` | ASP chain code.<br>`@mandatoryInput` |
+| profilenoteDetailsChainCode | `StringInput` | ASP chain code.<br>`@conditionalInputPair(pair: 1)` |
 | profilenoteDetailsConfidentialYn | `StringInput` | Indicates if this note is confidential. |
 | profilenoteDetailsInsertUser | `FloatInput` | The user that created the record |
-| profilenoteDetailsInsertDate | `DateTimeInput` | The date the record was created |
+| profilenoteDetailsInsertDate | `DateTimeInput` | The date the record was created<br>`@conditionalInputPair(pair: 2)` |
 | profilenoteDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | profilenoteDetailsDeletedFlag | `StringInput` | Deleted Flag |
-| profilenoteDetailsExternalNoteId | `StringInput` | Unique ID in External System. |
+| profilenoteDetailsExternalNoteId | `StringInput` | Unique ID in External System.<br>`@conditionalInputPair(pair: 2)` |
 | profilenoteDetailsGlobalNoteYn | `StringInput` | Global Note Y/N |
 | profilenoteDetailsGlobalYn | `StringInput` | Can a global note be created for this note code or not. |
 | profilenoteDetailsInactiveDate | `DateInput` | Inactive date of the record. This indicates that record is no longer in use and can be purged in by purge routine. |
@@ -639,16 +639,16 @@
 | profilenoteDetailsInactiveflag | `StringInput` | Inactive Flag |
 | profilenoteDetailsLocationId | `StringInput` | Location Id |
 | profilenoteDetailsOrganizationId | `FloatInput` | Organization ID |
-| profilenoteDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilenoteDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | profilenoteDetailsLaptopChange | `FloatInput` | Indicator for Laptop change. |
 | profilenoteDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
-| profilenoteDetailsNameId | `FloatInput` | Parent Name_id refers Name table. |
+| profilenoteDetailsNameId | `FloatInput` | Parent Name_id refers Name table.<br>`@conditionalInputPair(pair: 2)` |
 | profilenoteDetailsNameType | `StringInput` | The type of Profile. |
 | profilenoteDetailsNoteCode | `StringInput` | Indicates the Type of Note. |
 | profilenoteDetailsNoteCodeDescription | `StringInput` | Description of Note Code |
-| profilenoteDetailsNoteId | `FloatInput` | Primary Key for the Table |
+| profilenoteDetailsNoteId | `FloatInput` | Primary Key for the Table<br>`@conditionalInputPair(pair: 2)` |
 | profilenoteDetailsInternalYn | `StringInput` | Indicates if this note should be shown to guest. Future use. |
-| profilenoteDetailsNoteTitle | `StringInput` | Title of the Note |
+| profilenoteDetailsNoteTitle | `StringInput` | Title of the Note<br>`@conditionalInputPair(pair: 2)` |
 | profilenoteDetailsNotes | `StringInput` | The actual Note. |
 | profilenoteDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | profilenoteDetailsPkid | `FloatInput` | Internal Primary Key ID to uniquely identify the row |
@@ -688,8 +688,16 @@
 | profileallDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - profilenoteDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- profilenoteDetailsInsertDate
+- profilenoteDetailsExternalNoteId
+- profilenoteDetailsJrnupdatedttm
+- profilenoteDetailsNameId
+- profilenoteDetailsNoteId
+- profilenoteDetailsNoteTitle
 
 
 [⬆ Back to Query](#query)

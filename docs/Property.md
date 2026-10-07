@@ -603,7 +603,7 @@
 | resortDetailsInsertUser | `FloatInput` | The user that created the record |
 | resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |
 | resortDetailsInventoryYn | `StringInput` | Future use |
-| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |
 | resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |
 | resortDetailsLeadsend | `StringInput` | Future use |
@@ -738,6 +738,9 @@
 
 **`conditionalInputPair(pair: 1)`**
 - resortDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- resortDetailsJrnupdatedttm
 
 
 [⬆ Back to Query](#query)

@@ -551,8 +551,11 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| hsktasksheetDetailsResort | `StringInput!` | Property<br>`@mandatoryInput` |
-| hsktasksheetDetailsTaskdate | `DateInput!` | Task Sheet Date<br>`@mandatoryInput` |
+| hsktasksheetDetailsJrnUpdateDateandTime | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| hsktasksheetDetailsResort | `StringInput` | Property<br>`@conditionalInputPair(pair: 1)` |
+| hsktasksheetDetailsTaskseqno | `FloatInput` | Task Seq Number<br>`@conditionalInputPair(pair: 2)` |
+| hsktasksheetDetailsTasksheetno | `FloatInput` | Task Sheet<br>`@conditionalInputPair(pair: 2)` |
+| hsktasksheetDetailsTaskdate | `DateInput` | Task Sheet Date<br>`@conditionalInputPair(pair: 2)` |
 | hkdailytaskroomdetailsDetailsResort | `FloatInput` | Code to uniquely identify the Property |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
@@ -817,8 +820,13 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - hsktasksheetDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- hsktasksheetDetailsJrnUpdateDateandTime
+- hsktasksheetDetailsTaskseqno
+- hsktasksheetDetailsTasksheetno
 - hsktasksheetDetailsTaskdate
 
 

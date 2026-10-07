@@ -30,910 +30,911 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | accountActionCode | `String` | Account Action Code |
-| 2 | accountActiveYN | `String` | Acc Active Y/N |
-| 3 | accountAddressType | `String` | Account Address Type |
-| 4 | accountAddress1 | `String` | Account Address1 |
-| 5 | accountAddress2 | `String` | Account Address2 |
-| 6 | accountAlternateLanguage | `String` | Account Alternate Language |
-| 7 | accountAlternateLanguageDesc | `String` | Acc Xlanguage Description |
-| 8 | accountAlternateSalutation | `String` | Account Alternate Salutation |
-| 9 | accountAlternateTitle | `String` | Account Alternate Title |
-| 10 | accountArNumber | `String` | Acc AR No |
-| 11 | accountAvailoverYN | `String` | Acc Availover Y/N |
-| 12 | accountBlMsg | `String` | Account Bl Msg |
-| 13 | accountBookingId | `Float` | Acc Booking ID |
-| 14 | accountCblIndividual | `String` | Account Cbl Ind |
-| 15 | accountCity | `String` | Account City. |
-| 16 | accountCityExt | `String` | Account City Ext |
-| 17 | accountCommissionCode | `String` | Account Commission Code |
-| 18 | accountCompetitionCode | `String` | Account Competition Code |
-| 19 | accountCountry | `String` | Account Country. |
-| 20 | accountCountryDesc | `String` | Acc Country Description |
-| 21 | accountDsi | `Float` | Account Dsi |
-| 22 | accountEmail | `String` | Account Email |
-| 23 | accountFax | `String` | Account Fax |
-| 24 | accountHistoryYN | `String` | Acc History Y/N |
-| 25 | accountHoldCode | `String` | Account Hold Code |
-| 26 | accountIATACompType | `String` | Account Iata Comp Type |
-| 27 | accountId | `Float` | Acc ID |
-| 28 | accountIndustryCode | `String` | Account Industry Code |
-| 29 | accountKeyword | `String` | Account Keyword |
-| 30 | accountLanguage | `String` | Account Language |
-| 31 | accountLanguageDesc | `String` | Acc Language Description |
-| 32 | accountLinkId | `Float` | Acc Link ID |
-| 33 | accountLinkType | `String` | Account Link Type |
-| 34 | accountMailList | `String` | Account Mail List |
-| 35 | accountMailType | `String` | Account Mail Type |
-| 36 | accountMarkets | `String` | Account Markets |
-| 37 | accountName | `String` | Account Name |
-| 38 | accountNameKeywords | `String` | Account Name Keywords |
-| 39 | accountNameType | `String` | Account Name Type |
-| 40 | accountName2 | `String` | Account Name2 |
-| 41 | accountName3 | `String` | Account Name3 |
-| 42 | accountOrganizationid | `Float` | Account Organizationid |
-| 43 | accountPhone | `String` | Account Phone |
-| 44 | accountPhoneId | `Float` | Acc Phone ID |
-| 45 | accountPhoneNumber | `String` | Account Phone No. |
-| 46 | accountPrimaryYN | `String` | Acc Primary Y/N |
-| 47 | accountPriority | `String` | Account Priority |
-| 48 | accountProductInterest | `String` | Account Product Interest |
-| 49 | accountProperty | `String` | Account Resort |
-| 50 | accountRelationship | `String` | Account Relationship |
-| 51 | accountRelationshipDesc | `String` | Acc Relationship Description |
-| 52 | accountRepActionCode | `String` | Acc Reporting Actioncode |
-| 53 | accountRepCompetionCode | `String` | Acc Reporting Competion Code |
-| 54 | accountRepIATACompType | `String` | Acc Reporting Iata Comp Type |
-| 55 | accountRepIndustryCode | `String` | Acc Reporting Industry Code |
-| 56 | accountRepMarkets | `String` | Acc Reporting Markets |
-| 57 | accountRepNameType | `String` | Acc Reporting Name Type |
-| 58 | accountRepScope | `String` | Acc Reporting Scope |
-| 59 | accountRepScopeCity | `String` | Acc Reporting Scope City |
-| 60 | accountRepSource | `String` | Acc Reporting Source |
-| 61 | accountRepStateCode | `String` | Acc Reporting State Code |
-| 62 | accountRepStateDescription | `String` | Acc Reporting State Desc |
-| 63 | accountRepTerritory | `String` | Acc Reporting Territory |
-| 64 | accountRepType | `String` | Acc Reporting Type |
-| 65 | accountRoomsPotential | `String` | Account Rooms Potential |
-| 66 | accountScope | `String` | Account Scope |
-| 67 | accountScopeCity | `String` | Account Scope City |
-| 68 | accountSname | `String` | Account Sname |
-| 69 | accountSource | `String` | Account Source |
-| 70 | accountSrepCode | `String` | Account Srep Code |
-| 71 | accountState | `String` | Account State. |
-| 72 | accountStateDesc | `String` | Acc State Description |
-| 73 | accountSxname | `String` | Account Sxname |
-| 74 | accountTerritory | `String` | Account Territory |
-| 75 | accountType | `String` | Account Type |
-| 76 | accountXdisplayName | `String` | Account Xdisplay Name |
-| 77 | accountXenvelopeGreeting | `String` | Account Xenvelope Greeting |
-| 78 | accountXfirstName | `String` | Account Xfirst Name |
-| 79 | accountZipcode | `String` | Account Zipcode |
-| 80 | actionId | `Float` | Action ID |
-| 81 | agentActiveYn | `String` | Agent Active Y/N |
-| 82 | agentAddressType | `String` | Agent Address Type |
-| 83 | agentAddress1 | `String` | Agent Address1 |
-| 84 | agentAddress2 | `String` | Agent Address2 |
-| 85 | agentAlternateLanguage | `String` | Agent Alternate Language |
-| 86 | agentAlternateLanguageDesc | `String` | Agent Xlanguage Description |
-| 87 | agentAlternateSalutation | `String` | Agent Alternate Salutation |
-| 88 | agentAlternateTitle | `String` | Agent Alternate Title |
-| 89 | agentArNumber | `String` | Agent AR No |
-| 90 | agentAuSrepCode | `String` | Agent Au Srep Code |
-| 91 | agentAvailabilityOverride | `String` | Agent Availability Override |
-| 92 | agentBookingId | `Float` | Agent Booking ID |
-| 93 | agentCblInd | `String` | Agent Cbl Individual |
-| 94 | agentCity | `String` | Agent City |
-| 95 | agentCityExt | `String` | Agent City Ext |
-| 96 | agentConActionCode | `String` | Agent Con Action Code |
-| 97 | agentConActiveYn | `String` | Agent Con Active Y/N |
-| 98 | agentConAddressType | `String` | Agent Con Address Type |
-| 99 | agentConAddress1 | `String` | Agent Con Address1 |
-| 100 | agentConAddress2 | `String` | Agent Con Address2 |
-| 101 | agentConAddress3 | `String` | Agent Con Address3 |
-| 102 | agentConAddress4 | `String` | Agent Con Address4 |
-| 103 | agentConAlternateLanguage | `String` | Agent Con Alternate Language |
-| 104 | agentConAlternateLanguageDesc | `String` | Agent Con Xlanguage Description |
-| 105 | agentConAlternateSalutation | `String` | Agent Con Alternate Salutation |
-| 106 | agentConAlternateTitle | `String` | Agent Con Alternate Title |
-| 107 | agentConArNumber | `String` | Agent Con AR No |
-| 108 | agentConAuSrepCode | `String` | Agent Con Au Srep Code |
-| 109 | agentConAvailabilityOverride | `String` | Agent Con Availability Override |
-| 110 | agentConBirthDate | `Date` | Agent Con Birth Date |
-| 111 | agentConBirthDateStr | `String` | Agent Con Birth Date Str |
-| 112 | agentConBookingId | `Float` | Agent Con Booking ID |
-| 113 | agentConBusinessGreeting | `String` | Agent Con Business Greeting |
-| 114 | agentConCashBlInd | `String` | Agent Con Cash Bl Individual |
-| 115 | agentConCity | `String` | Agent Con City |
-| 116 | agentConCityExt | `String` | Agent Con City Ext |
-| 117 | agentConContactYn | `String` | Agent Con Contact Y/N |
-| 118 | agentConCountry | `String` | Agent Con Country |
-| 119 | agentConCountryDesc | `String` | Agent Con Country Description |
-| 120 | agentConDepartment | `String` | Agent Con Department |
-| 121 | agentConDsi | `Float` | Agent Con Dsi |
-| 122 | agentConEmail | `String` | Agent Con Email |
-| 123 | agentConFax | `String` | Agent Con Fax |
-| 124 | agentConFirst | `String` | Agent Con First |
-| 125 | agentConHistoryYn | `String` | Agent Con History Y/N |
-| 126 | agentConIataCompType | `String` | Agent Con IATA Comp Type |
-| 127 | agentConId | `Float` | Agent Con ID |
-| 128 | agentConIndustryCode | `String` | Agent Con Industry Code |
-| 129 | agentConInfluence | `String` | Agent Con Influence |
-| 130 | agentConLanguage | `String` | Agent Con Language |
-| 131 | agentConLanguageDesc | `String` | Agent Con Language Description |
-| 132 | agentConLast | `String` | Agent Con Last |
-| 133 | agentConLetterGreeting | `String` | Agent Con Letter Greeting |
-| 134 | agentConLinkId | `Float` | Agent Con Link ID |
-| 135 | agentConLinkType | `String` | Agent Con Link Type |
-| 136 | agentConMailType | `String` | Agent Con Mail Type |
-| 137 | agentConMarkets | `String` | Agent Con Markets |
-| 138 | agentConMiddle | `String` | Agent Con Middle |
-| 139 | agentConName | `String` | Agent Con Name |
-| 140 | agentConNameType | `String` | Agent Con Name Type |
-| 141 | agentConName2 | `String` | Agent Con Name2 |
-| 142 | agentConName3 | `String` | Agent Con Name3 |
-| 143 | agentConOrganizationid | `Float` | Agent Con Organizationid |
-| 144 | agentConPhone | `String` | Agent Con Phone |
-| 145 | agentConPosition | `String` | Agent Con Position |
-| 146 | agentConPrimaryYn | `String` | Agent Con Primary Y/N |
-| 147 | agentConProductInterest | `String` | Agent Con Product Interest |
-| 148 | agentConRelationship | `String` | Agent Con Relationship |
-| 149 | agentConRelationshipDesc | `String` | Agent Con Relationship Description |
-| 150 | agentConRepAccountType | `String` | Agent Con Reporting Account Type |
-| 151 | agentConRepAccountsource | `String` | Agent Con Reporting Accountsource |
-| 152 | agentConRepActionCode | `String` | Agent Con Reporting Actioncode |
-| 153 | agentConRepIATACompType | `String` | Agent Con Reporting Iata Comp Type |
-| 154 | agentConRepIndustryCode | `String` | Agent Con Reporting Industry Code |
-| 155 | agentConRepInfluence | `String` | Agent Con Reporting Influence |
-| 156 | agentConRepMarkets | `String` | Agent Con Reporting Markets |
-| 157 | agentConRepNameType | `String` | Agent Con Reporting Name Type |
-| 158 | agentConRepScope | `String` | Agent Con Reporting Scope |
-| 159 | agentConRepScopeCity | `String` | Agent Con Reporting Scope City |
-| 160 | agentConRepStateCode | `String` | Agent Con Reporting State Code |
-| 161 | agentConRepStateDescription | `String` | Agent Con Reporting State Desc |
-| 162 | agentConRepTerritory | `String` | Agent Con Reporting Territory |
-| 163 | agentConRepTitle | `String` | Agent Con Reporting Title |
-| 164 | agentConResort | `String` | Agent Con Property |
-| 165 | agentConScope | `String` | Agent Con Scope |
-| 166 | agentConScopeCity | `String` | Agent Con Scope City |
-| 167 | agentConSfirst | `String` | Agent Con Sfirst |
-| 168 | agentConSname | `String` | Agent Con Sname |
-| 169 | agentConSrepId | `Float` | Agent Con Srep ID |
-| 170 | agentConSrepName | `String` | Agent Con Srep Name |
-| 171 | agentConState | `String` | Agent Con State |
-| 172 | agentConStateDesc | `String` | Agent Con State Description |
-| 173 | agentConSxfirstName | `String` | Agent Con Sxfirst Name |
-| 174 | agentConSxname | `String` | Agent Con Sxname |
-| 175 | agentConTerritory | `String` | Agent Con Territory |
-| 176 | agentConTitle | `String` | Agent Con Title |
-| 177 | agentConXfirst | `String` | Agent Con Xfirst |
-| 178 | agentConXlast | `String` | Agent Con Xlast |
-| 179 | agentConXletterGreeting | `String` | Agent Con Xletter Greeting |
-| 180 | agentConXname | `String` | Agent Con Xname |
-| 181 | agentConZipcode | `String` | Agent Con Zipcode |
-| 182 | agentCountry | `String` | Agent Country |
-| 183 | agentCountryDesc | `String` | Agent Country Description |
-| 184 | agentDsi | `Float` | Agent Dsi |
-| 185 | agentEmail | `String` | Agent Email |
-| 186 | agentFax | `String` | Agent Fax |
-| 187 | agentHistoryYn | `String` | Agent History Y/N |
-| 188 | agentIataCompType | `String` | Agent IATA Comp Type |
-| 189 | agentId | `Float` | Agent ID |
-| 190 | agentIndustryCode | `String` | Agent Industry Code |
-| 191 | agentLanguage | `String` | Agent Language |
-| 192 | agentLanguageDesc | `String` | Agent Language Description |
-| 193 | agentLinkId | `Float` | Agent Link ID |
-| 194 | agentLinkType | `String` | Agent Link Type |
-| 195 | agentMailType | `String` | Agent Mail Type |
-| 196 | agentMarkets | `String` | Agent Markets |
-| 197 | agentName | `String` | Agent Name |
-| 198 | agentNameId | `Float` | Agent Name ID |
-| 199 | agentNameType | `String` | Agent Name Type |
-| 200 | agentName2 | `String` | Agent Name2 |
-| 201 | agentName3 | `String` | Agent Name3 |
-| 202 | agentOrganizationid | `Float` | Agent Organizationid |
-| 203 | agentPhone | `String` | Agent Phone |
-| 204 | agentPrimaryYn | `String` | Agent Primary Y/N |
-| 205 | agentProductInterest | `String` | Agent Product Interest |
-| 206 | agentRelationship | `String` | Agent Relationship |
-| 207 | agentRelationshipDesc | `String` | Agent Relationship Description |
-| 208 | agentRepStateCode | `String` | Agent Reporting State Code |
-| 209 | agentResort | `String` | Agent Property |
-| 210 | agentScope | `String` | Agent Scope |
-| 211 | agentScopeCity | `String` | Agent Scope City |
-| 212 | agentSname | `String` | Agent Sname |
-| 213 | agentState | `String` | Agent State |
-| 214 | agentStateDesc | `String` | Agent State Description |
-| 215 | agentSxname | `String` | Agent Sxname |
-| 216 | agentTerritory | `String` | Agent Territory |
-| 217 | agentXdisplayName | `String` | Agent Xdisplay Name |
-| 218 | agentXenvelopeGreeting | `String` | Agent Xenvelope Greeting |
-| 219 | agentXfirstName | `String` | Agent Xfirst Name |
-| 220 | agentZipcode | `String` | Agent Zipcode |
-| 221 | alias | `String` | Alias |
-| 222 | allOwners | `String` | All Owners |
-| 223 | allotmentCode | `String` | Allotment Code |
-| 224 | allotmentHeaderId | `Float` | Allotment Header ID |
-| 225 | allotmentOrigion | `String` | Allotment Origion |
-| 226 | allotmentType | `String` | Type of Block alloted for the group. |
-| 227 | arrivalTime | `DateTime` | Arrival Time |
-| 228 | attendees | `Float` | Attendees |
-| 229 | avgPeoplePerRoom | `Float` | Avg People Per Room |
-| 230 | avgRateNet | `Float` | Avg Rate Net |
-| 231 | beginDate | `Date` | Begin Date |
-| 232 | bookingStatus | `String` | Booking Status |
-| 233 | bookingStatusOrderby | `Float` | Booking Status Orderby |
-| 234 | bookingStatusType | `String` | Booking Status Type |
-| 235 | bookingStatusorder | `Float` | Booking Statusorder |
-| 236 | bookingmethod | `String` | Bookingmethod |
-| 237 | bookingmethoddesc | `String` | Bookingmethoddesc |
-| 238 | bookingtype | `String` | Bookingtype |
-| 239 | breakfastDesc | `String` | Bfst Description |
-| 240 | breakfastPrice | `Float` | Breakfast Price |
-| 241 | breakfastYn | `String` | Bfst Y/N |
-| 242 | busblockId | `Float` | Busblock ID |
-| 243 | busblockProperty | `String` | Busblock Property |
-| 244 | cBreakfastPrice | `Float` | Central Bfst Price |
-| 245 | cCompRoomValue | `Float` | Central Comp Room Value |
-| 246 | cExchangeDate | `Date` | Central Xchange Date |
-| 247 | cExchangeRate | `Float` | Central Xchange Rate |
-| 248 | cMtgBudget | `Float` | Central Mtg Budget |
-| 249 | cPorteragePrice | `Float` | Central Porterage Price |
-| 250 | cPotRoomRevenue | `Float` | Central Pot Room Revenue |
-| 251 | cServiceCharge | `Float` | Central Service Charge |
-| 252 | cTaxAmount | `Float` | Central Tax Amount |
-| 253 | cancelRule | `String` | Not Used |
-| 254 | cancellationCode | `String` | Cancellation Code |
-| 255 | cancellationDate | `Date` | Cancellation Date |
-| 256 | cancellationDescription | `String` | Cancellation Description |
-| 257 | cancellationNo | `Float` | Cancellation Number |
-| 258 | catCanxCode | `String` | Catering Canx Code |
-| 259 | catCanxDate | `Date` | Catering Canx Date |
-| 260 | catCanxNumber | `Float` | Catering Canx No |
-| 261 | catCurrency | `String` | Catering Currency |
-| 262 | catCutoff | `Date` | Catering Cutoff |
-| 263 | catDecision | `Date` | Catering Decision |
-| 264 | catExchange | `Float` | Catering Exchange |
-| 265 | catFollowup | `Date` | Catering Followup |
-| 266 | catOwner | `Float` | Catering Owner |
-| 267 | catOwnerCode | `String` | Catering Owner Code |
-| 268 | catOwnerEmail | `String` | Catering Owner Email |
-| 269 | catOwnerFax | `String` | Catering Owner Fax |
-| 270 | catOwnerPhone | `String` | Catering Owner Phone |
-| 271 | catOwnerProperty | `String` | Property of Catering Owner |
-| 272 | catOwnerSrepname | `String` | Catering Owner Srepname |
-| 273 | catOwnerTitle | `String` | Catering Owner Title |
-| 274 | catOwners | `String` | Catering Owners |
-| 275 | catQuoteCurrency | `String` | Catering Quote Curr |
-| 276 | catStatus | `String` | Catering Status |
-| 277 | catStatusOrderby | `Float` | Catering Status Orderby |
-| 278 | catStatusType | `String` | Catering Status Type describes Inventory behaviour |
-| 279 | catStatusorder | `Float` | Catering Statusorder |
-| 280 | cateringCanxDesc | `String` | Cat Canx Description |
-| 281 | cateringPkgsYn | `String` | Catering Pkgs Y/N |
-| 282 | cateringonlyYn | `String` | Cateringonly Y/N |
-| 283 | centralOwner | `String` | Stores the name and phone number of the primary central owner. |
-| 284 | channel | `String` | Channel |
-| 285 | commission | `String` | Commission |
-| 286 | compPerStayYn | `String` | Complimentary Rooms based per Stay (Y) or per Night (N) |
-| 287 | compRoomValue | `Float` | Complimentary Rooms: Value given to Customer |
-| 288 | compRooms | `Float` | Number of complimentary Rooms |
-| 289 | compRoomsFixedYn | `String` | Complimentary Rooms: Fixed amount (Y) or calculated (N) |
-| 290 | companyNameId | `Float` | Company Name ID |
-| 291 | competition | `String` | Competition |
-| 292 | conActionCode | `String` | Con Action Code |
-| 293 | conActiveYn | `String` | Con Active Y/N |
-| 294 | conAddressType | `String` | Con Address Type |
-| 295 | conAddress1 | `String` | Con Address1 |
-| 296 | conAddress2 | `String` | Con Address2 |
-| 297 | conAddress3 | `String` | Con Address3 |
-| 298 | conAddress4 | `String` | Con Address4 |
-| 299 | conAlternateLanguage | `String` | Con Alternate Language |
-| 300 | conAlternateLanguageDesc | `String` | Con Xlanguage Description |
-| 301 | conAlternateSalutation | `String` | Con Alternate Salutation |
-| 302 | conAlternateTitle | `String` | Con Alternate Title |
-| 303 | conArNumber | `String` | Con AR No |
-| 304 | conAvailabilityOverride | `String` | Con Availability Override |
-| 305 | conBirthDate | `Date` | Con Birth Date |
-| 306 | conBirthDateStr | `String` | Con Birth Date Str |
-| 307 | conBookingId | `Float` | Con Booking ID |
-| 308 | conBusinessGreeting | `String` | Con Business Greeting |
-| 309 | conCashBlInd | `String` | Con Cash Bl Individual |
-| 310 | conCity | `String` | Con City |
-| 311 | conCityExt | `String` | Con City Ext |
-| 312 | conContactYn | `String` | Con Contact Y/N |
-| 313 | conCountry | `String` | Con Country |
-| 314 | conCountryDesc | `String` | Con Country Description |
-| 315 | conDepartment | `String` | Con Department |
-| 316 | conDsi | `Float` | Con Dsi |
-| 317 | conFirst | `String` | Con First |
-| 318 | conHistoryYn | `String` | Con History Y/N |
-| 319 | conIataCompType | `String` | Con IATA Comp Type |
-| 320 | conId | `Float` | Con ID |
-| 321 | conIndustryCode | `String` | Con Industry Code |
-| 322 | conInfluence | `String` | Con Influence |
-| 323 | conLanguage | `String` | Con Language |
-| 324 | conLanguageDesc | `String` | Con Language Description |
-| 325 | conLast | `String` | Con Last |
-| 326 | conLetterGreeting | `String` | Con Letter Greeting |
-| 327 | conLinkId | `Float` | Con Link ID |
-| 328 | conLinkType | `String` | Con Link Type |
-| 329 | conMailType | `String` | Con Mail Type |
-| 330 | conMarkets | `String` | Con Markets |
-| 331 | conMiddle | `String` | Con Middle |
-| 332 | conName | `String` | Con Name |
-| 333 | conNameType | `String` | Con Name Type |
-| 334 | conName2 | `String` | Con Name2 |
-| 335 | conName3 | `String` | Con Name3 |
-| 336 | conOrganizationid | `Float` | Con Organizationid |
-| 337 | conPosition | `String` | Con Position |
-| 338 | conPrimaryYn | `String` | Con Primary Y/N |
-| 339 | conProductInterest | `String` | Con Product Interest |
-| 340 | conRelationship | `String` | Con Relationship |
-| 341 | conRelationshipDesc | `String` | Con Relationship Description |
-| 342 | conRepActionCode | `String` | Con Reporting Actioncode |
-| 343 | conRepInfluence | `String` | Con Reporting Influence |
-| 344 | conRepMarkets | `String` | Con Reporting Markets |
-| 345 | conRepNameType | `String` | Con Reporting Name Type |
-| 346 | conRepScope | `String` | Con Reporting Scope |
-| 347 | conRepScopeCity | `String` | Con Reporting Scope City |
-| 348 | conRepStateCode | `String` | Con Reporting State Code |
-| 349 | conRepStateDescription | `String` | Con Reporting State Desc |
-| 350 | conRepTerritory | `String` | Con Reporting Territory |
-| 351 | conRepTitle | `String` | Con Reporting Title |
-| 352 | conResort | `String` | Con Property |
-| 353 | conScope | `String` | Con Scope |
-| 354 | conScopeCity | `String` | Con Scope City |
-| 355 | conSfirst | `String` | Con Sfirst |
-| 356 | conSname | `String` | Con Sname |
-| 357 | conSrepCode | `String` | Con Srep Code |
-| 358 | conSrepId | `Float` | Con Srep ID |
-| 359 | conSrepName | `String` | Con Srep Name |
-| 360 | conState | `String` | Con State |
-| 361 | conStateDesc | `String` | Con State Description |
-| 362 | conSxfirstName | `String` | Con Sxfirst Name |
-| 363 | conSxname | `String` | Con Sxname |
-| 364 | conTerritory | `String` | Con Territory |
-| 365 | conTitle | `String` | Con Title |
-| 366 | conXfirst | `String` | Con Xfirst |
-| 367 | conXlast | `String` | Con Xlast |
-| 368 | conXletterGreeting | `String` | Con Xletter Greeting |
-| 369 | conXname | `String` | Con Xname |
-| 370 | contactEmail | `String` | Reservation Contact id salutation information. |
-| 371 | contactFax | `String` | Contact Fax |
-| 372 | contactNameId | `Float` | Contact Name ID |
-| 373 | contactPhone | `String` | Contact Phone |
-| 374 | contactZipcode | `String` | Contact Zipcode |
-| 375 | contractNr | `String` | Contract Nr |
-| 376 | conversionCode | `String` | Conversion Code |
-| 377 | currencyCode | `String` | Currency Code |
-| 378 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 379 | dateOpenedForPickup | `Date` | Business Date when the business block was opened for pickup. |
-| 380 | datePro | `DateTime` | Date Pro |
-| 381 | dateTen | `DateTime` | Date Ten |
-| 382 | defaultPmReservationNameId | `Float` | Defualt Posting Master ID |
-| 383 | deletedflag | `String` | Deleted Flag |
-| 384 | departureTime | `DateTime` | Departure Time |
-| 385 | description | `String` | Description |
-| 386 | destination | `String` | Destination |
-| 387 | detailsOkYn | `String` | Details Ok Y/N |
-| 388 | distributedYn | `String` | Distributed Y/N |
-| 389 | dmlSeqNumber | `Float` | Dml Sequence No |
-| 390 | downloadDate | `Date` | Download Date |
-| 391 | downloadResort | `String` | Download Property |
-| 392 | downloadSrep | `Float` | Download Srep |
-| 393 | dueDate | `Date` | Due Date |
-| 394 | elastic | `String` | Elastic |
-| 395 | endDate | `Date` | End Date |
-| 396 | eventsGuaranteedYn | `String` | Events Guaranteed Y/N |
-| 397 | exchangePostingType | `String` | Exchange Posting Type |
-| 398 | exchangeRate | `Float` | Exchange Rate |
-| 399 | externalLocked | `String` | External Locked |
-| 400 | functiontype | `String` | Functiontype |
-| 401 | giid | `String` | Group IATA Number. |
-| 402 | guaranteeCode | `String` | Guarantee Code |
-| 403 | iataCorpNumber | `String` | IATA Corp No |
-| 404 | inactiveDate | `Date` | Inactive Date |
-| 405 | info | `String` | Not Used |
-| 406 | infoboard | `String` | Infoboard |
-| 407 | insertDate | `DateTime` | Insert Date |
-| 408 | insertUser | `Float` | Insert User |
-| 409 | insertUserName | `String` | The name of the user who created the record. |
-| 410 | invCutoffDate | `Date` | Invoice Cutoff Date |
-| 411 | invCutoffDays | `Float` | Invoice Cutoff Days |
-| 412 | isacOpptyId | `String` | STAR MODE: ISAC opportunity ID. |
-| 413 | isacQuoteId | `String` | Isac Quote ID |
-| 414 | jRNUpdateDate | `Date` | JRN Update Date |
-| 415 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 416 | laptopChange | `Float` | Laptop Change |
-| 417 | leadOrigin | `String` | Lead Origin |
-| 418 | leadSource | `String` | Lead Source |
-| 419 | linkDate | `DateTime` | STAR MODE: Date when the OPERA block was linked to an ISAC opportunity. |
-| 420 | lostToProperty | `String` | Competitor to whom the booking was lost. |
-| 421 | mainmarket | `String` | Mainmarket |
-| 422 | marEventType | `String` | MARRIOTT mode: Marsha Event Type. |
-| 423 | marHouseProtectYn | `String` | MARRIOTT mode: Marsha column for Housing Protected. |
-| 424 | marRollEndDateYn | `String` | MARRIOTT mode: Specifies if the Marsha block has a rolling end date. |
-| 425 | marketCode | `String` | Market Code |
-| 426 | masterNameId | `Float` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
-| 427 | methodDue | `Date` | Method Due |
-| 428 | mtgBudget | `Float` | Meeting Budget |
-| 429 | nonCompete | `String` | Indicate that no other block of the same industry can be booked for the selected dates.Non-Compete indicator : [A]ll [S]ome [N]one. |
-| 430 | nonCompeteCode | `String` | Indicates the Non-Compete code of a block. |
-| 431 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 432 | originalRateCode | `String` | Not used |
-| 433 | owner | `Float` | Owner |
-| 434 | ownerCode | `String` | Owner Code |
-| 435 | ownerCodeSrepname | `String` | Owner Code Srepname |
-| 436 | ownerEmail | `String` | Owner Email |
-| 437 | ownerFax | `String` | Owner Fax |
-| 438 | ownerPhone | `String` | Owner Phone |
-| 439 | ownerResort | `String` | Owner Property |
-| 440 | ownerTitle | `String` | Owner Title |
-| 441 | paymentMethod | `String` | Payment Method |
-| 442 | peakRooms | `Float` | Peak Rooms |
-| 443 | porteragePrice | `Float` | Porterage Price |
-| 444 | porterageYn | `String` | Porterage Y/N |
-| 445 | printAccountActiveYN | `String` | Print Acc Active Y/N |
-| 446 | printAccountAddress1 | `String` | Print Account Address1 |
-| 447 | printAccountAddress2 | `String` | Print Account Address2 |
-| 448 | printAccountAddress3 | `String` | Print Account Address3 |
-| 449 | printAccountAddress4 | `String` | Print Account Address4 |
-| 450 | printAccountBookingId | `Float` | Print Acc Booking ID |
-| 451 | printAccountCity | `String` | Print Account City |
-| 452 | printAccountCityExt | `String` | Print Account City Ext |
-| 453 | printAccountCountry | `String` | Print Account Country |
-| 454 | printAccountCountryDesc | `String` | Print Acc Country Description |
-| 455 | printAccountDsi | `Float` | Print Account Dsi |
-| 456 | printAccountId | `Float` | Print Acc ID |
-| 457 | printAccountLinkId | `Float` | Print Acc Link ID |
-| 458 | printAccountLinkType | `String` | Print Account Link Type |
-| 459 | printAccountName | `String` | Print Account Name |
-| 460 | printAccountName2 | `String` | Print Account Name2 |
-| 461 | printAccountName3 | `String` | Print Account Name3 |
-| 462 | printAccountOrganizationid | `Float` | Print Account Organizationid |
-| 463 | printAccountPhone | `String` | Print Account Phone |
-| 464 | printAccountPosition | `String` | Print Account Position |
-| 465 | printAccountPrimaryYN | `String` | Print Acc Primary Y/N |
-| 466 | printAccountProperty | `String` | Print Account Resort |
-| 467 | printAccountRepStateCode | `String` | Print Acc Reporting State Code |
-| 468 | printAccountRepStateDescription | `String` | Print Acc Reporting State Desc |
-| 469 | printAccountRepTerritory | `String` | Print Acc Reporting Territory |
-| 470 | printAccountScope | `String` | Print Account Scope |
-| 471 | printAccountScopeCity | `String` | Print Account Scope City |
-| 472 | printAccountSname | `String` | Print Account Sname |
-| 473 | printAccountState | `String` | Print Account State |
-| 474 | printAccountStateDesc | `String` | Print Acc State Description |
-| 475 | printAccountSxname | `String` | Print Account Sxname |
-| 476 | printAccountTerritory | `String` | Print Account Territory |
-| 477 | printAccountXdisplayName | `String` | Print Account Xdisplay Name |
-| 478 | printAccountXenvelopeGreeting | `String` | Print Account Xenvelope Greeting |
-| 479 | printAccountXfirstName | `String` | Print Account Xfirst Name |
-| 480 | printAccountXname | `String` | Print Account Xname |
-| 481 | printAccountZipcode | `String` | Print Account Zipcode |
-| 482 | printConAddress1 | `String` | Print Con Address1 |
-| 483 | printConAddress2 | `String` | Print Con Address2 |
-| 484 | printConAddress3 | `String` | Print Con Address3 |
-| 485 | printConAddress4 | `String` | Print Con Address4 |
-| 486 | printConAlternateSalutation | `String` | Print Con Alternate Salutation |
-| 487 | printConBusinessGreeting | `String` | Print Con Business Greeting |
-| 488 | printConCity | `String` | Print Con City |
-| 489 | printConCityExt | `String` | Print Con City Ext |
-| 490 | printConCountry | `String` | Print Con Country |
-| 491 | printConCountryDesc | `String` | Print Con Country Description |
-| 492 | printConDepartment | `String` | Print Con Department |
-| 493 | printConDsi | `Float` | Print Con Dsi |
-| 494 | printConEmail | `String` | Print Con Email |
-| 495 | printConFirst | `String` | Print Con First |
-| 496 | printConId | `Float` | Print Con ID |
-| 497 | printConLast | `String` | Print Con Last |
-| 498 | printConLetterGreeting | `String` | Print Con Letter Greeting |
-| 499 | printConLinkId | `Float` | Print Con Link ID |
-| 500 | printConLinkType | `String` | Print Con Link Type |
-| 501 | printConMiddle | `String` | Print Con Middle |
-| 502 | printConName | `String` | Print Con Name |
-| 503 | printConName2 | `String` | Print Con Name2 |
-| 504 | printConName3 | `String` | Print Con Name3 |
-| 505 | printConOrganizationid | `Float` | Print Con Organizationid |
-| 506 | printConPhone | `String` | Print Con Phone |
-| 507 | printConPosition | `String` | Print Con Position |
-| 508 | printConPrimaryYn | `String` | Print Con Primary Y/N |
-| 509 | printConProductInterest | `String` | Print Con Product Interest |
-| 510 | printConRelationship | `String` | Print Con Relationship |
-| 511 | printConRelationshipDesc | `String` | Print Con Relationship Description |
-| 512 | printConRepStateCode | `String` | Print Con Reporting State Code |
-| 513 | printConRepTitle | `String` | Print Con Reporting Title |
-| 514 | printConResort | `String` | Print Con Property |
-| 515 | printConScope | `String` | Print Con Scope |
-| 516 | printConScopeCity | `String` | Print Con Scope City |
-| 517 | printConSname | `String` | Print Con Sname |
-| 518 | printConState | `String` | Print Con State |
-| 519 | printConStateDesc | `String` | Print Con State Description |
-| 520 | printConSxname | `String` | Print Con Sxname |
-| 521 | printConTerritory | `String` | Print Con Territory |
-| 522 | printConTitle | `String` | Print Con Title |
-| 523 | printConXdisplayName | `String` | Print Con Xdisplay Name |
-| 524 | printConXfirst | `String` | Print Con Xfirst |
-| 525 | printConXlast | `String` | Print Con Xlast |
-| 526 | printConXletterGreeting | `String` | Print Con Xletter Greeting |
-| 527 | printConZipcode | `String` | Print Con Zipcode |
-| 528 | profileDesc | `String` | Profile Description |
-| 529 | profileId | `Float` | Profile ID |
-| 530 | program | `String` | Program |
-| 531 | property | `String` | Code to uniquely identify the Property |
-| 532 | rankingCode | `String` | Indicates the ranking of a block. |
-| 533 | rateCode | `String` | Rate Code |
-| 534 | rateGuaranteedYn | `String` | Rate Guaranteed Y/N. |
-| 535 | rateOverride | `String` | Indicates if the rate code can be overridden. |
-| 536 | rateOverrideReason | `String` | Reason why the rate code was overridden used for FIT Contracts. |
-| 537 | rateProtection | `String` | Indicates that a Rate Protection exists for this booking: [A]ll [S]ome [N]one. No other group can be booked using rates lower than the one that is flagged as rate protect. |
-| 538 | relatedResorts | `String` | Related Resorts |
-| 539 | repBlockStatusDescription | `String` | Reporting Block Status Description |
-| 540 | repBookingmethod | `String` | Reporting Bookingmethod |
-| 541 | repBookingmethodDescription | `String` | Reporting Bookingmethod Desc |
-| 542 | repBookingtype | `String` | Reporting Bookingtype |
-| 543 | repBsOrderBy | `Float` | Reporting Bs Order By |
-| 544 | repCateringOrderBy | `Float` | Reporting Cat Order By |
-| 545 | repCateringStatus | `String` | Reporting Cat Status |
-| 546 | repCateringStatusDescription | `String` | Reporting Cat Status Description |
-| 547 | repChannel | `String` | Reporting Channel |
-| 548 | repConversionCode | `String` | Reporting Conversion Code |
-| 549 | repDestination | `String` | Reporting Destination |
-| 550 | repGuaranteeCode | `String` | Reporting Guarantee Code |
-| 551 | repMarketCode | `String` | Reporting Market Code |
-| 552 | repNonCompeteCode | `String` | Reporting Non Compete Code |
-| 553 | repPaymentMethod | `String` | Reporting Payment Method |
-| 554 | repRankingCode | `String` | Reporting Ranking Code |
-| 555 | repSourceCode | `String` | Reporting Source Code |
-| 556 | representative | `String` | Representative |
-| 557 | reserveInventoryYn | `String` | Reserve Inventory Y/N |
-| 558 | resortBooked | `String` | Final resort where Booking is confirmed -via Lead process. |
-| 559 | revBlocked | `Float` | Revenue Blocked |
-| 560 | revBlockedNet | `Float` | Revenue Blocked Net |
-| 561 | revContracted | `Float` | Revenue Contracted |
-| 562 | rivMarketSegment | `String` | Not used |
-| 563 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 564 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 565 | roomsBlocked | `Float` | Rooms Blocked |
-| 566 | roomsContracted | `Float` | Rooms Contracted |
-| 567 | roomsCurrency | `String` | Rooms Currency |
-| 568 | roomsDecision | `Date` | Rooms Decision |
-| 569 | roomsExchange | `Float` | Rooms Exchange |
-| 570 | roomsFollowup | `Date` | Rooms Followup |
-| 571 | roomsOwner | `Float` | Rooms Owner |
-| 572 | roomsOwnerCode | `String` | Rooms Owner Code |
-| 573 | roomsOwnerEmail | `String` | Rooms Owner Email |
-| 574 | roomsOwnerFax | `String` | Rooms Owner Fax |
-| 575 | roomsOwnerPhone | `String` | Rooms Owner Phone |
-| 576 | roomsOwnerResort | `String` | Property of Rooms Salesmanager |
-| 577 | roomsOwnerSrepname | `String` | Rooms Owner Srepname |
-| 578 | roomsOwnerTitle | `String` | Rooms Owner Title |
-| 579 | roomsOwners | `String` | Rooms Owners |
-| 580 | roomsPerDay | `Float` | Rooms Per Day |
-| 581 | roomsQuoteCurr | `String` | Rms Quote Currency |
-| 582 | salesId | `String` | Not used |
-| 583 | sbegindate | `Date` | Sbegindate |
-| 584 | secConActionCode | `String` | Sec Con Action Code |
-| 585 | secConActiveYn | `String` | Sec Con Active Y/N |
-| 586 | secConAddress1 | `String` | Sec Con Address1 |
-| 587 | secConAddress2 | `String` | Sec Con Address2 |
-| 588 | secConAddress3 | `String` | Sec Con Address3 |
-| 589 | secConAddress4 | `String` | Sec Con Address4 |
-| 590 | secConAlternateLanguage | `String` | Sec Con Alternate Language |
-| 591 | secConAlternateLanguageDesc | `String` | Sec Con Xlanguage Description |
-| 592 | secConAlternateSalutation | `String` | Sec Con Alternate Salutation |
-| 593 | secConAlternateTitle | `String` | Sec Con Alternate Title |
-| 594 | secConBirthDate | `Date` | Sec Con Birth Date |
-| 595 | secConBirthDateStr | `String` | Sec Con Birth Date Str |
-| 596 | secConBookingId | `Float` | Sec Con Booking ID |
-| 597 | secConBusinessGreeting | `String` | Sec Con Business Greeting |
-| 598 | secConCashBlInd | `String` | Sec Con Cash Bl Individual |
-| 599 | secConCity | `String` | Sec Con City |
-| 600 | secConCityExt | `String` | Sec Con City Ext |
-| 601 | secConContactYn | `String` | Sec Con Contact Y/N |
-| 602 | secConCountry | `String` | Sec Con Country |
-| 603 | secConCountryDesc | `String` | Sec Con Country Description |
-| 604 | secConDepartment | `String` | Sec Con Department |
-| 605 | secConDsi | `Float` | Sec Con Dsi |
-| 606 | secConEmail | `String` | Sec Con Email |
-| 607 | secConFax | `String` | Sec Con Fax |
-| 608 | secConFirstName | `String` | Sec Con First Name |
-| 609 | secConFullName | `String` | Sec Con Full Name |
-| 610 | secConId | `Float` | Sec Con ID |
-| 611 | secConInfluence | `String` | Sec Con Influence |
-| 612 | secConLanguage | `String` | Sec Con Language |
-| 613 | secConLanguageDesc | `String` | Sec Con Language Description |
-| 614 | secConLastName | `String` | Sec Con Last Name |
-| 615 | secConLetterGreeting | `String` | Sec Con Letter Greeting |
-| 616 | secConLinkId | `Float` | Sec Con Link ID |
-| 617 | secConLinkType | `String` | Sec Con Link Type |
-| 618 | secConMarkets | `String` | Sec Con Markets |
-| 619 | secConMiddleName | `String` | Sec Con Middle Name |
-| 620 | secConNameType | `String` | Sec Con Name Type |
-| 621 | secConName2 | `String` | Sec Con Name2 |
-| 622 | secConName3 | `String` | Sec Con Name3 |
-| 623 | secConOrganizationid | `Float` | Sec Con Organizationid |
-| 624 | secConPhone | `String` | Sec Con Phone |
-| 625 | secConPosition | `String` | Sec Con Position |
-| 626 | secConPrimaryYn | `String` | Sec Con Primary Y/N |
-| 627 | secConProductInterest | `String` | Sec Con Product Interest |
-| 628 | secConRelationship | `String` | Sec Con Relationship |
-| 629 | secConRelationshipDesc | `String` | Sec Con Relationship Description |
-| 630 | secConRepActionCode | `String` | Sec Con Reporting Actioncode |
-| 631 | secConRepInfluence | `String` | Sec Con Reporting Influence |
-| 632 | secConRepMarkets | `String` | Sec Con Reporting Markets |
-| 633 | secConRepNameType | `String` | Sec Con Reporting Name Type |
-| 634 | secConRepScope | `String` | Sec Con Reporting Scope |
-| 635 | secConRepScopeCity | `String` | Sec Con Reporting Scope City |
-| 636 | secConRepStateCode | `String` | Sec Con Reporting State Code |
-| 637 | secConRepStateDescription | `String` | Sec Con Reporting State Desc |
-| 638 | secConRepTerritory | `String` | Sec Con Reporting Territory |
-| 639 | secConRepTitle | `String` | Sec Con Reporting Title |
-| 640 | secConResort | `String` | Sec Con Property |
-| 641 | secConScope | `String` | Sec Con Scope |
-| 642 | secConScopeCity | `String` | Sec Con Scope City |
-| 643 | secConSfirst | `String` | Sec Con Sfirst |
-| 644 | secConSname | `String` | Sec Con Sname |
-| 645 | secConSrepCode | `String` | Sec Con Srep Code |
-| 646 | secConSrepId | `Float` | Sec Con Srep ID |
-| 647 | secConSrepName | `String` | Sec Con Srep Name |
-| 648 | secConState | `String` | Sec Con State |
-| 649 | secConStateDesc | `String` | Sec Con State Description |
-| 650 | secConSxfirstName | `String` | Sec Con Sxfirst Name |
-| 651 | secConSxname | `String` | Sec Con Sxname |
-| 652 | secConTerritory | `String` | Sec Con Territory |
-| 653 | secConTitle | `String` | Sec Con Title |
-| 654 | secConXenvelopeGreeting | `String` | Sec Con Xenvelope Greeting |
-| 655 | secConXfirstName | `String` | Sec Con Xfirst Name |
-| 656 | secConXfullName | `String` | Sec Con Xfull Name |
-| 657 | secConXlastName | `String` | Sec Con Xlast Name |
-| 658 | secConZipCode | `String` | Sec Con Zipcode Code |
-| 659 | senddate | `Date` | Senddate |
-| 660 | sentDate | `DateTime` | Sent Date |
-| 661 | serviceCharge | `Float` | Service Charge |
-| 662 | shoulderBeginDate | `Date` | Shoulder Begin Date |
-| 663 | shoulderEndDate | `Date` | Shoulder End Date |
-| 664 | source | `String` | Source |
-| 665 | sourceActiveYn | `String` | Source Active Y/N |
-| 666 | sourceAddressType | `String` | Source Address Type |
-| 667 | sourceAddress1 | `String` | Source Address1 |
-| 668 | sourceAddress2 | `String` | Source Address2 |
-| 669 | sourceAlternateLanguage | `String` | Source Alternate Language |
-| 670 | sourceAlternateLanguageDesc | `String` | Source Xlanguage Description |
-| 671 | sourceAlternateSalutation | `String` | Source Alternate Salutation |
-| 672 | sourceAlternateTitle | `String` | Source Alternate Title |
-| 673 | sourceBookingId | `Float` | Source Booking ID |
-| 674 | sourceBusinessGreeting | `String` | Source Business Greeting |
-| 675 | sourceCity | `String` | Source City |
-| 676 | sourceCityExt | `String` | Source City Ext |
-| 677 | sourceConActionCode | `String` | Source Con Action Code |
-| 678 | sourceConActiveYn | `String` | Source Con Active Y/N |
-| 679 | sourceConAddressType | `String` | Source Con Address Type |
-| 680 | sourceConAddress1 | `String` | Source Con Address1 |
-| 681 | sourceConAddress2 | `String` | Source Con Address2 |
-| 682 | sourceConAddress3 | `String` | Source Con Address3 |
-| 683 | sourceConAddress4 | `String` | Source Con Address4 |
-| 684 | sourceConAlternateLanguage | `String` | Source Con Alternate Language |
-| 685 | sourceConAlternateLanguageDesc | `String` | Source Con Xlanguage Description |
-| 686 | sourceConAlternateSalutation | `String` | Source Con Alternate Salutation |
-| 687 | sourceConAlternateTitle | `String` | Source Con Alternate Title |
-| 688 | sourceConArNumber | `String` | Source Con AR No |
-| 689 | sourceConAuSrepCode | `String` | Source Con Au Srep Code |
-| 690 | sourceConAvailabilityOverride | `String` | Source Con Availability Override |
-| 691 | sourceConBirthDate | `Date` | Source Con Birth Date |
-| 692 | sourceConBirthDateStr | `String` | Source Con Birth Date Str |
-| 693 | sourceConBookingId | `Float` | Source Con Booking ID |
-| 694 | sourceConBusinessGreeting | `String` | Source Con Business Greeting |
-| 695 | sourceConCashBlInd | `String` | Source Con Cash Bl Individual |
-| 696 | sourceConCity | `String` | Source Con City |
-| 697 | sourceConCityExt | `String` | Source Con City Ext |
-| 698 | sourceConContactYn | `String` | Source Con Contact Y/N |
-| 699 | sourceConCountry | `String` | Source Con Country |
-| 700 | sourceConCountryDesc | `String` | Source Con Country Description |
-| 701 | sourceConDepartment | `String` | Source Con Department |
-| 702 | sourceConDsi | `Float` | Source Con Dsi |
-| 703 | sourceConEmail | `String` | Source Con Email |
-| 704 | sourceConFax | `String` | Source Con Fax |
-| 705 | sourceConFirst | `String` | Source Con First |
-| 706 | sourceConHistoryYn | `String` | Source Con History Y/N |
-| 707 | sourceConIataCompType | `String` | Source Con IATA Comp Type |
-| 708 | sourceConId | `Float` | Source Con ID |
-| 709 | sourceConIndustryCode | `String` | Source Con Industry Code |
-| 710 | sourceConInfluence | `String` | Source Con Influence |
-| 711 | sourceConLanguage | `String` | Source Con Language |
-| 712 | sourceConLanguageDesc | `String` | Source Con Language Description |
-| 713 | sourceConLast | `String` | Source Con Last |
-| 714 | sourceConLetterGreeting | `String` | Source Con Letter Greeting |
-| 715 | sourceConLinkId | `Float` | Source Con Link ID |
-| 716 | sourceConLinkType | `String` | Source Con Link Type |
-| 717 | sourceConMailType | `String` | Source Con Mail Type |
-| 718 | sourceConMarkets | `String` | Source Con Markets |
-| 719 | sourceConMiddle | `String` | Source Con Middle |
-| 720 | sourceConName | `String` | Source Con Name |
-| 721 | sourceConNameType | `String` | Source Con Name Type |
-| 722 | sourceConName2 | `String` | Source Con Name2 |
-| 723 | sourceConName3 | `String` | Source Con Name3 |
-| 724 | sourceConOrganizationid | `Float` | Source Con Organizationid |
-| 725 | sourceConPhone | `String` | Source Con Phone |
-| 726 | sourceConPosition | `String` | Source Con Position |
-| 727 | sourceConPrimaryYn | `String` | Source Con Primary Y/N |
-| 728 | sourceConProductInterest | `String` | Source Con Product Interest |
-| 729 | sourceConRelationship | `String` | Source Con Relationship |
-| 730 | sourceConRelationshipDesc | `String` | Source Con Relationship Description |
-| 731 | sourceConRepActionCode | `String` | Source Con Reporting Actioncode |
-| 732 | sourceConRepInfluence | `String` | Source Con Reporting Influence |
-| 733 | sourceConRepMarkets | `String` | Source Con Reporting Markets |
-| 734 | sourceConRepNameType | `String` | Source Con Reporting Name Type |
-| 735 | sourceConRepScope | `String` | Source Con Reporting Scope |
-| 736 | sourceConRepScopeCity | `String` | Source Con Reporting Scope City |
-| 737 | sourceConRepStateCode | `String` | Source Con Reporting State Code |
-| 738 | sourceConRepStateDescription | `String` | Source Con Reporting State Desc |
-| 739 | sourceConRepTerritory | `String` | Source Con Reporting Territory |
-| 740 | sourceConRepTitle | `String` | Source Con Reporting Title |
-| 741 | sourceConResort | `String` | Source Con Property |
-| 742 | sourceConScope | `String` | Source Con Scope |
-| 743 | sourceConScopeCity | `String` | Source Con Scope City |
-| 744 | sourceConSfirst | `String` | Source Con Sfirst |
-| 745 | sourceConSname | `String` | Source Con Sname |
-| 746 | sourceConSrepId | `Float` | Source Con Srep ID |
-| 747 | sourceConSrepName | `String` | Source Con Srep Name |
-| 748 | sourceConState | `String` | Source Con State |
-| 749 | sourceConStateDesc | `String` | Source Con State Description |
-| 750 | sourceConSxfirstName | `String` | Source Con Sxfirst Name |
-| 751 | sourceConSxname | `String` | Source Con Sxname |
-| 752 | sourceConTerritory | `String` | Source Con Territory |
-| 753 | sourceConTitle | `String` | Source Con Title |
-| 754 | sourceConXfirst | `String` | Source Con Xfirst |
-| 755 | sourceConXlast | `String` | Source Con Xlast |
-| 756 | sourceConXletterGreeting | `String` | Source Con Xletter Greeting |
-| 757 | sourceConXname | `String` | Source Con Xname |
-| 758 | sourceConZipcode | `String` | Source Con Zipcode |
-| 759 | sourceCountry | `String` | Source Country |
-| 760 | sourceCountryDesc | `String` | Source Country Description |
-| 761 | sourceDsi | `Float` | Source Dsi |
-| 762 | sourceEmail | `String` | Source Email |
-| 763 | sourceFax | `String` | Source Fax |
-| 764 | sourceId | `Float` | Source ID |
-| 765 | sourceLinkId | `Float` | Source Link ID |
-| 766 | sourceLinkType | `String` | Source Link Type |
-| 767 | sourceName | `String` | Source Name |
-| 768 | sourceNameId | `Float` | Source Name ID |
-| 769 | sourceNameType | `String` | Source Name Type |
-| 770 | sourceName2 | `String` | Source Name2 |
-| 771 | sourceName3 | `String` | Source Name3 |
-| 772 | sourceOrganizationid | `Float` | Source Organizationid |
-| 773 | sourcePhone | `String` | Source Phone |
-| 774 | sourcePrimaryYn | `String` | Source Primary Y/N |
-| 775 | sourceRelationship | `String` | Source Relationship |
-| 776 | sourceRelationshipDesc | `String` | Source Relationship Description |
-| 777 | sourceRepStateCode | `String` | Source Reporting State Code |
-| 778 | sourceResort | `String` | Comma separated list of properties to migrate. |
-| 779 | sourceScope | `String` | Source Scope |
-| 780 | sourceScopeCity | `String` | Source Scope City |
-| 781 | sourceSname | `String` | Source Sname |
-| 782 | sourceState | `String` | Source State |
-| 783 | sourceStateDesc | `String` | Source State Description |
-| 784 | sourceSxname | `String` | Source Sxname |
-| 785 | sourceTerritory | `String` | Source Territory |
-| 786 | sourceXdisplayName | `String` | Source Xdisplay Name |
-| 787 | sourceXenvelopeGreeting | `String` | Source Xenvelope Greeting |
-| 788 | sourceXfirstName | `String` | Source Xfirst Name |
-| 789 | sourceZipcode | `String` | Source Zipcode |
-| 790 | status | `String` | Status |
-| 791 | superBlockId | `Float` | Parent Block ID |
-| 792 | superBlockResort | `String` | Parent Resort |
-| 793 | taxAmount | `Float` | Tax Amount |
-| 794 | tbdRates | `String` | To be Determined Rates |
-| 795 | tentativeLevel | `Float` | Not used |
-| 796 | tracecode | `String` | Tracecode |
-| 797 | udescription | `String` | This is upper-case description of regular description column for fast search |
-| 798 | udfc01 | `String` | Udfc01 |
-| 799 | udfc02 | `String` | Udfc02 |
-| 800 | udfc03 | `String` | Udfc03 |
-| 801 | udfc04 | `String` | Udfc04 |
-| 802 | udfc05 | `String` | Udfc05 |
-| 803 | udfc06 | `String` | Udfc06 |
-| 804 | udfc07 | `String` | Udfc07 |
-| 805 | udfc08 | `String` | Udfc08 |
-| 806 | udfc09 | `String` | Udfc09 |
-| 807 | udfc10 | `String` | Udfc10 |
-| 808 | udfc11 | `String` | Udfc11 |
-| 809 | udfc12 | `String` | Udfc12 |
-| 810 | udfc13 | `String` | Udfc13 |
-| 811 | udfc14 | `String` | Udfc14 |
-| 812 | udfc15 | `String` | Udfc15 |
-| 813 | udfc16 | `String` | Udfc16 |
-| 814 | udfc17 | `String` | Udfc17 |
-| 815 | udfc18 | `String` | Udfc18 |
-| 816 | udfc19 | `String` | Udfc19 |
-| 817 | udfc20 | `String` | Udfc20 |
-| 818 | udfc21 | `String` | Udfc21 |
-| 819 | udfc22 | `String` | Udfc22 |
-| 820 | udfc23 | `String` | Udfc23 |
-| 821 | udfc24 | `String` | Udfc24 |
-| 822 | udfc25 | `String` | Udfc25 |
-| 823 | udfc26 | `String` | Udfc26 |
-| 824 | udfc27 | `String` | Udfc27 |
-| 825 | udfc28 | `String` | Udfc28 |
-| 826 | udfc29 | `String` | Udfc29 |
-| 827 | udfc30 | `String` | Udfc30 |
-| 828 | udfc31 | `String` | Udfc31 |
-| 829 | udfc32 | `String` | Udfc32 |
-| 830 | udfc33 | `String` | Udfc33 |
-| 831 | udfc34 | `String` | Udfc34 |
-| 832 | udfc35 | `String` | Udfc35 |
-| 833 | udfc36 | `String` | Udfc36 |
-| 834 | udfc37 | `String` | Udfc37 |
-| 835 | udfc38 | `String` | Udfc38 |
-| 836 | udfc39 | `String` | Udfc39 |
-| 837 | udfc40 | `String` | Udfc40 |
-| 838 | udfd01 | `Date` | Udfd01 |
-| 839 | udfd02 | `Date` | Udfd02 |
-| 840 | udfd03 | `Date` | Udfd03 |
-| 841 | udfd04 | `Date` | Udfd04 |
-| 842 | udfd05 | `Date` | Udfd05 |
-| 843 | udfd06 | `Date` | Udfd06 |
-| 844 | udfd07 | `Date` | Udfd07 |
-| 845 | udfd08 | `Date` | Udfd08 |
-| 846 | udfd09 | `Date` | Udfd09 |
-| 847 | udfd10 | `Date` | Udfd10 |
-| 848 | udfd11 | `Date` | Udfd11 |
-| 849 | udfd12 | `Date` | Udfd12 |
-| 850 | udfd13 | `Date` | Udfd13 |
-| 851 | udfd14 | `Date` | Udfd14 |
-| 852 | udfd15 | `Date` | Udfd15 |
-| 853 | udfd16 | `Date` | Udfd16 |
-| 854 | udfd17 | `Date` | Udfd17 |
-| 855 | udfd18 | `Date` | Udfd18 |
-| 856 | udfd19 | `Date` | Udfd19 |
-| 857 | udfd20 | `Date` | Udfd20 |
-| 858 | udfn01 | `Float` | Udfn01 |
-| 859 | udfn02 | `Float` | Udfn02 |
-| 860 | udfn03 | `Float` | Udfn03 |
-| 861 | udfn04 | `Float` | Udfn04 |
-| 862 | udfn05 | `Float` | Udfn05 |
-| 863 | udfn06 | `Float` | Udfn06 |
-| 864 | udfn07 | `Float` | Udfn07 |
-| 865 | udfn08 | `Float` | Udfn08 |
-| 866 | udfn09 | `Float` | Udfn09 |
-| 867 | udfn10 | `Float` | Udfn10 |
-| 868 | udfn11 | `Float` | Udfn11 |
-| 869 | udfn12 | `Float` | Udfn12 |
-| 870 | udfn13 | `Float` | Udfn13 |
-| 871 | udfn14 | `Float` | Udfn14 |
-| 872 | udfn15 | `Float` | Udfn15 |
-| 873 | udfn16 | `Float` | Udfn16 |
-| 874 | udfn17 | `Float` | Udfn17 |
-| 875 | udfn18 | `Float` | Udfn18 |
-| 876 | udfn19 | `Float` | Udfn19 |
-| 877 | udfn20 | `Float` | Udfn20 |
-| 878 | udfn21 | `Float` | Udfn21 |
-| 879 | udfn22 | `Float` | Udfn22 |
-| 880 | udfn23 | `Float` | Udfn23 |
-| 881 | udfn24 | `Float` | Udfn24 |
-| 882 | udfn25 | `Float` | Udfn25 |
-| 883 | udfn26 | `Float` | Udfn26 |
-| 884 | udfn27 | `Float` | Udfn27 |
-| 885 | udfn28 | `Float` | Udfn28 |
-| 886 | udfn29 | `Float` | Udfn29 |
-| 887 | udfn30 | `Float` | Udfn30 |
-| 888 | udfn31 | `Float` | Udfn31 |
-| 889 | udfn32 | `Float` | Udfn32 |
-| 890 | udfn33 | `Float` | Udfn33 |
-| 891 | udfn34 | `Float` | Udfn34 |
-| 892 | udfn35 | `Float` | Udfn35 |
-| 893 | udfn36 | `Float` | Udfn36 |
-| 894 | udfn37 | `Float` | Udfn37 |
-| 895 | udfn38 | `Float` | Udfn38 |
-| 896 | udfn39 | `Float` | Udfn39 |
-| 897 | udfn40 | `Float` | Udfn40 |
-| 898 | updateDate | `DateTime` | Update Date |
-| 899 | updateUser | `Float` | Update User |
-| 900 | updateUserName | `String` | Update User Name |
-| 901 | uploadDate | `Date` | Upload Date |
-| 902 | xaccName | `String` | Xacc Name |
-| 903 | xagentName | `String` | Xagent Name |
-| 904 | xsourceName | `String` | Extended Byte Source Name |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | accountActionCode | `String` | Account Action Code |
+| 3 | accountActiveYN | `String` | Acc Active Y/N |
+| 4 | accountAddressType | `String` | Account Address Type |
+| 5 | accountAddress1 | `String` | Account Address1 |
+| 6 | accountAddress2 | `String` | Account Address2 |
+| 7 | accountAlternateLanguage | `String` | Account Alternate Language |
+| 8 | accountAlternateLanguageDesc | `String` | Acc Xlanguage Description |
+| 9 | accountAlternateSalutation | `String` | Account Alternate Salutation |
+| 10 | accountAlternateTitle | `String` | Account Alternate Title |
+| 11 | accountArNumber | `String` | Acc AR No |
+| 12 | accountAvailoverYN | `String` | Acc Availover Y/N |
+| 13 | accountBlMsg | `String` | Account Bl Msg |
+| 14 | accountBookingId | `Float` | Acc Booking ID |
+| 15 | accountCblIndividual | `String` | Account Cbl Ind |
+| 16 | accountCity | `String` | Account City. |
+| 17 | accountCityExt | `String` | Account City Ext |
+| 18 | accountCommissionCode | `String` | Account Commission Code |
+| 19 | accountCompetitionCode | `String` | Account Competition Code |
+| 20 | accountCountry | `String` | Account Country. |
+| 21 | accountCountryDesc | `String` | Acc Country Description |
+| 22 | accountDsi | `Float` | Account Dsi |
+| 23 | accountEmail | `String` | Account Email |
+| 24 | accountFax | `String` | Account Fax |
+| 25 | accountHistoryYN | `String` | Acc History Y/N |
+| 26 | accountHoldCode | `String` | Account Hold Code |
+| 27 | accountIATACompType | `String` | Account Iata Comp Type |
+| 28 | accountId | `Float` | Acc ID |
+| 29 | accountIndustryCode | `String` | Account Industry Code |
+| 30 | accountKeyword | `String` | Account Keyword |
+| 31 | accountLanguage | `String` | Account Language |
+| 32 | accountLanguageDesc | `String` | Acc Language Description |
+| 33 | accountLinkId | `Float` | Acc Link ID |
+| 34 | accountLinkType | `String` | Account Link Type |
+| 35 | accountMailList | `String` | Account Mail List |
+| 36 | accountMailType | `String` | Account Mail Type |
+| 37 | accountMarkets | `String` | Account Markets |
+| 38 | accountName | `String` | Account Name |
+| 39 | accountNameKeywords | `String` | Account Name Keywords |
+| 40 | accountNameType | `String` | Account Name Type |
+| 41 | accountName2 | `String` | Account Name2 |
+| 42 | accountName3 | `String` | Account Name3 |
+| 43 | accountOrganizationid | `Float` | Account Organizationid |
+| 44 | accountPhone | `String` | Account Phone |
+| 45 | accountPhoneId | `Float` | Acc Phone ID |
+| 46 | accountPhoneNumber | `String` | Account Phone No. |
+| 47 | accountPrimaryYN | `String` | Acc Primary Y/N |
+| 48 | accountPriority | `String` | Account Priority |
+| 49 | accountProductInterest | `String` | Account Product Interest |
+| 50 | accountProperty | `String` | Account Resort |
+| 51 | accountRelationship | `String` | Account Relationship |
+| 52 | accountRelationshipDesc | `String` | Acc Relationship Description |
+| 53 | accountRepActionCode | `String` | Acc Reporting Actioncode |
+| 54 | accountRepCompetionCode | `String` | Acc Reporting Competion Code |
+| 55 | accountRepIATACompType | `String` | Acc Reporting Iata Comp Type |
+| 56 | accountRepIndustryCode | `String` | Acc Reporting Industry Code |
+| 57 | accountRepMarkets | `String` | Acc Reporting Markets |
+| 58 | accountRepNameType | `String` | Acc Reporting Name Type |
+| 59 | accountRepScope | `String` | Acc Reporting Scope |
+| 60 | accountRepScopeCity | `String` | Acc Reporting Scope City |
+| 61 | accountRepSource | `String` | Acc Reporting Source |
+| 62 | accountRepStateCode | `String` | Acc Reporting State Code |
+| 63 | accountRepStateDescription | `String` | Acc Reporting State Desc |
+| 64 | accountRepTerritory | `String` | Acc Reporting Territory |
+| 65 | accountRepType | `String` | Acc Reporting Type |
+| 66 | accountRoomsPotential | `String` | Account Rooms Potential |
+| 67 | accountScope | `String` | Account Scope |
+| 68 | accountScopeCity | `String` | Account Scope City |
+| 69 | accountSname | `String` | Account Sname |
+| 70 | accountSource | `String` | Account Source |
+| 71 | accountSrepCode | `String` | Account Srep Code |
+| 72 | accountState | `String` | Account State. |
+| 73 | accountStateDesc | `String` | Acc State Description |
+| 74 | accountSxname | `String` | Account Sxname |
+| 75 | accountTerritory | `String` | Account Territory |
+| 76 | accountType | `String` | Account Type |
+| 77 | accountXdisplayName | `String` | Account Xdisplay Name |
+| 78 | accountXenvelopeGreeting | `String` | Account Xenvelope Greeting |
+| 79 | accountXfirstName | `String` | Account Xfirst Name |
+| 80 | accountZipcode | `String` | Account Zipcode |
+| 81 | actionId | `Float` | Action ID |
+| 82 | agentActiveYn | `String` | Agent Active Y/N |
+| 83 | agentAddressType | `String` | Agent Address Type |
+| 84 | agentAddress1 | `String` | Agent Address1 |
+| 85 | agentAddress2 | `String` | Agent Address2 |
+| 86 | agentAlternateLanguage | `String` | Agent Alternate Language |
+| 87 | agentAlternateLanguageDesc | `String` | Agent Xlanguage Description |
+| 88 | agentAlternateSalutation | `String` | Agent Alternate Salutation |
+| 89 | agentAlternateTitle | `String` | Agent Alternate Title |
+| 90 | agentArNumber | `String` | Agent AR No |
+| 91 | agentAuSrepCode | `String` | Agent Au Srep Code |
+| 92 | agentAvailabilityOverride | `String` | Agent Availability Override |
+| 93 | agentBookingId | `Float` | Agent Booking ID |
+| 94 | agentCblInd | `String` | Agent Cbl Individual |
+| 95 | agentCity | `String` | Agent City |
+| 96 | agentCityExt | `String` | Agent City Ext |
+| 97 | agentConActionCode | `String` | Agent Con Action Code |
+| 98 | agentConActiveYn | `String` | Agent Con Active Y/N |
+| 99 | agentConAddressType | `String` | Agent Con Address Type |
+| 100 | agentConAddress1 | `String` | Agent Con Address1 |
+| 101 | agentConAddress2 | `String` | Agent Con Address2 |
+| 102 | agentConAddress3 | `String` | Agent Con Address3 |
+| 103 | agentConAddress4 | `String` | Agent Con Address4 |
+| 104 | agentConAlternateLanguage | `String` | Agent Con Alternate Language |
+| 105 | agentConAlternateLanguageDesc | `String` | Agent Con Xlanguage Description |
+| 106 | agentConAlternateSalutation | `String` | Agent Con Alternate Salutation |
+| 107 | agentConAlternateTitle | `String` | Agent Con Alternate Title |
+| 108 | agentConArNumber | `String` | Agent Con AR No |
+| 109 | agentConAuSrepCode | `String` | Agent Con Au Srep Code |
+| 110 | agentConAvailabilityOverride | `String` | Agent Con Availability Override |
+| 111 | agentConBirthDate | `Date` | Agent Con Birth Date |
+| 112 | agentConBirthDateStr | `String` | Agent Con Birth Date Str |
+| 113 | agentConBookingId | `Float` | Agent Con Booking ID |
+| 114 | agentConBusinessGreeting | `String` | Agent Con Business Greeting |
+| 115 | agentConCashBlInd | `String` | Agent Con Cash Bl Individual |
+| 116 | agentConCity | `String` | Agent Con City |
+| 117 | agentConCityExt | `String` | Agent Con City Ext |
+| 118 | agentConContactYn | `String` | Agent Con Contact Y/N |
+| 119 | agentConCountry | `String` | Agent Con Country |
+| 120 | agentConCountryDesc | `String` | Agent Con Country Description |
+| 121 | agentConDepartment | `String` | Agent Con Department |
+| 122 | agentConDsi | `Float` | Agent Con Dsi |
+| 123 | agentConEmail | `String` | Agent Con Email |
+| 124 | agentConFax | `String` | Agent Con Fax |
+| 125 | agentConFirst | `String` | Agent Con First |
+| 126 | agentConHistoryYn | `String` | Agent Con History Y/N |
+| 127 | agentConIataCompType | `String` | Agent Con IATA Comp Type |
+| 128 | agentConId | `Float` | Agent Con ID |
+| 129 | agentConIndustryCode | `String` | Agent Con Industry Code |
+| 130 | agentConInfluence | `String` | Agent Con Influence |
+| 131 | agentConLanguage | `String` | Agent Con Language |
+| 132 | agentConLanguageDesc | `String` | Agent Con Language Description |
+| 133 | agentConLast | `String` | Agent Con Last |
+| 134 | agentConLetterGreeting | `String` | Agent Con Letter Greeting |
+| 135 | agentConLinkId | `Float` | Agent Con Link ID |
+| 136 | agentConLinkType | `String` | Agent Con Link Type |
+| 137 | agentConMailType | `String` | Agent Con Mail Type |
+| 138 | agentConMarkets | `String` | Agent Con Markets |
+| 139 | agentConMiddle | `String` | Agent Con Middle |
+| 140 | agentConName | `String` | Agent Con Name |
+| 141 | agentConNameType | `String` | Agent Con Name Type |
+| 142 | agentConName2 | `String` | Agent Con Name2 |
+| 143 | agentConName3 | `String` | Agent Con Name3 |
+| 144 | agentConOrganizationid | `Float` | Agent Con Organizationid |
+| 145 | agentConPhone | `String` | Agent Con Phone |
+| 146 | agentConPosition | `String` | Agent Con Position |
+| 147 | agentConPrimaryYn | `String` | Agent Con Primary Y/N |
+| 148 | agentConProductInterest | `String` | Agent Con Product Interest |
+| 149 | agentConRelationship | `String` | Agent Con Relationship |
+| 150 | agentConRelationshipDesc | `String` | Agent Con Relationship Description |
+| 151 | agentConRepAccountType | `String` | Agent Con Reporting Account Type |
+| 152 | agentConRepAccountsource | `String` | Agent Con Reporting Accountsource |
+| 153 | agentConRepActionCode | `String` | Agent Con Reporting Actioncode |
+| 154 | agentConRepIATACompType | `String` | Agent Con Reporting Iata Comp Type |
+| 155 | agentConRepIndustryCode | `String` | Agent Con Reporting Industry Code |
+| 156 | agentConRepInfluence | `String` | Agent Con Reporting Influence |
+| 157 | agentConRepMarkets | `String` | Agent Con Reporting Markets |
+| 158 | agentConRepNameType | `String` | Agent Con Reporting Name Type |
+| 159 | agentConRepScope | `String` | Agent Con Reporting Scope |
+| 160 | agentConRepScopeCity | `String` | Agent Con Reporting Scope City |
+| 161 | agentConRepStateCode | `String` | Agent Con Reporting State Code |
+| 162 | agentConRepStateDescription | `String` | Agent Con Reporting State Desc |
+| 163 | agentConRepTerritory | `String` | Agent Con Reporting Territory |
+| 164 | agentConRepTitle | `String` | Agent Con Reporting Title |
+| 165 | agentConResort | `String` | Agent Con Property |
+| 166 | agentConScope | `String` | Agent Con Scope |
+| 167 | agentConScopeCity | `String` | Agent Con Scope City |
+| 168 | agentConSfirst | `String` | Agent Con Sfirst |
+| 169 | agentConSname | `String` | Agent Con Sname |
+| 170 | agentConSrepId | `Float` | Agent Con Srep ID |
+| 171 | agentConSrepName | `String` | Agent Con Srep Name |
+| 172 | agentConState | `String` | Agent Con State |
+| 173 | agentConStateDesc | `String` | Agent Con State Description |
+| 174 | agentConSxfirstName | `String` | Agent Con Sxfirst Name |
+| 175 | agentConSxname | `String` | Agent Con Sxname |
+| 176 | agentConTerritory | `String` | Agent Con Territory |
+| 177 | agentConTitle | `String` | Agent Con Title |
+| 178 | agentConXfirst | `String` | Agent Con Xfirst |
+| 179 | agentConXlast | `String` | Agent Con Xlast |
+| 180 | agentConXletterGreeting | `String` | Agent Con Xletter Greeting |
+| 181 | agentConXname | `String` | Agent Con Xname |
+| 182 | agentConZipcode | `String` | Agent Con Zipcode |
+| 183 | agentCountry | `String` | Agent Country |
+| 184 | agentCountryDesc | `String` | Agent Country Description |
+| 185 | agentDsi | `Float` | Agent Dsi |
+| 186 | agentEmail | `String` | Agent Email |
+| 187 | agentFax | `String` | Agent Fax |
+| 188 | agentHistoryYn | `String` | Agent History Y/N |
+| 189 | agentIataCompType | `String` | Agent IATA Comp Type |
+| 190 | agentId | `Float` | Agent ID |
+| 191 | agentIndustryCode | `String` | Agent Industry Code |
+| 192 | agentLanguage | `String` | Agent Language |
+| 193 | agentLanguageDesc | `String` | Agent Language Description |
+| 194 | agentLinkId | `Float` | Agent Link ID |
+| 195 | agentLinkType | `String` | Agent Link Type |
+| 196 | agentMailType | `String` | Agent Mail Type |
+| 197 | agentMarkets | `String` | Agent Markets |
+| 198 | agentName | `String` | Agent Name |
+| 199 | agentNameId | `Float` | Agent Name ID |
+| 200 | agentNameType | `String` | Agent Name Type |
+| 201 | agentName2 | `String` | Agent Name2 |
+| 202 | agentName3 | `String` | Agent Name3 |
+| 203 | agentOrganizationid | `Float` | Agent Organizationid |
+| 204 | agentPhone | `String` | Agent Phone |
+| 205 | agentPrimaryYn | `String` | Agent Primary Y/N |
+| 206 | agentProductInterest | `String` | Agent Product Interest |
+| 207 | agentRelationship | `String` | Agent Relationship |
+| 208 | agentRelationshipDesc | `String` | Agent Relationship Description |
+| 209 | agentRepStateCode | `String` | Agent Reporting State Code |
+| 210 | agentResort | `String` | Agent Property |
+| 211 | agentScope | `String` | Agent Scope |
+| 212 | agentScopeCity | `String` | Agent Scope City |
+| 213 | agentSname | `String` | Agent Sname |
+| 214 | agentState | `String` | Agent State |
+| 215 | agentStateDesc | `String` | Agent State Description |
+| 216 | agentSxname | `String` | Agent Sxname |
+| 217 | agentTerritory | `String` | Agent Territory |
+| 218 | agentXdisplayName | `String` | Agent Xdisplay Name |
+| 219 | agentXenvelopeGreeting | `String` | Agent Xenvelope Greeting |
+| 220 | agentXfirstName | `String` | Agent Xfirst Name |
+| 221 | agentZipcode | `String` | Agent Zipcode |
+| 222 | alias | `String` | Alias |
+| 223 | allOwners | `String` | All Owners |
+| 224 | allotmentCode | `String` | Allotment Code |
+| 225 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 226 | allotmentOrigion | `String` | Allotment Origion |
+| 227 | allotmentType | `String` | Type of Block alloted for the group. |
+| 228 | arrivalTime | `DateTime` | Arrival Time |
+| 229 | attendees | `Float` | Attendees |
+| 230 | avgPeoplePerRoom | `Float` | Avg People Per Room |
+| 231 | avgRateNet | `Float` | Avg Rate Net |
+| 232 | beginDate | `Date` | Begin Date |
+| 233 | bookingStatus | `String` | Booking Status |
+| 234 | bookingStatusOrderby | `Float` | Booking Status Orderby |
+| 235 | bookingStatusType | `String` | Booking Status Type |
+| 236 | bookingStatusorder | `Float` | Booking Statusorder |
+| 237 | bookingmethod | `String` | Bookingmethod |
+| 238 | bookingmethoddesc | `String` | Bookingmethoddesc |
+| 239 | bookingtype | `String` | Bookingtype |
+| 240 | breakfastDesc | `String` | Bfst Description |
+| 241 | breakfastPrice | `Float` | Breakfast Price |
+| 242 | breakfastYn | `String` | Bfst Y/N |
+| 243 | busblockId | `Float` | Busblock ID |
+| 244 | busblockProperty | `String` | Busblock Property |
+| 245 | cBreakfastPrice | `Float` | Central Bfst Price |
+| 246 | cCompRoomValue | `Float` | Central Comp Room Value |
+| 247 | cExchangeDate | `Date` | Central Xchange Date |
+| 248 | cExchangeRate | `Float` | Central Xchange Rate |
+| 249 | cMtgBudget | `Float` | Central Mtg Budget |
+| 250 | cPorteragePrice | `Float` | Central Porterage Price |
+| 251 | cPotRoomRevenue | `Float` | Central Pot Room Revenue |
+| 252 | cServiceCharge | `Float` | Central Service Charge |
+| 253 | cTaxAmount | `Float` | Central Tax Amount |
+| 254 | cancelRule | `String` | Not Used |
+| 255 | cancellationCode | `String` | Cancellation Code |
+| 256 | cancellationDate | `Date` | Cancellation Date |
+| 257 | cancellationDescription | `String` | Cancellation Description |
+| 258 | cancellationNo | `Float` | Cancellation Number |
+| 259 | catCanxCode | `String` | Catering Canx Code |
+| 260 | catCanxDate | `Date` | Catering Canx Date |
+| 261 | catCanxNumber | `Float` | Catering Canx No |
+| 262 | catCurrency | `String` | Catering Currency |
+| 263 | catCutoff | `Date` | Catering Cutoff |
+| 264 | catDecision | `Date` | Catering Decision |
+| 265 | catExchange | `Float` | Catering Exchange |
+| 266 | catFollowup | `Date` | Catering Followup |
+| 267 | catOwner | `Float` | Catering Owner |
+| 268 | catOwnerCode | `String` | Catering Owner Code |
+| 269 | catOwnerEmail | `String` | Catering Owner Email |
+| 270 | catOwnerFax | `String` | Catering Owner Fax |
+| 271 | catOwnerPhone | `String` | Catering Owner Phone |
+| 272 | catOwnerProperty | `String` | Property of Catering Owner |
+| 273 | catOwnerSrepname | `String` | Catering Owner Srepname |
+| 274 | catOwnerTitle | `String` | Catering Owner Title |
+| 275 | catOwners | `String` | Catering Owners |
+| 276 | catQuoteCurrency | `String` | Catering Quote Curr |
+| 277 | catStatus | `String` | Catering Status |
+| 278 | catStatusOrderby | `Float` | Catering Status Orderby |
+| 279 | catStatusType | `String` | Catering Status Type describes Inventory behaviour |
+| 280 | catStatusorder | `Float` | Catering Statusorder |
+| 281 | cateringCanxDesc | `String` | Cat Canx Description |
+| 282 | cateringPkgsYn | `String` | Catering Pkgs Y/N |
+| 283 | cateringonlyYn | `String` | Cateringonly Y/N |
+| 284 | centralOwner | `String` | Stores the name and phone number of the primary central owner. |
+| 285 | channel | `String` | Channel |
+| 286 | commission | `String` | Commission |
+| 287 | compPerStayYn | `String` | Complimentary Rooms based per Stay (Y) or per Night (N) |
+| 288 | compRoomValue | `Float` | Complimentary Rooms: Value given to Customer |
+| 289 | compRooms | `Float` | Number of complimentary Rooms |
+| 290 | compRoomsFixedYn | `String` | Complimentary Rooms: Fixed amount (Y) or calculated (N) |
+| 291 | companyNameId | `Float` | Company Name ID |
+| 292 | competition | `String` | Competition |
+| 293 | conActionCode | `String` | Con Action Code |
+| 294 | conActiveYn | `String` | Con Active Y/N |
+| 295 | conAddressType | `String` | Con Address Type |
+| 296 | conAddress1 | `String` | Con Address1 |
+| 297 | conAddress2 | `String` | Con Address2 |
+| 298 | conAddress3 | `String` | Con Address3 |
+| 299 | conAddress4 | `String` | Con Address4 |
+| 300 | conAlternateLanguage | `String` | Con Alternate Language |
+| 301 | conAlternateLanguageDesc | `String` | Con Xlanguage Description |
+| 302 | conAlternateSalutation | `String` | Con Alternate Salutation |
+| 303 | conAlternateTitle | `String` | Con Alternate Title |
+| 304 | conArNumber | `String` | Con AR No |
+| 305 | conAvailabilityOverride | `String` | Con Availability Override |
+| 306 | conBirthDate | `Date` | Con Birth Date |
+| 307 | conBirthDateStr | `String` | Con Birth Date Str |
+| 308 | conBookingId | `Float` | Con Booking ID |
+| 309 | conBusinessGreeting | `String` | Con Business Greeting |
+| 310 | conCashBlInd | `String` | Con Cash Bl Individual |
+| 311 | conCity | `String` | Con City |
+| 312 | conCityExt | `String` | Con City Ext |
+| 313 | conContactYn | `String` | Con Contact Y/N |
+| 314 | conCountry | `String` | Con Country |
+| 315 | conCountryDesc | `String` | Con Country Description |
+| 316 | conDepartment | `String` | Con Department |
+| 317 | conDsi | `Float` | Con Dsi |
+| 318 | conFirst | `String` | Con First |
+| 319 | conHistoryYn | `String` | Con History Y/N |
+| 320 | conIataCompType | `String` | Con IATA Comp Type |
+| 321 | conId | `Float` | Con ID |
+| 322 | conIndustryCode | `String` | Con Industry Code |
+| 323 | conInfluence | `String` | Con Influence |
+| 324 | conLanguage | `String` | Con Language |
+| 325 | conLanguageDesc | `String` | Con Language Description |
+| 326 | conLast | `String` | Con Last |
+| 327 | conLetterGreeting | `String` | Con Letter Greeting |
+| 328 | conLinkId | `Float` | Con Link ID |
+| 329 | conLinkType | `String` | Con Link Type |
+| 330 | conMailType | `String` | Con Mail Type |
+| 331 | conMarkets | `String` | Con Markets |
+| 332 | conMiddle | `String` | Con Middle |
+| 333 | conName | `String` | Con Name |
+| 334 | conNameType | `String` | Con Name Type |
+| 335 | conName2 | `String` | Con Name2 |
+| 336 | conName3 | `String` | Con Name3 |
+| 337 | conOrganizationid | `Float` | Con Organizationid |
+| 338 | conPosition | `String` | Con Position |
+| 339 | conPrimaryYn | `String` | Con Primary Y/N |
+| 340 | conProductInterest | `String` | Con Product Interest |
+| 341 | conRelationship | `String` | Con Relationship |
+| 342 | conRelationshipDesc | `String` | Con Relationship Description |
+| 343 | conRepActionCode | `String` | Con Reporting Actioncode |
+| 344 | conRepInfluence | `String` | Con Reporting Influence |
+| 345 | conRepMarkets | `String` | Con Reporting Markets |
+| 346 | conRepNameType | `String` | Con Reporting Name Type |
+| 347 | conRepScope | `String` | Con Reporting Scope |
+| 348 | conRepScopeCity | `String` | Con Reporting Scope City |
+| 349 | conRepStateCode | `String` | Con Reporting State Code |
+| 350 | conRepStateDescription | `String` | Con Reporting State Desc |
+| 351 | conRepTerritory | `String` | Con Reporting Territory |
+| 352 | conRepTitle | `String` | Con Reporting Title |
+| 353 | conResort | `String` | Con Property |
+| 354 | conScope | `String` | Con Scope |
+| 355 | conScopeCity | `String` | Con Scope City |
+| 356 | conSfirst | `String` | Con Sfirst |
+| 357 | conSname | `String` | Con Sname |
+| 358 | conSrepCode | `String` | Con Srep Code |
+| 359 | conSrepId | `Float` | Con Srep ID |
+| 360 | conSrepName | `String` | Con Srep Name |
+| 361 | conState | `String` | Con State |
+| 362 | conStateDesc | `String` | Con State Description |
+| 363 | conSxfirstName | `String` | Con Sxfirst Name |
+| 364 | conSxname | `String` | Con Sxname |
+| 365 | conTerritory | `String` | Con Territory |
+| 366 | conTitle | `String` | Con Title |
+| 367 | conXfirst | `String` | Con Xfirst |
+| 368 | conXlast | `String` | Con Xlast |
+| 369 | conXletterGreeting | `String` | Con Xletter Greeting |
+| 370 | conXname | `String` | Con Xname |
+| 371 | contactEmail | `String` | Reservation Contact id salutation information. |
+| 372 | contactFax | `String` | Contact Fax |
+| 373 | contactNameId | `Float` | Contact Name ID |
+| 374 | contactPhone | `String` | Contact Phone |
+| 375 | contactZipcode | `String` | Contact Zipcode |
+| 376 | contractNr | `String` | Contract Nr |
+| 377 | conversionCode | `String` | Conversion Code |
+| 378 | currencyCode | `String` | Currency Code |
+| 379 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 380 | dateOpenedForPickup | `Date` | Business Date when the business block was opened for pickup. |
+| 381 | datePro | `DateTime` | Date Pro |
+| 382 | dateTen | `DateTime` | Date Ten |
+| 383 | defaultPmReservationNameId | `Float` | Defualt Posting Master ID |
+| 384 | deletedflag | `String` | Deleted Flag |
+| 385 | departureTime | `DateTime` | Departure Time |
+| 386 | description | `String` | Description |
+| 387 | destination | `String` | Destination |
+| 388 | detailsOkYn | `String` | Details Ok Y/N |
+| 389 | distributedYn | `String` | Distributed Y/N |
+| 390 | dmlSeqNumber | `Float` | Dml Sequence No |
+| 391 | downloadDate | `Date` | Download Date |
+| 392 | downloadResort | `String` | Download Property |
+| 393 | downloadSrep | `Float` | Download Srep |
+| 394 | dueDate | `Date` | Due Date |
+| 395 | elastic | `String` | Elastic |
+| 396 | endDate | `Date` | End Date |
+| 397 | eventsGuaranteedYn | `String` | Events Guaranteed Y/N |
+| 398 | exchangePostingType | `String` | Exchange Posting Type |
+| 399 | exchangeRate | `Float` | Exchange Rate |
+| 400 | externalLocked | `String` | External Locked |
+| 401 | functiontype | `String` | Functiontype |
+| 402 | giid | `String` | Group IATA Number. |
+| 403 | guaranteeCode | `String` | Guarantee Code |
+| 404 | iataCorpNumber | `String` | IATA Corp No |
+| 405 | inactiveDate | `Date` | Inactive Date |
+| 406 | info | `String` | Not Used |
+| 407 | infoboard | `String` | Infoboard |
+| 408 | insertDate | `DateTime` | Insert Date |
+| 409 | insertUser | `Float` | Insert User |
+| 410 | insertUserName | `String` | The name of the user who created the record. |
+| 411 | invCutoffDate | `Date` | Invoice Cutoff Date |
+| 412 | invCutoffDays | `Float` | Invoice Cutoff Days |
+| 413 | isacOpptyId | `String` | STAR MODE: ISAC opportunity ID. |
+| 414 | isacQuoteId | `String` | Isac Quote ID |
+| 415 | jRNUpdateDate | `Date` | JRN Update Date |
+| 416 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 417 | laptopChange | `Float` | Laptop Change |
+| 418 | leadOrigin | `String` | Lead Origin |
+| 419 | leadSource | `String` | Lead Source |
+| 420 | linkDate | `DateTime` | STAR MODE: Date when the OPERA block was linked to an ISAC opportunity. |
+| 421 | lostToProperty | `String` | Competitor to whom the booking was lost. |
+| 422 | mainmarket | `String` | Mainmarket |
+| 423 | marEventType | `String` | MARRIOTT mode: Marsha Event Type. |
+| 424 | marHouseProtectYn | `String` | MARRIOTT mode: Marsha column for Housing Protected. |
+| 425 | marRollEndDateYn | `String` | MARRIOTT mode: Specifies if the Marsha block has a rolling end date. |
+| 426 | marketCode | `String` | Market Code |
+| 427 | masterNameId | `Float` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
+| 428 | methodDue | `Date` | Method Due |
+| 429 | mtgBudget | `Float` | Meeting Budget |
+| 430 | nonCompete | `String` | Indicate that no other block of the same industry can be booked for the selected dates.Non-Compete indicator : [A]ll [S]ome [N]one. |
+| 431 | nonCompeteCode | `String` | Indicates the Non-Compete code of a block. |
+| 432 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 433 | originalRateCode | `String` | Not used |
+| 434 | owner | `Float` | Owner |
+| 435 | ownerCode | `String` | Owner Code |
+| 436 | ownerCodeSrepname | `String` | Owner Code Srepname |
+| 437 | ownerEmail | `String` | Owner Email |
+| 438 | ownerFax | `String` | Owner Fax |
+| 439 | ownerPhone | `String` | Owner Phone |
+| 440 | ownerResort | `String` | Owner Property |
+| 441 | ownerTitle | `String` | Owner Title |
+| 442 | paymentMethod | `String` | Payment Method |
+| 443 | peakRooms | `Float` | Peak Rooms |
+| 444 | porteragePrice | `Float` | Porterage Price |
+| 445 | porterageYn | `String` | Porterage Y/N |
+| 446 | printAccountActiveYN | `String` | Print Acc Active Y/N |
+| 447 | printAccountAddress1 | `String` | Print Account Address1 |
+| 448 | printAccountAddress2 | `String` | Print Account Address2 |
+| 449 | printAccountAddress3 | `String` | Print Account Address3 |
+| 450 | printAccountAddress4 | `String` | Print Account Address4 |
+| 451 | printAccountBookingId | `Float` | Print Acc Booking ID |
+| 452 | printAccountCity | `String` | Print Account City |
+| 453 | printAccountCityExt | `String` | Print Account City Ext |
+| 454 | printAccountCountry | `String` | Print Account Country |
+| 455 | printAccountCountryDesc | `String` | Print Acc Country Description |
+| 456 | printAccountDsi | `Float` | Print Account Dsi |
+| 457 | printAccountId | `Float` | Print Acc ID |
+| 458 | printAccountLinkId | `Float` | Print Acc Link ID |
+| 459 | printAccountLinkType | `String` | Print Account Link Type |
+| 460 | printAccountName | `String` | Print Account Name |
+| 461 | printAccountName2 | `String` | Print Account Name2 |
+| 462 | printAccountName3 | `String` | Print Account Name3 |
+| 463 | printAccountOrganizationid | `Float` | Print Account Organizationid |
+| 464 | printAccountPhone | `String` | Print Account Phone |
+| 465 | printAccountPosition | `String` | Print Account Position |
+| 466 | printAccountPrimaryYN | `String` | Print Acc Primary Y/N |
+| 467 | printAccountProperty | `String` | Print Account Resort |
+| 468 | printAccountRepStateCode | `String` | Print Acc Reporting State Code |
+| 469 | printAccountRepStateDescription | `String` | Print Acc Reporting State Desc |
+| 470 | printAccountRepTerritory | `String` | Print Acc Reporting Territory |
+| 471 | printAccountScope | `String` | Print Account Scope |
+| 472 | printAccountScopeCity | `String` | Print Account Scope City |
+| 473 | printAccountSname | `String` | Print Account Sname |
+| 474 | printAccountState | `String` | Print Account State |
+| 475 | printAccountStateDesc | `String` | Print Acc State Description |
+| 476 | printAccountSxname | `String` | Print Account Sxname |
+| 477 | printAccountTerritory | `String` | Print Account Territory |
+| 478 | printAccountXdisplayName | `String` | Print Account Xdisplay Name |
+| 479 | printAccountXenvelopeGreeting | `String` | Print Account Xenvelope Greeting |
+| 480 | printAccountXfirstName | `String` | Print Account Xfirst Name |
+| 481 | printAccountXname | `String` | Print Account Xname |
+| 482 | printAccountZipcode | `String` | Print Account Zipcode |
+| 483 | printConAddress1 | `String` | Print Con Address1 |
+| 484 | printConAddress2 | `String` | Print Con Address2 |
+| 485 | printConAddress3 | `String` | Print Con Address3 |
+| 486 | printConAddress4 | `String` | Print Con Address4 |
+| 487 | printConAlternateSalutation | `String` | Print Con Alternate Salutation |
+| 488 | printConBusinessGreeting | `String` | Print Con Business Greeting |
+| 489 | printConCity | `String` | Print Con City |
+| 490 | printConCityExt | `String` | Print Con City Ext |
+| 491 | printConCountry | `String` | Print Con Country |
+| 492 | printConCountryDesc | `String` | Print Con Country Description |
+| 493 | printConDepartment | `String` | Print Con Department |
+| 494 | printConDsi | `Float` | Print Con Dsi |
+| 495 | printConEmail | `String` | Print Con Email |
+| 496 | printConFirst | `String` | Print Con First |
+| 497 | printConId | `Float` | Print Con ID |
+| 498 | printConLast | `String` | Print Con Last |
+| 499 | printConLetterGreeting | `String` | Print Con Letter Greeting |
+| 500 | printConLinkId | `Float` | Print Con Link ID |
+| 501 | printConLinkType | `String` | Print Con Link Type |
+| 502 | printConMiddle | `String` | Print Con Middle |
+| 503 | printConName | `String` | Print Con Name |
+| 504 | printConName2 | `String` | Print Con Name2 |
+| 505 | printConName3 | `String` | Print Con Name3 |
+| 506 | printConOrganizationid | `Float` | Print Con Organizationid |
+| 507 | printConPhone | `String` | Print Con Phone |
+| 508 | printConPosition | `String` | Print Con Position |
+| 509 | printConPrimaryYn | `String` | Print Con Primary Y/N |
+| 510 | printConProductInterest | `String` | Print Con Product Interest |
+| 511 | printConRelationship | `String` | Print Con Relationship |
+| 512 | printConRelationshipDesc | `String` | Print Con Relationship Description |
+| 513 | printConRepStateCode | `String` | Print Con Reporting State Code |
+| 514 | printConRepTitle | `String` | Print Con Reporting Title |
+| 515 | printConResort | `String` | Print Con Property |
+| 516 | printConScope | `String` | Print Con Scope |
+| 517 | printConScopeCity | `String` | Print Con Scope City |
+| 518 | printConSname | `String` | Print Con Sname |
+| 519 | printConState | `String` | Print Con State |
+| 520 | printConStateDesc | `String` | Print Con State Description |
+| 521 | printConSxname | `String` | Print Con Sxname |
+| 522 | printConTerritory | `String` | Print Con Territory |
+| 523 | printConTitle | `String` | Print Con Title |
+| 524 | printConXdisplayName | `String` | Print Con Xdisplay Name |
+| 525 | printConXfirst | `String` | Print Con Xfirst |
+| 526 | printConXlast | `String` | Print Con Xlast |
+| 527 | printConXletterGreeting | `String` | Print Con Xletter Greeting |
+| 528 | printConZipcode | `String` | Print Con Zipcode |
+| 529 | profileDesc | `String` | Profile Description |
+| 530 | profileId | `Float` | Profile ID |
+| 531 | program | `String` | Program |
+| 532 | property | `String` | Code to uniquely identify the Property |
+| 533 | rankingCode | `String` | Indicates the ranking of a block. |
+| 534 | rateCode | `String` | Rate Code |
+| 535 | rateGuaranteedYn | `String` | Rate Guaranteed Y/N. |
+| 536 | rateOverride | `String` | Indicates if the rate code can be overridden. |
+| 537 | rateOverrideReason | `String` | Reason why the rate code was overridden used for FIT Contracts. |
+| 538 | rateProtection | `String` | Indicates that a Rate Protection exists for this booking: [A]ll [S]ome [N]one. No other group can be booked using rates lower than the one that is flagged as rate protect. |
+| 539 | relatedResorts | `String` | Related Resorts |
+| 540 | repBlockStatusDescription | `String` | Reporting Block Status Description |
+| 541 | repBookingmethod | `String` | Reporting Bookingmethod |
+| 542 | repBookingmethodDescription | `String` | Reporting Bookingmethod Desc |
+| 543 | repBookingtype | `String` | Reporting Bookingtype |
+| 544 | repBsOrderBy | `Float` | Reporting Bs Order By |
+| 545 | repCateringOrderBy | `Float` | Reporting Cat Order By |
+| 546 | repCateringStatus | `String` | Reporting Cat Status |
+| 547 | repCateringStatusDescription | `String` | Reporting Cat Status Description |
+| 548 | repChannel | `String` | Reporting Channel |
+| 549 | repConversionCode | `String` | Reporting Conversion Code |
+| 550 | repDestination | `String` | Reporting Destination |
+| 551 | repGuaranteeCode | `String` | Reporting Guarantee Code |
+| 552 | repMarketCode | `String` | Reporting Market Code |
+| 553 | repNonCompeteCode | `String` | Reporting Non Compete Code |
+| 554 | repPaymentMethod | `String` | Reporting Payment Method |
+| 555 | repRankingCode | `String` | Reporting Ranking Code |
+| 556 | repSourceCode | `String` | Reporting Source Code |
+| 557 | representative | `String` | Representative |
+| 558 | reserveInventoryYn | `String` | Reserve Inventory Y/N |
+| 559 | resortBooked | `String` | Final resort where Booking is confirmed -via Lead process. |
+| 560 | revBlocked | `Float` | Revenue Blocked |
+| 561 | revBlockedNet | `Float` | Revenue Blocked Net |
+| 562 | revContracted | `Float` | Revenue Contracted |
+| 563 | rivMarketSegment | `String` | Not used |
+| 564 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 565 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 566 | roomsBlocked | `Float` | Rooms Blocked |
+| 567 | roomsContracted | `Float` | Rooms Contracted |
+| 568 | roomsCurrency | `String` | Rooms Currency |
+| 569 | roomsDecision | `Date` | Rooms Decision |
+| 570 | roomsExchange | `Float` | Rooms Exchange |
+| 571 | roomsFollowup | `Date` | Rooms Followup |
+| 572 | roomsOwner | `Float` | Rooms Owner |
+| 573 | roomsOwnerCode | `String` | Rooms Owner Code |
+| 574 | roomsOwnerEmail | `String` | Rooms Owner Email |
+| 575 | roomsOwnerFax | `String` | Rooms Owner Fax |
+| 576 | roomsOwnerPhone | `String` | Rooms Owner Phone |
+| 577 | roomsOwnerResort | `String` | Property of Rooms Salesmanager |
+| 578 | roomsOwnerSrepname | `String` | Rooms Owner Srepname |
+| 579 | roomsOwnerTitle | `String` | Rooms Owner Title |
+| 580 | roomsOwners | `String` | Rooms Owners |
+| 581 | roomsPerDay | `Float` | Rooms Per Day |
+| 582 | roomsQuoteCurr | `String` | Rms Quote Currency |
+| 583 | salesId | `String` | Not used |
+| 584 | sbegindate | `Date` | Sbegindate |
+| 585 | secConActionCode | `String` | Sec Con Action Code |
+| 586 | secConActiveYn | `String` | Sec Con Active Y/N |
+| 587 | secConAddress1 | `String` | Sec Con Address1 |
+| 588 | secConAddress2 | `String` | Sec Con Address2 |
+| 589 | secConAddress3 | `String` | Sec Con Address3 |
+| 590 | secConAddress4 | `String` | Sec Con Address4 |
+| 591 | secConAlternateLanguage | `String` | Sec Con Alternate Language |
+| 592 | secConAlternateLanguageDesc | `String` | Sec Con Xlanguage Description |
+| 593 | secConAlternateSalutation | `String` | Sec Con Alternate Salutation |
+| 594 | secConAlternateTitle | `String` | Sec Con Alternate Title |
+| 595 | secConBirthDate | `Date` | Sec Con Birth Date |
+| 596 | secConBirthDateStr | `String` | Sec Con Birth Date Str |
+| 597 | secConBookingId | `Float` | Sec Con Booking ID |
+| 598 | secConBusinessGreeting | `String` | Sec Con Business Greeting |
+| 599 | secConCashBlInd | `String` | Sec Con Cash Bl Individual |
+| 600 | secConCity | `String` | Sec Con City |
+| 601 | secConCityExt | `String` | Sec Con City Ext |
+| 602 | secConContactYn | `String` | Sec Con Contact Y/N |
+| 603 | secConCountry | `String` | Sec Con Country |
+| 604 | secConCountryDesc | `String` | Sec Con Country Description |
+| 605 | secConDepartment | `String` | Sec Con Department |
+| 606 | secConDsi | `Float` | Sec Con Dsi |
+| 607 | secConEmail | `String` | Sec Con Email |
+| 608 | secConFax | `String` | Sec Con Fax |
+| 609 | secConFirstName | `String` | Sec Con First Name |
+| 610 | secConFullName | `String` | Sec Con Full Name |
+| 611 | secConId | `Float` | Sec Con ID |
+| 612 | secConInfluence | `String` | Sec Con Influence |
+| 613 | secConLanguage | `String` | Sec Con Language |
+| 614 | secConLanguageDesc | `String` | Sec Con Language Description |
+| 615 | secConLastName | `String` | Sec Con Last Name |
+| 616 | secConLetterGreeting | `String` | Sec Con Letter Greeting |
+| 617 | secConLinkId | `Float` | Sec Con Link ID |
+| 618 | secConLinkType | `String` | Sec Con Link Type |
+| 619 | secConMarkets | `String` | Sec Con Markets |
+| 620 | secConMiddleName | `String` | Sec Con Middle Name |
+| 621 | secConNameType | `String` | Sec Con Name Type |
+| 622 | secConName2 | `String` | Sec Con Name2 |
+| 623 | secConName3 | `String` | Sec Con Name3 |
+| 624 | secConOrganizationid | `Float` | Sec Con Organizationid |
+| 625 | secConPhone | `String` | Sec Con Phone |
+| 626 | secConPosition | `String` | Sec Con Position |
+| 627 | secConPrimaryYn | `String` | Sec Con Primary Y/N |
+| 628 | secConProductInterest | `String` | Sec Con Product Interest |
+| 629 | secConRelationship | `String` | Sec Con Relationship |
+| 630 | secConRelationshipDesc | `String` | Sec Con Relationship Description |
+| 631 | secConRepActionCode | `String` | Sec Con Reporting Actioncode |
+| 632 | secConRepInfluence | `String` | Sec Con Reporting Influence |
+| 633 | secConRepMarkets | `String` | Sec Con Reporting Markets |
+| 634 | secConRepNameType | `String` | Sec Con Reporting Name Type |
+| 635 | secConRepScope | `String` | Sec Con Reporting Scope |
+| 636 | secConRepScopeCity | `String` | Sec Con Reporting Scope City |
+| 637 | secConRepStateCode | `String` | Sec Con Reporting State Code |
+| 638 | secConRepStateDescription | `String` | Sec Con Reporting State Desc |
+| 639 | secConRepTerritory | `String` | Sec Con Reporting Territory |
+| 640 | secConRepTitle | `String` | Sec Con Reporting Title |
+| 641 | secConResort | `String` | Sec Con Property |
+| 642 | secConScope | `String` | Sec Con Scope |
+| 643 | secConScopeCity | `String` | Sec Con Scope City |
+| 644 | secConSfirst | `String` | Sec Con Sfirst |
+| 645 | secConSname | `String` | Sec Con Sname |
+| 646 | secConSrepCode | `String` | Sec Con Srep Code |
+| 647 | secConSrepId | `Float` | Sec Con Srep ID |
+| 648 | secConSrepName | `String` | Sec Con Srep Name |
+| 649 | secConState | `String` | Sec Con State |
+| 650 | secConStateDesc | `String` | Sec Con State Description |
+| 651 | secConSxfirstName | `String` | Sec Con Sxfirst Name |
+| 652 | secConSxname | `String` | Sec Con Sxname |
+| 653 | secConTerritory | `String` | Sec Con Territory |
+| 654 | secConTitle | `String` | Sec Con Title |
+| 655 | secConXenvelopeGreeting | `String` | Sec Con Xenvelope Greeting |
+| 656 | secConXfirstName | `String` | Sec Con Xfirst Name |
+| 657 | secConXfullName | `String` | Sec Con Xfull Name |
+| 658 | secConXlastName | `String` | Sec Con Xlast Name |
+| 659 | secConZipCode | `String` | Sec Con Zipcode Code |
+| 660 | senddate | `Date` | Senddate |
+| 661 | sentDate | `DateTime` | Sent Date |
+| 662 | serviceCharge | `Float` | Service Charge |
+| 663 | shoulderBeginDate | `Date` | Shoulder Begin Date |
+| 664 | shoulderEndDate | `Date` | Shoulder End Date |
+| 665 | source | `String` | Source |
+| 666 | sourceActiveYn | `String` | Source Active Y/N |
+| 667 | sourceAddressType | `String` | Source Address Type |
+| 668 | sourceAddress1 | `String` | Source Address1 |
+| 669 | sourceAddress2 | `String` | Source Address2 |
+| 670 | sourceAlternateLanguage | `String` | Source Alternate Language |
+| 671 | sourceAlternateLanguageDesc | `String` | Source Xlanguage Description |
+| 672 | sourceAlternateSalutation | `String` | Source Alternate Salutation |
+| 673 | sourceAlternateTitle | `String` | Source Alternate Title |
+| 674 | sourceBookingId | `Float` | Source Booking ID |
+| 675 | sourceBusinessGreeting | `String` | Source Business Greeting |
+| 676 | sourceCity | `String` | Source City |
+| 677 | sourceCityExt | `String` | Source City Ext |
+| 678 | sourceConActionCode | `String` | Source Con Action Code |
+| 679 | sourceConActiveYn | `String` | Source Con Active Y/N |
+| 680 | sourceConAddressType | `String` | Source Con Address Type |
+| 681 | sourceConAddress1 | `String` | Source Con Address1 |
+| 682 | sourceConAddress2 | `String` | Source Con Address2 |
+| 683 | sourceConAddress3 | `String` | Source Con Address3 |
+| 684 | sourceConAddress4 | `String` | Source Con Address4 |
+| 685 | sourceConAlternateLanguage | `String` | Source Con Alternate Language |
+| 686 | sourceConAlternateLanguageDesc | `String` | Source Con Xlanguage Description |
+| 687 | sourceConAlternateSalutation | `String` | Source Con Alternate Salutation |
+| 688 | sourceConAlternateTitle | `String` | Source Con Alternate Title |
+| 689 | sourceConArNumber | `String` | Source Con AR No |
+| 690 | sourceConAuSrepCode | `String` | Source Con Au Srep Code |
+| 691 | sourceConAvailabilityOverride | `String` | Source Con Availability Override |
+| 692 | sourceConBirthDate | `Date` | Source Con Birth Date |
+| 693 | sourceConBirthDateStr | `String` | Source Con Birth Date Str |
+| 694 | sourceConBookingId | `Float` | Source Con Booking ID |
+| 695 | sourceConBusinessGreeting | `String` | Source Con Business Greeting |
+| 696 | sourceConCashBlInd | `String` | Source Con Cash Bl Individual |
+| 697 | sourceConCity | `String` | Source Con City |
+| 698 | sourceConCityExt | `String` | Source Con City Ext |
+| 699 | sourceConContactYn | `String` | Source Con Contact Y/N |
+| 700 | sourceConCountry | `String` | Source Con Country |
+| 701 | sourceConCountryDesc | `String` | Source Con Country Description |
+| 702 | sourceConDepartment | `String` | Source Con Department |
+| 703 | sourceConDsi | `Float` | Source Con Dsi |
+| 704 | sourceConEmail | `String` | Source Con Email |
+| 705 | sourceConFax | `String` | Source Con Fax |
+| 706 | sourceConFirst | `String` | Source Con First |
+| 707 | sourceConHistoryYn | `String` | Source Con History Y/N |
+| 708 | sourceConIataCompType | `String` | Source Con IATA Comp Type |
+| 709 | sourceConId | `Float` | Source Con ID |
+| 710 | sourceConIndustryCode | `String` | Source Con Industry Code |
+| 711 | sourceConInfluence | `String` | Source Con Influence |
+| 712 | sourceConLanguage | `String` | Source Con Language |
+| 713 | sourceConLanguageDesc | `String` | Source Con Language Description |
+| 714 | sourceConLast | `String` | Source Con Last |
+| 715 | sourceConLetterGreeting | `String` | Source Con Letter Greeting |
+| 716 | sourceConLinkId | `Float` | Source Con Link ID |
+| 717 | sourceConLinkType | `String` | Source Con Link Type |
+| 718 | sourceConMailType | `String` | Source Con Mail Type |
+| 719 | sourceConMarkets | `String` | Source Con Markets |
+| 720 | sourceConMiddle | `String` | Source Con Middle |
+| 721 | sourceConName | `String` | Source Con Name |
+| 722 | sourceConNameType | `String` | Source Con Name Type |
+| 723 | sourceConName2 | `String` | Source Con Name2 |
+| 724 | sourceConName3 | `String` | Source Con Name3 |
+| 725 | sourceConOrganizationid | `Float` | Source Con Organizationid |
+| 726 | sourceConPhone | `String` | Source Con Phone |
+| 727 | sourceConPosition | `String` | Source Con Position |
+| 728 | sourceConPrimaryYn | `String` | Source Con Primary Y/N |
+| 729 | sourceConProductInterest | `String` | Source Con Product Interest |
+| 730 | sourceConRelationship | `String` | Source Con Relationship |
+| 731 | sourceConRelationshipDesc | `String` | Source Con Relationship Description |
+| 732 | sourceConRepActionCode | `String` | Source Con Reporting Actioncode |
+| 733 | sourceConRepInfluence | `String` | Source Con Reporting Influence |
+| 734 | sourceConRepMarkets | `String` | Source Con Reporting Markets |
+| 735 | sourceConRepNameType | `String` | Source Con Reporting Name Type |
+| 736 | sourceConRepScope | `String` | Source Con Reporting Scope |
+| 737 | sourceConRepScopeCity | `String` | Source Con Reporting Scope City |
+| 738 | sourceConRepStateCode | `String` | Source Con Reporting State Code |
+| 739 | sourceConRepStateDescription | `String` | Source Con Reporting State Desc |
+| 740 | sourceConRepTerritory | `String` | Source Con Reporting Territory |
+| 741 | sourceConRepTitle | `String` | Source Con Reporting Title |
+| 742 | sourceConResort | `String` | Source Con Property |
+| 743 | sourceConScope | `String` | Source Con Scope |
+| 744 | sourceConScopeCity | `String` | Source Con Scope City |
+| 745 | sourceConSfirst | `String` | Source Con Sfirst |
+| 746 | sourceConSname | `String` | Source Con Sname |
+| 747 | sourceConSrepId | `Float` | Source Con Srep ID |
+| 748 | sourceConSrepName | `String` | Source Con Srep Name |
+| 749 | sourceConState | `String` | Source Con State |
+| 750 | sourceConStateDesc | `String` | Source Con State Description |
+| 751 | sourceConSxfirstName | `String` | Source Con Sxfirst Name |
+| 752 | sourceConSxname | `String` | Source Con Sxname |
+| 753 | sourceConTerritory | `String` | Source Con Territory |
+| 754 | sourceConTitle | `String` | Source Con Title |
+| 755 | sourceConXfirst | `String` | Source Con Xfirst |
+| 756 | sourceConXlast | `String` | Source Con Xlast |
+| 757 | sourceConXletterGreeting | `String` | Source Con Xletter Greeting |
+| 758 | sourceConXname | `String` | Source Con Xname |
+| 759 | sourceConZipcode | `String` | Source Con Zipcode |
+| 760 | sourceCountry | `String` | Source Country |
+| 761 | sourceCountryDesc | `String` | Source Country Description |
+| 762 | sourceDsi | `Float` | Source Dsi |
+| 763 | sourceEmail | `String` | Source Email |
+| 764 | sourceFax | `String` | Source Fax |
+| 765 | sourceId | `Float` | Source ID |
+| 766 | sourceLinkId | `Float` | Source Link ID |
+| 767 | sourceLinkType | `String` | Source Link Type |
+| 768 | sourceName | `String` | Source Name |
+| 769 | sourceNameId | `Float` | Source Name ID |
+| 770 | sourceNameType | `String` | Source Name Type |
+| 771 | sourceName2 | `String` | Source Name2 |
+| 772 | sourceName3 | `String` | Source Name3 |
+| 773 | sourceOrganizationid | `Float` | Source Organizationid |
+| 774 | sourcePhone | `String` | Source Phone |
+| 775 | sourcePrimaryYn | `String` | Source Primary Y/N |
+| 776 | sourceRelationship | `String` | Source Relationship |
+| 777 | sourceRelationshipDesc | `String` | Source Relationship Description |
+| 778 | sourceRepStateCode | `String` | Source Reporting State Code |
+| 779 | sourceResort | `String` | Comma separated list of properties to migrate. |
+| 780 | sourceScope | `String` | Source Scope |
+| 781 | sourceScopeCity | `String` | Source Scope City |
+| 782 | sourceSname | `String` | Source Sname |
+| 783 | sourceState | `String` | Source State |
+| 784 | sourceStateDesc | `String` | Source State Description |
+| 785 | sourceSxname | `String` | Source Sxname |
+| 786 | sourceTerritory | `String` | Source Territory |
+| 787 | sourceXdisplayName | `String` | Source Xdisplay Name |
+| 788 | sourceXenvelopeGreeting | `String` | Source Xenvelope Greeting |
+| 789 | sourceXfirstName | `String` | Source Xfirst Name |
+| 790 | sourceZipcode | `String` | Source Zipcode |
+| 791 | status | `String` | Status |
+| 792 | superBlockId | `Float` | Parent Block ID |
+| 793 | superBlockResort | `String` | Parent Resort |
+| 794 | taxAmount | `Float` | Tax Amount |
+| 795 | tbdRates | `String` | To be Determined Rates |
+| 796 | tentativeLevel | `Float` | Not used |
+| 797 | tracecode | `String` | Tracecode |
+| 798 | udescription | `String` | This is upper-case description of regular description column for fast search |
+| 799 | udfc01 | `String` | Udfc01 |
+| 800 | udfc02 | `String` | Udfc02 |
+| 801 | udfc03 | `String` | Udfc03 |
+| 802 | udfc04 | `String` | Udfc04 |
+| 803 | udfc05 | `String` | Udfc05 |
+| 804 | udfc06 | `String` | Udfc06 |
+| 805 | udfc07 | `String` | Udfc07 |
+| 806 | udfc08 | `String` | Udfc08 |
+| 807 | udfc09 | `String` | Udfc09 |
+| 808 | udfc10 | `String` | Udfc10 |
+| 809 | udfc11 | `String` | Udfc11 |
+| 810 | udfc12 | `String` | Udfc12 |
+| 811 | udfc13 | `String` | Udfc13 |
+| 812 | udfc14 | `String` | Udfc14 |
+| 813 | udfc15 | `String` | Udfc15 |
+| 814 | udfc16 | `String` | Udfc16 |
+| 815 | udfc17 | `String` | Udfc17 |
+| 816 | udfc18 | `String` | Udfc18 |
+| 817 | udfc19 | `String` | Udfc19 |
+| 818 | udfc20 | `String` | Udfc20 |
+| 819 | udfc21 | `String` | Udfc21 |
+| 820 | udfc22 | `String` | Udfc22 |
+| 821 | udfc23 | `String` | Udfc23 |
+| 822 | udfc24 | `String` | Udfc24 |
+| 823 | udfc25 | `String` | Udfc25 |
+| 824 | udfc26 | `String` | Udfc26 |
+| 825 | udfc27 | `String` | Udfc27 |
+| 826 | udfc28 | `String` | Udfc28 |
+| 827 | udfc29 | `String` | Udfc29 |
+| 828 | udfc30 | `String` | Udfc30 |
+| 829 | udfc31 | `String` | Udfc31 |
+| 830 | udfc32 | `String` | Udfc32 |
+| 831 | udfc33 | `String` | Udfc33 |
+| 832 | udfc34 | `String` | Udfc34 |
+| 833 | udfc35 | `String` | Udfc35 |
+| 834 | udfc36 | `String` | Udfc36 |
+| 835 | udfc37 | `String` | Udfc37 |
+| 836 | udfc38 | `String` | Udfc38 |
+| 837 | udfc39 | `String` | Udfc39 |
+| 838 | udfc40 | `String` | Udfc40 |
+| 839 | udfd01 | `Date` | Udfd01 |
+| 840 | udfd02 | `Date` | Udfd02 |
+| 841 | udfd03 | `Date` | Udfd03 |
+| 842 | udfd04 | `Date` | Udfd04 |
+| 843 | udfd05 | `Date` | Udfd05 |
+| 844 | udfd06 | `Date` | Udfd06 |
+| 845 | udfd07 | `Date` | Udfd07 |
+| 846 | udfd08 | `Date` | Udfd08 |
+| 847 | udfd09 | `Date` | Udfd09 |
+| 848 | udfd10 | `Date` | Udfd10 |
+| 849 | udfd11 | `Date` | Udfd11 |
+| 850 | udfd12 | `Date` | Udfd12 |
+| 851 | udfd13 | `Date` | Udfd13 |
+| 852 | udfd14 | `Date` | Udfd14 |
+| 853 | udfd15 | `Date` | Udfd15 |
+| 854 | udfd16 | `Date` | Udfd16 |
+| 855 | udfd17 | `Date` | Udfd17 |
+| 856 | udfd18 | `Date` | Udfd18 |
+| 857 | udfd19 | `Date` | Udfd19 |
+| 858 | udfd20 | `Date` | Udfd20 |
+| 859 | udfn01 | `Float` | Udfn01 |
+| 860 | udfn02 | `Float` | Udfn02 |
+| 861 | udfn03 | `Float` | Udfn03 |
+| 862 | udfn04 | `Float` | Udfn04 |
+| 863 | udfn05 | `Float` | Udfn05 |
+| 864 | udfn06 | `Float` | Udfn06 |
+| 865 | udfn07 | `Float` | Udfn07 |
+| 866 | udfn08 | `Float` | Udfn08 |
+| 867 | udfn09 | `Float` | Udfn09 |
+| 868 | udfn10 | `Float` | Udfn10 |
+| 869 | udfn11 | `Float` | Udfn11 |
+| 870 | udfn12 | `Float` | Udfn12 |
+| 871 | udfn13 | `Float` | Udfn13 |
+| 872 | udfn14 | `Float` | Udfn14 |
+| 873 | udfn15 | `Float` | Udfn15 |
+| 874 | udfn16 | `Float` | Udfn16 |
+| 875 | udfn17 | `Float` | Udfn17 |
+| 876 | udfn18 | `Float` | Udfn18 |
+| 877 | udfn19 | `Float` | Udfn19 |
+| 878 | udfn20 | `Float` | Udfn20 |
+| 879 | udfn21 | `Float` | Udfn21 |
+| 880 | udfn22 | `Float` | Udfn22 |
+| 881 | udfn23 | `Float` | Udfn23 |
+| 882 | udfn24 | `Float` | Udfn24 |
+| 883 | udfn25 | `Float` | Udfn25 |
+| 884 | udfn26 | `Float` | Udfn26 |
+| 885 | udfn27 | `Float` | Udfn27 |
+| 886 | udfn28 | `Float` | Udfn28 |
+| 887 | udfn29 | `Float` | Udfn29 |
+| 888 | udfn30 | `Float` | Udfn30 |
+| 889 | udfn31 | `Float` | Udfn31 |
+| 890 | udfn32 | `Float` | Udfn32 |
+| 891 | udfn33 | `Float` | Udfn33 |
+| 892 | udfn34 | `Float` | Udfn34 |
+| 893 | udfn35 | `Float` | Udfn35 |
+| 894 | udfn36 | `Float` | Udfn36 |
+| 895 | udfn37 | `Float` | Udfn37 |
+| 896 | udfn38 | `Float` | Udfn38 |
+| 897 | udfn39 | `Float` | Udfn39 |
+| 898 | udfn40 | `Float` | Udfn40 |
+| 899 | updateDate | `DateTime` | Update Date |
+| 900 | updateUser | `Float` | Update User |
+| 901 | updateUserName | `String` | Update User Name |
+| 902 | uploadDate | `Date` | Upload Date |
+| 903 | xaccName | `String` | Xacc Name |
+| 904 | xagentName | `String` | Xagent Name |
+| 905 | xsourceName | `String` | Extended Byte Source Name |
 
 [⬆ Back to Query](#query)
 
@@ -1324,35 +1325,38 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| scbusblockinfoDetailsAgentNameId | `FloatInput` | Agent Name ID |
-| scbusblockinfoDetailsAllotmentCode | `StringInput` | Allotment Code |
-| scbusblockinfoDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
-| scbusblockinfoDetailsBeginDate | `DateInput!` | Begin Date<br>`@mandatoryInput` |
-| scbusblockinfoDetailsBookingStatus | `StringInput` | Booking Status |
-| scbusblockinfoDetailsCXchangeDate | `DateInput` | Central Xchange Date |
-| scbusblockinfoDetailsCompanyNameId | `FloatInput` | Company Name ID |
-| scbusblockinfoDetailsContactNameId | `FloatInput` | Contact Name ID |
+| saleseventbusinessblockinformationdetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| scbusblockinfoDetailsAgentNameId | `FloatInput` | Agent Name ID<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsAllotmentCode | `StringInput` | Allotment Code<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsBeginDate | `DateInput` | Begin Date<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsBookingStatus | `StringInput` | Booking Status<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsBookingStatusorder | `FloatInput` | Booking Statusorder<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsBusblockId | `FloatInput` | Busblock ID<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsCXchangeDate | `DateInput` | Central Xchange Date<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsCompanyNameId | `FloatInput` | Company Name ID<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsContactNameId | `FloatInput` | Contact Name ID<br>`@conditionalInputPair(pair: 2)` |
 | scbusblockinfoDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| scbusblockinfoDetailsEndDate | `DateInput!` | End Date<br>`@mandatoryInput` |
-| scbusblockinfoDetailsGuaranteeCode | `StringInput` | Guarantee Code |
-| scbusblockinfoDetailsInsertDate | `DateTimeInput` | Insert Date |
-| scbusblockinfoDetailsInsertUser | `FloatInput` | Insert User |
-| scbusblockinfoDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID. |
-| scbusblockinfoDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| scbusblockinfoDetailsMarketCode | `StringInput` | Market Code |
-| scbusblockinfoDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block. |
+| scbusblockinfoDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsGuaranteeCode | `StringInput` | Guarantee Code<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsInsertDate | `DateTimeInput` | Insert Date<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsInsertUser | `FloatInput` | Insert User<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsIsacOpptyId | `StringInput` | STAR MODE: ISAC opportunity ID.<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsMarketCode | `StringInput` | Market Code<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsMasterNameId | `FloatInput` | Profile Id. ( Name_Id ) of the Group Profile attached to this business block.<br>`@conditionalInputPair(pair: 2)` |
 | scbusblockinfoDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| scbusblockinfoDetailsOwner | `FloatInput` | Owner |
-| scbusblockinfoDetailsOwnerCode | `StringInput` | Owner Code |
-| scbusblockinfoDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| scbusblockinfoDetailsRateCode | `StringInput` | Rate Code |
+| scbusblockinfoDetailsOwner | `FloatInput` | Owner<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsOwnerCode | `StringInput` | Owner Code<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| scbusblockinfoDetailsRateCode | `StringInput` | Rate Code<br>`@conditionalInputPair(pair: 2)` |
 | scbusblockinfoDetailsShoulderBeginDate | `DateInput` | Shoulder Begin Date |
 | scbusblockinfoDetailsShoulderEndDate | `DateInput` | Shoulder End Date |
-| scbusblockinfoDetailsSourceNameId | `FloatInput` | Source Name ID |
-| scbusblockinfoDetailsSuperBlockId | `FloatInput` | Parent Block ID |
-| scbusblockinfoDetailsSuperBlockResort | `StringInput` | Parent Resort |
-| scbusblockinfoDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search |
-| scbusblockinfoDetailsUpdateDate | `DateTimeInput` | Update Date |
+| scbusblockinfoDetailsSourceNameId | `FloatInput` | Source Name ID<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsSuperBlockId | `FloatInput` | Parent Block ID<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsSuperBlockResort | `StringInput` | Parent Resort<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsUdescription | `StringInput` | This is upper-case description of regular description column for fast search<br>`@conditionalInputPair(pair: 2)` |
+| scbusblockinfoDetailsUpdateDate | `DateTimeInput` | Update Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -1616,10 +1620,37 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
-- scbusblockinfoDetailsBeginDate
-- scbusblockinfoDetailsEndDate
+**`conditionalInputPair(pair: 1)`**
+- saleseventbusinessblockinformationdetailsChainCode
 - scbusblockinfoDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- scbusblockinfoDetailsAgentNameId
+- scbusblockinfoDetailsAllotmentCode
+- scbusblockinfoDetailsAllotmentHeaderId
+- scbusblockinfoDetailsBeginDate
+- scbusblockinfoDetailsBookingStatus
+- scbusblockinfoDetailsBookingStatusorder
+- scbusblockinfoDetailsBusblockId
+- scbusblockinfoDetailsCXchangeDate
+- scbusblockinfoDetailsCompanyNameId
+- scbusblockinfoDetailsContactNameId
+- scbusblockinfoDetailsEndDate
+- scbusblockinfoDetailsGuaranteeCode
+- scbusblockinfoDetailsInsertDate
+- scbusblockinfoDetailsInsertUser
+- scbusblockinfoDetailsIsacOpptyId
+- scbusblockinfoDetailsJrnupdatedttm
+- scbusblockinfoDetailsMarketCode
+- scbusblockinfoDetailsMasterNameId
+- scbusblockinfoDetailsOwner
+- scbusblockinfoDetailsOwnerCode
+- scbusblockinfoDetailsRateCode
+- scbusblockinfoDetailsSourceNameId
+- scbusblockinfoDetailsSuperBlockId
+- scbusblockinfoDetailsSuperBlockResort
+- scbusblockinfoDetailsUdescription
+- scbusblockinfoDetailsUpdateDate
 
 
 [⬆ Back to Query](#query)
@@ -1631,6 +1662,7 @@
 query simpleReportsBookingBlocks($input: SimpleReportsBookingBlocksQueryArgumentsType!) {
   simpleReportsBookingBlocks(input: $input) @stream {
     salesEventBusinessBlockInformationDetails {
+      chainCode
       accountActionCode
       accountActiveYN
       accountAddressType
@@ -2809,6 +2841,7 @@ query simpleReportsBookingBlocks($input: SimpleReportsBookingBlocksQueryArgument
   
 ```python
 sales_event_business_block_information_details_schema = {
+    'chainCode': pl.Utf8,
     'accountActionCode': pl.Utf8,
     'accountActiveYN': pl.Utf8,
     'accountAddressType': pl.Utf8,

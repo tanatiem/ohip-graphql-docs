@@ -343,176 +343,177 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | adults | `Float` | Adults |
-| 2 | adultsTaxFree | `Float` | Adults Tax Free |
-| 3 | agentId | `Float` | Agent ID |
-| 4 | allotmentHeaderId | `Float` | Allotment Header ID |
-| 5 | allotmentid | `Float` | Block ID |
-| 6 | arrivalPersons | `Float` | Arrival Persons |
-| 7 | arrivalRooms | `Float` | Arrival Rooms |
-| 8 | blockEndDate | `Date` | Block End Date |
-| 9 | blockStatus | `String` | Block Status |
-| 10 | bookedRoomCategory | `String` | Booked Room Category |
-| 11 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
-| 12 | bookingStatus | `String` | Booking Status |
-| 13 | bookingStatusDescription | `String` | Booking Status Description |
-| 14 | bookingstatusid | `String` | Bookingstatusid |
-| 15 | businessDateCreated | `Date` | Business Date Created |
-| 16 | cExchangeDate | `Date` | Central Xchange Date |
-| 17 | cExchangeRate | `Float` | Central Xchange Rate |
-| 18 | cFCExtraRevenue | `Float` | Central Fc Extra Revenue |
-| 19 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
-| 20 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
-| 21 | cFCGrossRate | `Float` | Central Fc Gross Rate |
-| 22 | cFCNetRoomRevenue | `Float` | Central Fc Net Room Revenue |
-| 23 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
-| 24 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
-| 25 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
-| 26 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
-| 27 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
-| 28 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
-| 29 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
-| 30 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
-| 31 | cFoodRevenueTax | `Float` | Central Food Revenue Tax |
-| 32 | cNonRevenueTax | `Float` | Central Non Revenue Tax |
-| 33 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
-| 34 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
-| 35 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
-| 36 | cRSExchangeRate | `Float` | CRS Exchange Rate |
-| 37 | centralBookingStatus | `String` | Central Booking Status |
-| 38 | centralBookingStatusDescription | `String` | Central Booking Status Description |
-| 39 | centralCurrencyCode | `String` | Central Currency Code |
-| 40 | centralExtraRevenue | `Float` | Central Extra Revenue |
-| 41 | centralFoodRevenue | `Float` | Central Food Revenue |
-| 42 | centralGrossRate | `Float` | Central Gross Rate |
-| 43 | centralNationalityCode | `String` | Central Nationality Code |
-| 44 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
-| 45 | centralNonRevenue | `Float` | Central Non Revenue |
-| 46 | centralOtherRevenue | `Float` | Central Other Revenue |
-| 47 | centralRateCategory | `String` | Central Rate Category |
-| 48 | centralRateClass | `String` | Central Rate Class |
-| 49 | centralRoomClass | `String` | Central Room Class |
-| 50 | centralRoomRevenue | `Float` | Central Room Revenue |
-| 51 | centralRoomType | `String` | Central Room Type |
-| 52 | centralTotalRevenue | `Float` | Central Total Revenue |
-| 53 | centralcurrencyid | `String` | Centralcurrencyid |
-| 54 | channelid | `String` | Channelid |
-| 55 | children | `Float` | Children |
-| 56 | childrenTaxFree | `Float` | Children Tax Free |
-| 57 | children1 | `Float` | Children1 |
-| 58 | children2 | `Float` | Children2 |
-| 59 | children3 | `Float` | Children3 |
-| 60 | children4 | `Float` | Children4 |
-| 61 | children5 | `Float` | Children5 |
-| 62 | city | `String` | City |
-| 63 | consideredDate | `Date` | Considered Date |
-| 64 | country | `String` | Country |
-| 65 | countryCode | `String` | Country Code |
-| 66 | countryid | `String` | Countryid |
-| 67 | cribs | `Float` | Cribs |
-| 68 | currencyCode | `String` | Currency Code |
-| 69 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 70 | dayUsePersons | `Float` | Day Use Persons |
-| 71 | dayUseRooms | `Float` | Day Use Rooms |
-| 72 | dayUseYN | `String` | Day Use YN |
-| 73 | departurePersons | `Float` | Departure Persons |
-| 74 | departureRooms | `Float` | Departure Rooms |
-| 75 | district | `String` | District |
-| 76 | endDate | `Date` | End Date |
-| 77 | eventID | `String` | Event ID |
-| 78 | eventType | `String` | Event Type |
-| 79 | exchangeDate | `Date` | Exchange Date |
-| 80 | extraBeds | `Float` | Extra Beds |
-| 81 | extraRevenue | `Float` | Extra Revenue |
-| 82 | fcExtraRevenue | `Float` | FC Extra Revenue |
-| 83 | fcFoodRevenue | `Float` | FC Food Revenue |
-| 84 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
-| 85 | fcGrossRate | `Float` | FC Gross Rate |
-| 86 | fcNetRoomRevenue | `Float` | FC Net Room Revenue |
-| 87 | fcNonRevenue | `Float` | FC Non Revenue |
-| 88 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
-| 89 | fcOtherRevenue | `Float` | FC Other Revenue |
-| 90 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
-| 91 | fcRoomRevenue | `Float` | FC Room Revenue |
-| 92 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
-| 93 | fcTotalRevenue | `Float` | FC Total Revenue |
-| 94 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
-| 95 | foodRevenue | `Float` | Food Revenue |
-| 96 | foodRevenueTax | `Float` | Food Revenue Tax |
-| 97 | gender | `String` | Gender |
-| 98 | grossRate | `Float` | Gross Rate |
-| 99 | groupId | `Float` | Group ID |
-| 100 | id | `Float` | ID |
-| 101 | internalConsidereddate | `Date` | Considereddate |
-| 102 | jRNUpdateDate | `Date` | JRN Update Date |
-| 103 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 104 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 105 | marketCode | `String` | Market Code |
-| 106 | marketid | `String` | Marketid |
-| 107 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
-| 108 | nationalityCode | `String` | Nationality Code |
-| 109 | nationalityid | `String` | Nationalityid |
-| 110 | netRoomRevenue | `Float` | Net Room Revenue |
-| 111 | nonRevenue | `Float` | Non Revenue |
-| 112 | nonRevenueTax | `Float` | Non Revenue Tax |
-| 113 | numberOfRooms | `Float` | Number of Rooms |
-| 114 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 115 | originCode | `String` | Origin Code |
-| 116 | otherRevenue | `Float` | Other Revenue |
-| 117 | otherRevenueTax | `Float` | Other Revenue Tax |
-| 118 | outOfOrderRooms | `Float` | Number of Rooms marked as Out of Order for today |
-| 119 | outOfServiceRooms | `Float` | Out of Service Rooms |
-| 120 | ownerFfFlag | `String` | Owner Ff Flag |
-| 121 | ownerRentalFlag | `String` | Owner Rental Flag |
-| 122 | parentCompanyId | `Float` | Parent Company ID |
-| 123 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
-| 124 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
-| 125 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 126 | property | `String` | Property |
-| 127 | pseudoRoomYN | `String` | Pseudo Room YN |
-| 128 | quantity | `Float` | Quantity |
-| 129 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 130 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 131 | rateCategory | `String` | Rate Category |
-| 132 | rateClass | `String` | Rate Class |
-| 133 | rateCode | `String` | Rate Code |
-| 134 | ratecategoryid | `String` | Ratecategoryid |
-| 135 | rateclassid | `String` | Rateclassid |
-| 136 | ratecodeid | `String` | Ratecodeid |
-| 137 | regionCode | `String` | Region Code |
-| 138 | regionDescription | `String` | Region Description |
-| 139 | regionid | `String` | Regionid |
-| 140 | remainingBlockRooms | `Float` | Remaining Block Rooms |
-| 141 | resInsertSource | `String` | Reservation Insert Source |
-| 142 | reservationInventoryType | `String` | Reservation Inventory Type |
-| 143 | reservationStatus | `String` | Reservation Status |
-| 144 | reservationType | `String` | Reservation Type |
-| 145 | reservationdailytotalid | `Float` | Reservation Daily Total ID |
-| 146 | reservationid | `Float` | Reservationid |
-| 147 | roomCategoryNo | `String` | Room Category Number |
-| 148 | roomClass | `String` | Room Class |
-| 149 | roomRevenue | `Float` | Room Revenue |
-| 150 | roomRevenueTax | `Float` | Room Revenue Tax |
-| 151 | roomType | `String` | Room Type |
-| 152 | roomcategoryid | `String` | Roomcategoryid |
-| 153 | roomclassid | `String` | Roomclassid |
-| 154 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
-| 155 | sourceCode | `String` | Source Code |
-| 156 | sourceProfId | `Float` | Source Prof ID |
-| 157 | sourceid | `String` | Sourceid |
-| 158 | sourceprofprofileid | `Float` | Sourceprofprofileid |
-| 159 | startDate | `Date` | Start Date |
-| 160 | state | `String` | State |
-| 161 | systemDate | `DateTime` | System Date |
-| 162 | totalRevenue | `Float` | Total Revenue |
-| 163 | totalRevenueTax | `Float` | Total Revenue Tax |
-| 164 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| 165 | updateBusinessDate | `Date` | Update Business Date |
-| 166 | vipStatus | `String` | VIP Status |
-| 167 | vipgueststatusid | `String` | Vipgueststatusid |
-| 168 | waitlistPersons | `Float` | Waitlist Persons |
-| 169 | waitlistRooms | `Float` | Waitlist Rooms |
-| 170 | zipCode | `String` | Zipcode Code |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | adults | `Float` | Adults |
+| 3 | adultsTaxFree | `Float` | Adults Tax Free |
+| 4 | agentId | `Float` | Agent ID |
+| 5 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 6 | allotmentid | `Float` | Block ID |
+| 7 | arrivalPersons | `Float` | Arrival Persons |
+| 8 | arrivalRooms | `Float` | Arrival Rooms |
+| 9 | blockEndDate | `Date` | Block End Date |
+| 10 | blockStatus | `String` | Block Status |
+| 11 | bookedRoomCategory | `String` | Booked Room Category |
+| 12 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
+| 13 | bookingStatus | `String` | Booking Status |
+| 14 | bookingStatusDescription | `String` | Booking Status Description |
+| 15 | bookingstatusid | `String` | Bookingstatusid |
+| 16 | businessDateCreated | `Date` | Business Date Created |
+| 17 | cExchangeDate | `Date` | Central Xchange Date |
+| 18 | cExchangeRate | `Float` | Central Xchange Rate |
+| 19 | cFCExtraRevenue | `Float` | Central Fc Extra Revenue |
+| 20 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
+| 21 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
+| 22 | cFCGrossRate | `Float` | Central Fc Gross Rate |
+| 23 | cFCNetRoomRevenue | `Float` | Central Fc Net Room Revenue |
+| 24 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
+| 25 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
+| 26 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
+| 27 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
+| 28 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
+| 29 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
+| 30 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
+| 31 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
+| 32 | cFoodRevenueTax | `Float` | Central Food Revenue Tax |
+| 33 | cNonRevenueTax | `Float` | Central Non Revenue Tax |
+| 34 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
+| 35 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
+| 36 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
+| 37 | cRSExchangeRate | `Float` | CRS Exchange Rate |
+| 38 | centralBookingStatus | `String` | Central Booking Status |
+| 39 | centralBookingStatusDescription | `String` | Central Booking Status Description |
+| 40 | centralCurrencyCode | `String` | Central Currency Code |
+| 41 | centralExtraRevenue | `Float` | Central Extra Revenue |
+| 42 | centralFoodRevenue | `Float` | Central Food Revenue |
+| 43 | centralGrossRate | `Float` | Central Gross Rate |
+| 44 | centralNationalityCode | `String` | Central Nationality Code |
+| 45 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
+| 46 | centralNonRevenue | `Float` | Central Non Revenue |
+| 47 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 48 | centralRateCategory | `String` | Central Rate Category |
+| 49 | centralRateClass | `String` | Central Rate Class |
+| 50 | centralRoomClass | `String` | Central Room Class |
+| 51 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 52 | centralRoomType | `String` | Central Room Type |
+| 53 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 54 | centralcurrencyid | `String` | Centralcurrencyid |
+| 55 | channelid | `String` | Channelid |
+| 56 | children | `Float` | Children |
+| 57 | childrenTaxFree | `Float` | Children Tax Free |
+| 58 | children1 | `Float` | Children1 |
+| 59 | children2 | `Float` | Children2 |
+| 60 | children3 | `Float` | Children3 |
+| 61 | children4 | `Float` | Children4 |
+| 62 | children5 | `Float` | Children5 |
+| 63 | city | `String` | City |
+| 64 | consideredDate | `Date` | Considered Date |
+| 65 | country | `String` | Country |
+| 66 | countryCode | `String` | Country Code |
+| 67 | countryid | `String` | Countryid |
+| 68 | cribs | `Float` | Cribs |
+| 69 | currencyCode | `String` | Currency Code |
+| 70 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 71 | dayUsePersons | `Float` | Day Use Persons |
+| 72 | dayUseRooms | `Float` | Day Use Rooms |
+| 73 | dayUseYN | `String` | Day Use YN |
+| 74 | departurePersons | `Float` | Departure Persons |
+| 75 | departureRooms | `Float` | Departure Rooms |
+| 76 | district | `String` | District |
+| 77 | endDate | `Date` | End Date |
+| 78 | eventID | `String` | Event ID |
+| 79 | eventType | `String` | Event Type |
+| 80 | exchangeDate | `Date` | Exchange Date |
+| 81 | extraBeds | `Float` | Extra Beds |
+| 82 | extraRevenue | `Float` | Extra Revenue |
+| 83 | fcExtraRevenue | `Float` | FC Extra Revenue |
+| 84 | fcFoodRevenue | `Float` | FC Food Revenue |
+| 85 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
+| 86 | fcGrossRate | `Float` | FC Gross Rate |
+| 87 | fcNetRoomRevenue | `Float` | FC Net Room Revenue |
+| 88 | fcNonRevenue | `Float` | FC Non Revenue |
+| 89 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
+| 90 | fcOtherRevenue | `Float` | FC Other Revenue |
+| 91 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
+| 92 | fcRoomRevenue | `Float` | FC Room Revenue |
+| 93 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
+| 94 | fcTotalRevenue | `Float` | FC Total Revenue |
+| 95 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
+| 96 | foodRevenue | `Float` | Food Revenue |
+| 97 | foodRevenueTax | `Float` | Food Revenue Tax |
+| 98 | gender | `String` | Gender |
+| 99 | grossRate | `Float` | Gross Rate |
+| 100 | groupId | `Float` | Group ID |
+| 101 | id | `Float` | ID |
+| 102 | internalConsidereddate | `Date` | Considereddate |
+| 103 | jRNUpdateDate | `Date` | JRN Update Date |
+| 104 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 105 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 106 | marketCode | `String` | Market Code |
+| 107 | marketid | `String` | Marketid |
+| 108 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
+| 109 | nationalityCode | `String` | Nationality Code |
+| 110 | nationalityid | `String` | Nationalityid |
+| 111 | netRoomRevenue | `Float` | Net Room Revenue |
+| 112 | nonRevenue | `Float` | Non Revenue |
+| 113 | nonRevenueTax | `Float` | Non Revenue Tax |
+| 114 | numberOfRooms | `Float` | Number of Rooms |
+| 115 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 116 | originCode | `String` | Origin Code |
+| 117 | otherRevenue | `Float` | Other Revenue |
+| 118 | otherRevenueTax | `Float` | Other Revenue Tax |
+| 119 | outOfOrderRooms | `Float` | Number of Rooms marked as Out of Order for today |
+| 120 | outOfServiceRooms | `Float` | Out of Service Rooms |
+| 121 | ownerFfFlag | `String` | Owner Ff Flag |
+| 122 | ownerRentalFlag | `String` | Owner Rental Flag |
+| 123 | parentCompanyId | `Float` | Parent Company ID |
+| 124 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
+| 125 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
+| 126 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 127 | property | `String` | Property |
+| 128 | pseudoRoomYN | `String` | Pseudo Room YN |
+| 129 | quantity | `Float` | Quantity |
+| 130 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 131 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 132 | rateCategory | `String` | Rate Category |
+| 133 | rateClass | `String` | Rate Class |
+| 134 | rateCode | `String` | Rate Code |
+| 135 | ratecategoryid | `String` | Ratecategoryid |
+| 136 | rateclassid | `String` | Rateclassid |
+| 137 | ratecodeid | `String` | Ratecodeid |
+| 138 | regionCode | `String` | Region Code |
+| 139 | regionDescription | `String` | Region Description |
+| 140 | regionid | `String` | Regionid |
+| 141 | remainingBlockRooms | `Float` | Remaining Block Rooms |
+| 142 | resInsertSource | `String` | Reservation Insert Source |
+| 143 | reservationInventoryType | `String` | Reservation Inventory Type |
+| 144 | reservationStatus | `String` | Reservation Status |
+| 145 | reservationType | `String` | Reservation Type |
+| 146 | reservationdailytotalid | `Float` | Reservation Daily Total ID |
+| 147 | reservationid | `Float` | Reservationid |
+| 148 | roomCategoryNo | `String` | Room Category Number |
+| 149 | roomClass | `String` | Room Class |
+| 150 | roomRevenue | `Float` | Room Revenue |
+| 151 | roomRevenueTax | `Float` | Room Revenue Tax |
+| 152 | roomType | `String` | Room Type |
+| 153 | roomcategoryid | `String` | Roomcategoryid |
+| 154 | roomclassid | `String` | Roomclassid |
+| 155 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
+| 156 | sourceCode | `String` | Source Code |
+| 157 | sourceProfId | `Float` | Source Prof ID |
+| 158 | sourceid | `String` | Sourceid |
+| 159 | sourceprofprofileid | `Float` | Sourceprofprofileid |
+| 160 | startDate | `Date` | Start Date |
+| 161 | state | `String` | State |
+| 162 | systemDate | `DateTime` | System Date |
+| 163 | totalRevenue | `Float` | Total Revenue |
+| 164 | totalRevenueTax | `Float` | Total Revenue Tax |
+| 165 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 166 | updateBusinessDate | `Date` | Update Business Date |
+| 167 | vipStatus | `String` | VIP Status |
+| 168 | vipgueststatusid | `String` | Vipgueststatusid |
+| 169 | waitlistPersons | `Float` | Waitlist Persons |
+| 170 | waitlistRooms | `Float` | Waitlist Rooms |
+| 171 | zipCode | `String` | Zipcode Code |
 
 [⬆ Back to Query](#query)
 
@@ -522,174 +523,175 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | adults | `Float` | Adults |
-| 2 | adultsTaxFree | `Float` | Adults Tax Free |
-| 3 | agentId | `Float` | Agent ID |
-| 4 | allotmentHeaderId | `Float` | Allotment Header ID |
-| 5 | allotmentid | `Float` | Block ID |
-| 6 | arrivalPersons | `Float` | Arrival Persons |
-| 7 | arrivalRooms | `Float` | Arrival Rooms |
-| 8 | blockStatus | `String` | Block Status |
-| 9 | bookedRoomCategory | `String` | Booked Room Category |
-| 10 | bookingStatus | `String` | Booking Status |
-| 11 | bookingstatusid | `String` | Bookingstatusid |
-| 12 | businessDateCreated | `Date` | Business Date Created |
-| 13 | cDayUseNetRoomRevenue | `Float` | Central Day Use Net Room Revenue |
-| 14 | cExchangeDate | `Date` | Central Xchange Date |
-| 15 | cExchangeRate | `Float` | Central Xchange Rate |
-| 16 | cFCExtraRevenue | `Float` | Central Fc Extra Revenue |
-| 17 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
-| 18 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
-| 19 | cFCGrossRate | `Float` | Central Fc Gross Rate |
-| 20 | cFCNetRoomRevenue | `Float` | Central Fc Net Room Revenue |
-| 21 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
-| 22 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
-| 23 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
-| 24 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
-| 25 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
-| 26 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
-| 27 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
-| 28 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
-| 29 | cFoodRevenueTax | `Float` | Central Food Revenue Tax |
-| 30 | cNonRevenueTax | `Float` | Central Non Revenue Tax |
-| 31 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
-| 32 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
-| 33 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
-| 34 | centralCurrencyCode | `String` | Central Currency Code |
-| 35 | centralDayUseExtraRevenue | `Float` | Central Day Use Extra Revenue |
-| 36 | centralDayUseGrossRate | `Float` | Central Day Use Gross Rate |
-| 37 | centralExchangeRate | `Float` | Central Exchange Rate |
-| 38 | centralExtraRevenue | `Float` | Central Extra Revenue |
-| 39 | centralFoodRevenue | `Float` | Central Food Revenue |
-| 40 | centralGrossRate | `Float` | Central Gross Rate |
-| 41 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
-| 42 | centralNonRevenue | `Float` | Central Non Revenue |
-| 43 | centralOtherRevenue | `Float` | Central Other Revenue |
-| 44 | centralRoomRevenue | `Float` | Central Room Revenue |
-| 45 | centralRoomType | `String` | Central Room Type |
-| 46 | centralTotalRevenue | `Float` | Central Total Revenue |
-| 47 | centralWaitlistExtraRevenue | `Float` | Central Waitlist Extra Revenue |
-| 48 | centralWaitlistGrossRate | `Float` | Central Waitlist Gross Rate |
-| 49 | centralWaitlistNetRoomRevenue | `Float` | Central Waitlist Net Room Revenue |
-| 50 | centralcurrencyid | `String` | Centralcurrencyid |
-| 51 | channel | `String` | Channel |
-| 52 | channelid | `String` | Channelid |
-| 53 | children | `Float` | Children |
-| 54 | childrenTaxFree | `Float` | Children Tax Free |
-| 55 | children1 | `Float` | Children1 |
-| 56 | children2 | `Float` | Children2 |
-| 57 | children3 | `Float` | Children3 |
-| 58 | children4 | `Float` | Children4 |
-| 59 | children5 | `Float` | Children5 |
-| 60 | city | `String` | City |
-| 61 | considereddate | `Date` | Considereddate |
-| 62 | country | `String` | Country |
-| 63 | countryid | `String` | Countryid |
-| 64 | cribs | `Float` | Cribs |
-| 65 | currencyCode | `String` | Currency Code |
-| 66 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 67 | dayUseExtraRevenue | `Float` | Day Use Extra Revenue |
-| 68 | dayUseGrossRate | `Float` | Day Use Gross Rate |
-| 69 | dayUseNetRoomRevenue | `Float` | Day Use Net Room Revenue |
-| 70 | dayUsePersons | `Float` | Day Use Persons |
-| 71 | dayUseRooms | `Float` | Day Use Rooms |
-| 72 | dayUseYn | `String` | Day Use Y/N |
-| 73 | departurePersons | `Float` | Departure Persons |
-| 74 | departureRooms | `Float` | Departure Rooms |
-| 75 | district | `String` | District |
-| 76 | eventType | `String` | Event Type |
-| 77 | exchangeDate | `Date` | Exchange Date |
-| 78 | extraBeds | `Float` | Extra Beds |
-| 79 | extraRevenue | `Float` | Extra Revenue |
-| 80 | fcExtraRevenue | `Float` | FC Extra Revenue |
-| 81 | fcFoodRevenue | `Float` | FC Food Revenue |
-| 82 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
-| 83 | fcGrossRate | `Float` | FC Gross Rate |
-| 84 | fcNetRoomRevenue | `Float` | FC Net Room Revenue |
-| 85 | fcNonRevenue | `Float` | FC Non Revenue |
-| 86 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
-| 87 | fcOtherRevenue | `Float` | FC Other Revenue |
-| 88 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
-| 89 | fcRoomRevenue | `Float` | FC Room Revenue |
-| 90 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
-| 91 | fcTotalRevenue | `Float` | FC Total Revenue |
-| 92 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
-| 93 | foodRevenue | `Float` | Food Revenue |
-| 94 | foodRevenueTax | `Float` | Food Revenue Tax |
-| 95 | gender | `String` | Gender |
-| 96 | grossRate | `Float` | Gross Rate |
-| 97 | groupId | `Float` | Group ID |
-| 98 | id | `Float` | ID |
-| 99 | jRNUpdateDate | `Date` | JRN Update Date |
-| 100 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 101 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 102 | marketCode | `String` | Market Code |
-| 103 | marketid | `String` | Marketid |
-| 104 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
-| 105 | nationality | `String` | Nationality |
-| 106 | nationalityid | `String` | Nationalityid |
-| 107 | netRoomRevenue | `Float` | Net Room Revenue |
-| 108 | nonRevenue | `Float` | Non Revenue |
-| 109 | nonRevenueTax | `Float` | Non Revenue Tax |
-| 110 | numberOfGuests | `Float` | Number of Guests |
-| 111 | numberOfRooms | `Float` | Number of Rooms |
-| 112 | oooRooms | `Float` | Number of Rooms marked as Out of Order for today |
-| 113 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 114 | osRooms | `Float` | Os Rooms |
-| 115 | otherRevenue | `Float` | Other Revenue |
-| 116 | otherRevenueTax | `Float` | Other Revenue Tax |
-| 117 | ownerFfFlag | `String` | Owner Ff Flag |
-| 118 | ownerRentalFlag | `String` | Owner Rental Flag |
-| 119 | parentCompanyId | `Float` | Parent Company ID |
-| 120 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
-| 121 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
-| 122 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 123 | property | `String` | Code to uniquely identify the Property |
-| 124 | pseudoRoomYN | `String` | Pseudo Room YN |
-| 125 | quantity | `Float` | Quantity |
-| 126 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 127 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 128 | rateCategory | `String` | Rate Category |
-| 129 | rateClass | `String` | Rate Class |
-| 130 | rateCode | `String` | Rate Code |
-| 131 | ratecategoryid | `String` | Ratecategoryid |
-| 132 | rateclassid | `String` | Rateclassid |
-| 133 | ratecodeid | `String` | Ratecodeid |
-| 134 | regionCode | `String` | Region Code |
-| 135 | regionid | `String` | Regionid |
-| 136 | remainingBlockRooms | `Float` | Remaining Block Rooms |
-| 137 | resInsertSource | `String` | Reservation Insert Source |
-| 138 | reservationInventoryType | `String` | Reservation Inventory Type |
-| 139 | reservationType | `String` | Reservation Type |
-| 140 | reservationdailytotalid | `Float` | Reservation Daily Total ID |
-| 141 | reservationid | `String` | Reservationid |
-| 142 | resvStatus | `String` | Reservation Status |
-| 143 | roomCategory | `String` | Room Category |
-| 144 | roomClass | `String` | Room Class |
-| 145 | roomRevenue | `Float` | Room Revenue |
-| 146 | roomRevenueTax | `Float` | Room Revenue Tax |
-| 147 | roomType | `String` | Room Type |
-| 148 | roomclassid | `String` | Roomclassid |
-| 149 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
-| 150 | sourceCode | `String` | Source Code |
-| 151 | sourceProfId | `Float` | Source Prof ID |
-| 152 | sourceid | `String` | Sourceid |
-| 153 | state | `String` | State |
-| 154 | stayDate | `Date` | Stay Date |
-| 155 | totalRevenue | `Float` | Total Revenue |
-| 156 | totalRevenueTax | `Float` | Total Revenue Tax |
-| 157 | truncEndDate | `Date` | Trunc End Date |
-| 158 | truncStartDate | `Date` | Trunc Start Date |
-| 159 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| 160 | updateBusinessDate | `Date` | Update Business Date |
-| 161 | updateDate | `DateTime` | Update Date |
-| 162 | vipStatus | `String` | VIP Status |
-| 163 | waitlistExtraRevenue | `Float` | Waitlist Extra Revenue |
-| 164 | waitlistGrossRate | `Float` | Waitlist Gross Rate |
-| 165 | waitlistNetRoomRevenue | `Float` | Waitlist Net Room Revenue |
-| 166 | waitlistPersons | `Float` | Waitlist Persons |
-| 167 | waitlistRooms | `Float` | Waitlist Rooms |
-| 168 | zipCode | `String` | Zipcode Code |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | adults | `Float` | Adults |
+| 3 | adultsTaxFree | `Float` | Adults Tax Free |
+| 4 | agentId | `Float` | Agent ID |
+| 5 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 6 | allotmentid | `Float` | Block ID |
+| 7 | arrivalPersons | `Float` | Arrival Persons |
+| 8 | arrivalRooms | `Float` | Arrival Rooms |
+| 9 | blockStatus | `String` | Block Status |
+| 10 | bookedRoomCategory | `String` | Booked Room Category |
+| 11 | bookingStatus | `String` | Booking Status |
+| 12 | bookingstatusid | `String` | Bookingstatusid |
+| 13 | businessDateCreated | `Date` | Business Date Created |
+| 14 | cDayUseNetRoomRevenue | `Float` | Central Day Use Net Room Revenue |
+| 15 | cExchangeDate | `Date` | Central Xchange Date |
+| 16 | cExchangeRate | `Float` | Central Xchange Rate |
+| 17 | cFCExtraRevenue | `Float` | Central Fc Extra Revenue |
+| 18 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
+| 19 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
+| 20 | cFCGrossRate | `Float` | Central Fc Gross Rate |
+| 21 | cFCNetRoomRevenue | `Float` | Central Fc Net Room Revenue |
+| 22 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
+| 23 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
+| 24 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
+| 25 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
+| 26 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
+| 27 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
+| 28 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
+| 29 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
+| 30 | cFoodRevenueTax | `Float` | Central Food Revenue Tax |
+| 31 | cNonRevenueTax | `Float` | Central Non Revenue Tax |
+| 32 | cOtherRevenueTax | `Float` | Central Other Revenue Tax |
+| 33 | cRoomRevenueTax | `Float` | Central Room Revenue Tax |
+| 34 | cTotalRevenueTax | `Float` | Central Total Revenue Tax |
+| 35 | centralCurrencyCode | `String` | Central Currency Code |
+| 36 | centralDayUseExtraRevenue | `Float` | Central Day Use Extra Revenue |
+| 37 | centralDayUseGrossRate | `Float` | Central Day Use Gross Rate |
+| 38 | centralExchangeRate | `Float` | Central Exchange Rate |
+| 39 | centralExtraRevenue | `Float` | Central Extra Revenue |
+| 40 | centralFoodRevenue | `Float` | Central Food Revenue |
+| 41 | centralGrossRate | `Float` | Central Gross Rate |
+| 42 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
+| 43 | centralNonRevenue | `Float` | Central Non Revenue |
+| 44 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 45 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 46 | centralRoomType | `String` | Central Room Type |
+| 47 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 48 | centralWaitlistExtraRevenue | `Float` | Central Waitlist Extra Revenue |
+| 49 | centralWaitlistGrossRate | `Float` | Central Waitlist Gross Rate |
+| 50 | centralWaitlistNetRoomRevenue | `Float` | Central Waitlist Net Room Revenue |
+| 51 | centralcurrencyid | `String` | Centralcurrencyid |
+| 52 | channel | `String` | Channel |
+| 53 | channelid | `String` | Channelid |
+| 54 | children | `Float` | Children |
+| 55 | childrenTaxFree | `Float` | Children Tax Free |
+| 56 | children1 | `Float` | Children1 |
+| 57 | children2 | `Float` | Children2 |
+| 58 | children3 | `Float` | Children3 |
+| 59 | children4 | `Float` | Children4 |
+| 60 | children5 | `Float` | Children5 |
+| 61 | city | `String` | City |
+| 62 | considereddate | `Date` | Considereddate |
+| 63 | country | `String` | Country |
+| 64 | countryid | `String` | Countryid |
+| 65 | cribs | `Float` | Cribs |
+| 66 | currencyCode | `String` | Currency Code |
+| 67 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 68 | dayUseExtraRevenue | `Float` | Day Use Extra Revenue |
+| 69 | dayUseGrossRate | `Float` | Day Use Gross Rate |
+| 70 | dayUseNetRoomRevenue | `Float` | Day Use Net Room Revenue |
+| 71 | dayUsePersons | `Float` | Day Use Persons |
+| 72 | dayUseRooms | `Float` | Day Use Rooms |
+| 73 | dayUseYn | `String` | Day Use Y/N |
+| 74 | departurePersons | `Float` | Departure Persons |
+| 75 | departureRooms | `Float` | Departure Rooms |
+| 76 | district | `String` | District |
+| 77 | eventType | `String` | Event Type |
+| 78 | exchangeDate | `Date` | Exchange Date |
+| 79 | extraBeds | `Float` | Extra Beds |
+| 80 | extraRevenue | `Float` | Extra Revenue |
+| 81 | fcExtraRevenue | `Float` | FC Extra Revenue |
+| 82 | fcFoodRevenue | `Float` | FC Food Revenue |
+| 83 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
+| 84 | fcGrossRate | `Float` | FC Gross Rate |
+| 85 | fcNetRoomRevenue | `Float` | FC Net Room Revenue |
+| 86 | fcNonRevenue | `Float` | FC Non Revenue |
+| 87 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
+| 88 | fcOtherRevenue | `Float` | FC Other Revenue |
+| 89 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
+| 90 | fcRoomRevenue | `Float` | FC Room Revenue |
+| 91 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
+| 92 | fcTotalRevenue | `Float` | FC Total Revenue |
+| 93 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
+| 94 | foodRevenue | `Float` | Food Revenue |
+| 95 | foodRevenueTax | `Float` | Food Revenue Tax |
+| 96 | gender | `String` | Gender |
+| 97 | grossRate | `Float` | Gross Rate |
+| 98 | groupId | `Float` | Group ID |
+| 99 | id | `Float` | ID |
+| 100 | jRNUpdateDate | `Date` | JRN Update Date |
+| 101 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 102 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 103 | marketCode | `String` | Market Code |
+| 104 | marketid | `String` | Marketid |
+| 105 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
+| 106 | nationality | `String` | Nationality |
+| 107 | nationalityid | `String` | Nationalityid |
+| 108 | netRoomRevenue | `Float` | Net Room Revenue |
+| 109 | nonRevenue | `Float` | Non Revenue |
+| 110 | nonRevenueTax | `Float` | Non Revenue Tax |
+| 111 | numberOfGuests | `Float` | Number of Guests |
+| 112 | numberOfRooms | `Float` | Number of Rooms |
+| 113 | oooRooms | `Float` | Number of Rooms marked as Out of Order for today |
+| 114 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 115 | osRooms | `Float` | Os Rooms |
+| 116 | otherRevenue | `Float` | Other Revenue |
+| 117 | otherRevenueTax | `Float` | Other Revenue Tax |
+| 118 | ownerFfFlag | `String` | Owner Ff Flag |
+| 119 | ownerRentalFlag | `String` | Owner Rental Flag |
+| 120 | parentCompanyId | `Float` | Parent Company ID |
+| 121 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
+| 122 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
+| 123 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 124 | property | `String` | Code to uniquely identify the Property |
+| 125 | pseudoRoomYN | `String` | Pseudo Room YN |
+| 126 | quantity | `Float` | Quantity |
+| 127 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 128 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 129 | rateCategory | `String` | Rate Category |
+| 130 | rateClass | `String` | Rate Class |
+| 131 | rateCode | `String` | Rate Code |
+| 132 | ratecategoryid | `String` | Ratecategoryid |
+| 133 | rateclassid | `String` | Rateclassid |
+| 134 | ratecodeid | `String` | Ratecodeid |
+| 135 | regionCode | `String` | Region Code |
+| 136 | regionid | `String` | Regionid |
+| 137 | remainingBlockRooms | `Float` | Remaining Block Rooms |
+| 138 | resInsertSource | `String` | Reservation Insert Source |
+| 139 | reservationInventoryType | `String` | Reservation Inventory Type |
+| 140 | reservationType | `String` | Reservation Type |
+| 141 | reservationdailytotalid | `Float` | Reservation Daily Total ID |
+| 142 | reservationid | `String` | Reservationid |
+| 143 | resvStatus | `String` | Reservation Status |
+| 144 | roomCategory | `String` | Room Category |
+| 145 | roomClass | `String` | Room Class |
+| 146 | roomRevenue | `Float` | Room Revenue |
+| 147 | roomRevenueTax | `Float` | Room Revenue Tax |
+| 148 | roomType | `String` | Room Type |
+| 149 | roomclassid | `String` | Roomclassid |
+| 150 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
+| 151 | sourceCode | `String` | Source Code |
+| 152 | sourceProfId | `Float` | Source Prof ID |
+| 153 | sourceid | `String` | Sourceid |
+| 154 | state | `String` | State |
+| 155 | stayDate | `Date` | Stay Date |
+| 156 | totalRevenue | `Float` | Total Revenue |
+| 157 | totalRevenueTax | `Float` | Total Revenue Tax |
+| 158 | truncEndDate | `Date` | Trunc End Date |
+| 159 | truncStartDate | `Date` | Trunc Start Date |
+| 160 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 161 | updateBusinessDate | `Date` | Update Business Date |
+| 162 | updateDate | `DateTime` | Update Date |
+| 163 | vipStatus | `String` | VIP Status |
+| 164 | waitlistExtraRevenue | `Float` | Waitlist Extra Revenue |
+| 165 | waitlistGrossRate | `Float` | Waitlist Gross Rate |
+| 166 | waitlistNetRoomRevenue | `Float` | Waitlist Net Room Revenue |
+| 167 | waitlistPersons | `Float` | Waitlist Persons |
+| 168 | waitlistRooms | `Float` | Waitlist Rooms |
+| 169 | zipCode | `String` | Zipcode Code |
 
 [⬆ Back to Query](#query)
 
@@ -810,11 +812,13 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | rateclassesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| rateclassesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| rateclassesDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| rateclassesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | rateclassesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| rateclassesDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| rateclassesDetailsRateClass | `StringInput` | Rate Class |
-| rateclassesDetailsResortResort | `StringInput` | Property code |
+| rateclassesDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| rateclassesDetailsRateClass | `StringInput` | Rate Class<br>`@conditionalInputPair(pair: 2)` |
+| rateclassesDetailsResortResort | `StringInput` | Property code<br>`@conditionalInputPair(pair: 2)` |
+| rateclassesDetailsBeginDate | `DateInput` | Start Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -1076,24 +1080,46 @@
 | resortDetailsWebaddress | `StringInput` | Webaddress of the property |
 | resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
+| reservationsummarydetailsChainCode | `StringInput` | CHAIN_CODE |
+| resvsummaryDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
 | resvsummaryDetailsConsideredDate | `DateInput` | Considered Date |
 | resvsummaryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| resvsummaryDetailsEventid | `StringInput` | Event ID |
 | resvsummaryDetailsEventType | `StringInput` | Event Type |
 | resvsummaryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resvsummaryDetailsMarketCode | `StringInput` | Market Code |
 | resvsummaryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | resvsummaryDetailsResort | `StringInput` | Property |
+| resvsummaryDetailsResvInvType | `StringInput` | Reservation Inventory Type |
+| resvsummaryDetailsResvStatus | `StringInput` | Reservation Status |
+| resvsummaryDetailsRoomClass | `StringInput` | Room Class |
 | resvsummaryDetailsRoomCategory | `StringInput` | Room Type |
+| resvsummaryDetailsUpdateBusinessDate | `DateInput` | Update Business Date |
+| forecastsummarydetailsChainCode | `StringInput` | CHAIN_CODE |
+| forecastsummaryDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
 | forecastsummaryDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | forecastsummaryDetailsEventType | `StringInput` | Event Type |
 | forecastsummaryDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| forecastsummaryDetailsMarketCode | `StringInput` | Market Code |
 | forecastsummaryDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | forecastsummaryDetailsResort | `StringInput` | Code to uniquely identify the Property |
+| forecastsummaryDetailsResvInvType | `StringInput` | Reservation Inventory Type |
+| forecastsummaryDetailsResvStatus | `StringInput` | Reservation Status |
 | forecastsummaryDetailsRoomCategory | `StringInput` | Room Category |
+| forecastsummaryDetailsRoomClass | `StringInput` | Room Class |
 | forecastsummaryDetailsConsideredDate | `DateInput` | Stay Date |
+| forecastsummaryDetailsUpdateBusinessDate | `DateInput` | Update Business Date |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - rateclassesDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- rateclassesDetailsEndDate
+- rateclassesDetailsJrnupdatedttm
+- rateclassesDetailsRateClass
+- rateclassesDetailsResortResort
+- rateclassesDetailsBeginDate
 
 
 [⬆ Back to Query](#query)
@@ -1402,6 +1428,7 @@ query ratesClasses($input: RatesClassesQueryArgumentsType!) {
       zeroInvPurDays
     }
     reservationSummaryDetails {
+      chainCode
       adults
       adultsTaxFree
       agentId
@@ -1574,6 +1601,7 @@ query ratesClasses($input: RatesClassesQueryArgumentsType!) {
       zipCode
     }
     forecastSummaryDetails {
+      chainCode
       adults
       adultsTaxFree
       agentId
@@ -2053,6 +2081,7 @@ property_property_details_schema = {
 ```
 ```python
 reservation_summary_details_schema = {
+    'chainCode': pl.Utf8,
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
     'agentId': pl.Float64,
@@ -2227,6 +2256,7 @@ reservation_summary_details_schema = {
 ```
 ```python
 forecast_summary_details_schema = {
+    'chainCode': pl.Utf8,
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
     'agentId': pl.Float64,

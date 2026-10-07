@@ -31,80 +31,81 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | blockID | `Float` | Block ID |
-| 2 | blockProductionChangeID | `Float` | System generated number that uniquely identifies a record in this table. |
-| 3 | blockStatusChangeDate | `Date` | Block Status Change Date |
-| 4 | blockStatusDescriptionAtTimeOfChange | `String` | Block Status Description at Time of Change |
-| 5 | blockStatusAtTimeOfChange | `String` | Block Status at Time of Change |
-| 6 | cExchangeDate | `Date` | Central Xchange Date |
-| 7 | cExchangeRate | `Float` | Central Xchange Rate |
-| 8 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
-| 9 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
-| 10 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
-| 11 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
-| 12 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
-| 13 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
-| 14 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
-| 15 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
-| 16 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
-| 17 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
-| 18 | catSrep | `Float` | Catering Srep |
-| 19 | catSrepProperty | `String` | Catering Srep Resort |
-| 20 | centralBlockStatusDescriptionAtTimeOfChange | `String` | Central Block Status Description at Time of Change |
-| 21 | centralBlockStatusAtTimeOfChange | `String` | Central Block Status at Time of Change |
-| 22 | centralChangeInFBRevenueNet | `Float` | Central Change in FB Revenue Net |
-| 23 | centralChangeInFBRevenueTax | `Float` | Central Change in FB Revenue Tax |
-| 24 | centralChangeInNonRevenueNet | `Float` | Central Change in Non Revenue Net |
-| 25 | centralChangeInNonRevenueTax | `Float` | Central Change in Non Revenue Tax |
-| 26 | centralChangeInOtherRevenueNet | `Float` | Central Change in Other Revenue Net |
-| 27 | centralChangeInOtherRevenueTax | `Float` | Central Change in Other Revenue Tax |
-| 28 | centralChangeInRoomRevenueNet | `Float` | Central Change in Room Revenue Net |
-| 29 | centralChangeInRoomRevenueTax | `Float` | Central Change in Room Revenue Tax |
-| 30 | centralChangeInTotalRevenueNet | `Float` | Central Change in Total Revenue Net |
-| 31 | centralChangeInTotalRevenueTax | `Float` | Central Change in Total Revenue Tax |
-| 32 | changeInFBRevenueNet | `Float` | Change in FB Revenue Net |
-| 33 | changeInFBRevenueTax | `Float` | Change in FB Revenue Tax |
-| 34 | changeInNonRevenueNet | `Float` | Change in Non Revenue Net |
-| 35 | changeInNonRevenueTax | `Float` | Change in Non Revenue Tax |
-| 36 | changeInOtherRevenueNet | `Float` | Change in Other Revenue Net |
-| 37 | changeInOtherRevenueTax | `Float` | Change in Other Revenue Tax |
-| 38 | changeInRoomNights | `Float` | Change in Room Nights |
-| 39 | changeInRoomRevenueNet | `Float` | Change in Room Revenue Net |
-| 40 | changeInRoomRevenueTax | `Float` | Change in Room Revenue Tax |
-| 41 | changeInTotalRevenueNet | `Float` | Change in Total Revenue Net |
-| 42 | changeInTotalRevenueTax | `Float` | Change in Total Revenue Tax |
-| 43 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 44 | deletedFlag | `String` | Deleted Flag |
-| 45 | exchangeDate | `Date` | Exchange Date |
-| 46 | fcFoodRevenue | `Float` | FC Food Revenue |
-| 47 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
-| 48 | fcNonRevenue | `Float` | FC Non Revenue |
-| 49 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
-| 50 | fcOtherRevenue | `Float` | FC Other Revenue |
-| 51 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
-| 52 | fcRoomRevenue | `Float` | FC Room Revenue |
-| 53 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
-| 54 | fcTotalRevenue | `Float` | FC Total Revenue |
-| 55 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
-| 56 | insertDate | `DateTime` | Insert Date |
-| 57 | insertUser | `Float` | Insert User |
-| 58 | jRNUpdateDate | `Date` | JRN Update Date |
-| 59 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 60 | laptopChange | `Float` | Laptop Change |
-| 61 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 62 | mainSrep | `Float` | Main Srep |
-| 63 | mainSrepResort | `String` | Main Srep Property |
-| 64 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 65 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 66 | property | `String` | Code to uniquely identify the Property |
-| 67 | quotedCurrencyCode | `String` | Quoted Currency Code |
-| 68 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 69 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 70 | roomsSrep | `Float` | Rooms Srep |
-| 71 | roomsSrepResort | `String` | Rms Srep Property |
-| 72 | stayDate | `Date` | Stay Date |
-| 73 | updateDate | `DateTime` | Update Date |
-| 74 | updateUser | `Float` | Update User |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | blockID | `Float` | Block ID |
+| 3 | blockProductionChangeID | `Float` | System generated number that uniquely identifies a record in this table. |
+| 4 | blockStatusChangeDate | `Date` | Block Status Change Date |
+| 5 | blockStatusDescriptionAtTimeOfChange | `String` | Block Status Description at Time of Change |
+| 6 | blockStatusAtTimeOfChange | `String` | Block Status at Time of Change |
+| 7 | cExchangeDate | `Date` | Central Xchange Date |
+| 8 | cExchangeRate | `Float` | Central Xchange Rate |
+| 9 | cFCFoodRevenue | `Float` | Central Fc Food Revenue |
+| 10 | cFCFoodRevenueTax | `Float` | Central Fc Food Revenue Tax |
+| 11 | cFCNonRevenue | `Float` | Central Fc Non Revenue |
+| 12 | cFCNonRevenueTax | `Float` | Central Fc Non Revenue Tax |
+| 13 | cFCOtherRevenue | `Float` | Central Fc Other Revenue |
+| 14 | cFCOtherRevenueTax | `Float` | Central Fc Other Revenue Tax |
+| 15 | cFCRoomRevenue | `Float` | Central Fc Room Revenue |
+| 16 | cFCRoomRevenueTax | `Float` | Central Fc Room Revenue Tax |
+| 17 | cFCTotalRevenue | `Float` | Central Fc Total Revenue |
+| 18 | cFCTotalRevenueTax | `Float` | Central Fc Total Revenue Tax |
+| 19 | catSrep | `Float` | Catering Srep |
+| 20 | catSrepProperty | `String` | Catering Srep Resort |
+| 21 | centralBlockStatusDescriptionAtTimeOfChange | `String` | Central Block Status Description at Time of Change |
+| 22 | centralBlockStatusAtTimeOfChange | `String` | Central Block Status at Time of Change |
+| 23 | centralChangeInFBRevenueNet | `Float` | Central Change in FB Revenue Net |
+| 24 | centralChangeInFBRevenueTax | `Float` | Central Change in FB Revenue Tax |
+| 25 | centralChangeInNonRevenueNet | `Float` | Central Change in Non Revenue Net |
+| 26 | centralChangeInNonRevenueTax | `Float` | Central Change in Non Revenue Tax |
+| 27 | centralChangeInOtherRevenueNet | `Float` | Central Change in Other Revenue Net |
+| 28 | centralChangeInOtherRevenueTax | `Float` | Central Change in Other Revenue Tax |
+| 29 | centralChangeInRoomRevenueNet | `Float` | Central Change in Room Revenue Net |
+| 30 | centralChangeInRoomRevenueTax | `Float` | Central Change in Room Revenue Tax |
+| 31 | centralChangeInTotalRevenueNet | `Float` | Central Change in Total Revenue Net |
+| 32 | centralChangeInTotalRevenueTax | `Float` | Central Change in Total Revenue Tax |
+| 33 | changeInFBRevenueNet | `Float` | Change in FB Revenue Net |
+| 34 | changeInFBRevenueTax | `Float` | Change in FB Revenue Tax |
+| 35 | changeInNonRevenueNet | `Float` | Change in Non Revenue Net |
+| 36 | changeInNonRevenueTax | `Float` | Change in Non Revenue Tax |
+| 37 | changeInOtherRevenueNet | `Float` | Change in Other Revenue Net |
+| 38 | changeInOtherRevenueTax | `Float` | Change in Other Revenue Tax |
+| 39 | changeInRoomNights | `Float` | Change in Room Nights |
+| 40 | changeInRoomRevenueNet | `Float` | Change in Room Revenue Net |
+| 41 | changeInRoomRevenueTax | `Float` | Change in Room Revenue Tax |
+| 42 | changeInTotalRevenueNet | `Float` | Change in Total Revenue Net |
+| 43 | changeInTotalRevenueTax | `Float` | Change in Total Revenue Tax |
+| 44 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 45 | deletedFlag | `String` | Deleted Flag |
+| 46 | exchangeDate | `Date` | Exchange Date |
+| 47 | fcFoodRevenue | `Float` | FC Food Revenue |
+| 48 | fcFoodRevenueTax | `Float` | FC Food Revenue Tax |
+| 49 | fcNonRevenue | `Float` | FC Non Revenue |
+| 50 | fcNonRevenueTax | `Float` | FC Non Revenue Tax |
+| 51 | fcOtherRevenue | `Float` | FC Other Revenue |
+| 52 | fcOtherRevenueTax | `Float` | FC Other Revenue Tax |
+| 53 | fcRoomRevenue | `Float` | FC Room Revenue |
+| 54 | fcRoomRevenueTax | `Float` | FC Room Revenue Tax |
+| 55 | fcTotalRevenue | `Float` | FC Total Revenue |
+| 56 | fcTotalRevenueTax | `Float` | FC Total Revenue Tax |
+| 57 | insertDate | `DateTime` | Insert Date |
+| 58 | insertUser | `Float` | Insert User |
+| 59 | jRNUpdateDate | `Date` | JRN Update Date |
+| 60 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 61 | laptopChange | `Float` | Laptop Change |
+| 62 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 63 | mainSrep | `Float` | Main Srep |
+| 64 | mainSrepResort | `String` | Main Srep Property |
+| 65 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 66 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 67 | property | `String` | Code to uniquely identify the Property |
+| 68 | quotedCurrencyCode | `String` | Quoted Currency Code |
+| 69 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 70 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 71 | roomsSrep | `Float` | Rooms Srep |
+| 72 | roomsSrepResort | `String` | Rms Srep Property |
+| 73 | stayDate | `Date` | Stay Date |
+| 74 | updateDate | `DateTime` | Update Date |
+| 75 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1074,16 +1075,17 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| allotmentchangesnetDetailsAllotmentHeaderId | `FloatInput` | Block ID |
-| allotmentchangesnetDetailsAllotChangeNetId | `FloatInput` | System generated number that uniquely identifies a record in this table. |
+| blockchangesnetdetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| allotmentchangesnetDetailsAllotmentHeaderId | `FloatInput` | Block ID<br>`@conditionalInputPair(pair: 2)` |
+| allotmentchangesnetDetailsAllotChangeNetId | `FloatInput` | System generated number that uniquely identifies a record in this table.<br>`@conditionalInputPair(pair: 2)` |
 | allotmentchangesnetDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | allotmentchangesnetDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| allotmentchangesnetDetailsInsertDate | `DateTimeInput` | Insert Date |
-| allotmentchangesnetDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| allotmentchangesnetDetailsInsertDate | `DateTimeInput` | Insert Date<br>`@conditionalInputPair(pair: 2)` |
+| allotmentchangesnetDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | allotmentchangesnetDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
 | allotmentchangesnetDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| allotmentchangesnetDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| allotmentchangesnetDetailsStayDate | `DateInput!` | Stay Date<br>`@mandatoryInput` |
+| allotmentchangesnetDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| allotmentchangesnetDetailsStayDate | `DateInput` | Stay Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -1385,8 +1387,15 @@
 | allotmentDetailsXudescription | `StringInput` | Multi Byte Description in uppercase |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- blockchangesnetdetailsChainCode
 - allotmentchangesnetDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- allotmentchangesnetDetailsAllotmentHeaderId
+- allotmentchangesnetDetailsAllotChangeNetId
+- allotmentchangesnetDetailsInsertDate
+- allotmentchangesnetDetailsJrnupdatedttm
 - allotmentchangesnetDetailsStayDate
 
 
@@ -1399,6 +1408,7 @@
 query bookingsBlockProductionChanges($input: BookingsBlockProductionChangesQueryArgumentsType!) {
   bookingsBlockProductionChanges(input: $input) @stream {
     blockChangesNetDetails {
+      chainCode
       blockID
       blockProductionChangeID
       blockStatusChangeDate
@@ -2319,6 +2329,7 @@ query bookingsBlockProductionChanges($input: BookingsBlockProductionChangesQuery
   
 ```python
 block_changes_net_details_schema = {
+    'chainCode': pl.Utf8,
     'blockID': pl.Float64,
     'blockProductionChangeID': pl.Float64,
     'blockStatusChangeDate': pl.Utf8,

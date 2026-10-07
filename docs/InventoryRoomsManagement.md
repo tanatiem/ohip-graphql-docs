@@ -808,13 +808,20 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | roomDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| roomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| roomDetailsHkSectionCode | `StringInput` | Indicates the section to which employee belongs.<br>`@conditionalInputPair(pair: 2)` |
+| roomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | roomDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| roomDetailsOrderBy2 | `FloatInput` | Display sequence 2<br>`@conditionalInputPair(pair: 2)` |
+| roomDetailsOrderBy3 | `FloatInput` | Display sequence 3<br>`@conditionalInputPair(pair: 2)` |
 | roomDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| roomDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| roomDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | roomDetailsRoompmsref | `StringInput` | Room |
+| roomDetailsRoomClass | `StringInput` | Room Class<br>`@conditionalInputPair(pair: 2)` |
+| roomDetailsAssignReason | `StringInput` | Room Condition<br>`@conditionalInputPair(pair: 2)` |
 | roomDetailsRoom | `StringInput` | Room Number |
+| roomDetailsRoomCategory | `StringInput` | Room Type<br>`@conditionalInputPair(pair: 2)` |
 | roomDetailsRoomid | `StringInput` | Roomid |
+| roomDetailsOrderBy | `FloatInput` | Sequence<br>`@conditionalInputPair(pair: 2)` |
 | roomrepairsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | roommaintenanceDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | resortservicerequestsDetailsCloseBusinessDateTime | `DateInput` | The business date this service request was closed. |
@@ -1094,8 +1101,18 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - roomDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- roomDetailsHkSectionCode
+- roomDetailsJrnupdatedttm
+- roomDetailsOrderBy2
+- roomDetailsOrderBy3
+- roomDetailsRoomClass
+- roomDetailsAssignReason
+- roomDetailsRoomCategory
+- roomDetailsOrderBy
 
 
 [⬆ Back to Query](#query)

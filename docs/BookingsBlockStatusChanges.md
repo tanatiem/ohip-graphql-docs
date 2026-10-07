@@ -33,78 +33,79 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | actionId | `Float` | Action ID |
-| 2 | allotmentHeaderId | `Float` | Allotment Header ID |
-| 3 | allotmentid | `Float` | Block ID |
-| 4 | averageRoomRate | `Float` | Average Rate for the business block |
-| 5 | biAudioVisualRev | `Float` | Stores the total catering revenue for the block as of the status change date (for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE1 in SC_BI_REVENUE_GROUPS table. |
-| 6 | biBeverageRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE2 in SC_BI_REVENUE_GROUPS table. |
-| 7 | biFoodRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE3 in SC_BI_REVENUE_GROUPS table. |
-| 8 | biGroupRev1 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP1 in SC_BI_REVENUE_GROUPS table |
-| 9 | biGroupRev2 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP2 in SC_BI_REVENUE_GROUPS table |
-| 10 | biGroupRev3 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP3 in SC_BI_REVENUE_GROUPS table |
-| 11 | biGroupRev4 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP4 in SC_BI_REVENUE_GROUPS table |
-| 12 | biGroupRev5 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP5 in SC_BI_REVENUE_GROUPS table |
-| 13 | biOtherRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE4 in SC_BI_REVENUE_GROUPS table. |
-| 14 | biRentalRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE5 in SC_BI_REVENUE_GROUPS table. |
-| 15 | blockBeginDate | `Date` | Block Begin Date |
-| 16 | blockEndDate | `Date` | Block End Date |
-| 17 | blockStatusChangeDate | `Date` | Block Status Change Date |
-| 18 | bookingstatuschangeid | `Float` | Bookingstatuschangeid |
-| 19 | cAvgRate | `Float` | Central Avg Rate |
-| 20 | cBiAudioVisualRevenue | `Float` | Central Bi Audio Visual Rev |
-| 21 | cBiBeverageRevenue | `Float` | Central Bi Beverage Rev |
-| 22 | cBiFoodRevenue | `Float` | Central Bi Food Rev |
-| 23 | cBiGroupRev1 | `Float` | Central Bi Group Rev1 |
-| 24 | cBiGroupRev2 | `Float` | Central Bi Group Rev2 |
-| 25 | cBiGroupRev3 | `Float` | Central Bi Group Rev3 |
-| 26 | cBiGroupRev4 | `Float` | Central Bi Group Rev4 |
-| 27 | cBiGroupRev5 | `Float` | Central Bi Group Rev5 |
-| 28 | cBiOtherRevenue | `Float` | Central Bi Other Rev |
-| 29 | cBiRentalRevenue | `Float` | Central Bi Rental Rev |
-| 30 | cExchangeDate | `Date` | Central Xchange Date |
-| 31 | cExchangeRate | `Float` | Central Xchange Rate |
-| 32 | calculatedTotalRevenue | `Float` | Calculated Total Revenue |
-| 33 | centralCalculatedTotalRevenue | `Float` | Central Calculated Total Revenue |
-| 34 | centralCurrencyCode | `String` | Central Currency Code |
-| 35 | centralNetFBRevenue | `Float` | Central Net FB Revenue |
-| 36 | centralNetNonRevenue | `Float` | Central Net Non Revenue |
-| 37 | centralNetOtherRevenue | `Float` | Central Net Other Revenue |
-| 38 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
-| 39 | centralTaxFBRevenue | `Float` | Central Tax FB Revenue |
-| 40 | centralTaxNonRevenue | `Float` | Central Tax Non Revenue |
-| 41 | centralTaxOtherRevenue | `Float` | Central Tax Other Revenue |
-| 42 | centralTaxRoomRevenue | `Float` | Central Tax Room Revenue |
-| 43 | currentStatus | `String` | Current Status |
-| 44 | currentbookingstatusid | `String` | Currentbookingstatusid |
-| 45 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 46 | deletedFlag | `String` | Deleted Flag |
-| 47 | inactiveDate | `Date` | Inactive Date |
-| 48 | inactiveflag | `String` | Inactive Flag |
-| 49 | insertDate | `DateTime` | Insert Date |
-| 50 | insertUser | `Float` | Insert User |
-| 51 | internalDeletedflag | `String` | Deleted Flag |
-| 52 | jRNUpdateDate | `Date` | JRN Update Date |
-| 53 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 54 | laptopChange | `Float` | Laptop Change |
-| 55 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 56 | netFBRevenue | `Float` | Net Food & Beverage Revenue. |
-| 57 | netNonRevenue | `Float` | Net Non Revenue. |
-| 58 | netOtherRevenue | `Float` | Net Other Revenue. |
-| 59 | netRoomRevenue | `Float` | Net Room Revenue |
-| 60 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 61 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 62 | priorStatus | `String` | Prior Status |
-| 63 | priorbookingstatusid | `String` | Priorbookingstatusid |
-| 64 | property | `String` | Code to uniquely identify the Property |
-| 65 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 66 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 67 | taxFBRevenue | `Float` | Tax Amount for Food & Beverage Revenue. |
-| 68 | taxNonRevenue | `Float` | Tax Amount for Non-Revenue. |
-| 69 | taxOtherRevenue | `Float` | Tax Amount for Other Revenue. |
-| 70 | taxRoomRevenue | `Float` | Tax Amount for Room Revenue. |
-| 71 | totalRoomNights | `Float` | Total Room Nights |
-| 72 | updateUser | `Float` | Update User |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | actionId | `Float` | Action ID |
+| 3 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 4 | allotmentid | `Float` | Block ID |
+| 5 | averageRoomRate | `Float` | Average Rate for the business block |
+| 6 | biAudioVisualRev | `Float` | Stores the total catering revenue for the block as of the status change date (for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE1 in SC_BI_REVENUE_GROUPS table. |
+| 7 | biBeverageRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE2 in SC_BI_REVENUE_GROUPS table. |
+| 8 | biFoodRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE3 in SC_BI_REVENUE_GROUPS table. |
+| 9 | biGroupRev1 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP1 in SC_BI_REVENUE_GROUPS table |
+| 10 | biGroupRev2 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP2 in SC_BI_REVENUE_GROUPS table |
+| 11 | biGroupRev3 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP3 in SC_BI_REVENUE_GROUPS table |
+| 12 | biGroupRev4 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP4 in SC_BI_REVENUE_GROUPS table |
+| 13 | biGroupRev5 | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_GROUP5 in SC_BI_REVENUE_GROUPS table |
+| 14 | biOtherRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE4 in SC_BI_REVENUE_GROUPS table. |
+| 15 | biRentalRev | `Float` | Stores the total catering revenue for the block as of the status change date(for the revenue types stored in REV_GROUP_CODE column for code BI_REV_TYPE5 in SC_BI_REVENUE_GROUPS table. |
+| 16 | blockBeginDate | `Date` | Block Begin Date |
+| 17 | blockEndDate | `Date` | Block End Date |
+| 18 | blockStatusChangeDate | `Date` | Block Status Change Date |
+| 19 | bookingstatuschangeid | `Float` | Bookingstatuschangeid |
+| 20 | cAvgRate | `Float` | Central Avg Rate |
+| 21 | cBiAudioVisualRevenue | `Float` | Central Bi Audio Visual Rev |
+| 22 | cBiBeverageRevenue | `Float` | Central Bi Beverage Rev |
+| 23 | cBiFoodRevenue | `Float` | Central Bi Food Rev |
+| 24 | cBiGroupRev1 | `Float` | Central Bi Group Rev1 |
+| 25 | cBiGroupRev2 | `Float` | Central Bi Group Rev2 |
+| 26 | cBiGroupRev3 | `Float` | Central Bi Group Rev3 |
+| 27 | cBiGroupRev4 | `Float` | Central Bi Group Rev4 |
+| 28 | cBiGroupRev5 | `Float` | Central Bi Group Rev5 |
+| 29 | cBiOtherRevenue | `Float` | Central Bi Other Rev |
+| 30 | cBiRentalRevenue | `Float` | Central Bi Rental Rev |
+| 31 | cExchangeDate | `Date` | Central Xchange Date |
+| 32 | cExchangeRate | `Float` | Central Xchange Rate |
+| 33 | calculatedTotalRevenue | `Float` | Calculated Total Revenue |
+| 34 | centralCalculatedTotalRevenue | `Float` | Central Calculated Total Revenue |
+| 35 | centralCurrencyCode | `String` | Central Currency Code |
+| 36 | centralNetFBRevenue | `Float` | Central Net FB Revenue |
+| 37 | centralNetNonRevenue | `Float` | Central Net Non Revenue |
+| 38 | centralNetOtherRevenue | `Float` | Central Net Other Revenue |
+| 39 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
+| 40 | centralTaxFBRevenue | `Float` | Central Tax FB Revenue |
+| 41 | centralTaxNonRevenue | `Float` | Central Tax Non Revenue |
+| 42 | centralTaxOtherRevenue | `Float` | Central Tax Other Revenue |
+| 43 | centralTaxRoomRevenue | `Float` | Central Tax Room Revenue |
+| 44 | currentStatus | `String` | Current Status |
+| 45 | currentbookingstatusid | `String` | Currentbookingstatusid |
+| 46 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 47 | deletedFlag | `String` | Deleted Flag |
+| 48 | inactiveDate | `Date` | Inactive Date |
+| 49 | inactiveflag | `String` | Inactive Flag |
+| 50 | insertDate | `DateTime` | Insert Date |
+| 51 | insertUser | `Float` | Insert User |
+| 52 | internalDeletedflag | `String` | Deleted Flag |
+| 53 | jRNUpdateDate | `Date` | JRN Update Date |
+| 54 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 55 | laptopChange | `Float` | Laptop Change |
+| 56 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 57 | netFBRevenue | `Float` | Net Food & Beverage Revenue. |
+| 58 | netNonRevenue | `Float` | Net Non Revenue. |
+| 59 | netOtherRevenue | `Float` | Net Other Revenue. |
+| 60 | netRoomRevenue | `Float` | Net Room Revenue |
+| 61 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 62 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 63 | priorStatus | `String` | Prior Status |
+| 64 | priorbookingstatusid | `String` | Priorbookingstatusid |
+| 65 | property | `String` | Code to uniquely identify the Property |
+| 66 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 67 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 68 | taxFBRevenue | `Float` | Tax Amount for Food & Beverage Revenue. |
+| 69 | taxNonRevenue | `Float` | Tax Amount for Non-Revenue. |
+| 70 | taxOtherRevenue | `Float` | Tax Amount for Other Revenue. |
+| 71 | taxRoomRevenue | `Float` | Tax Amount for Room Revenue. |
+| 72 | totalRoomNights | `Float` | Total Room Nights |
+| 73 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -1174,8 +1175,9 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| bookstatuschangeDetailsActionId | `FloatInput` | Action ID |
-| bookstatuschangeDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
+| bookstatuschangedetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| bookstatuschangeDetailsActionId | `FloatInput` | Action ID<br>`@conditionalInputPair(pair: 2)` |
+| bookstatuschangeDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID<br>`@conditionalInputPair(pair: 2)` |
 | bookstatuschangeDetailsAllotmentid | `FloatInput` | Block ID |
 | bookstatuschangeDetailsAllotmentbegindate | `DateInput` | Block Begin Date |
 | bookstatuschangeDetailsAllotmentenddate | `DateInput` | Block End Date |
@@ -1183,17 +1185,17 @@
 | bookstatuschangeDetailsBookingstatuschangeid | `FloatInput` | Bookingstatuschangeid |
 | bookstatuschangeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | bookstatuschangeDetailsCentralCurrencyCode | `StringInput` | Central Currency Code |
-| bookstatuschangeDetailsCurrentStatus | `StringInput` | Current Status |
+| bookstatuschangeDetailsCurrentStatus | `StringInput` | Current Status<br>`@conditionalInputPair(pair: 2)` |
 | bookstatuschangeDetailsCurrentbookingstatusid | `StringInput` | Currentbookingstatusid |
 | bookstatuschangeDetailsDeletedFlag | `StringInput` | Deleted Flag |
 | bookstatuschangeDetailsInactiveDate | `DateInput` | Inactive Date |
 | bookstatuschangeDetailsInactiveflag | `StringInput` | Inactive Flag |
-| bookstatuschangeDetailsInsertDate | `DateTimeInput!` | Insert Date<br>`@mandatoryInput` |
+| bookstatuschangeDetailsInsertDate | `DateTimeInput` | Insert Date<br>`@conditionalInputPair(pair: 2)` |
 | bookstatuschangeDetailsDeletedflag | `StringInput` | Deleted Flag |
-| bookstatuschangeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| bookstatuschangeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | bookstatuschangeDetailsPriorStatus | `StringInput` | Prior Status |
 | bookstatuschangeDetailsPriorbookingstatusid | `StringInput` | Priorbookingstatusid |
-| bookstatuschangeDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| bookstatuschangeDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | bookstatuschangeDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
 | bookstatuschangeDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
 | bookingstatusDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
@@ -1505,9 +1507,16 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
-- bookstatuschangeDetailsInsertDate
+**`conditionalInputPair(pair: 1)`**
+- bookstatuschangedetailsChainCode
 - bookstatuschangeDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- bookstatuschangeDetailsActionId
+- bookstatuschangeDetailsAllotmentHeaderId
+- bookstatuschangeDetailsCurrentStatus
+- bookstatuschangeDetailsInsertDate
+- bookstatuschangeDetailsJrnupdatedttm
 
 
 [⬆ Back to Query](#query)
@@ -1519,6 +1528,7 @@
 query bookingsBlockStatusChanges($input: BookingsBlockStatusChangesQueryArgumentsType!) {
   bookingsBlockStatusChanges(input: $input) @stream {
     bookStatusChangeDetails {
+      chainCode
       actionId
       allotmentHeaderId
       allotmentid
@@ -2523,6 +2533,7 @@ query bookingsBlockStatusChanges($input: BookingsBlockStatusChangesQueryArgument
   
 ```python
 book_status_change_details_schema = {
+    'chainCode': pl.Utf8,
     'actionId': pl.Float64,
     'allotmentHeaderId': pl.Float64,
     'allotmentid': pl.Float64,

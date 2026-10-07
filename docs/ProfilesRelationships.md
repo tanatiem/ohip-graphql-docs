@@ -1055,20 +1055,20 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| profilerelationshipDetailsChainCode | `StringInput!` | The Chain code of the chain for which this record belongs to.<br>`@mandatoryInput` |
+| profilerelationshipDetailsChainCode | `StringInput` | The Chain code of the chain for which this record belongs to.<br>`@conditionalInputPair(pair: 1)` |
 | profilerelationshipDetailsCompany | `StringInput` | This column store the Name of the Company Profiles. |
 | profilerelationshipDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | profilerelationshipDetailsDeletedFlag | `StringInput` | Deleted Flag |
-| profilerelationshipDetailsOwnerProfileNo | `FloatInput` | The reference to the name that owns this relationship. |
+| profilerelationshipDetailsOwnerProfileNo | `FloatInput` | The reference to the name that owns this relationship.<br>`@conditionalInputPair(pair: 2)` |
 | profilerelationshipDetailsGuestName | `StringInput` | Guest Name |
-| profilerelationshipDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive |
+| profilerelationshipDetailsInactiveDate | `DateTimeInput` | The date the record was marked as inactive<br>`@conditionalInputPair(pair: 2)` |
 | profilerelationshipDetailsInactiveFlag | `StringInput` | Inactive Flag |
 | profilerelationshipDetailsInsertDate | `DateTimeInput` | The date the record was created |
 | profilerelationshipDetailsInsertUser | `FloatInput` | The user that created the record |
 | profilerelationshipDetailsLocationId | `StringInput` | The property that the record belongs to |
 | profilerelationshipDetailsOrganizationId | `FloatInput` | Organization ID |
-| profilerelationshipDetailsRelationshipId | `StringInput` | The type of relationship this name id has to the relationship_to_name_id. |
-| profilerelationshipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| profilerelationshipDetailsRelationshipId | `StringInput` | The type of relationship this name id has to the relationship_to_name_id.<br>`@conditionalInputPair(pair: 2)` |
+| profilerelationshipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | profilerelationshipDetailsLaptopChange | `FloatInput` | Changed by laptop Y or N |
 | profilerelationshipDetailsLocationid | `StringInput` | The property that the record belongs to |
 | profilerelationshipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
@@ -1077,12 +1077,12 @@
 | profilerelationshipDetailsPrimaryFlag | `StringInput` | Indicates the Primary relationship where Multiple Relationships are attached to a profile. |
 | profilerelationshipDetailsProfilerelationshipId | `FloatInput` | The primary key for this table. |
 | profilerelationshipDetailsProperty | `StringInput` | The property that the record belongs to |
-| profilerelationshipDetailsRelationshipTypeCode | `StringInput` | The type of relationship this name id has to the relationship_to_name_id. |
+| profilerelationshipDetailsRelationshipTypeCode | `StringInput` | The type of relationship this name id has to the relationship_to_name_id.<br>`@conditionalInputPair(pair: 2)` |
 | profilerelationshipDetailsRelationshipDesc | `StringInput` | Description of the relationship. |
-| profilerelationshipDetailsRelationshipCode | `FloatInput` | The primary key for this table. |
+| profilerelationshipDetailsRelationshipCode | `FloatInput` | The primary key for this table.<br>`@conditionalInputPair(pair: 2)` |
 | profilerelationshipDetailsRelationshipRole | `StringInput` | Used in S&C Module |
 | profilerelationshipDetailsRelatedToProfileName | `StringInput` | Relationship To |
-| profilerelationshipDetailsRelatedToProfileId | `FloatInput` | The reference to the name that the "Name_id" is related to. |
+| profilerelationshipDetailsRelatedToProfileId | `FloatInput` | The reference to the name that the "Name_id" is related to.<br>`@conditionalInputPair(pair: 2)` |
 | profilerelationshipDetailsResort | `StringInput` | The property that the record belongs to |
 | profilerelationshipDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
 | profilerelationshipDetailsRnaUpdatedate | `DateTimeInput` | RnA Updatedate |
@@ -1145,8 +1145,17 @@
 | relatedtoprofileallDetailsUpdateDate | `DateTimeInput` | The date the record was modified |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - profilerelationshipDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- profilerelationshipDetailsOwnerProfileNo
+- profilerelationshipDetailsInactiveDate
+- profilerelationshipDetailsRelationshipId
+- profilerelationshipDetailsJrnupdatedttm
+- profilerelationshipDetailsRelationshipTypeCode
+- profilerelationshipDetailsRelationshipCode
+- profilerelationshipDetailsRelatedToProfileId
 
 
 [⬆ Back to Query](#query)

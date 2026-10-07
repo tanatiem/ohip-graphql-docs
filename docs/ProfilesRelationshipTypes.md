@@ -185,19 +185,28 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| relationshipDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
-| relationshipDetailsFromType | `StringInput` | From Relationship Type. |
+| relationshipDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
+| relationshipDetailsFromType | `StringInput` | From Relationship Type.<br>`@conditionalInputPair(pair: 2)` |
 | relationshipDetailsOrganizationId | `FloatInput` | Organization ID |
-| relationshipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| relationshipDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | relationshipDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| relationshipDetailsRelationCategory | `StringInput` | Module related to this Name Type whether it is used in PMS S&C etc. |
+| relationshipDetailsRelationCategory | `StringInput` | Module related to this Name Type whether it is used in PMS S&C etc.<br>`@conditionalInputPair(pair: 2)` |
 | relationshipDetailsRelationshipId | `StringInput` | Relationship ID |
-| relationshipDetailsRelationship | `StringInput` | Relationship Type |
-| relationshipDetailsToType | `StringInput` | To Type |
+| relationshipDetailsRelationship | `StringInput` | Relationship Type<br>`@conditionalInputPair(pair: 2)` |
+| relationshipDetailsToRelationship | `StringInput` | To Relationship type.<br>`@conditionalInputPair(pair: 2)` |
+| relationshipDetailsToType | `StringInput` | To Type<br>`@conditionalInputPair(pair: 2)` |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - relationshipDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- relationshipDetailsFromType
+- relationshipDetailsJrnupdatedttm
+- relationshipDetailsRelationCategory
+- relationshipDetailsRelationship
+- relationshipDetailsToRelationship
+- relationshipDetailsToType
 
 
 [⬆ Back to Query](#query)

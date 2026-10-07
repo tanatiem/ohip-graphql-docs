@@ -1159,349 +1159,350 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | adults | `Float` | Adults |
-| 2 | adultsTaxFree | `Float` | Adults Tax Free |
-| 3 | agentId | `Float` | Agent ID |
-| 4 | agentprofileid | `Float` | Agentprofileid |
-| 5 | allotmentHeaderId | `Float` | Allotment Header ID |
-| 6 | allotmentid | `Float` | Block ID |
-| 7 | arrivalPersons | `Float` | Arrival Persons |
-| 8 | arrivalRooms | `Float` | Arrival Rooms |
-| 9 | beginDate | `Date` | Begin Date |
-| 10 | biReservationNameId | `Float` | Bi Resv Name ID |
-| 11 | birthDate | `Date` | Birth Date |
-| 12 | bookedRoomCategory | `String` | Booked Room Category |
-| 13 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
-| 14 | businessDate | `Date` | Business Date |
-| 15 | businessDateCreated | `Date` | Business Date Created |
-| 16 | cAdvanceTotalOtherTax | `Float` | Central Adv Total Other Tax |
-| 17 | cCashRoomRevenue | `Float` | Central Cash Room Revenue |
-| 18 | cCompRoomRevenue | `Float` | Central Comp Room Revenue |
-| 19 | cExchangeDate | `Date` | Central Xchange Date |
-| 20 | cExchangeRate | `Float` | Central Xchange Rate |
-| 21 | cFlaggedFoodRevenue | `Float` | Central Flgd Food Revenue |
-| 22 | cFlaggedNonRevenue | `Float` | Central Flgd Non Revenue |
-| 23 | cFlaggedOtherRevenue | `Float` | Central Flgd Other Revenue |
-| 24 | cFlaggedRoomRevenue | `Float` | Central Flgd Room Revenue |
-| 25 | cFlaggedTotalFoodTax | `Float` | Central Flgd Total Food Tax |
-| 26 | cFlaggedTotalNonRevenueTax | `Float` | Central Flgd Total Non Revenue Tax |
-| 27 | cFlaggedTotalOtherTax | `Float` | Central Flgd Total Other Tax |
-| 28 | cFlaggedTotalRevenue | `Float` | Central Flgd Total Revenue |
-| 29 | cFlaggedTotalRoomTax | `Float` | Central Flgd Total Room Tax |
-| 30 | cFlaggedTotalTax | `Float` | Central Flgd Total Tax |
-| 31 | cPrAdvanceTotalFoodTax | `Float` | Central Pr Adv Total Food Tax |
-| 32 | cRateAmount | `Float` | Central Rate Amount |
-| 33 | cRsAdvanceFoodRevenue | `Float` | Central Rs Adv Food Revenue |
-| 34 | cRsAdvanceFoodTax | `Float` | Central Rs Adv Food Tax |
-| 35 | cRsAdvanceNonRevenue | `Float` | Central Rs Adv Non Revenue |
-| 36 | cRsAdvanceNonRevenueTax | `Float` | Central Rs Adv Non Revenue Tax |
-| 37 | cRsAdvanceOtherRevenue | `Float` | Central Rs Adv Other Revenue |
-| 38 | cRsAdvanceOtherTax | `Float` | Central Rs Adv Other Tax |
-| 39 | cRsAdvanceRoomRevenue | `Float` | Central Rs Adv Room Revenue |
-| 40 | cRsAdvanceRoomTax | `Float` | Central Rs Adv Room Tax |
-| 41 | cRsAdvanceTotalRevenue | `Float` | Central Rs Adv Total Revenue |
-| 42 | cRsAdvanceTotalTax | `Float` | Central Rs Adv Total Tax |
-| 43 | cUpsoldRevenue | `Float` | Central Upsold Revenue |
-| 44 | cancellationDate | `DateTime` | Cancellation Date |
-| 45 | cancelledPersons | `Float` | Cancelled Persons |
-| 46 | cancelledReservations | `Float` | Cancelled Reservations |
-| 47 | cancelledRooms | `Float` | Cancelled Rooms |
-| 48 | cashRoomNts | `Float` | Cash Room Nts |
-| 49 | cashRoomRevenue | `Float` | Cash Room Revenue |
-| 50 | centralCurrencyCode | `String` | Central Currency Code |
-| 51 | centralDistributedFoodRevenue | `Float` | Central Distributed Food Revenue |
-| 52 | centralDistributedFoodRevenueAsPayee | `Float` | Central Distributed Food Revenue (as Payee |
-| 53 | centralDistributedNonRevenue | `Float` | Central Distributed Non Revenue |
-| 54 | centralDistributedNonRevenueAsPayee | `Float` | Central Distributed Non-Revenue (as Payee |
-| 55 | centralDistributedOtherRevenue | `Float` | Central Distributed Other Revenue |
-| 56 | centralDistributedOtherRevenueAsPayee | `Float` | Central Distributed Other Revenue (as Payee |
-| 57 | centralDistributedRoomRevenue | `Float` | Central Distributed Room Revenue |
-| 58 | centralDistributedRoomRevenueAsPayee | `Float` | Central Distributed Room Revenue (as Payee |
-| 59 | centralDistributedTotalFoodTaxAsPayee | `Float` | Central Distributed Total Food Tax (as Payee |
-| 60 | centralDistributedTotalNonRevenueTax | `Float` | Central Distributed Total Non Revenue Tax |
-| 61 | centralDistributedTotalNonRevenueTaxAsPayee | `Float` | Central Distributed Total Non-Revenue Tax (as Payee |
-| 62 | centralDistributedTotalOtherTaxAsPayee | `Float` | Central Distributed Total Other Tax (as Payee |
-| 63 | centralDistributedTotalRevenue | `Float` | Central Distributed Total Revenue |
-| 64 | centralDistributedTotalRevenueAsPayee | `Float` | Central Distributed Total Revenue (as Payee |
-| 65 | centralDistributedTotalRoomTax | `Float` | Central Distributed Total Room Tax |
-| 66 | centralDistributedTotalRoomTaxAsPayee | `Float` | Central Distributed Total Room Tax (as Payee |
-| 67 | centralDistributedTotalTax | `Float` | Central Distributed Total Tax |
-| 68 | centralDistributedTotalTaxAsPayee | `Float` | Central Distributed Total Tax (as Payee |
-| 69 | centralExchangeRate | `Float` | Central Exchange Rate |
-| 70 | centralFoodRevenue | `Float` | Central Food Revenue |
-| 71 | centralFoodRevenueAsPayee | `Float` | Central Food Revenue (as Payee |
-| 72 | centralMarketCode | `String` | Central Market Code |
-| 73 | centralMarketDescription | `String` | Central Market Description |
-| 74 | centralMarketGroupCode | `String` | Central Market Group Code |
-| 75 | centralMarketGroupDescription | `String` | Central Market Group Description |
-| 76 | centralNonRevenue | `Float` | Central Non Revenue |
-| 77 | centralNonRevenueAsPayee | `Float` | Central Non-Revenue (as Payee |
-| 78 | centralOriginCode | `String` | Central Origin Code |
-| 79 | centralOriginDescription | `String` | Central Origin Description |
-| 80 | centralOriginalRoomType | `String` | Central Original Room Type |
-| 81 | centralOtherRevenue | `Float` | Central Other Revenue |
-| 82 | centralOtherRevenueAsPayee | `Float` | Central Other Revenue (as Payee |
-| 83 | centralPackageFoodRevenue | `Float` | Central Package Food Revenue |
-| 84 | centralPackageFoodRevenueAsPayee | `Float` | Central Package Food Revenue (as Payee |
-| 85 | centralPackageNonRevenue | `Float` | Central Package Non Revenue |
-| 86 | centralPackageNonRevenueAsPayee | `Float` | Central Package Non-Revenue (as Payee |
-| 87 | centralPackageOtherRevenue | `Float` | Central Package Other Revenue |
-| 88 | centralPackageOtherRevenueAsPayee | `Float` | Central Package Other Revenue (as Payee |
-| 89 | centralPackageRoomRevenue | `Float` | Central Package Room Revenue |
-| 90 | centralPackageRoomRevenueAsPayee | `Float` | Central Package Room Revenue (as Payee |
-| 91 | centralRateCategory | `String` | Central Rate Category |
-| 92 | centralRoomRevenue | `Float` | Central Room Revenue |
-| 93 | centralRoomRevenueAsPayee | `Float` | Central Room Revenue (as Payee |
-| 94 | centralSourceCode | `String` | Central Source Code |
-| 95 | centralSourceDescription | `String` | Central Source Description |
-| 96 | centralSourceGroupCode | `String` | Central Source Group Code |
-| 97 | centralSourceGroupDescription | `String` | Central Source Group Description |
-| 98 | centralTotalFoodTax | `Float` | Central Total Food Tax |
-| 99 | centralTotalFoodTaxGeneratedAsPayee | `Float` | Central Total Food Tax Generated (as Payee |
-| 100 | centralTotalNonRevenueTax | `Float` | Central Total Non Revenue Tax |
-| 101 | centralTotalNonRevenueTaxAsPayee | `Float` | Central Total Non-Revenue Tax (as Payee |
-| 102 | centralTotalOtherTax | `Float` | Central Total Other Tax |
-| 103 | centralTotalOtherTaxAsPayee | `Float` | Central Total Other Tax (as Payee |
-| 104 | centralTotalPackageRevenue | `Float` | Central Total Package Revenue |
-| 105 | centralTotalPackageRevenueAsPayee | `Float` | Central Total Package Revenue (as Payee |
-| 106 | centralTotalRevenue | `Float` | Central Total Revenue |
-| 107 | centralTotalRevenueAsPayee | `Float` | Central Total Revenue (as Payee |
-| 108 | centralTotalRoomTax | `Float` | Central Total Room Tax |
-| 109 | centralTotalRoomTaxAsPayee | `Float` | Central Total Room Tax (as Payee |
-| 110 | centralTotalTax | `Float` | Central Total Tax |
-| 111 | centralTotalTaxAsPayee | `Float` | Central Total Tax (as Payee |
-| 112 | centralcurrencyid | `String` | Centralcurrencyid |
-| 113 | channelid | `String` | Channelid |
-| 114 | children | `Float` | Children |
-| 115 | childrenTaxFree | `Float` | Children Tax Free |
-| 116 | children1 | `Float` | Children1 |
-| 117 | children2 | `Float` | Children2 |
-| 118 | children3 | `Float` | Children3 |
-| 119 | children4 | `Float` | Children4 |
-| 120 | children5 | `Float` | Children5 |
-| 121 | city | `String` | City |
-| 122 | cityid | `String` | Cityid |
-| 123 | compRoomNts | `Float` | Comp Room Nts |
-| 124 | compRoomRevenue | `Float` | Comp Room Revenue |
-| 125 | companyId | `Float` | Company ID |
-| 126 | companyProfileID | `Float` | Company Profile ID |
-| 127 | companyProfileName | `String` | Company Profile Name |
-| 128 | compflag | `String` | Compflag |
-| 129 | complimentaryYN | `String` | Complimentary YN |
-| 130 | contactId | `Float` | Contact ID |
-| 131 | contactProfileID | `Float` | Contact Profile ID |
-| 132 | contactflag | `String` | Contactflag |
-| 133 | country | `String` | Country |
-| 134 | countryMainGroup | `String` | Country Main Group |
-| 135 | countryName | `String` | Country Name |
-| 136 | countrygroupid | `String` | Countrygroupid |
-| 137 | countryid | `String` | Countryid |
-| 138 | cribs | `Float` | Cribs |
-| 139 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 140 | dayUsePersons | `Float` | Day Use Persons |
-| 141 | dayUseReservations | `Float` | Day Use Reservations |
-| 142 | dayUseRooms | `Float` | Day Use Rooms |
-| 143 | deletedFlag | `String` | Deleted Flag |
-| 144 | departurePersons | `Float` | Departure Persons |
-| 145 | departureRooms | `Float` | Departure Rooms |
-| 146 | distributedFoodRevenue | `Float` | Distributed Food Revenue |
-| 147 | distributedFoodRevenueAsPayee | `Float` | Distributed Food Revenue (as Payee |
-| 148 | distributedNonRevenue | `Float` | Distributed Non Revenue |
-| 149 | distributedNonRevenueAsPayee | `Float` | Distributed Non-Revenue (as Payee |
-| 150 | distributedOtherRevenue | `Float` | Distributed Other Revenue |
-| 151 | distributedOtherRevenueAsPayee | `Float` | Distributed Other Revenue (as Payee |
-| 152 | distributedRoomRevenue | `Float` | Distributed Room Revenue |
-| 153 | distributedRoomRevenueAsPayee | `Float` | Distributed Room Revenue (as Payee |
-| 154 | distributedTotalFoodTaxAsPayee | `Float` | Distributed Total Food Tax as Payee |
-| 155 | distributedTotalNonRevenueTax | `Float` | Distributed Total Non Revenue Tax |
-| 156 | distributedTotalNonRevenueTaxAsPayee | `Float` | Distributed Total Non-Revenue Tax (as Payee |
-| 157 | distributedTotalOtherTax | `Float` | Distributed Total Other Tax |
-| 158 | distributedTotalOtherTaxAsPayee | `Float` | Distributed Total Other Tax (as Payee |
-| 159 | distributedTotalRevenue | `Float` | Distributed Total Revenue |
-| 160 | distributedTotalRevenueAsPayee | `Float` | Distributed Total Revenue (as Payee |
-| 161 | distributedTotalRoomTax | `Float` | Distributed Total Room Tax |
-| 162 | distributedTotalRoomTaxAsPayee | `Float` | Distributed Total Room Tax (as Payee |
-| 163 | distributedTotalTax | `Float` | Distributed Total Tax |
-| 164 | distributedTotalTaxAsPayee | `Float` | Distributed Total Tax (as Payee |
-| 165 | district | `String` | District |
-| 166 | dueOutYn | `String` | Due Out Y/N |
-| 167 | dueoutflag | `String` | Dueoutflag |
-| 168 | endDate | `Date` | End Date |
-| 169 | endbusinessdate | `Date` | Endbusinessdate |
-| 170 | extendedStayTier | `Float` | Extended stay tier of the reservation on the business date. Based on the length of stay and the rate tier configuration if active or OPERA standard rate tiers. |
-| 171 | extraBeds | `Float` | Extra Beds |
-| 172 | fiscalregioncode | `String` | Fiscalregioncode |
-| 173 | flgdFoodRevenue | `Float` | Flagged Food Revenue |
-| 174 | flgdNonRevenue | `Float` | Flagged Non Revenue |
-| 175 | flgdOtherRevenue | `Float` | Flagged Other Revenue |
-| 176 | flgdRoomRevenue | `Float` | Flagged Room Revenue |
-| 177 | flgdTotalFoodTax | `Float` | Flagged Total Food Tax |
-| 178 | flgdTotalNonRevenueTax | `Float` | Flagged Total Non Revenue Tax |
-| 179 | flgdTotalOtherTax | `Float` | Flagged Total Other Tax |
-| 180 | flgdTotalRevenue | `Float` | Flagged Total Revenue |
-| 181 | flgdTotalRoomTax | `Float` | Flagged Total Room Tax |
-| 182 | flgdTotalTax | `Float` | Flagged Total Tax |
-| 183 | foodRevenue | `Float` | Food Revenue |
-| 184 | foodRevenueAsPayee | `Float` | Food Revenue (as Payee |
-| 185 | freqflyermembtype | `String` | Freqflyermembtype |
-| 186 | freqguestmembtype | `String` | Freqguestmembtype |
-| 187 | groupId | `Float` | Group ID |
-| 188 | groupProfileID | `Float` | Group Profile ID |
-| 189 | groupProfileName | `String` | Group Profile Name |
-| 190 | guestProfileID | `Float` | Guest Profile ID |
-| 191 | gueststatusid | `String` | Gueststatusid |
-| 192 | houseUseYn | `String` | House Use Y/N |
-| 193 | houseuseflag | `String` | Houseuseflag |
-| 194 | insertDate | `DateTime` | Insert Date |
-| 195 | internalCompanyprofileid | `Float` | Companyprofileid |
-| 196 | internalContactprofileid | `Float` | Contactprofileid |
-| 197 | internalDeletedflag | `String` | Deleted Flag |
-| 198 | internalGroupprofileid | `Float` | Groupprofileid |
-| 199 | internalMembershipid | `Float` | Membershipid |
-| 200 | internalReservationNameId | `Float` | Resv Name ID |
-| 201 | jRNUpdateDate | `Date` | JRN Update Date |
-| 202 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 203 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 204 | marketCode | `String` | Market Code |
-| 205 | marketDescription | `String` | Market Description |
-| 206 | marketDisplaySequence | `Float` | Market Display Sequence |
-| 207 | marketGroupCode | `String` | Market Group Code |
-| 208 | marketGroupDescription | `String` | Market Group Description |
-| 209 | marketGroupDisplaySequence | `Float` | Market Group Display Sequence |
-| 210 | marketgroupid | `String` | Marketgroupid |
-| 211 | marketid | `String` | Marketid |
-| 212 | membershipCardNo | `String` | Membership Card Number |
-| 213 | membershipId | `Float` | Membership ID |
-| 214 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
-| 215 | nationality | `String` | Nationality |
-| 216 | nationalityCode | `String` | Nationality Code |
-| 217 | nationalityid | `String` | Nationalityid |
-| 218 | nights | `Float` | Nights |
-| 219 | noShowReservations | `Float` | Number Show Reservations |
-| 220 | noShowPersons | `Float` | No-Show Persons |
-| 221 | noShowRooms | `Float` | No-Show Rooms |
-| 222 | nonRevenue | `Float` | Non Revenue |
-| 223 | nonRevenueAsPayee | `Float` | Non-Revenue (as Payee |
-| 224 | numberOfStays | `Float` | No of Stays |
-| 225 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 226 | originCode | `String` | Origin Code |
-| 227 | originDescription | `String` | Origin Description |
-| 228 | originalEndDate | `Date` | Original End Date |
-| 229 | originalRoomCategory | `String` | Stores the room type associated with the reservation at the moment of booking. |
-| 230 | otherRevenue | `Float` | Other Revenue |
-| 231 | otherRevenueAsPayee | `Float` | Other Revenue (as Payee |
-| 232 | outOfOrderRooms | `Float` | Number of Rooms marked as Out of Order for today |
-| 233 | outOfServiceRooms | `Float` | Out of Service Rooms |
-| 234 | ownerRentalYn | `String` | Owner Rental Y/N |
-| 235 | ownerfriendfamilyflag | `String` | Ownerfriendfamilyflag |
-| 236 | ownerrentalflag | `String` | Ownerrentalflag |
-| 237 | packageFoodRevenue | `Float` | Package Food Revenue |
-| 238 | packageFoodRevenueAsPayee | `Float` | Package Food Revenue (as Payee |
-| 239 | packageNonRevenue | `Float` | Package Non Revenue |
-| 240 | packageNonRevenueAsPayee | `Float` | Package Non-Revenue (as Payee |
-| 241 | packageOtherRevenue | `Float` | Package Other Revenue |
-| 242 | packageOtherRevenueAsPayee | `Float` | Package Other Revenue (as Payee |
-| 243 | packageRoomRevenue | `Float` | Package Room Revenue |
-| 244 | packageRoomRevenueAsPayee | `Float` | Package Room Revenue (as Payee |
-| 245 | parentCompanyId | `Float` | Parent Company ID |
-| 246 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
-| 247 | physicalQuantity | `Float` | Physical Quantity |
-| 248 | physicalRooms | `Float` | Physical Rooms |
-| 249 | prAdvTotalFoodTax | `Float` | Pr Advance Total Food Tax |
-| 250 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 251 | primaryYn | `Float` | Primary Y/N |
-| 252 | primaryflag | `Float` | Primaryflag |
-| 253 | profiledailytotalid | `Float` | Profiledailytotalid |
-| 254 | profileid | `Float` | Profileid |
-| 255 | promotionCode | `String` | Promotion Code |
-| 256 | promotionCodeDesc | `String` | Promotion Code Description |
-| 257 | promotionid | `String` | Promotionid |
-| 258 | property | `String` | Code to uniquely identify the Property |
-| 259 | pseudoRoomYN | `String` | Pseudo Room YN |
-| 260 | pseudoroomflag | `String` | Pseudoroomflag |
-| 261 | quantity | `Float` | Quantity |
-| 262 | rateAmount | `Float` | Rate Amount |
-| 263 | rateCategory | `String` | Rate Category |
-| 264 | rateCode | `String` | Rate Code |
-| 265 | ratecategoryid | `String` | Ratecategoryid |
-| 266 | ratecodeid | `String` | Ratecodeid |
-| 267 | regionCode | `String` | Region Code |
-| 268 | regionid | `String` | Regionid |
-| 269 | repPromotionCode | `String` | Reporting Promotion Code |
-| 270 | repPromotionCodeDescription | `String` | Reporting Promotion Code Desc |
-| 271 | reservationArrivals | `Float` | Reservation Arrivals |
-| 272 | reservationDate | `Date` | Reservation Date |
-| 273 | reservationNameID | `Float` | Reservation Name ID |
-| 274 | reservationNights | `Float` | Reservation Nights |
-| 275 | reservationNumberOfStays | `Float` | Reservation No of Stays |
-| 276 | reservationStatus | `String` | Reservation Status |
-| 277 | reservationid | `Float` | Reservationid |
-| 278 | resvenddate | `Date` | Resvenddate |
-| 279 | resvinsertsource | `String` | Resvinsertsource |
-| 280 | resvinsertsourcetype | `String` | Resvinsertsourcetype |
-| 281 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 282 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 283 | room | `String` | Room |
-| 284 | roomAdults | `Float` | Room Adults |
-| 285 | roomCategory | `String` | Room Category |
-| 286 | roomChildren | `Float` | Room Children |
-| 287 | roomClass | `String` | Room Class |
-| 288 | roomNights | `Float` | Room Nights |
-| 289 | roomReservationStatus | `String` | Room Reservation Status |
-| 290 | roomRevenue | `Float` | Room Revenue |
-| 291 | roomRevenueAsPayee | `Float` | Room Revenue (as Payee |
-| 292 | roomcategoryid | `String` | Roomcategoryid |
-| 293 | roomclassid | `String` | Roomclassid |
-| 294 | roomid | `String` | Roomid |
-| 295 | rsAdvFoodRevenue | `Float` | Distributed food revenue generated as staying guest. |
-| 296 | rsAdvFoodTax | `Float` | Distributed food tax generated as staying guest. |
-| 297 | rsAdvNonRevenue | `Float` | Distributed non revenue generated as staying guest. |
-| 298 | rsAdvNonRevenueTax | `Float` | Distributed non-revenue tax generated as staying guest |
-| 299 | rsAdvOtherRevenue | `Float` | Distributed other revenue generated as staying guest. |
-| 300 | rsAdvOtherTax | `Float` | Distributed other tax generated as staying guest. |
-| 301 | rsAdvRoomRevenue | `Float` | Distributed room revenue generated as staying guest. |
-| 302 | rsAdvRoomTax | `Float` | Distributed room tax generated as staying guest. |
-| 303 | rsAdvTotalRevenue | `Float` | Distributed total revenue generated as staying guest. |
-| 304 | rsAdvTotalTax | `Float` | Distributed total tax amount generated as staying guest. |
-| 305 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
-| 306 | sourceCode | `String` | Source Code |
-| 307 | sourceDescription | `String` | Source Description |
-| 308 | sourceDisplaySequence | `Float` | Source Display Sequence |
-| 309 | sourceGroupCode | `String` | Source Group Code |
-| 310 | sourceGroupDescription | `String` | Source Group Description |
-| 311 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| 312 | sourceProfId | `Float` | Source Prof ID |
-| 313 | sourceProfileID | `Float` | Source Profile ID |
-| 314 | sourcegroupid | `String` | Sourcegroupid |
-| 315 | sourceid | `String` | Sourceid |
-| 316 | sourceprofprofileid | `Float` | Sourceprofprofileid |
-| 317 | stateCode | `String` | State Code |
-| 318 | stateid | `String` | Stateid |
-| 319 | stayAdults | `Float` | Stay Adults |
-| 320 | stayChildren | `Float` | Stay Children |
-| 321 | stayPersons | `Float` | Stay Persons |
-| 322 | totalFoodTax | `Float` | Total Food Tax |
-| 323 | totalFoodTaxGeneratedAsPayee | `Float` | Total Food Tax Generated (as Payee |
-| 324 | totalNonRevenueTax | `Float` | Total Non Revenue Tax |
-| 325 | totalNonRevenueTaxAsPayee | `Float` | Total Non-Revenue Tax (as Payee |
-| 326 | totalOtherTax | `Float` | Total Other Tax |
-| 327 | totalOtherTaxAsPayee | `Float` | Total Other Tax (as Payee |
-| 328 | totalPackageRevenue | `Float` | Total Package Revenue |
-| 329 | totalPackageRevenueAsPayee | `Float` | Total Package Revenue (as Payee |
-| 330 | totalRevenue | `Float` | Total Revenue |
-| 331 | totalRevenueAsPayee | `Float` | Total Revenue (as Payee |
-| 332 | totalRoomTax | `Float` | Total Room Tax |
-| 333 | totalRoomTaxAsPayee | `Float` | Total Room Tax (as Payee |
-| 334 | totalTax | `Float` | Total Tax |
-| 335 | totalTaxAsPayee | `Float` | Total Tax (as Payee |
-| 336 | travelAgentProfileID | `Float` | Travel Agent Profile ID |
-| 337 | travelAgentProfileName | `String` | Travel Agent Profile Name |
-| 338 | updateDate | `DateTime` | Update Date |
-| 339 | upsoldRevenue | `Float` | Upsold Revenue |
-| 340 | vIPStatus | `String` | VIP Status |
-| 341 | walkinYn | `String` | Walkin Y/N |
-| 342 | walkinflag | `String` | Walkinflag |
-| 343 | zipCode | `String` | Zipcode Code |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | adults | `Float` | Adults |
+| 3 | adultsTaxFree | `Float` | Adults Tax Free |
+| 4 | agentId | `Float` | Agent ID |
+| 5 | agentprofileid | `Float` | Agentprofileid |
+| 6 | allotmentHeaderId | `Float` | Allotment Header ID |
+| 7 | allotmentid | `Float` | Block ID |
+| 8 | arrivalPersons | `Float` | Arrival Persons |
+| 9 | arrivalRooms | `Float` | Arrival Rooms |
+| 10 | beginDate | `Date` | Begin Date |
+| 11 | biReservationNameId | `Float` | Bi Resv Name ID |
+| 12 | birthDate | `Date` | Birth Date |
+| 13 | bookedRoomCategory | `String` | Booked Room Category |
+| 14 | bookedroomcategoryid | `String` | Bookedroomcategoryid |
+| 15 | businessDate | `Date` | Business Date |
+| 16 | businessDateCreated | `Date` | Business Date Created |
+| 17 | cAdvanceTotalOtherTax | `Float` | Central Adv Total Other Tax |
+| 18 | cCashRoomRevenue | `Float` | Central Cash Room Revenue |
+| 19 | cCompRoomRevenue | `Float` | Central Comp Room Revenue |
+| 20 | cExchangeDate | `Date` | Central Xchange Date |
+| 21 | cExchangeRate | `Float` | Central Xchange Rate |
+| 22 | cFlaggedFoodRevenue | `Float` | Central Flgd Food Revenue |
+| 23 | cFlaggedNonRevenue | `Float` | Central Flgd Non Revenue |
+| 24 | cFlaggedOtherRevenue | `Float` | Central Flgd Other Revenue |
+| 25 | cFlaggedRoomRevenue | `Float` | Central Flgd Room Revenue |
+| 26 | cFlaggedTotalFoodTax | `Float` | Central Flgd Total Food Tax |
+| 27 | cFlaggedTotalNonRevenueTax | `Float` | Central Flgd Total Non Revenue Tax |
+| 28 | cFlaggedTotalOtherTax | `Float` | Central Flgd Total Other Tax |
+| 29 | cFlaggedTotalRevenue | `Float` | Central Flgd Total Revenue |
+| 30 | cFlaggedTotalRoomTax | `Float` | Central Flgd Total Room Tax |
+| 31 | cFlaggedTotalTax | `Float` | Central Flgd Total Tax |
+| 32 | cPrAdvanceTotalFoodTax | `Float` | Central Pr Adv Total Food Tax |
+| 33 | cRateAmount | `Float` | Central Rate Amount |
+| 34 | cRsAdvanceFoodRevenue | `Float` | Central Rs Adv Food Revenue |
+| 35 | cRsAdvanceFoodTax | `Float` | Central Rs Adv Food Tax |
+| 36 | cRsAdvanceNonRevenue | `Float` | Central Rs Adv Non Revenue |
+| 37 | cRsAdvanceNonRevenueTax | `Float` | Central Rs Adv Non Revenue Tax |
+| 38 | cRsAdvanceOtherRevenue | `Float` | Central Rs Adv Other Revenue |
+| 39 | cRsAdvanceOtherTax | `Float` | Central Rs Adv Other Tax |
+| 40 | cRsAdvanceRoomRevenue | `Float` | Central Rs Adv Room Revenue |
+| 41 | cRsAdvanceRoomTax | `Float` | Central Rs Adv Room Tax |
+| 42 | cRsAdvanceTotalRevenue | `Float` | Central Rs Adv Total Revenue |
+| 43 | cRsAdvanceTotalTax | `Float` | Central Rs Adv Total Tax |
+| 44 | cUpsoldRevenue | `Float` | Central Upsold Revenue |
+| 45 | cancellationDate | `DateTime` | Cancellation Date |
+| 46 | cancelledPersons | `Float` | Cancelled Persons |
+| 47 | cancelledReservations | `Float` | Cancelled Reservations |
+| 48 | cancelledRooms | `Float` | Cancelled Rooms |
+| 49 | cashRoomNts | `Float` | Cash Room Nts |
+| 50 | cashRoomRevenue | `Float` | Cash Room Revenue |
+| 51 | centralCurrencyCode | `String` | Central Currency Code |
+| 52 | centralDistributedFoodRevenue | `Float` | Central Distributed Food Revenue |
+| 53 | centralDistributedFoodRevenueAsPayee | `Float` | Central Distributed Food Revenue (as Payee |
+| 54 | centralDistributedNonRevenue | `Float` | Central Distributed Non Revenue |
+| 55 | centralDistributedNonRevenueAsPayee | `Float` | Central Distributed Non-Revenue (as Payee |
+| 56 | centralDistributedOtherRevenue | `Float` | Central Distributed Other Revenue |
+| 57 | centralDistributedOtherRevenueAsPayee | `Float` | Central Distributed Other Revenue (as Payee |
+| 58 | centralDistributedRoomRevenue | `Float` | Central Distributed Room Revenue |
+| 59 | centralDistributedRoomRevenueAsPayee | `Float` | Central Distributed Room Revenue (as Payee |
+| 60 | centralDistributedTotalFoodTaxAsPayee | `Float` | Central Distributed Total Food Tax (as Payee |
+| 61 | centralDistributedTotalNonRevenueTax | `Float` | Central Distributed Total Non Revenue Tax |
+| 62 | centralDistributedTotalNonRevenueTaxAsPayee | `Float` | Central Distributed Total Non-Revenue Tax (as Payee |
+| 63 | centralDistributedTotalOtherTaxAsPayee | `Float` | Central Distributed Total Other Tax (as Payee |
+| 64 | centralDistributedTotalRevenue | `Float` | Central Distributed Total Revenue |
+| 65 | centralDistributedTotalRevenueAsPayee | `Float` | Central Distributed Total Revenue (as Payee |
+| 66 | centralDistributedTotalRoomTax | `Float` | Central Distributed Total Room Tax |
+| 67 | centralDistributedTotalRoomTaxAsPayee | `Float` | Central Distributed Total Room Tax (as Payee |
+| 68 | centralDistributedTotalTax | `Float` | Central Distributed Total Tax |
+| 69 | centralDistributedTotalTaxAsPayee | `Float` | Central Distributed Total Tax (as Payee |
+| 70 | centralExchangeRate | `Float` | Central Exchange Rate |
+| 71 | centralFoodRevenue | `Float` | Central Food Revenue |
+| 72 | centralFoodRevenueAsPayee | `Float` | Central Food Revenue (as Payee |
+| 73 | centralMarketCode | `String` | Central Market Code |
+| 74 | centralMarketDescription | `String` | Central Market Description |
+| 75 | centralMarketGroupCode | `String` | Central Market Group Code |
+| 76 | centralMarketGroupDescription | `String` | Central Market Group Description |
+| 77 | centralNonRevenue | `Float` | Central Non Revenue |
+| 78 | centralNonRevenueAsPayee | `Float` | Central Non-Revenue (as Payee |
+| 79 | centralOriginCode | `String` | Central Origin Code |
+| 80 | centralOriginDescription | `String` | Central Origin Description |
+| 81 | centralOriginalRoomType | `String` | Central Original Room Type |
+| 82 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 83 | centralOtherRevenueAsPayee | `Float` | Central Other Revenue (as Payee |
+| 84 | centralPackageFoodRevenue | `Float` | Central Package Food Revenue |
+| 85 | centralPackageFoodRevenueAsPayee | `Float` | Central Package Food Revenue (as Payee |
+| 86 | centralPackageNonRevenue | `Float` | Central Package Non Revenue |
+| 87 | centralPackageNonRevenueAsPayee | `Float` | Central Package Non-Revenue (as Payee |
+| 88 | centralPackageOtherRevenue | `Float` | Central Package Other Revenue |
+| 89 | centralPackageOtherRevenueAsPayee | `Float` | Central Package Other Revenue (as Payee |
+| 90 | centralPackageRoomRevenue | `Float` | Central Package Room Revenue |
+| 91 | centralPackageRoomRevenueAsPayee | `Float` | Central Package Room Revenue (as Payee |
+| 92 | centralRateCategory | `String` | Central Rate Category |
+| 93 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 94 | centralRoomRevenueAsPayee | `Float` | Central Room Revenue (as Payee |
+| 95 | centralSourceCode | `String` | Central Source Code |
+| 96 | centralSourceDescription | `String` | Central Source Description |
+| 97 | centralSourceGroupCode | `String` | Central Source Group Code |
+| 98 | centralSourceGroupDescription | `String` | Central Source Group Description |
+| 99 | centralTotalFoodTax | `Float` | Central Total Food Tax |
+| 100 | centralTotalFoodTaxGeneratedAsPayee | `Float` | Central Total Food Tax Generated (as Payee |
+| 101 | centralTotalNonRevenueTax | `Float` | Central Total Non Revenue Tax |
+| 102 | centralTotalNonRevenueTaxAsPayee | `Float` | Central Total Non-Revenue Tax (as Payee |
+| 103 | centralTotalOtherTax | `Float` | Central Total Other Tax |
+| 104 | centralTotalOtherTaxAsPayee | `Float` | Central Total Other Tax (as Payee |
+| 105 | centralTotalPackageRevenue | `Float` | Central Total Package Revenue |
+| 106 | centralTotalPackageRevenueAsPayee | `Float` | Central Total Package Revenue (as Payee |
+| 107 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 108 | centralTotalRevenueAsPayee | `Float` | Central Total Revenue (as Payee |
+| 109 | centralTotalRoomTax | `Float` | Central Total Room Tax |
+| 110 | centralTotalRoomTaxAsPayee | `Float` | Central Total Room Tax (as Payee |
+| 111 | centralTotalTax | `Float` | Central Total Tax |
+| 112 | centralTotalTaxAsPayee | `Float` | Central Total Tax (as Payee |
+| 113 | centralcurrencyid | `String` | Centralcurrencyid |
+| 114 | channelid | `String` | Channelid |
+| 115 | children | `Float` | Children |
+| 116 | childrenTaxFree | `Float` | Children Tax Free |
+| 117 | children1 | `Float` | Children1 |
+| 118 | children2 | `Float` | Children2 |
+| 119 | children3 | `Float` | Children3 |
+| 120 | children4 | `Float` | Children4 |
+| 121 | children5 | `Float` | Children5 |
+| 122 | city | `String` | City |
+| 123 | cityid | `String` | Cityid |
+| 124 | compRoomNts | `Float` | Comp Room Nts |
+| 125 | compRoomRevenue | `Float` | Comp Room Revenue |
+| 126 | companyId | `Float` | Company ID |
+| 127 | companyProfileID | `Float` | Company Profile ID |
+| 128 | companyProfileName | `String` | Company Profile Name |
+| 129 | compflag | `String` | Compflag |
+| 130 | complimentaryYN | `String` | Complimentary YN |
+| 131 | contactId | `Float` | Contact ID |
+| 132 | contactProfileID | `Float` | Contact Profile ID |
+| 133 | contactflag | `String` | Contactflag |
+| 134 | country | `String` | Country |
+| 135 | countryMainGroup | `String` | Country Main Group |
+| 136 | countryName | `String` | Country Name |
+| 137 | countrygroupid | `String` | Countrygroupid |
+| 138 | countryid | `String` | Countryid |
+| 139 | cribs | `Float` | Cribs |
+| 140 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 141 | dayUsePersons | `Float` | Day Use Persons |
+| 142 | dayUseReservations | `Float` | Day Use Reservations |
+| 143 | dayUseRooms | `Float` | Day Use Rooms |
+| 144 | deletedFlag | `String` | Deleted Flag |
+| 145 | departurePersons | `Float` | Departure Persons |
+| 146 | departureRooms | `Float` | Departure Rooms |
+| 147 | distributedFoodRevenue | `Float` | Distributed Food Revenue |
+| 148 | distributedFoodRevenueAsPayee | `Float` | Distributed Food Revenue (as Payee |
+| 149 | distributedNonRevenue | `Float` | Distributed Non Revenue |
+| 150 | distributedNonRevenueAsPayee | `Float` | Distributed Non-Revenue (as Payee |
+| 151 | distributedOtherRevenue | `Float` | Distributed Other Revenue |
+| 152 | distributedOtherRevenueAsPayee | `Float` | Distributed Other Revenue (as Payee |
+| 153 | distributedRoomRevenue | `Float` | Distributed Room Revenue |
+| 154 | distributedRoomRevenueAsPayee | `Float` | Distributed Room Revenue (as Payee |
+| 155 | distributedTotalFoodTaxAsPayee | `Float` | Distributed Total Food Tax as Payee |
+| 156 | distributedTotalNonRevenueTax | `Float` | Distributed Total Non Revenue Tax |
+| 157 | distributedTotalNonRevenueTaxAsPayee | `Float` | Distributed Total Non-Revenue Tax (as Payee |
+| 158 | distributedTotalOtherTax | `Float` | Distributed Total Other Tax |
+| 159 | distributedTotalOtherTaxAsPayee | `Float` | Distributed Total Other Tax (as Payee |
+| 160 | distributedTotalRevenue | `Float` | Distributed Total Revenue |
+| 161 | distributedTotalRevenueAsPayee | `Float` | Distributed Total Revenue (as Payee |
+| 162 | distributedTotalRoomTax | `Float` | Distributed Total Room Tax |
+| 163 | distributedTotalRoomTaxAsPayee | `Float` | Distributed Total Room Tax (as Payee |
+| 164 | distributedTotalTax | `Float` | Distributed Total Tax |
+| 165 | distributedTotalTaxAsPayee | `Float` | Distributed Total Tax (as Payee |
+| 166 | district | `String` | District |
+| 167 | dueOutYn | `String` | Due Out Y/N |
+| 168 | dueoutflag | `String` | Dueoutflag |
+| 169 | endDate | `Date` | End Date |
+| 170 | endbusinessdate | `Date` | Endbusinessdate |
+| 171 | extendedStayTier | `Float` | Extended stay tier of the reservation on the business date. Based on the length of stay and the rate tier configuration if active or OPERA standard rate tiers. |
+| 172 | extraBeds | `Float` | Extra Beds |
+| 173 | fiscalregioncode | `String` | Fiscalregioncode |
+| 174 | flgdFoodRevenue | `Float` | Flagged Food Revenue |
+| 175 | flgdNonRevenue | `Float` | Flagged Non Revenue |
+| 176 | flgdOtherRevenue | `Float` | Flagged Other Revenue |
+| 177 | flgdRoomRevenue | `Float` | Flagged Room Revenue |
+| 178 | flgdTotalFoodTax | `Float` | Flagged Total Food Tax |
+| 179 | flgdTotalNonRevenueTax | `Float` | Flagged Total Non Revenue Tax |
+| 180 | flgdTotalOtherTax | `Float` | Flagged Total Other Tax |
+| 181 | flgdTotalRevenue | `Float` | Flagged Total Revenue |
+| 182 | flgdTotalRoomTax | `Float` | Flagged Total Room Tax |
+| 183 | flgdTotalTax | `Float` | Flagged Total Tax |
+| 184 | foodRevenue | `Float` | Food Revenue |
+| 185 | foodRevenueAsPayee | `Float` | Food Revenue (as Payee |
+| 186 | freqflyermembtype | `String` | Freqflyermembtype |
+| 187 | freqguestmembtype | `String` | Freqguestmembtype |
+| 188 | groupId | `Float` | Group ID |
+| 189 | groupProfileID | `Float` | Group Profile ID |
+| 190 | groupProfileName | `String` | Group Profile Name |
+| 191 | guestProfileID | `Float` | Guest Profile ID |
+| 192 | gueststatusid | `String` | Gueststatusid |
+| 193 | houseUseYn | `String` | House Use Y/N |
+| 194 | houseuseflag | `String` | Houseuseflag |
+| 195 | insertDate | `DateTime` | Insert Date |
+| 196 | internalCompanyprofileid | `Float` | Companyprofileid |
+| 197 | internalContactprofileid | `Float` | Contactprofileid |
+| 198 | internalDeletedflag | `String` | Deleted Flag |
+| 199 | internalGroupprofileid | `Float` | Groupprofileid |
+| 200 | internalMembershipid | `Float` | Membershipid |
+| 201 | internalReservationNameId | `Float` | Resv Name ID |
+| 202 | jRNUpdateDate | `Date` | JRN Update Date |
+| 203 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 204 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 205 | marketCode | `String` | Market Code |
+| 206 | marketDescription | `String` | Market Description |
+| 207 | marketDisplaySequence | `Float` | Market Display Sequence |
+| 208 | marketGroupCode | `String` | Market Group Code |
+| 209 | marketGroupDescription | `String` | Market Group Description |
+| 210 | marketGroupDisplaySequence | `Float` | Market Group Display Sequence |
+| 211 | marketgroupid | `String` | Marketgroupid |
+| 212 | marketid | `String` | Marketid |
+| 213 | membershipCardNo | `String` | Membership Card Number |
+| 214 | membershipId | `Float` | Membership ID |
+| 215 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
+| 216 | nationality | `String` | Nationality |
+| 217 | nationalityCode | `String` | Nationality Code |
+| 218 | nationalityid | `String` | Nationalityid |
+| 219 | nights | `Float` | Nights |
+| 220 | noShowReservations | `Float` | Number Show Reservations |
+| 221 | noShowPersons | `Float` | No-Show Persons |
+| 222 | noShowRooms | `Float` | No-Show Rooms |
+| 223 | nonRevenue | `Float` | Non Revenue |
+| 224 | nonRevenueAsPayee | `Float` | Non-Revenue (as Payee |
+| 225 | numberOfStays | `Float` | No of Stays |
+| 226 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 227 | originCode | `String` | Origin Code |
+| 228 | originDescription | `String` | Origin Description |
+| 229 | originalEndDate | `Date` | Original End Date |
+| 230 | originalRoomCategory | `String` | Stores the room type associated with the reservation at the moment of booking. |
+| 231 | otherRevenue | `Float` | Other Revenue |
+| 232 | otherRevenueAsPayee | `Float` | Other Revenue (as Payee |
+| 233 | outOfOrderRooms | `Float` | Number of Rooms marked as Out of Order for today |
+| 234 | outOfServiceRooms | `Float` | Out of Service Rooms |
+| 235 | ownerRentalYn | `String` | Owner Rental Y/N |
+| 236 | ownerfriendfamilyflag | `String` | Ownerfriendfamilyflag |
+| 237 | ownerrentalflag | `String` | Ownerrentalflag |
+| 238 | packageFoodRevenue | `Float` | Package Food Revenue |
+| 239 | packageFoodRevenueAsPayee | `Float` | Package Food Revenue (as Payee |
+| 240 | packageNonRevenue | `Float` | Package Non Revenue |
+| 241 | packageNonRevenueAsPayee | `Float` | Package Non-Revenue (as Payee |
+| 242 | packageOtherRevenue | `Float` | Package Other Revenue |
+| 243 | packageOtherRevenueAsPayee | `Float` | Package Other Revenue (as Payee |
+| 244 | packageRoomRevenue | `Float` | Package Room Revenue |
+| 245 | packageRoomRevenueAsPayee | `Float` | Package Room Revenue (as Payee |
+| 246 | parentCompanyId | `Float` | Parent Company ID |
+| 247 | parentcompanyprofileid | `Float` | Parentcompanyprofileid |
+| 248 | physicalQuantity | `Float` | Physical Quantity |
+| 249 | physicalRooms | `Float` | Physical Rooms |
+| 250 | prAdvTotalFoodTax | `Float` | Pr Advance Total Food Tax |
+| 251 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 252 | primaryYn | `Float` | Primary Y/N |
+| 253 | primaryflag | `Float` | Primaryflag |
+| 254 | profiledailytotalid | `Float` | Profiledailytotalid |
+| 255 | profileid | `Float` | Profileid |
+| 256 | promotionCode | `String` | Promotion Code |
+| 257 | promotionCodeDesc | `String` | Promotion Code Description |
+| 258 | promotionid | `String` | Promotionid |
+| 259 | property | `String` | Code to uniquely identify the Property |
+| 260 | pseudoRoomYN | `String` | Pseudo Room YN |
+| 261 | pseudoroomflag | `String` | Pseudoroomflag |
+| 262 | quantity | `Float` | Quantity |
+| 263 | rateAmount | `Float` | Rate Amount |
+| 264 | rateCategory | `String` | Rate Category |
+| 265 | rateCode | `String` | Rate Code |
+| 266 | ratecategoryid | `String` | Ratecategoryid |
+| 267 | ratecodeid | `String` | Ratecodeid |
+| 268 | regionCode | `String` | Region Code |
+| 269 | regionid | `String` | Regionid |
+| 270 | repPromotionCode | `String` | Reporting Promotion Code |
+| 271 | repPromotionCodeDescription | `String` | Reporting Promotion Code Desc |
+| 272 | reservationArrivals | `Float` | Reservation Arrivals |
+| 273 | reservationDate | `Date` | Reservation Date |
+| 274 | reservationNameID | `Float` | Reservation Name ID |
+| 275 | reservationNights | `Float` | Reservation Nights |
+| 276 | reservationNumberOfStays | `Float` | Reservation No of Stays |
+| 277 | reservationStatus | `String` | Reservation Status |
+| 278 | reservationid | `Float` | Reservationid |
+| 279 | resvenddate | `Date` | Resvenddate |
+| 280 | resvinsertsource | `String` | Resvinsertsource |
+| 281 | resvinsertsourcetype | `String` | Resvinsertsourcetype |
+| 282 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 283 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 284 | room | `String` | Room |
+| 285 | roomAdults | `Float` | Room Adults |
+| 286 | roomCategory | `String` | Room Category |
+| 287 | roomChildren | `Float` | Room Children |
+| 288 | roomClass | `String` | Room Class |
+| 289 | roomNights | `Float` | Room Nights |
+| 290 | roomReservationStatus | `String` | Room Reservation Status |
+| 291 | roomRevenue | `Float` | Room Revenue |
+| 292 | roomRevenueAsPayee | `Float` | Room Revenue (as Payee |
+| 293 | roomcategoryid | `String` | Roomcategoryid |
+| 294 | roomclassid | `String` | Roomclassid |
+| 295 | roomid | `String` | Roomid |
+| 296 | rsAdvFoodRevenue | `Float` | Distributed food revenue generated as staying guest. |
+| 297 | rsAdvFoodTax | `Float` | Distributed food tax generated as staying guest. |
+| 298 | rsAdvNonRevenue | `Float` | Distributed non revenue generated as staying guest. |
+| 299 | rsAdvNonRevenueTax | `Float` | Distributed non-revenue tax generated as staying guest |
+| 300 | rsAdvOtherRevenue | `Float` | Distributed other revenue generated as staying guest. |
+| 301 | rsAdvOtherTax | `Float` | Distributed other tax generated as staying guest. |
+| 302 | rsAdvRoomRevenue | `Float` | Distributed room revenue generated as staying guest. |
+| 303 | rsAdvRoomTax | `Float` | Distributed room tax generated as staying guest. |
+| 304 | rsAdvTotalRevenue | `Float` | Distributed total revenue generated as staying guest. |
+| 305 | rsAdvTotalTax | `Float` | Distributed total tax amount generated as staying guest. |
+| 306 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
+| 307 | sourceCode | `String` | Source Code |
+| 308 | sourceDescription | `String` | Source Description |
+| 309 | sourceDisplaySequence | `Float` | Source Display Sequence |
+| 310 | sourceGroupCode | `String` | Source Group Code |
+| 311 | sourceGroupDescription | `String` | Source Group Description |
+| 312 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
+| 313 | sourceProfId | `Float` | Source Prof ID |
+| 314 | sourceProfileID | `Float` | Source Profile ID |
+| 315 | sourcegroupid | `String` | Sourcegroupid |
+| 316 | sourceid | `String` | Sourceid |
+| 317 | sourceprofprofileid | `Float` | Sourceprofprofileid |
+| 318 | stateCode | `String` | State Code |
+| 319 | stateid | `String` | Stateid |
+| 320 | stayAdults | `Float` | Stay Adults |
+| 321 | stayChildren | `Float` | Stay Children |
+| 322 | stayPersons | `Float` | Stay Persons |
+| 323 | totalFoodTax | `Float` | Total Food Tax |
+| 324 | totalFoodTaxGeneratedAsPayee | `Float` | Total Food Tax Generated (as Payee |
+| 325 | totalNonRevenueTax | `Float` | Total Non Revenue Tax |
+| 326 | totalNonRevenueTaxAsPayee | `Float` | Total Non-Revenue Tax (as Payee |
+| 327 | totalOtherTax | `Float` | Total Other Tax |
+| 328 | totalOtherTaxAsPayee | `Float` | Total Other Tax (as Payee |
+| 329 | totalPackageRevenue | `Float` | Total Package Revenue |
+| 330 | totalPackageRevenueAsPayee | `Float` | Total Package Revenue (as Payee |
+| 331 | totalRevenue | `Float` | Total Revenue |
+| 332 | totalRevenueAsPayee | `Float` | Total Revenue (as Payee |
+| 333 | totalRoomTax | `Float` | Total Room Tax |
+| 334 | totalRoomTaxAsPayee | `Float` | Total Room Tax (as Payee |
+| 335 | totalTax | `Float` | Total Tax |
+| 336 | totalTaxAsPayee | `Float` | Total Tax (as Payee |
+| 337 | travelAgentProfileID | `Float` | Travel Agent Profile ID |
+| 338 | travelAgentProfileName | `String` | Travel Agent Profile Name |
+| 339 | updateDate | `DateTime` | Update Date |
+| 340 | upsoldRevenue | `Float` | Upsold Revenue |
+| 341 | vIPStatus | `String` | VIP Status |
+| 342 | walkinYn | `String` | Walkin Y/N |
+| 343 | walkinflag | `String` | Walkinflag |
+| 344 | zipCode | `String` | Zipcode Code |
 
 [⬆ Back to Query](#query)
 
@@ -2514,6 +2515,7 @@
 | profileownerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | profileownerDetailsResort | `StringInput` | Property |
 | profileownerDetailsUserId | `FloatInput` | User ID |
+| reservationdailystatisticsdetailsChainCode | `StringInput` | CHAIN_CODE |
 | resvdailystatsDetailsAgentId | `FloatInput` | Agent ID |
 | resvdailystatsDetailsAllotmentHeaderId | `FloatInput` | Allotment Header ID |
 | resvdailystatsDetailsBiResvNameId | `FloatInput` | Bi Resv Name ID |
@@ -3628,6 +3630,7 @@ query profilesAccounts($input: ProfilesAccountsQueryArgumentsType!) {
       userId
     }
     reservationDailyStatisticsDetails {
+      chainCode
       adults
       adultsTaxFree
       agentId
@@ -5641,6 +5644,7 @@ profile_owner_details_schema = {
 ```
 ```python
 reservation_daily_statistics_details_schema = {
+    'chainCode': pl.Utf8,
     'adults': pl.Float64,
     'adultsTaxFree': pl.Float64,
     'agentId': pl.Float64,

@@ -489,13 +489,13 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | revenuepackagesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| revenuepackagesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| revenuepackagesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| revenuepackagesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| revenuepackagesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | revenuepackagesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| revenuepackagesDetailsProductpmsref | `StringInput` | Package Code |
-| revenuepackagesDetailsProduct | `StringInput` | Product |
-| revenuepackagesDetailsProductid | `StringInput` | Productid |
-| revenuepackagesDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| revenuepackagesDetailsProductpmsref | `StringInput` | Package Code<br>`@conditionalInputPair(pair: 2)` |
+| revenuepackagesDetailsProduct | `StringInput` | Product<br>`@conditionalInputPair(pair: 2)` |
+| revenuepackagesDetailsProductid | `StringInput` | Productid<br>`@conditionalInputPair(pair: 2)` |
+| revenuepackagesDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | revenuepackagesDetailsRnaInsertdate | `DateTimeInput` | RnA Insertdate |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
@@ -760,8 +760,15 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - revenuepackagesDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- revenuepackagesDetailsJrnupdatedttm
+- revenuepackagesDetailsLocationid
+- revenuepackagesDetailsProductpmsref
+- revenuepackagesDetailsProduct
+- revenuepackagesDetailsProductid
 
 
 [⬆ Back to Query](#query)

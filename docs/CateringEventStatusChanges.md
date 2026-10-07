@@ -588,18 +588,18 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | eventstatuschangeDetailsAllotmentid | `FloatInput` | Block ID |
-| eventstatuschangeDetailsBookId | `FloatInput` | Book ID |
-| eventstatuschangeDetailsInsertDate | `DateTimeInput` | Change Date |
+| eventstatuschangeDetailsBookId | `FloatInput` | Book ID<br>`@conditionalInputPair(pair: 2)` |
+| eventstatuschangeDetailsInsertDate | `DateTimeInput` | Change Date<br>`@conditionalInputPair(pair: 2)` |
 | eventstatuschangeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| eventstatuschangeDetailsEvChangeId | `FloatInput` | Event status change sequence number |
+| eventstatuschangeDetailsEvChangeId | `FloatInput` | Event status change sequence number<br>`@conditionalInputPair(pair: 2)` |
 | eventstatuschangeDetailsEventId | `FloatInput` | Event ID |
 | eventstatuschangeDetailsEventstatuschangeid | `FloatInput` | Eventstatuschangeid |
-| eventstatuschangeDetailsEventid | `FloatInput` | Eventid |
-| eventstatuschangeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| eventstatuschangeDetailsEventid | `FloatInput` | Eventid<br>`@conditionalInputPair(pair: 2)` |
+| eventstatuschangeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | eventstatuschangeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
-| eventstatuschangeDetailsCurrentStatus | `StringInput` | New Event Status |
+| eventstatuschangeDetailsCurrentStatus | `StringInput` | New Event Status<br>`@conditionalInputPair(pair: 2)` |
 | eventstatuschangeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| eventstatuschangeDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| eventstatuschangeDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | eventDetailsAllotmentid | `FloatInput` | Block ID |
 | eventDetailsBookId | `FloatInput` | Block ID |
 | eventDetailsAllotmentenddate | `DateInput` | Block End Date |
@@ -896,8 +896,16 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - eventstatuschangeDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- eventstatuschangeDetailsBookId
+- eventstatuschangeDetailsInsertDate
+- eventstatuschangeDetailsEvChangeId
+- eventstatuschangeDetailsEventid
+- eventstatuschangeDetailsJrnupdatedttm
+- eventstatuschangeDetailsCurrentStatus
 
 
 [⬆ Back to Query](#query)

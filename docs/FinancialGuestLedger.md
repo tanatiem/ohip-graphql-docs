@@ -34,84 +34,85 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | billNumber | `Float` | Bill Number |
-| 2 | billingEventID | `Float` | Billing Event ID |
-| 3 | businessDate | `Date` | Business Date |
-| 4 | cARLedgerCredit | `Float` | Central Ar Led Credit |
-| 5 | cARLedgerDebit | `Float` | Central Ar Led Debit |
-| 6 | cCashierCredit | `Float` | Central Cashier Credit |
-| 7 | cCashierDebit | `Float` | Central Cashier Debit |
-| 8 | cCashierOpeningBalance | `Float` | Central Cashier Opening Balance |
-| 9 | cCcTransactionFeeAmount | `Float` | Central Cc Trx Fee Amount |
-| 10 | cChangeDue | `Float` | Central Change Due |
-| 11 | cContractGrossAmount | `Float` | Central Contract Gross Amount |
-| 12 | cContractGuestCredit | `Float` | Central Contract Guest Credit |
-| 13 | cContractGuestDebit | `Float` | Central Contract Guest Debit |
-| 14 | cContractNetAmount | `Float` | Central Contract Net Amount |
-| 15 | cDepLedgerCredit | `Float` | Central Dep Led Credit |
-| 16 | cDepLedgerDebit | `Float` | Central Dep Led Debit |
-| 17 | cExchangeDate | `Date` | Central Xchange Date |
-| 18 | cExchangeRate | `Float` | Central Xchange Rate |
-| 19 | cForexCommissionAmount | `Float` | Central Forex Comm Amount |
-| 20 | cGrossAmount | `Float` | Central Gross Amount |
-| 21 | cGuestAccountCredit | `Float` | Central Guest Account Credit |
-| 22 | cGuestAccountDebit | `Float` | Central Guest Account Debit |
-| 23 | cInHouseCredit | `Float` | Central Inh Credit |
-| 24 | cInHouseDebit | `Float` | Central Inh Debit |
-| 25 | cNetAmount | `Float` | Central Net Amount |
-| 26 | cOrganizationARLedgerDebit | `Float` | Central Org Ar Led Debit |
-| 27 | cOrganizationPostedAmount | `Float` | Central Org Posted Amount |
-| 28 | cPackageAllowance | `Float` | Central Package Allowance |
-| 29 | cPackageCredit | `Float` | Central Package Credit |
-| 30 | cPackageDebit | `Float` | Central Package Debit |
-| 31 | cParallelGrossAmount | `Float` | Central Parallel Gross Amount |
-| 32 | cParallelGuestCredit | `Float` | Central Parallel Guest Credit |
-| 33 | cParallelGuestDebit | `Float` | Central Parallel Guest Debit |
-| 34 | cParallelNetAmount | `Float` | Central Parallel Net Amount |
-| 35 | cPaymentSurchargeAmount | `Float` | Central Payment Surcharge Amt |
-| 36 | cPostedAmount | `Float` | Central Posted Amount |
-| 37 | cPricePerUnit | `Float` | Central Price Per Unit |
-| 38 | cRevenueAmount | `Float` | Central Revenue Amt |
-| 39 | cTaxRate | `Float` | Central Tax Rate |
-| 40 | cTransactionAmount | `Float` | Central Trx Amount |
-| 41 | centralLedgerAmount | `Float` | Central Ledger Amount |
-| 42 | centralTransactionCode | `String` | Central Transaction Code |
-| 43 | centralTransactionCodeDescription | `String` | Central Transaction Code Description |
-| 44 | checkNumber | `String` | Check Number |
-| 45 | currencyCode | `String` | Currency Code |
-| 46 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 47 | displayflag | `String` | Displayflag |
-| 48 | exchangeRate | `Float` | Exchange Rate |
-| 49 | financialTransactionSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
-| 50 | fintransid | `Float` | Fintransid |
-| 51 | folioNumber | `Float` | Folio Number |
-| 52 | folioView | `Float` | Folio View |
-| 53 | folioid | `Float` | Folioid |
-| 54 | foreignCurrencyID | `String` | Foreign Currency ID |
-| 55 | invoiceNumber | `Float` | Invoice Number |
-| 56 | jRNUpdateDate | `Date` | JRN Update Date |
-| 57 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 58 | ledgerAmount | `Float` | Ledger Amount |
-| 59 | ledgerQuantity | `Float` | Ledger Quantity |
-| 60 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 61 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 62 | originalRoom | `String` | Original Room |
-| 63 | pricePerUnit | `Float` | Price Per Unit |
-| 64 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 65 | property | `String` | Code to uniquely identify the Property |
-| 66 | rNAInsertDate | `DateTime` | RNA Insert Date |
-| 67 | rNAUpdateDate | `DateTime` | RNA Update Date |
-| 68 | reference | `String` | Reference |
-| 69 | reservationNameId | `Float` | Resv Name ID |
-| 70 | reservationid | `Float` | Reservationid |
-| 71 | supplement | `String` | Supplement |
-| 72 | transactionCode | `String` | Transaction Code |
-| 73 | transactionCodeDescription | `String` | Transaction Code Description |
-| 74 | transactionDate | `Date` | Transaction Date |
-| 75 | transactionNumber | `Float` | Transaction Number |
-| 76 | transcodeid | `String` | Transcodeid |
-| 77 | trxNumberAddedBy | `Float` | Transaction No Added By |
-| 78 | trxNumberAgainstPackage | `Float` | Transaction No Against Package |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | billNumber | `Float` | Bill Number |
+| 3 | billingEventID | `Float` | Billing Event ID |
+| 4 | businessDate | `Date` | Business Date |
+| 5 | cARLedgerCredit | `Float` | Central Ar Led Credit |
+| 6 | cARLedgerDebit | `Float` | Central Ar Led Debit |
+| 7 | cCashierCredit | `Float` | Central Cashier Credit |
+| 8 | cCashierDebit | `Float` | Central Cashier Debit |
+| 9 | cCashierOpeningBalance | `Float` | Central Cashier Opening Balance |
+| 10 | cCcTransactionFeeAmount | `Float` | Central Cc Trx Fee Amount |
+| 11 | cChangeDue | `Float` | Central Change Due |
+| 12 | cContractGrossAmount | `Float` | Central Contract Gross Amount |
+| 13 | cContractGuestCredit | `Float` | Central Contract Guest Credit |
+| 14 | cContractGuestDebit | `Float` | Central Contract Guest Debit |
+| 15 | cContractNetAmount | `Float` | Central Contract Net Amount |
+| 16 | cDepLedgerCredit | `Float` | Central Dep Led Credit |
+| 17 | cDepLedgerDebit | `Float` | Central Dep Led Debit |
+| 18 | cExchangeDate | `Date` | Central Xchange Date |
+| 19 | cExchangeRate | `Float` | Central Xchange Rate |
+| 20 | cForexCommissionAmount | `Float` | Central Forex Comm Amount |
+| 21 | cGrossAmount | `Float` | Central Gross Amount |
+| 22 | cGuestAccountCredit | `Float` | Central Guest Account Credit |
+| 23 | cGuestAccountDebit | `Float` | Central Guest Account Debit |
+| 24 | cInHouseCredit | `Float` | Central Inh Credit |
+| 25 | cInHouseDebit | `Float` | Central Inh Debit |
+| 26 | cNetAmount | `Float` | Central Net Amount |
+| 27 | cOrganizationARLedgerDebit | `Float` | Central Org Ar Led Debit |
+| 28 | cOrganizationPostedAmount | `Float` | Central Org Posted Amount |
+| 29 | cPackageAllowance | `Float` | Central Package Allowance |
+| 30 | cPackageCredit | `Float` | Central Package Credit |
+| 31 | cPackageDebit | `Float` | Central Package Debit |
+| 32 | cParallelGrossAmount | `Float` | Central Parallel Gross Amount |
+| 33 | cParallelGuestCredit | `Float` | Central Parallel Guest Credit |
+| 34 | cParallelGuestDebit | `Float` | Central Parallel Guest Debit |
+| 35 | cParallelNetAmount | `Float` | Central Parallel Net Amount |
+| 36 | cPaymentSurchargeAmount | `Float` | Central Payment Surcharge Amt |
+| 37 | cPostedAmount | `Float` | Central Posted Amount |
+| 38 | cPricePerUnit | `Float` | Central Price Per Unit |
+| 39 | cRevenueAmount | `Float` | Central Revenue Amt |
+| 40 | cTaxRate | `Float` | Central Tax Rate |
+| 41 | cTransactionAmount | `Float` | Central Trx Amount |
+| 42 | centralLedgerAmount | `Float` | Central Ledger Amount |
+| 43 | centralTransactionCode | `String` | Central Transaction Code |
+| 44 | centralTransactionCodeDescription | `String` | Central Transaction Code Description |
+| 45 | checkNumber | `String` | Check Number |
+| 46 | currencyCode | `String` | Currency Code |
+| 47 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 48 | displayflag | `String` | Displayflag |
+| 49 | exchangeRate | `Float` | Exchange Rate |
+| 50 | financialTransactionSubtype | `String` | This is the transaction type which says whether it is a Consumption(C) Payment (FC) or Package (PK)  and it is inherited from transaction code. |
+| 51 | fintransid | `Float` | Fintransid |
+| 52 | folioNumber | `Float` | Folio Number |
+| 53 | folioView | `Float` | Folio View |
+| 54 | folioid | `Float` | Folioid |
+| 55 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 56 | invoiceNumber | `Float` | Invoice Number |
+| 57 | jRNUpdateDate | `Date` | JRN Update Date |
+| 58 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 59 | ledgerAmount | `Float` | Ledger Amount |
+| 60 | ledgerQuantity | `Float` | Ledger Quantity |
+| 61 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 62 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 63 | originalRoom | `String` | Original Room |
+| 64 | pricePerUnit | `Float` | Price Per Unit |
+| 65 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 66 | property | `String` | Code to uniquely identify the Property |
+| 67 | rNAInsertDate | `DateTime` | RNA Insert Date |
+| 68 | rNAUpdateDate | `DateTime` | RNA Update Date |
+| 69 | reference | `String` | Reference |
+| 70 | reservationNameId | `Float` | Resv Name ID |
+| 71 | reservationid | `Float` | Reservationid |
+| 72 | supplement | `String` | Supplement |
+| 73 | transactionCode | `String` | Transaction Code |
+| 74 | transactionCodeDescription | `String` | Transaction Code Description |
+| 75 | transactionDate | `Date` | Transaction Date |
+| 76 | transactionNumber | `Float` | Transaction Number |
+| 77 | transcodeid | `String` | Transcodeid |
+| 78 | trxNumberAddedBy | `Float` | Transaction No Added By |
+| 79 | trxNumberAgainstPackage | `Float` | Transaction No Against Package |
 
 [⬆ Back to Query](#query)
 
@@ -121,174 +122,175 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
-| 2 | aRNameId | `Float` | Ar Name ID |
-| 3 | accountNumber | `String` | Account Number |
-| 4 | accountingCode | `String` | Accounting Code |
-| 5 | acctrecvprofileid | `Float` | Acctrecvprofileid |
-| 6 | adjTrxCode | `String` | Adj Trx Code |
-| 7 | adjtranscodeid | `String` | Adjtranscodeid |
-| 8 | arrangeCode | `String` | Arrange Code |
-| 9 | arrangementCode | `String` | Arrangement Code |
-| 10 | cDefaultPrice | `Float` | Central Default Price |
-| 11 | cExchangeDate | `Date` | Central Xchange Date |
-| 12 | cExchangeRate | `Float` | Central Xchange Rate |
-| 13 | cExportBucket | `Float` | Central Export Bucket |
-| 14 | cMaxAmount | `Float` | Central Max Amt |
-| 15 | cMinimumAmount | `Float` | Central Min Amt |
-| 16 | cCCode | `String` | CC Code |
-| 17 | cRSTaxDesc | `String` | Crs Tax Description |
-| 18 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
-| 19 | ccType | `String` | Cc Type |
-| 20 | centalSubgroup | `String` | Cental Subgroup |
-| 21 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
-| 22 | centralTransactionCode | `String` | Central Transaction Code |
-| 23 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
-| 24 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
-| 25 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
-| 26 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
-| 27 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
-| 28 | commissionCode | `Float` | Commission Code |
-| 29 | compNightsYn | `String` | Comp Nights Y/N |
-| 30 | compPaymentYn | `String` | Comp Payment Y/N |
-| 31 | complimentaryYN | `String` | Complimentary YN |
-| 32 | corpPropFlag | `String` | Corp Prop Flag |
-| 33 | corporateDescription | `String` | Corporate Description |
-| 34 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 35 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 36 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
-| 37 | currencyCode | `String` | Currency Code |
-| 38 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 39 | dailyPlanFolio | `Float` | Daily Plan Folio |
-| 40 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
-| 41 | defaultPrice | `Float` | Default Price |
-| 42 | deletedFlag | `String` | Deleted Flag |
-| 43 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
-| 44 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
-| 45 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
-| 46 | eInvoiceYn | `String` | E Invoice Y/N |
-| 47 | expenseFolio | `Float` | Expense Folio |
-| 48 | exportBucket | `Float` | Export Bucket |
-| 49 | externalPaymentCode | `String` | External Payment Code |
-| 50 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
-| 51 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
-| 52 | foreignCurrencyID | `String` | Foreign Currency ID |
-| 53 | gDeletedFlag | `String` | Group Deleted Flag |
-| 54 | gDescription | `String` | Group Description |
-| 55 | gInsertDate | `DateTime` | Group Insert Date |
-| 56 | gInsertUser | `Float` | Group Insert User |
-| 57 | gOrderBy | `Float` | Group Order By |
-| 58 | gRepDescription | `String` | Group Rep Description |
-| 59 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
-| 60 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
-| 61 | gTctClassType1 | `String` | Group Tct Class Type1 |
-| 62 | gTctClassType2 | `String` | Group Tct Class Type2 |
-| 63 | gUpdateDate | `DateTime` | Group Update Date |
-| 64 | gUpdateUser | `Float` | Group Update User |
-| 65 | group | `String` | Group |
-| 66 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
-| 67 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
-| 68 | groupFolio | `Float` | Group Folio |
-| 69 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
-| 70 | groupInternalYN | `String` | G Internal Y/N |
-| 71 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
-| 72 | groupRepItem | `String` | G Reporting Item |
-| 73 | groupRepItemName | `String` | G Reporting Item Name |
-| 74 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
-| 75 | groupRepOrderBy | `Float` | G Reporting Order By |
-| 76 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
-| 77 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
-| 78 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
-| 79 | inactiveDate | `Date` | Inactive Date |
-| 80 | inactiveflag | `String` | Inactive Flag |
-| 81 | includeIn8300Yn | `String` | Include In 8300 Y/N |
-| 82 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
-| 83 | insertDate | `DateTime` | Insert Date |
-| 84 | insertUser | `Float` | Insert User |
-| 85 | internalDeletedflag | `String` | Deleted Flag |
-| 86 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
-| 87 | internalYn | `String` | Internal Y/N |
-| 88 | jRNUpdateDate | `Date` | JRN Update Date |
-| 89 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 90 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 91 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
-| 92 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
-| 93 | maximumAmount | `Float` | Maximum Amount |
-| 94 | membershipYN | `String` | Membership YN |
-| 95 | minimumAmount | `Float` | Minimum Amount |
-| 96 | nonTaxableYn | `String` | Non Taxable Y/N |
-| 97 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 98 | ownerRevenueYN | `String` | Owner Rev Y/N |
-| 99 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
-| 100 | paymentType | `String` | Payment Type |
-| 101 | paymentmethodid | `String` | Paymentmethodid |
-| 102 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 103 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
-| 104 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
-| 105 | property | `String` | Property |
-| 106 | quantityCode | `String` | Quantity Code |
-| 107 | repDescription | `String` | Rep Description |
-| 108 | repItem | `String` | Reporting Item |
-| 109 | repItemName | `String` | Reporting Item Name |
-| 110 | repItemOrderby | `Float` | Reporting Item Orderby |
-| 111 | repUpdateDate | `DateTime` | Reporting Updatedate |
-| 112 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
-| 113 | revenueBucketId | `Float` | Rev Bucket ID |
-| 114 | revenueGroupId | `Float` | Rev Gp ID |
-| 115 | revenueYN | `String` | Revenue YN |
-| 116 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 117 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 118 | rotationRevenueYN | `String` | Rotation Rev Y/N |
-| 119 | roundFactorYn | `String` | Round Factor Y/N |
-| 120 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
-| 121 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
-| 122 | sgDescription | `String` | Sub-Group Description |
-| 123 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
-| 124 | sgInsertUser | `Float` | Sub-Group Insert User |
-| 125 | sgOrderBy | `Float` | Sub-Group Order By |
-| 126 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
-| 127 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
-| 128 | sgTaxflag | `String` | Sub-Group Taxflag |
-| 129 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
-| 130 | sgUpdateUser | `Float` | Sub-Group Update User |
-| 131 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
-| 132 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
-| 133 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
-| 134 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
-| 135 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
-| 136 | subGroupInternalYN | `String` | Sg Internal Y/N |
-| 137 | subGroupRepDescription | `String` | Sg Reporting Description |
-| 138 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
-| 139 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
-| 140 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
-| 141 | subGroupType | `String` | Sub-Group Type |
-| 142 | taxCodeNumber | `Float` | Tax Code Number |
-| 143 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 144 | taxYN | `String` | Tax YN |
-| 145 | tcBofInterface | `String` | Not Used. |
-| 146 | tcBofInterface2 | `String` | Not Used. |
-| 147 | tcBofRefCode | `String` | Not Used. |
-| 148 | tcBofRefCode2 | `String` | Not Used. |
-| 149 | tcResort2 | `String` | Not Used. |
-| 150 | tcTransactionType | `String` | Transaction Code Transaction Type |
-| 151 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
-| 152 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
-| 153 | transactionActionId | `Float` | Trx Action ID |
-| 154 | transactionCodeDescription | `String` | Transaction Code Description |
-| 155 | transactionCodeGroup | `String` | Transaction Code Group |
-| 156 | transactionCodeResort | `String` | Not Used. |
-| 157 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
-| 158 | transactionCodeType | `String` | Transaction Code Type |
-| 159 | transactionType | `String` | Transaction Type |
-| 160 | transcodearrangementid | `String` | Transcodearrangementid |
-| 161 | transcodeid | `String` | Transcodeid |
-| 162 | trxCode | `String` | Trx Code |
-| 163 | trxCodeDisplay | `String` | Transaction Code Display |
-| 164 | trxServiceType | `String` | Transaction Service Type |
-| 165 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
-| 166 | uPC | `String` | UPC |
-| 167 | updateDate | `DateTime` | Update Date |
-| 168 | updateUser | `Float` | Update User |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | aRLedgerPaymentsYN | `String` | AR Ledger Payments YN |
+| 3 | aRNameId | `Float` | Ar Name ID |
+| 4 | accountNumber | `String` | Account Number |
+| 5 | accountingCode | `String` | Accounting Code |
+| 6 | acctrecvprofileid | `Float` | Acctrecvprofileid |
+| 7 | adjTrxCode | `String` | Adj Trx Code |
+| 8 | adjtranscodeid | `String` | Adjtranscodeid |
+| 9 | arrangeCode | `String` | Arrange Code |
+| 10 | arrangementCode | `String` | Arrangement Code |
+| 11 | cDefaultPrice | `Float` | Central Default Price |
+| 12 | cExchangeDate | `Date` | Central Xchange Date |
+| 13 | cExchangeRate | `Float` | Central Xchange Rate |
+| 14 | cExportBucket | `Float` | Central Export Bucket |
+| 15 | cMaxAmount | `Float` | Central Max Amt |
+| 16 | cMinimumAmount | `Float` | Central Min Amt |
+| 17 | cCCode | `String` | CC Code |
+| 18 | cRSTaxDesc | `String` | Crs Tax Description |
+| 19 | cashTransactionCodeYN | `String` | Cash Transaction Code YN |
+| 20 | ccType | `String` | Cc Type |
+| 21 | centalSubgroup | `String` | Cental Subgroup |
+| 22 | centralAdjustmentTransactionCode | `String` | Central Adjustment Transaction Code |
+| 23 | centralTransactionCode | `String` | Central Transaction Code |
+| 24 | centralTransactionCodeGroup | `String` | Central Transaction Code Group |
+| 25 | chargeDeferredUntilCheckoutYN | `String` | Charge Deferred Until Checkout YN |
+| 26 | checkNumberMandatoryYN | `String` | Check Number Mandatory YN |
+| 27 | class1MandatoryYn | `String` | Class 1 Mandatory Y/N |
+| 28 | class2MandatoryYn | `String` | Class 2 Mandatory Y/N |
+| 29 | commissionCode | `Float` | Commission Code |
+| 30 | compNightsYn | `String` | Comp Nights Y/N |
+| 31 | compPaymentYn | `String` | Comp Payment Y/N |
+| 32 | complimentaryYN | `String` | Complimentary YN |
+| 33 | corpPropFlag | `String` | Corp Prop Flag |
+| 34 | corporateDescription | `String` | Corporate Description |
+| 35 | crossPostingDepositYN | `String` | To indicate that the transaction code can be used as a Deposit Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 36 | crossPostingPaymentYN | `String` | To indicate that the transaction code can be used as a Payment Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 37 | crossPostingSalesYN | `String` | To indicate that the transaction code can be used as a Sales Transaction Code in Cross Postings. There can be only one transaction code per one resort. |
+| 38 | currencyCode | `String` | Currency Code |
+| 39 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 40 | dailyPlanFolio | `Float` | Daily Plan Folio |
+| 41 | dedOwnerRevenueYN | `String` | Ded Owner Rev Y/N |
+| 42 | defaultPrice | `Float` | Default Price |
+| 43 | deletedFlag | `String` | Deleted Flag |
+| 44 | depositLedgerPaymentsYN | `String` | Deposit Ledger Payments YN |
+| 45 | depositPostingOnlyYn | `String` | Deposit Posting Only Y/N |
+| 46 | depositType | `String` | Stores the type of the deposit: possible values "RECEIPT" or "FOLIO". |
+| 47 | eInvoiceYn | `String` | E Invoice Y/N |
+| 48 | expenseFolio | `Float` | Expense Folio |
+| 49 | exportBucket | `Float` | Export Bucket |
+| 50 | externalPaymentCode | `String` | External Payment Code |
+| 51 | fiscalPaymentYn | `String` | Fiscal Payment Y/N |
+| 52 | fiscalTrxCodeType | `String` | Fiscal Transaction Code Type |
+| 53 | foreignCurrencyID | `String` | Foreign Currency ID |
+| 54 | gDeletedFlag | `String` | Group Deleted Flag |
+| 55 | gDescription | `String` | Group Description |
+| 56 | gInsertDate | `DateTime` | Group Insert Date |
+| 57 | gInsertUser | `Float` | Group Insert User |
+| 58 | gOrderBy | `Float` | Group Order By |
+| 59 | gRepDescription | `String` | Group Rep Description |
+| 60 | gResultIncludedInSumArray | `String` | Group Result Included In Sum Array |
+| 61 | gRevenuegroupflag | `String` | Group Revenuegroupflag |
+| 62 | gTctClassType1 | `String` | Group Tct Class Type1 |
+| 63 | gTctClassType2 | `String` | Group Tct Class Type2 |
+| 64 | gUpdateDate | `DateTime` | Group Update Date |
+| 65 | gUpdateUser | `Float` | Group Update User |
+| 66 | group | `String` | Group |
+| 67 | groupClass1MandatoryYN | `String` | G Class 1 Mandatory Y/N |
+| 68 | groupClass2MandatoryYN | `String` | G Class 2 Mandatory Y/N |
+| 69 | groupFolio | `Float` | Group Folio |
+| 70 | groupIndRevenueGroup | `String` | G Individual Revenue Gp |
+| 71 | groupInternalYN | `String` | G Internal Y/N |
+| 72 | groupPointsRedemptionYN | `String` | Gp Points Redemption Y/N |
+| 73 | groupRepItem | `String` | G Reporting Item |
+| 74 | groupRepItemName | `String` | G Reporting Item Name |
+| 75 | groupRepItemOrderby | `Float` | G Reporting Item Orderby |
+| 76 | groupRepOrderBy | `Float` | G Reporting Order By |
+| 77 | groupRepUpdateDate | `DateTime` | G Reporting Updatedate |
+| 78 | groupTcTransactionType | `String` | G Transaction Code Transaction Type |
+| 79 | guestLedgerPaymentsYN | `String` | Guest Ledger Payments YN |
+| 80 | inactiveDate | `Date` | Inactive Date |
+| 81 | inactiveflag | `String` | Inactive Flag |
+| 82 | includeIn8300Yn | `String` | Include In 8300 Y/N |
+| 83 | includeInDepositRuleYn | `String` | Include In Deposit Rule Y/N |
+| 84 | insertDate | `DateTime` | Insert Date |
+| 85 | insertUser | `Float` | Insert User |
+| 86 | internalDeletedflag | `String` | Deleted Flag |
+| 87 | internalTransactionCodeSubGroup | `String` | Transaction Code Sub-Group |
+| 88 | internalYn | `String` | Internal Y/N |
+| 89 | jRNUpdateDate | `Date` | JRN Update Date |
+| 90 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 91 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 92 | manualPostCoversYn | `String` | Manual Post Covers Y/N |
+| 93 | manualPostingAllowedYN | `String` | Manual Posting Allowed YN |
+| 94 | maximumAmount | `Float` | Maximum Amount |
+| 95 | membershipYN | `String` | Membership YN |
+| 96 | minimumAmount | `Float` | Minimum Amount |
+| 97 | nonTaxableYn | `String` | Non Taxable Y/N |
+| 98 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 99 | ownerRevenueYN | `String` | Owner Rev Y/N |
+| 100 | paymentTaxInvoiceYn | `String` | Payment Tax Invoice Y/N |
+| 101 | paymentType | `String` | Payment Type |
+| 102 | paymentmethodid | `String` | Paymentmethodid |
+| 103 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 104 | printReceiptYN | `String` | Flag to indicate if a receipt has to be printed on posting the transaction used in Opera 9. |
+| 105 | processingType | `String` | Type of process that generated this payment.  IE PaymentCheck out AR or Passerby. |
+| 106 | property | `String` | Property |
+| 107 | quantityCode | `String` | Quantity Code |
+| 108 | repDescription | `String` | Rep Description |
+| 109 | repItem | `String` | Reporting Item |
+| 110 | repItemName | `String` | Reporting Item Name |
+| 111 | repItemOrderby | `Float` | Reporting Item Orderby |
+| 112 | repUpdateDate | `DateTime` | Reporting Updatedate |
+| 113 | resultIncludedInSumArray | `String` | Result Included In Sum Array |
+| 114 | revenueBucketId | `Float` | Rev Bucket ID |
+| 115 | revenueGroupId | `Float` | Rev Gp ID |
+| 116 | revenueYN | `String` | Revenue YN |
+| 117 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 118 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 119 | rotationRevenueYN | `String` | Rotation Rev Y/N |
+| 120 | roundFactorYn | `String` | Round Factor Y/N |
+| 121 | serviceRecoveryTrxCode | `String` | Service Recovery Adjustment. |
+| 122 | sgDeletedFlag | `String` | Sub-Group Deleted Flag |
+| 123 | sgDescription | `String` | Sub-Group Description |
+| 124 | sgInsertDate | `DateTime` | Sub-Group Insert Date |
+| 125 | sgInsertUser | `Float` | Sub-Group Insert User |
+| 126 | sgOrderBy | `Float` | Sub-Group Order By |
+| 127 | sgResultIncludedInSumArray | `String` | Sub-Group Result Included In Sum Array |
+| 128 | sgRevenuegroupflag | `String` | Sub-Group Revenuegroupflag |
+| 129 | sgTaxflag | `String` | Sub-Group Taxflag |
+| 130 | sgUpdateDate | `DateTime` | Sub-Group Update Date |
+| 131 | sgUpdateUser | `Float` | Sub-Group Update User |
+| 132 | subGroupClass1MandatoryYN | `String` | Sg Class 1 Mandatory Y/N |
+| 133 | subGroupClass2MandatoryYN | `String` | Sg Class 2 Mandatory Y/N |
+| 134 | subGroupFrequentFlyerYN | `String` | Sg Frequent Flyer Y/N |
+| 135 | subGroupGroupPointsRedemptionYN | `String` | Sg Gp Points Redemption Y/N |
+| 136 | subGroupIndRevenueGroup | `String` | Sg Individual Revenue Gp |
+| 137 | subGroupInternalYN | `String` | Sg Internal Y/N |
+| 138 | subGroupRepDescription | `String` | Sg Reporting Description |
+| 139 | subGroupRepOrderBy | `Float` | Sg Reporting Order By |
+| 140 | subGroupTcGroupAndSubgroup | `String` | Sg Transaction Code Group And Subgroup |
+| 141 | subGroupTcTransactionType | `String` | Sg Transaction Code Transaction Type |
+| 142 | subGroupType | `String` | Sub-Group Type |
+| 143 | taxCodeNumber | `Float` | Tax Code Number |
+| 144 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 145 | taxYN | `String` | Tax YN |
+| 146 | tcBofInterface | `String` | Not Used. |
+| 147 | tcBofInterface2 | `String` | Not Used. |
+| 148 | tcBofRefCode | `String` | Not Used. |
+| 149 | tcBofRefCode2 | `String` | Not Used. |
+| 150 | tcResort2 | `String` | Not Used. |
+| 151 | tcTransactionType | `String` | Transaction Code Transaction Type |
+| 152 | tclCodeDfltCl1 | `String` | Tcl Code Dflt Cl1 |
+| 153 | tclCodeDfltCl2 | `String` | Tcl Code Dflt Cl2 |
+| 154 | transactionActionId | `Float` | Trx Action ID |
+| 155 | transactionCodeDescription | `String` | Transaction Code Description |
+| 156 | transactionCodeGroup | `String` | Transaction Code Group |
+| 157 | transactionCodeResort | `String` | Not Used. |
+| 158 | transactionCodeSubGroup | `String` | Transaction Code Sub-group |
+| 159 | transactionCodeType | `String` | Transaction Code Type |
+| 160 | transactionType | `String` | Transaction Type |
+| 161 | transcodearrangementid | `String` | Transcodearrangementid |
+| 162 | transcodeid | `String` | Transcodeid |
+| 163 | trxCode | `String` | Trx Code |
+| 164 | trxCodeDisplay | `String` | Transaction Code Display |
+| 165 | trxServiceType | `String` | Transaction Service Type |
+| 166 | trxTaxTypeCode | `String` | Transaction Tax Type Code |
+| 167 | uPC | `String` | UPC |
+| 168 | updateDate | `DateTime` | Update Date |
+| 169 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
@@ -674,299 +676,301 @@
 | 374 | packageCodeDescription | `String` | Package Code Description |
 | 375 | packageForecastGroup | `String` | Package Forecast Group |
 | 376 | packageForecastGroupDescription | `String` | Package Forecast Group Description |
-| 377 | parentReservationNameId | `Float` | Parent Resv Name ID |
-| 378 | parentreservationid | `Float` | Parentreservationid |
-| 379 | partAllotment | `String` | Part Allotment |
-| 380 | partyCode | `String` | Party Code |
-| 381 | paxNo | `Float` | Pax Number |
-| 382 | paymentAmount | `Float` | Total amount of payment inclusive of VAT |
-| 383 | paymentMethod | `String` | Payment Method |
-| 384 | paymentmethodid | `String` | Paymentmethodid |
-| 385 | periodicFolioFreq | `Float` | Frequency in number of days when folios should be printed for this reservation |
-| 386 | phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
-| 387 | phoneId | `Float` | Phone ID |
-| 388 | physicalQuantity | `Float` | Physical Quantity |
-| 389 | pickUpCarrierCode | `String` | Pick Up Carrier Code |
-| 390 | pickUpDate | `Date` | Pick Up Date |
-| 391 | pickUpStation | `String` | Pick Up Station |
-| 392 | pickUpTransportNumber | `String` | Pick Up Transport Number |
-| 393 | pickUpType | `String` | Pick Up Type |
-| 394 | pickUpTypeDescription | `String` | Pick Up Type Description |
-| 395 | pickUpTime | `String` | Pick-Up Time |
-| 396 | pickupRequiredYN | `String` | Pickup Required YN |
-| 397 | points | `Float` | Points |
-| 398 | pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
-| 399 | postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
-| 400 | postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
-| 401 | postingAllowedYN | `String` | Posting Allowed YN |
-| 402 | preArrReviewedDt | `DateTime` | This date flags if and when the record was reviewed from pre-arrival screen. |
-| 403 | preArrReviewedUser | `Float` | User id who reviewed the record. |
-| 404 | preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
-| 405 | preRegisteredYn | `String` | Indicates whether the reservation is pre-registered for internet check-in or not. |
-| 406 | preference | `String` | Preference |
-| 407 | preferenceType | `String` | Preference Type |
-| 408 | preferredRoomType | `String` | Preferred Room Type |
-| 409 | previousCountry | `String` | Previous Country |
-| 410 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 411 | primaryShare | `String` | Primary Share |
-| 412 | printRateYN | `String` | Print Rate YN |
-| 413 | projectedFBRevenue | `Float` | Projected FB Revenue |
-| 414 | projectedRoomRevenue | `Float` | Projected Room Revenue |
-| 415 | projectedTotalRevenue | `Float` | Projected Total Revenue |
-| 416 | promotionCode | `String` | Promotion Code |
-| 417 | promotionDescription | `String` | Promotion Description |
-| 418 | property | `String` | Indicates if the value set for the specific property. |
-| 419 | pseudoMemTotalPoints | `Float` | Total pseudo membership points accrued for the default membership type. |
-| 420 | pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
-| 421 | purgeDate | `DateTime` | Purge Date |
-| 422 | purposeOfStay | `String` | Purpose of stay. |
-| 423 | quantity | `Float` | Number of Rooms |
-| 424 | queuePriority | `Float` | Queue priority of the reservation. |
-| 425 | queueWaitTime | `Float` | Queue Wait Time |
-| 426 | quoteId | `String` | Quote ID provided by external system. |
-| 427 | rateAmount | `Float` | Rate Amount |
-| 428 | rateCode | `String` | Rate Code |
-| 429 | rateCodeDescriptions | `String` | Event Reservation Rate Code Description |
-| 430 | rateTier | `Float` | Tier ID for the Rate Detail. |
-| 431 | rateableValue | `Float` | Stay rateable value. |
-| 432 | ratecodeid | `String` | Ratecodeid |
-| 433 | rdHousekeepingExpectedServiceTime | `String` | Rd Housekeeping Expected Service Time |
-| 434 | rdResvStatus | `String` | Rd Reservation Status |
-| 435 | rdenBillingContactId | `Float` | Rden Billing Contact ID |
-| 436 | rdenReservationContactId | `Float` | Rden Resv Contact ID |
-| 437 | rdenReservationDate | `Date` | Rden Reservation Date |
-| 438 | rdenResort | `String` | Rden Property |
-| 439 | referralYn | `String` | Rotation Rule to be configured for referral flag ? |
-| 440 | registrationCardNo | `String` | Registration Card Number |
-| 441 | registrationNumber | `Float` | Registration Number |
-| 442 | reinstateDate | `DateTime` | Reinstate Date |
-| 443 | repChannel | `String` | Reporting Channel |
-| 444 | repChannelDescription | `String` | Reporting Channel Description |
-| 445 | reportId | `String` | Report ID |
-| 446 | resInsertSource | `String` | Reservation Insert Source |
-| 447 | resInsertSourceType | `String` | Reservation Insert Source Type |
-| 448 | reservationContactId | `Float` | Resv Contact ID |
-| 449 | reservationDate | `DateTime` | Reservation Date |
-| 450 | reservationNameID | `Float` | Reservation Name ID |
-| 451 | reservationStatus | `String` | Reservation Status |
-| 452 | reservationType | `String` | Reservation Type |
-| 453 | reservationTypeDescription | `String` | Reservation Type Description |
-| 454 | reservationid | `Float` | Reservationid |
-| 455 | resort | `String` | Property |
-| 456 | resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
-| 457 | restrictionOverride | `String` | Restriction Override |
-| 458 | resvGuid | `String` | Globally unique ID using SYS_GUID() as the source. |
-| 459 | resvNameid | `Float` | Reservation Nameid |
-| 460 | resvNumber | `Float` | Not used in PMS currently. |
-| 461 | resvcontactprofileid | `Float` | Resvcontactprofileid |
-| 462 | revenueTypeCode | `String` | Revenue type (catering/rooms) |
-| 463 | rhBillingContactId | `Float` | Rh Billing Contact ID |
-| 464 | rhReservationContactId | `Float` | Rh Resv Contact ID |
-| 465 | rhRoomFeatures | `String` | Rh Room Features |
-| 466 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 467 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 468 | room | `String` | Room |
-| 469 | roomCategory | `String` | Room Category |
-| 470 | roomClass | `String` | Room Class |
-| 471 | roomCost | `Float` | Room Cost |
-| 472 | roomInstructions | `String` | Room Instructions |
-| 473 | roomResort | `String` | Meeting Room Property |
-| 474 | roomRevenue | `Float` | Room Revenue |
-| 475 | roomRevenueRemaining | `Float` | Room Revenue Remaining |
-| 476 | roomServiceTime | `String` | This is the Turndown room service time. |
-| 477 | roomTypeDescription | `String` | Room Type Description |
-| 478 | roomTypeToChargeCode | `String` | Room Type To Charge Code |
-| 479 | roomTypeToChargeDescription | `String` | Room Type to Charge Description |
-| 480 | roomcategoryid | `String` | Roomcategoryid |
-| 481 | roomid | `String` | Roomid |
-| 482 | routingYN | `String` | Routing YN |
-| 483 | scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
-| 484 | sguestFirstname | `String` | This is CAPITOL version of guest_first_name |
-| 485 | sguestName | `String` | Sguest Name |
-| 486 | shareConfirmationNumbers | `String` | Share Confirmation Numbers |
-| 487 | shareId | `Float` | Share ID. |
-| 488 | shareName | `String` | Share Name |
-| 489 | sharePrcnt | `Float` | Not used. |
-| 490 | shareSeqNumber | `Float` | Type of revenue |
-| 491 | shareOfRateAmount | `Float` | Share of Rate Amount |
-| 492 | sharedGuestName | `String` | Shared Guest Name |
-| 493 | sharedProfileID | `Float` | Shared Profile ID |
-| 494 | sharedReservationStatus | `String` | Shared Reservation Status |
-| 495 | sharingYN | `String` | Sharing YN |
-| 496 | sourceCity | `String` | Source City |
-| 497 | sourceCode | `String` | Source Code |
-| 498 | sourceCountry | `String` | Source Country |
-| 499 | sourceName | `String` | Source Name |
-| 500 | sourceProfileARNumber | `Float` | Source Profile AR Number |
-| 501 | sourceProfileARNumberCentral | `String` | Source Profile AR Number (Central) |
-| 502 | sourceProfileIATANumber | `String` | Source Profile IATA Number |
-| 503 | sourceProfileID | `Float` | Source Profile ID |
-| 504 | sourceProfileName | `String` | Source Profile Name |
-| 505 | sourceid | `String` | Sourceid |
-| 506 | specialRequest | `String` | Special Request |
-| 507 | specialRequestDescription | `String` | Special Request Description |
-| 508 | spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
-| 509 | spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
-| 510 | spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
-| 511 | spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
-| 512 | splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
-| 513 | splitfromreservationid | `Float` | Splitfromreservationid |
-| 514 | statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
-| 515 | statisticalRoomType | `Float` | Room Type used to calculate statistics for export(DRS). |
-| 516 | stayRecordId | `Float` | Stay Record ID |
-| 517 | suiteNumber | `String` | Suite Number |
-| 518 | superSearchIndexText | `String` | Super Search Index Text |
-| 519 | taRecordLocator | `String` | Ta Record Locator |
-| 520 | taxExemptNumber | `String` | Tax exempt number on the profile |
-| 521 | taxNumberOfStays | `Float` | Tax No of Stays |
-| 522 | taxType | `String` | Tax Type |
-| 523 | taxTypeDescription | `String` | Tax Type Description |
-| 524 | taxtypeid | `String` | Taxtypeid |
-| 525 | tiad | `String` | Tiad |
-| 526 | ticketNos | `String` | Ticket Nos |
-| 527 | totalCostOfStay | `Float` | Total Cost of Stay |
-| 528 | totalRevenue | `Float` | Total Revenue |
-| 529 | totalRevenueRemaining | `Float` | Total Revenue Remaining |
-| 530 | totalRoomRate | `Float` | Total Room Rate |
-| 531 | trackItGroups | `String` | Track It Groups |
-| 532 | trackItTypes | `String` | Track It Types |
-| 533 | transactionid | `Float` | Transactionid |
-| 534 | travelAgentCity | `String` | Travel Agent Address. |
-| 535 | travelAgentCountry | `String` | Travel Agent Country |
-| 536 | travelAgentID | `Float` | Travel Agent ID |
-| 537 | travelAgentName | `String` | Travel Agent Name |
-| 538 | travelAgentProfileARNumber | `Float` | Travel Agent Profile AR Number |
-| 539 | travelAgentProfileARNumberCentral | `String` | Travel Agent Profile AR Number (Central) |
-| 540 | travelAgentProfileIATANumber | `String` | Travel Agent Profile IATA Number |
-| 541 | travelAgentProfileID | `Float` | Travel Agent Profile ID |
-| 542 | travelAgentProfileName | `String` | Travel Agent Profile Name |
-| 543 | truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
-| 544 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
-| 545 | turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
-| 546 | uDFC01 | `String` | UDFC01 |
-| 547 | uDFC02 | `String` | UDFC02 |
-| 548 | uDFC03 | `String` | UDFC03 |
-| 549 | uDFC04 | `String` | UDFC04 |
-| 550 | uDFC05 | `String` | UDFC05 |
-| 551 | uDFC06 | `String` | UDFC06 |
-| 552 | uDFC07 | `String` | UDFC07 |
-| 553 | uDFC08 | `String` | UDFC08 |
-| 554 | uDFC09 | `String` | UDFC09 |
-| 555 | uDFC10 | `String` | UDFC10 |
-| 556 | uDFC11 | `String` | UDFC11 |
-| 557 | uDFC12 | `String` | UDFC12 |
-| 558 | uDFC13 | `String` | UDFC13 |
-| 559 | uDFC14 | `String` | UDFC14 |
-| 560 | uDFC15 | `String` | UDFC15 |
-| 561 | uDFC16 | `String` | UDFC16 |
-| 562 | uDFC17 | `String` | UDFC17 |
-| 563 | uDFC18 | `String` | UDFC18 |
-| 564 | uDFC19 | `String` | UDFC19 |
-| 565 | uDFC20 | `String` | UDFC20 |
-| 566 | uDFC21 | `String` | UDFC21 |
-| 567 | uDFC22 | `String` | UDFC22 |
-| 568 | uDFC23 | `String` | UDFC23 |
-| 569 | uDFC24 | `String` | UDFC24 |
-| 570 | uDFC25 | `String` | UDFC25 |
-| 571 | uDFC26 | `String` | UDFC26 |
-| 572 | uDFC27 | `String` | UDFC27 |
-| 573 | uDFC28 | `String` | UDFC28 |
-| 574 | uDFC29 | `String` | UDFC29 |
-| 575 | uDFC30 | `String` | UDFC30 |
-| 576 | uDFC31 | `String` | UDFC31 |
-| 577 | uDFC32 | `String` | UDFC32 |
-| 578 | uDFC33 | `String` | UDFC33 |
-| 579 | uDFC34 | `String` | UDFC34 |
-| 580 | uDFC35 | `String` | UDFC35 |
-| 581 | uDFC36 | `String` | UDFC36 |
-| 582 | uDFC37 | `String` | UDFC37 |
-| 583 | uDFC38 | `String` | UDFC38 |
-| 584 | uDFC39 | `String` | UDFC39 |
-| 585 | uDFC40 | `String` | UDFC40 |
-| 586 | uDFD01 | `Date` | UDFD01 |
-| 587 | uDFD02 | `Date` | UDFD02 |
-| 588 | uDFD03 | `Date` | UDFD03 |
-| 589 | uDFD04 | `Date` | UDFD04 |
-| 590 | uDFD05 | `Date` | UDFD05 |
-| 591 | uDFD06 | `Date` | UDFD06 |
-| 592 | uDFD07 | `Date` | UDFD07 |
-| 593 | uDFD08 | `Date` | UDFD08 |
-| 594 | uDFD09 | `Date` | UDFD09 |
-| 595 | uDFD10 | `Date` | UDFD10 |
-| 596 | uDFD11 | `Date` | UDFD11 |
-| 597 | uDFD12 | `Date` | UDFD12 |
-| 598 | uDFD13 | `Date` | UDFD13 |
-| 599 | uDFD14 | `Date` | UDFD14 |
-| 600 | uDFD15 | `Date` | UDFD15 |
-| 601 | uDFD16 | `Date` | UDFD16 |
-| 602 | uDFD17 | `Date` | UDFD17 |
-| 603 | uDFD18 | `Date` | UDFD18 |
-| 604 | uDFD19 | `Date` | UDFD19 |
-| 605 | uDFD20 | `Date` | UDFD20 |
-| 606 | uDFN01 | `Float` | UDFN01 |
-| 607 | uDFN02 | `Float` | UDFN02 |
-| 608 | uDFN03 | `Float` | UDFN03 |
-| 609 | uDFN04 | `Float` | UDFN04 |
-| 610 | uDFN05 | `Float` | UDFN05 |
-| 611 | uDFN06 | `Float` | UDFN06 |
-| 612 | uDFN07 | `Float` | UDFN07 |
-| 613 | uDFN08 | `Float` | UDFN08 |
-| 614 | uDFN09 | `Float` | UDFN09 |
-| 615 | uDFN10 | `Float` | UDFN10 |
-| 616 | uDFN11 | `Float` | UDFN11 |
-| 617 | uDFN12 | `Float` | UDFN12 |
-| 618 | uDFN13 | `Float` | UDFN13 |
-| 619 | uDFN14 | `Float` | UDFN14 |
-| 620 | uDFN15 | `Float` | UDFN15 |
-| 621 | uDFN16 | `Float` | UDFN16 |
-| 622 | uDFN17 | `Float` | UDFN17 |
-| 623 | uDFN18 | `Float` | UDFN18 |
-| 624 | uDFN19 | `Float` | UDFN19 |
-| 625 | uDFN20 | `Float` | UDFN20 |
-| 626 | uDFN21 | `Float` | UDFN21 |
-| 627 | uDFN22 | `Float` | UDFN22 |
-| 628 | uDFN23 | `Float` | UDFN23 |
-| 629 | uDFN24 | `Float` | UDFN24 |
-| 630 | uDFN25 | `Float` | UDFN25 |
-| 631 | uDFN26 | `Float` | UDFN26 |
-| 632 | uDFN27 | `Float` | UDFN27 |
-| 633 | uDFN28 | `Float` | UDFN28 |
-| 634 | uDFN29 | `Float` | UDFN29 |
-| 635 | uDFN30 | `Float` | UDFN30 |
-| 636 | uDFN31 | `Float` | UDFN31 |
-| 637 | uDFN32 | `Float` | UDFN32 |
-| 638 | uDFN33 | `Float` | UDFN33 |
-| 639 | uDFN34 | `Float` | UDFN34 |
-| 640 | uDFN35 | `Float` | UDFN35 |
-| 641 | uDFN36 | `Float` | UDFN36 |
-| 642 | uDFN37 | `Float` | UDFN37 |
-| 643 | uDFN38 | `Float` | UDFN38 |
-| 644 | uDFN39 | `Float` | UDFN39 |
-| 645 | uDFN40 | `Float` | UDFN40 |
-| 646 | uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
-| 647 | updateDate | `DateTime` | Update Date |
-| 648 | updateDatetime | `DateTime` | Update Datetime |
-| 649 | updateUser | `Float` | Update User |
-| 650 | updatedBy | `String` | Updated By |
-| 651 | updatedByDefaultResort | `String` | Updated By Default Property |
-| 652 | updatedDate | `Date` | Updated Date |
-| 653 | updatedTime | `String` | Updated Time |
-| 654 | upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
-| 655 | videoCheckoutYN | `String` | Flag if the guest can do video checkout |
-| 656 | visaExpiryDate | `Date` | Visa Expiry Date |
-| 657 | visaIssueDate | `Date` | Visa Issue Date |
-| 658 | visaNumber | `String` | Visa Number |
-| 659 | waitlistComment | `String` | Waitlist Comment |
-| 660 | waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
-| 661 | waitlistPriority | `String` | Waitlist Priority |
-| 662 | waitlistPriorityDescription | `String` | Waitlist Priority Description |
-| 663 | waitlistReason | `String` | Waitlist Reason |
-| 664 | waitlistReasonDescription | `String` | Waitlist Reason Description |
-| 665 | waitlistpriorityid | `String` | Waitlistpriorityid |
-| 666 | waitlistreasonid | `String` | Waitlistreasonid |
-| 667 | walkInYN | `String` | Walk-In YN |
-| 668 | yieldableYn | `String` | Yieldable Y/N |
-| 669 | ymCode | `String` | Ym Code |
+| 377 | parentOrgCode | `String` | Parent Org Code |
+| 378 | parentReservationNameId | `Float` | Parent Resv Name ID |
+| 379 | parentreservationid | `Float` | Parentreservationid |
+| 380 | partAllotment | `String` | Part Allotment |
+| 381 | partyCode | `String` | Party Code |
+| 382 | paxNo | `Float` | Pax Number |
+| 383 | paymentAmount | `Float` | Total amount of payment inclusive of VAT |
+| 384 | paymentMethod | `String` | Payment Method |
+| 385 | paymentmethodid | `String` | Paymentmethodid |
+| 386 | periodicFolioFreq | `Float` | Frequency in number of days when folios should be printed for this reservation |
+| 387 | phoneDisplayNameYn | `String` | Indicates if the Phone Display Name is send to the Interface. |
+| 388 | phoneId | `Float` | Phone ID |
+| 389 | physicalQuantity | `Float` | Physical Quantity |
+| 390 | pickUpCarrierCode | `String` | Pick Up Carrier Code |
+| 391 | pickUpDate | `Date` | Pick Up Date |
+| 392 | pickUpStation | `String` | Pick Up Station |
+| 393 | pickUpTransportNumber | `String` | Pick Up Transport Number |
+| 394 | pickUpType | `String` | Pick Up Type |
+| 395 | pickUpTypeDescription | `String` | Pick Up Type Description |
+| 396 | pickUpTime | `String` | Pick-Up Time |
+| 397 | pickupRequiredYN | `String` | Pickup Required YN |
+| 398 | points | `Float` | Points |
+| 399 | pointsEligibilityCode | `String` | Membership Points Eligibility Code. |
+| 400 | postCoFlag | `String` | Identifies the charging status of the reservation after check out. O=Open Checkout P=Charging Privileges C=Closed Checkout. |
+| 401 | postStayChargingYN | `String` | Indicates if the reservation has charging privileges after checkout. |
+| 402 | postingAllowedYN | `String` | Posting Allowed YN |
+| 403 | postingInterval | `String` | Posting Interval |
+| 404 | preArrReviewedDt | `DateTime` | This date flags if and when the record was reviewed from pre-arrival screen. |
+| 405 | preArrReviewedUser | `Float` | User id who reviewed the record. |
+| 406 | preChargingYn | `String` | Indicates if the reservation has charging privileges before arrival. |
+| 407 | preRegisteredYn | `String` | Indicates whether the reservation is pre-registered for internet check-in or not. |
+| 408 | preference | `String` | Preference |
+| 409 | preferenceType | `String` | Preference Type |
+| 410 | preferredRoomType | `String` | Preferred Room Type |
+| 411 | previousCountry | `String` | Previous Country |
+| 412 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 413 | primaryShare | `String` | Primary Share |
+| 414 | printRateYN | `String` | Print Rate YN |
+| 415 | projectedFBRevenue | `Float` | Projected FB Revenue |
+| 416 | projectedRoomRevenue | `Float` | Projected Room Revenue |
+| 417 | projectedTotalRevenue | `Float` | Projected Total Revenue |
+| 418 | promotionCode | `String` | Promotion Code |
+| 419 | promotionDescription | `String` | Promotion Description |
+| 420 | property | `String` | Indicates if the value set for the specific property. |
+| 421 | pseudoMemTotalPoints | `Float` | Total pseudo membership points accrued for the default membership type. |
+| 422 | pseudoMemType | `String` | Default membership type used with the Pseudo Membership Points calculation functionality. |
+| 423 | purgeDate | `DateTime` | Purge Date |
+| 424 | purposeOfStay | `String` | Purpose of stay. |
+| 425 | quantity | `Float` | Number of Rooms |
+| 426 | queuePriority | `Float` | Queue priority of the reservation. |
+| 427 | queueWaitTime | `Float` | Queue Wait Time |
+| 428 | quoteId | `String` | Quote ID provided by external system. |
+| 429 | rateAmount | `Float` | Rate Amount |
+| 430 | rateCode | `String` | Rate Code |
+| 431 | rateCodeDescriptions | `String` | Event Reservation Rate Code Description |
+| 432 | rateTier | `Float` | Tier ID for the Rate Detail. |
+| 433 | rateableValue | `Float` | Stay rateable value. |
+| 434 | ratecodeid | `String` | Ratecodeid |
+| 435 | rdHousekeepingExpectedServiceTime | `String` | Rd Housekeeping Expected Service Time |
+| 436 | rdResvStatus | `String` | Rd Reservation Status |
+| 437 | rdenBillingContactId | `Float` | Rden Billing Contact ID |
+| 438 | rdenReservationContactId | `Float` | Rden Resv Contact ID |
+| 439 | rdenReservationDate | `Date` | Rden Reservation Date |
+| 440 | rdenResort | `String` | Rden Property |
+| 441 | referralYn | `String` | Rotation Rule to be configured for referral flag ? |
+| 442 | registrationCardNo | `String` | Registration Card Number |
+| 443 | registrationNumber | `Float` | Registration Number |
+| 444 | reinstateDate | `DateTime` | Reinstate Date |
+| 445 | repChannel | `String` | Reporting Channel |
+| 446 | repChannelDescription | `String` | Reporting Channel Description |
+| 447 | reportId | `String` | Report ID |
+| 448 | resInsertSource | `String` | Reservation Insert Source |
+| 449 | resInsertSourceType | `String` | Reservation Insert Source Type |
+| 450 | reservationContactId | `Float` | Resv Contact ID |
+| 451 | reservationDate | `DateTime` | Reservation Date |
+| 452 | reservationNameID | `Float` | Reservation Name ID |
+| 453 | reservationStatus | `String` | Reservation Status |
+| 454 | reservationType | `String` | Reservation Type |
+| 455 | reservationTypeDescription | `String` | Reservation Type Description |
+| 456 | reservationid | `Float` | Reservationid |
+| 457 | resort | `String` | Property |
+| 458 | resortChargeNumber | `String` | Auto generated charge number for Point Of Sale systems to identify guests. |
+| 459 | restrictionOverride | `String` | Restriction Override |
+| 460 | resvGuid | `String` | Globally unique ID using SYS_GUID() as the source. |
+| 461 | resvNameid | `Float` | Reservation Nameid |
+| 462 | resvNumber | `Float` | Not used in PMS currently. |
+| 463 | resvcontactprofileid | `Float` | Resvcontactprofileid |
+| 464 | revenueTypeCode | `String` | Revenue type (catering/rooms) |
+| 465 | rhBillingContactId | `Float` | Rh Billing Contact ID |
+| 466 | rhReservationContactId | `Float` | Rh Resv Contact ID |
+| 467 | rhRoomFeatures | `String` | Rh Room Features |
+| 468 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 469 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 470 | room | `String` | Room |
+| 471 | roomCategory | `String` | Room Category |
+| 472 | roomClass | `String` | Room Class |
+| 473 | roomCost | `Float` | Room Cost |
+| 474 | roomInstructions | `String` | Room Instructions |
+| 475 | roomResort | `String` | Meeting Room Property |
+| 476 | roomRevenue | `Float` | Room Revenue |
+| 477 | roomRevenueRemaining | `Float` | Room Revenue Remaining |
+| 478 | roomServiceTime | `String` | This is the Turndown room service time. |
+| 479 | roomTypeDescription | `String` | Room Type Description |
+| 480 | roomTypeToChargeCode | `String` | Room Type To Charge Code |
+| 481 | roomTypeToChargeDescription | `String` | Room Type to Charge Description |
+| 482 | roomcategoryid | `String` | Roomcategoryid |
+| 483 | roomid | `String` | Roomid |
+| 484 | routingYN | `String` | Routing YN |
+| 485 | scheduleCheckoutYn | `String` | Is the guest scheduled for automatic check out? |
+| 486 | sguestFirstname | `String` | This is CAPITOL version of guest_first_name |
+| 487 | sguestName | `String` | Sguest Name |
+| 488 | shareConfirmationNumbers | `String` | Share Confirmation Numbers |
+| 489 | shareId | `Float` | Share ID. |
+| 490 | shareName | `String` | Share Name |
+| 491 | sharePrcnt | `Float` | Not used. |
+| 492 | shareSeqNumber | `Float` | Type of revenue |
+| 493 | shareOfRateAmount | `Float` | Share of Rate Amount |
+| 494 | sharedGuestName | `String` | Shared Guest Name |
+| 495 | sharedProfileID | `Float` | Shared Profile ID |
+| 496 | sharedReservationStatus | `String` | Shared Reservation Status |
+| 497 | sharingYN | `String` | Sharing YN |
+| 498 | sourceCity | `String` | Source City |
+| 499 | sourceCode | `String` | Source Code |
+| 500 | sourceCountry | `String` | Source Country |
+| 501 | sourceName | `String` | Source Name |
+| 502 | sourceProfileARNumber | `Float` | Source Profile AR Number |
+| 503 | sourceProfileARNumberCentral | `String` | Source Profile AR Number (Central) |
+| 504 | sourceProfileIATANumber | `String` | Source Profile IATA Number |
+| 505 | sourceProfileID | `Float` | Source Profile ID |
+| 506 | sourceProfileName | `String` | Source Profile Name |
+| 507 | sourceid | `String` | Sourceid |
+| 508 | specialRequest | `String` | Special Request |
+| 509 | specialRequestDescription | `String` | Special Request Description |
+| 510 | spgDiscloseRoomTypeYn | `String` | SPG Room Type Disclosure Flag. Indicates if the guest stationery will disclose the actual room type. |
+| 511 | spgSuiteNightAwardStatus | `String` | SPG Suite Night Award Status. |
+| 512 | spgUpgradeConfirmedRoomtype | `String` | SPG Upgrade Confirmed Room Type Label. |
+| 513 | spgUpgradeReasonCode | `String` | SPG Upgrade Reason Code. |
+| 514 | splitFromReservationNameId | `Float` | Stores resv_name_id of the original multi room reservation from which this reservation is split off. |
+| 515 | splitfromreservationid | `Float` | Splitfromreservationid |
+| 516 | statisticalRateTier | `Float` | Rate Tier used for exports(DRS). |
+| 517 | statisticalRoomType | `Float` | Room Type used to calculate statistics for export(DRS). |
+| 518 | stayRecordId | `Float` | Stay Record ID |
+| 519 | suiteNumber | `String` | Suite Number |
+| 520 | superSearchIndexText | `String` | Super Search Index Text |
+| 521 | taRecordLocator | `String` | Ta Record Locator |
+| 522 | taxExemptNumber | `String` | Tax exempt number on the profile |
+| 523 | taxNumberOfStays | `Float` | Tax No of Stays |
+| 524 | taxType | `String` | Tax Type |
+| 525 | taxTypeDescription | `String` | Tax Type Description |
+| 526 | taxtypeid | `String` | Taxtypeid |
+| 527 | tiad | `String` | Tiad |
+| 528 | ticketNos | `String` | Ticket Nos |
+| 529 | totalCostOfStay | `Float` | Total Cost of Stay |
+| 530 | totalRevenue | `Float` | Total Revenue |
+| 531 | totalRevenueRemaining | `Float` | Total Revenue Remaining |
+| 532 | totalRoomRate | `Float` | Total Room Rate |
+| 533 | trackItGroups | `String` | Track It Groups |
+| 534 | trackItTypes | `String` | Track It Types |
+| 535 | transactionid | `Float` | Transactionid |
+| 536 | travelAgentCity | `String` | Travel Agent Address. |
+| 537 | travelAgentCountry | `String` | Travel Agent Country |
+| 538 | travelAgentID | `Float` | Travel Agent ID |
+| 539 | travelAgentName | `String` | Travel Agent Name |
+| 540 | travelAgentProfileARNumber | `Float` | Travel Agent Profile AR Number |
+| 541 | travelAgentProfileARNumberCentral | `String` | Travel Agent Profile AR Number (Central) |
+| 542 | travelAgentProfileIATANumber | `String` | Travel Agent Profile IATA Number |
+| 543 | travelAgentProfileID | `Float` | Travel Agent Profile ID |
+| 544 | travelAgentProfileName | `String` | Travel Agent Profile Name |
+| 545 | truncActualCheckOutDate | `Date` | This is the actual check out date with no time component. |
+| 546 | turndownStatus | `String` | Turndown status of the room per reservation per day. C-Completed NR-Not required R-Requested. |
+| 547 | turndownYN | `String` | Is the guest wants turndown facility or not ? Y/N |
+| 548 | uDFC01 | `String` | UDFC01 |
+| 549 | uDFC02 | `String` | UDFC02 |
+| 550 | uDFC03 | `String` | UDFC03 |
+| 551 | uDFC04 | `String` | UDFC04 |
+| 552 | uDFC05 | `String` | UDFC05 |
+| 553 | uDFC06 | `String` | UDFC06 |
+| 554 | uDFC07 | `String` | UDFC07 |
+| 555 | uDFC08 | `String` | UDFC08 |
+| 556 | uDFC09 | `String` | UDFC09 |
+| 557 | uDFC10 | `String` | UDFC10 |
+| 558 | uDFC11 | `String` | UDFC11 |
+| 559 | uDFC12 | `String` | UDFC12 |
+| 560 | uDFC13 | `String` | UDFC13 |
+| 561 | uDFC14 | `String` | UDFC14 |
+| 562 | uDFC15 | `String` | UDFC15 |
+| 563 | uDFC16 | `String` | UDFC16 |
+| 564 | uDFC17 | `String` | UDFC17 |
+| 565 | uDFC18 | `String` | UDFC18 |
+| 566 | uDFC19 | `String` | UDFC19 |
+| 567 | uDFC20 | `String` | UDFC20 |
+| 568 | uDFC21 | `String` | UDFC21 |
+| 569 | uDFC22 | `String` | UDFC22 |
+| 570 | uDFC23 | `String` | UDFC23 |
+| 571 | uDFC24 | `String` | UDFC24 |
+| 572 | uDFC25 | `String` | UDFC25 |
+| 573 | uDFC26 | `String` | UDFC26 |
+| 574 | uDFC27 | `String` | UDFC27 |
+| 575 | uDFC28 | `String` | UDFC28 |
+| 576 | uDFC29 | `String` | UDFC29 |
+| 577 | uDFC30 | `String` | UDFC30 |
+| 578 | uDFC31 | `String` | UDFC31 |
+| 579 | uDFC32 | `String` | UDFC32 |
+| 580 | uDFC33 | `String` | UDFC33 |
+| 581 | uDFC34 | `String` | UDFC34 |
+| 582 | uDFC35 | `String` | UDFC35 |
+| 583 | uDFC36 | `String` | UDFC36 |
+| 584 | uDFC37 | `String` | UDFC37 |
+| 585 | uDFC38 | `String` | UDFC38 |
+| 586 | uDFC39 | `String` | UDFC39 |
+| 587 | uDFC40 | `String` | UDFC40 |
+| 588 | uDFD01 | `Date` | UDFD01 |
+| 589 | uDFD02 | `Date` | UDFD02 |
+| 590 | uDFD03 | `Date` | UDFD03 |
+| 591 | uDFD04 | `Date` | UDFD04 |
+| 592 | uDFD05 | `Date` | UDFD05 |
+| 593 | uDFD06 | `Date` | UDFD06 |
+| 594 | uDFD07 | `Date` | UDFD07 |
+| 595 | uDFD08 | `Date` | UDFD08 |
+| 596 | uDFD09 | `Date` | UDFD09 |
+| 597 | uDFD10 | `Date` | UDFD10 |
+| 598 | uDFD11 | `Date` | UDFD11 |
+| 599 | uDFD12 | `Date` | UDFD12 |
+| 600 | uDFD13 | `Date` | UDFD13 |
+| 601 | uDFD14 | `Date` | UDFD14 |
+| 602 | uDFD15 | `Date` | UDFD15 |
+| 603 | uDFD16 | `Date` | UDFD16 |
+| 604 | uDFD17 | `Date` | UDFD17 |
+| 605 | uDFD18 | `Date` | UDFD18 |
+| 606 | uDFD19 | `Date` | UDFD19 |
+| 607 | uDFD20 | `Date` | UDFD20 |
+| 608 | uDFN01 | `Float` | UDFN01 |
+| 609 | uDFN02 | `Float` | UDFN02 |
+| 610 | uDFN03 | `Float` | UDFN03 |
+| 611 | uDFN04 | `Float` | UDFN04 |
+| 612 | uDFN05 | `Float` | UDFN05 |
+| 613 | uDFN06 | `Float` | UDFN06 |
+| 614 | uDFN07 | `Float` | UDFN07 |
+| 615 | uDFN08 | `Float` | UDFN08 |
+| 616 | uDFN09 | `Float` | UDFN09 |
+| 617 | uDFN10 | `Float` | UDFN10 |
+| 618 | uDFN11 | `Float` | UDFN11 |
+| 619 | uDFN12 | `Float` | UDFN12 |
+| 620 | uDFN13 | `Float` | UDFN13 |
+| 621 | uDFN14 | `Float` | UDFN14 |
+| 622 | uDFN15 | `Float` | UDFN15 |
+| 623 | uDFN16 | `Float` | UDFN16 |
+| 624 | uDFN17 | `Float` | UDFN17 |
+| 625 | uDFN18 | `Float` | UDFN18 |
+| 626 | uDFN19 | `Float` | UDFN19 |
+| 627 | uDFN20 | `Float` | UDFN20 |
+| 628 | uDFN21 | `Float` | UDFN21 |
+| 629 | uDFN22 | `Float` | UDFN22 |
+| 630 | uDFN23 | `Float` | UDFN23 |
+| 631 | uDFN24 | `Float` | UDFN24 |
+| 632 | uDFN25 | `Float` | UDFN25 |
+| 633 | uDFN26 | `Float` | UDFN26 |
+| 634 | uDFN27 | `Float` | UDFN27 |
+| 635 | uDFN28 | `Float` | UDFN28 |
+| 636 | uDFN29 | `Float` | UDFN29 |
+| 637 | uDFN30 | `Float` | UDFN30 |
+| 638 | uDFN31 | `Float` | UDFN31 |
+| 639 | uDFN32 | `Float` | UDFN32 |
+| 640 | uDFN33 | `Float` | UDFN33 |
+| 641 | uDFN34 | `Float` | UDFN34 |
+| 642 | uDFN35 | `Float` | UDFN35 |
+| 643 | uDFN36 | `Float` | UDFN36 |
+| 644 | uDFN37 | `Float` | UDFN37 |
+| 645 | uDFN38 | `Float` | UDFN38 |
+| 646 | uDFN39 | `Float` | UDFN39 |
+| 647 | uDFN40 | `Float` | UDFN40 |
+| 648 | uniCardId | `String` | Universal Card ID used by interfaces for key encoding purposes. |
+| 649 | updateDate | `DateTime` | Update Date |
+| 650 | updateDatetime | `DateTime` | Update Datetime |
+| 651 | updateUser | `Float` | Update User |
+| 652 | updatedBy | `String` | Updated By |
+| 653 | updatedByDefaultResort | `String` | Updated By Default Property |
+| 654 | updatedDate | `Date` | Updated Date |
+| 655 | updatedTime | `String` | Updated Time |
+| 656 | upsellCharge | `Float` | Incremental Upsell charges for the reservation date. |
+| 657 | videoCheckoutYN | `String` | Flag if the guest can do video checkout |
+| 658 | visaExpiryDate | `Date` | Visa Expiry Date |
+| 659 | visaIssueDate | `Date` | Visa Issue Date |
+| 660 | visaNumber | `String` | Visa Number |
+| 661 | waitlistComment | `String` | Waitlist Comment |
+| 662 | waitlistPhoneNumber | `String` | This is the waitlist telephone number. |
+| 663 | waitlistPriority | `String` | Waitlist Priority |
+| 664 | waitlistPriorityDescription | `String` | Waitlist Priority Description |
+| 665 | waitlistReason | `String` | Waitlist Reason |
+| 666 | waitlistReasonDescription | `String` | Waitlist Reason Description |
+| 667 | waitlistpriorityid | `String` | Waitlistpriorityid |
+| 668 | waitlistreasonid | `String` | Waitlistreasonid |
+| 669 | walkInYN | `String` | Walk-In YN |
+| 670 | yieldableYn | `String` | Yieldable Y/N |
+| 671 | ymCode | `String` | Ym Code |
 
 [⬆ Back to Query](#query)
 
@@ -1441,32 +1445,42 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| finguestledgerDetailsBillNo | `FloatInput` | Bill Number |
-| finguestledgerDetailsBusinessDate | `DateInput` | Business Date |
-| finguestledgerDetailsCXchangeDate | `DateInput` | Central Xchange Date |
-| finguestledgerDetailsChequeNumber | `StringInput` | Check Number |
+| financialguestledgerdetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| finguestledgerDetailsBillNo | `FloatInput` | Bill Number<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsBusinessDate | `DateInput` | Business Date<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsCXchangeDate | `DateInput` | Central Xchange Date<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsCXchangeRate | `FloatInput` | Central Xchange Rate<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsChequeNumber | `StringInput` | Check Number<br>`@conditionalInputPair(pair: 2)` |
 | finguestledgerDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| finguestledgerDetailsFintransid | `FloatInput` | Fintransid |
-| finguestledgerDetailsFolioNo | `FloatInput` | Folio Number |
-| finguestledgerDetailsFolioid | `FloatInput` | Folioid |
-| finguestledgerDetailsInvoiceNo | `FloatInput` | Invoice Number |
-| finguestledgerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| finguestledgerDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| finguestledgerDetailsFintransid | `FloatInput` | Fintransid<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsFolioNo | `FloatInput` | Folio Number<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsFolioView | `FloatInput` | Folio View<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsFolioid | `FloatInput` | Folioid<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsInvoiceNo | `FloatInput` | Invoice Number<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | finguestledgerDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| finguestledgerDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| finguestledgerDetailsResvNameId | `FloatInput` | Resv Name ID |
-| finguestledgerDetailsTrxCode | `StringInput` | Transaction Code |
-| finguestledgerDetailsTrxDate | `DateInput!` | Transaction Date<br>`@mandatoryInput` |
-| finguestledgerDetailsTrxNo | `FloatInput` | Transaction Number |
-| finguestledgerDetailsTranscodeid | `StringInput` | Transcodeid |
-| finguestledgerDetailsTrxNoAddedBy | `FloatInput` | Transaction No Added By |
-| finguestledgerDetailsTrxNoAgainstPackage | `FloatInput` | Transaction No Against Package |
+| finguestledgerDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| finguestledgerDetailsResvNameId | `FloatInput` | Resv Name ID<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsTrxCode | `StringInput` | Transaction Code<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsTrxDate | `DateInput` | Transaction Date<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsTrxNo | `FloatInput` | Transaction Number<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsTranscodeid | `StringInput` | Transcodeid<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsTrxNoAddedBy | `FloatInput` | Transaction No Added By<br>`@conditionalInputPair(pair: 2)` |
+| finguestledgerDetailsTrxNoAgainstPackage | `FloatInput` | Transaction No Against Package<br>`@conditionalInputPair(pair: 2)` |
+| transactioncodedetailsChainCode | `StringInput` | CHAIN_CODE |
+| transcodeDetailsArNameId | `FloatInput` | Ar Name ID |
+| transcodeDetailsAdjTrxCode | `StringInput` | Adj Trx Code |
 | transcodeDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | transcodeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| transcodeDetailsTcGroup | `StringInput` | Group |
 | transcodeDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | transcodeDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
 | transcodeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | transcodeDetailsResort | `StringInput` | Property |
+| transcodeDetailsTrxActionId | `FloatInput` | Trx Action ID |
+| transcodeDetailsTcSubgroup | `StringInput` | Transaction Code Sub-group |
+| transcodeDetailsTrxCodeType | `StringInput` | Transaction Code Type |
 | transcodeDetailsTranscodeid | `StringInput` | Transcodeid |
 | transcodeDetailsTrxCode | `StringInput` | Trx Code |
 | reservationDetailsActualCheckInDateTime | `DateTimeInput` | Actual Check In Date Time |
@@ -1813,9 +1827,30 @@
 | gregeriancalendarDetailsYearpkid | `FloatInput` | Yearpkid |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
+- financialguestledgerdetailsChainCode
 - finguestledgerDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- finguestledgerDetailsBillNo
+- finguestledgerDetailsBusinessDate
+- finguestledgerDetailsCXchangeDate
+- finguestledgerDetailsCXchangeRate
+- finguestledgerDetailsChequeNumber
+- finguestledgerDetailsFintransid
+- finguestledgerDetailsFolioNo
+- finguestledgerDetailsFolioView
+- finguestledgerDetailsFolioid
+- finguestledgerDetailsInvoiceNo
+- finguestledgerDetailsJrnupdatedttm
+- finguestledgerDetailsLocationid
+- finguestledgerDetailsResvNameId
+- finguestledgerDetailsTrxCode
 - finguestledgerDetailsTrxDate
+- finguestledgerDetailsTrxNo
+- finguestledgerDetailsTranscodeid
+- finguestledgerDetailsTrxNoAddedBy
+- finguestledgerDetailsTrxNoAgainstPackage
 
 
 [⬆ Back to Query](#query)
@@ -1827,6 +1862,7 @@
 query financialGuestLedger($input: FinancialGuestLedgerQueryArgumentsType!) {
   financialGuestLedger(input: $input) @stream {
     financialGuestLedgerDetails {
+      chainCode
       billNumber
       billingEventID
       businessDate
@@ -1907,6 +1943,7 @@ query financialGuestLedger($input: FinancialGuestLedgerQueryArgumentsType!) {
       trxNumberAgainstPackage
     }
     transactionCodeDetails {
+      chainCode
       aRLedgerPaymentsYN
       aRNameId
       accountNumber
@@ -2453,6 +2490,7 @@ query financialGuestLedger($input: FinancialGuestLedgerQueryArgumentsType!) {
       packageCodeDescription
       packageForecastGroup
       packageForecastGroupDescription
+      parentOrgCode
       parentReservationNameId
       parentreservationid
       partAllotment
@@ -2478,6 +2516,7 @@ query financialGuestLedger($input: FinancialGuestLedgerQueryArgumentsType!) {
       postCoFlag
       postStayChargingYN
       postingAllowedYN
+      postingInterval
       preArrReviewedDt
       preArrReviewedUser
       preChargingYn
@@ -3090,6 +3129,7 @@ query financialGuestLedger($input: FinancialGuestLedgerQueryArgumentsType!) {
   
 ```python
 financial_guest_ledger_details_schema = {
+    'chainCode': pl.Utf8,
     'billNumber': pl.Float64,
     'billingEventID': pl.Float64,
     'businessDate': pl.Utf8,
@@ -3172,6 +3212,7 @@ financial_guest_ledger_details_schema = {
 ```
 ```python
 transaction_code_details_schema = {
+    'chainCode': pl.Utf8,
     'aRLedgerPaymentsYN': pl.Utf8,
     'aRNameId': pl.Float64,
     'accountNumber': pl.Utf8,
@@ -3720,6 +3761,7 @@ reservation_details_schema = {
     'packageCodeDescription': pl.Utf8,
     'packageForecastGroup': pl.Utf8,
     'packageForecastGroupDescription': pl.Utf8,
+    'parentOrgCode': pl.Utf8,
     'parentReservationNameId': pl.Float64,
     'parentreservationid': pl.Float64,
     'partAllotment': pl.Utf8,
@@ -3745,6 +3787,7 @@ reservation_details_schema = {
     'postCoFlag': pl.Utf8,
     'postStayChargingYN': pl.Utf8,
     'postingAllowedYN': pl.Utf8,
+    'postingInterval': pl.Utf8,
     'preArrReviewedDt': pl.Utf8,
     'preArrReviewedUser': pl.Float64,
     'preChargingYn': pl.Utf8,

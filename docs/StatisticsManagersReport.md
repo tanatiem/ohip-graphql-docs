@@ -35,378 +35,379 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | adultsFree | `Float` | Not Used |
-| 2 | adultsInHouse | `Float` | Number of Adults in House. |
-| 3 | advFoodRevenue | `Float` | Advance Food Revenue |
-| 4 | advNonRevenue | `Float` | Advance Non Revenue |
-| 5 | advOtherRevenue | `Float` | Advance Other Revenue |
-| 6 | advRoomRevenue | `Float` | Advance Room Revenue |
-| 7 | advTotalFoodTax | `Float` | Advance Total Food Tax |
-| 8 | advTotalNonRevenueTax | `Float` | Advance Total Non Revenue Tax |
-| 9 | advTotalOtherTax | `Float` | Advance Total Other Tax |
-| 10 | advTotalRevenue | `Float` | Advance Total Revenue |
-| 11 | advTotalRoomTax | `Float` | Advance Total Room Tax |
-| 12 | advTotalTax | `Float` | Advance Total Tax |
-| 13 | agentRoomRevenue | `Float` | Total amount of postings today where the transaction code is marked as room revenue for reservations that have a travel agent profile attached to the reservation. |
-| 14 | agentRoomTax | `Float` | Total tax amount of postings today where the transaction code is marked as room revenue for reservations that have a travel agent profile attached to the reservation. |
-| 15 | agentRooms | `Float` | Number of rooms in house that have a Travel Agent attached to the reservation. |
-| 16 | agentTotalRevenue | `Float` | Total amount of postings today where the transaction code is marked as revenue for reservations that have a travel agent profile attached to the reservation. |
-| 17 | agentTotalTax | `Float` | Total tax amount of postings today where the transaction code is marked as revenue for reservations that have a travel agent profile attached to the reservation. |
-| 18 | arrivalPersons | `Float` | Number of adults and children arriving today |
-| 19 | arrivalReservations | `Float` | Number of reservations with an arrival date of today. |
-| 20 | arrivalRooms | `Float` | Number of Rooms with an arrival date today |
-| 21 | availableRooms | `Float` | Total rooms in hotel minus rooms occupied |
-| 22 | averageAgeToday | `Float` | Not Used |
-| 23 | averageDailyRateMinusComplimentaryHouseUse | `Float` | Average Daily Rate without Comp & House |
-| 24 | averageDailyRevenue | `Float` | Not used |
-| 25 | bedsAvailable | `Float` | Not Used |
-| 26 | birthdays | `Float` | Number of rooms with birthday field equal to today |
-| 27 | blockMemLosNights | `Float` | Number of Nights for all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
-| 28 | blockMemRoomRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 29 | blockMemRoomRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 30 | blockMemRooms | `Float` | Number of rooms with a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 31 | blockMemTotalRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 32 | blockMemTotalRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 33 | blockMembershipLosResv | `Float` | Counts all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
-| 34 | businessDate | `Date` | Business Date |
-| 35 | cAdvanceFoodRevenue | `Float` | Central Adv Food Revenue |
-| 36 | cAdvanceNonRevenue | `Float` | Central Adv Non Revenue |
-| 37 | cAdvanceOtherRevenue | `Float` | Central Adv Other Revenue |
-| 38 | cAdvanceRoomRevenue | `Float` | Central Adv Room Revenue |
-| 39 | cAdvanceTotalFoodTax | `Float` | Central Adv Total Food Tax |
-| 40 | cAdvanceTotalNonRevenueTax | `Float` | Central Adv Total Non Revenue Tax |
-| 41 | cAdvanceTotalOtherTax | `Float` | Central Adv Total Other Tax |
-| 42 | cAdvanceTotalRevenue | `Float` | Central Adv Total Revenue |
-| 43 | cAdvanceTotalRoomTax | `Float` | Central Adv Total Room Tax |
-| 44 | cAdvanceTotalTax | `Float` | Central Adv Total Tax |
-| 45 | cAgentRoomRevenue | `Float` | Central Agent Room Revenue |
-| 46 | cAgentRoomTax | `Float` | Central Agent Room Tax |
-| 47 | cAgentTotalRevenue | `Float` | Central Agent Total Revenue |
-| 48 | cAgentTotalTax | `Float` | Central Agent Total Tax |
-| 49 | cBlockMembershipRoomRevenue | `Float` | Central Blk Mem Room Revenue |
-| 50 | cBlockMembershipRoomRevenueTax | `Float` | Central Blk Mem Room Revenue Tax |
-| 51 | cBlockMembershipTotalRevenue | `Float` | Central Blk Mem Total Revenue |
-| 52 | cBlockMembershipTotalRevenueTax | `Float` | Central Blk Mem Total Revenue Tax |
-| 53 | cCompanyRoomRevenue | `Float` | Central Company Room Revenue |
-| 54 | cCompanyRoomTax | `Float` | Central Company Room Tax |
-| 55 | cCompanyTotalRevenue | `Float` | Central Company Total Revenue |
-| 56 | cCompanyTotalTax | `Float` | Central Company Total Tax |
-| 57 | cExchangeDate | `Date` | Central Xchange Date |
-| 58 | cExtendedStayAdvanceFoodRevenue | `Float` | Central Es Adv Food Revenue |
-| 59 | cExtendedStayAdvanceFoodTax | `Float` | Central Es Adv Food Tax |
-| 60 | cExtendedStayAdvanceNonRevenue | `Float` | Central Es Adv Non Revenue |
-| 61 | cExtendedStayAdvanceNonRevenueTax | `Float` | Central Es Adv Non Revenue Tax |
-| 62 | cExtendedStayAdvanceOtherRevenue | `Float` | Central Es Adv Other Revenue |
-| 63 | cExtendedStayAdvanceOtherTax | `Float` | Central Es Adv Other Tax |
-| 64 | cExtendedStayAdvanceRoomRevenue | `Float` | Central Es Adv Room Revenue |
-| 65 | cExtendedStayAdvanceRoomTax | `Float` | Central Es Adv Room Tax |
-| 66 | cExtendedStayAdvanceTotalRevenue | `Float` | Central Es Adv Total Revenue |
-| 67 | cExtendedStayAdvanceTotalTax | `Float` | Central Es Adv Total Tax |
-| 68 | cExtendedStayFoodRevenue | `Float` | Central Es Food Revenue |
-| 69 | cExtendedStayFoodTax | `Float` | Central Es Food Tax |
-| 70 | cExtendedStayNonRevenue | `Float` | Central Es Non Revenue |
-| 71 | cExtendedStayNonRevenueTax | `Float` | Central Es Non Revenue Tax |
-| 72 | cExtendedStayOtherRevenue | `Float` | Central Es Other Revenue |
-| 73 | cExtendedStayOtherTax | `Float` | Central Es Other Tax |
-| 74 | cExtendedStayRoomRevenue | `Float` | Central Es Room Revenue |
-| 75 | cExtendedStayRoomTax | `Float` | Central Es Room Tax |
-| 76 | cExtendedStayTotalRevenue | `Float` | Central Es Total Revenue |
-| 77 | cExtendedStayTotalTax | `Float` | Central Es Total Tax |
-| 78 | cFfFoodBevRevenue | `Float` | Central Ff Food Bev Revenue |
-| 79 | cFfOtherRevenue | `Float` | Central Ff Other Revenue |
-| 80 | cFfRentFoodBevRevenue | `Float` | Central Ff Rent Food Bev Rev |
-| 81 | cFfRentOtherRevenue | `Float` | Central Ff Rent Other Rev |
-| 82 | cFfRentRoomRevenue | `Float` | Central Ff Rent Room Rev |
-| 83 | cFfRoomRevenue | `Float` | Central Ff Room Revenue |
-| 84 | cFitMembershipRoomRevenue | `Float` | Central Fit Mem Room Revenue |
-| 85 | cFitMembershipRoomRevenueTax | `Float` | Central Fit Mem Room Revenue Tax |
-| 86 | cFitMembershipTotalRevenue | `Float` | Central Fit Mem Total Revenue |
-| 87 | cFitMembershipTotalRevenueTax | `Float` | Central Fit Mem Total Revenue Tax |
-| 88 | cFlaggedFoodRevenue | `Float` | Central Flgd Food Revenue |
-| 89 | cFlaggedNonRevenue | `Float` | Central Flgd Non Revenue |
-| 90 | cFlaggedOtherRevenue | `Float` | Central Flgd Other Revenue |
-| 91 | cFlaggedPayment | `Float` | Central Flgd Payment |
-| 92 | cFlaggedRoomRevenue | `Float` | Central Flgd Room Revenue |
-| 93 | cFlaggedTotalFoodTax | `Float` | Central Flgd Total Food Tax |
-| 94 | cFlaggedTotalNonRevenueTax | `Float` | Central Flgd Total Non Revenue Tax |
-| 95 | cFlaggedTotalOtherTax | `Float` | Central Flgd Total Other Tax |
-| 96 | cFlaggedTotalRevenue | `Float` | Central Flgd Total Revenue |
-| 97 | cFlaggedTotalRoomTax | `Float` | Central Flgd Total Room Tax |
-| 98 | cFlaggedTotalTax | `Float` | Central Flgd Total Tax |
-| 99 | cOwnerFoodBevRevenue | `Float` | Central Owner Food Bev Revenue |
-| 100 | cOwnerOtherRevenue | `Float` | Central Owner Other Revenue |
-| 101 | cOwnerRentFoodBevRevenue | `Float` | Central Owner Rent Food Bev Rev |
-| 102 | cOwnerRentOtherRevenue | `Float` | Central Owner Rent Other Rev |
-| 103 | cOwnerRentRoomRevenue | `Float` | Central Owner Rent Room Rev |
-| 104 | cOwnerRoomRevenue | `Float` | Central Owner Room Revenue |
-| 105 | cPayment | `Float` | Central Payment |
-| 106 | cRepeatRoomRevenue | `Float` | Central Repeat Room Revenue |
-| 107 | cRepeatRoomTax | `Float` | Central Repeat Room Tax |
-| 108 | cRepeatTotalRevenue | `Float` | Central Repeat Total Revenue |
-| 109 | cRepeatTotalTax | `Float` | Central Repeat Total Tax |
-| 110 | cancelReservation | `Float` | Number of cancelled reservations with an arrival date today. |
-| 111 | cancelRooms | `Float` | Number of cancelled rooms with an arrival date today. |
-| 112 | cancellationsMadeToday | `Float` | Number of Cancellations that were taken today for any date |
-| 113 | centralAverageDailyRateMinusComplimentaryHouseUse | `Float` | Central Average Daily Rate (minus Complimentary and House Use) |
-| 114 | centralAverageDailyRevenue | `Float` | Central Average Daily Revenue |
-| 115 | centralCurrencyCode | `String` | Central Currency Code |
-| 116 | centralExchangeRate | `Float` | Central Exchange Rate |
-| 117 | centralFBRevenue | `Float` | Central FB Revenue |
-| 118 | centralFBTax | `Float` | Central FB Tax |
-| 119 | centralGroupRevenue | `Float` | Central Group Revenue |
-| 120 | centralGroupRoomRevenue | `Float` | Central Group Room Revenue |
-| 121 | centralGroupRoomTax | `Float` | Central Group Room Tax |
-| 122 | centralGroupTax | `Float` | Central Group Tax |
-| 123 | centralIndividualRevenue | `Float` | Central Individual Revenue |
-| 124 | centralIndividualRoomRevenue | `Float` | Central Individual Room Revenue |
-| 125 | centralMembershipRevenue | `Float` | Central Membership Revenue |
-| 126 | centralMembershipTotalTax | `Float` | Central Membership Total Tax |
-| 127 | centralOtherRevenue | `Float` | Central Other Revenue |
-| 128 | centralOtherTax | `Float` | Central Other Tax |
-| 129 | centralRackRateTotalForAllRooms | `Float` | Central Rack Rate Total for All Rooms |
-| 130 | centralRackRateTotalForOccupiedRooms | `Float` | Central Rack Rate Total for Occupied Rooms |
-| 131 | centralRoomRevenue | `Float` | Central Room Revenue |
-| 132 | centralRoomTax | `Float` | Central Room Tax |
-| 133 | centralTotalRevenue | `Float` | Central Total Revenue |
-| 134 | centralTotalTax | `Float` | Central Total Tax |
-| 135 | centralYieldForAllRooms | `Float` | Central Yield for All Rooms |
-| 136 | centralYieldForOccupiedRooms | `Float` | Central Yield for Occupied Rooms |
-| 137 | centralcurrencyid | `String` | Centralcurrencyid |
-| 138 | childrenFree | `Float` | Not Used |
-| 139 | childrenInHouse | `Float` | Children in House. |
-| 140 | children1 | `Float` | Children1 |
-| 141 | children2 | `Float` | Children2 |
-| 142 | children3 | `Float` | Children3 |
-| 143 | children4 | `Float` | Children4 |
-| 144 | children5 | `Float` | Children5 |
-| 145 | cleanRooms | `Float` | Number of clean rooms |
-| 146 | compAdults | `Float` | Total adults of reservations with a rate code marked as complimentary |
-| 147 | compBeds | `Float` | Total beds in rooms that have a rate code marked as comp |
-| 148 | compChildren | `Float` | Total children of reservations with a rate code marked as complimentary |
-| 149 | compNext31Days | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for 31 days. |
-| 150 | compNext365Days | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for 365 days. |
-| 151 | compRestOfMonth | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for the remainder of the current calendar month. |
-| 152 | compRestOfYear | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for the remainder of the current calendar year. |
-| 153 | compTomorrow | `Float` | Total number of rooms reserved having a rate code marked as comp for tomorrow. |
-| 154 | compWeek | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for 7 days. |
-| 155 | companyRoomRevenue | `Float` | Total amount of postings today where the transaction code is marked as room revenue for reservations that have a company profile attached to the reservation. |
-| 156 | companyRoomTax | `Float` | Total tax amount of postings today where the transaction code is marked as room revenue for reservations that have a company profile attached to the reservation. |
-| 157 | companyRooms | `Float` | Number of rooms that have a company profile attached to the reservation |
-| 158 | companyTotalRevenue | `Float` | Total amount of postings today where the transaction code is marked as revenue for reservations that have a company profile attached to the reservation. |
-| 159 | companyTotalTax | `Float` | Total tax amount of postings today where the transaction code is marked as revenue for reservations that have a company profile attached to the reservation. |
-| 160 | complimentaryRooms | `Float` | Number of rooms that have a rate code marked as comp |
-| 161 | contextCd | `String` | Context Cd |
-| 162 | cribs | `Float` | Not Used |
-| 163 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 164 | dayUseReservations | `Float` | Day Use Reservations |
-| 165 | dayUseRooms | `Float` | Number of reservations where the arrival date and departure date equal today |
-| 166 | dayuseAdults | `Float` | Total number of adults of day-use reservations. |
-| 167 | dayuseChildren | `Float` | Total number of children of day-use reservations. |
-| 168 | dayuseMonth | `Float` | Total number of day-use rooms reserved starting tomorrow for 1 calendar month |
-| 169 | dayuseNext31Days | `Float` | Total number of day-use rooms reserved starting tomorrow for 31 days. |
-| 170 | dayuseNext365Days | `Float` | Total number of day-use rooms reserved starting tomorrow for 365 days. |
-| 171 | dayuseRestOfMonth | `Float` | Total number of day-use rooms reserved starting tomorrow for the remainder of the current calendar month. |
-| 172 | dayuseRestOfYear | `Float` | Total number of day-use rooms reserved starting tomorrow for the remainder of the current calendar year. |
-| 173 | dayuseTomorrow | `Float` | Total number of day-use rooms reserved for tomorrow. |
-| 174 | dayuseWeek | `Float` | Total number of day-use rooms reserved starting tomorrow for 7 days. |
-| 175 | dayuseYear | `Float` | Total number of day-use rooms reserved starting tomorrow for 1 calendar year. |
-| 176 | definiteArrivalRooms | `Float` | Number of rooms with an arrival date euqal to today with a reservation type of deduct |
-| 177 | deletedFlag | `String` | Deleted Flag |
-| 178 | departurePersons | `Float` | Number of persons with a departure date equal to today |
-| 179 | departureRooms | `Float` | Number of rooms with a departure date equal to today |
-| 180 | dirtyRooms | `Float` | Number of rooms with a houskeeping status of DI |
-| 181 | doublesAsSingles | `Float` | Number of rooms where each room has occupancy max greater than 1 and numbe of persons in-house is 1 |
-| 182 | earlyDeparturePersons | `Float` | Number of persons for checked out rooms with an original departure date greater than today |
-| 183 | earlyDepartureRooms | `Float` | Number of  checked out rooms with an original departure date greater than today |
-| 184 | exchangeRate | `Float` | Exchange Rate |
-| 185 | extNoshowCRSRes | `Float` | Number of CRS Reservations Arrival extended to next day due to No Show counting share reservations as one. |
-| 186 | extNoshowPrs | `Float` | Number of Persons Arrival extended to next day due to No Show. |
-| 187 | extNoshowRes | `Float` | Number of Reservations Arrival extended to next day due to No Show. |
-| 188 | extNoshowRoom | `Float` | Number of Rooms Arrival extended to next day due to No Show. |
-| 189 | extendedStayAdvFoodRevenue | `Float` | Extended stay distributed food and beverage revenue. |
-| 190 | extendedStayAdvFoodTax | `Float` | Extended stay distributed food and beverage taxes. |
-| 191 | extendedStayAdvNonRevenue | `Float` | Extended stay distributed non-revenue. |
-| 192 | extendedStayAdvNonRevenueTax | `Float` | Extended stay distributed non-revenue taxes. |
-| 193 | extendedStayAdvOtherRevenue | `Float` | Extended stay distributed other revenue. |
-| 194 | extendedStayAdvOtherTax | `Float` | Extended stay distributed other taxes. |
-| 195 | extendedStayAdvRoomRevenue | `Float` | Extended stay distributed room revenue. |
-| 196 | extendedStayAdvRoomTax | `Float` | Extended stay distributed room taxes. |
-| 197 | extendedStayAdvTotalRevenue | `Float` | Extended stay distributed total revenue. |
-| 198 | extendedStayAdvTotalTax | `Float` | Extended stay distributed total taxes. |
-| 199 | extendedStayCompRooms | `Float` | Extended stay complimentary rooms. |
-| 200 | extendedStayFoodRevenue | `Float` | Extended stay food and beverage revenue. |
-| 201 | extendedStayFoodTax | `Float` | Extended stay food and beverage taxes. |
-| 202 | extendedStayHouseUseRooms | `Float` | Extended stay house-use rooms. |
-| 203 | extendedStayNonRevenue | `Float` | Extended stay non-revenue. |
-| 204 | extendedStayNonRevenueTax | `Float` | Extended stay non-revenue taxes. |
-| 205 | extendedStayOccupancyRooms | `Float` | Extended stay occupied rooms. |
-| 206 | extendedStayOtherRevenue | `Float` | Extended stay other revenue. |
-| 207 | extendedStayOtherTax | `Float` | Extended stay other taxes. |
-| 208 | extendedStayPersons | `Float` | Number of persons where an original departure date equal to today |
-| 209 | extendedStayRoom | `Float` | Number of rooms  where an original departure date equal to today |
-| 210 | extendedStayRoomRevenue | `Float` | Extended stay room revenue. |
-| 211 | extendedStayRoomTax | `Float` | Extended stay room taxes. |
-| 212 | extendedStayTotalRevenue | `Float` | Extended stay total revenue. |
-| 213 | extendedStayTotalTax | `Float` | Extended stay total taxes. |
-| 214 | fBRevenue | `Float` | Total amount of all postings today where the Transaction Code is marked as Revenue and the Transaction Type is  Food and Beverage . |
-| 215 | fBTax | `Float` | Total tax amount of all postings today where the Transaction Code is marked as Revenue and the Transaction Type is  Food and Beverage . |
-| 216 | ffFoodBevRevenue | `Float` | Food and Beverage Revenue generated by Authorized Users who are in rooms that are not part of the Rental Program where the Transaction Code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
-| 217 | ffOtherRevenue | `Float` | Revenue generated by Authorized Users who are in rooms that are not part of the Rental Program where the transaction Codes are defined as 'other'. |
-| 218 | ffRentFoodBevRev | `Float` | Food and Beverage Revenue generated by Authorized Users who are in rooms that are part of the Rental Program where the Transaction Code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
-| 219 | ffRentOtherRev | `Float` | Revenue generated by Authorized Users who are in rooms that are part of the Rental Program where the transaction Codes are defined as 'other'. |
-| 220 | ffRentRoomRev | `Float` | Lodging Revenue generated by Authorized Users who are in rooms that are part of the Rental Program. (Revenue defined as lodging) |
-| 221 | ffRentRooms | `Float` | Authorized Users who are in rooms that are part of the Rental Program. |
-| 222 | ffRoomRevenue | `Float` | Lodging Revenue generated by Authorized Users who are in rooms that are not part of the Rental Program. (Revenue defined as lodging) |
-| 223 | ffRooms | `Float` | Authorized Users who are in rooms that are not part of the Rental Program. |
-| 224 | fitMemLosNights | `Float` | Number of nights for all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
-| 225 | fitMemRoomRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 226 | fitMemRoomRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 227 | fitMemRooms | `Float` | Number of rooms with a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 228 | fitMemTotalRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 229 | fitMemTotalRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 230 | fitMembershipLosResv | `Float` | Counts all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
-| 231 | flgdFoodRevenue | `Float` | Flagged Food Revenue |
-| 232 | flgdNonRevenue | `Float` | Flagged Non Revenue |
-| 233 | flgdOtherRevenue | `Float` | Flagged Other Revenue |
-| 234 | flgdPayment | `Float` | Flagged Total Payments. |
-| 235 | flgdRoomRevenue | `Float` | Flagged Room Revenue |
-| 236 | flgdTotalFoodTax | `Float` | Flagged Total Food Tax |
-| 237 | flgdTotalNonRevenueTax | `Float` | Flagged Total Non Revenue Tax |
-| 238 | flgdTotalOtherTax | `Float` | Flagged Total Other Tax |
-| 239 | flgdTotalRevenue | `Float` | Flagged Total Revenue |
-| 240 | flgdTotalRoomTax | `Float` | Flagged Total Room Tax |
-| 241 | flgdTotalTax | `Float` | Flagged Total Tax |
-| 242 | groupPrs | `Float` | Number of Adults and Children for Rooms In-House with a Block code attached to the reservation |
-| 243 | groupRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue for reservations that have a Block Code attached |
-| 244 | groupRoom | `Float` | Number of Rooms that have a block code attached to the reservation. |
-| 245 | groupRoomRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue  and a Transaction Code Type is Lodging for reservations that have a Block Code attached |
-| 246 | groupRoomTax | `Float` | Total tax amount of postings today where the Transaction Code is marked as Revenue  and a Transaction Code Type is Lodging for reservations that have a Block Code attached |
-| 247 | groupRooms | `Float` | Number of Rooms that have a Group profile attached to the reservation. |
-| 248 | groupTax | `Float` | Total tax  amount of postings today where the Transaction Code is marked as Revenue for reservations that have a Block Code attached |
-| 249 | guestsInHouse | `Float` | Number of Adults and Children for Rooms In-House |
-| 250 | houseUseAdults | `Float` | Total adults of reservations with a rate code marked as house use |
-| 251 | houseUseBeds | `Float` | Total beds in rooms that have a rate code marked as house use |
-| 252 | houseUseChildren | `Float` | Total children of reservations with a rate code marked as house use |
-| 253 | houseUseNext31Days | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for 31 days. |
-| 254 | houseUseNext365Days | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for 365 days. |
-| 255 | houseUseRestOfMonth | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for the remainder of the current calendar month. |
-| 256 | houseUseRestOfYear | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for the remainder of the current calendar year. |
-| 257 | houseUseTomorrow | `Float` | Total number of rooms reserved having a rate code marked as house-use for tomorrow. |
-| 258 | houseUseWeek | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for 7 days. |
-| 259 | houseUseRooms | `Float` | Number of Rooms In-House that have a rate code marked as House Use |
-| 260 | inHouseMaximumOccupancy | `Float` | Amount of all MAX_OCCUPANCY columns from all rooms. |
-| 261 | individualDeparturePersons | `Float` | Number of persons with a departure date equal to today and no block code attached |
-| 262 | individualDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to today and no block code attached to the reservation. |
-| 263 | individualGuests | `Float` | Number of Adults and Children for Rooms In-House with no Block code attached to the reservation |
-| 264 | individualMembershipDeparturePersons | `Float` | Number of Adults and Children with a Departure Date equal to today a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 265 | individualMembershipDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to today a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 266 | individualRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue for reservations that do not have a Block Code attached |
-| 267 | individualRoomRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue  and a Transaction Code Type is Lodging for reservations that do not have a Block Code attached |
-| 268 | individualRooms | `Float` | Number of Rooms that do not have a block code attached to the reservation. |
-| 269 | inspectedRooms | `Float` | Number of Rooms that have a Housekeeping Status of IP |
-| 270 | jRNUpdateDate | `Date` | JRN Update Date |
-| 271 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 272 | lateCancelReservation | `Float` | Number of Reservations that were cancelled today with an arrival date equal to today. |
-| 273 | lateCancelRooms | `Float` | Number of rooms that were cancelled today with an arrival date equal to today. |
-| 274 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 275 | membershipDeparturePersons | `Float` | Number of Adults and Children with a Departure Date equal to today and a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 276 | membershipDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to today and a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 277 | membershipInHousePersons | `Float` | Number of Adults and Children for Rooms In-House with a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 278 | membershipRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue  for reservations that have a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 279 | membershipTotalTax | `Float` | Total tax amount of postings today where the Transaction Code is marked as Revenue  for reservations that have a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
-| 280 | multipleOccupancyRooms | `Float` | All rooms with guests greater than 1 |
-| 281 | noShowPersons | `Float` | Number of Adults and Children with a Reservation Status of No Show |
-| 282 | noShowRooms | `Float` | Number of Rooms with a Reservation Status of No Show |
-| 283 | nonDeductibleArrivals | `Float` | Number of arrivals with a previous status of non-deduct prior to check-in. |
-| 284 | noshowReservations | `Float` | Number of noshow reservations with an arrival date of today. |
-| 285 | numberOfGroup | `Float` | Number of Blocks where todays date falls between the start date and end date |
-| 286 | occupancy | `Float` | Occupancy |
-| 287 | occupancyBeds | `Float` | Total beds in occupied rooms |
-| 288 | occupancyNext31Days | `Float` | Total number of rooms reserved starting tomorrow for 31 days. |
-| 289 | occupancyNext365Days | `Float` | Total number of rooms reserved starting tomorrow for 365 days. |
-| 290 | occupancyRestOfMonth | `Float` | Total number of rooms reserved starting tomorrow for the remainder of the current calendar month. |
-| 291 | occupancyRestOfYear | `Float` | Total number of rooms reserved starting tomorrow for the remainder of the current calendar year. |
-| 292 | occupiedRooms | `Float` | Number of rooms In-House with a Front Office status of OCC |
-| 293 | occupiedRoomsMonth | `Float` | Total number of rooms reserved starting tomorrow for 1 calendar month. |
-| 294 | occupiedRoomsTomorrow | `Float` | Number of Rooms Occupied tomorrow divided by Total Rooms in Hotel multiplied by 100 |
-| 295 | occupiedRoomsWeek | `Float` | Total number of rooms reserved starting tomorrow for 7 days. |
-| 296 | occupiedRoomsYear | `Float` | Total number of rooms reserved starting tomorrow for 1 calendar year. |
-| 297 | oooBeds | `Float` | Total beds in rooms marked as out of order for today |
-| 298 | oooRoomsNext31Days | `Float` | Total number of rooms marked as Out of Order starting tomorrow for 31 days. |
-| 299 | oooRoomsNext365Days | `Float` | Total number of rooms marked as Out of Order starting tomorrow for 365 days. |
-| 300 | oooRoomsRestOfMonth | `Float` | Total number of rooms marked as Out of Order starting tomorrow for the remainder of the current calendar month. |
-| 301 | oooRoomsRestOfYear | `Float` | Total number of rooms marked as Out of Order starting tomorrow for the remainder of the current calendar year. |
-| 302 | oooRoomsTomorrow | `Float` | Total number of rooms marked as Out of Order for tomorrow. |
-| 303 | oooRoomsWeek | `Float` | Total number of rooms marked as Out of Order starting tomorrow for 7 days. |
-| 304 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 305 | osBeds | `Float` | Total beds in rooms marked as out of service for today |
-| 306 | osRoomsNext31Days | `Float` | Total number of rooms marked as Out of Service starting tomorrow for 31 days. |
-| 307 | osRoomsNext365Days | `Float` | Total number of rooms marked as Out of Service starting tomorrow for 365 days. |
-| 308 | osRoomsRestOfMonth | `Float` | Total number of rooms marked as Out of Service starting tomorrow for the remainder of the current calendar month. |
-| 309 | osRoomsRestOfYear | `Float` | Total number of rooms marked as Out of Service starting tomorrow for the remainder of the current calendar year. |
-| 310 | osRoomsTomorrow | `Float` | Total number of rooms marked as Out of Service for tomorrow. |
-| 311 | osRoomsWeek | `Float` | Total number of rooms marked as Out of Service starting tomorrow for 7 days. |
-| 312 | otherRevenue | `Float` | Other Revenue |
-| 313 | otherTax | `Float` | Total tax amount of all postings today where the Transaction Code is marked as Revenue and the Transaction Code Type is  not Lodging Food and Beverage Tax or Non Hotel Supplies |
-| 314 | outOfOrderRooms | `Float` | Number of Rooms marked as Out of Order for today |
-| 315 | outOfServiceRooms | `Float` | Out of Service Rooms |
-| 316 | ownerFoodBevRevenue | `Float` | Food and Beverage Revenue generated by an owner who is not in the Rental Program where the transaction code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
-| 317 | ownerOtherRevenue | `Float` | Other Revenue generated by an owner who is not in the Rental Program where the transaction codes are defined as 'other'. |
-| 318 | ownerRentFoodBevRev | `Float` | Food and Beverage Revenue generated by an owner who is in the Rental Program where the transaction code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
-| 319 | ownerRentOtherRev | `Float` | Other Revenue generated by an owner who is in the Rental Program where the transaction codes are defined as 'other'. |
-| 320 | ownerRentRoomRev | `Float` | Lodging Revenue generated by owners who are in the Rental Program. (Revenue defined as lodging) |
-| 321 | ownerRentRooms | `Float` | Owners who are in rooms that are part of the Rental Program. |
-| 322 | ownerRentRoomsOoo | `Float` | Rooms that are part of the Rental Program that are out of order. |
-| 323 | ownerRoomRevenue | `Float` | Lodging Revenue generated by owners who are not in the Rental Program. (Revenue defined as lodging) |
-| 324 | ownerRooms | `Float` | Owners who are in rooms that are not part of the Rental Program. |
-| 325 | ownerRoomsInHotel | `Float` | Number of Rooms in Hotel that are linked to an active OVOS contract. |
-| 326 | ownerRoomsOoo | `Float` | Rooms that are not part of the Rental Program that are out of order. |
-| 327 | payment | `Float` | Total amount of postings today that have a Transaction Code linked to a Group of Payment |
-| 328 | pcOccupancy1 | `Float` | Pc Occupancy 1 |
-| 329 | pcOccupancy2 | `Float` | Pc Occupancy 2 |
-| 330 | perOccupancy | `Float` | Rooms Occupied divided by Total Rooms in Hotel multiplied by 100 |
-| 331 | perOccupancyWoCompHouse | `Float` | Rooms Occupied minus Comp & House divided by Total Rooms in Hotel multiplied by 100 |
-| 332 | perOccupancyWoCompHouseOo | `Float` | Rooms Occupied minus Comp House and Out of Order divided by Total Rooms in Hotel multiplied by 100 |
-| 333 | physicalBeds | `Float` | Total beds of all rooms in the property |
-| 334 | physicalRooms | `Float` | Rooms in the Hotel |
-| 335 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 336 | property | `String` | Code to uniquely identify the Property |
-| 337 | rackRateTotalForAllRooms | `Float` | Amount of Brochure Rate on each room |
-| 338 | rackRateTotalForOccupiedRooms | `Float` | Amount of Brochure Rate on each room with a Front Office status of OCC |
-| 339 | repRoomClass | `String` | Reporting Room Class |
-| 340 | repRoomClassDescription | `String` | Reporting Room Class Description |
-| 341 | repeatPersons | `Float` | Number of persons in-house that are repeating guests |
-| 342 | repeatRoomRevenue | `Float` | Total amount of postings today where the transaction code is marked as room revenue for reservations made by a repeating guest. |
-| 343 | repeatRoomTax | `Float` | Total tax amount of postings today where the transaction code is marked as room revenue for reservations made by a repeating guest. |
-| 344 | repeatRooms | `Float` | Number of rooms occupied by a repeating guest |
-| 345 | repeatTotalRevenue | `Float` | Total amount of postings today where the transaction code is marked as revenue for reservations made by a repeating guest. |
-| 346 | repeatTotalTax | `Float` | Total tax amount of postings today where the transaction code is marked as revenue for reservations made by a repeating guest. |
-| 347 | reservation | `Float` | Number of Reservations that were created today for any date. |
-| 348 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 349 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 350 | rollaways | `Float` | Not Used |
-| 351 | roomClass | `String` | Room Class |
-| 352 | roomClassDescription | `String` | Room Class Description |
-| 353 | roomNightsReservedToday | `Float` | Total number of nights from all Reservations Made Today |
-| 354 | roomRevenue | `Float` | Room Revenue |
-| 355 | roomTax | `Float` | Room Tax |
-| 356 | roomclassdailytotalid | `String` | Roomclassdailytotalid |
-| 357 | roomclassid | `String` | Roomclassid |
-| 358 | roomsCancelledToday | `Float` | Number of rooms that were cancelled today for any date. |
-| 359 | singleOccupancyRooms | `Float` | All rooms with total of 1 guest |
-| 360 | sourceRooms | `Float` | Number of Rooms that have a Source profile attached to the reservation. |
-| 361 | tomorrowArrivalPersons | `Float` | Number of Adults and Children with an Arrival Date equal to tomorrow |
-| 362 | tomorrowArrivalRooms | `Float` | Number of Rooms with an Arrival Date equal to tomorrow |
-| 363 | tomorrowDeparturePersons | `Float` | Number of Adults and Children with a Departure Date equal to tomorrow |
-| 364 | tomorrowDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to tomorrow |
-| 365 | totalRevenue | `Float` | Total Revenue |
-| 366 | totalTax | `Float` | Total Tax |
-| 367 | turnaway | `Float` | Number of Turnaways recorded today for any date. |
-| 368 | vIPGuest | `Float` | Number of Adults and Children for Rooms In-House with a VIP code attached to the profile. |
-| 369 | walkInPersons | `Float` | Number of Adults and Children where the Walk-In button was used to make the reservation. |
-| 370 | walkInRooms | `Float` | Number of Rooms where the Walk-In button was used to make the reservation. |
-| 371 | yieldForAllRooms | `Float` | Amount of Room Revenue divided by Brochure Rate on each room multiplied by 100 |
-| 372 | yieldForOccupiedRooms | `Float` | Amount of Room Revenue divided by Brochure Rate on each room listed as a Front Office status of OCC multiplied by 100 |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | adultsFree | `Float` | Not Used |
+| 3 | adultsInHouse | `Float` | Number of Adults in House. |
+| 4 | advFoodRevenue | `Float` | Advance Food Revenue |
+| 5 | advNonRevenue | `Float` | Advance Non Revenue |
+| 6 | advOtherRevenue | `Float` | Advance Other Revenue |
+| 7 | advRoomRevenue | `Float` | Advance Room Revenue |
+| 8 | advTotalFoodTax | `Float` | Advance Total Food Tax |
+| 9 | advTotalNonRevenueTax | `Float` | Advance Total Non Revenue Tax |
+| 10 | advTotalOtherTax | `Float` | Advance Total Other Tax |
+| 11 | advTotalRevenue | `Float` | Advance Total Revenue |
+| 12 | advTotalRoomTax | `Float` | Advance Total Room Tax |
+| 13 | advTotalTax | `Float` | Advance Total Tax |
+| 14 | agentRoomRevenue | `Float` | Total amount of postings today where the transaction code is marked as room revenue for reservations that have a travel agent profile attached to the reservation. |
+| 15 | agentRoomTax | `Float` | Total tax amount of postings today where the transaction code is marked as room revenue for reservations that have a travel agent profile attached to the reservation. |
+| 16 | agentRooms | `Float` | Number of rooms in house that have a Travel Agent attached to the reservation. |
+| 17 | agentTotalRevenue | `Float` | Total amount of postings today where the transaction code is marked as revenue for reservations that have a travel agent profile attached to the reservation. |
+| 18 | agentTotalTax | `Float` | Total tax amount of postings today where the transaction code is marked as revenue for reservations that have a travel agent profile attached to the reservation. |
+| 19 | arrivalPersons | `Float` | Number of adults and children arriving today |
+| 20 | arrivalReservations | `Float` | Number of reservations with an arrival date of today. |
+| 21 | arrivalRooms | `Float` | Number of Rooms with an arrival date today |
+| 22 | availableRooms | `Float` | Total rooms in hotel minus rooms occupied |
+| 23 | averageAgeToday | `Float` | Not Used |
+| 24 | averageDailyRateMinusComplimentaryHouseUse | `Float` | Average Daily Rate without Comp & House |
+| 25 | averageDailyRevenue | `Float` | Not used |
+| 26 | bedsAvailable | `Float` | Not Used |
+| 27 | birthdays | `Float` | Number of rooms with birthday field equal to today |
+| 28 | blockMemLosNights | `Float` | Number of Nights for all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
+| 29 | blockMemRoomRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 30 | blockMemRoomRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 31 | blockMemRooms | `Float` | Number of rooms with a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 32 | blockMemTotalRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 33 | blockMemTotalRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 34 | blockMembershipLosResv | `Float` | Counts all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with a block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
+| 35 | businessDate | `Date` | Business Date |
+| 36 | cAdvanceFoodRevenue | `Float` | Central Adv Food Revenue |
+| 37 | cAdvanceNonRevenue | `Float` | Central Adv Non Revenue |
+| 38 | cAdvanceOtherRevenue | `Float` | Central Adv Other Revenue |
+| 39 | cAdvanceRoomRevenue | `Float` | Central Adv Room Revenue |
+| 40 | cAdvanceTotalFoodTax | `Float` | Central Adv Total Food Tax |
+| 41 | cAdvanceTotalNonRevenueTax | `Float` | Central Adv Total Non Revenue Tax |
+| 42 | cAdvanceTotalOtherTax | `Float` | Central Adv Total Other Tax |
+| 43 | cAdvanceTotalRevenue | `Float` | Central Adv Total Revenue |
+| 44 | cAdvanceTotalRoomTax | `Float` | Central Adv Total Room Tax |
+| 45 | cAdvanceTotalTax | `Float` | Central Adv Total Tax |
+| 46 | cAgentRoomRevenue | `Float` | Central Agent Room Revenue |
+| 47 | cAgentRoomTax | `Float` | Central Agent Room Tax |
+| 48 | cAgentTotalRevenue | `Float` | Central Agent Total Revenue |
+| 49 | cAgentTotalTax | `Float` | Central Agent Total Tax |
+| 50 | cBlockMembershipRoomRevenue | `Float` | Central Blk Mem Room Revenue |
+| 51 | cBlockMembershipRoomRevenueTax | `Float` | Central Blk Mem Room Revenue Tax |
+| 52 | cBlockMembershipTotalRevenue | `Float` | Central Blk Mem Total Revenue |
+| 53 | cBlockMembershipTotalRevenueTax | `Float` | Central Blk Mem Total Revenue Tax |
+| 54 | cCompanyRoomRevenue | `Float` | Central Company Room Revenue |
+| 55 | cCompanyRoomTax | `Float` | Central Company Room Tax |
+| 56 | cCompanyTotalRevenue | `Float` | Central Company Total Revenue |
+| 57 | cCompanyTotalTax | `Float` | Central Company Total Tax |
+| 58 | cExchangeDate | `Date` | Central Xchange Date |
+| 59 | cExtendedStayAdvanceFoodRevenue | `Float` | Central Es Adv Food Revenue |
+| 60 | cExtendedStayAdvanceFoodTax | `Float` | Central Es Adv Food Tax |
+| 61 | cExtendedStayAdvanceNonRevenue | `Float` | Central Es Adv Non Revenue |
+| 62 | cExtendedStayAdvanceNonRevenueTax | `Float` | Central Es Adv Non Revenue Tax |
+| 63 | cExtendedStayAdvanceOtherRevenue | `Float` | Central Es Adv Other Revenue |
+| 64 | cExtendedStayAdvanceOtherTax | `Float` | Central Es Adv Other Tax |
+| 65 | cExtendedStayAdvanceRoomRevenue | `Float` | Central Es Adv Room Revenue |
+| 66 | cExtendedStayAdvanceRoomTax | `Float` | Central Es Adv Room Tax |
+| 67 | cExtendedStayAdvanceTotalRevenue | `Float` | Central Es Adv Total Revenue |
+| 68 | cExtendedStayAdvanceTotalTax | `Float` | Central Es Adv Total Tax |
+| 69 | cExtendedStayFoodRevenue | `Float` | Central Es Food Revenue |
+| 70 | cExtendedStayFoodTax | `Float` | Central Es Food Tax |
+| 71 | cExtendedStayNonRevenue | `Float` | Central Es Non Revenue |
+| 72 | cExtendedStayNonRevenueTax | `Float` | Central Es Non Revenue Tax |
+| 73 | cExtendedStayOtherRevenue | `Float` | Central Es Other Revenue |
+| 74 | cExtendedStayOtherTax | `Float` | Central Es Other Tax |
+| 75 | cExtendedStayRoomRevenue | `Float` | Central Es Room Revenue |
+| 76 | cExtendedStayRoomTax | `Float` | Central Es Room Tax |
+| 77 | cExtendedStayTotalRevenue | `Float` | Central Es Total Revenue |
+| 78 | cExtendedStayTotalTax | `Float` | Central Es Total Tax |
+| 79 | cFfFoodBevRevenue | `Float` | Central Ff Food Bev Revenue |
+| 80 | cFfOtherRevenue | `Float` | Central Ff Other Revenue |
+| 81 | cFfRentFoodBevRevenue | `Float` | Central Ff Rent Food Bev Rev |
+| 82 | cFfRentOtherRevenue | `Float` | Central Ff Rent Other Rev |
+| 83 | cFfRentRoomRevenue | `Float` | Central Ff Rent Room Rev |
+| 84 | cFfRoomRevenue | `Float` | Central Ff Room Revenue |
+| 85 | cFitMembershipRoomRevenue | `Float` | Central Fit Mem Room Revenue |
+| 86 | cFitMembershipRoomRevenueTax | `Float` | Central Fit Mem Room Revenue Tax |
+| 87 | cFitMembershipTotalRevenue | `Float` | Central Fit Mem Total Revenue |
+| 88 | cFitMembershipTotalRevenueTax | `Float` | Central Fit Mem Total Revenue Tax |
+| 89 | cFlaggedFoodRevenue | `Float` | Central Flgd Food Revenue |
+| 90 | cFlaggedNonRevenue | `Float` | Central Flgd Non Revenue |
+| 91 | cFlaggedOtherRevenue | `Float` | Central Flgd Other Revenue |
+| 92 | cFlaggedPayment | `Float` | Central Flgd Payment |
+| 93 | cFlaggedRoomRevenue | `Float` | Central Flgd Room Revenue |
+| 94 | cFlaggedTotalFoodTax | `Float` | Central Flgd Total Food Tax |
+| 95 | cFlaggedTotalNonRevenueTax | `Float` | Central Flgd Total Non Revenue Tax |
+| 96 | cFlaggedTotalOtherTax | `Float` | Central Flgd Total Other Tax |
+| 97 | cFlaggedTotalRevenue | `Float` | Central Flgd Total Revenue |
+| 98 | cFlaggedTotalRoomTax | `Float` | Central Flgd Total Room Tax |
+| 99 | cFlaggedTotalTax | `Float` | Central Flgd Total Tax |
+| 100 | cOwnerFoodBevRevenue | `Float` | Central Owner Food Bev Revenue |
+| 101 | cOwnerOtherRevenue | `Float` | Central Owner Other Revenue |
+| 102 | cOwnerRentFoodBevRevenue | `Float` | Central Owner Rent Food Bev Rev |
+| 103 | cOwnerRentOtherRevenue | `Float` | Central Owner Rent Other Rev |
+| 104 | cOwnerRentRoomRevenue | `Float` | Central Owner Rent Room Rev |
+| 105 | cOwnerRoomRevenue | `Float` | Central Owner Room Revenue |
+| 106 | cPayment | `Float` | Central Payment |
+| 107 | cRepeatRoomRevenue | `Float` | Central Repeat Room Revenue |
+| 108 | cRepeatRoomTax | `Float` | Central Repeat Room Tax |
+| 109 | cRepeatTotalRevenue | `Float` | Central Repeat Total Revenue |
+| 110 | cRepeatTotalTax | `Float` | Central Repeat Total Tax |
+| 111 | cancelReservation | `Float` | Number of cancelled reservations with an arrival date today. |
+| 112 | cancelRooms | `Float` | Number of cancelled rooms with an arrival date today. |
+| 113 | cancellationsMadeToday | `Float` | Number of Cancellations that were taken today for any date |
+| 114 | centralAverageDailyRateMinusComplimentaryHouseUse | `Float` | Central Average Daily Rate (minus Complimentary and House Use) |
+| 115 | centralAverageDailyRevenue | `Float` | Central Average Daily Revenue |
+| 116 | centralCurrencyCode | `String` | Central Currency Code |
+| 117 | centralExchangeRate | `Float` | Central Exchange Rate |
+| 118 | centralFBRevenue | `Float` | Central FB Revenue |
+| 119 | centralFBTax | `Float` | Central FB Tax |
+| 120 | centralGroupRevenue | `Float` | Central Group Revenue |
+| 121 | centralGroupRoomRevenue | `Float` | Central Group Room Revenue |
+| 122 | centralGroupRoomTax | `Float` | Central Group Room Tax |
+| 123 | centralGroupTax | `Float` | Central Group Tax |
+| 124 | centralIndividualRevenue | `Float` | Central Individual Revenue |
+| 125 | centralIndividualRoomRevenue | `Float` | Central Individual Room Revenue |
+| 126 | centralMembershipRevenue | `Float` | Central Membership Revenue |
+| 127 | centralMembershipTotalTax | `Float` | Central Membership Total Tax |
+| 128 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 129 | centralOtherTax | `Float` | Central Other Tax |
+| 130 | centralRackRateTotalForAllRooms | `Float` | Central Rack Rate Total for All Rooms |
+| 131 | centralRackRateTotalForOccupiedRooms | `Float` | Central Rack Rate Total for Occupied Rooms |
+| 132 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 133 | centralRoomTax | `Float` | Central Room Tax |
+| 134 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 135 | centralTotalTax | `Float` | Central Total Tax |
+| 136 | centralYieldForAllRooms | `Float` | Central Yield for All Rooms |
+| 137 | centralYieldForOccupiedRooms | `Float` | Central Yield for Occupied Rooms |
+| 138 | centralcurrencyid | `String` | Centralcurrencyid |
+| 139 | childrenFree | `Float` | Not Used |
+| 140 | childrenInHouse | `Float` | Children in House. |
+| 141 | children1 | `Float` | Children1 |
+| 142 | children2 | `Float` | Children2 |
+| 143 | children3 | `Float` | Children3 |
+| 144 | children4 | `Float` | Children4 |
+| 145 | children5 | `Float` | Children5 |
+| 146 | cleanRooms | `Float` | Number of clean rooms |
+| 147 | compAdults | `Float` | Total adults of reservations with a rate code marked as complimentary |
+| 148 | compBeds | `Float` | Total beds in rooms that have a rate code marked as comp |
+| 149 | compChildren | `Float` | Total children of reservations with a rate code marked as complimentary |
+| 150 | compNext31Days | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for 31 days. |
+| 151 | compNext365Days | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for 365 days. |
+| 152 | compRestOfMonth | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for the remainder of the current calendar month. |
+| 153 | compRestOfYear | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for the remainder of the current calendar year. |
+| 154 | compTomorrow | `Float` | Total number of rooms reserved having a rate code marked as comp for tomorrow. |
+| 155 | compWeek | `Float` | Total number of rooms reserved having a rate code marked as comp starting tomorrow for 7 days. |
+| 156 | companyRoomRevenue | `Float` | Total amount of postings today where the transaction code is marked as room revenue for reservations that have a company profile attached to the reservation. |
+| 157 | companyRoomTax | `Float` | Total tax amount of postings today where the transaction code is marked as room revenue for reservations that have a company profile attached to the reservation. |
+| 158 | companyRooms | `Float` | Number of rooms that have a company profile attached to the reservation |
+| 159 | companyTotalRevenue | `Float` | Total amount of postings today where the transaction code is marked as revenue for reservations that have a company profile attached to the reservation. |
+| 160 | companyTotalTax | `Float` | Total tax amount of postings today where the transaction code is marked as revenue for reservations that have a company profile attached to the reservation. |
+| 161 | complimentaryRooms | `Float` | Number of rooms that have a rate code marked as comp |
+| 162 | contextCd | `String` | Context Cd |
+| 163 | cribs | `Float` | Not Used |
+| 164 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 165 | dayUseReservations | `Float` | Day Use Reservations |
+| 166 | dayUseRooms | `Float` | Number of reservations where the arrival date and departure date equal today |
+| 167 | dayuseAdults | `Float` | Total number of adults of day-use reservations. |
+| 168 | dayuseChildren | `Float` | Total number of children of day-use reservations. |
+| 169 | dayuseMonth | `Float` | Total number of day-use rooms reserved starting tomorrow for 1 calendar month |
+| 170 | dayuseNext31Days | `Float` | Total number of day-use rooms reserved starting tomorrow for 31 days. |
+| 171 | dayuseNext365Days | `Float` | Total number of day-use rooms reserved starting tomorrow for 365 days. |
+| 172 | dayuseRestOfMonth | `Float` | Total number of day-use rooms reserved starting tomorrow for the remainder of the current calendar month. |
+| 173 | dayuseRestOfYear | `Float` | Total number of day-use rooms reserved starting tomorrow for the remainder of the current calendar year. |
+| 174 | dayuseTomorrow | `Float` | Total number of day-use rooms reserved for tomorrow. |
+| 175 | dayuseWeek | `Float` | Total number of day-use rooms reserved starting tomorrow for 7 days. |
+| 176 | dayuseYear | `Float` | Total number of day-use rooms reserved starting tomorrow for 1 calendar year. |
+| 177 | definiteArrivalRooms | `Float` | Number of rooms with an arrival date euqal to today with a reservation type of deduct |
+| 178 | deletedFlag | `String` | Deleted Flag |
+| 179 | departurePersons | `Float` | Number of persons with a departure date equal to today |
+| 180 | departureRooms | `Float` | Number of rooms with a departure date equal to today |
+| 181 | dirtyRooms | `Float` | Number of rooms with a houskeeping status of DI |
+| 182 | doublesAsSingles | `Float` | Number of rooms where each room has occupancy max greater than 1 and numbe of persons in-house is 1 |
+| 183 | earlyDeparturePersons | `Float` | Number of persons for checked out rooms with an original departure date greater than today |
+| 184 | earlyDepartureRooms | `Float` | Number of  checked out rooms with an original departure date greater than today |
+| 185 | exchangeRate | `Float` | Exchange Rate |
+| 186 | extNoshowCRSRes | `Float` | Number of CRS Reservations Arrival extended to next day due to No Show counting share reservations as one. |
+| 187 | extNoshowPrs | `Float` | Number of Persons Arrival extended to next day due to No Show. |
+| 188 | extNoshowRes | `Float` | Number of Reservations Arrival extended to next day due to No Show. |
+| 189 | extNoshowRoom | `Float` | Number of Rooms Arrival extended to next day due to No Show. |
+| 190 | extendedStayAdvFoodRevenue | `Float` | Extended stay distributed food and beverage revenue. |
+| 191 | extendedStayAdvFoodTax | `Float` | Extended stay distributed food and beverage taxes. |
+| 192 | extendedStayAdvNonRevenue | `Float` | Extended stay distributed non-revenue. |
+| 193 | extendedStayAdvNonRevenueTax | `Float` | Extended stay distributed non-revenue taxes. |
+| 194 | extendedStayAdvOtherRevenue | `Float` | Extended stay distributed other revenue. |
+| 195 | extendedStayAdvOtherTax | `Float` | Extended stay distributed other taxes. |
+| 196 | extendedStayAdvRoomRevenue | `Float` | Extended stay distributed room revenue. |
+| 197 | extendedStayAdvRoomTax | `Float` | Extended stay distributed room taxes. |
+| 198 | extendedStayAdvTotalRevenue | `Float` | Extended stay distributed total revenue. |
+| 199 | extendedStayAdvTotalTax | `Float` | Extended stay distributed total taxes. |
+| 200 | extendedStayCompRooms | `Float` | Extended stay complimentary rooms. |
+| 201 | extendedStayFoodRevenue | `Float` | Extended stay food and beverage revenue. |
+| 202 | extendedStayFoodTax | `Float` | Extended stay food and beverage taxes. |
+| 203 | extendedStayHouseUseRooms | `Float` | Extended stay house-use rooms. |
+| 204 | extendedStayNonRevenue | `Float` | Extended stay non-revenue. |
+| 205 | extendedStayNonRevenueTax | `Float` | Extended stay non-revenue taxes. |
+| 206 | extendedStayOccupancyRooms | `Float` | Extended stay occupied rooms. |
+| 207 | extendedStayOtherRevenue | `Float` | Extended stay other revenue. |
+| 208 | extendedStayOtherTax | `Float` | Extended stay other taxes. |
+| 209 | extendedStayPersons | `Float` | Number of persons where an original departure date equal to today |
+| 210 | extendedStayRoom | `Float` | Number of rooms  where an original departure date equal to today |
+| 211 | extendedStayRoomRevenue | `Float` | Extended stay room revenue. |
+| 212 | extendedStayRoomTax | `Float` | Extended stay room taxes. |
+| 213 | extendedStayTotalRevenue | `Float` | Extended stay total revenue. |
+| 214 | extendedStayTotalTax | `Float` | Extended stay total taxes. |
+| 215 | fBRevenue | `Float` | Total amount of all postings today where the Transaction Code is marked as Revenue and the Transaction Type is  Food and Beverage . |
+| 216 | fBTax | `Float` | Total tax amount of all postings today where the Transaction Code is marked as Revenue and the Transaction Type is  Food and Beverage . |
+| 217 | ffFoodBevRevenue | `Float` | Food and Beverage Revenue generated by Authorized Users who are in rooms that are not part of the Rental Program where the Transaction Code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
+| 218 | ffOtherRevenue | `Float` | Revenue generated by Authorized Users who are in rooms that are not part of the Rental Program where the transaction Codes are defined as 'other'. |
+| 219 | ffRentFoodBevRev | `Float` | Food and Beverage Revenue generated by Authorized Users who are in rooms that are part of the Rental Program where the Transaction Code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
+| 220 | ffRentOtherRev | `Float` | Revenue generated by Authorized Users who are in rooms that are part of the Rental Program where the transaction Codes are defined as 'other'. |
+| 221 | ffRentRoomRev | `Float` | Lodging Revenue generated by Authorized Users who are in rooms that are part of the Rental Program. (Revenue defined as lodging) |
+| 222 | ffRentRooms | `Float` | Authorized Users who are in rooms that are part of the Rental Program. |
+| 223 | ffRoomRevenue | `Float` | Lodging Revenue generated by Authorized Users who are in rooms that are not part of the Rental Program. (Revenue defined as lodging) |
+| 224 | ffRooms | `Float` | Authorized Users who are in rooms that are not part of the Rental Program. |
+| 225 | fitMemLosNights | `Float` | Number of nights for all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
+| 226 | fitMemRoomRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 227 | fitMemRoomRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue and the transaction type is Lodging a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 228 | fitMemRooms | `Float` | Number of rooms with a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 229 | fitMemTotalRevenue | `Float` | Total amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 230 | fitMemTotalRevenueTax | `Float` | Total tax amount of all postings today where the transaction code is marked as Revenue a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 231 | fitMembershipLosResv | `Float` | Counts all reservations that are considered for Rooms Occupied a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. Used for Calculation of Average Length of Stay. |
+| 232 | flgdFoodRevenue | `Float` | Flagged Food Revenue |
+| 233 | flgdNonRevenue | `Float` | Flagged Non Revenue |
+| 234 | flgdOtherRevenue | `Float` | Flagged Other Revenue |
+| 235 | flgdPayment | `Float` | Flagged Total Payments. |
+| 236 | flgdRoomRevenue | `Float` | Flagged Room Revenue |
+| 237 | flgdTotalFoodTax | `Float` | Flagged Total Food Tax |
+| 238 | flgdTotalNonRevenueTax | `Float` | Flagged Total Non Revenue Tax |
+| 239 | flgdTotalOtherTax | `Float` | Flagged Total Other Tax |
+| 240 | flgdTotalRevenue | `Float` | Flagged Total Revenue |
+| 241 | flgdTotalRoomTax | `Float` | Flagged Total Room Tax |
+| 242 | flgdTotalTax | `Float` | Flagged Total Tax |
+| 243 | groupPrs | `Float` | Number of Adults and Children for Rooms In-House with a Block code attached to the reservation |
+| 244 | groupRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue for reservations that have a Block Code attached |
+| 245 | groupRoom | `Float` | Number of Rooms that have a block code attached to the reservation. |
+| 246 | groupRoomRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue  and a Transaction Code Type is Lodging for reservations that have a Block Code attached |
+| 247 | groupRoomTax | `Float` | Total tax amount of postings today where the Transaction Code is marked as Revenue  and a Transaction Code Type is Lodging for reservations that have a Block Code attached |
+| 248 | groupRooms | `Float` | Number of Rooms that have a Group profile attached to the reservation. |
+| 249 | groupTax | `Float` | Total tax  amount of postings today where the Transaction Code is marked as Revenue for reservations that have a Block Code attached |
+| 250 | guestsInHouse | `Float` | Number of Adults and Children for Rooms In-House |
+| 251 | houseUseAdults | `Float` | Total adults of reservations with a rate code marked as house use |
+| 252 | houseUseBeds | `Float` | Total beds in rooms that have a rate code marked as house use |
+| 253 | houseUseChildren | `Float` | Total children of reservations with a rate code marked as house use |
+| 254 | houseUseNext31Days | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for 31 days. |
+| 255 | houseUseNext365Days | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for 365 days. |
+| 256 | houseUseRestOfMonth | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for the remainder of the current calendar month. |
+| 257 | houseUseRestOfYear | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for the remainder of the current calendar year. |
+| 258 | houseUseTomorrow | `Float` | Total number of rooms reserved having a rate code marked as house-use for tomorrow. |
+| 259 | houseUseWeek | `Float` | Total number of rooms reserved having a rate code marked as house-use starting tomorrow for 7 days. |
+| 260 | houseUseRooms | `Float` | Number of Rooms In-House that have a rate code marked as House Use |
+| 261 | inHouseMaximumOccupancy | `Float` | Amount of all MAX_OCCUPANCY columns from all rooms. |
+| 262 | individualDeparturePersons | `Float` | Number of persons with a departure date equal to today and no block code attached |
+| 263 | individualDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to today and no block code attached to the reservation. |
+| 264 | individualGuests | `Float` | Number of Adults and Children for Rooms In-House with no Block code attached to the reservation |
+| 265 | individualMembershipDeparturePersons | `Float` | Number of Adults and Children with a Departure Date equal to today a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 266 | individualMembershipDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to today a membership number of the default membership type attached to the reserveration with no block code attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 267 | individualRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue for reservations that do not have a Block Code attached |
+| 268 | individualRoomRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue  and a Transaction Code Type is Lodging for reservations that do not have a Block Code attached |
+| 269 | individualRooms | `Float` | Number of Rooms that do not have a block code attached to the reservation. |
+| 270 | inspectedRooms | `Float` | Number of Rooms that have a Housekeeping Status of IP |
+| 271 | jRNUpdateDate | `Date` | JRN Update Date |
+| 272 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 273 | lateCancelReservation | `Float` | Number of Reservations that were cancelled today with an arrival date equal to today. |
+| 274 | lateCancelRooms | `Float` | Number of rooms that were cancelled today with an arrival date equal to today. |
+| 275 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 276 | membershipDeparturePersons | `Float` | Number of Adults and Children with a Departure Date equal to today and a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 277 | membershipDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to today and a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 278 | membershipInHousePersons | `Float` | Number of Adults and Children for Rooms In-House with a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 279 | membershipRevenue | `Float` | Total amount of postings today where the Transaction Code is marked as Revenue  for reservations that have a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 280 | membershipTotalTax | `Float` | Total tax amount of postings today where the Transaction Code is marked as Revenue  for reservations that have a membership number of the default membership type attached to the reservation. If no default membership type is defined then any membership attached to the reservation will be considered. |
+| 281 | multipleOccupancyRooms | `Float` | All rooms with guests greater than 1 |
+| 282 | noShowPersons | `Float` | Number of Adults and Children with a Reservation Status of No Show |
+| 283 | noShowRooms | `Float` | Number of Rooms with a Reservation Status of No Show |
+| 284 | nonDeductibleArrivals | `Float` | Number of arrivals with a previous status of non-deduct prior to check-in. |
+| 285 | noshowReservations | `Float` | Number of noshow reservations with an arrival date of today. |
+| 286 | numberOfGroup | `Float` | Number of Blocks where todays date falls between the start date and end date |
+| 287 | occupancy | `Float` | Occupancy |
+| 288 | occupancyBeds | `Float` | Total beds in occupied rooms |
+| 289 | occupancyNext31Days | `Float` | Total number of rooms reserved starting tomorrow for 31 days. |
+| 290 | occupancyNext365Days | `Float` | Total number of rooms reserved starting tomorrow for 365 days. |
+| 291 | occupancyRestOfMonth | `Float` | Total number of rooms reserved starting tomorrow for the remainder of the current calendar month. |
+| 292 | occupancyRestOfYear | `Float` | Total number of rooms reserved starting tomorrow for the remainder of the current calendar year. |
+| 293 | occupiedRooms | `Float` | Number of rooms In-House with a Front Office status of OCC |
+| 294 | occupiedRoomsMonth | `Float` | Total number of rooms reserved starting tomorrow for 1 calendar month. |
+| 295 | occupiedRoomsTomorrow | `Float` | Number of Rooms Occupied tomorrow divided by Total Rooms in Hotel multiplied by 100 |
+| 296 | occupiedRoomsWeek | `Float` | Total number of rooms reserved starting tomorrow for 7 days. |
+| 297 | occupiedRoomsYear | `Float` | Total number of rooms reserved starting tomorrow for 1 calendar year. |
+| 298 | oooBeds | `Float` | Total beds in rooms marked as out of order for today |
+| 299 | oooRoomsNext31Days | `Float` | Total number of rooms marked as Out of Order starting tomorrow for 31 days. |
+| 300 | oooRoomsNext365Days | `Float` | Total number of rooms marked as Out of Order starting tomorrow for 365 days. |
+| 301 | oooRoomsRestOfMonth | `Float` | Total number of rooms marked as Out of Order starting tomorrow for the remainder of the current calendar month. |
+| 302 | oooRoomsRestOfYear | `Float` | Total number of rooms marked as Out of Order starting tomorrow for the remainder of the current calendar year. |
+| 303 | oooRoomsTomorrow | `Float` | Total number of rooms marked as Out of Order for tomorrow. |
+| 304 | oooRoomsWeek | `Float` | Total number of rooms marked as Out of Order starting tomorrow for 7 days. |
+| 305 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 306 | osBeds | `Float` | Total beds in rooms marked as out of service for today |
+| 307 | osRoomsNext31Days | `Float` | Total number of rooms marked as Out of Service starting tomorrow for 31 days. |
+| 308 | osRoomsNext365Days | `Float` | Total number of rooms marked as Out of Service starting tomorrow for 365 days. |
+| 309 | osRoomsRestOfMonth | `Float` | Total number of rooms marked as Out of Service starting tomorrow for the remainder of the current calendar month. |
+| 310 | osRoomsRestOfYear | `Float` | Total number of rooms marked as Out of Service starting tomorrow for the remainder of the current calendar year. |
+| 311 | osRoomsTomorrow | `Float` | Total number of rooms marked as Out of Service for tomorrow. |
+| 312 | osRoomsWeek | `Float` | Total number of rooms marked as Out of Service starting tomorrow for 7 days. |
+| 313 | otherRevenue | `Float` | Other Revenue |
+| 314 | otherTax | `Float` | Total tax amount of all postings today where the Transaction Code is marked as Revenue and the Transaction Code Type is  not Lodging Food and Beverage Tax or Non Hotel Supplies |
+| 315 | outOfOrderRooms | `Float` | Number of Rooms marked as Out of Order for today |
+| 316 | outOfServiceRooms | `Float` | Out of Service Rooms |
+| 317 | ownerFoodBevRevenue | `Float` | Food and Beverage Revenue generated by an owner who is not in the Rental Program where the transaction code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
+| 318 | ownerOtherRevenue | `Float` | Other Revenue generated by an owner who is not in the Rental Program where the transaction codes are defined as 'other'. |
+| 319 | ownerRentFoodBevRev | `Float` | Food and Beverage Revenue generated by an owner who is in the Rental Program where the transaction code is marked as 'Revenue' and the Transaction Type is 'Food and Beverage'. |
+| 320 | ownerRentOtherRev | `Float` | Other Revenue generated by an owner who is in the Rental Program where the transaction codes are defined as 'other'. |
+| 321 | ownerRentRoomRev | `Float` | Lodging Revenue generated by owners who are in the Rental Program. (Revenue defined as lodging) |
+| 322 | ownerRentRooms | `Float` | Owners who are in rooms that are part of the Rental Program. |
+| 323 | ownerRentRoomsOoo | `Float` | Rooms that are part of the Rental Program that are out of order. |
+| 324 | ownerRoomRevenue | `Float` | Lodging Revenue generated by owners who are not in the Rental Program. (Revenue defined as lodging) |
+| 325 | ownerRooms | `Float` | Owners who are in rooms that are not part of the Rental Program. |
+| 326 | ownerRoomsInHotel | `Float` | Number of Rooms in Hotel that are linked to an active OVOS contract. |
+| 327 | ownerRoomsOoo | `Float` | Rooms that are not part of the Rental Program that are out of order. |
+| 328 | payment | `Float` | Total amount of postings today that have a Transaction Code linked to a Group of Payment |
+| 329 | pcOccupancy1 | `Float` | Pc Occupancy 1 |
+| 330 | pcOccupancy2 | `Float` | Pc Occupancy 2 |
+| 331 | perOccupancy | `Float` | Rooms Occupied divided by Total Rooms in Hotel multiplied by 100 |
+| 332 | perOccupancyWoCompHouse | `Float` | Rooms Occupied minus Comp & House divided by Total Rooms in Hotel multiplied by 100 |
+| 333 | perOccupancyWoCompHouseOo | `Float` | Rooms Occupied minus Comp House and Out of Order divided by Total Rooms in Hotel multiplied by 100 |
+| 334 | physicalBeds | `Float` | Total beds of all rooms in the property |
+| 335 | physicalRooms | `Float` | Rooms in the Hotel |
+| 336 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 337 | property | `String` | Code to uniquely identify the Property |
+| 338 | rackRateTotalForAllRooms | `Float` | Amount of Brochure Rate on each room |
+| 339 | rackRateTotalForOccupiedRooms | `Float` | Amount of Brochure Rate on each room with a Front Office status of OCC |
+| 340 | repRoomClass | `String` | Reporting Room Class |
+| 341 | repRoomClassDescription | `String` | Reporting Room Class Description |
+| 342 | repeatPersons | `Float` | Number of persons in-house that are repeating guests |
+| 343 | repeatRoomRevenue | `Float` | Total amount of postings today where the transaction code is marked as room revenue for reservations made by a repeating guest. |
+| 344 | repeatRoomTax | `Float` | Total tax amount of postings today where the transaction code is marked as room revenue for reservations made by a repeating guest. |
+| 345 | repeatRooms | `Float` | Number of rooms occupied by a repeating guest |
+| 346 | repeatTotalRevenue | `Float` | Total amount of postings today where the transaction code is marked as revenue for reservations made by a repeating guest. |
+| 347 | repeatTotalTax | `Float` | Total tax amount of postings today where the transaction code is marked as revenue for reservations made by a repeating guest. |
+| 348 | reservation | `Float` | Number of Reservations that were created today for any date. |
+| 349 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 350 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 351 | rollaways | `Float` | Not Used |
+| 352 | roomClass | `String` | Room Class |
+| 353 | roomClassDescription | `String` | Room Class Description |
+| 354 | roomNightsReservedToday | `Float` | Total number of nights from all Reservations Made Today |
+| 355 | roomRevenue | `Float` | Room Revenue |
+| 356 | roomTax | `Float` | Room Tax |
+| 357 | roomclassdailytotalid | `String` | Roomclassdailytotalid |
+| 358 | roomclassid | `String` | Roomclassid |
+| 359 | roomsCancelledToday | `Float` | Number of rooms that were cancelled today for any date. |
+| 360 | singleOccupancyRooms | `Float` | All rooms with total of 1 guest |
+| 361 | sourceRooms | `Float` | Number of Rooms that have a Source profile attached to the reservation. |
+| 362 | tomorrowArrivalPersons | `Float` | Number of Adults and Children with an Arrival Date equal to tomorrow |
+| 363 | tomorrowArrivalRooms | `Float` | Number of Rooms with an Arrival Date equal to tomorrow |
+| 364 | tomorrowDeparturePersons | `Float` | Number of Adults and Children with a Departure Date equal to tomorrow |
+| 365 | tomorrowDepartureRooms | `Float` | Number of Rooms with a Departure Date equal to tomorrow |
+| 366 | totalRevenue | `Float` | Total Revenue |
+| 367 | totalTax | `Float` | Total Tax |
+| 368 | turnaway | `Float` | Number of Turnaways recorded today for any date. |
+| 369 | vIPGuest | `Float` | Number of Adults and Children for Rooms In-House with a VIP code attached to the profile. |
+| 370 | walkInPersons | `Float` | Number of Adults and Children where the Walk-In button was used to make the reservation. |
+| 371 | walkInRooms | `Float` | Number of Rooms where the Walk-In button was used to make the reservation. |
+| 372 | yieldForAllRooms | `Float` | Amount of Room Revenue divided by Brochure Rate on each room multiplied by 100 |
+| 373 | yieldForOccupiedRooms | `Float` | Amount of Room Revenue divided by Brochure Rate on each room listed as a Front Office status of OCC multiplied by 100 |
 
 [⬆ Back to Query](#query)
 
@@ -1000,12 +1001,13 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| managersreportDetailsBusinessDate | `DateInput!` | Business Date<br>`@mandatoryInput` |
+| managersreportdetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| managersreportDetailsBusinessDate | `DateInput` | Business Date<br>`@conditionalInputPair(pair: 2)` |
 | managersreportDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| managersreportDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| managersreportDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | managersreportDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| managersreportDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| managersreportDetailsRoomClass | `StringInput` | Room Class |
+| managersreportDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| managersreportDetailsRoomClass | `StringInput` | Room Class<br>`@conditionalInputPair(pair: 2)` |
 | gregeriancalendarDetailsDaykey | `DateInput` | Business Date |
 | gregeriancalendarDetailsCalendarcode | `StringInput` | Calendar |
 | gregeriancalendarDetailsCalendarpkid | `FloatInput` | Calendarpkid |
@@ -1304,9 +1306,14 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
-- managersreportDetailsBusinessDate
+**`conditionalInputPair(pair: 1)`**
+- managersreportdetailsChainCode
 - managersreportDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- managersreportDetailsBusinessDate
+- managersreportDetailsJrnupdatedttm
+- managersreportDetailsRoomClass
 
 
 [⬆ Back to Query](#query)
@@ -1318,6 +1325,7 @@
 query statisticsManagersReport($input: StatisticsManagersReportQueryArgumentsType!) {
   statisticsManagersReport(input: $input) @stream {
     managersReportDetails {
+      chainCode
       adultsFree
       adultsInHouse
       advFoodRevenue
@@ -2132,6 +2140,7 @@ query statisticsManagersReport($input: StatisticsManagersReportQueryArgumentsTyp
   
 ```python
 managers_report_details_schema = {
+    'chainCode': pl.Utf8,
     'adultsFree': pl.Float64,
     'adultsInHouse': pl.Float64,
     'advFoodRevenue': pl.Float64,

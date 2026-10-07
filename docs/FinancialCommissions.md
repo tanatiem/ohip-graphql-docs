@@ -1329,27 +1329,27 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| commissionagentDetailsActiveYn | `StringInput` | Active Flag |
-| commissionagentDetailsChainCode | `StringInput!` | Chain Code<br>`@mandatoryInput` |
+| commissionagentDetailsActiveYn | `StringInput` | Active Flag<br>`@conditionalInputPair(pair: 2)` |
+| commissionagentDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
 | commissionagentDetailsCompany | `StringInput` | Company |
-| commissionagentDetailsNameCode | `StringInput` | Corp ID |
+| commissionagentDetailsNameCode | `StringInput` | Corp ID<br>`@conditionalInputPair(pair: 2)` |
 | commissionagentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | commissionagentDetailsHistoryYn | `StringInput` | History Y/N |
-| commissionagentDetailsInactiveDate | `DateTimeInput` | Inactive Date |
+| commissionagentDetailsInactiveDate | `DateTimeInput` | Inactive Date<br>`@conditionalInputPair(pair: 2)` |
 | commissionagentDetailsOrganizationId | `FloatInput` | Organization ID |
-| commissionagentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| commissionagentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | commissionagentDetailsLast | `StringInput` | Last |
-| commissionagentDetailsNameId | `FloatInput` | Name ID |
+| commissionagentDetailsNameId | `FloatInput` | Name ID<br>`@conditionalInputPair(pair: 2)` |
 | commissionagentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | commissionagentDetailsProfileType | `StringInput` | Profile Type |
-| commissionagentDetailsNameType | `StringInput` | Profile Type Code |
+| commissionagentDetailsNameType | `StringInput` | Profile Type Code<br>`@conditionalInputPair(pair: 2)` |
 | commissionagentDetailsResortRegistered | `StringInput` | Resort for which Job is registered. |
-| commissionagentDetailsSfirst | `StringInput` | Uppercase value of First Name. |
-| commissionagentDetailsSname | `StringInput` | The Uppercase value of Last or Company. |
-| commissionagentDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name. |
-| commissionagentDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name. |
-| commissionagentDetailsProfileId | `FloatInput` | Top Account ID |
-| commissionagentDetailsUpdateDate | `DateTimeInput` | Update Date |
+| commissionagentDetailsSfirst | `StringInput` | Uppercase value of First Name.<br>`@conditionalInputPair(pair: 2)` |
+| commissionagentDetailsSname | `StringInput` | The Uppercase value of Last or Company.<br>`@conditionalInputPair(pair: 2)` |
+| commissionagentDetailsSxfirstName | `StringInput` | Internal Indexed field for Searching by Extended Byte First Name.<br>`@conditionalInputPair(pair: 2)` |
+| commissionagentDetailsSxname | `StringInput` | Internal Indexed field for Searching by Extended Byte Name.<br>`@conditionalInputPair(pair: 2)` |
+| commissionagentDetailsProfileId | `FloatInput` | Top Account ID<br>`@conditionalInputPair(pair: 2)` |
+| commissionagentDetailsUpdateDate | `DateTimeInput` | Update Date<br>`@conditionalInputPair(pair: 2)` |
 | profilecommbankaccountDetailsAccountId | `FloatInput` | Account ID |
 | profilecommbankaccountDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | profilecommbankaccountDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
@@ -1422,8 +1422,22 @@
 | checkregisterDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - commissionagentDetailsChainCode
+
+**`conditionalInputPair(pair: 2)`**
+- commissionagentDetailsActiveYn
+- commissionagentDetailsNameCode
+- commissionagentDetailsInactiveDate
+- commissionagentDetailsJrnupdatedttm
+- commissionagentDetailsNameId
+- commissionagentDetailsNameType
+- commissionagentDetailsSfirst
+- commissionagentDetailsSname
+- commissionagentDetailsSxfirstName
+- commissionagentDetailsSxname
+- commissionagentDetailsProfileId
+- commissionagentDetailsUpdateDate
 
 
 [⬆ Back to Query](#query)

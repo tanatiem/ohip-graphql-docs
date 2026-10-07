@@ -36,141 +36,142 @@
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | adults | `Float` | Adults |
-| 2 | agentId | `Float` | Agent ID |
-| 3 | arrivalPersons | `Float` | Arrival Persons |
-| 4 | arrivalRooms | `Float` | Arrival Rooms |
-| 5 | averageRate | `Float` | Average Rate |
-| 6 | blockStatus | `String` | Block Status |
-| 7 | bookingStatus | `String` | Booking Status |
-| 8 | bookingStatusDescription | `String` | Booking Status Description |
-| 9 | businessDate | `Date` | Filter Date |
-| 10 | cAverageRate | `Float` | Central Average Rate |
-| 11 | cExtraRevenue | `Float` | Central Extra Revenue |
-| 12 | cGrossRateAmount | `Float` | Central Gross Rate Amount |
-| 13 | cNetRoomRevenueAmount | `Float` | Central Net Room Revenue Amount |
-| 14 | cancelledRooms | `Float` | Cancelled Rooms |
-| 15 | cashRoomNights | `Float` | Cash Room Nights |
-| 16 | centralBookingStatus | `String` | Central Booking Status |
-| 17 | centralBookingStatusDescription | `String` | Central Booking Status Description |
-| 18 | centralDayUseExtraRevenue | `Float` | Central Day Use Extra Revenue |
-| 19 | centralDayUseGrossRate | `Float` | Central Day Use Gross Rate |
-| 20 | centralFoodRevenue | `Float` | Central Food Revenue |
-| 21 | centralGrossRate | `Float` | Central Gross Rate |
-| 22 | centralMarketCode | `String` | Central Market Code |
-| 23 | centralMarketDescription | `String` | Central Market Description |
-| 24 | centralMarketDisplaySequence | `Float` | Central Market Display Sequence |
-| 25 | centralMarketGroupCode | `String` | Central Market Group Code |
-| 26 | centralMarketGroupDescription | `String` | Central Market Group Description |
-| 27 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
-| 28 | centralOriginCode | `String` | Central Origin Code |
-| 29 | centralOriginDescription | `String` | Central Origin Description |
-| 30 | centralOriginDisplaySequence | `Float` | Central Origin Display Sequence |
-| 31 | centralOtherRevenue | `Float` | Central Other Revenue |
-| 32 | centralRateCategory | `String` | Central Rate Category |
-| 33 | centralRoomClass | `String` | Central Room Class |
-| 34 | centralRoomClassDescription | `String` | Central Room Class Description |
-| 35 | centralRoomRevenue | `Float` | Central Room Revenue |
-| 36 | centralRoomType | `String` | Central Room Type |
-| 37 | centralRoomTypeDescription | `String` | Central Room Type Description |
-| 38 | centralSourceCode | `String` | Central Source Code |
-| 39 | centralSourceDescription | `String` | Central Source Description |
-| 40 | centralSourceDisplaySequence | `Float` | Central Source Display Sequence |
-| 41 | centralSourceGroupCode | `String` | Central Source Group Code |
-| 42 | centralSourceGroupDescription | `String` | Central Source Group Description |
-| 43 | centralSourceGroupDisplaySequence | `Float` | Central Source Group Display Sequence |
-| 44 | centralTotalRevenue | `Float` | Central Total Revenue |
-| 45 | children | `Float` | Children |
-| 46 | complimentaryRoomNights | `Float` | Complimentary Room Nights |
-| 47 | country | `String` | Country |
-| 48 | countryCode | `String` | Country Code |
-| 49 | cribs | `Float` | Cribs |
-| 50 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 51 | dayUseExtraRevenue | `Float` | Day Use Extra Revenue |
-| 52 | dayUseGrossRate | `Float` | Day Use Gross Rate |
-| 53 | dayUseNetRoomRevenue | `Float` | Day Use Net Room Revenue |
-| 54 | dayUsePersons | `Float` | Day Use Persons |
-| 55 | dayUseRooms | `Float` | Day Use Rooms |
-| 56 | dayUseYn | `String` | Day Use Y/N |
-| 57 | deductGroupRooms | `Float` | Deduct Group Rooms |
-| 58 | deductIndividualRooms | `Float` | Deduct Individual Rooms |
-| 59 | departurePersons | `Float` | Departure Persons |
-| 60 | departureRooms | `Float` | Departure Rooms |
-| 61 | eventType | `String` | Event Type |
-| 62 | extraBeds | `Float` | Extra Beds |
-| 63 | extraRevenue | `Float` | Extra Revenue |
-| 64 | foodRevenue | `Float` | Food Revenue |
-| 65 | grossRate | `Float` | Gross Rate |
-| 66 | grossRateAmount | `Float` | Gross Rate Amount |
-| 67 | historyForecast | `String` | History Forecast |
-| 68 | houseUse | `Float` | House Use |
-| 69 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 70 | marketCode | `String` | Market Code |
-| 71 | marketDescription | `String` | Market Description |
-| 72 | marketDisplaySequence | `Float` | Market Display Sequence |
-| 73 | marketGroupCode | `String` | Market group attached to the market code |
-| 74 | marketGroupDescription | `String` | Market Group Description |
-| 75 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
-| 76 | netRoomRevenue | `Float` | Net Room Revenue |
-| 77 | netRoomRevenueAmount | `Float` | Net Room Revenue Amount |
-| 78 | noShowRooms | `Float` | No-Show Rooms |
-| 79 | nonDeductGroupRooms | `Float` | Non-Deduct Group Rooms |
-| 80 | nonDeductIndividualRooms | `Float` | Non-Deduct Individual Rooms |
-| 81 | numberRooms | `Float` | Number Rooms |
-| 82 | numberOfGuests | `Float` | Number of Guests |
-| 83 | numberOfRooms | `Float` | Number of Rooms |
-| 84 | occupancyPerc | `Float` | Occupancy Perc |
-| 85 | oooCount | `Float` | Ooo Count |
-| 86 | oooRooms | `Float` | Number of Rooms marked as Out of Order for today |
-| 87 | oooRoomsType | `Float` | Ooo Rooms Type |
-| 88 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 89 | originCode | `String` | Origin Code |
-| 90 | originDescription | `String` | Origin Description |
-| 91 | originDisplaySequence | `Float` | Origin Display Sequence |
-| 92 | otherRevenue | `Float` | Other Revenue |
-| 93 | parentCompanyId | `Float` | Parent Company ID |
-| 94 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
-| 95 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 96 | property | `String` | Code to uniquely identify the Property |
-| 97 | pseudoRoomYN | `String` | Pseudo Room YN |
-| 98 | rateCategory | `String` | Rate Category |
-| 99 | rateCode | `String` | Rate Code |
-| 100 | regionCode | `String` | Region Code |
-| 101 | regionDescription | `String` | Region Description |
-| 102 | remainingBlockRooms | `Float` | Remaining Block Rooms |
-| 103 | reservationInventoryType | `String` | Reservation Inventory Type |
-| 104 | reservationType | `String` | Reservation Type |
-| 105 | resortNumberRooms | `Float` | Property Number Rooms |
-| 106 | resortPhyNumRooms | `Float` | Property Phy Num Rooms |
-| 107 | resortPhysicalNumberRooms | `Float` | Property Physical Number Rooms |
-| 108 | resortPhysicalNumberRoomsCount | `Float` | Property Physical Number Rooms Count |
-| 109 | roomCatPhyNumRooms | `Float` | Room Catering Phy Num Rooms |
-| 110 | roomCatPhysicalNumberRooms | `Float` | Room Catering Physical Number Rooms |
-| 111 | roomCatPhysicalNumberRoomsCount | `Float` | Room Catering Physical Number Rooms Count |
-| 112 | roomCategory | `String` | Room Category |
-| 113 | roomClass | `String` | Room Class |
-| 114 | roomClassDescription | `String` | Room Class Description |
-| 115 | roomNights | `Float` | Room Nights |
-| 116 | roomRevenue | `Float` | Room Revenue |
-| 117 | roomType | `String` | Room Type |
-| 118 | roomTypeDescription | `String` | Room Type Description |
-| 119 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
-| 120 | sourceCode | `String` | Source Code |
-| 121 | sourceDescription | `String` | Source Description |
-| 122 | sourceDisplaySequence | `Float` | Source Display Sequence |
-| 123 | sourceGroupCode | `String` | Source group of the source code |
-| 124 | sourceGroupDescription | `String` | Source Group Description |
-| 125 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| 126 | sourceProfId | `Float` | Source Prof ID |
-| 127 | totalCount | `Float` | Total Count |
-| 128 | totalOccupancy | `Float` | Total Occupancy |
-| 129 | totalPhyResortRooms | `Float` | Tot Phy Property Rooms |
-| 130 | totalPhyResortRoomsCount | `Float` | Tot Phy Property Rooms Count |
-| 131 | totalPhyRooms | `Float` | Total Phy Rooms |
-| 132 | totalPhyRoomsCount | `Float` | Total Phy Rooms Count |
-| 133 | totalRevenue | `Float` | Total Revenue |
-| 134 | waitlistPersons | `Float` | Waitlist Persons |
-| 135 | waitlistRooms | `Float` | Waitlist Rooms |
+| 1 | chainCode | `String` | CHAIN_CODE |
+| 2 | adults | `Float` | Adults |
+| 3 | agentId | `Float` | Agent ID |
+| 4 | arrivalPersons | `Float` | Arrival Persons |
+| 5 | arrivalRooms | `Float` | Arrival Rooms |
+| 6 | averageRate | `Float` | Average Rate |
+| 7 | blockStatus | `String` | Block Status |
+| 8 | bookingStatus | `String` | Booking Status |
+| 9 | bookingStatusDescription | `String` | Booking Status Description |
+| 10 | businessDate | `Date` | Filter Date |
+| 11 | cAverageRate | `Float` | Central Average Rate |
+| 12 | cExtraRevenue | `Float` | Central Extra Revenue |
+| 13 | cGrossRateAmount | `Float` | Central Gross Rate Amount |
+| 14 | cNetRoomRevenueAmount | `Float` | Central Net Room Revenue Amount |
+| 15 | cancelledRooms | `Float` | Cancelled Rooms |
+| 16 | cashRoomNights | `Float` | Cash Room Nights |
+| 17 | centralBookingStatus | `String` | Central Booking Status |
+| 18 | centralBookingStatusDescription | `String` | Central Booking Status Description |
+| 19 | centralDayUseExtraRevenue | `Float` | Central Day Use Extra Revenue |
+| 20 | centralDayUseGrossRate | `Float` | Central Day Use Gross Rate |
+| 21 | centralFoodRevenue | `Float` | Central Food Revenue |
+| 22 | centralGrossRate | `Float` | Central Gross Rate |
+| 23 | centralMarketCode | `String` | Central Market Code |
+| 24 | centralMarketDescription | `String` | Central Market Description |
+| 25 | centralMarketDisplaySequence | `Float` | Central Market Display Sequence |
+| 26 | centralMarketGroupCode | `String` | Central Market Group Code |
+| 27 | centralMarketGroupDescription | `String` | Central Market Group Description |
+| 28 | centralNetRoomRevenue | `Float` | Central Net Room Revenue |
+| 29 | centralOriginCode | `String` | Central Origin Code |
+| 30 | centralOriginDescription | `String` | Central Origin Description |
+| 31 | centralOriginDisplaySequence | `Float` | Central Origin Display Sequence |
+| 32 | centralOtherRevenue | `Float` | Central Other Revenue |
+| 33 | centralRateCategory | `String` | Central Rate Category |
+| 34 | centralRoomClass | `String` | Central Room Class |
+| 35 | centralRoomClassDescription | `String` | Central Room Class Description |
+| 36 | centralRoomRevenue | `Float` | Central Room Revenue |
+| 37 | centralRoomType | `String` | Central Room Type |
+| 38 | centralRoomTypeDescription | `String` | Central Room Type Description |
+| 39 | centralSourceCode | `String` | Central Source Code |
+| 40 | centralSourceDescription | `String` | Central Source Description |
+| 41 | centralSourceDisplaySequence | `Float` | Central Source Display Sequence |
+| 42 | centralSourceGroupCode | `String` | Central Source Group Code |
+| 43 | centralSourceGroupDescription | `String` | Central Source Group Description |
+| 44 | centralSourceGroupDisplaySequence | `Float` | Central Source Group Display Sequence |
+| 45 | centralTotalRevenue | `Float` | Central Total Revenue |
+| 46 | children | `Float` | Children |
+| 47 | complimentaryRoomNights | `Float` | Complimentary Room Nights |
+| 48 | country | `String` | Country |
+| 49 | countryCode | `String` | Country Code |
+| 50 | cribs | `Float` | Cribs |
+| 51 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 52 | dayUseExtraRevenue | `Float` | Day Use Extra Revenue |
+| 53 | dayUseGrossRate | `Float` | Day Use Gross Rate |
+| 54 | dayUseNetRoomRevenue | `Float` | Day Use Net Room Revenue |
+| 55 | dayUsePersons | `Float` | Day Use Persons |
+| 56 | dayUseRooms | `Float` | Day Use Rooms |
+| 57 | dayUseYn | `String` | Day Use Y/N |
+| 58 | deductGroupRooms | `Float` | Deduct Group Rooms |
+| 59 | deductIndividualRooms | `Float` | Deduct Individual Rooms |
+| 60 | departurePersons | `Float` | Departure Persons |
+| 61 | departureRooms | `Float` | Departure Rooms |
+| 62 | eventType | `String` | Event Type |
+| 63 | extraBeds | `Float` | Extra Beds |
+| 64 | extraRevenue | `Float` | Extra Revenue |
+| 65 | foodRevenue | `Float` | Food Revenue |
+| 66 | grossRate | `Float` | Gross Rate |
+| 67 | grossRateAmount | `Float` | Gross Rate Amount |
+| 68 | historyForecast | `String` | History Forecast |
+| 69 | houseUse | `Float` | House Use |
+| 70 | locationID | `String` | Internal ID to uniquely identify the Property |
+| 71 | marketCode | `String` | Market Code |
+| 72 | marketDescription | `String` | Market Description |
+| 73 | marketDisplaySequence | `Float` | Market Display Sequence |
+| 74 | marketGroupCode | `String` | Market group attached to the market code |
+| 75 | marketGroupDescription | `String` | Market Group Description |
+| 76 | multipleOccupancyRooms | `Float` | Multiple Occupancy Rooms |
+| 77 | netRoomRevenue | `Float` | Net Room Revenue |
+| 78 | netRoomRevenueAmount | `Float` | Net Room Revenue Amount |
+| 79 | noShowRooms | `Float` | No-Show Rooms |
+| 80 | nonDeductGroupRooms | `Float` | Non-Deduct Group Rooms |
+| 81 | nonDeductIndividualRooms | `Float` | Non-Deduct Individual Rooms |
+| 82 | numberRooms | `Float` | Number Rooms |
+| 83 | numberOfGuests | `Float` | Number of Guests |
+| 84 | numberOfRooms | `Float` | Number of Rooms |
+| 85 | occupancyPerc | `Float` | Occupancy Perc |
+| 86 | oooCount | `Float` | Ooo Count |
+| 87 | oooRooms | `Float` | Number of Rooms marked as Out of Order for today |
+| 88 | oooRoomsType | `Float` | Ooo Rooms Type |
+| 89 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 90 | originCode | `String` | Origin Code |
+| 91 | originDescription | `String` | Origin Description |
+| 92 | originDisplaySequence | `Float` | Origin Display Sequence |
+| 93 | otherRevenue | `Float` | Other Revenue |
+| 94 | parentCompanyId | `Float` | Parent Company ID |
+| 95 | pickedUpBlockRooms | `Float` | Picked-Up Block Rooms |
+| 96 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 97 | property | `String` | Code to uniquely identify the Property |
+| 98 | pseudoRoomYN | `String` | Pseudo Room YN |
+| 99 | rateCategory | `String` | Rate Category |
+| 100 | rateCode | `String` | Rate Code |
+| 101 | regionCode | `String` | Region Code |
+| 102 | regionDescription | `String` | Region Description |
+| 103 | remainingBlockRooms | `Float` | Remaining Block Rooms |
+| 104 | reservationInventoryType | `String` | Reservation Inventory Type |
+| 105 | reservationType | `String` | Reservation Type |
+| 106 | resortNumberRooms | `Float` | Property Number Rooms |
+| 107 | resortPhyNumRooms | `Float` | Property Phy Num Rooms |
+| 108 | resortPhysicalNumberRooms | `Float` | Property Physical Number Rooms |
+| 109 | resortPhysicalNumberRoomsCount | `Float` | Property Physical Number Rooms Count |
+| 110 | roomCatPhyNumRooms | `Float` | Room Catering Phy Num Rooms |
+| 111 | roomCatPhysicalNumberRooms | `Float` | Room Catering Physical Number Rooms |
+| 112 | roomCatPhysicalNumberRoomsCount | `Float` | Room Catering Physical Number Rooms Count |
+| 113 | roomCategory | `String` | Room Category |
+| 114 | roomClass | `String` | Room Class |
+| 115 | roomClassDescription | `String` | Room Class Description |
+| 116 | roomNights | `Float` | Room Nights |
+| 117 | roomRevenue | `Float` | Room Revenue |
+| 118 | roomType | `String` | Room Type |
+| 119 | roomTypeDescription | `String` | Room Type Description |
+| 120 | singleOccupancyRooms | `Float` | Single Occupancy Rooms |
+| 121 | sourceCode | `String` | Source Code |
+| 122 | sourceDescription | `String` | Source Description |
+| 123 | sourceDisplaySequence | `Float` | Source Display Sequence |
+| 124 | sourceGroupCode | `String` | Source group of the source code |
+| 125 | sourceGroupDescription | `String` | Source Group Description |
+| 126 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
+| 127 | sourceProfId | `Float` | Source Prof ID |
+| 128 | totalCount | `Float` | Total Count |
+| 129 | totalOccupancy | `Float` | Total Occupancy |
+| 130 | totalPhyResortRooms | `Float` | Tot Phy Property Rooms |
+| 131 | totalPhyResortRoomsCount | `Float` | Tot Phy Property Rooms Count |
+| 132 | totalPhyRooms | `Float` | Total Phy Rooms |
+| 133 | totalPhyRoomsCount | `Float` | Total Phy Rooms Count |
+| 134 | totalRevenue | `Float` | Total Revenue |
+| 135 | waitlistPersons | `Float` | Waitlist Persons |
+| 136 | waitlistRooms | `Float` | Waitlist Rooms |
 
 [⬆ Back to Query](#query)
 
@@ -1668,10 +1669,12 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
+| historyforecastdetailsChainCode | `StringInput` | CHAIN_CODE<br>`@conditionalInputPair(pair: 1)` |
+| historyforecastDetailsAgentId | `FloatInput` | Agent ID<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsBlockStatus | `StringInput` | Block Status |
 | historyforecastDetailsBookingStatus | `StringInput` | Booking Status |
 | historyforecastDetailsBookingStatusDescription | `StringInput` | Booking Status Description |
-| historyforecastDetailsFilterDate | `DateInput!` | Filter Date<br>`@mandatoryInput` |
+| historyforecastDetailsFilterDate | `DateInput` | Filter Date<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsRepBookingStatus | `StringInput` | Central Booking Status |
 | historyforecastDetailsRepBookingStatusDescription | `StringInput` | Central Booking Status Description |
 | historyforecastDetailsRepMarketCode | `StringInput` | Central Market Code |
@@ -1693,26 +1696,26 @@
 | historyforecastDetailsCountry | `StringInput` | Country Code |
 | historyforecastDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | historyforecastDetailsDayUseYn | `StringInput` | Day Use Y/N |
-| historyforecastDetailsEventType | `StringInput` | Event Type |
+| historyforecastDetailsEventType | `StringInput` | Event Type<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsHistoryForecast | `StringInput` | History Forecast |
 | historyforecastDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
-| historyforecastDetailsMarketCode | `StringInput` | Market Code |
+| historyforecastDetailsMarketCode | `StringInput` | Market Code<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsMarketCodeDeacription | `StringInput` | Market Description |
 | historyforecastDetailsParentMarketCode | `StringInput` | Market group attached to the market code |
 | historyforecastDetailsParentMarketCodeDesc | `StringInput` | Market Group Description |
 | historyforecastDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | historyforecastDetailsChannel | `StringInput` | Origin Code |
 | historyforecastDetailsChannelDescription | `StringInput` | Origin Description |
-| historyforecastDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| historyforecastDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | historyforecastDetailsPsuedoRoomYn | `StringInput` | Pseudo Room YN |
 | historyforecastDetailsRateCategory | `StringInput` | Rate Category |
-| historyforecastDetailsRateCode | `StringInput` | Rate Code |
+| historyforecastDetailsRateCode | `StringInput` | Rate Code<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsRegionCode | `StringInput` | Region Code |
 | historyforecastDetailsRegionDescription | `StringInput` | Region Description |
-| historyforecastDetailsResvInvType | `StringInput` | Reservation Inventory Type |
+| historyforecastDetailsResvInvType | `StringInput` | Reservation Inventory Type<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsResvType | `StringInput` | Reservation Type |
-| historyforecastDetailsRoomCategory | `StringInput` | Room Category |
-| historyforecastDetailsRoomClass | `StringInput` | Room Class |
+| historyforecastDetailsRoomCategory | `StringInput` | Room Category<br>`@conditionalInputPair(pair: 2)` |
+| historyforecastDetailsRoomClass | `StringInput` | Room Class<br>`@conditionalInputPair(pair: 2)` |
 | historyforecastDetailsRoomClassDescription | `StringInput` | Room Class Description |
 | historyforecastDetailsRoomCategoryCode | `StringInput` | Room Type |
 | historyforecastDetailsRoomCategoryDescription | `StringInput` | Room Type Description |
@@ -2071,9 +2074,19 @@
 | reservationprofileaccountscompanyDetailsUpdateDate | `DateTimeInput` | Update Date |
 #### Validation Rules
 
-**`mandatoryInput`**
-- historyforecastDetailsFilterDate
+**`conditionalInputPair(pair: 1)`**
+- historyforecastdetailsChainCode
 - historyforecastDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- historyforecastDetailsAgentId
+- historyforecastDetailsFilterDate
+- historyforecastDetailsEventType
+- historyforecastDetailsMarketCode
+- historyforecastDetailsRateCode
+- historyforecastDetailsResvInvType
+- historyforecastDetailsRoomCategory
+- historyforecastDetailsRoomClass
 
 
 [⬆ Back to Query](#query)
@@ -2085,6 +2098,7 @@
 query statisticsHistoryAndForecast($input: StatisticsHistoryAndForecastQueryArgumentsType!) {
   statisticsHistoryAndForecast(input: $input) @stream {
     historyForecastDetails {
+      chainCode
       adults
       agentId
       arrivalPersons
@@ -3559,6 +3573,7 @@ query statisticsHistoryAndForecast($input: StatisticsHistoryAndForecastQueryArgu
   
 ```python
 history_forecast_details_schema = {
+    'chainCode': pl.Utf8,
     'adults': pl.Float64,
     'agentId': pl.Float64,
     'arrivalPersons': pl.Float64,

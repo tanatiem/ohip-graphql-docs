@@ -503,218 +503,216 @@
 | 208 | negotiatedRateCodes | `String` | The rate code for which this record applies. |
 | 209 | nextStay | `Date` | This is a begin_date  with no  time component. |
 | 210 | nickname | `String` | The nickname of this individual. |
-| 211 | organizationID | `Float` | Organization ID |
-| 212 | origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
-| 213 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
-| 214 | phone | `String` | The phone number for this record |
-| 215 | phoneWeb | `String` | The phone number for this record |
-| 216 | phoneYN | `String` | Phone YN |
-| 217 | postalCode | `String` | The postal code of this address. |
-| 218 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
-| 219 | preferredRoomNo | `String` | Preferred Room Number |
-| 220 | primaryAddressId | `Float` | Not used. |
-| 221 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 222 | primaryNameId | `Float` | Not Used. |
-| 223 | primaryOwner | `String` | Primary Owner |
-| 224 | primaryOwnerCode | `String` | Primary Owner Code |
-| 225 | primaryPhoneId | `Float` | Not used. |
-| 226 | priority | `String` | Priority of the account |
-| 227 | priorityDesc | `String` | The description of this value. |
-| 228 | privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
-| 229 | productInterest | `String` | Preference Code. Part of the Primary Key. |
-| 230 | profession | `String` | The profession of the Individual |
-| 231 | profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
-| 232 | profileId | `Float` | The primary key for this table. |
-| 233 | profileType | `String` | The type of Profile. |
-| 234 | propertyRegistered | `String` | Resort for which Job is registered. |
-| 235 | protected | `String` | Protected |
-| 236 | psuedoProfileYn | `String` | Psuedo Profile Y/N |
-| 237 | rateStructure | `String` | The default rate structure for this name. |
-| 238 | region | `String` | The region for this name. |
-| 239 | regionid | `String` | The region for this name. |
-| 240 | repAccountTypeDescription | `String` | Reporting Account Type Description |
-| 241 | repAccountsource | `String` | Reporting Accountsource |
-| 242 | repAccountsourceDescription | `String` | Reporting Accountsource Desc |
-| 243 | repCompetitionCode | `String` | Reporting Competition Code |
-| 244 | repCompetitionDescription | `String` | Reporting Competition Desc |
-| 245 | repCorpTypeDescription | `String` | Reporting Corp Type Desc |
-| 246 | repIndustryCode | `String` | Reporting Industry Code |
-| 247 | repIndustryDescription | `String` | Reporting Industry Desc |
-| 248 | repInfluence | `String` | Reporting Influence |
-| 249 | repInfluenceDescription | `String` | Reporting Influence Desc |
-| 250 | repNameType | `String` | Reporting Name Type |
-| 251 | repNameTypeDescription | `String` | Reporting Name Type Description |
-| 252 | repNationalityCode | `String` | Rep Nationality Code |
-| 253 | repNationalityDescription | `String` | Rep Nationality Description |
-| 254 | repPriorityDescription | `String` | Reporting Priority Desc |
-| 255 | repRoomsPotential | `String` | Reporting Rooms Potential |
-| 256 | repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
-| 257 | repScope | `String` | Reporting Scope |
-| 258 | repScopeCity | `String` | Reporting Scope City |
-| 259 | repScopeCityDescription | `String` | Reporting Scope City Desc |
-| 260 | repScopeDescription | `String` | Reporting Scope Desc |
-| 261 | repStateDescription | `String` | Reporting State Desc |
-| 262 | repTaxTypeDescription | `String` | Reporting Tax Type Desc |
-| 263 | repTerritoryDescription | `String` | Reporting Territory Desc |
-| 264 | repTitleName | `String` | Reporting Title Name |
-| 265 | repeatGuestId | `String` | The primary membership # for this guest. |
-| 266 | replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
-| 267 | requestType | `String` | This column store the Name of the Company Profiles. |
-| 268 | restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
-| 269 | restrictedRule | `String` | The description of this value. |
-| 270 | resvContact | `String` | Reservation Contact person. |
-| 271 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 272 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 273 | roomsPotential | `String` | Potential no of rooms per year for a account |
-| 274 | roomsPotentialDesc | `String` | The description of this value. |
-| 275 | sMSYN | `String` | Use this alert to text a notification. |
-| 276 | salutation | `String` | Salutation Greeting |
-| 277 | scope | `String` | Scope of the account |
-| 278 | scopeCity | `String` | Scope City |
-| 279 | scopeCityDesc | `String` | The description of this value. |
-| 280 | scopeDesc | `String` | The description of this value. |
-| 281 | searchName | `String` | The Uppercase value of Last or Company. |
-| 282 | searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
-| 283 | sfirst | `String` | Uppercase value of First Name. |
-| 284 | soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
-| 285 | soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
-| 286 | srepCode | `String` | Used in QMS Module |
-| 287 | state | `String` | The state of this address. |
-| 288 | stateCode | `String` | State Code |
-| 289 | stateDescription | `String` | Description of the state. |
-| 290 | summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
-| 291 | summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
-| 292 | superSearchIndexText | `String` | Used in Oracle Text Index. |
-| 293 | sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
-| 294 | taxCategory | `String` | Tax Category |
-| 295 | taxExemptStatus | `String` | Not used. |
-| 296 | taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
-| 297 | taxID2 | `String` | Tax No |
-| 298 | taxOffice | `String` | Tax Office Name |
-| 299 | taxType | `String` | Tax Type |
-| 300 | territory | `String` | TERRITORY of  a account |
-| 301 | territoryDesc | `String` | The description of this value. |
-| 302 | thirdPartyYN | `String` | Third Party YN |
-| 303 | titleAlternate | `String` | Title Alternate |
-| 304 | titleName | `String` | The description of this value. |
-| 305 | titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
-| 306 | totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
-| 307 | tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
-| 308 | traceCode | `String` | Code to Trace a record for all Triggered actions. |
-| 309 | tracecodeDesc | `String` | Description |
-| 310 | typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
-| 311 | uDFC01 | `String` | User defined character field. |
-| 312 | uDFC02 | `String` | User defined character field. |
-| 313 | uDFC03 | `String` | User defined character field. |
-| 314 | uDFC04 | `String` | User defined character field. |
-| 315 | uDFC05 | `String` | User defined character field. |
-| 316 | uDFC06 | `String` | User defined character field. |
-| 317 | uDFC07 | `String` | User defined character field. |
-| 318 | uDFC08 | `String` | User defined character field. |
-| 319 | uDFC09 | `String` | User defined character field. |
-| 320 | uDFC10 | `String` | User defined character field. |
-| 321 | uDFC11 | `String` | User defined character field. |
-| 322 | uDFC12 | `String` | User defined character field. |
-| 323 | uDFC13 | `String` | User defined character field. |
-| 324 | uDFC14 | `String` | User defined character field. |
-| 325 | uDFC15 | `String` | User defined character field. |
-| 326 | uDFC16 | `String` | User defined character field. |
-| 327 | uDFC17 | `String` | User defined character field. |
-| 328 | uDFC18 | `String` | User defined character field. |
-| 329 | uDFC19 | `String` | User defined character field. |
-| 330 | uDFC20 | `String` | User defined character field. |
-| 331 | uDFC21 | `String` | User defined character field. |
-| 332 | uDFC22 | `String` | User defined character field. |
-| 333 | uDFC23 | `String` | User defined character field. |
-| 334 | uDFC24 | `String` | User defined character field. |
-| 335 | uDFC25 | `String` | User defined character field. |
-| 336 | uDFC26 | `String` | User defined character field. |
-| 337 | uDFC27 | `String` | User defined character field. |
-| 338 | uDFC28 | `String` | User defined character field. |
-| 339 | uDFC29 | `String` | User defined character field. |
-| 340 | uDFC30 | `String` | User defined character field. |
-| 341 | uDFC31 | `String` | User defined character field. |
-| 342 | uDFC32 | `String` | User defined character field. |
-| 343 | uDFC33 | `String` | User defined character field. |
-| 344 | uDFC34 | `String` | User defined character field. |
-| 345 | uDFC35 | `String` | User defined character field. |
-| 346 | uDFC36 | `String` | User defined character field. |
-| 347 | uDFC37 | `String` | User defined character field. |
-| 348 | uDFC38 | `String` | User defined character field. |
-| 349 | uDFC39 | `String` | User defined character field. |
-| 350 | uDFC40 | `String` | User defined character field. |
-| 351 | uDFD01 | `Date` | User defined date field. |
-| 352 | uDFD02 | `Date` | User defined date field. |
-| 353 | uDFD03 | `Date` | User defined date field. |
-| 354 | uDFD04 | `Date` | User defined date field. |
-| 355 | uDFD05 | `Date` | User defined date field. |
-| 356 | uDFD06 | `Date` | User defined date field. |
-| 357 | uDFD07 | `Date` | User defined date field. |
-| 358 | uDFD08 | `Date` | User defined date field. |
-| 359 | uDFD09 | `Date` | User defined date field. |
-| 360 | uDFD10 | `Date` | User defined date field. |
-| 361 | uDFD11 | `Date` | User defined date field. |
-| 362 | uDFD12 | `Date` | User defined date field. |
-| 363 | uDFD13 | `Date` | User defined date field. |
-| 364 | uDFD14 | `Date` | User defined date field. |
-| 365 | uDFD15 | `Date` | User defined date field. |
-| 366 | uDFD16 | `Date` | User defined date field. |
-| 367 | uDFD17 | `Date` | User defined date field. |
-| 368 | uDFD18 | `Date` | User defined date field. |
-| 369 | uDFD19 | `Date` | User defined date field. |
-| 370 | uDFD20 | `Date` | User defined date field. |
-| 371 | uDFN01 | `Float` | User defined number field. |
-| 372 | uDFN02 | `Float` | User defined number field. |
-| 373 | uDFN03 | `Float` | User defined number field. |
-| 374 | uDFN04 | `Float` | User defined number field. |
-| 375 | uDFN05 | `Float` | User defined number field. |
-| 376 | uDFN06 | `Float` | User defined number field. |
-| 377 | uDFN07 | `Float` | User defined number field. |
-| 378 | uDFN08 | `Float` | User defined number field. |
-| 379 | uDFN09 | `Float` | User defined number field. |
-| 380 | uDFN10 | `Float` | User defined number field. |
-| 381 | uDFN11 | `Float` | User defined number field. |
-| 382 | uDFN12 | `Float` | User defined number field. |
-| 383 | uDFN13 | `Float` | User defined number field. |
-| 384 | uDFN14 | `Float` | User defined number field. |
-| 385 | uDFN15 | `Float` | User defined number field. |
-| 386 | uDFN16 | `Float` | User defined number field. |
-| 387 | uDFN17 | `Float` | User defined number field. |
-| 388 | uDFN18 | `Float` | User defined number field. |
-| 389 | uDFN19 | `Float` | User defined number field. |
-| 390 | uDFN20 | `Float` | User defined number field. |
-| 391 | uDFN21 | `Float` | User defined number field. |
-| 392 | uDFN22 | `Float` | User defined number field. |
-| 393 | uDFN23 | `Float` | User defined number field. |
-| 394 | uDFN24 | `Float` | User defined number field. |
-| 395 | uDFN25 | `Float` | User defined number field. |
-| 396 | uDFN26 | `Float` | User defined number field. |
-| 397 | uDFN27 | `Float` | User defined number field. |
-| 398 | uDFN28 | `Float` | User defined number field. |
-| 399 | uDFN29 | `Float` | User defined number field. |
-| 400 | uDFN30 | `Float` | User defined number field. |
-| 401 | uDFN31 | `Float` | User defined number field. |
-| 402 | uDFN32 | `Float` | User defined number field. |
-| 403 | uDFN33 | `Float` | User defined number field. |
-| 404 | uDFN34 | `Float` | User defined number field. |
-| 405 | uDFN35 | `Float` | User defined number field. |
-| 406 | uDFN36 | `Float` | User defined number field. |
-| 407 | uDFN37 | `Float` | User defined number field. |
-| 408 | uDFN38 | `Float` | User defined number field. |
-| 409 | uDFN39 | `Float` | User defined number field. |
-| 410 | uDFN40 | `Float` | User defined number field. |
-| 411 | updateDate | `DateTime` | The date the record was modified |
-| 412 | updateFaxDate | `Date` | The last date this record's fax # was updated. |
-| 413 | updateUser | `String` | The user that modified the record |
-| 414 | uploadDate | `Date` | Date on which the record is uploaded to laptop. |
-| 415 | vIPCode | `String` | VIP Status of the Individual. |
-| 416 | vIPDescription | `String` | The description of this value. |
-| 417 | vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
-| 418 | vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
-| 419 | vipAuthorization | `String` | Not Used. |
-| 420 | visaValidityType | `String` | Country Specific Requirement for Nigeria. |
-| 421 | xdisplayName | `String` | Xdisplay Name |
-| 422 | xmiddleName | `String` | Extended Byte middle name. |
+| 211 | origNameId | `Float` | Stores the original NAME_ID prior to a migration. |
+| 212 | paymentDueDays | `Float` | Number of days a payment is due for the account. |
+| 213 | phone | `String` | The phone number for this record |
+| 214 | phoneWeb | `String` | The phone number for this record |
+| 215 | phoneYN | `String` | Phone YN |
+| 216 | postalCode | `String` | The postal code of this address. |
+| 217 | postalCodeExtension | `String` | City Extension mainly used for UK addresses. |
+| 218 | preferredRoomNo | `String` | Preferred Room Number |
+| 219 | primaryAddressId | `Float` | Not used. |
+| 220 | primaryNameId | `Float` | Not Used. |
+| 221 | primaryOwner | `String` | Primary Owner |
+| 222 | primaryOwnerCode | `String` | Primary Owner Code |
+| 223 | primaryPhoneId | `Float` | Not used. |
+| 224 | priority | `String` | Priority of the account |
+| 225 | priorityDesc | `String` | The description of this value. |
+| 226 | privacyFlagYN | `String` | Profile privacy flag determine if the profile is marked as private for a property. |
+| 227 | productInterest | `String` | Preference Code. Part of the Primary Key. |
+| 228 | profession | `String` | The profession of the Individual |
+| 229 | profileCreditLimit | `Float` | Credit Limit amount for all AR accounts created in different properties for this profile. |
+| 230 | profileId | `Float` | The primary key for this table. |
+| 231 | profileType | `String` | The type of Profile. |
+| 232 | propertyRegistered | `String` | Resort for which Job is registered. |
+| 233 | protected | `String` | Protected |
+| 234 | psuedoProfileYn | `String` | Psuedo Profile Y/N |
+| 235 | rateStructure | `String` | The default rate structure for this name. |
+| 236 | region | `String` | The region for this name. |
+| 237 | regionid | `String` | The region for this name. |
+| 238 | repAccountTypeDescription | `String` | Reporting Account Type Description |
+| 239 | repAccountsource | `String` | Reporting Accountsource |
+| 240 | repAccountsourceDescription | `String` | Reporting Accountsource Desc |
+| 241 | repCompetitionCode | `String` | Reporting Competition Code |
+| 242 | repCompetitionDescription | `String` | Reporting Competition Desc |
+| 243 | repCorpTypeDescription | `String` | Reporting Corp Type Desc |
+| 244 | repIndustryCode | `String` | Reporting Industry Code |
+| 245 | repIndustryDescription | `String` | Reporting Industry Desc |
+| 246 | repInfluence | `String` | Reporting Influence |
+| 247 | repInfluenceDescription | `String` | Reporting Influence Desc |
+| 248 | repNameType | `String` | Reporting Name Type |
+| 249 | repNameTypeDescription | `String` | Reporting Name Type Description |
+| 250 | repNationalityCode | `String` | Rep Nationality Code |
+| 251 | repNationalityDescription | `String` | Rep Nationality Description |
+| 252 | repPriorityDescription | `String` | Reporting Priority Desc |
+| 253 | repRoomsPotential | `String` | Reporting Rooms Potential |
+| 254 | repRoomsPotentialDescription | `String` | Reporting Rooms Potential Desc |
+| 255 | repScope | `String` | Reporting Scope |
+| 256 | repScopeCity | `String` | Reporting Scope City |
+| 257 | repScopeCityDescription | `String` | Reporting Scope City Desc |
+| 258 | repScopeDescription | `String` | Reporting Scope Desc |
+| 259 | repStateDescription | `String` | Reporting State Desc |
+| 260 | repTaxTypeDescription | `String` | Reporting Tax Type Desc |
+| 261 | repTerritoryDescription | `String` | Reporting Territory Desc |
+| 262 | repTitleName | `String` | Reporting Title Name |
+| 263 | repeatGuestId | `String` | The primary membership # for this guest. |
+| 264 | replaceAddress | `String` | User option to replace address in ORS with one from PMS. |
+| 265 | requestType | `String` | This column store the Name of the Company Profiles. |
+| 266 | restricted | `String` | Normal Restricted and Cash Only informations are stored in this column. |
+| 267 | restrictedRule | `String` | The description of this value. |
+| 268 | resvContact | `String` | Reservation Contact person. |
+| 269 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 270 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 271 | roomsPotential | `String` | Potential no of rooms per year for a account |
+| 272 | roomsPotentialDesc | `String` | The description of this value. |
+| 273 | sMSYN | `String` | Use this alert to text a notification. |
+| 274 | salutation | `String` | Salutation Greeting |
+| 275 | scope | `String` | Scope of the account |
+| 276 | scopeCity | `String` | Scope City |
+| 277 | scopeCityDesc | `String` | The description of this value. |
+| 278 | scopeDesc | `String` | The description of this value. |
+| 279 | searchName | `String` | The Uppercase value of Last or Company. |
+| 280 | searchNameAlternate | `String` | Internal Indexed field for Searching by Extended Byte Name. |
+| 281 | sfirst | `String` | Uppercase value of First Name. |
+| 282 | soundExCompany | `String` | The soundex value for this company record.  Used for performance reasons when finding a name based on the Sounds. |
+| 283 | soundExLast | `String` | The soundex value for this individual record. Used for performance reasons when finding a name based on the sounds. |
+| 284 | srepCode | `String` | Used in QMS Module |
+| 285 | state | `String` | The state of this address. |
+| 286 | stateCode | `String` | State Code |
+| 287 | stateDescription | `String` | Description of the state. |
+| 288 | summRefCc | `String` | Summary Reference Currency for the Folio Generation. |
+| 289 | summRefCurrencyId | `String` | Summary Reference Currency for the Folio Generation. |
+| 290 | superSearchIndexText | `String` | Used in Oracle Text Index. |
+| 291 | sxfirstName | `String` | Internal Indexed field for Searching by Extended Byte First Name. |
+| 292 | taxCategory | `String` | Tax Category |
+| 293 | taxExemptStatus | `String` | Not used. |
+| 294 | taxID1 | `String` | The tax id of this name.  Usually issued by a government agency.  Used by 1099 printing. |
+| 295 | taxID2 | `String` | Tax No |
+| 296 | taxOffice | `String` | Tax Office Name |
+| 297 | taxType | `String` | Tax Type |
+| 298 | territory | `String` | TERRITORY of  a account |
+| 299 | territoryDesc | `String` | The description of this value. |
+| 300 | thirdPartyYN | `String` | Third Party YN |
+| 301 | titleAlternate | `String` | Title Alternate |
+| 302 | titleName | `String` | The description of this value. |
+| 303 | titleSuffix | `Float` | Stores the suffix value of the selected title code.  This will be used for Processing to External System. |
+| 304 | totalStay | `Float` | Sum of total number of stays on stay records for the time period. |
+| 305 | tourOperatorType | `String` | The type of tour operator. Only valid for tour operators/wholesalers. |
+| 306 | traceCode | `String` | Code to Trace a record for all Triggered actions. |
+| 307 | tracecodeDesc | `String` | Description |
+| 308 | typeOfTax1099 | `String` | What type of 1099 is issued to this name. |
+| 309 | uDFC01 | `String` | User defined character field. |
+| 310 | uDFC02 | `String` | User defined character field. |
+| 311 | uDFC03 | `String` | User defined character field. |
+| 312 | uDFC04 | `String` | User defined character field. |
+| 313 | uDFC05 | `String` | User defined character field. |
+| 314 | uDFC06 | `String` | User defined character field. |
+| 315 | uDFC07 | `String` | User defined character field. |
+| 316 | uDFC08 | `String` | User defined character field. |
+| 317 | uDFC09 | `String` | User defined character field. |
+| 318 | uDFC10 | `String` | User defined character field. |
+| 319 | uDFC11 | `String` | User defined character field. |
+| 320 | uDFC12 | `String` | User defined character field. |
+| 321 | uDFC13 | `String` | User defined character field. |
+| 322 | uDFC14 | `String` | User defined character field. |
+| 323 | uDFC15 | `String` | User defined character field. |
+| 324 | uDFC16 | `String` | User defined character field. |
+| 325 | uDFC17 | `String` | User defined character field. |
+| 326 | uDFC18 | `String` | User defined character field. |
+| 327 | uDFC19 | `String` | User defined character field. |
+| 328 | uDFC20 | `String` | User defined character field. |
+| 329 | uDFC21 | `String` | User defined character field. |
+| 330 | uDFC22 | `String` | User defined character field. |
+| 331 | uDFC23 | `String` | User defined character field. |
+| 332 | uDFC24 | `String` | User defined character field. |
+| 333 | uDFC25 | `String` | User defined character field. |
+| 334 | uDFC26 | `String` | User defined character field. |
+| 335 | uDFC27 | `String` | User defined character field. |
+| 336 | uDFC28 | `String` | User defined character field. |
+| 337 | uDFC29 | `String` | User defined character field. |
+| 338 | uDFC30 | `String` | User defined character field. |
+| 339 | uDFC31 | `String` | User defined character field. |
+| 340 | uDFC32 | `String` | User defined character field. |
+| 341 | uDFC33 | `String` | User defined character field. |
+| 342 | uDFC34 | `String` | User defined character field. |
+| 343 | uDFC35 | `String` | User defined character field. |
+| 344 | uDFC36 | `String` | User defined character field. |
+| 345 | uDFC37 | `String` | User defined character field. |
+| 346 | uDFC38 | `String` | User defined character field. |
+| 347 | uDFC39 | `String` | User defined character field. |
+| 348 | uDFC40 | `String` | User defined character field. |
+| 349 | uDFD01 | `Date` | User defined date field. |
+| 350 | uDFD02 | `Date` | User defined date field. |
+| 351 | uDFD03 | `Date` | User defined date field. |
+| 352 | uDFD04 | `Date` | User defined date field. |
+| 353 | uDFD05 | `Date` | User defined date field. |
+| 354 | uDFD06 | `Date` | User defined date field. |
+| 355 | uDFD07 | `Date` | User defined date field. |
+| 356 | uDFD08 | `Date` | User defined date field. |
+| 357 | uDFD09 | `Date` | User defined date field. |
+| 358 | uDFD10 | `Date` | User defined date field. |
+| 359 | uDFD11 | `Date` | User defined date field. |
+| 360 | uDFD12 | `Date` | User defined date field. |
+| 361 | uDFD13 | `Date` | User defined date field. |
+| 362 | uDFD14 | `Date` | User defined date field. |
+| 363 | uDFD15 | `Date` | User defined date field. |
+| 364 | uDFD16 | `Date` | User defined date field. |
+| 365 | uDFD17 | `Date` | User defined date field. |
+| 366 | uDFD18 | `Date` | User defined date field. |
+| 367 | uDFD19 | `Date` | User defined date field. |
+| 368 | uDFD20 | `Date` | User defined date field. |
+| 369 | uDFN01 | `Float` | User defined number field. |
+| 370 | uDFN02 | `Float` | User defined number field. |
+| 371 | uDFN03 | `Float` | User defined number field. |
+| 372 | uDFN04 | `Float` | User defined number field. |
+| 373 | uDFN05 | `Float` | User defined number field. |
+| 374 | uDFN06 | `Float` | User defined number field. |
+| 375 | uDFN07 | `Float` | User defined number field. |
+| 376 | uDFN08 | `Float` | User defined number field. |
+| 377 | uDFN09 | `Float` | User defined number field. |
+| 378 | uDFN10 | `Float` | User defined number field. |
+| 379 | uDFN11 | `Float` | User defined number field. |
+| 380 | uDFN12 | `Float` | User defined number field. |
+| 381 | uDFN13 | `Float` | User defined number field. |
+| 382 | uDFN14 | `Float` | User defined number field. |
+| 383 | uDFN15 | `Float` | User defined number field. |
+| 384 | uDFN16 | `Float` | User defined number field. |
+| 385 | uDFN17 | `Float` | User defined number field. |
+| 386 | uDFN18 | `Float` | User defined number field. |
+| 387 | uDFN19 | `Float` | User defined number field. |
+| 388 | uDFN20 | `Float` | User defined number field. |
+| 389 | uDFN21 | `Float` | User defined number field. |
+| 390 | uDFN22 | `Float` | User defined number field. |
+| 391 | uDFN23 | `Float` | User defined number field. |
+| 392 | uDFN24 | `Float` | User defined number field. |
+| 393 | uDFN25 | `Float` | User defined number field. |
+| 394 | uDFN26 | `Float` | User defined number field. |
+| 395 | uDFN27 | `Float` | User defined number field. |
+| 396 | uDFN28 | `Float` | User defined number field. |
+| 397 | uDFN29 | `Float` | User defined number field. |
+| 398 | uDFN30 | `Float` | User defined number field. |
+| 399 | uDFN31 | `Float` | User defined number field. |
+| 400 | uDFN32 | `Float` | User defined number field. |
+| 401 | uDFN33 | `Float` | User defined number field. |
+| 402 | uDFN34 | `Float` | User defined number field. |
+| 403 | uDFN35 | `Float` | User defined number field. |
+| 404 | uDFN36 | `Float` | User defined number field. |
+| 405 | uDFN37 | `Float` | User defined number field. |
+| 406 | uDFN38 | `Float` | User defined number field. |
+| 407 | uDFN39 | `Float` | User defined number field. |
+| 408 | uDFN40 | `Float` | User defined number field. |
+| 409 | updateDate | `DateTime` | The date the record was modified |
+| 410 | updateFaxDate | `Date` | The last date this record's fax # was updated. |
+| 411 | updateUser | `String` | The user that modified the record |
+| 412 | uploadDate | `Date` | Date on which the record is uploaded to laptop. |
+| 413 | vIPCode | `String` | VIP Status of the Individual. |
+| 414 | vIPDescription | `String` | The description of this value. |
+| 415 | vendorId | `Float` | The Oracle Financials vendor id for this record.  Used with the Oracle Financials A/P interface. |
+| 416 | vendorSiteId | `Float` | The Oracle Financial vendor site id for this record.  Used with the Oracle Financials A/P interface. |
+| 417 | vipAuthorization | `String` | Not Used. |
+| 418 | visaValidityType | `String` | Country Specific Requirement for Nigeria. |
+| 419 | xdisplayName | `String` | Xdisplay Name |
+| 420 | xmiddleName | `String` | Extended Byte middle name. |
 
 [⬆ Back to Query](#query)
 
@@ -1584,17 +1582,27 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| hkdailytaskroomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| hkdailytaskroomDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| hkdailytaskroomDetailsTaskDate | `DateInput!` | Breakout Date.<br>`@mandatoryInput` |
+| hkdailytaskroomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| hkdailytaskroomDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| hkdailytaskroomDetailsRoom | `StringInput` | Rooms<br>`@conditionalInputPair(pair: 2)` |
+| hkdailytaskroomDetailsTaskDate | `DateInput` | Breakout Date.<br>`@conditionalInputPair(pair: 2)` |
+| hkdailytaskroomDetailsTaskSeqNo | `FloatInput` | Task Sequence No<br>`@conditionalInputPair(pair: 2)` |
+| hkdailytaskroomDetailsTaskSheetNo | `FloatInput` | task sheet associated with this room on business_date<br>`@conditionalInputPair(pair: 2)` |
 | roomDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| roomDetailsHkSectionCode | `StringInput` | Indicates the section to which employee belongs. |
 | roomDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | roomDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| roomDetailsOrderBy2 | `FloatInput` | Display sequence 2 |
+| roomDetailsOrderBy3 | `FloatInput` | Display sequence 3 |
 | roomDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | roomDetailsResort | `StringInput` | Code to uniquely identify the Property |
 | roomDetailsRoompmsref | `StringInput` | Room |
+| roomDetailsRoomClass | `StringInput` | Room Class |
+| roomDetailsAssignReason | `StringInput` | Room Condition |
 | roomDetailsRoom | `StringInput` | Room Number |
+| roomDetailsRoomCategory | `StringInput` | Room Type |
 | roomDetailsRoomid | `StringInput` | Roomid |
+| roomDetailsOrderBy | `FloatInput` | Sequence |
 | hkreservationguestDetailsNameId | `FloatInput` | The primary key for this table. |
 | hkreservationguestDetailsActiveYn | `StringInput` | Profile is active or not. |
 | hkreservationguestDetailsCrsNameid | `FloatInput` | This is a  name_id (Profile number) of profiles that exist in a Central database in a typical CRS environment. |
@@ -1887,9 +1895,15 @@
 | datedetailDetailsDaykey | `DateInput` | Daykey |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - hkdailytaskroomDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- hkdailytaskroomDetailsJrnupdatedttm
+- hkdailytaskroomDetailsRoom
 - hkdailytaskroomDetailsTaskDate
+- hkdailytaskroomDetailsTaskSeqNo
+- hkdailytaskroomDetailsTaskSheetNo
 
 
 [⬆ Back to Query](#query)
@@ -2352,7 +2366,6 @@ query inventoryHousekeepingManagementRoom($input: InventoryHousekeepingManagemen
       negotiatedRateCodes
       nextStay
       nickname
-      organizationID
       origNameId
       paymentDueDays
       phone
@@ -2362,7 +2375,6 @@ query inventoryHousekeepingManagementRoom($input: InventoryHousekeepingManagemen
       postalCodeExtension
       preferredRoomNo
       primaryAddressId
-      primaryKeyID
       primaryNameId
       primaryOwner
       primaryOwnerCode
@@ -3730,7 +3742,6 @@ house_keeping_reservation_guest_details_schema = {
     'negotiatedRateCodes': pl.Utf8,
     'nextStay': pl.Utf8,
     'nickname': pl.Utf8,
-    'organizationID': pl.Int64,
     'origNameId': pl.Float64,
     'paymentDueDays': pl.Float64,
     'phone': pl.Utf8,
@@ -3740,7 +3751,6 @@ house_keeping_reservation_guest_details_schema = {
     'postalCodeExtension': pl.Utf8,
     'preferredRoomNo': pl.Utf8,
     'primaryAddressId': pl.Float64,
-    'primaryKeyID': pl.Int64,
     'primaryNameId': pl.Float64,
     'primaryOwner': pl.Utf8,
     'primaryOwnerCode': pl.Utf8,

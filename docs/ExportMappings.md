@@ -469,12 +469,13 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | expmappingDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| expmappingDetailsExpMappingId | `FloatInput` | Exp Mapping ID |
-| expmappingDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| expmappingDetailsConfigType | `StringInput` | Mapped To Code |
-| expmappingDetailsMappingType | `StringInput` | Mapping Type Code |
+| expmappingDetailsExpMappingId | `FloatInput` | Exp Mapping ID<br>`@conditionalInputPair(pair: 2)` |
+| expmappingDetailsJrnupdatedate | `DateInput` | JRN Update Date |
+| expmappingDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| expmappingDetailsConfigType | `StringInput` | Mapped To Code<br>`@conditionalInputPair(pair: 2)` |
+| expmappingDetailsMappingType | `StringInput` | Mapping Type Code<br>`@conditionalInputPair(pair: 2)` |
 | expmappingDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| expmappingDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
+| expmappingDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -738,8 +739,14 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - expmappingDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- expmappingDetailsExpMappingId
+- expmappingDetailsJrnupdatedttm
+- expmappingDetailsConfigType
+- expmappingDetailsMappingType
 
 
 [⬆ Back to Query](#query)

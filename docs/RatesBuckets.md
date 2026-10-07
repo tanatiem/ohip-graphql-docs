@@ -444,10 +444,10 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | ratebucketDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| ratebucketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ratebucketDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | ratebucketDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| ratebucketDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| ratebucketDetailsRateBucketCode | `StringInput` | Yield Managment rate bucket |
+| ratebucketDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| ratebucketDetailsRateBucketCode | `StringInput` | Yield Managment rate bucket<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -711,8 +711,12 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - ratebucketDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- ratebucketDetailsJrnupdatedttm
+- ratebucketDetailsRateBucketCode
 
 
 [⬆ Back to Query](#query)

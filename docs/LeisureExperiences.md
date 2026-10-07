@@ -1,353 +1,156 @@
-# Activities
+# LeisureExperiences
 [📦 Object Types](#object-types) | [📥 Input Types](#input-types) | [📝 Query Template](#query-template) | [🗄️ Parquet Schema](#parquet-schema)
 ## Query
-### `activities`
-> Provides information of Sales activities related to Accounts Contacts and Blocks for the selected Property.
+### `leisureExperiences`
+> Provides data for creating operational and strategic reports on leisure experiences. It includes measures and dimensions to analyze scheduled experiences customer preferences monitor performance understand demand patterns and create ad hoc analysis.
   
-**Return:** [`[ActivitiesType]`](#activitiestype)  
+**Return:** [`[LeisureExperiencesType]`](#leisureexperiencestype)  
 **Arguments:**  
 | Name | Type | Description |
 | --- | --- | --- |
 | limit | `Int` |  |
 | offset | `Int` |  |
-| input | [`ActivitiesQueryArgumentsType!`](#activitiesqueryargumentstype) |  |
+| input | [`LeisureExperiencesQueryArgumentsType!`](#leisureexperiencesqueryargumentstype) |  |
 
 ## Object Types
 
-### ActivitiesType
+### LeisureExperiencesType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | workOrdersDetails | [`ActivitiesWorkOrdersDetailsType`](#activitiesworkordersdetailstype) | Work Orders Details |
-| 2 | activityProfileDetails | [`ActivitiesActivityProfileDetailsType`](#activitiesactivityprofiledetailstype) | Activity Profile Details |
-| 3 | activityBlockDetails | [`ActivitiesActivityBlockDetailsType`](#activitiesactivityblockdetailstype) | Activity Block |
-| 4 | activityContactProfileDetails | [`ActivitiesActivityContactProfileDetailsType`](#activitiesactivitycontactprofiledetailstype) | Activity Contact Profile Details |
-| 5 | propertyPropertyDetails | [`ActivitiesPropertyPropertyDetailsType`](#activitiespropertypropertydetailstype) | Resort Details |
-| 6 | activitiesRecordCount | `Int` |  |
+| 1 | leisureScheduledExperienceDetails | [`LeisureExperiencesLeisureScheduledExperienceDetailsType`](#leisureexperiencesleisurescheduledexperiencedetailstype) | LM Scheduled Experience Details |
+| 2 | leisureScheduledExperienceResourceDetails | [`LeisureExperiencesLeisureScheduledExperienceResourceDetailsType`](#leisureexperiencesleisurescheduledexperienceresourcedetailstype) | LM Scheduled Experience Resource Details |
+| 3 | leisureScheduledResourceDetails | [`LeisureExperiencesLeisureScheduledResourceDetailsType`](#leisureexperiencesleisurescheduledresourcedetailstype) | LM Scheduled Resource Details |
+| 4 | leisureScheduledResourceTypeDetails | [`LeisureExperiencesLeisureScheduledResourceTypeDetailsType`](#leisureexperiencesleisurescheduledresourcetypedetailstype) | LM Scheduled Resource Type Details |
+| 5 | propertyPropertyDetails | [`LeisureExperiencesPropertyPropertyDetailsType`](#leisureexperiencespropertypropertydetailstype) | Resort Details |
+| 6 | leisureExperiencesRecordCount | `Int` |  |
 
 [⬆ Back to Query](#query)
 
 ---
 
-### ActivitiesWorkOrdersDetailsType
+### LeisureExperiencesLeisureScheduledExperienceDetailsType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | accountAll | `String` | Account All |
-| 2 | activityAmount | `Float` | Total amount for the specific Activity. |
-| 3 | activityClass | `String` | Activity Class |
-| 4 | activityCompleted | `String` | Activity Completed |
-| 5 | activityCompletedBy | `String` | Activity Completed By |
-| 6 | activityCompletionDate | `Float` | Activity Completion Date |
-| 7 | activityCreatedBy | `String` | Activity Created By |
-| 8 | activityCreatedOn | `DateTime` | Activity Created On |
-| 9 | activityEndDate | `DateTime` | Activity End Date |
-| 10 | activityID | `Float` | Activity ID |
-| 11 | activityName | `String` | Description of the Problem reported |
-| 12 | activityNotes | `String` | Activity Notes |
-| 13 | activityOwnerCode | `DateTime` | Activity Owner Code |
-| 14 | activityPriority | `String` | Activity Priority |
-| 15 | activityResult | `String` | Activity Result |
-| 16 | activityStartDate | `DateTime` | Activity Start Date |
-| 17 | activityTraceCode | `String` | Activity Trace Code |
-| 18 | activityType | `String` | Activity Type |
-| 19 | activityTypeDescription | `String` | Activity Type Description |
-| 20 | activityUpdatedBy | `String` | Activity Updated By |
-| 21 | activityUpdatedOn | `DateTime` | Activity Updated On |
-| 22 | activityUserNameID | `String` | Activity User Name ID |
-| 23 | assignedBy | `Float` | User who assigned the task. |
-| 24 | assignedOnDate | `DateTime` | Date on which this work order was assigned to someone else |
-| 25 | attachmentLocation | `String` | Attachment Location |
-| 26 | attachmentOwner | `String` | Owner who created this attachment. [ACCOUNT CONTACT ACTIVITY or BOOKING] |
-| 27 | attendees | `Float` | Attendees |
-| 28 | author | `Float` | Author |
-| 29 | blockAll | `String` | Block All |
-| 30 | cActivityAmount | `Float` | Central Activity Amount |
-| 31 | cDepositAmount | `Float` | Central Deposit Amount |
-| 32 | cEstCateringRevenue | `Float` | Central Est Cat Revenue |
-| 33 | cEstOtherRevenue | `Float` | Central Est Other Revenue |
-| 34 | cEstRoomRevenue | `Float` | Central Est Rm Revenue |
-| 35 | cExchangeDate | `Date` | Central Xchange Date |
-| 36 | cExchangeRate | `Float` | Central Xchange Rate |
-| 37 | cTotalLaborCost | `Float` | Central Total Labor Cost |
-| 38 | cTotalPartsCost | `Float` | Central Total Parts Cost |
-| 39 | campaignStatusCode | `String` | Stores the status codes for Campaign Management |
-| 40 | categoryCode | `String` | Category Code |
-| 41 | centralActivityType | `String` | Central Activity Type |
-| 42 | centralActivityTypeDescription | `String` | Central Activity Type Description |
-| 43 | chainCode | `String` | Chain Code |
-| 44 | completedBy | `Float` | Completed By |
-| 45 | contactAll | `String` | Contact All |
-| 46 | createdBy | `Float` | Created By |
-| 47 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 48 | databaseId | `String` | Database ID |
-| 49 | deletedFlag | `String` | Deleted Flag |
-| 50 | dependingOnWoNumber | `Float` | This defines the oprder of execution between two sub work orders as one of them may be dependent on the other. |
-| 51 | depositAmount | `Float` | Deposit Amount |
-| 52 | depositOwner | `String` | Owner of the Deposit. It can be Opera (O) or Cencept (C). |
-| 53 | deptOfAction | `String` | Dept to which the employee who created the work order belongs |
-| 54 | downloadDate | `DateTime` | Download Date |
-| 55 | downloadResort | `String` | Download Property |
-| 56 | downloadSrep | `Float` | Download Srep |
-| 57 | dueDate | `DateTime` | Due Date |
-| 58 | endTime | `String` | End Time |
-| 59 | estCatRevenue | `Float` | Estimated revenue. |
-| 60 | estOtherRevenue | `Float` | Estimated others revenue. |
-| 61 | estRoomNights | `Float` | Estimated room nights. |
-| 62 | estRoomRevenue | `Float` | Estimated room revenue. |
-| 63 | estTimeToComplete | `Float` | Time estimated to complete the work order |
-| 64 | estUotCode | `String` | Est Uot Code |
-| 65 | externalSystem | `String` | External System |
-| 66 | externalSystemId | `String` | External System ID. |
-| 67 | foRoomStatus | `String` | Room status at the tome of creation of work order if it happens to be in a room |
-| 68 | fullName | `String` | Full Name |
-| 69 | generatedByCampaign | `String` | Indicates if a Campain generated this activity. |
-| 70 | generatedByFreqId | `Float` | The frequency ID which generated this activity. |
-| 71 | globalYn | `String` | Global Y/N |
-| 72 | guestOriginatedYn | `String` | Whether the work order is guest originated or not |
-| 73 | guestRoomYn | `String` | Whether this location is a a guest room or not |
-| 74 | guestType | `String` | Guest Type |
-| 75 | highPriorityYn | `String` | Whether the work order is having high priority or not. |
-| 76 | inactiveDate | `DateTime` | Inactive Date |
-| 77 | insertDate | `DateTime` | Insert Date |
-| 78 | insertUser | `Float` | Insert User |
-| 79 | internalYn | `String` | Internal Y/N |
-| 80 | jRNUpdateDate | `Date` | JRN Update Date |
-| 81 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 82 | laptopChange | `Float` | Laptop Change |
-| 83 | locationCode | `String` | Location Code |
-| 84 | locationID | `String` | Internal ID to uniquely identify the Property |
-| 85 | masterSub | `String` | Decides whether a particular workorder is a master or sub or none. |
-| 86 | minutesBeforeAlert | `Float` | Number of minutes before the activity start time when the alert will be raised. (Default value) |
-| 87 | nameID | `Float` | Name ID |
-| 88 | notifiedYn | `String` | Has the user been notified about this activity ? |
-| 89 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 90 | origWoNumber | `Float` | Stores the original WORK_NUMBER prior to a migration. |
-| 91 | ownerEmail | `String` | Owner Email |
-| 92 | ownerPhone | `String` | Phone no. |
-| 93 | ownerTitle | `String` | Owner Title |
-| 94 | parentWoNumber | `Float` | Wo_number to which current work order is a sub work ordergenerated work_order number |
-| 95 | plantItemCode | `String` | Plant Item Code |
-| 96 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 97 | priorityChangedYn | `String` | Whether the priority was manually changed or not |
-| 98 | privateYn | `String` | Private Y/N |
-| 99 | property | `String` | Code to uniquely identify the Property |
-| 100 | proposalSentDate | `DateTime` | Proposal Sent Date |
-| 101 | proposalViewToken | `String` | Proposal View Token |
-| 102 | reasonCode | `String` | Reason Code |
-| 103 | releasedBy | `Float` | Emp number of the person who has released this workorder |
-| 104 | releasedDate | `DateTime` | Date on which a work orderwas released |
-| 105 | requestTemplateId | `Float` | Stores the request template ID for Campaign Management. |
-| 106 | requestTypeId | `String` | Request type that need to be generated. |
-| 107 | requestTypeTemplatesId | `Float` | Stores the Campaign Type Template ID used for a campaign. |
-| 108 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 109 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 110 | room | `String` | Room |
-| 111 | sendMethod | `String` | Default method for sending a Request Type. |
-| 112 | showOn | `DateTime` | Scheduled workorder .reminder to display on date |
-| 113 | startTime | `String` | Start Time |
-| 114 | statusCode | `String` | Status Code |
-| 115 | surveyId | `Float` | Linked Survey ID |
-| 116 | takenBy | `Float` | Empnumber of the person who has accepted this workorder |
-| 117 | takenDate | `DateTime` | Date on which an employee has accepted this workorder |
-| 118 | taskCode | `Float` | Task Code |
-| 119 | taskitemNumber | `Float` | Taskitem Number |
-| 120 | timezoneConvertedYn | `String` | Indicated if the activity times are converted to database time zone. |
-| 121 | totalLaborCost | `Float` | Calculated Labor cost spent for this workorder |
-| 122 | totalPartsCost | `Float` | Calculate total parts cost spent for this workorder |
-| 123 | typeCode | `String` | Type Code |
-| 124 | updateUser | `Float` | Update User |
-| 125 | uploadDate | `DateTime` | Upload Date |
-| 126 | userExt | `String` | Extension of the user |
+| 1 | beginTime | `Date` | Time the leisure experience starts. |
+| 2 | chainCode | `String` | Chain Code |
+| 3 | comments | `String` | Comments on the leisure experience. |
+| 4 | currencyCode | `String` | Currency in which the amount for the leisure experience is defined. |
+| 5 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 6 | deletedFlag | `String` | Deleted Flag |
+| 7 | endTime | `Date` | Time the leisure experience ends. |
+| 8 | experienceCancelDate | `Date` | Date the leisure experience is cancelled. |
+| 9 | experienceCode | `String` | Unique identifier for the leisure experience. |
+| 10 | experienceName | `String` | Name for the leisure experience. |
+| 11 | experienceProfileID | `Float` | Profile associated with the leisure experience |
+| 12 | inactiveDate | `DateTime` | Inactive Date |
+| 13 | insertDate | `DateTime` | Insert Date |
+| 14 | insertUser | `Float` | Insert User |
+| 15 | jRNUpdateDate | `Date` | JRN Update Date |
+| 16 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 17 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 18 | packageCode | `String` | Identifier for the pricing package. |
+| 19 | price | `Float` | Amount for the leisure experience. |
+| 20 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 21 | property | `String` | Internal ID to uniquely identify the Property |
+| 22 | reservationID | `Float` | Reservation associated with the leisure experience |
+| 23 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 24 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 25 | scheduledExperienceID | `Float` | Unique identifier for the scheduled leisure experience. |
+| 26 | status | `String` | Status of the leisure experience. |
+| 27 | updateDate | `DateTime` | Update Date |
+| 28 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
 ---
 
-### ActivitiesActivityProfileDetailsType
+### LeisureExperiencesLeisureScheduledExperienceResourceDetailsType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | accountAddress4 | `String` | Account Address 4 |
-| 2 | accountCountryCode | `String` | Account Country Code |
-| 3 | accountCountryName | `String` | Account Country Name |
-| 4 | accountPhone | `String` | Phone no. |
-| 5 | accountPostalCode | `String` | Account Postal Code |
-| 6 | accountState | `String` | Account State |
-| 7 | accountType | `String` | Account Type |
-| 8 | actId | `Float` | Activity ID |
-| 9 | actResort | `String` | Act Property |
-| 10 | addressId | `Float` | Address ID |
-| 11 | attachmentYn | `String` | Identifies a linked attachment. |
-| 12 | chainCode | `String` | Chain Code |
-| 13 | contactAddress1 | `String` | Contact Address 1 |
-| 14 | contactAddress2 | `String` | Contact Address 2 |
-| 15 | contactAddress3 | `String` | Contact Address 3 |
-| 16 | contactCity | `String` | Contact City |
-| 17 | contactEmail | `String` | Contact Email |
-| 18 | contactID | `Float` | Contact ID |
-| 19 | contactName | `String` | Contact Name |
-| 20 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 21 | deletedFlag | `String` | Deleted Flag |
-| 22 | emailId | `Float` | Email ID |
-| 23 | inactiveDate | `DateTime` | Inactive Date |
-| 24 | insertDate | `DateTime` | Insert Date |
-| 25 | insertUser | `Float` | Insert User |
-| 26 | jRNUpdateDate | `Date` | JRN Update Date |
-| 27 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 28 | laptopChange | `Float` | Laptop Change |
-| 29 | linkId | `Float` | Link ID |
-| 30 | linkResort | `String` | Stores the property of the linked entity. |
-| 31 | linkType | `String` | Link Type |
-| 32 | nameType | `String` | Name Type |
-| 33 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 34 | primaryContactYN | `String` | Primary Contact YN |
-| 35 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 36 | relationship | `String` | Relationship |
-| 37 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 38 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 39 | toType | `String` | To Type |
-| 40 | updateDate | `DateTime` | Update Date |
-| 41 | updateUser | `Float` | Update User |
+| 1 | beginTime | `Date` | Time the leisure resource starts being available for the leisure experience. |
+| 2 | cancelResourceDate | `Date` | Date the leisure resource is cancelled. |
+| 3 | chainCode | `String` | Chain Code |
+| 4 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 5 | deletedFlag | `String` | Deleted Flag |
+| 6 | endTime | `Date` | Time the leisure resource ends being available for the leisure experience. |
+| 7 | inactiveDate | `DateTime` | Inactive Date |
+| 8 | insertDate | `DateTime` | Insert Date |
+| 9 | insertUser | `Float` | Insert User |
+| 10 | jRNUpdateDate | `Date` | JRN Update Date |
+| 11 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 12 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 13 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 14 | property | `String` | Internal ID to uniquely identify the Property |
+| 15 | quantity | `Float` | Provides the quantity of leisure resources available in inventory. |
+| 16 | resourceCode | `String` | Unique identifier for the leisure resource. |
+| 17 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 18 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 19 | scheduledExperienceID | `Float` | Unique identifier for the scheduled leisure experience. |
+| 20 | scheduledResourceID | `Float` | Unique identifier for the scheduled leisure resource. |
+| 21 | status | `String` | Status of the leisure resource. |
+| 22 | updateDate | `DateTime` | Update Date |
+| 23 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
 ---
 
-### ActivitiesActivityBlockDetailsType
+### LeisureExperiencesLeisureScheduledResourceDetailsType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | actId | `Float` | Activity ID |
-| 2 | actResort | `String` | Act Property |
-| 3 | addressId | `Float` | Address ID |
-| 4 | ahUpdateUser | `Float` | Ah Update User |
-| 5 | allotmentOrigin | `String` | Allotment Origin |
-| 6 | alternateBlockName | `String` | Multi Byte Description Field |
-| 7 | attachmentYn | `String` | Identifies a linked attachment. |
-| 8 | blockCode | `String` | Block Code |
-| 9 | blockDeletedDate | `Date` | Block Deleted Date |
-| 10 | blockID | `Float` | Block ID |
-| 11 | blockName | `String` | Block Name |
-| 12 | blockOwnerCode | `String` | Block Owner Code |
-| 13 | blockOwnerFullName | `String` | Block Owner Full Name |
-| 14 | blockStatus | `String` | Block Status |
-| 15 | blockTypeCode | `String` | Block Type Code |
-| 16 | blockTypeCodeDescription | `String` | Block Type Code Description |
-| 17 | cateringOnlyYN | `String` | Catering only Revenue. |
-| 18 | cateringStatus | `String` | Catering Status |
-| 19 | centralBlockTypeCode | `String` | Central Block Type Code |
-| 20 | centralBlockTypeCodeDescription | `String` | Central Block Type Code Description |
-| 21 | centralCateringStatus | `String` | Central Catering Status |
-| 22 | centralMarketCode | `String` | Central Market  Code |
-| 23 | centralMarketDescription | `String` | Central Market Description |
-| 24 | centralOriginCode | `String` | Central Origin Code |
-| 25 | centralOriginCodeDescription | `String` | Central Origin Code Description |
-| 26 | centralReservationType | `String` | Central Reservation Type |
-| 27 | centralReservationTypeDescription | `String` | Central Reservation Type Description |
-| 28 | centralRoomStatus | `String` | Central Room Status |
-| 29 | centralSourceCode | `String` | Central Source Code |
-| 30 | centralSourceCodeDescription | `String` | Central Source Code Description |
-| 31 | chainCode | `String` | Chain Code |
-| 32 | createdBy | `String` | The name of the user who created the record. |
-| 33 | createdDate | `DateTime` | Created Date |
-| 34 | cutoffDate | `Date` | Cutoff Date |
-| 35 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 36 | decisionDate | `Date` | Decision Date |
-| 37 | deletedFlag | `String` | Deleted Flag |
-| 38 | emailId | `Float` | Email ID |
-| 39 | endDate | `Date` | End Date |
-| 40 | externalReference | `String` | External Reference |
-| 41 | followupDate | `Date` | Followup Date |
-| 42 | inactiveDate | `DateTime` | Inactive Date |
-| 43 | insertDate | `DateTime` | Insert Date |
-| 44 | insertUser | `Float` | Insert User |
-| 45 | inventoryControl | `String` | Inventory Control |
-| 46 | jRNUpdateDate | `Date` | JRN Update Date |
-| 47 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 48 | laptopChange | `Float` | Laptop Change |
-| 49 | linkId | `Float` | Link ID |
-| 50 | linkResort | `String` | Stores the property of the linked entity. |
-| 51 | linkType | `String` | Link Type |
-| 52 | marketCode | `String` | Market Code |
-| 53 | marketDescription | `String` | Market Description |
-| 54 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 55 | originCode | `String` | Origin Code |
-| 56 | originCodeDescription | `String` | Origin Code Description |
-| 57 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 58 | primaryYn | `String` | Primary Y/N |
-| 59 | relationship | `String` | Relationship |
-| 60 | reservationType | `String` | Reservation Type |
-| 61 | reservationTypeDescription | `String` | The Description of the Guarantee code. |
-| 62 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 63 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 64 | shoulderEnd | `Date` | Shoulder End |
-| 65 | shoulderStart | `Date` | Shoulder Start |
-| 66 | sourceCode | `String` | Source Code |
-| 67 | sourceCodeDescription | `String` | Source Code Description |
-| 68 | startDate | `Date` | Start Date |
-| 69 | status | `String` | Status |
-| 70 | toType | `String` | To Type |
-| 71 | updateDate | `DateTime` | Update Date |
-| 72 | updateUser | `Float` | Update User |
-| 73 | updatedBy | `String` | Updated By |
-| 74 | updatedDate | `DateTime` | Updated Date |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | property | `String` | Internal ID to uniquely identify the Property |
+| 12 | resourceCode | `String` | Unique identifier for the leisure resource. |
+| 13 | resourceType | `String` | Selection of leisure resource type to link to the leisure resource. |
+| 14 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 15 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 16 | updateDate | `DateTime` | Update Date |
+| 17 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
 ---
 
-### ActivitiesActivityContactProfileDetailsType
+### LeisureExperiencesLeisureScheduledResourceTypeDetailsType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
-| 1 | accountAddress4 | `String` | Account Address 4 |
-| 2 | accountCountryCode | `String` | Account Country Code |
-| 3 | accountCountryName | `String` | Account Country Name |
-| 4 | accountPhone | `String` | Phone no. |
-| 5 | accountPostalCode | `String` | Account Postal Code |
-| 6 | accountState | `String` | Account State |
-| 7 | accountType | `String` | Account Type |
-| 8 | actId | `Float` | Activity ID |
-| 9 | actResort | `String` | Act Property |
-| 10 | addressId | `Float` | Address ID |
-| 11 | attachmentYn | `String` | Identifies a linked attachment. |
-| 12 | chainCode | `String` | Chain Code |
-| 13 | contactAddress1 | `String` | Contact Address 1 |
-| 14 | contactAddress2 | `String` | Contact Address 2 |
-| 15 | contactAddress3 | `String` | Contact Address 3 |
-| 16 | contactCity | `String` | Contact City |
-| 17 | contactEmail | `String` | Contact Email |
-| 18 | contactID | `Float` | Contact ID |
-| 19 | contactName | `String` | Contact Name |
-| 20 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| 21 | deletedFlag | `String` | Deleted Flag |
-| 22 | emailId | `Float` | Email ID |
-| 23 | inactiveDate | `Date` | Inactive Date |
-| 24 | insertDate | `DateTime` | Insert Date |
-| 25 | insertUser | `Float` | Insert User |
-| 26 | jRNUpdateDate | `Date` | JRN Update Date |
-| 27 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
-| 28 | laptopChange | `Float` | Laptop Change |
-| 29 | linkId | `Float` | Link ID |
-| 30 | linkResort | `String` | Stores the property of the linked entity. |
-| 31 | linkType | `String` | Link Type |
-| 32 | nameType | `String` | Name Type |
-| 33 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
-| 34 | primaryContactYN | `String` | Primary Contact YN |
-| 35 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
-| 36 | relationship | `String` | Relationship |
-| 37 | rnaInsertDate | `DateTime` | RnA Insertdate |
-| 38 | rnaUpdateDate | `DateTime` | RnA Updatedate |
-| 39 | toType | `String` | To Type |
-| 40 | updateDate | `DateTime` | Update Date |
-| 41 | updateUser | `Float` | Update User |
+| 1 | chainCode | `String` | Chain Code |
+| 2 | dSI | `Float` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| 3 | deletedFlag | `String` | Deleted Flag |
+| 4 | inactiveDate | `DateTime` | Inactive Date |
+| 5 | insertDate | `DateTime` | Insert Date |
+| 6 | insertUser | `Float` | Insert User |
+| 7 | jRNUpdateDate | `Date` | JRN Update Date |
+| 8 | jRNUpdateDateAndTime | `DateTime` | JRN Update Date and Time |
+| 9 | organizationID | `Float` | Internal ID to uniquely identify the Organization |
+| 10 | primaryKeyID | `Float` | Internal Primary Key ID to uniquely identify the row |
+| 11 | property | `String` | Internal ID to uniquely identify the Property |
+| 12 | resourceCategory | `String` | Classification grouping for the leisure resource type. List of values to select: personnel space or equipment. |
+| 13 | resourceType | `String` | Selection of leisure resource type to link to the leisure resource. |
+| 14 | rnaInsertDate | `DateTime` | RnA Insertdate |
+| 15 | rnaUpdateDate | `DateTime` | RnA Updatedate |
+| 16 | updateDate | `DateTime` | Update Date |
+| 17 | updateUser | `Float` | Update User |
 
 [⬆ Back to Query](#query)
 
 ---
 
-### ActivitiesPropertyPropertyDetailsType
+### LeisureExperiencesPropertyPropertyDetailsType
 
 | No. | Field | Type | Description |
 | --- | --- | --- | --- |
@@ -728,56 +531,49 @@
 
 ---
 
-### ActivitiesQueryArgumentsType
+### LeisureExperiencesQueryArgumentsType
 
 | Field | Type | Description |
 | --- | --- | --- |
-| workordersDetailsCompletedYn | `StringInput` | Activity Completed<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsAssignedTo | `FloatInput` | Activity Completion Date<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsCreatedDate | `DateTimeInput` | Activity Created On<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsEndDate | `DateTimeInput` | Activity End Date<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsWoNumber | `FloatInput` | Activity ID<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsProblemDesc | `StringInput` | Description of the Problem reported<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsPriorityCode | `StringInput` | Activity Priority<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsStartDate | `DateTimeInput` | Activity Start Date<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsCategoryCode | `StringInput` | Category Code<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsChainCode | `StringInput` | Chain Code<br>`@conditionalInputPair(pair: 1)` |
-| workordersDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| workordersDetailsEstUotCode | `StringInput` | Est Uot Code<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsLocationCode | `StringInput` | Location Code |
-| workordersDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
-| workordersDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| workordersDetailsParentWoNumber | `FloatInput` | Wo_number to which current work order is a sub work ordergenerated work_order number<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsPlantItemCode | `StringInput` | Plant Item Code<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
-| workordersDetailsReasonCode | `StringInput` | Reason Code<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsRequestTypeId | `StringInput` | Request type that need to be generated.<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsRequestTypeTemplatesId | `FloatInput` | Stores the Campaign Type Template ID used for a campaign.<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsStatusCode | `StringInput` | Status Code<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsSurveyId | `FloatInput` | Linked Survey ID<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsTaskCode | `FloatInput` | Task Code<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsTaskitemNumber | `FloatInput` | Taskitem Number<br>`@conditionalInputPair(pair: 2)` |
-| workordersDetailsTypeCode | `StringInput` | Type Code<br>`@conditionalInputPair(pair: 2)` |
-| activityprofileDetailsActId | `FloatInput` | Activity ID |
-| activityprofileDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| activityprofileDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| activityprofileDetailsLinkId | `FloatInput` | Link ID |
-| activityprofileDetailsLinkType | `StringInput` | Link Type |
-| activityprofileDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| activityallotmentDetailsActId | `FloatInput` | Activity ID |
-| activityallotmentDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| activityallotmentDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| activityallotmentDetailsLinkId | `FloatInput` | Link ID |
-| activityallotmentDetailsLinkType | `StringInput` | Link Type |
-| activityallotmentDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| activityprofilecontactDetailsActId | `FloatInput` | Activity ID |
-| activityprofilecontactDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| activityprofilecontactDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| activityprofilecontactDetailsLinkId | `FloatInput` | Link ID |
-| activityprofilecontactDetailsLinkType | `StringInput` | Link Type |
-| activityprofilecontactDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| resortDetailsResort | `StringInput` | The property that the record belongs to |
+| leisureScheduledExperienceDetailsBeginTime | `DateInput` | Time the leisure experience starts. |
+| leisureScheduledExperienceDetailsChainCode | `StringInput` | Chain Code |
+| leisureScheduledExperienceDetailsCurrencyCode | `StringInput` | Currency in which the amount for the leisure experience is defined. |
+| leisureScheduledExperienceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureScheduledExperienceDetailsEndTime | `DateInput` | Time the leisure experience ends. |
+| leisureScheduledExperienceDetailsCancelDate | `DateInput` | Date the leisure experience is cancelled. |
+| leisureScheduledExperienceDetailsActCode | `StringInput` | Unique identifier for the leisure experience. |
+| leisureScheduledExperienceDetailsActName | `StringInput` | Name for the leisure experience. |
+| leisureScheduledExperienceDetailsNameId | `FloatInput` | Profile associated with the leisure experience |
+| leisureScheduledExperienceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureScheduledExperienceDetailsPackageCode | `StringInput` | Identifier for the pricing package. |
+| leisureScheduledExperienceDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureScheduledExperienceDetailsResvNameId | `FloatInput` | Reservation associated with the leisure experience |
+| leisureScheduledExperienceDetailsScheduledExperienceID | `FloatInput` | Unique identifier for the scheduled leisure experience. |
+| leisureScheduledExperienceDetailsStatus | `StringInput` | Status of the leisure experience. |
+| leisureScheduledExperienceResourceDetailsBeginTime | `DateInput` | Time the leisure resource starts being available for the leisure experience. |
+| leisureScheduledExperienceResourceDetailsCancelDate | `DateInput` | Date the leisure resource is cancelled. |
+| leisureScheduledExperienceResourceDetailsChainCode | `StringInput` | Chain Code |
+| leisureScheduledExperienceResourceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureScheduledExperienceResourceDetailsEndTime | `DateInput` | Time the leisure resource ends being available for the leisure experience. |
+| leisureScheduledExperienceResourceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureScheduledExperienceResourceDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureScheduledExperienceResourceDetailsResourceCode | `StringInput` | Unique identifier for the leisure resource. |
+| leisureScheduledExperienceResourceDetailsScheduledExperienceID | `FloatInput` | Unique identifier for the scheduled leisure experience. |
+| leisureScheduledExperienceResourceDetailsScheduledResourceID | `FloatInput` | Unique identifier for the scheduled leisure resource. |
+| leisureScheduledExperienceResourceDetailsStatus | `StringInput` | Status of the leisure resource. |
+| leisureScheduledResourceDetailsChainCode | `StringInput` | Chain Code |
+| leisureScheduledResourceDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureScheduledResourceDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureScheduledResourceDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureScheduledResourceDetailsResCode | `StringInput` | Unique identifier for the leisure resource. |
+| leisureScheduledResourceDetailsResType | `StringInput` | Selection of leisure resource type to link to the leisure resource. |
+| leisureScheduledResourceTypeDetailsChainCode | `StringInput` | Chain Code |
+| leisureScheduledResourceTypeDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
+| leisureScheduledResourceTypeDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
+| leisureScheduledResourceTypeDetailsProperty | `StringInput` | Internal ID to uniquely identify the Property |
+| leisureScheduledResourceTypeDetailsResCategory | `StringInput` | Classification grouping for the leisure resource type. List of values to select: personnel space or equipment. |
+| leisureScheduledResourceTypeDetailsResType | `StringInput` | Selection of leisure resource type to link to the leisure resource. |
+| resortDetailsResort | `StringInput` | The property that the record belongs to<br>`@conditionalInputPair(pair: 1)` |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
 | resortDetailsArAgent | `StringInput` | Default Account Type for an Agent for the Property |
@@ -933,7 +729,7 @@
 | resortDetailsInsertUser | `FloatInput` | The user that created the record |
 | resortDetailsIntTaxIncludedYn | `StringInput` | Int Tax Included YN |
 | resortDetailsInventoryYn | `StringInput` | Future use |
-| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| resortDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsKeepAvailability | `FloatInput` | To calculate the entire availability of the Hotel for future reservations |
 | resortDetailsLatitude | `FloatInput` | Latitude of the property in decimal |
 | resortDetailsLeadsend | `StringInput` | Future use |
@@ -1041,31 +837,10 @@
 #### Validation Rules
 
 **`conditionalInputPair(pair: 1)`**
-- workordersDetailsChainCode
-- workordersDetailsResort
+- resortDetailsResort
 
 **`conditionalInputPair(pair: 2)`**
-- workordersDetailsCompletedYn
-- workordersDetailsAssignedTo
-- workordersDetailsCreatedDate
-- workordersDetailsEndDate
-- workordersDetailsWoNumber
-- workordersDetailsProblemDesc
-- workordersDetailsPriorityCode
-- workordersDetailsStartDate
-- workordersDetailsCategoryCode
-- workordersDetailsEstUotCode
-- workordersDetailsJrnupdatedttm
-- workordersDetailsParentWoNumber
-- workordersDetailsPlantItemCode
-- workordersDetailsReasonCode
-- workordersDetailsRequestTypeId
-- workordersDetailsRequestTypeTemplatesId
-- workordersDetailsStatusCode
-- workordersDetailsSurveyId
-- workordersDetailsTaskCode
-- workordersDetailsTaskitemNumber
-- workordersDetailsTypeCode
+- resortDetailsJrnupdatedttm
 
 
 [⬆ Back to Query](#query)
@@ -1074,295 +849,98 @@
 
 ## Query Template
 ```graphql
-query activities($input: ActivitiesQueryArgumentsType!) {
-  activities(input: $input) @stream {
-    workOrdersDetails {
-      accountAll
-      activityAmount
-      activityClass
-      activityCompleted
-      activityCompletedBy
-      activityCompletionDate
-      activityCreatedBy
-      activityCreatedOn
-      activityEndDate
-      activityID
-      activityName
-      activityNotes
-      activityOwnerCode
-      activityPriority
-      activityResult
-      activityStartDate
-      activityTraceCode
-      activityType
-      activityTypeDescription
-      activityUpdatedBy
-      activityUpdatedOn
-      activityUserNameID
-      assignedBy
-      assignedOnDate
-      attachmentLocation
-      attachmentOwner
-      attendees
-      author
-      blockAll
-      cActivityAmount
-      cDepositAmount
-      cEstCateringRevenue
-      cEstOtherRevenue
-      cEstRoomRevenue
-      cExchangeDate
-      cExchangeRate
-      cTotalLaborCost
-      cTotalPartsCost
-      campaignStatusCode
-      categoryCode
-      centralActivityType
-      centralActivityTypeDescription
+query leisureExperiences($input: LeisureExperiencesQueryArgumentsType!) {
+  leisureExperiences(input: $input) @stream {
+    leisureScheduledExperienceDetails {
+      beginTime
       chainCode
-      completedBy
-      contactAll
-      createdBy
+      comments
+      currencyCode
       dSI
-      databaseId
       deletedFlag
-      dependingOnWoNumber
-      depositAmount
-      depositOwner
-      deptOfAction
-      downloadDate
-      downloadResort
-      downloadSrep
-      dueDate
       endTime
-      estCatRevenue
-      estOtherRevenue
-      estRoomNights
-      estRoomRevenue
-      estTimeToComplete
-      estUotCode
-      externalSystem
-      externalSystemId
-      foRoomStatus
-      fullName
-      generatedByCampaign
-      generatedByFreqId
-      globalYn
-      guestOriginatedYn
-      guestRoomYn
-      guestType
-      highPriorityYn
+      experienceCancelDate
+      experienceCode
+      experienceName
+      experienceProfileID
       inactiveDate
       insertDate
       insertUser
-      internalYn
       jRNUpdateDate
       jRNUpdateDateAndTime
-      laptopChange
-      locationCode
-      locationID
-      masterSub
-      minutesBeforeAlert
-      nameID
-      notifiedYn
       organizationID
-      origWoNumber
-      ownerEmail
-      ownerPhone
-      ownerTitle
-      parentWoNumber
-      plantItemCode
+      packageCode
+      price
       primaryKeyID
-      priorityChangedYn
-      privateYn
       property
-      proposalSentDate
-      proposalViewToken
-      reasonCode
-      releasedBy
-      releasedDate
-      requestTemplateId
-      requestTypeId
-      requestTypeTemplatesId
+      reservationID
       rnaInsertDate
       rnaUpdateDate
-      room
-      sendMethod
-      showOn
-      startTime
-      statusCode
-      surveyId
-      takenBy
-      takenDate
-      taskCode
-      taskitemNumber
-      timezoneConvertedYn
-      totalLaborCost
-      totalPartsCost
-      typeCode
-      updateUser
-      uploadDate
-      userExt
-    }
-    activityProfileDetails {
-      accountAddress4
-      accountCountryCode
-      accountCountryName
-      accountPhone
-      accountPostalCode
-      accountState
-      accountType
-      actId
-      actResort
-      addressId
-      attachmentYn
-      chainCode
-      contactAddress1
-      contactAddress2
-      contactAddress3
-      contactCity
-      contactEmail
-      contactID
-      contactName
-      dSI
-      deletedFlag
-      emailId
-      inactiveDate
-      insertDate
-      insertUser
-      jRNUpdateDate
-      jRNUpdateDateAndTime
-      laptopChange
-      linkId
-      linkResort
-      linkType
-      nameType
-      organizationID
-      primaryContactYN
-      primaryKeyID
-      relationship
-      rnaInsertDate
-      rnaUpdateDate
-      toType
-      updateDate
-      updateUser
-    }
-    activityBlockDetails {
-      actId
-      actResort
-      addressId
-      ahUpdateUser
-      allotmentOrigin
-      alternateBlockName
-      attachmentYn
-      blockCode
-      blockDeletedDate
-      blockID
-      blockName
-      blockOwnerCode
-      blockOwnerFullName
-      blockStatus
-      blockTypeCode
-      blockTypeCodeDescription
-      cateringOnlyYN
-      cateringStatus
-      centralBlockTypeCode
-      centralBlockTypeCodeDescription
-      centralCateringStatus
-      centralMarketCode
-      centralMarketDescription
-      centralOriginCode
-      centralOriginCodeDescription
-      centralReservationType
-      centralReservationTypeDescription
-      centralRoomStatus
-      centralSourceCode
-      centralSourceCodeDescription
-      chainCode
-      createdBy
-      createdDate
-      cutoffDate
-      dSI
-      decisionDate
-      deletedFlag
-      emailId
-      endDate
-      externalReference
-      followupDate
-      inactiveDate
-      insertDate
-      insertUser
-      inventoryControl
-      jRNUpdateDate
-      jRNUpdateDateAndTime
-      laptopChange
-      linkId
-      linkResort
-      linkType
-      marketCode
-      marketDescription
-      organizationID
-      originCode
-      originCodeDescription
-      primaryKeyID
-      primaryYn
-      relationship
-      reservationType
-      reservationTypeDescription
-      rnaInsertDate
-      rnaUpdateDate
-      shoulderEnd
-      shoulderStart
-      sourceCode
-      sourceCodeDescription
-      startDate
+      scheduledExperienceID
       status
-      toType
       updateDate
       updateUser
-      updatedBy
-      updatedDate
     }
-    activityContactProfileDetails {
-      accountAddress4
-      accountCountryCode
-      accountCountryName
-      accountPhone
-      accountPostalCode
-      accountState
-      accountType
-      actId
-      actResort
-      addressId
-      attachmentYn
+    leisureScheduledExperienceResourceDetails {
+      beginTime
+      cancelResourceDate
       chainCode
-      contactAddress1
-      contactAddress2
-      contactAddress3
-      contactCity
-      contactEmail
-      contactID
-      contactName
       dSI
       deletedFlag
-      emailId
+      endTime
       inactiveDate
       insertDate
       insertUser
       jRNUpdateDate
       jRNUpdateDateAndTime
-      laptopChange
-      linkId
-      linkResort
-      linkType
-      nameType
       organizationID
-      primaryContactYN
       primaryKeyID
-      relationship
+      property
+      quantity
+      resourceCode
       rnaInsertDate
       rnaUpdateDate
-      toType
+      scheduledExperienceID
+      scheduledResourceID
+      status
+      updateDate
+      updateUser
+    }
+    leisureScheduledResourceDetails {
+      chainCode
+      dSI
+      deletedFlag
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      organizationID
+      primaryKeyID
+      property
+      resourceCode
+      resourceType
+      rnaInsertDate
+      rnaUpdateDate
+      updateDate
+      updateUser
+    }
+    leisureScheduledResourceTypeDetails {
+      chainCode
+      dSI
+      deletedFlag
+      inactiveDate
+      insertDate
+      insertUser
+      jRNUpdateDate
+      jRNUpdateDateAndTime
+      organizationID
+      primaryKeyID
+      property
+      resourceCategory
+      resourceType
+      rnaInsertDate
+      rnaUpdateDate
       updateDate
       updateUser
     }
@@ -1638,299 +1216,102 @@ query activities($input: ActivitiesQueryArgumentsType!) {
 > Explicit data types generated from the GraphQL specification to ensure safe Parquet conversion and prevent schema inference errors. (using Python `Polars`)
   
 ```python
-work_orders_details_schema = {
-    'accountAll': pl.Utf8,
-    'activityAmount': pl.Float64,
-    'activityClass': pl.Utf8,
-    'activityCompleted': pl.Utf8,
-    'activityCompletedBy': pl.Utf8,
-    'activityCompletionDate': pl.Float64,
-    'activityCreatedBy': pl.Utf8,
-    'activityCreatedOn': pl.Utf8,
-    'activityEndDate': pl.Utf8,
-    'activityID': pl.Float64,
-    'activityName': pl.Utf8,
-    'activityNotes': pl.Utf8,
-    'activityOwnerCode': pl.Utf8,
-    'activityPriority': pl.Utf8,
-    'activityResult': pl.Utf8,
-    'activityStartDate': pl.Utf8,
-    'activityTraceCode': pl.Utf8,
-    'activityType': pl.Utf8,
-    'activityTypeDescription': pl.Utf8,
-    'activityUpdatedBy': pl.Utf8,
-    'activityUpdatedOn': pl.Utf8,
-    'activityUserNameID': pl.Utf8,
-    'assignedBy': pl.Float64,
-    'assignedOnDate': pl.Utf8,
-    'attachmentLocation': pl.Utf8,
-    'attachmentOwner': pl.Utf8,
-    'attendees': pl.Float64,
-    'author': pl.Float64,
-    'blockAll': pl.Utf8,
-    'cActivityAmount': pl.Float64,
-    'cDepositAmount': pl.Float64,
-    'cEstCateringRevenue': pl.Float64,
-    'cEstOtherRevenue': pl.Float64,
-    'cEstRoomRevenue': pl.Float64,
-    'cExchangeDate': pl.Utf8,
-    'cExchangeRate': pl.Float64,
-    'cTotalLaborCost': pl.Float64,
-    'cTotalPartsCost': pl.Float64,
-    'campaignStatusCode': pl.Utf8,
-    'categoryCode': pl.Utf8,
-    'centralActivityType': pl.Utf8,
-    'centralActivityTypeDescription': pl.Utf8,
+leisure_scheduled_experience_details_schema = {
+    'beginTime': pl.Utf8,
     'chainCode': pl.Utf8,
-    'completedBy': pl.Float64,
-    'contactAll': pl.Utf8,
-    'createdBy': pl.Float64,
+    'comments': pl.Utf8,
+    'currencyCode': pl.Utf8,
     'dSI': pl.Int64,
-    'databaseId': pl.Utf8,
     'deletedFlag': pl.Utf8,
-    'dependingOnWoNumber': pl.Float64,
-    'depositAmount': pl.Float64,
-    'depositOwner': pl.Utf8,
-    'deptOfAction': pl.Utf8,
-    'downloadDate': pl.Utf8,
-    'downloadResort': pl.Utf8,
-    'downloadSrep': pl.Float64,
-    'dueDate': pl.Utf8,
     'endTime': pl.Utf8,
-    'estCatRevenue': pl.Float64,
-    'estOtherRevenue': pl.Float64,
-    'estRoomNights': pl.Float64,
-    'estRoomRevenue': pl.Float64,
-    'estTimeToComplete': pl.Float64,
-    'estUotCode': pl.Utf8,
-    'externalSystem': pl.Utf8,
-    'externalSystemId': pl.Utf8,
-    'foRoomStatus': pl.Utf8,
-    'fullName': pl.Utf8,
-    'generatedByCampaign': pl.Utf8,
-    'generatedByFreqId': pl.Float64,
-    'globalYn': pl.Utf8,
-    'guestOriginatedYn': pl.Utf8,
-    'guestRoomYn': pl.Utf8,
-    'guestType': pl.Utf8,
-    'highPriorityYn': pl.Utf8,
+    'experienceCancelDate': pl.Utf8,
+    'experienceCode': pl.Utf8,
+    'experienceName': pl.Utf8,
+    'experienceProfileID': pl.Float64,
     'inactiveDate': pl.Utf8,
     'insertDate': pl.Utf8,
     'insertUser': pl.Int64,
-    'internalYn': pl.Utf8,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
-    'laptopChange': pl.Float64,
-    'locationCode': pl.Utf8,
-    'locationID': pl.Utf8,
-    'masterSub': pl.Utf8,
-    'minutesBeforeAlert': pl.Float64,
-    'nameID': pl.Float64,
-    'notifiedYn': pl.Utf8,
     'organizationID': pl.Int64,
-    'origWoNumber': pl.Float64,
-    'ownerEmail': pl.Utf8,
-    'ownerPhone': pl.Utf8,
-    'ownerTitle': pl.Utf8,
-    'parentWoNumber': pl.Float64,
-    'plantItemCode': pl.Utf8,
+    'packageCode': pl.Utf8,
+    'price': pl.Float64,
     'primaryKeyID': pl.Int64,
-    'priorityChangedYn': pl.Utf8,
-    'privateYn': pl.Utf8,
     'property': pl.Utf8,
-    'proposalSentDate': pl.Utf8,
-    'proposalViewToken': pl.Utf8,
-    'reasonCode': pl.Utf8,
-    'releasedBy': pl.Float64,
-    'releasedDate': pl.Utf8,
-    'requestTemplateId': pl.Float64,
-    'requestTypeId': pl.Utf8,
-    'requestTypeTemplatesId': pl.Float64,
+    'reservationID': pl.Float64,
     'rnaInsertDate': pl.Utf8,
     'rnaUpdateDate': pl.Utf8,
-    'room': pl.Utf8,
-    'sendMethod': pl.Utf8,
-    'showOn': pl.Utf8,
-    'startTime': pl.Utf8,
-    'statusCode': pl.Utf8,
-    'surveyId': pl.Float64,
-    'takenBy': pl.Float64,
-    'takenDate': pl.Utf8,
-    'taskCode': pl.Float64,
-    'taskitemNumber': pl.Float64,
-    'timezoneConvertedYn': pl.Utf8,
-    'totalLaborCost': pl.Float64,
-    'totalPartsCost': pl.Float64,
-    'typeCode': pl.Utf8,
-    'updateUser': pl.Int64,
-    'uploadDate': pl.Utf8,
-    'userExt': pl.Utf8,
-}
-```
-```python
-activity_profile_details_schema = {
-    'accountAddress4': pl.Utf8,
-    'accountCountryCode': pl.Utf8,
-    'accountCountryName': pl.Utf8,
-    'accountPhone': pl.Utf8,
-    'accountPostalCode': pl.Utf8,
-    'accountState': pl.Utf8,
-    'accountType': pl.Utf8,
-    'actId': pl.Float64,
-    'actResort': pl.Utf8,
-    'addressId': pl.Float64,
-    'attachmentYn': pl.Utf8,
-    'chainCode': pl.Utf8,
-    'contactAddress1': pl.Utf8,
-    'contactAddress2': pl.Utf8,
-    'contactAddress3': pl.Utf8,
-    'contactCity': pl.Utf8,
-    'contactEmail': pl.Utf8,
-    'contactID': pl.Float64,
-    'contactName': pl.Utf8,
-    'dSI': pl.Int64,
-    'deletedFlag': pl.Utf8,
-    'emailId': pl.Float64,
-    'inactiveDate': pl.Utf8,
-    'insertDate': pl.Utf8,
-    'insertUser': pl.Int64,
-    'jRNUpdateDate': pl.Utf8,
-    'jRNUpdateDateAndTime': pl.Utf8,
-    'laptopChange': pl.Float64,
-    'linkId': pl.Float64,
-    'linkResort': pl.Utf8,
-    'linkType': pl.Utf8,
-    'nameType': pl.Utf8,
-    'organizationID': pl.Int64,
-    'primaryContactYN': pl.Utf8,
-    'primaryKeyID': pl.Int64,
-    'relationship': pl.Utf8,
-    'rnaInsertDate': pl.Utf8,
-    'rnaUpdateDate': pl.Utf8,
-    'toType': pl.Utf8,
-    'updateDate': pl.Utf8,
-    'updateUser': pl.Int64,
-}
-```
-```python
-activity_block_details_schema = {
-    'actId': pl.Float64,
-    'actResort': pl.Utf8,
-    'addressId': pl.Float64,
-    'ahUpdateUser': pl.Float64,
-    'allotmentOrigin': pl.Utf8,
-    'alternateBlockName': pl.Utf8,
-    'attachmentYn': pl.Utf8,
-    'blockCode': pl.Utf8,
-    'blockDeletedDate': pl.Utf8,
-    'blockID': pl.Float64,
-    'blockName': pl.Utf8,
-    'blockOwnerCode': pl.Utf8,
-    'blockOwnerFullName': pl.Utf8,
-    'blockStatus': pl.Utf8,
-    'blockTypeCode': pl.Utf8,
-    'blockTypeCodeDescription': pl.Utf8,
-    'cateringOnlyYN': pl.Utf8,
-    'cateringStatus': pl.Utf8,
-    'centralBlockTypeCode': pl.Utf8,
-    'centralBlockTypeCodeDescription': pl.Utf8,
-    'centralCateringStatus': pl.Utf8,
-    'centralMarketCode': pl.Utf8,
-    'centralMarketDescription': pl.Utf8,
-    'centralOriginCode': pl.Utf8,
-    'centralOriginCodeDescription': pl.Utf8,
-    'centralReservationType': pl.Utf8,
-    'centralReservationTypeDescription': pl.Utf8,
-    'centralRoomStatus': pl.Utf8,
-    'centralSourceCode': pl.Utf8,
-    'centralSourceCodeDescription': pl.Utf8,
-    'chainCode': pl.Utf8,
-    'createdBy': pl.Utf8,
-    'createdDate': pl.Utf8,
-    'cutoffDate': pl.Utf8,
-    'dSI': pl.Int64,
-    'decisionDate': pl.Utf8,
-    'deletedFlag': pl.Utf8,
-    'emailId': pl.Float64,
-    'endDate': pl.Utf8,
-    'externalReference': pl.Utf8,
-    'followupDate': pl.Utf8,
-    'inactiveDate': pl.Utf8,
-    'insertDate': pl.Utf8,
-    'insertUser': pl.Int64,
-    'inventoryControl': pl.Utf8,
-    'jRNUpdateDate': pl.Utf8,
-    'jRNUpdateDateAndTime': pl.Utf8,
-    'laptopChange': pl.Float64,
-    'linkId': pl.Float64,
-    'linkResort': pl.Utf8,
-    'linkType': pl.Utf8,
-    'marketCode': pl.Utf8,
-    'marketDescription': pl.Utf8,
-    'organizationID': pl.Int64,
-    'originCode': pl.Utf8,
-    'originCodeDescription': pl.Utf8,
-    'primaryKeyID': pl.Int64,
-    'primaryYn': pl.Utf8,
-    'relationship': pl.Utf8,
-    'reservationType': pl.Utf8,
-    'reservationTypeDescription': pl.Utf8,
-    'rnaInsertDate': pl.Utf8,
-    'rnaUpdateDate': pl.Utf8,
-    'shoulderEnd': pl.Utf8,
-    'shoulderStart': pl.Utf8,
-    'sourceCode': pl.Utf8,
-    'sourceCodeDescription': pl.Utf8,
-    'startDate': pl.Utf8,
+    'scheduledExperienceID': pl.Float64,
     'status': pl.Utf8,
-    'toType': pl.Utf8,
     'updateDate': pl.Utf8,
     'updateUser': pl.Int64,
-    'updatedBy': pl.Utf8,
-    'updatedDate': pl.Utf8,
 }
 ```
 ```python
-activity_contact_profile_details_schema = {
-    'accountAddress4': pl.Utf8,
-    'accountCountryCode': pl.Utf8,
-    'accountCountryName': pl.Utf8,
-    'accountPhone': pl.Utf8,
-    'accountPostalCode': pl.Utf8,
-    'accountState': pl.Utf8,
-    'accountType': pl.Utf8,
-    'actId': pl.Float64,
-    'actResort': pl.Utf8,
-    'addressId': pl.Float64,
-    'attachmentYn': pl.Utf8,
+leisure_scheduled_experience_resource_details_schema = {
+    'beginTime': pl.Utf8,
+    'cancelResourceDate': pl.Utf8,
     'chainCode': pl.Utf8,
-    'contactAddress1': pl.Utf8,
-    'contactAddress2': pl.Utf8,
-    'contactAddress3': pl.Utf8,
-    'contactCity': pl.Utf8,
-    'contactEmail': pl.Utf8,
-    'contactID': pl.Float64,
-    'contactName': pl.Utf8,
     'dSI': pl.Int64,
     'deletedFlag': pl.Utf8,
-    'emailId': pl.Float64,
+    'endTime': pl.Utf8,
     'inactiveDate': pl.Utf8,
     'insertDate': pl.Utf8,
     'insertUser': pl.Int64,
     'jRNUpdateDate': pl.Utf8,
     'jRNUpdateDateAndTime': pl.Utf8,
-    'laptopChange': pl.Float64,
-    'linkId': pl.Float64,
-    'linkResort': pl.Utf8,
-    'linkType': pl.Utf8,
-    'nameType': pl.Utf8,
     'organizationID': pl.Int64,
-    'primaryContactYN': pl.Utf8,
     'primaryKeyID': pl.Int64,
-    'relationship': pl.Utf8,
+    'property': pl.Utf8,
+    'quantity': pl.Float64,
+    'resourceCode': pl.Utf8,
     'rnaInsertDate': pl.Utf8,
     'rnaUpdateDate': pl.Utf8,
-    'toType': pl.Utf8,
+    'scheduledExperienceID': pl.Float64,
+    'scheduledResourceID': pl.Float64,
+    'status': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_scheduled_resource_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'resourceCode': pl.Utf8,
+    'resourceType': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
+    'updateDate': pl.Utf8,
+    'updateUser': pl.Int64,
+}
+```
+```python
+leisure_scheduled_resource_type_details_schema = {
+    'chainCode': pl.Utf8,
+    'dSI': pl.Int64,
+    'deletedFlag': pl.Utf8,
+    'inactiveDate': pl.Utf8,
+    'insertDate': pl.Utf8,
+    'insertUser': pl.Int64,
+    'jRNUpdateDate': pl.Utf8,
+    'jRNUpdateDateAndTime': pl.Utf8,
+    'organizationID': pl.Int64,
+    'primaryKeyID': pl.Int64,
+    'property': pl.Utf8,
+    'resourceCategory': pl.Utf8,
+    'resourceType': pl.Utf8,
+    'rnaInsertDate': pl.Utf8,
+    'rnaUpdateDate': pl.Utf8,
     'updateDate': pl.Utf8,
     'updateUser': pl.Int64,
 }

@@ -464,18 +464,18 @@
 | Field | Type | Description |
 | --- | --- | --- |
 | ratehurdlesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| ratehurdlesDetailsHurdleDate | `DateInput` | Hurdle Date |
-| ratehurdlesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
-| ratehurdlesDetailsLengthOfStay | `FloatInput` | Length of Stay |
-| ratehurdlesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property |
+| ratehurdlesDetailsHurdleDate | `DateInput` | Hurdle Date<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsLengthOfStay | `FloatInput` | Length of Stay<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsLocationid | `StringInput` | Internal ID to uniquely identify the Property<br>`@conditionalInputPair(pair: 2)` |
 | ratehurdlesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| ratehurdlesDetailsOverrideflag | `StringInput` | Override YN |
-| ratehurdlesDetailsResort | `StringInput!` | Property<br>`@mandatoryInput` |
-| ratehurdlesDetailsRoomCategoryLabel | `StringInput` | Room Category Label |
-| ratehurdlesDetailsRoomcategoryid | `StringInput` | Roomcategoryid |
-| ratehurdlesDetailsYieldCategory | `StringInput` | Yield Category |
-| ratehurdlesDetailsYieldcategoryid | `StringInput` | Yieldcategoryid |
-| ratehurdlesDetailsYieldmarkettype | `StringInput` | Yieldmarkettype |
+| ratehurdlesDetailsOverrideflag | `StringInput` | Override YN<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsResort | `StringInput` | Property<br>`@conditionalInputPair(pair: 1)` |
+| ratehurdlesDetailsRoomCategoryLabel | `StringInput` | Room Category Label<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsRoomcategoryid | `StringInput` | Roomcategoryid<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsYieldCategory | `StringInput` | Yield Category<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsYieldcategoryid | `StringInput` | Yieldcategoryid<br>`@conditionalInputPair(pair: 2)` |
+| ratehurdlesDetailsYieldmarkettype | `StringInput` | Yieldmarkettype<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -739,8 +739,20 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - ratehurdlesDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- ratehurdlesDetailsHurdleDate
+- ratehurdlesDetailsJrnupdatedttm
+- ratehurdlesDetailsLengthOfStay
+- ratehurdlesDetailsLocationid
+- ratehurdlesDetailsOverrideflag
+- ratehurdlesDetailsRoomCategoryLabel
+- ratehurdlesDetailsRoomcategoryid
+- ratehurdlesDetailsYieldCategory
+- ratehurdlesDetailsYieldcategoryid
+- ratehurdlesDetailsYieldmarkettype
 
 
 [⬆ Back to Query](#query)

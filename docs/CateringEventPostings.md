@@ -1151,69 +1151,70 @@
 | 296 | sourceGroupCode | `String` | Source Group Code |
 | 297 | sourceGroupDescription | `String` | Source Group Description |
 | 298 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| 299 | sourceid | `String` | Sourceid |
-| 300 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
-| 301 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
-| 302 | supplement | `String` | Supplement |
-| 303 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
-| 304 | targetResort | `String` | Target Property |
-| 305 | targetlocationid | `String` | Targetlocationid |
-| 306 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
-| 307 | taxElements | `String` | Tax Elements |
-| 308 | taxGeneratedYN | `String` | Tax Generated YN |
-| 309 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 310 | taxInvNumber | `String` | Tax Invoice No |
-| 311 | taxRate | `Float` | Tax Rate |
-| 312 | taxRateType | `String` | Tax Rate Type |
-| 313 | tcGroup | `String` | Transaction Code Group |
-| 314 | tcSubgroup | `String` | Transaction Code Subgroup |
-| 315 | tclCode1 | `String` | Class1 Code. |
-| 316 | tclCode2 | `String` | Class1 Code. |
-| 317 | thresholdDiversionId | `Float` | Threshold Diversion ID |
-| 318 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| 319 | thresholdEntityType | `String` | Threshold Entity Type |
-| 320 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| 321 | toReservationNameId | `Float` | To Resv Name ID |
-| 322 | tranActionId | `Float` | Tran Action ID |
-| 323 | transactionActivityDate | `Date` | Transaction Activity Date |
-| 324 | transactionCode | `String` | Transaction Code |
-| 325 | transactionCodeDescription | `String` | Transaction Code Description |
-| 326 | transactionCodeGroupDesc | `String` | Tc Group Description |
-| 327 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
-| 328 | transactionDate | `Date` | Transaction Date |
-| 329 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
-| 330 | transactionPostingDate | `Date` | Transaction Posting Date |
-| 331 | transactionPostingTime | `String` | Time transaction was posted. |
-| 332 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
-| 333 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
-| 334 | transactionStatus | `String` | Transaction Status |
-| 335 | transactionType | `String` | Transaction Type |
-| 336 | transactionFromAccount | `Float` | Transaction from Account |
-| 337 | transactionToAccount | `Float` | Transaction to Account |
-| 338 | transactionsReasonCode | `String` | Transactions-Reason Code |
-| 339 | transcodearrangementid | `Float` | Transcodearrangementid |
-| 340 | transferfromaccountid | `Float` | Transferfromaccountid |
-| 341 | transferfromresvid | `Float` | Transferfromresvid |
-| 342 | transfertoaccountid | `Float` | Transfertoaccountid |
-| 343 | transfertoresvid | `Float` | Transfertoresvid |
-| 344 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
-| 345 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
-| 346 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
-| 347 | trxCode | `String` | Transaction Code |
-| 348 | trxNo | `Float` | Trx Number |
-| 349 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
-| 350 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| 351 | trxNumberHeader | `Float` | Transaction No Header |
-| 352 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| 353 | trxServiceType | `String` | Transaction Service Type |
-| 354 | trxType | `String` | Transaction type: possible values: [CACH]. |
-| 355 | updateDate | `DateTime` | Update Date |
-| 356 | updateUser | `Float` | Update User |
-| 357 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
-| 358 | userID | `Float` | User ID |
-| 359 | vatAmount | `Float` | Tax Amount for Commission. |
-| 360 | vatOffsetYn | `String` | Vat Offset Y/N |
-| 361 | vendorTranID | `String` | Vendor Tran ID |
+| 299 | sourceResort | `String` | Source Resort where the transaction originates for cross posted transaction |
+| 300 | sourceid | `String` | Sourceid |
+| 301 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
+| 302 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
+| 303 | supplement | `String` | Supplement |
+| 304 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
+| 305 | targetResort | `String` | Target Property |
+| 306 | targetlocationid | `String` | Targetlocationid |
+| 307 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
+| 308 | taxElements | `String` | Tax Elements |
+| 309 | taxGeneratedYN | `String` | Tax Generated YN |
+| 310 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 311 | taxInvNumber | `String` | Tax Invoice No |
+| 312 | taxRate | `Float` | Tax Rate |
+| 313 | taxRateType | `String` | Tax Rate Type |
+| 314 | tcGroup | `String` | Transaction Code Group |
+| 315 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 316 | tclCode1 | `String` | Class1 Code. |
+| 317 | tclCode2 | `String` | Class1 Code. |
+| 318 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 319 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 320 | thresholdEntityType | `String` | Threshold Entity Type |
+| 321 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 322 | toReservationNameId | `Float` | To Resv Name ID |
+| 323 | tranActionId | `Float` | Tran Action ID |
+| 324 | transactionActivityDate | `Date` | Transaction Activity Date |
+| 325 | transactionCode | `String` | Transaction Code |
+| 326 | transactionCodeDescription | `String` | Transaction Code Description |
+| 327 | transactionCodeGroupDesc | `String` | Tc Group Description |
+| 328 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
+| 329 | transactionDate | `Date` | Transaction Date |
+| 330 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
+| 331 | transactionPostingDate | `Date` | Transaction Posting Date |
+| 332 | transactionPostingTime | `String` | Time transaction was posted. |
+| 333 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
+| 334 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
+| 335 | transactionStatus | `String` | Transaction Status |
+| 336 | transactionType | `String` | Transaction Type |
+| 337 | transactionFromAccount | `Float` | Transaction from Account |
+| 338 | transactionToAccount | `Float` | Transaction to Account |
+| 339 | transactionsReasonCode | `String` | Transactions-Reason Code |
+| 340 | transcodearrangementid | `Float` | Transcodearrangementid |
+| 341 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 342 | transferfromresvid | `Float` | Transferfromresvid |
+| 343 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 344 | transfertoresvid | `Float` | Transfertoresvid |
+| 345 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
+| 346 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
+| 347 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
+| 348 | trxCode | `String` | Transaction Code |
+| 349 | trxNo | `Float` | Trx Number |
+| 350 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
+| 351 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 352 | trxNumberHeader | `Float` | Transaction No Header |
+| 353 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 354 | trxServiceType | `String` | Transaction Service Type |
+| 355 | trxType | `String` | Transaction type: possible values: [CACH]. |
+| 356 | updateDate | `DateTime` | Update Date |
+| 357 | updateUser | `Float` | Update User |
+| 358 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
+| 359 | userID | `Float` | User ID |
+| 360 | vatAmount | `Float` | Tax Amount for Commission. |
+| 361 | vatOffsetYn | `String` | Vat Offset Y/N |
+| 362 | vendorTranID | `String` | Vendor Tran ID |
 
 [⬆ Back to Query](#query)
 
@@ -1521,69 +1522,70 @@
 | 296 | sourceGroupCode | `String` | Source Group Code |
 | 297 | sourceGroupDescription | `String` | Source Group Description |
 | 298 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| 299 | sourceid | `String` | Sourceid |
-| 300 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
-| 301 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
-| 302 | supplement | `String` | Supplement |
-| 303 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
-| 304 | targetResort | `String` | Target Property |
-| 305 | targetlocationid | `String` | Targetlocationid |
-| 306 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
-| 307 | taxElements | `String` | Tax Elements |
-| 308 | taxGeneratedYN | `String` | Tax Generated YN |
-| 309 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 310 | taxInvNumber | `String` | Tax Invoice No |
-| 311 | taxRate | `Float` | Tax Rate |
-| 312 | taxRateType | `String` | Tax Rate Type |
-| 313 | tcGroup | `String` | Transaction Code Group |
-| 314 | tcSubgroup | `String` | Transaction Code Subgroup |
-| 315 | tclCode1 | `String` | Class1 Code. |
-| 316 | tclCode2 | `String` | Class1 Code. |
-| 317 | thresholdDiversionId | `Float` | Threshold Diversion ID |
-| 318 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| 319 | thresholdEntityType | `String` | Threshold Entity Type |
-| 320 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| 321 | toReservationNameId | `Float` | To Resv Name ID |
-| 322 | tranActionId | `Float` | Tran Action ID |
-| 323 | transactionActivityDate | `Date` | Transaction Activity Date |
-| 324 | transactionCode | `String` | Transaction Code |
-| 325 | transactionCodeDescription | `String` | Transaction Code Description |
-| 326 | transactionCodeGroupDesc | `String` | Tc Group Description |
-| 327 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
-| 328 | transactionDate | `Date` | Transaction Date |
-| 329 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
-| 330 | transactionPostingDate | `Date` | Transaction Posting Date |
-| 331 | transactionPostingTime | `String` | Time transaction was posted. |
-| 332 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
-| 333 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
-| 334 | transactionStatus | `String` | Transaction Status |
-| 335 | transactionType | `String` | Transaction Type |
-| 336 | transactionFromAccount | `Float` | Transaction from Account |
-| 337 | transactionToAccount | `Float` | Transaction to Account |
-| 338 | transactionsReasonCode | `String` | Transactions-Reason Code |
-| 339 | transcodearrangementid | `Float` | Transcodearrangementid |
-| 340 | transferfromaccountid | `Float` | Transferfromaccountid |
-| 341 | transferfromresvid | `Float` | Transferfromresvid |
-| 342 | transfertoaccountid | `Float` | Transfertoaccountid |
-| 343 | transfertoresvid | `Float` | Transfertoresvid |
-| 344 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
-| 345 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
-| 346 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
-| 347 | trxCode | `String` | Transaction Code |
-| 348 | trxNo | `Float` | Trx Number |
-| 349 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
-| 350 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| 351 | trxNumberHeader | `Float` | Transaction No Header |
-| 352 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| 353 | trxServiceType | `String` | Transaction Service Type |
-| 354 | trxType | `String` | Transaction type: possible values: [CACH]. |
-| 355 | updateDate | `DateTime` | Update Date |
-| 356 | updateUser | `Float` | Update User |
-| 357 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
-| 358 | userID | `Float` | User ID |
-| 359 | vatAmount | `Float` | Tax Amount for Commission. |
-| 360 | vatOffsetYn | `String` | Vat Offset Y/N |
-| 361 | vendorTranID | `String` | Vendor Tran ID |
+| 299 | sourceResort | `String` | Source Resort where the transaction originates for cross posted transaction |
+| 300 | sourceid | `String` | Sourceid |
+| 301 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
+| 302 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
+| 303 | supplement | `String` | Supplement |
+| 304 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
+| 305 | targetResort | `String` | Target Property |
+| 306 | targetlocationid | `String` | Targetlocationid |
+| 307 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
+| 308 | taxElements | `String` | Tax Elements |
+| 309 | taxGeneratedYN | `String` | Tax Generated YN |
+| 310 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 311 | taxInvNumber | `String` | Tax Invoice No |
+| 312 | taxRate | `Float` | Tax Rate |
+| 313 | taxRateType | `String` | Tax Rate Type |
+| 314 | tcGroup | `String` | Transaction Code Group |
+| 315 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 316 | tclCode1 | `String` | Class1 Code. |
+| 317 | tclCode2 | `String` | Class1 Code. |
+| 318 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 319 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 320 | thresholdEntityType | `String` | Threshold Entity Type |
+| 321 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 322 | toReservationNameId | `Float` | To Resv Name ID |
+| 323 | tranActionId | `Float` | Tran Action ID |
+| 324 | transactionActivityDate | `Date` | Transaction Activity Date |
+| 325 | transactionCode | `String` | Transaction Code |
+| 326 | transactionCodeDescription | `String` | Transaction Code Description |
+| 327 | transactionCodeGroupDesc | `String` | Tc Group Description |
+| 328 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
+| 329 | transactionDate | `Date` | Transaction Date |
+| 330 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
+| 331 | transactionPostingDate | `Date` | Transaction Posting Date |
+| 332 | transactionPostingTime | `String` | Time transaction was posted. |
+| 333 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
+| 334 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
+| 335 | transactionStatus | `String` | Transaction Status |
+| 336 | transactionType | `String` | Transaction Type |
+| 337 | transactionFromAccount | `Float` | Transaction from Account |
+| 338 | transactionToAccount | `Float` | Transaction to Account |
+| 339 | transactionsReasonCode | `String` | Transactions-Reason Code |
+| 340 | transcodearrangementid | `Float` | Transcodearrangementid |
+| 341 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 342 | transferfromresvid | `Float` | Transferfromresvid |
+| 343 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 344 | transfertoresvid | `Float` | Transfertoresvid |
+| 345 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
+| 346 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
+| 347 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
+| 348 | trxCode | `String` | Transaction Code |
+| 349 | trxNo | `Float` | Trx Number |
+| 350 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
+| 351 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 352 | trxNumberHeader | `Float` | Transaction No Header |
+| 353 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 354 | trxServiceType | `String` | Transaction Service Type |
+| 355 | trxType | `String` | Transaction type: possible values: [CACH]. |
+| 356 | updateDate | `DateTime` | Update Date |
+| 357 | updateUser | `Float` | Update User |
+| 358 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
+| 359 | userID | `Float` | User ID |
+| 360 | vatAmount | `Float` | Tax Amount for Commission. |
+| 361 | vatOffsetYn | `String` | Vat Offset Y/N |
+| 362 | vendorTranID | `String` | Vendor Tran ID |
 
 [⬆ Back to Query](#query)
 
@@ -1891,69 +1893,70 @@
 | 296 | sourceGroupCode | `String` | Source Group Code |
 | 297 | sourceGroupDescription | `String` | Source Group Description |
 | 298 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| 299 | sourceid | `String` | Sourceid |
-| 300 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
-| 301 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
-| 302 | supplement | `String` | Supplement |
-| 303 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
-| 304 | targetResort | `String` | Target Property |
-| 305 | targetlocationid | `String` | Targetlocationid |
-| 306 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
-| 307 | taxElements | `String` | Tax Elements |
-| 308 | taxGeneratedYN | `String` | Tax Generated YN |
-| 309 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 310 | taxInvNumber | `String` | Tax Invoice No |
-| 311 | taxRate | `Float` | Tax Rate |
-| 312 | taxRateType | `String` | Tax Rate Type |
-| 313 | tcGroup | `String` | Transaction Code Group |
-| 314 | tcSubgroup | `String` | Transaction Code Subgroup |
-| 315 | tclCode1 | `String` | Class1 Code. |
-| 316 | tclCode2 | `String` | Class1 Code. |
-| 317 | thresholdDiversionId | `Float` | Threshold Diversion ID |
-| 318 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| 319 | thresholdEntityType | `String` | Threshold Entity Type |
-| 320 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| 321 | toReservationNameId | `Float` | To Resv Name ID |
-| 322 | tranActionId | `Float` | Tran Action ID |
-| 323 | transactionActivityDate | `Date` | Transaction Activity Date |
-| 324 | transactionCode | `String` | Transaction Code |
-| 325 | transactionCodeDescription | `String` | Transaction Code Description |
-| 326 | transactionCodeGroupDesc | `String` | Tc Group Description |
-| 327 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
-| 328 | transactionDate | `Date` | Transaction Date |
-| 329 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
-| 330 | transactionPostingDate | `Date` | Transaction Posting Date |
-| 331 | transactionPostingTime | `String` | Time transaction was posted. |
-| 332 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
-| 333 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
-| 334 | transactionStatus | `String` | Transaction Status |
-| 335 | transactionType | `String` | Transaction Type |
-| 336 | transactionFromAccount | `Float` | Transaction from Account |
-| 337 | transactionToAccount | `Float` | Transaction to Account |
-| 338 | transactionsReasonCode | `String` | Transactions-Reason Code |
-| 339 | transcodearrangementid | `Float` | Transcodearrangementid |
-| 340 | transferfromaccountid | `Float` | Transferfromaccountid |
-| 341 | transferfromresvid | `Float` | Transferfromresvid |
-| 342 | transfertoaccountid | `Float` | Transfertoaccountid |
-| 343 | transfertoresvid | `Float` | Transfertoresvid |
-| 344 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
-| 345 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
-| 346 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
-| 347 | trxCode | `String` | Transaction Code |
-| 348 | trxNo | `Float` | Trx Number |
-| 349 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
-| 350 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| 351 | trxNumberHeader | `Float` | Transaction No Header |
-| 352 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| 353 | trxServiceType | `String` | Transaction Service Type |
-| 354 | trxType | `String` | Transaction type: possible values: [CACH]. |
-| 355 | updateDate | `DateTime` | Update Date |
-| 356 | updateUser | `Float` | Update User |
-| 357 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
-| 358 | userID | `Float` | User ID |
-| 359 | vatAmount | `Float` | Tax Amount for Commission. |
-| 360 | vatOffsetYn | `String` | Vat Offset Y/N |
-| 361 | vendorTranID | `String` | Vendor Tran ID |
+| 299 | sourceResort | `String` | Source Resort where the transaction originates for cross posted transaction |
+| 300 | sourceid | `String` | Sourceid |
+| 301 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
+| 302 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
+| 303 | supplement | `String` | Supplement |
+| 304 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
+| 305 | targetResort | `String` | Target Property |
+| 306 | targetlocationid | `String` | Targetlocationid |
+| 307 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
+| 308 | taxElements | `String` | Tax Elements |
+| 309 | taxGeneratedYN | `String` | Tax Generated YN |
+| 310 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 311 | taxInvNumber | `String` | Tax Invoice No |
+| 312 | taxRate | `Float` | Tax Rate |
+| 313 | taxRateType | `String` | Tax Rate Type |
+| 314 | tcGroup | `String` | Transaction Code Group |
+| 315 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 316 | tclCode1 | `String` | Class1 Code. |
+| 317 | tclCode2 | `String` | Class1 Code. |
+| 318 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 319 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 320 | thresholdEntityType | `String` | Threshold Entity Type |
+| 321 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 322 | toReservationNameId | `Float` | To Resv Name ID |
+| 323 | tranActionId | `Float` | Tran Action ID |
+| 324 | transactionActivityDate | `Date` | Transaction Activity Date |
+| 325 | transactionCode | `String` | Transaction Code |
+| 326 | transactionCodeDescription | `String` | Transaction Code Description |
+| 327 | transactionCodeGroupDesc | `String` | Tc Group Description |
+| 328 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
+| 329 | transactionDate | `Date` | Transaction Date |
+| 330 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
+| 331 | transactionPostingDate | `Date` | Transaction Posting Date |
+| 332 | transactionPostingTime | `String` | Time transaction was posted. |
+| 333 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
+| 334 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
+| 335 | transactionStatus | `String` | Transaction Status |
+| 336 | transactionType | `String` | Transaction Type |
+| 337 | transactionFromAccount | `Float` | Transaction from Account |
+| 338 | transactionToAccount | `Float` | Transaction to Account |
+| 339 | transactionsReasonCode | `String` | Transactions-Reason Code |
+| 340 | transcodearrangementid | `Float` | Transcodearrangementid |
+| 341 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 342 | transferfromresvid | `Float` | Transferfromresvid |
+| 343 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 344 | transfertoresvid | `Float` | Transfertoresvid |
+| 345 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
+| 346 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
+| 347 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
+| 348 | trxCode | `String` | Transaction Code |
+| 349 | trxNo | `Float` | Trx Number |
+| 350 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
+| 351 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 352 | trxNumberHeader | `Float` | Transaction No Header |
+| 353 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 354 | trxServiceType | `String` | Transaction Service Type |
+| 355 | trxType | `String` | Transaction type: possible values: [CACH]. |
+| 356 | updateDate | `DateTime` | Update Date |
+| 357 | updateUser | `Float` | Update User |
+| 358 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
+| 359 | userID | `Float` | User ID |
+| 360 | vatAmount | `Float` | Tax Amount for Commission. |
+| 361 | vatOffsetYn | `String` | Vat Offset Y/N |
+| 362 | vendorTranID | `String` | Vendor Tran ID |
 
 [⬆ Back to Query](#query)
 
@@ -2261,69 +2264,70 @@
 | 296 | sourceGroupCode | `String` | Source Group Code |
 | 297 | sourceGroupDescription | `String` | Source Group Description |
 | 298 | sourceGroupDisplaySequence | `Float` | Source Group Display Sequence |
-| 299 | sourceid | `String` | Sourceid |
-| 300 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
-| 301 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
-| 302 | supplement | `String` | Supplement |
-| 303 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
-| 304 | targetResort | `String` | Target Property |
-| 305 | targetlocationid | `String` | Targetlocationid |
-| 306 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
-| 307 | taxElements | `String` | Tax Elements |
-| 308 | taxGeneratedYN | `String` | Tax Generated YN |
-| 309 | taxInclusiveYN | `String` | Tax Inclusive YN |
-| 310 | taxInvNumber | `String` | Tax Invoice No |
-| 311 | taxRate | `Float` | Tax Rate |
-| 312 | taxRateType | `String` | Tax Rate Type |
-| 313 | tcGroup | `String` | Transaction Code Group |
-| 314 | tcSubgroup | `String` | Transaction Code Subgroup |
-| 315 | tclCode1 | `String` | Class1 Code. |
-| 316 | tclCode2 | `String` | Class1 Code. |
-| 317 | thresholdDiversionId | `Float` | Threshold Diversion ID |
-| 318 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
-| 319 | thresholdEntityType | `String` | Threshold Entity Type |
-| 320 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
-| 321 | toReservationNameId | `Float` | To Resv Name ID |
-| 322 | tranActionId | `Float` | Tran Action ID |
-| 323 | transactionActivityDate | `Date` | Transaction Activity Date |
-| 324 | transactionCode | `String` | Transaction Code |
-| 325 | transactionCodeDescription | `String` | Transaction Code Description |
-| 326 | transactionCodeGroupDesc | `String` | Tc Group Description |
-| 327 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
-| 328 | transactionDate | `Date` | Transaction Date |
-| 329 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
-| 330 | transactionPostingDate | `Date` | Transaction Posting Date |
-| 331 | transactionPostingTime | `String` | Time transaction was posted. |
-| 332 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
-| 333 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
-| 334 | transactionStatus | `String` | Transaction Status |
-| 335 | transactionType | `String` | Transaction Type |
-| 336 | transactionFromAccount | `Float` | Transaction from Account |
-| 337 | transactionToAccount | `Float` | Transaction to Account |
-| 338 | transactionsReasonCode | `String` | Transactions-Reason Code |
-| 339 | transcodearrangementid | `Float` | Transcodearrangementid |
-| 340 | transferfromaccountid | `Float` | Transferfromaccountid |
-| 341 | transferfromresvid | `Float` | Transferfromresvid |
-| 342 | transfertoaccountid | `Float` | Transfertoaccountid |
-| 343 | transfertoresvid | `Float` | Transfertoresvid |
-| 344 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
-| 345 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
-| 346 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
-| 347 | trxCode | `String` | Transaction Code |
-| 348 | trxNo | `Float` | Trx Number |
-| 349 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
-| 350 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
-| 351 | trxNumberHeader | `Float` | Transaction No Header |
-| 352 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
-| 353 | trxServiceType | `String` | Transaction Service Type |
-| 354 | trxType | `String` | Transaction type: possible values: [CACH]. |
-| 355 | updateDate | `DateTime` | Update Date |
-| 356 | updateUser | `Float` | Update User |
-| 357 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
-| 358 | userID | `Float` | User ID |
-| 359 | vatAmount | `Float` | Tax Amount for Commission. |
-| 360 | vatOffsetYn | `String` | Vat Offset Y/N |
-| 361 | vendorTranID | `String` | Vendor Tran ID |
+| 299 | sourceResort | `String` | Source Resort where the transaction originates for cross posted transaction |
+| 300 | sourceid | `String` | Sourceid |
+| 301 | splitType | `String` | Stores the type of split performed: [A]mount [Q]uantity [P]ercent. |
+| 302 | stampDutyYN | `String` | Identifies if the transaction is stamp duty. |
+| 303 | supplement | `String` | Supplement |
+| 304 | taCommissionNetYn | `String` | Current transaction uses Net or Gross revenue for Travel Agent commission calculation. |
+| 305 | targetResort | `String` | Target Property |
+| 306 | targetlocationid | `String` | Targetlocationid |
+| 307 | taxDeferredUntilCheckOutYN | `String` | Tax Deferred Until Check-Out YN |
+| 308 | taxElements | `String` | Tax Elements |
+| 309 | taxGeneratedYN | `String` | Tax Generated YN |
+| 310 | taxInclusiveYN | `String` | Tax Inclusive YN |
+| 311 | taxInvNumber | `String` | Tax Invoice No |
+| 312 | taxRate | `Float` | Tax Rate |
+| 313 | taxRateType | `String` | Tax Rate Type |
+| 314 | tcGroup | `String` | Transaction Code Group |
+| 315 | tcSubgroup | `String` | Transaction Code Subgroup |
+| 316 | tclCode1 | `String` | Class1 Code. |
+| 317 | tclCode2 | `String` | Class1 Code. |
+| 318 | thresholdDiversionId | `Float` | Threshold Diversion ID |
+| 319 | thresholdEntityQty | `Float` | Stores the corresponding quantity of the threshold for QUANTITY and MINUTES types. |
+| 320 | thresholdEntityType | `String` | Threshold Entity Type |
+| 321 | thresholdTreatmentFlag | `String` | Flag to identify how the posting was treated.[THRESHOLD_ALLOWED] --> OPERA treated this of ?Allowed? type at the time of posting.[THRESHOLD_REQUIRED] --> OPERA treated this of ?Required? type at the time of posting.[null / blank] --> not a diversion related transaction. |
+| 322 | toReservationNameId | `Float` | To Resv Name ID |
+| 323 | tranActionId | `Float` | Tran Action ID |
+| 324 | transactionActivityDate | `Date` | Transaction Activity Date |
+| 325 | transactionCode | `String` | Transaction Code |
+| 326 | transactionCodeDescription | `String` | Transaction Code Description |
+| 327 | transactionCodeGroupDesc | `String` | Tc Group Description |
+| 328 | transactionCodeSubgroupDesc | `String` | Tc Subgroup Description |
+| 329 | transactionDate | `Date` | Transaction Date |
+| 330 | transactionNumberAddedBy | `Float` | Transaction Number Added By |
+| 331 | transactionPostingDate | `Date` | Transaction Posting Date |
+| 332 | transactionPostingTime | `String` | Time transaction was posted. |
+| 333 | transactionPostingTimeWithSeconds | `String` | Time transaction was posted with seconds. |
+| 334 | transactionReservationNameID | `Float` | Transaction Reservation Name ID |
+| 335 | transactionStatus | `String` | Transaction Status |
+| 336 | transactionType | `String` | Transaction Type |
+| 337 | transactionFromAccount | `Float` | Transaction from Account |
+| 338 | transactionToAccount | `Float` | Transaction to Account |
+| 339 | transactionsReasonCode | `String` | Transactions-Reason Code |
+| 340 | transcodearrangementid | `Float` | Transcodearrangementid |
+| 341 | transferfromaccountid | `Float` | Transferfromaccountid |
+| 342 | transferfromresvid | `Float` | Transferfromresvid |
+| 343 | transfertoaccountid | `Float` | Transfertoaccountid |
+| 344 | transfertoresvid | `Float` | Transfertoresvid |
+| 345 | travelAgentCommissionableYN | `String` | Travel Agent Commissionable YN |
+| 346 | trialBalanceAmountGross | `Float` | Trial Balance Amount Gross |
+| 347 | trialBalanceAmountNet | `Float` | Trial Balance Amount Net |
+| 348 | trxCode | `String` | Transaction Code |
+| 349 | trxNo | `Float` | Trx Number |
+| 350 | trxNoAgainstPackage | `Float` | Trx Number Against Package |
+| 351 | trxNumberAdjust | `Float` | The trx_no against which this transaction gets adjusted. |
+| 352 | trxNumberHeader | `Float` | Transaction No Header |
+| 353 | trxNumberSplit | `Float` | Stores the Trx_No of the main transaction being split. |
+| 354 | trxServiceType | `String` | Transaction Service Type |
+| 355 | trxType | `String` | Transaction type: possible values: [CACH]. |
+| 356 | updateDate | `DateTime` | Update Date |
+| 357 | updateUser | `Float` | Update User |
+| 358 | upsellChargeYn | `String` | Flag to identify an Upsell posting. |
+| 359 | userID | `Float` | User ID |
+| 360 | vatAmount | `Float` | Tax Amount for Commission. |
+| 361 | vatOffsetYn | `String` | Vat Offset Y/N |
+| 362 | vendorTranID | `String` | Vendor Tran ID |
 
 [⬆ Back to Query](#query)
 
@@ -2443,18 +2447,21 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| eventpostingDetailsBookId | `FloatInput` | Book ID |
+| eventpostingDetailsBookId | `FloatInput` | Book ID<br>`@conditionalInputPair(pair: 2)` |
 | eventpostingDetailsCXchangeDate | `DateInput` | Central Xchange Date |
 | eventpostingDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
 | eventpostingDetailsEvPostId | `FloatInput` | Event Post ID Primary Key |
-| eventpostingDetailsEventId | `FloatInput` | Event ID |
+| eventpostingDetailsEventId | `FloatInput` | Event ID<br>`@conditionalInputPair(pair: 2)` |
 | eventpostingDetailsEventpostingid | `FloatInput` | Eventpostingid |
 | eventpostingDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
 | eventpostingDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| eventpostingDetailsPostedById | `FloatInput` | Posted By ID |
-| eventpostingDetailsResort | `StringInput!` | Code to uniquely identify the Property<br>`@mandatoryInput` |
-| eventpostingDetailsPostedBy | `StringInput` | Resource Type |
-| eventpostingDetailsRevenueType | `StringInput` | Revenue Type |
+| eventpostingDetailsPostedById | `FloatInput` | Posted By ID<br>`@conditionalInputPair(pair: 2)` |
+| eventpostingDetailsResort | `StringInput` | Code to uniquely identify the Property<br>`@conditionalInputPair(pair: 1)` |
+| eventpostingDetailsPostedBy | `StringInput` | Resource Type<br>`@conditionalInputPair(pair: 2)` |
+| eventpostingDetailsRevenueType | `StringInput` | Revenue Type<br>`@conditionalInputPair(pair: 2)` |
+| eventpostingDetailsSvcTrxNoExtra | `FloatInput` | Transaction ID for Service Charge included Revenue.<br>`@conditionalInputPair(pair: 2)` |
+| eventpostingDetailsSvcTrxNoIncl | `FloatInput` | Transaction ID for Service Charge extra Revenue.<br>`@conditionalInputPair(pair: 2)` |
+| eventpostingDetailsTrxNoExtra | `FloatInput` | Transaction No Extra<br>`@conditionalInputPair(pair: 2)` |
 | eventDetailsAllotmentid | `FloatInput` | Block ID |
 | eventDetailsBookId | `FloatInput` | Block ID |
 | eventDetailsAllotmentenddate | `DateInput` | Block End Date |
@@ -2828,8 +2835,18 @@
 | financialtranssvcchargeextrarevDetailsAuthorizerId | `FloatInput` | User ID |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - eventpostingDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- eventpostingDetailsBookId
+- eventpostingDetailsEventId
+- eventpostingDetailsPostedById
+- eventpostingDetailsPostedBy
+- eventpostingDetailsRevenueType
+- eventpostingDetailsSvcTrxNoExtra
+- eventpostingDetailsSvcTrxNoIncl
+- eventpostingDetailsTrxNoExtra
 
 
 [⬆ Back to Query](#query)
@@ -3936,6 +3953,7 @@ query cateringEventPostings($input: CateringEventPostingsQueryArgumentsType!) {
       sourceGroupCode
       sourceGroupDescription
       sourceGroupDisplaySequence
+      sourceResort
       sourceid
       splitType
       stampDutyYN
@@ -4299,6 +4317,7 @@ query cateringEventPostings($input: CateringEventPostingsQueryArgumentsType!) {
       sourceGroupCode
       sourceGroupDescription
       sourceGroupDisplaySequence
+      sourceResort
       sourceid
       splitType
       stampDutyYN
@@ -4662,6 +4681,7 @@ query cateringEventPostings($input: CateringEventPostingsQueryArgumentsType!) {
       sourceGroupCode
       sourceGroupDescription
       sourceGroupDisplaySequence
+      sourceResort
       sourceid
       splitType
       stampDutyYN
@@ -5025,6 +5045,7 @@ query cateringEventPostings($input: CateringEventPostingsQueryArgumentsType!) {
       sourceGroupCode
       sourceGroupDescription
       sourceGroupDisplaySequence
+      sourceResort
       sourceid
       splitType
       stampDutyYN
@@ -6199,6 +6220,7 @@ financial_transaction_inc_revenue_tax_details_schema = {
     'sourceGroupCode': pl.Utf8,
     'sourceGroupDescription': pl.Utf8,
     'sourceGroupDisplaySequence': pl.Float64,
+    'sourceResort': pl.Utf8,
     'sourceid': pl.Utf8,
     'splitType': pl.Utf8,
     'stampDutyYN': pl.Utf8,
@@ -6564,6 +6586,7 @@ financial_transaction_extra_revenue_tax_details_schema = {
     'sourceGroupCode': pl.Utf8,
     'sourceGroupDescription': pl.Utf8,
     'sourceGroupDisplaySequence': pl.Float64,
+    'sourceResort': pl.Utf8,
     'sourceid': pl.Utf8,
     'splitType': pl.Utf8,
     'stampDutyYN': pl.Utf8,
@@ -6929,6 +6952,7 @@ financial_transaction_svc_charge_inc_rev_details_schema = {
     'sourceGroupCode': pl.Utf8,
     'sourceGroupDescription': pl.Utf8,
     'sourceGroupDisplaySequence': pl.Float64,
+    'sourceResort': pl.Utf8,
     'sourceid': pl.Utf8,
     'splitType': pl.Utf8,
     'stampDutyYN': pl.Utf8,
@@ -7294,6 +7318,7 @@ financial_transaction_svc_charge_extra_rev_details_schema = {
     'sourceGroupCode': pl.Utf8,
     'sourceGroupDescription': pl.Utf8,
     'sourceGroupDisplaySequence': pl.Float64,
+    'sourceResort': pl.Utf8,
     'sourceid': pl.Utf8,
     'splitType': pl.Utf8,
     'stampDutyYN': pl.Utf8,

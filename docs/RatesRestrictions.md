@@ -502,22 +502,23 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
-| raterestrictionsDetailsBeginDate | `DateInput` | Business Date |
+| raterestrictionsDetailsBeginDate | `DateInput` | Business Date<br>`@conditionalInputPair(pair: 2)` |
 | raterestrictionsDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| raterestrictionsDetailsDaySeq | `FloatInput` | Internal ID. |
-| raterestrictionsDetailsEndDate | `DateInput` | End Date |
-| raterestrictionsDetailsGdsHost | `StringInput` | GDS Host |
-| raterestrictionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| raterestrictionsDetailsDaySeq | `FloatInput` | Internal ID.<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsGdsHost | `StringInput` | GDS Host<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | raterestrictionsDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
 | raterestrictionsDetailsProperty | `StringInput!` | Indicates if the value set for the specific property.<br>`@mandatoryInput` |
-| raterestrictionsDetailsRateCategory | `StringInput` | Rate Category |
-| raterestrictionsDetailsRateClass | `StringInput` | Rate Class |
-| raterestrictionsDetailsRateCode | `StringInput` | Rate Code |
-| raterestrictionsDetailsResort | `StringInput` | Property |
-| raterestrictionsDetailsRestrictionType | `StringInput` | Restriction Type |
-| raterestrictionsDetailsRoomClass | `StringInput` | Room Class |
-| raterestrictionsDetailsRoomCategory | `StringInput` | Room Type |
-| raterestrictionsDetailsUpdateDate | `DateTimeInput` | Update Date |
+| raterestrictionsDetailsRateCategory | `StringInput` | Rate Category<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsRateClass | `StringInput` | Rate Class<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsRateCode | `StringInput` | Rate Code<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsResvRestrictionId | `FloatInput` | Resv Restriction ID<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsResort | `StringInput` | Property<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsRestrictionType | `StringInput` | Restriction Type<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsRoomClass | `StringInput` | Room Class<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsRoomCategory | `StringInput` | Room Type<br>`@conditionalInputPair(pair: 2)` |
+| raterestrictionsDetailsUpdateDate | `DateTimeInput` | Update Date<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -780,6 +781,22 @@
 | resortDetailsWeekendDays | `StringInput` | Weekend days for the property. |
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
+
+**`conditionalInputPair(pair: 2)`**
+- raterestrictionsDetailsBeginDate
+- raterestrictionsDetailsDaySeq
+- raterestrictionsDetailsEndDate
+- raterestrictionsDetailsGdsHost
+- raterestrictionsDetailsJrnupdatedttm
+- raterestrictionsDetailsRateCategory
+- raterestrictionsDetailsRateClass
+- raterestrictionsDetailsRateCode
+- raterestrictionsDetailsResvRestrictionId
+- raterestrictionsDetailsResort
+- raterestrictionsDetailsRestrictionType
+- raterestrictionsDetailsRoomClass
+- raterestrictionsDetailsRoomCategory
+- raterestrictionsDetailsUpdateDate
 
 **`mandatoryInput`**
 - raterestrictionsDetailsProperty

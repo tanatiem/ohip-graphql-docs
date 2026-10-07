@@ -457,12 +457,14 @@
 
 | Field | Type | Description |
 | --- | --- | --- |
+| ratecategoriesDetailsBeginDate | `DateInput` | Business Date<br>`@conditionalInputPair(pair: 2)` |
 | ratecategoriesDetailsDsi | `FloatInput` | DSI Internal Data Source ID to identify Opera Chain and instance |
-| ratecategoriesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time |
+| ratecategoriesDetailsEndDate | `DateInput` | End Date<br>`@conditionalInputPair(pair: 2)` |
+| ratecategoriesDetailsJrnupdatedttm | `DateTimeInput` | JRN Update Date and Time<br>`@conditionalInputPair(pair: 2)` |
 | ratecategoriesDetailsOrganizationid | `FloatInput` | Internal ID to uniquely identify the Organization |
-| ratecategoriesDetailsResort | `StringInput!` | Property<br>`@mandatoryInput` |
-| ratecategoriesDetailsRateCategory | `StringInput` | Rate Category |
-| ratecategoriesDetailsRateClass | `StringInput` | Rate Class |
+| ratecategoriesDetailsResort | `StringInput` | Property<br>`@conditionalInputPair(pair: 1)` |
+| ratecategoriesDetailsRateCategory | `StringInput` | Rate Category<br>`@conditionalInputPair(pair: 2)` |
+| ratecategoriesDetailsRateClass | `StringInput` | Rate Class<br>`@conditionalInputPair(pair: 2)` |
 | resortDetailsResort | `StringInput` | The property that the record belongs to |
 | resortDetailsArAcctNoFormat | `StringInput` | Number format of AR account no. |
 | resortDetailsArAcctNoMandYn | `StringInput` | Specifies if the AR acct No is mandatory(Y/N) |
@@ -726,8 +728,15 @@
 | resortDetailsZeroInvPurDays | `FloatInput` | Internal |
 #### Validation Rules
 
-**`mandatoryInput`**
+**`conditionalInputPair(pair: 1)`**
 - ratecategoriesDetailsResort
+
+**`conditionalInputPair(pair: 2)`**
+- ratecategoriesDetailsBeginDate
+- ratecategoriesDetailsEndDate
+- ratecategoriesDetailsJrnupdatedttm
+- ratecategoriesDetailsRateCategory
+- ratecategoriesDetailsRateClass
 
 
 [⬆ Back to Query](#query)
