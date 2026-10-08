@@ -7,96 +7,85 @@
 
 ## 📌 API Reference Index
 
-### 🛌 Bookings & Reservations
-* [Activities](docs/Activities.md)
-* [Bookings Reservation](docs/BookingsReservation.md)
-* [Booking Reservation (Extended)](docs/BookingReservationExtended.md)
-* [Bookings Block](docs/BookingsBlock.md)
-* [Bookings Block Production Changes](docs/BookingsBlockProductionChanges.md)
-* [Bookings Block Status Changes](docs/BookingsBlockStatusChanges.md)
+| Subject Area | Description |
+| :--- | :--- |
+| [Activities](docs/Activities.md) | Provides information of Sales activities related to Accounts Contacts and Blocks for the selected Property. |
+| [ARAccountsReceivable](docs/ARAccountsReceivable.md) | Detailed Accounts Receivable data including  Adjustments Payments Invoices and Posting for AR Accounts with linked reservation data. |
+| [ARAgingReport](docs/ARAgingReport.md) | Detailed information on accounts receivable transactions including aging bucket of invoices open transaction amounts folio information and the account details. |
+| [ARLedger](docs/ARLedger.md) | Ledger details showing activity in accounts receivables including reservation and transaction details. |
+| [BookingReservationExtended](docs/BookingReservationExtended.md) | Provide booking reservation information with extended or additional details such as blocks routing etc. |
+| [BookingsBlock](docs/BookingsBlock.md) | Block header and grid details including actual and potential room and revenue statistics catering events and the associated profile and reservations data. |
+| [BookingsBlockProductionChanges](docs/BookingsBlockProductionChanges.md) | Detailed information on blocks and any changes to the number of rooms or revenue by stay date property and Block Owner. |
+| [BookingsBlockStatusChanges](docs/BookingsBlockStatusChanges.md) | Detailed information on the status changes throughout the production period of a block including the new and old status codes rooms and associated revenues by property and Block Owner. |
+| [BookingsReservation](docs/BookingsReservation.md) | Detailed information on reservations booked in the past and future including market code rate code reservation status guest information and associated room and revenue details. |
+| [CateringEventForecast](docs/CateringEventForecast.md) | Event revenue forecast details for defined periods broken down by Event Type Revenue Group and Revenue Type. |
+| [CateringEventPostings](docs/CateringEventPostings.md) | Catering Event and resource revenue postings details. |
+| [CateringEventsAndResources](docs/CateringEventsAndResources.md) | Catering Event and Event Resource details. |
+| [CateringEventStatusChanges](docs/CateringEventStatusChanges.md) | Detailed information on the status changes throughout the production period of an event including the new and old status codes guest counts and associated revenues by property. |
+| [CateringEventTypes](docs/CateringEventTypes.md) | Event Type configuration details. |
+| [ChangesLog](docs/ChangesLog.md) | Detailed change log of activities performed on a specific reservation block profile etc. |
+| [ConfigurationChain](docs/ConfigurationChain.md) | Chain code details. |
+| [ConfigurationResort](docs/ConfigurationResort.md) | Basic property configuration information. |
+| [EFolio](docs/EFolio.md) | Fiscal e-invoicing data for properties with electronic invoicing integration. |
+| [ExportMappings](docs/ExportMappings.md) | Mapping configuration for exports. |
+| [FinancialCommissions](docs/FinancialCommissions.md) | Detailed travel agent commission records and payment status. |
+| [FinancialDepositLedger](docs/FinancialDepositLedger.md) | Deposit ledger information including advanced deposit payments and associated reservation details. |
+| [FinancialGuestLedger](docs/FinancialGuestLedger.md) | Guest ledger details including daily revenue and non-revenue charges and payments for in-house guests. |
+| [FinancialTransactionCodes](docs/FinancialTransactionCodes.md) | Configuration of financial transaction codes subgroups and transaction groups. |
+| [FinancialTransactionDetails](docs/FinancialTransactionDetails.md) | Detailed transaction postings including debits credits folio windows and cashier details. |
+| [FinancialTransactionDetailsExtended](docs/FinancialTransactionDetailsExtended.md) | Extended transaction records including detailed financial breakdown and audit trail information. |
+| [FinancialTransactionsSummary](docs/FinancialTransactionsSummary.md) | Summary of financial transactions aggregated by transaction code date and property. |
+| [IntegrationConfigurations](docs/IntegrationConfigurations.md) | Details of interface and integration settings configured for the property. |
+| [InventoryFunctionSpaces](docs/InventoryFunctionSpaces.md) | Function space configuration setup and availability details. |
+| [InventoryHousekeepingManagementRoom](docs/InventoryHousekeepingManagementRoom.md) | Room housekeeping status including dirty clean inspected and out of order states. |
+| [InventoryHousekeepingManagementTaskSheet](docs/InventoryHousekeepingManagementTaskSheet.md) | Housekeeping task sheets section assignments and attendant workload details. |
+| [InventoryRooms](docs/InventoryRooms.md) | Room definitions features room types and physical inventory attributes. |
+| [InventoryRoomsManagement](docs/InventoryRoomsManagement.md) | Room status management out of service and out of order room tracking. |
+| [LeisureExperiences](docs/LeisureExperiences.md) | Activity bookings spa golf and leisure experience reservations and itineraries. |
+| [ProfilesAccounts](docs/ProfilesAccounts.md) | Company and travel agent profile details including addresses contacts and billing preferences. |
+| [ProfilesAddresses](docs/ProfilesAddresses.md) | Postal address details linked to individual company and travel agent profiles. |
+| [ProfilesCommunications](docs/ProfilesCommunications.md) | Contact methods such as phone numbers email addresses and URLs for profiles. |
+| [ProfilesContacts](docs/ProfilesContacts.md) | Contact persons linked to company or group profiles. |
+| [ProfilesIndividuals](docs/ProfilesIndividuals.md) | Guest profile demographics preferences VIP status and language settings. |
+| [ProfilesLoyalty](docs/ProfilesLoyalty.md) | Membership and loyalty program account configurations and member details. |
+| [ProfilesLoyaltyClaims](docs/ProfilesLoyaltyClaims.md) | Retroactive stay claims and point credit adjustments. |
+| [ProfilesLoyaltyTransactions](docs/ProfilesLoyaltyTransactions.md) | Points accrual redemption and tier points transaction history. |
+| [ProfilesMembershipTransactions](docs/ProfilesMembershipTransactions.md) | Detailed transactions and point movements on guest membership accounts. |
+| [ProfilesNotes](docs/ProfilesNotes.md) | Internal notes and special instructions attached to profiles. |
+| [ProfilesRelationships](docs/ProfilesRelationships.md) | Relationships established between different profiles (e.g. employee-company contact-account). |
+| [ProfilesRelationshipTypes](docs/ProfilesRelationshipTypes.md) | Relationship types and hierarchy definitions. |
+| [ProfilesStayRecords](docs/ProfilesStayRecords.md) | Historical stay statistics revenue contributions and stay dates for profiles. |
+| [PromotionCouponCodes](docs/PromotionCouponCodes.md) | Promotional coupon codes usage tracking and validation rules. |
+| [Property](docs/Property.md) | Property-level configuration details currency and operational settings. |
+| [RatesBuckets](docs/RatesBuckets.md) | Rate bucket configurations and classifications. |
+| [RatesCategories](docs/RatesCategories.md) | Rate category grouping and management structures. |
+| [RatesClasses](docs/RatesClasses.md) | Rate classes definitions used for grouping rate codes. |
+| [RatesCodeDetails](docs/RatesCodeDetails.md) | Detailed pricing component inclusions and rules per rate code. |
+| [RatesCodes](docs/RatesCodes.md) | Master definitions of rate codes market restrictions and currency. |
+| [RatesDepositAndCancellationRules](docs/RatesDepositAndCancellationRules.md) | Deposit schedules cancellation policies and penalty rules associated with rates. |
+| [RatesHurdles](docs/RatesHurdles.md) | Hurdle rate thresholds and yield management restrictions by date. |
+| [RatesRateSeasons](docs/RatesRateSeasons.md) | Seasonality definitions date ranges and seasonal rate associations. |
+| [RatesRestrictions](docs/RatesRestrictions.md) | Stay restrictions such as minimum length of stay closed to arrival and stay-through rules. |
+| [RatesTiers](docs/RatesTiers.md) | Length of stay rate tier definitions and pricing tiers. |
+| [ResortBudgetForecast](docs/ResortBudgetForecast.md) | Budget and target financial forecast figures by property and accounting period. |
+| [RevenueFixedCharges](docs/RevenueFixedCharges.md) | Recurring scheduled charges and package add-ons attached to reservations. |
+| [RevenueGroupsAndTypes](docs/RevenueGroupsAndTypes.md) | Revenue groupings transaction classifications and reporting bucket definitions. |
+| [RevenuePackages](docs/RevenuePackages.md) | Package definitions inclusive items allowances and package pricing rules. |
+| [SalesManagerGoals](docs/SalesManagerGoals.md) | Sales manager production targets room night goals and revenue quotas. |
+| [SimpleReportsActivities](docs/SimpleReportsActivities.md) | Simplified reporting view of sales activities and completed tasks. |
+| [SimpleReportsBookingBlocks](docs/SimpleReportsBookingBlocks.md) | Simplified reporting view of room block allocations and pickup. |
+| [SimpleReportsBookingsReservation](docs/SimpleReportsBookingsReservation.md) | Simplified reporting view of guest reservations and stay details. |
+| [SimpleReportsEvents](docs/SimpleReportsEvents.md) | Simplified reporting view of catering and function space events. |
+| [SimpleReportsFinancialTransactions](docs/SimpleReportsFinancialTransactions.md) | Simplified reporting view of daily financial transactions and ledger postings. |
+| [SimpleReportsProfileIndividuals](docs/SimpleReportsProfileIndividuals.md) | Simplified reporting view of individual guest profiles. |
+| [StatisticsForecastSummary](docs/StatisticsForecastSummary.md) | Summary forward-looking occupancy and room revenue projections. |
+| [StatisticsHistoryAndForecast](docs/StatisticsHistoryAndForecast.md) | Combined historical actuals and future forecast statistics. |
+| [StatisticsManagersReport](docs/StatisticsManagersReport.md) | Daily manager report metrics including RevPAR ADR and occupancy figures. |
+| [StatisticsReservationPace](docs/StatisticsReservationPace.md) | Booking pace comparison showing pickup trends over time against past periods. |
+| [StatisticsReservationsDaily](docs/StatisticsReservationsDaily.md) | Daily breakdown of reservation counts arrivals departures and stayovers. |
+| [StatisticsReservationsDailySummary](docs/StatisticsReservationsDailySummary.md) | Aggregated daily room nights and revenue statistics. |
+| [StatisticsReservationsSummary](docs/StatisticsReservationsSummary.md) | High-level summary of reservation statistics by market segment and rate code. |
 
-### 👤 Guest Profiles & Loyalty
-* [Profiles Accounts](docs/ProfilesAccounts.md)
-* [Profiles Addresses](docs/ProfilesAddresses.md)
-* [Profiles Communications](docs/ProfilesCommunications.md)
-* [Profiles Contacts](docs/ProfilesContacts.md)
-* [Profiles Individuals](docs/ProfilesIndividuals.md)
-* [Profiles Notes](docs/ProfilesNotes.md)
-* [Profiles Relationships](docs/ProfilesRelationships.md)
-* [Profiles Relationship Types](docs/ProfilesRelationshipTypes.md)
-* [Profiles Loyalty](docs/ProfilesLoyalty.md)
-* [Profiles Loyalty Claims](docs/ProfilesLoyaltyClaims.md)
-* [Profiles Loyalty Transactions](docs/ProfilesLoyaltyTransactions.md)
-
-### ⚙️ Property & System Configuration
-* [Property](docs/Property.md)
-* [Configuration Chain](docs/ConfigurationChain.md)
-* [Configuration Resort](docs/ConfigurationResort.md)
-* [Integration Configurations](docs/IntegrationConfigurations.md)
-* [Export Mappings](docs/ExportMappings.md)
-* [Changes Log](docs/ChangesLog.md)
-* [Promotion Coupon Codes](docs/PromotionCouponCodes.md)
-
-### 📊 Statistics & Reports
-* [Resort Budget Forecast](docs/ResortBudgetForecast.md)
-* [Sales Manager Goals](docs/SalesManagerGoals.md)
-* [Statistics Forecast Summary](docs/StatisticsForecastSummary.md)
-* [Statistics History & Forecast](docs/StatisticsHistoryAndForecast.md)
-* [Statistics Managers Report](docs/StatisticsManagersReport.md)
-* [Statistics Reservation Pace](docs/StatisticsReservationPace.md)
-* [Statistics Reservations Daily](docs/StatisticsReservationsDaily.md)
-* [Statistics Reservations Daily Summary](docs/StatisticsReservationsDailySummary.md)
-* [Statistics Reservations Summary](docs/StatisticsReservationsSummary.md)
-
-### 📉 Simple Reports
-* [Simple Reports: Activities](docs/SimpleReportsActivities.md)
-* [Simple Reports: Booking Blocks](docs/SimpleReportsBookingBlocks.md)
-* [Simple Reports: Bookings Reservation](docs/SimpleReportsBookingsReservation.md)
-* [Simple Reports: Events](docs/SimpleReportsEvents.md)
-* [Simple Reports: Financial Transactions](docs/SimpleReportsFinancialTransactions.md)
-* [Simple Reports: Profile Individuals](docs/SimpleReportsProfileIndividuals.md)
-
-### 💳 Accounts Receivable (AR) & Financials
-* [AR Accounts Receivable](docs/ARAccountsReceivable.md)
-* [AR Aging Report](docs/ARAgingReport.md)
-* [AR Ledger](docs/ARLedger.md)
-* [E-Folio](docs/EFolio.md)
-* [Financial Commissions](docs/FinancialCommissions.md)
-* [Financial Deposit Ledger](docs/FinancialDepositLedger.md)
-* [Financial Guest Ledger](docs/FinancialGuestLedger.md)
-* [Financial Transaction Codes](docs/FinancialTransactionCodes.md)
-* [Financial Transaction Details](docs/FinancialTransactionDetails.md)
-* [Financial Transaction Details (Extended)](docs/FinancialTransactionDetailsExtended.md)
-* [Financial Transactions Summary](docs/FinancialTransactionsSummary.md)
-
-### 🏷️ Rates & Revenue Management
-* [Rates Codes](docs/RatesCodes.md)
-* [Rates Code Details](docs/RatesCodeDetails.md)
-* [Rates Categories](docs/RatesCategories.md)
-* [Rates Classes](docs/RatesClasses.md)
-* [Rates Buckets](docs/RatesBuckets.md)
-* [Rates Tiers](docs/RatesTiers.md)
-* [Rates Rate Seasons](docs/RatesRateSeasons.md)
-* [Rates Hurdles](docs/RatesHurdles.md)
-* [Rates Restrictions](docs/RatesRestrictions.md)
-* [Rates Deposit & Cancellation Rules](docs/RatesDepositAndCancellationRules.md)
-* [Revenue Fixed Charges](docs/RevenueFixedCharges.md)
-* [Revenue Groups & Types](docs/RevenueGroupsAndTypes.md)
-* [Revenue Packages](docs/RevenuePackages.md)
-
-### 🍽️ Catering & Events
-* [Catering Event Forecast](docs/CateringEventForecast.md)
-* [Catering Event Postings](docs/CateringEventPostings.md)
-* [Catering Event Status Changes](docs/CateringEventStatusChanges.md)
-* [Catering Event Types](docs/CateringEventTypes.md)
-* [Catering Events & Resources](docs/CateringEventsAndResources.md)
-
-### 🔑 Inventory & Housekeeping
-* [Inventory Rooms](docs/InventoryRooms.md)
-* [Inventory Rooms Management](docs/InventoryRoomsManagement.md)
-* [Inventory Function Spaces](docs/InventoryFunctionSpaces.md)
-* [Inventory Housekeeping Management Room](docs/InventoryHousekeepingManagementRoom.md)
-* [Inventory Housekeeping Management Task Sheet](docs/InventoryHousekeepingManagementTaskSheet.md)
 
 ---
 
